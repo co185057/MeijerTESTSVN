@@ -1,0 +1,62 @@
+﻿<Display Version="1.0">
+  <Languages>
+    <Language Name="0413">
+      <StringTable>
+        <String Name="SwitchToRAPBtnPrimaryTxt">Schakel naar RAP</String>
+        <String Name="ShutdownSystemBtnPrimaryTxt">Uitsch.</String>
+        <String Name="RebootSystemBtnPrimaryTxt">Herstart</String>
+        <String Name="VolumeBtnPrimaryTxt">Volume</String>
+        <String Name="EventViewerBtnPrimaryTxt">Event Viewer</String>
+        <String Name="GenerateLogBtnPrimaryTxt">Genereer\nDiagn. Log</String>
+        <String Name="RapConfigureBtnPrimaryTxt">PBA-\nconfiguratie</String>
+        <String Name="TerminalInfoBtnPrimaryTxt">Terminalinfo</String>
+        <String Name="MinMaxRAPBtnPrimaryTxt">Verklein RAP</String>
+        <String Name="MinMaxRAPBtnSecondaryTxt">Vergroot RAP</String>
+        <String Name="MinMaxRAPBtnPrimaryShowConfirmation">Druk op de knop “RAP minimaliseren” om het RAP-venster te  minimaliseren.</String>
+        <String Name="MinMaxRAPBtnSecondaryShowConfirmation">Druk op de knop “RAP maximaliseren” om het RAP-venster te  maximaliseren.</String>
+        <String Name="StopStartRAPButtonPrimaryTxt">Stop PBA</String>
+        <String Name="StopStartRAPButtonSecondaryTxt">PBA starten</String>
+        <String Name="ExitRAPAndRunProfileBtnPrimaryTxt">PBA Verlaten en Profile Manager Runnen</String>
+        <String Name="ExitRAPAndRunProfileBtnSecondaryTxt">Profile Manager uitvoeren</String>
+        <String Name="UtilityFunctionsTitle">Hulpfuncties</String>
+        <String Name="SignOnTitle">NCR FastLane\nAanmelden</String>
+        <String Name="StartTitle">Systeem starten</String>
+        <String Name="SystemStartup">Het systeem wordt opgestart… even geduld.</String>
+        <String Name="TerminalID">Terminal-ID:</String>
+        <String Name="OperatorIDText">ID: </String>
+        <String Name="SignOnButtonText">Aanmelden</String>
+        <String Name="SignOffButtonText">Afmelden</String>
+        <String Name="SignedOffButtonText">Afgemeld</String>
+        <String Name="Exit">Alles afsluiten</String>
+        <String Name="ReturnToShoppingButtonText">Terugkeren</String>
+        <String Name="DiagConfirm">Bent u zeker dat u Diagnostische logbestanden wilt genereren?</String>
+        <String Name="ProfileManagerRAPConfirm">Bent u zeker dat u PBA wilt stoppen en Profile Manager wilt opstarten?</String>
+        <String Name="ProfileManagerConfirm">Bent u zeker dat u Profile Manager wilt starten?</String>
+        <String Name="EventViewerConfirm">Bent u zeker dat u het Gebeurtenisoverzicht wilt starten?</String>
+        <String Name="CalibrateConfirm">Bent u zeker dat u het aanraakscherm wilt kalibreren?</String>
+        <String Name="ShutdownConfirm">Bent u zeker dat u het volledige systeem wilt afsluiten?</String>
+        <String Name="RebootConfirm">Bent u zeker dat u het volledige systeem opnieuw wilt opstarten?</String>
+        <String Name="CloseAllConfirm">Bent u zeker dat u alle toepassingen wilt afsluiten en naar bureaublad wilt terugkeren?</String>
+        <String Name="VolumeConfirm">Bent u zeker dat u het volume wilt aanpassen?</String>
+        <String Name="TerminalInfoConfirm">Bent u zeker dat u de terminalinformatie wilt weergeven?</String>
+        <String Name="StopRAPConfirm">Bent u zeker dat u PBA wilt stoppen?</String>
+        <String Name="StartRAPConfirm">Bent u zeker dat u PBA wilt starten?</String>
+        <String Name="WindowsLogOnTxt">Aanmelden Windows</String>
+        <String Name="WindowsLogOnConfirm">Bent u zeker dat u alle toepassingen wilt afsluiten en als een nieuwe gebruiker wilt inloggen?</String>
+        <String Name="YesText">Ja</String>
+        <String Name="NoText">Geen</String>
+        <String Name="ClearButtonText">Wissen</String>
+        <String Name="EnterButtonText">Enter</String>
+        <String Name="GoBackButtonText">Ga Terug</String>
+        <String Name="SpaceButtonText">Spatiebalk</String>
+        <String Name="BackSpaceButtonText">Backspace</String>
+        <String Name="ShiftButtonText">Shift-toets</String>
+        <String Name="EnterIDLeadthru">Voer identificatie in met het toetsenbord hieronder.</String>
+        <String Name="ReEnterIDLeadthru">Fout ID/wachtwoord. Voer opnieuw in m.b.v. het toetsenbord</String>
+        <String Name="EnterPasswordLeadthru">Voer wachtwoord in met het toetsenbord hieronder.</String>
+        <String Name="CancelButtonText">Annuleer</String>
+        <String Name="LoggingInLeadthru">Inloggen…Een ogenblik geduld a.u.b.</String>
+      </StringTable>
+    </Language>
+  </Languages>
+</Display>

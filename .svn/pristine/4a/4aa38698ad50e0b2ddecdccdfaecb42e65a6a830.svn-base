@@ -1,0 +1,12 @@
+IVI Checkmate Form Generator - Version 1.0
+FormNumber->[formnumber:27]
+Text->[x:6][y:1][font:1][italics:0][underline:0][reverse:0][text:Confirm Amount]
+Text->[x:17][y:7][font:1][italics:0][underline:0][reverse:0][text:%M]
+Text->[x:6][y:10][font:2][italics:0][underline:0][reverse:0][text:can be paid with food stamps.]
+Text->[x:10][y:24][font:2][italics:0][underline:0][reverse:0][text:OK]
+Text->[x:23][y:23][font:2][italics:0][underline:0][reverse:0][text:Cancel]
+Text->[x:23][y:25][font:2][italics:0][underline:0][reverse:0][text:Payment]
+Text->[x:10][y:13][font:2][italics:0][underline:0][reverse:0][text:A balance will remain]
+Text->[x:11][y:16][font:2][italics:0][underline:0][reverse:0][text:for this purchase.]
+Button->[x:2][y:22][cx:6][cy:6][id:3]
+Button->[x:32][y:22][cx:6][cy:6][id:4]

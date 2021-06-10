@@ -1,0 +1,59 @@
+REGEDIT4
+
+;
+; OPOS registry settings to disable Takeaway belt on Development PC
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\MotionSensor]
+"TakeawayBelt - A"=""
+"TakeawayBelt - B"=""
+"TakeawayBelt - C"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\Motor]
+"TakeawayBelt - 1"=""
+"TakeawayBelt - 2"=""
+
+; 
+; NCR Registry tree settings to disable Takeaway belt on Dev PC
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\DeviceManagerEx\Devices\Local\MotionSensor\Emulator - Sensormatic]
+"Configure"="No"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\DeviceManagerEx\Devices\Local\MotionSensor\OnTrak - Sensormatic]
+"Configure"="No"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\SCOTAPP\SecurityManager]
+"State.Machine.Name"="%APP_DRIVE%\\scot\\config\\SecuritySM.xml"
+
+[HKEY_LOCAL_MACHINE\Software\NCR\SCOT\CurrentVersion\DMConfig\TakeAwayBelts]
+"CurrentState"="0"
+
+[HKEY_LOCAL_MACHINE\Software\NCR\SCOT\CurrentVersion\DMConfig\TakeAwayBelts\Actual]
+"1"="regedit /s TakeAwayBeltsActual.reg"
+
+[HKEY_LOCAL_MACHINE\Software\NCR\SCOT\CurrentVersion\DMConfig\TakeAwayBelts\None]
+"1"="regedit /s TakeAwayBeltsNone.reg"
+
+[HKEY_LOCAL_MACHINE\Software\NCR\SCOT\CurrentVersion\DMConfig\TakeAwayBelts\Null]
+"1"="regedit /s TakeAwayBeltsNull.reg"
+
+[HKEY_LOCAL_MACHINE\Software\NCR\SCOT\CurrentVersion\SCOTAPP\Devices\TakeawayBelt]
+
+[HKEY_LOCAL_MACHINE\Software\NCR\SCOT\CurrentVersion\SCOTAPP\Devices\TakeawayBelt\TakeawayBelt]
+"Configure"="No"
+
+[HKEY_LOCAL_MACHINE\Software\NCR\SCOT\CurrentVersion\SCOTAPP\Devices\TakeawayBelt\TakeawayBelt\DataCapture]
+"DcapControl"="4"
+"DCapMask"="4"
+"DcapFile"="c:\\scot\\logs\\TakeawayBelt.log"
+"DcapTime"="F00 -> Hex time option(s): 100=m:s, 300=h:m:s, 700=m/d h:m:s; 800+digits=millisec; 1000=threadid"
+"DcapLinePrefix"="TAB: "
+"DcapFileMax"="2048 -> Max KB of data cap file"
+
+[HKEY_LOCAL_MACHINE\Software\NCR\SCOT\Installation\TakeAwayBelts]
+"Configure"=""
+
+[HKEY_LOCAL_MACHINE\Software\NCR\SCOT - Platform\ObservedOptions]
+"TakeAwayBelts"=""
+
+
+

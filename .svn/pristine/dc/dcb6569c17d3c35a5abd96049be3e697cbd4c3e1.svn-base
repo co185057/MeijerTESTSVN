@@ -1,0 +1,119 @@
+<Display Version="1.0">
+  <Controls>
+    <Control Name="BagAndEASVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\PlaceOnBelt_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="CashPaymentVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\InsertCash_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="DepositCouponsVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\InsertCoupon_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="PINEntrySigDevVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\KeyInPin_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="EnterWeightVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\WeighItem_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="EnterWtForPriceEmbeddedVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\WeighItem_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="InsertCouponVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\InsertCoupon_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="RequestSigVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\SCOTDemo_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="ScanCardVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\ScanCard_30_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="SwipeCardVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\SwipeCard_TopPinPad_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="TakeChangeVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\TakeChange_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="TakeCashVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\TakeChange_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="TakeReceiptVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\TakeReceipt_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="TransportItemVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\TransportItem_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="PickingUpItemsVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\Security_ReturnItem_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="SecMisMatchWeightVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\Security_RemoveItem_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="SecUnexpectedDecreaseVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\Security_ReturnItem_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="SecUnExpectedIncreaseVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\Security_RemoveItem_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="ScaleBrokenVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\ResetScale_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="SecBagAreaBackupVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\BackedUpItems_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="ScanBagVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\ScanItem_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="AttractVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\Attract_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="VoucherPaymentVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\ScanCard_30_TAB.avi</Property>
+      </Properties>
+    </Control>
+  </Controls>
+</Display>

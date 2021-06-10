@@ -1,0 +1,4037 @@
+<state-machine library="SecurityManagerTab" version="2.2">
+  <!-- ============================================================================ -->
+  <!-- Section:  Library definitions                                                -->
+  <!-- ============================================================================ -->
+  <library-list>
+    <library name="SecurityManagerTab">
+      <comment>This library contains the actions specific to the Takeaway Belt
+                for the Security Manager</comment>
+    </library>
+    <library name="SecurityManager">
+      <comment>This library contains the actions for the Security Manager</comment>
+    </library>
+  </library-list>
+  <!-- ============================================================================ -->
+  <!-- Section:  Timer definitions                                                  -->
+  <!-- ============================================================================ -->
+  <timer-list>
+    <timer name="db_lookup_timer" />
+    <timer name="forgiveness_timer" />
+    <timer name="delayed_timer" />
+    <timer name="quiet_mode_timer" />
+    <timer name="picking_up_items_timer" />
+    <timer name="unexpected_decrease_timer" />
+    <timer name="scale_initialization_timer" />
+  </timer-list>
+  <!-- ============================================================================ -->
+  <!-- Section:  Constant definitions                                               -->
+  <!-- ============================================================================ -->
+  <constant-list>
+    <constant name="default_state_timeout" value="2000" />
+  </constant-list>
+  <!-- ============================================================================ -->
+  <!-- Section:  Variable definitions                                               -->
+  <!-- ============================================================================ -->
+  <variable-list>
+    <variable name="belt_item_count" initial-value="0" min-value="0" />
+    <variable name="item_removed_flag" initial-value="0" />
+	<variable name="application_state_parm_string" initial-value="" />
+    <variable name="SMM_WLDB_wt_entry_max" initial-value="0" />
+    <variable name="SMM_WLDB_wt_entry_counter" initial-value="0" />
+    <variable name="attract_quiet_mode_timeout_value" initial-value="0" />
+    <variable name="scale_initialization_timeout_value" initial-value="0" />
+    <variable name="attract_quiet_mode_violation" initial-value="0" />
+    <variable name="security_control_command_type" initial-value="0" />
+    <variable name="picking_up_items_flag" initial-value="0" />
+    <variable name="transport_item_flag" initial-value="0" />
+    <variable name="scan_and_bag_flag" initial-value="0" />
+    <variable name="bag_and_eas_flag" initial-value="0" />
+    <variable name="not_finalize_flag" initial-value="1" />
+    <variable name="not_complete_flag" initial-value="1" />
+    <variable name="finalize_flag" initial-value="0" />
+    <variable name="picking_up_items_timeout_value" initial-value="0" />
+    <variable name="unexpected_decrease_timeout_value" initial-value="0" />
+    <variable name="forgiveness_timeout_value" initial-value="0" />
+    <variable name="delayed_timeout_value" initial-value="0" />
+    <variable name="X" initial-value="0" max-value="" min-value="0" />
+    <variable name="A" initial-value="0" max-value="" min-value="0" />
+    <variable name="ItemCounter" initial-value="0" max-value="" min-value="0">
+      <comment>This counter keeps track of the number of items</comment>
+    </variable>
+    <variable name="unexpected_decrease_flag" initial-value="0" />
+    <variable name="lane_closed_flag" initial-value="0" />
+    <variable name="multi_pick_flag" initial-value="0" />
+    <variable name="skip_bagging_in_multi_pick_flag" initial-value="0" />
+    <variable name="UI_SkipBagging_threshold" initial-value="0" />
+    <variable name="tare_only_flag" initial-value="0" />
+    <variable name="ZeroWeightOnComplete_flag" initial-value="0" />
+    <variable name="enter_AssistMode" initial-value="0" />
+	<variable name="enter_AssistMode_From_Idle" initial-value="0" />
+    <variable name="BTLGW_ITEM_ENTRY" initial-value="0" />
+    <variable name="security_disable_transaction_void" initial-value="0" />
+    <variable name="security_disable_item_void" initial-value="0" />
+    <variable name="receive_exit_disable_security_msg" initial-value="0" />
+    <variable name="Got_Belt_Ready_On_Wait_Scale" initial-value="0" />
+  </variable-list>
+  <!-- ============================================================================ -->
+  <!-- Section:  State definitions                                                  -->
+  <!-- ============================================================================ -->
+  <state-list>
+    <state-definition name="Uninitialized">
+      <comment>This is the initial state entered</comment>
+      <initial />
+    </state-definition>
+    <state-definition name="InitPhase1" />
+    <state-definition name="InitPhase2" />
+    <state-definition name="InitPhase3" />
+    <state-definition name="InitPhase4" />
+    <state-definition name="InitPhase5" />
+    <state-definition name="Idle">
+      <comment>Nothing going on</comment>
+    </state-definition>
+    <state-definition name="Start">
+      <comment>This state occurs after the user has scanned the first item or pressed Start</comment>
+    </state-definition>
+    <state-definition name="Wait DB" />
+    <state-definition name="Wait Scale" />
+    <state-definition name="Wait Scale - Skip Bagging Pressed" />
+    <state-definition name="Wait Scale - Quantity Item" />
+    <state-definition name="Item Entry" />
+    <state-definition name="Complete" />
+    <state-definition name="Finalize" />
+    <state-definition name="Security Maintenance" />
+    <state-definition name="Security Maintenance - Add Weight" />
+    <state-definition name="Security Maintenance - Add Tolerance" />
+    <state-definition name="Security Maintenance - Add Substitution Check" />
+    <state-definition name="Security Maintenance - Add Wt Required" />
+    <state-definition name="Security Maintenance - Add Zero Wt" />
+    <state-definition name="Security Maintenance - Delete All Wts" />
+    <state-definition name="Security Maintenance - Delete Tolerance" />
+    <state-definition name="Item Voided" />
+    <state-definition name="Transaction Voided" />
+    <state-definition name="Assist Mode" />
+    <state-definition name="Assist Mode - Item In Progress" />
+    <state-definition name="Remote Assist Mode" />
+    <state-definition name="Wait Scale - Allow Late Bagging"/>    
+    <state-definition name="Disable Security Mode" />
+    <state-definition name="Disable Security Mode - Item In Progress" />
+    <state-definition name="Disable Security Mode - Idle" />
+    <state-definition name="Disable Security Mode - Start" />
+  </state-list>
+  <lookup-table name="ApplicationControlCommandTable" key-type="string" value-type="string">
+        <lookup-entry key="skip-bagging" value="Skip Bagging" />
+        <lookup-entry key="item-removed" value="Item Removed" />
+        <lookup-entry key="bag-box" value="Bag Box Button Pressed" />
+		<lookup-entry key="done-bttn" value="Done Button Pressed" />
+        <lookup-entry key="customer-has-bag" value="Customer Has Bag" />
+        <lookup-entry key="approve-wt" value="RAP Approved Wt" />
+		<lookup-entry key="set-app-state" value="Set Application State" />
+		<lookup-entry key="hold" value="Hold Weight Command" />
+        <lookup-entry key="resume" value="Resume Weight Command" />
+        <lookup-entry key="item-expired" value="Item Expired" />
+    <lookup-entry key="clear-allow-late-bagging" value="Clear Allow Late Bagging" />
+    <lookup-entry key="enter-disable-security-mode" value="Enter Disable Security Mode" />
+    <lookup-entry key="exit-disable-security-mode" value="Exit Disable Security Mode" />
+    <lookup-entry key="exit-multipick-inside-disable-security-mode" value="Exit MultiPick Inside Disable Security Mode" />
+  </lookup-table>
+  <!-- ============================================================================ -->
+  <!-- Section:  Message definitions                                                -->
+  <!-- ============================================================================ -->
+  <msg-list>
+    <msg-definition name="Item Sold" value="0x00000001">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="DB Response" value="0x10000001">
+      <comment>Received from DB (internal)</comment>
+    </msg-definition>
+    <msg-definition name="Matched Wt" value="0x10000002">
+      <comment>Received from Scale (internal)</comment>
+    </msg-definition>
+    <msg-definition name="Unmatched Wt" value="0x10000003">
+      <comment>Received from Scale (internal)</comment>
+    </msg-definition>
+    <msg-definition name="BackToLGW" value="0x10000004">
+      <comment>Received from Scale (internal)</comment>
+    </msg-definition>
+    <msg-definition name="Dept Details" value="0x10000005">
+      <comment>Received from DBMgr (internal)</comment>
+    </msg-definition>
+    <msg-definition name="Unmatched Increase" value="0x10000006">
+      <comment>Received from Scale (internal)</comment>
+    </msg-definition>
+    <msg-definition name="Unmatched Decrease" value="0x10000007">
+      <comment>Received from Scale (internal)</comment>
+    </msg-definition>
+    <msg-definition name="Device Failure" value="0x10000008">
+      <comment>Received from Scale (internal)</comment>
+    </msg-definition>
+    <msg-definition name="Item Void" value="0x00000003">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Transaction Voided" value="0x00000004">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Item Removed" value="0x00000005">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Skip Bagging" value="0x00000006">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Initialize" value="0x00000007">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Item Details" value="0x00000008">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Application Control" value="0x00000009">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Security Control" value="0x0000000a">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Transaction Control" value="0x0000000b">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Transaction Begin" value="0x0000000c">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Transaction End" value="0x0000000d">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Transaction Void" value="0x0000000e">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Override Exception" value="0x0000000f">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Clear Exception" value="0x00000010">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Ignore Exception" value="0x00000011">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Throw Exception" value="0x00000012">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Item Validated" value="0x00000013">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Abort" value="0x00000014">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Set Application State" value="0x00000015">
+      <comment>Received from FastLane - Application Control - Set Application State</comment>
+    </msg-definition>
+    <msg-definition name="Clear Exception with Update" value="0x00000016">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Security Maintenance" value="0x00000017">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="SMM Query" value="0x00000018">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="SMM Update" value="0x00000019">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="SMM Begin" value="0x0000001a">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="SMM End" value="0x0000001b">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="SMM Update - Add Weight" value="0x0000001c">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="SMM Update - Add Zero" value="0x0000001d">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="SMM Update - Add Tolerance" value="0x0000001e">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="SMM Update - Delete Tolerance" value="0x0000001f">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="SMM Update - Delete All Weights" value="0x00000020">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="SMM Update - Add Substitution Check" value="0x00000021">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="SMM Update - Add Wt Required" value="0x00000021">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="RAP Approved Wt" value="0x00000022">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Clear All Exceptions" value="0x00000023">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Bag Box Button Pressed" value="0x00000024">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Hold Weight Command" value="0x00000025">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Resume Weight Command" value="0x00000026">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Reload Options" value="0x00000027">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Transaction Finalize" value="0x00000028">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Transaction Continue" value="0x00000029">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Item Expired" value="0x0000002a">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Clear Exception - All Wt Changes" value="0x0000002b">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="SMM Cancel" value="0x0000002c">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Clear Delayed Exception" value="0x0000002d">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Attract Quiet Mode Violation" value="0x0000002e">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Transaction Expired" value="0x0000002f">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Item Not Sellable" value="0x00000030">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Clear Exception if Item Match" value="0x00000031">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Item Void Begin" value="0x00000032">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Item Void End" value="0x00000033">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Transaction Void Begin" value="0x00000034">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Transaction Void End" value="0x00000035">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Void Item Late Correction" value="0x00000036">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Zero Wt" value="0x00000037">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Enter Assist Mode" value="0x00000038">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Exit Assist Mode" value="0x00000039">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Skip Bagging2" value="0x0000003a">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Clear Scale" value="0x0000003b">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Flush Item" value="0x0000003c">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Scale Not Empty" value="0x0000003d">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Enter Scan And Bag" value="0x0000003e">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Enter Remote Assist Mode" value="0x0000003f">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Exit Remote Assist Mode" value="0x00000040">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="SMM Working Status" value="0x20000001">
+      <comment>Received from DBClientMgr</comment>
+    </msg-definition>
+    <msg-definition name="SMM WLDB Weight" value="0x20000002">
+      <comment>Received from DBClientMgr</comment>
+    </msg-definition>
+    <msg-definition name="DB Mgr Status" value="0x20000003">
+      <comment>Received from DBClientMgr</comment>
+    </msg-definition>
+    <msg-definition name="SMM Tolerance" value="0x20000004">
+      <comment>Received from DBClientMgr</comment>
+    </msg-definition>
+    <msg-definition name="SMM WLDB Update Complete" value="0x20000005">
+      <comment>Received from DBClientMgr</comment>
+    </msg-definition>
+    <msg-definition name="Takeaway Belt Data Event" value="0x30000001">
+      <comment>Received from TakeawayBelt</comment>
+    </msg-definition>
+    <msg-definition name="Takeaway Belt - Not Ready" value="0x30000400">
+      <comment>Received from TakeawayBelt</comment>
+    </msg-definition>
+    <msg-definition name="Takeaway Belt - Ready" value="0x30000401">
+      <comment>Received from TakeawayBelt</comment>
+    </msg-definition>
+    <msg-definition name="Takeaway Belt - Item Moved Off Belt1" value="0x30000402">
+      <comment>Received from TakeawayBelt</comment>
+    </msg-definition>
+    <msg-definition name="Takeaway Belt - Bag Area Backup" value="0x30000411">
+      <comment>Received from TakeawayBelt</comment>
+    </msg-definition>
+    <msg-definition name="Takeaway Belt - Bag Area Clear" value="0x30000410">
+      <comment>Received from TakeawayBelt</comment>
+    </msg-definition>
+    <msg-definition name="Takeaway Belt - Cover Open" value="0x30000420">
+      <comment>Received from TakeawayBelt</comment>
+    </msg-definition>
+    <msg-definition name="Takeaway Belt - Cover Closed" value="0x30000421">
+      <comment>Received from TakeawayBelt</comment>
+    </msg-definition>
+    <msg-definition name="Takeaway Belt - Scale Status Requested" value="0x30000440">
+      <comment>Received from TakeawayBelt</comment>
+    </msg-definition>
+    <msg-definition name="Takeaway Belt - Assist Mode Done" value="0x30000441">
+      <comment>Received from TakeawayBelt</comment>
+    </msg-definition>
+    <msg-definition name="Set LGW From Authorization" value="0x40000001">
+      <comment>Received from SecurityManager</comment>
+    </msg-definition>
+    <msg-definition name="Clear Exception - All Immediate Wt Changes" value="0x40000002">
+      <comment>Received from SecurityManager</comment>
+    </msg-definition>
+    <msg-definition name="Clear All Exceptions No Change State" value="0x2000000c">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Skip Bagging3" value="0x2000000d">
+      <comment>Received from SecurityManager</comment>
+    </msg-definition>
+    <msg-definition name="Item Validated Not Send Item OK" value="0x2000000e">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="BackToLGW Clear All" value="0x2000000f">
+      <comment>Received from SecurityManager</comment>
+    </msg-definition>
+    <msg-definition name="Wait Scale - Skipbagging - flush" value="0x40000003">
+      <comment>Received from SecurityManager</comment>
+    </msg-definition>
+    <msg-definition name="CheckForReadScaleForZero" value="0x40000005">
+      <comment>Received from SecurityManager</comment>
+    </msg-definition>
+    <msg-definition name="Go To Assist Mode" value="0x40000006">
+      <comment>Received from SecurityManager</comment>
+    </msg-definition>
+    <msg-definition name="Check for belt items" value="0x40000007">
+      <comment>Received from SecurityManager</comment>
+    </msg-definition>
+    <msg-definition name="Late Bagging Not Allowed" value="0x40000008">
+      <comment>Received from SecurityManager</comment>
+    </msg-definition>
+    <msg-definition name="Clear Allow Late Bagging" value="0x40000009">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="BTLGW_ITEM_ENTRY is 1" value="0x4000000b">
+      <comment>Received from SecurityManager</comment>
+    </msg-definition>
+    <msg-definition name="Enter Disable Security Mode" value="0x4000000c">
+      <comment>Received from SecurityManager</comment>
+    </msg-definition>
+    <msg-definition name="Exit Disable Security Mode" value="0x4000000d">
+      <comment>Received from SecurityManager</comment>
+    </msg-definition>
+    <msg-definition name="Exit MultiPick Inside Disable Security Mode" value="0x4000000e">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+  </msg-list>
+  <!-- ============================================================================ -->
+  <!-- Section:  Action definitions                                                 -->
+  <!-- ============================================================================ -->
+  <action-list>
+    <action name="SendDBRequest" />
+    <action name="SendWtRequestToScale" />
+    <action name="CheckTransactionComplete" />
+    <action name="SendSecurityViolations" />
+    <action name="SendSecurityViolation" />
+    <action name="ResetTransaction" />
+    <action name="CheckScaleNotEmpty" />
+    <action name="SendItemOK" />
+    <action name="GlobalLog" />
+    <action name="LoadConfiguration" />
+    <action name="LoadWTInfo" />
+    <action name="LoadDBMgrClient" />
+    <action name="LoadSmartScaleTAB" />
+    <action name="LoadTakeawayBelt" />
+    <action name="InitializationComplete" />
+    <action name="AddItemToTransaction" />
+    <action name="ItemNotScannedAdjustment" />
+    <action name="SendLastChanceLookupDBRequest" />
+    <action name="CheckItemDetails" />
+    <action name="CheckDeptDetails" />
+    <action name="HandleTABMatchedWt" />
+    <action name="HandleTABUnmatchedWt" />
+    <action name="HandleTABUnmatchedIncrease" />
+    <action name="HandleTABUnmatchedDecrease" />
+    <action name="TransactionControlCommand" />
+    <action name="ApplicationControlCommand" />
+    <action name="SecurityControlCommandTAB" />
+    <action name="StartTransaction" />
+    <action name="CheckDBResponse" />
+    <action name="CheckForExceptions" />
+    <action name="ClearOutstandingExceptions" />
+    <action name="SetLastGoodWeight" />
+    <action name="SetBeginningTransLGW" />
+    <action name="SetHoldWeight" />
+    <action name="ClearHoldWeight" />
+    <action name="OverrideExceptionCommand" />
+    <action name="ClearException" />
+    <action name="ClearLastException" />
+    <action name="IgnoreException" />
+    <action name="ThrowException" />
+    <action name="IsExceptionForgiven" />
+    <action name="IsExceptionDelayed" />
+    <action name="ClearForgivenException" />
+    <action name="ClearDelayedException" />
+    <action name="UnloadTakeawayBelt" />
+    <action name="UnloadDBMgrClient" />
+    <action name="UnloadSmartScale" />
+    <action name="UnloadWTInfo" />
+    <action name="UnloadConfiguration" />
+    <action name="ValidateItem" />
+    <action name="SetApplicationStateCommandTAB" />
+    <action name="ReadScaleForZero" />
+    <action name="ClearAllExceptions" />
+    <action name="UpdateWLDB" />
+    <action name="HandleRAPApprovedWt" />
+    <action name="SecurityMaintenanceCommand" />
+    <action name="SMMBegin" />
+    <action name="SMMUpdateAddWeight" />
+    <action name="SMMUpdateAddZero" />
+    <action name="SMMUpdateAddTolerance" />
+    <action name="SMMUpdateDeleteTolerance" />
+    <action name="SMMUpdateDeleteAllWts" />
+    <action name="SMMCheckToleranceValue" />
+    <action name="SendSMMUpdateAddToleranceResponse" />
+    <action name="SendSMMServerFailure" />
+    <action name="SetSMMCurrentWeight" />
+    <action name="SMMEnd" />
+    <action name="CheckSkipBagging" />
+    <action name="CheckItemRemoved" />
+    <action name="CheckBagBox" />
+    <action name="CheckItemRemovedAutoAdvance" />
+    <action name="VoidTransaction" />
+    <action name="SMMQuery" />
+    <action name="SMMDBResponse" />
+    <action name="SaveSMMToleranceData" />
+    <action name="GetSMMWLDBData" />
+    <action name="SendSMMQueryResponse" />
+    <action name="HandleSMMUnmatchedIncrease" />
+    <action name="SMMAddWtToWLDB" />
+    <action name="BuildSMMQueryResponse" />
+    <action name="SMMUpdateAddSubstitutionCheck" />
+    <action name="SMMUpdateAddWtRequired" />
+    <action name="UpdateWLDBZeroWt" />
+    <action name="IsItemRemovedAutoAdvanceEnabled" />
+    <action name="IsRemoveItemViolationAutoAdvanceEnabled" />
+    <action name="ClearUnexpectedDecrease" />
+    <action name="CheckQuietModeAttract" />
+    <action name="CheckRememberVirtualZero" />
+    <action name="CheckQuietModeViolation" />
+    <action name="SetInAttract" />
+    <action name="GetCommand" />
+    <action name="SetCommand" />
+    <action name="SerializeCommand" />
+    <action name="AbortCommand" />
+    <action name="ReloadConfiguration" />
+    <action name="ResetWeight" />
+    <action name="HandleUnmatchedIncreaseLateCorrection" />
+    <action name="HandleSmartScaleFailure" />
+    <action name="HandleDBMgrClientFailure" />
+    <action name="QueryDeviceStatusCommand" />
+    <action name="SetForgivenessTimeout" />
+    <action name="SetDelayedTimeout" />
+    <action name="SetPickingUpItemsTimeout" />
+    <action name="SetUnexpectedDecreaseTimeout" />
+    <action name="SetScaleInitializationTimeout" />
+    <action name="UpdateWLDBForgivenMismatch" />
+    <action name="UpdateWLDBDelayedNewItemThreshold" />
+    <action name="SaveInitializeParameters" />
+    <action name="SendObservedWeight" />
+    <action name="SendSMMObservedWeight" />
+    <action name="ResetSmartScaleTimers" />
+    <action name="ResetSMMObservedWeight" />
+    <action name="SendTransactionComplete" />
+    <action name="SaveLastRemovedWeight" />
+    <action name="HandleShuffle" />
+    <action name="IsTransactionEmpty" />
+    <action name="RemoveItemFromTransaction" />
+    <action name="IsExceptionInterventionReq" />
+    <action name="ResetAtItemScanForTAB" />
+    <action name="ClearLastWtException" />
+    <action name="VoidItemCommand" />
+    <action name="ClearAllWtExceptions" />
+    <action name="DisableLateCorrection" />
+    <action name="TakeawayBeltStatus" />
+    <action name="FlushTABInAttract" />
+    <action name="NotifyTakeawayBelt" />
+    <action name="SendTABStatus" />
+    <action name="SendScaleStatusToTAB" />
+    <action name="HandleTABCover" />
+    <action name="CheckTABQuantityItem" />
+    <action name="ReadyTABForNextItem" />
+    <action name="IsNotQuantityItem" />
+    <action name="HandleTABQuantityUnmatchedIncrease" />
+    <action name="ClearAllMismatchesThisItem" />
+    <action name="ClearAllImmediateWtChanges" />
+    <action name="IsNoWtInterventionOutstanding" />
+    <action name="IsCurrentExceptionDelayed" />
+    <action name="send-msg" />
+    <action name="pop-state" />
+    <action name="push-state" />
+    <action name="increment-variable" />
+    <action name="decrement-variable" />
+    <action name="assign-variable" />
+    <action name="start-timer" />
+    <action name="stop-timer" />
+    <action name="wait-timer" />
+    <action name="resend-msg" />
+    <action name="evaluate-expression" />
+    <action name="set-return-code" />
+    <action name="SendItemPickFinish" />
+    <action name="SendGoToScanAndBag" />
+    <action name="LoadTrxPolicyMgr"/>
+    <action name="UnloadTrxPolicyMgr"/>
+    <action name="SendAttractIdleTimeToTransactionPolicy"/>
+	<action name="CheckBagBoxCount" />
+    <action name="AllowLateBaggingForThisItem"/>
+    <action name="SendLateBaggingNotAllowed"/>
+    <action name="SendTransactionEndMessage"/>
+	<action name="IsZeroWeightItem"/>
+    <action name="IsDeltaWeightZero" />
+  </action-list>
+  <!-- ============================================================================ -->
+  <!-- Section:  Application State definitions                                      -->
+  <!-- Note:  This section must follow the <state-list>, <action-list>,             -->
+  <!--        <message-list>, and <variable-list> sections.  DO NOT MOVE.           -->
+  <!-- ============================================================================ -->
+  <application-state-list>
+    <application-state>
+      <comment>This is VoidApproval and VoidTransApproval states</comment>
+      <state-name>ApproveVoidedItem</state-name>
+      <do-not-hold-weight />
+    </application-state>
+    <application-state>
+      <comment>This is Attract state</comment>
+      <state-name>Attract</state-name>
+      <entry-rule-list>
+        <rule action-name="SetBeginningTransLGW" parameter="set-beginningtranslgw-attract" />
+        <rule action-name="SetInAttract" parameter="true" />
+        <rule action-name="FlushTABInAttract" />
+		<rule action-name="assign-variable" parameter="variable-name=multi_pick_flag;expression=0" /> <!--SSCOP-59-->
+      </entry-rule-list>
+      <takeaway-belt>reset</takeaway-belt>
+      <exit-rule-list>
+        <rule action-name="SetInAttract" parameter="false" />
+      </exit-rule-list>
+    </application-state>
+    <application-state>
+      <comment>This is BagAndEAS state</comment>
+      <state-name>BagAndEAS</state-name>
+      <entry-rule-list>
+        <rule action-name="assign-variable" parameter="variable-name=bag_and_eas_flag;expression=1" />
+		<rule action-name="assign-variable" parameter="variable-name=scan_and_bag_flag;expression=0" />
+      </entry-rule-list>
+      <exit-rule-list>
+        <rule action-name="assign-variable" parameter="variable-name=bag_and_eas_flag;expression=0" />
+      </exit-rule-list>
+    </application-state>
+    <application-state>
+      <state-name>CardMisRead</state-name>
+      <takeaway-belt>stop-belt</takeaway-belt>
+    </application-state>
+    <application-state>
+      <state-name>CheckBasketReminder</state-name>
+      <takeaway-belt>stop-belt</takeaway-belt>
+    </application-state>
+    <application-state>
+      <state-name>ContextHelp</state-name>
+      <do-not-hold-weight />
+    </application-state>
+    <application-state>
+      <state-name>CouponNoMatch</state-name>
+      <takeaway-belt>stop-belt</takeaway-belt>
+    </application-state>
+    <application-state>
+      <state-name>CouponNotAllowed</state-name>
+      <takeaway-belt>stop-belt</takeaway-belt>
+    </application-state>
+    <application-state>
+      <state-name>CouponTooHigh</state-name>
+      <takeaway-belt>stop-belt</takeaway-belt>
+    </application-state>
+    <application-state>
+      <state-name>CrateableItem</state-name>
+      <takeaway-belt>stop-belt</takeaway-belt>
+    </application-state>
+	<!-- Start CRD 280415 -->
+    <application-state>
+      <state-name>CustomMessage</state-name>
+      <hold-weight />
+      <push-hold-weight />
+    </application-state>
+	<!-- End CRD 280415 -->
+    <application-state>
+      <state-name>EnterCouponValue</state-name>
+      <takeaway-belt>stop-belt</takeaway-belt>
+    </application-state>
+    <application-state>
+      <comment>This is EnterPin state</comment>
+      <state-name>EnterPin</state-name>
+      <hold-weight />
+      <push-hold-weight />
+    </application-state>
+    <application-state>
+      <state-name>EnterQuantity</state-name>
+      <takeaway-belt>stop-belt</takeaway-belt>
+    </application-state>
+    <application-state>
+      <state-name>EnterWeight</state-name>
+      <takeaway-belt>stop-belt</takeaway-belt>
+    </application-state>
+    <application-state>
+      <comment>This is Finalize state</comment>
+      <state-name>Finalize</state-name>
+    </application-state>
+    <application-state>
+      <state-name>Finish</state-name>
+      <do-not-hold-weight />
+      <takeaway-belt>stop-belt</takeaway-belt>
+    </application-state>
+	<!-- START CRD 280415 -->
+	<application-state>
+      <state-name>SwipeCardAsItem</state-name>
+      <hold-weight />
+      <push-hold-weight />
+    </application-state>
+	<!-- END CRD 280415 -->
+    <application-state>
+      <comment>This is GetFoodStamp state</comment>
+      <state-name>GetFoodStamp</state-name>
+      <hold-weight />
+      <push-hold-weight />
+    </application-state>
+    <application-state>
+      <state-name>ItemNotForSale</state-name>
+      <takeaway-belt>stop-belt</takeaway-belt>
+    </application-state>
+    <application-state>
+      <state-name>ItemQuantityExceeded</state-name>
+      <takeaway-belt>stop-belt</takeaway-belt>
+    </application-state>
+    <application-state>
+      <state-name>InsertCoupon</state-name>
+      <takeaway-belt>stop-belt</takeaway-belt>
+    </application-state>
+    <application-state>
+      <comment>This is PickingUpItems state</comment>
+      <state-name>PickingUpItems</state-name>
+      <entry-rule-list>
+        <rule action-name="assign-variable" parameter="variable-name=picking_up_items_flag;expression=1" />
+        <if expression="!IsItemRemovedAutoAdvanceEnabled()">
+          <rule action-name="stop-timer" parameter="timer-name=delayed_timer" />
+        </if>
+        <else>
+          <rule action-name="assign-variable" parameter="variable-name=item_removed_flag;expression=0" />
+          <rule action-name="SetPickingUpItemsTimeout" parameter="picking_up_items_timeout_value" />
+          <rule action-name="start-timer" parameter="timer-name=picking_up_items_timer;duration=picking_up_items_timeout_value" />
+          <rule action-name="stop-timer" parameter="timer-name=delayed_timer" />
+        </else>
+      </entry-rule-list>
+      <exit-rule-list>
+        <rule action-name="assign-variable" parameter="variable-name=picking_up_items_flag;expression=0" />
+      </exit-rule-list>
+    </application-state>
+    <application-state>
+      <state-name>RAPDataNeeded</state-name>
+      <entry-rule-list>
+        <rule action-name="NotifyTakeawayBelt" parameter="stop-belt" />
+      </entry-rule-list>
+    </application-state>
+    <application-state>
+      <state-name>CardProcessing</state-name>
+      <hold-weight />
+      <push-hold-weight />
+    </application-state>
+	<!-- START CRD 280415 -->
+	<application-state>
+       <state-name>CmDataEntry</state-name>
+       <hold-weight />
+       <push-hold-weight />
+    </application-state>
+	<!-- END CRD 280415 -->
+    <application-state>
+      <comment>This is ScanAndBag state</comment>
+      <state-name>ScanAndBag</state-name>
+      <do-not-hold-weight />
+      <entry-rule-list>
+        <rule action-name="send-msg" parameter="message-name=Enter Scan And Bag" />
+        <rule action-name="assign-variable" parameter="variable-name=scan_and_bag_flag;expression=1" />
+      </entry-rule-list>
+      <exit-rule-list>
+        <rule action-name="assign-variable" parameter="variable-name=scan_and_bag_flag;expression=0" />
+      </exit-rule-list>
+    </application-state>
+    <application-state>
+      <state-name>SecBagAreaBackup</state-name>
+      <takeaway-belt>handle-bag-area-backup</takeaway-belt>
+      <hold-weight />
+      <push-hold-weight />
+    </application-state>
+    <application-state>
+      <state-name>SecMisMatchWeight</state-name>
+      <takeaway-belt>stable-bad-weight</takeaway-belt>
+    </application-state>
+    <application-state>
+      <state-name>SecNewItemEntry</state-name>
+      <takeaway-belt>stop-belt</takeaway-belt>
+      <hold-weight />
+      <push-hold-weight />
+    </application-state>
+    <application-state>
+      <comment>This is SecUnexpectedDecrease state</comment>
+      <state-name>SecUnexpectedDecrease</state-name>
+      <entry-rule-list>
+        <rule action-name="assign-variable" parameter="variable-name=unexpected_decrease_flag;expression=1" />
+        <rule action-name="IsRemoveItemViolationAutoAdvanceEnabled" />
+        <rule action-name="SetPickingUpItemsTimeout" parameter="unexpected_decrease_timeout_value" />
+        <rule action-name="start-timer" parameter="timer-name=unexpected_decrease_timer;duration=unexpected_decrease_timeout_value" />
+        <rule action-name="stop-timer" parameter="timer-name=delayed_timer" />
+      </entry-rule-list>
+      <exit-rule-list>
+        <rule action-name="assign-variable" parameter="variable-name=unexpected_decrease_flag;expression=0" />
+      </exit-rule-list>
+    </application-state>
+    <application-state>
+      <state-name>SecUnExpectedIncrease</state-name>
+      <takeaway-belt>stable-bad-weight</takeaway-belt>
+      <do-not-hold-weight />
+    </application-state>
+    <application-state>
+      <comment>This is SmmAddWeight state</comment>
+      <state-name>SmmAddWeight</state-name>
+      <push-hold-weight />
+      <do-not-hold-weight />
+    </application-state>
+    <application-state>
+      <comment>This is SmAssistMode state</comment>
+      <state-name>SmAssistMode</state-name>
+      <takeaway-belt>start-assist-mode</takeaway-belt>
+      <hold-weight />
+      <push-hold-weight />
+      <entry-rule-list>
+        <rule action-name="send-msg" parameter="message-name=Enter Assist Mode" />
+      </entry-rule-list>
+      <exit-rule-list>
+        <rule action-name="send-msg" parameter="message-name=Exit Assist Mode" />
+        <rule action-name="SetLastGoodWeight" parameter="set-lgw" />
+        <rule action-name="ResetSmartScaleTimers" parameter="all" />
+        <rule action-name="CheckForExceptions" />
+      </exit-rule-list>
+    </application-state>
+    <application-state>
+      <comment>This is SmRemoteAssistMode state</comment>
+      <state-name>SmRemoteAssistMode</state-name>
+      <takeaway-belt>start-assist-mode</takeaway-belt>
+      <hold-weight />
+      <push-hold-weight />
+      <entry-rule-list>
+        <rule action-name="send-msg" parameter="message-name=Enter Remote Assist Mode" />
+      </entry-rule-list>
+      <exit-rule-list>
+        <rule action-name="send-msg" parameter="message-name=Exit Remote Assist Mode" />
+        <rule action-name="CheckForExceptions" />
+      </exit-rule-list>
+    </application-state>
+    <application-state>
+      <comment>This is SmAuthorization state</comment>
+      <state-name>SmAuthorization</state-name>
+      <takeaway-belt>stop-belt</takeaway-belt>
+      <hold-weight />
+      <exit-rule-list>
+        <rule action-name="ClearHoldWeight" />
+        <if expression="!CheckForExceptions()">
+          <rule action-name="send-msg" parameter="message-name=Set LGW From Authorization" />
+        </if>
+      </exit-rule-list>
+    </application-state>
+    <application-state>
+      <state-name>SmReportsMenu</state-name>
+      <takeaway-belt>stop-belt</takeaway-belt>
+    </application-state>
+    <application-state>
+      <state-name>Suspend</state-name>
+      <hold-weight />
+      <push-hold-weight />
+    </application-state>
+    <application-state>
+      <state-name>SystemMessage</state-name>
+      <hold-weight />
+      <push-hold-weight />
+    </application-state>
+    <application-state>
+      <state-name>SystemMessageOpPass</state-name>
+      <hold-weight />
+      <push-hold-weight />
+    </application-state>
+    <application-state>
+      <state-name>TenderBalance</state-name>
+      <takeaway-belt>stop-belt</takeaway-belt>
+    </application-state>
+    <application-state>
+      <state-name>ThankYou</state-name>
+      <do-not-hold-weight />
+      <!--<entry-rule-list>
+        <rule action-name="SetLastGoodWeight" parameter="set-lgw-no-expectation" />
+      </entry-rule-list>-->
+      <takeaway-belt>reset</takeaway-belt>
+    </application-state>
+    <application-state>
+      <state-name>TimeRestrictedItem</state-name>
+      <takeaway-belt>stop-belt</takeaway-belt>
+    </application-state>
+    <application-state>
+      <comment>This is TransportItem state</comment>
+      <state-name>TransportItem</state-name>
+      <entry-rule-list>
+        <rule action-name="assign-variable" parameter="variable-name=transport_item_flag;expression=1" />
+      </entry-rule-list>
+      <exit-rule-list>
+        <rule action-name="assign-variable" parameter="variable-name=transport_item_flag;expression=0" />
+      </exit-rule-list>
+    </application-state>
+    <application-state>
+      <state-name>UnDeActivatedItemApproval</state-name>
+      <takeaway-belt>stop-belt</takeaway-belt>
+      <hold-weight />
+      <push-hold-weight />
+      <exit-rule-list>
+        <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+      </exit-rule-list>
+    </application-state>
+    <application-state>
+      <state-name>UnknownItem</state-name>
+      <takeaway-belt>stop-belt</takeaway-belt>
+    </application-state>
+    <application-state>
+      <state-name>VoidNoMatch</state-name>
+      <takeaway-belt>stop-belt</takeaway-belt>
+    </application-state>
+    <application-state>
+      <state-name>WaitForRemoteAssistance</state-name>
+      <takeaway-belt>stop-belt</takeaway-belt>
+      <hold-weight />
+      <push-hold-weight />
+    </application-state>
+    <application-state>
+      <comment>This is LaneClosed state</comment>
+      <state-name>LaneClosed</state-name>
+      <entry-rule-list>
+        <rule action-name="assign-variable" parameter="variable-name=lane_closed_flag;expression=1" />
+      </entry-rule-list>
+      <exit-rule-list>
+        <rule action-name="assign-variable" parameter="variable-name=lane_closed_flag;expression=0" />
+      </exit-rule-list>
+    </application-state>
+    <application-state>
+      <comment>This is MultiPick state</comment>
+      <state-name>MultiPicklist</state-name>
+      <entry-rule-list>
+        <rule action-name="assign-variable" parameter="variable-name=multi_pick_flag;expression=1" />
+      </entry-rule-list>
+      <exit-rule-list>
+        <rule action-name="assign-variable" parameter="variable-name=multi_pick_flag;expression=0" />
+        <rule action-name="SendItemPickFinish" />
+      </exit-rule-list>
+    </application-state>
+    <application-state>
+      <comment>This is Degraded ContinueTrans state</comment>
+      <state-name>DegradedContinueTrans</state-name>
+	  <do-not-hold-weight/>	<!-- CRD 280415 -->
+    </application-state>
+	<!-- Start CRD 360220 / 236459 -->
+	<application-state>
+      <state-name>SmDataEntry</state-name>
+      <hold-weight />
+      <push-hold-weight />
+    </application-state>
+	<!-- End CRD 360220 / 236459 -->
+  </application-state-list>
+  <!-- ============================================================================ -->
+  <!-- Section:  Rules for state transitions                                        -->
+  <!-- ============================================================================ -->
+  <rules>
+    <!-- ======================================================================== -->
+    <!-- State:  Global                                                           -->
+    <!-- Messages:  Initialize from FL to begin the initialization process        -->
+    <!-- ======================================================================== -->
+    <state>
+      <global />
+      <entry-rule-list>
+        <rule action-name="GlobalLog" parameter="Global Entry" />
+      </entry-rule-list>
+      <exit-rule-list>
+        <rule action-name="GlobalLog" parameter="Global Exit" />
+      </exit-rule-list>
+      <!--
+            <message>
+                <message-name>*</message-name>
+                <message-rule-list>
+                    <rule>
+                        <action>
+                            <action-name>GlobalLog</action-name>
+                            <parameter>
+                                <value>Message Received</value>
+                            </parameter>
+                            <parameter>
+                                <value>Parameter 2 Value</value>
+                            </parameter>
+                        </action>
+                    </rule>
+                </message-rule-list>
+            </message>
+-->
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Any state                                                        -->
+    <!-- Messages:  Initialize from FL to begin the initialization process        -->
+    <!--                                                                          -->
+    <!--                                                                          -->
+    <!--      Message:                  Purpose:                                  -->
+    <!--      _____________________     _________________________________________ -->
+    <!--      Initialize                Begin the initialization process          -->
+    <!--      Security Maintenance      Start SMM mode                            -->
+    <!--      Transaction Control       FL requests an action regarding the xact  -->
+    <!--      Transaction End           TC Internal - end the xact                -->
+    <!--      Transaction Void          TC Internal - void the xact               -->
+    <!--      Application Control       FL requests an action regarding the app   -->
+    <!--      Set Application State     AC Internal - change the app state        -->
+    <!--      Hold Weight Command       AC Internal - hold weight notifications   -->
+    <!--      Resume Weight Command     AC Internal - resume weight notifications -->
+    <!--      Security Control          FL requests an action affecting Sec.      -->
+    <!--      Unmatched Wt              Scale reports an umatched weight          -->
+    <!--      Unmatched Increase        Internal - increase detected on scale     -->
+    <!--      Unmatched Decrease        Internal - decrease detected on scale     -->
+    <!--      BackToLGW                 Scale reports a Back to LGW condition     -->
+    <!--      Override Exception        FL requests an override of an exception   -->
+    <!--      Clear Exception           Internal - clear the exception            -->
+    <!--      Clear Exception With Update                                         -->
+    <!--                                Internal - clear the exception; update    -->
+    <!--                                WLDB                                      -->
+    <!--      Device Failure            Internal - Smart Scale has reported error -->
+    <!--      DB Mgr Status             Internal - DB Mgr Client has error        -->
+    <!--      Clear Exception - All Immediate Wt Changes                          -->
+    <!--                                FL requests to clear all immediate wt changes -->
+    <!-- ======================================================================== -->
+    <state name="*">
+      <message name="Clear All Exceptions No Change State">
+        <message-rule-list>
+          <rule action-name="ClearDelayedException" parameter="flags-clear-remove-exception" />
+        </message-rule-list>
+      </message>
+      <message name="Security Maintenance">
+        <message-rule-list>
+          <rule action-name="SecurityMaintenanceCommand" />
+        </message-rule-list>
+      </message>
+      <message name="Transaction Control">
+        <message-rule-list>
+          <rule action-name="TransactionControlCommand" />
+        </message-rule-list>
+      </message>
+      <message name="Enter Scan And Bag" />
+      <message name="Transaction End">
+        <message-rule-list>
+          <if expression="!CheckTransactionComplete()">
+            <rule action-name="SendSecurityViolations" />
+            <transition state-name="Complete" />
+          </if>
+          <else>
+	    <rule action-name="SendTransactionEndMessage" /> 
+            <transition state-name="Complete" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Transaction Void Begin">
+        <message-rule-list>
+          <transition state-name="Transaction Voided" />
+        </message-rule-list>
+      </message>
+      <message name="Takeaway Belt Data Event">
+        <message-rule-list>
+          <rule action-name="TakeawayBeltStatus" />
+        </message-rule-list>
+      </message>
+      <message name="Takeaway Belt - Ready">
+        <message-rule-list>
+		 <rule action-name="ReadyTABForNextItem" /> <!-- CRD 280415 -->
+         <rule action-name="SendTABStatus" parameter="enable-scanner" />
+        </message-rule-list>
+      </message>
+      <message name="Takeaway Belt - Not Ready">
+        <message-rule-list>
+          <rule action-name="SendTABStatus" parameter="disable-scanner" />
+        </message-rule-list>
+      </message>
+      <message name="Takeaway Belt - Scale Status Requested">
+        <message-rule-list>
+          <rule action-name="SendScaleStatusToTAB" parameter="transport_item_flag" />
+        </message-rule-list>
+      </message>
+      <message name="Takeaway Belt - Cover Open">
+        <message-rule-list>
+          <rule action-name="NotifyTakeawayBelt" parameter="stop-belt" />
+          <rule action-name="HandleTABCover" parameter="open" />
+        </message-rule-list>
+      </message>
+      <message name="Takeaway Belt - Cover Closed">
+        <message-rule-list>
+          <rule action-name="HandleTABCover" parameter="closed" />
+        </message-rule-list>
+      </message>
+      <message name="Takeaway Belt - Bag Area Clear">
+        <message-rule-list>
+          <rule action-name="SendTABStatus" parameter="bag-area-clear" />
+        </message-rule-list>
+      </message>
+      <message name="Takeaway Belt - Bag Area Backup">
+        <message-rule-list>
+          <rule action-name="SendTABStatus" parameter="bag-area-backup" />
+        </message-rule-list>
+      </message>
+      <message name="Takeaway Belt - Assist Mode Done">
+        <message-rule-list>
+          <rule action-name="SendTABStatus" parameter="stop-assist-mode-complete" />
+        </message-rule-list>
+      </message>
+      <message name="Takeaway Belt - Item Moved Off Belt1">
+        <message-rule-list>
+          <rule action-name="decrement-variable" parameter="variable-name=belt_item_count" />
+          <rule action-name="send-msg" parameter="message-name=Check for belt items" />
+          <if expression="(belt_item_count==0)">
+            <rule action-name="SetLastGoodWeight" parameter="set-beginning-lgw" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="Check for belt items">
+        <message-rule-list>
+          <if expression="(belt_item_count==1)">
+            <rule action-name="SetLastGoodWeight" parameter="set-lgw" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="Application Control">
+        <message-rule-list>
+          <rule action-name="ApplicationControlCommand" parameter="lookup-table-name=ApplicationControlCommandTable" />
+        </message-rule-list>
+      </message>
+      <message name="Set Application State">
+        <message-rule-list>
+         <rule action-name="assign-variable" parameter="variable-name=application_state_parm_string;expression=$(parameter[set-app-state])" />
+		 <if expression="find($(application_state_parm_string), 'AssistMode') != -1">
+			<rule action-name="SetApplicationStateCommandTAB" />
+		 </if>
+		 <else>
+			<if expression="(enter_AssistMode==0)">
+				<rule action-name="SetApplicationStateCommandTAB" />			
+			</if>
+		 </else>
+        </message-rule-list>
+      </message>
+      <message name="Hold Weight Command">
+        <message-rule-list>
+          <rule action-name="SetHoldWeight" />
+        </message-rule-list>
+      </message>
+      <message name="Resume Weight Command">
+        <message-rule-list>
+          <rule action-name="ClearHoldWeight" />
+        </message-rule-list>
+      </message>
+      <message name="Security Control">
+        <message-rule-list>
+          <rule action-name="SecurityControlCommandTAB" parameter="security_control_command_type" />
+          <if expression="!(security_control_command_type!=1)">
+            <rule action-name="GetCommand" />
+          </if>
+          <else>
+            <if expression="!(security_control_command_type!=2)">
+              <rule action-name="SetCommand" />
+            </if>
+            <else>
+              <if expression="!(security_control_command_type!=3)">
+                <rule action-name="ReloadConfiguration" />
+              </if>
+              <else>
+                <if expression="!(security_control_command_type!=4)">
+                  <rule action-name="SerializeCommand" />
+                </if>
+                <else>
+                  <if expression="!(security_control_command_type!=5)">
+                    <rule action-name="AbortCommand" />
+                  </if>
+                  <else>
+                    <if expression="!(security_control_command_type!=6)">
+                      <rule action-name="QueryDeviceStatusCommand" />
+                    </if>
+                    <else>
+                      <if expression="!(security_control_command_type!=1001)">
+                        <rule action-name="NotifyTakeawayBelt" parameter="stop-assist-mode" />
+                      </if>
+                      <else>
+                        <if expression="!(security_control_command_type!=1002)">
+                          <rule action-name="NotifyTakeawayBelt" parameter="stop-belt" />
+                        </if>
+                        <else>
+                          <if expression="!(security_control_command_type!=1003)">
+                            <rule action-name="send-msg" parameter="message-name=Flush Item" />
+                          </if>
+                        </else>
+                      </else>
+                    </else>
+                  </else>
+                </else>
+              </else>
+            </else>
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Flush Item">
+        <message-rule-list>
+          <if expression="!CheckScaleNotEmpty()">
+            <rule action-name="NotifyTakeawayBelt" parameter="skip-bagging" />
+          </if>
+          <else>
+            <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Item Void">
+        <message-rule-list>
+          <rule action-name="VoidItemCommand" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Wt">
+        <message-rule-list>
+          <rule action-name="HandleTABUnmatchedWt" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Increase">
+        <message-rule-list>
+            <if expression="!HandleTABUnmatchedIncrease()">
+              <rule action-name="NotifyTakeawayBelt" parameter="stable-bad-weight" />
+            </if>
+            <else>
+              <rule action-name="SetLastGoodWeight" />
+              <rule action-name="send-msg" parameter="message-name=BackToLGW" />
+            </else>
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Decrease">
+        <message-rule-list>
+          <rule action-name="HandleTABUnmatchedDecrease" parameter="scan_and_bag_flag;bag_and_eas_flag" />
+          <rule action-name="CheckForExceptions" />
+          <rule action-name="ClearAllWtExceptions" />
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+        </message-rule-list>
+      </message>
+      <message name="BackToLGW">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=item_removed_flag;expression=1" />
+          <rule action-name="stop-timer" parameter="timer-name=delayed_timer" />
+          <rule action-name="stop-timer" parameter="timer-name=forgiveness_timer" />
+          <rule action-name="stop-timer" parameter="timer-name=unexpected_decrease_timer" />
+          <if expression="!(belt_item_count==0)">
+            <rule action-name="send-msg" parameter="message-name=BackToLGW Clear All" />
+          </if>
+          <else>
+          <rule action-name="NotifyTakeawayBelt" parameter="scale-reads-zero" />
+          <rule action-name="ResetWeight" />
+            <rule action-name="SendTransactionComplete" />
+          <if expression="!IsCurrentExceptionDelayed()">
+            <rule action-name="ClearLastWtException" />
+          </if>
+          <else>
+            <rule action-name="CheckForExceptions" />
+            <rule action-name="ClearLastWtException" />
+          </else>
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="BackToLGW Clear All">
+        <message-rule-list>
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <rule action-name="assign-variable" parameter="variable-name=belt_item_count;expression=0" />
+          <rule action-name="CheckForExceptions" />
+          <rule action-name="ClearAllWtExceptions" />
+        </message-rule-list>
+      </message>
+      <message name="Clear Exception - All Immediate Wt Changes">
+        <message-rule-list>
+          <rule action-name="ClearAllImmediateWtChanges" />
+        </message-rule-list>
+      </message>
+      <message name="Override Exception">
+        <message-rule-list>
+          <rule action-name="OverrideExceptionCommand" />
+        </message-rule-list>
+      </message>
+      <message name="Clear Exception">
+        <message-rule-list>
+          <rule action-name="SetLastGoodWeight" />
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <rule action-name="ClearException" />
+        </message-rule-list>
+      </message>
+      <message name="Clear Exception - All Wt Changes">
+        <message-rule-list>
+          <rule action-name="SetLastGoodWeight" />
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <rule action-name="ClearException" />
+        </message-rule-list>
+      </message>
+      <message name="Clear All Exceptions">
+        <message-rule-list>
+          <rule action-name="ClearAllExceptions" />
+        </message-rule-list>
+      </message>
+      <message name="Throw Exception">
+        <message-rule-list>
+          <rule action-name="SetForgivenessTimeout" parameter="forgiveness_timeout_value" />
+          <if expression="!IsExceptionForgiven(finalize_flag;bag_and_eas_flag;scan_and_bag_flag)">
+            <rule action-name="start-timer" parameter="timer-name=forgiveness_timer;duration=forgiveness_timeout_value" />
+          </if>
+          <else>
+            <rule action-name="IsExceptionInterventionReq" parameter="scan_and_bag_flag;bag_and_eas_flag" />
+            <rule action-name="SetDelayedTimeout" parameter="delayed_timeout_value" />
+            <if expression="!IsExceptionDelayed(not_finalize_flag;not_complete_flag)">
+              <rule action-name="start-timer" parameter="timer-name=delayed_timer;duration=delayed_timeout_value" />
+            </if>
+            <else>
+              <rule action-name="ThrowException" />
+            </else>
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="forgiveness_timer_timeout">
+        <message-rule-list>
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <rule action-name="ClearForgivenException" />
+          <rule action-name="SetLastGoodWeight" />
+        </message-rule-list>
+      </message>
+      <message name="delayed_timer_timeout">
+        <message-rule-list>
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <rule action-name="send-msg" parameter="message-name=Clear Delayed Exception" />
+        </message-rule-list>
+      </message>
+      <message name="Clear Delayed Exception">
+        <message-rule-list>
+          <rule action-name="ClearDelayedException" parameter="flags-clear-report-only" />
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <rule action-name="SetLastGoodWeight" />
+        </message-rule-list>
+      </message>
+      <message name="Item Details">
+        <message-rule-list>
+          <rule action-name="NotifyTakeawayBelt" parameter="stop-belt" />
+        </message-rule-list>
+      </message>
+      <message name="Item Validated">
+        <message-rule-list>
+          <rule action-name="SetLastGoodWeight" />
+          <if expression="!(skip_bagging_in_multi_pick_flag==0)">
+            <rule action-name="send-msg" parameter="message-name=Item Validated Not Send Item OK" />
+          </if>
+          <else>
+            <rule action-name="SendItemOK" parameter="send-item-ok" />
+            <rule action-name="increment-variable" parameter="variable-name=ItemCounter" />
+            <rule action-name="CheckForExceptions" />
+            <rule action-name="ClearAllWtExceptions" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Item Validated Not Send Item OK">
+        <message-rule-list>
+          <rule action-name="CheckSkipBagging" parameter="not-check-skip-bagging-threshold" />
+          <rule action-name="SendItemOK" parameter="not-send-item-ok" />
+          <rule action-name="assign-variable" parameter="variable-name=skip_bagging_in_multi_pick_flag;expression=0" />
+          <rule action-name="increment-variable" parameter="variable-name=ItemCounter" />
+        </message-rule-list>
+      </message>
+      <message name="Abort">
+        <message-rule-list>
+          <rule action-name="stop-timer" parameter="timer-name=scale_initialization_timer" />          
+          <rule action-name="NotifyTakeawayBelt" parameter="reset" />
+          <rule action-name="UnloadTakeawayBelt" />
+          <rule action-name="UnloadDBMgrClient" />
+          <rule action-name="UnloadSmartScale" />
+          <rule action-name="UnloadWTInfo" />
+		  <rule action-name="UnloadTrxPolicyMgr"/>
+          <rule action-name="UnloadConfiguration" />
+          <transition state-name="Uninitialized" />
+        </message-rule-list>
+      </message>
+      <message name="Item Removed">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=item_removed_flag;expression=1" />
+          <rule action-name="SetLastGoodWeight" parameter="last-exception-weight" />
+          <rule action-name="CheckItemRemoved" />
+        </message-rule-list>
+      </message>
+      <message name="picking_up_items_timer_timeout">
+        <message-rule-list>
+          <rule action-name="CheckItemRemovedAutoAdvance" parameter="variable-name=item_removed_flag" />
+          <rule action-name="assign-variable" parameter="variable-name=item_removed_flag;expression=0" />
+        </message-rule-list>
+      </message>
+      <message name="unexpected_decrease_timer_timeout">
+        <message-rule-list>
+          <rule action-name="CheckSkipBagging" parameter="check-skip-bagging-threshold" />
+          <rule action-name="assign-variable" parameter="variable-name=unexpected_decrease_flag;expression=0" />
+          <rule action-name="ValidateItem" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="Device Failure">
+        <message-rule-list>
+          <rule action-name="HandleSmartScaleFailure" />
+        </message-rule-list>
+      </message>
+      <message name="DB Mgr Status">
+        <message-rule-list>
+          <rule action-name="HandleSmartScaleFailure" />
+        </message-rule-list>
+      </message>
+      <message name="scale_initialization_timer_timeout" />
+      <message name="Enter Assist Mode">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=enter_AssistMode;expression=1" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="Enter Remote Assist Mode">
+        <message-rule-list>
+          <rule action-name="push-state" />
+          <transition state-name="Remote Assist Mode" />
+        </message-rule-list>
+      </message>
+      <message name="Set LGW From Authorization">
+        <message-rule-list>
+          <rule action-name="SetBeginningTransLGW" parameter="set-beginningtranslgw-storemode" />
+          <rule action-name="SetLastGoodWeight" parameter="set-lgw" />
+          <rule action-name="ResetSmartScaleTimers" parameter="all" />
+          <!--SSCOP-512-->
+          <if expression="(attract_quiet_mode_violation!=0)">
+              <rule action-name="assign-variable" parameter="variable-name=attract_quiet_mode_timeout_value;expression=0" />
+              <rule action-name="assign-variable" parameter="variable-name=attract_quiet_mode_violation;expression=0" />
+              <rule action-name="SendTransactionComplete" />
+              <rule action-name="SetDeltaWt" />
+          </if>
+          <!--SSCOP-512-->
+        </message-rule-list>
+      </message>
+      <message name="db_lookup_timer_timeout">
+        <message-rule-list>
+            <rule action-name="stop-timer" parameter="timer-name=db_lookup_timer" />
+        </message-rule-list>
+      </message>
+
+      <message name="Enter Disable Security Mode">
+        <message-rule-list>
+          <rule action-name="push-state" />
+          <rule action-name="assign-variable" parameter="variable-name=item_removed_flag;expression=1" />
+          <rule action-name="stop-timer" parameter="timer-name=delayed_timer" />
+          <rule action-name="stop-timer" parameter="timer-name=forgiveness_timer" />
+          <rule action-name="stop-timer" parameter="timer-name=unexpected_decrease_timer" />
+          <if expression="!(belt_item_count==0)">
+            <rule action-name="assign-variable" parameter="variable-name=belt_item_count;expression=0" />
+          </if>
+          <if expression="CheckForExceptions()">
+            <rule action-name="ClearAllWtExceptions" />
+          </if>
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <transition state-name="Disable Security Mode" />
+        </message-rule-list>
+      </message>
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Uninitialized                                                      -->
+    <!-- Messages:  Initialize from FL to begin the initialization process        -->
+    <!-- ======================================================================== -->
+    <state name="Uninitialized">
+      <message name="Initialize">
+        <message-rule-list>
+          <rule action-name="SaveInitializeParameters" />
+          <rule action-name="LoadConfiguration" />
+		  <rule action-name="LoadTrxPolicyMgr"/>
+          <transition state-name="InitPhase1" />
+        </message-rule-list>
+      </message>
+      <message name="Takeaway Belt Data Event" />
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  InitPhase1                                                       -->
+    <!-- Messages:  Initialize from FL to begin the initialization process        -->
+    <!-- ======================================================================== -->
+    <state name="InitPhase1">
+      <message name="Initialize">
+        <message-rule-list>
+          <rule action-name="LoadWTInfo" />
+          <transition state-name="InitPhase2" />
+        </message-rule-list>
+      </message>
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  InitPhase2                                                       -->
+    <!-- Messages:  Initialize from FL to begin the initialization process        -->
+    <!-- ======================================================================== -->
+    <state name="InitPhase2">
+      <message name="Initialize">
+        <message-rule-list>
+          <rule action-name="LoadSmartScaleTAB" />
+          <rule action-name="SetHoldWeight" />
+          <rule action-name="SetScaleInitializationTimeout" parameter="scale_initialization_timeout_value" />
+          <rule action-name="start-timer" parameter="timer-name=scale_initialization_timer;duration=scale_initialization_timeout_value" />
+          <transition state-name="InitPhase3" />
+        </message-rule-list>
+      </message>
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  InitPhase3                                                       -->
+    <!-- Messages:  Initialize from FL to begin the initialization process        -->
+    <!-- ======================================================================== -->
+    <state name="InitPhase3">
+      <message name="Initialize">
+        <message-rule-list>
+          <rule action-name="LoadDBMgrClient" />
+          <transition state-name="InitPhase4" />
+        </message-rule-list>
+      </message>
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  InitPhase3                                                       -->
+    <!-- Messages:  Initialize from FL to begin the initialization process        -->
+    <!-- ======================================================================== -->
+    <state name="InitPhase4">
+      <message name="Initialize">
+        <message-rule-list>
+          <rule action-name="LoadTakeawayBelt" />
+          <transition state-name="InitPhase5" />
+        </message-rule-list>
+      </message>
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  InitPhase4                                                       -->
+    <!-- Messages:  Initialize from FL to begin the initialization process        -->
+    <!-- ======================================================================== -->
+    <state name="InitPhase5">
+      <message name="Initialize">
+        <message-rule-list>
+          <rule action-name="wait-timer" parameter="timer-name=scale_initialization_timer" />
+          <rule action-name="SetLastGoodWeight" />
+          <rule action-name="SetBeginningTransLGW" />
+          <rule action-name="InitializationComplete" />
+          <rule action-name="FlushTABInAttract" /> <!-- CRD 280415 -->
+          <transition state-name="Idle" />
+        </message-rule-list>
+      </message>
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Idle                                                             -->
+    <!-- Function:  Main state for handling items                                 -->
+    <!-- Messages:                                                                -->
+    <!-- ======================================================================== -->
+    <state name="Idle">
+      <entry-rule-list>
+        <rule action-name="ClearHoldWeight" />
+      </entry-rule-list>
+      <!-- +sscop-3532 -->
+      <message name="BackToLGW">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=item_removed_flag;expression=1" />
+          <rule action-name="stop-timer" parameter="timer-name=delayed_timer" />
+          <rule action-name="stop-timer" parameter="timer-name=forgiveness_timer" />
+          <rule action-name="stop-timer" parameter="timer-name=unexpected_decrease_timer" />
+          <if expression="!(belt_item_count==0)">
+            <rule action-name="send-msg" parameter="message-name=BackToLGW Clear All" />
+          </if>
+          <else>
+            <rule action-name="NotifyTakeawayBelt" parameter="scale-reads-zero" />
+            <rule action-name="ResetWeight" />
+            <if expression="!IsCurrentExceptionDelayed()">
+              <rule action-name="ClearLastWtException" />
+            </if>
+            <else>
+              <rule action-name="CheckForExceptions" />
+              <rule action-name="ClearLastWtException" />
+            </else>
+          </else>
+        </message-rule-list>
+      </message>
+      <!-- -sscop-3532 -->
+      <message name="Unmatched Wt">
+        <message-rule-list>
+          <if expression="!(ZeroWeightOnComplete_flag==0)">
+          <rule action-name="assign-variable" parameter="variable-name=ZeroWeightOnComplete_flag;expression=0" />
+          </if>
+          <else>
+              <if expression="!HandleTABUnmatchedWt()">
+                 <rule action-name="SetLastGoodWeight" />
+              </if>
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Increase">
+        <message-rule-list>
+          <rule action-name="CheckRememberVirtualZero" parameter="virtual-zero-increase" />
+          <if expression="!HandleTABUnmatchedIncrease()">
+            <rule action-name="NotifyTakeawayBelt" parameter="stable-bad-weight" />
+            <rule action-name="SendObservedWeight" />
+          </if>
+          <else>
+            <rule action-name="CheckForExceptions" />
+            <rule action-name="ClearAllWtExceptions" />
+            <rule action-name="NotifyTakeawayBelt" parameter="reset" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Clear Exception">
+        <message-rule-list>
+          <rule action-name="SetLastGoodWeight" />
+          <rule action-name="SetBeginningTransLGW" parameter="set-beginningtranslgw-attract" />
+          <rule action-name="ClearException" />
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Decrease">
+        <message-rule-list>
+          <if expression="!CheckScaleNotEmpty()">
+            <rule action-name="HandleTABUnmatchedDecrease" parameter="scan_and_bag_flag;bag_and_eas_flag" />
+            <rule action-name="CheckForExceptions" />
+            <rule action-name="ClearAllWtExceptions" />
+          </if>
+          <else>
+            <rule action-name="CheckRememberVirtualZero" parameter="virtual-zero-decrease" />
+            <rule action-name="SetLastGoodWeight" />
+            <rule action-name="SetBeginningTransLGW" parameter="set-beginningtranslgw-attract" />
+            <rule action-name="CheckForExceptions" />
+            <rule action-name="ClearAllWtExceptions" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="quiet_mode_timer_timeout">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=attract_quiet_mode_timeout_value;expression=0" />
+          <rule action-name="assign-variable" parameter="variable-name=attract_quiet_mode_violation;expression=0" />
+          <rule action-name="SetLastGoodWeight" />
+          <rule action-name="SetBeginningTransLGW" parameter="set-beginningtranslgw-attract" />
+        </message-rule-list>
+      </message>
+      <message name="Bag Box Button Pressed">
+        <message-rule-list>
+          <rule action-name="CheckBagBox" />
+        </message-rule-list>
+      </message>
+      <message name="Transaction Begin">
+        <message-rule-list>
+          <rule action-name="StartTransaction" />
+		  <rule action-name="SendAttractIdleTimeToTransactionPolicy"/>
+          <rule action-name="SetBeginningTransLGW" />
+		  <!-- +SSCOP-2576 -->
+          <if expression="!CheckForExceptions()">
+             <rule action-name="SetLastGoodWeight" />
+          </if>
+		  <!-- -SSCOP-2576 -->
+          <transition state-name="Start" />
+        </message-rule-list>
+      </message>
+      <message name="Transaction Continue">
+        <message-rule-list>
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="Enter Scan And Bag">
+        <message-rule-list>
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="SMM Begin">
+        <message-rule-list>
+          <rule action-name="push-state" />
+          <if expression="!SMMBegin()">
+            <rule action-name="SendSMMServerFailure" />
+            <transition state-name="Security Maintenance" />
+          </if>
+          <else>
+            <transition state-name="Security Maintenance" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Transaction Finalize">
+        <message-rule-list>
+          <transition state-name="Finalize" />
+        </message-rule-list>
+      </message>
+      <message name="Takeaway Belt - Bag Area Backup" />
+      <message name="Enter Disable Security Mode">
+        <message-rule-list>
+          <rule action-name="SetLastGoodWeight" />
+          <rule action-name="SetBeginningTransLGW" parameter="set-beginningtranslgw-attract" />
+          <if expression="CheckForExceptions()">
+            <rule action-name="ClearAllWtExceptions" />
+          </if>
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <transition state-name="Disable Security Mode - Idle" />
+        </message-rule-list>
+      </message>
+	  <message name="Enter Assist Mode">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=enter_AssistMode_From_Idle;expression=1" />
+          <rule action-name="assign-variable" parameter="variable-name=enter_AssistMode;expression=1" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Start                                                            -->
+    <!-- Function:  Main state for handling items                                 -->
+    <!-- Messages:                                                                -->
+    <!-- ======================================================================== -->
+    <state name="Start">
+      <entry-rule-list>
+        <rule action-name="assign-variable" parameter="variable-name=belt_item_count;expression=0" />
+      </entry-rule-list>
+	  <message name="Item Details">
+        <message-rule-list>
+            <rule action-name="send-msg" parameter="message-name=Item Not Sellable" />
+        </message-rule-list>
+      </message>
+      <message name="Item Not Sellable">
+        <message-rule-list>      
+          <rule action-name="ClearHoldWeight" />
+          <rule action-name="SendGoToScanAndBag" />
+        </message-rule-list>
+      </message>
+      <message name="Item Sold">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=skip_bagging_in_multi_pick_flag;expression=0" />
+          <rule action-name="ResetAtItemScanForTAB" />
+          <rule action-name="SetHoldWeight" />
+          <rule action-name="increment-variable" parameter="variable-name=belt_item_count" />
+          <rule action-name="NotifyTakeawayBelt" parameter="item-scan" />
+          <if expression="!AddItemToTransaction()">
+            <rule action-name="ItemNotScannedAdjustment" />
+            <transition state-name="Wait DB" />
+          </if>
+          <else>
+            <rule action-name="SendDBRequest" />
+            <rule action-name="start-timer" parameter="timer-name=db_lookup_timer;duration=1000" />
+            <transition state-name="Wait DB" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Bag Box Button Pressed">
+        <message-rule-list>
+          <rule action-name="CheckBagBox" />
+        </message-rule-list>
+      </message>
+      <message name="SMM Begin">
+        <message-rule-list>
+          <rule action-name="push-state" />
+          <if expression="!SMMBegin()">
+            <rule action-name="SendSMMServerFailure" />
+            <transition state-name="Security Maintenance" />
+          </if>
+          <else>
+            <transition state-name="Security Maintenance" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Clear Exception">
+        <message-rule-list>
+          <rule action-name="SetLastGoodWeight" />
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <if expression="!(attract_quiet_mode_violation!=0)">
+            <rule action-name="ClearException" />
+          </if>
+          <else>
+            <rule action-name="assign-variable" parameter="variable-name=attract_quiet_mode_violation;expression=0" />
+            <rule action-name="SetBeginningTransLGW" parameter="set-beginningtranslgw-attract" />
+            <rule action-name="ClearException" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="delayed_timer_timeout">
+        <message-rule-list>
+          <if expression="!(attract_quiet_mode_violation!=0)">
+            <rule action-name="send-msg" parameter="message-name=Clear Delayed Exception" />
+          </if>
+          <else>
+            <rule action-name="SetLastGoodWeight" />
+            <rule action-name="assign-variable" parameter="variable-name=attract_quiet_mode_violation;expression=0" />
+            <rule action-name="SetBeginningTransLGW" parameter="set-beginningtranslgw-attract" />
+            <rule action-name="send-msg" parameter="message-name=Clear Delayed Exception" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Transaction Finalize">
+        <message-rule-list>
+          <transition state-name="Finalize" />
+        </message-rule-list>
+      </message>
+      <message name="Enter Disable Security Mode">
+        <message-rule-list>
+          <rule action-name="push-state" />
+          <rule action-name="assign-variable" parameter="variable-name=item_removed_flag;expression=1" />
+          <rule action-name="stop-timer" parameter="timer-name=delayed_timer" />
+          <rule action-name="stop-timer" parameter="timer-name=forgiveness_timer" />
+          <rule action-name="stop-timer" parameter="timer-name=unexpected_decrease_timer" />
+          <if expression="!(belt_item_count==0)">
+            <rule action-name="assign-variable" parameter="variable-name=belt_item_count;expression=0" />
+          </if>
+          <if expression="CheckForExceptions()">
+            <rule action-name="ClearAllWtExceptions" />
+          </if>
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <transition state-name="Disable Security Mode - Start" />
+        </message-rule-list>
+      </message>      
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Wait DB                                                          -->
+    <!-- Function:  Database request has been sent and we are awaiting a response -->
+    <!-- Messages:                                                                -->
+    <!--      DB Response                                                         -->
+    <!-- ======================================================================== -->
+    <state name="Wait DB">
+      <message name="Takeaway Belt - Ready"> <!-- Need to ignore this message on this state -->
+      </message>
+      <message name="DB Response">
+        <message-rule-list>
+          <if expression="!CheckDBResponse()">
+            <rule action-name="stop-timer" parameter="timer-name=db_lookup_timer" />
+          </if>
+          <else>
+            <rule action-name="SendWtRequestToScale" />
+            <rule action-name="ClearHoldWeight" />
+            <rule action-name="stop-timer" parameter="timer-name=db_lookup_timer">
+              <failure-transition>Wait Scale</failure-transition>
+            </rule>
+            <if expression="AllowLateBaggingForThisItem()">
+              <transition state-name="Wait Scale - Allow Late Bagging" />
+            </if>
+            <transition state-name="Wait Scale" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="db_lookup_timer_timeout">
+        <message-rule-list>
+          <rule action-name="GlobalLog" parameter="db_lookup_timer timeout received" />
+          <rule action-name="SendLastChanceLookupDBRequest" />
+        </message-rule-list>
+      </message>
+      <message name="Item Details">
+        <message-rule-list>
+          <if expression="!CheckItemDetails()">
+            <rule action-name="send-msg" parameter="message-name=Item Not Sellable" />
+          </if>
+          <else>
+            <rule action-name="CheckTABQuantityItem" />
+            <rule action-name="SendWtRequestToScale" />
+            <rule action-name="ClearHoldWeight" />
+            <if expression="AllowLateBaggingForThisItem()">
+              <transition state-name="Wait Scale - Allow Late Bagging" />
+            </if>
+            <transition state-name="Wait Scale" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Item Not Sellable">
+        <message-rule-list>
+          <!-- sscop-3321+ -->
+          <if expression="(multi_pick_flag==0)">
+            <rule action-name="NotifyTakeawayBelt" parameter="stop-belt" />
+            <rule action-name="decrement-variable" parameter="variable-name=belt_item_count" />
+            <rule action-name="ClearHoldWeight" />
+            <rule action-name="SendGoToScanAndBag" />
+            <rule action-name="IsTransactionEmpty">
+              <failure-transition>Item Entry</failure-transition>
+            </rule>
+            <transition state-name="Start" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="Dept Details">
+        <message-rule-list>
+          <rule action-name="CheckDeptDetails" />
+          <rule action-name="SendWtRequestToScale" />
+          <rule action-name="ClearHoldWeight" />
+          <if expression="AllowLateBaggingForThisItem()">
+            <transition state-name="Wait Scale - Allow Late Bagging" />
+          </if>
+          <transition state-name="Wait Scale" />
+        </message-rule-list>
+      </message>
+      <message name="Skip Bagging">
+        <message-rule-list>
+          <rule action-name="NotifyTakeawayBelt" parameter="skip-bagging" />
+          <rule action-name="NotifyTakeawayBelt" parameter="scale-reads-zero" />
+          <if expression="!(unexpected_decrease_flag!=0)">
+            <rule action-name="send-msg" parameter="message-name=Skip Bagging2" />
+          </if>
+          <else>
+            <if expression="!CheckSkipBagging(check-skip-bagging-threshold)">
+              <rule action-name="SetLastGoodWeight" parameter="set-lgw" />
+              <transition state-name="Wait Scale - Skip Bagging Pressed" />
+            </if>
+            <else>
+              <rule action-name="ValidateItem" />
+              <transition state-name="Item Entry" />
+            </else>
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Skip Bagging2">
+        <message-rule-list>
+          <if expression="!(multi_pick_flag==0)">
+            <rule action-name="send-msg" parameter="message-name=Skip Bagging3" />
+          </if>
+          <else>
+            <rule action-name="IsNoWtInterventionOutstanding" />
+            <if expression="!CheckSkipBagging(check-skip-bagging-threshold)">
+              <rule action-name="SetLastGoodWeight" parameter="set-lgw" />
+              <transition state-name="Wait Scale - Skip Bagging Pressed" />
+            </if>
+            <else>
+              <rule action-name="UpdateWLDBZeroWt" />
+              <rule action-name="ValidateItem" />
+              <transition state-name="Item Entry" />
+            </else>
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Skip Bagging3">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=skip_bagging_in_multi_pick_flag;expression=1" />
+          <rule action-name="IsNoWtInterventionOutstanding" />
+          <rule action-name="ValidateItem" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="Enter Scan And Bag">
+        <message-rule-list>
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="Takeaway Belt - Item Moved Off Belt1">
+        <message-rule-list>
+          <rule action-name="decrement-variable" parameter="variable-name=belt_item_count" />
+          <rule action-name="SetLastGoodWeight" parameter="set-beginning-lgw" />
+        </message-rule-list>
+      </message>
+      <message name="Enter Disable Security Mode">
+        <message-rule-list>
+          <rule action-name="NotifyTakeawayBelt" parameter="stop-belt" />
+          <if expression="!(belt_item_count==0)">
+             <rule action-name="decrement-variable" parameter="variable-name=belt_item_count" />
+          </if>
+          <rule action-name="ClearHoldWeight" />
+          <rule action-name="SendGoToScanAndBag" />
+          <transition state-name="Disable Security Mode" />
+        </message-rule-list>
+      </message>
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Wait Scale                                                       -->
+    <!-- Function:  The scale has been requested to read a weight.                -->
+    <!-- Messages:                                                                -->
+    <!--      Matched Wt                                                          -->
+    <!--      Unmatched Wt                                                        -->
+    <!-- ======================================================================== -->
+    <state name="Wait Scale">
+      <message name="Unmatched Decrease">
+        <message-rule-list>
+          <if expression="(belt_item_count==1)">
+             <rule action-name="HandleTABUnmatchedDecrease" parameter="scan_and_bag_flag;bag_and_eas_flag" />
+          </if>
+          <else>
+             <if expression="(belt_item_count==2)">
+                <rule action-name="SetLastGoodWeight" parameter="set-lgw" />
+             </if>
+          </else>
+          <rule action-name="CheckForExceptions" />
+          <rule action-name="ClearAllWtExceptions" />
+        </message-rule-list>
+      </message>
+      <message name="Clear All Exceptions No Change State">
+        <message-rule-list>
+          <rule action-name="ClearDelayedException" parameter="flags-clear-remove-exception" />
+          <rule action-name="evaluate-expression" parameter="tare_only_flag==0" />
+        </message-rule-list>
+      </message>
+      <message name="Item Sold">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=skip_bagging_in_multi_pick_flag;expression=0" />
+          <rule action-name="increment-variable" parameter="variable-name=X" />
+          <rule action-name="SetHoldWeight" />
+          <rule action-name="ResetAtItemScanForTAB" />
+          <if expression="!AddItemToTransaction()">
+            <rule action-name="ItemNotScannedAdjustment" />
+            <transition state-name="Wait DB" />
+          </if>
+          <else>
+            <rule action-name="SetHoldWeight" />
+            <rule action-name="SendDBRequest" />
+            <rule action-name="start-timer" parameter="timer-name=db_lookup_timer;duration=1000" />
+            <transition state-name="Wait DB" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Matched Wt">
+        <message-rule-list>
+          <rule action-name="HandleTABMatchedWt" />
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <rule action-name="IsNotQuantityItem">
+            <failure-transition>Wait Scale - Quantity Item</failure-transition>
+          </rule>
+          <rule action-name="ValidateItem" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Increase">
+        <message-rule-list>
+          <if expression="!HandleTABUnmatchedIncrease()">
+            <rule action-name="NotifyTakeawayBelt" parameter="stable-bad-weight" />
+          </if>
+          <else>
+            <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+            <rule action-name="ValidateItem" />
+            <transition state-name="Item Entry" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="BackToLGW">
+        <message-rule-list>
+          <rule action-name="stop-timer" parameter="timer-name=delayed_timer" />
+          <rule action-name="stop-timer" parameter="timer-name=forgiveness_timer" />
+          <rule action-name="stop-timer" parameter="timer-name=unexpected_decrease_timer" />
+          <rule action-name="ResetWeight" />
+          <rule action-name="CheckForExceptions" />
+          <if expression="!IsNotQuantityItem()">
+            <rule action-name="ClearAllMismatchesThisItem" />
+          </if>
+          <else>
+            <rule action-name="ClearLastWtException" />
+          </else>
+          <if expression="IsZeroWeightItem()">
+            <rule action-name="SendWtRequestToScale"/>
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="Throw Exception">
+        <message-rule-list>
+          <if expression="!IsNotQuantityItem()">
+            <rule action-name="ThrowException" />
+          </if>
+          <else>
+            <rule action-name="SetForgivenessTimeout" parameter="forgiveness_timeout_value" />
+            <if expression="!IsExceptionForgiven(finalize_flag;bag_and_eas_flag;scan_and_bag_flag)">
+              <rule action-name="start-timer" parameter="timer-name=forgiveness_timer;duration=forgiveness_timeout_value" />
+            </if>
+            <else>
+              <rule action-name="IsExceptionInterventionReq" parameter="scan_and_bag_flag;bag_and_eas_flag" />
+              <rule action-name="SetDelayedTimeout" parameter="delayed_timeout_value" />
+              <if expression="!IsExceptionDelayed(not_finalize_flag;not_complete_flag)">
+                <rule action-name="start-timer" parameter="timer-name=delayed_timer;duration=delayed_timeout_value" />
+              </if>
+              <else>
+                <rule action-name="ThrowException" />
+              </else>
+            </else>
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="forgiveness_timer_timeout">
+        <message-rule-list>
+          <rule action-name="UpdateWLDBForgivenMismatch" />
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <rule action-name="ClearForgivenException" />
+          <rule action-name="ValidateItem" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="delayed_timer_timeout">
+        <message-rule-list>
+          <rule action-name="UpdateWLDBDelayedNewItemThreshold" />
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <rule action-name="ClearDelayedException" parameter="flags-clear-report-only" />
+          <if expression="!(attract_quiet_mode_violation==0)">
+            <rule action-name="send-msg" parameter="message-name=Attract Quiet Mode Violation" />
+          </if>
+          <else>
+            <rule action-name="ValidateItem" />
+            <transition state-name="Item Entry" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Clear Exception">
+        <message-rule-list>
+          <rule action-name="ClearException" />
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <if expression="!(attract_quiet_mode_violation==0)">
+            <rule action-name="send-msg" parameter="message-name=Attract Quiet Mode Violation" />
+          </if>
+          <else>
+            <rule action-name="ValidateItem" />
+            <transition state-name="Item Entry" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Attract Quiet Mode Violation">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=attract_quiet_mode_violation;expression=0" />
+          <rule action-name="SetLastGoodWeight" parameter="set-lgw-no-expectation" />
+          <rule action-name="SetBeginningTransLGW" parameter="set-beginningtranslgw-attract" />
+        </message-rule-list>
+      </message>
+      <message name="Clear Exception - All Wt Changes">
+        <message-rule-list>
+          <rule action-name="ClearException" />
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <rule action-name="ValidateItem" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="Clear All Exceptions">
+        <message-rule-list>
+          <rule action-name="ClearAllExceptions" />
+        </message-rule-list>
+      </message>
+      <message name="Clear Exception with Update">
+        <message-rule-list>
+          <rule action-name="UpdateWLDB" />
+          <if expression="!ClearException()">
+            <rule action-name="ClearAllExceptions" />
+          </if>
+          <else>
+            <rule action-name="SetLastGoodWeight" />
+            <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+            <rule action-name="ValidateItem" />
+            <transition state-name="Item Entry" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Skip Bagging">
+        <message-rule-list>
+          <rule action-name="NotifyTakeawayBelt" parameter="skip-bagging" />
+          <rule action-name="NotifyTakeawayBelt" parameter="scale-reads-zero" />
+          <if expression="!(unexpected_decrease_flag!=0)">
+            <rule action-name="send-msg" parameter="message-name=Skip Bagging2" />
+          </if>
+          <else>
+            <if expression="!CheckSkipBagging(check-skip-bagging-threshold)">
+              <rule action-name="SetLastGoodWeight" parameter="set-lgw" />
+              <transition state-name="Wait Scale - Skip Bagging Pressed" />
+            </if>
+            <else>
+              <rule action-name="ValidateItem" />
+              <transition state-name="Item Entry" />
+            </else>
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Skip Bagging2">
+        <message-rule-list>
+          <if expression="!(multi_pick_flag==0)">
+            <rule action-name="send-msg" parameter="message-name=Skip Bagging3;immediate=1" />
+          </if>
+          <else>
+            <rule action-name="IsNoWtInterventionOutstanding" />
+            <if expression="!CheckSkipBagging(check-skip-bagging-threshold)">
+              <rule action-name="SetLastGoodWeight" parameter="set-lgw" />
+              <transition state-name="Wait Scale - Skip Bagging Pressed" />
+            </if>
+            <else>
+              <rule action-name="UpdateWLDBZeroWt" />
+              <rule action-name="ValidateItem" />
+              <rule action-name="SendTABStatus" parameter="enable-scanner" />
+              <rule action-name="decrement-variable" parameter="variable-name=belt_item_count">
+                <failure-transition>Item Entry</failure-transition>
+              </rule>
+              <transition state-name="Item Entry" />
+            </else>
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Skip Bagging3">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=skip_bagging_in_multi_pick_flag;expression=1" />
+          <rule action-name="IsNoWtInterventionOutstanding" />
+          <rule action-name="ValidateItem" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="Bag Box Button Pressed">
+        <message-rule-list>
+          <rule action-name="CheckBagBox" />
+          <rule action-name="ValidateItem" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="RAP Approved Wt">
+        <message-rule-list>
+          <rule action-name="HandleRAPApprovedWt" />
+          <rule action-name="NotifyTakeawayBelt" parameter="skip-bagging" />
+          <rule action-name="ValidateItem" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="Item Expired">
+        <message-rule-list>
+          <rule action-name="SetLastGoodWeight" />
+          <rule action-name="HandleRAPApprovedWt" />
+          <rule action-name="NotifyTakeawayBelt" parameter="skip-bagging" />
+          <rule action-name="ValidateItem" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="Item Not Sellable">
+        <message-rule-list>
+          <rule action-name="ValidateItem" />
+          <rule action-name="decrement-variable" parameter="variable-name=belt_item_count" />
+          <rule action-name="IsTransactionEmpty">
+            <failure-transition>Item Entry</failure-transition>
+          </rule>
+          <transition state-name="Start" />
+        </message-rule-list>
+      </message>
+      <message name="Item Details">
+        <message-rule-list>
+          <if expression="!CheckItemDetails()">
+            <rule action-name="send-msg" parameter="message-name=Item Not Sellable" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="Takeaway Belt - Ready">
+	  <!-- Start CRD 280415 -->
+	  <!-- SOTF5959 - TAR409459 Start -->
+		  <message-rule-list>
+			<rule action-name="ReadyTABForNextItem"/>
+			<rule action-name="SendTABStatus" parameter="enable-scanner"/>
+			<rule action-name="ValidateItem"/>
+			<transition state-name="Item Entry" />
+		  </message-rule-list>
+		 <!-- SOTF5959 - TAR409459 End -->
+		 <!-- End CRD 280415 -->
+	  </message>
+      <message name="Takeaway Belt - Item Moved Off Belt1">
+        <message-rule-list>
+          <rule action-name="decrement-variable" parameter="variable-name=belt_item_count" />
+          <rule action-name="SetLastGoodWeight" parameter="set-beginning-lgw" />
+        </message-rule-list>
+      </message>
+      <message name="Enter Disable Security Mode">
+        <message-rule-list>
+          <if expression="CheckForExceptions()">
+            <rule action-name="ClearAllExceptions" />
+          </if>
+          <rule action-name="SetLastGoodWeight" />
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <rule action-name="SendItemOK" parameter="send-item-ok" />
+          <rule action-name="ValidateItem" />
+          <transition state-name="Disable Security Mode" />
+        </message-rule-list>
+      </message>
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Wait Scale - Skip Bagging Pressed                                -->
+    <!-- Function:  The Skip Bagging button has been pressed and we have exceeded -->
+    <!--            the threshold.  We are now waiting for the attendant to clear -->
+    <!-- Messages:                                                                -->
+    <!-- ======================================================================== -->
+    <state name="Wait Scale - Skip Bagging Pressed">
+      <exit-rule-list>
+        <rule action-name="SendTABStatus" parameter="enable-scanner" />
+      </exit-rule-list>
+      <message name="Clear Exception">
+        <message-rule-list>
+          <rule action-name="UpdateWLDBZeroWt" />
+          <if expression="!ClearException()">
+            <rule action-name="ClearAllExceptions" />
+            <transition state-name="Item Entry" />
+          </if>
+          <else>
+            <rule action-name="SetLastGoodWeight" />
+            <rule action-name="ValidateItem" />
+            <transition state-name="Item Entry" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Clear Exception - All Wt Changes">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=UI_SkipBagging_threshold;expression=0" />
+          <rule action-name="ClearException" />
+          <if expression="!CheckScaleNotEmpty()">
+            <rule action-name="NotifyTakeawayBelt" parameter="zero-weight" />
+          </if>
+          <else>
+            <rule action-name="NotifyTakeawayBelt" parameter="flush-and-finish" />
+            <rule action-name="SetLastGoodWeight" parameter="set-beginning-lgw" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="delayed_timer_timeout">
+        <message-rule-list>
+          <rule action-name="send-msg" parameter="message-name=Clear Delayed Exception" />
+          <rule action-name="ValidateItem" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Increase">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=UI_SkipBagging_threshold;expression=1" />
+            <if expression="!HandleTABUnmatchedIncrease()">
+              <rule action-name="NotifyTakeawayBelt" parameter="stable-bad-weight" />
+            </if>
+            <else>
+              <if expression="!CheckScaleNotEmpty()">
+                <rule action-name="NotifyTakeawayBelt" parameter="zero-weight" />
+              </if>
+              <else>
+                <rule action-name="NotifyTakeawayBelt" parameter="flush-and-finish" />
+                <rule action-name="SetLastGoodWeight" parameter="set-beginning-lgw" />
+              </else>
+            </else>
+        </message-rule-list>
+      </message>
+      <message name="BackToLGW">
+        <message-rule-list>
+          <rule action-name="ResetWeight" />
+          <rule action-name="CheckForExceptions" />
+          <if expression="!(UI_SkipBagging_threshold==0)">
+            <rule action-name="ClearAllWtExceptions" />
+          </if>
+          <else>
+            <rule action-name="CheckForExceptions">
+              <failure-transition>Item Entry</failure-transition>
+            </rule>
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Wt">
+        <message-rule-list>
+          <if expression="!HandleTABUnmatchedWt()">
+            <rule action-name="send-msg" parameter="message-name=Wait Scale - Skipbagging - flush" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="Wait Scale - Skipbagging - flush" />
+	  <!-- start CRD 280415 -->
+	  <!-- tar389091- -->
+	  <message name="Exit Assist Mode">
+		<message-rule-list>
+			<rule action-name="ClearHoldWeight"/>
+			<rule action-name="ValidateItem"/>
+			<transition state-name="Item Entry"/>
+		</message-rule-list>
+	  </message>
+	  <message name="Enter Scan And Bag">
+		<message-rule-list>
+			<transition state-name="Item Entry"/>
+		</message-rule-list>
+	  </message>
+	  <!-- end CRD 280415 -->	  
+      <message name="Enter Disable Security Mode">
+        <message-rule-list>
+          <if expression="CheckForExceptions()">
+            <rule action-name="ClearAllExceptions" />
+          </if>
+          <rule action-name="SetLastGoodWeight" />
+          <rule action-name="SendItemOK" parameter="send-item-ok" />
+          <rule action-name="ValidateItem" />
+          <transition state-name="Disable Security Mode" />
+        </message-rule-list>
+      </message>
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Wait Scale - Quantity Item                                       -->
+    <!-- Function:  A quantity item has been scanned.  Waiting for scale to clear -->
+    <!-- Messages:                                                                -->
+    <!-- ======================================================================== -->
+    <state name="Wait Scale - Quantity Item">
+      <entry-rule-list>
+        <rule action-name="SetLastGoodWeight" />
+        <rule action-name="ValidateItem" />
+      </entry-rule-list>
+      <exit-rule-list>
+        <rule action-name="ReadyTABForNextItem" />
+        <rule action-name="SendTABStatus" parameter="enable-scanner" />
+      </exit-rule-list>
+      <message name="Unmatched Increase">
+        <message-rule-list>
+          <rule action-name="HandleTABQuantityUnmatchedIncrease" />
+          <rule action-name="HandleTABUnmatchedIncrease" />
+          <rule action-name="SetLastGoodWeight" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Decrease">
+        <message-rule-list>
+          <rule action-name="CheckScaleNotEmpty">
+            <failure-transition>Item Entry</failure-transition>
+          </rule>
+        </message-rule-list>
+      </message>
+      <message name="BackToLGW">
+        <message-rule-list>
+          <rule action-name="ResetWeight" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="Takeaway Belt - Scale Status Requested">
+        <message-rule-list>
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+        </message-rule-list>
+      </message>
+      <message name="Takeaway Belt - Item Moved Off Belt1">
+        <message-rule-list>
+          <rule action-name="decrement-variable" parameter="variable-name=belt_item_count" />
+          <rule action-name="CheckScaleNotEmpty">
+            <failure-transition>Item Entry</failure-transition>
+          </rule>
+        </message-rule-list>
+      </message>
+      <message name="Takeaway Belt - Ready" />
+      <message name="Enter Disable Security Mode">
+        <message-rule-list>
+          <rule action-name="ClearException" />
+          <rule action-name="SetLastGoodWeight" />
+          <rule action-name="SendItemOK" parameter="send-item-ok" />
+          <rule action-name="ValidateItem" />
+          <transition state-name="Disable Security Mode" />
+        </message-rule-list>
+      </message>      
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Item Entry                                                       -->
+    <!-- Function:  The scale has been requested to read a weight.                -->
+    <!-- Messages:                                                                -->
+    <!--      Matched Wt                                                          -->
+    <!-- ======================================================================== -->
+    <state name="Item Entry">
+      <entry-rule-list>
+        <if expression="!(enter_AssistMode==0)">
+          <!--<rule action-name="assign-variable" parameter="variable-name=enter_AssistMode;expression=0" />-->
+          <rule action-name="push-state" />
+          <rule action-name="send-msg" parameter="message-name=Go To Assist Mode" />
+        </if>
+        <if expression="(Got_Belt_Ready_On_Wait_Scale==1)">
+          <rule action-name="send-msg" parameter="message-name=Takeaway Belt - Ready" />
+          <rule action-name="assign-variable" parameter="variable-name=Got_Belt_Ready_On_Wait_Scale;expression=0" />
+        </if>
+      </entry-rule-list>
+      <!-- +SR078 -->
+      <message name="Skip Bagging">
+        <message-rule-list>
+          <if expression="!(multi_pick_flag==0)">
+            <rule action-name="assign-variable" parameter="variable-name=skip_bagging_in_multi_pick_flag;expression=1" />
+            <rule action-name="CheckSkipBagging" parameter="not-check-skip-bagging-threshold" />
+            <rule action-name="assign-variable" parameter="variable-name=skip_bagging_in_multi_pick_flag;expression=0" />
+            <rule action-name="increment-variable" parameter="variable-name=ItemCounter" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="Late Bagging Not Allowed">
+        <message-rule-list>
+          <if expression="!(multi_pick_flag==0)">
+            <rule action-name="send-msg" parameter="message-name=Skip Bagging" />
+          </if>
+          <else>
+            <rule action-name="SendLateBaggingNotAllowed" />
+          </else>
+        </message-rule-list>
+      </message>
+      <!-- -SR078 -->
+      <!-- +SSCOP-3561 -->       	  
+      <message name="Item Details">
+        <message-rule-list>
+          <if expression="(belt_item_count==0)">
+            <rule action-name="NotifyTakeawayBelt" parameter="stop-belt" />
+          </if>
+          <rule action-name="send-msg" parameter="message-name=Item Not Sellable" />
+        </message-rule-list>
+      </message>
+      <!-- -SSCOP-3561 --> 	
+      <message name="Item Not Sellable">
+        <message-rule-list>      
+          <rule action-name="ClearHoldWeight" />
+          <rule action-name="SendGoToScanAndBag" />
+        </message-rule-list>
+      </message>  
+      <message name="Go To Assist Mode">
+        <message-rule-list>
+          <transition state-name="Assist Mode" />
+        </message-rule-list>
+      </message>
+      <message name="Takeaway Belt - Ready">
+        <message-rule-list>
+          <if expression="(BTLGW_ITEM_ENTRY==0)">
+            <rule action-name="SendTABStatus" parameter="enable-scanner" />
+          </if> 
+           <else>
+            <if expression="!(scan_and_bag_flag==1)">
+               <rule action-name="SendTABStatus" parameter="enable-scanner" />
+            </if>  
+           </else>
+         <if expression="!(BTLGW_ITEM_ENTRY==0)" >
+            <rule action-name="assign-variable" parameter="variable-name=BTLGW_ITEM_ENTRY;expression=0" />
+            <rule action-name="ClearAllExceptions" />
+            <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+            <!--<rule action-name="assign-variable" parameter="variable-name=belt_item_count;expression=0" />-->
+          </if>  
+        </message-rule-list>
+      </message> 
+      <message name="Item Sold">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=skip_bagging_in_multi_pick_flag;expression=0" />
+          <rule action-name="increment-variable" parameter="variable-name=X" />
+          <rule action-name="SetHoldWeight" />
+          <rule action-name="ResetAtItemScanForTAB" />
+          <rule action-name="increment-variable" parameter="variable-name=belt_item_count" />
+          <rule action-name="NotifyTakeawayBelt" parameter="item-scan" />
+          <if expression="!AddItemToTransaction()">
+            <rule action-name="ItemNotScannedAdjustment" />
+            <transition state-name="Wait DB" />
+          </if>
+          <else>
+            <rule action-name="SetHoldWeight" />
+            <rule action-name="SendDBRequest" />
+            <rule action-name="start-timer" parameter="timer-name=db_lookup_timer;duration=1000" />
+            <transition state-name="Wait DB" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Bag Box Button Pressed">
+        <message-rule-list>
+          <rule action-name="CheckBagBox" />
+        </message-rule-list>
+      </message>
+      <message name="Transaction Finalize">
+        <message-rule-list>
+          <transition state-name="Finalize" />
+        </message-rule-list>
+      </message>
+      <message name="Item Expired">
+        <message-rule-list>
+          <rule action-name="SetLastGoodWeight" />
+        </message-rule-list>
+      </message>
+      <message name="Item Void Begin">
+        <message-rule-list>
+          <transition state-name="Item Voided" />
+        </message-rule-list>
+      </message>
+      <message name="SMM Begin">
+        <message-rule-list>
+          <rule action-name="push-state" />
+          <if expression="!SMMBegin()">
+            <rule action-name="SendSMMServerFailure" />
+            <transition state-name="Security Maintenance" />
+          </if>
+          <else>
+            <transition state-name="Security Maintenance" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Clear Exception with Update">
+        <message-rule-list>
+          <rule action-name="UpdateWLDB" />
+          <rule action-name="SetLastGoodWeight" />
+          <rule action-name="ClearException" />
+        </message-rule-list>
+      </message>
+      <message name="BackToLGW">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=item_removed_flag;expression=1" />
+          <rule action-name="stop-timer" parameter="timer-name=delayed_timer" />
+          <rule action-name="stop-timer" parameter="timer-name=forgiveness_timer" />
+          <rule action-name="stop-timer" parameter="timer-name=unexpected_decrease_timer" />
+          <rule action-name="ResetWeight" />
+          <if expression="!(belt_item_count==0)">
+            <rule action-name="send-msg" parameter="message-name=BackToLGW Clear All" />
+          </if>
+          <else>
+            <rule action-name="NotifyTakeawayBelt" parameter="scale-reads-zero" />
+            <rule action-name="CheckForExceptions" />
+            <rule action-name="ClearAllWtExceptions" />
+          </else>
+        </message-rule-list>
+      </message> 
+      <message name="Unmatched Decrease">
+        <message-rule-list>
+          <rule action-name="HandleTABUnmatchedDecrease" parameter="scan_and_bag_flag;bag_and_eas_flag" />
+          <rule action-name="CheckForExceptions" />
+          <rule action-name="ClearAllWtExceptions" />
+        </message-rule-list>
+      </message>
+      <message name="BackToLGW Clear All">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=BTLGW_ITEM_ENTRY;expression=1" />
+          <rule action-name="send-msg" parameter="message-name=BTLGW_ITEM_ENTRY is 1" />
+          <rule action-name="SetLastGoodWeight" />
+        </message-rule-list>
+      </message>
+      <message name="BTLGW_ITEM_ENTRY is 1">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=BTLGW_ITEM_ENTRY;expression=0" />
+          <rule action-name="ClearAllWtExceptions" />
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <!--<rule action-name="assign-variable" parameter="variable-name=belt_item_count;expression=0" />-->
+        </message-rule-list>
+      </message>
+      <message name="Enter Disable Security Mode">
+        <message-rule-list>
+          <rule action-name="SetLastGoodWeight" />
+          <if expression="CheckForExceptions()">
+            <rule action-name="ClearAllWtExceptions" />
+          </if>
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <transition state-name="Disable Security Mode" />
+        </message-rule-list>
+      </message>
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Item Voided                                                      -->
+    <!-- Function:  State for handling voided item                                -->
+    <!-- Messages:                                                                -->
+    <!-- ======================================================================== -->
+    <state name="Item Voided">
+      <exit-rule-list>
+        <rule action-name="SetLastGoodWeight" parameter="set-lgw-no-expectation" />
+      </exit-rule-list>
+      <message name="Item Details">
+        <message-rule-list>
+          <rule action-name="RemoveItemFromTransaction" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Decrease">
+        <message-rule-list>
+          <if expression="!HandleUnmatchedIncreaseLateCorrection()">
+            <rule action-name="send-msg" parameter="message-name=Void Item Late Correction" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="Void Item Late Correction">
+        <message-rule-list>
+          <rule action-name="ClearLastWtException" />
+          <rule action-name="SetLastGoodWeight" />
+        </message-rule-list>
+      </message>
+      <message name="Item Void End">
+        <message-rule-list>
+          <rule action-name="IsTransactionEmpty">
+            <failure-transition>Item Entry</failure-transition>
+          </rule>
+          <transition state-name="Start" />
+        </message-rule-list>
+      </message>
+      <message name="Enter Scan And Bag">
+        <message-rule-list>
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message> 
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Transaction Voided                                                      -->
+    <!-- Function:  State for handling voided item                                -->
+    <!-- Messages:                                                                -->
+    <!-- ======================================================================== -->
+    <state name="Transaction Voided">
+      <message name="Unmatched Decrease" />
+      <message name="Transaction Continue">
+        <message-rule-list>
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="Transaction Void End">
+        <message-rule-list>
+          <rule action-name="VoidTransaction" />
+          <rule action-name="ClearOutstandingExceptions" />
+          <transition state-name="Complete" />
+        </message-rule-list>
+      </message>
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Finalize                                                         -->
+    <!-- Function:                                                                -->
+    <!-- Messages:                                                                -->
+    <!--      Unmatched Wt                                                        -->
+    <!-- ======================================================================== -->
+    <state name="Finalize">
+      <entry-rule-list>
+        <rule action-name="assign-variable" parameter="variable-name=finalize_flag;expression=1" />
+        <rule action-name="assign-variable" parameter="variable-name=not_finalize_flag;expression=0" />
+        <rule action-name="DisableLateCorrection" />
+      </entry-rule-list>
+      <exit-rule-list>
+        <rule action-name="assign-variable" parameter="variable-name=finalize_flag;expression=0" />
+        <rule action-name="assign-variable" parameter="variable-name=not_finalize_flag;expression=1" />
+      </exit-rule-list>
+	  <!-- Start CRD 280415-->
+	   <!-- We sometimes end up in Finalize while FL is in S&B and the Skip-bagging button doesn't work -->
+	  <message name="Enter Scan And Bag">
+        <message-rule-list>
+         <rule action-name="send-msg" parameter="message-name=Transaction Continue"/>
+        </message-rule-list>
+      </message>
+	  <!-- end CRD 280415 -->
+      <message name="Transaction Continue">
+        <message-rule-list>
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="Throw Exception">
+        <message-rule-list>
+          <rule action-name="SetForgivenessTimeout" parameter="forgiveness_timeout_value" />
+          <if expression="!IsExceptionForgiven(finalize_flag)">
+            <rule action-name="start-timer" parameter="timer-name=forgiveness_timer;duration=forgiveness_timeout_value" />
+          </if>
+          <else>
+            <rule action-name="ThrowException" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Decrease">
+        <message-rule-list>
+          <rule action-name="SaveLastRemovedWeight" />
+          <rule action-name="SetLastGoodWeight" />
+          <rule action-name="ClearAllExceptions" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Increase">
+        <message-rule-list>
+            <rule action-name="HandleTABUnmatchedIncrease" />
+            <rule action-name="SetLastGoodWeight" />
+        </message-rule-list>
+      </message>
+      <message name="SMM Begin">
+        <message-rule-list>
+          <rule action-name="push-state" />
+          <if expression="!SMMBegin()">
+            <rule action-name="SendSMMServerFailure" />
+            <transition state-name="Security Maintenance" />
+          </if>
+          <else>
+            <transition state-name="Security Maintenance" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Transaction End">
+        <message-rule-list>
+          <if expression="!CheckTransactionComplete()">
+            <rule action-name="SendSecurityViolations" />
+            <transition state-name="Complete" />
+          </if>
+          <else>
+	    <rule action-name="SendTransactionEndMessage" />
+            <transition state-name="Complete" />
+          </else>
+        </message-rule-list>
+      </message>
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Complete                                                         -->
+    <!-- Function:                                                                -->
+    <!-- Messages:                                                                -->
+    <!--      Unmatched Wt                                                        -->
+    <!-- ======================================================================== -->
+    <state name="Complete">
+      <entry-rule-list>
+        <rule action-name="assign-variable" parameter="variable-name=ZeroWeightOnComplete_flag;expression=0" />
+        <rule action-name="assign-variable" parameter="variable-name=not_complete_flag;expression=0" />
+        <rule action-name="ClearHoldWeight" />
+        <rule action-name="send-msg" parameter="message-name=CheckForReadScaleForZero" />
+      </entry-rule-list>
+      <exit-rule-list>
+        <rule action-name="assign-variable" parameter="variable-name=not_complete_flag;expression=1" />
+      </exit-rule-list>
+	  <!-- Start CRD 280415 -->
+	  <!-- SSCOB-1192+ -->
+	  <message name="BackToLGW">
+		<message-rule-list>
+			<action name="send-msg" parameter="message-name=CheckForReadScaleForZero"/>
+		</message-rule-list>
+	  </message>
+	  <!-- SSCOB-1192- -->
+	  <!-- end CRD 280415 -->
+      <message name="CheckForReadScaleForZero">
+        <message-rule-list>
+          <if expression="ReadScaleForZero()">
+            <rule action-name="assign-variable" parameter="variable-name=ZeroWeightOnComplete_flag;expression=1" />
+			<rule action-name="send-msg" parameter="message-name=Zero Wt" />
+          </if>
+          <else>
+            <rule action-name="send-msg" parameter="message-name=Zero Wt" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Scale Not Empty">
+        <message-rule-list>
+          <if expression="!CheckForExceptions()">
+            <rule action-name="NotifyTakeawayBelt" parameter="flush-and-finish" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Wt">
+        <message-rule-list>
+          <if expression="!(ZeroWeightOnComplete_flag==0)">
+            <rule action-name="assign-variable" parameter="variable-name=ZeroWeightOnComplete_flag;expression=0" />
+          </if>
+          <else>
+             <if expression="!CheckScaleNotEmpty()">
+              <rule action-name="send-msg" parameter="message-name=Zero Wt" />
+            </if>
+            <else>
+              <rule action-name="HandleTABUnmatchedWt" />
+            </else>
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Zero Wt">
+        <message-rule-list>
+          <rule action-name="ClearAllExceptions" />
+          <rule action-name="ResetTransaction" />
+          <rule action-name="SendTransactionComplete" />
+          <transition state-name="Idle" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Decrease">
+        <message-rule-list>
+          <rule action-name="SaveLastRemovedWeight" />
+          <rule action-name="SetLastGoodWeight" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Increase">
+        <message-rule-list>
+            <rule action-name="HandleTABUnmatchedIncrease" />
+            <rule action-name="SetLastGoodWeight" />
+        </message-rule-list>
+      </message>
+      <message name="Transaction Expired">
+        <message-rule-list>
+          <rule action-name="SetBeginningTransLGW" parameter="set-beginningtranslgw-attract" />
+          <rule action-name="send-msg" parameter="message-name=Zero Wt" />
+        </message-rule-list>
+      </message>
+      <message name="Takeaway Belt - Ready">
+        <message-rule-list>
+          <!--<rule action-name="ReadyTABForNextItem" />
+          <rule action-name="SendTABStatus" parameter="enable-scanner" />-->
+          <if expression="!CheckScaleNotEmpty()">
+            <rule action-name="send-msg" parameter="message-name=Zero Wt" />
+          </if>
+        </message-rule-list>
+      </message>
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Security Maintenance                                             -->
+    <!-- Function:                                                                -->
+    <!-- Messages:                                                                -->
+    <!--      Unmatched Wt                                                        -->
+    <!-- ======================================================================== -->
+    <state name="Security Maintenance">
+      <entry-rule-list>
+        <rule action-name="SetSMMCurrentWeight" />
+        <rule action-name="ClearHoldWeight" />
+      </entry-rule-list>
+      <message name="SMM Query">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter;expression=0" />
+          <if expression="!SMMQuery()">
+            <rule action-name="SendSMMServerFailure" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="SMM Tolerance">
+        <message-rule-list>
+          <rule action-name="SaveSMMToleranceData" />
+          <if expression="!GetSMMWLDBData()">
+            <rule action-name="SendSMMServerFailure" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="DB Response">
+        <message-rule-list>
+          <rule action-name="SMMDBResponse" />
+        </message-rule-list>
+      </message>
+      <message name="SMM WLDB Weight">
+        <message-rule-list>
+          <rule action-name="increment-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter" />
+          <rule action-name="BuildSMMQueryResponse" />
+          <rule action-name="SendSMMQueryResponse" />
+          <rule action-name="assign-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter;expression=0" />
+        </message-rule-list>
+      </message>
+      <message name="SMM Update - Add Weight">
+        <message-rule-list>
+          <transition state-name="Security Maintenance - Add Weight" />
+        </message-rule-list>
+      </message>
+      <message name="SMM Update - Add Zero">
+        <message-rule-list>
+          <if expression="!SMMUpdateDeleteAllWts()">
+            <rule action-name="SendSMMServerFailure" />
+            <transition state-name="Security Maintenance" />
+          </if>
+          <else>
+            <if expression="!SMMUpdateDeleteAllWts()">
+              <rule action-name="SendSMMServerFailure" />
+              <transition state-name="Security Maintenance" />
+            </if>
+            <else>
+              <if expression="!SMMUpdateAddZero()">
+                <rule action-name="SendSMMServerFailure" />
+                <transition state-name="Security Maintenance" />
+              </if>
+              <else>
+                <transition state-name="Security Maintenance - Add Zero Wt" />
+              </else>
+            </else>
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="SMM Update - Add Tolerance">
+        <message-rule-list>
+          <if expression="!SMMCheckToleranceValue()">
+            <rule action-name="SendSMMUpdateAddToleranceResponse" />
+            <transition state-name="Security Maintenance" />
+          </if>
+          <else>
+            <if expression="!SMMUpdateAddTolerance()">
+              <rule action-name="SendSMMServerFailure" />
+              <transition state-name="Security Maintenance" />
+            </if>
+            <else>
+              <transition state-name="Security Maintenance - Add Tolerance" />
+            </else>
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="SMM Update - Delete Tolerance">
+        <message-rule-list>
+          <if expression="!SMMUpdateDeleteTolerance()">
+            <rule action-name="SendSMMServerFailure" />
+            <transition state-name="Security Maintenance" />
+          </if>
+          <else>
+            <transition state-name="Security Maintenance - Delete Tolerance" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="SMM Update - Delete All Weights">
+        <message-rule-list>
+          <if expression="!SMMUpdateDeleteAllWts()">
+            <rule action-name="SendSMMServerFailure" />
+            <transition state-name="Security Maintenance" />
+          </if>
+          <else>
+            <transition state-name="Security Maintenance - Delete All Wts" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="SMM Update - Add Substitution Check">
+        <message-rule-list>
+          <if expression="!SMMUpdateAddSubstitutionCheck()">
+            <rule action-name="SendSMMServerFailure" />
+            <transition state-name="Security Maintenance" />
+          </if>
+          <else>
+            <transition state-name="Security Maintenance - Add Substitution Check" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="SMM Update - Add Wt Required">
+        <message-rule-list>
+          <if expression="!SMMUpdateAddWtRequired()">
+            <rule action-name="SendSMMServerFailure" />
+            <transition state-name="Security Maintenance" />
+          </if>
+          <else>
+            <transition state-name="Security Maintenance - Add Wt Required" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="SMM End">
+        <message-rule-list>
+          <rule action-name="SMMEnd" />
+          <rule action-name="SetLastGoodWeight" />
+          <rule action-name="pop-state" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Decrease" />
+      <message name="Unmatched Increase">
+        <message-rule-list>
+          <rule action-name="HandleSMMUnmatchedIncrease" />
+          <rule action-name="SendSMMObservedWeight" />
+        </message-rule-list>
+      </message>
+      <message name="BackToLGW">
+        <message-rule-list>
+          <rule action-name="ResetWeight" />
+          <rule action-name="ResetSMMObservedWeight" />
+          <rule action-name="SendSMMObservedWeight" parameter="read-from-scale" />
+        </message-rule-list>
+      </message>
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Security Maintenance - Add Weight                                -->
+    <!-- Function:                                                                -->
+    <!-- Messages:                                                                -->
+    <!--      Unmatched Wt                                                        -->
+    <!-- ======================================================================== -->
+    <state name="Security Maintenance - Add Weight">
+      <entry-rule-list>
+        <rule action-name="SetSMMCurrentWeight" />
+        <rule action-name="SetLastGoodWeight" />
+      </entry-rule-list>
+      <message name="Unmatched Wt">
+        <message-rule-list>
+          <rule action-name="HandleTABUnmatchedWt" parameter="allow-all" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Increase">
+        <message-rule-list>
+          <rule action-name="HandleSMMUnmatchedIncrease" />
+          <if expression="!SMMAddWtToWLDB()">
+            <rule action-name="SendSMMServerFailure" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="SMM WLDB Update Complete">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter;expression=0" />
+          <if expression="!SMMQuery()">
+            <rule action-name="SendSMMServerFailure" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="SMM Tolerance">
+        <message-rule-list>
+          <rule action-name="SaveSMMToleranceData" />
+          <if expression="!GetSMMWLDBData()">
+            <rule action-name="SendSMMServerFailure" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="DB Response">
+        <message-rule-list>
+          <rule action-name="SMMDBResponse" />
+        </message-rule-list>
+      </message>
+      <message name="SMM WLDB Weight">
+        <message-rule-list>
+          <rule action-name="increment-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter" />
+          <rule action-name="BuildSMMQueryResponse" />
+          <rule action-name="SendSMMQueryResponse" />
+          <rule action-name="assign-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter;expression=0" />
+          <transition state-name="Security Maintenance" />
+        </message-rule-list>
+      </message>
+      <message name="SMM Cancel">
+        <message-rule-list>
+          <transition state-name="Security Maintenance" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Decrease"/>
+      <message name="BackToLGW" />
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Security Maintenance - Add Tolerance                                -->
+    <!-- Function:                                                                -->
+    <!-- Messages:                                                                -->
+    <!--                                                              -->
+    <!-- ======================================================================== -->
+    <state name="Security Maintenance - Add Tolerance">
+      <entry-rule-list>
+        <rule action-name="SetHoldWeight" />
+      </entry-rule-list>
+      <exit-rule-list>
+        <rule action-name="ClearHoldWeight" />
+      </exit-rule-list>
+      <message name="SMM Tolerance">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter;expression=0" />
+          <if expression="!GetSMMWLDBData()">
+            <rule action-name="SendSMMServerFailure" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="DB Response">
+        <message-rule-list>
+          <rule action-name="SMMDBResponse" />
+        </message-rule-list>
+      </message>
+      <message name="SMM WLDB Weight">
+        <message-rule-list>
+          <rule action-name="increment-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter" />
+          <rule action-name="BuildSMMQueryResponse" />
+          <rule action-name="SendSMMQueryResponse" />
+          <rule action-name="assign-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter;expression=0" />
+          <transition state-name="Security Maintenance" />
+        </message-rule-list>
+      </message>
+      <message name="SMM Cancel">
+        <message-rule-list>
+          <transition state-name="Security Maintenance" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Wt" />
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Security Maintenance - Add Substitution Check                                -->
+    <!-- Function:                                                                -->
+    <!-- Messages:                                                                -->
+    <!--                                                              -->
+    <!-- ======================================================================== -->
+    <state name="Security Maintenance - Add Substitution Check">
+      <entry-rule-list>
+        <rule action-name="SetHoldWeight" />
+      </entry-rule-list>
+      <exit-rule-list>
+        <rule action-name="ClearHoldWeight" />
+      </exit-rule-list>
+      <message name="SMM Tolerance">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter;expression=0" />
+          <if expression="!GetSMMWLDBData()">
+            <rule action-name="SendSMMServerFailure" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="DB Response">
+        <message-rule-list>
+          <rule action-name="SMMDBResponse" />
+        </message-rule-list>
+      </message>
+      <message name="SMM WLDB Weight">
+        <message-rule-list>
+          <rule action-name="increment-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter" />
+          <rule action-name="BuildSMMQueryResponse" />
+          <rule action-name="SendSMMQueryResponse" />
+          <rule action-name="assign-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter;expression=0" />
+          <transition state-name="Security Maintenance" />
+        </message-rule-list>
+      </message>
+      <message name="SMM Cancel">
+        <message-rule-list>
+          <transition state-name="Security Maintenance" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Wt" />
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Security Maintenance - Add Wt Required                                -->
+    <!-- Function:                                                                -->
+    <!-- Messages:                                                                -->
+    <!--                                                              -->
+    <!-- ======================================================================== -->
+    <state name="Security Maintenance - Add Wt Required">
+      <entry-rule-list>
+        <rule action-name="SetHoldWeight" />
+      </entry-rule-list>
+      <exit-rule-list>
+        <rule action-name="ClearHoldWeight" />
+      </exit-rule-list>
+      <message name="SMM Tolerance">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter;expression=0" />
+          <if expression="!GetSMMWLDBData()">
+            <rule action-name="SendSMMServerFailure" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="DB Response">
+        <message-rule-list>
+          <rule action-name="SMMDBResponse" />
+        </message-rule-list>
+      </message>
+      <message name="SMM WLDB Weight">
+        <message-rule-list>
+          <rule action-name="increment-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter" />
+          <rule action-name="BuildSMMQueryResponse" />
+          <rule action-name="SendSMMQueryResponse" />
+          <rule action-name="assign-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter;expression=0" />
+          <transition state-name="Security Maintenance" />
+        </message-rule-list>
+      </message>
+      <message name="SMM Cancel">
+        <message-rule-list>
+          <transition state-name="Security Maintenance" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Wt" />
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Security Maintenance - Add Zero Wt                                -->
+    <!-- Function:                                                                -->
+    <!-- Messages:                                                                -->
+    <!--                                                             -->
+    <!-- ======================================================================== -->
+    <state name="Security Maintenance - Add Zero Wt">
+      <entry-rule-list>
+        <rule action-name="SetHoldWeight" />
+      </entry-rule-list>
+      <exit-rule-list>
+        <rule action-name="ClearHoldWeight" />
+      </exit-rule-list>
+      <message name="SMM WLDB Update Complete">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter;expression=0" />
+          <if expression="!SMMQuery()">
+            <rule action-name="SendSMMServerFailure" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="SMM Tolerance">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter;expression=0" />
+          <if expression="!GetSMMWLDBData()">
+            <rule action-name="SendSMMServerFailure" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="DB Response">
+        <message-rule-list>
+          <rule action-name="SMMDBResponse" />
+        </message-rule-list>
+      </message>
+      <message name="SMM WLDB Weight">
+        <message-rule-list>
+          <rule action-name="increment-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter" />
+          <rule action-name="BuildSMMQueryResponse" />
+          <rule action-name="SendSMMQueryResponse" />
+          <rule action-name="assign-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter;expression=0" />
+          <transition state-name="Security Maintenance" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Wt" />
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Security Maintenance - Delete All Wts                                -->
+    <!-- Function:                                                                -->
+    <!-- Messages:                                                                -->
+    <!--                                                            -->
+    <!-- ======================================================================== -->
+    <state name="Security Maintenance - Delete All Wts">
+      <entry-rule-list>
+        <rule action-name="SetHoldWeight" />
+      </entry-rule-list>
+      <exit-rule-list>
+        <rule action-name="ClearHoldWeight" />
+      </exit-rule-list>
+      <message name="SMM WLDB Update Complete">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter;expression=0" />
+          <if expression="!SMMQuery()">
+            <rule action-name="SendSMMServerFailure" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="SMM Tolerance">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter;expression=0" />
+          <if expression="!GetSMMWLDBData()">
+            <rule action-name="SendSMMServerFailure" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="DB Response">
+        <message-rule-list>
+          <rule action-name="SMMDBResponse" />
+        </message-rule-list>
+      </message>
+      <message name="SMM WLDB Weight">
+        <message-rule-list>
+          <rule action-name="increment-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter" />
+          <rule action-name="BuildSMMQueryResponse" />
+          <rule action-name="SendSMMQueryResponse" />
+          <rule action-name="assign-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter;expression=0" />
+          <transition state-name="Security Maintenance" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Wt" />
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Security Maintenance - Delete Tolerance                                -->
+    <!-- Function:                                                                -->
+    <!-- Messages:                                                                -->
+    <!--                                                            -->
+    <!-- ======================================================================== -->
+    <state name="Security Maintenance - Delete Tolerance">
+      <entry-rule-list>
+        <rule action-name="SetHoldWeight" />
+      </entry-rule-list>
+      <exit-rule-list>
+        <rule action-name="ClearHoldWeight" />
+      </exit-rule-list>
+      <message name="SMM Tolerance">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter;expression=0" />
+          <if expression="!GetSMMWLDBData()">
+            <rule action-name="SendSMMServerFailure" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="DB Response">
+        <message-rule-list>
+          <rule action-name="SMMDBResponse" />
+        </message-rule-list>
+      </message>
+      <message name="SMM WLDB Weight">
+        <message-rule-list>
+          <rule action-name="increment-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter" />
+          <rule action-name="BuildSMMQueryResponse" />
+          <rule action-name="SendSMMQueryResponse" />
+          <rule action-name="assign-variable" parameter="variable-name=SMM_WLDB_wt_entry_counter;expression=0" />
+          <transition state-name="Security Maintenance" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Wt" />
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Assist Mode                                                      -->
+    <!-- Function:  State for handling items in assist mode                       -->
+    <!-- Messages:                                                                -->
+    <!-- ======================================================================== -->
+    <state name="Assist Mode">
+      <entry-rule-list>
+        <rule action-name="SetHoldWeight" />
+      </entry-rule-list>
+      <message name="Skip Bagging">
+        <message-rule-list>
+          <rule action-name="CheckSkipBagging" parameter="not-check-skip-bagging-threshold" />
+        </message-rule-list>
+      </message>
+      <message name="Transaction Begin">
+        <message-rule-list>
+          <rule action-name="StartTransaction" />
+		  <rule action-name="SendAttractIdleTimeToTransactionPolicy"/>
+          <rule action-name="SetBeginningTransLGW" />
+          <rule action-name="CheckForExceptions" />
+          <rule action-name="SetLastGoodWeight" />
+        </message-rule-list>
+      </message>
+      <message name="Dept Details" />
+      <message name="Item Sold">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=skip_bagging_in_multi_pick_flag;expression=0" />
+          <rule action-name="ResetAtItemScanForTAB" />
+          <if expression="!AddItemToTransaction()">
+            <rule action-name="ItemNotScannedAdjustment" />
+            <transition state-name="Assist Mode - Item In Progress" />
+          </if>
+          <else>
+            <transition state-name="Assist Mode - Item In Progress" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Exit Assist Mode">
+        <message-rule-list>
+          <rule action-name="pop-state" />
+		  <rule action-name="assign-variable" parameter="variable-name=enter_AssistMode;expression=0" />
+		  <if expression="enter_AssistMode_From_Idle!=0">
+		      <rule action-name="assign-variable" parameter="variable-name=enter_AssistMode_From_Idle;expression=0" />
+		      <transition state-name="Idle" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="Enter Scan And Bag">
+        <message-rule-list>
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="Transaction Void Begin">
+        <message-rule-list>
+          <transition state-name="Assist Mode" />
+        </message-rule-list>
+      </message>
+      <message name="Item Details">
+        <message-rule-list>
+          <if expression="!CheckItemDetails()">
+            <rule action-name="send-msg" parameter="message-name=Item Not Sellable" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="Item Not Sellable">
+        <message-rule-list>
+          <rule action-name="SendGoToScanAndBag" />
+        </message-rule-list>
+      </message>
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Assist Mode - Item In Progress                                   -->
+    <!-- Function:  ItemSold has been received and we are waiting on the details  -->
+    <!-- Messages:                                                                -->
+    <!--      DB Response                                                         -->
+    <!-- ======================================================================== -->
+    <state name="Assist Mode - Item In Progress">
+      <message name="Item Details">
+        <message-rule-list>
+          <if expression="!CheckItemDetails()">
+            <rule action-name="NotifyTakeawayBelt" parameter="stop-belt" />
+            <transition state-name="Assist Mode" />
+          </if>
+          <else>
+            <rule action-name="NotifyTakeawayBelt" parameter="item-scan" />
+            <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+            <transition state-name="Assist Mode" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Enter Scan And Bag">
+        <message-rule-list>
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="Transaction Begin">
+        <message-rule-list>
+          <rule action-name="StartTransaction" />
+          <rule action-name="SendAttractIdleTimeToTransactionPolicy"/>
+          <rule action-name="SetBeginningTransLGW" />
+          <rule action-name="CheckForExceptions" />
+          <rule action-name="SetLastGoodWeight" />
+        </message-rule-list>
+      </message>
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Remote Assist Mode                                               -->
+    <!-- Function:  State for handling items in assist mode.  Ignores weight      -->
+    <!-- changes until exit time.  Does not move the belt because during this     -->
+    <!-- state, cashier is at RAP terminal not at the lane.  Do not want to let   -->
+    <!-- customer or proxy at lane add anything to belt and have it transported.  -->
+    <!-- ======================================================================== -->
+    <state name="Remote Assist Mode">
+      <message name="Item Details">
+        <message-rule-list>
+          <rule action-name="CheckItemDetails" />
+        </message-rule-list>
+      </message>
+      <message name="Transaction Begin">
+        <message-rule-list>
+          <rule action-name="StartTransaction" />
+		  <rule action-name="SendAttractIdleTimeToTransactionPolicy"/>
+          <rule action-name="SetBeginningTransLGW" />
+          <rule action-name="CheckForExceptions" />
+          <rule action-name="SetLastGoodWeight" />
+        </message-rule-list>
+      </message>
+      <message name="Dept Details" />
+      <message name="Item Sold">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=skip_bagging_in_multi_pick_flag;expression=0" />
+          <rule action-name="ResetAtItemScanForTAB" />
+          <if expression="!AddItemToTransaction()">
+            <rule action-name="ItemNotScannedAdjustment" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="Exit Remote Assist Mode">
+        <message-rule-list>
+          <rule action-name="pop-state" />
+        </message-rule-list>
+      </message>
+      <message name="Enter Scan And Bag">
+        <message-rule-list>
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="Takeaway Belt - Ready">
+        <message-rule-list>
+          <rule action-name="SendTABStatus" parameter="enable-scanner" />
+        </message-rule-list>
+      </message>
+	  <!-- Start CRD 280415 -->
+	  <message name="Resume Weight Command">
+		<message-rule-list>
+			<rule action-name="SetLastGoodWeight"/>
+			<rule action-name="SetBeginningTransLGW" parameter="set-beginningtranslgw-attract"/>
+			<rule action-name="send-msg" parameter="message-name=Zero Wt"/>
+		</message-rule-list>
+	  </message>
+	  <message name="Zero Wt">
+		<message-rule-list>
+			<rule action-name="ClearAllExceptions"/>
+			<rule action-name="ResetTransaction"/>
+			<rule action-name="SendTransactionComplete"/>
+			<transition state-name="Remote Assist Mode"/>
+		</message-rule-list>
+	  </message>
+	  <!-- end CRD 280415 -->
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Wait Scale - Allow Late Bagging                                  -->
+    <!-- Function:                                                                -->
+    <!-- Messages:                                                                -->
+    <!--                                                                          -->
+    <!--                                                                          -->
+    <!-- ======================================================================== -->
+    <state name="Wait Scale - Allow Late Bagging">
+      <message name="Unmatched Decrease">
+        <message-rule-list>
+          <if expression="(belt_item_count==1)">
+             <rule action-name="HandleTABUnmatchedDecrease" parameter="scan_and_bag_flag;bag_and_eas_flag" />
+          </if>
+          <else>
+             <if expression="(belt_item_count==2)">
+                <rule action-name="SetLastGoodWeight" parameter="set-beginning-lgw" />
+             </if>
+          </else>
+          <rule action-name="CheckForExceptions" />
+          <rule action-name="ClearAllWtExceptions" />
+        </message-rule-list>
+      </message>
+      <message name="Clear All Exceptions No Change State">
+        <message-rule-list>
+          <rule action-name="ClearDelayedException" parameter="flags-clear-remove-exception" />
+          <rule action-name="evaluate-expression" parameter="tare_only_flag==0" />
+        </message-rule-list>
+      </message>
+      <message name="Item Sold">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=skip_bagging_in_multi_pick_flag;expression=0" />
+          <rule action-name="increment-variable" parameter="variable-name=X" />
+          <rule action-name="SetHoldWeight" />
+          <rule action-name="ResetAtItemScanForTAB" />
+          <if expression="!AddItemToTransaction()">
+            <rule action-name="ItemNotScannedAdjustment" />
+            <transition state-name="Wait DB" />
+          </if>
+          <else>
+            <rule action-name="SetHoldWeight" />
+            <rule action-name="SendDBRequest" />
+            <rule action-name="start-timer" parameter="timer-name=db_lookup_timer;duration=1000" />
+            <transition state-name="Wait DB" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Matched Wt">
+        <message-rule-list>
+          <rule action-name="HandleTABMatchedWt" />
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <rule action-name="IsNotQuantityItem">
+            <failure-transition>Wait Scale - Quantity Item</failure-transition>
+          </rule>
+          <rule action-name="ValidateItem" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Increase">
+        <message-rule-list>
+          <if expression="!HandleTABUnmatchedIncrease()">
+            <rule action-name="NotifyTakeawayBelt" parameter="stable-bad-weight" />
+          </if>
+          <else>
+            <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+            <rule action-name="ValidateItem" />
+            <transition state-name="Item Entry" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="BackToLGW">
+        <message-rule-list>
+          <rule action-name="stop-timer" parameter="timer-name=delayed_timer" />
+          <rule action-name="stop-timer" parameter="timer-name=forgiveness_timer" />
+          <rule action-name="stop-timer" parameter="timer-name=unexpected_decrease_timer" />
+          <rule action-name="ResetWeight" />
+          <rule action-name="CheckForExceptions" />
+          <if expression="!IsNotQuantityItem()">
+            <rule action-name="ClearAllMismatchesThisItem" />
+          </if>
+          <else>
+            <rule action-name="ClearLastWtException" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Throw Exception">
+        <message-rule-list>
+          <if expression="!IsNotQuantityItem()">
+            <rule action-name="ThrowException" />
+          </if>
+          <else>
+            <rule action-name="SetForgivenessTimeout" parameter="forgiveness_timeout_value" />
+            <if expression="!IsExceptionForgiven(finalize_flag;bag_and_eas_flag;scan_and_bag_flag)">
+              <rule action-name="start-timer" parameter="timer-name=forgiveness_timer;duration=forgiveness_timeout_value" />
+            </if>
+            <else>
+              <rule action-name="IsExceptionInterventionReq" parameter="scan_and_bag_flag;bag_and_eas_flag" />
+              <rule action-name="SetDelayedTimeout" parameter="delayed_timeout_value" />
+              <if expression="!IsExceptionDelayed(not_finalize_flag;not_complete_flag)">
+                <rule action-name="start-timer" parameter="timer-name=delayed_timer;duration=delayed_timeout_value" />
+              </if>
+              <else>
+                <rule action-name="ThrowException" />
+              </else>
+            </else>
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="forgiveness_timer_timeout">
+        <message-rule-list>
+          <rule action-name="UpdateWLDBForgivenMismatch" />
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <rule action-name="ClearForgivenException" />
+          <rule action-name="ValidateItem" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="delayed_timer_timeout">
+        <message-rule-list>
+          <rule action-name="UpdateWLDBDelayedNewItemThreshold" />
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <rule action-name="ClearDelayedException" parameter="flags-clear-report-only" />
+          <if expression="!(attract_quiet_mode_violation==0)">
+            <rule action-name="send-msg" parameter="message-name=Attract Quiet Mode Violation" />
+          </if>
+          <else>
+            <rule action-name="ValidateItem" />
+            <transition state-name="Item Entry" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Clear Exception">
+        <message-rule-list>
+          <rule action-name="ClearException" />
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <if expression="!(attract_quiet_mode_violation==0)">
+            <rule action-name="send-msg" parameter="message-name=Attract Quiet Mode Violation" />
+          </if>
+          <else>
+            <rule action-name="ValidateItem" />
+            <transition state-name="Item Entry" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Attract Quiet Mode Violation">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=attract_quiet_mode_violation;expression=0" />
+          <rule action-name="SetLastGoodWeight" parameter="set-lgw-no-expectation" />
+          <rule action-name="SetBeginningTransLGW" parameter="set-beginningtranslgw-attract" />
+        </message-rule-list>
+      </message>
+      <message name="Clear Exception - All Wt Changes">
+        <message-rule-list>
+          <rule action-name="ClearException" />
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <rule action-name="ValidateItem" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="Clear All Exceptions">
+        <message-rule-list>
+          <rule action-name="ClearAllExceptions" />
+        </message-rule-list>
+      </message>
+      <message name="Clear Exception with Update">
+        <message-rule-list>
+          <rule action-name="UpdateWLDB" />
+          <if expression="!ClearException()">
+            <rule action-name="ClearAllExceptions" />
+          </if>
+          <else>
+            <rule action-name="SetLastGoodWeight" />
+            <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+            <rule action-name="ValidateItem" />
+            <transition state-name="Item Entry" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Clear Allow Late Bagging">
+        <message-rule-list>
+          <rule action-name="send-msg" parameter="message-name=Late Bagging Not Allowed" />
+          <rule action-name="ValidateItem" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="Bag Box Button Pressed">
+        <message-rule-list>
+          <rule action-name="CheckBagBox" />
+          <rule action-name="ValidateItem" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="RAP Approved Wt">
+        <message-rule-list>
+          <rule action-name="HandleRAPApprovedWt" />
+          <rule action-name="NotifyTakeawayBelt" parameter="skip-bagging" />
+          <rule action-name="ValidateItem" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="Item Expired">
+        <message-rule-list>
+          <rule action-name="SetLastGoodWeight" />
+          <rule action-name="HandleRAPApprovedWt" />
+          <rule action-name="NotifyTakeawayBelt" parameter="skip-bagging" />
+          <rule action-name="ValidateItem" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="Item Not Sellable">
+        <message-rule-list>
+          <rule action-name="ValidateItem" />
+          <rule action-name="IsTransactionEmpty">
+            <failure-transition>Item Entry</failure-transition>
+          </rule>
+          <transition state-name="Start" />
+        </message-rule-list>
+      </message>
+      <message name="Item Details">
+        <message-rule-list>
+          <if expression="!CheckItemDetails()">
+            <rule action-name="send-msg" parameter="message-name=Item Not Sellable" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="Takeaway Belt - Item Moved Off Belt1">
+        <message-rule-list>
+          <rule action-name="decrement-variable" parameter="variable-name=belt_item_count" />
+          <rule action-name="SetLastGoodWeight" parameter="set-beginning-lgw" />
+        </message-rule-list>
+      </message>
+      <message name="Skip Bagging">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=skip_bagging_in_multi_pick_flag;expression=1" />
+          <rule action-name="IsNoWtInterventionOutstanding" />
+          <rule action-name="ValidateItem" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>      
+      <message name="Enter Disable Security Mode">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=go_to_last_state;expression=1" />
+          <if expression="CheckForExceptions()">
+            <rule action-name="ClearAllExceptions" />
+          </if>
+          <rule action-name="SetLastGoodWeight" />
+          <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+          <rule action-name="SendItemOK" parameter="send-item-ok" />
+          <rule action-name="ValidateItem" />
+          <transition state-name="Disable Security Mode" />
+        </message-rule-list>
+      </message>
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Disable Security Mode                                            -->
+    <!-- Function:  State for handling items in Disable Security mode             -->
+    <!-- Messages:                                                                -->
+    <!-- ======================================================================== -->
+    <state name="Disable Security Mode">
+      <entry-rule-list>
+          <if expression="(receive_exit_disable_security_msg==1)">
+            <rule action-name="assign-variable" parameter="variable-name=receive_exit_disable_security_msg;expression=0" />
+            <rule action-name="send-msg" parameter="message-name=Exit Disable Security Mode" />
+          </if>
+      </entry-rule-list>
+      <message name="Enter Assist Mode">
+          <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=enter_AssistMode;expression=1" />
+          </message-rule-list>
+      </message>
+      <message name="Exit Assist Mode">
+          <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=enter_AssistMode;expression=0" />
+          </message-rule-list>
+      </message>
+      <message name="Device Failure">
+        <message-rule-list>         
+        </message-rule-list>
+      </message>
+      <message name="Skip Bagging">
+        <message-rule-list>
+          <if expression="!(multi_pick_flag==0)">
+            <rule action-name="send-msg" parameter="message-name=Skip Bagging3" />
+          </if>
+        </message-rule-list>
+      </message>
+      <message name="Skip Bagging3">
+        <message-rule-list>
+          <rule action-name="CheckSkipBagging" parameter="not-check-skip-bagging-threshold" />
+          <rule action-name="SendItemOK" parameter="not-send-item-ok" />
+        </message-rule-list>
+      </message>
+      <message name="Transaction Begin">
+        <message-rule-list>
+          <rule action-name="StartTransaction" />
+          <rule action-name="SendAttractIdleTimeToTransactionPolicy"/>
+          <rule action-name="SetBeginningTransLGW" />
+          <rule action-name="CheckForExceptions" />
+          <rule action-name="SetLastGoodWeight" />
+          <transition state-name="Disable Security Mode - Start" />
+        </message-rule-list>
+      </message>
+      <message name="Dept Details" />
+      <message name="Item Sold">
+        <message-rule-list>
+            <transition state-name="Disable Security Mode - Item In Progress" />
+        </message-rule-list>
+      </message>
+      <message name="Exit Disable Security Mode">
+        <message-rule-list>
+          <rule action-name="SetLastGoodWeight" />
+          <if expression="!(finalize_flag==0)">
+            <transition state-name="Finalize" />
+          </if>
+          <else>
+            <if expression="!(not_complete_flag==1)">
+              <transition state-name="Complete" />
+            </if>
+            <else>
+              <if expression="!(security_disable_transaction_void==0)">
+                <rule action-name="assign-variable" parameter="variable-name=security_disable_transaction_void;expression=0" />
+                <transition state-name="Transaction Void" />
+              </if>
+              <else>
+                <if expression="!(security_disable_item_void==0)">
+                  <rule action-name="assign-variable" parameter="variable-name=security_disable_transaction_void;expression=0" />
+                  <transition state-name="Item Void" />
+                </if>
+                <else>
+                      <transition state-name="Item Entry" />
+              </else>
+            </else>
+          </else>
+          </else>
+          <rule action-name="pop-state" />
+        </message-rule-list>
+      </message>
+      <message name="Enter Scan And Bag"/>
+      <message name="Transaction End">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=finalize_flag;expression=0" />
+          <rule action-name="assign-variable" parameter="variable-name=not_finalize_flag;expression=1" />
+          <rule action-name="assign-variable" parameter="variable-name=ZeroWeightOnComplete_flag;expression=0" />
+          <rule action-name="assign-variable" parameter="variable-name=not_complete_flag;expression=0" />
+          <rule action-name="send-msg" parameter="message-name=Zero Wt" />
+        </message-rule-list>
+      </message>
+      <message name="Transaction Void Begin">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=security_disable_transaction_void;expression=1" />
+        </message-rule-list>
+      </message>
+      <message name="Transaction Void End">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=security_disable_transaction_void;expression=0" />
+        </message-rule-list>
+      </message>
+      <message name="Item Void Begin">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=security_disable_item_void;expression=1" />
+        </message-rule-list>
+      </message>
+      <message name="Item Void End">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=security_disable_item_void;expression=1" />
+        </message-rule-list>
+      </message>
+      <message name="Zero Wt">
+        <message-rule-list>
+          <rule action-name="ClearAllExceptions" />
+          <rule action-name="ResetTransaction" />
+          <rule action-name="SendTransactionComplete" />
+          <rule action-name="assign-variable" parameter="variable-name=not_complete_flag;expression=1" />
+          <transition state-name="Idle" />
+        </message-rule-list>
+      </message>
+      <message name="Transaction Finalize">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=finalize_flag;expression=1" />
+          <rule action-name="assign-variable" parameter="variable-name=not_finalize_flag;expression=0" />
+        </message-rule-list>
+      </message>
+       <message name="Transaction Expired">
+        <message-rule-list>
+          <rule action-name="SetBeginningTransLGW" parameter="set-beginningtranslgw-attract" />
+          <rule action-name="send-msg" parameter="message-name=Zero Wt" />
+        </message-rule-list>
+      </message>
+      <message name="Item Details">
+        <message-rule-list>
+           <rule action-name="send-msg" parameter="message-name=Item Not Sellable" />
+        </message-rule-list>
+      </message>
+      <message name="Item Not Sellable">
+        <message-rule-list>
+          <rule action-name="SendGoToScanAndBag" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Wt">
+        <message-rule-list>
+          <rule action-name="SetLastGoodWeight" />
+          <rule action-name="NotifyTakeawayBelt" parameter="flush-and-finish" />
+        </message-rule-list>
+      </message>
+      <message name="BackToLGW"/>
+      <message name="Exit MultiPick Inside Disable Security Mode">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=multi_pick_flag;expression=0" />
+          <rule action-name="SendItemPickFinish" />
+        </message-rule-list>
+      </message>
+      <message name="Transaction Continue"/>
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Disable Security Mode - Item In Progress                         -->
+    <!-- Function:  ItemSold has been received and we are waiting on the details  -->
+    <!-- Messages:                                                                -->
+    <!-- ======================================================================== -->
+    <state name="Disable Security Mode - Item In Progress">
+      <message name="Item Details">
+        <message-rule-list>
+          <if expression="!CheckItemDetails()">
+            <rule action-name="NotifyTakeawayBelt" parameter="stop-belt" />
+            <transition state-name="Disable Security Mode" />
+          </if>
+          <else>
+            <rule action-name="NotifyTakeawayBelt" parameter="item-scan" />
+            <rule action-name="NotifyTakeawayBelt" parameter="stable-good-weight" />
+            <transition state-name="Disable Security Mode" />
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="Item Not Sellable">
+        <message-rule-list>
+          <rule action-name="SendGoToScanAndBag" />
+          <transition state-name="Disable Security Mode" />
+        </message-rule-list>
+      </message>
+      <message name="Enter Scan And Bag">
+        <message-rule-list>
+          <transition state-name="Disable Security Mode" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Wt">
+        <message-rule-list>
+          <rule action-name="NotifyTakeawayBelt" parameter="flush-and-finish" />
+          <rule action-name="SetLastGoodWeight" />
+        </message-rule-list>
+      </message>
+      <message name="BackToLGW"/>
+      <message name="Exit MultiPick Inside Disable Security Mode">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=multi_pick_flag;expression=0" />
+          <rule action-name="SendItemPickFinish" />
+        </message-rule-list>
+      </message>
+      <message name="Exit Disable Security Mode">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=receive_exit_disable_security_msg;expression=1" />
+        </message-rule-list>
+      </message>
+      <message name="Transaction Begin">
+        <message-rule-list>
+          <rule action-name="StartTransaction" />
+          <rule action-name="SendAttractIdleTimeToTransactionPolicy"/>
+          <rule action-name="SetBeginningTransLGW" />
+          <rule action-name="CheckForExceptions" />
+          <rule action-name="SetLastGoodWeight" />
+          <transition state-name="Disable Security Mode - Start" />
+        </message-rule-list>
+      </message>
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Disable Security Mode - Idle                                     -->
+    <!-- Function:  State for handling outside of transaction in Disable Security mode             -->
+    <!-- Messages:                                                                -->
+    <!-- ======================================================================== -->
+    <state name="Disable Security Mode - Idle">
+      <message name="Transaction Begin">
+        <message-rule-list>
+          <rule action-name="StartTransaction" />
+          <rule action-name="SendAttractIdleTimeToTransactionPolicy"/>
+          <rule action-name="SetBeginningTransLGW" />
+          <rule action-name="CheckForExceptions" />
+          <rule action-name="SetLastGoodWeight" />
+          <transition state-name="Disable Security Mode - Start" />
+        </message-rule-list>
+      </message>
+      <message name="Exit Disable Security Mode">
+        <message-rule-list>
+          <rule action-name="SetLastGoodWeight" />
+          <transition state-name="Idle" />
+        </message-rule-list>
+      </message>
+      <message name="Enter Scan And Bag"/>
+      <message name="Unmatched Wt">
+        <message-rule-list>
+          <rule action-name="NotifyTakeawayBelt" parameter="flush-and-finish" />
+          <rule action-name="SetLastGoodWeight" />
+        </message-rule-list>
+      </message>
+      <message name="BackToLGW"/>
+      <message name="Transaction Continue"/>
+      <message name="Item Sold">
+        <message-rule-list>
+            <transition state-name="Disable Security Mode - Item In Progress" />
+        </message-rule-list>
+      </message>
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Disable Security Mode - Start                                    -->
+    <!-- Function:  State for handling starting transction in Disable Security mode -->
+    <!-- Messages:                                                                -->
+    <!-- ======================================================================== -->
+    <state name="Disable Security Mode - Start">
+      <message name="Dept Details" />
+      <message name="Item Sold">
+        <message-rule-list>
+          <transition state-name="Disable Security Mode - Item In Progress" />
+        </message-rule-list>
+      </message>
+      <message name="Exit Disable Security Mode">
+        <message-rule-list>
+          <rule action-name="SetLastGoodWeight" />
+          <transition state-name="Start" />
+        </message-rule-list>
+      </message>
+      <message name="Enter Scan And Bag"/>
+      <message name="Transaction Finalize">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=finalize_flag;expression=1" />
+          <rule action-name="assign-variable" parameter="variable-name=not_finalize_flag;expression=0" />
+          <transition state-name="Disable Security Mode" />
+        </message-rule-list>
+      </message>
+      <message name="Item Details">
+        <message-rule-list>
+          <transition state-name="Disable Security Mode" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Wt">
+        <message-rule-list>
+          <rule action-name="NotifyTakeawayBelt" parameter="flush-and-finish" />
+          <rule action-name="SetLastGoodWeight" />
+        </message-rule-list>
+      </message>
+      <message name="BackToLGW"/>
+      <message name="Transaction Continue"/>
+    </state>    
+  </rules>
+  <include name="SecuritySMMobileShopper.xml">
+  </include>
+</state-machine>

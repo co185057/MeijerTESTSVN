@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<RapNet>	
+	<Options>
+	<!-- Signon via TB first: true ( default ) means registry will only be checked after TB signon receive times out or TB send fails to all lanes or no Lanes defined -->
+	    <SignOnTBFirst>true</SignOnTBFirst>
+
+		<!-- Allow the Alt-F4 keystroke entry to exit the application? (default is false) -->
+		<AltF4ExitAllowed>true</AltF4ExitAllowed>
+
+		<!-- Is it required to display the legal caption prior to the sign on menu? (default is false). -->
+		<LegalCaptionRequired>false</LegalCaptionRequired>
+	</Options>	
+</RapNet>

@@ -1,0 +1,95 @@
+[Upcon Log Files]
+Type=File
+Name=c:\scot\upcon\*.log
+Copy=Yes
+Clear=No
+
+[Upcon Utility Log Files]
+Type=File
+Name=c:\scot\util\*.log
+Copy=Yes
+Clear=No
+
+[Upcon Work Log Files]
+Type=File
+Name=c:\scot\work\*.log
+Copy=Yes
+Clear=No
+
+[Upcon Log dat Files]
+Type=File
+Name=c:\scot\work\*.dat
+Copy=Yes
+Clear=No
+
+[Upcon Log txt Files]
+Type=File
+Name=c:\scot\work\*.txt
+Copy=Yes
+Clear=No
+
+[Upcon Log bak Files]
+Type=File
+Name=c:\scot\work\*.log.bak
+Copy=Yes
+Clear=No
+
+[Upcon INI File]
+Type=File
+Name=c:\winnt\upcon.ini
+Copy=Yes
+Clear=No
+
+[Upcon INI File]
+Type=File
+Name=c:\scot\upcon\upcon.ini
+Copy=Yes
+Clear=No
+
+[Upcon upcondat File]
+Type=File
+Name=c:\scot\upcon\upcon.dat
+Copy=Yes
+Clear=No
+
+[Upcon upconupdate batch File]
+Type=File
+Name=c:\scot\upcon\upconupdate.bat
+Copy=Yes
+Clear=No
+
+[Upcon update batch File]
+Type=File
+Name=c:\temp\master\update.bat
+Copy=Yes
+Clear=No
+
+[Install trace Files]
+Type=File
+Name=c:\scot\install\*.log
+Copy=Yes
+Clear=No
+
+[Patch trace Files]
+Type=File
+Name=c:\scot\patch\*.txt
+Copy=Yes
+Clear=No
+
+[UpCon Results Log Files]
+Type=File
+Name=c:\temp\*.log
+Copy=Yes
+Clear=No
+
+[UpCon Results List Files]
+Type=File
+Name=c:\temp\*.lst
+Copy=Yes
+Clear=No
+
+[UpCon Update Batch File]
+Type=File
+Name=c:\updates\update.bat
+Copy=Yes
+Clear=No

@@ -1,0 +1,48 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\DeviceServer\Devices\Scanner\Profiles\STI_SCANNER]
+"Configure"="No"
+"ScannerName"="STI_SCANNER"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\DeviceServer\Devices\Scanner\Profiles\NCRScanner.2]
+"Configure"="Yes"
+"ScannerName"="NCRScanner.2"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\DeviceServer\Devices\Scanner\Profiles\PSC_SCANNER]
+"Configure"="No"
+"ScannerName"="PSC_SCANNER"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\Scanner\NCRScanner.2]
+@="NCR78XX.Scanner"
+"Port"="COM2 -> Port number: COM1 to COM20"
+"Model"="78373 -> Model number: 7837, 7838, 7872, 7875, 7876, 7880, 7882, 7883, 7890, 7892, 8154, or Other"
+"Baud"="9600 -> Baud Rate: 4800, 9600, 19200"
+"Parity"="Even -> Parity: Even, Odd, Mark, Space, or None"
+"ByteSize"="7 -> ByteSize: 7 or 8"
+"StopBits"="1 -> StopBits: 1 or 2"
+"Prefix"="None -> Prefix: 0x?? 0x?? (Maximum two characters or \"None\""
+"Suffix"="None -> Suffix: 0x?? 0x?? (Maximum two characters or \"None\")"
+"Description"="NCR 78xx Scanner/Scale Service Object"
+"Version"="1.3.0"
+"NCRVersion"="2.4.5.1 -> NCR Release File Version"
+"ReadTone"="0 -> ReadTone: 0 = None, 1 = WAV file"
+"Class-Model"=""
+"SerialNumber"=""
+"ROM1Description"=""
+"ROM1PartNumber"=""
+"ROM1Version"=""
+"ROM2Description"=""
+"ROM3Description"=""
+"Cable"="Standard -> Cable: Standard, NODSR, NOCTS, NOCTSorDSR"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\Scanner\NCRScanner.2\DataCapture]
+"DcapVersion"="1.1.3"
+"DcapTime"="1F00 -> Hex time option(s): 100=m:s, 300=h:m:s, 700=m/d h:m:s; 800+digits=millisec; 1000=threadid"
+"DcapMask"="0 -> Hex mask of events to capture"
+"DcapControl"="4 -> Hex destination(s): 1=DCap App, 2=Debugger, 4=File; 10/20/40 for immediate"
+"DcapFileMax"="2048 -> Max KB of data cap file"
+"DcapFile"="C:\\scot\\bin\\NCRScanner.log"
+"DcapLinePrefix"="RSC: "
+
+
+

@@ -1,0 +1,111 @@
+; Switch Message File   \\ Finland Finnish
+;
+; file SMsg040b.dat
+;
+
+[WindowName]
+SupervisorSwitchTI = Kassap‰‰tteen tunnus
+SupervisorSwitch = Siirry p‰‰valvojatilaan
+NormalSwitch = Siirry normaaliin tilaan
+SupervisorSwitchEV = Siirry p‰‰valvojatilaan/ tapahtumienvalvontaohjelma on k‰ynniss‰
+SupervisorSwitchGDF = Siirry p‰‰valvojatilaan/ GetDiagFiles-ohjelma on k‰ynniss‰.
+SupervisorSwitchPM = Siirry p‰‰valvojatilaan/ Profile Manager -profiilinhallintaohjelma on k‰ynniss‰
+SupervisorSwitchTIF = Siirry p‰‰valvojatilaan/ kassap‰‰tetiedot ovat ajossa.
+
+[ButtonCaptions]
+ExSCRGetDiagFiles = Luo virhelokitiedostot
+ExAMRGetDiagFiles = Luo virhelokitiedostot
+ExSCRProfileManager = Sulje FastLane ja aja Profile Manager -profiilinhallintaohjelma
+ExAMRProfileManager = Sulje kassatila ja aja Profile Manager -profiilinhallintaohjelma
+ExSC = Sulje FastLane-ohjelma
+ExAM = Sulje kassatila
+SwitchtoAM = Siirry kassatilaan
+SwitchtoSC = Siirry FastLane-ohjelmaan
+MinimizeSC = Pienenn‰ FastLane-n‰yttˆ
+MinimizeAM = Pienenn‰ kassatilan‰yttˆ
+MaximizeSC = Suurenna FastLane-n‰yttˆ
+MaximizeAM = Suurenna kassatilan‰yttˆ
+Shutdown = Sammuta koko j‰rjestelm‰
+Reboot = K‰ynnist‰ uudelleen koko j‰rjestelm‰
+RestartAM = K‰ynnist‰ kassatila uudelleen
+RestartSC = K‰ynnist‰ FastLane
+RGetDiagFiles = Luo virhelokitiedostot
+RProfileManager = Aja Profile Manager -profiilinhallintaohjelma
+EvtVwr = Tapahtumienvalvontaohjelma
+Volume = ƒ‰nenvoimakkuus
+RTerminalInformation=Kassap‰‰tetiedot
+ExitSwitchApp = Sulje SwitchApp-ohjelma
+BClear = Poista
+BEnter = Syˆt‰
+BCancel = Peruuta
+AuthTitleID = N‰pp‰ile k‰ytt‰j‰tunnus ja paina Syˆt‰
+AuthTitlePassWord = N‰pp‰ile salasana ja paina Syˆt‰
+RegisterFingerprint= Rekisterˆi sormenj‰lki
+AuthTitleIDBiometric= Tai kirjaudu sis‰‰n antamalla sormenj‰lki
+AuthInvalidLogin = V‰‰r‰ k‰ytt‰j‰tunnus/salasana tai sormenj‰lki, yrit‰ uudelleen
+FPDevice= Sormenj‰lkilaite ei ole kytkettyn‰, syˆt‰ k‰ytt‰j‰tunnus/salasana
+FPDuplicateID= Toista yhden sormenj‰ljen antamat k‰ytt‰j‰tunnukset:%s, syˆt‰ k‰ytt‰j‰tunnus/salasana
+
+[SwitchErrorMsg]
+;ClcSwitch
+OnButtonReboot1 = FastLane-kassap‰‰tteen uudelleenk‰ynnistys ep‰onnistui.
+ButtonThread1 =  %s k‰ynnistys ep‰onnistui.  
+LoadPathsFromRegistry1 = SwitchApp-sovellus ei onnistunut lˆyt‰m‰‰n rekisterist‰ kassavalo-ohjelman Kyll‰/Ei -valinta-arvoa.
+LoadPathsFromRegistry2 = SwitchApp-sovellus ei onnistunut lˆyt‰m‰‰n rekisterist‰ Powerpad Support -tuen Kyll‰/Ei ñvalinta-arvoa
+WaitForAppTermination1 = %s sulkeminen ep‰onnistui %d sekunnissa. K‰ynnist‰ uudelleen koko j‰rjestelm‰.
+MonitorAppTermination1 = %s suljettiin ep‰normaalisti.
+LaunchBatchFile1 = %s -er‰ajotiedoston k‰ynnistys ep‰onnistui.
+PowerpadOn1 = H‰lytinten deaktivointilaitteen k‰yttˆˆnotto ep‰onnistui. Tuloskoodi %u
+PowerpadOn2 = H‰lytinten deaktivointilaitteen k‰yttˆˆnotto ep‰onnistui.
+PowerpadOn3 = H‰lytinten deaktivointilaitteen k‰yttˆˆnotto ep‰onnistui. Tuloskoodi %u
+PowerpadOn4 = H‰lytinten deaktivointilaitteen k‰yttˆˆnotto ep‰onnistui.
+MiscIFLaneLightOn1 = Kassavalon p‰‰llekytkeminen ep‰onnistui. Tarkista tapahtumaloki.
+MiscIFLaneLightOn2 = Apuohjelmaliit‰nn‰n k‰yttˆˆnotto ep‰onnistui. Varmista, ett‰ laite on k‰ytett‰viss‰ ja tarkista tapahtumaloki.
+MiscIFLaneLightOff1 = Kassavalon p‰‰lt‰kytkent‰ ep‰onnistui. Tarkista tapahtumaloki.
+MiscIFLaneLightOff2 = Apuohjelmaliit‰nn‰n vapautus ep‰onnistui. Tarkista tapahtumaloki.
+MiscIFLaneLightOff3 = Apuohjelmaliit‰nn‰n sulkeminen ep‰onnistui. Tarkista tapahtumaloki.
+OposControl1 = %s -ohjaimen  luominen ep‰onnistui. Varmista, ett‰ ohjain on rekisterˆity.
+OposControl2 = %s -ohjaimen avaus ep‰onnistui. Varmista, ett‰ ohjaimen rekisteriss‰ oleva profiili on p‰ivitetty oikein.
+OposControl3 = %s -ohjaimen nouto ep‰onnistui. Varmista, ett‰ sen rekisteriss‰ oleva profiili on p‰ivitetty oikein.
+CloseControl1 = %s -ohjaimen vapautus ep‰onnistui. Tarkista tapahtumaloki.
+CloseControl2 = %s -ohjaimen sulkeminen ep‰onnistui. Tarkista tapahtumaloki.
+CreateSalesApp1 =  Sovelluksen k‰ynnistys ep‰onnistui. 
+CreateSalesApp2 = %s -sovelluksen sulkeminen ep‰onnistui %d sekunnissa.
+LaunchBatchFile2 = %s -er‰ajotiedostoa ei suljettu.
+;CSwitch2Dlg
+OnInitDialog1 = Avainlukkolaitteen avaus ep‰onnistui.
+;CKWarning
+OnInitDialog2 = Koko j‰rjestelm‰n uudelleenk‰ynnist‰miseksi (%s) k‰‰nn‰ p‰‰valvojan avainlukko takaisin N-asentoon tai paina %s-n‰pp‰int‰.
+This string will not work with %s, because there is no way to declinate words to make it work. Sentence was re-phrased. The tag was removed and replaced with word, the %s put in brackets. The sentence is very long, but it would work
+DrMsg1 = J‰rjestelm‰ on alhaalla: Lokitietoja ker‰t‰‰nÖ
+DrMsg2 = J‰rjestelm‰ on alhaalla: Lokitiedot on ker‰tty, j‰rjestelm‰ k‰ynnistet‰‰n uudelleenÖ
+
+[OtherMsg]
+MARSMsg = Tarkistaa MARS-valmisohjelmistoa. P‰ivitykset, jos niit‰ tarvitaan, saattavat kest‰‰ noin 10 minuuttia.
+5992Msg = Tarkistaa 5992-valmisohjelmistoa. P‰ivitykset, jos niit‰ tarvitaan, saattavat kest‰‰ noin 10 minuuttia.
+K590Msg = Tarkistaa K590-valmisohjelmistoa. P‰ivitykset, jos niit‰ tarvitaan, saattavat kest‰‰ noin 10 minuuttia.
+K580Msg = Tarkistaa K580-valmisohjelmistoa. P‰ivitykset, jos niit‰ tarvitaan, saattavat kest‰‰ noin 10 minuuttia.
+F306Msg = Tarkistaa F306-valmisohjelmistoa. P‰ivitykset, jos niit‰ tarvitaan, saattavat kest‰‰ noin 10 minuuttia.
+F307Msg = Tarkistaa F307-valmisohjelmistoa. P‰ivitykset, jos niit‰ tarvitaan, saattavat kest‰‰ noin 10 minuuttia.
+F309Msg = Tarkistaa F309-valmisohjelmistoa. P‰ivitykset, jos niit‰ tarvitaan, saattavat kest‰‰ noin 10 minuuttia.
+USBTQMsg = Tarkastaa kolikonpalauttimen valmisohjelmiston. P‰ivitykset, jos niit‰ tarvitaan, saattavat kest‰‰ noin 10 minuuttia.
+WaitMsg = Ole hyv‰ ja odota ...
+ADDMsg = Laitteet etsit‰‰n automaattisesti.
+TraceCheckMsg = Tarkistetaan sovelluksen j‰ljitystiedostot ep‰normaalin sulkemisen varalta.
+ArdacMsg = Tarkistetaan Ardac-valmisohjelmistoa. P‰ivitykset, jos niit‰ tarvitaan, saattavat kest‰‰ noin 10 minuuttia.
+SR5Msg = Tarkistetaan kolikkovastaanotinta. P‰ivitykset, jos niit‰ tarvitaan, saattavat kest‰‰ noin 10 minuuttia.
+GDFMsg = Ole hyv‰ ja odota
+MCRWMsg = Tarkastaa moottorik‰yttˆisen kortinlukijan valmisohjelmistoa. P‰ivitykset, jos niit‰ tarvitaan, saattavat kest‰‰ noin 10 minuuttia.
+TransferMsg=Siirret‰‰n virheenm‰‰ritystiedostojaÖ
+CF9520Msg = P‰ivitys ep‰onnistui. Nykyinen kolikonvastaanotin ei hyv‰ksy kuin euroja. Vaihda se CF9520-malliin MK2
+Sentence changed to: ... accepts only Euros.
+GLORYMsg = Tarkastaa Glory Recycler-valmisohjelmistoa. P‰ivitykset, jos niit‰ tarvitaan, saattavat kest‰‰ noin 10 minuuttia.
+IOBoxMsg = Tarkastaa IOBox-valmisohjelmistoa. P‰ivitykset, jos niit‰ tarvitaan, saattavat kest‰‰ noin 10 minuuttia.
+7875Msg = Lukulaitteen valmisohjelmiston p‰ivityksi‰ etsit‰‰n. P‰ivitys voi kest‰‰ noin 10 minuuttia, jos niit‰ tarvitaan.
+BiosMsg = BIOS-p‰ivityksi‰ etsit‰‰n. P‰ivitys voi kest‰‰ noin 10 minuuttia, jos niit‰ tarvitaan. J‰rjestelm‰ k‰ynnistet‰‰n uudelleen, jos p‰ivitys onnistuu.
+MEIMsg = Tarkistaa MEI-valmisohjelmistoa. P‰ivitykset, jos niit‰ tarvitaan, saattavat kest‰‰ noin 10 minuuttia.
+ScaleMsg = Tarkistaa vaaían valmisohjelmistoa. P‰ivitykset, jos niit‰ tarvitaan, saattavat kest‰‰ noin 2 minuuttia.
+BCRMsg = Tarkistaa korttimaksun valmisohjelmistoa. P‰ivitykset, jos niit‰ tarvitaan, saattavat kest‰‰ noin 10 minuuttia.
+BNRMsg = Tarkastaa setelikierr‰ttimen valmisohjelmistoa. P‰ivitykset, jos niit‰ tarvitaan, saattavat kest‰‰ noin 10 minuuttia.
+MSRDIPMsg = Tarkistaa korttimaksun valmisohjelmistoa. P‰ivitykset, jos niit‰ tarvitaan, saattavat kest‰‰ noin 10 minuuttia.
+F53Msg = Tarkistaa F53-valmisohjelmistoa. P‰ivitykset, jos niit‰ tarvitaan, saattavat kest‰‰ noin 10 minuuttia.

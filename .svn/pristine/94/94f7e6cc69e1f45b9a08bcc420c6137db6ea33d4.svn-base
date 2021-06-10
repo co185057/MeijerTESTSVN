@@ -1,0 +1,12 @@
+IVI Checkmate Form Generator - Version 1.0
+FormNumber->[formnumber:20]
+Text->[x:4][y:1][font:1][italics:0][underline:0][reverse:0][text:Select Card Type]
+Text->[x:9][y:16][font:2][italics:0][underline:0][reverse:0][text:Credit]
+Text->[x:24][y:16][font:2][italics:0][underline:0][reverse:0][text:EBT]
+Text->[x:9][y:24][font:2][italics:0][underline:0][reverse:0][text:ATM]
+Text->[x:24][y:23][font:2][italics:0][underline:0][reverse:0][text:Cancel]
+Text->[x:24][y:25][font:2][italics:0][underline:0][reverse:0][text:Payment]
+Button->[x:2][y:22][cx:6][cy:6][id:4]
+Button->[x:32][y:14][cx:6][cy:6][id:6]
+Button->[x:32][y:22][cx:6][cy:6][id:7]
+Button->[x:2][y:14][cx:6][cy:6][id:3]

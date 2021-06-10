@@ -1,0 +1,2720 @@
+﻿AmountSaved,セーブ金額
+Assistance,係員
+AssistanceComing,係員が参ります。そのまま続けてください。
+Back,戻る
+BagItem,この商品を袋に入れてください。
+BagItemCart,商品バッグ
+BagItemOrSkip,この商品を袋に入れるか、省略を選択してください。
+CallForHelp,ヘルプ
+Cancel,取消
+CancelAll,全取消
+CancelCoupons,クーポン取消
+CancelPayment,支払取消
+CantScanCoupon,クーポンスキャン\n不可
+CartPay,支払い
+Change,変更：
+Confirm,お買い上げ内容を全部キャンセルしてもよろしいですか？
+ConfirmQuantity,{0} は正しいですか?
+Continue,続行しますか？
+CouponMessage,クーポンを別に置き、最後に投入して下さい。
+DepositCard,使用済みギフト券をクーポン投入口に入れてください。
+DepositCoupon,クーポンをクーポン投入口に入れて下さい。
+DepositGiftCard,ギフト券預
+Disconnected,しばらくお待ち下さい。
+Done,終了
+Due,期限：{0}
+EditCart,カートを編集
+Enter,エンター
+EnterAmount,金額入力
+EnterCouponValue,クーポンの金額を入力して「OK」にタッチしてください。
+EnterId,お客様のIDを入力してください。
+EnterPassword,お客様のパスワードを入力してください。
+EnterPin,暗証番号入力
+EnterQuantity,いくつお持ちですか？
+EnterWeight,スケールの上に商品を置いてください:
+Finish,お買い上げ頂きありがとうございました。
+FinishAndAdd,終了＆追加
+GiftCard,ギフトカード残額
+GoBack,戻る
+IncorrectLogin,扱者番号と暗証番号が正しくありません。\n再入力して下さい。
+InsertCash,現金支払
+InsertCoupon,クーポン投入
+InvalidBarcodeScan,商品を脇に置いて続行してください。
+Item,{0} 商品
+Items,{0} 商品
+ItemsAddedFormat,{0} 商品をカートに追加してください。
+Language,言語
+NCRCorp,NCR Corp
+No,いいえ
+OK,OK
+Or,または
+OtherPayment,他の支払
+OtherPaymentMethod,その他支払い方法
+OwnBag,マイバッグ
+Paid,支払い:{0}
+PayAnotherWay,別の方法で支払う
+PointsEarned,今回ポイント
+PrintReceipt,レシート印字
+Proceed,続ける
+Remove,回収
+RemovedItem,商品を取り出しました
+RestrictedItem,販売制限商品
+ReturnToScan,戻る
+ScanAndBag,商品コードをスキャン/検索/入力して開始します。
+ScanCoupon,クーポンスキャン
+ScanGiftCard,ギフトカードをスキャン
+ScanNextItem,次の商品をスキャンしてください。
+ScanVoucher,金券を読ませて下さい
+SearchResultsFor,"""{0}""の結果を検索"
+SearchWatermark,商品名または商品コードを入力
+SearchItemNameWatermark,Enter Item Name
+SearchKeyInItem,商品を検索または入力
+SelectCashBack,キャッシング金額をお選び下さい。
+SelectLanguage,言語を選択
+SelectPaymentType,支払タイプをお選び下さい。
+SellBags,レジ袋を何枚使いましたか？使わなかった場合は0を入力してください。
+SignNeeded,署名入力
+SignSignature,署名をしてください。
+SkipBagging,袋のセットを省略
+Space,スペース
+StartScanning,スキャンを開始
+StoreLogin,ストアログイン
+TakeCash,戻された現金をお取りください
+TakeChange,おつりをお取り下さい。
+TakeReceipt,レシート確認
+Tax,消費税
+TimeRestrictedItem,販売時間制限商品
+Total,合計
+TouchCancel,PINパッドでキャンセルにタッチすると、支払いをキャンセルします。
+TryAgain,もう一度\nお願い致します
+UnexpectedDecreaseMessage,商品を荷台に戻します。
+UnexpectedIncreaseMessage,商品を荷台から取り出します。
+UsePinpad,PINパッドを使用
+VoidItem,不要な商品をスキャンするか、レシートの「回収」にタッチしてください。
+Volume,音量
+Yes,はい
+ItemNumberAmount,NOI :  
+WeightExpected,WE :  
+WeightObserved,WO :  
+UnknownPriceMessage,商品の価格が不明です。\n係員が参ります。\n\n商品を脇に置いて続行します。
+SetAllItemsAsideMessage,すべて取消されました。\n\nすべての商品を取り除いて下さい。
+ConfirmAbortMessage,カートを空にしてもよろしいですか？お取引はキャンセルされます。
+NoKeep,いいえ、そのままにします。
+NoReturn,いいえ、お取引に戻ります。
+YesEmpty,はい、カートを空にして取引を終了します。
+YesRemove,はい、削除します。
+HostOfflineMessage,レーンオフライン 再接続中
+LaneClosedMessage,レーン停止中
+LoadingText,読み込み中
+VerifyBagsMessage,荷台に誤って袋以外の物を置かれた場合、今すぐ降ろしてください。
+HelpOnWay,係員が参ります。そのまま続けてください。
+OwnBagMessage,スケールに袋を置いてください。
+UseOwnBag,バッグ・ボックス
+AttendantMode,係員モード
+AttendantTrainingMode,係員＆トレーニングモード
+TrainingMode,トレーニングモード
+ScaleBroken,"商品をはかりから下ろし、スキャナーの""Scale Zero""ボタンを”押して下さい。"
+Refunded,払戻し:
+EnterIDMessage,扱者IDを入力し“登録”をタッチしてください。
+EnterIDText,ID入力
+EnterPasswordMessage,"暗証番号を入れ、""エンター""をタッチして下さい。"
+EnterPasswordText,暗証番号を入力して下さい。
+VisualVerify,目視確認
+SingleItemAddedFormat,{0} 商品をカートに追加してください。
+Approved,承認されました
+VoidItemBeforeCouponMessage,クーポンが取消されないと商品の取消ができません。 クーポンを先に取消して下さい。
+VerifyBags,係員がお客様の袋を確認させていただきます。
+CancelItems,商品取消
+EnterQuantityTitle,個数を入れて下さい。
+SecUnExpectedIncreaseTitle,バッグ詰ご注意
+WeightMismatchTitle,扱者をお呼び下さい。
+AssistanceNeededTitle,扱者をお呼び下さい。
+CheckBasketTitle,かごを確認して下さい。
+ConfirmDebitAmountTitle,金額確認
+DropoffCouponsTitle,クーポンを投入して下さい。
+InsufficientBalanceTitle,不足しています。
+OperatorPasswordStateInvalidPasswordWithFPTitle,指紋ログインができません
+PurchaseCrateTitle,買いかご
+RestrictedItemTitle,販売制限商品
+SecBagAreaBackupTitle,バックアップ商品です。
+SignChargeTitle,レシートに署名をお願い致します。
+TakeCardTitle,カードお返し
+ContinueTitle,継続確認
+ApprovalNeededTitle,確認要求
+IncorrectLoginTitle,番号エラー
+RecalledItemTitle,リコール商品
+RemovedItemTitle,バッグ詰ご注意
+SetAllItemsAsideTitle,商品を別に置いて下さい。
+TakeLoyaltyCardTitle,会員カードをお取り下さい。
+UnknownPriceTitle,価格がありません。
+ConfirmEBTAmountTitle,金額確認
+DisconnectedTitle,接続が切断されました
+ShuttingDown,シャットダウンしています
+NoneText,なし
+SMText,ストアモード
+SMLogInReceiptText,ストアモード開始
+SMLogOutReceiptText,ストアモード終了
+WLDBOffLineText,重量DB：オフライン
+OperatorIDText,扱者番号：
+SignOnButtonText,サイン イン
+SignOffButtonText,サイン オフ
+AlertText,アラート：
+SuspendInProgressText,保留処理中
+SuspendLeadthru1,現在の取引の保留が要求されました。\n確認するか要求をキャンセルしてください。
+SuspendLeadthru2,取引は保留されました。要求を確認してください。キャンセルするには”戻る”をタッチしてNCR SelfServ Checkoutから取消をして下さい。
+ReceiptText,レシート:
+SuspendReasonText1,保留：一般
+CancelSuspendButtonText,保留キャンセル
+ConfirmSuspendNowButtonText,保留を \n確認
+ConfirmAllowSuspendButtonText,保留が許されるか 確認
+ConfirmSuspendRequestButtonText,保留要求を 確認
+CancelSuspendNowButtonText,保留 取消
+GoBackButtonText,戻る
+CancelSuspendRequestButtonText,保留要求 取消
+CouponText,クーポン：
+SuspendReasonText2,保留：クーポン
+CouponReceiptText,%dクーポンの合計￥%d
+SuspendNowButtonText,保留
+RequestSuspendButtonText,保留要求
+NotConnectedText,接続されていません
+ConnectingText,接続中です...お待ちください。
+ApprovalNeededText,確認が必要です。
+SuspendReasonText3,保留：その他
+ClearRequestButtonText,クリア要求
+ApproveButtonText,確認
+RestrictedItemText,販売制限商品：
+SuspendReasonText4,保留：制限
+SecurityLogText,セキュリティログ：
+SuspendReasonText5,保留：セキュリティー
+SignatureText,署名：
+SignatureAndNameText,署名：%s
+ConnectingLeadthru,NCR SelfServ Checkoutへ接続中です...お待ち下さい。
+EnterIDLeadthru,キーパッドからIDを入力して下さい。
+EnterPasswordLeadthru,キーパッドから暗証番号を入力してください。
+LoggingInLeadthru,ログイン中です...お待ち下さい。
+ApproveSecurityButtonText,セキュリティー 確認
+ApprovalNeededButtonText,確認の必要
+VerifySignatureButtonText,署名の確認
+AllowSuspendButtonText,保留確認
+MainButtonText,メイン
+SuspendTransactionButtonText,取引保留
+ApproveAndCollectButtonText,確認＆取除
+ClearApprovalsButtonText,確認クリア
+BirthDateOver30ButtonText,２０歳以上
+SignAgainButtonText,再署名
+BackSpaceButtonText,バックスペース
+EnterButtonText,エンター
+LaneNumberText,レーン：%d
+RAPTitle,NCR SelfServ Checkout\nRAP
+CancelSuspendText,保留キャンセル
+OtherPaymentSelectedText,他の支払の選択
+CouponCollectionText,クーポン受取
+PendingSuspendText,保留ペンディング
+SignatureApprovalText,署名確認
+LaneText,レーン
+VideoButtonText,ビデオ
+ClearButtonText,クリア
+QuantityButtonText,個数
+FeesAndCustomerAgreementsTitle,料金＆＆お客様の了解：
+FeesButtonText,料金
+CustomerAgreementButtonText,お客様の了解
+FeesAndCustomerAgreementsLeadthru,料金＆お客様の了解
+TransactionSuspendedText,取引は保留されました。
+POSMessageText,POSレジメッセージ
+ConnectingWaitingText,NCR SelfServ Checkoutに接続しています...お待ち下さい。
+DateOfBirthNotNeededButtonText,誕生日入力不要
+AssistModeButtonText,アシスト\nモード
+ClearSecurityButtonText,セキュリティー解除
+VisualApproveButtonText,要確認商品の確認
+CheckAgeTitle,お客様年齢確認
+CouponLimitExceededTitle,クーポンリミットを越えています。
+VerifyItemAndPriceTitle,商品と価格確認
+UnknownItemTitle,確認できない商品を別に置いて下さい。
+ItemNotForSaleTitle,その商品は販売できません。
+ItemQuantityExceededTitle,個数の限度を超えています。
+TimeRestrictedItemTitle,時間制限販売商品
+CheckAgeLeadthru,誕生日%sを入力し エンター」にタッチ
+InvalidBirthDateFormatLeadthru,日付の入力フォーマットが無効です。\n%sのフォーマットで再度入力して下さい。
+CouponLimitExceededLeadthru,クーポン投入の確認のためにレーンで“承認”又は“承認＆お預かり”ボタンをタッチし、クーポンをお預かりください。
+VisualApproveLeadthru,取引を修正するには”目視確認”または”アシストモード”をタッチして下さい。\n「レシート」から削除。
+UnknownItemLeadthru,レーンで商品を取得し”セキュリティー解除”のタッチするか、又は取引を終了させるには”アシストモードをタッチして下さい。
+ItemNotForSaleLeadthru,レーンで商品を取得し”セキュリティー解除”のタッチして下さい。
+OffLineLaneButtonText,オフライン
+ExitText,確認ステーションの終了
+EnterDataLaneButtonText,データ入力
+AgeCheckLaneButtonText,年齢確認
+CouponLaneButtonText,クーポン
+VoidLaneButtonText,取消
+VerifyItemLaneButtonText,商品確認
+NotFoundLaneButtonText,未登録
+NoSaleLaneButtonText,両替
+QuantityLaneButtonText,個数
+HelpLaneButtonText,ヘルプ
+NoInterventionLeadthru,現在介在は不要です。
+OffLineLeadthru,レーンは現在オフラインです。自動復帰中です。
+CancelRequestButtonText,取消要求
+HelpRequestTitle,ヘルプが要請されています。
+SecurityLaneButtonText,セキュリティー
+VoidLeadthru,取消商品を回収し“訂正承認”をタッチして下さい。
+ApproveVoidButtonText,取消確認
+SecurityLeadthru,"顧客取引をモニター後""安全クリア""にタッチ"
+SecurityViolationText,セキュリティー違反
+OtherPaymentText,”他の支払”が選ばれました。
+SuspendTransactionLeadthru,“保留”をタッチするかアシストモードで支払いを受けて下さい。
+EASText,EASが消去されていません。
+DeactivateLeadthru,商品のセキュリティーを無効にするかタグを取り外し、“セキュリティー解除”をタッチして下さい。
+CompareSignatureTitle,署名を確認して下さい。
+CompareSignatureLeadthru,署名を確認し“承認”又は“再署名”をタッチして下さい。
+EnterPriceLeadthru,商品価格を入力し“登録”をタッチして下さい。
+UtilityButtonText,ユーティリティー
+ReturnToMainButtonText,メインへ戻
+GetDiagFilesButtonText,ダイアグファイルの取得
+CouponApprovalLeadthru,アテンダントステーションでクーポンを受け取り”確認”をタッチして下さい。
+RebootSystemButtonText,システム全体の再立ち上げ
+ShutDownSystemButtonText,システム全体のシャットダウン
+LaneStatusTitle,レーン\nステータス
+LaneStatusLeadthru,機能を選んで下さい。
+AgeRestrictedText,年齢制限商品; %2d 歳
+BirthdateEnterText,"生年月日:%2d/%2d/%4d,%d 歳"
+HelpRequestLeadthru,お客様のサポートを終了したら“要求取消”をタッチして下さい。
+TotalText,合計：
+ItemText,点数：
+MultimediaTrainingText,マルチメディア・トレーニング
+VolumeControlButtonText,音量調整
+SecurityViolationNumText,セキュリティーエラー：
+ItemPurchasedText,買上点数：
+EnterPriceTitle,価格入力
+CancelTransactionGenericTitle,取引の取消
+CancelTransactionGenericLeadthru,"取引を取消す場合は""はい""を、取引を続ける場合は”いいえ”をタッチして下さい。"
+YesButtonText,はい
+NoButtonText,いいえ
+ConfirmSuspendTitle,保留：
+ConfirmSuspendLeadthru,保留確認：
+ConfirmSuspendButtonText,保留確認
+IncorrectItemWeightTitle,重量が正しくありません。
+IncorrectItemWeightLeadthru,"レーンで商品を取除き、""セキュリティー解除""か、または""確認＆重量更新""をタッチして下さい。"
+ApproveUpdateButtonText,確認＆重量更新
+UnexpectedIncreaseTitle,正しくない商品がバッグにあります。
+UnexpectedIncreaseLeadthru,"レーンに行き、商品を取除き、""セキュリティー解除""をタッチして下さい。"
+SkipBaggingBtnThresholdLeadthru,"レーンで商品を確認し、""セキュリティー解除""をタッチして下さい。"
+NewWeightItemTitle,重量データがありません。
+NewWeightItemLeadthru,"商品の重量を確認し、""確認＆重量更新""か、又は""確認＆更新せず""をタッチして下さい。"
+ApproveNoUpdateButtonText,確認＆更新せず
+BagItemTimerExpiredTitle,あるべき重量です。
+TakeChangeTimerExpiredTitle,おつりをお取り下さい。
+TakeChangeTimerExpiredBottomCaption,タイマー切れ
+PickingUpItemsTimerExpiredTitle,商品がバッグに戻されていません。
+DeviceFailureTitle,デバイスが動作ミスをしました。
+DeviceFailureLeadthru,レーンでデバイスを確認して下さい。
+WLDBFailureTitle,WLDBと正しく通信ができません。
+WLDBFailureLeadthru,ネットワークを確認して下さい。
+UnexpectedDecreaseTitle,バッグから商品が取り除かれました。
+ClosedLaneTitle,レーンに行き、ストア・モードで開設をして下さい。
+ClosedLaneLeadthru,ただいまご使用になれません。\n他のレジにてお願い致します。
+BagAreaBackupTitle,ベルトにバックアップ商品があります。
+BagAreaBackupLeadthru,ベルトからバックアップ商品を取除いて下さい。
+MinimumAgeText,最低年齢
+SafetyCoverOpenLeadthru,すべての商品をベルトから取除き安全かバーを閉めて下さい。
+VerifySignatureLeadthru,カードの署名と照合して下さい。
+AssistedTenderTitle,扱者が支払をお手伝いします。
+AssistedTenderLeadthru,アシストモードで小切手をお預かりしてください。
+AssistedTenderHHLeadthru,アシストモードで小切手をお預かりしてください。
+AssistedEndorsementLeadthru,裏書が必要です。扱者が参りますのでお待ち下さい。
+StartTransactionButtonText,開始
+StartTransactionTitle,係員がお手伝い致します。
+StartTransactionLeadthru,機能を選んで下さい。
+StartTransactionAMButtonText,アシスト開始
+ItemsForgottenTitle,取引終了後、\nはかりに重さがあります。
+InsertCouponTimerExpiredTitle,クーポン投入
+CollectGiftCardTitle,ギフト券をお預かりして下さい。
+HostOfflineLeadthru,レジはオフラインです。再接続を試みています。
+SpaceButtonText,スペース
+LaneReceiptItemType1,%s\t%s
+LaneReceiptItemType2,%s
+LaneReceiptItemType3,%s\t%s\t個 @ %s/1個\t%s
+LaneReceiptItemType4,%s\t%s\t個 @ %s/%s\t%s
+LaneReceiptItemType5,%s\t%s\t%ss @ %s %s/%s\t%s
+LaneReceiptItemType6,%s\t%s\t%ss @ %s/%s\t%s
+CloseLaneButtonText,レーン停止
+ReportingButtonText,レポート
+KeyInCodeTitle,商品コード入力
+KeyInCodeLeadthru,"商品コードを入れ、""OK""をタッチして下さい。"
+VoidItemButtonText,取消商品
+ChangePriceButtonText,価格変更
+ChangeQuantityButtonText,個数変更
+ReturnToShoppingButtonText,ショッピングモードへ\n　　　　　　戻る
+BasicAssistModeTitle,アシスト機能
+BasicAssistModeLeadthru,商品をスキャンするか機能を選んで下さい。
+ChangePriceTitle,価格を変更して下さい。
+KeyInPriceLeadthru,%d%sの価格を入力してください：%d %s
+VoidAllButtonText,全取消
+VoidItemTitle,一品取消
+VoidItemLeadthru,スキャンするか画面レシートから商品を選び“一品取消”又は“全取消”をタッチして下さい。
+ChangeQuantityTitle,個数を変更して下さい。
+KeyInQuantityLeadthru,の個数を入力して下さい：%s
+FullAssistButtonText,全アシスト
+CloseButtonText,閉じる
+UpdateItemLeadthru,画面レシートをスクロールして選び“登録”をタッチして下さい。
+OKButtonText,OK
+CouponNoMatchLeadthru,クーポンの対象商品がありません。
+CouponTooHighLeadthru,入力されたクーポンの金額は大きすぎ\nご使用できません。
+EnterCouponValueLeadthru,"クーポンの金額を入れ""エンター""をタッチして下さい。"
+ItemQuantityExceededLeadthru,この商品の買上げ点数限度を超えています。\n商品を別に置いて続けて下さい。
+ProcessingLeadthru,処理中です...しばらくお待ち下さい。
+VoidNoMatchLeadthru,商品が見つかりません。　まだ登録されていないか又は取消されています。
+ConfirmAbortLeadthru,お買上げを中止し、全ての商品を取消しますか？
+ContinueTransLeadthru,お買上げを続けますか？
+ConfirmQuantityTitle,個数を確認して下さい。
+ConfirmVoidTitle,取消を確認して下さい。
+CouponNoMatchTitle,クーポンに該当の商品がありません。
+CouponTooHighTitle,クーポンの金額が大きすぎます。
+CrateableItemTitle,買いかご
+EnterCouponValueTitle,クーポン値を入力して下さい。
+EnterQuantityLeadthru,"個数を入れ、""エンター""をタッチして下さい。"
+EnterWeightTitle,計量商品
+EnterWeightLeadthru,レーンのスケールに商品を置いてください。
+AMItemQuantityExceededTitle,買上個数限度
+ProcessingTitle,処理中...
+SelectContainerTitle,画面からトレーを選んで下さい。
+SelectContainerLeadthru,トレイをリストから選び登録をタッチして下さい。
+VoidNoMatchTitle,取消できません。
+ConfirmAbortTitle,全ての商品取消
+ContinueTransTitle,継続確認
+ScaleBrokenTitle,はかりをリセットして下さい。
+ScaleBrokenLeadthru,"商品をはかりから下ろし、スキャナーの""Scale Zero""ボタンを”押して下さい。"
+UpdateNotAllowedTitle,商品を変更できません。
+UpdateNotAllowedLeadthru,計り売り商品の個数変更はできません。
+SmEnterBirthdateTitle,制限商品
+SmEnterBirthdateLeadthru,誕生日入力
+SmVisualItemsTitle,要確認
+SmVisualItemsLeadthru,要確認商品の確認
+SmCouponItemsTitle,仕様済クーポン確認
+SmCouponItemsLeadthru,仕様済クーポンを確認して下さい。
+SmRestrictedItemsTitle,制限商品
+SmRestrictedItemsLeadthru,機能を選んで下さい。
+KeyInBirthDateButtonText,誕生日入力
+KeyInCodeButtonText,商品コード入力
+SmRunReportsTitle,レポート
+PrintReportButtonText,レポート印字
+LaneReceiptItemType7,    %s
+AM_RestrictedNotAllowedTitle,販売制限商品
+AM_RestrictedNotAllowedLeadthru,販売制限商品が取消されました- 年齢制限です。\n\n商品を別に置いて下さい。
+TransactionCancelTitle,取引中止
+TransactionCancelLeadThru,すべて取消されました。商品を取り除いて下さい。\nチェックスタンドからの商品です。
+OutOfSyncNeedAssistTitle,アシスト
+OutOfSyncNeedAssistLeadthru,POSとの同期が崩れています。アシストモードで同期させて下さい。
+OutOfSyncStopTitle,再立上げ
+OutOfSyncStopLeadthru,POSサーバーがオフラインです。又は同期が崩れています。ターミナルをシャットダウンさせて下さい。
+MultiPackItemTitle,マルチパックか確認
+MultiPackItemLeadthru,マルチパックならアシストボタンをタッチし、商品を取消てからマルチパックのバーコードをスキャンしてください
+CancelActionButtonText,アクションの取消
+EnterIDFpLeadthru,ログインするには、ユーザーIDを入力してエンターボタンを押すか、指紋読み取り機に指を置いてください。
+ReEnterIDFpLeadthru,ログインが無効キーパッドか指紋を使って再度ログインしてください
+HH_SuspendLeadthru1,取引を保留しますか?　確認、又は取止め
+HH_SuspendLeadthru2,取引が保留されています。　取り消す場合は“戻る”をタッチしてください。
+HH_ReEnterIDLeadthru,入れられた番号は正しくありません。正しい番号で再度入力してください。
+HH_CheckAgeLeadthru,誕生日%sを入力し\n「エンター」にタッチ
+HH_CouponLimitExceededLeadthru,レーンでクーポンの“確認”か“確認&回収”でお預かりしてください。
+HH_VisualApproveLeadthru,“確認”、又“アシストモード”で修正してください。
+HH_VisualApproveLeadthru2,"""Visual Approve"", or ""Assist Mode"" at Lane to modify."
+HH_UnknownItemLeadthru,商品を回収し“セキュリティーをクリア”するか、“アシストモード”で終了してください。
+HH_UnknownItemLeadthru2,"Collect item, ""Clear Security"", or use ""Assist Mode"" at Lane to complete."
+HH_ItemNotForSaleLeadthru,レーンで商品を回収し“セキュリティーをクリア”してください。
+HH_NoInterventionLeadthru,介在は必要ありません。
+HH_OffLineLeadthru,レーンはオフラインです。再接続中….
+HH_InvalidBirthDateFormatLeadthru,日付入力の順番が正しくありません。\n%s順で入力してください。
+HH_VoidLeadthru,取消した商品を回収し、“取消確認”
+HH_SuspendTransactionLeadthru,“取引保留”をタッチして取引を保留します。
+HH_DeactivateLeadthru,無効化するかタグを取り外してセキュリティーを解除してください。
+HH_CompareSignatureLeadthru,署名を“確認”するか“再署名”をしてください。
+HH_EnterPriceLeadthru,売価を入れ“登録”
+HH_CouponApprovalLeadthru,クーポンを受取、“確認”
+HH_HelpRequestLeadthru,サポート後、“要求解除”
+HH_CancelTransactionGenericLeadthru,“はい”で取消、“いいえ”で戻る。
+HH_IncorrectItemWeightLeadthru,商品を取除き“セキュリティー解除”、又は“確認&重量更新。
+HH_UnexpectedIncreaseLeadthru,レーンで不明な商品を取除き“セキュリティー解除”
+HH_SkipBaggingBtnThresholdLeadthru,レーンで商品を確認し“セキュリティー解除”
+HH_NewWeightItemLeadthru,重量確認し“確認&重量更新、又は”確認/更新なし“。
+HH_SafetyCoverOpenLeadthru,ベルトから全ての商品を取除き、セキュリティーカバーを閉めてください。
+HH_VerifySignatureLeadthru,署名をカードの署名と比べてください。
+HH_AssistedEndorsementLeadthru,裏書は不要です。係員をお待ち下さい。
+HH_HostOfflineLeadthru,レーンはオフラインです。再接続中…..
+HH_KeyInCodeLeadthru,商品コードを入力し“登録”
+HH_VoidItemLeadthru,スキャン又はレシートからスクロールで選び、“一品取消”又は“全取消”
+HH_UpdateItemLeadthru,レシートからスクロールで選び、“登録”
+HH_CouponNoMatchLeadthru,クーポンは該当商品が無いため受け付けられません。
+HH_CouponTooHighLeadthru,クーポンの金額が高いため受け付けられません。
+HH_ItemQuantityExceededLeadthru,制限個数を超えています。　\n\n商品を脇に置き続けてください。
+HH_VoidNoMatchLeadthru,スキャンした商品が見つかりません。買上げされていないか取消されています。
+HH_ConfirmAbortLeadthru,停止し、全てを取消してください。
+HH_ContinueTransLeadthru,お続けください。
+HH_EnterQuantityLeadthru,個数を入れ、“登録”をタッチしてください。
+HH_SelectContainerLeadthru,トレイを選び“登録” をタッチしてください。
+HH_ScaleBrokenLeadthru,"スキャナーから商品を取除いてスキャナーの""Scale Zero"" をタッチしてください。"
+HH_UpdateNotAllowedLeadthru,個数の変更はできません。
+HH_AM_RestrictedNotAllowedLeadthru,年齢制限です。商品を脇に置いてください。
+HH_OutOfSyncNeedAssistLeadthru,POSとの同期が崩れています。“アシストモード”で同期させてください。
+HH_OutOfSyncStopLeadthru,POSサーバーがダウンか同期が取れていません。スイッチでターミナルをシャットダウンさせてください。
+HH_MultiPackItemLeadthru,マルチパックならば、“アシストモード”で取消、マルチパックのバーコードを読ませてください。
+HH_ReturnToShoppingButtonText,返品
+DoneButtonText,終了
+ConfirmSuspendFromLaneStatusLeadthruText,保留実行・保留取消
+HH_SuspendTransactionButtonText,取引保留
+HH_TransactionCancelTitle,取引中止
+HH_TransactionCancelLeadThru,すべて取消されました。商品を取り除いて下さい。チェックスタンドからの商品です。
+ShiftButtonText,シフト
+FixLaterButtonText,後で修理
+HopperLaneButtonText,代替硬貨
+HopperLeadThru,%sレーンに行き硬貨を入れるか詰まりを直す、または「後で直す」にタッチして続行する。
+TransactionCountText,枚数:
+TMTransLeadthru,練習モード中です。取引を続けますか？
+HH_TMTransLeadthru,練習モード中です。取引を続けますか？
+TMTransLaneButtonText,練習取引
+SecurityDisableText,セキュリティー無効
+SecurityDisableButtonOn,オンにする
+SecurityDisableButtonOff,オフにする
+SecurityDisableStatusTextOn,バッグ詰め用セキュリティー稼働中
+SecurityDisableStatusTextOff,バッグ詰め用セキュリティー停止中
+SuspendDeclinedLaneButtonText,一時停止
+ConfirmSuspendDeclinedLeadthru,一時停止を確認または取り消し
+ConfirmSuspendDeclinedButtonText,一時停止を確認
+CancelSuspendDeclinedButtonText,戻る
+DateFormat1,(mmddyyyy)
+DateFormat2,(mmddyy)
+DateFormat3,(ddmmyyyy)
+DateFormat4,(ddmmyy)
+DateFormat5,(yyyymmdd)
+DateFormat6,(yymmdd)
+GoBackCouponButtonText,戻る
+ApproveCouponButtonText,クーポンを承認
+CouponExceededLimitLeadthru,「クーポンを承認」にタッチしてクーポンを承認するか、またはアシストモードに進んで無効にしてください
+CouponExceededLimitFinalizationLeadthru,有効期限を過ぎたクーポンで取引が完了しました
+ClearSecurityFinalizationButtonText,セキュリティー解除
+ExpandReceiptButtonText,レシートを展開
+CollapseReceiptButtonText,レシートを畳む
+InvalidBarcodeLeadThru,レーン上の商品をとりのぞいてから「承認」にタッチして取引をつづけてください
+InvalidBarcodeLaneButtonText,商品の確認
+HH_InvalidBarcodeLeadThru,レーン上の商品をとりのぞいてから「承認」にタッチして取引をつづけてください
+GoToLaneOrHHRapLeadthru,HHRAPに行き、承認してください。
+GoToLaneOrRapLeadthru,レーンまたはRAPに行き、承認してください。
+GoToLaneLeadthru, レーンに行って承認してもらってください。
+DisableRapApprovalText,RAP承認を中止
+DisableHHRapApprovalText, HHRAP承認を中止
+UpdateItemButtonText,商品をアップデート
+SuspendConfirmationTitle,保留確認
+DoNotApproveButtonText,承認しません
+SmVoidAndRemoveItemLeadthru,キャンセルした商品をバッグ詰めエリアから取り除いてください。
+RestrictedItemsNotApprovedTitle,制限された商品　-　承認されません。
+HH_AssistAtLaneLeadthru,レーンに行って商品を取りやめます。
+XM_Acceptor,入金機
+XM_CashStatus,現金の状況
+XM_CashStatusLeadthru,機能を選んで下さい。
+XM_Cassette,カセット
+XM_CoinAcceptor,硬貨入金機
+XM_CoinOverflow,硬貨がはみ出しています
+XM_CoinOverflowText,はみ出し
+XM_CoinRecycler,硬貨循環機
+XM_Coins,コイン
+XM_NoteOverflow,紙幣がはみ出しています
+XM_NoteOverflowText,現金ボックス
+XM_NoteRecycler,紙幣循環機
+XM_Notes,紙幣
+XM_PurgeOperationText,パージ操作
+XM_TerminalNumber,ターミナル番号
+XM_TotalCount,合計枚数:
+XM_TotalValue,合計:
+XM_CoinsSubtotal,硬貨の小計:
+XM_NotesSubtotal,紙幣の小計:
+XM_GrandTotal,総合計 :
+XM_PurgeInstruction,パージ機能:  拒否された紙幣が見つかりました。 レーンでデバイスを確認して下さい。
+XM_RAP_NegativeAlert,負の数が見つかりました。レーンでデバイスを確認して下さい。
+XM_AreYouSure,以下の行為を行いますか？
+XM_Attendant,アシスト
+XM_Backspace,バックスペース
+XM_BillAcceptor,紙幣入金機
+XM_BillDispenser,紙幣支払機
+XM_Bins,回収カセット
+XM_BothDispenseFailure,払い出しができません%s.\n現金が少ないか、または支払い機のエラーです。
+XM_CancelChanges,変更を中止する
+XM_CannotCompleteTransfer,取引を完了できません。現金ボックスに十分な空きがありません。\nこの操作の前に現金ボックスを空にしてください。
+XM_CashManagement,紙幣管理
+XM_CashManagementReport,現金管理レポート
+XM_CashRemove,現金を取り出す
+XM_CashRemoveLeadthru,機能を選んで下さい。
+XM_CashReplenishLeadthru,機能を選んで下さい。
+XM_CashReplenishLeadthru1,硬貨を挿入するか、機能を選択してください。
+XM_CashReplenishLeadthru2,現金を挿入するか、機能を選択してください。
+XM_CashReplenishLeadthru3,完了したら「終了」を押します。
+XM_CashReplenishment,現金を追加してください。
+XM_ChangeInCount,枚数変更
+XM_ChangeInValue,金額変更
+XM_Clear,クリア
+XM_ClearPrompt1,完了したら他の機能を選択するか「終了」する
+XM_ClearPrompt2,他の機能を選択するか「終了」する
+XM_CoinAcceptorOffline,入金機の応答なし.\n\nターミナルを一度切って再スタートします.
+XM_CoinDispenseFailure,%sを引き出せませんでした\n硬貨が少ないか、支払機がエラーです.
+XM_CoinDispenser,硬貨支払機
+XM_CoinManagement,コイン管理
+XM_ConfirmAction,行なったことを確認する
+XM_ConfirmCoinDispense,* 硬貨払出し\n払出金額: %s\n払出総額: %d
+XM_ConfirmEmptyCoinAcceptor,* 硬貨受入機の数値をゼロにリセットしてください\n取り出す金額:%s
+XM_ConfirmEmptyCoinOverflow,* はみ出した硬貨の金額をゼロにリセット\n取り除く金額:%s
+XM_ConfirmEmptyNoteAcceptor,* 紙幣預入機の金額をゼロにリセット\n取り除く金額:%s
+XM_ConfirmEmptyNoteOverflow,* 現金ボックスの金額をゼロにリセット\n取り除く金額:%s
+XM_ConfirmFillLoaderCassette,*紙幣を合計する\n新たな金額: %s\n新たな合計金額: %d 
+XM_ConfirmManualCoinEmpty,* 硬貨の金額をゼロにリセット\n取り除く金額: %s\n取り除く総額: %d
+XM_ConfirmManualCoinFill,* 硬貨金額を設定\n新たな金額: %s\n新たな総額: %d
+XM_ConfirmManualNoteEmpty,* 紙幣の金額をゼロにリセット\n取り除く金額: %s\n取り除く総額: %d
+XM_ConfirmManualNoteFill,*紙幣を合計する\n新たな金額: %s\n新たな合計金額: %d
+XM_ConfirmNoteDispense,* 紙幣払出し\n払出金額: %s\n払出総額: %d
+XM_ConfirmTransferNotesToOverflow, * 紙幣を現金ボックスへ振替\n振替金額: %s\n振替総額: %d
+XM_Count,枚数
+XM_DispenseCupFull,返却用硬貨がいっぱいです 硬貨を取り除いてから払い出しを終了してください
+XM_DispenseCupFullPreemptive,硬貨をお取りください\n硬貨返却容器が一杯の場合はすみやかに空にしてください。\n空になるまで払出しは停止されます。
+XM_DispenseFullPreemptive,紙幣と硬貨をお取りください\n紙幣は15枚の束で払い出されます。紙幣が取り除かれるまで払出しは停止されます。硬貨返却器が一杯の場合はすみやかに空にしてください。
+XM_DispenseNoteFullPreemptive, 紙幣と硬貨をお取りください\n紙幣は15枚の束で払い出されます。紙幣がすべて取り除かれるまで払出しは停止されます。
+XM_DispenseSensorBlock,硬貨返却装置がいっぱいか、またはセンサーが壊れています。硬貨を取り除くか、係員に連絡してください。
+XM_DispenseText,販売
+XM_DispenseThreshold,入力された金額は払い出し限度額を超えています最大限度の金額が入力されました %d
+XM_Empty,空にする
+XM_EmptyCashAcceptorLT,現金入金機から紙幣を取り除く
+XM_EmptyCashBoxLT,現金ボックスから紙幣を取り除く
+XM_EmptyCoinAcceptor,硬貨入金機をリセットします
+XM_EmptyCoinAcceptorLT,硬貨入金機から硬貨を取り除く
+XM_EmptyCoinHopperLT,装置から硬貨を取り除きます。
+XM_EmptyCoinOverflow,硬貨のはみ出しをリセットします
+XM_EmptyCoinOverflowLT,はみ出した硬貨用の容器から硬貨を取り除く
+XM_EmptyLoaderCassetteLT,ローダーカセットから紙幣を取り除く
+XM_EmptyNoteAcceptor,紙幣入金機をリセットします
+XM_EmptyNoteCassetteLT,紙幣カセットとパージ容器から紙幣を取り出してください。
+XM_EmptyNoteOverflow,現金ボックスをリ セットしてください。
+XM_Enter,エンター
+XM_ExceededAmount,金額が容量を超えています。必要な最高金額は　%sです。
+XM_ExceededCapacity,枚数が容量を超えています。必要な最大枚数は　%dです。
+XM_Execute,変更する
+XM_Exit,終了
+XM_FastLaneReport,NCR SelfServ Checkoutレポート
+XM_FillLoaderCassette,紙幣カウントをセット
+XM_GoBack,戻る
+XM_ID,扱者ID
+XM_IDPrompt,扱者IDを入力し“エンター”をタッチしてください。
+XM_InvalidAmount,%s への入力値は正しくありません。\n正しい値を入力してください。
+XM_KeyPadEnterCoinAmount,キーパッドを使って硬貨の金額%sを入力してください。
+XM_KeyPadEnterCoinCount,キーパッドを使って硬貨の金額%sを入力してください。
+XM_KeyPadEnterNoteAmount,キーパッドを使って紙幣の金額%sを入力してください。
+XM_KeyPadEnterNoteCount,キーパッドを使って紙幣の金額%sを入力してください。
+XM_KeyPadInstr,キーパッドで計算を入力
+XM_ManualBothFillAlert,レーンの扉を開け、紙幣をカセットに、硬貨をホッパーに入れてください入金機には入れないでください
+XM_ManualBothRecyclerFillAlert,レーンの扉を開け、紙幣はローダーに、硬貨はホッパーに入れてください。預入機には入れないでください。
+XM_ManualCoinDispenserEmpty,硬貨カウントをリセット
+XM_ManualCoinDispenserFill,硬貨カウントをセット
+XM_ManualCoinFillAlert,レーンの扉を開けて硬貨を装置に直接入れます。硬貨を硬貨受入機に入れないでください。
+XM_ManualEmptyAlert,装置からすべての現金を取り出す。
+XM_ManualFillAlert,レーンの扉を開けて、現金を直接装置の中に入れます。入金機の中には入れないでください。
+XM_ManualNoteDispenserEmpty,紙幣カウントをリセット
+XM_ManualNoteDispenserFill,紙幣カウントをセット
+XM_ManualNoteFillAlert,レーンの扉を開け、紙幣をカセットに直接入れてください紙幣入金機には入れないでください
+XM_ManualNoteRecyclerFillAlert,レーンの扉を開けてローダーに直接紙幣を入れてください。紙幣を預入機には入れないでください。
+XM_No,いいえ
+XM_NoteDispenseFailure,%sを払い出しできませんでした。\n紙幣の量が少ないか、紙幣支払機のエラーです。
+XM_PW,暗証番号
+XM_PWPrompt,暗証番号を入力し“エンター”をタッチしてください。
+XM_PendingText,保留
+XM_PleaseWait,処理中です...\nしばらくお待ち下さい。
+XM_Print,現金の状況をプリント
+XM_PurgeCoinRecycler,硬貨循環機の勘定計算
+XM_PurgeNoteRecycler,紙幣循環機の勘定計算
+XM_ReEnter,扱者IDと暗証番号を確かめ、\nもう一度入力して下さい。
+XM_ResetCoinsToBaseLevel,硬貨を 基本レベルまで払い出す。
+XM_ResetNotesToBaseLevel,紙幣を移して基本レベルまで減らします
+XM_SelectFunc1,システム機能の選択
+XM_SelectFunc2,機能を選んで下さい。
+XM_StoreNumber,店舗#：
+XM_TransferAllNotes,すべての紙幣を移します
+XM_TransferNotesToOverflow,現金ボックスに紙幣を  \n移してください。
+XM_Update,ステータス更新
+XM_Yes,はい
+XM_CardManagement,カード管理
+XM_SequenceNumber,連続番号
+XM_TotalCoinsInserted,合計が挿入済み
+XM_TotalNotesInserted,合計が挿入済み
+XM_Value,値
+XM_TransferXCount,振替(x) 合計
+XM_TransferXAmount,振替(x) 金額
+XM_TransfertoCashBoxLeadThruText,紙幣 %s を現金ボックスに振替えるには、「変更する」にタッチしてください。　変更を中止するには「変更をキャンセルする」にタッチしてください。.
+XM_MenuDispenseFunctions,払出し機能
+XM_MenuResetFunctions,リセット機能
+XM_MenuCashBoxTransfer,現金ボックス振替
+XM_LeadThruCashBoxTransfer,"ご希望の振替機能を選択してください。\nその後""変更する""を選択してください。"
+XM_LeadThruResetFunction,"ご希望のリセット機能を選択してください。\nその後""変更する""を選択してください。"
+XM_LeadThruDispenseFunction,"貨幣単位にタッチして金額\nを入力するか、""基準レベルまで硬貨払出""にタッチしてください。"
+XM_PurgeInstructionRecycler,"パージ機能:  拒否された紙幣が見つかりました。拒否された紙幣を現金ボックスから取り除いてください。""すべての紙幣を振替""にタッチして警報を止めてから""現金ボックスをリセット""にタッチしてください。"
+XM_PurgeInstructionNonRecycler,"パージ機能:  拒否された紙幣が見つかりました。拒否された紙幣をパージ容器から取り除いてください。""紙幣総額をリセット""にタッチして警報を止めてください。"
+XM_ReplenishInstruction,"現金を挿入するか、貨幣単位を選択して金額を入力、または総額を設定してください。\nその後""変更する""を選択してください。"
+XM_PickUpAutoAmount,ピックアップ自動金額
+XM_PickUpXAmount,ピックアップ(x) 金額
+XM_MenuPickUpFunctions,ピックアップ機能
+XM_LeadThruPickUpFunction,"ご希望のピックアップ機能を選択してください。\nその後""変更する""を選択してください。"
+XM_KeyPadEnterPickUpAmount,キーパッドを使ってピックアップする金額を入力してください。
+XM_InvalidPickUpAmount,入力された金額は振替または払出が可能な金額を超えています。
+XM_InvalidStartingBank,最初の設定金額は振替または払出が可能な金額を超えています。
+XM_CalculatedPickUpAmount,計算されたピックアップ金額は %sです。
+XM_UnableToPickUp,ピックアップできません。
+XM_CoinAllowedDispenseExceeded,%d 硬貨の払出しを試みています。払出可能な硬貨は最大%dです。
+XM_InvalidPickUpAmount2,現金ボックスと、はみ出した硬貨の金額が、ピックアップ金額を超えています。
+XM_LockScreen,画面をロックする
+XM_SystemBusy,システムが立て込んでいます。しばらくお待ちください。
+XM_AreYouSure_LockScreen,画面をロックしてもよろしいですか？\n装置が操作を終えるまで画面のロックは解除できません。
+XM_NegativeAlert,"負の数が見つかりました。考えられる原因：打ちこみエラー、または、紙幣はロダーカセットにあったのに、その合計がキャッシュ・マネジメントに入力されていなかったこと。\n\n解決には以下の手順に従ってください。\n1.「現金を加える」を選択。 \n2.紙幣単位を負の数でタッチする。\n3. 正確な金額を負の数で入力する、またはローダーに入れる\n4.「変更する」を選択。\n5. 確認のため「""はい""」を選択して""終了""。"
+XM_AddCashLeadthru1,硬貨を挿入するか、シリンダーにタッチして金額を入力するか、または合計してください。
+XM_AddCashLeadthru2,現金を挿入するか、シリンダーにタッチして金額を入力するか、または合計してください。
+XM_AddCashLeadthru3,シリンダーにタッチして金額を入力するか、数値を設定してください。
+XM_CoinHopperEmpty,硬貨のカウンターの数値をゼロにリセットするためには、硬貨ホッパー容器を空にする必要があります。各ホッパー容器を空にしてから「変更する」にタッチしてください。
+XM_CollectRemainingCoins,硬貨払出口に払い出された硬貨を残らず取ってください。
+XM_FPIDPrompt,ログインするには、ユーザーIDを入力してエンターボタンを押すか、指紋読み取り機に指を置いてください。
+XM_LoanFailure,貸付停止
+XM_LoanFailureLeadthru,貸付が拒否されました 希望する機能を選択
+XM_UndoLoan,貸付取り消し
+XM_CommitLoan,貸付実行
+XM_PickUpFailure,取出し停止
+XM_PickUpFailureLeadthru,取出しが拒否されました. 希望する機能を選択
+XM_UndoPickUp,取出しを取り消し
+XM_CommitPickUp,取出し(ピックアップ)実行
+XM_ManualRemoveCashAlert,現金ボックスから現金を取り出し、硬貨溢れ出し容器から硬貨を取り出して、ローンを取り消してください。\n\n紙幣\n計算して取り出し: %d\n取り出す金額: %s\n\n硬貨\n計算して取り出し: %d\n取り出す金額: %s
+XM_POSRejectedLoanPickUp,POSが貸付/取出しを拒否:  %s / %d  拒否\n
+XM_LoanPickUpCashierOverrides,キャッシャーID %s 貸付/取出しを無効に: %s / %d  実行.\n\n
+XM_GrandTotalText,総合計: %s
+XM_TotalAddedText,追加合計:%s
+XM_TotalRemovedText,削除合計:%s
+XM_TotalColectedText,集計　%s
+XM_ManualRemoveCashAlertGlory,カセットから現金を取り出してローンを中止します。\n\n紙幣\nカウントして取り出し: %d\n取り出す金額: %s
+XM_CashUnbalance,釣銭機で、在高異常が発生しています。
+XM_Collect,残置回収
+XM_CollectFailure,残置回収に失敗しました。
+XM_LeadThruGloryFunction,金種のシリンダーにタッチして金額を入力するか、\n”残置回収”にタッチしてください。
+XM_CassetteMissing,回収カセットが外れています。\n紙幣を回収して回収カセットをセットしてください。
+XM_EmptyCassetteAndRejectBin,回収カセット／リジェクト庫から紙幣を回収してください。
+XM_OperatorID,係員ID %s
+XM_InitializeError,装置にエラーが発生しています。エラー解除の必要があります。
+XM_GloryDispenseCupFullPreemptive,硬貨をお取りください。\n硬貨返却容器が一杯の場合はすみやかに空にしてください。空になるまで払い出しは停止されます。
+XM_GloryDispenseFullPreemptive,硬貨と紙幣をお取りください。\n紙幣は束で払い出されます。取り除くまで払い出しは停止されます。硬貨返却容器が一杯の場合はすみやかに空にしてください。空になるまで払い出しは停止されます。
+XM_GloryDispenseNoteFullPreemptive,紙幣をお取りください。\n紙幣は束で払い出されます。取り除くまで払い出しは停止されます。
+XM_PlaceJammedBill,現金ボックスを取り外し、中の詰まった紙幣をセットします。
+MinMaxFastLaneBtnPrimaryTxt,SelfServ Checkoutの最小化
+MinMaxFastLaneBtnSecondaryTxt,SelfServ Checkoutの最大化
+MinMaxFastLaneBtnPrimaryShowConfirmation,"SelfServ Checkoutを最小化するには""SelfServ Checkoutの最小化""をタッチして下さい。"
+MinMaxFastLaneBtnSecondaryShowConfirmation,"SelfServ Checkoutを最大化するには""SelfServ Checkoutの最大化""をタッチして下さい。"
+StopStartFastLaneBtnPrimaryTxt,SelfServ Checkout 停止 終了
+StopStartFastLaneBtnSecondaryTxt,SelfServ Checkoutの開始
+SwitchToRAPBtnPrimaryTxt,RAPへスイッチ
+ShutdownSystemBtnPrimaryTxt,システム全体のシャットダウン
+RebootSystemBtnPrimaryTxt,システム全体のリブート
+VolumeBtnPrimaryTxt,音量調整
+EventViewerBtnPrimaryTxt,イベントビュアー
+GenerateLogBtnPrimaryTxt,ダイアグログファイル作成
+ExitFastLaneAndRunProfileBtnPrimaryTxt,停止SelfServ Checkout 及び動かされたプロフィールのマネージャー
+ExitFastLaneAndRunProfileBtnSecondaryTxt,プロファイルマネジャー開始
+TerminalInfoBtnPrimaryTxt,レーン状況
+MinMaxRAPBtnPrimaryTxt,RAPの最小化
+MinMaxRAPBtnSecondaryTxt,RAPの最大化
+MinMaxRAPBtnPrimaryShowConfirmation,"RAPを最小化するには""RAPの最小化""をタッチして下さい。"
+MinMaxRAPBtnSecondaryShowConfirmation,"RAPを最大化するには""RAPの最大化""をタッチして下さい。"
+StopStartRAPButtonPrimaryTxt,RAP停止
+StopStartRAPButtonSecondaryTxt,RAPの開始
+RapConfigureBtnPrimaryTxt,RAP設定
+SwitchToFastLaneBtnPrimaryTxt,SelfServ Checkoutへスイッチ
+ExitRAPAndRunProfileBtnPrimaryTxt,停止RAP 及び動かされたプロフィールのマネージャー
+ExitRAPAndRunProfileBtnSecondaryTxt,プロファイルマネジャー開始
+UtilityFunctionsTitle,NCR SelfServ Checkout\nユーティリティー機能
+StartTitle,システム起動
+SystemStartup,待ち時間を始めるシステム
+TerminalID,ターミナルID 
+InterfaceVersion,ソフトウェアバージョン
+TrainingProgramPrimaryTxt,練習
+LaunchPadNet_OperatorIDText,扱者番号：: 
+KeySwitchOperatorID,キーロック
+LaunchPadNet_SignOnButtonText,サイン イン
+LaunchPadNet_SignOffButtonText,サイン オフ
+SignedOffButtonText,サイン・オフ
+Exit,終了
+LaunchPadNet_ReturnToShoppingButtonText,返品
+PickListEditor,商品リスト編集
+RunADDTxt,ADDを再起動して稼動
+TouchWareTxt,touchscreen に目盛りを付けなさい
+DiagConfirm,確実診断ログファイルを発生させたいと思うであるか。
+ProfileManagerFLConfirm,確実SelfServ Checkout を停止し、プロフィールのマネージャーを動かしたいと思うであるか。
+ProfileManagerRAPConfirm,確実RAP を停止し、プロフィールのマネージャーを動かしたいと思うであるか。
+ProfileManagerConfirm,確実プロフィールのマネージャーを始めたいと思うであるか。
+EventViewerConfirm,その確実でき事の視聴者を始めたいと思うであるか。
+TrainingConfirm,トレーニングプログラムを始めたいと思うことを確かめるか。
+PicklistConfirm,Picklist の編集者を始めたいと思うことを確かめるか。
+RunADDConfirm,次に再起動するときADDを稼動させますか？
+CalibrateConfirm,接触スクリーンに目盛りを付けたいと思うことを確かめるか。
+ShutdownConfirm,操業停止に全体のシステムがほしいと思うことを確かめるか。
+RebootConfirm,全体のシステムを再始動したいと思うことを確かめるか。
+CloseAllConfirm,適用すべてを出、卓上に行きたいと思うことを確かめるか。
+VolumeConfirm,音量調節を調節したいと思うことを確かめるか。
+TerminalInfoConfirm,確実末端情報を見たいと思うであるか。
+StopFastLaneConfirm,SelfServ Checkout を停止したいと思うことを確かめるか。
+StopRAPConfirm,確実RAP を停止したいと思うであるか。
+StartFastLaneConfirm,SelfServ Checkout を始めたいと思うことを確かめるか。
+StartRAPConfirm,RAP を始めたいと思うことを確かめるか。
+WindowsLogOnTxt,ログオンWindows
+WindowsLogOnConfirm,適用すべてを出、新しいユーザーとしてログオンしたいと思うことを確かめるか。
+YesText,はい
+NoText,いいえ
+CommandPromptPrimaryTxt,コマンド指示
+CommandPromptConfirm,コマンド指示を始めたいと思うことを確かめるか。
+RSMLEPrimaryTxt,小売りシステムマネージャーLE
+RSMLEConfirm,小売りシステムマネージャーLE を始めたいと思うことを確かめるか。
+OperatorRegistrationUtility,オペレーター登録ユーティリティー
+LaunchPadNet_EnterIDFpLeadthru,ログインするには、ユーザーIDを入力してエンターボタンを押すか、指紋読み取り機に指を置いてください。
+LaunchPadNet_ReEnterIDFpLeadthru,ログインが無効キーパッドか指紋を使って再度ログインしてください
+LaunchPadNet_ClearButtonText,クリア
+LaunchPadNet_EnterButtonText,エンター
+LaunchPadNet_GoBackButtonText,戻る
+LaunchPadNet_SpaceButtonText,スペース
+LaunchPadNet_BackSpaceButtonText,バックスペース
+LaunchPadNet_EnterIDLeadthru,キーパッドからIDを入力して下さい。
+ReEnterIDLeadthru,暗証番号が正しくありません。再度入力して下さい。
+LaunchPadNet_EnterPasswordLeadthru,キーパッドから暗証番号を入力してください。
+CancelButtonText,取消
+LaunchPadNet_LoggingInLeadthru,ログイン中です...お待ち下さい。
+LaunchPadNet_ShiftButtonText,シフト
+LaunchPadNet_SignedOffButtonText,サイン・オフ
+LaunchPadNet_ReEnterIDLeadthru,暗証番号が正しくありません。再度入力して下さい。
+LegalCaptionText,"LEGAL CAPTION\n          This system is for the use of authorized personnel only. By logging onto this system, you are subject to the terms and conditions of all Information Security policies and standards. Use by unauthorized individuals or for unauthorized purposes is a violation of federal and/or state law. The company reserves the right to take any necessary actions to protect authorized users, intellectual property and other information assets. Individuals using this system are subject to having all of their activities on this system monitored. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals possible evidence of criminal activity, system personnel may provide the evidence of such monitoring to law enforcement officials.\n        "
+SignBelow,下にサインをお願いします。
+PageIndicatorLabelFormat,{0}/{1}ページ
+SignOnTitle,NCR SelfServ Checkout Log In
+HH_TransactionCancelLeadThru2,Transaction cancelled.
+AlertStatusTextOff,
+AlertStatusTextOn,!!!
+InitialText,.
+XM_NegativeAlert_Remove,"負の数が見つかりました。考えられる原因：打ちこみエラー、または、紙幣はロダーカセットにあったのに、その合計がキャッシュ・マネジメントに入力されていなかったこと。\n\n解決には以下の手順に従ってください。\n1.「取消」を選択してから「現金を追加」を選択します。 \n2.紙幣単位を負の数でタッチする。\n3. 正確な金額を負の数で入力する、またはローダーに入れる\n4.「変更する」を選択。\n5. 確認のため「""はい""」を選択して""終了""。"
+DueCart,期限
+ScotApp_1742,バッグが無効
+ScotApp_71,71unused
+ScotApp_61,61unused
+ScotApp_51,クーポンスキャン\n不可
+ScotApp_41,制限商品
+ScotApp_31,クーポン
+ScotApp_1055,1055unused
+ScotApp_11,11unused
+ScotApp_789,カードを読ませて下さい。\nかごに登録漏れの商品がないかお確かめ下さい。
+ScotApp_689,　売上：     %d
+ScotApp_589,デバイスファクトリーが読み込まれました。
+ScotApp_389,カード処理中...
+ScotApp_289,289unused
+ScotApp_189,オプションはを読み込まれました。
+ScotApp_91,91unused
+ScotApp_773,セーブ金額 :
+ScotApp_673,お客様におつりを%sお渡し下さい。
+ScotApp_1264,USERDEFINED6
+ScotApp_473,補充が必要です。
+ScotApp_373,プリンター：排出詰まり
+ScotApp_989,989unused
+ScotApp_889,%s\n実重量(%s): %s\nあるべき重量(%s): %s
+ScotApp_1520,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1042,伝票裏書:\nこれは伝票の裏書に失敗したためにプリントされています。\nこれを伝票に添付して下さい。\n----------------------------------------\n
+ScotApp_973,973unused
+ScotApp_873,D.L / I.Dナンバーの入力:
+ScotApp_1737,マイバッグ
+ScotApp_752,前日サマリー
+ScotApp_652, **この商品の重量はWLDBに登録されていません。**
+ScotApp_1054,1054unused
+ScotApp_452,コインアクセプターにケーブルが正しく接続されているか確認して下さい。
+ScotApp_352,ステータス更新
+ScotApp_252,コイン釣銭機にコインが詰まりました。取除いて下さい。
+ScotApp_152,152unused
+ScotApp_1310,* 紙幣支払機を引き出し、\n* ラッチされるまで再挿入してください。\n* 紙幣支払機のモーターの起動と緑ランプの点灯を確認してください。
+ScotApp_661,(初期値)
+ScotApp_952,ゼロ重量セット
+ScotApp_852,３点
+ScotApp_1527,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1838,商品を確認
+ScotApp_731,サマリー
+ScotApp_631,オーナー名：
+ScotApp_531,\nシグネチャーキャプチャーが故障です。
+ScotApp_331,商品を袋から取出して下さい。キーボードが表示されています。
+ScotApp_231,231unused
+ScotApp_131,クーポンをクーポン投入口に入れて下さい。
+ScotApp_1736,袋をバッグ・エリアに置き、「終了」にタッチしてください
+ScotApp_1250,PIP クレジット
+ScotApp_831,831unused
+ScotApp_300,300unused
+ScotApp_1306,釣銭出金額 %s
+ScotApp_710,710unused
+ScotApp_610,商品重量:
+ScotApp_510,もう一度\nお願い致します
+ScotApp_310,箱が空です。
+ScotApp_210,210unused
+ScotApp_110,計量商品
+ScotApp_1526,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1126,コイン釣銭機が故障です。
+ScotApp_1040,署名
+ScotApp_810, 練習中
+ScotApp_1735,袋を置いてください
+ScotApp_1257,PIP フードスタンプ
+ScotApp_704,PINパッド入力
+ScotApp_604,商品をスキャンして下さい。
+ScotApp_504,504unused
+ScotApp_404,404unused
+ScotApp_304,画面からトレーを選んで下さい。
+ScotApp_204,サーバーへファイルをコピー中...
+ScotApp_104,104unused
+ScotApp_1269,USERDEFINED11
+ScotApp_904,重量確認
+ScotApp_804,804unused
+ScotApp_1047,裏書が必要です。扱者が参りますのでお待ち下さい。
+ScotApp_1478,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1134,紙幣カセットが満杯です。
+ScotApp_1734,自分の買い物袋を持参しました
+ScotApp_1256,PIP EBT
+ScotApp_1512,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1465,現金モジュールエラー
+ScotApp_1721,練習取引
+ScotApp_1890,処理中...
+ScotApp_1243,ローヤルティー
+ScotApp_1544,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_63,いいえ
+ScotApp_53,53unused
+ScotApp_43,43unused
+ScotApp_33,問題を修正しました
+ScotApp_1255,PIP デビットチェッキング
+ScotApp_13,  %ss @ %s/%s
+ScotApp_1511,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_93,スキャン & バッグ
+ScotApp_83,83unused
+ScotApp_1464,ターミナル番号
+ScotApp_1189,商品登録
+ScotApp_1720,WR:
+ScotApp_1045,%s支払
+ScotApp_672,************ 練習 ****************
+ScotApp_572,"商品コードを入れ、""エンター""をタッチして下さい。"
+ScotApp_472,扱者の確認が必要です。
+ScotApp_372,プリンター：サイドウェイ通信エラー
+ScotApp_272,仕様済クーポンを確認して下さい。
+ScotApp_172,取消す商品をスキャンするかレシートから選んで下さい。
+ScotApp_1510,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1701,%s円の出金に失敗しました。
+ScotApp_972,972unused
+ScotApp_872,保留の取消
+ScotApp_1188,個数
+ScotApp_1727,アイテム検索
+ScotApp_751,当日時間帯別
+ScotApp_651,初期値
+ScotApp_551,551unused
+ScotApp_451,コインアクセプター：詰まり
+ScotApp_351,レーンステータス
+ScotApp_251,251unused
+ScotApp_151,現金をお取り下さい。
+ScotApp_951,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s removed;LSWND3=%s;
+ScotApp_851,２点
+ScotApp_730,730unused
+ScotApp_630,クレジットカード＃：
+ScotApp_430,停止中
+ScotApp_330,アシストモード
+ScotApp_230,紙幣入金機 － リジェクト
+ScotApp_130,クーポンをクーポン投入口に入れて下さい。
+ScotApp_1726,検索終了
+ScotApp_930,ネットワークを確認して下さい。
+ScotApp_830,商品は取除かれました。
+ScotApp_193,193unused
+ScotApp_1457,現金が多い
+ScotApp_1283,1283unused
+ScotApp_724,724unused
+ScotApp_624,正しくない許容値が入力されました。
+ScotApp_424,金額入力
+ScotApp_324,20歳超
+ScotApp_224,カードリーダー取込庫が取外されました。
+ScotApp_124,124unused
+ScotApp_1469,%sをお客様に払い出しできませんでした。%s\n* 硬貨支払機と紙幣支払機をチェックしてください。\n*「現金/紙の状態」にタッチして現金を補充するか詰まりを取り除いてください。
+ScotApp_924,924unused
+ScotApp_824,保留確認
+ScotApp_576,カード支払の開始
+ScotApp_1247,フードスタンプ
+ScotApp_1678,SafePay
+ScotApp_1503,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1756,検索結果から選ぶか、「戻る」
+ScotApp_1456,扱者IDと暗証番号を確かめ、\nもう一度入力して下さい。
+ScotApp_1502,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1712,一時停止を拒否
+ScotApp_1468,現金モジュールステータス：不足
+ScotApp_1246,EBT
+ScotApp_75,終了
+ScotApp_65,65unused
+ScotApp_55,全取消
+ScotApp_45,45unused
+ScotApp_35,お釣:
+ScotApp_1258,PIP 金券
+ScotApp_15,商品コード:
+ScotApp_1711,一時停止
+ScotApp_1683,SafePay
+ScotApp_95,クーポンスキャン
+ScotApp_85,85unused
+ScotApp_1058,アシスト支払
+ScotApp_1664,SafePay
+ScotApp_797,釣銭%sの出金に失敗しました。\n*詰まりがないか紙幣釣銭機とカセットを確認して下さい。\n紙幣カセットと取込庫をラッチし\nドアを閉めて下さい。
+ScotApp_697,697unused
+ScotApp_597,NCR SelfServ Checkoutのフォーム %dを読み込んでいます...
+ScotApp_497,合計:
+ScotApp_297,297unused
+ScotApp_197,プレゼンテーションサービスが読み込まれました。
+ScotApp_997,価格を入れて下さい。
+ScotApp_897,WTINFOが読み込まれました。
+ScotApp_1454,暗証番号を入力し“登録”をタッチしてください。
+ScotApp_1710,戻された現金をお取りください
+ScotApp_1741,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s 期待値;LSWND3=%s %s 実測地
+ScotApp_1388,練習
+ScotApp_771,保留取消
+ScotApp_671,練習終了
+ScotApp_571,"個数を入れ、""エンター""をタッチして下さい。"
+ScotApp_471,   確認商品
+ScotApp_371,プリンター：ヘッドを交換して下さい。
+ScotApp_271,仕様済クーポン確認
+ScotApp_971,971unused
+ScotApp_871,保留の確認
+ScotApp_1840,店舗#：
+ScotApp_750,当日サマリー
+ScotApp_650,通常商品
+ScotApp_550,550unused
+ScotApp_450,450unused
+ScotApp_350,メディア ステータス
+ScotApp_250,250unused
+ScotApp_150,キャッシング金額をお選び下さい。
+ScotApp_1773,「クーポンを承認」にタッチしてクーポンを承認するか、またはアシストモードに進んで無効にしてください
+ScotApp_950,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s added;LSWND3=%s;
+ScotApp_850,１点
+ScotApp_1405,POSとの同期が崩れています。アシストモードで同期させて下さい。
+ScotApp_1513,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1657,無効な部門です。
+ScotApp_1225,未登録商品
+ScotApp_644,-------------------------------------------------------------------
+ScotApp_544,扱者暗証番号は%d桁以下です。
+ScotApp_444,フードスタンプ
+ScotApp_344,344unused
+ScotApp_244,244unused
+ScotApp_144,署名確認
+ScotApp_1590,%sビンでコインが詰まっています。
+ScotApp_1669,SafePay
+ScotApp_944,バッグ･ボックスの要求が多すぎます。　最大は %dです。
+ScotApp_844,844unused
+ScotApp_1729,検索アイテム
+ScotApp_1447,紙幣回収
+ScotApp_1703,(+)
+ScotApp_1656,部門コードを入力し“登録”にタッチして下さい。
+ScotApp_915,ベルトスキップ要求が多すぎます。最大は%dです。
+ScotApp_1668,SafePay
+ScotApp_1542,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1139,紙幣釣銭機のドアが開いています。
+ScotApp_1254,PIP デビットセービング
+ScotApp_1249,PIP 一般
+ScotApp_77,クレジット
+ScotApp_67,戻る
+ScotApp_57,登録終了/支払
+ScotApp_47,開始
+ScotApp_37,37unused
+ScotApp_1458,NCR SelfServ Checkoutレポート
+ScotApp_17,クーポン
+ScotApp_1752,スケールの重量が限界を超えています
+ScotApp_1643,SafePay
+ScotApp_97,画面からトレーを選んで下さい。
+ScotApp_87,87unused
+ScotApp_1665,SafePay
+ScotApp_1138,%s円の出金に失敗しました。
+ScotApp_1589,硬貨出金
+ScotApp_1445,枚数変更
+ScotApp_1318,金券を読ませて下さい
+ScotApp_1654,枚数は容量を超えています。必要な最大収納枚数は%dです。枚数%dは自動的に入力されます。
+ScotApp_796,"釣銭コインが足りないか、コイン釣銭機が障害です。\nコイン釣銭機の電源をオフ･オンして下さい。又は、\n釣銭コインを補充しコイン釣銭機の電源をオフ･オンし、\nレーンステータス画面で""コイン補充""をタッチして下さい。"
+ScotApp_696,696unused
+ScotApp_596,NCR SelfServ CheckoutのAuxDispが読み込まれました。
+ScotApp_1391,“問題を修正しました“をタッチして下さい。\nエラーが解消されなければ再立上げをして下さい。
+ScotApp_396,以下の項目の確認をして下さい。
+ScotApp_296,296unused
+ScotApp_196,プレゼンテーションサービスを読み込んでいます...
+ScotApp_1588,各ビンは 「ディスペンサー・ピックアップ」ボタンを選択できる前に、各ビンは空になります。各コイン・ホッパー・ビンを空にして、その後、「ディスペンサー・ピックアップ」をタッチしてください。
+ScotApp_996,価格入力
+ScotApp_896,WTINFOを読み込んでいます...
+ScotApp_574,"暗証番号を入れ、""エンター""をタッチして下さい。"
+ScotApp_1093,最終レシート印字
+ScotApp_1641,SafePay
+ScotApp_1781,時間切れ
+ScotApp_562,アシストモードでのクーポン扱
+ScotApp_874,"D.L / I.Dナンバーを入力し""エンター""をタッチして下さい。"
+ScotApp_1124,1124unused
+ScotApp_770,保留実行
+ScotApp_670,練習開始
+ScotApp_570,570unused
+ScotApp_470,   年齢制限
+ScotApp_370,プリンター：カバーが開いています。
+ScotApp_270,クーポン確認
+ScotApp_170,"商品をはかりから下ろし、スキャナーの""Scale Zero""ボタンを”押して下さい。"
+ScotApp_1640,SafePay
+ScotApp_870,アラート：
+ScotApp_1733,「戻る」を選択して続行
+ScotApp_1553,現金がフルです。
+ScotApp_664,商品をスキャンするか、言語を選んで下さい。
+ScotApp_564,564unused
+ScotApp_464,%s               %s
+ScotApp_364,364unused
+ScotApp_264,264unused
+ScotApp_964,"レーンで商品を取除き、""セキュリティー解除""か、または""確認＆重量更新""をタッチして下さい。"
+ScotApp_864,承認：
+ScotApp_1647,(mmddyyyy)
+ScotApp_1119,紙幣釣銭機はドアが開いていると動作しません。\n\n釣銭機ドア又は安全ドアを閉めラッチをして下さい。\n\n再度問題が起きたら係員に連絡してください。
+ScotApp_1659,レシート印字
+ScotApp_819,取消された商品の保留の確認
+ScotApp_1339,再立上げ
+ScotApp_1582,現金ステータス
+ScotApp_1154,スキャナーエラー
+ScotApp_1117,(%s)円の紙幣カセットがセットされていないかラッチされていません。\n\n (%s)円カセットをセットをするかラッチするまでしっかりとセットしなおして下さい。
+ScotApp_1294,お魚
+ScotApp_1030,クーポンを入れて下さい。
+ScotApp_1658,お客様が正しい釣銭額をお受け取りになったか確認してください。
+ScotApp_1421,アシストモード
+ScotApp_709,709unused
+ScotApp_1129,正しく修正されませんでした。\n\nやり直して下さい。
+ScotApp_509,509unused
+ScotApp_409,システムメッセージ
+ScotApp_309,円
+ScotApp_209,プログラムが終了しました。
+ScotApp_109,継続確認
+ScotApp_1338,ダイアグファイルの作成
+ScotApp_909,重量が正しくありません。
+ScotApp_809,POSレジメッセージ：
+ScotApp_1645,SafePay
+ScotApp_1116,紙幣釣銭機は取込庫がセットされていない場合や正しくラッチされていない場合は動作しません。\n\n取込庫を正しくセットして、ラッチされているか確認して下さい。
+ScotApp_1128,%s\n
+ScotApp_1452,扱者IDを入力し“登録”をタッチしてください。
+ScotApp_183,183unused
+ScotApp_1450,ボックス施錠
+ScotApp_1293,菓子＆パン
+ScotApp_1644,SafePay
+ScotApp_1115,オフラインレポート
+ScotApp_795,より良いサービスのためにモニターをさせて頂いています。
+ScotApp_695,695unused
+ScotApp_595,NCR SelfServ CheckoutのAuxDispを読み込んでいます...
+ScotApp_395,販売制限商品
+ScotApp_295,295unused
+ScotApp_195,デバイスマネジャーが読み込まれました。
+ScotApp_566,566unused
+ScotApp_1324,取引終了後、\nはかりに重さがあります。
+ScotApp_995,レーンに行き、ストア・モードで開設をして下さい。
+ScotApp_895,DBMを終了しています...
+ScotApp_1102,次へ
+ScotApp_1383,（例外）
+ScotApp_1402,紙幣回収庫のジャンパープラグがオフです。
+ScotApp_1292,お惣菜
+ScotApp_1114,レポート期間終了の更新は成功しました。
+ScotApp_1222,サービス外
+ScotApp_1101,%s\t%s
+ScotApp_1159,ピンパッド・EFTデバイスが応答しません。
+ScotApp_1100,%s
+ScotApp_1539,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1649,(ddmmyyyy)
+ScotApp_1317,金券支払
+ScotApp_1883,"バッグスケールとカートの余分な商品を確認して""安全クリア""にタッチ"
+ScotApp_729,729unused
+ScotApp_629,お買上げ金額：
+ScotApp_429,赤
+ScotApp_329,  %ss 単価 %d %s/%s
+ScotApp_229,229unused
+ScotApp_129,取消された商品が別に置かれたか確認して下さい。
+ScotApp_1107,%s\t%s\t%s 個 @ %s/%s\t%s
+ScotApp_1538,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_929,WLDBと正しく通信ができません。
+ScotApp_829,829unused
+ScotApp_1316,プリンターカバーを開けて示された個所の紙詰りを確認してください。 \n *プリンターカバーを閉じロール紙をセットし直してください。
+ScotApp_81,続ける
+ScotApp_1882,スマートアシスト警告 - 承認がスキャンされていません
+ScotApp_1673,SafePay
+ScotApp_1135,紙幣釣銭機のエラーです。
+ScotApp_1705,通信エラー
+ScotApp_1894,Set item aside and continue with your purchase.
+ScotApp_787,"生年月日の入力：%s, %d歳"
+ScotApp_1398, アシ\練習
+ScotApp_1106,%s\t%s\t%s 個 @ %s/1個\t%s
+ScotApp_1525,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1493,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1490,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1315,プリンターカバーを開けて紙詰りを確認してください。 \n *プリンターカバーを閉じロール紙をセットし直してください。
+ScotApp_1881,"バッグスケールを確認、余分な商品を取り除き""安全クリア""にタッチ"
+ScotApp_1173,取消承認
+ScotApp_1524,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_505,番号エラー
+ScotApp_1302,閉じる
+ScotApp_905,（レシートに詳細があります）
+ScotApp_1164,プリンターが正しい位置にセットされていません。
+ScotApp_1492,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1314,プリンターカバーを開けて紙紛を取除いてください。\n *ロール紙をセットし直してください。\n *ロールの上部から紙を引き出しプリンターに差し込んでください。
+ScotApp_1817,* 硬貨循環器を引き出します。\n* 円形の側の扉を開けてベルトから硬貨を取り除きます。\n* すべての扉がきちんと閉じ、ロックされているかを確認します。\n* 硬貨をお客様に返却します。\n* 再度エラーが起きたら係員を呼んでください。
+ScotApp_1442,紙幣を補充するか、“回収”をタッチして下さい。
+ScotApp_1880,バッグスケールに余分な商品があります
+ScotApp_1172,保留確認
+ScotApp_1415,1415unused
+ScotApp_788,正しい誕生日:%s
+ScotApp_688,688unused
+ScotApp_588,デバイスファクトリーを読み込んでいます...
+ScotApp_488,スキャナーに次の商品を置いて下さい：%s
+ScotApp_388,処理中...
+ScotApp_288,"""問題を修正しました""をタッチして下さい。\n\nエラーが解消されない場合はターミナルを再立ち上げして下さい。\n\nスーパーバイザーキーを“S”の位置に回すか、スーパーバイザーボタンをタッチし”全体のシャットダウン”を選んで下さい。\n画面が暗くなったらUPS又はパワーストリップの電源をオフして下さい。\n再立ち上げ後エラーが解除されない場合はサービスマンを呼んで下さい。"
+ScotApp_188,オプションを読み込んでいます...
+ScotApp_988,予期しない商品がベルトにあります。取除いて下さい。
+ScotApp_888,確認できない商品がバッグにあります。取り除いて下さい。
+ScotApp_1887,取引を再確認
+ScotApp_1171,不正増加
+ScotApp_1199,有効期限入力
+ScotApp_1300,開始
+ScotApp_1326,クーポン投入待タイムアウト
+ScotApp_1291,ご飯もの
+ScotApp_1517,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1886,余分な商品を確認
+ScotApp_749,749unused
+ScotApp_1529,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_549,549unused
+ScotApp_449,コインアクセプター：リジェクト
+ScotApp_349,349unused
+ScotApp_249,249unused
+ScotApp_149,暗証番号入力
+ScotApp_1307,レシートプリント中
+ScotApp_1738,係員が袋をチェックします
+ScotApp_949,949unused
+ScotApp_717,717unused
+ScotApp_617,重量比較の設定を選んで下さい。  (商品の重さが入力された重さと比較されます)
+ScotApp_517,他の支払方法要求
+ScotApp_417,ハードトータルが読み込まれました。
+ScotApp_317,317unused
+ScotApp_217,217unused
+ScotApp_117,商品を別に置いて下さい。
+ScotApp_1516,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1885,賞品がスキャンされていません
+ScotApp_917,商品を取除く要求が多すぎます。最大は%dです。
+ScotApp_817,ストアアシスト
+ScotApp_1177,袋入れタイマー切れ
+ScotApp_1528,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1175,制限を越えています、袋に入れないで下さい。
+ScotApp_1109,%s\t%s\t%s @ %s/%s\t%s
+ScotApp_1453,暗証番号
+ScotApp_1693,代替硬貨
+ScotApp_1515,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_7,7unused
+ScotApp_6,6unused
+ScotApp_5,5unused
+ScotApp_4,4unused
+ScotApp_3,3unused
+ScotApp_2,kg
+ScotApp_1,lb
+ScotApp_1176,次商品登録
+ScotApp_1724,練習モード取引
+ScotApp_1019,ベルトに置いて下さい。
+ScotApp_9,9unused
+ScotApp_8,8unused
+ScotApp_609,重量許容値修正
+ScotApp_1305,入金額 %s
+ScotApp_1893,無効なバーコード
+ScotApp_1409,アシストメニュー
+ScotApp_1692,SafePay
+ScotApp_1163,"""問題を修正しました”をタッチして下さい。\n\nエラーが解消されない場合はターミナルを再立ち上げして下さい。\n\n”ストアログイン”でユーティリティー画面にし\n”全体のシャットダウン”を選んで下さい。\n画面が暗くなったらUPS又はパワーストリップの電源をオフして下さい。\n再立ち上げ後エラーが解除されない場合はサービスマンを呼んで下さい。"
+ScotApp_1514,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1372,硬貨入金機
+ScotApp_1048,1048unused
+ScotApp_967,967unused
+ScotApp_1304,会員カード
+ScotApp_1162,デバイスはオフラインです。
+ScotApp_1833,エクセプション　トランザクションブローカー
+ScotApp_1818,* ロックを外してホッパートレイを引き出し、詰まりを取り除きます(I)。\n* 詰まった硬貨をホッパー容器に戻します。ホッパートレイを再度挿入してロックします。\n* 硬貨循環器を引き出します。ロックを外してカバーを取り外します。\n* 表示されているケーブルの接続を切ります(II)。\n* 預入機の右側にある赤いタブを外して前方に引っ張りながら逆さに回転させ、表示されたエリアから詰まりを取り除きます(III)。\n* 預入機を再度挿入してケーブルを接続します。\n* カバーをはめてロックします。再度エラーが起きたら係員に連絡してください。
+ScotApp_1174,重量違い
+ScotApp_1500,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1366,スケール
+ScotApp_1161,ページャーのエラーです。
+ScotApp_1717,WO:
+ScotApp_1832,エクセプション　デパートメント
+ScotApp_1370,暗号機
+ScotApp_669,署名のプリントはエラーのため失敗しました。
+ScotApp_569,商品コード入力
+ScotApp_469,469unused
+ScotApp_369,プリンター：通信エラー
+ScotApp_269,アシストモード
+ScotApp_1507,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_969,969unused
+ScotApp_737,737unused
+ScotApp_637,セキュリティーオフライン\n最後のアクションは取消されました。
+ScotApp_537,537unused
+ScotApp_437,不足しています。
+ScotApp_337,"商品をスキャンするか、　又は商品コードを入力して""OK""をタッチして下さい。"
+ScotApp_237,紙幣カセットをラッチされるまで押込んで下さい。\n\nカセットがラッチされているかハンドルを引いて確認して下さい。
+ScotApp_137,おつりをお取り下さい。
+ScotApp_931,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s expected;LSWND3=%s %s 視認;
+ScotApp_1519,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1831,補間済み
+ScotApp_937,限度￥商品を取除いて下さい。
+ScotApp_837,料金
+ScotApp_1702,***複製レシート***
+ScotApp_1377,個数
+ScotApp_1728,人気商品のリストから選択するか、またはアルファベット順のリストから探してください。
+ScotApp_1395,アシストモード開始
+ScotApp_716,716unused
+ScotApp_616,重量比較
+ScotApp_516,他の支払
+ScotApp_416,ハードトータルを読み込んでいます...
+ScotApp_316,316unused
+ScotApp_216,＊プリンターの扉を開けて下さい。\n＊プリンターのカバーを開け紙詰まりを調べて下さい。\n＊プリンターのカバーを閉めレシート紙をロードして下さい。\n＊レシートに笑顔マークが印刷されていますか？\n＊プリンターの扉を閉めロックをして下さい。
+ScotApp_116,全ての商品取消
+ScotApp_1522,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1506,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1879,"バッグスケールを確認して""安全クリア""にタッチ"
+ScotApp_916,"レーンで商品を確認し、""セキュリティー解除""をタッチして下さい。"
+ScotApp_816,816unused
+ScotApp_1167,* プリンターの扉を開けて下さい。\n* ラッチを解除しプリンターを後方に押して下さい。\n* プリンターカバーを開け紙詰りをチェックして下さい。\n* プリンターカバーを閉めレシートをロードさせて下さい。\n* 注意しながらプリンターを前方にラッチされるまで引いて下さい。
+ScotApp_1518,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1830, 入力が承認されました
+ScotApp_1376,", %s"
+ScotApp_783,783unused
+ScotApp_683,683unused
+ScotApp_583,このカードは使用できません。
+ScotApp_483,パッドに付属のペンで署名をお願い致します。
+ScotApp_383,383unused
+ScotApp_283,暗証番号を入力して下さい。
+ScotApp_1505,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_983,取上げベルトを読み込んでいます...
+ScotApp_883,保留確認
+ScotApp_1363,ライン表示機
+ScotApp_1714,一時停止拒否を承認しました
+ScotApp_1837,「承認」にタッチして続けてください。
+ScotApp_1449,紙幣ステータス
+ScotApp_1375,後入力操作：\n%s
+ScotApp_1248,ギフト券
+ScotApp_1153,紙詰まりです。
+ScotApp_1504,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1362,キーロック
+ScotApp_1836,無効なバーコード
+ScotApp_1571,変更をしないことを確認してください。
+ScotApp_1215,デバイスエラー
+ScotApp_1858,釣銭機で、在高異常が発生しています。
+ScotApp_1152,レシート紙がなくなりました。
+ScotApp_1700,=%s出金の出金がエラーです。%s\n硬貨・紙幣出金機を確認して下さい。\n=“正常”をタッチして下さい。
+ScotApp_1823,デジタル・レシートが正しく発行されました。
+ScotApp_1605, カードがなくなりました。    
+ScotApp_1361,現金釣銭機
+ScotApp_1835,商品を確認、または商品をどかしてください。
+ScotApp_1878,バッグスケールの重量が違います
+ScotApp_1281,アシスト預登録
+ScotApp_1425,接続
+ScotApp_1570,変更をしない
+ScotApp_814,814unused
+ScotApp_291,コイン釣銭機のチューブで詰まりました\n%s\n硬貨出金機の詰りを解除して“詰り解除”をタッチして下さい。
+ScotApp_191,TBは読み込まれました。
+ScotApp_1151,プリンターのカバーが開いています。
+ScotApp_1707,硬貨詰りです
+ScotApp_1822,商品の重量は画面左下に出ます
+ScotApp_757,757unused
+ScotApp_657,返金・値引は買上げの終了まで別に置いて下さい。
+ScotApp_557,販売個数制限商品
+ScotApp_457,457unused
+ScotApp_357,357unused
+ScotApp_257,257unused
+ScotApp_157,システムメッセージ
+ScotApp_1360,ドロワー
+ScotApp_1719,WA:
+ScotApp_1834,最大
+ScotApp_1868,スキャナーのカメラビューから手をどけてください
+ScotApp_957,DBマネジャークライアントとの通信に失敗しました。
+ScotApp_857,組立料金確認
+ScotApp_1064,1064unused
+ScotApp_1577,合計枚数:
+ScotApp_736,736unused
+ScotApp_636,セキュリティーオフライン
+ScotApp_1091,1091unused
+ScotApp_436,金額確認
+ScotApp_336,商品を調べる
+ScotApp_236,236unused
+ScotApp_136,現金支払
+ScotApp_1509,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1821,重量を承認
+ScotApp_936,限度￥バッグをスキップ
+ScotApp_836,料金&&お客様の確認：
+ScotApp_1367,スキャナー
+ScotApp_1718,NOI:
+ScotApp_1274,USERDEFINED16
+ScotApp_715,715unused
+ScotApp_615,袋詰め強制の設定を選んで下さい。 （お客様は商品をバッグに入れなければなりません）
+ScotApp_515,515unused
+ScotApp_315,315unused
+ScotApp_215,デビットをセービング中です。
+ScotApp_115,取消を確認して下さい。
+ScotApp_1576,紙幣釣銭機ステータス :
+ScotApp_1090,レポート作成
+ScotApp_815,レジを開設します。
+ScotApp_1508,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1406,TB/POS同期
+ScotApp_1099,認識できないデバイスエラーです。
+ScotApp_1563,入金
+ScotApp_782,紙幣釣銭機　詰まり\n詰まりを取除いて下さい。又は\n取込庫を調整して下さい。
+ScotApp_682,682unused
+ScotApp_582,支払の終了
+ScotApp_482,482unused
+ScotApp_382,未確認
+ScotApp_282,ID入力
+ScotApp_1575,硬貨釣銭機ステータス:
+ScotApp_1097,レコード・レポート印字
+ScotApp_1448,コインステータス
+ScotApp_982,デバイスエラー
+ScotApp_143,レシートに署名をお願い致します。
+ScotApp_1353,使用済みギフト券をクーポン投入口に入れてください。
+ScotApp_1704,"""問題を修正しました”をタッチして下さい。\n\nエラーが解消されない場合はターミナルを再立ち上げして下さい。\n\nスーパーバイザーキーを“S”の位置に回すか、スーパーバイザーボタンをタッチし”全体のシャットダウン”を選んで下さい。\n画面が暗くなったらUPS又はパワーストリップの電源をオフして下さい。\n再立ち上げ後エラーが解除されない場合はサービスマンを呼んで下さい。"
+ScotApp_1827,\n    - 現在の言語 (%s)
+ScotApp_1562,枚数
+ScotApp_1815,* ホッパートレイのロックを外して取り出します。\n* 入っていないホッパーをすべて再度挿入し、すべてのホッパーがきちんと挿入されているか確認します。\n* 最下段の硬貨単位ホッパーがきちんと挿入されているか確認します。\n* 正しい通貨のホッパーが挿入されているか確認します。\n* 再度エラーが起きたら係員を呼んでください。
+ScotApp_1574,%s への入力値は正しくありません。\n正しい値を入力してください。
+ScotApp_1543,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1290,くだもの
+ScotApp_1096,レポート
+ScotApp_1352,ギフト券預
+ScotApp_1561,金種
+ScotApp_1083,商品をバッグに戻すか、または”商品取除”をタッチして下さい。
+ScotApp_1753,商品が見つかりません
+ScotApp_418,ハードトータルを終了しています...
+ScotApp_318,318unused
+ScotApp_1813,%s\n* ホッパートレイのロックを外して引き出します(I)。\n* 詰まっているホッパー容器を取り出します。出口付近の詰まりを確認し取り除きます(II)。\n* 出口付近に詰まりがない場合にはホッパー容器を空にします。ディスクを回転させながら詰まりを確認し取り除きます(III)。\n* ホッパー容器を再度挿入します。\n* すべての扉を閉じ正しくロックします。再度エラーが起きたら係員に連絡してください。
+ScotApp_1095,レポートタイプを選択し、“レポート作成”ををタッチして下さい。
+ScotApp_1351,%s\n%s %s 削除 
+ScotApp_1825,特典を保存
+ScotApp_777,777unused
+ScotApp_677,677unused
+ScotApp_577,現金支払の開始
+ScotApp_377,ユニット - ステータス
+ScotApp_277,277unused
+ScotApp_1560,入金機合計 :  %s
+ScotApp_1082,商品は取除かれました。
+ScotApp_977,実重量： %s %s
+ScotApp_877,価格入力
+ScotApp_1777,有効期限を過ぎたクーポンで取引が完了しました
+ScotApp_1812,硬貨がつまっているか、硬貨の容器が一杯またははずれています
+ScotApp_756,756unused
+ScotApp_556,取引保留ができません。
+ScotApp_456,456unused
+ScotApp_356,暗号機
+ScotApp_256,ユーザーイクジットを終了しています...
+ScotApp_156,システムメッセージ
+ScotApp_1231,ビジュアルベリファイ
+ScotApp_1874,1874unused
+ScotApp_956,"ターミナルの電源を切って再スタートしてください。\n*管理者のキーロックを’S’に、または管理者ボタンを押します。\n を選択する""ADDを再起動して稼動""。選択して""はい""を確認します。\n*「すべてのシステムを切る」を選択します。\n*画面が消えたらUPSか電源コードでターミナルの電源を切ります。\n*ターミナルを起動します。イベントビューワをチェックします。再度エラーが起きた場合には係員に連絡してください。"
+ScotApp_856,レシート：
+ScotApp_1567,出金機合計 :  %s
+ScotApp_735,735unused
+ScotApp_635,誕生日入力
+ScotApp_535,   再開時間
+ScotApp_335,カードリーダー：カードが改竄されている可能性があります。
+ScotApp_235,紙幣入金機 － ニアフル
+ScotApp_135,135unused
+ScotApp_1776,ストア承認
+ScotApp_1811,* 硬貨循環器を引き出します。\n* 硬貨を取り除くか、または硬貨を前に押し出しながら、表示された場所の詰まりを取り除きます。\n* 硬貨をお客様に返却します。\n* 再度エラーが起きたら係員を呼んでください。
+ScotApp_935,重量が減少しました。
+ScotApp_835,レシート：
+ScotApp_1708,硬貨返却ボタンを何度か押して硬貨の詰まりをとり除いてから「問題を修正しました」にタッチします。\n\n再度問題が起きたら係員に連絡してください。
+ScotApp_1168,プリンターはラッチされていません。
+ScotApp_1446,回収
+ScotApp_1566,全入替
+ScotApp_1080,商品をベルトに置いて下さい。
+ScotApp_1775,クーポンを承認
+ScotApp_1810,硬貨が詰まっています。
+ScotApp_1297,釣銭取り忘れタイマー切れ
+ScotApp_1648,(mmddyy)
+ScotApp_708,708unused
+ScotApp_608,重量比較設定
+ScotApp_508,508unused
+ScotApp_408,408unused
+ScotApp_308,円
+ScotApp_208,208unused
+ScotApp_108,クーポンに該当の商品がありません。
+ScotApp_781,781unused
+ScotApp_681,商品をおすすめの画面から選んで下さい。
+ScotApp_581,取引の保留ができません。
+ScotApp_481,扱者をお呼び下さい。
+ScotApp_381,正常
+ScotApp_908,セキュリティー
+ScotApp_521,返金金額：
+ScotApp_1087,カードは確認されました。\n\n商品とクーポンをスキャンして下さい。
+ScotApp_981,981unused
+ScotApp_881,保留：
+ScotApp_1774,クーポンの金額が大きすぎます。
+ScotApp_1296,サービスレベルの最適化のため硬貨を補充して下さい。
+ScotApp_1583,釣銭切れ  (%s)
+ScotApp_1552,回収庫がフルです。
+ScotApp_1295,お肉
+ScotApp_1877,窃盗警告
+ScotApp_1761,クーポン容器が満杯か、またはクーポン･スロットが詰まっています。スロットの詰まりを取り除いてから容器を空にしてください。
+ScotApp_1086,“ゼロ重量セット“は入力された全ての重量を削除します。
+ScotApp_693,693unused
+ScotApp_794,紙幣釣銭機カセットで詰まり\n詰まりを取除いて下さい。
+ScotApp_694,694unused
+ScotApp_594,シグネチャーキャプチャーが読み込まれました。
+ScotApp_494,リストからキャッシュサービスの金額を選んで下さい。
+ScotApp_394,394unused
+ScotApp_1098,プリンターの扉を開け\n示された箇所の詰まりを取除いて下さい。\n詰りがない場合はレシート紙を再度セットして下さい。\nレシートに笑顔マークがプリントされます。扉を閉め鍵を掛けて下さい。
+ScotApp_1551,現金がフルに近づいています。  (%s)
+ScotApp_994,停止中
+ScotApp_894,DBMが読み込まれました。
+ScotApp_1760,クーポン容器が満杯か、またはクーポン･スロットが詰まっています。スロットの詰まりを取り除いてから容器を空にしてください。
+ScotApp_1371,紙幣入金機
+ScotApp_1803,現金のみ受け付け
+ScotApp_1359,伝票プリンター
+ScotApp_1085,クーポンを収集して下さい。
+ScotApp_21,21unused
+ScotApp_776,776unused
+ScotApp_676,コイン釣銭機：%sに%sが補充されました。
+ScotApp_1491,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_476,クーポンを投入して下さい。
+ScotApp_376,376unused
+ScotApp_276,276unused
+ScotApp_176,お買上げを中止し、全ての商品を取消しますか？
+ScotApp_976,976unused
+ScotApp_876,"チーフキャッシャーのIDを入力し""エンター""をタッチして下さい。"
+ScotApp_1271,USERDEFINED13
+ScotApp_1767,重量測定パラメータにアクセスできない
+ScotApp_755,処理中...
+ScotApp_655,例外商品
+ScotApp_1084,収集
+ScotApp_455,455unused
+ScotApp_355,システム機能の選択
+ScotApp_255,255unused
+ScotApp_155,システムメッセージ
+ScotApp_1011,転送中...
+ScotApp_869,"承認番号を入力し""エンター""をタッチして下さい。"
+ScotApp_955,スマートスケールの起動に失敗しました。
+ScotApp_855,組立て料：
+ScotApp_23,+ %s (%s)
+ScotApp_1766,スキャナ/スケール･エラー
+ScotApp_1280,現金
+ScotApp_1335,レーン停止中
+ScotApp_1497,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_728,728unused
+ScotApp_628,レーン＃：%d
+ScotApp_528,528unused
+ScotApp_428,黄
+ScotApp_328,お客様に払い出しができません。%s\n硬貨・紙幣出金機を確認して下さい。\n“問題を修正しました”をタッチして下さい。
+ScotApp_228,カードリーダーのシャッターが故障です。
+ScotApp_128,128unused
+ScotApp_1690,SafePay
+ScotApp_281,281unused
+ScotApp_181,"\nクーポンの下２桁をキーから入力し""OK""をタッチして下さい。"
+ScotApp_928,レーンでデバイスを確認して下さい。
+ScotApp_828,828unused
+ScotApp_1033,レーンで商品を無効にするかタグを取除き”セキュリティー解除”をタッチして下さい。
+ScotApp_1496,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_680,680unused
+ScotApp_580,クーポンが取消される前に商品を取消そうとしました。
+ScotApp_380,380unused
+ScotApp_280,セキュリティーログを消去しました。
+ScotApp_180,クーポンを別に置き、最後に投入して下さい。
+ScotApp_1364,MICR
+ScotApp_980,お客様の反応無でタイマー切れ
+ScotApp_880,880unused
+ScotApp_970,970unused
+ScotApp_1104,e=d=0.01 lb 最大 30.00 lb 分 0.2 lb Nmax 3000
+ScotApp_1032,EAS商品がまだ有効です。
+ScotApp_1286,日本語
+ScotApp_1462,回収カセット
+ScotApp_1298,係員がお手伝い致します。
+ScotApp_1031,クーポンをスキャンして下さい。
+ScotApp_1482,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1706,装置の準備ができていません。\n*装置にアクセス中のすべての他のアプリケーションを閉じてから「問題を修正しました」にタッチします。\n*再度問題が起きたら、Gunneboに連絡してください。
+ScotApp_1399, アシスト
+ScotApp_1494,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1672,SafePay
+ScotApp_573,"IDを入れ、""エンター""をタッチして下さい。"
+ScotApp_173,173unused
+ScotApp_775,NCR SelfServ Checkoutにようこそ! ハッピーショッピング!
+ScotApp_675,硬貨補充
+ScotApp_1481,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_79,79unused
+ScotApp_69,69unused
+ScotApp_59,もう一度\nお願い致します
+ScotApp_39,取引中止
+ScotApp_29,制限商品
+ScotApp_19,消費税
+ScotApp_975,975unused
+ScotApp_603,セキュリティーメンテナンス
+ScotApp_99,取消個数
+ScotApp_89,89unused
+ScotApp_303,商品取消
+ScotApp_203,203unused
+ScotApp_103,商品コードを入力して下さい。
+ScotApp_1889,安全信頼レベル
+ScotApp_1443,コインを補充するか、“回収”をタッチして下さい。
+ScotApp_903,バッグから商品が取り除かれました。
+ScotApp_803,803unused
+ScotApp_1555,出金機
+ScotApp_1037,署名
+ScotApp_1480,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1263,USERDEFINED5
+ScotApp_1697,詰りは解除されました
+ScotApp_748,748unused
+ScotApp_648,JAN
+ScotApp_548,548unused
+ScotApp_448,お客様のFSPアカントは有効です。
+ScotApp_348,348unused
+ScotApp_248,248unused
+ScotApp_148,148unused
+ScotApp_1479,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_948,\nリモートアシスタンス
+ScotApp_848,個数入力が必要です：
+ScotApp_485,署名入力
+ScotApp_1036,EAS商品がまだ有効です。
+ScotApp_1487,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1499,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1023,1023unused
+ScotApp_1179,ワークアウェイタイマー切れ
+ScotApp_1035,EAS有効
+ScotApp_1682,SafePay
+ScotApp_1486,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1144,釣銭機が応答しません。
+ScotApp_866,はい
+ScotApp_1498,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1384,言語
+ScotApp_1743,ログインするには、ユーザーIDを入力してエンターボタンを押すか、指紋読み取り機に指を置いてください。
+ScotApp_1319,金券
+ScotApp_1178,取り出し限度
+ScotApp_1001,商品が見つかりません。
+ScotApp_1034,1034unused
+ScotApp_1485,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1068,1068unused
+ScotApp_1694,%sのため代替硬貨で出金します。 “現金ステータスをタッチして下さい。
+ScotApp_1165,注意してプリンターを正しい位置でラッチされるまで引いて下さい。\n\nプリンターの扉を閉めロックして下さい。
+ScotApp_1021,注意
+ScotApp_1230,－部門
+ScotApp_1484,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_912,確認＆重量更新
+ScotApp_723,723unused
+ScotApp_623,許容値をキーパッドから入力し、 ＜エンター＞を押して下さい。
+ScotApp_523,このカードはご利用できません。
+ScotApp_423,カードを読ませて下さい。\nかごに商品が残っていないかご確認ください。
+ScotApp_323,  %d個　 単価 %d/%s
+ScotApp_223,カードリーダー取込庫がいっぱいです。
+ScotApp_123,123unused
+ScotApp_1020,商品をスキャンして下さい。
+ScotApp_923,923unused
+ScotApp_823,取消確認
+ScotApp_1483,現金モジュールのマニュアルを参照して障害を解除してください。.
+ScotApp_1237,クーポン
+ScotApp_1680,SafePay
+ScotApp_702,702unused
+ScotApp_602,変更/追加\n重量入力
+ScotApp_502,取消された商品を別に置いて下さい。
+ScotApp_402,存在しません。
+ScotApp_302,PINパッドから暗証番号を入力して下さい。
+ScotApp_202,サイン･オフのテスト中...
+ScotApp_102,リコール商品
+ScotApp_1722,練習モード中です。取引を続けますか？
+ScotApp_902,バッグから商品が取り除かれました。商品を戻して下さい。
+ScotApp_802,"\n%sの買物かごでのお買上げですね？\n\n""はい""か""いいえ""のいずれかを選んで下さい。"
+ScotApp_568,クリア
+ScotApp_468,   販売制限
+ScotApp_368,プリンター：レシート紙がセットされていません。
+ScotApp_268,カード読取エラー
+ScotApp_1027,"取引を取消す場合は""はい""を、取引を続ける場合は”いいえ”をタッチして下さい。"
+ScotApp_1354,ギフト券回収
+ScotApp_968,968unused
+ScotApp_868,承認番号入力：
+ScotApp_1433,はかりに重さがあります。
+ScotApp_1687,SafePay
+ScotApp_1150,プリンターキャビネットのドアが開いています。
+ScotApp_1699,%sにより，金種を代替します。補充，あるいは，詰りを直し，“修復”ボタンをタッチしてください。
+ScotApp_1259,USERDEFINED1
+ScotApp_1223,メディア切れ
+ScotApp_1379,単価
+ScotApp_1432,<<<紙幣が減少しています。補充をしてください。>>>
+ScotApp_1686,SafePay
+ScotApp_1157,紙幣釣銭機のドアが開いていると思われます。\n\n紙幣釣銭機はドアが開いていると動作しません。\n\n釣銭機ドアまたは安全ドアを閉めラッチをして下さい。
+ScotApp_1013,バックアップ商品です。
+ScotApp_1184,次データ
+ScotApp_1848,"商品が削除されました。 商品をスキャン、または""商品コード入力""にタッチ"
+ScotApp_1169,プリンターの扉を開けて下さい。\n* 注意しながらプリンターを前方にラッチされるまで引いて下さい。\n* プリンターの扉を閉めロックして下さい。
+ScotApp_1662,他のレシート
+ScotApp_1311,* 紙幣支払機を引き出し、\n* 上部を開けてください。\n* 詰りがないか確認して再挿入してください。\n* 紙幣支払機のモーター音と緑ランプの点灯を確認してください。
+ScotApp_1025,すべての商品をベルトから取除き安全かバーを閉めて下さい。
+ScotApp_1378,重量
+ScotApp_22, + 0          \n(%s)
+ScotApp_1234,個数制限
+ScotApp_1685,SafePay
+ScotApp_1156,コイン釣銭機の詰まりを確認して下さい。\n釣銭コインを補充し、\n\nストアモードでメディア状態を選択して”釣銭コイン補充”ボタンをタッチして下さい。\n釣銭機の電源がオンであることを確認し、\n”続く”をタッチして下さい。
+ScotApp_1012,商品が運ばれています
+ScotApp_1365,MSR
+ScotApp_1235,EAアクティブ
+ScotApp_1221,オーダクション
+ScotApp_1143,硬貨がないか、硬貨コンテナーがセットされていません。
+ScotApp_434,給付金タイプ
+ScotApp_1625,SafePay
+ScotApp_1430,取消商品
+ScotApp_1684,SafePay
+ScotApp_1155,デバイスがオフラインです。
+ScotApp_834,料金&&お客様の確認：
+ScotApp_799,かごを確認して下さい。
+ScotApp_699,未販売商品
+ScotApp_599,フォームデバイスをリセットしています。
+ScotApp_499,499unused
+ScotApp_399,399unused
+ScotApp_299,299unused
+ScotApp_199,ユーザーイクジットが読み込まれました。
+ScotApp_743,743unused
+ScotApp_643,商品は削除されました。\n次をスキャンして下さい。
+ScotApp_543,扱者番号は%d桁以下です。
+ScotApp_343,343unused
+ScotApp_243,不正なカードを読み込みました。
+ScotApp_999,限度を超えました。
+ScotApp_899,の取消を確認
+ScotApp_1220,EFT
+ScotApp_1142,コイン釣銭機のエラーです。
+ScotApp_943,バッグ・ボックス
+ScotApp_843,843unused
+ScotApp_1437,“商品除外” の許容回数を越えました。
+ScotApp_1601, カード残が減少しています。     
+ScotApp_722,722unused
+ScotApp_622,単品の許容幅の変更
+ScotApp_522,正しくないPIN
+ScotApp_422,422unused
+ScotApp_322,322unused
+ScotApp_222,"プリンター要求手順：プリンターまたはイベントビューアーをチェックして下さい。""問題を修正しました""を押して下さい。"
+ScotApp_122,122unused
+ScotApp_1010,1010unused
+ScotApp_922,922unused
+ScotApp_822,取消商品の確認
+ScotApp_1715,一時停止拒否の承認
+ScotApp_1227,時間制限
+ScotApp_701,701unused
+ScotApp_601,601unused
+ScotApp_401,カードを読ませて下さい。\nかごに商品が残っていないか確認して下さい。
+ScotApp_301,クーポン値を入力して下さい。
+ScotApp_201,サイン・インのテスト中...
+ScotApp_101,価格がありません。
+ScotApp_1633,SafePay
+ScotApp_901,バッグに入れないことを確認
+ScotApp_801,買いかご
+ScotApp_1824,デジタル・レシートが発行されませんでした。
+ScotApp_1328,倍重量
+ScotApp_1299,登録開始/アシストモードへ
+ScotApp_1226,リコール商品
+ScotApp_1140,紙幣釣銭機の詰りです。
+ScotApp_1579,紙幣入金機
+ScotApp_1426,%s\n%dは正しいですか？
+ScotApp_1632,SafePay
+ScotApp_1141,%s円の出金に失敗しました。注意：紙幣は紙幣釣銭機の上部で詰まっていると思われます。
+ScotApp_1791,現金のみ
+ScotApp_1357,ギフト券回収
+ScotApp_763,763unused
+ScotApp_714,714unused
+ScotApp_614,袋詰め強制
+ScotApp_514,514unused
+ScotApp_314,箱は障害です。
+ScotApp_214,デビットチェッキングをしています。
+ScotApp_114,取消できません。
+ScotApp_1369,その他
+ScotApp_78,ATM(現金以外）
+ScotApp_1630,SafePay
+ScotApp_58,OK
+ScotApp_48,48unused
+ScotApp_914,"レーンに行き、商品を取除き、""セキュリティー解除""をタッチして下さい。"
+ScotApp_1422,ハンドスキャナー
+ScotApp_18,合計
+ScotApp_1147,セキュリティースケールのエラーです
+ScotApp_1578,合計:
+ScotApp_1022,ベルトに置かないで下さい。
+ScotApp_98,98unused
+ScotApp_88,88unused
+ScotApp_1003,時間制限
+ScotApp_1434,年齢制限
+ScotApp_1356,回収
+ScotApp_1212,その他
+ScotApp_1455,入力された番号は正しくありません。
+ScotApp_1713,一時停止拒否を承認するにタッチする
+ScotApp_1565,%sの入金額を入れてください。
+ScotApp_194,デバイスマネジャーを読み込んでいます...
+ScotApp_1275,USERDEFINED17
+ScotApp_1146,アクセプターからの応答がありません。
+ScotApp_1303,会員カード番号：\n 数 %s
+ScotApp_70,70unused
+ScotApp_60,ヘルプ
+ScotApp_50,50unused
+ScotApp_40,ストア承認
+ScotApp_30,取消された商品です
+ScotApp_20,20unused
+ScotApp_10,10unused
+ScotApp_1779,クーポンが取消されないと商品の取消ができません。 クーポンを先に取消して下さい。
+ScotApp_1211,デフォルト
+ScotApp_90,90unused
+ScotApp_80,80unused
+ScotApp_663,PIN入力は失敗しました。
+ScotApp_463,RAPを終了しています...
+ScotApp_363,\n扱者暗証番号をキーパッドから入力して下さい。
+ScotApp_163,163unused
+ScotApp_1420,取消商品は\n%sですか？
+ScotApp_1145,コインアクセプターエラー
+ScotApp_963,取消要求
+ScotApp_863,クーポン値を入れて下さい。
+ScotApp_1816,硬貨が詰まっているか、または扉が開いています。
+ScotApp_1637,SafePay
+ScotApp_742,742unused
+ScotApp_642,商品は追加されました。\n次をスキャンして下さい。
+ScotApp_542,扱者バーコードが作成できません。
+ScotApp_342,タイプ名
+ScotApp_242,カード詰まりエラーです。
+ScotApp_142,金額確認
+ScotApp_1210,ラストビュー
+ScotApp_942,942unused
+ScotApp_842,842unused
+ScotApp_1044,扱者が支払をお手伝いします。
+ScotApp_1427,個数を変えて下さい: \n%s
+ScotApp_721,721unused
+ScotApp_621,初期値
+ScotApp_1341,音量調整
+ScotApp_421,"いらっしゃいませ。商品をスキャンするか""スタート""をタッチして下さい。"
+ScotApp_321,取引確認
+ScotApp_221,プリンターの扉を閉めロックをして下さい。
+ScotApp_121,チェックスタンドからの商品です。
+ScotApp_1636,SafePay
+ScotApp_921,あるべき重量です。
+ScotApp_821,821unused
+ScotApp_600,セキュリティー\nメンテナンス
+ScotApp_500,500unused
+ScotApp_400,400unused
+ScotApp_1368,電子署名
+ScotApp_200,TBのテスト中...
+ScotApp_100,個数を入れて下さい。
+ScotApp_1076,注意
+ScotApp_1623,SafePay
+ScotApp_1340,電源OFF
+ScotApp_1108,%s\t%s\t%s @ %s %s/%s\t%s
+ScotApp_1814,ホッパーが入っていないか、またはきちんと入っていません。
+ScotApp_1758,クーポン用容器エラー
+ScotApp_1635,SafePay
+ScotApp_1557,出金機回収
+ScotApp_734,734unused
+ScotApp_634,634unused
+ScotApp_534,販売時間制限商品
+ScotApp_1413,停電です。#以内に取引を終了させてください。
+ScotApp_334,カードリーダー：カードなしエラーです。
+ScotApp_234,紙幣カセットを引出して下さい。\n\n紙幣をカセットから取除いて下さい。再度カセットをラッチされるまで押込んで下さい。\n\nカセットがラッチされているかハンドルを引いて確認して下さい。
+ScotApp_1569,値
+ScotApp_1801,操作モード
+ScotApp_934,重量が増加しました。
+ScotApp_1622,カセット
+ScotApp_768,保留確認
+ScotApp_668,署名のプリントは成功しました。
+ScotApp_1347,再接続中
+ScotApp_1778,セキュリティー解除
+ScotApp_168,クーポンをスキャンして商品登録終了まで別に置いて下さい。
+ScotApp_1203,裏書
+ScotApp_1634,SafePay
+ScotApp_1556,入金機回収
+ScotApp_1412,アシスト機能
+ScotApp_1783,安全カバー開
+ScotApp_1232,シグネチャーキャプチャー
+ScotApp_1568,総合計 :          %s
+ScotApp_1800,操作モードを選択
+ScotApp_1495,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1621,SafePay
+ScotApp_1346,レーンオフライン 再接続中
+ScotApp_72,72unused
+ScotApp_62,はい
+ScotApp_52,クーポン取消
+ScotApp_42,取消された商品です
+ScotApp_32,続ける
+ScotApp_12,  %d個 @ %s/1個
+ScotApp_1411,個数を変更して下さい。
+ScotApp_92,いらっしゃいませ！
+ScotApp_82,82unused
+ScotApp_1807,_ _ _
+ScotApp_1089,レポート期間終了
+ScotApp_1620,SafePay
+ScotApp_1345,セキュリティーマネジャーの終了中...
+ScotApp_1819,硬貨循環器の預け入れエラー
+ScotApp_762,762unused
+ScotApp_662,%
+ScotApp_1554,入金機	
+ScotApp_462,RAPが読み込まれました。
+ScotApp_362,暗証番号を入力して下さい。
+ScotApp_262,262unused
+ScotApp_162,商品とクーポンをスキャンして下さい。
+ScotApp_1410,価格を変更して下さい。
+ScotApp_962,"取消された商品をレーンで収集し""取消確認""をタッチして下さい。"
+ScotApp_862,クーポン値を入力：
+ScotApp_1806,\n* 「カードのみ」にタッチして取引を終了し、お客様におつりを手渡ししてください。
+ScotApp_1088,1088unused
+ScotApp_1627,SafePay
+ScotApp_741,741unused
+ScotApp_641,  平均重量　     承認　      　タリー　  　許容値の種類    許容値の数値     日付
+ScotApp_541,扱者バーコード印字
+ScotApp_441,金額確認
+ScotApp_341,341unused
+ScotApp_241,デバイスマネジャーが予期しないエラーです。
+ScotApp_141,カードのタイプを選んで下さい。
+ScotApp_941,取消された商品です。
+ScotApp_841,商品登録
+ScotApp_1873,1873unused
+ScotApp_25,生年月日:
+ScotApp_720,720unused
+ScotApp_520,未登録商品
+ScotApp_420,420unused
+ScotApp_320,戻り
+ScotApp_220,プリンターの扉を開け、レシート紙をセットして下さい。\n\nプリンターの扉を閉めロックをして下さい。
+ScotApp_120,すべて取消されました。商品を取り除いて下さい。
+ScotApp_1626,SafePay
+ScotApp_1423,ハンドスキャナーの接続をしています。
+ScotApp_920,確認＆更新せず
+ScotApp_820,取消確認
+ScotApp_1757,アクセント記号を打ち込むには、はじめに画面下の「アクセント」キーにタッチしてから文字をタイプしてください
+ScotApp_1872,1872unused
+ScotApp_754,前７日サマリー
+ScotApp_554,今、チャージカードを読ませないで下さい。
+ScotApp_1613,回収庫
+ScotApp_354,システム機能
+ScotApp_254,コイン釣銭機が動作しません。\n釣銭コインを補充するか\n電源をオンするか　又は\n詰まりのコインを取除いて下さい。
+ScotApp_154,読み込み中...
+ScotApp_1769,商品コード入力
+ScotApp_1240,現金
+ScotApp_954,スマートスケールの開始に失敗しました。
+ScotApp_854,５点
+ScotApp_1547,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1403, NCR SelfServ Checkoutプログラムを一度終了させ、再度スタートさせて下さい。エラーが解消しない場合はヘルプデスクに連絡して下さい。
+ScotApp_545,販売制限商品
+ScotApp_1559,終了
+ScotApp_1871,%s %s 実測値
+ScotApp_1612,カード管理
+ScotApp_1550,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_845,追加商品のスキャン：
+ScotApp_1564,%sの入金枚数を入れてください。
+ScotApp_1768,未対応の重量単位
+ScotApp_1272,USERDEFINED14
+ScotApp_1546,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_74,取消が確認されました。
+ScotApp_64,商品取消
+ScotApp_54,取消
+ScotApp_44,44unused
+ScotApp_34,34unused
+ScotApp_1558,保存して終了
+ScotApp_14,14unused
+ScotApp_1870,%s %s 期待値
+ScotApp_1389,電子署名機故障中
+ScotApp_1611, 回収庫は満杯です。    
+ScotApp_94,94unused
+ScotApp_84,オプション読込
+ScotApp_1289,他色の野菜
+ScotApp_687,レポート印字
+ScotApp_587,署名
+ScotApp_487,下
+ScotApp_387,トランスポート詰まり
+ScotApp_287,スキャナー：不正なタグです。
+ScotApp_1545,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1336,ユーティリティー
+ScotApp_987,商品はベルトから取除かれました。　商品を戻して下さい。
+ScotApp_887,商品は取除かれました。
+ScotApp_555,他の支払
+ScotApp_1610, 回収庫は(%s)で満杯に近づいています。      
+ScotApp_1041,署名の確認
+ScotApp_1691,現金管理
+ScotApp_1809,硬貨循環器の払い出しエラー
+ScotApp_1288,緑色の野菜
+ScotApp_761,761unused
+ScotApp_1193,確認
+ScotApp_561,クーポンを別に置いて下さい。
+ScotApp_461,RAPを読み込んでいます...
+ScotApp_361,ただいまご使用になれません。\n他のレジにてお願い致します。
+ScotApp_261,261unused
+ScotApp_961,"WLDBの障害：イベントビューアーを確認し""問題を修正しました""をタッチして下さい。"
+ScotApp_861,861unused
+ScotApp_1876,%s %s 実測値
+ScotApp_740,740unused
+ScotApp_640,WLDBにある重量
+ScotApp_540,540unused
+ScotApp_340,リストから商品を選んでください。矢印キーで移動します。
+ScotApp_240,デバイスマネジャーの一般的エラーです。
+ScotApp_140,ありがとうございました。
+ScotApp_1105,e=d=0.005kg 最大 13.995kg 分 0.1kg Nmax 2799
+ScotApp_1192,組立費
+ScotApp_940,取消
+ScotApp_840,商品登録：
+ScotApp_1863,"""承認""または""商品を取り消す""にタッチ"
+ScotApp_1463,金額変更
+ScotApp_1875,%s %s 期待値
+ScotApp_774,今回ポイント :
+ScotApp_674,支払のできない理由：
+ScotApp_780,780unused
+ScotApp_474,474unused
+ScotApp_374,プリンター：ブラックマークエラー
+ScotApp_174,商品が見つかりません。　まだ登録されていないか又は取消されています。
+ScotApp_1029,クーポン投入
+ScotApp_974,974unused
+ScotApp_1679,SafePay
+ScotApp_1747,指紋読み取り機エラー
+ScotApp_1862,スケール上の商品を確認
+ScotApp_1603, カードは正常にあります。     
+ScotApp_1419,複数パック
+ScotApp_1759,クーポン用容器満杯
+ScotApp_649,プライスオンラベル
+ScotApp_1039,直前の商品はEASタグ付です。
+ScotApp_849,個数入力が必要です。
+ScotApp_765,765unused
+ScotApp_565,ストアログイン
+ScotApp_1549,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1861,ピックリスト
+ScotApp_1731,PLイメージ取り込み中
+ScotApp_76,76unused
+ScotApp_66,66unused
+ScotApp_56,支払取消
+ScotApp_46,ヘルプ
+ScotApp_36,払戻し:
+ScotApp_26,26unused
+ScotApp_16,%sが請求対象額です。
+ScotApp_719,719unused
+ScotApp_619,現在の重量許容幅をを変更するには <許容値キー入力>　又は　<初期値>を選んで下さい。
+ScotApp_519,クーポンの金額が大きすぎます。
+ScotApp_419,419unused
+ScotApp_319,カード支払
+ScotApp_219,219unused
+ScotApp_119,全てを取消します。
+ScotApp_96,96unused
+ScotApp_86,86unused
+ScotApp_1755,リストから選ぶ
+ScotApp_1038,署名の確認
+ScotApp_919,"商品の重量を確認し、""確認＆重量更新""か、又は""確認＆更新せず""をタッチして下さい。"
+ScotApp_1489,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1745,指紋認証装置が接続されていません。やり直してください。
+ScotApp_1860,ピックリスト商品または検索商品からアルファベット順に選択してください
+ScotApp_1268,USERDEFINED10
+ScotApp_1008,1008unused
+ScotApp_786,レーンで保留
+ScotApp_686,前日
+ScotApp_586,クーポン: %0d/¥%0lf
+ScotApp_486,上
+ScotApp_386,カセットが取外されています。
+ScotApp_286,スキャナー：不正なプリフィクス２のタグです。
+ScotApp_186,186unused
+ScotApp_1488,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_986,986unused
+ScotApp_886,"バッグの商品を取除くか、""取除""をタッチして下さい。"
+ScotApp_1393,NCR SelfServ Checkoutプログラムを一度終了させ、再度スタートさせて下さい。エラーが解消しない場合はヘルプデスクに連絡して下さい。
+ScotApp_1867,カメラビューが遮断されています
+ScotApp_68,68unused
+ScotApp_38,38unused
+ScotApp_28,買上取消
+ScotApp_1024,1024unused
+ScotApp_760,画面の横でカードを読ませて下さい。
+ScotApp_660,釣銭は正常にあります。
+ScotApp_460,買上げが終了します。
+ScotApp_360,レーン停止
+ScotApp_260,260unused
+ScotApp_1392,トリライトエラー
+ScotApp_960,\n* 最大重量許容値を超えています。\n* 商品を袋から取出して下さい。
+ScotApp_860,測定が必要です：
+ScotApp_1866,さらに人気
+ScotApp_1459,現金管理レポート
+ScotApp_1239,なし
+ScotApp_1301,商品ピックリスト編集
+ScotApp_1749,指紋照合中
+ScotApp_1017,ベルトからバックアップ商品を取除いて下さい。
+ScotApp_1771,クーポンの有効期限
+ScotApp_739,739unused
+ScotApp_639, 期待重量　          重量比較
+ScotApp_539,539unused
+ScotApp_439,439unused
+ScotApp_339,339unused
+ScotApp_239,デバイスマネジャーが予期しないステータスです。
+ScotApp_1092,レポート
+ScotApp_1851,承認しません  
+ScotApp_1238,その他支払
+ScotApp_939,タイマー切れ
+ScotApp_839,アクションの取消
+ScotApp_1333,バックスペース
+ScotApp_24,取消されました。
+ScotApp_1016,ベルトにバックアップ商品があります。
+ScotApp_1615,引き出すには発行機のピックアップボタンにタッチしてください。
+ScotApp_1723,練習取引
+ScotApp_1028,クーポンのしきい値を超えています。
+ScotApp_1435,出金エラー
+ScotApp_1698,“正常”をタッチして下さい。
+ScotApp_1688,SafePay
+ScotApp_454,454unused
+ScotApp_1593,硬貨をお取りください。
+ScotApp_1642,SafePay
+ScotApp_1015,バックアップ商品
+ScotApp_785,785unused
+ScotApp_685,時間帯
+ScotApp_585,585unused
+ScotApp_536,コインアクセプター
+ScotApp_385,385unused
+ScotApp_285,スキャナー：不正なサフィックスのタグです。
+ScotApp_185,お客様の署名をカードの署名と確認して下さい。
+ScotApp_1224,価格入力
+ScotApp_985,商品を取上げベルトに置いて下さい。
+ScotApp_885,バッグ詰ご注意
+ScotApp_575,現金支払の終了。　残合計
+ScotApp_475,取引保留
+ScotApp_375,プリンター：タイムアウト
+ScotApp_1002,両替
+ScotApp_1888,"顧客取引をモニター後""安全クリア""にタッチ"
+ScotApp_910,910unused
+ScotApp_1592,詰まっているビンからコインを取除いてください。ビンを傾けスクリューを右にコインが取除けるまで回し手ください。力を加え過ぎないでください。
+ScotApp_875,取引取消には責任者のIDが必要です。
+ScotApp_1014,ベルトからバックアップ商品を取除いて下さい。
+ScotApp_1572,コイン管理画面の変更を無視してよろしいですか？
+ScotApp_1790,クレジット/デビットのみ
+ScotApp_1344,セキュリティーマネジャーが読み込まれました…
+ScotApp_798,798unused
+ScotApp_698,698unused
+ScotApp_598,%dのフォームを読み込めませんでした。
+ScotApp_498,お支払金額:
+ScotApp_398,カセットがセットされています。
+ScotApp_298,298unused
+ScotApp_198,ユーザーイクジットを読み込んでいます...
+ScotApp_998,個数
+ScotApp_898,WTINFOを終了しています...
+ScotApp_1416,マルチパックか確認
+ScotApp_1431,全取消
+ScotApp_1236,レポートの作成中...
+ScotApp_1770,検索結果から選択
+ScotApp_1000,見つかりません。
+ScotApp_1439,“トレイ”の許容回数を越えました。
+ScotApp_1217,訂正
+ScotApp_759,ペイメントデバイスでカードを読ませて下さい。
+ScotApp_659,釣銭が少なくなっています。
+ScotApp_559,クーポンはありません。
+ScotApp_459,残高があります。
+ScotApp_359,システム機能
+ScotApp_259,デバイスマネジャーを終了しています...
+ScotApp_1007,ヘルプ要求
+ScotApp_1438,“未登録商品”の許容回数を越えました。
+ScotApp_959,重量学習データベース（WLDB)
+ScotApp_859,いいえ
+ScotApp_1216,セキュリティー
+ScotApp_1373,ギフト券回収
+ScotApp_1005,商品確認
+ScotApp_1655,部門登録
+ScotApp_1228,保留
+ScotApp_1725,セキュリティー無効
+ScotApp_1006,他の支払
+ScotApp_496,買上個数限度
+ScotApp_1018,最低年齢
+ScotApp_1160,PINパッドのケーブルが接続されているか確認して下さい。\n\nケーブルが正しく接続されていたら、”問題を修正しました”をタッチして下さい。\n\nエラーが続いたらターミナルを再立ち上げして下さい。
+ScotApp_1073,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;DATANEEDEDTYPE=%d;
+ScotApp_1424,“接続“をタッチしハンドスキャナーを接続してください。
+ScotApp_1202,停止中
+ScotApp_679,アシストレポート
+ScotApp_1792,カードのみ
+ScotApp_1214,レシート
+ScotApp_1804,「カードのみ」モードを終了
+ScotApp_879,879unused
+ScotApp_1072,情報が必要です。
+ScotApp_1631,SafePay
+ScotApp_1148,セキュリティースケールの部品が故障しています
+ScotApp_1244,デビットセービング
+ScotApp_1004,商品の確認
+ScotApp_1282,商品：
+ScotApp_1071,1071unused
+ScotApp_1276,USERDEFINED18
+ScotApp_1200,価格待ち
+ScotApp_1639,SafePay
+ScotApp_1828,\n    - ボリュームレベル %d%%
+ScotApp_1308,PIN入力
+ScotApp_1417,マルチパックならアシストボタンをタッチし、商品を取消てからマルチパックのバーコードをスキャンしてください
+ScotApp_1343,セキュリティーマネジャーの読込中...
+ScotApp_779,779unused
+ScotApp_1429,<<<コインが減少しています。補充をしてください。>>>
+ScotApp_579,579unused
+ScotApp_479,クーポン投入
+ScotApp_379,紙幣アクセプター
+ScotApp_279,全てのセクリティー問題を確認しました。
+ScotApp_179,179unused
+ScotApp_1865,商品を調べる\n重量なし
+ScotApp_1207,署名照合
+ScotApp_1638,SafePay
+ScotApp_979,しきい値＝%d　お客様の要求
+ScotApp_707,前７日
+ScotApp_607,袋詰強制設定
+ScotApp_507,要確認商品
+ScotApp_307,その他のトレー
+ScotApp_207,207unused
+ScotApp_107,扱者コール中
+ScotApp_1219,年齢制限
+ScotApp_907,907unused
+ScotApp_807,セクリティタグを取り外して下さい。
+ScotApp_1077,商品をベルトに戻して下さい。
+ScotApp_1428,価格を変えて下さい: \n%s
+ScotApp_1695,後で修理
+ScotApp_1206,消去できない商品
+ScotApp_1218,収集
+ScotApp_1782,アシスト・モードの取引開始
+ScotApp_1273,USERDEFINED15
+ScotApp_1624,SafePay
+ScotApp_793,793unused
+ScotApp_1059,1059unused
+ScotApp_593,シグネチャーキャプチャーを読み込んでいます...
+ScotApp_493,レシートはカードリーダーの下部に出ます。
+ScotApp_393,ジャーナルプリンター
+ScotApp_293,ヘルプの要請
+ScotApp_1205,バッグエリアバックアップ
+ScotApp_993,レーンは停止中です。
+ScotApp_893,DBMを読み込んでいます...
+ScotApp_1063,1063unused
+ScotApp_1414,停電が回復するまでこのレーンは使用できません。
+ScotApp_1182,クーポン金額最大
+ScotApp_1201,アシスト預登録
+ScotApp_1075,限度￥ベルトへ乗せない確認
+ScotApp_1348,ただいまご使用になれません。\n他のレジにてお願い致します。
+ScotApp_1671,SafePay
+ScotApp_1204,証書番号
+ScotApp_1284,1284unused
+ScotApp_1062,1062unused
+ScotApp_1233,その他支払
+ScotApp_27,27unused
+ScotApp_1074,ベルトへ乗せない確認
+ScotApp_1472,現金モジュールが稼動していません。
+ScotApp_1026,取引の取消
+ScotApp_1061,1061unused
+ScotApp_1617,入力値は大き過ぎます。発行庫へのセット枚数を再入力してください。最大セット数は%d.です。
+ScotApp_1050,1050unused
+ScotApp_744,744unused
+ScotApp_1591,コイン出金機のケーブルの接続を確認してください。
+ScotApp_1130,紙幣アクセプターエラー
+ScotApp_1270,USERDEFINED12
+ScotApp_1629,SafePay
+ScotApp_1820,"商品をはかりから下ろし、スキャナーの"">0<""ボタンを”押して下さい。"
+ScotApp_882,保留確認：
+ScotApp_1440,紙幣管理
+ScotApp_1407,再立上げ
+ScotApp_727,727unused
+ScotApp_627,取引＃：
+ScotApp_527,527unused
+ScotApp_427,メディアが少なくなっています。
+ScotApp_327,装置がオフラインになっていますので接続とイベントログを確認してください
+ScotApp_227,不正のカードが読まれました。
+ScotApp_127,127unused
+ScotApp_665,"""取引取消""か""戻り""を選んで下さい。"
+ScotApp_1060,しばらくお待ち下さい。
+ScotApp_1616,発行庫へのセット枚数を入力してください。最大セット数は%d.です。
+ScotApp_927,デバイスが動作ミスをしました。
+ScotApp_827,商品バーコードをパッドの上を通してバッグに入れて下さい。
+ScotApp_1540,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_900,商品をバッグに入れて下さい。
+ScotApp_1277,USERDEFINED19
+ScotApp_865,会員確認
+ScotApp_506,506unused
+ScotApp_406,406unused
+ScotApp_306,トレーなし
+ScotApp_206,オプションが読み込まれます。
+ScotApp_106,扱者対応
+ScotApp_1209,ギフト券限度
+ScotApp_806,要確認商品の確認
+ScotApp_1067,1067unused
+ScotApp_1418,最大重量許容値を超えています
+ScotApp_1473,現金モジュールエラーです。\n\n電源を入れ通信ケーブルのチェック、あるいはユニットがキャビネットの奥に押し込まれているか確認してください。
+ScotApp_187,187unused
+ScotApp_1716,WE:
+ScotApp_1190,クーポン登録
+ScotApp_1602, カード残り(%s)    
+ScotApp_1149,レシートプリンターのデバイスエラーです。
+ScotApp_1066,1066unused
+ScotApp_1614,発行庫
+ScotApp_792,792unused
+ScotApp_692,692unused
+ScotApp_592,NCR SelfServ Checkoutの暗号化が読み込まれました。
+ScotApp_492,おつりをお取り下さい。
+ScotApp_392,未登録商品
+ScotApp_292,クーポンバーコード不良
+ScotApp_192,192unused
+ScotApp_1241,クレジット
+ScotApp_1197,取引取消
+ScotApp_1548,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_992,誕生日を入れて下さい。
+ScotApp_892,スマートスケールを終了しています...
+ScotApp_1053,署名用の伝票を扱者がお持ちしますのでお待ち下さい。
+ScotApp_1404,POSサーバーがオフラインです。又は同期が崩れています。ターミナルをシャットダウンさせて下さい。
+ScotApp_1245,デビットチェッキング
+ScotApp_1262,USERDEFINED4
+ScotApp_1471,硬貨モジュールエラー
+ScotApp_1196,DL ID 番号
+ScotApp_1052,1052unused
+ScotApp_1600,カード発行状況 :
+ScotApp_1663,硬貨カセットの硬貨が少ないか、詰まっています。
+ScotApp_1261,USERDEFINED3
+ScotApp_1125,釣銭コインをカセットに補充し、\n\nストアモードでメディア状態を選択して”コイン釣銭補充”ボタンをタッチして下さい。
+ScotApp_1183,価格要求
+ScotApp_1470,紙幣モジュールエラー
+ScotApp_1195,CSA保留
+ScotApp_1229,ヘルプ呼出
+ScotApp_1051,領収書確認
+ScotApp_1607, 回収庫は正常状態(%s)にあります。     
+ScotApp_1895,Genr Excp
+ScotApp_747,747unused
+ScotApp_647,N
+ScotApp_447,お客様のFSPアカントは開始されました。
+ScotApp_347,販売制限商品が取消されました- 年齢制限です。商品を別に置いて下さい。
+ScotApp_247,247unused
+ScotApp_147,147unused
+ScotApp_1260,USERDEFINED2
+ScotApp_1619,保留
+ScotApp_769,保留実行・保留取消
+ScotApp_947,新しい重量の商品です。
+ScotApp_847,スキャンの終了
+ScotApp_1477,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_726,726unused
+ScotApp_626,許容値：
+ScotApp_526,\n入れられたPINは正しくありません。\n他のカードをご利用の下さい。又は、\n\n現金でのお支払いをお願い致します。
+ScotApp_426,レーン##:
+ScotApp_326,入力された生年月日では販売できません。再度入力するか、すべての制限商品を取消して下さい。
+ScotApp_226,カードリーダーが故障しています。
+ScotApp_126,(月・日・年)
+ScotApp_1606, 回収庫は正常です。    
+ScotApp_926,商品がバッグに戻されていません。
+ScotApp_826,スキップバッグ
+ScotApp_1267,USERDEFINED9
+ScotApp_1618,紙幣出金カセットが正しくセットされていません。\n\n再度正しくラッチするまでセットし直して下さい。
+ScotApp_1181,クーポン制限超え
+ScotApp_205,コピーが終了しました。
+ScotApp_105,未登録商品
+ScotApp_1476,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1730,検索
+ScotApp_1390,電子署名機より応答がありません。
+ScotApp_805,要確認商品
+ScotApp_1864,レーンへ
+ScotApp_1408,アシスト
+ScotApp_1266,USERDEFINED8
+ScotApp_1180,価格違い
+ScotApp_1208,アシストされた商品
+ScotApp_1475,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1397,アシスト
+ScotApp_1748,指紋ログインができません
+ScotApp_718,718unused
+ScotApp_618,重量許容幅
+ScotApp_518,現金をお入れ下さい。
+ScotApp_1253,PIP ローヤルティー
+ScotApp_1604, カードは正常状態(%s)にあります。    
+ScotApp_218,プリンターのレシート紙がなくなります。\n交換して下さい。
+ScotApp_118,確認要求
+ScotApp_552,扱者番号と暗証番号の先頭に０(ゼロ）は付けられません。
+ScotApp_791,支払タイプをお選び下さい。
+ScotApp_691,691unused
+ScotApp_591,NCR SelfServ Checkoutの暗号化を読み込んでいます...
+ScotApp_391,価格入力商品
+ScotApp_918,重量データがありません。
+ScotApp_1187,ドライバーエラー
+ScotApp_991,年齢確認
+ScotApp_891,スマートスケールが読み込まれました。
+ScotApp_1474,ハード障害です。エラーコード E%d
+ScotApp_1396,アシストモード終了
+ScotApp_1252,PIP デビットキャッシュバック
+ScotApp_1732,PLイメージ取り込み済
+ScotApp_1461,コイン
+ScotApp_1166,* プリンターの扉を開けて下さい。\n* ラッチを解除しプリンターを後方に押して下さい。\n* プリンターカバーを開け紙詰りをチェックして下さい。\n* プリンターカバーを閉めレシートをロードさせて下さい。\n* 注意しながらプリンターを前方にラッチされるまで引いて下さい。
+ScotApp_1186,不正減少
+ScotApp_1857,  ベルトの上に置かないでください。
+ScotApp_1829,承認
+ScotApp_1670,SafePay
+ScotApp_1198,カード番号入力
+ScotApp_1869,手が写っています
+ScotApp_1251,PIP デビット
+ScotApp_1855,オプショナル
+ScotApp_767,メディアは正常です。
+ScotApp_667,カードが読まれました。商品或いはクーポンをスキャンして下さい。
+ScotApp_567,エンター
+ScotApp_467,467unused
+ScotApp_367,367unused
+ScotApp_267,セキュリティーログ
+ScotApp_1460,紙幣
+ScotApp_1185,袋が限度を超えています
+ScotApp_1009,ストアモード
+ScotApp_867,いいえ
+ScotApp_1856,  バッグに入れないでください。
+ScotApp_1677,SafePay
+ScotApp_746,746unused
+ScotApp_646,Y
+ScotApp_1394,デジタルインターフェースエラー
+ScotApp_446,取引保留
+ScotApp_346,ATM(キャッシングサービス）
+ScotApp_246,246unused
+ScotApp_146,支払タイプを選んで下さい。
+ScotApp_1501,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1609, 回収庫は満杯に近づいています。    
+ScotApp_1194,承認番号
+ScotApp_946,確認バッグ・ボックス
+ScotApp_846,"商品のスキャンするか、または""登録終了・支払""をタッチして下さい。"
+ScotApp_1843,マイバッグ
+ScotApp_1467,出金は“現金ステータス”画面から行います。
+ScotApp_725,725unused
+ScotApp_625,重量許容値を%sと%sの間で入れて下さい。
+ScotApp_1381,処理中...
+ScotApp_425,425unused
+ScotApp_325,入力された日付は正しくありません
+ScotApp_225,カードリーダー取込庫が取付けられました。
+ScotApp_1676,SafePay
+ScotApp_925,925unused
+ScotApp_825,商品バッグ
+ScotApp_1608, 回収庫は空です。    
+ScotApp_1842,全アシスト
+ScotApp_1808,レシートから商品を選択してください。
+ScotApp_1466,現金モジュールステータス：フル
+ScotApp_1380,価格
+ScotApp_1854,オプショナル
+ScotApp_1675,SafePay
+ScotApp_1597,会員カード
+ScotApp_1350,%s\n%s %s 追加
+ScotApp_738,738unused
+ScotApp_638,有効WLDB許容値情報
+ScotApp_538,538unused
+ScotApp_338,商品名の最初の３文字を入力して下さい。
+ScotApp_238,紙幣アクセプターが投入された紙幣の収納に失敗しました。\n紙幣カセットをチェックして下さい。
+ScotApp_138,カードお返し
+ScotApp_1170,* プリンターカバーを開け、表示された場所の紙詰まりをチェックします。\n* 紙を取り除きます。\n* プリンターカバーを閉じて、再度給紙します。\n* エラーが解消されない場合はターミナルを再立ち上げして下さい。
+ScotApp_1841,レーンに行って承認してもらってください。
+ScotApp_1740,バッグの確認
+ScotApp_938,938unused
+ScotApp_838,お客様の確認
+ScotApp_1133,紙幣アクセプターの詰りです。
+ScotApp_1387,ソフトウェア障害です。\nターミナルを再立ち上げして下さい。\n\n”ストアログイン”でユーティリティー画面にし\n”全体のシャットダウン”を選んで下さい。\n障害状況をサポート員に連絡してください。
+ScotApp_1674,SafePay
+ScotApp_1650,(ddmmyy)
+ScotApp_690,690unused
+ScotApp_590,デバイスファクトリーを終了しています...
+ScotApp_490,"いらっしゃいませ。商品をスキャンするか""スタート""にタッチして下さい。"
+ScotApp_390,リコール商品
+ScotApp_290,290unused
+ScotApp_190,TBを読み込んでいます...
+ScotApp_990,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_890,スマートスケールを読み込んでいます...
+ScotApp_1772,クーポンd
+ScotApp_1661,レシートが印字できません。“他のレシート”ボタンにタッチして下さい。
+ScotApp_1132,通信エラー
+ScotApp_1386,障害
+ScotApp_784,紙幣釣銭機　動作しません。\n紙幣を補充するか、詰まりを取除いて下さい。　又は\n取込庫を調整して下さい。
+ScotApp_684,当日
+ScotApp_584,このEBTは使用できません。
+ScotApp_484,署名入力
+ScotApp_384,384unused
+ScotApp_284,スキャナー：データを消失しました。
+ScotApp_1595,ご使用言語
+ScotApp_1451,扱者ID
+ScotApp_984,取上げベルトを読み込みました。
+ScotApp_884,保留取消
+ScotApp_1847,"商品が追加されました。 商品をスキャン、または""商品コード入力""にタッチ"
+ScotApp_1660,印字オプションの選択
+ScotApp_1131,"紙幣カセットがセットされていないか,\n正しく装着されていません。"
+ScotApp_1385,言語選択
+ScotApp_1436,“スキップバッグ”の許容回数を越えました。
+ScotApp_1049,1049unused
+ScotApp_666,666unused
+ScotApp_1594,*シャットダウンして再起動してください。
+ScotApp_466,   スキャンされた商品を確認できません。
+ScotApp_366,プリンターナイフが詰まっています。
+ScotApp_266,セキュリティーエージェントを終了しています...
+ScotApp_966,966unused
+ScotApp_1541,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1846,"商品をスキャン、または""商品コード入力""にタッチ."
+ScotApp_1667,SafePay
+ScotApp_1689,SafePay
+ScotApp_745,745unused
+ScotApp_645,スキャンされた商品を再度バッグに入れて下さい。
+ScotApp_1581,硬貨出金機
+ScotApp_445,現金給付
+ScotApp_345,345unused
+ScotApp_245,カードリーダーが動作しません。
+ScotApp_145,145unused
+ScotApp_945,限度￥バッグ･ボックス
+ScotApp_713,713unused
+ScotApp_613,商品をバッグスケールに置いて下さい。
+ScotApp_513,513unused
+ScotApp_313,313unused
+ScotApp_213,213unused
+ScotApp_113,商品取消
+ScotApp_1573,補充するには“補充”ボタンをタッチしてください。出金するには“回収” ボタンをタッチしてください。
+ScotApp_913,正しくない商品がバッグにあります。
+ScotApp_813,"PO#とジョブ名を入力し""エンター""をタッチて下さい。"
+ScotApp_1666,SafePay
+ScotApp_1137,(%s)円カセットが装着されていません。
+ScotApp_1580,紙幣出金機
+ScotApp_758,758unused
+ScotApp_658,釣銭切れ
+ScotApp_558,個数入力の禁止された商品です。
+ScotApp_1653,金額は容量を超えています。必要な最大金額は%sです。金額%sは自動的に入金されます。
+ScotApp_358,アシスト・モードに戻ります。
+ScotApp_258,TBを終了しています...
+ScotApp_158,この商品は確認が必要です。商品を別に置いて続けて下さい。
+ScotApp_1844,検索
+ScotApp_958,バッグスケール
+ScotApp_858,はい
+ScotApp_1136,紙幣取込庫がセットされていないかラッチされていません。
+ScotApp_1587,紙幣管理画面の変更を無視してよろしいですか？
+ScotApp_1531,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1599,%s 環境の呼び出しに失敗しました。
+ScotApp_1652,(yymmdd)
+ScotApp_1123,* 詰まった紙幣をすべて取り除くまでは続行しないでください。\n* 紙幣支払機をキャビネットから注意深く引き出します。\n* ベルトに触らないように注意しながら、支払機の上部から詰まった紙幣を取り出します。\n* 紙幣支払機をキャビネットに戻します。\n* 扉をロックしてから「問題を修正しました」にタッチします。
+ScotApp_1342,ユーティリティー選択
+ScotApp_1332,スペース
+ScotApp_1586,%s          %s           %s
+ScotApp_1444,回収
+ScotApp_1598,ご使用環境が適用されました。
+ScotApp_1651,(yyyymmdd)
+ScotApp_1122,紙幣は釣銭機の出口付近で詰まっていると思われます。\n\n紙幣釣銭機の一部をキャビネットから引き出し\n\n詰まっている紙幣を示された箇所から取除いて下さい。\n注意をして紙幣釣銭機をキャビネットに押し入れて下さい。
+ScotApp_1331,シフト
+ScotApp_1585,回収カセット              値            金額変更
+ScotApp_1118,(%s)円の排出に問題があります。\n\n(%s)円カセットから出金できません。\n\n(%s)円カセットを引出し状態をチェックして下さい。
+ScotApp_1884,スマートアシスト警告
+ScotApp_1191,測定
+ScotApp_1121,紙幣は示された箇所で詰まっていると思われます。\n\n紙幣釣銭機の引いて一部をキャビネットから出し\n\n詰まっている紙幣を取除いて下さい\n\n注意をして紙幣釣銭機をキャビネットに押し入れて下さい。
+ScotApp_503,503unused
+ScotApp_403,403unused
+ScotApp_1849,
+ScotApp_1330,バッグに入れられていません。
+ScotApp_1355,残高
+ScotApp_1584,回収カセット             枚数           枚数変更
+ScotApp_465,%s               %s
+ScotApp_365,プリンターヘッドが詰まっています。
+ScotApp_265,265unused
+ScotApp_965,965unused
+ScotApp_633,署名：
+ScotApp_433,433unused
+ScotApp_333,カードリーダー：シャッターエラーです。
+ScotApp_233,紙幣アクセプターが正しくセットされているか確認して下さい。\n\nハンドルを手前に引き、\n紙幣アクセプターを一度引き出して下さい。\n\n紙幣アクセプターが止まるまで押し込んで下さい。
+ScotApp_133,133unused
+ScotApp_1120,(%s)円紙幣のカセットの前面で詰まっているようです。\n\n(%s)円カセットを引出し詰まりがないか確認して下さい。\n\n詰まっている紙幣を取除き紙幣カセットを入れ替えて下さい。
+ScotApp_1805,「現金のみ」モードを終了
+ScotApp_933,重量違いです。
+ScotApp_833,833unused
+ScotApp_1337,SelfServ Checkoutの終了
+ScotApp_1780,取引開始
+ScotApp_712,712unused
+ScotApp_612,重量の追加
+ScotApp_512,要確認
+ScotApp_312,箱は詰っています。
+ScotApp_212,212unused
+ScotApp_112,個数を確認して下さい。
+ScotApp_1081,すべてのレーンを確認して下さい。
+ScotApp_778,778unused
+ScotApp_678,678unused
+ScotApp_578,カード支払終了お釣
+ScotApp_478,クーポンを投入して下さい。
+ScotApp_378,レシートプリンター
+ScotApp_278,セキュリティーログ
+ScotApp_1127,再接続
+ScotApp_1802,カードのみ受け付け
+ScotApp_978,しきい値＝%d
+ScotApp_878,価格入力
+ScotApp_1533,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1787,使ったレジ袋の枚数、使わなかった場合は０を入力してください。
+ScotApp_1799,「カードのみ」モード
+ScotApp_1309,* 紙幣カセットをラッチされるまで挿入してください。\n* 紙幣支払機のモーターの起動と緑ランプの点灯を確認してください。
+ScotApp_1323,取引終了後、
+ScotApp_1079,スキャンした商品をベルトに戻して下さい。
+ScotApp_1382,（標準偏差）
+ScotApp_1532,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1786,レジ袋代金
+ScotApp_1094,署名印字
+ScotApp_1113,%s @ %s/%s\t%s
+ScotApp_1798,「現金のみ」モード
+ScotApp_1322,クーポンセンサーエラー \n通信エラー
+ScotApp_1078,期待する重量を選んで下さい。 （お客様は商品をベルトに置いて下さい）
+ScotApp_1334,  商品をベルトコンベアに置いてください
+ScotApp_1785,ログインが無効キーパッドか指紋を使って再度ログインしてください
+ScotApp_1046,扱者に%sをお持ち下さい。
+ScotApp_1696,正常
+ScotApp_1112,%s @ %s %s/%s\t%s
+ScotApp_1158,ピンパッド・EFTデバイスのエラーです。
+ScotApp_1065,1065unused
+ScotApp_1321,金券支払終了残高
+ScotApp_764,764unused
+ScotApp_1530,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1784,マルチパック商品
+ScotApp_1070,1070unused
+ScotApp_49,49unused
+ScotApp_1111,  %s 個 @ %s/%s\t%s
+ScotApp_753,前日時間帯別
+ScotApp_653,"クーポンの金額を入れ""エンター""をタッチして下さい。"
+ScotApp_453,コインアプセプター：満杯
+ScotApp_353,戻る
+ScotApp_253,253unused
+ScotApp_153,153unused
+ScotApp_1320,商品券支払開始
+ScotApp_953,"ターミナルの電源を切って再スタートしてください。\n*管理者のキーロックを’S’に、または管理者ボタンを押します。\n を選択する""ADDを再起動して稼動""。選択して""はい""を確認します。\n*「すべてのシステムを切る」を選択します。\n*画面が消えたらUPSか電源コードでターミナルの電源を切ります。\n*ターミナルを起動します。イベントビューワをチェックします。再度エラーが起きた場合には係員に連絡してください。"
+ScotApp_853,４点
+ScotApp_1845,レシート
+ScotApp_1537,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_732,732unused
+ScotApp_632,632unused
+ScotApp_532,販売制限商品
+ScotApp_432,EBT
+ScotApp_332,アシストモードの終了。
+ScotApp_232,紙幣アクセプターとカセットを引き抜いて下さい。\n\n* カセットの詰りをチェックして下さい。\n* アクセプター上部のドアを開け、\n 紙幣の詰りをチェックして下さい。\n\nアクセプターのドアを確実に閉じ、\nアクセプターとカセットを\nセットして下さい。
+ScotApp_132,132unused
+ScotApp_1110,  %s 個 @ %s/1個\t%s
+ScotApp_1242,デビット
+ScotApp_1285,商品一般
+ScotApp_932,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_832,832unused
+ScotApp_1327,必要なレポートにタッチし、“レポート表示”ボタンをタッチして下さい。
+ScotApp_711,711unused
+ScotApp_611,機能を選んで下さい。
+ScotApp_511,カードの署名と照合して下さい。
+ScotApp_411,会員カードをお取り下さい。
+ScotApp_311,箱はいっぱいです。
+ScotApp_111,はかりをリセットして下さい。
+ScotApp_1789,クーポン
+ScotApp_1536,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_911,セキュリティー解除
+ScotApp_811,ギフトカードをスキャンして下さい。かごに商品がないかお確かめ下さい。
+ScotApp_1628,SafePay
+ScotApp_1523,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1349,%s\n %s\n%s %s 期待値\n%s %s 実測値
+ScotApp_1892,安全分析
+ScotApp_1279,チェック
+ScotApp_1535,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1057,1057unused
+ScotApp_1441,コイン管理
+ScotApp_1313,* プリンターの紙詰りを確認してください。 \n *ロール紙をセットし直してください。\n *シャットダウンして再起動してください。
+ScotApp_1681,SafePay
+ScotApp_1069,1069unused
+ScotApp_1325,複数で合いません。
+ScotApp_1278,USERDEFINED20
+ScotApp_1103,前へ
+ScotApp_1534,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_1056,1056unused
+ScotApp_1312,* 紙幣カセットを取り出してください。\n* 蓋を開け紙幣を回収してください。\n* 蓋を閉じて再挿入してください。\n* 紙幣支払機のモーター音と緑ランプの点灯を確認してください。
+ScotApp_1265,USERDEFINED7
+ScotApp_1850,デバイスはエラー中
+ScotApp_1213,認識外
+ScotApp_1521,現金モジュールのマニュアルを参照して障害を解除してください。
+ScotApp_139,レシート確認
+ScotApp_1043,お客様の%sをアシストモードで受付けて下さい。
+ScotApp_1401,アシスト中\n\nしばらくお待ち下さい...
+UnknownItemMessage,係員が参ります。\n\n商品を脇に置いて 続行します。
+TimeRestrictedItemMessage,今回はこの商品を お買い上げ頂くことが できません。\n\n商品を脇に置いて 続行してください。
+ItemQuantityExceededMessage,この商品の買 上げ点数限度 を超えています。\n\n商品を別に置いて続けて下さい。
+WeightMismatch,商品重量を確認しています。\n\nお待ちください...
+ItemQuantityExceeded,数量制限 を超過しました
+WaitForRemoteAssistanceTitle,リモートアテンダント
+ScotApp_489,セルフレジのご利用ありがとうございました。
+ScotApp_273,今、スキャンをしないで、\n別に置いて下さい。
+ScotApp_431,正しくない会員カードです。
+ScotApp_410,次のシステムメッセージを確認して下さい。
+ScotApp_1739,係員が来ますのでお待ちください。システムがあなたの袋をチェックできませんでした。バッグ･エリアに袋以外の物を置いている場合は、すぐに取り除いてください。
+ScotApp_73,ショッピングモードへ 戻る
+ScotApp_772,取引が保留要求されました。\n確認し実行して下さい。又は要求を取消して下さい。
+ScotApp_530,このカードは読めません。\n他のカードでのご利用をお願い致します。又は、\n現金でのお支払をお願い致します。又は、\n扱者をお呼び下さい。
+ScotApp_524,入れられたPINは正しくありません。\n入れ直して下さい。
+ScotApp_397,アシストモードで商品を登録して下さい。\n登録されなかった商品を収集して下さい。
+ScotApp_171,"""%s""\n\n%dは正しいですか?"
+ScotApp_1374,\n---------------------------------------\n
+ScotApp_1646,取引は保留されています。全ての商品を取り出してください。
+ScotApp_495,この商品の買上げ点数限度を超えています。\n\n商品を別に置いて続けて下さい。
+ScotApp_529,カードをお取り下さい。...\n他のカードでのご利用をお願い致します。\n又は、現金でのお支払をお願い致します。\n又は、ヘルプをタッチし\n扱者をお呼び下さい。
+ScotApp_275,今、チャージカードを入れないで下さい。　\nカードをお取り下さい。
+ScotApp_1891,システム点検中 \nしばらくお待ち下さい...
+ScotApp_1750,照合中です。しばらくお待ちください。
+ScotApp_169,お買上げを続けますか？
+ScotApp_415,会員カードをお取り下さい。\nカードはすでに読み込まれています。
+ScotApp_1793,この機械は現在、クレジットカードとデビットカードのみを受け付けています。\n続行しますか？
+ScotApp_477,クーポンを投入して下さい。\nレシートが発行された商品を持ち、\n-- レシートとクーポンを扱者までお持ち下さい。
+ScotApp_177,すべて取消されました。すべての商品を取り除いて下さい。
+ScotApp_656,%sを別に置いて下さい。\n扱者がヘルプに参ります。
+ScotApp_1709,今紙幣や硬貨を入れないでください。戻された現金をお取りください。紙幣はスキャナの下から出てきます。
+ScotApp_435,給付タイプを選んで下さい。\nフードスタンプを使用される場合は他の給付の前にご利用願います。
+ScotApp_808,セキュリティタグを外しますので扱者までお持ち下さい。
+ScotApp_294,"""ヘルプ""をタッチして扱者をお呼び下さい。"
+ScotApp_1287,しばらくお待ちください。\n商品の重さを確認しています。
+ScotApp_525,入れられたPINは正しくありません。\n他のカードでのご利用をお願い致します。\n又は現金でのお支払をお願い致します。
+ScotApp_480,"""OK""にタッチしてから、トランザクションスリップと商品をキャッシャーまでお持ちください。 "
+ScotApp_1751,* 最大重量許容値を超えています。\n* 商品を袋から取出して下さい。
+ScotApp_175,"""%s""\nを取消ますか？"
+ScotApp_1746,指紋サーバーが呼び出せません。やり直してください。
+ScotApp_1839,ただいま扱者が確認のために参ります。\n今、スキャンをしないで、別に置いて下さい。
+ScotApp_501,レシートに署名をし扱者をお待ち下さい。
+ScotApp_414,会員カードをお取り下さい。\n値引価格は適用されません。後ほどメイルされます。
+ScotApp_563,ハードトータルのイニシャライゼーション中にエラーが発生しました。\nアプリケーションは終了します。
+ScotApp_263,クーポンが取消されないと商品の取消ができません。\nクーポンを先に取消して下さい。
+ScotApp_800,"追加商品がないかかごを確認し、\n\n""登録終了・支払""をタッチして下さい。"
+ScotApp_134,承認を待っています。\nしばらくお待ち下さい。
+ScotApp_620,キー入力許容値
+ScotApp_161,"%s\n個数をキーパッドから入力し”OK""をタッチして下さい。"
+ScotApp_440,現金給付額が必要額に達していません。\n残りの現金給付を使用されますか？
+ScotApp_184,%sが口座より引落されます。
+ScotApp_274,今、現金を入れないで下さい。\n現金をお取り下さい。
+ScotApp_1744,認証装置はあなたの指紋を認証しませんでした。やり直してください。
+ScotApp_160,この商品は販売できない商品です。\n扱者が参ります。　\n商品を別に置き、次の商品を続けて下さい。
+ScotApp_1795,または「カードのみ」に制限する。
+ScotApp_159,この商品の価格が設定されていません。　\nただいま扱者が参ります。　\n次の商品を続けて下さい。
+ScotApp_458,給付タイプを選んで下さい。\nフードスタンプは使用できません。
+ScotApp_1329,倍重量が袋詰されました。
+ScotApp_407,カード読み込み中にエラーです。\n* 他のカードでお願い致します。\n　　又は\n　現金でのお支払をお願い致します。
+ScotApp_706,"フードスタンプが不足しています。　\n""OK""を押し他の支払方法を選んで下さい。"
+ScotApp_606,重量削除
+ScotApp_906,商品をお取り下さい。
+ScotApp_705,"給付金が不足しています。　\n""OK""を押し他の支払方法を選んで下さい。"
+ScotApp_605,重量追加
+ScotApp_405,カード読み込み中にエラーです。\n* 他のカードでお願い致します。\n　　又は\n　現金でのお支払をお願い致します。\n　又は、扱者を呼んで下さい。
+ScotApp_491,カードをお取り下さい。
+ScotApp_818,ただいま扱者が確認のために参ります。\nしばらくお待ち下さい。\n確認項目：
+ScotApp_1796,または「現金のみ」に制限する。
+ScotApp_438,フードスタンプ額が必要額に達していません。\n残りのフードスタンプ給付を使用されますか？
+ScotApp_1596,"%s にご使用の言語として %s セーブしますか？\n 選択 ""はい"" or ""いいえ""."
+ScotApp_766,%sが口座に請求されます。
+ScotApp_166,只今扱者がまいります。\n商品を別に置き、次を続けて下さい。
+ScotApp_413,会員カードをお取り下さい。\n値引価格が適用されます。
+ScotApp_1797,エラーを修復できませんでした。\nもう一度やってみるか、または「現金のみ」に制限してください。
+ScotApp_178,ただいま扱者が確認のために参ります。\nしばらくお待ち下さい。
+ScotApp_790,このカードはご利用できません。\n他の支払方法をお選び下さい。
+ScotApp_1794,この機械は現在、現金のみを受け付けています。\nクレジットカードとデビットカードは使用できません。\n続行しますか？
+ScotApp_412,この商品で買上げ金額が%s超えます。\n一旦支払をお願い致します。未登録の商品は別途にお買上げ下さい。
+ScotApp_546,年齢によって販売できない商品です。\n商品を別に置いて次の商品を続けて下さい。
+ScotApp_553,クーポンは最後に受付けます。\n別に置いて次を続けて下さい。
+ScotApp_211,処理中です...\nしばらくお待ち下さい。
+ScotApp_1400,リモートアテンダント
+ScotApp_1754,文字が商品と一致しません
+ScotApp_1859,"%s の買物かごでのお買上げですね？ ""はい""か""いいえ""のいずれかを選んで下さい。"
+ScotApp_533,この商品はただいまお買上げができません。\n商品を別に置き、次の商品を続けて下さい。
+ScotApp_1763,e=d=%5.3fkg 最大 %5.3f kg 分 %3.1f kg Nmax %4.0f
+ScotApp_1762,e=d=%4.2flb 最大 %4.2f lb 分 %3.1f lb Nmax %4.0f
+ScotApp_1764,e = d = %4.2f lb 最大 %4.2f lb 分 %3.1f lb Nmax %4.0f
+ScotApp_1765,e = d = %5.3f kg 最大 %5.3f kg 分 %3.1f kg Nmax %4.0f
+ScotApp_305,%sのトレーを選んでください。
+ScotApp_703,PINパッドをご利用下さい。お支払を取消す場合はPINパッドの”取消”を押して下さい。
+ScotApp_125,お客様の誕生日%sを入力し「承認」にタッチ
+ScotApp_1853,"お客様の誕生日 %s にキーを合わせ、""エンター""にタッチします。 "
+ScotApp_654,日付のフォーマットは %s です。入力された日付は: %s です。
+ScotApp_560,クーポンを扱っていません。
+ScotApp_1788,Is %dは正しいですか？%sの袋代金があなたの合計金額に追加されます。
+ScotApp_1358,ギフト券より %s円 をお預かりしました。\n\nギフト券残高は%s円です。
+ScotApp_167,クーポンに該当する商品がないためご使用できません。
+ScotApp_164,入れられた商品コードがありません。　\n\nもう一度商品コードを確認をして下さい。
+ScotApp_547,扱者番号と暗証番号が正しくありません。\n\n再入力して下さい。
+ScotApp_442,%sはフードスタンプでお支払ができます。\n\n%s
+ScotApp_443,%sが請求されます。\n\nよろしいですか？
+ScotApp_700,この商品はこのレーンで販売できません。\n扱者が参ります。\n\n商品を別に置いて次の商品を続けて下さい。
+ScotApp_165,商品を確認できません。\nただいま扱者がまいります。　\n\n商品を別に置き次を続けて下さい。
+ScotApp_182,入力されたクーポンの金額は大きすぎ\n\nご使用できません。
+ScotApp_733,このカードはご利用できません。\n他のカードをご利用されるか、又は現金でお支払下さい。
+ScotApp_812,NCR SelfServ Checkoutのご利用ありがとうございました。\nギフトカードをチェッカーにお持ち下さい。
+ScotApp_1826,あなたの特典をロイヤルティーカードに保存しますか？
+ScotApp_1852,キャンセルした商品をバッグ詰めエリアから取り除いてください。
+QRCodeErrorText,QR Code Error
+ScanQRCodeInstruction,Scan this code to complete\nyour Mobile shopping.
+ScotApp_1896,Transferring items from mobile cart.
+ScotApp_1897,しばらくお待ち下さい。
+ScotApp_1898,Mobile Cart
+ScotApp_1899,Mobile Audit
+ScotApp_1900,Mobile Shopper Audit
+ScotApp_1901,"Touch ""OK"" then use Attendant Handset to complete audit."
+ScotApp_1902,Begin Mobile Transaction
+ScotApp_1903,End Mobile Transaction
+ScotApp_1904,%d Items Sold
+ScotApp_1905,Scan barcode to complete your Mobile checkout.
+ScotApp_1906,Mobile cart transfer is complete.
+ScotApp_1907,\nTouch Pay or add more items.
+MoveLeft,< Move
+MoveRight,Move >
+Accessibility,Accessibility
+SearchItemCodeWatermark,Enter Item Code
+ScanAndBagNoSearchKeyIn,Scan or look up item to start
+ScanLookUpKeyInItem,"Scan, look up, or key in item code to start."
+LookUpKeyInItem,Look up or Key in Item
+ScanOrKeyInItem,Scan or Key in Item
+RemoveItemFromProduceScale,Remove item from scale.
+RemoveItemFromProduceScaleTitle,Remove Item

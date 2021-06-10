@@ -1,0 +1,386 @@
+[operations]
+OPERATOR=101
+PASSWORD=1
+
+OPERATOR_TRAIN=9900
+PASSWORD_TRAIN=1
+
+[TB]
+TBDataEntryINI=C:\SCOT\config\ACSScotDataEntry.ini
+AppIniPath=C:\ACS\DATA\APPINI.065
+ 
+;place any key names that should not be allowed in assistmode seperated by semicolons
+AssistModeDisallowedKeys=Delay Age Verify;Print All Susp Trans; Transaction Suspend;Return Transaction;Refund Transaction;Frequent Buyer Lookup;Sign-Out;Enter Secure Mode;No Sale;On-Break;Change Password;Reload Printer Logo;House Charge Balance;Change Cashier;Duplicate EFT Receipt;Lane Return;CASH;CHECKS;ELEC. PYMT SELECTED;KEY ENTRY OF CARDS;TRAVELER/REBATE/ETC;TRAVELER/REBATE/  ETC;TRAVELER/REBATE/ ETC;GUEST REQUEST CREDIT;Cancel Tender;CANADIAN CURRENCY;LAYAWAY VOUCHER;CHECK FEE REFUND;COMMERICAL CHARGE;COMMERCIAL CHARGE;BOTTLE REFUND;MISC CREDIT;PAPER FOOD STAMPS;Print Non-Sales Functions;Gift Receipt from Barcode;Toggle Training Mode;Open Cash Drawer;Reports;Set Date/Time;Toggle Credit Checking;Duplicate Receipt;Encryption Key Load;PIN Pad Key Status;Reset Transaction Number;Cash Drawer Limits;Toggle Desk Return;Load 5991 OperSys & Appl.;Price Inquiry;Load Options;Store Phone Numbers;Reset CMOS Totals;Load 5991 Ads & Forms;Meijer 1 Card Functions;Toggle Lane Return;Print Software Id;Shutdown Terminal;Issue Generic Rain Check;WIC Tender;
+
+
+;place any key names that should not be allowed in remote assistmode seperated by semicolons
+AssistModeDisallowedKeys_Remote=Delay Age Verify;Print All Susp Trans; Transaction Suspend;Return Transaction;Refund Transaction;Frequent Buyer Lookup;Sign-Out;Enter Secure Mode;On-Break;Change Password;Reload Printer Logo;House Charge Balance;Change Cashier;Duplicate EFT Receipt;Lane Return;Print Non-Sales Functions;Gift Receipt from Barcode;Toggle Training Mode;Open Cash Drawer;Reports;Set Date/Time;Toggle Credit Checking;Duplicate Receipt;Encryption Key Load;PIN Pad Key Status;Reset Transaction Number;Cash Drawer Limits;Toggle Desk Return;Load 5991 OperSys & Appl.;Price Inquiry;Load Options;Store Phone Numbers;Reset CMOS Totals;Load 5991 Ads & Forms;Meijer 1 Card Functions;Toggle Lane Return;Print Software Id;Shutdown Terminal;Issue Generic Rain Check;mPerks;WIC Tender;
+
+;POS57686 enable Issue Rain Check button
+;place any key names that should not be allowed in limited assistmode seperated by semicolons
+AssistModeDisallowedKeys_Limited=Delay Age Verify;Transaction Suspend Transaction Resume; Transaction Cancel; Transaction Discount; Gift Receipt; More; Return Transaction;Refund Transaction;Frequent Buyer Lookup;Sign-Out;Enter Secure Mode;No Sale;On-Break;Change Password;Reload Printer Logo;House Charge Balance;Change Cashier;Duplicate EFT Receipt;Lane Return;CASH;CHECKS;ELEC. PYMT SELECTED;KEY ENTRY OF CARDS;TRAVELER/REBATE/ETC;TRAVELER/REBATE/  ETC;TRAVELER/REBATE/ ETC;GUEST REQUEST CREDIT;Cancel Tender;LAYAWAY VOUCHER; CHECK FEE REFUND;COMMERICAL CHARGE;COMMERCIAL CHARGE;BOTTLE REFUND;MISC CREDIT;PAPER FOOD STAMPS;Print Non-Sales Functions;Gift Receipt from Barcode;Toggle Training Mode;Open Cash Drawer;Reports;Set Date/Time;Toggle Credit Checking;Duplicate Receipt;Encryption Key Load;PIN Pad Key Status;Reset Transaction Number;Cash Drawer Limits;Toggle Desk Return;Load 5991 OperSys & Appl.;Price Inquiry;Load Options;Store Phone Numbers;Reset CMOS Totals;Load 5991 Ads & Forms;Meijer 1 Card Functions;Toggle ;;Lane Return;Print Software Id;Shutdown Terminal;Issue Generic Rain Check;
+
+;these are the dynamic button on the HandHeld Assist Menu
+;the button press cause the TB to send a sequence of keys to the POS, then the HH will automatically
+;go into assist mode for the action chosen
+;the format is: Title of the button to be displayed;Key sequence that the TB sends to the POS or FastLane Default
+;if FastLane Default, then after the btn press the stardard FL behavior will follow.
+HandHeldAssistMenuButtonList=Key In Code,FastLane Default;Void Item,FastLane Default;Change Item,{ITEM};Department,{DEPT};Tax Exempt,{TRANS}{F8};
+
+;list any buttons whose initial state is not always activate
+;for example button2 for HH Assist Menu is the "void Item" btn, this button is only on 
+;when the item selected is voidable.  By default if no button is specified it is assumed on
+;syntax is: Button#, Item|Always
+HandHeldAssistMenuInitialButtonState=Button2,Item;
+ 
+; 12005 - corresponds to TB_NEEDASSISTMODE
+UnhandledMessageTimeoutInSeconds=6
+UnhandledReturnCode=12005
+
+;do we want to play the wave file to ask customer to set voided items aside
+AskCustomerToSetAsideCancelItems=1
+
+;do we want to allow the customer to cancel EFT transactions up until last PinPad Entry?
+AllowLateEFTCancel=Y
+
+;do we want to convert all UPC-A scans to be EAN-13 scans (driven by handheld scanner)?
+ConvertUPCtoEAN=Y
+
+;do we want to show the TBText Area for TB_SENDMESSAGETOSCOT returns?
+ShowCMTBText=N
+ShowSMTBText=N
+
+;Fastlane configuration - three options: Standard, Mini, and SuperMini. Default value is standard.
+FastLaneConfiguration=Standard
+;FastLaneConfiguration=Mini
+;FastLaneConfiguration=SuperMini
+
+;The maximum number of digits that a guest can key in by themselves
+MaxDigitsAllowCustomerKeyedUPC=5
+
+;Timeout value for the ssco to process the resume transaction
+ResumeProcessTimeout=60
+ExpiryDuration=90
+
+HHScannerTimeOut=15
+
+;Allow hand key of ID on the user login screen or not - it overrides the same option in the launchpad.xml
+AllowHandKeyEMPLID=N
+EnableBagScale=Y
+
+;Picklist Light weight item feature.
+;Example: PicklistLightweightItems=8058;8059;71928345513
+PicklistLightweightItems=
+
+FLMSSuspendResumeTerminalNumber=183
+
+[ACSHookManager]
+ApplicationModel=C:\scot\config\ApplicationModel.xml
+FinalMergedApplicationModel=C:\scot\config\FinalMergedApplicationModel.xml
+ACSIODLL=C:\ACS\bin\ACSIOClient.dll
+ACSEXFUNCSDLL=C:\ACS\bin\ACSExposedFunctions.dll
+DefaultContextExpiryTime=0
+TBUsesPipeServer=0
+ACSIOQueueEntries=500
+ListenToDevices=54,40,67,30
+ApplicationName=salesw2k.exe
+AuxMsgInputSequence=FL_NOTIFY_ENTERED
+AuxMsgProperty=PropFLNotifyData
+AuxMsgIdProperty=PropFLNotifyId
+AuxMsgTLOGOverrideEnabled=1
+
+[Tracing]
+TBTraceSize=5000000
+TBTraceOn=Y
+TBTraceFileName=C:\SCOT\bin\TBTrace.log
+TBTraceMask=0xF7
+TBTraceModuleMask=0xFF  <- masks: TBSOdll=0x08, SSF=0x04, PipeServer=0x02, TB=0x01
+TBTraceTruncateAfter=1000
+
+[Receipt]
+ReceiptFilePath=c:\scot\data\receipts
+POSPrinterDotsPerLine=24
+
+[Check]
+; CheckFrontTopAdjust baseline values: (7158 mode = 3), (7167 mode = 13)
+; Finetune by +/- value.  Higher numbers will print check front higher on check.
+; Value Range limits = 0 to 20
+CheckFrontTopAdjust=13
+SlipDetectCheckFront=Electronically Converted
+SlipDetectCheckBack=FOR DEPOSIT ONLY
+SlipDetectCheckDenial=DENIAL RECORD;RM06;RM05
+SlipDetectEBT=EBT DECLINED
+SlipDetectNegDept=Misc Credit;Corp Misc Receipt;Corp Misc Recei;Commercial Charge;Bottle Redemption;Layaway Voucher
+SlipDetectTaxExempt=Tax exempted
+SlipDescCheckFront=Insert Check face up for printing (if not already inserted)
+SlipDescCheckBack=Check endorsement required (if not already inserted)
+SlipDescCheckDenial=Insert Check face down for decline language (if not already inserted)
+SlipDescEBT=Insert EBT decline slip
+SlipDescNegDept=Insert negative department slip
+SlipDescTaxExempt=Insert Tax exempt slip
+
+[Itemization]
+CouponTypes=;6;7;10;11;12;13;
+MonetaryRewards=;0;1;2;3;4;5;
+PointRewards=;6;7;8;9;24;30;
+AllowACSToIgnoreItemsOnResume=N
+
+[Special Barcodes]
+NeedInterventionBarcodes=07088205
+;Green Dot items are special items that cannot be sold without intervention.  The item code can be a full
+;barcode or a partial barcode.
+;GreenDotItems=830324002;830324003
+GreenDotItems=
+EmployeeBadgePrefixList=TM
+EmployeeBadgeTypeList=104;110;107
+;POS20334 - As TB will wait the response from the POS for NSC4, these entries are no longer needed.
+;The entry for NSC4 will be commented out as part of POS20334
+;NSC4NoItemDetailsReturnToScanning=469;465;4678
+
+
+[ACS Tender Types]
+CASH=1
+CREDIT CARDS=2
+ATM/DEBIT CARD=3
+DEBIT TENDER=3
+EBT CASH=7
+EBT FOOD=8
+FOOD STAMP=8
+GIFT CARD=9
+GIFT/RETURN CARD=9
+MEIJER CREDIT CARD=20
+TRAVELER/REBATE/ETC=21
+CANADIAN CURRENCY=22
+PAYROLL CHECK=23
+ELECTRONIC WIC=29
+DISCOVER CREDIT CARD=25
+CHECK=40
+
+;Remove for POS41975
+;[Tender Timeout]
+;ProcessCoinsAfterThisTimeOut=4
+
+[SignatureCapture]
+SigBmpSource=C:\TEMP\
+SigBmpTarget=C:\scot\data\Signatures\
+SigBmpFilePattern=PAM*.tmp
+
+; the EFTResponseCodes section determine special handling
+; for EFT response codes within TB.  Codes that are not found here and are not approved are declined. 
+;
+; Serious response code handling without suspending.
+; The [Serious] section has been added. Place response codes in this section
+; that you want the operator to handle (call for auth., stolen cards, etc)
+;
+
+[EFTResponseCodes]
+ResponseCodeApprove=NL16,CC00,NL06,NL04,NL27,NL03,RM00,NL25,NL13
+
+RCodeGiftCardRemainingBalance=RM74,NL36,NL32
+
+RCodePhoneGiftDelayedActivation=NL33
+
+;EBT disply nice message to user and let operator call for auth.
+;Any EBT declines that require endorsement should be entered in this list!
+RCodeCardRemainingBalance=NL35,RM49,RM70,RM47,NL32,RM51,NL12,RM96,RM06,RM55,RM58,RM30,RM50,RM74
+
+
+RCodeSerious=RM37,RM62,DFLT,RM67,RM41,RM08,RM34,NL14,RM31,RM21,NL37,RM83,RM87
+
+
+[TAB CheckBasket Option]
+PromptCheckBasketOnTab=Y
+
+[Take Change Timer Expired]
+DelayPrinting=Y
+
+[TBFeatures]
+; Configuration to turn on or turn off RAP Tendering
+TB_FT_SUPPORT_RAPTENDER=Y
+TB_FT_SIGNONRESULTS=Y
+
+[EnableStoreModeButtons]
+;Adding entry here meaning have corresponding modification in SSF 
+DuplicateEFTReceipt=N
+TrainingMode=Y
+
+[POS Operation]
+;This is created to temporarily disable the scrolling of item in POS. There are instances that the POS abnormally shutdown with this functionality
+SendSelectedEntryID=Y
+;POS327098
+AllowEmplIdSignOn=Y
+
+[POSKeyDefinitions]
+VoidCurrentItem={F3}
+Acknowledge={F1}
+Cancel={F2}
+ElectronicPayment={PAYMENT}{F4}
+CancelTender={PAYMENT}{F7}
+CancelTransaction={TRANS}{F3}
+SuspendTransaction={TRANS}{F1}
+TenderSelectedKey={F3}
+
+[Print Signature]
+;Y=when you press the print signature button, there is nothing to happen
+;N=back to its default functionality
+BypassButtonFuntionality=N
+
+[ShowWaitOption]
+;Y=Everytime FL switch into SMInprogress states, it displays "Processing Please wait screen".
+;N=back to its default functionality of SMInprogress state
+ShowPleaseWait=N
+
+[StandardFLResumeOption]
+;Y=Standard FL will behave like the pay station during resume wherein after retrieving receipt it goes to payment screen.
+;N=It behaves like as is wherein after resume, it goes to scan and bag with all the items
+IsResumeLikePayStation=Y
+
+[Scale]
+;FastLane will display a message something like "Scale is not working properly" if the weight is greating than the setting here upon entering to Attract
+ScaleThreshold=0
+
+[MultiBitmapPrinting]
+PrinterMultiBitmapDataFile=C:\scot\data\MultiBitmapData.xml
+PrinterMultiBitmapEnabled=1
+PrinterMultiBitmapSyncRAP=0
+
+;EnableWICButton
+;Y=Enable the feature if feature actually available on POS
+;N=Disable the feature
+[WIC]
+EnableWICButton=Y
+WICTotalDesc=Eligible Item Total
+
+[Drivers License Alpha]
+;Set to N when scanning problem for alpha numeric resolve already
+UseThisAlphaTable=N
+;This group is for licence prompt when pay by card
+A0={F1}{F1}
+B0={F1}{F2}
+C0={F1}{F3}
+D0={F1}{F4}
+E0={F2}{F1}
+F0={F2}{F2}
+G0={F2}{F3}
+H0={F2}{F4}
+I0={F3}{F1}
+J0={F3}{F2}
+K0={F3}{F3}
+L0={F3}{F4}
+M0={F4}{F1}
+N0={F4}{F2}
+O0={F4}{F3}
+P0={F4}{F4}
+Q0={F5}{F1}
+R0={F5}{F2}
+S0={F5}{F3}
+T0={F5}{F4}
+U0={F6}{F1}
+V0={F6}{F2}
+W0={F6}{F3}
+X0={F7}{F1}
+Y0={F7}{F2}
+Z0={F7}{F3}
+;This group is for licence prompt when pay by check
+A1={F2}{F1}
+B1={F2}{F2}
+C1={F2}{F3}
+D1={F2}{F4}
+E1={F2}{F5}
+F1={F3}{F1}
+G1={F3}{F2}
+H1={F3}{F3}
+I1={F3}{F4}
+J1={F3}{F5}
+K1={F4}{F1}
+L1={F4}{F2}
+M1={F4}{F3}
+N1={F4}{F4}
+O1={F4}{F5}
+P1={F5}{F1}
+Q1={F5}{F2}
+R1={F5}{F3}
+S1={F5}{F4}
+T1={F5}{F5}
+U1={F6}{F1}
+V1={F6}{F2}
+W1={F6}{F3}
+X1={F7}{F1}
+Y1={F8}{F2}
+Z1={F8}{F3}
+
+[EnablePreSelectedTender]
+;Y=PreSelected tender will be enabled.  DG31 Feature
+;N=PreSelected tender will be disabled.
+PreSelectedTenderEnabled=N
+
+[NotifyACSRemoteAssistMode]
+;Y=NotifyACSRemoteAssistMode TB will notify ACS when entering/exiting remote assistmode.  DG38 Feature
+;N=NotifyACSRemoteAssistMode TB will not notify ACS when entering/exiting remote assistmode
+;Y=VoidedTenderChangeIssuedAtRap when a void cash tender occurs change dispensed at the RAP
+
+NotifyACSRemoteAssistMode=Y
+VoidedTenderChangeIssuedAtRap=Y
+
+[CollectCMCoupons]
+;POS36319 use this option for the coinstar, bottle slip and cm promo dept420 also
+;Y=CollectCMCoupons, instructs the TB to prompt the operator to collect coupons
+;N=CollectCMCoupons, instructs the TB not to prompt the operator to collect coupons
+;"Meijer Promo"= NSC4Mnemonic, which type of NSC4 CM coupon, gift registry, etc
+CollectCMCoupons=N
+NSC4Mnemonic="Meijer Promo"
+
+[ReportCurrencyToACS]
+;Y=ReportCurrencyToACS, instructs the TB to send currency accepted or dispensed by denomination to ACS
+;N=ReportCurrencyToACS, instructs the TB not to send currency accepted or dispensed by denomination to ACS
+ReportCurrencyToACS=Y
+
+[DelayedAgeRestrictedItem]
+;Y=PromptCustomerForLegalAge, instructs TB to ask the customer "Are you of legal age" for age restricte items
+;N=PromptCustomerForLegalAge, instructs TB not to ask the customer "Are you of legal age" for age restricte items
+PromptCustomerForLegalAge=N
+
+[Gift Card Balance Receipt]
+GiftCardBalanceReceipt=Card Amount
+
+[MICR]
+;the amount of time to wait between sending the enter key and sending the MICR data
+;the POS will turn on MICR events when the enter key is pressed and processed.  Then 
+;the SSCO will have the MICR data available for dispatch.
+MICRWaitTime=200
+
+
+[SecondaryLanguageMapping]
+;the TB needs to know which secondary langauge goes with the scot user defined message
+;file.  The following list is a mapping of language codes to files
+MultipleTBSecondaryLanguageSupport=Y
+SCUDMessage1FileLanguage=en
+SCUDMessage2FileLanguage=es
+SCUDMessage3FileLanguage=0415
+SCUDMessage4FileLanguage=0419
+SCUDMessage3File=c:\\scot\\config\\SCUDMSG3.dat
+SCUDMessage4File=c:\\scot\\config\\SCUDMSG4.dat
+
+
+;Partial cut the receipt when there are multiple receipts within a single transaction
+ReceiptPartialCut=1
+
+;Allow cashier to handle age-restricted item intervention if they enter assist mode during itemization
+AgeRestItemApprovalOnEneteringAssistMode=1
+
+;Disable security WLDB (security scale) upon mPerks activation
+DisableSecurityOnMPerksActivation=0
+
+[ShopAndDrop]
+; Currently all options should be 
+; disabled if you are not on a SS90 Kiosk 
+ShopAndDropEnabled=Y
+SDNRestrictedAgeTimer=5000
+
+[TransactionMode]
+;SSCO=0
+;SnD=1
+;FLMS=2
+;FLMS+SnD=3
+TransactionMode=2
+; End CRD126015

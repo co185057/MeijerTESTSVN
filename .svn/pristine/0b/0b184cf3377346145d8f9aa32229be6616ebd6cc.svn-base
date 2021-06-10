@@ -1,0 +1,729 @@
+<?xml version="1.0"?>
+<!-- The format of this file is:	 	-->
+<!-- <DeviceError>                           	-->
+<!-- 	<SectionName>			     	-->
+<!--		<Title1>Msg id in scotmsge.dat for title 1</Title1>-->
+<!--		<Title2>Msg id in scotmsge.dat for title 2</Title2>-->
+<!--	   	<Text>Msg id in scotmsge.dat</Text>		-->
+<!--		<Image>Bitmap id in scotbmpe.dat</Image> 	-->
+<!--		<Wave>id in scotwave.dat</Wave>			-->
+<!--		<Movie>Movie name in text</Movie>		-->
+<!--	</SectionName>					-->
+<!--</DeviceError>					-->
+
+
+<DeviceError>
+	<CHAN_STATUS_EMPTY>
+		<Title1>1465</Title1>
+		<Title2>1468</Title2>
+		<Image></Image>
+        	<Text>1687</Text>
+	</CHAN_STATUS_EMPTY>
+
+	<CHAN_STATUS_FULL>
+		<Title1>1465</Title1>
+		<Title2>1466</Title2>
+		<Image></Image>
+		<Text>1467</Text>
+	</CHAN_STATUS_FULL>
+
+	<POWER_DEVICE_NOT_READY>
+		<Title1>1465</Title1>
+		<Title2>1472</Title2>
+		<Text>1473</Text>
+		<Image></Image>
+		<Text></Text>
+	</POWER_DEVICE_NOT_READY>
+
+	<Bill_ErrorCode_11>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1475</Text>
+	</Bill_ErrorCode_11>
+
+	<Bill_ErrorCode_12>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1476</Text>
+	</Bill_ErrorCode_12>
+
+	<Bill_ErrorCode_13>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1477</Text>
+	</Bill_ErrorCode_13>
+
+	<Bill_ErrorCode_14>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1478</Text>
+	</Bill_ErrorCode_14>
+
+	<Bill_ErrorCode_15>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1479</Text>
+	</Bill_ErrorCode_15>
+
+	<Bill_ErrorCode_16>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1480</Text>
+	</Bill_ErrorCode_16>
+
+	<Bill_ErrorCode_17>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1481</Text>
+	</Bill_ErrorCode_17>
+
+	<Bill_ErrorCode_18>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1482</Text>
+	</Bill_ErrorCode_18>
+
+	<Bill_ErrorCode_21>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1483</Text>
+	</Bill_ErrorCode_21>
+
+	<Bill_ErrorCode_22>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1484</Text>
+	</Bill_ErrorCode_22>
+
+	<Bill_ErrorCode_24>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1485</Text>
+	</Bill_ErrorCode_24>
+
+	<Bill_ErrorCode_25>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1486</Text>
+	</Bill_ErrorCode_25>
+
+	<Bill_ErrorCode_26>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1487</Text>
+	</Bill_ErrorCode_26>
+
+	<Bill_ErrorCode_27>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1488</Text>
+	</Bill_ErrorCode_27>
+
+	<Bill_ErrorCode_28>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1489</Text>
+	</Bill_ErrorCode_28>
+
+	<Bill_ErrorCode_31>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1490</Text>
+	</Bill_ErrorCode_31>
+
+	<Bill_ErrorCode_32>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1491</Text>
+	</Bill_ErrorCode_32>
+
+	<Bill_ErrorCode_41>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1492</Text>
+	</Bill_ErrorCode_41>
+
+	<Bill_ErrorCode_42>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1493</Text>
+	</Bill_ErrorCode_42>
+
+	<Bill_ErrorCode_43>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1494</Text>
+	</Bill_ErrorCode_43>
+
+	<Bill_ErrorCode_44>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1495</Text>
+	</Bill_ErrorCode_44>
+
+	<Bill_ErrorCode_45>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1496</Text>
+	</Bill_ErrorCode_45>
+
+	<Bill_ErrorCode_46>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1497</Text>
+	</Bill_ErrorCode_46>
+
+	<Bill_ErrorCode_47>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1498</Text>
+	</Bill_ErrorCode_47>
+
+	<Bill_ErrorCode_48>
+		<Title1>1490</Title1>
+		<Title2>1494</Title2>
+		<Image></Image>
+		<Text>1499</Text>
+	</Bill_ErrorCode_48>
+
+	<Bill_ErrorCode_49>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1500</Text>
+	</Bill_ErrorCode_49>
+
+	<Bill_ErrorCode_51>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1501</Text>
+	</Bill_ErrorCode_51>
+
+	<Bill_ErrorCode_52>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1502</Text>
+	</Bill_ErrorCode_52>
+
+	<Bill_ErrorCode_53>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1503</Text>
+	</Bill_ErrorCode_53>
+
+	<Bill_ErrorCode_57>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1504</Text>
+	</Bill_ErrorCode_57>
+
+	<Bill_ErrorCode_58>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1505</Text>
+	</Bill_ErrorCode_58>
+
+	<Bill_ErrorCode_59>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1506</Text>
+	</Bill_ErrorCode_59>
+
+	<Bill_ErrorCode_61>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1507</Text>
+	</Bill_ErrorCode_61>
+
+	<Bill_ErrorCode_62>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1508</Text>
+	</Bill_ErrorCode_62>
+
+	<Bill_ErrorCode_71>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1509</Text>
+	</Bill_ErrorCode_71>
+
+	<Bill_ErrorCode_72>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1510</Text>
+	</Bill_ErrorCode_72>
+
+	<Bill_ErrorCode_73>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1511</Text>
+	</Bill_ErrorCode_73>
+
+	<Bill_ErrorCode_75>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1512</Text>
+	</Bill_ErrorCode_75>
+
+	<Bill_ErrorCode_76>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1513</Text>
+	</Bill_ErrorCode_76>
+
+	<Bill_ErrorCode_81>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1514</Text>
+	</Bill_ErrorCode_81>
+
+	<Bill_ErrorCode_82>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1515</Text>
+	</Bill_ErrorCode_82>
+
+	<Bill_ErrorCode_83>
+		<Title1>1470</Title1>
+		<Title2>1474</Title2>
+		<Image></Image>
+		<Text>1516</Text>
+	</Bill_ErrorCode_83>
+
+	<COIN_ErrorCode_11>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1517</Text>
+		<Image></Image>
+	</COIN_ErrorCode_11>
+
+	<COIN_ErrorCode_12>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1518</Text>
+		<Image></Image>
+	</COIN_ErrorCode_12>
+
+	<COIN_ErrorCode_14>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1519</Text>
+		<Image></Image>
+	</COIN_ErrorCode_14>
+
+	<COIN_ErrorCode_15>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1520</Text>
+		<Image></Image>
+	</COIN_ErrorCode_15>
+
+	<COIN_ErrorCode_16>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1521</Text>
+		<Image></Image>
+	</COIN_ErrorCode_16>
+
+	<COIN_ErrorCode_17>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1522</Text>
+		<Image></Image>
+	</COIN_ErrorCode_17>
+
+	<COIN_ErrorCode_19>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1523</Text>
+		<Image></Image>
+	</COIN_ErrorCode_19>
+
+	<COIN_ErrorCode_21>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1524</Text>
+		<Image></Image>
+	</COIN_ErrorCode_21>
+
+	<COIN_ErrorCode_22>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1525</Text>
+		<Image></Image>
+	</COIN_ErrorCode_22>
+
+	<COIN_ErrorCode_23>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1526</Text>
+		<Image></Image>
+	</COIN_ErrorCode_23>
+
+	<COIN_ErrorCode_24>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1527</Text>
+		<Image></Image>
+	</COIN_ErrorCode_24>
+
+	<COIN_ErrorCode_26>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1528</Text>
+		<Image></Image>
+	</COIN_ErrorCode_26>
+
+	<COIN_ErrorCode_31>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1529</Text>
+		<Image></Image>
+	</COIN_ErrorCode_31>
+
+	<COIN_ErrorCode_32>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1530</Text>
+		<Image></Image>
+	</COIN_ErrorCode_32>
+
+	<COIN_ErrorCode_41>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1531</Text>
+		<Image></Image>
+	</COIN_ErrorCode_41>
+
+	<COIN_ErrorCode_43>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1532</Text>
+		<Image></Image>
+	</COIN_ErrorCode_43>
+
+	<COIN_ErrorCode_44>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1533</Text>
+		<Image></Image>
+	</COIN_ErrorCode_44>
+
+	<COIN_ErrorCode_50>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1534</Text>
+		<Image></Image>
+	</COIN_ErrorCode_50>
+
+	<COIN_ErrorCode_51>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1535</Text>
+		<Image></Image>
+	</COIN_ErrorCode_51>
+
+	<COIN_ErrorCode_52>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1536</Text>
+		<Image></Image>
+	</COIN_ErrorCode_52>
+
+	<COIN_ErrorCode_53>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1537</Text>
+		<Image></Image>
+	</COIN_ErrorCode_53>
+
+	<COIN_ErrorCode_54>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1538</Text>
+		<Image></Image>
+	</COIN_ErrorCode_54>
+
+	<COIN_ErrorCode_55>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1539</Text>
+		<Image></Image>
+	</COIN_ErrorCode_55>
+
+	<COIN_ErrorCode_56>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1540</Text>
+		<Image></Image>
+	</COIN_ErrorCode_56>
+
+	<COIN_ErrorCode_57>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1541</Text>
+		<Image></Image>
+	</COIN_ErrorCode_57>
+
+	<COIN_ErrorCode_58>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1542</Text>
+		<Image></Image>
+	</COIN_ErrorCode_58>
+
+	<COIN_ErrorCode_59>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1543</Text>
+		<Image></Image>
+	</COIN_ErrorCode_59>
+
+	<COIN_ErrorCode_61>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1544</Text>
+		<Image></Image>
+	</COIN_ErrorCode_61>
+
+	<COIN_ErrorCode_62>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1545</Text>
+		<Image></Image>
+	</COIN_ErrorCode_62>
+
+	<COIN_ErrorCode_71>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1546</Text>
+		<Image></Image>
+	</COIN_ErrorCode_71>
+
+	<COIN_ErrorCode_72>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1547</Text>
+		<Image></Image>
+	</COIN_ErrorCode_72>
+
+	<COIN_ErrorCode_81>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1548</Text>
+		<Image></Image>
+	</COIN_ErrorCode_81>
+
+	<COIN_ErrorCode_82>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1549</Text>
+		<Image></Image>
+	</COIN_ErrorCode_82>
+
+	<COIN_ErrorCode_83>
+		<Title1>1471</Title1>
+		<Title2>1474</Title2>
+		<Text>1550</Text>
+		<Image></Image>
+	</COIN_ErrorCode_83>
+
+
+	<DEVICEERRORUNKNOWN>
+		<Title1>1465</Title1>
+		<Text>1099</Text>
+	</DEVICEERRORUNKNOWN>
+
+	<!-- SafePay Error codes BEGIN -->
+
+	<!-- Note cassette latch failed. -->
+	<CHAN_ERROR_CASSETTE_UNLATCHED>
+		<Title1>1689</Title1>
+		<Title2>1688</Title2>
+		<Text>1618</Text>
+	</CHAN_ERROR_CASSETTE_UNLATCHED>
+
+	<!-- Bit 19 -->
+	<CHAN_ERROR_NOTE_COVER_OPEN>
+		<Title1>1643</Title1>
+		<Title2>1644</Title2>
+		<Text>1645</Text>
+		<Image>265</Image>
+	</CHAN_ERROR_NOTE_COVER_OPEN>
+
+	<!-- Bit 29 -->
+	<CHAN_ERROR_RESOURCE_ERROR>
+		<Title1>1627</Title1>
+		<Title2>1628</Title2>
+		<Text>1629</Text>
+	</CHAN_ERROR_RESOURCE_ERROR>
+
+	<!-- Bit 20 -->
+	<CHAN_ERROR_NOTE_VALIDATOR_IO_ERROR>
+		<Title1>1630</Title1>
+		<Title2>1631</Title2>
+		<Text>1632</Text>
+		<Image>266</Image>
+	</CHAN_ERROR_NOTE_VALIDATOR_IO_ERROR>
+
+	<!-- Bit 16 -->
+	<CHAN_ERROR_NOTE_IO_ERROR>
+		<Title1>1633</Title1>
+		<Title2>1634</Title2>
+		<Text>1635</Text>
+		<Image>267</Image>
+	</CHAN_ERROR_NOTE_IO_ERROR>
+
+	<!-- Bit 24 -->
+	<CHAN_ERROR_COIN_IO_ERROR>
+		<Title1>1636</Title1>
+		<Title2>1637</Title2>
+		<Text>1638</Text>
+		<Image>268</Image>
+	</CHAN_ERROR_COIN_IO_ERROR>
+
+	<!-- Bit 25 -->
+	<CHAN_ERROR_HOPPER_LOCKED>
+		<Title1>1639</Title1>
+		<Title2>1640</Title2>
+		<Text>1641</Text>
+		<Image></Image>
+	</CHAN_ERROR_HOPPER_LOCKED>
+
+	<!-- Bit 18 -->
+	<CHAN_ERROR_CASSETTE_JAM>
+		<Title1>1642</Title1>
+		<Title2>1664</Title2>
+		<Text>1665</Text>
+		<Image>269</Image>
+	</CHAN_ERROR_CASSETTE_JAM>
+
+	<!-- Bit 17 -->
+	<CHAN_ERROR_NOTE_DEPOSIT_JAM>
+		<Title1>1666</Title1>
+		<Title2>1667</Title2>
+		<Text>1668</Text>
+		<Image>270</Image>
+	</CHAN_ERROR_NOTE_DEPOSIT_JAM>
+
+	<!-- Bit 17 dispense error -->
+	<CHAN_ERROR_NOTE_DISPENSE_JAM>
+		<Title1>1666</Title1>
+		<Title2>1701</Title2>
+		<Text>1668</Text>
+		<Image>270</Image>
+	</CHAN_ERROR_NOTE_DISPENSE_JAM>
+
+	<!-- Bit 13 -->
+	<CHAN_STATUS_FULL_SP>
+		<Title1>1669</Title1>
+		<Title2>1670</Title2>
+		<Text>1671</Text>
+		<Image>273</Image>
+	</CHAN_STATUS_FULL_SP>
+
+	<!-- Bit 26 -->
+	<CHAN_ERROR_COIN_DEPOSIT_JAM>
+		<Title1>1672</Title1>
+		<Title2>1673</Title2>
+		<Text>1674</Text>
+		<Image>271</Image>
+	</CHAN_ERROR_COIN_DEPOSIT_JAM>
+
+	<!-- Bit 26 dispense error -->
+	<CHAN_ERROR_COIN_DISPENSE_JAM>
+		<Title1>1672</Title1>
+		<Title2>1701</Title2>
+		<Text>1674</Text>
+		<Image>271</Image>
+	</CHAN_ERROR_COIN_DISPENSE_JAM>
+
+	<!-- Bit 28 -->
+	<CHAN_ERROR_COIN_DOOR_OPEN>
+		<Title1>1675</Title1>
+		<Title2>1676</Title2>
+		<Text>1677</Text>
+		<Image>272</Image>
+	</CHAN_ERROR_COIN_DOOR_OPEN>
+
+	<!-- Bit 21 -->
+	<CHAN_ERROR_NOTE_LIB_ERROR>
+		<Title1>1678</Title1>
+		<Title2>1679</Title2>
+		<Text>1680</Text>
+		<Image></Image>
+	</CHAN_ERROR_NOTE_LIB_ERROR>
+
+	<!-- Bit 23 -->
+	<CHAN_ERROR_NOTE_GENERAL_ERROR>
+		<Title1>1681</Title1>
+		<Title2>1682</Title2>
+		<Text>1683</Text>
+		<Image></Image>
+	</CHAN_ERROR_NOTE_GENERAL_ERROR>
+
+	<!-- Bit 27 -->
+	<CHAN_ERROR_COIN_GENERAL_ERROR>
+		<Title1>1684</Title1>
+		<Title2>1685</Title2>
+		<Text>1686</Text>
+		<Image></Image>
+	</CHAN_ERROR_COIN_GENERAL_ERROR>
+
+	<CHAN_ERROR_CALL_SERVICE>
+		<Title1>1669</Title1>
+		<Title2>1690</Title2>
+		<Text>1686</Text>
+		<Image></Image>
+	</CHAN_ERROR_CALL_SERVICE>
+		
+    <!-- TAR 356035: Attempt to enable device failed. -->
+	<POWER_DEVICE_DISABLED>
+		<Title1>1465</Title1>
+		<Title2>1472</Title2>
+		<Text>1706</Text>
+		<Image></Image>
+		<Text></Text>
+	</POWER_DEVICE_DISABLED>
+
+	<!-- SafePay Error codes END -->
+</DeviceError>

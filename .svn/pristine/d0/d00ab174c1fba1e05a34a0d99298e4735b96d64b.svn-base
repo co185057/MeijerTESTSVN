@@ -1,0 +1,97 @@
+﻿<Display Version="1.0">
+  <Languages>
+    <Language Name="0415">Polish
+      <StringTable>
+        <!-- Start of Main Screen Context -->
+        <String Name="MinMaxFastLaneBtnPrimaryTxt">Minimalizuj FastLane</String>
+        <String Name="MinMaxFastLaneBtnSecondaryTxt">Maksymalizuj FastLane</String>
+        <String Name="MinMaxFastLaneBtnPrimaryShowConfirmation">W celu minimalizacji okna FastLane, naciśnij przycisk “Minimalizuj FastLane”.</String>
+        <String Name="MinMaxFastLaneBtnSecondaryShowConfirmation">W celu maksymalizacji okna FastLane, naciśnij przycisk “Maksymalizuj FastLane”.</String>
+        <String Name="StopStartFastLaneBtnPrimaryTxt">Zatrzymaj FastLane</String>
+        <String Name="StopStartFastLaneBtnSecondaryTxt">Ponownie uruchom FastLane</String>
+        <String Name="SwitchToRAPBtnPrimaryTxt">Przełącz się do aplikacji RAP</String>
+        <String Name="ShutdownSystemBtnPrimaryTxt">Zamknij cały system</String>
+        <String Name="RebootSystemBtnPrimaryTxt">Restartuj cały system</String>
+        <String Name="VolumeBtnPrimaryTxt">Kontrola głośności</String>
+        <String Name="EventViewerBtnPrimaryTxt">Przeglądarka zdarzeń</String>
+        <String Name="GenerateLogBtnPrimaryTxt">Twórz diagnostyczne pliki dziennika</String>
+        <String Name="ExitFastLaneAndRunProfileBtnPrimaryTxt">Zatrzymaj FastLane i uruchom Profile Manager</String>
+        <String Name="ExitFastLaneAndRunProfileBtnSecondaryTxt">Profile Manager</String>
+        <String Name="TerminalInfoBtnPrimaryTxt">Informacje terminalu</String>
+        <String Name="MinMaxRAPBtnPrimaryTxt">Minimalizuj RAP</String>
+        <String Name="MinMaxRAPBtnSecondaryTxt">Maksymalizuj RAP</String>
+        <String Name="MinMaxRAPBtnPrimaryShowConfirmation">W celu minimalizacji okna PZO, naciśnij przycisk “Minimalizuj PZO”.</String>
+        <String Name="MinMaxRAPBtnSecondaryShowConfirmation">W celu maksymalizacji okna PZO, naciśnij przycisk “Maksymalizuj PZO”.</String>
+        <String Name="StopStartRAPButtonPrimaryTxt">Zatrzymaj PZO</String>
+        <String Name="StopStartRAPButtonSecondaryTxt">Ponownie uruchom PZO</String>
+		<String Name="RapConfigureBtnPrimaryTxt">Konfiguracja PZO</String>
+        <String Name="SwitchToFastLaneBtnPrimaryTxt">Przełącz się do aplikacji FastLane</String>
+        <String Name="ExitRAPAndRunProfileBtnPrimaryTxt">Zatrzymaj PZO i uruchom Profile Manager</String>
+        <String Name="ExitRAPAndRunProfileBtnSecondaryTxt">Ponownie uruchom Profile Manager</String>
+        <String Name="UtilityFunctionsTitle">NCR FastLane\nFunkcje obsługi</String>
+        <String Name="StartTitle">Uruchamianie systemu</String>
+        <String Name="SystemStartup">Trwa uruchamianie sytemu…proszę czekać</String>
+        <String Name="TerminalID">Identyfikator terminalu: </String>
+        <String Name="InterfaceVersion">Wersja oprogramowania: </String>
+        <String Name="TrainingProgramPrimaryTxt">Program szkoleniowy</String>
+        <String Name="OperatorIDText">Identyfikator operatora: </String>
+        <String Name="KeySwitchOperatorID">Blokada kluczykowa</String>
+        <String Name="SignOnButtonText">Zaloguj się</String>
+        <String Name="SignOffButtonText">Wyloguj się</String>
+        <String Name="SignedOffButtonText">Wylogowany</String>
+        <String Name="Exit">Zakończ wszystkie</String>
+        <String Name="ReturnToShoppingButtonText">Powrót</String>
+        <String Name="PickListEditor">Edytor Pick List</String>
+        <String Name="RunADDTxt">Przy Następnym Restarcie Uruchom ADU</String>
+        <String Name="TouchWareTxt">Wykalibruj ekran dotykowy</String>
+        <String Name="DiagConfirm">Czy na pewno chcesz utworzyć diagnostyczne pliki dziennika?</String>
+        <String Name="ProfileManagerFLConfirm">Czy na pewno chcesz zatrzymać aplikację FastLane i uruchomić Profile Manager?</String>
+        <String Name="ProfileManagerRAPConfirm">Czy na pewno chcesz zatrzymać aplikację PZO i uruchomić Profile Manager?</String>
+        <String Name="ProfileManagerConfirm">Czy na pewno chcesz uruchomić przeglądarkę zdarzeń Profile Manager</String>
+        <String Name="EventViewerConfirm">Czy na pewno chcesz uruchomić przeglądarkę zdarzeń Event Viewer</String>
+        <String Name="TrainingConfirm">Czy na pewno chcesz uruchomić program szkoleniowy?</String>
+        <String Name="PicklistConfirm">Czy na pewno chcesz uruchomić Edytor Pick List?</String>
+        <String Name="RunADDConfirm">Czy na pewno chcesz uruchomić ADU przy kolejnym restarcie?</String>
+        <String Name="CalibrateConfirm">Czy na pewno chcesz wykalibrować ekran dotykowy?</String>
+        <String Name="ShutdownConfirm">Czy na pewno chcesz zamknąć cały system?</String>
+        <String Name="RebootConfirm">Czy na pewno chcesz restartować cały system?</String>
+        <String Name="CloseAllConfirm">Czy na pewno chcesz zakończyć wszystkie aplikacje i przejść na pulpit?</String>
+        <String Name="VolumeConfirm">Czy na pewno chcesz wyregulować głośność?</String>
+        <String Name="TerminalInfoConfirm">Czy na pewno chcesz przejrzeć informacje o terminalu?</String>
+        <String Name="StopFastLaneConfirm">Czy na pewno chcesz zatrzymać aplikację FastLane?</String>
+        <String Name="StopRAPConfirm">Czy na pewno chcesz zatrzymać aplikację PZO?</String>
+        <String Name="StartFastLaneConfirm">Czy na pewno chcesz uruchomić FastLane?</String>
+        <String Name="StartRAPConfirm">Czy na pewno chcesz uruchomić PZO?</String>
+        <String Name="WindowsLogOnTxt">Przejdź do Windows</String>
+        <String Name="WindowsLogOnConfirm">Czy na pewno chcesz zakończyć wszystkie aplikacje i zalogować się jako nowy użytkownik?</String>
+        <String Name="YesText">Akceptuj</String>
+        <String Name="NoText">Anuluj</String>
+        <String Name="CommandPromptPrimaryTxt">Wiersz poleceń</String>
+        <String Name="CommandPromptConfirm">Czy na pewno chcesz uruchomić Wiersz poleceń?</String>
+        <String Name="RSMLEPrimaryTxt">Retail Systems Manager LE</String>
+        <String Name="RSMLEConfirm">Czy na pewno chcesz uruchomić Menedżera systemów handlowych LE?</String>
+		<String Name="OperatorRegistrationUtility">Usługa Rejestracji Operatora</String>
+		<String Name="EnterIDFpLeadthru">AW celu zalogowania się wprowadź swój identyfikator użytkownika i naciśnij „Akceptuj” albo umieść palec na czytniku odcisków palców.</String>
+		<String Name="ReEnterIDFpLeadthru">Nieudane logowanie. Proszę spróbować zalogować się jeszcze raz używając klawiatury albo korzystając z odcisku palca.</String>
+        <!-- End of Main Screen Context -->
+
+        <!-- Start of Authentication Contexts -->
+        <String Name="ClearButtonText">Usuń</String>
+        <String Name="EnterButtonText">Akceptuj</String>
+        <String Name="GoBackButtonText">Powróć</String>
+        <String Name="SpaceButtonText">Spacja</String>
+        <String Name="BackSpaceButtonText">Cofnij</String>
+        <String Name="EnterIDLeadthru">Wprowadź identyfikator używając klawiatury poniżej:</String>
+        <String Name="ReEnterIDLeadthru">Niepoprawny identyfikator lub hasło. Wprowadź ponownie używając klawiatury poniżej.</String>
+        <String Name="EnterPasswordLeadthru">Wprowadź hasło używając klawiatury poniżej:</String>
+        <String Name="CancelButtonText">Anuluj</String>
+        <String Name="LoggingInLeadthru">Trwa logowanie...Proszę czekać</String>
+        <String Name="ShiftButtonText">Przesuń</String>
+        <String Name="LegalCaptionText">LEGAL CAPTION
+This system is for the use of authorized personnel only. By logging onto this system, you are subject to the terms and conditions of all Information Security policies and standards. Use by unauthorized individuals or for unauthorized purposes is a violation of federal and/or state law. The company reserves the right to take any necessary actions to protect authorized users, intellectual property and other information assets. Individuals using this system are subject to having all of their activities on this system monitored. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals possible evidence of criminal activity, system personnel may provide the evidence of such monitoring to law enforcement officials.
+        </String>
+        <!-- End of Authentication Contexts -->
+      </StringTable>
+    </Language>
+  </Languages>
+</Display>

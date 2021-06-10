@@ -1,0 +1,19 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\Scanner\STI_SCANNER]
+@="STIOPOS.SCANNERSO"
+"Baudrate"="9600"
+"Bits"="8"
+"Stopbits"="1"
+"Parity"="odd"
+"Port"="COM2"
+"Version"="2.04"
+"Service"="c:\\scot\\controls\\STIOPOS.dll"
+"Description"="OPOS RS232 Scanner Service Driver, (c) STI 1999"
+"Protocol"="RTS"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\Scanner\STI_SCANNER\STIScannerTrace]
+@="STI Service Object Trace Log File"
+"Status"=dword:00000000
+"FileName"="C:\\Temp\\STIOPOS.txt"
+

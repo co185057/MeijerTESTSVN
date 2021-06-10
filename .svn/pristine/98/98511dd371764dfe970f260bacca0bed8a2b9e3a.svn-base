@@ -1,0 +1,676 @@
+<Display Version="1.2">
+  <Fonts>
+    <Font Name="MSAMFont">
+      <Face>Lucida Sans Unicode</Face>
+      <Size>11</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="FastLaneAMTitleFont">
+      <Face>Lucida Sans Unicode</Face>
+      <Size>18</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="MSKeyBoardFont">
+      <Face>Lucida Sans Unicode</Face>
+      <Size>9</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="MSMessageFont">
+      <Face>Lucida Sans Unicode</Face>
+      <Size>12</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+  </Fonts>
+  <Controls>
+    <Control Name="Key1" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">557,168,54,149</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">47</Property>
+        <Property Name="ButtonWidth">54</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">MSKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\MS\8x6-Bttn_54x47.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">3</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key7" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">729,168,54,149</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">47</Property>
+        <Property Name="ButtonWidth">54</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">MSKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\MS\8x6-Bttn_54x47.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">3</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key10" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">729,322,54,149</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">47</Property>
+        <Property Name="ButtonWidth">54</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">MSKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\MS\8x6-Bttn_54x47.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">3</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key4" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">618,168,108,149</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">47</Property>
+        <Property Name="ButtonWidth">108</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">MSKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\MS\8x6-Bttn_108x47.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">3</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key13" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">557,323,170,149</Property>
+        <Property Name="ButtonHorizontalSpacing">4</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">47</Property>
+        <Property Name="ButtonWidth">54</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">MSKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\MS\8x6-Bttn_54x47.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">9</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key25" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">557,494,109,100</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">48</Property>
+        <Property Name="ButtonWidth">109</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">MSKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\MS\8x6-Bttn_109x48.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">2</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key23" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">670,494,54,100</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">48</Property>
+        <Property Name="ButtonWidth">54</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">MSKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\MS\8x6-Bttn_54x48.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">2</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key22" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">729,490,54,102</Property>
+        <Property Name="ButtonHorizontalSpacing">4</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">102</Property>
+        <Property Name="ButtonWidth">54</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">MSKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\MS\8x6-Bttn_54x102.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key27" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">370,166,181,428</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">50</Property>
+        <Property Name="ButtonWidth">181</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">MSKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\MS\8x6-Bttn_181x50.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">8</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Status1" Type="Static">
+      <Properties>
+        <Property Name="Position">24,534,333,30</Property>
+        <Property Name="Font">TBTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+      </Properties>
+    </Control>
+    <Control Name="Status2" Type="Static">
+      <Properties>
+        <Property Name="Position">189,564,168,27</Property>
+        <Property Name="Font">TBTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="Text" Type="Static">
+      <Properties>
+        <Property Name="Position">24,564,165,27</Property>
+        <Property Name="Font">TBTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="Label1" Type="Static">
+      <Properties>
+        <Property Name="Position">39,196,128,106</Property>
+        <Property Name="Font">RewardAmountFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="TextLineAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="Label2" Type="Static">
+      <Properties>
+        <Property Name="Position">42,349,123,107</Property>
+        <Property Name="Font">RewardAmountFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="TextLineAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="Message1" Type="Static">
+      <Properties>
+        <Property Name="Position">163,195,367,107</Property>
+        <Property Name="Font">RewardAmountFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="TextLineAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="Message2" Type="Static">
+      <Properties>
+        <Property Name="Position">167,350,351,108</Property>
+        <Property Name="Font">RewardAmountFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="TextLineAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="AMTotalText" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Position">19,416,159,24</Property>
+        <Property Name="Font">RewardAmountFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="AMTotalAmount" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Position">155,416,215,24</Property>
+        <Property Name="Font">RewardAmountFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="AMTotalText2" Type="Static">
+      <Properties>
+        <Property Name="Position">19,436,159,24</Property>
+        <Property Name="Font">RewardAmountFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="AMTotalAmount2" Type="Static">
+      <Properties>
+        <Property Name="Position">155,436,215,26</Property>
+        <Property Name="Font">RewardAmountFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="AMTotalText3" Type="Static">
+      <Properties>
+        <Property Name="Position">19,469,159,24</Property>
+        <Property Name="Font">RewardAmountFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="AMTotalAmount3" Type="Static">
+      <Properties>
+        <Property Name="Position">155,469,215,26</Property>
+        <Property Name="Font">RewardAmountFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="AMTotalText4" Type="Static">
+      <Properties>
+        <Property Name="Position">19,502,155,28</Property>
+        <Property Name="Font">RewardAmountFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="AMTotalAmount4" Type="Static">
+      <Properties>
+        <Property Name="Position">155,502,215,29</Property>
+        <Property Name="Font">RewardAmountFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="TotalList" Type="Receipt">
+      <Properties>
+        <Property Name="Position">119,237,424,304</Property>
+        <Property Name="Font">TrainingMessageFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="SelectionFont">TrainingMessageFont</Property>
+        <Property Name="Z-Order">5</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="DataSource">TotalList</Data>
+        <Data Name="ItemType1">ITEM_SMTEXT</Data>
+        <Data Name="ItemType1StringID">1100</Data>
+      </CustomData>
+      <Columns>
+        <Column Alignment="0" Width="424" />
+      </Columns>
+    </Control>
+  </Controls>
+  <Contexts>
+    <Context Name="SmAssistMode">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\MS\8X6_MarksSpencers_Basic.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">20,13,529,31</Property>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">21,42,531,75</Property>
+            <Property Name="Font">MSMessageFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="Prompt">
+          <Properties>
+            <Property Name="Position">20,114,344,41</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">365,119,176,39</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1" />
+        <Control Name="SMButton2" />
+        <Control Name="Key1" />
+        <Control Name="Key7" />
+        <Control Name="Key10" />
+        <Control Name="Key4" />
+        <Control Name="Key13" />
+        <Control Name="Key25" />
+        <Control Name="Key23" />
+        <Control Name="Key22" />
+        <Control Name="Key27" />
+        <Control Name="TotalList">
+          <Properties>
+            <Property Name="Position">21,175,337,315</Property>
+          </Properties>
+        </Control>
+        <Control Name="AMTotalText">
+          <Properties>
+            <Property Name="Position">25,503,155,36</Property>
+            <Property Name="Font">RewardAmountFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="AMTotalAmount">
+          <Properties>
+            <Property Name="Position">114,503,214,36</Property>
+            <Property Name="Font">RewardAmountFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Status1" />
+        <Control Name="Status2" />
+        <Control Name="Text" />
+      </Include>
+    </Context>
+    <Context Name="MSError">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\MS\8X6_MarksSpencers_Error.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">20,13,529,31</Property>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">21,42,531,75</Property>
+            <Property Name="Font">MSMessageFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="Prompt">
+          <Properties>
+            <Property Name="Position">20,114,344,41</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">365,119,176,39</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1" />
+        <Control Name="SMButton2" />
+        <Control Name="Key1" />
+        <Control Name="Key7" />
+        <Control Name="Key10" />
+        <Control Name="Key4" />
+        <Control Name="Key13" />
+        <Control Name="Key25" />
+        <Control Name="Key23" />
+        <Control Name="Key22" />
+        <Control Name="Label1" />
+        <Control Name="Label2" />
+        <Control Name="Message1" />
+        <Control Name="Message2" />
+        <Control Name="Text">
+          <Properties>
+            <Property Name="Position">21,550,523,46</Property>
+            <Property Name="Font">RewardAmountFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="MSInfo">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\MS\8X6_MarksSpencers_List.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">20,13,529,31</Property>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">21,42,531,75</Property>
+            <Property Name="Font">MSMessageFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="Prompt">
+          <Properties>
+            <Property Name="Position">20,114,344,41</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">365,119,176,39</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1" />
+        <Control Name="SMButton2" />
+        <Control Name="Key1" />
+        <Control Name="Key7" />
+        <Control Name="Key10" />
+        <Control Name="Key4" />
+        <Control Name="Key13" />
+        <Control Name="Key25" />
+        <Control Name="Key23" />
+        <Control Name="Key22" />
+        <Control Name="Key27" />
+        <Control Name="TotalList">
+          <Properties>
+            <Property Name="Position">22,209,332,322</Property>
+            <Property Name="Font">RewardAmountFont</Property>
+            <Property Name="SelectionFont">RewardAmountFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">25,173,333,31</Property>
+            <Property Name="Font">RewardAmountFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="Status1" />
+        <Control Name="Status2" />
+        <Control Name="Text" />
+      </Include>
+    </Context>
+    <Context Name="MSList">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\MS\8X6_MarksSpencers_List.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">20,13,529,31</Property>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">21,42,531,75</Property>
+            <Property Name="Font">MSMessageFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="Prompt">
+          <Properties>
+            <Property Name="Position">20,114,344,41</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">365,119,176,39</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1" />
+        <Control Name="SMButton2" />
+        <Control Name="Key1" />
+        <Control Name="Key7" />
+        <Control Name="Key10" />
+        <Control Name="Key4" />
+        <Control Name="Key13" />
+        <Control Name="Key25" />
+        <Control Name="Key23" />
+        <Control Name="Key22" />
+        <Control Name="Key27" />
+        <Control Name="TotalList">
+          <Properties>
+            <Property Name="Position">21,175,337,315</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">25,173,333,31</Property>
+            <Property Name="Font">RewardAmountFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="Status1" />
+        <Control Name="Status2" />
+        <Control Name="Text" />
+      </Include>
+    </Context>
+    <Context Name="MSPolicy">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\MS\8X6_MarksSpencers_Policy.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">20,13,529,31</Property>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">21,42,531,75</Property>
+            <Property Name="Font">MSMessageFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="Prompt">
+          <Properties>
+            <Property Name="Position">20,114,344,41</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">365,119,176,39</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1" />
+        <Control Name="SMButton2" />
+        <Control Name="Key1" />
+        <Control Name="Key7" />
+        <Control Name="Key10" />
+        <Control Name="Key4" />
+        <Control Name="Key13" />
+        <Control Name="Key25" />
+        <Control Name="Key23" />
+        <Control Name="Key22" />
+        <Control Name="Message1">
+          <Properties>
+            <Property Name="Position">25,178,521,343</Property>
+            <Property Name="Font">ReceiptFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Text">
+          <Properties>
+            <Property Name="Position">21,550,523,46</Property>
+            <Property Name="Font">RewardAmountFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="MSTotal">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\MS\8X6_MarksSpencers_MoreTotalLines.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">20,13,529,31</Property>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">21,42,531,75</Property>
+            <Property Name="Font">MSMessageFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="Prompt">
+          <Properties>
+            <Property Name="Position">20,114,344,41</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">365,119,176,39</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1" />
+        <Control Name="SMButton2" />
+        <Control Name="Key1" />
+        <Control Name="Key7" />
+        <Control Name="Key10" />
+        <Control Name="Key4" />
+        <Control Name="Key13" />
+        <Control Name="Key25" />
+        <Control Name="Key23" />
+        <Control Name="Key22" />
+        <Control Name="Key27" />
+        <Control Name="TotalList">
+          <Properties>
+            <Property Name="Position">17,167,338,234</Property>
+          </Properties>
+        </Control>
+        <Control Name="AMTotalText" />
+        <Control Name="AMTotalText2" />
+        <Control Name="AMTotalText3" />
+        <Control Name="AMTotalText4" />
+        <Control Name="AMTotalAmount" />
+        <Control Name="AMTotalAmount2" />
+        <Control Name="AMTotalAmount3" />
+        <Control Name="AMTotalAmount4" />
+        <Control Name="Status1" />
+        <Control Name="Status2" />
+        <Control Name="Text" />
+      </Include>
+    </Context>
+  </Contexts>
+</Display>

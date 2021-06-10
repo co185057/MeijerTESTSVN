@@ -1,0 +1,62 @@
+﻿<Display Version="1.0">
+  <Languages>
+    <Language Name="0407">
+      <StringTable>
+        <String Name="SwitchToRAPBtnPrimaryTxt">Schalte um auf RAP</String>
+        <String Name="ShutdownSystemBtnPrimaryTxt">System stoppen</String>
+        <String Name="RebootSystemBtnPrimaryTxt">System starten</String>
+        <String Name="VolumeBtnPrimaryTxt">Lautstärke</String>
+        <String Name="EventViewerBtnPrimaryTxt">Ereignisanzeige (Event Viewer)</String>
+        <String Name="GenerateLogBtnPrimaryTxt">Erstelle Diagn.-Log-Tabellen</String>
+        <String Name="RapConfigureBtnPrimaryTxt">RAP-\nKonfiguration</String>
+        <String Name="TerminalInfoBtnPrimaryTxt">Kasseninfo</String>
+        <String Name="MinMaxRAPBtnPrimaryTxt">Kleines Bild RAP</String>
+        <String Name="MinMaxRAPBtnSecondaryTxt">Vollbild RAP</String>
+        <String Name="MinMaxRAPBtnPrimaryShowConfirmation">Berühren Sie "Kleines Bild RAP", um das RAP-Fenster zu verkleinern.</String>
+        <String Name="MinMaxRAPBtnSecondaryShowConfirmation">Berühren Sie "Vollbild RAP", um das RAP-Fenster zu vergrößern.</String>
+        <String Name="StopStartRAPButtonPrimaryTxt">FAP beenden</String>
+        <String Name="StopStartRAPButtonSecondaryTxt">FAP starten</String>
+        <String Name="ExitRAPAndRunProfileBtnPrimaryTxt">FAP beenden und Profile Manager starten</String>
+        <String Name="ExitRAPAndRunProfileBtnSecondaryTxt">Starte Profile Manager</String>
+        <String Name="UtilityFunctionsTitle">Hilfsprogrammfunktionen</String>
+		<String Name="SignOnTitle">NCR FastLane\nAnmeld.</String>
+        <String Name="StartTitle">Systemstart</String>
+        <String Name="SystemStartup">System starten…bitte warten</String>
+        <String Name="TerminalID">Kassen-ID </String>
+        <String Name="OperatorIDText">ID: </String>
+        <String Name="SignOnButtonText">Anmeld.</String>
+        <String Name="SignOffButtonText">Abmeld.</String>
+        <String Name="SignedOffButtonText">Abgemeldet</String>
+        <String Name="Exit">Alles beenden</String>
+        <String Name="ReturnToShoppingButtonText">Zurück</String>
+        <String Name="DiagConfirm">Sind Sie sicher, Sie möchten die Diagnose Log-Datei schreiben?</String>
+        <String Name="ProfileManagerRAPConfirm">Sind Sie sicher, Sie möchten das Fernauthorisierungsprogramm beenden und Profile Manager starten?</String>
+        <String Name="ProfileManagerConfirm">Sind Sie sicher, Sie möchten den Profile Manager starten?</String>
+        <String Name="EventViewerConfirm">Sind Sie sicher, Sie möchten den Ereignisanzeiger starten?</String>
+        <String Name="CalibrateConfirm">Sind Sie sicher, Sie möchten den Ber¸hrungsbildschirm kalibrieren?</String>
+        <String Name="ShutdownConfirm">Sind Sie sicher, Sie möchten das ganze System abschalten?</String>
+        <String Name="RebootConfirm">Sind Sie sicher, Sie möchten das ganze System neu starten?</String>
+        <String Name="CloseAllConfirm">Sind Sie sicher, Sie möchten alle Anwendungen beenden und auf den Desktop gehen?</String>
+        <String Name="VolumeConfirm">Sind Sie sicher, Sie möchten die Lautst‰rke einstellen?</String>
+        <String Name="TerminalInfoConfirm">Sind Sie sicher, Sie möchten die Terminalinformation sehen?</String>
+        <String Name="StopRAPConfirm">Möchten Sie die Fernautorisierung wirklich beenden?</String>
+        <String Name="StartRAPConfirm">Sind Sie sicher, FAP starten?</String>
+        <String Name="WindowsLogOnTxt">Sich bei Windows anmelden</String>
+        <String Name="WindowsLogOnConfirm">Sind Sie sicher, dass Sie alle Anwendungen beenden und sich als neuer Benutzer anmelden wollen?</String>
+        <String Name="YesText">Ja</String>
+        <String Name="NoText">Nein</String>
+        <String Name="ClearButtonText">Löschen</String>
+        <String Name="EnterButtonText">Eingabe</String>
+        <String Name="GoBackButtonText">Zurück</String>
+        <String Name="SpaceButtonText">Leertaste</String>
+        <String Name="BackSpaceButtonText">Eine Stelle zurück</String>
+        <String Name="ShiftButtonText">Umschalt</String>
+        <String Name="EnterIDLeadthru">Identifikation auf dem Tastatur-Pad unterhalb eingeben.</String>
+        <String Name="ReEnterIDLeadthru">ID oder Passwort falsch. Bitte neu eingeben.</String>
+        <String Name="EnterPasswordLeadthru">Passwort auf dem Tastatur-Pad unterhalb eingeben.</String>
+        <String Name="CancelButtonText">Lösche</String>
+        <String Name="LoggingInLeadthru">Anmeldung in Arbeit...Bitte warten</String>
+      </StringTable>
+    </Language>
+  </Languages>
+</Display>

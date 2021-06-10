@@ -1,0 +1,13 @@
+<Dictionary>
+   <Table XMLNodeName="OperatorLogin" TableName="OperatorLogins" Archive="Yes">
+      <Field XMLName="Time" Column="ActivityTime" Format="Time"/>
+      <Field XMLName="Operator" Column="OperatorID"/>
+      <Field XMLName="SignOn" Column="SignOn"/>
+      <Field XMLName="Application" Column="Application"/>
+   </Table>
+   <Table XMLNodeName="MCoupon" TableName="MCoupons" Archive="Yes">
+      <Field XMLName="CouponAmount" Column="CouponAmount" Format="Currency"/>
+      <Field XMLName="CouponCount" Column="CouponCount" />
+      <Field XMLName="MediaType" Column="MediaType" />
+   </Table>
+</Dictionary>

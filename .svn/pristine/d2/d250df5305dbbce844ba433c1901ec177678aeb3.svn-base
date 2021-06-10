@@ -1,0 +1,21 @@
+#
+# List of terminal-specific SSCO config files that should be updated on
+# SSCO terminal options load. Only the base names should be listed, with no 
+# extensions
+#
+
+ACSOPTS
+MSG0415
+MSGSPAN
+SCOTMSGE
+SCOTOPTS
+SCOTTEND
+TENDSPAN
+TEND0415
+SCOTWAVE
+SCUDMSG3
+SCUDMSG2
+SCUDMSGS
+SECURITYCONFIG
+FastlaneSvc.exe.config
+FLAuditSvc.dll.config

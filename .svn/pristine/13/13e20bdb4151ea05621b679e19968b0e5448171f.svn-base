@@ -1,0 +1,26 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\MICR]"
+"ScotMicr"="NCRMICR.1"
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\MICR\NCRMICR.1]
+@="NCRPrinter.MICR"
+"Uses"="POSPrinter\\NCRPOSPrinter.1"
+"Description"="NCR 71xx Printer/MICR/CD/ChkScan Service Object"
+"Version"="1.7.0"
+"NCRVersion"="2.5.0.8 -> NCR Release File Version"
+"RemoveNonDigits"=" -> <A> for Account; <T> for Transit; <AT> for both; <> for neither"
+"ReturnErrorData"="N -> <Y> for Return any data on Error; <N> for Do Not Return Data"
+"SelectSlip"="T -> <T> for Select Slip on 7166 after MICR; <F> for Do Not Select Slip"
+"ClearBeforeRead"="T -> <T> to Clear old MICR data at BeginInsertion <F> only update after good read"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\MICR\NCRMICR.1\DataCapture]
+"DcapVersion"="1.1.3"
+"DcapTime"="F00 -> Hex time option(s): 100=m:s, 300=h:m:s, 700=m/d h:m:s; 800+digits=millisec; 1000=threadid"
+"DcapMask"="0 -> Hex mask of events to capture"
+"DcapControl"="0 -> Hex destination(s): 1=DCap App, 2=Debugger, 4=File; 10/20/40 for immediate"
+"DcapFileMax"="5120 -> Max KB of data cap file"
+"DcapFile"="C:\\scot\\logs\\NCRMICR.log"
+"DcapLinePrefix"="MICR: "
+

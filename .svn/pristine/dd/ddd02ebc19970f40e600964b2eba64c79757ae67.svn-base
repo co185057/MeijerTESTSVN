@@ -1,0 +1,310 @@
+<Display Version="1.0">
+  <Fonts>
+    <Font Name="CMNormalButton">
+      <Face>MS UI Gothic</Face>
+      <Size>12</Size>
+      <Bold>Bold</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMLeadthruTextFont">
+      <Face>MS UI Gothic</Face>
+      <Size>13</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ReceiptFont">
+      <Face>MS UI Gothic</Face>
+      <Size>14</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ReceiptFontBig">
+      <Face>MS UI Gothic</Face>
+      <Size>24</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ReceiptFontVoid">
+      <Face>MS UI Gothic</Face>
+      <Size>14</Size>
+      <Bold>True</Bold>
+      <Strikethrough>True</Strikethrough>
+    </Font>
+    <Font Name="SmallReceiptFont">
+      <Face>MS UI Gothic</Face>
+      <Size>15</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SmallReceiptFont2">
+      <Face>MS UI Gothic</Face>
+      <Size>9</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMMItemFont">
+      <Face>Courier New</Face>
+      <Size>13</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="LeadthruFont">
+      <Face>MS UI Gothic</Face>
+      <Size>21</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ScaleFont">
+      <Face>MS UI Gothic</Face>
+      <Size>26</Size>
+      <Bold>false</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ScaleImageFont">
+      <Face>MS UI Gothic</Face>
+      <Size>8</Size>
+      <Bold>false</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TaxAmountFont">
+      <Face>ＭＳ 明朝</Face>
+      <Size>14</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TaxTextFont">
+      <Face>ＭＳ 明朝</Face>
+      <Size>14</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMMessageFont">
+      <Face>MS UI Gothic</Face>
+      <Size>18</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMTrainingMessageFont">
+      <Face>MS UI Gothic</Face>
+      <Size>14</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMTBTextFont">
+      <Face>MS UI Gothic</Face>
+      <Size>8</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMTBTextFont">
+      <Face>MS UI Gothic</Face>
+      <Size>11</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMTrainingFont">
+      <Face>MS UI Gothic</Face>
+      <Size>14</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMPromptFont">
+      <Face>MS UI Gothic</Face>
+      <Size>14</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMEchoFont">
+      <Face>MS UI Gothic</Face>
+      <Size>14</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMKeyBoardFont">
+      <Face>MS UI Gothic</Face>
+      <Size>11</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ScanBagTitleFont">
+      <Face>MS UI Gothic</Face>
+      <Size>23</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ScanBagInstructionFont">
+      <Face>MS UI Gothic</Face>
+      <Size>23</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMButtonFont">
+      <Face>MS UI Gothic</Face>
+      <Size>17</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMScreenTextFont">
+      <Face>MS UI Gothic</Face>
+      <Size>17</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMScreenFont">
+      <Face>MS UI Gothic</Face>
+      <Size>12</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMTBTextFont">
+      <Face>Arial</Face>
+      <Size>10</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMTBTextFont">
+      <Face>MS UI Gothic</Face>
+      <Size>14</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMPromptFont">
+      <Face>MS UI Gothic</Face>
+      <Size>18</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMKeyBoardFont">
+      <Face>MS UI Gothic</Face>
+      <Size>11</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMPopUpInfoBoxFont">
+      <Face>MS UI Gothic</Face>
+      <Size>10</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TrainingMessageFont">
+      <Face>MS UI Gothic</Face>
+      <Size>10</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMButton4Font">
+      <Face>MS UI Gothic</Face>
+      <Size>20</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="InstructionFont">
+      <Face>MS UI Gothic</Face>
+      <Size>18</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TotalFont">
+      <Face>ＭＳ 明朝</Face>
+      <Size>21</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="RewardMessageFont">
+      <Face>MS UI Gothic</Face>
+      <Size>14</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="RewardLabelFont">
+      <Face>MS UI Gothic</Face>
+      <Size>10</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ProductTextFont">
+      <Face>MS UI Gothic</Face>
+      <Size>10</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMButtonListFont">
+      <Face>MS UI Gothic</Face>
+      <Size>12</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="RewardAmountFont">
+      <Face>MS UI Gothic</Face>
+      <Size>9</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMScreenFont">
+      <Face>MS UI Gothic</Face>
+      <Size>10</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="AttractTitleFont">
+      <Face>MS UI Gothic</Face>
+      <Size>36</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="AnimationTextFont">
+      <Face>MS UI Gothic</Face>
+      <Size>24</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="DeviceInstructionTextFont">
+      <Face>MS UI Gothic</Face>
+      <Size>20</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="InstructionTextFont">
+      <Face>MS UI Gothic</Face>
+      <Size>17</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="AmountPaidFont">
+      <Face>MS UI Gothic</Face>
+      <Size>10</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="MidiListFont">
+      <Face>MS UI Gothic</Face>
+      <Size>20</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMReportFont">
+      <Face>ＭＳ 明朝</Face>
+      <Size>12</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+  </Fonts>
+  <Controls>
+    <Control Name="TabSelected" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">840,3,184,579</Property>
+      </Properties>
+      <List>
+        <Button>A,-,Category1</Button>
+        <Button>B - C,-,Category2</Button>
+        <Button>D - J,-,Category3</Button>
+        <Button>K - M,-,Category4</Button>
+        <Button>N - O,-,Category5</Button>
+        <Button>P,-,Category6</Button>
+        <Button>Q - S,-,Category7</Button>
+        <Button>T - Z,-,Category8</Button>
+        <Button>Favorites,-,Favorites</Button>
+      </List>
+    </Control>
+  </Controls>
+</Display>

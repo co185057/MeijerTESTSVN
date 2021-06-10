@@ -1,0 +1,811 @@
+This file was renamed so that the TB Data Needed feature would not 
+;always display questions at the start and end of a transaction.
+;If you want the TB emulator to use the TB Data Needed feature,
+;rename this file to TBscotdataentry.ini
+;RFC375568 and RFC375577  
+;AutoRunResponse is used when SCOT is running in Autorun mode ( see scotopts.dat [Autorun] )
+;value should be any value defined in between '=' and ',' in the list of buttons for each section
+;if no comma ( ',' ), then only the string defined after equal ('=') sign.
+;make sure that the string defined for AutoRunResponse is valid so SCOT will be able to recognize it
+;if InputMask is defined, AutoRunResponse may also contain a valid string for the data entry screen.
+;make sure that the string defined for AutoRunResponse is valid so TB/POS will not
+;reject it. Invalid entry may cause error messagescreen to appear.
+
+[2DBarcodeTestCM]
+TopCaption=2D Barcode Test
+SummaryInstruction=Scan a 2D Barcode.
+DetailedInstruction=Start scanning a barcode.
+StoreLogon=0
+;Button0=1,%62
+;Button1=2,%63
+HideHelp=0
+Button7=cGoBack, %67
+ScannerInputEnabled=1
+ScannerDataFormat=1
+
+[2DBarcodeTestSM]
+TopCaption=2D Barcode Store Mode Test
+SummaryInstruction=Scan a 2D Barcode.
+DetailedInstruction=Start scanning a barcode.
+StoreLogon=1
+HideHelp=0
+HideTotal=1
+Button7=cGoBack, %67
+ScannerInputEnabled=1
+ScannerDataFormat=1
+
+[2DBarcodeTestCMFmt2]
+TopCaption=1D/2D Barcode Test
+SummaryInstruction=Scan a Barcode.
+DetailedInstruction=Scan either a 2D or normal barcode.
+StoreLogon=0
+;Button0=1,%62
+;Button1=2,%63
+HideHelp=0
+Button7=cGoBack, %67
+ScannerInputEnabled=1
+ScannerDataFormat=2
+
+[2DBarcodeTestSMFmt2]
+TopCaption=1d/2D Barcode Store Mode Test
+SummaryInstruction=Scan a Barcode.
+DetailedInstruction=Scan either a 2D or normal barcode.
+StoreLogon=1
+HideHelp=0
+HideTotal=1
+Button7=cGoBack, %67
+ScannerInputEnabled=1
+ScannerDataFormat=2
+
+[SurveyTest]
+TopCaption=Survey
+SummaryInstruction=Have you used Self-Checkout before?
+DetailedInstruction=The extended message area is here.\nMaximum of 43 characters per line.\nAny characters past 43 will not appear.\n\nEmbedded newlines(\\n) will be needed\nfor formatting.\n\nA new parameter, DetailedInstruction,\nwill be used to specify this message text.\n\nThe Up & Down buttons on the left will be\nneeded when there are more than 14 lines.\n\nThis is line 14.\nThis is the last line.
+;EnableSecurity if set will override the value of EnableSecurityInCMDataNeeded in scotopts
+;If set to Y, this particular dataneeded screen will have its security enable regardless the value of EnableSecurityInCMDataNeeded
+; but not during itemsale. Dataneeded that arrives during item sale will not have security enabled.
+;If set to N, security will be disable whatever the value of EnableSecurityInCMDataNeeded
+;EnableSecurity=N
+StoreLogon=0
+HideHelp=0
+Button0=1,%62
+Button1=2,%63
+Button7=cReturn,Skip
+;The next parameter has been hard coded in the emulator, so don't attempt to change
+;HideTotal=0
+AutoRunResponse=cReturn
+
+[ColorTest]
+InputMask=aaaaaaaaa
+TopCaption=Color
+SummaryInstruction=Enter your favorite color and touch "Enter".
+ScannerInputEnabled=0
+StoreLogon=0
+HideTotal=0
+HideInput=0
+ViewType=Alpha
+;HideHelp=1
+Button7=cGoBack,%67
+AutoRunResponse=yellow
+
+[ZipCodeTest]
+InputMask=99999
+InputLengthMin=5
+TopCaption=Zip Code
+SummaryInstruction=Enter your zip code and touch "Enter".
+ScannerInputEnabled=0
+StoreLogon=0
+HideTotal=0
+HideInput=0
+;HideHelp=1
+Button7=cGoBack,%67
+AutoRunResponse=06000
+
+[DataNeededDuringItemSale]
+TopCaption=Data Needed During Item Sale
+SummaryInstruction=Enter quantity
+ScannerInputEnabled=0
+StoreLogon=0
+HideInput=0
+HideTotal=0
+InputMask=99999
+ViewType=Numeric
+Button7=cGoBack,%67
+AutoRunResponse=1
+
+[CustModeNoCancel]
+TopCaption=Data Needed Exception
+SummaryInstruction=Enter quantity
+ScannerInputEnabled=0
+StoreLogon=0
+HideInput=0
+HideTotal=0
+InputMask=99999
+Button7=cGoBack,%67
+AutoRunResponse=1
+
+[StoreModeNoCancel]
+TopCaption=Data Needed Exception
+SummaryInstruction=Enter quantity
+ScannerInputEnabled=0
+StoreLogon=1
+HideInput=0
+HideTotal=0
+InputMask=99999
+Button7=cGoBack,%67
+AutoRunResponse=1
+
+[CustModeWithCancel]
+LaneButtonText=Quantity
+TopCaption=Data Needed Exception
+SummaryInstruction=Enter quantity
+ScannerInputEnabled=0
+StoreLogon=0
+HideInput=0
+HideTotal=0
+InputMask=99999
+Button7=cGoBack,%67
+AutoRunResponse=1
+CancelRequest=cReturn
+
+[StoreModeWithCancel]
+ContextToDisplay=SmDataEntryNumericSmall
+LaneButtonText=Quantity
+TopCaption=Data Needed Exception
+SummaryInstruction=Enter quantity
+ScannerInputEnabled=0
+StoreLogon=1
+HideInput=0
+HideTotal=0
+InputMask=99999
+Button7=cGoBack,%67
+AutoRunResponse=1
+CancelRequest=cReturn
+
+[CustModePatternMatch]
+TopCaption=DataNeeded Pattern Match Customer
+SummaryInstruction=Enter quantity
+ScannerInputEnabled=0
+StoreLogon=0
+HideInput=0
+HideTotal=0
+InputMask=99999
+Button7=cGoBack,%67
+AutoRunResponse=1
+
+[StoreModePatternMatch]
+TopCaption=DataNeeded Pattern Match Store
+SummaryInstruction=Enter quantity
+ScannerInputEnabled=0
+StoreLogon=1
+HideInput=0
+HideTotal=0
+InputMask=99999
+Button7=cGoBack,%67
+AutoRunResponse=1
+
+[TestDataNeededDuringIntervention]
+TopCaption=Test DataNeeded During Intervention
+SummaryInstruction=Dataneeded during intervention
+ScannerInputEnabled=0
+;EnableSecurity if set will override the value of EnableSecurityInCMDataNeeded in scotopts
+;If set to Y, this particular dataneeded screen will have its security enable regardless the value of EnableSecurityInCMDataNeeded
+;If set to N, security will be disable whatever the value of EnableSecurityInCMDataNeeded
+;EnableSecurity=N
+StoreLogon=0
+HideInput=0
+HideTotal=0
+Button0=cCancelItemSale,%62
+Button1=cCancelItemSale,%63
+Button7=cGoBack,%67
+AutoRunResponse=1
+
+[DataNeededTest]
+TopCaption=Survey
+SummaryInstruction=Did you need cashier help in self checkout?
+Button0=1,%62
+Button1=2,%63
+STORELOGON=0
+HideTotal=1
+;HideHelp=1
+Button7=cReturn,Continue
+SayPhrase=InformationNeeded
+AutoRunResponse=2
+
+[HelpTest]
+TopCaption=Type of Help
+SummaryInstruction=Select category of help needed.
+Button0=0,Bagging
+Button1=1,Scanning
+Button2=2,Payment
+Button3=3,Other
+StoreLogon=0
+Button7=cReturn,%67
+AutoRunResponse=cReturn
+
+[PaymentTest]
+TopCaption=Installment
+SummaryInstruction=Do you want to purchase by installments?
+Button0=1,%62
+Button1=2,%63
+StoreLogon=0
+AutoRunResponse=2
+
+[InstallmentTest]
+TopCaption=Installment Plans
+SummaryInstruction=Select an installment plan.
+Button0=0,Ten days
+Button1=1,Twenty days
+Button2=2,Thirty days
+StoreLogon=0
+AutoRunResponse=0
+
+;Created for testing RFC 212328
+[StoreModeNoLoginTest]
+TopCaption=SM Data Needed Test
+SummaryInstruction=Did you have to logon more than once?
+Button0=0,Yes
+Button1=1,No
+StoreLogon=1
+AutoRunResponse=1
+
+;Created for testing RFQ 986
+[SellByDeptTest]
+InputMask=99999
+TopCaption=Dept Sale
+SummaryInstruction=Enter Department number and touch "Enter".
+ScannerInputEnabled=0
+StoreLogon=1
+HideTotal=0
+HideInput=0
+;HideHelp=1
+Button7=cReturn,%67
+ContextToDisplay=SmDataEntryNumericSmall
+AutoRunResponse=cReturn
+
+[ReprintReceiptTest]
+InputMask=99999
+;for testing alphanumeric keyboard
+;InputMask=aaaaaaaaa
+;InputMask=AAAAAAAAA
+TopCaption=Other Receipts
+SummaryInstruction=Enter receipt transaction number and touch "Enter".
+ScannerInputEnabled=0
+StoreLogon=1
+HideTotal=1
+HideInput=0
+Button7=cReturn,%67
+ContextToDisplay=SmDataEntryWithListBG
+;for testing alphanumeric keyboard
+;ContextToDisplay=SmDataEntryAlphanumeric
+AutoRunResponse=cReturn
+
+[SellBags]
+TopCaption=Plastic Bag Size
+SummaryInstruction=Which size bag are you using?
+Button0=Small
+Button1=Large
+StoreLogon=0
+HideTotal=1
+;HideHelp=1
+
+
+[CmdButtonTest]
+TopCaption=%9008
+SummaryInstruction=%9009
+StoreLogon=0
+LSWND1=%9007Line 1
+LSWND2=%9007Line 2
+LSWND3=%9007Line 3
+HideTotal=1
+;HideHelp=1
+ContextToDisplay=CmDataEntryWithButtonList
+ViewType=Alpha
+;CmdButtonListX=CmdString,image,Text
+CmdButtonList1=Button1Pressed,10x7_coffeebag1.jpg,%9007Coffee Bag1
+CmdButtonList2=Button2Pressed,10x7_coffeebag2.jpg,%9007Coffee Bag2
+CmdButtonList3=Button3Pressed,10x7_PlasticBag2.jpg,%9007PlasticBag2
+CmdButtonList4=Button4Pressed,10x7_PlasticContainer2.jpg,%9007Plastic2
+CmdButtonList5=,10x7_PlasticContainer3.jpg,%9007Plastic3
+CmdButtonList6=Button6Pressed,10x7_PlasticContainer4.jpg,%9007Plastic4
+CmdButtonList7=Button7Pressed,10x7_Plate2.jpg,%9007Plate2
+CmdButtonList8=Button8Pressed,10x7_OpenBox2.jpg,%9007OpenBox2
+CmdButtonList9=Button9Pressed,10x7_OpenBox2.jpg,%9007OpenBox_2
+CmdButtonList10=Button10Pressed,10x7_styrofoamcontainer.jpg,%9007Styro Container
+CmdButtonList11=Button11Pressed,10x7_styrofoamPlate_large.jpg,%9007StyroP Large
+CmdButtonList12=NEEDDATA_TestDataNeeded,10x7_styrofoamPlate_medium.jpg,%9007NEEDDATA
+CmdButtonList13=Button13Pressed,10x7_styrofoamPlate_small.jpg,%9007StyroP Medium
+CmdButtonList14=Button14Pressed,10x7_NoContainer_0409.jpg,%9007No COntainer
+CmdButtonList6=,10x7_PlasticContainer4.jpg,%9007Plastic4
+CancelRequest=Button4Pressed
+
+[CmdButtonTestStoreMode2]
+TopCaption=%9008
+SummaryInstruction=%9009
+StoreLogon=1
+RDNLaneLeadthru=%9005
+RDNLaneMessage=%9006
+ReportCategoryName=CMDBTNS
+LaneButtonText=CMDBTNS
+LSWND1=%9007Line 1
+LSWND2=%9007Line 2
+LSWND3=%9007Line 3
+HideTotal=1
+;HideHelp=1
+ContextToDisplay=SmDataEntryWithCmdBtnList
+;CmdButtonListX=CmdString,image,Text
+CmdButtonList1=Button1Pressed,10x7_coffeebag1.jpg,%9007Coffee Bag1
+CmdButtonList2=Button2Pressed,10x7_coffeebag2.jpg,%9007Coffee Bag2
+CmdButtonList3=Button3Pressed,10x7_PlasticBag2.jpg,%9007PlasticBag2
+CmdButtonList4=Button4Pressed,10x7_PlasticContainer2.jpg,%9007Plastic2
+CmdButtonList5=Button5Pressed,10x7_PlasticContainer3.jpg,%9007Plastic3
+CmdButtonList6=Button6Pressed,10x7_PlasticContainer4.jpg,%9007Plastic4
+CmdButtonList7=Button7Pressed,10x7_Plate2.jpg,%9007Plate2
+CmdButtonList8=Button8Pressed,10x7_OpenBox2.jpg,%9007OpenBox2
+CmdButtonList9=Button9Pressed,10x7_OpenBox2.jpg,%9007Button4
+CmdButtonList10=Button10Pressed,10x7_styrofoamcontainer.jpg,%9007Styro Container
+CmdButtonList11=Button11Pressed,10x7_styrofoamPlate_large.jpg,%9007StyroP Large
+CmdButtonList12=Button12Pressed,10x7_styrofoamPlate_medium.jpg,%9007StyroP Medium
+CmdButtonList13=Button13Pressed,10x7_styrofoamPlate_small.jpg,%9007StyroP Medium
+CmdButtonList14=Button14Pressed,10x7_NoContainer_0409.jpg,%9007No COntainer
+Button7=cReturn,%67
+CancelRequest=cReturn
+
+[CmdButtonTestStoreMode]
+STORELOGON=1
+CONTEXTTODISPLAY=SmDataEntryWithCmdList
+TOPCAPTION=Department Sale
+SUMMARYINSTRUCTION=Scroll to desired department and touch "Select"
+ENABLESECURITY=0
+HIDETOTAL=1
+HIDEHELP=1
+LANEBUTTONTEXT=DepartmentList
+REPORTCATEGORYNAME=DepartmentList
+BUTTON0=cSelectedItem,107
+BUTTON6=cReturn,Go Back
+CMDLISTENTRY1=2100003133830,BAKEHOUSE;
+CMDLISTENTRY2=2100003133847,CIGARETTES
+CMDLISTENTRY3=2100003133854,FRONT OF STORE
+CMDLISTENTRY4=2100003133861,GENERAL MERCHANDISE
+CMDLISTENTRY5=2100003133878,GROCERIES
+CMDLISTENTRY6=2100003133885,MEAT
+CMDLISTENTRY7=2100003133915,PERISHABLES
+CMDLISTENTRY8=2100003133922,PRODUCE
+CMDLISTENTRY9=2100003133939,PROPRIETARY BAKE
+CMDLISTENTRY10=2100003133953,SEAFOOD
+CMDLISTENTRY11=2100003133960,SERVICED DELI
+CMDLISTENTRY12=2100007888804,PHARMACY
+CMDLISTENTRY13=2100009169604,LIQUOR
+CMDLISTENTRY14=9314223932811,BIGW Childrenswear
+CMDLISTENTRY15=9314223932828,BIGW Womenswear
+CMDLISTENTRY16=9314223932835,BIGW Menswear
+CMDLISTENTRY17=9314223932842,BIGW  Footwear
+CMDLISTENTRY18=9314223932866,BIGW Toys &amp; Sporting
+CMDLISTENTRY19=9314223932873,BIGW Entertainment
+CMDLISTENTRY20=9314223932880,BIGW Everyday Needs
+CMDLISTENTRY21=9314223932897,BIGW Office
+CMDLISTENTRY22=9314223932903,BIGW Home
+
+
+[CmdListTest]
+TopCaption=%9010
+SummaryInstruction=%9011
+StoreLogon=0
+HideTotal=1
+;HideHelp=1
+ContextToDisplay=CmDataEntryWithCmdList
+ViewType=Alpha
+;CmdListEntry=value,Text
+CmdListEntry1=654001,%9007ReceiptLine1
+CmdListEntry2=654002,%9007ReceiptLine2
+CmdListEntry3=654003,%9007ReceiptLine3
+CmdListEntry4=654004,%9007ReceiptLine4
+CmdListEntry5=654005,%9007ReceiptLine5
+CmdListEntry6=654006,%9007ReceiptLine6
+CmdListEntry7=654007,%9007ReceiptLine7
+CmdListEntry8=654008,%9007ReceiptLine8
+CmdListEntry9=654009,%9007ReceiptLine9
+CmdListEntry10=6540010,%9007ReceiptLine10
+CmdListEntry11=6540011,%9007ReceiptLine11
+CmdListEntry12=6540012,%9007ReceiptLine12
+CmdListEntry13=6540013,%9007ReceiptLine13
+CmdListEntry14=6540014,%9007ReceiptLine14
+CmdListEntry15=6540015,%9007ReceiptLine15
+CmdListEntry16=6540016,%9007ReceiptLine16
+CmdListEntry17=6540017,%9007ReceiptLine17
+CmdListEntry18=6540018,%9007ReceiptLine18
+CmdListEntry19=NEEDDATA_CmdButtonTestStoreMode,CmdButtonTestStoreMode
+CmdListEntry20=NEEDDATA_CmdButtonTest,CmdButtonTest
+CmdListEntry21=NEEDDATA_CmdListTestStoreMode,CmdListTestStoreMode
+Button0=cSelectedItem,%567
+Button1=cReturn,%67
+CancelRequest=cReturn
+
+[CmdListTestStoreMode]
+TopCaption=%9010
+SummaryInstruction=%9011
+StoreLogon=1
+RDNLaneLeadthru=%9005
+RDNLaneMessage=%9006
+HideTotal=1
+;HideHelp=1
+ContextToDisplay=SmDataEntryWithCmdList
+ReportCategoryName=CMDLIST
+LaneButtonText=CMDLIST
+LSWND1=%9007Line 1
+LSWND2=%9007Line 2
+LSWND3=%9007Line 3
+ViewType=Alpha
+CmdListEntry1=654001,%9007ReceiptLine1
+CmdListEntry2=654002,%9007ReceiptLine2
+CmdListEntry3=654003,%9007ReceiptLine3
+CmdListEntry4=654004,%9007ReceiptLine4
+CmdListEntry5=654005,%9007ReceiptLine5
+CmdListEntry6=654006,%9007ReceiptLine6
+CmdListEntry7=654007,%9007ReceiptLine7
+CmdListEntry8=654008,%9007ReceiptLine8
+CmdListEntry9=654009,%9007ReceiptLine9
+CmdListEntry10=6540010,%9007ReceiptLine10
+CmdListEntry11=6540011,%9007ReceiptLine11
+CmdListEntry12=6540012,%9007ReceiptLine12
+CmdListEntry13=6540013,%9007ReceiptLine13
+CmdListEntry14=6540014,%9007ReceiptLine14
+CmdListEntry15=6540015,%9007ReceiptLine15
+CmdListEntry16=6540016,%9007ReceiptLine16
+CmdListEntry17=6540017,%9007ReceiptLine17
+CmdListEntry18=6540018,%9007ReceiptLine18
+CmdListEntry19=NEEDDATA_CmdButtonTestStoreMode,CmdButtonTestStoreMode
+CmdListEntry20=NEEDDATA_CmdButtonTest,CmdButtonTest
+CmdListEntry21=NEEDDATA_CmdListTest,CmdListTest
+Button0=cSelectedItem,%567
+Button7=cGoBack,%67
+CancelRequest=cReturn
+
+[CmdButtonTestNoLogo]
+TopCaption=%9008
+SummaryInstruction=%9009
+StoreLogon=0
+HideTotal=1
+ContextToDisplay=CmDataEntryWithButtonList
+ViewType=Alpha
+;CmdButtonListX=CmdString,image,Text
+CmdButtonList1=Button1Pressed,,%9007Coffee Bag1
+CmdButtonList2=Button2Pressed,,%9007Coffee Bag2
+CmdButtonList3=Button3Pressed,,%9007PlasticBag2
+CmdButtonList4=Button4Pressed,,%9007Plastic2
+CmdButtonList5=Button5Pressed,,%9007Plastic3
+CmdButtonList6=Button6Pressed,,%9007Plastic4
+CmdButtonList7=Button7Pressed,,%9007Plate2
+CmdButtonList8=Button8Pressed,,%9007OpenBox2
+CmdButtonList9=Button9Pressed,,%9007OpenBox_2
+CmdButtonList10=Button10Pressed,,%9007Styro Container
+CmdButtonList11=Button11Pressed,,%9007StyroP Large
+CmdButtonList12=Button12Pressed,,%9007StyroP Medium
+CmdButtonList13=Button13Pressed,,%9007StyroP Medium
+CmdButtonList14=Button14Pressed,,%9007No COntainer
+CmdButtonList15=NEEDDATA_CmdButtonTestStoreMode,,CmdButtonTestStoreMode
+CmdButtonList16=NEEDDATA_CmdButtonTest,,CmdButtonTest
+CmdButtonList17=NEEDDATA_CmdListTest,,CmdListTest
+CmdButtonList17=NEEDDATA_CCmdListTestStoreMode,,CmdListTestStoreMode
+CancelRequest=cReturn
+
+[MSRTestCustomerMode]
+TopCaption=%9014
+SummaryInstruction=%9015
+StoreLogon=0
+HideTotal=1
+MSRInputEnabled=1
+
+
+[MSRTestStoreMode]
+TopCaption=%9014
+SummaryInstruction=%9015
+StoreLogon=1
+RDNLaneLeadthru=%9005
+RDNLaneMessage=%9006
+HideTotal=1
+;HideHelp=1
+ReportCategoryName=MSRTEST
+LaneButtonText=MSRTest
+LSWND1=%9007Line 1
+LSWND2=%9007Line 2
+LSWND3=%9007Line 3
+MSRInputEnabled=1
+
+[CustomerButtonTest]
+TopCaption=CustomerButtons
+SummaryInstruction=Customer mode button test.
+Button0=0,Button0
+Button1=1,Button1
+Button2=
+Button3=
+Button4=
+Button5=5,Button5
+Button6=6,Button6
+StoreLogon=0
+
+[SMDataEntryMediaListTest]
+TopCaption=Testing DataEntryMediaList
+SummaryInstruction=Testing DataEntryMediaList
+DetailedInstruction=Setting Detailed instruction in Media List
+StoreLogon=1
+HideTotal=0
+HideInput=0
+ContextToDisplay=SmDataEntryWithMediaList
+ViewType=Alpha
+;HideHelp=1
+Button0=cOk,%58
+Button7=cGoBack,%67 
+
+[CustomerButtonTestCancel]
+TopCaption=CustomerButtons
+SummaryInstruction=Customer mode button test.
+Button0=0,Button0
+Button1=1,Button1
+Button2=
+Button3=
+Button4=
+Button5=5,Button5
+Button6=6,Button6
+StoreLogon=0
+CancelRequest=0
+
+[StoreButtonTestCancel]
+TopCaption=CustomerButtons
+SummaryInstruction=Customer mode button test.
+Button0=0,Button0
+Button1=1,Button1
+Button2=
+Button3=
+Button4=
+Button5=5,Button5
+Button6=6,Button6
+StoreLogon=1
+CancelRequest=0
+
+[GiftCardAmountNeeded]
+LaneButtonText=%1248
+InputMask=9999999.99
+InputLengthMin=1
+;TopCaption=Price Prmt:
+;SummaryInstruction=Enter Price
+;Button7=cReturn,Cancel Action
+TopCaption=%1248
+SummaryInstruction=%424
+Button0=cReturn,%963
+Button7=cGoBack,%67
+ContextToDisplay=SmDataEntryNumericSmall
+CancelRequest=cReturn
+
+[TestDataNeeded]
+STORELOGON=0
+INPUTMASK=9999999999999
+INPUTLENGTHMIN=13
+SCANNERINPUTENABLED=1
+MSRINPUTENABLED=0
+TOPCAPTION=%9039
+SUMMARYINSTRUCTION=%9040
+HIDETOTAL=0
+HIDEHELP=0
+HIDEINPUT=0
+BUTTON0=cButton0,
+BUTTON1=cButton1,
+BUTTON2=cButton2,
+BUTTON3=cButton3,
+BUTTON4=cButton4,
+BUTTON5=cButton5,
+BUTTON6=cButton6,
+BUTTON7=cReturn,%75
+CONTEXTTODISPLAY= SmDataEntryNumericSmallWW
+SCANNERDATAFORMAT=0
+
+[GenericDelayed1]
+MESSAGESCREENTITLE=%655
+MESSAGESCREENTEXT=%1894 \n\nGenericDelayed1
+MESSAGESCREENITEMNEEDCANCEL=1
+MESSAGESCREENGOBACKSCANANDBAG=1
+MESSAGESCREENWAVEFILE=SetItemAsideContinueWithPurchases.wma
+LaneButtonText=Generic 1
+DefaultCmdString=HandleGenericDelayed01
+ID=TB01
+InterventionInstruction=Generic Delayed 01
+CONTEXTTODISPLAY=SmDataEntrySmall
+TOPCAPTION=Generic Delayed 1
+SUMMARYINSTRUCTION=Please Wait
+ReportCategoryName=DelayedGen1
+TRILIGHTCOLOR=3
+TRILIGHTSTATE=4
+;For DataNeeded Transactions, it was configured by "HandlingContext" property. Below are the 3 values to use. 
+;If "HandlingContext" is not configured, the intervention can be approved in all RAPs. 
+;SMDataEntryGoToLane
+;SMDataEntryGoToLaneOrRap
+;SMDataEntryGoToLaneOrHHRap
+;HandlingContext=SMDataEntryGoToLaneOrHHRap
+
+[GenericDelayed2]
+MESSAGESCREENTITLE=%655
+MESSAGESCREENTEXT=%1894 \n\n<GenericDelayed2>
+MESSAGESCREENITEMNEEDCANCEL=1
+MESSAGESCREENGOBACKSCANANDBAG=1
+MESSAGESCREENWAVEFILE=SetItemAsideContinueWithPurchases.wma
+LaneButtonText=Generic 2
+DefaultCmdString=HandleGenericDelayed02
+ID=TB02
+InterventionInstruction=Generic Delayed 02
+CONTEXTTODISPLAY=SmDataEntrySmall
+TOPCAPTION=Generic Delayed 2
+SUMMARYINSTRUCTION=Please Wait
+ReportCategoryName=DelayedGen2
+;For DataNeeded Transactions, it was configured by "HandlingContext" property. Below are the 3 values to use. 
+;If "HandlingContext" is not configured, the intervention can be approved in all RAPs.
+;SMDataEntryGoToLane
+;SMDataEntryGoToLaneOrRap
+;SMDataEntryGoToLaneOrHHRap
+;HandlingContext=SMDataEntryGoToLaneOrRap
+
+
+[GDAsync1]
+MESSAGESCREENTITLE=%655
+MESSAGESCREENTEXT=%1894 \n\nGenericDelayedAsync
+MESSAGESCREENITEMNEEDCANCEL=1
+MESSAGESCREENGOBACKSCANANDBAG=1
+LaneButtonText=GDAsync1
+TopCaption=Generic Async 1
+SummaryInstruction=Generic Delayed Async.  Press Yes or No to clear.
+Button0=cYes,%62
+Button1=cNo,%63
+StoreLogon=1
+HideTotal=1
+DataHandler=TBAsync
+ID=TB05
+InterventionInstruction=GDAsync1
+ReportCategoryName=GDAsync1
+CONTEXTTODISPLAY=SmDataEntrySmall
+RAPLITEHandling=1
+;HideHelp=1
+
+[GDAsync2]
+;MESSAGESCREENTITLE=%655
+;MESSAGESCREENTEXT=%1894 \n\nGenericDelayedAsync
+MESSAGESCREENITEMNEEDCANCEL=1
+MESSAGESCREENGOBACKSCANANDBAG=1
+LaneButtonText=GDAsync2
+TopCaption=Generic Async 2
+SummaryInstruction=Generic Delayed Async No TB message.  Press Yes or No to clear.
+Button0=cYes,%62
+Button1=cNo,%63
+StoreLogon=1
+HideTotal=1
+DataHandler=SomeOtherHandler
+ID=TB05
+InterventionInstruction=GDAsync2
+ReportCategoryName=GDAsync2
+CONTEXTTODISPLAY=SmDataEntrySmall
+RAPLITEHandling=1
+;HideHelp=1
+
+[GenericDelayedProcessing]
+CONTEXTTODISPLAY=AM_Processing
+
+[ScannerEnabledTestCM]
+TopCaption=Scanner Enable Test
+SummaryInstruction=Scan a Barcode.
+DetailedInstruction=Start scanning a barcode.
+StoreLogon=0
+;Button0=1,%62
+;Button1=2,%63
+HideHelp=0
+Button7=cGoBack, %67
+ScannerInputEnabled=1
+
+[ScannerEnabledTestSM]
+TopCaption=Scanner Enabled Store Mode Test
+SummaryInstruction=Scan a Barcode.
+DetailedInstruction=Start scanning a barcode.
+StoreLogon=1
+HideHelp=0
+HideTotal=1
+Button7=cGoBack, %67
+ScannerInputEnabled=1
+
+[CmPrePayFuel]
+TopCaption=%9223
+SummaryInstruction=%9224
+ViewType=Alpha
+StoreLogon=0
+HideTotal=1
+HideHelp=0
+SayPhrase=blank.wav
+Button7=cGoBack,%67
+ContextToDisplay=CmPrePayFuel
+
+[CmPrePayFuelAmount]
+TopCaption=%9225
+ViewType=Alpha
+StoreLogon=0
+HideTotal=1
+HideHelp=0
+SayPhrase=blank.wav
+Button7=cGoBack,%67
+ContextToDisplay=CmPrePayFuelAmount
+CmdButtonList1=PUMP_500,10x7_Gpx_CategoryLabel.png,$5
+CmdButtonList2=PUMP_1000,10x7_Gpx_CategoryLabel.png,$10
+CmdButtonList3=PUMP_1500,10x7_Gpx_CategoryLabel.png,$15
+CmdButtonList4=PUMP_2000,10x7_Gpx_CategoryLabel.png,$20
+CmdButtonList5=PUMP_2500,10x7_Gpx_CategoryLabel.png,$25
+CmdButtonList6=PUMP_4000,10x7_Gpx_CategoryLabel.png,$40
+CmdButtonList7=PUMP_5000,10x7_Gpx_CategoryLabel.png,$50
+CmdButtonList8=PUMP,10x7_Gpx_CategoryLabel.png,%9200
+
+[SmPrePayFuel]
+TopCaption=%9225
+SummaryInstruction=%9224
+ViewType=Alpha
+StoreLogon=1
+HideTotal=1
+HideHelp=0
+SayPhrase=blank.wav
+ContextToDisplay=SmPrePayFuel
+
+[SmPrePayFuelAmount]
+TopCaption=%9225
+;SummaryInstruction=Select amount to pre-pay for fuel at Pump %s.
+ViewType=Alpha
+StoreLogon=1
+HideTotal=1
+HideHelp=0
+SayPhrase=blank.wav
+ContextToDisplay=SmPrePayFuelAmount
+CmdButtonList1=PUMP_500,10x7_Gpx_CategoryLabel.png,$5
+CmdButtonList2=PUMP_1000,10x7_Gpx_CategoryLabel.png,$10
+CmdButtonList3=PUMP_1500,10x7_Gpx_CategoryLabel.png,$15
+CmdButtonList4=PUMP_2000,10x7_Gpx_CategoryLabel.png,$20
+CmdButtonList5=PUMP_2500,10x7_Gpx_CategoryLabel.png,$25
+CmdButtonList6=PUMP_4000,10x7_Gpx_CategoryLabel.png,$40
+CmdButtonList7=PUMP_5000,10x7_Gpx_CategoryLabel.png,$50
+CmdButtonList8=PUMP,10x7_Gpx_CategoryLabel.png,%9200
+
+[CmLottery]
+TopCaption=%9228
+SummaryInstruction=%9229
+ViewType=Alpha
+StoreLogon=0
+HideTotal=1
+HideHelp=0
+SayPhrase=blank.wav
+Button7=cGoBack,%67
+ContextToDisplay=CmLottery
+
+[CmLotteryQty]
+TopCaption=%9242
+SummaryInstruction=%9243
+ViewType=Alpha
+StoreLogon=0
+HideTotal=1
+HideHelp=0
+SayPhrase=blank.wav
+NumericP4=LOTTERY_QTY,%67
+Button7=cGoBack,%67
+ContextToDisplay=EnterQuantity
+
+[CmLotteryAutoPickConfirm]
+TopCaption=%9244
+InstructionTextArea=%9245
+ViewType=Alpha
+StoreLogon=0
+HideTotal=1
+HideHelp=0
+SayPhrase=blank.wav
+CMButton1Med=LOTTERY_CONFIRM_AUTOPICK,%58
+Button7=cGoBack,%67
+ContextToDisplay=CmLotteryAutoPickConfirm
+
+[CmLotterySurvey]
+TopCaption=%9254
+SummaryInstruction=%9256
+ViewType=Alpha
+StoreLogon=0
+HideTotal=1
+HideHelp=1
+SayPhrase=blank.wav
+ContextToDisplay=CmLotterySurvey

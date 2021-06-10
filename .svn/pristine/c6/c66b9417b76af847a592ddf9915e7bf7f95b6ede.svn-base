@@ -1,0 +1,48 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\Software\NCR\LaunchPadNet]
+
+[HKEY_LOCAL_MACHINE\Software\NCR\LaunchPadNet\DataCapture]
+"DcapMask"="FF -> Hex mask of events to capture"
+"DcapFileMax" = "5120 -> Max KB of data cap file"
+
+[HKEY_LOCAL_MACHINE\Software\NCR\RapNet]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\RapNet\DataCapture]
+"DcapMask"="FF -> Hex mask of events to capture"
+"DcapFileMax"="5120 -> Max KB of data cap file"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\NCRDisplayEngine\Log]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\NCRDisplayEngine\Log\LaunchPadNet.exe]
+"LogFile"="C:\\\\scot\\\\logs\\\\NCRDisplayEngine_LaunchPadNet.log"
+"DebugLevel"=dword:000000fe
+"LogMaxSize"=dword:00000200
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\NCRDisplayEngine\Log\RapNet.exe]
+"LogFile"="C:\\\\scot\\\\logs\\\\NCRDisplayEngine_RapNet.log"
+"DebugLevel"=dword:000000fe
+"LogMaxSize"=dword:00000200
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\NCRDisplayEngine\Log\SCOTAPPU.exe]
+"LogFile"="C:\\\\scot\\\\logs\\\\NCRDisplayEngine_SCOTAPPU.log"
+"DebugLevel"=dword:000000fe
+"LogMaxSize"=dword:00000200
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\UIControls\Log]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\UIControls\Log\LaunchPadNet.exe]
+"LogFile"="C:\\\\scot\\\\logs\\\\UIControls_LaunchPadNet.log"
+"DebugLevel"=dword:000000fe
+"LogMaxSize"=dword:00001000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\UIControls\Log\RapNet.exe]
+"LogFile"="C:\\\\scot\\\\logs\\\\UIControls_RapNet.log"
+"DebugLevel"=dword:000000fe
+"LogMaxSize"=dword:00001000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\UIControls\Log\SCOTAPPU.exe]
+"LogFile"="C:\\\\scot\\\\logs\\\\UIControls_SCOTAPPU.log"
+"DebugLevel"=dword:000000f6
+"LogMaxSize"=dword:00001000
+

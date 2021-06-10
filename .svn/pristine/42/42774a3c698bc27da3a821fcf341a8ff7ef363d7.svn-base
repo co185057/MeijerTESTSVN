@@ -1,0 +1,448 @@
+<Display Version="1.2">
+  <Fonts>
+    <Font Name="TRUAMFont">
+      <Face>Lucida Sans Unicode</Face>
+      <Size>10</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TRUAMTitleFont">
+      <Face>Lucida Sans Unicode</Face>
+      <Size>16</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TRUAMEchoBoxFont">
+      <Face>Courier New</Face>
+      <Size>12</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TRUAmount1Font">
+      <Face>Courier</Face>
+      <Size>12</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TRUAmount2Font">
+      <Face>Courier New</Face>
+      <Size>14</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TRUTotalAmountFont">
+      <Face>Courier New</Face>
+      <Size>18</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TRUMessageFont">
+      <Face>Arial</Face>
+      <Size>12</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TRUReceipt">
+      <Face>Courier New</Face>
+      <Size>11</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+  </Fonts>
+  <Controls>
+    <Control Name="Key27" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">592,171,191,421</Property>
+        <Property Name="ButtonHorizontalSpacing">3</Property>
+        <Property Name="ButtonVerticalSpacing">3</Property>
+        <Property Name="ButtonHeight">50</Property>
+        <Property Name="ButtonWidth">191</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">TRUAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\T R U\8x6-bttn_191X50.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">8</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key16" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">325,206,186,216</Property>
+        <Property Name="ButtonHorizontalSpacing">4</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">51</Property>
+        <Property Name="ButtonWidth">91</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">TRUAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\T R U\8x6-bttn_91X51.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">8</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key25" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">419,430,91,106</Property>
+        <Property Name="ButtonHorizontalSpacing">4</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">51</Property>
+        <Property Name="ButtonWidth">91</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">TRUAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\T R U\8x6-bttn_91X51.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">2</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key1" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">106,206,106,106</Property>
+        <Property Name="ButtonHorizontalSpacing">4</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">51</Property>
+        <Property Name="ButtonWidth">91</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">TRUAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\T R U\8x6-bttn_91X51.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">4</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key5" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">107,315,185,164</Property>
+        <Property Name="ButtonHorizontalSpacing">4</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">52</Property>
+        <Property Name="ButtonWidth">59</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">TRUAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\T R U\8x6-bttn_59X52.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">9</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key24" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">325,429,90,108</Property>
+        <Property Name="ButtonHorizontalSpacing">4</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">108</Property>
+        <Property Name="ButtonWidth">90</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">TRUAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\T R U\8x6-bttn_90X108.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key15" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">232,484,59,52</Property>
+        <Property Name="ButtonHorizontalSpacing">4</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">52</Property>
+        <Property Name="ButtonWidth">59</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">TRUAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\T R U\8x6-bttn_59X52.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key14" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">106,485,120,54</Property>
+        <Property Name="ButtonHorizontalSpacing">4</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">54</Property>
+        <Property Name="ButtonWidth">120</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">TRUAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\T R U\8x6-bttn_120X54.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Title3" Type="Static">
+      <Properties>
+        <Property Name="Position">11,78,537,34</Property>
+        <Property Name="Font">TRUAMFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="AMTotalAmount" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Position">88,557,489,32</Property>
+        <Property Name="Font">TRUTotalAmountFont</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="ErrorMessage" Type="Static">
+      <Properties>
+        <Property Name="Position">43,196,477,107</Property>
+        <Property Name="Font">TRUMessageFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="DataList" Type="Receipt">
+      <Properties>
+        <Property Name="Position">119,180,459,340</Property>
+        <Property Name="Font">TRUReceipt</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="SelectionFont">TRUReceipt</Property>
+        <Property Name="Z-Order">5</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="DataSource">DataList</Data>
+        <Data Name="ItemType1">ITEM_SMTEXT</Data>
+        <Data Name="ItemType1StringID">1100</Data>
+      </CustomData>
+      <Columns>
+        <Column Alignment="0" Width="459" />
+      </Columns>
+    </Control>
+    <Control Name="ReceiptList" Type="Receipt">
+      <Properties>
+        <Property Name="Position">85,180,496,292</Property>
+        <Property Name="Font">TRUReceipt</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="SelectionFont">TRUReceipt</Property>
+        <Property Name="Z-Order">5</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="DataSource">ReceiptList</Data>
+        <Data Name="ItemType1">ITEM_SMTEXT</Data>
+        <Data Name="ItemType1StringID">1100</Data>
+      </CustomData>
+      <Columns>
+        <Column Alignment="0" Width="496" />
+      </Columns>
+    </Control>
+  </Controls>
+  <Contexts>
+    <Context Name="TRUDATA">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\T R U\8X6_ToysRUs_DataEntry.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title">
+          <Properties>
+            <Property Name="Position">11,11,537,38</Property>
+            <Property Name="Font">TRUAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title2">
+          <Properties>
+            <Property Name="Position">11,47,537,31</Property>
+            <Property Name="Font">TRUAMFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title3" />
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">266,125,287,29</Property>
+            <Property Name="Font">TRUAMEchoBoxFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Prompt">
+          <Properties>
+            <Property Name="Position">13,125,237,29</Property>
+            <Property Name="Font">TRUAMFont</Property>
+            <Property Name="TextAlignment">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="Key27" />
+        <Control Name="SMReceiptScrollUp">
+          <Properties>
+            <Property Name="Position">34,229,67,70</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+          <Properties>
+            <Property Name="Position">34,339,67,72</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1" />
+        <Control Name="SMButton2" />
+        <Control Name="DataList" />
+      </Include>
+    </Context>
+    <Context Name="TRUKEY">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\T R U\8X6_ToysRUs_Keys.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title">
+          <Properties>
+            <Property Name="Position">11,11,537,38</Property>
+            <Property Name="Font">TRUAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title2">
+          <Properties>
+            <Property Name="Position">11,47,537,31</Property>
+            <Property Name="Font">TRUAMFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title3" />
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">266,125,287,29</Property>
+            <Property Name="Font">TRUAMEchoBoxFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Prompt">
+          <Properties>
+            <Property Name="Position">13,125,237,29</Property>
+            <Property Name="Font">TRUAMFont</Property>
+            <Property Name="TextAlignment">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="Key27" />
+        <Control Name="Key16" />
+        <Control Name="Key25" />
+        <Control Name="Key1" />
+        <Control Name="Key5" />
+        <Control Name="Key24" />
+        <Control Name="Key15" />
+        <Control Name="Key14" />
+        <Control Name="SMButton1" />
+        <Control Name="SMButton2" />
+      </Include>
+    </Context>
+    <Context Name="TRURECEIPT">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\T R U\8X6_ToysRUs_Receipt.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title">
+          <Properties>
+            <Property Name="Position">11,11,537,38</Property>
+            <Property Name="Font">TRUAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title2">
+          <Properties>
+            <Property Name="Position">11,47,537,31</Property>
+            <Property Name="Font">TRUAMFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title3" />
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">266,125,287,29</Property>
+            <Property Name="Font">TRUAMEchoBoxFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Prompt">
+          <Properties>
+            <Property Name="Position">13,125,237,29</Property>
+            <Property Name="Font">TRUAMFont</Property>
+            <Property Name="TextAlignment">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="Key27" />
+        <Control Name="SMReceiptScrollUp">
+          <Properties>
+            <Property Name="Position">16,224,67,70</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+          <Properties>
+            <Property Name="Position">16,365,67,72</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1" />
+        <Control Name="SMButton2" />
+        <Control Name="ReceiptList" />
+        <Control Name="Amount1">
+          <Properties>
+            <Property Name="Position">88,495,487,29</Property>
+            <Property Name="Font">TRUAmount1Font</Property>
+            <Property Name="TextColor">CMTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="Amount2">
+          <Properties>
+            <Property Name="Position">88,526,487,29</Property>
+            <Property Name="Font">TRUAmount2Font</Property>
+            <Property Name="TextColor">CMTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="AMTotalAmount" />
+      </Include>
+    </Context>
+    <Context Name="TRUERROR">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\T R U\8X6_ToysRUs_Error.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title">
+          <Properties>
+            <Property Name="Position">11,11,537,38</Property>
+            <Property Name="Font">TRUAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title2">
+          <Properties>
+            <Property Name="Position">11,47,537,31</Property>
+            <Property Name="Font">TRUAMFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title3" />
+        <Control Name="Key27" />
+        <Control Name="Key1">
+          <Properties>
+            <Property Name="Position">206,350,149,65</Property>
+            <Property Name="Font">TRUAMFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextFormat">Help</Property>
+            <Property Name="Picture">f:\ui\image\InfoBtnHelp.bmp</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="TextFormat">Start</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton2">
+          <Properties>
+            <Property Name="TextFormat">Start</Property>
+          </Properties>
+        </Control>
+        <Control Name="ErrorMessage" />
+      </Include>
+    </Context>
+  </Contexts>
+</Display>

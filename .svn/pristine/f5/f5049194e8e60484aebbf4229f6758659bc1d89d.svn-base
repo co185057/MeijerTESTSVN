@@ -1,0 +1,1227 @@
+<Display Version="1.0">
+<!--                                                                                -->
+<!-- CHANGE HISTORY:                                                                -->
+<!-- POS97562 WORK REQUEST:76936 Name: Alex Bronola Date: Sept. 23, 2016  -->
+<!-- POS82549 WORK REQUEST:59313 Name: Robert Susanto Date: November 21, 2014  -->
+<!-- POS61973 WORK REQUEST:54416 Name: Robert Susanto Date: April 26, 2013  -->
+<!-- POS30981/POS31054 WORK REQUEST:50864 Name: Robert Susanto Date: June 28, 2012  -->
+<!-- POS26385 Work Request:16656 Name:Matt Condra    Date:January 17 2012           -->
+<!--                                                                                -->
+    <Includes>
+        <!-- FULL ASSISTMODE XML -->
+        <Include File="%ConfigPath%\ACSAssistMode.xml" />
+        <Include File="%ConfigPath%\HHACSAssistModeSpecific.xml" />
+    </Includes>
+    <CustomData>
+        <Data Name="TransactionVariable14Synchronize">False</Data>
+        <Data Name="ReceiptDataSource1Synchronize">False</Data>
+        <Data Name="ReceiptDataSource2Synchronize">False</Data>
+        <Data Name="TransactionVariable25Synchronize">True</Data>        
+    </CustomData>
+
+
+    <Controls>
+	<Control Name="CMReceiptVoid" Type="Receipt">
+      <Properties>
+        <Property Name="Position">63,218,437,82</Property>
+        <Property Name="FillStyle">1</Property>
+        <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="SelectionFont">SecondaryLaneButtonTextFont</Property>
+        <Property Name="SelectionBackgroundColor">Gray</Property>
+        <Property Name="SelectionForegroundColor">White</Property>
+        <Property Name="Z-Order">3</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="DataSource">CMSMReceipt</Data>
+        <Data Name="ItemType1">ITEM_DESCRIPTION,ITEM_EXT_PRICE</Data>
+        <!-- SSCOI-44478 changed AMReceiptItemType1 to LaneReceiptItemType1 Data Name="ItemType1StringID">$AMReceiptItemType1$</Data-->
+        <Data Name="ItemType1StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType2">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_VOID</Data>
+        <Data Name="ItemType2Font">AMReceiptFontVoid</Data>
+        <Data Name="ItemType2Color">DarkGray</Data>
+        <Data Name="ItemType2Selectable">True</Data>
+        <!--SSCOI-44478
+				Data Name="ItemType2StringID">$AMReceiptItemType1$</Data-->
+		<Data Name="ItemType2StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType3">ITEM_MSG</Data>
+        <Data Name="ItemType3StringID">$LaneReceiptItemType2$</Data>
+        <Data Name="ItemType3Selectable">False</Data>
+        <Data Name="ItemType3Color">Red</Data>
+        <Data Name="ItemType3Wrap">True</Data>
+        <Data Name="ItemType4">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType4Font">AMReceiptFont</Data>
+        <Data Name="ItemType4Color">Blue</Data>
+        <Data Name="ItemType4StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType5">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType5Font">AMReceiptFontVoid</Data>
+        <Data Name="ItemType5Color">DarkGray</Data>
+        <Data Name="ItemType5Selectable">True</Data>
+        <!--SSCOI-44478
+				Data Name="ItemType5StringID">$AMReceiptItemType1$</Data-->
+				<Data Name="ItemType5StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType6">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_REWARD</Data>
+        <Data Name="ItemType6Font">ReceiptFont</Data>
+        <Data Name="ItemType6Selectable">False</Data>
+        <Data Name="ItemType6StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType6Wrap">True</Data>
+        <Data Name="ItemType7">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT</Data>
+        <Data Name="ItemType7StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType8">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT</Data>
+        <Data Name="ItemType8StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType9">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType9Font">ReceiptFont</Data>
+        <Data Name="ItemType9Color">Blue</Data>
+        <Data Name="ItemType9StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType10">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType10Font">ReceiptFont</Data>
+        <Data Name="ItemType10Color">Blue</Data>
+        <Data Name="ItemType10StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType11">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOID</Data>
+        <Data Name="ItemType11Font">AMReceiptFontVoid</Data>
+        <Data Name="ItemType11Color">DarkGray</Data>
+        <Data Name="ItemType11Selectable">True</Data>
+        <Data Name="ItemType11StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType12">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOID</Data>
+        <Data Name="ItemType12Font">AMReceiptFontVoid</Data>
+        <Data Name="ItemType12Color">DarkGray</Data>
+        <Data Name="ItemType12Selectable">True</Data>
+        <Data Name="ItemType12StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType13">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType13Font">AMReceiptFontVoid</Data>
+        <Data Name="ItemType13Color">DarkGray</Data>
+        <Data Name="ItemType13Selectable">True</Data>
+        <Data Name="ItemType13StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType14">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType14Font">AMReceiptFontVoid</Data>
+        <Data Name="ItemType14Color">DarkGray</Data>
+        <Data Name="ItemType14Selectable">True</Data>
+        <Data Name="ItemType14StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType15">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT</Data>
+        <Data Name="ItemType15StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType16">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT</Data>
+        <Data Name="ItemType16StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType17">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType17Font">ReceiptFont</Data>
+        <Data Name="ItemType17Color">Blue</Data>
+        <Data Name="ItemType17StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType18">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType18Font">ReceiptFont</Data>
+        <Data Name="ItemType18Color">Blue</Data>
+        <Data Name="ItemType18StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType19">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOID</Data>
+        <Data Name="ItemType19Font">AMReceiptFontVoid</Data>
+        <Data Name="ItemType19Color">DarkGray</Data>
+        <Data Name="ItemType19Selectable">True</Data>
+        <Data Name="ItemType19StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType20">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_VOID</Data>
+        <Data Name="ItemType20Font">AMReceiptFontVoid</Data>
+        <Data Name="ItemType20Color">DarkGray</Data>
+        <Data Name="ItemType20Selectable">True</Data>
+        <Data Name="ItemType20StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType21">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType21Font">AMReceiptFontVoid</Data>
+        <Data Name="ItemType21Color">DarkGray</Data>
+        <Data Name="ItemType21Selectable">True</Data>
+        <Data Name="ItemType21StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType22">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType22Font">AMReceiptFontVoid</Data>
+        <Data Name="ItemType22Color">DarkGray</Data>
+        <Data Name="ItemType22Selectable">True</Data>
+        <Data Name="ItemType22StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType23">ITEM_DESCRIPTION</Data>
+        <Data Name="ItemType23StringID">$LaneReceiptItemType2$</Data>
+        <Data Name="ItemType23Selectable">False</Data>
+        <Data Name="ItemType24">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType24Font">ReceiptFont</Data>
+        <Data Name="ItemType24Selectable">False</Data>
+        <!--SSCOI-44478
+				Data Name="ItemType24StringID">$AMReceiptItemType1$</Data-->
+		<Data Name="ItemType24StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType25">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_RESTRICTED,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType25Selectable">False</Data>
+        <!--SSCOI-44478
+				Data Name="ItemType25StringID">$AMReceiptItemType1$</Data-->
+		<Data Name="ItemType25StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType26">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType26Selectable">False</Data>
+        <Data Name="ItemType26StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType27">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType27Selectable">False</Data>
+        <Data Name="ItemType27StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType28">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType28Color">Blue</Data>
+        <Data Name="ItemType28Selectable">False</Data>
+        <Data Name="ItemType28StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType29">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType29Color">Blue</Data>
+        <Data Name="ItemType29Selectable">False</Data>
+        <Data Name="ItemType29StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType30">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType30Selectable">False</Data>
+        <Data Name="ItemType30StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType31">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType31Selectable">False</Data>
+        <Data Name="ItemType31StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType32">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType32Color">Blue</Data>
+        <Data Name="ItemType32Selectable">False</Data>
+        <Data Name="ItemType32StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType33">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType33Color">Blue</Data>
+        <Data Name="ItemType33Selectable">False</Data>
+        <Data Name="ItemType33StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType34">ITEM_DESCRIPTION,ITEM_REWARD</Data>
+        <Data Name="ItemType34Font">ReceiptFont</Data>
+        <Data Name="ItemType34Selectable">False</Data>
+        <Data Name="ItemType34StringID">$LaneReceiptItemType2$</Data>
+        <Data Name="ItemType34Wrap">True</Data>
+        <Data Name="ItemType35">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_REWARD,ITEM_VOID</Data>
+        <Data Name="ItemType35Font">AMReceiptFontVoid</Data>
+        <Data Name="ItemType35Color">DarkGray</Data>
+        <Data Name="ItemType35Selectable">True</Data>
+        <!--SSCOI-44478
+				Data Name="ItemType35StringID">$AMReceiptItemType1$</Data-->
+		<Data Name="ItemType35StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType35Wrap">True</Data>
+        <Data Name="ItemType36">SUB_ITEM_DESCRIPTION</Data>
+        <Data Name="ItemType36StringID">$LaneReceiptItemType36$</Data>
+        <Data Name="ItemType36Selectable">False</Data>
+        <Data Name="ItemType37">ITEM_MSG,ITEM_DESCRIPTION</Data>
+        <Data Name="ItemType37Font">AMReceiptFont</Data>
+        <Data Name="ItemType37StringID">$LaneReceiptItemType2$</Data>
+        <Data Name="ItemType37Selectable">True</Data>
+        <Data Name="ItemType37Color">Red</Data>
+        <Data Name="ItemType37Wrap">True</Data>
+        <Data Name="ItemType38">ITEM_MSG,ITEM_DESCRIPTION,ITEM_VOID</Data>
+        <Data Name="ItemType38Font">AMReceiptFontVoid</Data>
+        <Data Name="ItemType38StringID">$LaneReceiptItemType2$</Data>
+        <Data Name="ItemType38Selectable">True</Data>
+        <Data Name="ItemType38Color">DarkGray</Data>
+        <Data Name="ItemType38Wrap">True</Data>
+      </CustomData>
+      <Columns>
+        <Column Alignment="0" Width="337" />
+        <Column Alignment="2" Width="100" />
+      </Columns>
+    </Control>
+        <Control Name="LaneReceipt">
+            <CustomData>
+                <!-- item -->
+                <!-- msg item -->
+                <Data Name="ItemType38">ITEM_MSG,ITEM_DESCRIPTION</Data>
+                <Data Name="ItemType38StringID">$LaneReceiptItemType2$</Data>
+                <Data Name="ItemType38Selectable">True</Data>
+                <Data Name="ItemType38Color">Red</Data>
+                <Data Name="ItemType38Wrap">True</Data>
+                <!-- void msg item -->
+                <Data Name="ItemType39">ITEM_MSG,ITEM_DESCRIPTION,,ITEM_VOID</Data>
+                <Data Name="ItemType39Font">ReceiptFontVoid</Data>
+                <Data Name="ItemType39Color">DarkGray</Data>
+                <Data Name="ItemType39Selectable">False</Data>
+                <Data Name="ItemType39StringID">$LaneReceiptItemType2$</Data>
+                <Data Name="ItemType39Wrap">True</Data>
+                <!-- Sub item description -->
+                <Data Name="ItemType40">SUB_ITEM_DESCRIPTION</Data>
+                <Data Name="ItemType40Selectable">False</Data>
+            </CustomData>
+        </Control>
+<!-- POS26385: Remove AssistReceipt control so that TMD selectable line will appear on RAP's full assist mode screen. -->
+        <Control Name="NoSaleButton" Type="Button">
+            <Properties>
+                <Property Name="Position">392,9,108,63</Property>
+                <Property Name="Font">LaneStatusFont</Property>
+                <Property Name="TextColor">Black</Property>
+                <Property Name="TextFormat">$NoSaleButtonText$</Property>
+                <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+                <Property Name="TextPosition">7,7,100,49</Property>
+                <Property Name="Picture">%MediaPath%\10x7-btn_toprow_lane-lg.png</Property>
+                <Property Name="ClickMove">3</Property>
+                <Property Name="Z-Order">2</Property>
+            </Properties>
+        </Control>
+        <Control Name="SMReceipt" Type="Receipt">
+            <CustomData>
+                <!-- msg item -->
+                <Data Name="ItemType38">ITEM_MSG,ITEM_DESCRIPTION</Data>
+                <Data Name="ItemType38StringID">$LaneReceiptItemType2$</Data>
+                <Data Name="ItemType38Selectable">True</Data>
+                <Data Name="ItemType38Color">Red</Data>
+                <Data Name="ItemType38Wrap">True</Data>
+                <!-- void msg item -->
+                <Data Name="ItemType39">ITEM_MSG,ITEM_DESCRIPTION,,ITEM_VOID</Data>
+                <Data Name="ItemType39Font">ReceiptFontVoid</Data>
+                <Data Name="ItemType39Color">DarkGray</Data>
+                <Data Name="ItemType39Selectable">False</Data>
+                <Data Name="ItemType39StringID">$LaneReceiptItemType2$</Data>
+                <Data Name="ItemType39Wrap">True</Data>
+                <!-- Sub item description -->
+                <Data Name="ItemType40">SUB_ITEM_DESCRIPTION</Data>
+                <Data Name="ItemType40Selectable">False</Data>
+            </CustomData>
+        </Control>
+        <Control Name="LaneReceiptLineBackground" Type="Static">
+            <Properties>
+                <Property Name="Position">5,300,503,41</Property>
+                <Property Name="BackgroundColor">Gray</Property>
+            </Properties>
+        </Control>
+        <Control Name="SMReceiptVoidRestrictedItem" Type="Receipt">
+          <Properties>
+            <Property Name="Position">63,218,437,82</Property>
+            <Property Name="FillStyle">0</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="SelectionFont">SecondaryLaneButtonTextFont</Property>
+            <Property Name="SelectionBackgroundColor">Gray</Property>
+            <Property Name="SelectionForegroundColor">White</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="DataSource">SMReceiptVoidRestrictedItem</Data>
+            <Data Name="ItemType1">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_RESTRICTED</Data>
+            <Data Name="ItemType1Font">ReceiptFont</Data>
+            <Data Name="ItemType1Color">Blue</Data>
+            <Data Name="ItemType1StringID">$LaneReceiptItemType1$</Data>
+            <Data Name="ItemType2">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_RESTRICTED,ITEM_VOID</Data>
+            <Data Name="ItemType2Font">ReceiptFontVoid</Data>
+            <Data Name="ItemType2Color">DarkGray</Data>
+            <Data Name="ItemType2Selectable">False</Data>
+            <Data Name="ItemType2StringID">$LaneReceiptItemType1$</Data>
+            <Data Name="ItemType3">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+            <Data Name="ItemType3Font">ReceiptFont</Data>
+            <Data Name="ItemType3Color">Blue</Data>
+            <Data Name="ItemType3StringID">$LaneReceiptItemType3$</Data>
+            <Data Name="ItemType4">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+            <Data Name="ItemType4Font">ReceiptFont</Data>
+            <Data Name="ItemType4Color">Blue</Data>
+            <Data Name="ItemType4StringID">$LaneReceiptItemType4$</Data>
+            <Data Name="ItemType5">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+            <Data Name="ItemType5Font">ReceiptFontVoid</Data>
+            <Data Name="ItemType5Color">DarkGray</Data>
+            <Data Name="ItemType5Selectable">False</Data>
+            <Data Name="ItemType5StringID">$LaneReceiptItemType3$</Data>
+            <Data Name="ItemType6">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+            <Data Name="ItemType6Font">ReceiptFontVoid</Data>
+            <Data Name="ItemType6Color">DarkGray</Data>
+            <Data Name="ItemType6Selectable">False</Data>
+            <Data Name="ItemType6StringID">$LaneReceiptItemType4$</Data>
+            <Data Name="ItemType7">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+            <Data Name="ItemType7Font">ReceiptFont</Data>
+            <Data Name="ItemType7Color">Blue</Data>
+            <Data Name="ItemType7StringID">$LaneReceiptItemType5$</Data>
+            <Data Name="ItemType8">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+            <Data Name="ItemType8Font">ReceiptFont</Data>
+            <Data Name="ItemType8Color">Blue</Data>
+            <Data Name="ItemType8StringID">$LaneReceiptItemType6$</Data>
+            <Data Name="ItemType9">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+            <Data Name="ItemType9Font">ReceiptFontVoid</Data>
+            <Data Name="ItemType9Color">DarkGray</Data>
+            <Data Name="ItemType9Selectable">False</Data>
+            <Data Name="ItemType9StringID">$LaneReceiptItemType5$</Data>
+            <Data Name="ItemType10">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+            <Data Name="ItemType10Font">ReceiptFontVoid</Data>
+            <Data Name="ItemType10Color">DarkGray</Data>
+            <Data Name="ItemType10Selectable">False</Data>
+            <Data Name="ItemType10StringID">$LaneReceiptItemType6$</Data>
+          </CustomData>
+          <Columns>
+            <Column Alignment="0" Width="337" />
+            <Column Alignment="2" Width="100" />
+          </Columns>
+        </Control>
+
+<!-- POS31054 Adding red bar area on the rap e-receipt rrs -->
+        <Control Name="LaneMobileStateBackground" Type="Static">
+	      <Properties>
+        		<Property Name="Position">30,79,450,24</Property>
+		        <Property Name="BackgroundColor">Red</Property>
+		        <Property Name="Z-Order">4</Property>
+			<Property Name="Visible">False</Property>
+	      </Properties>
+    	</Control>
+	<Control Name="LaneMobileStateWindow" Type="Static">
+	      <Properties>
+        		<Property Name="Position">30,79,450,22</Property>
+		        <Property Name="Font">MainButtonFont</Property>
+		        <Property Name="TextColor">White</Property>
+		        <!-- <Property Name="TextFormat">$MobileLaneState$</Property> -->
+				<Property Name="TextFormat">%s</Property>
+		        <Property Name="TextAlignment">1</Property>
+		        <Property Name="Z-Order">5</Property>
+			<Property Name="Visible">False</Property>
+	      </Properties>
+	</Control>
+<!-- e POS31054 rrs -->
+
+<!-- POS61973 rrs -->
+    <Control Name="CMButton1" Type="Button">
+      <Properties>
+        <Property Name="Position">386,83,110,58</Property>
+        <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="TextPosition">4,1,106,52</Property>
+        <Property Name="Picture">%MediaPath%\10x7-btn_intervention.png</Property>
+        <Property Name="Z-Order">4</Property>
+      </Properties>
+    </Control>
+<!-- e POS61973 rrs -->
+
+<!-- POS82549 -->
+    <Control Name="CMButton1Lg" Type="Button">
+      <Properties>
+        <Property Name="Position">380,83,125,58</Property>
+        <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="TextPosition">4,1,125,52</Property>
+        <Property Name="Picture">%MediaPath%\10x7-btn_intervention.png</Property>
+        <Property Name="Z-Order">4</Property>
+      </Properties>
+    </Control>
+
+    <Control Name="CMButton2Lg" Type="Button">
+      <Properties>
+        <Property Name="Position">380,150,125,58</Property>
+        <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="TextPosition">4,1,110,52</Property>
+        <Property Name="Picture">%MediaPath%\10x7-btn_intervention.png</Property>
+        <Property Name="Z-Order">4</Property>
+      </Properties>
+    </Control>
+
+   <Control Name="AM_MessageBoxNoEcho" Type="Static">
+      <Properties>
+        <Property Name="Position">15,77,367,46</Property>
+        <Property Name="Font">LeadthruFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">AM_MessageBoxNoEcho</Property>
+        <Property Name="TextLineAlignment">0</Property>
+        <Property Name="BackgroundColor">Black</Property>
+        <Property Name="Z-Order">4</Property>
+      </Properties>
+    </Control>
+<!-- e POS82549 -->
+
+    </Controls>
+    <!-- Uncomment the "Alert" and "SmAssistOverrides" and the "Startup" override in SharedRap.000 to enable toggle -->
+    <Contexts>
+	
+		<Context Name="AM_ItemQuantityExceeded">
+			<Properties>
+				<Property Name="Size">512,348</Property>
+				<Property Name="BackgroundColor">Black</Property>
+			</Properties>
+			<Include>
+				<Control Name="EchoAreaBackground">
+					<Properties>
+						<Property Name="Position">14,74,487,77</Property>
+					</Properties>
+				</Control>
+				<Control Name="LeadthruText">
+					<Properties>
+						<Property Name="Position">73,8,316,65</Property>
+						<Property Name="Font">TitleFont</Property>
+						<Property Name="TextColor">White</Property>
+						<Property Name="BackgroundColor">Transparent</Property>
+						<Property Name="Z-Order">2</Property>
+						<Property Name="TextFormat">$AMItemQuantityExceededTitle$</Property>
+					</Properties>
+				</Control>
+				<Control Name="CMButton1Med">
+					<Properties>
+						<Property Name="TextFormat">$OKButtonText$</Property>
+					</Properties>
+				</Control>
+				<Control Name="InstructionTextArea">
+					<Properties>
+						<Property Name="Position">17,77,366,69</Property>
+						<Property Name="TextFormat">$ItemQuantityExceededLeadthru$</Property>
+					</Properties>
+				</Control>
+				</Include>
+				<Remove>
+				<Control Name="SMReceipt"/>
+				<Control Name="SMReceiptScrollUp"/>
+				<Control Name="SMReceiptScrollDown"/>
+				<Control Name="SMTotalText"/>
+				<Control Name="SMTotalAmount"/>
+				<Control Name="ItemText"/>
+				<Control Name="ItemAmount"/>
+				<Control Name="LaneReceiptBackground"/>
+				<Control Name="LaneViewWhiteBackground"/>
+				<Control Name="LaneViewBlueBackground"/>
+				<Control Name="LaneCaption"/>			
+				</Remove>
+		</Context>
+		
+		
+        <!-- SOTF 7113 -->
+        <Context Name="SmDataEntry">
+            <Include>
+                <Control Name="SMLeadthruText">
+                    <Properties>
+                        <Property Name="Position">0,53,1024,40</Property>
+                        <Property Name="Font">KeyBoardFont2</Property>
+                        <Property Name="TextColor">White</Property>
+                        <Property Name="TextAlignment">1</Property>                    
+                    </Properties>
+                </Control>
+            </Include>
+        </Context>
+        <!-- Disable the Full Assist Mode button from the AM outside assist mode context -->
+        <Context Name="StartTransactionAM">
+            <Include>
+                <Control Name="HHAssistModeButton">
+                    <Properties>
+                        <Property Name="Visible">False</Property>
+                    </Properties>
+                </Control>
+            </Include>
+        </Context>
+        <!--
+		<Context Name="Alert">
+      <Properties>
+        <Property Name="BackgroundColor">White</Property>					
+        <Property Name="Size">77,44</Property>
+      </Properties>
+      <Include>
+        <Control Name="LaneButton">
+          <Properties>
+            <Property Name="Position">0,0,77,44</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_alert.png</Property>
+            <Property Name="ClickMove">1</Property>	
+            <Property Name="Z-Order">1</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneButtonText">
+          <Properties>
+            <Property Name="Position">8,22,76,19</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>      
+        </Control>      
+      </Include>
+		</Context>
+		<Context Name="SmAssistMode">
+			<CustomData>
+        <Data Name="ShowAlerts">True</Data>
+			</CustomData>
+		</Context>
+		-->
+        <Context Name="ApproveAgeCheck">
+            <CustomData>
+                <Data Name="InstructionText"></Data>
+            </CustomData>
+            <Include>
+                <Control Name="InstructionText">
+                    <Properties>
+                        <Property Name="Position">17,77,366,69</Property>
+                        <Property Name="TextFormat">$LaneIntervention$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="LaneReceipt">
+                    <Properties>
+                        <Property Name="Position">63,218,437,82</Property>
+                    </Properties>
+                </Control>
+                <Control Name="LaneReceiptPageUp">
+                    <Properties>
+                        <Property Name="Position">20,221,32,31</Property>
+                    </Properties>
+                </Control>
+                <Control Name="LaneReceiptPageDown">
+                    <Properties>
+                        <Property Name="Position">20,263,32,31</Property>
+                    </Properties>
+                </Control>
+                <Control Name="ButtonCommand3">
+                    <Properties>
+                        <Property Name="Position">386,83,110,58</Property>
+                        <Property Name="TextFormat">$GoBackButtonText$</Property>
+                        <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+                        <Property Name="TextPosition">4,1,106,52</Property>
+                        <Property Name="Picture">%MediaPath%\10x7-btn_intervention.png</Property>
+                        <Property Name="Z-Order">4</Property>
+                    </Properties>
+                </Control>
+            </Include>
+            <Remove>
+                <Control Name="NumericKeyPad1" />
+                <Control Name="NumericKeyPad2" />
+                <Control Name="NumericKeyPad3" />
+                <Control Name="NumericKeyPad4" />
+                <Control Name="ButtonCommand0" />
+                <Control Name="EchoInput" />
+                <Control Name="EchoBox" />
+                <Control Name="AssistModeButton" />
+                <Control Name="AssistModeBlockButton" />
+            </Remove>
+        </Context>
+        <Context Name="EnterPrice">
+            <CustomData>
+                <Data Name="DataNeededView"></Data>
+            </CustomData>
+            <Include>
+                <Control Name="LaneReceipt">
+                    <Properties>
+                        <Property Name="Position">63,218,437,82</Property>
+                    </Properties>
+                </Control>
+                <Control Name="LaneReceiptPageUp">
+                    <Properties>
+                        <Property Name="Position">20,221,32,31</Property>
+                    </Properties>
+                </Control>
+                <Control Name="LaneReceiptPageDown">
+                    <Properties>
+                        <Property Name="Position">20,263,32,31</Property>
+                    </Properties>
+                </Control>
+                <Control Name="ButtonCommand1">
+                    <Properties>
+                        <Property Name="Position">386,83,110,58</Property>
+                        <Property Name="TextFormat">$GoBackButtonText$</Property>
+                        <Property Name="Z-Order">4</Property>
+                    </Properties>
+                </Control>
+                <Control Name="InstructionText">
+                    <Properties>
+                        <Property Name="Position">17,77,366,69</Property>
+                        <Property Name="TextFormat">$LaneIntervention$</Property>
+                    </Properties>
+                </Control>
+            </Include>
+            <Remove>
+                <Control Name="NumericKeyPad1" />
+                <Control Name="NumericKeyPad2" />
+                <Control Name="NumericKeyPad3" />
+                <Control Name="NumericKeyPad4" />
+                <Control Name="NumericKeyPad5" />
+                <Control Name="ButtonCommand0" />
+                <Control Name="EchoInput" />
+                <Control Name="EchoBox" />
+                <Control Name="AssistModeButton" />
+                <Control Name="AssistModeBlockButton" />
+            </Remove>
+        </Context>
+        <Context Name="ApproveTimeRestrict">
+            <Include>
+                <Control Name="ButtonCommand1">
+                    <Properties>
+                        <Property Name="Position">386,83,110,58</Property>
+                        <Property Name="TextFormat">$GoBackButtonText$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="InstructionText">
+                    <Properties>
+                        <Property Name="Position">17,77,366,69</Property>
+                        <Property Name="TextFormat">$LaneIntervention$</Property>
+                    </Properties>
+                </Control>
+            </Include>
+            <Remove>
+                <Control Name="ButtonCommand0" />
+            </Remove>
+        </Context>
+        <Context Name="ApproveVoid">
+			<CustomData>
+                <Data Name="InstructionText"></Data>
+            </CustomData>
+            <Include>
+                <Control Name="InstructionText">
+                    <Properties>
+                        <Property Name="TextFormat">$LaneIntervention$</Property>
+                    </Properties>
+                </Control>
+				<Control Name="ButtonCommand1">
+                    <Properties>
+                        <Property Name="Position">386,83,110,58</Property>
+					</Properties>                        
+				</Control>
+            </Include>
+            <Remove>
+				<Control Name="ButtonCommand0" />
+                <Control Name="AssistModeButton" />
+				<Control Name="AssistModeButtonBlock" />
+            </Remove>
+        </Context>
+        <Context Name="LaneStatus">
+            <Include>
+                <Control Name="ButtonCommand3">
+                    <Properties>
+                        <Property Name="Position">392,80,108,63</Property>
+                        <Property Name="Z-Order">4</Property>
+                    </Properties>
+                </Control>
+                <Control Name="EchoAreaBackground">
+                    <Properties>
+                        <Property Name="Position">14,74,373,77</Property>
+                        <Property Name="Z-Order">3</Property>
+                    </Properties>
+                </Control>
+                <Control Name="LaneReceiptBackground">
+                    <Properties>
+                        <Property Name="Position">14,151,487,179</Property>
+                    </Properties>
+                </Control>
+                <Control Name="NoSaleButton" />
+            </Include>
+        </Context>
+        <Context Name="NoSaleInProgress">
+            <Properties>
+                <Property Name="Size">512,348</Property>
+                <Property Name="BackgroundColor">Black</Property>
+            </Properties>
+            <Include>
+                <Control Name="ButtonCommand0">
+                    <Properties>
+                        <Property Name="Position">11,9,108,63</Property>
+                        <Property Name="Font">LaneStatusFont</Property>
+                        <Property Name="TextColor">Black</Property>
+                        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+                        <Property Name="TextPosition">7,7,100,49</Property>
+                        <Property Name="Picture">%MediaPath%\10x7-btn_toprow_lane-lg.png</Property>
+                        <Property Name="ClickMove">3</Property>
+                        <Property Name="Z-Order">2</Property>
+                        <Property Name="TextFormat">$SuspendTransactionButtonText$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="ButtonCommand1">
+                    <Properties>
+                        <Property Name="Position">138,9,108,63</Property>
+                        <Property Name="Font">LaneStatusFont</Property>
+                        <Property Name="TextColor">Black</Property>
+                        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+                        <Property Name="TextPosition">7,7,100,49</Property>
+                        <Property Name="Picture">%MediaPath%\10x7-btn_toprow_lane-lg.png</Property>
+                        <Property Name="ClickMove">3</Property>
+                        <Property Name="Z-Order">2</Property>
+                        <Property Name="TextFormat">$CloseLaneButtonText$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="ButtonCommand2">
+                    <Properties>
+                        <Property Name="Position">265,9,108,63</Property>
+                        <Property Name="Font">LaneStatusFont</Property>
+                        <Property Name="TextColor">Black</Property>
+                        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+                        <Property Name="TextPosition">7,7,100,49</Property>
+                        <Property Name="Picture">%MediaPath%\10x7-btn_toprow_lane-lg.png</Property>
+                        <Property Name="ClickMove">3</Property>
+                        <Property Name="Z-Order">2</Property>
+                        <Property Name="TextFormat">$ReportingButtonText$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="InstructionText">
+                    <Properties>
+                        <Property Name="Position">17,77,366,69</Property>
+                        <Property Name="TextFormat">$NoSaleLeadthru$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="ButtonCommand3">
+                    <Properties>
+                        <Property Name="Position">392,80,108,63</Property>
+                        <Property Name="Z-Order">4</Property>
+                    </Properties>
+                </Control>
+                <Control Name="EchoAreaBackground">
+                    <Properties>
+                        <Property Name="Position">14,74,373,77</Property>
+                        <Property Name="Z-Order">3</Property>
+                    </Properties>
+                </Control>
+                <Control Name="LaneReceiptBackground">
+                    <Properties>
+                        <Property Name="Position">14,151,487,179</Property>
+                    </Properties>
+                </Control>
+                <Control Name="NoSaleButton" />
+                <Control Name="LaneViewWhiteBackground" />
+                <Control Name="LaneViewBlueBackground" />
+                <Control Name="LaneCaptionText" />
+                <Control Name="LaneCaption">
+                    <Properties>
+                        <Property Name="Visible">False</Property>
+                    </Properties>
+                </Control>
+            </Include>
+        </Context>
+        <Context Name="TakeChangeTimeOut">
+            <Properties>
+                <Property Name="Size">512,348</Property>
+                <Property Name="BackgroundColor">Black</Property>
+            </Properties>
+            <Include>
+                <Control Name="LaneReceipt">
+                    <Properties>
+                        <Property Name="Position">63,218,437,82</Property>
+                    </Properties>
+                </Control>
+                <Control Name="LaneReceiptPageUp">
+                    <Properties>
+                        <Property Name="Position">20,221,32,31</Property>
+                    </Properties>
+                </Control>
+                <Control Name="LaneReceiptPageDown">
+                    <Properties>
+                        <Property Name="Position">20,263,32,31</Property>
+                    </Properties>
+                </Control>
+                <Control Name="ButtonCommand1">
+                    <Properties>
+                        <Property Name="Position">386,83,110,58</Property>
+                        <Property Name="TextFormat">$GoBackButtonText$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="InstructionText">
+                    <Properties>
+                        <Property Name="Position">17,77,366,69</Property>
+                        <Property Name="TextFormat">$LaneIntervention$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="EchoAreaBackground" />
+                <Control Name="LaneButton" />
+                <Control Name="LaneStatusButton" />
+                <Control Name="CameraButton" />
+                <Control Name="TotalText" />
+                <Control Name="TotalAmount" />
+                <Control Name="ItemText" />
+                <Control Name="ItemAmount" />
+                <Control Name="LaneButtonText" />
+                <Control Name="LaneStateWindow1" />
+                <Control Name="LaneStateWindow2" />
+                <Control Name="LaneStateWindow3" />
+                <Control Name="LaneStateWindowBackground" />
+                <Control Name="LaneReceiptBackground" />
+                <Control Name="LaneViewWhiteBackground" />
+                <Control Name="LaneViewBlueBackground" />
+                <Control Name="LaneCaptionText" />
+                <Control Name="LaneCaption">
+                    <Properties>
+                        <Property Name="Visible">False</Property>
+                    </Properties>
+                </Control>
+            </Include>
+        </Context>
+        <!-- Begin RFC 356020 -->
+        <Context Name="CheckOnLane">
+            <CustomData>
+                <Data Name="DataNeededView">56</Data>
+            </CustomData>
+            <Properties>
+                <Property Name="Size">512,348</Property>
+                <Property Name="BackgroundColor">Black</Property>
+            </Properties>
+            <Include>
+                <Control Name="LaneReceiptPageUp" />
+                <Control Name="LaneReceiptPageDown" />
+                <Control Name="ButtonCommand0">
+                    <Properties>
+                        <Property Name="TextFormat">$GoBackButtonText$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="InstructionText">
+                    <Properties>
+                        <Property Name="Position">17,77,366,69</Property>
+                        <Property Name="TextFormat">$CheckOnLaneLeadthru$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="LaneReceipt" />
+                <Control Name="EchoAreaBackground">
+                    <Properties>
+                        <Property Name="Position">14,74,487,77</Property>
+                    </Properties>
+                </Control>
+                <Control Name="AssistModeButton" />
+                <Control Name="LaneButton" />
+                <Control Name="LaneStatusButton" />
+                <Control Name="CameraButton" />
+                <Control Name="TotalText" />
+                <Control Name="TotalAmount" />
+                <Control Name="ItemText" />
+                <Control Name="ItemAmount" />
+                <Control Name="LaneButtonText" />
+                <Control Name="LaneStateWindow1" />
+                <Control Name="LaneStateWindow2" />
+                <Control Name="LaneStateWindow3" />
+                <Control Name="LaneStateWindowBackground" />
+                <Control Name="LaneReceiptBackground" />
+                <Control Name="LaneViewWhiteBackground" />
+                <Control Name="LaneViewBlueBackground" />
+                <Control Name="LaneCaptionText" />
+                <Control Name="LaneCaption">
+                    <Properties>
+                        <Property Name="Visible">False</Property>
+                    </Properties>
+                </Control>
+            </Include>
+        </Context>
+        <Context Name="CheckOnLaneRap">
+            <CustomData>
+                <Data Name="DataNeededView">57</Data>
+            </CustomData>
+            <Properties>
+                <Property Name="Size">512,348</Property>
+                <Property Name="BackgroundColor">Black</Property>
+            </Properties>
+            <Include>
+                <Control Name="LaneReceiptPageUp" />
+                <Control Name="LaneReceiptPageDown" />
+                <Control Name="ButtonCommand0">
+                    <Properties>
+                        <Property Name="TextFormat">$GoBackButtonText$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="InstructionText">
+                    <Properties>
+                        <Property Name="Position">17,77,366,69</Property>
+                        <Property Name="TextFormat">$CheckOnLaneRapLeadthru$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="LaneReceipt" />
+                <Control Name="EchoAreaBackground">
+                    <Properties>
+                        <Property Name="Position">14,74,487,77</Property>
+                    </Properties>
+                </Control>
+                <Control Name="AssistModeButton" />
+                <Control Name="LaneButton" />
+                <Control Name="LaneStatusButton" />
+                <Control Name="CameraButton" />
+                <Control Name="TotalText" />
+                <Control Name="TotalAmount" />
+                <Control Name="ItemText" />
+                <Control Name="ItemAmount" />
+                <Control Name="LaneButtonText" />
+                <Control Name="LaneStateWindow1" />
+                <Control Name="LaneStateWindow2" />
+                <Control Name="LaneStateWindow3" />
+                <Control Name="LaneStateWindowBackground" />
+                <Control Name="LaneReceiptBackground" />
+                <Control Name="LaneViewWhiteBackground" />
+                <Control Name="LaneViewBlueBackground" />
+                <Control Name="LaneCaptionText" />
+                <Control Name="LaneCaption">
+                    <Properties>
+                        <Property Name="Visible">False</Property>
+                    </Properties>
+                </Control>
+            </Include>
+        </Context>
+        <!-- End RFC 356020 -->
+        <Context Name="SmVoidAgeRestrictedItem">
+          <Properties>
+            <Property Name="Size">512,348</Property>
+            <Property Name="BackgroundColor">Black</Property>
+          </Properties>
+          <Include>
+            <Control Name="EchoAreaBackground">
+            </Control>
+            <Control Name="SMButton1">
+              <Properties>
+                <Property Name="Position">386,11,110,58</Property>                
+                <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+                <Property Name="TextFormat">$KeyInBirthDateButtonText$</Property>
+                <Property Name="TextPosition">4,1,106,52</Property>
+                <Property Name="Picture">%MediaPath%\10x7-btn_intervention.png</Property>
+                <Property Name="Z-Order">4</Property>
+              </Properties>
+            </Control>
+            <Control Name="SMButton2">
+              <Properties>
+                <Property Name="Position">386,83,110,58</Property>                
+                <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+                <Property Name="TextFormat">$DateOfBirthNotNeededButtonText$</Property>
+                <Property Name="TextPosition">4,1,106,52</Property>
+                <Property Name="Picture">%MediaPath%\10x7-btn_intervention.png</Property>
+                <Property Name="Z-Order">4</Property>
+              </Properties>
+            </Control>
+            <Control Name="SMButton8">
+              <Properties>
+                <Property Name="Position">386,150,110,58</Property>
+                <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+                <Property Name="TextPosition">4,1,106,52</Property>
+                <Property Name="Picture">%MediaPath%\10x7-btn_intervention.png</Property>
+                <Property Name="TextFormat">$GoBackButtonText$</Property>
+                <Property Name="Z-Order">4</Property>
+              </Properties>
+            </Control>
+            <Control Name="Title2">
+              <Properties>
+                <Property Name="TextFormat">$SmVoidRestrictedItemsTitle$</Property>
+              </Properties>
+            </Control>
+            <Control Name="LeadthruText">
+              <Properties>
+                <Property Name="Position">17,77,366,69</Property>
+                <Property Name="TextAlignment">0</Property>
+                <Property Name="TextLineAlignment">0</Property>
+                <Property Name="TextFormat">$SmVoidRestrictedItemsLeadthru$</Property>
+                <Property Name="BackgroundColor">Black</Property>
+              </Properties>
+            </Control>
+            <Control Name="SMReceiptVoidRestrictedItem">
+            </Control>            
+            <Control Name="SMTotalText">
+            </Control>
+            <Control Name="SMTotalAmount">
+            </Control>
+            <Control Name="ItemText">
+            </Control>
+            <Control Name="ItemAmount">
+            </Control>
+            <Control Name="LaneReceiptBackground">
+            </Control>
+            <Control Name="LaneViewWhiteBackground">
+            </Control>
+            <Control Name="LaneViewBlueBackground">
+            </Control>
+            <Control Name="LaneCaption">
+              <Properties>
+                <Property Name="Font">TitleFont</Property>
+              </Properties>
+            </Control>
+          </Include>
+        </Context>
+        <Context Name="SmEnterBirthdate">
+            <Include>        
+                <Control Name="SMButton2">
+                  <Properties>
+                    <Property Name="Position">386,83,110,58</Property>
+                    <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+                    <Property Name="TextFormat">$DateOfBirthNotNeededButtonText$</Property>
+                    <Property Name="TextPosition">4,1,106,52</Property>
+                    <Property Name="Picture">%MediaPath%\10x7-btn_intervention.png</Property>
+                    <Property Name="Z-Order">4</Property>
+                  </Properties>
+                </Control>
+            </Include>
+       </Context>
+
+<!-- POS31054 rrs -->
+	<Context Name="RAPSingle4">
+	      <Include>
+			<Control Name="LaneMobileStateWindow">
+		        </Control>
+		        <Control Name="LaneMobileStateBackground">
+		        </Control> 
+	      </Include>
+	</Context>
+	<Context Name="RAPSingle6">
+	      <Include>
+			<Control Name="LaneMobileStateWindow">
+		        </Control>
+		        <Control Name="LaneMobileStateBackground">
+		        </Control> 
+	      </Include>
+	</Context>
+	<Context Name="RAPSingle8">
+	      <Include>
+			<Control Name="LaneMobileStateWindow">
+		        </Control>
+		        <Control Name="LaneMobileStateBackground">
+		        </Control> 
+	      </Include>
+	</Context>
+<!-- POS31054 rrs -->
+
+<!-- POS61973 rrs -->
+	<Context Name="AM_CustomMessage">
+	      <Include> 
+	        <Control Name="CMButton1">
+	          <Properties>
+	            <Property Name="TextFormat">$YesButtonText$</Property>
+	            </Properties>
+	        </Control>
+	        <Control Name="CMButton2">
+	          <Properties>
+	            <Property Name="TextFormat">$NoButtonText$</Property>            
+	          </Properties>
+	        </Control>
+	        <Control Name="EchoAreaBackground" Type="Static">
+		<Properties>
+		    <Property Name="Position">14,74,487,142</Property>
+		</Properties>
+	        </Control>
+	 </Include>
+            </Context>
+ <!-- POS61973 rrs -->
+
+<!-- POS82549 -->
+<Context Name="AM_MeijerDigitalVendorCouponChoice" >
+      <Properties>
+        <Property Name="Size">512,348</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>        
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">17,74,366,69</Property>            
+          </Properties>
+        </Control>
+       <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">17,148,366,69</Property>
+          </Properties>
+        </Control>
+       <Control Name="AM_MessageBoxNoEcho" >
+          <Properties>
+            <Property Name="Position">17,148,366,69</Property>
+        <Property Name="Font">LeadthruFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="TextFormat">%s</Property> 
+        <Property Name="TextLineAlignment">0</Property>
+        <Property Name="BackgroundColor">Black</Property>
+        <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Lg">
+	<Properties>
+	            <Property Name="TextFormat">$DigitalButtonText$</Property>
+	            </Properties>
+        </Control>
+        <Control Name="CMButton2Lg" >
+	          <Properties>
+	            <Property Name="TextFormat">$PaperButtonText$</Property>            
+	          </Properties>
+        </Control>
+      </Include>
+    </Context>
+<!-- e POS82549 -->
+
+<Context Name="RestrictApprovalFromRAP">
+			<CustomData>
+				<Data Name="InstructionText">CheckAgeLeadthru</Data>
+			</CustomData>
+			<Properties>
+				<Property Name="Size">512,348</Property>
+				<Property Name="BackgroundColor">Black</Property>
+			</Properties>
+			<Include>
+				<Control Name="NumericKeyPad1">
+				</Control>
+				<Control Name="NumericKeyPad2">
+				</Control>
+				<Control Name="NumericKeyPad3">
+				</Control>
+				<Control Name="NumericKeyPad4">
+				</Control>
+				<Control Name="ButtonCommand0">
+					<Properties>
+						<Property Name="TextFormat">$DateOfBirthNotNeededButtonText$</Property>
+					</Properties>
+				</Control>
+				<Control Name="InstructionText">
+					<Properties>
+						<Property Name="Position">17,77,366,69</Property>
+						<Property Name="TextFormat">$LaneIntervention$</Property>
+					</Properties>
+				</Control>
+				<Control Name="EchoInput">
+				</Control>
+				<Control Name="EchoBox">
+				</Control>
+				<Control Name="LaneButton">
+				</Control>
+				<Control Name="AssistModeButton">
+				</Control>
+				<Control Name="AssistModeBlockButton">
+				</Control>
+				<Control Name="LaneStatusButton">
+				</Control>
+				<Control Name="CameraButton">
+				</Control>
+				<Control Name="LaneButtonText">
+					<Properties>
+						<Property Name="TextFormat">$SecurityLaneButtonText$</Property>
+					</Properties>
+				</Control>
+				<Control Name="LaneStateWindow1">
+				</Control>
+				<Control Name="LaneStateWindow2">
+				</Control>
+				<Control Name="LaneStateWindow3">
+				</Control>
+				<Control Name="LaneStateWindowBackground">
+				</Control>
+				<Control Name="LaneReceiptBackground">
+				</Control>
+				<Control Name="EchoAreaBackground">
+					<Properties>
+						<Property Name="Position">14,74,487,77</Property>
+					</Properties>
+				</Control>
+				<Control Name="LaneViewWhiteBackground">
+				</Control>
+				<Control Name="LaneViewBlueBackground">
+				</Control>
+				<Control Name="LaneCaptionText">
+				</Control>
+				<Control Name="LaneCaption">
+					<Properties>
+						<Property Name="Visible">False</Property>
+					</Properties>
+				</Control>
+				<Control Name="LaneReceipt">
+					<Properties>
+						<Property Name="Position">63,218,437,82</Property>
+					</Properties>
+				</Control>
+				<Control Name="LaneReceiptPageUp">
+					<Properties>
+						<Property Name="Position">20,221,32,31</Property>
+					</Properties>
+				</Control>
+				<Control Name="LaneReceiptPageDown">
+					<Properties>
+						<Property Name="Position">20,263,32,31</Property>
+					</Properties>
+				</Control>
+				<Control Name="ButtonCommand3">
+					<Properties>
+						<Property Name="Position">386,83,110,58</Property>
+						<Property Name="TextFormat">$GoBackButtonText$</Property>
+						<Property Name="Font">SecondaryLaneButtonTextFont</Property>
+						<Property Name="TextPosition">4,1,106,52</Property>
+						<Property Name="Picture">%MediaPath%\10x7-btn_intervention.png</Property>
+						<Property Name="Z-Order">4</Property>
+					</Properties>
+				</Control>
+			</Include>
+		</Context>
+
+
+   </Contexts>
+</Display>

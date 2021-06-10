@@ -1,0 +1,170 @@
+REGEDIT4
+
+;
+; Scot items
+;
+; Have Unicode scotapp run
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\Load Controller]
+"ScotFileType"="c:\\scot\\bin\\SCOTAppU.exe"
+
+;
+; TB Trace entries
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\SCOTTB]
+"TBTraceFileBackupName"="c:\\scot\\bin\\TBTrace.log.Bak"
+"TBTraceFileName"="c:\\scot\\bin\\TBTrace.log"
+"TBTraceOn"="Y"
+;
+; TB Configuration file entries
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\SCOTTB]
+"BaseOptionFile"="TBBaseOpts"
+"CustomerOptionFile"="ACSOpts"
+
+;
+; ACSHookManager log entries
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\DCap\ACSHookManager]
+"DcapStamp"="131 -> Line stamp option(s): 100=MM/DD, 300=YYYY/MM/DD, 010=hh:mm:ss, 030=hh:mm:ss.SSS, 001=threadid, 1000=log mask"
+"DcapMask"="FFFFFF -> Capture mask; F=Error, FF=Warning, FFF=Audit, FFFF=Info, FFFFF=Verbose, FFFFFF=Debug"
+"DcapControl"="4 -> Hex destination(s): 1=DCap App, 2=Debugger, 4=File; 10/20/40 for immediate"
+"DcapFileMax"="5120 -> Max KB of data cap file"
+"DcapFile"="C:\\scot\\bin\\ACSHookManager.log"
+"DcapLinePrefix"=""
+
+;
+; DirectX PSX issue for DirectX window popup
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\UIControls]
+"UseVMR9"=dword:00000000
+"CachedVideos"=dword:00000005
+
+;
+; PIPESERVER
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\SCOTTB\PipeServer]
+"SocketReadPort"="5050"
+"SocketWritePort"="5051"
+"HeaderSpecVersion"="2"
+"TBWritePipe"="\\\\.\\PIPE\\MONITOR"
+"TBReadPipe"="\\\\.\\PIPE\\ORIGINATE"
+"ACKTimeout"= "3000"
+"SendAllToTB"="0"
+
+;
+; PIPESERVER- tbControls required
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\\NCR\\SCOT\\CurrentVersion\\SCOTTB\\SocketServerInfo]
+"ServerAddress"="localhost"
+"AckNoAck"="1"
+"ListenToDevices"="10,30,3A,40,4A,54,6A,67,C0"
+"TimeForPOStoProcessKey"="50"
+
+; OPOS Keyboard
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\POSKeyboard\NCRTBPOSKeyboard]
+@="NCRTBDevice.NCRTBDeviceSO"
+"AutoDataEventEnabled"="1 <- needed for ACS. tells OPOS not to wait for DataEventEnabled"
+"Port"="COM7"
+
+; OPOS Scanner
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\Scanner\NCRTBPOSScanner]
+@="NCRTBDevice.NCRTBDeviceSO"
+"AutoDataEventEnabled"="0" 
+"Port"="COM4"
+
+; OPOS Scale
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\Scale\NCRTBPOSScale]
+@="NCRTBDevice.NCRTBDeviceSO"
+"AutoDataEventEnabled"="0" 
+"Port"="COM5"
+"Version"="1.2.0"
+
+; OPOS CashDrawer
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\CashDrawer\NCRTBPOSCashDrawer.1]
+@="NCRTBDevice.NCRTBDeviceSO"
+"Port"="COM2"
+"DrawerNumber"="1"
+"MaxCloseDelay"="500"
+"CapStatus"="1"
+"Debug"="FALSE"
+"AutoDataEventEnabled"="0"
+
+; OPOS POS Printer
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\POSPrinter\NCRTBPOSPrinter.1]
+@="NCRTBDevice.NCRTBDeviceSO"
+"Port"="COM1"
+"SlipToggle"="1"
+"OutputDelay"="0"
+"Model"="Axiom7156"
+"Debug"="FALSE"
+"AutoDataEventEnabled"="0"
+
+; OPOS POS MICR
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\MICR\NCRTBPOSMICR.1]
+@="NCRTBDevice.NCRTBDeviceSO"
+"Port"="COM3"
+"RemoveNonDigits"="TA"
+"AutoDataEventEnabled"="0"
+"Debug"="FALSE"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT]
+"FileTransportServiceConfigFile"="C:\\Scot\\Config\\FileTransportService.xml"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"DisableDHCPMediaSense"=dword:00000001
+
+; Regional Settings for Short Date Format
+[HKEY_CURRENT_USER\Control Panel\International]
+"sShortDate"="MM/dd/yy"
+
+[HKEY_USERS\.DEFAULT\Control Panel\International]
+"sShortDate"="MM/dd/yy"
+
+;Turns sound tracing off
+[HKEY_LOCAL_MACHINE\Software\NCR\SCOT\CurrentVersion\SCOTSOUND]
+"Trace"=dword:00000000
+
+;Turns on receipt DCAP
+[HKEY_LOCAL_MACHINE\Software\OleForRetail\ServiceOpos\POSPrinter\ScotRecF306\DataCapture]
+"DcapControl"="4 -> Hex destination(s): 1=DCap App, 2=Debugger, 4=File; 10/20/40 for immediate"
+
+;turn off scale on DM so that DM and DMX both do not try to turn it on
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\Device Manager\Devices\Scale\NCRScale.1]
+"Configure"="No"
+
+;TAR337409 - Service Desk Barcode has invalid characters.
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\DeviceManagerEx\Devices\Local\Printer\SCOTRec]
+"DefaultCharacterSet"="850"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\DeviceManagerEx\Devices\Remote\Printer\RAPPOSPrinter]
+"DefaultCharacterSet"="850"
+
+[HKEY_LOCAL_MACHINE\Software\NCR\DCap\ACSIOChannel]
+"DcapStamp"="131 -> Line stamp option(s): 100=MM/DD, 300=YYYY/MM/DD, 010=hh:mm:ss, 030=hh:mm:ss.SSS, 001=threadid, 1000=log mask"
+"DcapMask"="FFFFFF -> Capture mask; F=Error, FF=Warning, FFF=Audit, FFFF=Info, FFFFF=Verbose, FFFFFF=Debug"
+"DcapControl"="4 -> Hex destination(s): 1=DCap App, 2=Debugger, 4=File; 10/20/40 for immediate"
+"DcapFileMax"="5120 -> Max KB of data cap file"
+"DcapFile"="C:\\scot\\bin\\ACSIOChannel.log"
+"DcapLinePrefix"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\DCap\ACSIOClient_salesw2k]
+"DcapMask"="FFFFFF -> Capture mask; F=Error, FF=Warning, FFF=Audit, FFFF=Info, FFFFF=Verbose, FFFFFF=Debug"
+
+[HKEY_LOCAL_MACHINE\Software\NCR\DCap\ACSIOClient_SCOTAPPU]
+"DcapMask"="FFFF -> Capture mask; F=Error, FF=Warning, FFF=Audit, FFFF=Info, FFFFF=Verbose, FFFFFF=Debug"
+
+[HKEY_LOCAL_MACHINE\Software\NCR\DCap\ACSIOClient_BioDevMgr]
+"DcapMask"="FFFF -> Capture mask; F=Error, FF=Warning, FFF=Audit, FFFF=Info, FFFFF=Verbose, FFFFFF=Debug"
+
+[HKEY_LOCAL_MACHINE\Software\NCR\DCap\ACSExposedFunctions_SCOTAPPU]
+"DcapMask"="FFFFFF -> Capture mask; F=Error, FF=Warning, FFF=Audit, FFFF=Info, FFFFF=Verbose, FFFFFF=Debug"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\DCap\ACSIODataKit_salesw2k]
+"DcapMask"="FFFF -> Capture mask; F=Error, FF=Warning, FFF=Audit, FFFF=Info, FFFFF=Verbose, FFFFFF=Debug"
+
+[HKEY_LOCAL_MACHINE\Software\NCR\DCap\ACSIODataKit_SCOTAPPU]
+"DcapMask"="FFFF -> Capture mask; F=Error, FF=Warning, FFF=Audit, FFFF=Info, FFFFF=Verbose, FFFFFF=Debug"
+
+[HKEY_LOCAL_MACHINE\Software\NCR\DCap\ACSIODataKit_BioDevMgr]
+"DcapMask"="FFFF -> Capture mask; F=Error, FF=Warning, FFF=Audit, FFFF=Info, FFFFF=Verbose, FFFFFF=Debug"
+

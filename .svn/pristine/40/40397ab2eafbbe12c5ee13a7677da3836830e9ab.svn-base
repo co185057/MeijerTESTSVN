@@ -1,0 +1,108 @@
+<!-- ================================================================================ -->
+<!--                                                                                  -->
+<!-- File: RCMConfig.xml                                                         -->
+<!--                                                                                  -->
+<!-- Function: Provides the set of user-configurable parameters for the Remote Console -->
+<!--    Manager component of the FastLane.                                            -->
+<!--                                                                                  -->
+<!-- Notes:                                                                           -->
+<!--                                                                                  -->
+<!--    1.  All timeout values are in milliseconds, ie. 1000 = 1s                     -->
+<!--    2.  All weight values are in thousandths of a pound, ie.                     -->
+<!--        1000 = 1lb                                                                -->
+<!--                                                                                  -->
+<!-- ================================================================================ -->
+<rcm>
+
+<approvals>
+
+<security>true
+</security>
+
+<coupon>true
+</coupon>
+
+<void>true
+</void>
+
+<age-restriction>true
+</age-restriction>
+
+<visual-validation>true
+</visual-validation>
+
+<call-for-help>true
+</call-for-help>
+
+<other-payment>true
+</other-payment>
+
+<suspend>true
+</suspend>
+
+<price-required>true
+</price-required>
+
+<unknown-item>true
+</unknown-item>
+
+<recalled-item>true
+</recalled-item>
+
+<time-restricted-item>true
+</time-restricted-item>
+
+<sig-cap>true
+</sig-cap>
+
+<application-error>true
+</application-error>
+
+<device-error>true
+</device-error>
+
+<quantity-restricted-item>true
+</quantity-restricted-item>
+
+<undeactivated-item>true
+</undeactivated-item>
+
+<restricted-not-allowed>true
+</restricted-not-allowed>
+<!-- +TAR 352409  -->
+<suspension-decline>true
+</suspension-decline>
+<!--  -TAR 352409  -->
+</approvals>
+
+<!-- period of time the reminder text should stay up in milliseconds -->
+<reminder-display-time>60000
+</reminder-display-time>
+
+<confirmation-for-suspending-transaction>true
+</confirmation-for-suspending-transaction>
+
+<!-- Control Assist Mode button
+	0 = Disabled (Hidden)
+	1 = Available only in transaction
+	2 = Available only outside the transaction
+	3 = Available both inside and outside the transaction
+	Default is 1 -->
+<assist-mode-control>1
+</assist-mode-control>
+
+<auto-assist-on-enable>0
+</auto-assist-on-enable>
+
+<!-- Clear receipt timer in mS, default is 15 sec. -->
+<clear-receipt-timer>15000
+</clear-receipt-timer>
+
+<allow-partial-assist-mode>Yes
+</allow-partial-assist-mode>
+
+<!-- Override in the .000 file with the name of the lane -->
+<lane-name>LN1
+</lane-name>
+
+</rcm>

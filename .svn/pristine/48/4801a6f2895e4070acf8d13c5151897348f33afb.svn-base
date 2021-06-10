@@ -1,0 +1,84 @@
+<!-- ================================================================================ -->
+<!--                                                                                  -->
+<!-- File: SecurityConfig.xml                                                         -->
+<!--                                                                                  -->
+<!-- Function: Provides the set of user-configurable parameters for the Security      -->
+<!--    Manager component of the FastLane.                                            -->
+<!--                                                                                  -->
+<!-- Notes:                                                                           -->
+<!--                                                                                  -->
+<!--    1.  All timeout values are in milliseconds, ie. 1000 = 1s                     -->
+<!--    2.  All weight values are in thousandths of a pound, ie.                     -->
+<!--        1000 = 1lb                                                                -->
+<!--                                                                                  -->
+<!-- ================================================================================ -->
+<security>
+
+<bag-box-limit>2
+</bag-box-limit>
+
+<skip-bagging-limit>3
+</skip-bagging-limit>
+
+<item-removed-limit>3
+</item-removed-limit>
+
+<rap-approval-learning-zero-wt>N
+</rap-approval-learning-zero-wt>
+
+<skip-bagging-learning-zero-wt>N
+</skip-bagging-learning-zero-wt>
+
+<removing-items-auto-advance>Y
+</removing-items-auto-advance>
+
+<removing-items-auto-advance-timeout>3000
+</removing-items-auto-advance-timeout>
+
+<remove-item-violation-auto-advance-timeout>3000
+</remove-item-violation-auto-advance-timeout>
+
+<tare-wt-tolerance1>70
+</tare-wt-tolerance1>
+
+<tare-wt-tolerance2>130
+</tare-wt-tolerance2>
+
+<tare-wt-1>270
+</tare-wt-1>
+
+<tare-wt-2>490
+</tare-wt-2>
+
+<smart-scale>
+<default-heavy-wt-limit>2000
+	<description>Weights over this amount, apply the
+	DefaultHeavyWtTol value	</description>
+</default-heavy-wt-limit>
+
+<default-medium-wt-limit>1000
+	<description>Weights between this amount and DefaultHeavyWtLimit
+	apply the DefaultMedTol value</description>
+</default-medium-wt-limit>
+
+<default-heavy-wt-tolerance>1160
+	<description>Tolerance within which heavy item weights
+	can vary from the WLDB entry.  Heavy=anything over the
+	DefaultHeavyWtLimit setting. 1000 = one lb</description>
+</default-heavy-wt-tolerance>
+
+<default-medium-wt-tolerance>930
+	<description>Tolerance within which medium item weights
+	can vary from WLDB entries.  Medium=anything between
+                DefaultMedWtLimit &amp; DefaultHeavyWtLimit settings.
+	1000 = one lb</description>
+</default-medium-wt-tolerance>
+
+<default-light-wt-tolerance>800
+	<description>Tolerance within which light item weights
+	can vary from the WLDB entry. Light=anything below DefaultMedWtLimit setting.
+	1000 = one lb</description>
+</default-light-wt-tolerance>
+
+</smart-scale>
+</security>

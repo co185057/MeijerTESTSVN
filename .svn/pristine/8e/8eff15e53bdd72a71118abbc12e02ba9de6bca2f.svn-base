@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!-- Add Schema -->
+<root>
+
+	<App MainExecutable="RAP" LoadOnStartUp="true" MainContext="RAPContext" KeyLock="none"  CompanionExecutable="" KillAppOnSwitch="false" LaunchPadSecurityOn="true" SecurityContext="EnterID" UtilityButtonVisible="true">	
+	</App>
+	
+	<Executable ExecutableName="RAP"  WindowTitle="RAP,RAP.NET" Path="\scot\bin" Filename="RapNet.exe"  Maximize="true" TopMost="false">
+	</Executable>		
+
+	<Executable ExecutableName="Reboot"  Filename="reboot.exe" Path="\scot\bin" Maximize="false" >		
+	</Executable>
+
+	<Executable ExecutableName="Volume" WindowTitle="Volume" Path="\scot\bin" Filename="VolumeCE.exe" Maximize="false" >				
+	</Executable>
+
+	<Executable ExecutableName="TerminalInfo" WindowTitle="TerminalInfo" Filename="TerminalInfoCE.exe" Path="\scot\bin" >
+	</Executable>
+
+	<Executable ExecutableName="GenerateLog"  WindowTitle="Diagnostic Files" Path="\scot\bin\" Filename="GetDiagFiles.exe" Maximize="false"  >
+	</Executable>
+        <Executable ExecutableName="RapConfigure"  WindowTitle="RAP Configure" Path="\scot\bin\" Filename="RapConfigure.exe" Maximize="false"  >
+	</Executable>
+		
+</root>

@@ -1,0 +1,25 @@
+[wave]
+;;disabled tendercancel wave
+1=WelcomeScanFirst_Reminders
+2=ThankyouForShoppingAtMeijer
+;5=ApprovalPendingPleaseContinueScanning
+23=InsertCashPressPayWithCard
+70=InsertTapSwipeCardPinPad
+73=UsePINPadCompleteTransaction
+73=ForActivationSwipeCardonSignaturePad
+85=InsertCashSelectPaymentType
+92=SelectPaymentType
+95=SwipeCardAgain
+;POS33020: "Please Enter mPerks Or Insert Coupon"
+98=EnterMPerksInsertCoupon
+;audio for insert coinstar or bottle slip - pos36319
+119=blank
+
+; SOTF6464 - Insert audio to be suppressed here with caption 'File Not Named'
+3=File Not Named
+26=File Not Named
+69=File Not Named
+72=File Not Named
+89=File Not Named
+113=File Not Named
+115=File Not Named

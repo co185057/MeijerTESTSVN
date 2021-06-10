@@ -1,0 +1,1955 @@
+<Display Version="1.2">
+  <Includes>
+    <Include File="%ConfigPath%\ImageTable.xml" />
+  </Includes>
+  <Fonts>
+    <Font Name="FastLaneAMTitleFont">
+      <Face>Lucida Sans Unicode</Face>
+      <Size>23</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+  </Fonts>
+  <Controls>
+    <Control Name="AMTareList" Type="Receipt">
+      <Properties>
+        <Property Name="Position">144,296,551,409</Property>
+        <Property Name="Audio">%APP_DRIVE%\SCOT\Sound\BttnValid.wav</Property>
+        <Property Name="FillStyle">1</Property>
+        <Property Name="Font">SMReportFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="SelectionBackgroundColor">DarkGray</Property>
+        <Property Name="SelectionForegroundColor">White</Property>
+        <Property Name="Z-Order">5</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="DataSource">AMTareList</Data>
+        <Data Name="ItemType1">ITEM_SMTEXT</Data>
+        <Data Name="ItemType1StringID">$LaneReceiptItemType2$</Data>
+      </CustomData>
+      <Columns>
+        <Column Alignment="0" Width="551" />
+      </Columns>
+    </Control>
+    <Control Name="SMReceiptPageUp" Type="Button">
+      <Properties>
+        <Property Name="Position">0,297,82,83</Property>
+        <Property Name="Audio">%AudioPath%\ScrollValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\10x7_InfoBtnPageUpERcpt.png</Property>
+        <Property Name="PictureTransparentColor">Purple</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMReceiptPageDown" Type="Button">
+      <Properties>
+        <Property Name="Position">0,556,82,83</Property>
+        <Property Name="Audio">%AudioPath%\ScrollValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\10x7_InfoBtnPageDownERcpt.png</Property>
+        <Property Name="PictureTransparentColor">Purple</Property>
+      </Properties>
+    </Control>
+    <Control Name="SelectedItem" Type="Edit">
+      <Properties>
+        <Property Name="Position">333,140,236,53</Property>
+        <Property Name="Font">EchoFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">2</Property>
+        <Property Name="TextLength">12</Property>
+        <Property Name="Visible">False</Property>
+        <Property Name="Z-Order">3</Property>
+      </Properties>
+    </Control>
+  </Controls>
+  <Contexts>
+    <Context Name="SmAssistMenu">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnDefault$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+			<Property Name="TextFormat">$ScotApp_1409$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,150,515,64</Property>
+            <Property Name="TextFormat">$BasicAssistModeLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptPageUp">
+          <Properties>
+            <Property Name="Action">Click,Scroll,SMReceipt,3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptPageDown">
+          <Properties>
+            <Property Name="Action">Click,Scroll,SMReceipt,2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+          <Properties>
+            <Property Name="Action">ChangeScroll,ChangeState,SMReceiptPageUp,CanScroll(3);ChangeScroll,ChangeState,SMReceiptPageDown,CanScroll(2)</Property>
+          </Properties>
+        </Control>
+        <Control Name="Prompt" />
+        <Control Name="SelectedItem">
+          <Properties>
+            <Property Name="TextFormat" Synchronize="true" />
+            <Property Name="Action">ChangeText,ChangeState,SMButton2,Text;ChangeText,ChangeState,SMButton3,Text;ChangeText,ChangeState,SMButton4,Text</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="TextFormat">$KeyInCodeTitle$</Property>
+            <Property Name="State">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton2">
+          <Properties>
+            <Property Name="TextFormat">$VoidItemButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton3">
+          <Properties>
+            <Property Name="TextFormat">$ChangePriceButtonText$</Property>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton4">
+          <Properties>
+            <Property Name="TextFormat">$ChangeQuantityButtonText$</Property>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton5">
+          <Properties>
+            <Property Name="TextFormat">$FullAssistButtonText$</Property>
+            <Property Name="Action">Click,ChangeState,SMButton2,2,True;Click,ChangeState,SMButton3,2;Click,ChangeState,SMButton4,2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="TextFormat">$ReturnToShoppingButtonText$</Property>
+            <Property Name="Action">Click,ChangeState,SMButton2,2,True;Click,ChangeState,SMButton3,2;Click,ChangeState,SMButton4,2</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText" />
+        <Control Name="SMTotalAmount" />
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="SmUpdateItem">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnDefault$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title2" />
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,150,515,64</Property>
+            <Property Name="TextFormat">$UpdateItemLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollUp" />
+        <Control Name="SMReceiptScrollDown" />
+        <Control Name="SMReceipt" />
+        <Control Name="Echo" />
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="TextFormat">$EnterButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText" />
+        <Control Name="SMTotalAmount" />
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_ConfirmQuantity">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnDefault$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,110,515,64</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextFormat">$ConfirmQuantityTitle$</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">225,150,502,70</Property>
+            <Property Name="Font">CMButtonListFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="Position">717,0,308,99</Property>
+            <Property Name="TextFormat">$YesButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton2Med">
+          <Properties>
+            <Property Name="Position">717,96,308,99</Property>
+            <Property Name="TextFormat">$NoButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText" />
+        <Control Name="SMTotalAmount" />
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_ConfirmVoid">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnBlank$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1" />
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,93,515,67</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextFormat">$ConfirmVoidTitle$</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo" />
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">225,165,502,70</Property>
+            <Property Name="Font">CMButtonListFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="Position">717,0,308,99</Property>
+            <Property Name="TextFormat">$YesButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton2Med">
+          <Properties>
+            <Property Name="Position">717,96,308,99</Property>
+            <Property Name="TextFormat">$NoButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_CouponNoMatch">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnDefault$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,110,515,64</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextFormat">$CouponNoMatchTitle$</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">225,150,502,70</Property>
+            <Property Name="Font">CMButtonListFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextFormat">$CouponNoMatchLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="Position">717,0,308,99</Property>
+            <Property Name="TextFormat">$OKButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText" />
+        <Control Name="SMTotalAmount" />
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_CouponNotAllowed">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnDefault$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,110,515,64</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">225,150,502,70</Property>
+            <Property Name="Font">CMButtonListFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="Position">717,0,308,99</Property>
+            <Property Name="TextFormat">$OKButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText" />
+        <Control Name="SMTotalAmount" />
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_CouponTooHigh">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnDefault$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,110,515,64</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextFormat">$CouponTooHighTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">225,144,502,72</Property>
+            <Property Name="Font">CMButtonListFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextFormat">$CouponTooHighLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="Position">717,0,308,99</Property>
+            <Property Name="TextFormat">$OKButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText" />
+        <Control Name="SMTotalAmount" />
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_CrateableItem">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnDefault$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+		    <Property Name="Position">215,59,504,59</Property>
+            <Property Name="Font">FastLaneAMTitleFont</Property>						
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">215,110,520,45</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextFormat">$CrateableItemTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">215,155,502,70</Property>
+            <Property Name="Font">CMButtonListFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="Position">717,0,308,99</Property>
+            <Property Name="TextFormat">$YesButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton2Med">
+          <Properties>
+            <Property Name="Position">717,96,308,99</Property>
+            <Property Name="TextFormat">$NoButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText" />
+        <Control Name="SMTotalAmount" />
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_CustomMessage">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnDefault$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,110,515,64</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">225,150,502,70</Property>
+            <Property Name="Font">CMButtonListFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="Position">717,0,308,99</Property>
+            <Property Name="TextFormat">$OKButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText" />
+        <Control Name="SMTotalAmount" />
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_EnterCouponValue">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnBlank$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,110,515,64</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextFormat">$EnterCouponValueTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="Position">225,150,502,70</Property>
+            <Property Name="Font">CMButtonListFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextFormat">$EnterCouponValueLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="KeyBoardP1" />
+        <Control Name="KeyBoardP2" />
+        <Control Name="SMNumericKeyBoard" />
+        <Control Name="KeyBoardP4" />
+        <Control Name="Echo" />
+        <Control Name="ButtonGoBack">
+          <Properties>
+            <Property Name="Position">717,672,308,99</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonGlobTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_EnterQuantity">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnBlank$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,110,515,64</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="Position">225,150,502,70</Property>
+            <Property Name="Font">CMButtonListFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextFormat">$EnterQuantityLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="KeyBoardP1" />
+        <Control Name="KeyBoardP2" />
+        <Control Name="SMNumericKeyBoard" />
+        <Control Name="KeyBoardP4" />
+        <Control Name="Echo" />
+        <Control Name="ButtonGoBack">
+          <Properties>
+            <Property Name="Position">717,672,308,99</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonGlobTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_EnterWeight">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnDefault$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,110,515,64</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextFormat">$EnterWeightTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">225,150,502,70</Property>
+            <Property Name="Font">CMButtonListFont</Property>
+            <Property Name="TextColor">White</Property>
+			<Property Name="TextFormat">$ScotApp_488$</Property>
+          </Properties>
+        </Control>
+        <Control Name="ButtonGoBack">
+          <Properties>
+            <Property Name="Position">717,672,308,99</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonGlobTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText" />
+        <Control Name="SMTotalAmount" />
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_EnterWtForPriceEmbedded">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnDefault$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,110,515,64</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextFormat">$EnterWeightTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">225,150,502,70</Property>
+            <Property Name="Font">CMButtonListFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextFormat">$EnterWtForPriceEmbeddedTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="ButtonGoBack">
+          <Properties>
+            <Property Name="Position">717,672,308,99</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonGlobTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText" />
+        <Control Name="SMTotalAmount" />
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_ItemQuantityExceeded">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnDefault$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,110,515,64</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextFormat">$AMItemQuantityExceededTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">225,150,502,70</Property>
+            <Property Name="Font">CMButtonListFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextFormat">$ItemQuantityExceededLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="Position">717,0,308,99</Property>
+            <Property Name="TextFormat">$OKButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText" />
+        <Control Name="SMTotalAmount" />
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_KeyInCode">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnBlank$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,110,515,64</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextFormat">$KeyInCodeTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="Position">225,150,502,70</Property>
+            <Property Name="Font">CMButtonListFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextFormat">$KeyInCodeLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo" />
+        <Control Name="KeyBoardP1" />
+        <Control Name="KeyBoardP2" />
+        <Control Name="SMNumericKeyBoard" />
+        <Control Name="KeyBoardP4" />
+        <Control Name="ButtonGoBack">
+          <Properties>
+            <Property Name="Position">717,672,308,99</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonGlobTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_Processing">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnDefault$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,110,515,64</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextFormat">$ProcessingTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">225,150,502,70</Property>
+            <Property Name="Font">CMButtonListFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextFormat">$ProcessingLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText" />
+        <Control Name="SMTotalAmount" />
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_SelectTare">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnList$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,110,515,64</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextFormat">$SelectContainerTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">225,150,502,70</Property>
+            <Property Name="Font">CMButtonListFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextFormat">$SelectContainerLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="TextFormat">$EnterButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="AMTareList">
+          <Properties>
+            <Property Name="UserInput">True</Property>
+            <Property Name="Action">ChangeScroll,ChangeState,SMReceiptScrollUp,CanScrollSelection(1);ChangeScroll,ChangeState,SMReceiptScrollDown,CanScrollSelection(0)</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+          <Properties>
+            <Property Name="Action">Click,ScrollSelection,AMTareList,1</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollDown"/>
+        <Control Name="ButtonGoBack">
+          <Properties>
+            <Property Name="Position">717,672,308,99</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonGlobTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_VoidItem">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnDefault$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+            <Property Name="Position">225,54,504,59</Property>
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,103,515,64</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextFormat">$VoidItemTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="Position">225,141,502,71</Property>
+            <Property Name="Font">CMButtonListFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextFormat">$VoidItemLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollUp" />
+        <Control Name="SMReceiptScrollDown" />
+        <Control Name="CMReceiptVoid">
+          <Properties>
+            <Property Name="Action">ChangeScroll,ChangeState,SMReceiptScrollUp,CanScrollSelection(1);ChangeScroll,ChangeState,SMReceiptScrollDown,CanScrollSelection(0)</Property>
+            <Property Name="Position">86,298,591,368</Property>
+            <Property Name="TextColor">CMReceiptTextColor</Property>
+            <Property Name="SelectionFont">ReceiptFont</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+          <Columns>
+            <Column Alignment="0" Width="371" />
+            <Column Alignment="2" Width="220" />
+          </Columns>
+        </Control>
+        <Control Name="CMButton1Lg">
+          <Properties>
+            <Property Name="Position">717,0,308,99</Property>
+            <Property Name="TextFormat">$VoidItemButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton2">
+          <Properties>
+            <Property Name="Position">717,96,308,99</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="TextFormat">$VoidAllButtonText$</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+          </Properties>
+        </Control>
+        <Control Name="ButtonGoBack">
+          <Properties>
+            <Property Name="Position">717,672,308,99</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonGlobTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText" />
+        <Control Name="SMTotalAmount" />
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_VoidNoMatch">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnDefault$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,110,515,64</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextFormat">$VoidNoMatchTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">225,150,502,70</Property>
+            <Property Name="Font">CMButtonListFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextFormat">$VoidNoMatchLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="Position">717,0,308,99</Property>
+            <Property Name="TextFormat">$OKButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText" />
+        <Control Name="SMTotalAmount" />
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_ConfirmAbort">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnDefault$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,110,515,64</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextFormat">$ConfirmAbortTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">225,150,502,70</Property>
+            <Property Name="Font">CMButtonListFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextFormat">$ConfirmAbortLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="Position">717,0,308,99</Property>
+            <Property Name="TextFormat">$YesButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton2Med">
+          <Properties>
+            <Property Name="Position">717,96,308,99</Property>
+            <Property Name="TextFormat">$NoButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText" />
+        <Control Name="SMTotalAmount" />
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_ContinueTrans">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnDefault$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,110,515,64</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextFormat">$ContinueTransTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">225,150,502,70</Property>
+            <Property Name="Font">CMButtonListFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextFormat">$ContinueTransLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="Position">717,0,308,99</Property>
+            <Property Name="TextFormat">$YesButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton2Med">
+          <Properties>
+            <Property Name="Position">717,96,308,99</Property>
+            <Property Name="TextFormat">$NoButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText" />
+        <Control Name="SMTotalAmount" />
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_ScaleBroken">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnDefault$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,110,515,64</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextFormat">$ScaleBrokenTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">225,150,502,70</Property>
+            <Property Name="Font">CMButtonListFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextFormat">$ScaleBrokenLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="ButtonGoBack">
+          <Properties>
+            <Property Name="Position">717,672,308,99</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonGlobTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText" />
+        <Control Name="SMTotalAmount" />
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_KeyInQuantity">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnBlank$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title2">
+          <Properties>
+            <Property Name="TextFormat">$ChangeQuantityTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,150,515,64</Property>
+          </Properties>
+        </Control>
+        <Control Name="KeyBoardP1" />
+        <Control Name="KeyBoardP2" />
+        <Control Name="SMNumericKeyBoard" />
+        <Control Name="KeyBoardP4" />
+        <Control Name="Echo" />
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_KeyInPrice">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnBlank$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title2">
+          <Properties>
+            <Property Name="TextFormat">$ChangePriceTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,150,515,64</Property>
+          </Properties>
+        </Control>
+        <Control Name="KeyBoardP1" />
+        <Control Name="KeyBoardP2" />
+        <Control Name="SMNumericKeyBoard" />
+        <Control Name="KeyBoardP4" />
+        <Control Name="Echo" />
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_UpdateNotAllowed">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnDefault$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,110,515,64</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextFormat">$UpdateNotAllowedTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">225,150,502,70</Property>
+            <Property Name="Font">CMButtonListFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextFormat">$UpdateNotAllowedLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="Position">717,0,308,99</Property>
+            <Property Name="TextFormat">$OKButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText" />
+        <Control Name="SMTotalAmount" />
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+    <Context Name="AM_RestrictedNotAllowed">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">$10X7_InfoSScrnDefault$</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+			<Property Name="TextFormat">$ScotApp_1412$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">225,110,515,64</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextFormat">$AM_RestrictedNotAllowedTitle$</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">225,150,502,70</Property>
+            <Property Name="Font">CMButtonListFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextFormat">$AM_RestrictedNotAllowedLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="Position">717,0,308,99</Property>
+            <Property Name="TextFormat">$OKButtonText$</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">CMButtonTextColor</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">$10x7-InfoBtnDKBackground$</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,44,249,59</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage" />
+        <Control Name="SMScaleDisplayText" />
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">65,155,170,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">TrainingMessageTextColor</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText" />
+        <Control Name="SMTotalAmount" />
+        <Control Name="SMTBText" />
+        <Control Name="ATModeDisplay1" />
+        <Control Name="ATModeDisplay2" />
+      </Include>
+    </Context>
+  </Contexts>
+</Display>

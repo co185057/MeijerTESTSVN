@@ -1,0 +1,109 @@
+; Switch Message File   \\ UK English
+;
+; file SMsg0809.dat
+;
+
+[WindowName]
+SupervisorSwitchTI = Terminal ID
+SupervisorSwitch = Switch in Operator State
+NormalSwitch = Switch in Normal State
+SupervisorSwitchEV = Switch in operator state/ Event Viewer is running
+SupervisorSwitchGDF = Switch in operator state/ GetDiagFiles is running
+SupervisorSwitchPM = Switch in operator state/ Profile Manager is running
+SupervisorSwitchTIF = Switch in operator state/ Terminal Information is running
+
+[ButtonCaptions]
+ExSCRGetDiagFiles = Generate Diagnostic Log Files
+ExAMRGetDiagFiles = Generate Diagnostic Log Files
+ExSCRProfileManager = Exit FastLane and Run Profile Manager
+ExAMRProfileManager = Exit Operator Mode and Run Profile Manager
+ExSC = Exit FastLane
+ExAM = Exit Operator Mode
+SwitchtoAM = Switch to Operator Mode
+SwitchtoSC = Switch to FastLane
+MinimizeSC = Minimize FastLane
+MinimizeAM = Minimize Operator Mode
+MaximizeSC = Maximize FastLane
+MaximizeAM = Maximize Operator Mode
+Shutdown = Shutdown Entire System
+Reboot = Reboot Entire System
+RestartAM = Restart Operator Mode
+RestartSC = Start FastLane
+RGetDiagFiles = Generate Diagnostic Log Files
+RProfileManager = Run Profile Manager
+EvtVwr = Event Viewer
+Volume = Volume Control
+RTerminalInformation=Terminal Information
+ExitSwitchApp = Exit SwitchApp
+BClear = Clear
+BEnter = Enter
+BCancel = Cancel
+AuthTitleID = Key in your user ID and touch "Enter"
+AuthTitlePassWord = Key in your password and touch "Enter"
+RegisterFingerprint= Register Fingerprint
+AuthTitleIDBiometric= or use fingerprint to login
+AuthInvalidLogin = Invalid ID/Password or Fingerprint, please try again
+FPDevice= Fingerprint device is disconnected, please key in id/password
+FPDuplicateID= Duplicate IDs for one fingerprint:%s, please key in id/password
+
+[SwitchErrorMsg]
+;ClcSwitch
+OnButtonReboot1 = Failed to reboot FastLane terminal.
+ButtonThread1 = Failed to start %s. 
+LoadPathsFromRegistry1 = Failed to get Yes/No configuration value for Lane-Light-Support by SwitchApp from registry.
+LoadPathsFromRegistry2 = Failed to get Yes/No configuration value for Powerpad Support by SwitchApp from registry.
+WaitForAppTermination1 = %s failed to exit within %d seconds. Reboot entire system.
+MonitorAppTermination1 = %s terminated abnormally.
+LaunchBatchFile1 = Failed to start batch file %s.
+PowerpadOn1 = Failed to enable Tag Deactivation Device. Result Code %u
+PowerpadOn2 = Failed to enable Tag Deactivation Device.
+PowerpadOn3 = Failed to activate Tag Deactivation Device. Result Code %u
+PowerpadOn4 = Failed to activate Tag Deactivation Device.
+MiscIFLaneLightOn1 = Failed to turn Lane Light on. Check the event log.
+MiscIFLaneLightOn2 = Failed to Enable Miscellaneous Interface. Make sure device available and check the event log.
+MiscIFLaneLightOff1 = Failed to turn Lane Light off. Check the event log.
+MiscIFLaneLightOff2 = Failed to release Miscellaneous Interface. Check the event log.
+MiscIFLaneLightOff3 = Failed to close Miscellaneous Interface. Check the event log.
+OposControl1 = Failed to create %s control. Make sure control is registered.
+OposControl2 = Failed to open %s. Make sure its profile is correctly updated in the registry.
+OposControl3 = Failed to claim %s. Make sure its profile is correctly updated in the registry.
+CloseControl1 = Failed to release %s. Check the event log.
+CloseControl2 = Failed to close %s. Check the event log.
+CreateSalesApp1 = Failed to start application. 
+CreateSalesApp2 = %s failed to initialize within %d seconds.
+LaunchBatchFile2 = Batch file %s did not exit
+;CSwitch2Dlg
+OnInitDialog1 = Failed to open Keylock device.
+;CKWarning
+OnInitDialog2 = To %s, turn the Supervisor keylock back to 'N', or press the %s button.
+DrMsg1 = System is down: Collecting Logs...
+DrMsg2 = System is down: Logs Collected, System rebooting...
+
+[OtherMsg]
+MARSMsg = Checking MARS firmware. Updates, if needed, could take about 10 minutes.
+5992Msg = Checking 5992 firmware. Updates, if needed, could take about 10 minutes.
+K590Msg = Checking K590 firmware. Updates, if needed, could take about 10 minutes.
+K580Msg = Checking K580 firmware. Updates, if needed, could take about 10 minutes.
+F306Msg = Checking F306 firmware. Updates, if needed, could take about 10 minutes.
+F307Msg = Checking F307 firmware. Updates, if needed, could take about 10 minutes.
+F309Msg = Checking F309 firmware. Updates, if needed, could take about 10 minutes.
+USBTQMsg = Checking USB Telequip firmware. Updates, if needed, could take about 10 minutes.
+WaitMsg = Please be patient ...
+ADDMsg = Detecting devices automatically.
+TraceCheckMsg = Checking application trace files for abnormal termination.
+ArdacMsg = Checking Ardac firmware. Updates, if needed, could take about 10 minutes.
+SR5Msg = Checking Coin Acceptor. Updates, if needed, could take about 10 minutes.
+GDFMsg = Please wait
+MCRWMsg = Checking Motorized Card Reader firmware. Updates, if needed, could take about 10 minutes.
+TransferMsg=Transferring diagnostic files...
+CF9520Msg = Update failed. Existing Coin Acceptor does not support Mexican coins. Please replace it with CF9520 model MK2.
+GLORYMsg = Checking Glory Recycler firmware. Updates, if needed, could take about 10 minutes.
+IOBoxMsg = Checking IOBox firmware. Updates, if needed, could take about 10 minutes.
+7875Msg = Checking Scanner firmware. Updates, if needed, could take about 10 minutes.
+BiosMsg = Checking BIOS. Updates, if needed, could take about 10 minutes. System will reboot if successfull.
+MEIMsg = Checking MEI firmware. Updates, if needed, could take about 10 minutes.
+ScaleMsg = Checking scale firmware. Updates, if needed, could take about 2 minutes.
+BCRMsg = Checking coin recycler firmware. Updates, if needed, could take about 10 minutes.
+BNRMsg = Checking note recycler firmware. Updates, if needed, could take about 10 minutes.
+MSRDIPMsg = Checking card payment firmware. Updates, if needed, could take about 10 minutes.
+F53Msg = Checking F53 firmware. Updates, if needed, could take about 10 minutes.

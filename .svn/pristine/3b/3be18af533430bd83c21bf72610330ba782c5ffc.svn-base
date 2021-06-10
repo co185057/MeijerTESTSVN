@@ -1,0 +1,67 @@
+// RemoteConsoleMgr.idl : type library source for ActiveX Control project.
+
+// This file will be processed by the MIDL compiler tool to
+// produce the type library (RemoteConsoleMgr.tlb) that will become a resource in
+// RemoteConsoleMgr.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(9581BE83-B594-4613-9727-FBD7808BC8DD), version(1.0),
+  helpfile("RemoteConsoleMgr.hlp"),
+  helpstring("RemoteConsoleMgr ActiveX Control module"),
+  control ]
+library RemoteConsoleMgrLib
+{
+	importlib(STDOLE_TLB);
+
+	//  Primary dispatch interface for CRemoteConsoleMgrCtrl
+
+	[ uuid(CB25E7ED-88C9-41DF-9F5C-3D7627C52004),
+	  helpstring("Dispatch interface for RemoteConsoleMgr Control")]
+	dispinterface _DRemoteConsoleMgr
+	{
+		properties:
+		methods:
+        [id(1), helpstring("method Initialize")] LONG Initialize(LONG lPSXHandle);
+        [id(2), helpstring("method Terminate")] LONG Terminate(void);
+        [id(3), helpstring("method CanApprove")] LONG CanApprove(BSTR bstrInParms, LONG* pResult);
+        [id(4), helpstring("method GetApprovalInfo")] LONG GetApprovalInfo(BSTR bstrInParms, BSTR* pbstrOutParms);
+        [id(5), helpstring("method OnControl")] LONG OnControl(BSTR bstrInParms, BSTR* pbstrOutParms);
+        [id(6), helpstring("method OnEvent")] LONG OnEvent(BSTR bstrInParms);
+        [id(7), helpstring("method Get")] LONG Get(BSTR bstrInParms, BSTR* pbstrOutParms);
+        [id(8), helpstring("method Set")] LONG Set(BSTR bstrInParms);
+        [id(9), helpstring("method OnApproval")] LONG OnApproval(BSTR bstrParms);
+        [id(10), helpstring("method OnInputEvent")] LONG OnInputEvent(BSTR bstrInParms);
+    };
+
+	//  Event dispatch interface for CRemoteConsoleMgrCtrl
+
+	[ uuid(956F1022-3060-485E-80D9-1D40DB444801),
+	  helpstring("Event interface for RemoteConsoleMgr Control") ]
+	dispinterface _DRemoteConsoleMgrEvents
+	{
+		properties:
+			//  Event interface has no properties
+
+		methods:
+        [id(1)] void OnRequestApproval(BSTR bstrParms);
+        [id(2)] void OnRequestSuspend(BSTR bstrParms);
+        [id(3)] void OnCancelSuspend(BSTR bstrParms);
+        [id(4)] void OnValidateOperator(BSTR bstrParms);
+        [id(5)] void OnUnsolicitedData(BSTR bstrParms);
+        [id(6)] void OnAssistMode(BSTR bstrParms);
+        [id(7)] void OnRemoteConsoleEvent(BSTR bstrParms);
+    };
+
+	//  Class information for CRemoteConsoleMgrCtrl
+
+	[ uuid(B9897549-0F1B-4F36-B374-645843C0B583), licensed,
+	  helpstring("RemoteConsoleMgr Control"), control ]
+	coclass RemoteConsoleMgr
+	{
+		[default] dispinterface _DRemoteConsoleMgr;
+		[default, source] dispinterface _DRemoteConsoleMgrEvents;
+	};
+
+};

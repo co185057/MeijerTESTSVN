@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Display>
+	<!-- THIS FILE USE TO CONFIG PIP UNIT -->
+	<!--CONTROL -->
+	<Control Name="RequestSigVideo" Type="Video" Synchronize="False">
+		<Video>%MediaPath%\SignName_Topaz_FF_Mini.avi</Video>
+	</Control>	
+</Display>

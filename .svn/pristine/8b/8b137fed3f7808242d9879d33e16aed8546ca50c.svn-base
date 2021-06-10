@@ -1,0 +1,42 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.8964.0 (1346c301).
+//
+// c:\documents and settings\david\my documents\my visual studio projects\scot3.1\scotapp\debug\TelnetClientSupport.tli
+//
+// Wrapper implementations for Win32 type library TelnetClientSupport.dll
+// compiler-generated file created 12/17/02 at 13:49:23 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface ITelnetClientIF wrapper method implementations
+//
+
+inline HRESULT ITelnetClientIF::SetCallback ( const _variant_t & pfnCallbackAddr ) {
+    HRESULT _hr = raw_SetCallback(pfnCallbackAddr);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITelnetClientIF::ReceiveString ( BSTR * bstrInputString, long lCharCount ) {
+    HRESULT _hr = raw_ReceiveString(bstrInputString, lCharCount);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITelnetClientIF::TransmitString ( _bstr_t bstrSendString ) {
+    HRESULT _hr = raw_TransmitString(bstrSendString);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITelnetClientIF::Connect ( _bstr_t bstrHostName, long lPortNum ) {
+    HRESULT _hr = raw_Connect(bstrHostName, lPortNum);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ITelnetClientIF::Disconnect ( ) {
+    HRESULT _hr = raw_Disconnect();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}

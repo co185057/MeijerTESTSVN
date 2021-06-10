@@ -1,0 +1,20 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\SCOTAPP]
+"ScotConfigFilePath"="C:\\SCOT\\config"
+"FormsDirectory"="c:\\scot\\forms"
+"FormsInfoFile"="SCOTForms.ini"
+"PromptsInfoFile"="SCOTPinpadPrompts.ini"
+"FormsForceOneReload"="Yes"
+"Release Version"="2.3.0"
+"Patch Version"=""
+"MakeBeep"="FALSE"
+"SoundFrequency"=dword:00000370
+"SoundDuration"=dword:00000019
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\SCOTAPP\Reporting]
+"TelnetPort"=dword:000004cd
+"TelnetTimeout"=dword:0000012c
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\SCOTAPP\Reporting\ReportEOD]
+"CurrentDate"=""

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<DiagFiles>
+    <!-- LaunchPadNet -->
+    <Registry>Software\NCR\LaunchPadNet\DataCapture</Registry>
+    <!-- RapNet -->
+    <Registry>Software\NCR\RapNet\DataCapture</Registry>
+    <!-- Psx_LaunchPadNet -->
+    <Registry>Software\NCR\PSX\DataCapture\LaunchPadNet.exe</Registry>
+    <!-- Psx_RapNet -->
+    <Registry>Software\NCR\PSX\DataCapture\RapNet.exe</Registry>
+    <!-- RapConfigure -->
+    <Registry>Software\NCR\RapConfigure\DataCapture</Registry>
+</DiagFiles>

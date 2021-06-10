@@ -1,0 +1,280 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.8447.0 (13146280).
+//
+// c:\documents and settings\dm123722.corp\my documents\my visual studio projects\scot3.1\telnetclientsupport\release\TelnetX.tlh
+//
+// C++ source equivalent of Win32 type library TelnetX.DLL
+// compiler-generated file created 01/13/03 at 15:14:52 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("454cef83-5689-4f4e-9ec8-7253e096166d"))
+/* dispinterface */ _ITelnetXComEvents;
+struct /* coclass */ TelnetXCom;
+struct __declspec(uuid("8efce878-b4bc-4423-9ade-23d0228c158a"))
+/* dual interface */ ITelnetXCom;
+struct __declspec(uuid("bb1efc06-01e0-4db9-a10d-485a06dacff8"))
+/* dual interface */ ITelnetXComNotify;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(_ITelnetXComEvents, __uuidof(IDispatch));
+_COM_SMARTPTR_TYPEDEF(ITelnetXCom, __uuidof(ITelnetXCom));
+_COM_SMARTPTR_TYPEDEF(ITelnetXComNotify, __uuidof(ITelnetXComNotify));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("454cef83-5689-4f4e-9ec8-7253e096166d"))
+_ITelnetXComEvents : IDispatch
+{};
+
+enum TelnetXStatesEnum
+{
+    StateNotConnected = 0,
+    StateConnecting = 1,
+    StateConnected = 2,
+    StateSendingLogonName = 3,
+    StateSendingPassword = 4,
+    StateReceivingData = 5,
+    StateReceivedPrompt = 6,
+    StateSendingData = 7,
+    StateDisconnecting = 8
+};
+
+struct __declspec(uuid("fe2a7162-6987-433f-bf0c-46da5d0f4c99"))
+TelnetXCom;
+    // [ default ] interface ITelnetXCom
+    // [ default, source ] dispinterface _ITelnetXComEvents
+
+struct __declspec(uuid("8efce878-b4bc-4423-9ade-23d0228c158a"))
+ITelnetXCom : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Blocking (
+        VARIANT_BOOL * pVal ) = 0;
+    virtual HRESULT __stdcall put_Blocking (
+        VARIANT_BOOL pVal ) = 0;
+    virtual HRESULT __stdcall get_DebugMode (
+        VARIANT_BOOL * pVal ) = 0;
+    virtual HRESULT __stdcall put_DebugMode (
+        VARIANT_BOOL pVal ) = 0;
+    virtual HRESULT __stdcall get_BlockingMode (
+        enum TelnetXBlockingModesEnum * pVal ) = 0;
+    virtual HRESULT __stdcall put_BlockingMode (
+        enum TelnetXBlockingModesEnum pVal ) = 0;
+    virtual HRESULT __stdcall get_Host (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_Host (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_Port (
+        short * pVal ) = 0;
+    virtual HRESULT __stdcall put_Port (
+        short pVal ) = 0;
+    virtual HRESULT __stdcall get_LastError (
+        short * pVal ) = 0;
+    virtual HRESULT __stdcall get_LastErrorString (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall get_LibraryName (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_LibraryName (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_State (
+        enum TelnetXStatesEnum * pVal ) = 0;
+    virtual HRESULT __stdcall get_StateString (
+        enum TelnetXStatesEnum State,
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall get_Timeout (
+        short * pVal ) = 0;
+    virtual HRESULT __stdcall put_Timeout (
+        short pVal ) = 0;
+    virtual HRESULT __stdcall get_Version (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_Version (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_LocalHost (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_LocalHost (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_LocalIP (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_LocalIP (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_FirewallHost (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_FirewallHost (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_FirewallPort (
+        short * pVal ) = 0;
+    virtual HRESULT __stdcall put_FirewallPort (
+        short pVal ) = 0;
+    virtual HRESULT __stdcall get_FirewallLogonName (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_FirewallLogonName (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_FirewallPassword (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_FirewallPassword (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_FirewallType (
+        enum FirewallTypeEnum * pVal ) = 0;
+    virtual HRESULT __stdcall put_FirewallType (
+        enum FirewallTypeEnum pVal ) = 0;
+    virtual HRESULT __stdcall get_AutoLogon (
+        VARIANT_BOOL * pVal ) = 0;
+    virtual HRESULT __stdcall put_AutoLogon (
+        VARIANT_BOOL pVal ) = 0;
+    virtual HRESULT __stdcall get_LogonName (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_LogonName (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_LogonPassword (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_LogonPassword (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_LogonCommand (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_LogonCommand (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_PromptString (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_PromptString (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_Protocol (
+        enum ProtocolsEnum * pVal ) = 0;
+    virtual HRESULT __stdcall put_Protocol (
+        enum ProtocolsEnum pVal ) = 0;
+    virtual HRESULT __stdcall get_Encryption (
+        enum EncryptionsEnum * pVal ) = 0;
+    virtual HRESULT __stdcall put_Encryption (
+        enum EncryptionsEnum pVal ) = 0;
+    virtual HRESULT __stdcall get_TerminalName (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_TerminalName (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall get_TerminalType (
+        enum TelnetXTypesEnum * pVal ) = 0;
+    virtual HRESULT __stdcall put_TerminalType (
+        enum TelnetXTypesEnum pVal ) = 0;
+    virtual HRESULT __stdcall get_LicenseKey (
+        BSTR * pVal ) = 0;
+    virtual HRESULT __stdcall put_LicenseKey (
+        BSTR pVal ) = 0;
+    virtual HRESULT __stdcall About ( ) = 0;
+    virtual HRESULT __stdcall Connect (
+        VARIANT Host = vtMissing,
+        VARIANT Port = vtMissing ) = 0;
+    virtual HRESULT __stdcall Disconnect ( ) = 0;
+    virtual HRESULT __stdcall Receive (
+        VARIANT Type,
+        VARIANT Count,
+        VARIANT * retval ) = 0;
+    virtual HRESULT __stdcall Send (
+        VARIANT Data,
+        short * retcount ) = 0;
+    virtual HRESULT __stdcall get_NotificationObject (
+        struct ITelnetXComNotify * * pVal ) = 0;
+    virtual HRESULT __stdcall put_NotificationObject (
+        struct ITelnetXComNotify * pVal ) = 0;
+};
+
+enum TelnetXBlockingModesEnum
+{
+    TrueBlocking = 0,
+    PseudoBlocking = 1
+};
+
+enum FirewallTypeEnum
+{
+    FirewallTypeNone = 0,
+    FirewallTypeSocks4 = 1,
+    FirewallTypeSocks5 = 2,
+    FirewallTypeProxy = 3,
+    FirewallTypeSSLProxy = 4,
+    FirewallTypePipe = 5
+};
+
+enum ProtocolsEnum
+{
+    Telnet = 0,
+    RLogin = 1,
+    RSH = 2,
+    RExec = 3,
+    SSH1 = 4
+};
+
+enum EncryptionsEnum
+{
+    SingleDES = 0,
+    TripleDES = 1
+};
+
+enum TelnetXTypesEnum
+{
+    None = 0,
+    Automatic = 1,
+    Custom = 2
+};
+
+struct __declspec(uuid("bb1efc06-01e0-4db9-a10d-485a06dacff8"))
+ITelnetXComNotify : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall Connected (
+        struct ITelnetXCom * Object ) = 0;
+    virtual HRESULT __stdcall Disconnected (
+        struct ITelnetXCom * Object ) = 0;
+    virtual HRESULT __stdcall Received (
+        struct ITelnetXCom * Object,
+        long BytesCount ) = 0;
+    virtual HRESULT __stdcall Debug (
+        struct ITelnetXCom * Object,
+        BSTR DebugMsg ) = 0;
+    virtual HRESULT __stdcall StateChanged (
+        struct ITelnetXCom * Object,
+        enum TelnetXStatesEnum NewState,
+        enum TelnetXStatesEnum OldState ) = 0;
+    virtual HRESULT __stdcall Prompt (
+        struct ITelnetXCom * Object ) = 0;
+    virtual HRESULT __stdcall SpecialCode (
+        struct ITelnetXCom * Object,
+        BSTR ReceivedData,
+        BSTR * ResponseData ) = 0;
+    virtual HRESULT __stdcall SSHCheckServerKey (
+        struct ITelnetXCom * Object,
+        BSTR ServerKey,
+        short Length,
+        VARIANT_BOOL * Cancel ) = 0;
+};
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_MabryTelnetXCOMLib =
+    {0xc78dcc56,0x741e,0x463c,{0x88,0xc1,0xc4,0xdf,0x80,0x85,0x2c,0xcf}};
+extern "C" const GUID __declspec(selectany) DIID__ITelnetXComEvents =
+    {0x454cef83,0x5689,0x4f4e,{0x9e,0xc8,0x72,0x53,0xe0,0x96,0x16,0x6d}};
+extern "C" const GUID __declspec(selectany) CLSID_TelnetXCom =
+    {0xfe2a7162,0x6987,0x433f,{0xbf,0x0c,0x46,0xda,0x5d,0x0f,0x4c,0x99}};
+extern "C" const GUID __declspec(selectany) IID_ITelnetXCom =
+    {0x8efce878,0xb4bc,0x4423,{0x9a,0xde,0x23,0xd0,0x22,0x8c,0x15,0x8a}};
+extern "C" const GUID __declspec(selectany) IID_ITelnetXComNotify =
+    {0xbb1efc06,0x01e0,0x4db9,{0xa1,0x0d,0x48,0x5a,0x06,0xda,0xcf,0xf8}};
+
+#pragma pack(pop)

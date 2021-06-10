@@ -1,0 +1,103 @@
+[Tracing]
+TBTraceFileName=c:\scot\bin\tbtrace.log
+TBTraceMask=0xFF
+TBTraceOn=Y
+TBTraceModuleMask=0xFF
+TBTraceTruncateAfter=30000
+TBTraceUNICODE=N
+
+[Operations]
+TBDataEntryINI=C:\SCOT\config\TBScotDataEntry.ini
+TBUsesPipeServer=Y
+; Should postscotstop.bat be called before calling prescotstart again? Most solutions
+; start an app that would need to be stopped before starting up again.
+PreScotStartDependsOnPostScotStop=Y
+
+;The Iso 639 standard language code of Primary language - TB uses to read txt from scudmsgs files
+ISO639PrimaryLanguageCode=EN
+
+; To enable shared use of the message files, they are specified here. These should not
+; be altered without consultation with NCR
+SCOTMessageFile=c:\\scot\\config\\scotmsge.dat
+SCUDMessageFile=c:\\scot\\config\\scudmsgs.dat
+SCUDMessage2File=c:\\scot\\config\\SCUDMSG2.dat
+
+[TBFeatures]
+;The following features can be turned on or off by altering the following options - features must be
+;implemented in the TB before they function correctly
+TB_FT_TENDER=Y
+TB_FT_ITEMSALE=Y
+TB_FT_SUSPEND=Y
+TB_FT_DEBITACCOUNTTYPE=Y
+TB_FT_EXTENDEDDETAILS=Y
+TB_FT_TRAININGMODE=Y
+TB_FT_QUICKITEMENTRY=N
+TB_FT_ENDORSEMENT=Y
+TB_FT_SECURITYLEVEL=Y
+TB_FT_MICR=Y
+TB_FT_CASHDRAWER=Y
+TB_FT_AMSTATUS=Y
+TB_FT_SUPPORT_PIM=Y
+
+
+
+[TBxml]
+MsgMapXML=C:\SCOT\config\TBMsgMap.xml
+TBInProgressXML=C:\SCOT\config\TBProgressStates.xml
+
+UnhandledMessageTimeoutInSeconds=8
+UnhandledReturnCode=11
+
+;The following are names of tender types defined by SCOT.  The number represents
+;the tender type as defined by SCOT in TransBroker.h
+;BaseMHTender::EnterTender() sets the current in progress state by concatenating
+;[Tender][nTenderType]
+;Each state name has an entry in TBProgressStates.xml
+Tender-2=TENDER_COUPON
+Tender-1=TENDER_OTHERPAYMENT
+Tender0=TENDER_NONE
+Tender1=TENDER_CASH
+Tender2=TENDER_CREDIT
+Tender3=TENDER_DEBIT
+Tender4=TENDER_LOYALTY
+Tender5=TENDER_DEBITSAVING
+Tender6=TENDER_DEBITCHECKING
+Tender7=TENDER_EBT
+Tender8=TENDER_FOODSTAMPS
+Tender9=TENDER_GIFTCARD
+Tender10=TENDER_PIP_GENERIC
+Tender11=TENDER_PIP_CREDIT
+Tender12=TENDER_PIP_DEBIT
+Tender13=TENDER_PIP_DEBIT_CASHBACK
+Tender14=TENDER_PIP_LOYALTY
+Tender15=TENDER_PIP_DEBITSAVING
+Tender16=TENDER_PIP_DEBITCHECKING
+Tender17=TENDER_PIP_EBT
+Tender18=TENDER_PIP_FOODSTAMPS
+Tender19=TENDER_PIP_GIFTCARD
+Tender20=TENDER_USERDEFINED1
+Tender21=TENDER_USERDEFINED2
+Tender22=TENDER_USERDEFINED3
+Tender23=TENDER_USERDEFINED4
+Tender24=TENDER_USERDEFINED5
+Tender25=TENDER_USERDEFINED6
+Tender26=TENDER_USERDEFINED7
+Tender27=TENDER_USERDEFINED8
+Tender28=TENDER_USERDEFINED9
+Tender29=TENDER_USERDEFINED10
+Tender30=TENDER_USERDEFINED11
+Tender31=TENDER_USERDEFINED12
+Tender32=TENDER_USERDEFINED13
+Tender33=TENDER_USERDEFINED14
+Tender34=TENDER_USERDEFINED15
+Tender35=TENDER_USERDEFINED16
+Tender36=TENDER_USERDEFINED17
+Tender37=TENDER_USERDEFINED18
+Tender38=TENDER_USERDEFINED19
+Tender39=TENDER_USERDEFINED20
+Tender40=TENDER_CHECK
+Tender41=TENDER_CASH_RAP
+Tender42=TENDER_ASSISTTENDER
+Tender43=TENDER_VOUCHERPAYMENT
+
+CUSTOMER_ENTER_KEY=0x0D

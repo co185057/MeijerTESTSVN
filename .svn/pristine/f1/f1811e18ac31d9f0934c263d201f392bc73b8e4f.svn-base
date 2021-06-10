@@ -1,0 +1,109 @@
+; Switch Message File   \\ Italian
+;
+; file SMsg0410.dat
+;
+
+[WindowName]
+SupervisorSwitchTI = ID terminale
+SupervisorSwitch = Interruttore in stato Supervisore
+NormalSwitch = Interruttore in stato Normale
+SupervisorSwitchEV = Interruttore in stato Supervisore/ Event Viewer in esecuzione
+SupervisorSwitchGDF = Interruttore in stato Supervisore/ GetDiagFiles in esecuzione
+SupervisorSwitchPM = Interruttore in stato Supervisore/ Profile Manager in esecuzione
+SupervisorSwitchTIF = Interruttore in stato Supervisore/ le informazioni sul terminale sono in esecuzione
+
+[ButtonCaptions]
+ExSCRGetDiagFiles = Genera log file diagnostici
+ExAMRGetDiagFiles = Genera log file diagnostici
+ExSCRProfileManager = Esci da FastLane ed esegui Profile Manager
+ExAMRProfileManager = Esci da Cashier Mode ed esegui Profile Manager
+ExSC = Esci da FastLane
+ExAM = Esci da Cashier Mode
+SwitchtoAM = Passa a Cashier Mode
+SwitchtoSC = Passa a FastLane
+MinimizeSC = Riduci a icona FastLane
+MinimizeAM = Riduci a icona Cashier Mode
+MaximizeSC = Ingrandisci FastLane
+MaximizeAM = Ingrandisci Cashier Mode
+Shutdown = Spegni intero sistema
+Reboot = Riavvia intero sistema
+RestartAM = Riavvia Cashier Mode
+RestartSC = Avvia FastLane
+RGetDiagFiles = Genera log file diagnostici
+RProfileManager = Esegui Profile Manager
+EvtVwr = Event Viewer
+Volume = Controllo volume
+RTerminalInformation=Informazioni sul terminale
+ExitSwitchApp = Uscire da SwitchApp
+BClear = Cancella
+BEnter = Invio
+BCancel = Annulla
+AuthTitleID = Digitare l'ID utente e premere "Invio"
+AuthTitlePassWord = Digitare la password e premere "Invio"
+RegisterFingerprint= Registrare impronte digitali
+AuthTitleIDBiometric= Oppure utilizzare le impronte digitali per accedere
+AuthInvalidLogin = ID/password o impronte digitali non validi, riprovare
+FPDevice= Il dispositivo per le impronte digitali è disconnesso, digitare ID/password
+FPDuplicateID= Alle impronte digitali corrispondono più ID utente:%s, digitare ID/password
+
+[SwitchErrorMsg]
+;ClcSwitch
+OnButtonReboot1 = Impossibile riavviare il terminale FastLane.
+ButtonThread1 = Impossibile avviare %s.
+LoadPathsFromRegistry1 = SwitchApp non è riuscito a ottenere il valore di configurazione Sì/No per Lane-Light-Support dal registro.
+LoadPathsFromRegistry2 = SwitchApp non è riuscito a ottenere il valore di configurazione Sì/No per Powerpad Support dal registro.
+WaitForAppTermination1 = %s non è uscito entro %d secondi. Riavvia intero sistema.
+MonitorAppTermination1 = %s è terminato in maniera anomala.
+LaunchBatchFile1 = Impossibile avviare il file batch %s
+PowerpadOn1 = Impossibile abilitare il dispositivo di disattivazione etichette. Codice risultato %u
+PowerpadOn2 = Impossibile abilitare il dispositivo di disattivazione etichette.
+PowerpadOn3 = Impossibile attivare il dispositivo di disattivazione etichette. Codice risultato %u
+PowerpadOn4 = Impossibile attivare il dispositivo di disattivazione etichette.
+MiscIFLaneLightOn1 = Impossibile accendere la luce corsia. Controllare il log eventi.
+MiscIFLaneLightOn2 = Impossibile abilitare l'interfaccia mista. Verificare che il dispositivo sia disponibile e controllare il log eventi.
+MiscIFLaneLightOff1 = Impossibile spegnere la luce corsia. Controllare il log eventi.
+MiscIFLaneLightOff2 = Impossibile rilasciare l'interfaccia mista. Controllare il log eventi.
+MiscIFLaneLightOff3 = Impossibile chiudere l'interfaccia mista. Controllare il log eventi.
+OposControl1 = Impossibile creare il controllo %s. Verificare che il controllo sia registrato.
+OposControl2 = Impossibile aprire %s. Verificare che il suo profilo sia stato correttamente aggiornato nel registro.
+OposControl3 = Impossibile richiamare %s. Verificare che il suo profilo sia stato correttamente aggiornato nel registro.
+CloseControl1 = Impossibile rilasciare %s. Controllare il log eventi.
+CloseControl2 = Impossibile chiudere %s. Controllare il log eventi.
+CreateSalesApp1 = Impossibile avviare l'applicativo. 
+CreateSalesApp2 = %s non si è inizializzato entro %d secondi.
+LaunchBatchFile2 = Il file batch %s non è uscito.                                 
+;CSwitch2Dlg
+OnInitDialog1 = Impossibile aprire il dispositivo Keylock.
+;CKWarning
+OnInitDialog2 = Per %s, riportare la chiave Supervisor su "N", oppure premere nuovamente il pulsante %s.
+DrMsg1 = Sistema fuori uso: raccolta registrazioni in corso...
+DrMsg2 = Sistema fuori uso: registrazioni raccolte, rinizializzazione in corso...
+
+[OtherMsg]
+MARSMsg = Verificare il firmware MARS. L'aggiornamento, se necessario, potrebbe richiedere 10 minuti.
+5992Msg = Verificare il firmware 5992. L'aggiornamento, se necessario, potrebbe richiedere 10 minuti.
+K590Msg = Verificare il firmware K590. L'aggiornamento, se necessario, potrebbe richiedere 10 minuti.
+K580Msg = Verificare il firmware K580. L'aggiornamento, se necessario, potrebbe richiedere 10 minuti.
+F306Msg = Verificare il firmware F306. L'aggiornamento, se necessario, potrebbe richiedere 10 minuti.
+F307Msg = Verificare il firmware F307. L'aggiornamento, se necessario, potrebbe richiedere 10 minuti.
+F309Msg = Verificare il firmware F309. L'aggiornamento, se necessario, potrebbe richiedere 10 minuti.
+USBTQMsg = Verifica del firmware del distributore di monete. Gli aggiornamenti, se necessari, potrebbero richiedere 10 minuti circa.
+WaitMsg = Attendere prego ...
+ADDMsg = Rilevazione automatica dei dispositivi.
+TraceCheckMsg = Verifica dei file di traccia degli applicativi per terminazioni anomale.
+ArdacMsg = Verificare il firmware Ardac. Gli aggiornamenti, se necessari, potrebbero richiedere 10 minuti circa.
+SR5Msg = Verifica del dispositivo di accettazione monete. Gli aggiornamenti, se necessari, potrebbero richiedere 10 minuti circa.
+GDFMsg = Attendere per favore
+MCRWMsg = Verifica firmware del lettore carta motorizzato. Gli aggiornamenti, se necessari, potrebbero richiedere 10 minuti circa.
+TransferMsg= Trasferimento del file diagnostico...
+CF9520Msg = Aggiornamento non riuscito. Il dispositivo di accettazione monete esistente non accetta monete messicane. Sostituirlo con il dispositivo CF9520 modello MK2.
+GLORYMsg = Verifica del firmware Glory Recycler. Gli aggiornamenti, se necessari, potrebbero richiedere 10 minuti circa.
+IOBoxMsg = Verifica del firmware IOBox. Gli aggiornamenti, se necessari, potrebbero richiedere 10 minuti circa.
+7875Msg = Verifica firmware dello scanner. Gli aggiornamenti, se necessari, potrebbero richiedere 10 minuti circa.
+BiosMsg = Verifica BIOS. Gli aggiornamenti, se necessari, potrebbero richiedere 10 minuti circa. Se la verifica ha avuto successo, il sistema si riavvierà.
+MEIMsg = Verificare il firmware MEI. L'aggiornamento, se necessario, potrebbe richiedere 10 minuti.
+ScaleMsg = Verifica del firmware bilancia. Gli aggiornamenti, se necessari, potrebbero richiedere 2 minuti circa.
+BCRMsg = Verifica firmware dispositivo di riciclo monete. Gli aggiornamenti, se necessari, potrebbero richiedere 10 minuti circa.
+BNRMsg = Verifica firmware dispositivo di riciclo banconote. Gli aggiornamenti, se necessari, potrebbero richiedere 10 minuti circa.
+MSRDIPMsg = Verifica firmware pagamento con carta. Gli aggiornamenti, se necessari, potrebbero richiedere 10 minuti circa.
+F53Msg = Verificare il firmware F53. L'aggiornamento, se necessario, potrebbe richiedere 10 minuti.

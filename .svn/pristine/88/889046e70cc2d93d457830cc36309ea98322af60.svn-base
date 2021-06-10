@@ -1,0 +1,14 @@
+﻿<Display Version="1.0">
+  <Languages>
+    <Language Name="040c">
+      <StringTable>
+	<String Name="CheckAgeLeadthru">Saisissez date naiss. %s ou passez en mode assist.</String>
+        <String Name="UnknownItemLeadthru">Prenez l'article à la caisse et touchez "Effacer Sécurité" ou touchez "Mode Aide" pour terminer la transaction.</String>
+     	<String Name="EnterIDFpLeadthru">Saisissez votre identifiant et appuyez sur "Entrée" ou placez votre doigt sur le lecteur d'empreintes digitales pour vous connecter.</String>
+	<String Name="HH_CheckAgeLeadthru">Saisissez date naiss. %s ou passez en mode assist.</String>
+	<String Name="ExpandReceiptButtonText">Développer le ticket</String>
+	<String Name="CollapseReceiptButtonText">Réduire le ticket</String>
+      </StringTable>
+    </Language>
+  </Languages>
+</Display>

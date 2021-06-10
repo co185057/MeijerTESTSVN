@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibsNet", "CommonLibsNet.csproj", "{5C8DEFEF-A7F7-429B-B0EB-22EBC1DE3AAD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{20D4826A-C6FA-45DB-90F4-C717570B9F32}") = "CommonLibsNetCe", "CommonLibsNetCe.csdproj", "{219A05D9-60C6-4087-9F1F-1F894CB64090}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5C8DEFEF-A7F7-429B-B0EB-22EBC1DE3AAD}.Debug.ActiveCfg = Debug|.NET
+		{5C8DEFEF-A7F7-429B-B0EB-22EBC1DE3AAD}.Debug.Build.0 = Debug|.NET
+		{5C8DEFEF-A7F7-429B-B0EB-22EBC1DE3AAD}.Release.ActiveCfg = Release|.NET
+		{5C8DEFEF-A7F7-429B-B0EB-22EBC1DE3AAD}.Release.Build.0 = Release|.NET
+		{219A05D9-60C6-4087-9F1F-1F894CB64090}.Debug.ActiveCfg = Debug|Windows CE
+		{219A05D9-60C6-4087-9F1F-1F894CB64090}.Debug.Build.0 = Debug|Windows CE
+		{219A05D9-60C6-4087-9F1F-1F894CB64090}.Debug.Deploy.0 = Debug|Windows CE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

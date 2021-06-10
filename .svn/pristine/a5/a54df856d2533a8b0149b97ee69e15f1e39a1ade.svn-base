@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!-- The format of this file is:	 	-->
+<!-- <DeviceError>                           	-->
+<!-- 	<SectionName>			     	-->
+<!--		<Title1>Msg id in scotmsge.dat for title 1</Title1>-->
+<!--		<Title2>Msg id in scotmsge.dat for title 2</Title2>-->
+<!--	   	<Text>Msg id in scotmsge.dat</Text>		-->
+<!--		<Image>Bitmap id in scotbmpe.dat</Image> 	-->
+<!--		<Wave>id in scotwave.dat</Wave>			-->
+<!--		<Movie>Movie name in text</Movie>		-->
+<!--	</SectionName>					-->
+<!--</DeviceError>					-->
+
+
+<DeviceError>
+	<ERROR_SCAN_DATALOSS>
+		<Title1>1154</Title1>
+		<Text>284</Text>
+	</ERROR_SCAN_DATALOSS>
+
+	<ERROR_SCAN_BADTAGSUFFIX>
+		<Title1>1154</Title1>
+		<Text>285</Text>
+	</ERROR_SCAN_BADTAGSUFFIX>
+
+	<ERROR_SCAN_BADTAGPREFIX>
+		<Title1>1154</Title1>
+		<Text>286</Text>
+	</ERROR_SCAN_BADTAGPREFIX>
+
+	<ERROR_SCAN_BADTAG>
+		<Title1>1154</Title1>
+		<Text>287</Text>
+	</ERROR_SCAN_BADTAG>
+
+	<ERROR_SCAN_SERIAL>
+		<Title1>1154</Title1>
+		<Title2>1155</Title2>
+		<Text>288</Text>
+	</ERROR_SCAN_SERIAL>
+
+	<DEVICEERRORUNKNOWN>
+		<Title1>1154</Title1>
+		<Text> 1099</Text>
+	</DEVICEERRORUNKNOWN>
+
+</DeviceError>

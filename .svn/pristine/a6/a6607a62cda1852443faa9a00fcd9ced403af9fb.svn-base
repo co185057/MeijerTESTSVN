@@ -1,0 +1,71 @@
+REGEDIT4
+
+;
+; RAP Tendering device configuration
+;
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT - CoreApplication]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT - CoreApplication\ObservedOptions]
+"RemoteCashDrawer"="Y"
+"RemoteMICR"="Y"
+"RemotePOSPrinter"="Y"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\Installation]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\Installation\CoreRemoteCashDrawer]
+"Configure"="Y"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\Installation\CoreRemoteMICR]
+"Configure"="Y"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\Installation\CoreRemotePOSPrinter]
+"Configure"="Y"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT - RAP]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT - RAP\ObservedOptions]
+"Printer"="Y"
+"CashDrawer"="Y"
+"Keyboard"="Y"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\DeviceManagerEx\Devices\Remote]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\DeviceManagerEx\Devices\Remote\CashDrawer]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\DeviceManagerEx\Devices\Remote\CashDrawer\RAPCashdrawer]
+"Configure"="Y"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\DeviceManagerEx\Devices\Remote\Keylock]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\DeviceManagerEx\Devices\Remote\Keylock\RAPKeylock]
+"Configure"="N"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\DeviceManagerEx\Devices\Remote\MICR]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\DeviceManagerEx\Devices\Remote\MICR\RAPMICR]
+"Configure"="Y"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\DeviceManagerEx\Devices\Remote\MSR]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\DeviceManagerEx\Devices\Remote\MSR\RAPMSR]
+"Configure"="N"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\DeviceManagerEx\Devices\Remote\Printer]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\DeviceManagerEx\Devices\Remote\Printer\RAPPOSPrinter]
+"Configure"="Y"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\DeviceManagerEx\Devices\Remote\Scanner]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\DeviceManagerEx\Devices\Remote\Scanner\RAPScanner]
+"Configure"="N"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\POSPrinter\RAPPOSPrinter]
+"RemoteProfile"="Emulator - Receipt -> Specifies the profile that is to be opened on the remote server.."
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\CashDrawer\RAPCashDrawer]
+"RemoteProfile"="Emulator -> Specifies the profile that is to be opened on the remote server.."
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\MICR\RAPMICR]
+"RemoteProfile"="Emulator -> Specifies the profile that is to be opened on the remote server.."

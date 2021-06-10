@@ -1,0 +1,183 @@
+<state-machine version="2.2">
+  <action-list>
+    <action name="SendGoToRecallingItems"/>
+  </action-list>
+  <state-list>
+    <state-definition name="Recall Mode" />
+    <state-definition name="Recall Mode - Have Weight On Scale" />
+  </state-list>
+  <lookup-table name="ApplicationControlCommandTable" key-type="string" value-type="string">
+    <lookup-entry key="exit-recall-mode" value="Exit Recall Mode" />
+    <lookup-entry key="enter-recall-mode" value="Enter Recall Mode" />
+  </lookup-table>
+  <msg-list>
+    <msg-definition name="Enter Recall Mode" value="0x20000001d">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+    <msg-definition name="Exit Recall Mode" value="0x2000001e">
+      <comment>Received from FastLane</comment>
+    </msg-definition>
+  </msg-list>
+  <rules>
+    <state name="*">
+      <message name="Enter Recall Mode">
+        <message-rule-list>
+          <transition state-name="Recall Mode" />
+        </message-rule-list>
+      </message>
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Recall Mode                                                      -->
+    <!-- Function:                                                                -->
+    <!-- Messages:                                                                -->
+    <!--                                                                          -->
+    <!-- ======================================================================== -->
+    <state name="Recall Mode">
+      <entry-rule-list>
+        <rule action-name="SendGoToRecallingItems"/>
+        <rule action-name="SetDeltaWt" />
+        <!--
+          <rule action-name="SetHoldWeight" />
+          <rule action-name="SaveWTInfo" parameter="reset_wt_entry" />
+          -->
+      </entry-rule-list>
+	  <!-- Start RFQ 9545 -->
+	  <message name="Enter Assist Mode">
+        <message-rule-list>
+          <rule action-name="assign-variable" parameter="variable-name=enter_AssistMode;expression=1" />
+          <transition state-name="Recall Mode" />
+        </message-rule-list>
+      </message>
+	  <!-- End RFQ 9545 -->
+      <message name="Item Sold">
+        <message-rule-list>
+          <!--
+            <rule action-name="ResetAtItemScan" />
+            <rule action-name="AddItemToTransaction" />
+            <rule action-name="SendDBRequest" />
+            <rule action-name="start-timer" parameter="timer-name=db_lookup_timer;duration=1000" />
+            -->
+        </message-rule-list>
+      </message>
+      <message name="DB Response">
+        <message-rule-list>
+          <if expression="!CheckDBResponse()">
+            <rule action-name="stop-timer" parameter="timer-name=db_lookup_timer" />
+          </if>
+          <else>
+            <!--
+              <rule action-name="SaveWTInfo" parameter="add_wt_entry" />
+              -->
+            <rule action-name="stop-timer" parameter="timer-name=db_lookup_timer"/>
+          </else>
+        </message-rule-list>
+      </message>
+      <message name="db_lookup_timer_timeout">
+        <message-rule-list>
+          <rule action-name="GlobalLog" parameter="db_lookup_timer timeout received" />
+          <rule action-name="SendLastChanceLookupDBRequest" />
+        </message-rule-list>
+      </message>
+      <message name="Item Not Sellable">
+        <message-rule-list>
+          <!--
+            <rule action-name="SaveWTInfo" parameter="clear_wt_entry" />
+            -->
+          <rule action-name="SendGoToScanAndBag" />
+        </message-rule-list>
+      </message>
+      <message name="Item Details">
+        <message-rule-list>
+          <rule action-name="SendGoToScanAndBag" />
+        </message-rule-list>
+      </message>
+      <message name="Exit Recall Mode">
+        <message-rule-list>
+          <rule action-name="IsDeltaWeightZero">
+            <failure-transition>Recall Mode - Have Weight On Scale</failure-transition>
+          </rule>
+          <rule action-name="SetLastGoodWeight" parameter="set-lgw" />
+          <rule action-name="ResetSmartScaleTimers" parameter="all" />
+          <rule action-name="SetLastGoodWeight" parameter="set-lgw" />
+          <rule action-name="SendItemPickFinish" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Decrease">
+        <message-rule-list>
+          <rule action-name="SetDeltaWt" />
+        </message-rule-list>
+      </message>
+      <message name="BackToLGW">
+        <message-rule-list>
+          <rule action-name="ResetWeight" />
+          <rule action-name="SetLastGoodWeight" parameter="set-lgw" />
+        </message-rule-list>
+      </message>
+      <message name="Unmatched Increase">
+        <message-rule-list>
+          <rule action-name="SetDeltaWt" />
+        </message-rule-list>
+      </message>
+      <message name="Item Expired">
+        <message-rule-list>
+          <rule action-name="SetLastGoodWeight" parameter="set-lgw" />
+          <rule action-name="ResetSmartScaleTimers" parameter="all" />
+          <rule action-name="SetLastGoodWeight" parameter="set-lgw" />
+          <rule action-name="SendItemPickFinish" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+    </state>
+    <!-- ======================================================================== -->
+    <!-- State:  Recall Mode - Have Weight On Scale                               -->
+    <!-- Function:                                                                -->
+    <!-- Messages:                                                                -->
+    <!--                                                                          -->
+    <!-- ======================================================================== -->
+    <state name="Recall Mode - Have Weight On Scale">
+      <entry-rule-list>
+        <rule action-name="send-msg" parameter="message-name=Exit Recall Mode" />
+      </entry-rule-list>
+      <message name="Exit Recall Mode">
+        <message-rule-list>
+          <rule action-name="SetLastGoodWeight" parameter="set-lgw" />
+          <rule action-name="ResetSmartScaleTimers" parameter="all" />
+          <rule action-name="SetLastGoodWeight" parameter="set-lgw" />
+          <rule action-name="SendGoToScanAndBag" />
+          <transition state-name="Item Entry" />
+        </message-rule-list>
+      </message>
+    </state>
+    <state name="Disable Security Mode - Start">
+      <message name="Enter Recall Mode">
+        <message-rule-list>
+          <rule action-name="SendGoToRecallingItems"/>
+        </message-rule-list>
+      </message>
+      <message name="Exit Recall Mode">
+        <message-rule-list>
+          <rule action-name="SetLastGoodWeight" parameter="set-lgw" />
+          <rule action-name="ResetSmartScaleTimers" parameter="all" />
+          <rule action-name="SetLastGoodWeight" parameter="set-lgw" />
+          <rule action-name="SendItemPickFinish" />
+        </message-rule-list>
+      </message>
+    </state>
+    <state name="Disable Security Mode">
+      <message name="Enter Recall Mode">
+        <message-rule-list>
+          <rule action-name="SendGoToRecallingItems"/>
+        </message-rule-list>
+      </message>
+      <message name="Exit Recall Mode">
+        <message-rule-list>
+          <rule action-name="SetLastGoodWeight" parameter="set-lgw" />
+          <rule action-name="ResetSmartScaleTimers" parameter="all" />
+          <rule action-name="SetLastGoodWeight" parameter="set-lgw" />
+          <rule action-name="SendItemPickFinish" />
+        </message-rule-list>
+      </message>
+    </state>
+  </rules>
+</state-machine>

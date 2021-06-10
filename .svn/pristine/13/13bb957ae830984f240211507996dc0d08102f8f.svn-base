@@ -1,0 +1,8 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog\Application\SmartScale]
+"EventMessageFile"="C:\\scot\\dll\\SAMessage.dll"
+"CategoryMessageFile"="C:\\scot\\dll\\SACategory.dll"
+"CategoryCount"=dword:00000012
+"TypesSupported"=dword:00000007
+

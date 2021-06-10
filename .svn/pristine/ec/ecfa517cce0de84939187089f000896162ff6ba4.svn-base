@@ -1,0 +1,24 @@
+﻿<Display Version="1.0">
+  <Languages>
+    <Language Name="0410">
+      <StringTable>
+	<String Name="CancelSuspendButtonText">Annulla sospensione</String>
+	<String Name="DeactivateLeadthru">Disattivare l'articolo o rimuovere l'etichetta rigida e sfiorare "Cancella sicurezza".</String>
+	<String Name="EnterIDFpLeadthru">Digitare l’ID utente e sfiorare "Invio", oppure posizionare il dito sul dispositivo biometrico per collegarsi.</String>
+	<String Name="ReEnterIDFpLeadthru">Connessione non valida. Ricollegarsi utilizzando la tastiera o l'impronta digitale.</String>
+        <String Name="HH_CheckAgeLeadthru">Digitare data di nascita %s o passare a "Modalità Assistenza".</String>
+	<String Name="HH_VisualApproveLeadthru">Sfiorare "Approva visiva" o "Modalità Assistenza" per modificare la transazione.</String>
+        <String Name="HH_UnknownItemLeadthru">Raccogliere l'articolo, sfiorare "Cancella sicurezza" o "Modalità Assistenza" per completare.</String>
+        <String Name="HH_ItemNotForSaleLeadthru">Raccogliere l'articolo in corsia e sfiorare "Cancella sicurezza".</String>
+        <String Name="HH_DeactivateLeadthru">Disattivare l'articolo o rimuovere l'etichetta rigida e sfiorare "Cancella sicurezza".</String>
+        <String Name="HH_IncorrectItemWeightLeadthru">Rimuovere l'articolo e sfiorare "Cancella sicurezza" o "Convalida&amp;aggiorna peso".</String>
+        <String Name="HH_UnexpectedIncreaseLeadthru">Rimuovere gli articoli extra in corsia e sfiorare "Cancella sicurezza".</String>
+        <String Name="HH_SkipBaggingBtnThresholdLeadthru">Verificare gli articoli in corsia e sfiorare "Cancella sicurezza".</String>
+        <String Name="HH_VoidItemLeadthru">Scansionare o scorrere fino all'articolo sulla ricevuta. Sfiorare "Annulla articolo" o "Annulla tutti".</String>
+	<String Name="HH_TransactionCancelLeadThru">Transazione annullata. Rimuovere gli articoli da questa cassa.</String>        
+	<String Name="ExpandReceiptButtonText">Espandi ricevuta</String>
+	<String Name="CollapseReceiptButtonText">Riduci ricevuta</String>
+      </StringTable>
+    </Language>
+  </Languages>
+</Display>

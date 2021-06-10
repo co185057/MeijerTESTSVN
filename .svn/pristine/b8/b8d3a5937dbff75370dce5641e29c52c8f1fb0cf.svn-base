@@ -1,0 +1,58 @@
+<Display Version="1.0">
+	<Languages>
+		<Language Name="0c0a">
+			<StringTable>
+				<String Name="MainTitle">Configuración de PAR</String>
+				<String Name="AddButtonText">Añadir</String>
+				<String Name="AddLaneTitle">Añadir caja</String>
+				<String Name="ApplyButtonText">Aplicar</String>
+				<String Name="Backspace">Retroceso</String>				
+				<String Name="CancelButtonText">Cancelar</String>
+				<String Name="ConfigTypeText">Tipo de configuración de caja:</String>
+				<String Name="ConfirmDeleteTitle">Confirmar eliminación</String>
+				<String Name="ConfirmDeleteText">Desea eliminar la caja:</String>
+				<String Name="ConfirmExitTitle">Confirmar salida</String>
+				<String Name="ConfirmExitText">¿Desea realmente descartar estos cambios?</String>
+				<String Name="ConfirmSaveTitle">Confirmar guardado</String>
+				<String Name="ConfirmSaveText">Va a guardar los cambios en RapNet.xml. ¿Desea realmente continuar?</String>
+				<String Name="DeleteButtonText">Eliminar</String>
+				<String Name="DuplicateIPTitle">Duplicar dirección IP</String>
+				<String Name="DuplicateLaneTitle">Caisse en double trouvée</String>
+				<String Name="DuplicateLaneText">La caja %s ya existe</String>
+				<String Name="EditLaneTitle">Editar caja</String>
+				<String Name="EmptyText">Vacío</String>
+				<String Name="Enter">Intro</String>
+				<String Name="EnterHostNameInstruction">Teclee el Nombre del host y toque "Intro".</String>
+				<String Name="EnterIPAddressInstruction">Teclee la dirección IP y toque "Intro".</String>
+				<String Name="EnterIPOctetInstruction">Teclee el Octeto IP y toque "Intro".</String>
+				<String Name="EnterHostNameText">Introduzca el nombre de host de la caja</String>
+				<String Name="EnterIPAddressText">Introduzca la dirección IP de la caja</String>
+				<String Name="EnterIPOctetText">Introduzca octeto de IP</String>
+				<String Name="ErrorText">Error</String>
+				<String Name="ExitButtonText">Salir</String>
+				<String Name="FileErrorTitle">No se encontró el archivo</String>
+				<String Name="FileErrorText">Error: No se encontró el archivo RapNet.xml.</String>
+				<String Name="HostNameText">Nombre de host</String>
+				<String Name="IPAddressText">Dirección IP</String>
+				<String Name="IPOctetText">IP Octet</String>
+				<String Name="LaneText">Caja</String>
+				<String Name="MoveButtonText">Mover</String>
+				<String Name="NoButtonText">No</String>
+				<String Name="NoLane">Se han eliminado todas las cajas</String>
+				<String Name="NoLaneToDelete">No hay más cajas que eliminar.</String>
+				<String Name="NoLaneWarningTitle">RapNet.xml no tiene cajas</String>
+				<String Name="NoLaneWarningText">Advertencia: RapNet.xml no tiene ninguna caja configurada.</String>
+				<String Name="OkButtonText">Aceptar</String>
+				<String Name="RestartRAPTitle">Reiniciar PAR</String>
+				<String Name="RestartRAPText">Es necesario reiniciar PAR.</String>
+				<String Name="SameRapIPAddress">No puede utilizar la misma dirección IP que la dirección IP del PAR de escritorio: %s</String>
+				<String Name="SameHHRapIPAddress">No puede utilizar la misma dirección IP que la dirección IP del PAR de mano: %s</String>
+				<String Name="SaveButtonText">Guardar</String>
+				<String Name="SelectLaneToDelete">Seleccione la caja a eliminar</String>
+				<String Name="SelectSourceText">Seleccione la caja a mover</String>
+				<String Name="SelectDestinationText">Seleccione destino</String>
+				<String Name="YesButtonText">Sí</String>
+			</StringTable>
+		</Language>
+	</Languages>
+</Display>

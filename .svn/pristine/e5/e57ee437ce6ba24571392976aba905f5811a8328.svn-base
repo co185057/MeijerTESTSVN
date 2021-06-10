@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<HTML>
+	<head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<link href="FastLaneMMbase.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<BODY>
+		<div id="TopBanner" class="TopBanner">
+			<div align="center" class="Title">Unknown Device Error</div>
+		</div>
+		<div id="SubTitleMid" class="SubTitleMid">
+			<div align="center" class="SubTitle"></div>
+		</div>
+		<<div id="Layer1"   class="ParagraphNoImage">
+			<p class="ParagraphBold">Unknown Device Error</p>			
+		</div>
+
+	<div id="ErrorCode" class="ErrorCodeNoImage">
+		<div id="ErrorCode2" style="position:relative; z-index:5; left: 0px; top: 0px; width: 814px; height:30px;color:#FFFFFF; background-color:#000000;" >%s</div>
+
+	</div>
+</BODY>
+</HTML>

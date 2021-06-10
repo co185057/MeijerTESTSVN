@@ -1,0 +1,859 @@
+;input file for ADD.exe
+;
+; [Devices] section list all the devices
+; Action sections lists all the action to take
+; The following is the action keys:
+;
+; //
+; // RReg=key\value=             Read registry
+; // Reg=key\value=Data          Write to registry
+; // Cmd=anything   		 any command that can be run on dos prompt             
+; // Ini=file[Section]data	 change INi file entries
+; // Sec=SectionName		 Do the subsection
+; // DoSecIfReg=key\value=data?SectionName:SectionName
+    
+
+[Globals]
+OPOS=SOFTWARE\OLEforRetail\ServiceOPOS
+DM=SOFTWARE\NCR\Device Manager\Devices
+DMX=SOFTWARE\NCR\DeviceManagerEx\Devices\Local
+DMCONFIG=SOFTWARE\NCR\SCOT\CurrentVersion\DMConfig
+ADDKEY=SOFTWARE\NCR\ADD
+
+;always called by ADD before device detection
+;Hardware specific PreADD called first, then the common PreADD.
+;For example, for 3x hardware, [3XPreADD] called first, then [PreADD] called
+[3XPreADD]
+cmd=cmd.exe /c %APP_DRIVE%\scot\bin\FixEdgePort.bat
+
+[4XPreADD]
+cmd=cmd.exe /c %APP_DRIVE%\scot\bin\UpdatePDAOnLane.bat
+
+[PreADD]
+cmd=cmd.exe /c %APP_DRIVE%\scot\bin\FixScreenSaver.bat
+
+; Parsed by ADD, list all the device type and models to detec
+[4XDevices]
+Printer=F306
+BagScale=Flintec 
+CashAcceptor=CashFlow66, CashFlow83
+CoinAcceptor=CF9520
+CoinDispenser=Telequip,Hopper
+Scanner=7875ASIC, 7872PreASIC 
+SigCap=Topaz, TopazHSB
+LaneLight=JoslynClark
+OnTrak=ADU497, IOBox
+SerialAdapter=Prolific
+EdgePort=2Ports
+Recycler=Glory 
+UPS=Powerware3115,Blazer
+CardDispenser=Sankyo3Q8,Sankyo2Q8
+
+; Parsed by ADD, list all the device type and models to detec
+[TENDERSTATIONDevices]
+Printer=F306
+SigCap=Topaz, TopazHSB 
+Recycler=SafePay
+
+[3XDevices]
+Printer=K580, K590, F306
+BagScale=TedeaHuntleigh, Flintec 
+CashAcceptor=ZT1000, CashFlow66, CashFlow83, Ardac
+EdgePort=2Ports
+UPS=Powerware3115,Blazer
+
+[2XDevices]
+Printer=K580, K590, F306
+;BagScale=TedeaHuntleigh, Flintec
+CashAcceptor=ZT1000, CashFlow66, CashFlow83, Ardac
+EdgePort=2Ports
+
+[EPMCDevices]
+Printer=F306
+CashAcceptor=CashFlow66, CashFlow83
+CoinAcceptor=CF9520
+CoinDispenser=Telequip,Hopper
+LaneLight=JoslynClark
+OnTrak=ADU497, IOBox
+SerialAdapter=Prolific
+EdgePort=2Ports
+UPS=Powerware3115,Blazer
+CardDispenser=Sankyo3Q8,Sankyo2Q8
+
+[MULTIDevices]
+Printer=F306
+CashAcceptor=CashFlow66, CashFlow83
+CoinAcceptor=CF9520
+CoinDispenser=Telequip,Hopper
+LaneLight=JoslynClark
+OnTrak=ADU497, IOBox
+EdgePort=2Ports
+UPS=Powerware3115,Blazer
+CardDispenser=Sankyo3Q8,Sankyo2Q8
+EdgePort=2Ports
+UPS=Powerware3115,Blazer
+CardDispenser=Sankyo3Q8,Sankyo2Q8
+
+
+;If Hardware specific section not exist, then call the base one
+;for example, for K590 on 3X hardware, it will use the section [PrinterK590]
+;------------------------------------------------------------
+;Printer
+;------------------------------------------------------------
+[PrinterK590]
+ComParameters=com8 baud=115200 parity=n data=8 stop=1 to=on xon=off odsr=off octs=off dtr=on rts=on idsr=off
+Action=[PrinterK590.Action]
+
+[PrinterK580]
+ComParameters=com8 baud=115200 parity=n data=8 stop=1 to=on xon=off odsr=off octs=off dtr=on rts=on idsr=off
+Action=[PrinterK580.Action]
+
+[2XPrinterK590]
+ComParameters=com2 baud=115200 parity=n data=8 stop=1 to=on xon=off odsr=off octs=off dtr=on rts=on idsr=off
+Action=[PrinterK590.Action]
+
+[2XPrinterK580]
+ComParameters=com2 baud=115200 parity=n data=8 stop=1 to=on xon=off odsr=off octs=off dtr=on rts=on idsr=off
+Action=[PrinterK580.Action]
+
+[4XPrinterF306]
+VIDPID=VID_0404&PID_0310
+ComParameters=com8 baud=115200 parity=n data=8 stop=1 to=on xon=off odsr=off octs=off dtr=on rts=on idsr=off
+Action=[PrinterF306.Action]
+
+[TENDERSTATIONPrinterF306]
+VIDPID=VID_0404&PID_0310
+ComParameters=com8 baud=115200 parity=n data=8 stop=1 to=on xon=off odsr=off octs=off dtr=on rts=on idsr=off
+Action=[PrinterF306.Action]
+
+[EPMCPrinterF306]
+VIDPID=VID_0404&PID_0310
+ComParameters=com8 baud=115200 parity=n data=8 stop=1 to=on xon=off odsr=off octs=off dtr=on rts=on idsr=off
+Action=[PrinterF306.Action]
+
+[MULTIPrinterF306]
+VIDPID=VID_0404&PID_0310
+ComParameters=com8 baud=115200 parity=n data=8 stop=1 to=on xon=off odsr=off octs=off dtr=on rts=on idsr=off
+Action=[PrinterF306.Action]
+
+[2XPrinterF306]
+ComParameters=com2 baud=115200 parity=n data=8 stop=1 to=on xon=off odsr=off octs=off dtr=on rts=on idsr=off
+Action=[PrinterF306.Action]
+
+[PrinterF306]
+ComParameters=com8 baud=115200 parity=n data=8 stop=1 to=on xon=off odsr=off octs=off dtr=on rts=on idsr=off
+Action=[PrinterF306.Action]
+
+[PrinterK590.Action]
+Reg=%OPOS%\POSPrinter\ScotRec=ScotRecK5xx
+Reg=%ADDKEY%\POSPrinterRec\DetectedDevice=K590
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH USD K590
+;Ini=%SCOTBMPS%[Bmps]140=10x7_K590_PrinterCabDoorOpen.jpg
+
+[PrinterK580.Action]
+Reg=%OPOS%\POSPrinter\ScotRec=ScotRecK5xx
+Reg=%ADDKEY%\POSPrinterRec\DetectedDevice=K580
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH USD K580
+
+[PrinterF306.Action]
+Reg=%OPOS%\POSPrinter\ScotRec=ScotRecF306
+Reg=%ADDKEY%\POSPrinterRec\DetectedDevice=F306
+DoSecIfReg=%ADDKEY%\POSPrinterRec\IsUSB=TRUE?PrinterF306.USB.TRUE:PrinterF306.USB.FALSE
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH USD F306
+
+[PrinterF306.USB.TRUE]
+Reg=%OPOS%\POSPrinter\ScotRecF306\Port=USB
+[PrinterF306.USB.FALSE]
+
+[PrinterDefault.Action]
+DoSecIfReg=%DMX%\Printer\Emulator - Receipt\Configure=No?PrinterDefault.Action.REAL:PrinterDefault.Action.NONE
+
+[PrinterDefault.Action.REAL]
+;Reg=%OPOS%\POSPrinter\ScotRec=ScotRecK5xx
+
+[PrinterDefault.Action.NONE]
+
+;------------------------------------------------------------
+;BagScale
+;------------------------------------------------------------
+[4XBagScaleFlintec]
+ComParameters=com1 baud=57600 parity=n data=8 stop=2
+Action=[BagScaleFlintec.Action]
+
+[4XBagScaleTedeaHuntleigh]
+ComParameters=com1 baud=9600 parity=n data=8 stop=1
+Action=[BagScaleTedeaHuntleigh.Action]
+
+[3XBagScaleFlintec]
+ComParameters=com11 baud=57600 parity=n data=8 stop=2
+Action=[BagScaleFlintec.Action]
+
+[3XBagScaleTedeaHuntleigh]
+ComParameters=com11 baud=9600 parity=n data=8 stop=1
+Action=[BagScaleTedeaHuntleigh.Action]
+
+[2XBagScaleTedeaHuntleigh]
+ComParameters=com3 baud=9600 parity=n data=8 stop=1
+Action=[BagScaleTedeaHuntleigh.Action]
+
+[2XBagScaleFlintec]
+ComParameters=com3 baud=57600 parity=n data=8 stop=2
+Action=[BagScaleFlintec.Action]
+
+[BagScaleFlintec.Action]
+Reg=%OPOS%\Scale\SecurityScale3.0=BagScaleFlintec
+Reg=%DMCONFIG%\BagScale\CurrentState=2
+Reg=%ADDKEY%\BagScale\DetectedDevice=Flintec
+Cmd=cmd.exe /c %APP_DRIVE%\scot\bin\updateflintec.bat
+Cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\Util\GetSOFirmware.bat BagScaleFlintec %OPOS%\Scale\BagScaleFlintec
+
+[BagScaleTedeaHuntleigh.Action]
+Reg=%OPOS%\Scale\SecurityScale3.0=BagScaleTH
+Reg=%ADDKEY%\BagScale\DetectedDevice=TedeaHuntleigh
+Cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\Util\GetSOFirmware.bat BagScaleTedeaHuntleigh SOFTWARE\OLEforRetail\ServiceOPOS\Scale\TedeaHuntleigh.old
+
+
+[BagScaleDefault.Action]
+DoSecIfReg=%OPOS%\Scale\SecurityScale3.0=BagScaleEmulator?BagScaleDefault.Action.NONE:BagScaleDefault.Action.REAL
+
+[BagScaleDefault.Action.REAL]
+;Reg=%OPOS%\Scale\SecurityScale3.0=BagScaleTH
+[BagScaleDefault.Action.NONE]
+
+;------------------------------------------------------------
+;Cash Acceptor
+;------------------------------------------------------------
+[CashAcceptorZT1000]
+ComParameters=com6 baud=9600 parity=e data=7 stop=1
+Action=[CashAcceptorZT1000.Action]
+
+[CashAcceptorArdac]
+ComParameters=com6 baud=9600 parity=o data=8 stop=1 xon=off octs=off odsr=off idsr=off dtr=off to=off
+Action=[CashAcceptorArdac.Action]
+
+[CashAcceptorCashFlow66]
+ComParameters=com6 baud=9600 parity=e data=7 stop=1
+Action=[CashAcceptorCashFlow66.Action]
+
+[CashAcceptorCashFlow83]
+ComParameters=com6 baud=9600 parity=e data=7 stop=1
+Action=[CashAcceptorCashFlow83.Action]
+
+[2XCashAcceptorZT1000]
+ComParameters=com5 baud=9600 parity=e data=7 stop=1
+Action=[CashAcceptorZT1000.Action]
+
+[2XCashAcceptorArdac]
+ComParameters=com5 baud=9600 parity=o data=8 stop=1 xon=off octs=off odsr=off idsr=off dtr=off to=off
+Action=[CashAcceptorArdac.Action]
+
+[2XCashAcceptorCashFlow66]
+ComParameters=com5 baud=9600 parity=e data=7 stop=1
+Action=[CashAcceptorCashFlow66.Action]
+
+[2XCashAcceptorCashFlow83]
+ComParameters=com5 baud=9600 parity=e data=7 stop=1
+Action=[CashAcceptorCashFlow83.Action]
+
+[EPMCCashAcceptorCashFlow66]
+ComParameters=com1 baud=9600 parity=e data=7 stop=1
+Action=[CashAcceptorCashFlow66.Action]
+
+[MULTICashAcceptorCashFlow66]
+ComParameters=com1 baud=9600 parity=e data=7 stop=1
+Action=[CashAcceptorCashFlow66.Action]
+
+[EPMCCashAcceptorCashFlow83]
+ComParameters=com1 baud=9600 parity=e data=7 stop=1
+Action=[CashAcceptorCashFlow83.Action]
+
+[MULTICashAcceptorCashFlow83]
+ComParameters=com1 baud=9600 parity=e data=7 stop=1
+Action=[CashAcceptorCashFlow83.Action]
+
+
+[CashAcceptorZT1000.Action]
+Reg=%ADDKEY%\CashAcceptor\DetectedDevice=ZT1000
+Sec=CashAcceptorZTCFCommon.Action
+
+[CashAcceptorCashFlow66.Action]
+Reg=%ADDKEY%\CashAcceptor\DetectedDevice=CashFlow66
+Sec=CashAcceptorZTCFCommon.Action
+
+[CashAcceptorCashFlow83.Action]
+Reg=%ADDKEY%\CashAcceptor\DetectedDevice=CashFlow83
+Sec=CashAcceptorSC83.Action
+
+[CashAcceptorZTCFCommon.Action]
+Reg=%OPOS%\CashAcceptor\ZT1000=ZT1000
+Reg=%DMX%\CashRecycler\GloryRAD-70/RT-70\configure=No
+Reg=%DMX%\CashRecycler\SafePay\configure=No
+Reg=%DM%\CashAcceptor\ZT1000\configure=Yes
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=USD?CashAcceptorZT1000.Firmware.USD:CashAcceptorZT1000.Firmware.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=CDN?CashAcceptorZT1000.Firmware.CDN:CashAcceptorZT1000.Firmware.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=AUD?CashAcceptorZT1000.Firmware.AUD:CashAcceptorZT1000.Firmware.NONE
+;Reg=%OPOS%\CashAcceptor\ZT1000\Firmware Versions\AutoFlash=FALSE
+
+[CashAcceptorSC83.Action]
+Reg=%OPOS%\CashAcceptor\ZT1000=ZT1000
+Reg=%DMX%\CashRecycler\GloryRAD-70/RT-70\configure=No
+Reg=%DMX%\CashRecycler\SafePay\configure=No
+Reg=%DM%\CashAcceptor\ZT1000\configure=Yes
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=CDN?CashAcceptorSC83.Firmware.CDN:CashAcceptorZT1000.Firmware.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=EUR?CashAcceptorSC83.Firmware.EUR:CashAcceptorZT1000.Firmware.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBP?CashAcceptorSC83.Firmware.GBP:CashAcceptorZT1000.Firmware.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBPe?CashAcceptorSC83.Firmware.GBP:CashAcceptorZT1000.Firmware.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBPr?CashAcceptorSC83.Firmware.GBP:CashAcceptorZT1000.Firmware.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBPc?CashAcceptorSC83.Firmware.GBP:CashAcceptorZT1000.Firmware.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBPs?CashAcceptorSC83.Firmware.GBP:CashAcceptorZT1000.Firmware.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=JPY?CashAcceptorSC83.Firmware.JPY:CashAcceptorZT1000.Firmware.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=KRW?CashAcceptorSC83.Firmware.KRW:CashAcceptorZT1000.Firmware.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=PLN?CashAcceptorSC83.Firmware.PLN:CashAcceptorZT1000.Firmware.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=NZD?CashAcceptorSC83.Firmware.NZD:CashAcceptorZT1000.Firmware.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=MXN?CashAcceptorSC83.Firmware.MXN:CashAcceptorZT1000.Firmware.NONE
+
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=SEK?CashAcceptorSC83.Firmware.SEK:CashAcceptorZT1000.Firmware.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=TRL?CashAcceptorSC83.Firmware.TRL:CashAcceptorZT1000.Firmware.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=HUF?CashAcceptorSC83.Firmware.HUF:CashAcceptorZT1000.Firmware.NONE
+
+;Reg=%OPOS%\CashAcceptor\ZT1000\Firmware Versions\AutoFlash=FALSE
+
+[CashAcceptorZT1000.Firmware.USD]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH USD MARS
+[CashAcceptorZT1000.Firmware.CDN]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH CDN MARS
+[CashAcceptorZT1000.Firmware.AUD]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH AUD MARS
+[CashAcceptorSC83.Firmware.EUR]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH EUR MARS
+[CashAcceptorSC83.Firmware.GBP]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH GBP MARS
+[CashAcceptorSC83.Firmware.JPY]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH JPY MARS
+[CashAcceptorSC83.Firmware.KRW]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH KRW MARS
+[CashAcceptorSC83.Firmware.PLN]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH PLN MARS
+[CashAcceptorSC83.Firmware.NZD]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH NZD MARS
+[CashAcceptorSC83.Firmware.MXN]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH MXN MARS
+[CashAcceptorSC83.Firmware.SEK]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH SEK MARS
+[CashAcceptorSC83.Firmware.TRL]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH TRL MARS
+[CashAcceptorSC83.Firmware.HUF]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH HUF MARS
+
+[CashAcceptorSC83.Firmware.CDN]
+Reg=%OPOS%\CashAcceptor\ZT1000\CDNCashList=500,1000,2000,5000,10000
+Reg=%OPOS%\CashAcceptor\ZT1000\NoteMap=UNUSED,CDN500,CDN1000,CDN2000,CDN5000,CDN10000
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH CDN MARS
+
+[CashAcceptorZT1000.Firmware.NONE]
+
+[CashAcceptorArdac.Action]
+Reg=%OPOS%\CashAcceptor\ZT1000=Ardac
+Reg=%ADDKEY%\CashAcceptor\DetectedDevice=Ardac
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=EUR?CashAcceptorArdac.Firmware.EUR:CashAcceptorArdac.Firmware.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBP?CashAcceptorArdac.Firmware.GBP:CashAcceptorArdac.Firmware.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBPe?CashAcceptorArdac.Firmware.GBP:CashAcceptorArdac.Firmware.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBPr?CashAcceptorArdac.Firmware.GBP:CashAcceptorArdac.Firmware.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBPc?CashAcceptorArdac.Firmware.GBP:CashAcceptorArdac.Firmware.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBPs?CashAcceptorArdac.Firmware.GBP:CashAcceptorArdac.Firmware.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=JPY?CashAcceptorArdac.Firmware.JPY:CashAcceptorArdac.Firmware.NONE
+
+
+[CashAcceptorArdac.Firmware.EUR]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH EUR ARDAC
+[CashAcceptorArdac.Firmware.GBP]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH GBP ARDAC
+[CashAcceptorArdac.Firmware.JPY]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH JPY ARDAC
+[CashAcceptorArdac.Firmware.NONE]
+
+[CashAcceptorDefault.Action]
+DoSecIfReg=%DM%\CashAcceptor\Emulator\configure=No?CashAcceptorDefault.Action.REAL:CashAcceptorDefault.Action.NONE
+;Reg=%OPOS%\CashAcceptor\ZT1000\Firmware Versions\AutoFlash=FALSE
+
+
+[CashAcceptorDefault.Action.REAL]
+;Reg=%OPOS%\CashAcceptor\ZT1000=ZT1000
+
+[CashAcceptorDefault.Action.NONE]
+;Reg=%OPOS%\CashAcceptor\ZT1000\Firmware Versions\AutoFlash=FALSE
+
+;------------------------------------------------------------
+;Coin Acceptor
+;------------------------------------------------------------
+[CoinAcceptorCF9520]
+SOProfile=CF9520
+Action=[CoinAcceptorCF9520.Action]
+
+[CoinAcceptorCF9520.Action]
+Reg=%ADDKEY%\CoinAcceptor\DetectedDevice=CF9520
+Reg=%OPOS%\CoinAcceptor\C435S=CF9520
+Reg=%DMX%\CashRecycler\GloryRAD-70/RT-70\configure=No
+Reg=%DMX%\CashRecycler\SafePay\configure=No
+Reg=%DM%\CoinAcceptor\C435S\configure=Yes
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=USD?CoinAcceptorCF9520.USD:CoinAcceptorCF9520.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=CDN?CoinAcceptorCF9520.CDN:CoinAcceptorCF9520.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=EUR?CoinAcceptorCF9520.EUR:CoinAcceptorCF9520.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBP?CoinAcceptorCF9520.GBP:CoinAcceptorCF9520.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBPe?CoinAcceptorCF9520.GBP:CoinAcceptorCF9520.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBPr?CoinAcceptorCF9520.GBP:CoinAcceptorCF9520.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBPc?CoinAcceptorCF9520.GBP:CoinAcceptorCF9520.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBPs?CoinAcceptorCF9520.GBP:CoinAcceptorCF9520.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=JPY?CoinAcceptorCF9520.JPY:CoinAcceptorCF9520.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=AUD?CoinAcceptorCF9520.AUD:CoinAcceptorCF9520.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=KRW?CoinAcceptorCF9520.KRW:CoinAcceptorCF9520.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=PLN?CoinAcceptorCF9520.PLN:CoinAcceptorCF9520.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=NZD?CoinAcceptorCF9520.NZD:CoinAcceptorCF9520.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=MXN?CoinAcceptorCF9520.MXN:CoinAcceptorCF9520.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=SEK?CoinAcceptorCF9520.SEK:CoinAcceptorCF9520.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=TRL?CoinAcceptorCF9520.TRL:CoinAcceptorCF9520.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=HUF?CoinAcceptorCF9520.HUF:CoinAcceptorCF9520.NONE
+
+[CoinAcceptorCF9520.USD]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH USD CF9520
+
+[CoinAcceptorCF9520.CDN]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH CDN CF9520
+
+[CoinAcceptorCF9520.GBP]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH GBP CF9520
+
+[CoinAcceptorCF9520.EUR]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH EUR CF9520
+
+[CoinAcceptorCF9520.JPY]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH JPY CF9520
+
+[CoinAcceptorCF9520.AUD]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH AUD CF9520
+
+[CoinAcceptorCF9520.KRW]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH KRW CF9520
+
+[CoinAcceptorCF9520.PLN]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH PLN CF9520
+
+[CoinAcceptorCF9520.NZD]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH NZD CF9520
+
+[CoinAcceptorCF9520.MXN]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH MXN CF9520
+
+[CoinAcceptorCF9520.SEK]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH SEK CF9520
+
+[CoinAcceptorCF9520.TRL]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH TRL CF9520
+
+[CoinAcceptorCF9520.HUF]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH HUF CF9520
+
+[CoinAcceptorCF9520.NONE]
+
+[CoinAcceptorSR5]
+SOProfile=C435S
+Action=[CoinAcceptorSR5.Action]
+
+[CoinAcceptorSR5.Action]
+Reg=%ADDKEY%\CoinAcceptor\DetectedDevice=SR5
+Reg=%OPOS%\CashAcceptor\C435S=C435S
+Reg=%DMX%\CashRecycler\GloryRAD-70/RT-70\configure=No
+Reg=%DMX%\CashRecycler\SafePay\configure=No
+Reg=%DM%\CoinAcceptor\C435S\configure=Yes
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH USD SR5
+Cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\Util\GetSOFirmware.bat C435S %OPOS%\CoinAcceptor\C435S
+
+;------------------------------------------------------------
+;CoinDispenser
+;------------------------------------------------------------
+[CoinDispenserTelequip]
+;to be determined
+VIDPID=VID_14D4&PID_0000,VID_03eb&PID_0000
+Action=[CoinDispenserTelequip.Action]
+
+[CoinDispenserTelequip.Action]
+Reg=%ADDKEY%\CoinDispenser\DetectedDevice=Telequip
+Reg=%DMX%\CashRecycler\GloryRAD-70/RT-70\configure=No
+Reg=%DMX%\CashRecycler\SafePay\configure=No
+Reg=%DM%\CashChanger\ScotCashChanger\configure=Yes
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=JPY?CoinDispenserTelequip.Action.JPY:CoinDispenserTelequip.Action.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=AUD?CoinDispenserTelequip.Action.AUD:CoinDispenserTelequip.Action.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBP?CoinDispenserTelequip.Action.GBP:CoinDispenserTelequip.Action.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBPe?CoinDispenserTelequip.Action.GBP:CoinDispenserTelequip.Action.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBPr?CoinDispenserTelequip.Action.GBP:CoinDispenserTelequip.Action.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBPc?CoinDispenserTelequip.Action.GBP:CoinDispenserTelequip.Action.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBPs?CoinDispenserTelequip.Action.GBP:CoinDispenserTelquip.Action.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=EUR?CoinDispenserTelequip.Action.EUR:CoinDispenserTelequip.Action.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=USD?CoinDispenserTelequip.Action.USD:CoinDispenserTelequip.Action.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=NZD?CoinDispenserTelequip.Action.NZD:CoinDispenserTelequip.Action.NONE
+Cmd=cmd.exe /c %APP_DRIVE%\scot\bin\ADKPatch.bat CANISTER
+Cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\UpdateFirmware.bat SWITCH USD USBTQ
+;Cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\Util\GetSOFirmware.bat Telequip %OPOS%\CashChanger\Telequip
+
+[CoinDispenserTelequip.Action.JPY]
+Reg=%OPOS%\CashChanger\Telequip\CanisterType=G -> * Custom,A ARG,B USA,C CDN,D usa$1, E UK, F 3xFRN 4xAUS,G 3xGRM 4xJPY,I Euro,rest4x: J MEX,K NZD,L POL,M SKO
+[CoinDispenserTelequip.Action.AUD]
+Reg=%OPOS%\CashChanger\Telequip\CanisterType=F -> * Custom,A ARG,B USA,C CDN,D usa$1, E UK, F 3xFRN 4xAUS,G 3xGRM 4xJPY,I Euro,rest4x: J MEX,K NZD,L POL,M SKO
+
+[CoinDispenserTelequip.Action.GBP]
+Reg=%OPOS%\CashChanger\Telequip\CanisterType=E -> * Custom,A ARG,B USA,C CDN,D usa$1, E UK, F 3xFRN 4xAUS,G 3xGRM 4xJPY,I Euro,rest4x: J MEX,K NZD,L POL,M SKO
+Reg=%OPOS%\CashChanger\Telequip\Port=USB -> Must be COM1 - COM31 or USB
+Reg=%OPOS%\CashChanger\Telequip\CurrencyCode=GBP -> ISO Currency Code for the Dispenser
+Reg=%OPOS%\CashChanger\Telequip\Containers=200,5,2,20,100,10,1,50 -> Configures the units per tube in left to right order.
+Reg=%OPOS%\CashChanger\Telequip\EmptyCounts=10,15,13,15,8,14,15,14 -> Minimum number of coins per tube in left to right order. This keeps the tube from running out of coins
+Reg=%OPOS%\CashChanger\Telequip\NormalCounts=65,97,83,94,52,89,100,93 -> Normal fill level per tube in left to right order. This keeps the tube from running out of coins.
+
+[CoinDispenserTelequip.Action.EUR]
+Reg=%OPOS%\CashChanger\Telequip\CanisterType=I -> * Custom,A ARG,B USA,C CDN,D usa$1, E UK, F 3xFRN 4xAUS,G 3xGRM 4xJPY,I Euro,rest4x: J MEX,K NZD,L POL,M SKO
+Reg=%OPOS%\CashChanger\Telequip\Port=USB -> Must be COM1 - COM31 or USB
+Reg=%OPOS%\CashChanger\Telequip\CurrencyCode=EUR -> ISO Currency Code for the Dispenser
+Reg=%OPOS%\CashChanger\Telequip\Containers=200,1,20,5,10,100,2,50 -> Configures the units per tube in left to right order.
+Reg=%OPOS%\CashChanger\Telequip\EmptyCounts=9,13,11,13,12,8,13,9 -> Minimum number of coins per tube in left to right order. This keeps the tube from running out of coins
+Reg=%OPOS%\CashChanger\Telequip\NormalCounts=88,126,105,126,113,81,126,92 -> Normal fill level per tube in left to right order. This keeps the tube from running out of coins.
+
+[CoinDispenserTelequip.Action.USD]
+Reg=%OPOS%\CashChanger\Telequip\CanisterType=B -> * Custom,A ARG,B USA,C CDN,D usa$1, E UK, F 3xFRN 4xAUS,G 3xGRM 4xJPY,I Euro,rest4x: J MEX,K NZD,L POL,M SKO
+Reg=%OPOS%\CashChanger\Telequip\Port=USB -> Must be COM1 - COM31 or USB
+Reg=%OPOS%\CashChanger\Telequip\CurrencyCode=USD -> ISO Currency Code for the Dispenser
+Reg=%OPOS%\CashChanger\Telequip\Containers=25,10,1,1,1,5,10,25 -> Configures the units per tube in left to right order.
+Reg=%OPOS%\CashChanger\Telequip\EmptyCounts=11,13,12,12,12,9,13,11 -> Minimum number of coins per tube in left to right order. This keeps the tube from running out of coins
+Reg=%OPOS%\CashChanger\Telequip\NormalCounts=97,126,111,111,111,85,127,98 -> Normal fill level per tube in left to right order. This keeps the tube from running out of coins.
+
+[CoinDispenserTelequip.Action.NZD]
+Reg=%OPOS%\CashChanger\Telequip\CanisterType=K -> * Custom,A ARG,B USA,C CDN,D usa$1, E UK, F 3xFRN 4xAUS,G 3xGRM 4xJPY,I Euro,rest4x: J MEX,K NZD,L POL,M SKO
+Reg=%OPOS%\CashChanger\Telequip\Port=USB -> Must be COM1 - COM31 or USB
+Reg=%OPOS%\CashChanger\Telequip\CurrencyCode=NZD -> ISO Currency Code for the Dispenser
+Reg=%OPOS%\CashChanger\Telequip\Containers=20,5,10,100,100,10,5,20 -> Configures the units per tube in left to right order.
+Reg=%OPOS%\CashChanger\Telequip\EmptyCounts=4,8,5,3,3,5,8,4 -> Minimum number of coins per tube in left to right order. This keeps the tube from running out of coins
+Reg=%OPOS%\CashChanger\Telequip\NormalCounts=75,129,99,63,63,99,129,75 -> Normal fill level per tube in left to right order. This keeps the tube from running out of coins.
+
+[CoinDispenserTelequip.Action.NONE]
+
+[4XCoinDispenserDefault.Action]
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=JPY?CoinDispenserTelequip.Action.JPY:CoinDispenserTelequip.Action.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=AUD?CoinDispenserTelequip.Action.AUD:CoinDispenserTelequip.Action.NONE
+
+;------------------------------------------------------------
+;CoinDispenserHopper
+;------------------------------------------------------------
+[CoinDispenserHopper]
+;to be determined
+VIDPID=VID_14D4&PID_0100
+Action=[CoinDispenserHopper.Action]
+
+[CoinDispenserHopper.Action]
+Reg=%ADDKEY%\CoinDispenser\DetectedDevice=TelequipHopper
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBP?CoinDispenserHopper.Action.GBP:CoinDispenserHopper.Action.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBPe?CoinDispenserHopper.Action.GBP:CoinDispenserHopper.Action.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBPr?CoinDispenserHopper.Action.GBP:CoinDispenserHopper.Action.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBPc?CoinDispenserHopper.Action.GBP:CoinDispenserHopper.Action.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=GBPs?CoinDispenserHopper.Action.GBP:CoinDispenserHopper.Action.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=EUR?CoinDispenserHopper.Action.EUR:CoinDispenserHopper.Action.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=USD?CoinDispenserHopper.Action.USD:CoinDispenserHopper.Action.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=SEK?CoinDispenserHopper.Action.SEK:CoinDispenserHopper.Action.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=CDN?CoinDispenserHopper.Action.CDN:CoinDispenserHopper.Action.NONE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=AUD?CoinDispenserHopper.Action.AUD:CoinDispenserHopper.Action.NONE
+
+Cmd=cmd.exe /c %APP_DRIVE%\scot\bin\ADKPatch.bat 
+Cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\UpdateFirmware.bat SWITCH USD USBTQHOPPER
+;Cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\Util\GetSOFirmware.bat Telequip %OPOS%\CashChanger\Telequip
+
+[CoinDispenserHopper.Action.GBP]
+Reg=%OPOS%\CashChanger\Telequip\CanisterType=I -> I - UK, J - USA, L - Euro, Q - Sweden
+Reg=%OPOS%\CashChanger\Telequip\Port=USB -> Must be COM1 - COM31 or USB
+Reg=%OPOS%\CashChanger\Telequip\CurrencyCode=GBP -> ISO Currency Code for the Dispenser
+Reg=%OPOS%\CashChanger\Telequip\Containers=100,100,20,10,5,1,0,0 -> Configures the units per tube in left to right order.
+Reg=%OPOS%\CashChanger\Telequip\EmptyCounts=42,42,56,64,90,80,0,0 -> Minimum number of coins per tube in left to right order. This keeps the tube from running out of coins
+Reg=%OPOS%\CashChanger\Telequip\NormalCounts=313,313,656,514,1383,1008,0,0 -> Normal fill level per tube in left to right order. This keeps the tube from running out of coins.
+
+[CoinDispenserHopper.Action.EUR]
+Reg=%OPOS%\CashChanger\Telequip\CanisterType=L -> I - UK, J - USA, L - Euro, Q - Sweden
+Reg=%OPOS%\CashChanger\Telequip\Port=USB -> Must be COM1 - COM31 or USB
+Reg=%OPOS%\CashChanger\Telequip\CurrencyCode=EUR -> ISO Currency Code for the Dispenser
+Reg=%OPOS%\CashChanger\Telequip\Containers=200,100,50,10,5,1,0,0 -> Configures the units per tube in left to right order.
+Reg=%OPOS%\CashChanger\Telequip\EmptyCounts=40,60,60,80,80,100,0,0 -> Minimum number of coins per tube in left to right order. This keeps the tube from running out of coins
+Reg=%OPOS%\CashChanger\Telequip\NormalCounts=382,465,395,966,933,2904,0,0 -> Normal fill level per tube in left to right order. This keeps the tube from running out of coins.
+
+[CoinDispenserHopper.Action.USD]
+Reg=%OPOS%\CashChanger\Telequip\CanisterType=J -> I - UK, J - USA, L - Euro, Q - Sweden
+Reg=%OPOS%\CashChanger\Telequip\Port=USB -> Must be COM1 - COM31 or USB
+Reg=%OPOS%\CashChanger\Telequip\CurrencyCode=USD -> ISO Currency Code for the Dispenser
+Reg=%OPOS%\CashChanger\Telequip\Containers=25,5,1,0,0,0,0,0 -> Configures the units per tube in left to right order.
+Reg=%OPOS%\CashChanger\Telequip\EmptyCounts=57,63,73,0,0,0,0,0 -> Minimum number of coins per tube in left to right order. This keeps the tube from running out of coins
+Reg=%OPOS%\CashChanger\Telequip\NormalCounts=600,700,1400,0,0,0,0,0 -> Normal fill level per tube in left to right order. This keeps the tube from running out of coins.
+
+[CoinDispenserHopper.Action.SEK]
+Reg=%OPOS%\CashChanger\Telequip\CanisterType=Q -> I - UK, J - USA, L - Euro, Q - Sweden
+Reg=%OPOS%\CashChanger\Telequip\Port=USB -> Must be COM1 - COM31 or USB
+Reg=%OPOS%\CashChanger\Telequip\CurrencyCode=SEK -> ISO Currency Code for the Dispenser
+Reg=%OPOS%\CashChanger\Telequip\Containers=500,100,50,0,0,0,0,0 -> Configures the units per tube in left to right order.
+Reg=%OPOS%\CashChanger\Telequip\EmptyCounts=50,64,92,0,0,0,0,0 -> Minimum number of coins per tube in left to right order. This keeps the tube from running out of coins
+Reg=%OPOS%\CashChanger\Telequip\NormalCounts=450,514,2904,0,0,0,0,0 -> Normal fill level per tube in left to right order. This keeps the tube from running out of coins.
+
+[CoinDispenserHopper.Action.CDN]
+Reg=%OPOS%\CashChanger\Telequip\CanisterType=M -> I - UK, J - USA, L - Euro,M - CANADA, Q - Sweden, U- Australia
+Reg=%OPOS%\CashChanger\Telequip\Port=USB -> Must be COM1 - COM31 or USB
+Reg=%OPOS%\CashChanger\Telequip\CurrencyCode=CDN -> ISO Currency Code for the Dispenser
+Reg=%OPOS%\CashChanger\Telequip\Containers=200,100,25,10,5,1,0,0 -> Configures the units per tube in left to right order.
+Reg=%OPOS%\CashChanger\Telequip\EmptyCounts=58,37,57,97,63,73,0,0 -> Minimum number of coins per tube in left to right order. This keeps the tube from running out of coins
+Reg=%OPOS%\CashChanger\Telequip\NormalCounts=450,480,600,1880,700,1400,0,0 -> Normal fill level per tube in left to right order. This keeps the tube from running out of coins.
+
+[CoinDispenserHopper.Action.AUD]
+Reg=%OPOS%\CashChanger\Telequip\CanisterType=U -> I - UK, J - USA, L - Euro,M - CANADA, Q - Sweden, U- Australia
+Reg=%OPOS%\CashChanger\Telequip\Port=USB -> Must be COM1 - COM31 or USB
+Reg=%OPOS%\CashChanger\Telequip\CurrencyCode=AUD -> ISO Currency Code for the Dispenser
+Reg=%OPOS%\CashChanger\Telequip\Containers=200,100,20,20,10,5,0,0 -> Configures the units per tube in left to right order.
+Reg=%OPOS%\CashChanger\Telequip\EmptyCounts=53,36,44,44,53,73,0,0 -> Minimum number of coins per tube in left to right order. This keeps the tube from running out of coins
+Reg=%OPOS%\CashChanger\Telequip\NormalCounts=500,450,400,400,600,1300,0,0 -> Normal fill level per tube in left to right order. This keeps the tube from running out of coins.
+
+
+
+[CoinDispenserHopper.Action.NONE]
+;------------------------------------------------------------
+;USB Scanner
+;------------------------------------------------------------
+[Scanner7875ASIC]
+VIDPID=VID_0404&PID_0203
+Action=[Scanner7875ASIC.Action]
+
+[Scanner7875ASIC.Action]
+Reg=%ADDKEY%\Scanner\DetectedDevice=7875ASIC
+
+[Scanner7872PreASIC]
+VIDPID=VID_0404&PID_0202
+Action=[Scanner7872PreASIC.Action]
+
+[Scanner7875PreASIC.Action]
+Reg=%ADDKEY%\Scanner\DetectedDevice=7872PreASIC
+
+;------------------------------------------------------------
+;Signature Capture
+;------------------------------------------------------------
+[SigCapTopaz]
+VIDPID=vid_06a8&pid_0042
+Action=[SigCapTopaz.Action]
+
+[SigCapTopaz.Action]
+Reg=%ADDKEY%\SigCap\DetectedDevice=Topaz
+Reg=%OPOS%\SignatureCapture\TopazSigCap\Mode=2
+Cmd=cmd.exe /c %APP_DRIVE%\scot\bin\Topaz.bat 
+
+[SigCapTopazHSB]
+VIDPID=vid_06a8&pid_0043
+Action=[SigCapTopazHSB.Action]
+
+[SigCapTopazHSB.Action]
+Reg=%ADDKEY%\SigCap\DetectedDevice=TopazHSB
+Reg=%OPOS%\SignatureCapture\TopazSigCap\Mode=6
+Cmd=cmd.exe /c %APP_DRIVE%\scot\bin\TopazHSB.bat 
+;------------------------------------------------------------
+;TriLane-Lights
+;------------------------------------------------------------
+[LaneLightJoslynClark]
+VIDPID=vid_0403&pid_6006
+Action=[LaneLightJoslynClark.Action]
+
+[LaneLightJoslynClark.Action]
+Reg=%ADDKEY%\LaneLight\DetectedDevice=JoslynClark
+Reg=%OPOS%\MiscIF\ScotMisc=JoslynClark - MiscIF
+Reg=%OPOS%\MiscIF\Indicators=JoslynClark - MiscIF
+
+;------------------------------------------------------------
+;onTrak
+;------------------------------------------------------------
+[OnTrakADU497]
+VIDPID=VID_0A07&PID_01F1 
+Action=[OnTrakADU497.Action]
+
+[OnTrakADU497.Action]
+Reg=%ADDKEY%\OnTrak\DetectedDevice=ADU497
+Reg=%OPOS%\Keylock\OnTrak - Keylock\Port=USB
+
+[OnTrakIOBox]
+VIDPID=VID_0404&PID_0344,VID_0404&PID_0345
+Action=[OnTrakIOBox.Action]
+
+[OnTrakIOBox.Action]
+Reg=%ADDKEY%\OnTrak\DetectedDevice=IOBox
+Reg=%OPOS%\Keylock\OnTrak - Keylock\Port=USB
+Reg=%OPOS%\Keylock\OnTrak - Keylock\Sensor 3\MotionStateIsHigh=TRUE
+Reg=%OPOS%\Keylock\OnTrak - Keylock\Sensor 8\MotionStateIsHigh=TRUE
+Reg=%OPOS%\Keylock\OnTrak - Keylock\Sensor 9\MotionStateIsHigh=TRUE
+Reg=%OPOS%\MiscIF\ScotMisc=OnTrak - MiscIF
+Reg=%OPOS%\MiscIF\Indicators=OnTrak - MiscIF
+Cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updatefirmware.bat SWITCH USD IOBOX
+Cmd=cmd.exe /c %APP_DRIVE%\scot\bin\FixPagerSensormaticIOBox.bat
+
+
+;------------------------------------------------------------
+;UPS devices
+;------------------------------------------------------------
+[UPSPowerware3115]
+Action=[UPSPowerware3115.Action]
+
+[UPSPowerware3115.Action]
+Reg=%OPOS%\POSPower\UPS\Model=Powerware3115
+Cmd=cmd.exe /c %APP_DRIVE%\scot\bin\POSPowerMonitor.exe
+
+[UPSBlazer]
+Action=[UPSBlazer.Action]
+
+[UPSBlazer.Action]
+Reg=%OPOS%\POSPower\UPS\Model=Blazer
+Cmd=cmd.exe /c %APP_DRIVE%\scot\bin\POSPowerMonitor.exe
+
+;------------------------------------------------------------
+;Card Dispenser
+;------------------------------------------------------------
+[CardDispenserSankyo3Q8]
+Action=[CardDispenserSankyo3Q8.Action]
+
+[CardDispenserSankyo3Q8.Action]
+Reg=%OPOS%\POintCardRW\CardDispenser\Model=Sankyo3Q8
+Cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updatefirmware.bat SWITCH USD CardDispenser
+Reg=%DMX%\PointCardRW\CardDispenser\Configure=Yes
+
+[CardDispenserSankyo2Q8]
+Action=[CardDispenserSankyo2Q8.Action]
+
+[CardDispenserSankyo2Q8.Action]
+Reg=%OPOS%\POintCardRW\CardDispenser\Model=Sankyo2Q8
+Cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updatefirmware.bat SWITCH USD CardDispenser
+Reg=%DMX%\PointCardRW\CardDispenser\Configure=Yes
+
+;------------------------------------------------------------
+;USB-to-Serial adapter
+;------------------------------------------------------------
+[SerialAdapterProlific]
+VIDPID=VID_067b&PID_2303
+Action=[SerialAdapterProlific.Action]
+
+[EPMCSerialAdapterProlific]
+VIDPID=VID_067b&PID_2303
+Action=[EPMCSerialAdapterProlific.Action]
+
+[SerialAdapterProlific.Action]
+Reg=%ADDKEY%\SerialAdapter\DetectedDevice=Prolific
+Cmd=cmd.exe /c %APP_DRIVE%\scot\bin\FixPagerSensormatic.bat
+
+[EPMCSerialAdapterProlific.Action]
+Reg=%ADDKEY%\SerialAdapter\DetectedDevice=Prolific
+Cmd=cmd.exe /c %APP_DRIVE%\scot\bin\FixMoneyOrder.bat
+
+;------------------------------------------------------------
+;Edgeport detection
+;------------------------------------------------------------
+[4XEdgePort2Ports]
+VIDPID=Vid_1608&Pid_0205,Vid_1608&Pid_0005
+Action=[EdgePort2Ports.Action]
+
+[EPMCEdgePort2Ports]
+VIDPID=Vid_1608&Pid_0205,Vid_1608&Pid_0005
+Action=[EdgePort2Ports.Action]
+
+[EdgePort2Ports]
+VIDPID=Vid_1608&Pid_0205,Vid_1608&Pid_0005
+Action=[EdgePort2Ports.Action]
+
+[EdgePort2Ports.Action]
+Cmd=cmd.exe /c %APP_DRIVE%\scot\bin\FixPagerSensormatic.bat
+
+;------------------------------------------------------------
+;Recycler: Glory (cash and coins) - for Japan only
+;------------------------------------------------------------
+
+[RecyclerGlory]
+SOProfile=GloryRAD-70/RT-70
+Action=[RecyclerGlory.Action]
+
+[RecyclerGlory.Action]
+Reg=%ADDKEY%\Recycler\DetectedDevice=GloryRAD-70/RT-70
+Reg=%DMX%\CashRecycler\GloryRAD-70/RT-70\configure=Yes
+Reg=%DMX%\CashRecycler\SafePay\configure=No
+Reg=%DM%\CashRecycler\GloryRAD-70/RT-70\Order=0
+Reg=%DM%\CashAcceptor\ZT1000\configure=No
+Reg=%DM%\CashChanger\ScotCashChanger\configure=No
+Reg=%DM%\CoinAcceptor\C435S\configure=No
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=JPY?RecyclerGlory.Action.JPY:RecyclerGlory.Action.NONE
+
+
+[RecyclerGlory.Action.JPY]
+Cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updatefirmware.bat SWITCH JPY GLORY 
+
+;------------------------------------------------------------
+;Recycler: SafePay (cash and coins) - for EUR only, no FW update
+;------------------------------------------------------------
+
+[RecyclerSafePay]
+SOProfile=SafePay
+Action=[RecyclerSafePay.Action]
+
+[RecyclerSafePay.Action]
+Reg=%ADDKEY%\Recycler\DetectedDevice=SafePay
+Reg=%DMX%\CashRecycler\GloryRAD-70/RT-70\configure=No
+Reg=%DMX%\CashRecycler\SafePay\configure=Yes
+Reg=%DM%\CashAcceptor\ZT1000\configure=No
+Reg=%DM%\CashChanger\ScotCashChanger\configure=No
+Reg=%DM%\CoinAcceptor\C435S\configure=No
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=EUR?RecyclerSafePay.Action.EUR:RecyclerSafePay.Action.NONE
+
+
+[RecyclerSafePay.Action.EUR]
+Cmd=cmd.exe /c %APP_DRIVE%\scot\bin\SafePayTB.bat 
+;CMal012506: no current FW update exists on SafePay
+;Cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updatefirmware.bat SWITCH EUR SAFEPAY 
+
+;------------------------------------------------------------
+;action after device detection
+;----------------------------------------------------------------------
+[2XPostADD]
+;the second parameter USD is not used, just for consistence
+Cmd=cmd.exe /c %APP_DRIVE%\scot\bin\Fix2x7402.bat 
+
+
+[3XPostADD]
+;the second parameter USD is not used, just for consistence
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH USD SR5
+
+[4XPostADD]
+DoSecIfReg=SOFTWARE\NCR\Device Manager\Devices\CashChanger\ScotCashChanger\Configure=Yes?5635.FirmwareReport:5635.FirmwareReport.NONE
+
+[5635.FirmwareReport]
+Cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\Util\GetSOFirmware.bat CashDispenser5635 SOFTWARE\OLEforRetail\ServiceOPOS\CashChanger\5633CurrDisp
+
+[5635.FirmwareReport.NONE]
+
+[PostADD]
+cmd=cmd.exe /c %APP_DRIVE%\scot\bin\checkFailure.bat LANE
+DoSecIfReg=SOFTWARE\NCR\SCOT\Installation\Currency\CountryCode=JPY?TerminalInfo.JPY:TerminalInfo.NONJPY
+DoSecIfReg=SOFTWARE\NCR\DeviceManagerEx\Devices\Local\MSR\MotorCardReader\Configure=Yes?MCRW.FirmwareUpdate:MCRW.FirmwareUpdate.NONE
+cmd=cmd.exe /c %APP_DRIVE%\scot\bin\showusbportV.bat
+Sec=CashAcceptorZTAutoFlash
+
+[TerminalInfo.JPY]
+cmd=cmd.exe /c %APP_DRIVE%\scot\bin\TerminalInfoU.exe -s
+
+[TerminalInfo.NONJPY]
+cmd=cmd.exe /c %APP_DRIVE%\scot\bin\TerminalInfo.exe -s
+
+[CashAcceptorZTAutoFlash]
+DoSecIfReg=SOFTWARE\NCR\ADD\CashAcceptor\DetectedDevice=ZT1000?FixZT1000AutoFlash:FixZT1000AutoFlash.None
+
+[FixZT1000AutoFlash]
+Reg=%OPOS%\CashAcceptor\ZT1000\Firmware Versions\AutoFlash=TRUE
+
+[FixZT1000AutoFlash.None]
+;none
+
+[MCRW.FirmwareUpdate]
+cmd=cmd.exe /c %APP_DRIVE%\scot\firmware\updateFirmware.bat SWITCH USD MCRW
+
+[MCRW.FirmwareUpdate.NONE]
+
+
+

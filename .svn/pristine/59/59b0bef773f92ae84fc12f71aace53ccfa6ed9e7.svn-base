@@ -1,0 +1,97 @@
+﻿<Display Version="1.0">
+  <Languages>
+    <Language Name="0c0c"> French - Canada
+      <StringTable>
+        <!-- Start of Main Screen Context -->
+        <String Name="MinMaxFastLaneBtnPrimaryTxt">Minimiser l'application de FastLane</String>
+        <String Name="MinMaxFastLaneBtnSecondaryTxt">Maximiser l'application de FastLane</String>
+        <String Name="MinMaxFastLaneBtnPrimaryShowConfirmation">Pour réduire FastLane, appuyez sur le bouton « Réduire FastLane ».</String>
+        <String Name="MinMaxFastLaneBtnSecondaryShowConfirmation">Pour agrandir FastLane, appuyez sur le bouton « Agrandir FastLane ».</String>
+        <String Name="StopStartFastLaneBtnPrimaryTxt">Arrêter FastLane</String>
+        <String Name="StopStartFastLaneBtnSecondaryTxt">Démarrer FastLane</String>
+        <String Name="SwitchToRAPBtnPrimaryTxt">Passer à l'application de PAD</String>
+        <String Name="ShutdownSystemBtnPrimaryTxt">Arrêter tout le système</String>
+        <String Name="RebootSystemBtnPrimaryTxt">Redémarrer tout le système</String>
+        <String Name="VolumeBtnPrimaryTxt">Contrôle du volume</String>
+        <String Name="EventViewerBtnPrimaryTxt">Affichage des événements</String>
+        <String Name="GenerateLogBtnPrimaryTxt">Générer les fichiers du journal de diagnostic</String>
+        <String Name="ExitFastLaneAndRunProfileBtnPrimaryTxt">Arrêter FastLane et exécuter Profile Manager</String>
+        <String Name="ExitFastLaneAndRunProfileBtnSecondaryTxt">Exécuter la gestion de profil</String>
+        <String Name="TerminalInfoBtnPrimaryTxt">Information de poste</String>
+        <String Name="MinMaxRAPBtnPrimaryTxt">Minimiser l'application de PAD</String>
+        <String Name="MinMaxRAPBtnSecondaryTxt">Maximiser l'application de PAD</String>
+        <String Name="MinMaxRAPBtnPrimaryShowConfirmation">Pour réduire le poste à distance, appuyez sur le bouton « Minimiser poste à distance »</String>
+        <String Name="MinMaxRAPBtnSecondaryShowConfirmation">Pour agrandir le poste à distance, appuyez sur le bouton « Agrandir poste à distance ».</String>
+        <String Name="StopStartRAPButtonPrimaryTxt">Arrêter le PAD</String>
+        <String Name="StopStartRAPButtonSecondaryTxt">Démarrer PAD</String>
+		<String Name="RapConfigureBtnPrimaryTxt">Configuration PAD</String>
+        <String Name="SwitchToFastLaneBtnPrimaryTxt">Passer à l'application de FastLane</String>
+        <String Name="ExitRAPAndRunProfileBtnPrimaryTxt">Arrêter le PAD et exécuter le Profile Manager</String>
+        <String Name="ExitRAPAndRunProfileBtnSecondaryTxt">Exécuter la gestion de profil</String>
+        <String Name="UtilityFunctionsTitle">NCR FastLane\nFonctions utilitaire</String>
+        <String Name="StartTitle">Démarrage du système</String>
+        <String Name="SystemStartup">Démarrage du système...veuillez patienter.</String>
+        <String Name="TerminalID">#Poste </String>
+        <String Name="InterfaceVersion">Version du logiciel: </String>
+        <String Name="TrainingProgramPrimaryTxt">Programme de formation</String>
+        <String Name="OperatorIDText">Num Opérateur: </String>
+        <String Name="KeySwitchOperatorID">Verrou de sécurité</String>
+        <String Name="SignOnButtonText">Ouverture session</String>
+        <String Name="SignOffButtonText">Fermeture session</String>
+        <String Name="SignedOffButtonText">Déconnecté</String>
+        <String Name="Exit">Tout fermer</String>
+        <String Name="ReturnToShoppingButtonText">Retour</String>
+        <String Name="PickListEditor">Éditeur de la liste de choix</String>
+        <String Name="RunADDTxt">Exécuter la DAA au Prochain Redémarrage</String>
+        <String Name="TouchWareTxt">Calibrer l'écran tactile</String>
+        <String Name="DiagConfirm"> Êtes-vous certain de vouloir générer les fichiers journaux diagnostics?</String>
+        <String Name="ProfileManagerFLConfirm">Êtes-vous certain de vouloir arrêter FastLane et exécuter le Profile Manager?</String>
+        <String Name="ProfileManagerRAPConfirm">Êtes-vous certain de vouloir arrêter le poste à distance et exécuter le Profile Manager?</String>
+        <String Name="ProfileManagerConfirm">Êtes-vous certain de vouloir démarrer le Profile Manager?</String>
+        <String Name="EventViewerConfirm">Êtes-vous certain de vouloir démarrer l’affichage des èvènements?</String>
+        <String Name="TrainingConfirm">Êtes-vous certain de vouloir démarrer le programme de formation?</String>
+        <String Name="PicklistConfirm">Êtes-vous certain de vouloir démarrer l’éditeur de listes de choix?</String>
+        <String Name="RunADDConfirm">Êtes-vous certain de vouloir exécuter détection automatique de l’appareil au prochain démarrage?</String>
+        <String Name="CalibrateConfirm">Êtes-vous certain de vouloir calibrer l’écran tactile?</String>
+        <String Name="ShutdownConfirm"> Êtes-vous certain de vouloir arrêter l’ensemble du système?</String>
+        <String Name="RebootConfirm">Êtes-vous certain de vouloir redémarrer l’ensemble du système?</String>
+        <String Name="CloseAllConfirm"> Êtes-vous certain de vouloir quitter toutes les applications et atteindre le bureau?</String>
+        <String Name="VolumeConfirm">Êtes-vous certain de vouloir ajuster le contrôle de volume?</String>
+        <String Name="TerminalInfoConfirm">Êtes-vous certain de vouloir afficher l’information sur le terminal?</String>
+        <String Name="StopFastLaneConfirm"> Êtes-vous certain de vouloir arrêter FastLane?</String>
+        <String Name="StopRAPConfirm">Êtes-vous certain de vouloir arrêter le PAD?</String>
+        <String Name="StartFastLaneConfirm">Êtes-vous certain de vouloir démarrer FastLane?</String>
+        <String Name="StartRAPConfirm">Êtes-vous certain de vouloir démarrer PAD?</String>
+        <String Name="WindowsLogOnTxt">Ouverture session Windows</String>
+        <String Name="WindowsLogOnConfirm">Êtes-vous certain de vouloir quitter toutes les applications et d’ouvrir une session comme nouvel utilisateur?</String>
+        <String Name="YesText">Oui</String>
+        <String Name="NoText">Non</String>
+        <String Name="CommandPromptPrimaryTxt">Invite de commande</String>
+        <String Name="CommandPromptConfirm">Êtes-vous certain de vouloir démarrer l’invite de commande?</String>
+        <String Name="RSMLEPrimaryTxt">Retail Systems Manager LE</String>
+        <String Name="RSMLEConfirm">Êtes-vous certain de vouloir démarrer le Retail Systems Manager LE?</String>
+		<String Name="OperatorRegistrationUtility">Utilitaire d’inscription de l’opérateur</String>
+		<String Name="EnterIDFpLeadthru">Entrez votre nom d’utilisateur puis appuyez sur la touche « Entrée » ou placez votre doigt sur le lecteur d’empreinte pour ouvrir une session.</String>
+		<String Name="ReEnterIDFpLeadthru">Ouverture de session non valide. Veuillez ouvrir une session en utilisant le clavier ou avec votre empreinte.</String>		
+        <!-- End of Main Screen Context -->
+
+        <!-- Start of Authentication Contexts -->
+        <String Name="ClearButtonText">Effacer</String>
+        <String Name="EnterButtonText">Entrer</String>
+        <String Name="GoBackButtonText">Précédent</String>
+        <String Name="SpaceButtonText">Espace</String>
+        <String Name="BackSpaceButtonText">Retour en arrière</String>
+        <String Name="EnterIDLeadthru">Entrez num. identification en utilisant le clavier ci-dessous.</String>
+        <String Name="ReEnterIDLeadthru">ID incorrecte ou mauvais mot de passe. Veuillez entrer de nouveau en utilisant le clavier ci-dessous.</String>
+        <String Name="EnterPasswordLeadthru">Entrez le mot de passe en utilisant le clavier ci-dessous.</String>
+        <String Name="CancelButtonText">Annuler</String>
+        <String Name="LoggingInLeadthru">Ouverture de session...Veuillez patienter</String>
+        <String Name="ShiftButtonText">Maj</String>
+        <String Name="LegalCaptionText">LEGAL CAPTION
+This system is for the use of authorized personnel only. By logging onto this system, you are subject to the terms and conditions of all Information Security policies and standards. Use by unauthorized individuals or for unauthorized purposes is a violation of federal and/or state law. The company reserves the right to take any necessary actions to protect authorized users, intellectual property and other information assets. Individuals using this system are subject to having all of their activities on this system monitored. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals possible evidence of criminal activity, system personnel may provide the evidence of such monitoring to law enforcement officials.
+        </String>
+        <!-- End of Authentication Contexts -->
+      </StringTable>
+    </Language>
+  </Languages>
+</Display>

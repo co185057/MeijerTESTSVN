@@ -1,0 +1,26 @@
+HKCR
+{
+	TelnetClientSupport.TelnetClientIF.1 = s 'TelnetClientIF Class'
+	{
+		CLSID = s '{2A7DDE01-8012-47F5-A3C6-4000CDF26C27}'
+	}
+	TelnetClientSupport.TelnetClientIF = s 'TelnetClientIF Class'
+	{
+		CLSID = s '{2A7DDE01-8012-47F5-A3C6-4000CDF26C27}'
+		CurVer = s 'TelnetClientSupport.TelnetClientIF.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {2A7DDE01-8012-47F5-A3C6-4000CDF26C27} = s 'TelnetClientIF Class'
+		{
+			ProgID = s 'TelnetClientSupport.TelnetClientIF.1'
+			VersionIndependentProgID = s 'TelnetClientSupport.TelnetClientIF'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{BDF72F9B-5259-4A1C-B605-7536E33B9BB5}'
+		}
+	}
+}

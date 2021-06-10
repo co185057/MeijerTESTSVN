@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" elementFormDefault="qualified" attributeFormDefault="qualified">
+	<xs:element name="ApplicationModel">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="ApplicationModelType">
+					<xs:sequence>
+						<xs:group ref="StatesGroup" minOccurs="0"/>
+						<xs:group ref="ContextsGroup" minOccurs="0"/>
+						<xs:group ref="PropertiesGroup" minOccurs="0"/>
+						<xs:group ref="ControlsGroup" minOccurs="0"/>
+						<xs:group ref="EventsGroup" minOccurs="0"/>
+						<xs:group ref="InputsGroup" minOccurs="0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="ApplicationModelType">
+		<xs:attribute name="Version" type="xs:decimal"/>
+	</xs:complexType>
+	<xs:complexType name="SetPropertyOnType">
+		<xs:attribute name="Property" type="xs:string" use="required"/>
+		<xs:attribute name="Value" type="xs:string" use="required"/>
+		<xs:attribute name="Action" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="Set"/>
+					<xs:enumeration value="ConcatLeft"/>
+					<xs:enumeration value="ConcatRight"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="SendInputOnType">
+		<xs:attribute name="Input" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="SendControlOnType">
+		<xs:attribute name="Control" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="ResetContextOnType">
+		<xs:attribute name="Context" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="ResetAllContextsExcludeType">
+		<xs:attribute name="Context" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="ResetAllContextsOnType">
+		<xs:sequence>
+			<xs:element name="Exclude" type="ResetAllContextsExcludeType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ControlFieldType">
+		<xs:attribute name="Name" type="xs:string" use="required"/>
+		<xs:attribute name="MapProperty" type="xs:string" use="optional"/>
+		<xs:attribute name="MapContext" type="xs:string" use="optional"/>
+		<xs:attribute name="MapContextField" type="xs:string" use="optional"/>
+		<!-- This entry will have either MapProperty XOR  (MapContext && MapContextField) -->
+	</xs:complexType>
+	<xs:complexType name="InputMacroType">
+		<xs:sequence>
+			<xs:element name="MacroItem" type="MacroItemType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="FieldType">
+		<xs:attribute name="Name" type="xs:string" use="required"/>
+		<xs:attribute name="Contains" type="xs:string" use="optional"/>
+		<xs:attribute name="Equals" type="xs:string" use="optional"/>
+		<!--(start)TODO: make these two attributes mutually exclusive please -->
+		<!--(end) TODO: make these two attributes mutually exclusive please -->
+	</xs:complexType>
+	<xs:complexType name="DetectContextType">
+		<xs:sequence>
+			<xs:element name="Field" type="FieldType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="Context" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="DetectPropertyType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="Property" type="xs:string" use="required"/>
+				<xs:attribute name="Contains" type="xs:string" use="optional"/>
+				<xs:attribute name="Equals" type="xs:string" use="optional"/>
+			</xs:extension>
+			<!--(start) TODO:: make these two attributes mutually exclusive please -->
+			<!--(end) TODO: make these two attributes mutually exclusive please -->
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="InputTextType">
+		<xs:attribute name="Value" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="MacroItemType">
+		<xs:attribute name="Type" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="Input"/>
+					<xs:enumeration value="Sleep"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="Value" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="ContextFieldType">
+		<xs:attribute name="Name" type="xs:string" use="required"/>
+		<xs:attribute name="Position" type="xs:positiveInteger" use="required"/>
+		<xs:attribute name="Type" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="IN"/>
+					<xs:enumeration value="UI"/>
+					<xs:enumeration value="SZ"/>
+					<xs:enumeration value="VD"/>
+					<xs:enumeration value="LG"/>
+					<xs:enumeration value="UL"/>
+					<xs:enumeration value="SH"/>
+					<xs:enumeration value=" US"/>
+					<xs:enumeration value="CH"/>
+					<xs:enumeration value="UC"/>
+					<xs:enumeration value="FL"/>
+					<xs:enumeration value="FT"/>
+					<xs:enumeration value="DB"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="Pointer" type="xs:boolean" use="optional" default="true"/>
+	</xs:complexType>
+	<xs:complexType name="OnStateEventType">
+		<xs:group ref="OnEventGroup" maxOccurs="unbounded"/>
+	</xs:complexType>
+	<xs:complexType name="DetectType">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="DetectContext" type="DetectContextType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="DetectProperty" type="DetectPropertyType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ReplaceStateType">
+		<xs:sequence>
+			<xs:element name="Detect" type="DetectType"/>
+			<xs:element name="OnStateEnter" type="OnStateEventType" minOccurs="0"/>
+			<xs:element name="OnStateExit" type="OnStateEventType" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="Name" type="xs:string" use="required"/>
+		<xs:attribute name="Group" type="xs:string" use="optional"/>
+		<xs:attribute name="IgnoreDuplicate" type="xs:boolean" use="optional"/>
+		<xs:attribute name="TriggerDelay" type="xs:nonNegativeInteger" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="ReplaceContextType">
+		<xs:sequence>
+			<xs:element name="ContextField" type="ContextFieldType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="Name" type="xs:string" use="required"/>
+		<xs:attribute name="ExpiryTime" type="xs:nonNegativeInteger" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="ReplacePropertyType">
+		<xs:attribute name="Name" type="xs:string" use="required"/>
+		<xs:attribute name="InitialValue" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="ReplaceControlType">
+		<xs:sequence>
+			<xs:element name="ControlField" type="ControlFieldType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="Name" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="ReplaceOnContextEventType">
+		<xs:group ref="OnEventGroup" maxOccurs="unbounded"/>
+		<xs:attribute name="Context" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="ReplaceInputType">
+		<xs:choice>
+			<xs:element name="Text" type="InputTextType" minOccurs="0"/>
+			<xs:element name="InputMacro" type="InputMacroType" minOccurs="0"/>
+		</xs:choice>
+		<xs:attribute name="Name" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="ReplaceStatesType">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="State" type="ReplaceStateType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ReplaceContextsType">
+		<xs:sequence>
+			<xs:element name="Context" type="ReplaceContextType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ReplacePropertiesType">
+		<xs:sequence>
+			<xs:element name="Property" type="ReplacePropertyType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ReplaceControlsType">
+		<xs:sequence>
+			<xs:element name="Control" type="ReplaceControlType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ReplaceEventsType">
+		<xs:sequence>
+			<xs:element name="OnContextEvent" type="ReplaceOnContextEventType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ReplaceInputsType">
+		<xs:sequence>
+			<xs:element name="Input" type="InputType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:group name="StatesGroup">
+		<xs:choice>
+			<xs:element name="States" type="StatesType"/>
+			<xs:element name="ReplaceStates" type="ReplaceStatesType"/>
+		</xs:choice>
+	</xs:group>
+	<xs:group name="ContextsGroup">
+		<xs:choice>
+			<xs:element name="Contexts" type="ContextsType"/>
+			<xs:element name="ReplaceContexts" type="ReplaceContextsType"/>
+		</xs:choice>
+	</xs:group>
+	<xs:group name="PropertiesGroup">
+		<xs:choice>
+			<xs:element name="Properties" type="PropertiesType"/>
+			<xs:element name="ReplaceProperties" type="ReplacePropertiesType"/>
+		</xs:choice>
+	</xs:group>
+	<xs:group name="ControlsGroup">
+		<xs:choice>
+			<xs:element name="Controls" type="ControlsType"/>
+			<xs:element name="ReplaceControls" type="ReplaceControlsType"/>
+		</xs:choice>
+	</xs:group>
+	<xs:group name="EventsGroup">
+		<xs:choice>
+			<xs:element name="Events" type="EventsType"/>
+			<xs:element name="ReplaceEvents" type="ReplaceEventsType"/>
+		</xs:choice>
+	</xs:group>
+	<xs:group name="InputsGroup">
+		<xs:choice>
+			<xs:element name="Inputs" type="InputsType"/>
+			<xs:element name="ReplaceInputs" type="ReplaceInputsType"/>
+		</xs:choice>
+	</xs:group>
+	<xs:group name="OnEventGroup">
+		<xs:sequence>
+			<xs:element name="SetProperty" type="SetPropertyOnType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="SendInput" type="SendInputOnType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="SendControl" type="SendControlOnType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="ResetContext" type="ResetContextOnType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="ResetAllContexts" type="ResetAllContextsOnType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:group>
+	<xs:complexType name="StateType">
+		<xs:sequence>
+			<xs:element name="Detect" type="DetectType"/>
+			<xs:element name="OnStateEnter" type="OnStateEventType" minOccurs="0"/>
+			<xs:element name="OnStateExit" type="OnStateEventType" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="Name" type="xs:string" use="required"/>
+		<xs:attribute name="Group" type="xs:string" use="optional"/>
+		<xs:attribute name="IgnoreDuplicate" type="xs:boolean" use="optional"/>
+		<xs:attribute name="TriggerDelay" type="xs:nonNegativeInteger" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="ContextType">
+		<xs:sequence>
+			<xs:element name="ContextField" type="ContextFieldType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="Name" type="xs:string" use="required"/>
+		<xs:attribute name="ExpiryTime" type="xs:nonNegativeInteger" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="PropertyType">
+		<xs:attribute name="Name" type="xs:string" use="required"/>
+		<xs:attribute name="InitialValue" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="ControlType">
+		<xs:sequence>
+			<xs:element name="ControlField" type="ControlFieldType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="Name" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="OnContextEventType">
+		<xs:group ref="OnEventGroup" maxOccurs="unbounded"/>
+		<xs:attribute name="Context" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="InputType">
+		<xs:choice>
+			<xs:element name="Text" type="InputTextType" minOccurs="0"/>
+			<xs:element name="InputMacro" type="InputMacroType" minOccurs="0"/>
+		</xs:choice>
+		<xs:attribute name="Name" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="StatesType">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="State" type="StateType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="AddState" type="ReplaceStateType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="ReplaceState" type="ReplaceStateType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="DeleteState" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:attribute name="Name" type="xs:string" use="required" />
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ContextsType">
+		<xs:sequence>
+			<xs:element name="Context" type="ContextType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="PropertiesType">
+		<xs:sequence>
+			<xs:element name="Property" type="PropertyType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ControlsType">
+		<xs:sequence>
+			<xs:element name="Control" type="ControlType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="EventsType">
+		<xs:sequence>
+			<xs:element name="OnContextEvent" type="OnContextEventType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="InputsType">
+		<xs:sequence>
+			<xs:element name="Input" type="InputType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

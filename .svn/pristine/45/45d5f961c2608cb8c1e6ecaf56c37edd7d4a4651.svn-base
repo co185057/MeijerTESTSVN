@@ -1,0 +1,64 @@
+<Display Version="1.1">
+  <!-- THIS FILE USE TO CONFIG FULL FUNCTION MINI SERIES -->
+  <!--CONTROLS -->
+  <Control Name="BagAndEASVideo">
+    <Video>%MediaPath%\BagItem_FF_Mini.avi</Video>
+  </Control>
+  <Control Name="CashPaymentVideo">
+    <Video>%MediaPath%\InsertCash_FF_Mini.avi</Video>
+  </Control>
+  <Control Name="DepositCouponsVideo">
+    <Video>%MediaPath%\InsertCoupon_FF_Mini.avi</Video>
+  </Control>
+  <Control Name="EnterWeightVideo">
+    <Video>%MediaPath%\WeighItem_FF_Mini.avi</Video>
+  </Control>
+  <Control Name="EnterWtForPriceEmbeddedVideo">
+    <Video>%MediaPath%\WeighItem_FF_Mini.avi</Video>
+  </Control>
+  <Control Name="InsertCouponVideo">
+    <Video>%MediaPath%\InsertCoupon_FF_Mini.avi</Video>
+  </Control>
+  <Control Name="TakeChangeVideo">
+    <Video>%MediaPath%\TakeChange_FF_Mini.avi</Video>
+  </Control>
+  <Control Name="TakeCashVideo">
+    <Video>%MediaPath%\TakeChange_FF_Mini.avi</Video>
+  </Control>
+  <Control Name="TakeReceiptVideo">
+    <Video>%MediaPath%\TakeReceipt_FF_Mini.avi</Video>
+  </Control>
+  <Control Name="PickingUpItemsVideo">
+    <Video>%MediaPath%\Security_ReturnItem_FF_Mini.avi</Video>
+  </Control>
+  <Control Name="SecMisMatchWeightVideo">
+    <Video>%MediaPath%\Security_RemoveItem_FF_Mini.avi</Video>
+  </Control>
+  <Control Name="SecUnexpectedDecreaseVideo">
+    <Video>%MediaPath%\Security_ReturnItem_FF_Mini.avi</Video>
+  </Control>
+  <Control Name="SecUnExpectedIncreaseVideo">
+    <Video>%MediaPath%\Security_RemoveItem_FF_Mini.avi</Video>
+  </Control>
+  <Control Name="ScaleBrokenVideo">
+    <Video>%MediaPath%\ResetScale_FF_Mini.avi</Video>
+  </Control>
+  <Control Name="ScanBagVideo">
+    <Video>%MediaPath%\ScanItem_FF_Mini.avi</Video>
+  </Control>
+  <Control Name="AttractVideo">
+    <Video>%MediaPath%\Attract_FF_Mini.avi</Video>
+  </Control>
+  <Control Name="SwipeCardVideo">
+    <Video>%MediaPath%\SwipeCard_TopPinPad_FF_Mini.avi</Video>
+  </Control>
+  <Control Name="DepositCardVideo">
+    <Video>%MediaPath%\InsertCoupon_FF_Mini.avi</Video>
+  </Control>
+  <Control Name="ScanCardVideo">
+    <Video>%MediaPath%\ScanCard_FF_Mini.avi</Video>
+  </Control>
+  <Control Name="VoucherPaymentVideo">
+    <Video>%MediaPath%\ScanCard_FF_Mini.avi</Video>
+  </Control>
+</Display>

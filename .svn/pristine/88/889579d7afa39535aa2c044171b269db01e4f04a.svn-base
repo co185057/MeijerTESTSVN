@@ -1,0 +1,53 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "Com"=".\Com\Com.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/FastLane/Construction/Development/Core/Source/TelnetX/Com", HLOTAAAA
+    .\com
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Ocx"=".\Ocx\Ocx.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/FastLane/Construction/Development/Core/Source/TelnetX/Ocx", DKOTAAAA
+    .\ocx
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+    begin source code control
+    "$/FastLane/Construction/Development/Core/Source/TelnetX", BKOTAAAA
+    .
+    end source code control
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

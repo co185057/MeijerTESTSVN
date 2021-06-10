@@ -1,0 +1,38 @@
+PRICE
+{ , -1 ) DOLARS (3,)   CENTS (1,2) "savings.wav"
+{0,0} "blank.wav"
+{1,99} CENTS (1,2)
+{100,100} DOLARS(3,) 
+{101,} DOLARSN(3,) CENTSN(1,2)
+
+
+DOLARS
+{1,1}  "1.wav"  "dollar.wav" 
+{2,}  THOUSAND (4,) HUNDRED (3,3)  TENS&UNITS (1,2)  "dollars.wav" 
+
+DOLARSN
+{1,1}  "1.wav"
+{2,}  THOUSAND (4,) HUNDRED (3,3)  TENS&UNITS (1,2)
+
+THOUSAND
+{1,99} TENS&UNITS (1,2)  "thousand.wav" 
+{100,} THOUSAND (4,) HUNDRED (3,3)  TENS&UNITS (1,2)  "thousand.wav" 
+
+HUNDRED
+{1,9} "*00.wav" 
+
+TENS&UNITS
+{1,9} UNITS(1,1)
+{10,99} "*.wav" 
+
+UNITS
+{1,9} "*.wav"
+
+CENTSN
+{0,0}     "dollars.wav"
+{1,1}     "*.wav" ; 
+{2 , 99 } "*.wav" ; 
+
+CENTS
+{1,1}     "*.wav" ; "cent.wav"
+{2 , 99 } "*.wav" ; "cents.wav" 

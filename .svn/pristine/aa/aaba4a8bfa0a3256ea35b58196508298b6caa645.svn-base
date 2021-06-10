@@ -1,0 +1,2731 @@
+<Display Version="1.2">
+  <Fonts>
+    <Font Name="Arial13Bold">
+      <Face>Arial</Face>
+      <Size>13</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="Arial15Bold">
+      <Face>Arial</Face>
+      <Size>15</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="Arial17Bold">
+      <Face>Arial</Face>
+      <Size>17</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="Arial21Bold">
+      <Face>Arial</Face>
+      <Size>21</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="Arial11">
+      <Face>Arial</Face>
+      <Size>11</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+  </Fonts>
+  <Controls>
+    <Control Name="Line1AlphaNumericKeys" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">59,147,850,59</Property>
+        <Property Name="ButtonHorizontalSpacing">4</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">59</Property>
+        <Property Name="ButtonWidth">58</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Font">Arial21Bold</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Small.png</Property>
+        <Property Name="Z-Order">4</Property>
+        <Property Name="ClickMove">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="Line2AlphaNumericKeys" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">59,210,850,59</Property>
+        <Property Name="ButtonHorizontalSpacing">4</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">59</Property>
+        <Property Name="ButtonWidth">58</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Font">Arial21Bold</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Small.png</Property>
+        <Property Name="Z-Order">4</Property>
+        <Property Name="ClickMove">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="Line3AlphaNumericKeys" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">89,272,904,59</Property>
+        <Property Name="ButtonHorizontalSpacing">4</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">59</Property>
+        <Property Name="ButtonWidth">58</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Font">Arial21Bold</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Small.png</Property>
+        <Property Name="Z-Order">4</Property>
+        <Property Name="ClickMove">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="Line4AlphaNumericKeys" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">89,335,904,59</Property>
+        <Property Name="ButtonHorizontalSpacing">4</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">59</Property>
+        <Property Name="ButtonWidth">58</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Font">Arial21Bold</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Small.png</Property>
+        <Property Name="Z-Order">4</Property>
+        <Property Name="ClickMove">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="HotKeys" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">340,398,500,59</Property>
+        <Property Name="ButtonHorizontalSpacing">4</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">59</Property>
+        <Property Name="ButtonWidth">58</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Font">Arial21Bold</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Small.png</Property>
+        <Property Name="Z-Order">4</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Radio">True</Property>
+        <Property Name="Toggle">True</Property>
+      </Properties>
+    </Control>
+    <Control Name="AltGrKey" Type="Button" Synchronize="False">
+      <Properties>
+        <Property Name="Position">496,398,120,59</Property>
+        <Property Name="Font">Arial13Bold</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">AltGr</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Toggle">true</Property>
+        <Property Name="Z-Order">4</Property>
+      </Properties>
+    </Control>
+    <Control Name="ItemsDetailsArea" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Picture">%MediaPath%\8x6_Area_ItemsDetails.png</Property>
+        <Property Name="Position">80,450,646,82</Property>
+        <Property Name="Z-Order">1</Property>
+      </Properties>
+    </Control>
+    <Control Name="ItemDetailsCenterBoxArea" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Picture">%MediaPath%\8x6_Area_ItemDetailsCenterBox.png</Property>
+        <Property Name="Position">210,468,430,61</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="Instruction_Line1" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Font">Arial11</Property>
+        <Property Name="Position">24,57,770,60</Property>
+        <Property Name="Z-Order">4</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="TextLineAlignment">0</Property>
+      </Properties>
+    </Control>
+  </Controls>
+  <Contexts>
+    <Context Name="Keyboard0405">
+      <Properties>
+        <Property Name="Picture">%MediaPath%\8x6_background.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="InstructionScreenTitle">
+          <Properties>
+            <Property Name="Position">24,15,770,45</Property>
+            <Property Name="Font">Arial17Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">4</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">338</Data>
+          </CustomData>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="MatKeyBoard">
+          <Properties>
+            <Property Name="Position">3,3,795,465</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoField">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">222,105,354,32</Property>
+            <Property Name="Font">Arial15Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="ItemsDetailsArea" />
+        <Control Name="ItemDetailsCenterBoxArea" />
+        <Control Name="ButtonGoBack">
+          <CustomData>
+            <Data Name="StringId">353</Data>
+          </CustomData>
+        </Control>
+        <Control Name="ButtonHelp" />
+        <Control Name="Line1AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">28,147,850,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">1 2 3 4 5 6 7 8 9 0 -</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line2AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">Q W E R T Z U I O P</Data>
+            <Data Name="TextAcuteOn">Q W É R T Z Ú Í Ó P</Data>
+            <Data Name="TextCircumflexOn">Q W Ě Ř Ť Ž U I O P</Data>
+            <Data Name="TextUmlautOn">Q W E R T Z Ů I O P</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line3AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">A S D F G H J K L</Data>
+            <Data Name="TextAcuteOn">Á S D F G H J K L</Data>
+            <Data Name="TextCircumflexOn">A Š Ď F G H J K L</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line4AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">Y X C V B N M , .</Data>
+            <Data Name="TextAcuteOn">Ý X C V B N M , .</Data>
+            <Data Name="TextCircumflexOn">Y X Č V B Ň M , .</Data>
+          </CustomData>
+        </Control>
+        <Control Name="NumericP3">
+          <Properties>
+            <Property Name="Position">89,398,190,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1333</Data>
+          </CustomData>
+        </Control>
+        <Control Name="AlphaNumKey3">
+          <Properties>
+            <Property Name="Position">656,335,120,121</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_EnterAlpha-Large.png</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="SpaceKey">
+          <Properties>
+            <Property Name="Position">309,398,153,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Space.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1332</Data>
+          </CustomData>
+        </Control>
+        <Control Name="HotKeys">
+          <Properties>
+            <Property Name="Position">471,398,300,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">´ ˇ ˚</Data>
+            <Data Name="Data">HKAcute HKCircumflex HKUmlaut</Data>
+          </CustomData>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="Keyboard0406" Synchronize="False">
+      <Properties>
+        <Property Name="Picture">%MediaPath%\8x6_background.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="InstructionScreenTitle">
+          <Properties>
+            <Property Name="Position">24,15,770,45</Property>
+            <Property Name="Font">Arial17Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">4</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">338</Data>
+          </CustomData>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="MatKeyBoard">
+          <Properties>
+            <Property Name="Position">3,3,795,465</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoField">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">222,105,354,32</Property>
+            <Property Name="Font">Arial15Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="ItemsDetailsArea" />
+        <Control Name="ItemDetailsCenterBoxArea" />
+        <Control Name="ButtonGoBack">
+          <CustomData>
+            <Data Name="StringId">353</Data>
+          </CustomData>
+        </Control>
+        <Control Name="ButtonHelp" />
+        <Control Name="Line1AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">1 2 3 4 5 6 7 8 9 0 -</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line2AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">Q W E R T Y U I O P Å</Data>
+            <Data Name="TextAcuteOn">Q W É R T Ý Ú Í Ó P Å</Data>
+            <Data Name="TextGraveOn">Q W È R T Y Ù Ì Ò P Å</Data>
+            <Data Name="TextCircumflexOn">Q W Ê R T Y Û Î Ô P Å</Data>
+            <Data Name="TextUmlautOn">Q W Ë R T Ÿ Ü Ï Ö P Å</Data>
+            <Data Name="TextTildeOn">Q W E R T Y U I Õ P Å</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line3AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">59,272,904,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">A S D F G H J K L Æ Ø</Data>
+            <Data Name="TextAcuteOn">Á S D F G H J K L Æ Ø</Data>
+            <Data Name="TextGraveOn">À S D F G H J K L Æ Ø</Data>
+            <Data Name="TextCircumflexOn">Â S D F G H J K L Æ Ø</Data>
+            <Data Name="TextUmlautOn">Ä S D F G H J K L Æ Ø</Data>
+            <Data Name="TextTildeOn">Ã S D F G H J K L Æ Ø</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line4AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">Z X C V B N M , .</Data>
+            <Data Name="TextTildeOn">Z X C V B Ñ M , .</Data>
+          </CustomData>
+        </Control>
+        <Control Name="NumericP3">
+          <Properties>
+            <Property Name="Position">89,398,120,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1333</Data>
+          </CustomData>
+        </Control>
+        <Control Name="AlphaNumKey3">
+          <Properties>
+            <Property Name="Position">656,335,120,121</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_EnterAlpha-Large.png</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="SpaceKey">
+          <Properties>
+            <Property Name="Position">309,398,183,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Space.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1332</Data>
+          </CustomData>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="Keyboard041a">
+      <Properties>
+        <Property Name="Picture">%MediaPath%\8x6_background.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="InstructionScreenTitle">
+          <Properties>
+            <Property Name="Position">24,15,770,45</Property>
+            <Property Name="Font">Arial17Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">4</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">338</Data>
+          </CustomData>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="MatKeyBoard">
+          <Properties>
+            <Property Name="Position">3,3,795,465</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoField">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">222,105,354,32</Property>
+            <Property Name="Font">Arial15Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="ItemsDetailsArea" />
+        <Control Name="ItemDetailsCenterBoxArea" />
+        <Control Name="ButtonGoBack">
+          <CustomData>
+            <Data Name="StringId">353</Data>
+          </CustomData>
+        </Control>
+        <Control Name="ButtonHelp" />
+        <Control Name="Line1AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">1 2 3 4 5 6 7 8 9 0 -</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line2AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">45,210,850,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">Q W E R T Z U I O P Š Đ</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line3AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">45,272,904,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">A S D F G H J K L Č Ć Ž</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line4AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">Y X C V B N M , .</Data>
+          </CustomData>
+        </Control>
+        <Control Name="NumericP3">
+          <Properties>
+            <Property Name="Position">89,398,120,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1333</Data>
+          </CustomData>
+        </Control>
+        <Control Name="AlphaNumKey3">
+          <Properties>
+            <Property Name="Position">656,335,120,121</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_EnterAlpha-Large.png</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="SpaceKey">
+          <Properties>
+            <Property Name="Position">309,398,183,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Space.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1332</Data>
+          </CustomData>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="Keyboard040c" Synchronize="False">
+      <Properties>
+        <Property Name="Picture">%MediaPath%\8x6_background.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="InstructionScreenTitle">
+          <Properties>
+            <Property Name="Position">24,15,770,45</Property>
+            <Property Name="Font">Arial17Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">4</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">338</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Instruction_Line1">
+          <CustomData>
+            <Data Name="StringId">1757</Data>
+          </CustomData>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="MatKeyBoard">
+          <Properties>
+            <Property Name="Position">3,3,795,465</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoField">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">222,105,354,32</Property>
+            <Property Name="Font">Arial15Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="ItemsDetailsArea" />
+        <Control Name="ItemDetailsCenterBoxArea" />
+        <Control Name="ButtonGoBack">
+          <CustomData>
+            <Data Name="StringId">353</Data>
+          </CustomData>
+        </Control>
+        <Control Name="ButtonHelp" />
+        <Control Name="Line1AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">28,147,700,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">1 é 3 4 5 6 è 8 ç à -</Data>
+            <Data Name="TextShiftOn">1 2 3 4 5 6 7 8 9 0 -</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line2AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">28,210,700,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">a z e r t y u i o p _</Data>
+            <Data Name="TextGraveOn"> à z è r t y ù ì ò p _</Data>
+            <Data Name="TextCircumflexOn">â z ê r t y û î ô p _</Data>
+            <Data Name="TextUmlautOn">ä z ë r t ÿ ü ï ö p _</Data>
+            <Data Name="TextTildeOn">ã z e r t y u i õ p _</Data>
+            <Data Name="TextShiftOn">A Z E R T Y U I O P _</Data>
+            <Data Name="TextGraveOnShiftOn"> À Z È R T Y Ù Ì Ò P _</Data>
+            <Data Name="TextCircumflexOnShiftOn">Â Z Ê R T Y Û Î Ô P _</Data>
+            <Data Name="TextUmlautOnShiftOn">Ä Z Ë R T Ÿ Ü Ï Ö P _</Data>
+            <Data Name="TextTildeOnShiftOn">Ã Z E R T Y U I Õ P _</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line3AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">28,272,700,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">q s d f g h j k l m @</Data>
+            <Data Name="TextShiftOn">Q S D F G H J K L M @</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line4AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">152,335,650,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">w x c v b n , .</Data>
+            <Data Name="TextTildeOn">w x c v b ñ , .</Data>
+            <Data Name="TextShiftOn">W X C V B N , .</Data>
+            <Data Name="TextTildeOnShiftOn">W X C V B Ñ , .</Data>
+          </CustomData>
+        </Control>
+        <Control Name="ShiftKey1">
+          <Properties>
+            <Property Name="Position">28,335,120,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1331</Data>
+          </CustomData>
+        </Control>
+        <Control Name="HotKeys">
+          <CustomData>
+            <Data Name="Text">` ^ ¨ ~</Data>
+            <Data Name="Data">HKGrave HKCircumflex HKUmlaut HKTilde</Data>
+          </CustomData>
+        </Control>
+        <Control Name="NumericP3">
+          <Properties>
+            <Property Name="Position">28,398,120,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1333</Data>
+          </CustomData>
+        </Control>
+        <Control Name="AlphaNumKey3">
+          <Properties>
+            <Property Name="Position">656,335,120,121</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_EnterAlpha-Large.png</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="SpaceKey">
+          <Properties>
+            <Property Name="Position">153,398,183,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Space.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1332</Data>
+          </CustomData>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="Keyboard0407" Synchronize="False">
+      <Properties>
+        <Property Name="Picture">%MediaPath%\8x6_background.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="InstructionScreenTitle">
+          <Properties>
+            <Property Name="Position">24,15,770,45</Property>
+            <Property Name="Font">Arial17Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">4</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">338</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Instruction_Line1">
+          <CustomData>
+            <Data Name="StringId">1757</Data>
+          </CustomData>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="MatKeyBoard">
+          <Properties>
+            <Property Name="Position">3,3,795,465</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoField">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">222,105,354,32</Property>
+            <Property Name="Font">Arial15Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="ItemsDetailsArea" />
+        <Control Name="ItemDetailsCenterBoxArea" />
+        <Control Name="ButtonGoBack">
+          <CustomData>
+            <Data Name="StringId">353</Data>
+          </CustomData>
+        </Control>
+        <Control Name="ButtonHelp" />
+        <Control Name="Line1AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">1 2 3 4 5 6 7 8 9 0 ß</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line2AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">Q W E R T Z U I O P Ü</Data>
+            <Data Name="TextAcuteOn">Q W É R T Z Ú Í Ó P Ü</Data>
+            <Data Name="TextGraveOn">Q W È R T Z Ù Ì Ò P Ü</Data>
+            <Data Name="TextCircumflexOn">Q W Ê R T Z Û Î Ô P Ü</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line3AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">59,272,904,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">A S D F G H J K L Ö Ä</Data>
+            <Data Name="TextAcuteOn">Á S D F G H J K L Ö Ä</Data>
+            <Data Name="TextGraveOn">À S D F G H J K L Ö Ä</Data>
+            <Data Name="TextCircumflexOn">Â S D F G H J K L Ö Ä</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line4AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">Y X C V B N M , .</Data>
+            <Data Name="TextAcuteOn">Ý X C V B N M , .</Data>
+          </CustomData>
+        </Control>
+        <Control Name="NumericP3">
+          <Properties>
+            <Property Name="Position">89,398,120,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1333</Data>
+          </CustomData>
+        </Control>
+        <Control Name="AlphaNumKey3">
+          <Properties>
+            <Property Name="Position">656,335,120,121</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_EnterAlpha-Large.png</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="SpaceKey">
+          <Properties>
+            <Property Name="Position">214,397,183,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Space.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1332</Data>
+          </CustomData>
+        </Control>
+        <Control Name="HotKeys">
+          <Properties>
+            <Property Name="Position">401,398,300,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">´ ` ^</Data>
+            <Data Name="Data">HKAcute HKGrave HKCircumflex</Data>
+          </CustomData>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="Keyboard0409" Synchronize="False">
+      <Properties>
+        <Property Name="Picture">%MediaPath%\8x6_background.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="InstructionScreenTitle">
+          <Properties>
+            <Property Name="Position">24,15,770,45</Property>
+            <Property Name="Font">Arial17Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">4</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">338</Data>
+          </CustomData>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="MatKeyBoard">
+          <Properties>
+            <Property Name="Position">3,3,795,465</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoField">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">222,105,354,32</Property>
+            <Property Name="Font">Arial15Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="ItemsDetailsArea" />
+        <Control Name="ItemDetailsCenterBoxArea" />
+        <Control Name="ButtonGoBack">
+          <CustomData>
+            <Data Name="StringId">353</Data>
+          </CustomData>
+        </Control>
+        <Control Name="ButtonHelp" />
+        <Control Name="Line1AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">1 2 3 4 5 6 7 8 9 0 -</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line2AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">Q W E R T Y U I O P _</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line3AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">A S D F G H J K L @</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line4AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">Z X C V B N M , .</Data>
+          </CustomData>
+        </Control>
+        <Control Name="NumericP3">
+          <Properties>
+            <Property Name="Position">89,398,120,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1333</Data>
+          </CustomData>
+        </Control>
+        <Control Name="AlphaNumKey3">
+          <Properties>
+            <Property Name="Position">656,335,120,121</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_EnterAlpha-Large.png</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="SpaceKey">
+          <Properties>
+            <Property Name="Position">309,398,183,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Space.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1332</Data>
+          </CustomData>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="Keyboard0c0a" Synchronize="False">
+      <Properties>
+        <Property Name="Picture">%MediaPath%\8x6_background.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="InstructionScreenTitle">
+          <Properties>
+            <Property Name="Position">24,15,770,45</Property>
+            <Property Name="Font">Arial17Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">4</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">338</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Instruction_Line1">
+          <CustomData>
+            <Data Name="StringId">1757</Data>
+          </CustomData>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="MatKeyBoard">
+          <Properties>
+            <Property Name="Position">3,3,795,465</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoField">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">222,105,354,32</Property>
+            <Property Name="Font">Arial15Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="ItemsDetailsArea" />
+        <Control Name="ItemDetailsCenterBoxArea" />
+        <Control Name="ButtonGoBack">
+          <CustomData>
+            <Data Name="StringId">353</Data>
+          </CustomData>
+        </Control>
+        <Control Name="ButtonHelp" />
+        <Control Name="Line1AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">1 2 3 4 5 6 7 8 9 0 -</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line2AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">Q W E R T Y U I O P _</Data>
+            <Data Name="TextAcuteOn">Q W É R T Ý Ú Í Ó P _</Data>
+            <Data Name="TextUmlautOn">Q W E R T Y Ü I O P _</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line3AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">59,272,904,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">A S D F G H J K L Ñ Ç</Data>
+            <Data Name="TextAcuteOn">Á S D F G H J K L Ñ Ç</Data>
+            <Data Name="TextUmlautOn">A S D F G H J K L Ñ Ç</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line4AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">Z X C V B N M , .</Data>
+            <Data Name="TextTildeOn">Z X C V B N M , .</Data>
+          </CustomData>
+        </Control>
+        <Control Name="HotKeys">
+          <Properties>
+            <Property Name="Position">401,398,500,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">´ ¨</Data>
+            <Data Name="Data">HKAcute HKUmlaut</Data>
+          </CustomData>
+        </Control>
+        <Control Name="NumericP3">
+          <Properties>
+            <Property Name="Position">89,398,120,59</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+            <Property Name="Z-Order">4</Property>
+            <Property Name="Font">Arial13Bold</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1333</Data>
+          </CustomData>
+        </Control>
+        <Control Name="AlphaNumKey3">
+          <Properties>
+            <Property Name="Position">656,335,120,121</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_EnterAlpha-Large.png</Property>
+            <Property Name="Z-Order">5</Property>
+            <Property Name="Font">Arial13Bold</Property>
+          </Properties>
+        </Control>
+        <Control Name="SpaceKey">
+          <Properties>
+            <Property Name="Position">214,398,183,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Space.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1332</Data>
+          </CustomData>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="Keyboard040b" Synchronize="False">
+      <Properties>
+        <Property Name="Picture">%MediaPath%\8x6_background.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="InstructionScreenTitle">
+          <Properties>
+            <Property Name="Position">24,15,770,45</Property>
+            <Property Name="Font">Arial17Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">4</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">338</Data>
+          </CustomData>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="MatKeyBoard">
+          <Properties>
+            <Property Name="Position">3,3,795,465</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoField">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">222,105,354,32</Property>
+            <Property Name="Font">Arial15Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="ItemsDetailsArea" />
+        <Control Name="ItemDetailsCenterBoxArea" />
+        <Control Name="ButtonGoBack">
+          <CustomData>
+            <Data Name="StringId">353</Data>
+          </CustomData>
+        </Control>
+        <Control Name="ButtonHelp" />
+        <Control Name="Line1AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">1 2 3 4 5 6 7 8 9 0 -</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line2AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">Q W E R T Y U I O P Å</Data>
+            <Data Name="TextAcuteOn">Q W É R T Ý Ú Í Ó P Å</Data>
+            <Data Name="TextGraveOn">Q W È R T Y Ù Ì Ò P Å</Data>
+            <Data Name="TextCircumflexOn">Q W Ê R T Y Û Î Ô P Å</Data>
+            <Data Name="TextUmlautOn">Q W Ë R T Ÿ Ü Ï Ö P Å</Data>
+            <Data Name="TextTildeOn">Q W E R T Y U I Õ P Å</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line3AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">59,272,904,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">A S D F G H J K L Ö Ä</Data>
+            <Data Name="TextAcuteOn">Á S D F G H J K L Ö Ä</Data>
+            <Data Name="TextGraveOn">À S D F G H J K L Ö Ä</Data>
+            <Data Name="TextCircumflexOn">Â S D F G H J K L Ö Ä</Data>
+            <Data Name="TextUmlautOn">Ä S D F G H J K L Ö Ä</Data>
+            <Data Name="TextTildeOn">Ã S D F G H J K L Ö Ä</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line4AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">Z X C V B N M , .</Data>
+            <Data Name="TextTildeOn">Z X C V B Ñ M , .</Data>
+          </CustomData>
+        </Control>
+        <Control Name="NumericP3">
+          <Properties>
+            <Property Name="Position">89,398,120,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1333</Data>
+          </CustomData>
+        </Control>
+        <Control Name="AlphaNumKey3">
+          <Properties>
+            <Property Name="Position">656,335,120,121</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_EnterAlpha-Large.png</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="SpaceKey">
+          <Properties>
+            <Property Name="Position">309,398,183,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Space.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1332</Data>
+          </CustomData>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="Keyboard0410" Synchronize="False">
+      <Properties>
+        <Property Name="Picture">%MediaPath%\8x6_background.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="InstructionScreenTitle">
+          <Properties>
+            <Property Name="Position">24,15,770,45</Property>
+            <Property Name="Font">Arial17Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">4</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">338</Data>
+          </CustomData>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="MatKeyBoard">
+          <Properties>
+            <Property Name="Position">3,3,795,465</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoField">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">222,105,354,32</Property>
+            <Property Name="Font">Arial15Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="ItemsDetailsArea" />
+        <Control Name="ItemDetailsCenterBoxArea" />
+        <Control Name="ButtonGoBack">
+          <CustomData>
+            <Data Name="StringId">353</Data>
+          </CustomData>
+        </Control>
+        <Control Name="ButtonHelp" />
+        <Control Name="Line1AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">1 2 3 4 5 6 7 8 9 0 ì</Data>
+            <Data Name="TextShiftOn">1 2 3 4 5 6 7 8 9 0 '</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line2AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">q w e r t y u i o p è</Data>
+            <Data Name="TextShiftOn">Q W E R T Y U I O P é</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line3AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">28,272,850,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">a s d f g h j k l ò à ù</Data>
+            <Data Name="TextShiftOn">A S D F G H J K L ç # @</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line4AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">z x c v b n m , .</Data>
+            <Data Name="TextShiftOn">Z X C V B N M , .</Data>
+          </CustomData>
+        </Control>
+        <Control Name="NumericP3">
+          <Properties>
+            <Property Name="Position">89,398,120,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1333</Data>
+          </CustomData>
+        </Control>
+        <Control Name="AlphaNumKey3">
+          <Properties>
+            <Property Name="Position">656,335,120,121</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_EnterAlpha-Large.png</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="SpaceKey">
+          <Properties>
+            <Property Name="Position">309,398,183,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Space.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1332</Data>
+          </CustomData>
+        </Control>
+        <Control Name="ShiftKey1">
+          <Properties>
+            <Property Name="Position">496,398,120,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1331</Data>
+          </CustomData>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="Keyboard0413" Synchronize="False">
+      <CustomData>
+        <Data Name="ContextReference">Keyboard0409</Data>
+      </CustomData>
+    </Context>
+    <Context Name="Keyboard0415" Synchronize="False">
+      <Properties>
+        <Property Name="Picture">%MediaPath%\8x6_background.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="InstructionScreenTitle">
+          <Properties>
+            <Property Name="Position">24,15,770,45</Property>
+            <Property Name="Font">Arial17Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">4</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">338</Data>
+          </CustomData>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="MatKeyBoard">
+          <Properties>
+            <Property Name="Position">3,3,795,465</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoField">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">222,105,354,32</Property>
+            <Property Name="Font">Arial15Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="ItemsDetailsArea" />
+        <Control Name="ItemDetailsCenterBoxArea" />
+        <Control Name="ButtonGoBack">
+          <CustomData>
+            <Data Name="StringId">353</Data>
+          </CustomData>
+        </Control>
+        <Control Name="ButtonHelp" />
+        <Control Name="Line1AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">1 2 3 4 5 6 7 8 9 0 -</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line2AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">Q W E R T Y U I O P _</Data>
+            <Data Name="TextAltGrOn">Q W Ę R T Y U I Ó P _</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line3AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">A S D F G H J K L @</Data>
+            <Data Name="TextAltGrOn">Ą Ś D F G H J K Ł @</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line4AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">Z X C V B N M , .</Data>
+            <Data Name="TextAltGrOn">Ż Ź Ć V B Ń M , .</Data>
+          </CustomData>
+        </Control>
+        <Control Name="NumericP3">
+          <Properties>
+            <Property Name="Position">89,398,120,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1333</Data>
+          </CustomData>
+        </Control>
+        <Control Name="AlphaNumKey3">
+          <Properties>
+            <Property Name="Position">656,335,120,121</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_EnterAlpha-Large.png</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="SpaceKey">
+          <Properties>
+            <Property Name="Position">309,398,183,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Z-Order">4</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Space.png</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1332</Data>
+          </CustomData>
+        </Control>
+        <Control Name="AltGrKey" />
+      </Include>
+    </Context>
+    <Context Name="Keyboard041d" Synchronize="False">
+      <CustomData>
+        <Data Name="ContextReference">Keyboard040b</Data>
+      </CustomData>
+    </Context>
+    <Context Name="Keyboard041f" Synchronize="False">
+      <Properties>
+        <Property Name="Picture">%MediaPath%\8x6_background.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="InstructionScreenTitle">
+          <Properties>
+            <Property Name="Position">24,15,770,45</Property>
+            <Property Name="Font">Arial17Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">4</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">338</Data>
+          </CustomData>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="MatKeyBoard">
+          <Properties>
+            <Property Name="Position">3,3,795,465</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoField">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">222,105,354,32</Property>
+            <Property Name="Font">Arial15Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="ItemsDetailsArea" />
+        <Control Name="ItemDetailsCenterBoxArea" />
+        <Control Name="ButtonGoBack">
+          <CustomData>
+            <Data Name="StringId">353</Data>
+          </CustomData>
+        </Control>
+        <Control Name="ButtonHelp" />
+        <Control Name="Line1AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">1 2 3 4 5 6 7 8 9 0 -</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line2AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">28,210,970,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">Q W E R T Y U I O P Ğ Ü</Data>
+            <Data Name="TextAcuteOn">Q W É R T Y Ú Í Ó P Ğ Ü</Data>
+            <Data Name="TextGraveOn">Q W È R T Y Ù Ì Ò P Ğ Ü</Data>
+            <Data Name="TextCircumflexOn">Q W Ê R T Y Û Î Ô P Ğ Ü</Data>
+            <Data Name="TextUmlautOn">Q W Ë R T Y Ü Ï Ö P Ğ Ü</Data>
+            <Data Name="TextTildeOn">Q W E R T Y U I Õ P Ğ Ü</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line3AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">59,272,700,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">A S D F G H J K L Ş İ</Data>
+            <Data Name="TextAcuteOn">Á S D F G H J K L Ş İ</Data>
+            <Data Name="TextGraveOn">À S D F G H J K L Ş İ</Data>
+            <Data Name="TextCircumflexOn">Â S D F G H J K L Ş İ</Data>
+            <Data Name="TextUmlautOn">Ä S D F G H J K L Ş İ</Data>
+            <Data Name="TextTildeOn">Ã S D F G H J K L Ş İ</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line4AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">Z X C V B N M Ö Ç</Data>
+            <Data Name="TextTildeOn">Z X C V B Ñ M Ö Ç</Data>
+          </CustomData>
+        </Control>
+        <Control Name="NumericP3">
+          <Properties>
+            <Property Name="Position">89,398,120,59</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+            <Property Name="Z-Order">4</Property>
+            <Property Name="Font">Arial13Bold</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1333</Data>
+          </CustomData>
+        </Control>
+        <Control Name="AlphaNumKey3">
+          <Properties>
+            <Property Name="Position">656,335,120,121</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_EnterAlpha-Large.png</Property>
+            <Property Name="Z-Order">5</Property>
+            <Property Name="Font">Arial13Bold</Property>
+          </Properties>
+        </Control>
+        <Control Name="SpaceKey">
+          <Properties>
+            <Property Name="Position">309,398,183,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Space.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1332</Data>
+          </CustomData>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="Keyboard0452" Synchronize="False">
+      <Properties>
+        <Property Name="Picture">%MediaPath%\8x6_background.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="InstructionScreenTitle">
+          <Properties>
+            <Property Name="Position">24,15,770,45</Property>
+            <Property Name="Font">Arial17Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">4</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">338</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Instruction_Line1">
+          <CustomData>
+            <Data Name="StringId">1757</Data>
+          </CustomData>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="MatKeyBoard">
+          <Properties>
+            <Property Name="Position">3,3,795,465</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoField">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">222,105,354,32</Property>
+            <Property Name="Font">Arial15Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="ItemsDetailsArea" />
+        <Control Name="ItemDetailsCenterBoxArea" />
+        <Control Name="ButtonGoBack">
+          <CustomData>
+            <Data Name="StringId">353</Data>
+          </CustomData>
+        </Control>
+        <Control Name="ButtonHelp" />
+        <Control Name="Line1AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">1 2 3 4 5 6 7 8 9 0 -</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line2AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">Q W E R T Y U I O P _</Data>
+            <Data Name="TextAcuteOn">Q Ẃ É R T Ý Ú Í Ó P _</Data>
+            <Data Name="TextGraveOn">Q Ẁ È R T Ỳ Ù Ì Ò P _</Data>
+            <Data Name="TextCircumflexOn">Q Ŵ Ê R T Ŷ Û Î Ô P _</Data>
+            <Data Name="TextUmlautOn">Q W Ë R T Ÿ Ü Ï Ö P _</Data>
+            <Data Name="TextTildeOn">Q W E R T Y U I Õ P _</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line3AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">A S D F G H J K L @</Data>
+            <Data Name="TextAcuteOn">Á S D F G H J K L @</Data>
+            <Data Name="TextGraveOn">À S D F G H J K L @</Data>
+            <Data Name="TextCircumflexOn">Â S D F G H J K L @</Data>
+            <Data Name="TextUmlautOn">Ä S D F G H J K L @</Data>
+            <Data Name="TextTildeOn">Ã S D F G H J K L @</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line4AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">Z X C V B N M , .</Data>
+            <Data Name="TextTildeOn">Z X C V B Ñ M , .</Data>
+          </CustomData>
+        </Control>
+        <Control Name="HotKeys">
+          <Properties>
+            <Property Name="Position">339,398,500,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">´ ` ^ ¨ ~</Data>
+            <Data Name="Data">HKAcute HKGrave HKCircumflex HKUmlaut HKTilde</Data>
+          </CustomData>
+        </Control>
+        <Control Name="NumericP3">
+          <Properties>
+            <Property Name="Position">28,398,120,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1333</Data>
+          </CustomData>
+        </Control>
+        <Control Name="AlphaNumKey3">
+          <Properties>
+            <Property Name="Position">656,335,120,121</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_EnterAlpha-Large.png</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="SpaceKey">
+          <Properties>
+            <Property Name="Position">152,398,183,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Space.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1332</Data>
+          </CustomData>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="Keyboard0427" Synchronize="False">
+      <Properties>
+        <Property Name="Picture">%MediaPath%\8x6_background.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="InstructionScreenTitle">
+          <Properties>
+            <Property Name="Position">24,15,770,45</Property>
+            <Property Name="Font">Arial17Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">4</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">338</Data>
+          </CustomData>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="MatKeyBoard">
+          <Properties>
+            <Property Name="Position">3,3,795,465</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoField">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">222,105,354,32</Property>
+            <Property Name="Font">Arial15Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="ItemsDetailsArea" />
+        <Control Name="ItemDetailsCenterBoxArea" />
+        <Control Name="ButtonGoBack">
+          <CustomData>
+            <Data Name="StringId">353</Data>
+          </CustomData>
+        </Control>
+        <Control Name="ButtonHelp" />
+        <Control Name="Line1AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">28,147,850,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">Ą Č Ę Ė Į Š Ų Ū 9 0 - Ž</Data>
+            <Data Name="TextAltGrOn">1 2 3 4 5 6 7 8 9 0 - Ž</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line2AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">Q W E R T Y U I O P _</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line3AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">A S D F G H J K L @</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line4AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">Z X C V B N M , .</Data>
+          </CustomData>
+        </Control>
+        <Control Name="NumericP3">
+          <Properties>
+            <Property Name="Position">89,398,190,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1333</Data>
+          </CustomData>
+        </Control>
+        <Control Name="AlphaNumKey3">
+          <Properties>
+            <Property Name="Position">656,335,120,121</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_EnterAlpha-Large.png</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="SpaceKey">
+          <Properties>
+            <Property Name="Position">309,398,183,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Space.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1332</Data>
+          </CustomData>
+        </Control>
+        <Control Name="AltGrKey" />
+      </Include>
+    </Context>
+    <Context Name="Keyboard0809" Synchronize="False">
+      <CustomData>
+        <Data Name="ContextReference">Keyboard0409</Data>
+      </CustomData>
+    </Context>
+    <Context Name="Keyboard080a" Synchronize="False">
+      <Properties>
+        <Property Name="Picture">%MediaPath%\8x6_background.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="InstructionScreenTitle">
+          <Properties>
+            <Property Name="Position">24,15,770,45</Property>
+            <Property Name="Font">Arial17Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">4</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">338</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Instruction_Line1">
+          <CustomData>
+            <Data Name="StringId">1757</Data>
+          </CustomData>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="MatKeyBoard">
+          <Properties>
+            <Property Name="Position">3,3,795,465</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoField">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">222,105,354,32</Property>
+            <Property Name="Font">Arial15Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="ItemsDetailsArea" />
+        <Control Name="ItemDetailsCenterBoxArea" />
+        <Control Name="ButtonGoBack">
+          <CustomData>
+            <Data Name="StringId">353</Data>
+          </CustomData>
+        </Control>
+        <Control Name="ButtonHelp" />
+        <Control Name="Line1AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">1 2 3 4 5 6 7 8 9 0 -</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line2AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">Q W E R T Y U I O P _</Data>
+            <Data Name="TextAcuteOn">Q W É R T Ý Ú Í Ó P _</Data>
+            <Data Name="TextUmlautOn">Q W E R T Y Ü I O P _</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line3AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">A S D F G H J K L Ñ</Data>
+            <Data Name="TextAcuteOn">Á S D F G H J K L Ñ</Data>
+            <Data Name="TextUmlautOn">A S D F G H J K L Ñ</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line4AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">Z X C V B N M , .</Data>
+            <Data Name="TextTildeOn">Z X C V B N M , .</Data>
+          </CustomData>
+        </Control>
+        <Control Name="HotKeys">
+          <Properties>
+            <Property Name="Position">401,398,500,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">´ ¨</Data>
+            <Data Name="Data">HKAcute HKUmlaut</Data>
+          </CustomData>
+        </Control>
+        <Control Name="NumericP3">
+          <Properties>
+            <Property Name="Position">89,398,120,59</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+            <Property Name="Z-Order">4</Property>
+            <Property Name="Font">Arial13Bold</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1333</Data>
+          </CustomData>
+        </Control>
+        <Control Name="AlphaNumKey3">
+          <Properties>
+            <Property Name="Position">656,335,120,121</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_EnterAlpha-Large.png</Property>
+            <Property Name="Z-Order">5</Property>
+            <Property Name="Font">Arial13Bold</Property>
+          </Properties>
+        </Control>
+        <Control Name="SpaceKey">
+          <Properties>
+            <Property Name="Position">214,398,183,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Space.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1332</Data>
+          </CustomData>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="Keyboard0c09" Synchronize="False">
+      <CustomData>
+        <Data Name="ContextReference">Keyboard0409</Data>
+      </CustomData>
+    </Context>
+    <Context Name="Keyboard0c0c" Synchronize="False">
+      <Properties>
+        <Property Name="Picture">%MediaPath%\8x6_background.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="InstructionScreenTitle">
+          <Properties>
+            <Property Name="Position">24,15,770,45</Property>
+            <Property Name="Font">Arial17Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">4</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">338</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Instruction_Line1">
+          <CustomData>
+            <Data Name="StringId">1757</Data>
+          </CustomData>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="MatKeyBoard">
+          <Properties>
+            <Property Name="Position">3,3,795,465</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoField">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">222,105,354,32</Property>
+            <Property Name="Font">Arial15Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="ItemsDetailsArea" />
+        <Control Name="ItemDetailsCenterBoxArea" />
+        <Control Name="ButtonGoBack">
+          <CustomData>
+            <Data Name="StringId">353</Data>
+          </CustomData>
+        </Control>
+        <Control Name="ButtonHelp" />
+        <Control Name="Line1AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">28,147,700,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">1 2 3 4 5 6 7 8 9 0 -</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line2AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">28,210,700,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">Q W E R T Y U I O P Ç</Data>
+            <Data Name="TextGraveOn"> Q W È R T Y Ù Ì Ò P Ç</Data>
+            <Data Name="TextCircumflexOn">Q W Ê R T Y Û Î Ô P Ç</Data>
+            <Data Name="TextUmlautOn">Q W Ë R T Ÿ Ü Ï Ö P Ç</Data>
+            <Data Name="TextTildeOn">Q W E R T Y U I Õ P Ç</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line3AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">28,272,700,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">A S D F G H J K L È À</Data>
+            <Data Name="TextGraveOn"> À S D F G H J K L È À</Data>
+            <Data Name="TextCircumflexOn">Â S D F G H J K L È À</Data>
+            <Data Name="TextUmlautOn">Ä S D F G H J K L È À</Data>
+            <Data Name="TextTildeOn">Ã S D F G H J K L È À</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line4AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">89,335,750,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">Ù Z X C V B N M É</Data>
+            <Data Name="TextTildeOn">Ù Z X C V B Ñ M É</Data>
+          </CustomData>
+        </Control>
+        <Control Name="HotKeys">
+          <CustomData>
+            <Data Name="Text">` ^ ¨ ~</Data>
+            <Data Name="Data">HKGrave HKCircumflex HKUmlaut HKTilde</Data>
+          </CustomData>
+        </Control>
+        <Control Name="NumericP3">
+          <Properties>
+            <Property Name="Position">28,398,120,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1333</Data>
+          </CustomData>
+        </Control>
+        <Control Name="AlphaNumKey3">
+          <Properties>
+            <Property Name="Position">656,335,120,121</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_EnterAlpha-Large.png</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="SpaceKey">
+          <Properties>
+            <Property Name="Position">153,398,183,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Space.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1332</Data>
+          </CustomData>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="Keyboard0424">
+      <Properties>
+        <Property Name="Picture">%MediaPath%\8x6_background.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="InstructionScreenTitle">
+          <Properties>
+            <Property Name="Position">24,15,770,45</Property>
+            <Property Name="Font">Arial17Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">4</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">338</Data>
+          </CustomData>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="MatKeyBoard">
+          <Properties>
+            <Property Name="Position">3,3,795,465</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoField">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">222,105,354,32</Property>
+            <Property Name="Font">Arial15Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="ItemsDetailsArea" />
+        <Control Name="ItemDetailsCenterBoxArea" />
+        <Control Name="ButtonGoBack">
+          <CustomData>
+            <Data Name="StringId">353</Data>
+          </CustomData>
+        </Control>
+        <Control Name="ButtonHelp" />
+        <Control Name="Line1AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">1 2 3 4 5 6 7 8 9 0 -</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line2AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">45,210,850,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">Q W E R T Z U I O P Š Đ</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line3AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">45,272,904,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">A S D F G H J K L Č Ć Ž</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line4AlphaNumericKeys">
+          <CustomData>
+            <Data Name="Text">Y X C V B N M , .</Data>
+          </CustomData>
+        </Control>
+        <Control Name="NumericP3">
+          <Properties>
+            <Property Name="Position">89,398,120,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1333</Data>
+          </CustomData>
+        </Control>
+        <Control Name="AlphaNumKey3">
+          <Properties>
+            <Property Name="Position">656,335,120,121</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_EnterAlpha-Large.png</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="SpaceKey">
+          <Properties>
+            <Property Name="Position">309,398,183,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Space.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1332</Data>
+          </CustomData>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="Keyboard1409" Synchronize="False">
+      <CustomData>
+        <Data Name="ContextReference">Keyboard0409</Data>
+      </CustomData>
+    </Context>
+    <Context Name="Keyboard0411" Synchronize="False">
+      <CustomData>
+        <Data Name="ContextReference">Keyboard0409</Data>
+      </CustomData>
+    </Context>
+    <Context Name="Keyboard0412" Synchronize="False">
+      <CustomData>
+        <Data Name="ContextReference">Keyboard0409</Data>
+      </CustomData>
+    </Context>
+    <Context Name="Keyboard1809" Synchronize="False">
+      <CustomData>
+        <Data Name="ContextReference">Keyboard0409</Data>
+      </CustomData>
+    </Context>
+    <Context Name="Keyboard041b" Synchronize="False">
+      <Properties>
+        <Property Name="Picture">%MediaPath%\8x6_background.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="InstructionScreenTitle">
+          <Properties>
+            <Property Name="Position">24,15,770,45</Property>
+            <Property Name="Font">Arial17Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">4</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">338</Data>
+          </CustomData>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="MatKeyBoard">
+          <Properties>
+            <Property Name="Position">3,3,795,465</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoField">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">222,105,354,32</Property>
+            <Property Name="Font">Arial15Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="ItemsDetailsArea" />
+        <Control Name="ItemDetailsCenterBoxArea" />
+        <Control Name="ButtonGoBack">
+          <CustomData>
+            <Data Name="StringId">353</Data>
+          </CustomData>
+        </Control>
+        <Control Name="ButtonHelp" />
+        <Control Name="Line1AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">22,147,634,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">' ľ š č ť ž ý á í é</Data>
+            <Data Name="TextShiftOn">1 2 3 4 5 6 7 8 9 0</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line2AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">12,210,788,59</Property>
+            <Property Name="ButtonHorizontalSpacing">2</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">q w e r t z u i o p ú ä ň</Data>
+            <Data Name="TextShiftOn">Q W E R T Z U I O P #</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line3AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">22,272,634,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">a s d f g h j k l ô</Data>
+            <Data Name="TextShiftOn">A S D F G H J K L @</Data>
+          </CustomData>
+        </Control>
+        <Control Name="Line4AlphaNumericKeys">
+          <Properties>
+            <Property Name="Position">22,335,634,59</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="Text">y x c v b n m , . -</Data>
+            <Data Name="TextShiftOn">Y X C V B N M , . _</Data>
+          </CustomData>
+        </Control>
+        <Control Name="NumericP3">
+          <Properties>
+            <Property Name="Position">89,398,120,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1333</Data>
+          </CustomData>
+        </Control>
+        <Control Name="AlphaNumKey3">
+          <Properties>
+            <Property Name="Position">656,272,120,121</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_EnterAlpha-Large.png</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="SpaceKey">
+          <Properties>
+            <Property Name="Position">309,398,183,59</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Space.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1332</Data>
+          </CustomData>
+        </Control>
+        <Control Name="ShiftKey1">
+          <Properties>
+            <Property Name="Position">656,398,120,59</Property>
+            <Property Name="Font">Arial17Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1331</Data>
+          </CustomData>
+        </Control>
+      </Include>
+    </Context>
+	<Context Name="Keyboard0419" Synchronize="False"> <!--Russian - Russia Keyboard-->
+		<Properties>
+			<Property Name="Picture">%MediaPath%\8x6_background.gif</Property>
+		</Properties>
+		<Include>
+			<Control Name="InstructionScreenTitle">
+				<Properties>
+					<Property Name="Position">24,15,770,45</Property>
+					<Property Name="Font">Arial17Bold</Property>
+					<Property Name="TextColor">Black</Property>
+					<Property Name="Z-Order">4</Property>
+					<Property Name="TextAlignment">0</Property>
+					<Property Name="TextLineAlignment">0</Property>
+				</Properties>
+				<CustomData>
+					<Data Name="StringId">338</Data>
+				</CustomData>
+			</Control>
+			<Control Name="MessageBoxNoEcho">
+				<Property Name="Z-Order">4</Property>
+			</Control>
+			<Control Name="MatKeyBoard">
+				<Properties>
+					<Property Name="Position">3,3,795,465</Property>
+					<Property Name="Z-Order">3</Property>
+				</Properties>
+			</Control>
+			<!--
+			<Control Name="SmallLogo">
+				<Properties>
+					<Property Name="Z-Order">4</Property>
+				</Properties>
+			</Control>
+			-->
+			<Control Name="EchoField">
+				<Properties>
+					<Property Name="Z-Order">4</Property>
+				</Properties>
+			</Control>
+			<Control Name="Echo">
+				<Properties>
+					<Property Name="Position">222,105,354,32</Property>
+					<Property Name="Font">Arial15Bold</Property>
+					<Property Name="TextColor">Black</Property>
+					<Property Name="Z-Order">5</Property>
+				</Properties>
+			</Control>
+			<Control Name="ItemsDetailsArea"></Control>
+			<Control Name="ItemDetailsCenterBoxArea"></Control>
+			<Control Name="ButtonGoBack">
+				<CustomData>
+					<Data Name="StringId">353</Data>
+				</CustomData>
+			</Control>
+			<Control Name="ButtonHelp"></Control>
+			<Control Name="Line1AlphaNumericKeys">
+				<Properties>
+					<Property Name="Position">28,147,881,59</Property>
+				</Properties>
+				<CustomData>
+					<Data Name="Text">ё 1 2 3 4 5 6 7 8 9 0 -</Data>
+					<Data Name="TextShiftOn">Ё ! " № ; % : ? * ( ) _</Data>
+				</CustomData>
+			</Control>
+			<Control Name="Line2AlphaNumericKeys">
+				<Properties>
+					<Property Name="Position">28,210,881,59</Property>
+				</Properties>
+				<CustomData>
+					<Data Name="Text">й ц у к е н г ш щ з х ъ</Data>
+					<Data Name="TextShiftOn">Й Ц У К Е Н Г Ш Щ З Х Ъ</Data>	
+				</CustomData>
+			</Control>
+			<Control Name="Line3AlphaNumericKeys">
+				<Properties>
+					<Property Name="Position">28,272,850,59</Property>
+				</Properties>				
+				<CustomData>
+					<Data Name="Text">ф ы в а п р о л д ж э \</Data>
+					<Data Name="TextShiftOn">Ф Ы В А П Р О Л Д Ж Э /</Data>
+				</CustomData>
+			</Control>
+			<Control Name="Line4AlphaNumericKeys">
+				<Properties>
+					<Property Name="Position">28,335,911,59</Property>
+				</Properties>
+				<CustomData>
+					<Data Name="Text">я ч с м и т ь б ю .</Data>
+					<Data Name="TextShiftOn">Я Ч С М И Т Ь Б Ю ,</Data>
+				</CustomData>
+			</Control>
+			<Control Name="NumericP3">
+				<Properties>
+					<Property Name="Position">89,398,120,59</Property>
+					<Property Name="Font">Arial13Bold</Property>
+					<Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+					<Property Name="Z-Order">4</Property>
+				</Properties>
+				<CustomData>
+					<Data Name="StringId">1333</Data>
+				</CustomData>
+			</Control>
+			<Control Name="AlphaNumKey3">
+				<Properties>
+					<Property Name="Position">656,335,120,121</Property>
+					<Property Name="Font">Arial13Bold</Property>
+					<Property Name="Picture">%MediaPath%\8x6_Btn_EnterAlpha-Large.png</Property>
+					<Property Name="Z-Order">4</Property>
+				</Properties>
+			</Control>
+			<Control Name="SpaceKey">
+				<Properties>
+					<Property Name="Position">309,398,183,59</Property>
+					<Property Name="Font">Arial13Bold</Property>
+					<Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Space.png</Property>
+					<Property Name="Z-Order">4</Property>
+				</Properties>
+				<CustomData>
+					<Data Name="StringId">1332</Data>
+				</CustomData>
+			</Control>
+			<Control Name="ShiftKey1">
+				<Properties>
+					<Property Name="Position">496,398,120,59</Property>
+					<Property Name="Font">Arial13Bold</Property>
+					<Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+					<Property Name="Z-Order">4</Property>
+				</Properties>
+				<CustomData>
+					<Data Name="StringId">1331</Data>
+				</CustomData>					
+			</Control>
+		</Include>
+	</Context>
+	<Context Name="Keyboard040e" Synchronize="False"> <!--hungarian Keyboard-->
+			<Properties>
+				<Property Name="Picture">%MediaPath%\8x6_background.gif</Property>
+			</Properties>
+			<Include>
+				<Control Name="InstructionScreenTitle">
+					<Properties>
+						<Property Name="Position">24,15,770,45</Property>
+						<Property Name="Font">Arial17Bold</Property>
+						<Property Name="TextColor">Black</Property>
+						<Property Name="Z-Order">4</Property>
+						<Property Name="TextAlignment">0</Property>
+						<Property Name="TextLineAlignment">0</Property>
+					</Properties>
+					<CustomData>
+						<Data Name="StringId">338</Data>
+					</CustomData>
+				</Control>
+				<Control Name="MessageBoxNoEcho">
+				    <Properties>
+					    <Property Name="Z-Order">4</Property>
+					</Properties>
+				</Control>
+				<Control Name="MatKeyBoard">
+					<Properties>
+						<Property Name="Position">3,3,795,465</Property>
+						<Property Name="Z-Order">3</Property>
+					</Properties>
+				</Control>
+				<!--
+				<Control Name="SmallLogo">
+					<Properties>
+						<Property Name="Z-Order">4</Property>
+					</Properties>
+				</Control>
+				-->
+				<Control Name="EchoField">
+					<Properties>
+						<Property Name="Z-Order">4</Property>
+					</Properties>
+				</Control>
+				<Control Name="Echo">
+					<Properties>
+						<Property Name="Position">222,105,354,32</Property>
+						<Property Name="Font">Arial15Bold</Property>
+						<Property Name="TextColor">Black</Property>
+						<Property Name="Z-Order">5</Property>
+					</Properties>
+				</Control>
+				<Control Name="ItemsDetailsArea"></Control>
+				<Control Name="ItemDetailsCenterBoxArea"></Control>
+				<Control Name="ButtonGoBack">
+					<CustomData>
+						<Data Name="StringId">353</Data>
+					</CustomData>
+				</Control>
+				<Control Name="ButtonHelp"></Control>
+				<Control Name="Line1AlphaNumericKeys">
+					<CustomData>
+						<Data Name="Text">1 2 3 4 5 6 7 8 9 0 -</Data>
+					</CustomData>
+				</Control>
+				<Control Name="Line2AlphaNumericKeys">
+					<CustomData>
+						<Data Name="Text">Q W E R T Y U I O P _</Data>
+					</CustomData>
+				</Control>
+				<Control Name="Line3AlphaNumericKeys">
+					<CustomData>
+						<Data Name="Text">A S D F G H J K L @</Data>
+					</CustomData>
+				</Control>
+				<Control Name="Line4AlphaNumericKeys">
+					<CustomData>
+						<Data Name="Text">Z X C V B N M , .</Data>
+					</CustomData>
+				</Control>
+				<Control Name="NumericP3">
+					<Properties>
+						<Property Name="Position">89,398,120,59</Property>
+						<Property Name="Font">Arial13Bold</Property>
+						<Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+						<Property Name="Z-Order">4</Property>
+					</Properties>
+					<CustomData>
+						<Data Name="StringId">1333</Data>
+					</CustomData>
+				</Control>
+				<Control Name="AlphaNumKey3">
+					<Properties>
+						<Property Name="Position">656,335,120,121</Property>
+						<Property Name="Font">Arial13Bold</Property>
+						<Property Name="Picture">%MediaPath%\8x6_Btn_EnterAlpha-Large.png</Property>
+						<Property Name="Z-Order">4</Property>
+					</Properties>
+				</Control>
+				<Control Name="SpaceKey">
+					<Properties>
+						<Property Name="Position">309,398,183,59</Property>
+						<Property Name="Font">Arial13Bold</Property>
+						<Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Space.png</Property>
+						<Property Name="Z-Order">4</Property>
+					</Properties>
+					<CustomData>
+						<Data Name="StringId">1332</Data>
+					</CustomData>
+				</Control>
+			</Include>
+		</Context>
+        <Context Name="Keyboard0408" Synchronize="False"> <!--Greek - Greece Keyboard-->
+			<Properties>
+				<Property Name="Picture">%MediaPath%\8x6_background.gif</Property>
+			</Properties>
+			<Include>
+				<Control Name="InstructionScreenTitle">
+					<Properties>
+						<Property Name="Position">24,15,770,45</Property>
+						<Property Name="Font">Arial17Bold</Property>
+						<Property Name="TextColor">Black</Property>
+						<Property Name="Z-Order">4</Property>
+						<Property Name="TextAlignment">0</Property>
+						<Property Name="TextLineAlignment">0</Property>
+					</Properties>
+					<CustomData>
+						<Data Name="StringId">338</Data>
+					</CustomData>
+				</Control>
+				<Control Name="MessageBoxNoEcho">
+					<Property Name="Z-Order">4</Property>
+				</Control>
+				<Control Name="MatKeyBoard">
+					<Properties>
+						<Property Name="Position">3,3,795,465</Property>
+						<Property Name="Z-Order">3</Property>
+					</Properties>
+				</Control>
+				<!--
+				<Control Name="SmallLogo">
+					<Properties>
+						<Property Name="Z-Order">4</Property>
+					</Properties>
+				</Control>
+				-->
+				<Control Name="EchoField">
+					<Properties>
+						<Property Name="Z-Order">4</Property>
+					</Properties>
+				</Control>
+				<Control Name="Echo">
+					<Properties>
+						<Property Name="Position">222,105,354,32</Property>
+						<Property Name="Font">Arial15Bold</Property>
+						<Property Name="TextColor">Black</Property>
+						<Property Name="Z-Order">5</Property>
+					</Properties>
+				</Control>
+				<Control Name="ItemsDetailsArea"></Control>
+				<Control Name="ItemDetailsCenterBoxArea"></Control>
+				<Control Name="ButtonGoBack">
+					<CustomData>
+						<Data Name="StringId">353</Data>
+					</CustomData>
+				</Control>
+				<Control Name="ButtonHelp"></Control>
+				<Control Name="Line1AlphaNumericKeys">
+					<Properties>
+						<Property Name="Position">28,147,881,59</Property>
+					</Properties>
+					<CustomData>
+						<Data Name="Text">` 1 2 3 4 5 6 7 8 9 0 - =</Data>
+						<Data Name="TextShiftOn">~ ! # $ % ^ &amp; * ( ) _ +</Data>
+					</CustomData>
+				</Control>
+				<Control Name="Line2AlphaNumericKeys">
+					<Properties>
+						<Property Name="Position">28,210,881,59</Property>
+					</Properties>
+					<CustomData>
+						<Data Name="Text">; ς ε ρ τ υ θ ι ο π [ ] \</Data>
+						<Data Name="TextShiftOn">: ΅ Ε Ρ Τ Υ Θ Ι Ο Π { } |</Data>	
+					</CustomData>
+				</Control>
+				<Control Name="Line3AlphaNumericKeys">
+					<Properties>
+						<Property Name="Position">28,272,850,59</Property>
+					</Properties>				
+					<CustomData>
+						<Data Name="Text">α σ δ φ γ η ξ κ λ ΄ ‘</Data>
+						<Data Name="TextShiftOn">Α Σ Δ Φ Γ Η Ξ Κ Λ ¨ «</Data>
+					</CustomData>
+				</Control>
+				<Control Name="Line4AlphaNumericKeys">
+					<Properties>
+						<Property Name="Position">28,335,911,59</Property>
+					</Properties>
+					<CustomData>
+						<Data Name="Text">ζ χ ψ ω β ν μ , . /</Data>
+						<Data Name="TextShiftOn">Ζ Χ Ψ Ω Β Ν Μ &lt; &gt; ?</Data>
+					</CustomData>
+				</Control>
+				<Control Name="NumericP3">
+					<Properties>
+						<Property Name="Position">89,398,120,59</Property>
+						<Property Name="Font">Arial13Bold</Property>
+						<Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+						<Property Name="Z-Order">4</Property>
+					</Properties>
+					<CustomData>
+						<Data Name="StringId">1333</Data>
+					</CustomData>
+				</Control>
+				<Control Name="AlphaNumKey3">
+					<Properties>
+						<Property Name="Position">656,335,120,121</Property>
+						<Property Name="Font">Arial13Bold</Property>
+						<Property Name="Picture">%MediaPath%\8x6_Btn_EnterAlpha-Large.png</Property>
+						<Property Name="Z-Order">4</Property>
+					</Properties>
+				</Control>
+				<Control Name="SpaceKey">
+					<Properties>
+						<Property Name="Position">309,398,183,59</Property>
+						<Property Name="Font">Arial13Bold</Property>
+						<Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Space.png</Property>
+						<Property Name="Z-Order">4</Property>
+					</Properties>
+					<CustomData>
+						<Data Name="StringId">1332</Data>
+					</CustomData>
+				</Control>
+				<Control Name="ShiftKey1">
+					<Properties>
+						<Property Name="Position">496,398,120,59</Property>
+						<Property Name="Font">Arial13Bold</Property>
+						<Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+						<Property Name="Z-Order">4</Property>
+					</Properties>
+					<CustomData>
+						<Data Name="StringId">1331</Data>
+					</CustomData>					
+				</Control>
+			</Include>
+		</Context>
+    <Context Name="Keyboard0422" Synchronize="False">
+      <Properties>
+        <Property Name="Picture">%MediaPath%\8x6_background.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="InstructionScreenTitle">
+          <Properties>
+            <Property Name="Position">24,15,990,45</Property>
+            <Property Name="Font">Arial27Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">4</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">338</Data>
+          </CustomData>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="MatKeyBoard">
+          <Properties>
+            <Property Name="Position">4,4,1016,595</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoField">
+          <Properties>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">285,135,452,40</Property>
+            <Property Name="Font">Arial24Bold</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="ItemsDetailsArea" />
+        <Control Name="ItemDetailsCenterBoxArea" />
+        <Control Name="ButtonGoBack">
+          <CustomData>
+            <Data Name="StringId">353</Data>
+          </CustomData>
+        </Control>
+        <Control Name="ButtonHelp" />
+        <Control Name="Line1AlphaNumericKeys">
+          <Properties>
+						<Property Name="Position">36,189,1046,74</Property>
+					</Properties>
+					<CustomData>
+						<Data Name="Text">ё 1 2 3 4 5 6 7 8 9 0 -</Data>
+					</CustomData>
+        </Control>
+        <Control Name="Line2AlphaNumericKeys">
+          <Properties>
+						<Property Name="Position">36,269,1046,74</Property>
+					</Properties>
+					<CustomData>
+						<Data Name="Text">й ц у к е н г ш щ з х ї</Data>
+						<Data Name="TextShiftOn">Й Ц У К Е Н Г Ш Щ З Х Ї</Data>
+					</CustomData>
+        </Control>
+        <Control Name="Line3AlphaNumericKeys">
+          <Properties>
+						<Property Name="Position">36,349,1006,74</Property>
+					</Properties>					
+					<CustomData>
+						<Data Name="Text">ф і в а п р о л д ж є</Data>
+						<Data Name="TextShiftOn">Ф І В А П Р О Л Д Ж Є</Data>
+					</CustomData>
+        </Control>
+        <Control Name="Line4AlphaNumericKeys">
+          <Properties>
+						<Property Name="Position">36,429,982,74</Property>
+					</Properties>
+					<CustomData>
+						<Data Name="Text">я ч с м и т ь б ю .</Data>
+						<Data Name="TextShiftOn">Я Ч С М И Т Ь Б Ю ,</Data>
+					</CustomData>
+        </Control>
+        <Control Name="NumericP3">
+          <Properties>
+            <Property Name="Position">114,509,153,74</Property>
+            <Property Name="Font">Arial17Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1333</Data>
+          </CustomData>
+        </Control>
+        <Control Name="AlphaNumKey3">
+          <Properties>
+            <Property Name="Position">840,429,153,154</Property>
+            <Property Name="Font">Arial24Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_EnterAlpha-Large.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="SpaceKey">
+          <Properties>
+            <Property Name="Position">396,509,233,74</Property>
+            <Property Name="Font">Arial13Bold</Property>
+            <Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Space.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1332</Data>
+          </CustomData>
+        </Control>
+        <Control Name="ShiftKey1">
+					<Properties>
+						<Property Name="Position">636,509,153,74</Property>
+						<Property Name="Font">Arial17Bold</Property>
+						<Property Name="Picture">%MediaPath%\8x6_Btn_AlphaNumKey-Long.png</Property>
+						<Property Name="Z-Order">4</Property>
+					</Properties>
+					<CustomData>
+						<Data Name="StringId">1331</Data>
+					</CustomData>					
+				</Control>
+      </Include>
+    </Context>
+  </Contexts>
+</Display>

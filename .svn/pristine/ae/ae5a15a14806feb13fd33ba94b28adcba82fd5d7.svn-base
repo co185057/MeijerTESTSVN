@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<!-- Add Schema -->
+<root>
+
+	<App MainExecutable="RAP" LoadOnStartUp="true" MainContext="RAPContext" KeyLock="none" CompanionExecutable="" KillAppOnSwitch="true" LaunchPadSecurityOn="true" SecurityContext="EnterID" SecurityContext_="EnterAlphaNumericID" UtilityButtonVisible="true" ForegroundWindowTitle="">	
+	</App>
+	
+	<Executable ExecutableName="RAP"  WindowTitle="RAP,RAP.NET" Path="" Filename="RapNet.exe"  Maximize="true" TopMost="false">
+		<ExecuteFunction OnEvent="Start"  ExecuteOn="Pre" ExecutableName="StartUp"></ExecuteFunction> 
+		<ExecuteFunction OnEvent="Stop"   ExecuteOn="Pre" ExecutableName="StopNCRDeviceServer"></ExecuteFunction>  
+	</Executable>
+    
+	<Executable ExecutableName="StartNCRDeviceServer"  Path="%APP_DRIVE%\scot\bin\" Filename="NCRDeviceServer.exe" MinimizeStart="true" >
+	</Executable>
+
+	<Executable ExecutableName="StopNCRDeviceServer"  Path="%APP_DRIVE%\scot\bin\" Filename="kill.exe" Arguments="-f NCRDeviceServer.exe" MinimizeStart="true" >
+	</Executable>
+
+	<Executable ExecutableName="CommandPrompt" WindowTitle="Command Prompt" Path="{system}" Filename="cmd.exe" Maximize="false" >
+	</Executable>
+
+	<Executable ExecutableName="Reboot"  Filename="reboot.exe" Maximize="false" MinimizeStart="true" >		
+	</Executable>
+
+	<Executable ExecutableName="Shutdown"  Filename="reboot.exe" Arguments="-s" Maximize="false" MinimizeStart="true" >
+	</Executable>
+
+	<Executable ExecutableName="Volume" WindowTitle="Master Volume,Master Out,Volume Control" Path="{system}" Filename="sndvol32.exe" Maximize="false" >				
+	</Executable>
+
+	<Executable ExecutableName="EventViewer" WindowTitle="Event Viewer"  Path="{system}" Filename="eventvwr.exe" TopMost="false" >
+	</Executable>
+	
+	<Executable ExecutableName="TouchWare" WindowTitle="TouchWare Properties"  Path="%APP_DRIVE%\scot\bin" Filename="CalibrateDisplay.bat" Arguments="/c" TopMost="false">
+	</Executable>
+	
+	<Executable ExecutableName="StartUp" WindowTitle="StartUp"  Path="%APP_DRIVE%\scot\bin\" Filename="StartUp.bat" TopMost="false">
+		<ExecuteFunction OnEvent="Start"  ExecuteOn="Pre" ExecutableName="PreRAPStart"></ExecuteFunction>
+		<ExecuteFunction OnEvent="Start"  ExecuteOn="Post" ExecutableName="StartNCRDeviceServer"></ExecuteFunction>
+	</Executable>
+
+	<Executable ExecutableName="TrainingProgram" Filename="C:\Program Files\Internet Explorer\iexplore.exe" Arguments="-k C:\FastLane\FastLaneTraining\MainMenu.htm" >
+	</Executable>
+
+	<Executable ExecutableName="RSMLE" Filename="C:\Program Files\Plus!\Microsoft Internet\IEXPLORE.EXE" Arguments="C:\Program Files\NCR\RSM\Website\ConsoleLE.htm" >
+	</Executable>
+	
+	<Executable ExecutableName="GenerateLog" WindowTitle="Get Diagnostics Files Results,GetDiagFiles" Path="%APP_DRIVE%\scot\bin\" Filename="autopushdiagfiles.bat" Arguments="/p" MinimizeStart="true">
+	</Executable>
+	
+	<Executable ExecutableName="ExitRAPAndRunProfile" WindowTitle="Profile Manager Lite"   Path="%APP_DRIVE%\scot\bin\" Filename="ProfileManagerLite.exe" Maximize="true" TopMost="false" >
+		<ExecuteFunction OnEvent="Start" ExecuteOn="Pre" ExecutableName="RAP" Execute="Stop" ></ExecuteFunction>
+	</Executable>
+
+	<Executable ExecutableName="PickListEditor" WindowTitle="Pick List Editor"  Path="%APP_DRIVE%\scot\bin\" Filename="PickListEditor.exe" Maximize="false" TopMost="false" >
+	</Executable>
+	
+	<Executable ExecutableName="TerminalInfo" WindowTitle="TerminalInfo"   Filename="TerminalInfo.exe"  >
+	</Executable>
+	
+	<Executable ExecutableName="PreRAPStart"  Path="%APP_DRIVE%\scot\bin\" Filename="checkfailure.bat" Arguments="RAP" Maximize="false" WaitForExit="true" MinimizeStart="true" ExecuteOnlyOnce="true">		
+	</Executable>
+			
+	<Executable ExecutableName="RapConfigure"  WindowTitle="RAP Configuration" Path="%APP_DRIVE%\scot\bin\" Filename="RapConfigure.exe" Maximize="false">
+	</Executable>
+</root>

@@ -1,0 +1,26 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapConfigure", "RapConfigure.csproj", "{2C9EAEE7-E44D-41C2-BDBD-A3BC2CB90CF3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2C9EAEE7-E44D-41C2-BDBD-A3BC2CB90CF3}.Debug.ActiveCfg = Debug|.NET
+		{2C9EAEE7-E44D-41C2-BDBD-A3BC2CB90CF3}.Debug.Build.0 = Debug|.NET
+		{2C9EAEE7-E44D-41C2-BDBD-A3BC2CB90CF3}.Release.ActiveCfg = Release|.NET
+		{2C9EAEE7-E44D-41C2-BDBD-A3BC2CB90CF3}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

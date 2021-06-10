@@ -1,0 +1,13 @@
+REGEDIT4
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\TBTestApplication\CurrentVersion\TBTest\DataCapture]
+"DcapVersion"="1.1.2"
+"DcapTime"="F00 -> Hex time option(s): 100=m:s, 300=h:m:s, 700=m/d h:m:s; 800+digits=millisec; 1000=threadid"
+"DcapMask"="0 -> Hex mask of events to capture"
+"DcapControl"="0 -> Hex destination(s): 1=DCap App, 2=Debugger, 4=File; 10/20/40 for immediate"
+"DcapFileMax"="5120 -> Max KB of data cap file"
+"DcapFile"="C:\\SCOT\\BIN\\TBDataCapture.log"
+"DcapLinePrefix"="TB: "
+
+

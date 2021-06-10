@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<!-- Add Schema -->
+<root>
+
+	<App MainExecutable="FastLane" LoadOnStartUp="true" MainContext="FastLaneContext"  CompanionContext="RAPContext" KeyLock="SCOTSwitch"  CompanionExecutable="RAP" KillAppOnSwitch="true" LaunchPadSecurityOn="true" SecurityContext="EnterID" SecurityContext_="EnterAlphaNumericID" UtilityButtonVisible="true">	
+	</App>
+
+	<!--Executable ExecutableName="FastLane"  WindowTitle="NCR SCOT" Path="" Filename="scotapp.exe"  Maximize="true">
+	</Executable-->
+	<Executable ExecutableName="FastLane" WindowTitle="NCR SCOT" Path="" Filename="SCOTAPP.exe" Maximize="true" MinimizeStart="true" StopWindow="SCOTInputWindow" StopUserMessage="101">	
+		<ExecuteFunction OnEvent="Start"    ExecuteOn="Pre"    ExecutableName="PreScotStart"></ExecuteFunction> 	
+		<ExecuteFunction OnEvent="Start"    ExecuteOn="Post"   ExecutableName="PostScotStart"></ExecuteFunction> 
+
+		<ExecuteFunction OnEvent="Stop"     ExecuteOn="Pre" ExecutableName="PreScotStop"></ExecuteFunction>  
+		<ExecuteFunction OnEvent="Stop"     ExecuteOn="Post" ExecutableName="PostScotStop" ></ExecuteFunction>
+
+		<ExecuteFunction OnEvent="Minimize" ExecuteOn="Post"   ExecutableName="PostScotMinimize"></ExecuteFunction> 
+	</Executable>
+
+	<Executable ExecutableName="Reboot"  Filename="reboot.exe" Maximize="false" >
+		<ExecuteFunction OnEvent="Start" ExecuteOn="Pre" ExecutableName="FastLane" Execute="Stop" ></ExecuteFunction>		
+	</Executable>
+
+	<Executable ExecutableName="Shutdown"  Filename="reboot.exe" Arguments="-s" Maximize="false" >
+		<ExecuteFunction OnEvent="Start" ExecuteOn="Pre" ExecutableName="FastLane" Execute="Stop" ></ExecuteFunction>
+	</Executable>
+
+	<Executable ExecutableName="Volume" WindowTitle="Master Volume,Master Out,Volume Control" Path="{system}" Filename="sndvol32.exe" Maximize="false" >				
+	</Executable>
+
+	<Executable ExecutableName="EventViewer" WindowTitle="Event Viewer"  Path="{system}" Filename="eventvwr.exe" TopMost="false">
+	</Executable>
+
+    <Executable ExecutableName="TrainingProgram" Filename="C:\Program Files\Internet Explorer\iexplore.exe" Arguments="-k C:\FastLane\FastLaneTraining\MainMenu.htm" >
+	</Executable>
+
+	<Executable ExecutableName="GenerateLog" WindowTitle="Get Diagnostics Files Results,GetDiagFiles" Path="%APP_DRIVE%\scot\bin\" Filename="autopushdiagfiles.bat" Arguments="/p" MinimizeStart="true">
+	</Executable>
+	
+	<Executable ExecutableName="ExitFastLaneAndRunProfile" WindowTitle="Profile Manager Lite"   Path="%APP_DRIVE%\scot\bin\" Filename="ProfileManagerLite.exe" Maximize="true" TopMost="false" >
+		<ExecuteFunction OnEvent="Start" ExecuteOn="Pre" ExecutableName="FastLane" Execute="Stop" ></ExecuteFunction>
+	</Executable>
+
+	<Executable ExecutableName="TerminalInfo" WindowTitle="TerminalInfo" Filename="TerminalInfo.exe" >
+	</Executable>
+	
+	<Executable ExecutableName="PreScotStop"    Path="%APP_DRIVE%\scot\config\" Filename="PreScotStop.bat" Maximize="false" MinimizeStart="true" >
+	</Executable>
+	
+	<Executable ExecutableName="PreScotStart"    Path="%APP_DRIVE%\scot\config\" Filename="PreScotStart.bat" Maximize="false" MinimizeStart="true" >
+		<ExecuteFunction OnEvent="Start"    ExecuteOn="Pre"    ExecutableName="ADD"></ExecuteFunction> 
+	</Executable>
+	
+	<Executable ExecutableName="ReplaceScotStop"  Filename="ReplaceScotStop.bat"   Maximize="false" >		
+	</Executable>
+	
+	<Executable ExecutableName="PostScotStop"  Path="%APP_DRIVE%\scot\config\" Filename="PostScotStop.bat" Maximize="false" MinimizeStart="true" >
+	</Executable>
+	
+	<Executable ExecutableName="PreScotMinimize"  Filename="PreScotMinimize.bat"   Maximize="false" >
+	</Executable>
+	
+	<Executable ExecutableName="PostScotMinimize"  Filename="PostScotMinimize.bat"   Maximize="false" >		
+	</Executable>
+	
+	<Executable ExecutableName="ReplaceScotStart"  Filename="ReplaceScotStart.bat"   Maximize="false" >		
+	</Executable>
+	
+	<Executable ExecutableName="PostScotStart"  Path="%APP_DRIVE%\scot\config\" Filename="PostScotStart.bat" Maximize="false" MinimizeStart="true" >
+	</Executable>
+	
+	<Executable ExecutableName="ADD"  Path="%APP_DRIVE%\scot\bin\" Filename="ADD.bat"   Maximize="false" WaitForExit="true" MinimizeStart="true" ExecuteOnlyOnce="true" >		
+	</Executable>
+</root>

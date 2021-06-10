@@ -1,0 +1,13 @@
+LIBRARY	ACSExposedFunctionsTestStub
+EXPORTS
+	ACSExIsInitialized
+	ACSExInitialize
+	ACSExUninitialize
+	ACSValidateOperator
+	ACSValidateSupervisor
+
+	;ACSExEntryFlag { ACSEX_OPER_KEYED = 0, ACSEX_OPER_SCANNED = 1 };
+	ACSExValidateEmployeeOperatorString
+	ACSExValidateEmployeeSupervisorString
+	ACSExValidateEmployeeOperatorData
+	ACSExValidateEmployeeSupervisorData

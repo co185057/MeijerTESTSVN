@@ -1,0 +1,58 @@
+<Display Version="1.0">
+	<Languages>
+		<Language Name="0410">
+			<StringTable>
+				<String Name="MainTitle">Configurazione RAP</String>
+				<String Name="AddButtonText">Aggiungi</String>
+				<String Name="AddLaneTitle">Aggiungi corsia</String>
+				<String Name="ApplyButtonText">Applica</String>
+				<String Name="Backspace">Backspace</String>				
+				<String Name="CancelButtonText">Annulla</String>
+				<String Name="ConfigTypeText">Tipo configurazione corsia</String>
+				<String Name="ConfirmDeleteTitle">Conferma eliminazione</String>
+				<String Name="ConfirmDeleteText">Si desidera eliminare la corsia:</String>
+				<String Name="ConfirmExitTitle">Conferma uscita</String>
+				<String Name="ConfirmExitText">Si è sicuri di voler eliminare queste modifiche?</String>
+				<String Name="ConfirmSaveTitle">Conferma salvataggio</String>
+				<String Name="ConfirmSaveText">Le modifiche stanno per essere salvate su RapNet.xml. Si desidera continuare?</String>
+				<String Name="DeleteButtonText">Elimina</String>
+				<String Name="DuplicateIPTitle">Indirizzo IP duplicato</String>
+				<String Name="DuplicateLaneTitle">Trovata corsia duplicata</String> 
+				<String Name="DuplicateLaneText">La corsia %s esiste già</String>
+				<String Name="EditLaneTitle">Modifica corsia</String>
+				<String Name="EmptyText">Vuoto</String>
+				<String Name="Enter">Invio</String>
+				<String Name="EnterHostNameInstruction">Digitare il nome host e sfiorare "Invio".</String>
+				<String Name="EnterIPAddressInstruction">Digitare l’indirizzo IP e sfiorare "Invio".</String>
+				<String Name="EnterIPOctetInstruction">Digitare l’ottetto IP e sfiorare "Invio".</String>
+				<String Name="EnterHostNameText">Inserire il nome host della corsia</String>
+				<String Name="EnterIPAddressText">Inserire l’indirizzo IP della corsia</String>
+				<String Name="EnterIPOctetText">Inserire l’ottetto IP della corsia</String>
+				<String Name="ErrorText">Errore</String>
+				<String Name="ExitButtonText">Esci</String>
+				<String Name="FileErrorTitle">File non trovato</String>
+				<String Name="FileErrorText">Errore: Impossibile trovare il file RapNet.xml.</String>
+				<String Name="HostNameText">Nome host</String>
+				<String Name="IPAddressText">Indirizzo IP</String>
+				<String Name="IPOctetText">Ottetto IP</String>
+				<String Name="LaneText">Corsia</String>
+				<String Name="MoveButtonText">Sposta</String>
+				<String Name="NoButtonText">No</String>
+				<String Name="NoLane">Tutte le corsie sono state eliminate.</String>
+				<String Name="NoLaneToDelete">Non vi sono più corsie da eliminare.</String>
+				<String Name="NoLaneWarningTitle">Non vi sono corsie in RapNet.xml</String>
+				<String Name="NoLaneWarningText">Avviso: non sono configurate corsie in RapNet.xml.</String>
+				<String Name="OkButtonText">OK</String>
+				<String Name="RestartRAPTitle">Riavvia RAP</String>
+				<String Name="RestartRAPText">È necessario riavviare RAP.</String>
+				<String Name="SameRapIPAddress">Impossibile utilizzare lo stesso indirizzo IP come indirizzo IP del RAP desktop: %s</String>
+				<String Name="SameHHRapIPAddress">Impossibile utilizzare lo stesso indirizzo IP come indirizzo IP del RAP palmare: %s</String>
+				<String Name="SaveButtonText">Salva</String>
+				<String Name="SelectLaneToDelete">Selezionare una corsia da eliminare.</String>
+				<String Name="SelectSourceText">Seleziona corsia da spostare</String>
+				<String Name="SelectDestinationText">Seleziona destinazione</String>
+				<String Name="YesButtonText">Sì</String>
+			</StringTable>
+		</Language>
+	</Languages>
+</Display>

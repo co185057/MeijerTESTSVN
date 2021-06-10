@@ -1,0 +1,18 @@
+<!-- ================================================================================ -->
+<!--                                                                                  -->
+<!-- File: RCMConfig.xml                                                         -->
+<!--                                                                                  -->
+<!-- Function: Provides the set of user-configurable parameters for the Remote Console -->
+<!--    Manager component of the FastLane.                                            -->
+<!--                                                                                  -->
+<!-- Notes:                                                                           -->
+<!--                                                                                  -->
+<!--    1.  All timeout values are in milliseconds, ie. 1000 = 1s                     -->
+<!--    2.  All weight values are in thousandths of a pound, ie.                     -->
+<!--        1000 = 1lb                                                                -->
+<!--                                                                                  -->
+<!-- ================================================================================ -->
+<rcm>
+	<lane-name>100</lane-name>
+	<assist-mode-control>3</assist-mode-control>
+</rcm>

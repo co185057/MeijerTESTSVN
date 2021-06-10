@@ -1,0 +1,2795 @@
+﻿AmountSaved,Monto ahorrado
+Assistance,Asistencia
+AssistanceComing,"Llegará asistencia en un momento, por favor continúe."
+Back,Regresar
+BagItem,Por favor embolse este artículo.
+BagItemCart,Embolsar artículo
+BagItemOrSkip,"Por favor embolse este artículo, o elija omitir."
+CallForHelp,Pedir ayuda?
+Cancel,Cancelar
+CancelAll,Cancelar todo
+CancelCoupons,Cancelar cupones
+CancelPayment,Cancelar pago
+CantScanCoupon,Cupón sin código
+CartPay,Pagar
+Change,Cambio:
+Confirm,¿Desea cancelar toda su compra?
+ConfirmQuantity,¿Es correcto {0}?
+Continue,¿Desea continuar?
+CouponMessage,Ponga los cupones a un lado. Deposítelos al final de la compra.
+DepositCard,Por favor deposite su tarjeta de regalo agotada en la ranura para cupones.
+DepositCoupon,Depositar cupones
+DepositGiftCard,Deposite la tarjeta de regalo
+Disconnected,Por favor espere...
+Done,Hecho
+Due,Por pagar:{0}
+EditCart,Editar carrito
+Enter,Ingresar
+EnterAmount,Ingresar cantidad
+EnterCouponValue,"Ingrese el valor del cupón en centavos y toque ""OK""."
+EnterId,Ingrese su ID.
+EnterPassword,Ingrese su contraseña.
+EnterPin,Ingrese su PIN
+EnterQuantity,¿Cuántos tiene?
+EnterWeight,Coloque el artículo en la balanza:
+Finish,Gracias por comprar con nosotros.
+FinishAndAdd,Terminar y agregar
+GiftCard,Saldo de tarjeta de regalo.
+GoBack,Regresar
+IncorrectLogin,Número y contraseña de operador incorrectos.\nPor favor intente de nuevo.
+InsertCash,Introducir el efectivo
+InsertCoupon,Insertar cupón
+InvalidBarcodeScan,Ponga el artículo a un lado y continúe con su compra.
+Item,{0} artículo
+Items,{0} artículos
+ItemsAddedFormat,{0} artículos para añadir al carrito.
+Language,Idioma
+NCRCorp,NCR Corp
+No,No
+OK,OK
+Or,o
+OtherPayment,Otro pago
+OtherPaymentMethod,Otras formas de pago
+OwnBag,Bolsa propia
+Paid,Pagado:{0}
+PayAnotherWay,Pagar de otra manera
+PointsEarned,Puntos ganados
+PrintReceipt,Imprimir recibo
+Proceed,Continuar
+Remove,Retirar
+RemovedItem,Retiré el artículo
+RestrictedItem,Artículo restringido
+ReturnToScan,Regresar
+ScanAndBag,"Escanee, busque o ingrese el código del artículo para empezar."
+ScanCoupon,Escanear cupones
+ScanGiftCard,Escanear tarjeta de regalo
+ScanNextItem,Por favor escanee el siguiente artículo.
+ScanVoucher,Escanear comprobantes
+SearchResultsFor,"Buscar los resultados de ""{0}"""
+SearchWatermark,Ingresar el nombre o el código del artículo
+SearchItemNameWatermark,Enter Item Name
+SearchKeyInItem,Buscar o ingresar el artículo
+SelectCashBack,Seleccione el importe del vuelto en efectivo
+SelectLanguage,Seleccionar un idioma
+SelectPaymentType,Elija el tipo de pago
+SellBags,¿Cuántas bolsas de plástico usó? Ingrese 0 si no usó ninguna.
+SignNeeded,Se necesita firma
+SignSignature,Firme en el panel para firmas.
+SkipBagging,Omitir embolsado
+Space,Espacio
+StartScanning,Empezar el escaneo
+StoreLogin,Log In de la tienda
+TakeCash,Tome su dinero devuelto
+TakeChange,Tomar el vuelto
+TakeReceipt,Tome su recibo
+Tax,Impuesto
+TimeRestrictedItem,Art. c/tiempo restringido
+Total,Total
+TouchCancel,Toque Cancelar en el teclado para cancelar el pago.
+TryAgain,Intentar de nuevo
+UnexpectedDecreaseMessage,Regrese el artículo al área de embolsado.
+UnexpectedIncreaseMessage,Retire el artículo del área de embolsado.
+UsePinpad,Usar el teclado
+VoidItem,"Escanee los artículos no deseados o toque ""Retirar"" en el recibo."
+Volume,Volumen
+Yes,Sí
+ItemNumberAmount,NDA :  
+WeightExpected,PP :  
+WeightObserved,PO :  
+UnknownPriceMessage,El precio del artículo es desconocido.\nLa ayuda está en camino.\n\nColoque el artículo a un lado y continúe.
+SetAllItemsAsideMessage,Compra cancelada.\n\nPoner todos los articulos a un lado.
+ConfirmAbortMessage,¿Confirma que desea vaciar el carrito? La transacción se cancelará.
+NoKeep,"No, conservar."
+NoReturn,"No, regresar a la transacción."
+YesEmpty,"Sí, vacíe el carrito y finalice la transacción."
+YesRemove,"Sí, retírelo."
+HostOfflineMessage,La caja está fuera de línea y el sistema está intentando reconectarse.
+LaneClosedMessage,Caja cerrada
+LoadingText,Cargando
+VerifyBagsMessage,"Si accidentalmente ha colocado algo que no es una bolsa en el área de embolsado, por favor retírelo ahora."
+HelpOnWay,La ayuda está en camino. Por favor continúe.
+OwnBagMessage,Por favor coloque sus bolsas en la balanza.
+UseOwnBag,Estoy usando mi propia bolsa
+AttendantMode,Modo de Asistente
+AttendantTrainingMode,Modo de Asistente y Entrenamiento
+TrainingMode,Modo de entrenamiento
+ScaleBroken,"Retire el artículo de la balanza y toque el botón ""Balanza cero"" en el escáner."
+Refunded,Reembolsado:
+EnterIDMessage,"Ingresar su identificación de usuario y tocar ""Ingresar""."
+EnterIDText,Ingresar ID
+EnterPasswordMessage,"Ingresar su contraseña y tocar ""Ingresar""."
+EnterPasswordText,Ingresar contraseña
+VisualVerify,Verificación visual
+SingleItemAddedFormat,{0} artículo para añadir al carrito.
+Approved,Aprobado
+VoidItemBeforeCouponMessage,No se puede anular el artículo antes de anular su cupón. Anule el cupón del artículo primero.
+VerifyBags,El encargado verificará sus bolsas.
+CancelItems,Cancelar artículos
+EnterQuantityTitle,Cantidad necesitada
+SecUnExpectedIncreaseTitle,Alerta de embolsado
+WeightMismatchTitle,Se necesita asistencia
+AssistanceNeededTitle,Se necesita asistencia
+CheckBasketTitle,Revisar canasta
+ConfirmDebitAmountTitle,Confirmar la cantidad
+DropoffCouponsTitle,Deposite los cupones.
+InsufficientBalanceTitle,Saldo insuficiente
+OperatorPasswordStateInvalidPasswordWithFPTitle,Falló el inicio de sesión con huella dactilar
+PurchaseCrateTitle,Comprar cajón
+RestrictedItemTitle,Artículo restringido
+SecBagAreaBackupTitle,Artículos atracados
+SignChargeTitle,Firmar el recibo
+TakeCardTitle,Tomar la tarjeta
+ContinueTitle,Continuar?
+ApprovalNeededTitle,Aprobación requerida
+IncorrectLoginTitle,Número incorrecto
+RecalledItemTitle,Retirado de la venta
+RemovedItemTitle,Alerta de embolsado
+SetAllItemsAsideTitle,Retire artículos
+TakeLoyaltyCardTitle,Tomar tarjeta de lealtad
+UnknownPriceTitle,Precio desconocido
+ConfirmEBTAmountTitle,Confirmar la cantidad
+DisconnectedTitle,Desconectado
+ShuttingDown,Cerrándose
+NoneText,Ninguno
+SMText,Modo de Tienda
+SMLogInReceiptText,Se abrió sesión en Modo de Tienda
+SMLogOutReceiptText,Se cerró sesión en Modo de Tienda
+WLDBOffLineText,Base de datos de peso: Fuera de línea
+OperatorIDText,ID de operador: 
+SignOnButtonText,Entrar
+SignOffButtonText,Salir del sistema
+AlertText,Alertas:
+SuspendInProgressText,Suspensión en curso
+SuspendLeadthru1,Se solicitó suspender la transacción actual. \nPor favor confirme o cancele esta solicitud.
+SuspendLeadthru2,"Ha suspendido la transacción actual. Por favor confirme esta solicitud. Para cancelar, toque ""Regresar"" y cancele desde NCR SelfServ Checkout."
+ReceiptText,Recibo:
+SuspendReasonText1,Suspender: General
+CancelSuspendButtonText,Cancelar suspensión
+ConfirmSuspendNowButtonText,Confirmar Suspender \nAhora
+ConfirmAllowSuspendButtonText,Confirmar Permitir Suspender
+ConfirmSuspendRequestButtonText,Confirmar Suspender Solicitud
+CancelSuspendNowButtonText,Cancelar Suspender Ahora
+GoBackButtonText,Regresar
+CancelSuspendRequestButtonText,Cancelar Suspender Solicitud
+CouponText,Cupones:
+SuspendReasonText2,Suspender: Cupones
+CouponReceiptText,%d cupones por un total de $%.2f
+SuspendNowButtonText,Suspender ahora
+RequestSuspendButtonText,Solicitar suspensión
+NotConnectedText,No está conectado.
+ConnectingText,Conectando... Por favor espere
+ApprovalNeededText,Otras aprobaciones:
+SuspendReasonText3,Suspender: Otros
+ClearRequestButtonText,Anular solicitud
+ApproveButtonText,Aprobar
+RestrictedItemText,Artículos restringidos:
+SuspendReasonText4,Suspender: Restricción
+SecurityLogText,Registro de seguridad:
+SuspendReasonText5,Suspender: Seguridad
+SignatureText,Firma:
+SignatureAndNameText,Firma: %s
+ConnectingLeadthru,Conectando a NCR SelfServ Checkout... Por favor espere
+EnterIDLeadthru,Ingresar ID con el teclado abajo.
+EnterPasswordLeadthru,Ingresar contraseña con el teclado abajo.
+LoggingInLeadthru,Abriendo sesión... Por favor espere
+ApproveSecurityButtonText,Aprobar Registro de seguridad
+ApprovalNeededButtonText,Otras aprobaciones
+VerifySignatureButtonText,Verificar \nFirma
+AllowSuspendButtonText,Permitir suspensión
+MainButtonText,Principal
+SuspendTransactionButtonText,Suspender transacción
+ApproveAndCollectButtonText,Aprobar y retener
+ClearApprovalsButtonText,Anular aprobaciones
+BirthDateOver30ButtonText,Edad mayor de 30
+SignAgainButtonText,Firmar otra vez
+BackSpaceButtonText,Retroceder
+EnterButtonText,Ingresar
+LaneNumberText,Lane: %d
+RAPTitle,SelfServ Checkout de NCR Estación de autorización remota
+CancelSuspendText,Cancelar suspensión
+OtherPaymentSelectedText,Otro pago seleccionado
+CouponCollectionText,Recogida de cupones
+PendingSuspendText,Suspensión pendiente
+SignatureApprovalText,Aprobación de firma
+LaneText,Carril
+VideoButtonText,Vídeo
+ClearButtonText,Borrar
+QuantityButtonText,Cantidad
+FeesAndCustomerAgreementsTitle,Cargos y Contratos del Cliente:
+FeesButtonText,Cargos
+CustomerAgreementButtonText,Contrato del Cliente
+FeesAndCustomerAgreementsLeadthru,Cargos y Contratos del Cliente
+TransactionSuspendedText,Transacción suspendida
+POSMessageText,Mensaje de POS:
+ConnectingWaitingText,"Por favor espere, conectando a NCR SelfServ Checkout..."
+DateOfBirthNotNeededButtonText,No requiere fecha
+AssistModeButtonText,Modo de ayuda
+ClearSecurityButtonText,Eliminar protección
+VisualApproveButtonText,Aprobación visual
+CheckAgeTitle,Verificar edad del cliente
+CouponLimitExceededTitle,Límite de cupón excedido
+VerifyItemAndPriceTitle,Verificar artículo y precio
+UnknownItemTitle,Artículo desconocido puesto a un lado
+ItemNotForSaleTitle,Artículo no a la venta
+ItemQuantityExceededTitle,Cantidad de artículo excedida
+TimeRestrictedItemTitle,Artículo con fecha de caducidad
+CheckAgeLeadthru,"Digite la fecha de nacimiento %s y toque ""Ingresar"""
+InvalidBirthDateFormatLeadthru,Formato de la fecha ingresada no válido Ingrese de nuevo en formato %s.
+CouponLimitExceededLeadthru,"Toque ""Aprobar"" para permitir el depósito del cupón en la caja o toque ""Aprobar y recoger"" y recíbalo del cliente."
+VisualApproveLeadthru,"Toque ""Aprobación visual"" o toque ""Modo de ayuda"" para modificar la transacción."
+UnknownItemLeadthru,"Recoja el artículo en el carril y toque ""Eliminar protección"" o toque ""Modo de ayuda"" para terminar la transacción."
+ItemNotForSaleLeadthru,"Recoja el artículo en el carril y toque ""Eliminar protección""."
+OffLineLaneButtonText,No en línea
+ExitText,Salir
+EnterDataLaneButtonText,Ingrese datos
+AgeCheckLaneButtonText,Ver edad
+CouponLaneButtonText,Cupón
+VoidLaneButtonText,Anulación
+VerifyItemLaneButtonText,Verif artículo
+NotFoundLaneButtonText,No encontrado
+NoSaleLaneButtonText,Sin venta
+QuantityLaneButtonText,Cantidad
+HelpLaneButtonText,Ayuda
+NoInterventionLeadthru,No se requiere intervención.
+OffLineLeadthru,El carril está fuera de línea y el sistema está intentando reconectarse automáticamente.
+CancelRequestButtonText,Cancelar pedido
+HelpRequestTitle,Ayuda solicitada
+SecurityLaneButtonText,Protección
+VoidLeadthru,"Recoja el artículo anulado y toque ""Aprobar anulación""."
+ApproveVoidButtonText,Aprobar anulación
+SecurityLeadthru,"Monitoree la seguridad de la transacción del cliente y toque ""Aprobar seguridad""."
+SecurityViolationText,Violación de seguridad
+OtherPaymentText,"""Otro pago"" seleccionado"
+SuspendTransactionLeadthru,"Toque ""Suspender transacción"" o ""Modo de Ayuda"" y acepte el pago."
+EASText,Artículo EAS sigue activo
+DeactivateLeadthru,"Desactive el artículo o retire la etiqueta dura y toque ""Eliminar protección""."
+CompareSignatureTitle,Compare las firmas
+CompareSignatureLeadthru,"Compare las firmas y toque ""Aprobar"" o ""Firmar de nuevo""."
+EnterPriceLeadthru,"Ingrese el precio del artículo y toque ""Ingresar""."
+UtilityButtonText,Utilidad
+ReturnToMainButtonText,Regresar a Principal
+GetDiagFilesButtonText,Obtener Archivos de diagnóstico
+CouponApprovalLeadthru,"Aceptar cupones del cliente en la estación de aprobación y tocar ""Aprobar""."
+RebootSystemButtonText,Reinicializar todo el sistema
+ShutDownSystemButtonText,Cerrar todo el sistema
+LaneStatusTitle,Status de caja
+LaneStatusLeadthru,Seleccione una función.
+AgeRestrictedText,Artículo con restricción de edad; %2d años de edad
+BirthdateEnterText,"Fecha de nacimiento: %2d/%2d/%4d,%d años"
+HelpRequestLeadthru,"Toque ""Cancelar pedido"" después de ayudar al cliente."
+TotalText,Total:
+ItemText,Artículos:
+MultimediaTrainingText,Capacitación en multimedia
+VolumeControlButtonText,Control de volumen
+SecurityViolationNumText,Violaciones de seguridad:
+ItemPurchasedText,Artículos comprados:
+EnterPriceTitle,Precio
+CancelTransactionGenericTitle,Cancelar
+CancelTransactionGenericLeadthru,"Toque ""Sí"" para cancelar la transacción o ""No"" para reanudarla."
+YesButtonText,Sí
+NoButtonText,No
+ConfirmSuspendTitle,Suspender:
+ConfirmSuspendLeadthru,Confirmar suspensión
+ConfirmSuspendButtonText,Confirmar suspensión
+IncorrectItemWeightTitle,Peso incorrecto en balanza de seguridad.
+IncorrectItemWeightLeadthru,"Retire el artículo y toque ""Eliminar protección"" o toque ""Aprobar y actualizar peso""."
+ApproveUpdateButtonText,Aprobar y actualizar peso
+UnexpectedIncreaseTitle,Artículo imprevisto en balanza de seguridad.
+UnexpectedIncreaseLeadthru,"Vaya al carril, retire los artículos adicionales y toque ""Eliminar protección""."
+SkipBaggingBtnThresholdLeadthru,"Revise los artículos en el carril y toque ""Eliminar protección""."
+NewWeightItemTitle,No hay registro de peso del artículo.
+NewWeightItemLeadthru,"Verifique el peso del artículo y toque ""Aprobar y actualizar peso"", o toque ""Aprobar/Sin actualizar""."
+ApproveNoUpdateButtonText,Aprobar/Sin actualizar.
+BagItemTimerExpiredTitle,Peso previsto en la balanza de seguridad.
+TakeChangeTimerExpiredTitle,Tomar el vuelto
+TakeChangeTimerExpiredBottomCaption,Tiempo caducó
+PickingUpItemsTimerExpiredTitle,Artículos no se han devuelto al área de embolsado.
+DeviceFailureTitle,Falla de dispositivo
+DeviceFailureLeadthru,Vaya al carril y revise el dispositivo.
+WLDBFailureTitle,WLDB no se está comunicando debidamente.
+WLDBFailureLeadthru,Verifique la comunicación.
+UnexpectedDecreaseTitle,Artículo retirado de balanza de seguridad.
+ClosedLaneTitle,Vaya al carril y registrése en Modo Tienda para abrir el carril.
+ClosedLaneLeadthru,Caja cerrada
+BagAreaBackupTitle,Artículos atracados en la correa
+BagAreaBackupLeadthru,Retire los artículos atracados de la correa.
+MinimumAgeText,Edad mínima.
+SafetyCoverOpenLeadthru,Retire todos los artículos de la correa y cierre la tapa de seguridad.
+VerifySignatureLeadthru,Comparar la firma del cliente con la de la tarjeta.
+AssistedTenderTitle,Pago asistido por operador
+AssistedTenderLeadthru,Use el modo de ayuda para aceptar el cheque del cliente.
+AssistedTenderHHLeadthru,Use el modo de ayuda para aceptar el cheque del cliente.
+AssistedEndorsementLeadthru,Se necesita endoso. Por favor espere para recibir asistencia del operador.
+StartTransactionButtonText,Inicie la transacción
+StartTransactionTitle,Funciones asistidas por operador
+StartTransactionLeadthru,Seleccionar la función deseada.
+StartTransactionAMButtonText,Iniciar & Ayuda
+ItemsForgottenTitle,El peso queda en la balanza después \nde la transacción.
+InsertCouponTimerExpiredTitle,Insertar cupón
+CollectGiftCardTitle,Recoja la tarjeta de regalo
+HostOfflineLeadthru,La caja está fuera de línea y el sistema está intentando la reconexión.
+SpaceButtonText,Espacio
+LaneReceiptItemType1,%s\t%s
+LaneReceiptItemType2,%s
+LaneReceiptItemType3,%s\t%s\tCant. %s @ %s/cada uno\t%s
+LaneReceiptItemType4,%s\t%s\tCant. %s @ %s/%s\t%s
+LaneReceiptItemType5,%s\t%s\t%ss @ %s %s/%s\t%s
+LaneReceiptItemType6,%s\t%s\t%ss @ %s/%s\t%s
+CloseLaneButtonText,Cerrar caja
+ReportingButtonText,Generación de informe
+KeyInCodeTitle,Ingrese código
+KeyInCodeLeadthru,"Ingrese código de artículo y toque ""OK""."
+VoidItemButtonText,Anular artículo
+ChangePriceButtonText,Cambio de precio
+ChangeQuantityButtonText,Cambio de cantidad
+ReturnToShoppingButtonText,Regresar a Modo de compras
+BasicAssistModeTitle,Funciones de ayuda
+BasicAssistModeLeadthru,Escanee el artículo o seleccione una función.
+ChangePriceTitle,Cambiar precio
+KeyInPriceLeadthru,Escriba el precio de: %d %s
+VoidAllButtonText,Anular todo
+VoidItemTitle,Anular artículos
+VoidItemLeadthru,"Escanee o desplácese hasta el artículo en el recibo y toque ""Anular artículo"" o ""Anular todo""."
+ChangeQuantityTitle,Cambiar cantidad
+KeyInQuantityLeadthru,Escriba la cantidad de: %s
+FullAssistButtonText,Ayuda completa
+CloseButtonText,Cerrar
+UpdateItemLeadthru,"Desplácese hasta el artículo en el recibo y toque ""Ingresar""."
+OKButtonText,Aceptar
+CouponNoMatchLeadthru,El cupon no concuerda con ningun articulo en el recibo. Este cupon no se puede aceptar.
+CouponTooHighLeadthru,La cantidad que ha ingresado para este cupón es demasiado grande. Este sistema no puede aceptar este cupón.
+EnterCouponValueLeadthru,"Ingrese el valor del cupón en centavos y toque ""Ingresar"""
+ItemQuantityExceededLeadthru,Ha excedido la cantidad permitida con este artículo. Por favor póngalo a un lado y continúe.
+ProcessingLeadthru,Procesando...Por favor espere.
+VoidNoMatchLeadthru,"No se puede hallar el artículo escaneado. No se ha comprado todavía, o ya ha sido cancelado."
+ConfirmAbortLeadthru,¿Desea suspender el proceso de caja y cancelar por completo su compra?
+ContinueTransLeadthru,¿Desea continuar con su compra?
+ConfirmQuantityTitle,Confirmar cantidad
+ConfirmVoidTitle,Confirme cancelación
+CouponNoMatchTitle,Cupón no concuerda
+CouponTooHighTitle,Cupón sobrevalorado
+CrateableItemTitle,Comprar cajón
+EnterCouponValueTitle,Comprar cajón
+EnterQuantityLeadthru,"Ingresar la cantidad y tocar ""Ingresar""."
+EnterWeightTitle,Pesar artículo
+EnterWeightLeadthru,"Vaya al carril, colocar articulo en la balanza."
+AMItemQuantityExceededTitle,Límite de cantidad
+ProcessingTitle,Procesando...
+SelectContainerTitle,Seleccionar envase
+SelectContainerLeadthru,"Seleccione el envase de la lista y toque ""Ingresar""."
+VoidNoMatchTitle,No se puede cancelar artículo
+ConfirmAbortTitle,Cancelar los artículos
+ContinueTransTitle,¿Continuar?
+ScaleBrokenTitle,Recalibrar balanza
+ScaleBrokenLeadthru,"Retire el artículo de la balanza y toque el botón ""Balanza cero"" en el escáner."
+UpdateNotAllowedTitle,No puede cancelar art.
+UpdateNotAllowedLeadthru,No se permite cambiar la cantidad de un artículo que se ha pesado.
+SmEnterBirthdateTitle,Artículos restringidos
+SmEnterBirthdateLeadthru,Ingrese la fecha
+SmVisualItemsTitle,Validaciones visuales
+SmVisualItemsLeadthru,Autorizar los artículos de validación visual
+SmCouponItemsTitle,Autorizar cupones usados
+SmCouponItemsLeadthru,Revisar cupones usados
+SmRestrictedItemsTitle,Artículos restringidos
+SmRestrictedItemsLeadthru,Seleccionar la función deseada.
+KeyInBirthDateButtonText,Ingrese la fecha
+KeyInCodeButtonText,Ingrese \ncódigo
+SmRunReportsTitle,Contenido del informe
+PrintReportButtonText,Imprimir informe
+LaneReceiptItemType7,    %s
+AM_RestrictedNotAllowedTitle,Artículo restringido
+AM_RestrictedNotAllowedLeadthru,Se ha cancelado el artículo restringido - no se ha cumplido el límite de edad.\n\nPor favor ponga el artículo a un lado.
+TransactionCancelTitle,Cancelación de transacción
+TransactionCancelLeadThru,Transacción cancelada. Retire los artículos de \nesta caja.
+OutOfSyncNeedAssistTitle,Ayuda
+OutOfSyncNeedAssistLeadthru,"El POS está fuera de sincronización, por favor use el Modo de Ayuda para volverlo a sincronizar."
+OutOfSyncStopTitle,Reinicializar
+OutOfSyncStopLeadthru,"El servidor del POS está fuera de línea o fuera de sincronización, por favor apague el terminal."
+MultiPackItemTitle,Revise si es un producto multienvase
+MultiPackItemLeadthru,"Si es un multienvase, toque ""Modo de ayuda"" y anule el artículo, luego escanee el código de barras del multienvase."
+CancelActionButtonText,Cancelar acción
+EnterIDFpLeadthru,"Escriba su ID de usuario y toque ""Ingresar"", o ponga su dedo sobre el dispositivo para huellas dactilares para registrarse."
+ReEnterIDFpLeadthru,El registro no es válido. Por favor regístrese de nuevo usando el teclado o su huella dactilar.
+HH_SuspendLeadthru1,¿Suspender transacción actual? Confirmar o cancelar.
+HH_SuspendLeadthru2,"Se ha suspendido la transacción actual. Confirme. Para cancelar, toque ""Atrás"" y cancele."
+HH_ReEnterIDLeadthru,ID o contraseña incorrectos. Por favor volver a ingresar con el teclado.
+HH_CheckAgeLeadthru,"Digite la fecha de nacimiento %s y toque ""Ingresar"""
+HH_CouponLimitExceededLeadthru,"Aprobar para los cupones en la caja o ""Aprobar & Recoger"" para tomarlos del cliente."
+HH_VisualApproveLeadthru,"""Aprobación visual"" o ""Modo de ayuda"" para modificar la transacción."
+HH_VisualApproveLeadthru2,"""Visual Approve"", or ""Assist Mode"" at Lane to modify."
+HH_UnknownItemLeadthru,"Recoja el artículo, ""Eliminar protección"", o ""Modo de ayuda"" para terminar."
+HH_UnknownItemLeadthru2,"Collect item, ""Clear Security"", or use ""Assist Mode"" at Lane to complete."
+HH_ItemNotForSaleLeadthru,"Recoja el artículo en la caja y ""Eliminar protección""."
+HH_NoInterventionLeadthru,No se requiere intervención.
+HH_OffLineLeadthru,La caja está fuera de línea. El sistema está intentado reconectar.
+HH_InvalidBirthDateFormatLeadthru,El formato de fecha no es válido Ingrese en formato %s.
+HH_VoidLeadthru,"Recoja el artículo anulado y ""Aprobar anulación""."
+HH_SuspendTransactionLeadthru,Toque “Suspender trans” para suspender la transacción.
+HH_DeactivateLeadthru,"Desactive el artículo o retire la etiqueta dura y ""Eliminar protección""."
+HH_CompareSignatureLeadthru,"Compare las firmas y ""Aprobar"", o ""Firmar de nuevo""."
+HH_EnterPriceLeadthru,"Ingrese el precio del artículo e ""Ingresar""."
+HH_CouponApprovalLeadthru,"Acepte los cupones del cliente y ""Aprobar""."
+HH_HelpRequestLeadthru,"""Cancelar pedido"" después de ayudar al cliente."
+HH_CancelTransactionGenericLeadthru,"""Sí"" para cancelar la transacción o ""No"" para reanudar."
+HH_IncorrectItemWeightLeadthru,"Retire el articulo y ""Eliminar protección"", o ""Aprobar & Actualizar peso""."
+HH_UnexpectedIncreaseLeadthru,"Retire los artículos extra en la caja y ""Eliminar protección""."
+HH_SkipBaggingBtnThresholdLeadthru,"Registre los artículos en la caja y ""Eliminar protección""."
+HH_NewWeightItemLeadthru,"Verifique el peso y ""Aprobar & Actualizar peso"" o ""Aprobar/Sin actualizar""."
+HH_SafetyCoverOpenLeadthru,Retire todos los artículos de la correa. Cierre la tapa de seguridad.
+HH_VerifySignatureLeadthru,Compare la firma del cliente con la que aparece en la tarjeta.
+HH_AssistedEndorsementLeadthru,Se necesita endoso. Espere a recibir ayuda de un operador.
+HH_HostOfflineLeadthru,La caja está fuera de línea. El sistema está intentando reconectar.
+HH_KeyInCodeLeadthru,"Ingrese el código del artículo e ""Ingresar""."
+HH_VoidItemLeadthru,"Escanee o desplácese hasta el artículo en el recibo. ""Anular artículo"" o ""Anular todo""."
+HH_UpdateItemLeadthru,"Desplácese hasta el artículo e ""Ingresar""."
+HH_CouponNoMatchLeadthru,El cupón no concuerda con ningún artículo en el recibo. No se acepta el cupón.
+HH_CouponTooHighLeadthru,La cantidad del cupón es demasiado alta. El sistema no lo puede aceptar.
+HH_ItemQuantityExceededLeadthru,Se ha excedido la cantidad permitida. \n\nPonga el artículo a un lado y continúe.
+HH_VoidNoMatchLeadthru,No se puede encontrar el artículo escaneado. El artículo no se compró o se canceló.
+HH_ConfirmAbortLeadthru,¿Detener el registro de caja y cancelar toda la compra?
+HH_ContinueTransLeadthru,¿Continuar con su compra?
+HH_EnterQuantityLeadthru,"Ingrese la cantidad e ""Ingresar""."
+HH_SelectContainerLeadthru,"Seleccione el envase de la lista e ""Ingresar""."
+HH_ScaleBrokenLeadthru,"Retire el artículo de la balanza y ""Balanza cero"" en el escáner."
+HH_UpdateNotAllowedLeadthru,No se permite cambiar la cantidad.
+HH_AM_RestrictedNotAllowedLeadthru,El artículo restringido se canceló – el límite de edad no se cumplió. Ponga el artículo a un lado.
+HH_OutOfSyncNeedAssistLeadthru,"POS no sincronizado, ""Modo de ayuda"" para resincronizar."
+HH_OutOfSyncStopLeadthru,"El servidor del POS está desactivado o no sincronizado, apague el terminal con el interruptor."
+HH_MultiPackItemLeadthru,"Si es un multipack, ""Modo de ayuda"", anular, y luego escanear el código de barras del multipack."
+HH_ReturnToShoppingButtonText,Regresar
+DoneButtonText,Hecho
+ConfirmSuspendFromLaneStatusLeadthruText,Confirmar o cancelar la suspensión.
+HH_SuspendTransactionButtonText,Suspender trans
+HH_TransactionCancelTitle,Cancelación de transacción
+HH_TransactionCancelLeadThru,Transacción cancelada. Retire los artículos de esta caja.
+ShiftButtonText,Mayús
+FixLaterButtonText,Arreglar después
+HopperLaneButtonText,Sustitución de monedas
+HopperLeadThru,%sVaya a la caja y añada más monedas o despeje el atasco o toque “Arreglar después” para continuar.
+TransactionCountText,Número:
+SecurityDisableText,Seguridad desactivada
+SecurityDisableButtonOn,Activar
+SecurityDisableButtonOff,Desactivar
+SecurityDisableStatusTextOn,Seguridad de embolsado activada
+SecurityDisableStatusTextOff,Seguridad de embolsado desactivada
+SuspendDeclinedLaneButtonText,Suspensión denegada
+ConfirmSuspendDeclinedLeadthru,Confirmar o cancelar denegación de suspensión.
+ConfirmSuspendDeclinedButtonText,Confirmar denegación
+CancelSuspendDeclinedButtonText,Regresar
+TMTransLeadthru,La caja está en el modo Capacitación.\n¿Continuar con la transacción?
+HH_TMTransLeadthru,La caja está en el modo Capacitación.\n¿Continuar con la transacción?
+TMTransLaneButtonText,Trans Capac
+DateFormat1,(mmddaaaa)
+DateFormat2,(mmddaa)
+DateFormat3,(ddmmaaaa)
+DateFormat4,(ddmmaa)
+DateFormat5,(aaaammdd)
+DateFormat6,(aammdd)
+GoBackCouponButtonText,Regresar
+ApproveCouponButtonText,Aprobar cupón
+CouponExceededLimitLeadthru,Toque “Aprobar cupón” para aceptar el cupón o vaya al Modo de Ayuda para anularlo.
+CouponExceededLimitFinalizationLeadthru,La transacción se finalizó usando un cupón que excede el límite de cupones de la tienda.
+ClearSecurityFinalizationButtonText,Eliminar protección
+ExpandReceiptButtonText,Ampliar recibo
+CollapseReceiptButtonText,Contraer recibo
+InvalidBarcodeLeadThru,"Recoja el artículo en la caja y toque ""Aprobar"" para continuar la transacción."
+InvalidBarcodeLaneButtonText,Verificar
+HH_InvalidBarcodeLeadThru,"Recoja el artículo, toque ""Aprobar"" para continuar la transacción."
+GoToLaneOrHHRapLeadthru,Please go to Lane or HHRap for approval
+GoToLaneOrRapLeadthru,Please go to Lane or Rap for approval
+GoToLaneLeadthru, Por favor vaya a la caja para la aprobación
+DisableRapApprovalText,Desactivar aprobación RAP
+DisableHHRapApprovalText,Desactivar aprobación HHRAP
+UpdateItemButtonText,Actualizar artículo
+SuspendConfirmationTitle,Suspender Confirmación
+DoNotApproveButtonText,No aprobar
+SmVoidAndRemoveItemLeadthru,Por favor retire el artículo cancelado del área de embolsado.
+RestrictedItemsNotApprovedTitle,Artículos restringidos - No aprobado
+HH_AssistAtLaneLeadthru,Vaya a la caja para anular artículos.
+XM_Acceptor,Aceptador
+XM_CashStatus,Estado del dinero
+XM_CashStatusLeadthru,Seleccionar la función deseada.
+XM_CoinAcceptor,Aceptador de monedas
+XM_CoinOverflow,Depósito de rebose de monedas
+XM_CoinOverflowText,Rebose
+XM_CoinRecycler,Reciclador de monedas
+XM_Coins,Monedas
+XM_NoteOverflow,Depósito de rebose de billetes
+XM_NoteOverflowText,Caja din
+XM_NoteRecycler,Reciclador de billetes
+XM_Notes,Billetes
+XM_PurgeOperationText,Operaciones de purga
+XM_TerminalNumber,Número de terminal
+XM_TotalCount,Número total:
+XM_TotalValue,Valor total:
+XM_CoinsSubtotal,Subtotl monedas:
+XM_NotesSubtotal,Subtot billetes:
+XM_GrandTotal,Total global:
+XM_PurgeInstruction,Operaciones de purga: Se han detectado billetes rechazados. Vaya al carril y revise el dispositivo.
+XM_RAP_NegativeAlert,Se halló un número negativo. Vaya al carril y revise el dispositivo.
+XM_AreYouSure,Are you sure you want to perform the actions listed below?
+XM_Attendant,Asistente
+XM_Backspace,Retroceso
+XM_BillAcceptor,Aceptador de billetes
+XM_BillDispenser,Expendedor de billetes
+XM_Bins,Compartimientos
+XM_BothDispenseFailure,No se pudo expender %s. Nivel bajo de dinero o error en expendedor.
+XM_CancelChanges,Cancelar cambios
+XM_CannotCompleteTransfer,No se puede terminar la transferencia. La caja de dinero no tiene suficiente espacio.\nVacíe la caja de dinero antes de efectuar esta operación.
+XM_CashManagement,Administración de billetes
+XM_CashManagementReport,Informe de Administración de Dinero
+XM_CashRemove,Retirar dinero
+XM_CashRemoveLeadthru,Seleccionar la función deseada.
+XM_CashReplenishLeadthru,Seleccionar la función deseada.
+XM_CashReplenishLeadthru1,Introduzca las monedas o seleccione la función.
+XM_CashReplenishLeadthru2,Introduzca el dinero o seleccione la función.
+XM_CashReplenishLeadthru3,"Cuando haya terminado, toque ""Salir."""
+XM_CashReplenishment,Añadir dinero
+XM_ChangeInCount,Cambio en el conteo
+XM_ChangeInValue,Cambio de valor
+XM_Clear,Borrar
+XM_ClearPrompt1,"Al terminar, seleccione otra función o ""Salir""."
+XM_ClearPrompt2,"Seleccione otra función o ""Salir""."
+XM_CoinAcceptorOffline,El aceptador no responde.\n\nCierre y reinicie el terminal.
+XM_CoinDispenseFailure,No se logró expender %s.\nBajo nivel de monedas o expendedor de monedas en error.
+XM_CoinDispenser,Expendedor de monedas
+XM_CoinManagement,Administración de monedas
+XM_ConfirmAction,Confirmar acciones
+XM_ConfirmCoinDispense,* Expender monedas\nMonto de dinero a expender: %s\nCantidad a expender: %d
+XM_ConfirmEmptyCoinAcceptor,* Restablezca los números de monedas en el aceptador de monedas a cero\nCantidad que se debe retirar:%s
+XM_ConfirmEmptyCoinOverflow,* Restablecer las cantidades para rebose de monedas a cero\nMonto de dinero a retirar:%s
+XM_ConfirmEmptyNoteAcceptor,* Restablecer las cantidades para el aceptador de monedas a cero\nMonto de dinero a retirar:%s
+XM_ConfirmEmptyNoteOverflow,* Restablecer las cantidades en la caja de dinero a cero\nMonto de dinero a retirar:%s
+XM_ConfirmFillLoaderCassette,* Establecer las cantidades de billetes Nuevo monto de dinero: %s\nNueva cantidad: %d
+XM_ConfirmManualCoinEmpty,* Restablecer las cantidades de monedas a cero\nMonto de dinero a retirar: %s\nCantidad a retirar: %d
+XM_ConfirmManualCoinFill,* Establecer las cantidades\nde monedas Nuevo monto de dinero: %s\nNueva cantidad: %d
+XM_ConfirmManualNoteEmpty,* Restablecer las cantidades de billetes a cero\nMonto de dinero a retirar: %s\nCantidad a retirar: %d
+XM_ConfirmManualNoteFill,* Establecer las cantidades\nde billetes Nuevo monto de dinero: %s\nNueva cantidad: %d
+XM_ConfirmNoteDispense,* Expender billetes\nMonto de dinero a expender: %s\nCantidad a expender: %d
+XM_ConfirmTransferNotesToOverflow,* Transferir billetes a caja de dinero\nMonto de dinero a transferir: %s\nCantidad a transferir: %d
+XM_Count,Número
+XM_DispenseCupFull,El depósito de devolución de monedas está lleno. Retire las monedas para terminar de expender.
+XM_DispenseCupFullPreemptive,"Tome las monedas por favor\nSi el depósito de devolución de monedas está lleno, vacíelo de inmediato. \nEl expendio se detendrá hasta que se vacíe el depósito."
+XM_DispenseFullPreemptive,"Tome los billetes y las monedas por favor\nLos billetes se expenden en lotes de 15. El expendio se detendrá hasta que se hayan tomado todos los billetes. Si el depósito de devolución de monedas está lleno, vacíelo de inmediato. El expendio se detendrá hasta que se vacíe el depósito."
+XM_DispenseNoteFullPreemptive,Tome los billetes\npor favor Los billetes se expenden en lotes de 15.\nEl expendio se detendrá hasta que se hayan tomado todos los billetes.
+XM_DispenseSensorBlock,El depósito de devolución de monedas puede estar lleno o el sensor puede estar averiado. Por favor retire las monedas o llame para pedir servicio.
+XM_DispenseText,Expender
+XM_DispenseThreshold,El número introducido excedió la cantidad disponible para expender.\nSe introdujo la cantidad máxima: %d
+XM_Empty,Vaciar
+XM_EmptyCashAcceptorLT,Retirar los billetes del aceptador de dinero
+XM_EmptyCashBoxLT,Retirar los billetes de la caja de dinero
+XM_EmptyCoinAcceptor,Reiniciar el aceptador de monedas
+XM_EmptyCoinAcceptorLT,Retirar las monedas del aceptador de monedas
+XM_EmptyCoinHopperLT,Retire las monedas del dispositivo.
+XM_EmptyCoinOverflow,Reiniciar el rebose de monedas
+XM_EmptyCoinOverflowLT,Retirar las monedas del depósito de rebose de monedas
+XM_EmptyLoaderCassetteLT,Retirar los billetes del casete del cargador
+XM_EmptyNoteAcceptor,Reiniciar el aceptador de billetes
+XM_EmptyNoteCassetteLT,Retire los billetes de los casetes de billetes y del cubo de purga
+XM_EmptyNoteOverflow,Reponer la caja de dinero a cero
+XM_Enter,Ingresar
+XM_ExceededAmount,La cantidad excede la capacidad. La cantidad máxima necesaria es %s.
+XM_ExceededCapacity,El número excede la capacidad. El número cargado máximo es %d.
+XM_Execute,Aplicar cambios
+XM_Exit,Salir
+XM_FastLaneReport,Informe de NCR SelfServ Checkout
+XM_FillLoaderCassette,Ajustar cantidad de billetes
+XM_GoBack,Regresar
+XM_ID,ID de cajero
+XM_IDPrompt,"Ingrese el ID y toque ""Ingresar."""
+XM_InvalidAmount,El valor de %s indicado no es válido.\nPor favor ingréselo de nuevo.
+XM_KeyPadEnterCoinAmount,Ingrese la cantidad de monedas de %s con el teclado.
+XM_KeyPadEnterCoinCount,Ingrese el número de monedas de %s con el teclado.
+XM_KeyPadEnterNoteAmount,Ingrese la cantidad de billetes de %s con el teclado.
+XM_KeyPadEnterNoteCount,Ingrese el número de billetes de %s con el teclado.
+XM_KeyPadInstr,Ingresar el número de billetes o monedas con el teclado
+XM_ManualBothFillAlert,Abra la puerta de la caja y deposite los billetes en los casetes y las monedas en las tolvas. No los introduzca en los aceptadores.
+XM_ManualBothRecyclerFillAlert,Abra la puerta de la caja y deposite los billetes en el cargador y las monedas en las tolvas. No los deposite en los aceptadores.
+XM_ManualCoinDispenserEmpty,Reponer cantidad de monedas a 0
+XM_ManualCoinDispenserFill,Ajustar cantidad de monedas
+XM_ManualCoinFillAlert,Abra la puerta de la caja y deposite las monedas directamente en el dispositivo. No las introduzca en el aceptador de monedas.
+XM_ManualEmptyAlert,Retire todo el dinero del dispositivo.
+XM_ManualFillAlert,Abra la puerta de la caja y deposite el dinero directamente en el dispositivo. No lo introduzca en los aceptadores.
+XM_ManualNoteDispenserEmpty,Reponer cantidad de billetes a 0
+XM_ManualNoteDispenserFill,Ajustar cantidad de billetes
+XM_ManualNoteFillAlert,Abra la puerta de la caja y deposite los billetes directamente en el casete. No los introduzca en el aceptador de billetes.
+XM_ManualNoteRecyclerFillAlert,Abra la puerta de la caja y deposite los billetes directamente en el cargador. No los alimente hacia dentro del aceptador de billetes.
+XM_No,No
+XM_NoteDispenseFailure,No se pudo expender %s.\nNivel bajo de billetes o error en expendedor de billetes.
+XM_PW,Contraseña de cajero
+XM_PWPrompt,"ngrese la contraseña y toque ""Ingresar."""
+XM_PendingText,Pendiente
+XM_PleaseWait,Procesando...\nPor favor espere.
+XM_Print,Imprimir estado de dinero
+XM_PurgeCoinRecycler,Purgar reciclador de monedas
+XM_PurgeNoteRecycler,Purgar reciclador de billetes
+XM_ReEnter,INúmero y contraseña de cajero incorrectos.\nIntente de nuevo.
+XM_ResetCoinsToBaseLevel,Dar monedas a nivel base
+XM_ResetNotesToBaseLevel,Transferir billetes hasta el nivel de base
+XM_SelectFunc1,Seleccionar función de sistema
+XM_SelectFunc2,Seleccionar la función deseada.
+XM_StoreNumber,Tienda n.º:
+XM_TransferAllNotes,Transferir todos los billetes
+XM_TransferNotesToOverflow,Transferir billetes a caja d/dinero
+XM_Update,Actualizar
+XM_Yes,Sí
+XM_CardManagement,Administración de tarjetas
+XM_SequenceNumber,Número de secuencia
+XM_TotalCoinsInserted,Total insertado
+XM_TotalNotesInserted,Total insertado
+XM_Value,Valor
+XM_TransferXCount,Transferir (x) cantidad
+XM_TransferXAmount,Transferir (x) monto de dinero
+XM_TransfertoCashBoxLeadThruText,"Para transferir %s billetes a la caja de dinero, toque ""Aplicar cambios"". Para deshacer todos los cambios pendientes, toque ""Cancelar cambios""."
+XM_MenuDispenseFunctions,Funciones de expendio
+XM_MenuResetFunctions,Restablecer funciones
+XM_MenuCashBoxTransfer,Transferenc. caja dinero
+XM_LeadThruCashBoxTransfer,"Seleccione la función de transferencia deseada. Cuando termine, toque ""Aplicar cambios""."
+XM_LeadThruResetFunction,"Seleccione la función de restablecimiento deseada. Cuando termine, toque ""Aplicar cambios""."
+XM_LeadThruDispenseFunction,"Toque la unidad de valor e ingrese el monto de dinero o toque ""Dar monedas a nivel base""."
+XM_PurgeInstructionRecycler,"Operaciones de purga: Se han detectado billetes rechazados. Retire los billetes rechazados de la caja de dinero. Para eliminar la alerta, toque ""Transferir todos los billetes"" y luego ""Restablecer caja de dinero""."
+XM_PurgeInstructionNonRecycler,"Operaciones de purga: Se han detectado billetes rechazados. Retire los billetes rechazados del cubo de purga. Para eliminar la alerta, toque ""Reponer cantidad de billetes a 0""."
+XM_ReplenishInstruction,"Inserte el dinero o seleccione la unidad de valor e ingrese el monto de dinero, o establezca las cantidades. Cuando termine, toque ""Aplicar cambios""."
+XM_PickUpAutoAmount,Recoger monto autom.
+XM_PickUpXAmount,Monto de dinero (x) para recoger
+XM_MenuPickUpFunctions,Funciones de recogida
+XM_LeadThruPickUpFunction,"Seleccione la función de recogida deseada. Cuando termine, toque ""Aplicar cambios""."
+XM_KeyPadEnterPickUpAmount,Ingrese con el teclado el monto de dinero que se va a recoger.
+XM_InvalidPickUpAmount,El valor ingresado es mayor que el monto de dinero disponible para ser transferido o expendido.
+XM_InvalidStartingBank,El banco de dinero inicial configurado es mayor que el monto de dinero disponible para ser transferido o expendido.
+XM_CalculatedPickUpAmount,El monto de dinero calculado para recoger es de %s.
+XM_UnableToPickUp,No se pudo efectuar la recogida.
+XM_CoinAllowedDispenseExceeded,Intentando expender %d monedas. El máximo de monedas que se permite expender es %d.
+XM_InvalidPickUpAmount2,El monto de dinero en la caja de dinero y el rebose de monedas es mayor que el monto de dinero que se va a recoger.
+XM_LockScreen,Bloquear pantalla
+XM_SystemBusy,Sistema ocupado… Por favor espere
+XM_AreYouSure_LockScreen,¿Está seguro de que desea bloquear la pantalla? \nLa pantalla no se puede desbloquear hasta que los dispositivo terminen sus tareas.
+XM_NegativeAlert,"Se halló un número negativo. Causas posibles: ocurrió un error de digitación, o los billetes se colocaron en el casete del cargador pero el número de estos billetes no se ingresó en la Administración de Dinero.\n\nSiga los pasos a continuación para resolver esto:\n1. Seleccione Añadir dinero. \n2. Toque la unidad de valor con el número negativo. \n3. Ingrese el monto exacto de dinero del número negativo y/o el monto colocado en el cargador.\n4. Seleccione Aplicar cambios.\n5. Seleccione Sí para confirmar y luego Salir."
+XM_AddCashLeadthru1,"Inserte las monedas o toque el cilindro e ingrese el monto de dinero, o establezca las cantidades."
+XM_AddCashLeadthru2,"Inserte el dinero o toque el cilindro e ingrese el monto de dinero, o establezca las cantidades."
+XM_AddCashLeadthru3,"Toque el cilindro e ingrese la cantidad, o restablezca los números."
+XM_CoinHopperEmpty,"Los depósitos de tolva de monedas se deben vaciar para poder restablecer los números de monedas a cero. Vacíe cada depósito de tolva de monedas antes de tocar ""Aplicar cambios""."
+XM_CollectRemainingCoins,Retire las monedas del mecanismo de devolución de monedas cuando se haya terminado de expender.
+XM_FPIDPrompt,"Escriba su ID de usuario y toque ""Ingresar"", o ponga su dedo sobre el dispositivo para huellas dactilares para registrarse."
+XM_LoanFailure,Falla en el préstamo
+XM_LoanFailureLeadthru,Se rechazó el préstamo. Seleccione la función deseada.
+XM_UndoLoan,Deshacer préstamo
+XM_CommitLoan,Ejecutar préstamo
+XM_PickUpFailure,Falla en la recogida
+XM_PickUpFailureLeadthru,Se rechazó la recogida. Seleccione la función deseada.
+XM_UndoPickUp,Deshacer recogida
+XM_CommitPickUp,Ejecutar recogida
+XM_ManualRemoveCashAlert,Retire dinero de la caja de dinero y monedas del depósito de rebose de monedas para deshacer préstamo.\nNúmero de billetes que retirar: %d\nCantidad que retirar: %s\nNúmero de\nmonedas que retirar: %d\nCantidad que retirar: %s
+XM_POSRejectedLoanPickUp,Préstamo/recogida rechazado en POS: %s / %d rechazado.\n
+XM_LoanPickUpCashierOverrides,Anulación de préstamo/recogida por cajero ID %s: %s / %d ejecutado.\n\n
+XM_PlaceJammedBill,Retire la caja de dinero y coloque adentro las monedas atascadas.
+MinMaxFastLaneBtnPrimaryTxt,Minimizar SelfServ Checkout
+MinMaxFastLaneBtnSecondaryTxt,Maximizar SelfServ Checkout
+MinMaxFastLaneBtnPrimaryShowConfirmation,"Para minimizar la ventana SelfServ Checkout, toque el botón ""Minimizar SelfServ Checkout""."
+MinMaxFastLaneBtnSecondaryShowConfirmation,"Para maximizar la ventana SelfServ Checkout, toque el botón ""Maximizar SelfServ Checkout""."
+StopStartFastLaneBtnPrimaryTxt,Detener SelfServ Checkout
+StopStartFastLaneBtnSecondaryTxt,Iniciar SelfServ Checkout
+SwitchToRAPBtnPrimaryTxt,Cambiar a RAP
+ShutdownSystemBtnPrimaryTxt,Cerrar todo el sistema
+RebootSystemBtnPrimaryTxt,Reinicializar todo el sistema
+VolumeBtnPrimaryTxt,Control de volumen
+EventViewerBtnPrimaryTxt,Visor de Eventos
+GenerateLogBtnPrimaryTxt,Generar archivos de registro de diagnósticos
+ExitFastLaneAndRunProfileBtnPrimaryTxt,Detener SelfServ Checkout y ejecutar Profile Manager
+ExitFastLaneAndRunProfileBtnSecondaryTxt,Ejecutar Administrador de Perfil
+TerminalInfoBtnPrimaryTxt,Información de Terminal
+MinMaxRAPBtnPrimaryTxt,Minimizar RAP
+MinMaxRAPBtnSecondaryTxt,Maximizar RAP
+MinMaxRAPBtnPrimaryShowConfirmation,"Para minimizar la ventana RAP, toque el botón ""Minimizar RAP""."
+MinMaxRAPBtnSecondaryShowConfirmation,"Para maximizar la ventana RAP, toque el botón ""Maximizar RAP""."
+StopStartRAPButtonPrimaryTxt,Detener RAP
+StopStartRAPButtonSecondaryTxt,Iniciar RAP
+RapConfigureBtnPrimaryTxt,Configuración de RAP
+SwitchToFastLaneBtnPrimaryTxt,Cambiar a SelfServ Checkout
+ExitRAPAndRunProfileBtnPrimaryTxt,Detener RAP y ejecutar Profile Manager
+ExitRAPAndRunProfileBtnSecondaryTxt,Ejecutar Administrador de Perfil
+UtilityFunctionsTitle,Funciones de utilidad\nde NCR SelfServ Checkout
+StartTitle,Inicio de sistema
+SystemStartup,"Sistema iniciándose… espere, por favor"
+TerminalID,ID del terminal 
+InterfaceVersion,Versión de software: 
+TrainingProgramPrimaryTxt,Programa de capacitación
+LaunchPadNet_OperatorIDText,ID de operador: 
+KeySwitchOperatorID,Cerradura de llave
+LaunchPadNet_SignOnButtonText,Entrar
+LaunchPadNet_SignOffButtonText,Salir del sistema
+SignedOffButtonText,Sesión cerrada
+Exit,Salir de todo
+LaunchPadNet_ReturnToShoppingButtonText,Regresar
+PickListEditor,Editor de lista de selección
+RunADDTxt,Ejecute ADD en la Siguiente Reinicialización
+TouchWareTxt,Calibrar pantalla táctil
+DiagConfirm,Está seguro de que desea generar Archivos de registro de diagnósticos?
+ProfileManagerFLConfirm,Está seguro de que desea detener SelfServ Checkout y ejecutar Profile Manager?
+ProfileManagerRAPConfirm,Está seguro de que desea detener RAP y ejecutar Profile Manager?
+ProfileManagerConfirm,Está seguro de que desea iniciar Profile Manager?
+EventViewerConfirm,Está seguro de que desea iniciar el Visor de eventos?
+TrainingConfirm,Está seguro de que desea iniciar el Programa de capacitación?
+PicklistConfirm,Está seguro de que desea iniciar el Editor de Picklist?
+RunADDConfirm,Está seguro de que desea ejecutar ADD en la siguiente reinicialización?
+CalibrateConfirm,Está seguro de que desea calibrar la pantalla táctil?
+ShutdownConfirm,Está seguro de que desea apagar todo el sistema?
+RebootConfirm,Está seguro de que desea reiniciar todo el sistema?
+CloseAllConfirm,Está seguro de que desea salir de todas las aplicaciones e ir al escritorio?
+VolumeConfirm,Está seguro de que desea ajustar el control de volumen?
+TerminalInfoConfirm,Está seguro de que desea ver la información del terminal?
+StopFastLaneConfirm,Está seguro de que desea detener SelfServ Checkout?
+StopRAPConfirm,Está seguro de que desea detener RAP?
+StartFastLaneConfirm,Está seguro de que desea iniciar SelfServ Checkout?
+StartRAPConfirm,Está seguro de que desea iniciar RAP?
+WindowsLogOnTxt,Inicio de sesión en Windows
+WindowsLogOnConfirm,Está seguro de que desea salir de todas las aplicaciones e iniciar una sesión como usuario nuevo?
+YesText,Si
+NoText,No
+CommandPromptPrimaryTxt,Interfaz de comandos
+CommandPromptConfirm,¿Está seguro de que desea iniciar la Interfaz de comandos?
+RSMLEPrimaryTxt,Retail Systems Manager LE
+RSMLEConfirm,¿Está seguro de que desea iniciar Retail Systems Manager LE?
+OperatorRegistrationUtility,Utilidad de registro del operador
+LaunchPadNet_EnterIDFpLeadthru,"Escriba su ID de usuario y toque ""Ingresar"", o ponga su dedo sobre el dispositivo para huellas dactilares para registrarse."
+LaunchPadNet_ReEnterIDFpLeadthru,El registro no es válido. Por favor regístrese de nuevo usando el teclado o su huella dactilar.
+LaunchPadNet_ClearButtonText,Borrar
+LaunchPadNet_EnterButtonText,Ingresar
+LaunchPadNet_GoBackButtonText,Regresar
+LaunchPadNet_SpaceButtonText,Espacio
+LaunchPadNet_BackSpaceButtonText,Retroceder
+LaunchPadNet_EnterIDLeadthru,Ingresar ID con el teclado abajo.
+ReEnterIDLeadthru,Contraseña o identificación incorrecta. Por favor vuelva a ingresarla por medio del teclado que está abajo.
+LaunchPadNet_EnterPasswordLeadthru,Ingresar contraseña con el teclado abajo.
+CancelButtonText,Cancelar
+LaunchPadNet_LoggingInLeadthru,Abriendo sesión... Por favor espere
+LaunchPadNet_ShiftButtonText,Mayús
+LaunchPadNet_SignedOffButtonText,Sesión cerrada
+LaunchPadNet_ReEnterIDLeadthru,Contraseña o identificación incorrecta. Por favor vuelva a ingresarla por medio del teclado que está abajo.
+LegalCaptionText,"LEGAL CAPTION\nThis system is for the use of authorized personnel only. By logging onto this system, you are subject to the terms and conditions of all Information Security policies and standards. Use by unauthorized individuals or for unauthorized purposes is a violation of federal and/or state law. The company reserves the right to take any necessary actions to protect authorized users, intellectual property and other information assets. Individuals using this system are subject to having all of their activities on this system monitored. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals possible evidence of criminal activity, system personnel may provide the evidence of such monitoring to law enforcement officials."
+SignBelow,Firme abajo.
+PageIndicatorLabelFormat,Página {0} de {1}
+SignOnTitle,NCR SelfServ Checkout Log In
+HH_TransactionCancelLeadThru2,Transaction cancelled.
+AlertStatusTextOff,
+AlertStatusTextOn,!!!
+InitialText,.
+XM_CassetteMissing,Bill Cassette is not in the unit.\nPut Bill Cassette back into the unit.
+XM_Cassette,Cassette
+XM_CollectFailure,The collect operation resulted in failure.
+XM_TotalRemovedText,Total Removed: %s
+XM_TotalColectedText,Total Collected: %s
+XM_TotalAddedText,Total Added: %s
+XM_OperatorID,Operator ID %s
+XM_ManualRemoveCashAlertGlory,Remove cash from the cassette to undo loan.\n\nNotes\nCount to remove: %d\nAmount to remove: %s
+XM_LeadThruGloryFunction,"Touch denomination and enter amount\nor touch ""Collect""."
+XM_InitializeError,The system encounters an error to be corrected.
+XM_GrandTotalText,Grand Total: %s
+XM_EmptyCassetteAndRejectBin, Remove bills from Bill Cassettes and Reject Bin.
+XM_Collect,Collect
+XM_CashUnbalance,Discrepancy error occurred in the recycler.
+XM_GloryDispenseNoteFullPreemptive,Please Take Bills\nBills are dispensed in bunches of 10. Dispensing will pause until all bills are taken.
+XM_GloryDispenseFullPreemptive,"Please Take Bills and Coins\nBills are dispensed in bunches of 10. Dispensing will pause until all bills are taken. If coin return is full, empty promptly. Dispensing will pause until bowl is emptied."
+XM_GloryDispenseCupFullPreemptive,"Please Take Coins\nIf coin return is full, empty promptly.  Dispensing will pause until bowl is emptied."
+XM_NegativeAlert_Remove,"Se halló un número negativo. Causas posibles: ocurrió un error de digitación, o los billetes se colocaron en el casete del cargador pero el número de estos billetes no se ingresó en la Administración de Dinero.\n\nSiga los pasos a continuación para resolver esto:\n1. Seleccione ""Salir"" y luego seleccione ""Añadir dinero"".\n2. Toque la unidad de valor con el número negativo. \n3. Ingrese el monto exacto de dinero del número negativo y/o el monto colocado en el cargador.\n4. Seleccione Aplicar cambios.\n5. Seleccione Sí para confirmar y luego Salir."
+DueCart,Por pagar
+ScotApp_1742,BOLSA NO VÁLIDA
+ScotApp_71,71unused
+ScotApp_61,61unused
+ScotApp_51,Cupón sin código
+ScotApp_41,Artículos restringidos
+ScotApp_31,Cupones
+ScotApp_1055,1055unused
+ScotApp_11,11unused
+ScotApp_789,Deslice su tarjeta.\nVerifique que la canasta está vacía.
+ScotApp_689,  Ventas:        %d
+ScotApp_589,Device Factory cargado.
+ScotApp_389,Procesando tarjeta
+ScotApp_289,289unused
+ScotApp_189,Opciones cargadas.
+ScotApp_91,91unused
+ScotApp_773,Monto ahorrado :
+ScotApp_673,Por favor dé al cliente %s centavos de cambio.
+ScotApp_1264,USERDEFINED6
+ScotApp_473,Por favor reabastecer.
+ScotApp_373,Impresora - atasco de eyección
+ScotApp_989,989unused
+ScotApp_889,%s\nPeso real (%s): %s\nPeso previsto (%s): %s
+ScotApp_1520,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1042,NOTA DE ENDOSO:\nESTO SE HA IMPRESO PORQUE UN\n\ENDOSO DE DOCUMENTO HA FALLADO. POR FAVOR ADJUNTE ESTA\nNOTA AL DOCUMENTO APROPIADO.\n----------------------------------------\n
+ScotApp_973,973unused
+ScotApp_873,Número I.D.
+ScotApp_1737,Bolsa propia
+ScotApp_752,Resumen de ayer
+ScotApp_652, **No hay registros WLDB para este UPC.
+ScotApp_1054,1054unused
+ScotApp_452,Revise que el cable esté enchufado firmemente en el lado del aceptador de monedas.
+ScotApp_352,Actualizar
+ScotApp_252,\nDistribuidor de monedas trabado\n\nEliminar traba.
+ScotApp_152,152unused
+ScotApp_1310,* Retire el aceptador de billetes.\n* Inserte el aceptador de billetes de nuevo hasta que esté enganchado.\n* Verifique que el motor del aceptador de billetes se enciende y que la luz LED está verde.
+ScotApp_661,(Predet)
+ScotApp_952,Añadir peso cero
+ScotApp_852,Tres artículos
+ScotApp_1527,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1838,Verificar artículo
+ScotApp_731,Resumen
+ScotApp_631,Nombre del propietario:
+ScotApp_531,\nFalla del dispositivo de captura de firmas
+ScotApp_331,Retire artículos de balanza. Teclado inhabilitado.
+ScotApp_231,231unused
+ScotApp_131,Depositar cupones
+ScotApp_1736,"Por favor coloque sus bolsas en el área de embolsado, y toque ""Hecho"" cuando termine."
+ScotApp_1250,CRÉDITO DE PIP
+ScotApp_831,831unused
+ScotApp_300,300unused
+ScotApp_1306,%s Cambio expendido
+ScotApp_710,710unused
+ScotApp_610,Peso de artículo:
+ScotApp_510,Firmar de nuevo
+ScotApp_310,depósito tiene nivel bajo
+ScotApp_210,210unused
+ScotApp_110,Pesar artículo
+ScotApp_1526,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1126,Falla del expendedor de monedas.\n\nRevise el interruptor de encendido/apagado si está presente en el expendedor.
+ScotApp_1040,Firma
+ScotApp_810,Capacitación
+ScotApp_1735,Coloque sus bolsas
+ScotApp_1257,SELLOS PARA ALIMENTOS DE PIP
+ScotApp_704,Use el teclado de PIN
+ScotApp_604,Escanear un artículo.
+ScotApp_504,504unused
+ScotApp_404,404unused
+ScotApp_304,Seleccionar envase
+ScotApp_204,Copiando archivo...
+ScotApp_104,104unused
+ScotApp_1269,USERDEFINED11
+ScotApp_904,Aprobación de peso del artículo
+ScotApp_804,804unused
+ScotApp_1047,Se necesita endoso. Por favor espere para recibir asistencia del operador.
+ScotApp_1478,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1134,El cassette de billetes está lleno.
+ScotApp_1734,Traje mi propia bolsa
+ScotApp_1256,EBT DE PIP
+ScotApp_1512,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1465,Error del dispositivo reciclador de dinero
+ScotApp_1721,Transacción en modo Capacitación
+ScotApp_1890,Procesando...
+ScotApp_1243,LEALTAD
+ScotApp_1544,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_63,No
+ScotApp_53,53unused
+ScotApp_43,43unused
+ScotApp_33,Corregí el problema
+ScotApp_1255,CARGAR A CUENTA DE AHORROS DE PIP
+ScotApp_13,  %ss @ %s/%s
+ScotApp_1511,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_93,Escanear y embolsar
+ScotApp_83,83unused
+ScotApp_1464,Número de terminal
+ScotApp_1189,ARTÍCULO INGRESADO
+ScotApp_1720,PR:
+ScotApp_1045,Pagar con %s
+ScotApp_672,*** TRANSACCIÓN EN MODO DE CAPACITACIÓN ***
+ScotApp_572,"Ingrese código de artículo y toque ""Ingresar""."
+ScotApp_472,Se necesita ayuda
+ScotApp_372,Impresora - error de comunicación lateral
+ScotApp_272,Revisar cupones usados
+ScotApp_172,Escanee el artículo que no desea o selecciónelo en el recibo.
+ScotApp_1510,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1701,No se logró expender %s.
+ScotApp_972,972unused
+ScotApp_872,Cancelar suspensión
+ScotApp_1188,CANTIDAD INGRESADA
+ScotApp_1727,Búsqueda de artículo
+ScotApp_751,Hoy por horas
+ScotApp_651,Valor
+ScotApp_551,551unused
+ScotApp_451,Aceptador de monedas status atasco
+ScotApp_351,Status Efectivo / Papel
+ScotApp_251,251unused
+ScotApp_151,Por favor tome el efectivo
+ScotApp_951,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s retirado;LSWND3=%s;
+ScotApp_851,Dos artículos
+ScotApp_730,730unused
+ScotApp_630,Tarjeta de crédito #:
+ScotApp_430,Fuera de servicio
+ScotApp_330,Modo de asistencia
+ScotApp_230,Aceptador de efectivo status rechazado
+ScotApp_130,Por favor deposite sus cupones.
+ScotApp_1726,Búsqueda terminada
+ScotApp_930,Verifique la comunicación.
+ScotApp_830,Retiré el artículo \n o la bolsa
+ScotApp_193,193unused
+ScotApp_1457,Nivel muy alto de dinero
+ScotApp_1283,1283unused
+ScotApp_724,724unused
+ScotApp_624,Tolerancia no válida
+ScotApp_424,Ingresar cantidad
+ScotApp_324,No requiere fecha
+ScotApp_224,Depósito de captura de lector de tarjetas se ha retirado
+ScotApp_124,124unused
+ScotApp_1469,"No se pudo expender %s al cliente. %s\n* Revise los expendedores de monedas y billetes.\n* Toque ""Status Efectivo / Papel"" para volver a llenar o despejar el atasco."
+ScotApp_924,924unused
+ScotApp_824,Suspender confirmación
+ScotApp_576,Iniciar pago con tarjeta.
+ScotApp_1247,SELLOS PARA ALIMENTOS
+ScotApp_1678,Error del Reciclador de Billetes
+ScotApp_1503,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1756,"Seleccione de los resultados de la búsqueda o toque ""Regresar""."
+ScotApp_1456,Número y contraseña de cajero incorrectos. \nIntente de nuevo.
+ScotApp_1502,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1712,Suspensión denegada
+ScotApp_1468,Estado del reciclador de dinero – Vacío
+ScotApp_1246,EBT
+ScotApp_75,Hecho
+ScotApp_65,65unused
+ScotApp_55,Cancelar todo
+ScotApp_45,45unused
+ScotApp_35,Vuelto a pagar:
+ScotApp_1258,TARJETA DE REGALO DE PIP
+ScotApp_15,Código de artículo:
+ScotApp_1711,Suspensión denegada
+ScotApp_1683,Error irrecuperable. Por favor cierre la caja. Llame a Gunnebo y proporcione la información de error indicada abajo.\n\nError de SafePay: %s
+ScotApp_95,Escanear cupones
+ScotApp_85,85unused
+ScotApp_1058,Pago asistido
+ScotApp_1664,Atasco de billetes
+ScotApp_797,No se pudo expender %s.\n* Revise si hay atascos en los cassettes y el distribuidor de billetes.\n* Asegure que los cassettes de billetes y la caja de purga estén enganchados.\n* Cierre la puerta de seguridad.
+ScotApp_697,697unused
+ScotApp_597,Cargando NCR SelfServ Checkout Forms %d...
+ScotApp_497,Cantidad por pagar:
+ScotApp_297,297unused
+ScotApp_197,Servicios de presentación cargados.
+ScotApp_997,Ingrese el precio
+ScotApp_897,WTINFO cargado
+ScotApp_1454,"Ingrese la contraseña y toque ""Ingresar""."
+ScotApp_1710,Tome su dinero devuelto
+ScotApp_1741,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s prev;LSWND3=%s %s obv
+ScotApp_1388,Programa de capacitación
+ScotApp_771,Cancelar la suspensión
+ScotApp_671,Salir del Modo de Capacitación
+ScotApp_571,"Ingresar la cantidad y tocar ""Ingresar""."
+ScotApp_471,   Validación visual
+ScotApp_371,Impresora - cambiar cabezal
+ScotApp_271,Autorizar cupones usados
+ScotApp_971,971unused
+ScotApp_871,Confirmar suspensión
+ScotApp_1840,Tienda n.º:
+ScotApp_750,Resumen de hoy
+ScotApp_650,Producto normal
+ScotApp_550,550unused
+ScotApp_450,450unused
+ScotApp_350,Status Efectivo / Papel
+ScotApp_250,250unused
+ScotApp_150,Seleccione el importe del vuelto en efectivo
+ScotApp_1773,"Toque ""Aprobar cupón"" para aceptar el cupón o vaya al Modo de Ayuda para anularlo."
+ScotApp_950,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s añadido;LSWND3=%s;
+ScotApp_850,Un artículo
+ScotApp_1405,"El POS está fuera de sincronización, por favor use el Modo de Ayuda para volverlo a sincronizar."
+ScotApp_1513,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1657,Dept no válido
+ScotApp_1225,ARTÍCULO DESCONOCIDO
+ScotApp_644,-------------------------------------------------------------------
+ScotApp_544,La contraseña no puede tener más de %d dígitos.
+ScotApp_444,Sellos para alimentos
+ScotApp_344,344unused
+ScotApp_244,244unused
+ScotApp_144,Comparar firma
+ScotApp_1590,Hay monedas atascadas en el depósito %s.
+ScotApp_1669,Error del Reciclador de Billetes/Monedas
+ScotApp_944,Demasiados pedidos de bolsa de tienda. Máx = %d.
+ScotApp_844,844unused
+ScotApp_1729,Buscar artículos:
+ScotApp_1447,Retirar dinero
+ScotApp_1703,(+)
+ScotApp_1656,"Ingrese el código del Dept y toque ""Ingresar"""
+ScotApp_915,Demasiados pedidos para saltarse la correa. Máx = %d
+ScotApp_1668,"Puede que haya un atasco de billetes en la ubicación indicada. Abra la cubierta superior del Reciclador de Billetes. Si hay billetes atascados, retírelos. Cierre la unidad e instale la tapa superior del Reciclador de Billetes. Continúe con la transacción."
+ScotApp_1542,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1139,La puerta del expendedor de billetes está abierta.
+ScotApp_1254,CARGAR A CUENTA CORRIENTE DE PIP
+ScotApp_1249,PIP
+ScotApp_77,Crédito
+ScotApp_67,Regresar
+ScotApp_57,Terminar y Pagar
+ScotApp_47,Inicio
+ScotApp_37,37unused
+ScotApp_1458,Informe de NCR SelfServ Checkout
+ScotApp_17,Cupón
+ScotApp_1752,El peso en la balanza excede la capacidad
+ScotApp_1643,Error del Reciclador de Billetes
+ScotApp_97,Seleccionar envase
+ScotApp_87,87unused
+ScotApp_1665,Desenganche y retire el casete.  Retire el billete atascado.  Vuelva a introducir el casete.  Cierre la unidad del reciclador.  Continúe con la transacción.
+ScotApp_1138,No se logró expender %s.
+ScotApp_1589,NO HAY MONEDAS
+ScotApp_1445,Cambio en el conteo
+ScotApp_1318,Escanear comprobantes
+ScotApp_1654,El número excede la capacidad. El número cargado máximo es %d. Se ha ingresado automáticamente el número %d.
+ScotApp_796,"Bajo nivel de monedas o expendedor de monedas en error/apagado.\n* Encienda expendedor de monedas, O\n* Llénelo de nuevo, apague el expendedor de monedas luego enciéndalo, toque ""Se reabasteció el distribuidor de monedas"" - Pantalla de estado de carril."
+ScotApp_696,696unused
+ScotApp_596,NCR SelfServ Checkout AuxDisp cargado.
+ScotApp_1391,"Toque ""Corregí el problema"".\nSi el error continúa, apague y reinicie el terminal."
+ScotApp_396,Se requirió asistencia de la tienda para:
+ScotApp_296,296unused
+ScotApp_196,Cargando servicios de presentación...
+ScotApp_1588,"Cada depósito debe vaciarse antes de que se pueda seleccionar el botón ""Recoger del Expendedor"".  Vacíe cada depósito de monedas y luego toque ""Recoger del Expendedor""."
+ScotApp_996,Precio
+ScotApp_896,WTINFO cargando...
+ScotApp_574,"Ingresar su contraseña y tocar ""Ingresar""."
+ScotApp_1093,Imprimir último recibo
+ScotApp_1641,"Vuelva a llenar la tolva de monedas y continúe. Si no se expenden monedas, la tolva podría estar bloqueada. Llame para obtener servicio.\n\nError de SafePay: %s"
+ScotApp_1781,AGRADECIMIENTO HA CADUCADO 
+ScotApp_562,Los cupones necesitan venderse en el modo de asistencia
+ScotApp_874,"Ingrese el No. I.D. y toque ""Ingresar""."
+ScotApp_1124,1124unused
+ScotApp_770,Confirmar la suspensión
+ScotApp_670,Acceda al Modo de Capacitación
+ScotApp_570,570unused
+ScotApp_470,   Límite de edad
+ScotApp_370,Impresora - impresora abierta
+ScotApp_270,Autorizar cupones
+ScotApp_170,"Retire el artículo de la balanza y toque el botón ""Balanza cero"" en el escáner."
+ScotApp_1640,Error de tolva
+ScotApp_870,Alertas:
+ScotApp_1733,"Seleccione ""Regresar"" para continuar."
+ScotApp_1553,Altura de dinero:
+ScotApp_664,Escanee sus artículos o seleccione un idioma
+ScotApp_564,564unused
+ScotApp_464,%s               %s
+ScotApp_364,364unused
+ScotApp_264,264unused
+ScotApp_964,"Retire el artículo y toque ""Eliminar protección"" o toque ""Aprobar y actualizar peso""."
+ScotApp_864,Aprobación de BIC:
+ScotApp_1647,(mmddaaaa)
+ScotApp_1119,"El expendedor de billetes no funciona con la puerta de acceso abierta.\n\nCierre y enganche la puerta del expendedor o la puerta de seguridad.\n\nSi el error se repite, llame a servicio técnico."
+ScotApp_1659,Imprimir recibo
+ScotApp_819,Confirme suspensión del artículo anulado.
+ScotApp_1339,Reinicializar todo el sistema
+ScotApp_1582,Estado de suministros
+ScotApp_1154,Error del escáner.
+ScotApp_1117,Cassette del expendedor de billetes de %s está afuera o no insertado completamente.\n\nInstale o reinserte el cassette de billetes de %s hasta que esté enganchado.
+ScotApp_1294,Q - S
+ScotApp_1030,Inserte su cupón.
+ScotApp_1658,Por verifique que el cliente recibió el cambio correcto.
+ScotApp_1421,Modo de Ayuda
+ScotApp_709,709unused
+ScotApp_1129,La acción correctiva no se ejecutó debidamente.\n\nPor favor intente de nuevo.
+ScotApp_509,509unused
+ScotApp_409,Mensaje del sistema
+ScotApp_309,dólar
+ScotApp_209,Detener programa
+ScotApp_109,¿Continuar?
+ScotApp_1338,Obtener archivos de diagnóstico
+ScotApp_909,Peso incorrecto en balanza de seguridad.
+ScotApp_809,Mensaje de POS:
+ScotApp_1645,Verifique que la tapa de billetes esté enganchada firmemente.
+ScotApp_1116,El expendedor de billetes no funciona si el depósito de billetes rechazados no está presente y completamente enganchado en su sitio.\n\nInserte el depósito de billetes rechazados y verifique que está completamente enganchado.
+ScotApp_1128,%s\n
+ScotApp_1452,"Ingrese el ID y toque ""Ingresar""."
+ScotApp_183,183unused
+ScotApp_1450,Caja de seguridad
+ScotApp_1293,P
+ScotApp_1644,Tapa del Reciclador de Billetes está fuera
+ScotApp_1115,GENERACIÓN DE INFORME NO ESTÁ EN LÍNEA
+ScotApp_795,Las compras se controlan para asegurar un mejor servicio.
+ScotApp_695,695unused
+ScotApp_595,Cargando NCR SelfServ Checkout AuxDisp...
+ScotApp_395,No se permiten art. restringidos
+ScotApp_295,295unused
+ScotApp_195,Administrador de dispositivos cargado.
+ScotApp_566,566unused
+ScotApp_1324,El peso queda en\nla balanza después de la transacción.
+ScotApp_995,Vaya al carril y registrése en Modo Tienda para abrir el carril.
+ScotApp_895,DBM terminando...
+ScotApp_1102,Siguiente
+ScotApp_1383,(Exc)
+ScotApp_1402,El conector de puente del depósito de billetes rechazados está desconectado.
+ScotApp_1292,N - O
+ScotApp_1114,"Se efectuó actualización de ""Fin de período de informe""."
+ScotApp_1222,FUERA DE SERVICIO
+ScotApp_1101,%s\t%s
+ScotApp_1159,El teclado del PIN / EFT no responde.
+ScotApp_1100,%s
+ScotApp_1539,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1649,(ddmmaaaa)
+ScotApp_1317,Pago con comprobante
+ScotApp_1883,"Revise si hay artículos adicionales en la balanza de embolsado y la carretilla y toque ""Aprobar seguridad"""
+ScotApp_729,729unused
+ScotApp_629,Cargo total:
+ScotApp_429,Rojo
+ScotApp_329,  %ss @ %d %s/%s
+ScotApp_229,229unused
+ScotApp_129,Verificar que art. anulados se han puesto a un lado.
+ScotApp_1107,%s\t%s\tCant. %s @ %s/%s\t%s
+ScotApp_1538,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_929,WLDB no se está comunicando debidamente.
+ScotApp_829,829unused
+ScotApp_1316,* Abra la tapa de la impresora y revise si hay un atasco de papel en el área indicada.\n* Cierre la tapa de la impresora y recargue el papel.
+ScotApp_81,Continuar
+ScotApp_1882,Alerta de Smart Assist - artículo no escaneado.
+ScotApp_1673,Atasco de monedas
+ScotApp_1135,Error del expendedor de billetes
+ScotApp_1705,Error de comunicación.
+ScotApp_1894,Set item aside and continue with your purchase.
+ScotApp_787,"Fecha de nacimiento ingresada: %s, %d años de edad"
+ScotApp_1398, Asis\Capac
+ScotApp_1106,%s\t%s\tCant. %s @ %s/cada uno\t%s
+ScotApp_1525,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1493,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1490,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1315,* Abra la tapa de la impresora y revise si hay un atasco de papel.\n* Cierre la tapa de la impresora y recargue el papel.
+ScotApp_1881,"Revise la balanza de embolsado, retire los artículos adicionales y toque ""Aprobar seguridad"""
+ScotApp_1173,ARTÍCULO ANULADO APROBADO
+ScotApp_1524,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_505,Número incorrecto
+ScotApp_1302,Cerrar
+ScotApp_905, (Más información en el recibo...)
+ScotApp_1164,La impresora no está posicionada correctamente.
+ScotApp_1492,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1314,* Abra la tapa de la impresora y retire cualquier residuo de papel.\n* Cierre la tapa.\n* Inserte un rollo nuevo de papel.\n* Alimente el papel a la impresora desde la parte superior del rollo.
+ScotApp_1817,"* Extraiga el reciclador de monedas.\n* Abra las puertas laterales redondas y despeje las monedas de las correas.\n* Verifique que todas las puertas estén cerradas y debidamente aseguradas.\n* Devuelva las monedas al cliente. Si el error se repite, llame a servicio técnico."
+ScotApp_1442,"Inserte los billetes para reabastecer o toque ""Retirar dinero"" para descargar."
+ScotApp_1880,Artículo inesperado en la balanza de embolsado.
+ScotApp_1172,SUSPENSIÓN CONFIRMADA
+ScotApp_1415,1415unused
+ScotApp_788,Cumpleaños válido:%s
+ScotApp_688,688unused
+ScotApp_588,Cargando Device Factory...
+ScotApp_488,Colocar artículo en la balanza: %s
+ScotApp_388,Procesando...
+ScotApp_288,"Toque ""Corregí el problema"". Si el error persiste, reinicie el terminal: Gire la llave del Supervisor a ‘S’ O BIEN oprima el botón Supervisor. Seleccione ""Apagar todo el sistema"". Cuando la pantalla esté en blanco, desconecte el terminal de la fuente de poder. Encienda el terminal. Si el error se repite, llame a servicio técnico."
+ScotApp_188,Cargando opciones...
+ScotApp_988,Artículo imprevisto en la correa. Retire el artículo.
+ScotApp_888,Artículo imprevisto en área de embolsado.  Retírelo.
+ScotApp_1887,Revisar transacción
+ScotApp_1171,AUMENTO IMPREVISTO
+ScotApp_1199,FECHA DE VENCIMIENTO INGRESADA
+ScotApp_1300,Inicie la transacción
+ScotApp_1326,Caducó tiempo para insertar cupón
+ScotApp_1291,K - M
+ScotApp_1517,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1886,Revise si hay artículos adicionales.
+ScotApp_749,749unused
+ScotApp_1529,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_549,549unused
+ScotApp_449,Aceptador de monedas status rechazado
+ScotApp_349,349unused
+ScotApp_249,249unused
+ScotApp_149,Ingrese su PIN
+ScotApp_1307,Imprimiendo recibo
+ScotApp_1738,Asistente para verificar sus bolsas
+ScotApp_949,949unused
+ScotApp_717,717unused
+ScotApp_617,Seleccione el ajuste de la comparación de peso. (Compare peso c/ registros existentes).
+ScotApp_517,Solicitud de otro pago.
+ScotApp_417,Totales finales cargados.
+ScotApp_317,317unused
+ScotApp_217,217unused
+ScotApp_117,Retire artículos
+ScotApp_1516,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1885,Artículo no escaneado
+ScotApp_917,Demasiados pedidos para retirar artículos del área de embolsado. Máx = %d.
+ScotApp_817,Se necesita asistencia
+ScotApp_1177,EMBOLSAR ARTÍCULO TIEMPO CADUCÓ
+ScotApp_1528,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1175,NO EMBOLSAR LÍMITE EXCEDIDO
+ScotApp_1109,%s\t%s\t%s @ %s/%s\t%s
+ScotApp_1453,Contraseña de cajero
+ScotApp_1693,Sustitución de monedas
+ScotApp_1515,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_7,7unused
+ScotApp_6,6unused
+ScotApp_5,5unused
+ScotApp_4,4unused
+ScotApp_3,3unused
+ScotApp_2,kg
+ScotApp_1,lb
+ScotApp_1176,ARTÍCULO NUEVO INGRESADO
+ScotApp_1724,TRANSACCIÓN EN MODO CAPACITACIÓN
+ScotApp_1019,Colocar en la correa
+ScotApp_9,9unused
+ScotApp_8,8unused
+ScotApp_609,Editar tolerancia de peso
+ScotApp_1305,%s insertado
+ScotApp_1893,Invalid Barcode
+ScotApp_1409,Menú de ayuda
+ScotApp_1692,Login de supervisor
+ScotApp_1163,"Toque ""Corregí el problema"".\n\nSi el error persiste, reinicie el terminal:\nGire la llave de cerradura del Supervisor a ‘S’ -O BIEN- oprima el botón Supervisor\nSeleccione ""Apagar todo el sistema"".\nCuando la pantalla se ponga en blanco, desconecte el terminal en la fuente de poder o la regleta de poder.\nEncienda el terminal. Si el error se repite, llame a servicio técnico."
+ScotApp_1514,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1372,Aceptador de monedas
+ScotApp_1048,1048unused
+ScotApp_967,967unused
+ScotApp_1304,Tarjeta de lealtad aceptada.
+ScotApp_1162,El dispositivo está fuera de línea.
+ScotApp_1833,Excep_IT
+ScotApp_1818,"* Desenganche y extraiga la bandeja de tolvas para eliminar el atasco (I).\n* Devuelva las monedas atascadas al(los) depósito(s) de tolva apropiado(s). Luego reinserte y asegure la bandeja de tolvas.\n* Extraiga el reciclador de monedas. Luego desenganche y retire la tapa.\n* Desconecte el cable mostrado (II).\n* Tire de la lengüeta roja en el lado derecho del aceptador y luego tírelo hacia delante y voltéelo para eliminar los atascos en las áreas mostradas (III).\n*Reinserte el aceptador y reconecte el cable.\n* Reinstale y asegure la tapa.\n*Si el error se repite, llame a servicio técnico."
+ScotApp_1174,DISCORDANCIA DE PESO
+ScotApp_1500,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1366,Balanza
+ScotApp_1161,Error del paginador
+ScotApp_1717,PO:
+ScotApp_1832,Excep_Depto
+ScotApp_1370,Codificador
+ScotApp_669,Falló la impresión de la firma. Ocurrieron errores.
+ScotApp_569,Ingrese código
+ScotApp_469,469unused
+ScotApp_369,Impresora - error de comunicación
+ScotApp_269,Modo de asistencia
+ScotApp_1507,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_969,969unused
+ScotApp_737,737unused
+ScotApp_637,"La seguridad no está en línea, se canceló la última acción."
+ScotApp_537,537unused
+ScotApp_437,Saldo insuficiente
+ScotApp_337,"Escanee su artículo, o ingrese el código y toque ""OK""."
+ScotApp_237,Inserte el cassette hasta que se enganche en su sitio.\n\nTire del mango del cassette para verificar que el seguro está sujetando el cassette en su sitio.
+ScotApp_137,Tomar el vuelto
+ScotApp_931,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s previstos;LSWND3=%s %s observados;
+ScotApp_1519,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1831,Int
+ScotApp_937,Límite\Retirar artículos
+ScotApp_837,Cargos
+ScotApp_1702,*** DUPLICADO DE RECIBO ***
+ScotApp_1377,cantidad
+ScotApp_1728,Seleccione entre los artículos populares o busque el artículo alfabéticamente.
+ScotApp_1395,Entrar al Modo de Asistente
+ScotApp_716,716unused
+ScotApp_616,Comparación de Peso
+ScotApp_516,Otro pago
+ScotApp_416,Cargando totales finales...
+ScotApp_316,316unused
+ScotApp_216,* Abra la puerta del gabinete de la impresora.\n* Abra la tapa de la impresora y revise si hay atascos.\n* Cierre la tapa de la impresora y recargue el papel.\n* Debe salir impreso un recibo con una Cara Feliz.\n* Cierre y asegure la puerta del gabinete de la impresora.
+ScotApp_116,Cancelar los artículos
+ScotApp_1522,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1506,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1879,"Revise la balanza de embolsado y toque ""Aprobar seguridad""."
+ScotApp_916,"Revise los artículos en el carril y toque ""Eliminar protección""."
+ScotApp_816,816unused
+ScotApp_1167,Abra la puerta del gabinete de la impresora.\n* Desenganche y empuje la impresora hacia atrás.\n* Abra la tapa de la impresora para ver si hay atascos.\n* Cierre la tapa de la impresora y recargue el papel.\n* Tire la impresora cuidadosamente hacia delante hasta que enganche en su sitio.
+ScotApp_1518,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1830, Entradas aprobadas
+ScotApp_1376,", %s"
+ScotApp_783,783unused
+ScotApp_683,683unused
+ScotApp_583,Tarjeta denegada.
+ScotApp_483,Por favor firme el panel de firma con el lapicero provisto.
+ScotApp_383,383unused
+ScotApp_283,Ingresar contraseña
+ScotApp_1505,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_983,Correa transportadora cargando...
+ScotApp_883,Confirmar suspensión
+ScotApp_1363,Visualizador de línea
+ScotApp_1714,DENEGACIÓN DE SUSPENSIÓN APROBADA
+ScotApp_1837,"Toque ""Aprobar"" para continuar con esta transacción."
+ScotApp_1449,Estado de billetes
+ScotApp_1375,Modificación de artículo post-venta:\n%s
+ScotApp_1248,TARJETA DE REGALO
+ScotApp_1153,Atasco de papel.
+ScotApp_1504,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1362,Keylock [Cerradura de llave]
+ScotApp_1836,CÓDIGO DE BARRAS NO VÁLIDO
+ScotApp_1571,Confirmar Ignorar cambio
+ScotApp_1215,ERROR DE DISPOSITIVO
+ScotApp_1858,Discrepancy error occurred in the recycler.
+ScotApp_1152,No hay papel.
+ScotApp_1700,"No se pudo expender %s. %s\nRevise los expendedores de monedas y billetes.\nSi están vacíos, llénelos.\nSi no están vacíos, despeje el atasco. \nTocar ""Situación corregida""."
+ScotApp_1823,El recibo electrónico se generó debidamente.
+ScotApp_1605, Depósito del expendedor de tarjetas está vacío     
+ScotApp_1361,Cambiador de dinero
+ScotApp_1835,Verifique el artículo o póngalo a un lado
+ScotApp_1878,Peso incorrecto en la balanza de embolsado.
+ScotApp_1281,PAGO ASISTIDO
+ScotApp_1425,Conectar
+ScotApp_1570,Ignorar cambios
+ScotApp_814,814unused
+ScotApp_291,"Traba en tubo distribuidor de monedas\n%s\nDespeje el atasco en el expendedor de monedas y luego toque ""Atasco despejado""."
+ScotApp_191,Agente de Transacciones cargado.
+ScotApp_1151,La tapa de la impresora está abierta.
+ScotApp_1707,Monedas atascadas en el aceptador
+ScotApp_1822,Vea el peso del artículo en la parte inferior izquierda de la pantalla
+ScotApp_757,757unused
+ScotApp_657,Ponga el reembolso/descuento a un lado hasta el final de la compra.
+ScotApp_557,Art. de cantidad restringida
+ScotApp_457,457unused
+ScotApp_357,357unused
+ScotApp_257,257unused
+ScotApp_157,Mensaje del sistema
+ScotApp_1360,Cajón de dinero
+ScotApp_1719,PA:
+ScotApp_1834,Máx
+ScotApp_1868,Asegúrese de que sus manos no tapen la vista de la cámara del escáner
+ScotApp_957,Cliente de DB Manager no se pudo comunicar
+ScotApp_857,Verifique cargo de montaje
+ScotApp_1064,1064unused
+ScotApp_1577,Número total:
+ScotApp_736,736unused
+ScotApp_636,La seguridad no está en línea.
+ScotApp_1091,1091unused
+ScotApp_436,Confirmar cantidad
+ScotApp_336,Buscar artíc
+ScotApp_236,236unused
+ScotApp_136,Introducir el efectivo
+ScotApp_1509,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1821,Aceptar peso
+ScotApp_936,Límite\Saltar embolsado
+ScotApp_836,Cargos y Contratos del Cliente
+ScotApp_1367,Escáner
+ScotApp_1718,NDA:
+ScotApp_1274,USERDEFINED16
+ScotApp_715,715unused
+ScotApp_615,Seleccione el ajuste del mandato de embolsado. (Se espera que el cliente embolse el artículo).
+ScotApp_515,515unused
+ScotApp_315,315unused
+ScotApp_215,Cargar a cuenta de ahorros
+ScotApp_115,Confirme cancelación
+ScotApp_1576,Estado del expendedor de dinero :
+ScotApp_1090,Ejecutar informe
+ScotApp_815,Abra la caja
+ScotApp_1508,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1406,Sincr TB/POS
+ScotApp_1099,Error de dispositivo desconocido
+ScotApp_1563,Cargar
+ScotApp_782,Distribuidor de billetes trabado\nEliminar traba o\nRegular cubo de purga.
+ScotApp_682,682unused
+ScotApp_582,Pago completado.
+ScotApp_482,482unused
+ScotApp_382,Desconocido
+ScotApp_282,Ingresar ID
+ScotApp_1575,Estado del expendedor de monedas :
+ScotApp_1097,Imprimir registros / informes
+ScotApp_1448,Estado de monedas
+ScotApp_982,Dispositivo
+ScotApp_143,Firmar el recibo
+ScotApp_1353,Por favor deposite su tarjeta de regalo agotada en la ranura para cupones.
+ScotApp_1704,"Toque ""Corregí el problema"".\n\nSi el error persiste, reinicie el terminal:\nGire la llave de cerradura del Supervisor a ‘S’ -O BIEN- oprima el botón Supervisor\nSeleccione ""Apagar todo el sistema"".\nCuando la pantalla se ponga en blanco, desconecte el terminal en la fuente de poder o la regleta de poder.\nEncienda el terminal. Si el error se repite, llame a servicio técnico."
+ScotApp_1827,\n    - Idioma actual (%s)
+ScotApp_1562,Número
+ScotApp_1815,"* Desenganche y extraiga la bandeja de tolvas.\n* Reinserte cualquier tolva que falte y asegure que todas las tolvas estén bien asentadas.\n* Verifique que la tolva con las monedas del menor valor esté insertada y asentada debidamente.\n* Verifique que estén insertadas las tolvas con las monedas del valor correcto. Si el error se repite, llame a servicio técnico."
+ScotApp_1574,El valor de %s indicado no es válido.\nPor favor ingréselo de nuevo.
+ScotApp_1543,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1290,D - J
+ScotApp_1096,Generación de informe
+ScotApp_1352,Deposite la tarjeta de regalo
+ScotApp_1561,Denominación
+ScotApp_1083,Artículo retirado del área de embolsado.\nRegréselo.
+ScotApp_1753,No se halló el artículo
+ScotApp_418,Totales finales terminando...
+ScotApp_318,318unused
+ScotApp_1813,"%s\n* Desenganche y extraiga la bandeja de tolvas (I).\n* Retire el(los) depósito()s de tolva atascado(s). Revise y elimine los atascos en el área de salida (II).\n* Si no hay un atasco en el área de salida, vacíe el(los) depósito(s) de tolva. Revise y elimine los atascos haciendo rotar el disco (III).\n* Reinserte el(los) depósito(s) de tolva.\n* Verifique que todas las puertas estén cerradas y debidamente aseguradas. Si el error se repite, llame a servicio técnico."
+ScotApp_1095,"Seleccione el tipo de informe y ""Ejecutar informe"""
+ScotApp_1351,%s\n%s %s retirado 
+ScotApp_1825,Guardar preferencias
+ScotApp_777,777unused
+ScotApp_677,677unused
+ScotApp_577,Iniciar pago en efectivo.
+ScotApp_377,Unidades  -  Status
+ScotApp_277,277unused
+ScotApp_1560,Total del Aceptador:  %s
+ScotApp_1082,Retiré el artículo \n o la bolsa
+ScotApp_977,Peso real: %s %s
+ScotApp_877,Precio
+ScotApp_1777,La transacción se finalizó usando un cupón que excede el límite de cupones de la tienda.
+ScotApp_1812,Coins are jammed or coin bins are full or out.
+ScotApp_756,756unused
+ScotApp_556,Suspensión de transacción negada
+ScotApp_456,456unused
+ScotApp_356,Codificador
+ScotApp_256,Salidas de usuario terminando...
+ScotApp_156,Mensaje del sistema
+ScotApp_1231,VERIFICADO VISUALMENTE
+ScotApp_1874,1874unused
+ScotApp_956,"Cierre y reinicie el terminal:\n* Gire la llave del Supervisor a ‘S’, o presione el botón Supervisor.\n* Seleccione ""Ejecute ADD en la Siguiente Reinicialización"". Seleccione ""Sí"" para confirmar.\n* Seleccione ""Apagar todo el sistema"".\n* Cuando la pantalla se ponga en blanco, apague el terminal desde el UPS o tomacorriente múltiple.\n* Encienda el terminal. Verifique el visor de eventos. Si el error se repite, llame a servicio técnico."
+ScotApp_856,Recibo:
+ScotApp_1567,Total del expendedor:  %s
+ScotApp_735,735unused
+ScotApp_635,Ingresar la fecha de nacimiento del cliente
+ScotApp_535,   Hora del retiro
+ScotApp_335,Lector de tarjetas posible intrusión del cliente
+ScotApp_235,Aceptador de efectivo status casi lleno
+ScotApp_135,135unused
+ScotApp_1776,Autorización de tienda
+ScotApp_1811,"* Extraiga el reciclador de monedas.\n* Elimine el atasco del área señalada, ya sea retirando las monedas o empujándolas hacia delante.\n* Entregue las monedas al cliente. Si el error se repite, llame a servicio técnico."
+ScotApp_935,Reducción de peso
+ScotApp_835,Recibo:
+ScotApp_1708,"Presione el botón de devolución de monedas varias veces para despejar el atasco de monedas y luego toque ""Corregí el problema"".\n\nSi el error se repite, llame a servicio técnico."
+ScotApp_1168,La impresora no está enganchada en la posición delantera.
+ScotApp_1446,Descargar
+ScotApp_1566,Reemplazo completo
+ScotApp_1080,Coloque artículo en la correa.
+ScotApp_1775,Aprobar cupón
+ScotApp_1810,Hay un atasco de monedas.
+ScotApp_1297,CADUCÓ TIEMPO PARA TOMAR EL CAMBIO.
+ScotApp_1648,(mmddaa)
+ScotApp_708,708unused
+ScotApp_608,Ajuste la Comparación de Peso
+ScotApp_508,508unused
+ScotApp_408,408unused
+ScotApp_308,centavo
+ScotApp_208,208unused
+ScotApp_108,Cupón no concuerda
+ScotApp_781,781unused
+ScotApp_681,Favoritos
+ScotApp_581,Se ha negado la suspensión de transacción
+ScotApp_481,Se necesita asistencia
+ScotApp_381,Normal
+ScotApp_908,Protección
+ScotApp_521,Suma del reembolso:
+ScotApp_1087,Tarjeta aceptada. Escanee sus artículos y cupones.
+ScotApp_981,981unused
+ScotApp_881,Suspender:
+ScotApp_1774,Cupón sobrevalorado
+ScotApp_1296,Rellene todos los depósitos de monedas hasta los niveles óptimos de servicio.
+ScotApp_1583,baja reserva de dinero (%s)
+ScotApp_1552,depósito está lleno
+ScotApp_1295,T - Z
+ScotApp_1877,Alerta de robo
+ScotApp_1761,Puede que el depósito de cupones esté lleno o que la ranura para cupones esté bloqueada. Retire lo que esté bloqueando la ranura y luego vacíe el depósito.
+ScotApp_1086,"""Añadir peso cero"" borra todos los registros de peso."
+ScotApp_693,693unused
+ScotApp_794,Distribuidor de billetes trabado\nEliminar traba o\nRegular cubo de purga.
+ScotApp_694,694unused
+ScotApp_594,NCR SelfServ Checkout SigCap cargado.
+ScotApp_494,Seleccionar la cantidad de efectivo devuelto de la lista.
+ScotApp_394,394unused
+ScotApp_1098,"* Abra la puerta del gabinete de la impresora.\n* Revise si hay un atasco de papel en el área indicada.\n* Si no hay un atasco de papel, recargue el papel.\n* Debe salir impreso un recibo con una Cara Feliz.\n* Cierre y asegure la puerta del gabinete de la impresora."
+ScotApp_1551,el nivel de dinero es alto (%s)
+ScotApp_994,Cerrado
+ScotApp_894,DBM cargado
+ScotApp_1760,Puede que el depósito de cupones esté lleno o que la ranura para cupones esté bloqueada. Retire lo que esté bloqueando la ranura y luego vacíe el depósito.
+ScotApp_1371,Aceptador de dinero
+ScotApp_1803,Aceptar sólo dinero
+ScotApp_1359,Impresora de comprobantes
+ScotApp_1085,Recoja los cupones
+ScotApp_21,21unused
+ScotApp_776,776unused
+ScotApp_676,Distribuidor de monedas: Se reabasteció el %s a las %s
+ScotApp_1491,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_476,Depósito de cupones
+ScotApp_376,376unused
+ScotApp_276,276unused
+ScotApp_176,¿Desea suspender el proceso de caja y cancelar por completo su compra?
+ScotApp_976,976unused
+ScotApp_876,"Ingrese el ID del cajero principal y toque ""Ingresar""."
+ScotApp_1271,USERDEFINED13
+ScotApp_1767,No se logró obtener acceso a los parámetros de peso de la balanza.
+ScotApp_755,Procesando...
+ScotApp_655,Artículo de excepción
+ScotApp_1084,Recogida
+ScotApp_455,455unused
+ScotApp_355,Seleccionar función de sistema
+ScotApp_255,255unused
+ScotApp_155,Mensaje del sistema
+ScotApp_1011,Transportando...
+ScotApp_869,"Ingrese el No. de autorización y toque ""Ingresar""."
+ScotApp_955,Falló apertura de Smart Scale
+ScotApp_855,Cargo de montaje:
+ScotApp_23,+ %s (%s)
+ScotApp_1766,Error de escáner/balanza.
+ScotApp_1280,EFECTIVO
+ScotApp_1335,Carril cerrado
+ScotApp_1497,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_728,728unused
+ScotApp_628,Caja #: %d
+ScotApp_528,528unused
+ScotApp_428,Amarillo
+ScotApp_328,"No se pudo expender %s al cliente. \nRevise los expendedores de monedas y billetes.\nSi están vacíos, llénelos.\nSi no están vacíos, despeje el atasco. \nToque ""Corregí el problema""."
+ScotApp_228,Se ha atorado la apertura del lector de tarjetas
+ScotApp_128,128unused
+ScotApp_1690,Por favor llame para obtener servicio
+ScotApp_281,281unused
+ScotApp_181,"\nUse el teclado para ingresar el valor del cupón en centavos y toque ""OK""."
+ScotApp_928,Vaya al carril y revise el dispositivo.
+ScotApp_828,828unused
+ScotApp_1033,"Desactive el artículo o retire la etiqueta rígida en el carril y toque ""Eliminar protección""."
+ScotApp_1496,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_680,680unused
+ScotApp_580,Intentó anular el artículo antes de anular su cupón.
+ScotApp_380,380unused
+ScotApp_280,Borrar el registro de seguridad
+ScotApp_180,Ponga los cupones a un lado.\nDeposítelos al final de la compra.
+ScotApp_1364,Micr
+ScotApp_980,Tiempo caducó sin respuesta del cliente
+ScotApp_880,880unused
+ScotApp_970,970unused
+ScotApp_1104,e=d=0.01 lb Max 30.00 lb min 0.2 lb Nmax 3000
+ScotApp_1032,Artículo EAS sigue activo.
+ScotApp_1286,Español
+ScotApp_1462,Compartimientos
+ScotApp_1298,Funciones asistidas por operador
+ScotApp_1031,Escanee sus cupones.
+ScotApp_1482,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1706,"El dispositivo no está listo.\n* Cierre cualquier otra aplicación que podría estar teniendo acceso al dispositivo y toque ""Corregí el problema"".\n* Si el error se repite, llame a Gunnebo para pedir servicio técnico."
+ScotApp_1399, Asistente
+ScotApp_1494,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1672,Error del Reciclador de Monedas
+ScotApp_573,"Ingresar su identificación de usuario y tocar ""Ingresar""."
+ScotApp_173,173unused
+ScotApp_775,¡Bienvenido a NCR SelfServ Checkout! ¡Felices compras!
+ScotApp_675,Se reabasteció el distribuidor de monedas
+ScotApp_1481,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_79,79unused
+ScotApp_69,69unused
+ScotApp_59,Intentar de nuevo
+ScotApp_39,Cancelación de transacción
+ScotApp_29,Artículos restringidos
+ScotApp_19,Impuesto
+ScotApp_975,975unused
+ScotApp_603,Cambiar registro de peso
+ScotApp_99,Cantidad por anular
+ScotApp_89,89unused
+ScotApp_303,Cancelar artículos
+ScotApp_203,203unused
+ScotApp_103,Ingresar código del artículo.
+ScotApp_1889,Nivel de confianza en el usuario
+ScotApp_1443,"Inserte monedas para reabastecer o toque ""Retirar dinero"" para descargar."
+ScotApp_903,Artículo retirado de balanza de seguridad.
+ScotApp_803,803unused
+ScotApp_1555,Expendedor
+ScotApp_1037,Efectivo devuelto
+ScotApp_1480,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1263,USERDEFINED5
+ScotApp_1697,Atasco despejado
+ScotApp_748,748unused
+ScotApp_648,UPC
+ScotApp_548,548unused
+ScotApp_448,Se ha activado la cuenta de comprador frecuente.
+ScotApp_348,348unused
+ScotApp_248,248unused
+ScotApp_148,148unused
+ScotApp_1479,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_948,\n* Asistencia remota
+ScotApp_848,Cantidad requerida:
+ScotApp_485,Se necesita firma
+ScotApp_1036,Artículo EAS activo
+ScotApp_1487,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1499,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1023,1023unused
+ScotApp_1179,ABANDONO TIEMPO CADUCÓ
+ScotApp_1035,Artículo EAS activo
+ScotApp_1682,Error general de unidad lectora de billetes
+ScotApp_1486,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1144,El expendedor no responde.
+ScotApp_866,Sí
+ScotApp_1498,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1384,Idioma
+ScotApp_1743,"Escriba su ID de usuario y toque ""Ingresar"", o ponga su dedo sobre el dispositivo para huellas dactilares para registrarse."
+ScotApp_1319,COMPROBANTE
+ScotApp_1178,RETIRO HECHO LÍMITE EXCEDIDO
+ScotApp_1001,Artículo no encontrado
+ScotApp_1034,1034unused
+ScotApp_1485,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1068,1068unused
+ScotApp_1694,"La sustitución se usará porque %s. Toque ""Status Efectivo / Papel"" para llenar o despejar el atasco."
+ScotApp_1165,Tire la impresora cuidadosamente hacia adelante hasta que se enganche en su sitio.\n\nCierre y asegure la puerta del gabinete de la impresora.
+ScotApp_1021,Atención
+ScotApp_1230,DEPTO NEGATIVO
+ScotApp_1484,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_912,Aprobar y actualizar peso
+ScotApp_723,723unused
+ScotApp_623,"Ingresar la tolerancia con el teclado y toque ""Ingresar""."
+ScotApp_523,Tarjeta rechazada
+ScotApp_423,Introduzca su tarjeta. Por favor verifique que no queden artículos en la canasta.
+ScotApp_323,  Cant. %d @ %d/%s
+ScotApp_223,Depósito de captura de lector de tarjetas está lleno
+ScotApp_123,123unused
+ScotApp_1020,Escanear artículo
+ScotApp_923,923unused
+ScotApp_823,Aprobación de anulación
+ScotApp_1483,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1237,CUPÓN
+ScotApp_1680,Error irrecuperable. Por favor cierre la caja. Llame a Gunnebo y proporcione la información de error indicada abajo.\n\nError de SafePay: %s
+ScotApp_702,702unused
+ScotApp_602,Editar/Agregar\nRegistro de peso
+ScotApp_502,Ponga el artículo cancelado a un lado a la izquierda del escáner.
+ScotApp_402,No presente
+ScotApp_302,Favor de ingresar su PIN en el dispositivo de pago.
+ScotApp_202,Probando cierre de sesión...
+ScotApp_102,Retirado de la venta
+ScotApp_1722,La caja está en el modo Capacitación. ¿Continuar con la transacción?
+ScotApp_902,Artículo retirado del área de embolsado.  Regréselo.
+ScotApp_802,"\n¿Compra un cajón completo\nde %s?\n\nSeleccione ""Sí"" o ""No""."
+ScotApp_568,Borrar
+ScotApp_468,   Retirado de la venta
+ScotApp_368,Impresora - atasco de papel no cargado
+ScotApp_268,Error al leer tarjeta
+ScotApp_1027,"Toque ""Sí"" para cancelar la transacción o ""No"" para reanudarla."
+ScotApp_1354,Recoja la tarjeta de regalo
+ScotApp_968,968unused
+ScotApp_868,Número de autorización:
+ScotApp_1433,balanza después de la transacción.
+ScotApp_1687,"Use la pantalla ""Status Efectivo / Papel"" para cargar el dinero."
+ScotApp_1150,La puerta del gabinete de la impresora está abierta.
+ScotApp_1699,"Se usa la sustitución porque %sVuelva a llenar o despeje el atasco, luego toque ""Condición corregida""."
+ScotApp_1259,USERDEFINED1
+ScotApp_1223,ESCASEZ DE MEDIO DE EFECTIVO
+ScotApp_1379,precio unitario
+ScotApp_1432,<<<Nivel bajo de billetes. Por favor reabastecer.>>>
+ScotApp_1686,Error irrecuperable. Por favor cierre la caja. Llame a Gunnebo y proporcione la información de error indicada abajo.\n\nError de SafePay: %s
+ScotApp_1157,La puerta del expendedor de billetes puede estar abierta.\n\nEl expendedor de billetes no funciona con la puerta de acceso abierta.\n\nCierre y enganche bien la puerta del expendedor o la puerta de seguridad.
+ScotApp_1013,Artículos atracados
+ScotApp_1184,MÁS DATOS
+ScotApp_1848,"Artículo eliminado. Escanee el artículo siguiente o toque ""Ingrese código""."
+ScotApp_1169,Abra la puerta del gabinete de la impresora.\n* Tire la impresora cuidadosamente hacia delante hasta que se enganche en su sitio.\n* Cierre y asegure la puerta del gabinete de la impresora.
+ScotApp_1662,Otros recibos
+ScotApp_1311,"* Retire el aceptador de billetes.\n* Abra el módulo del aceptador.\n* Revise si hay atascos, luego inserte el módulo de nuevo.\n* Verifique que el motor del aceptador de billetes se enciende y que la luz LED está verde."
+ScotApp_1025,Retire todos los artículos de la correa y cierre la tapa de seguridad.
+ScotApp_1378,peso
+ScotApp_22,Sin\n devolución\n de efectivo\n+ 0          \n(%s)
+ScotApp_1234,CANTIDAD RESTRINGIDA
+ScotApp_1685,Error general de unidad de monedas
+ScotApp_1156,Verifique que el interruptor del expendedor de monedas esté en la posición de encendido.
+ScotApp_1012,Su artículo se está transportando.
+ScotApp_1365,MSR
+ScotApp_1235,ARTÍCULO EAS ACTIVO
+ScotApp_1221,ANULACIÓN- SALDO INFERIOR A 0
+ScotApp_1143,El nivel de monedas está bajo o falta el depósito de monedas.
+ScotApp_434,Tipo de beneficio
+ScotApp_1625,"Introduzca las monedas para reabastecer o toque ""Retirar monedas"" para descargar."
+ScotApp_1430,Anular artículo
+ScotApp_1684,Error del Reciclador de Monedas
+ScotApp_1155,El dispositivo está fuera de línea.
+ScotApp_834,Cargos y Contratos del Cliente:
+ScotApp_799,Revisar canasta
+ScotApp_699,Artículo no vendible
+ScotApp_599,Reinicializando dispositivo de formularios...
+ScotApp_499,499unused
+ScotApp_399,399unused
+ScotApp_299,299unused
+ScotApp_199,Salidas del usuario cargadas.
+ScotApp_743,743unused
+ScotApp_643,Artículo borrado. Escanee siguiente artículo.
+ScotApp_543,ID del operador no puede tener más de %d dígitos.
+ScotApp_343,343unused
+ScotApp_243,Lector de tarjetas - tarjeta no válida
+ScotApp_999,Límite excedido
+ScotApp_899,Apruebe la anulación de
+ScotApp_1220,EFT
+ScotApp_1142,Error del expendedor de monedas
+ScotApp_943,Estoy usando mi propia bolsa
+ScotApp_843,843unused
+ScotApp_1437,"Se ha excedido el umbral de ""Retirar artículo"""
+ScotApp_1601, Nivel del depósito del expendedor de tarjetas está bajo     
+ScotApp_722,722unused
+ScotApp_622,Editar tolerancia para UPC
+ScotApp_522,Código personal PIN equivocado
+ScotApp_422,422unused
+ScotApp_322,322unused
+ScotApp_222,"Secuencia de pedido de impresora: Revisar errores de impresora o visor de eventos y toque ""Corregí el problema""."
+ScotApp_122,122unused
+ScotApp_1010,1010unused
+ScotApp_922,922unused
+ScotApp_822,Apruebe el artículo anulado.
+ScotApp_1715,Aprobación de denegación de suspensión
+ScotApp_1227,TIEMPO DE RESTRICCIÓN
+ScotApp_701,701unused
+ScotApp_601,601unused
+ScotApp_401,Introduzca la tarjeta. Por favor verifique que no queden artículos en la canasta.
+ScotApp_301,Ingresar el valor del cupón
+ScotApp_201,Probando inicio de sesión...
+ScotApp_101,Precio desconocido
+ScotApp_1633,Error del Reciclador de Billetes
+ScotApp_901,Salte la aprobación de embolsado
+ScotApp_801,Comprar cajón
+ScotApp_1824,No se generó el recibo digital.
+ScotApp_1328,Peso doble
+ScotApp_1299,Inicie la transacción e ingrese al Modo de Ayuda
+ScotApp_1226,ARTÍCULO RETIRADO DE LA VENTA
+ScotApp_1140,Atasco en el expendedor de billetes.
+ScotApp_1579,Aceptador de billetes
+ScotApp_1426,%s\n¿Es %d correcto?
+ScotApp_1632,"Retire la tapa de billetes.  Revise el cable al Validador de Billetes e intente de nuevo. Si el error se repite, llame a servicio técnico.\n\nError de SafePay: %s"
+ScotApp_1141,No se logró expender %s. PRECAUCIÓN: Puede haber un billete atascado en la parte superior del expendedor de billetes.
+ScotApp_1791,Sólo dinero
+ScotApp_1357,Recoja la tarjeta de regalo
+ScotApp_763,763unused
+ScotApp_714,714unused
+ScotApp_614,Mandato de Embolsado
+ScotApp_514,514unused
+ScotApp_314,problema en el depósito
+ScotApp_214,Cargar a cuenta corriente
+ScotApp_114,No se puede cancelar artículo
+ScotApp_1369,Varios
+ScotApp_78,Débito
+ScotApp_1630,Error del Reciclador de Billetes
+ScotApp_58,OK
+ScotApp_48,48unused
+ScotApp_914,"Vaya al carril, retire los artículos adicionales y toque ""Eliminar protección""."
+ScotApp_1422,Escáner portátil
+ScotApp_18,Total
+ScotApp_1147,Error de balanza de seguridad
+ScotApp_1578,Valor total:
+ScotApp_1022,No deseo\nembolsar este artículo
+ScotApp_98,98unused
+ScotApp_88,88unused
+ScotApp_1003,Tiempo limitado
+ScotApp_1434,Límite de edad
+ScotApp_1356,Recoger
+ScotApp_1212,OTRO
+ScotApp_1455,Número no válido
+ScotApp_1713,Tocar Aprobar para denegar la suspensión
+ScotApp_1565,Ingresar valor cargado de %s
+ScotApp_194,Cargando administrador de dispositivos...
+ScotApp_1275,USERDEFINED17
+ScotApp_1146,El aceptador no responde.
+ScotApp_1303,Tarjeta de lealtad aceptada: #%s
+ScotApp_70,70unused
+ScotApp_60,Pedir ayuda
+ScotApp_50,50unused
+ScotApp_40,Autorización de tienda
+ScotApp_30,Artículos anulados
+ScotApp_20,20unused
+ScotApp_10,10unused
+ScotApp_1779,No se puede anular el artículo antes de anular su cupón. Anule el cupón del artículo primero.
+ScotApp_1211,PREDETERMINADO
+ScotApp_90,90unused
+ScotApp_80,80unused
+ScotApp_663,Falla al ingresar la clave PIN
+ScotApp_463,Autorización remota terminando...
+ScotApp_363,\nUse el teclado para ingresar la contraseña del operador.
+ScotApp_163,163unused
+ScotApp_1420,¿Cancelar artículo\n%s?
+ScotApp_1145,Error del Aceptador de monedas
+ScotApp_963,Cancelar pedido
+ScotApp_863,Valor de cupón
+ScotApp_1816,Las monedas están atascadas o la puerta está abierta.
+ScotApp_1637,Problema de cable
+ScotApp_742,742unused
+ScotApp_642,Artículo agregado. Escanear siguiente artículo.
+ScotApp_542,No se puede crear código de barras.
+ScotApp_342,Escribir descripción
+ScotApp_242,Lector de tarjetas - atasco de tarjeta
+ScotApp_142,Confirmar la cantidad
+ScotApp_1210,ÚLTIMA VISUALIZACIÓN
+ScotApp_942,942unused
+ScotApp_842,842unused
+ScotApp_1044,Pago asistido por operador
+ScotApp_1427,Cambie la cantidad del artículo: \n%s
+ScotApp_721,721unused
+ScotApp_621,Predeterminada
+ScotApp_1341,Control de volumen
+ScotApp_421,"Escanee su tarjeta, o toque ""Inicio"" para empezar."
+ScotApp_321,Verificación de transacción
+ScotApp_221,Cierre y asegure la puerta del gabinete de la impresora.
+ScotApp_121,los artículos de esta caja.
+ScotApp_1636,Error del Reciclador de Monedas
+ScotApp_921,Peso previsto en la balanza de seguridad.
+ScotApp_821,821unused
+ScotApp_600,Mantenimiento de seguridad
+ScotApp_500,500unused
+ScotApp_400,400unused
+ScotApp_1368,Sigcap
+ScotApp_200,Probando Agente de Transacciones...
+ScotApp_100,Cantidad necesitada
+ScotApp_1076,Atención
+ScotApp_1623,Transferir billetes al casete para recogerlos
+ScotApp_1340,Apagar todo el sistema
+ScotApp_1108,%s\t%s\t%s @ %s %s/%s\t%s
+ScotApp_1814,El depósito de tolva está ausente o fuera de su lugar. 
+ScotApp_1758,Error de depósito de cupones
+ScotApp_1635,"Revise el cable al Reciclador de Billetes e intente de nuevo. Si el error se repite, llame a servicio técnico.\n\nError de SafePay: %s"
+ScotApp_1557,Recoger del Expendedor
+ScotApp_734,734unused
+ScotApp_634,634unused
+ScotApp_534,Art. c/tiempo restringido
+ScotApp_1413,Por favor termine su transacción en los próximos # minutos.  Puede ocurrir una desconexión eléctrica dentro de poco.
+ScotApp_334,Lector de tarjetas error por no haber tarjeta
+ScotApp_234,Retire el cassette de billetes.\n\nRetire los billetes del cassette.\n\nInserte el cassette de nuevo hasta que se enganche en su sitio.\n\nTire del mango del cassette para verificar que el seguro está sujetando el cassette en su sitio.
+ScotApp_1569,Valor
+ScotApp_1801,Modo de operación
+ScotApp_934,Aumento de peso
+ScotApp_1622,Casete
+ScotApp_768,Suspender Confirmación
+ScotApp_668,La firma se imprimió con éxito.
+ScotApp_1347,Intentando reconexión
+ScotApp_1778,Eliminar protección
+ScotApp_168,Escanee sus cupones y póngalos a un lado hasta el final de la compra.
+ScotApp_1203,DOCUMENTO ENDOSADO
+ScotApp_1634,Problema de cable
+ScotApp_1556,Recoger del Aceptador
+ScotApp_1412,Funciones de ayuda
+ScotApp_1783,TAPA DE SEGURIDAD ABIERTA
+ScotApp_1232,FIRMA APROBADA
+ScotApp_1568,Total global:                  %s
+ScotApp_1800,Seleccionar modo de operación
+ScotApp_1495,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1621,Desenganchar el casete de billetes
+ScotApp_1346,La caja está fuera de línea y el sistema está intentando reconectarse. 
+ScotApp_72,72unused
+ScotApp_62,Sí
+ScotApp_52,Cancelar cupones
+ScotApp_42,Artículos anulados
+ScotApp_32,Continuar
+ScotApp_12,  Cant. %d @ %s/cada uno
+ScotApp_1411,Cambiar cantidad
+ScotApp_92,¡Bienvenido!
+ScotApp_82,82unused
+ScotApp_1807,_ _ _
+ScotApp_1089,Fin de período de informe
+ScotApp_1620,Desenganchar la tapa de los billetes
+ScotApp_1345,Administrador de Seguridad terminando...
+ScotApp_1819,Errores en el aceptador del reciclador de monedas
+ScotApp_762,762unused
+ScotApp_662,%
+ScotApp_1554,Aceptador	
+ScotApp_462,Autorización remota cargada.
+ScotApp_362,Ingresar contraseña
+ScotApp_262,262unused
+ScotApp_162,Escanee sus artículos y cupones.
+ScotApp_1410,Cambiar precio
+ScotApp_962,"Recoja el artículo anulado en el carril y luego toque ""Aprobar anulación""."
+ScotApp_862,Valor de cupón:
+ScotApp_1806,"\n* Toque ""Sólo tarjetas"" para finalizar la transacción y entregue el cambio manualmente al cliente."
+ScotApp_1088,1088unused
+ScotApp_1627,Error del Reciclador de Billetes/Monedas
+ScotApp_741,741unused
+ScotApp_641,Peso prom.  Aprobadas   Conteo  Tipo de tol. Valor de tol.   Fecha
+ScotApp_541,Imprimir código de barras de operador
+ScotApp_441,Confirmar cantidad
+ScotApp_341,341unused
+ScotApp_241,Administrador de dispositivos error imprevisto
+ScotApp_141,Tipo de Tarjeta
+ScotApp_941,Artículo anulado
+ScotApp_841,Artículo:
+ScotApp_1873,1873unused
+ScotApp_25,Fecha de nacimiento:
+ScotApp_720,720unused
+ScotApp_520,Código desconocido
+ScotApp_420,420unused
+ScotApp_320,Regresar
+ScotApp_220,* Abra la puerta del gabinete de la impresora.\n* Abra la tapa de la impresora para ver si hay atascos.\n* Cargue un rollo nuevo de papel en la impresora.\n* Cierre y asegure la puerta del gabinete de la impresora.
+ScotApp_120,Transacción cancelada. Retire
+ScotApp_1626,Introduzca el dinero para reabastecer o seleccione otra función.
+ScotApp_1423,El escáner portátil está intentando conectarse.
+ScotApp_920,Aprobar/Sin actualizar.
+ScotApp_820,Aprobar anulación
+ScotApp_1757,"Para añadir un acento, toque la tecla ""Acento"" en la parte inferior de la pantalla, luego ingrese la letra."
+ScotApp_1872,1872unused
+ScotApp_754,Resumen de últimos 7 días
+ScotApp_554,No deslizar tarjetas de crédito por el lector en este momento.
+ScotApp_1613,Depósito de rechazados
+ScotApp_354,Funciones del sistema
+ScotApp_254,Distribuidor de monedas no funciona\nLlenar distribuidor o \nEncender equipo o\nEliminar traba.
+ScotApp_154,Cargando...
+ScotApp_1769,Ingres/ cód
+ScotApp_1240,EFECTIVO
+ScotApp_954,Falló comunicación de Smart Scale
+ScotApp_854,Cinco artículos
+ScotApp_1547,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1403,"Detenga y reinicie el programa NCR SelfServ Checkout.  Si el error sigue presente, comuníquese con su servicio de ayuda."
+ScotApp_545,Artículo restringido
+ScotApp_1559,Salir
+ScotApp_1871,%s %s observado
+ScotApp_1612,Administración de tarjetas
+ScotApp_1550,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_845,Escanear artículos adicionales:
+ScotApp_1564,Ingresar número cargado de %s
+ScotApp_1768,Unidad de peso no compatible.
+ScotApp_1272,USERDEFINED14
+ScotApp_1546,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_74,Autorizar anulaciones
+ScotApp_64,Cancelar selección
+ScotApp_54,Cancelar
+ScotApp_44,44unused
+ScotApp_34,34unused
+ScotApp_1558,Salir y Guardar
+ScotApp_14,14unused
+ScotApp_1870,%s %s esperado
+ScotApp_1389,Error del dispositivo de captura de firmas
+ScotApp_1611, Depósito de rechazados está lleno     
+ScotApp_94,94unused
+ScotApp_84,Opciones de carga
+ScotApp_1289,B - C
+ScotApp_687,Imprimir informe
+ScotApp_587,Firma
+ScotApp_487,Abajo
+ScotApp_387,Atasco de transporte
+ScotApp_287,Escáner: Etiqueta no válida
+ScotApp_1545,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1336,Utilidad
+ScotApp_987,Artículo retirado de la correa. Devuelva el artículo.
+ScotApp_887,Artículo retirado
+ScotApp_555,Otro pago
+ScotApp_1610, Depósito de rechazados está casi lleno (%s)      
+ScotApp_1041,Aprobar firma
+ScotApp_1691,Administración de dinero
+ScotApp_1809,Errores en el expendedor del reciclador de monedas
+ScotApp_1288,A
+ScotApp_761,761unused
+ScotApp_1193,IDENTIDAD VERIFICADA
+ScotApp_561,Ponga el cupón a un lado
+ScotApp_461,Autorización remota cargando...
+ScotApp_361,Caja cerrada
+ScotApp_261,261unused
+ScotApp_961,"Falla en base de datos de reconocimiento de pesos: Revise si hay errores en el Visor de eventos, luego toque ""Corregí el problema""."
+ScotApp_861,861unused
+ScotApp_1876,%s %s observado
+ScotApp_740,740unused
+ScotApp_640,Registros de peso WLDB existentes
+ScotApp_540,540unused
+ScotApp_340,Seleccione el artículo de la lista. Use las flechas para subir o bajar.
+ScotApp_240,Administrador de dispositivos falla general
+ScotApp_140,Gracias
+ScotApp_1105,e=d=0.005kg Max 13.995kg min 0.1kg Nmax 2799
+ScotApp_1192,CARGO DE MONTAJE
+ScotApp_940,Anulación
+ScotApp_840,Artículo:
+ScotApp_1863,"Toque ""Aprobar"" o ""Anular artículo"""
+ScotApp_1463,Cambio de valor
+ScotApp_1875,%s %s esperado
+ScotApp_774,Puntos ganados :
+ScotApp_674,"""Razón para rechazar el pago: """
+ScotApp_780,780unused
+ScotApp_474,474unused
+ScotApp_374,Impresora - error de marca negra
+ScotApp_174,"No se puede hallar el artículo escaneado. No se ha comprado todavía, o ya ha sido cancelado."
+ScotApp_1029,Insertar cupón
+ScotApp_974,974unused
+ScotApp_1679,Error de datos de billetes
+ScotApp_1747,Error del lector de huellas dactilares
+ScotApp_1862,Verifique el artículo en la balanza del escáner
+ScotApp_1603, Nivel del depósito del expendedor de tarjetas está normal     
+ScotApp_1419,Multi-Pack
+ScotApp_1759,Depósito de cupones lleno
+ScotApp_649,Precio incrustado.
+ScotApp_1039,Los 3 artículos anteriores pueden tener etiqueta(s) EAS.
+ScotApp_849,Cantidad requerida:
+ScotApp_765,765unused
+ScotApp_565,Log In de la tienda
+ScotApp_1549,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1861,PICKLIST
+ScotApp_1731,Imágenes PL cargando…
+ScotApp_76,76unused
+ScotApp_66,66unused
+ScotApp_56,Cancelar pago
+ScotApp_46,Ayuda
+ScotApp_36,Reembolsado:
+ScotApp_26,26unused
+ScotApp_16,%s se cargará a su tarjeta.
+ScotApp_719,719unused
+ScotApp_619,"Seleccionar ""Ingresar tolerancia"" o ""Predeterminada"" para editar la tolerancia actual."
+ScotApp_519,Cupón sobrevalorado
+ScotApp_419,419unused
+ScotApp_319,Pagar con tarjeta
+ScotApp_219,219unused
+ScotApp_119,Cancelar Artículos
+ScotApp_96,96unused
+ScotApp_86,86unused
+ScotApp_1755,Seleccionar de la lista
+ScotApp_1038,Verificar firma
+ScotApp_919,"Verifique el peso del artículo y toque ""Aprobar y actualizar peso"", o toque ""Aprobar/Sin actualizar""."
+ScotApp_1489,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1745,El dispositivo para huellas dactilares está desconectado.\n\nPor favor intente de nuevo.
+ScotApp_1860,Seleccione en los artículos elegidos con el asistente de lista de selección o busque alfabéticamente el artículo.
+ScotApp_1268,USERDEFINED10
+ScotApp_1008,1008unused
+ScotApp_786,Suspendido en el pasillo de caja
+ScotApp_686,Ayer
+ScotApp_586,Cupones: %0.0ld/$%0.2lf
+ScotApp_486,Arriba
+ScotApp_386,Cassette retirado
+ScotApp_286,Escáner: Prefijo2 de etiqueta no válido
+ScotApp_186,186unused
+ScotApp_1488,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_986,986unused
+ScotApp_886,Artículo retirado del área de embolsado.\nRegréselo.
+ScotApp_1393,"Detenga y reinicie el programa NCR SelfServ Checkout.  Si el error persiste, comuníquese con el servicio de ayuda."
+ScotApp_1867,Vista de la cámara bloqueada
+ScotApp_68,68unused
+ScotApp_38,38unused
+ScotApp_28,Cancelar compra
+ScotApp_1024,1024unused
+ScotApp_760,Deslice su tarjeta en el costado de este monitor.
+ScotApp_660,Todos los niveles de moneda están normales
+ScotApp_460,Con esto terminará su compra.
+ScotApp_360,Cerrar caja
+ScotApp_260,260unused
+ScotApp_1392,Error en luz triple
+ScotApp_960,\n* Se ha excedido el peso máximo permitido.\n* Retire artículos de balanza.
+ScotApp_860,Se necesita medida:
+ScotApp_1866,Más populares
+ScotApp_1459,Informe de Administración de Dinero
+ScotApp_1239,NINGUNO
+ScotApp_1301,Editar lista de selección
+ScotApp_1749,Procesando huella dactilar
+ScotApp_1017,Retire los artículos atracados de la correa.
+ScotApp_1771,Límite de valor de cupón
+ScotApp_739,739unused
+ScotApp_639,Peso previsto  Comp. de Peso
+ScotApp_539,539unused
+ScotApp_439,439unused
+ScotApp_339,339unused
+ScotApp_239,Administrador de dispositivos status imprevisto
+ScotApp_1092,Contenido del informe
+ScotApp_1851,No aprobar 
+ScotApp_1238,OTRO PAG0
+ScotApp_939,Tiempo caducó
+ScotApp_839,Cancelar acción
+ScotApp_1333,Retroceso
+ScotApp_24,Anulado
+ScotApp_1016,Artículos atracados en la correa
+ScotApp_1615,"Toque el botón ""Recoger del Expendedor"" para descargar"
+ScotApp_1723,Trans Capac
+ScotApp_1028,Se excedió el umbral de cupones
+ScotApp_1435,Error del expendedor de monedas/billetes
+ScotApp_1698,"Tocar ""Situación corregida""."
+ScotApp_1688,Error de casete
+ScotApp_454,454unused
+ScotApp_1593,Retirar monedas
+ScotApp_1642,Error del Reciclador de Billetes
+ScotApp_1015,Artículos atracados
+ScotApp_785,785unused
+ScotApp_685,Por horas
+ScotApp_585,585unused
+ScotApp_536,Aceptador de monedas
+ScotApp_385,385unused
+ScotApp_285,Escáner: Sufijo de etiqueta no válido
+ScotApp_185,Comparar la firma del cliente con la que aparece en la tarjeta.
+ScotApp_1224,SE NECESITA PRECIO
+ScotApp_985,Coloque el artículo en la correa.
+ScotApp_885,Alerta de embolsado
+ScotApp_575,Fin de pago en efectivo.  Saldo pendiente.
+ScotApp_475,Suspensión de transacción
+ScotApp_375,Impresora - pausa
+ScotApp_1002,Sin venta
+ScotApp_1888,"Monitoree la seguridad de la transacción del cliente y toque ""Aprobar seguridad""."
+ScotApp_910,910unused
+ScotApp_1592,Retire las monedas del depósito atascado. Incline el depósito. Gire el tornillo hacia la derecha hasta que se pueda retirar la moneda. No aplique una fuerza excesiva.
+ScotApp_875,ID de cajero principal para cancelar la compra
+ScotApp_1014,Retire los artículos atracados de la correa.
+ScotApp_1572,¿Está seguro de que desea ignorar los cambios en la pantalla de Administración de Monedas?
+ScotApp_1790,Crédito / Débito únicamente
+ScotApp_1344,Administrador de Seguridad cargado...
+ScotApp_798,798unused
+ScotApp_698,698unused
+ScotApp_598,¡El formulario %d no se logró almacenar!
+ScotApp_498,Cantidad pagada:
+ScotApp_398,Cassette introducido
+ScotApp_298,298unused
+ScotApp_198,Cargando salidas del usuario...
+ScotApp_998,Cantidad
+ScotApp_898,WTINFO terminando...
+ScotApp_1416,Revise si es un producto multienvase
+ScotApp_1431,Anular todo
+ScotApp_1236,Procesando Informe...
+ScotApp_1770,Seleccione de los resultados de la búsqueda.
+ScotApp_1000,No encontrado
+ScotApp_1439,"Se ha excedido el umbral de ""Bolsa/caja"""
+ScotApp_1217,ANULADO
+ScotApp_759,Deslice su tarjeta en el dispositivo de pago.
+ScotApp_659,Estado de reserva de dinero:
+ScotApp_559,No cupones
+ScotApp_459,Quedará un saldo de esta compra.
+ScotApp_359,Funciones del sistema
+ScotApp_259,Administrador de dispositivos terminando...
+ScotApp_1007,Ayuda solicitada
+ScotApp_1438,"Se ha excedido el umbral de ""Artículo nuevo"""
+ScotApp_959,Base de datos de reconocimiento de pesos
+ScotApp_859,No
+ScotApp_1216,PROTECCIÓN
+ScotApp_1373,RECOJA LA TARJETA DE REGALO
+ScotApp_1005,Validación visual
+ScotApp_1655,Dept de venta
+ScotApp_1228,SUSPENDIDO
+ScotApp_1725,Seguridad desactivada
+ScotApp_1006,Otra forma de pago
+ScotApp_496,Límite de cantidad
+ScotApp_1018,Edad mínima.
+ScotApp_1160,"Revise que el cable esté conectado a la parte posterior del teclado del PIN.\n\nSi el cable está asegurado firmemente, toque ""Corregí el problema"".\n\nSi el error persiste, apague y reinicie el terminal."
+ScotApp_1073,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;DATANEEDEDTYPE=%d;
+ScotApp_1424,"Para conectar su escáner portátil, toque ""Conectar""."
+ScotApp_1202,CARRIL CERRADO
+ScotApp_679,Informes de asistencias
+ScotApp_1792,Sólo tarjetas
+ScotApp_1214,RECIBO
+ScotApp_1804,Salir del Modo sólo tarjetas
+ScotApp_879,879unused
+ScotApp_1072,Se necesita información
+ScotApp_1631,Error del Validador de Billetes
+ScotApp_1148,Falla de componentes de balanza de seguridad
+ScotApp_1244,CARGAR A CUENTA CORRIENTE
+ScotApp_1004,Verificar
+ScotApp_1282,Se necesita el precio de:
+ScotApp_1071,1071unused
+ScotApp_1276,USERDEFINED18
+ScotApp_1200,INDICACIÓN DE PRECIO
+ScotApp_1639,Error del Reciclador de Monedas
+ScotApp_1828,\n    - Nivel de volumen %d%%
+ScotApp_1308,PIN ingresado
+ScotApp_1417,"Si es un multienvase, toque ""Modo de ayuda"" y anule el artículo, luego escanee el código de barras del multienvase."
+ScotApp_1343,Administrador de Seguridad cargando...
+ScotApp_779,779unused
+ScotApp_1429,<<<Nivel bajo de monedas. Por favor reabastecer.>>>
+ScotApp_579,579unused
+ScotApp_479,Depositar cupones
+ScotApp_379,Aceptador de efectivo
+ScotApp_279,Reconocer registros de seguridad.
+ScotApp_179,179unused
+ScotApp_1865,Buscar artíc\n sin peso
+ScotApp_1207,FIRMA VERIFICADA
+ScotApp_1638,"Revise los cables del Reciclador de Monedas e intente de nuevo. Si el error se repite, llame a servicio técnico.\n\nError de SafePay: %s"
+ScotApp_979,Umbral = %d pedidos de clientes
+ScotApp_707,Últimos 7 días
+ScotApp_607,Ajuste el Mandato de Embolsado
+ScotApp_507,Verif. visual de art.
+ScotApp_307,Otro envase
+ScotApp_207,207unused
+ScotApp_107,Ya llega ayuda
+ScotApp_1219,RESTRICCIÓN DE EDAD
+ScotApp_907,907unused
+ScotApp_807,Retirar etiquetas de seguridad
+ScotApp_1077,Regresar artículos a la correa
+ScotApp_1428,Cambie el precio del artículo: \n%s
+ScotApp_1695,Arreglar después
+ScotApp_1206,ARTÍCULO NO DESACTIVADO
+ScotApp_1218,COBRANZA
+ScotApp_1782,INICIAR TRANSACCIÓN EN EL MA
+ScotApp_1273,USERDEFINED15
+ScotApp_1624,Transferir todos los billetes al casete
+ScotApp_793,793unused
+ScotApp_1059,1059unused
+ScotApp_593,Cargando NCR SelfServ Checkout SigCap...
+ScotApp_493,Su recibo se imprimirá debajo del dispositivo de pago.
+ScotApp_393,Impresora de diarios
+ScotApp_293,Pedir ayuda
+ScotApp_1205,ATRACO EN ÁREA DE EMBOLSADO
+ScotApp_993,Carril cerrado
+ScotApp_893,DBM cargando...
+ScotApp_1063,1063unused
+ScotApp_1414,Esta caja no está disponible hasta que se restaure la electricidad.
+ScotApp_1182,LÍMITE DE CANTIDAD DE CUPÓN
+ScotApp_1201,PAGO ASISTIDO
+ScotApp_1075,Límite\Saltar correa
+ScotApp_1348,Caja cerrada
+ScotApp_1671,Abra la unidad del Reciclador de Billetes y retire los billetes del casete.  Cierre la unidad del reciclador.\nExpenda las monedas de la tolva y retírelas del depósito de monedas de cambio.
+ScotApp_1204,NÚMERO DE DOCUMENTO
+ScotApp_1284,1284unused
+ScotApp_1062,1062unused
+ScotApp_1233,OTRO PAGO
+ScotApp_27,27unused
+ScotApp_1074,Aprobación para saltar correa.
+ScotApp_1472,Dispositivo reciclador de dinero no está listo
+ScotApp_1026,Cancelar
+ScotApp_1061,1061unused
+ScotApp_1617,La cantidad ingresada excede la capacidad. Ingrese otra vez el número cargado en el depósito del expendedor. La capacidad máxima es %d.
+ScotApp_1050,1050unused
+ScotApp_744,744unused
+ScotApp_1591,Revise las conexiones de cables al expendedor de monedas.
+ScotApp_1130,Error del Aceptador de Billetes
+ScotApp_1270,USERDEFINED12
+ScotApp_1629,Problema con la configuración de la CPU o los parámetros de los datos del sistema.  Por favor llame para obtener servicio.\n\nError de SafePay: %s
+ScotApp_1820,"Retire el artículo de la balanza y toque el botón "">0<"" en el escáner."
+ScotApp_882,Confirme la suspensión.
+ScotApp_1440,Administración de billetes
+ScotApp_1407,Reinicializar
+ScotApp_727,727unused
+ScotApp_627,Transacción #:
+ScotApp_527,527unused
+ScotApp_427,Bajo nivel de tinta
+ScotApp_327,"Dispositivo fuera de línea, revisar conexiones y/o registro de eventos"
+ScotApp_227,Se ha introducido una tarjeta no válida en el lector de tarjetas
+ScotApp_127,127unused
+ScotApp_665,"Para continuar elija ""Cancelar todo"" o ""Regresar"""
+ScotApp_1060,Por favor espere...
+ScotApp_1616,Ingrese el número cargado en el depósito del expendedor. La cantidad máxima que se puede cargar es %d.
+ScotApp_927,Falla de dispositivo
+ScotApp_827,Pase código de barras por lector y embolse.
+ScotApp_1540,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_900,Coloque el artículo en el área de embolsado.
+ScotApp_1277,USERDEFINED19
+ScotApp_865,Verifique titular de tarjeta BIC
+ScotApp_506,506unused
+ScotApp_406,406unused
+ScotApp_306,Sin envase
+ScotApp_206,Se cargarán las opciones.
+ScotApp_106,Se necesita ayuda
+ScotApp_1209,LÍMITE EXCEDIDO DE TARJETA DE REGALO
+ScotApp_806,Autorizar los artículos de validación visual
+ScotApp_1067,1067unused
+ScotApp_1418,Se ha excedido el peso máximo permitido.
+ScotApp_1473,"El dispositivo no está listo.\n\nEncienda la unidad, revise el cable de comunicación o ponga la unidad de nuevo en el gabinete."
+ScotApp_187,187unused
+ScotApp_1716,PP:
+ScotApp_1190,CUPÓN INGRESADO
+ScotApp_1602, Nivel del depósito del expendedor de tarjetas está bajo (%s)     
+ScotApp_1149,Error del impresor de recibos
+ScotApp_1066,1066unused
+ScotApp_1614,Depósito del expendedor
+ScotApp_792,792unused
+ScotApp_692,692unused
+ScotApp_592,Codificador NCR SelfServ Checkout cargado.
+ScotApp_492,Tome su vuelto.
+ScotApp_392,Artículos desconocidos
+ScotApp_292,Cupón sin código
+ScotApp_192,192unused
+ScotApp_1241,CRÉDITO
+ScotApp_1197,TRANSACCIÓN CANCELADA
+ScotApp_1548,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_992,¿Cuándo nació?
+ScotApp_892,Smart Scale terminando...
+ScotApp_1053,Espere que el cajero traiga el comprobante para firmarlo.
+ScotApp_1404,"El servidor del POS está fuera de línea o fuera de sincronización, por favor apague el terminal."
+ScotApp_1245,CARGAR A CUENTA DE AHORROS
+ScotApp_1262,USERDEFINED4
+ScotApp_1471,Error del dispositivo reciclador de monedas
+ScotApp_1196,NÚMERO DE LICENCIA DE CONDUCIR
+ScotApp_1052,1052unused
+ScotApp_1600,Estado del expendedor de tarjetas :
+ScotApp_1663,el depósito está vacío o atascado
+ScotApp_1261,USERDEFINED3
+ScotApp_1125,"Llene todos los canales de monedas hasta el tope del depósito de monedas.\n\nVaya al Modo Tienda, seleccione ""Status Efectivo / Papel"" y toque el botón ""Se reabasteció el distribuidor de monedas""."
+ScotApp_1183,INDICACIÓN DE PRECIO
+ScotApp_1470,Error del dispositivo reciclador de billetes
+ScotApp_1195,SUSPENSIÓN DE CSA
+ScotApp_1229,SE PIDIÓ AYUDA
+ScotApp_1051,Aprobación de comprobante
+ScotApp_1607, Depósito de rechazados está normal (%s)     
+ScotApp_1895,Genr Excp
+ScotApp_747,747unused
+ScotApp_647,N
+ScotApp_447,Se ha activado la cuenta de comprador frecuente.
+ScotApp_347,Se ha cancelado el artículo restringido - no se ha cumplido el límite de edad. Por favor ponga el artículo a un lado.
+ScotApp_247,247unused
+ScotApp_147,147unused
+ScotApp_1260,USERDEFINED2
+ScotApp_1619,Suspender
+ScotApp_769,Confirmar o cancelar la suspensión.
+ScotApp_947,Artículo con peso nuevo
+ScotApp_847,Terminó escaneo
+ScotApp_1477,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_726,726unused
+ScotApp_626,Tolerancia:
+ScotApp_526,\nCódigo personal PIN equivocado.\nDeslice una tarjeta diferente\n   -o-\nPague en efectivo
+ScotApp_426,Caja ##:
+ScotApp_326,La fecha de nacimiento no cumple con el límite de edad para los artículos restringidos. 
+ScotApp_226,Dispositivo de lector de tarjetas no funciona
+ScotApp_126,(mmddaa).
+ScotApp_1606, Depósito de rechazados está normal     
+ScotApp_926,Artículos no se han devuelto al área de embolsado.
+ScotApp_826,No deseo\nembolsar este artículo
+ScotApp_1267,USERDEFINED9
+ScotApp_1618,Un casette del expendedor de billetes está fuera o no está completamente insertado.\n\nInstale o inserte el casette de billetes hasta que enganche.
+ScotApp_1181,SE EXCEDIÓ EL UMBRAL DE CUPONES
+ScotApp_205,Copiado terminado.
+ScotApp_105,Artículo desconocido
+ScotApp_1476,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1730,Buscar
+ScotApp_1390,El dispositivo no responde
+ScotApp_805,Autorizar artículos
+ScotApp_1864,Ir a la caja
+ScotApp_1408,Ayuda
+ScotApp_1266,USERDEFINED8
+ScotApp_1180,NINGÚN PRECIO CONCUERDA
+ScotApp_1208,VENDIDO EN MODO DE AYUDA
+ScotApp_1475,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1397,Asistente
+ScotApp_1748,Falló el inicio de sesión con huella dactilar
+ScotApp_718,718unused
+ScotApp_618,Tolerancia de peso
+ScotApp_518,Introducir efectivo.
+ScotApp_1253,LEALTAD DE PIP
+ScotApp_1604, Nivel del depósito del expendedor de tarjetas está normal (%s)     
+ScotApp_218,Impresora casi vacía
+ScotApp_118,Aprobación requerida
+ScotApp_552,No se puede empezar con cero.
+ScotApp_791,Elija el tipo de pago
+ScotApp_691,691unused
+ScotApp_591,Cargando Codificador NCR SelfServ Checkout...
+ScotApp_391,Artículos necesitan precio
+ScotApp_918,No hay registro de peso del artículo.
+ScotApp_1187,ERROR DE DISPOSITIVO
+ScotApp_991,Ver edad
+ScotApp_891,Smart Scale cargado
+ScotApp_1474,Error de hardware. Código de error E%d
+ScotApp_1396,Salir del Modo de Asistente
+ScotApp_1252,DÉBITO CON CAMBIO DE PIP
+ScotApp_1732,Imágenes PL cargadas.
+ScotApp_1461,Monedas
+ScotApp_1166,Abra la puerta del gabinete de la impresora.\n* Desenganche y empuje la impresora hacia atrás.\n* Abra la tapa de la impresora para ver si hay atascos.\n* Cierre la tapa de la impresora y recargue el papel.\n* Tire la impresora cuidadosamente hacia delante hasta que enganche en su sitio.
+ScotApp_1186,DISMINUCIÓN IMPREVISTA
+ScotApp_1857,  No colocar en la correa
+ScotApp_1829,Aprobar
+ScotApp_1670,Error del Reciclador de Billetes/Monedas
+ScotApp_1198,NÚMERO DE CUENTA INGRESADO
+ScotApp_1869,Mano en la vista
+ScotApp_1251,DÉBITO DE PIP
+ScotApp_1855,Opcional
+ScotApp_767,Normal nivel de material
+ScotApp_667,Se leyó la tarjeta. Escanee artíc y cupones.
+ScotApp_567,Ingresar
+ScotApp_467,467unused
+ScotApp_367,367unused
+ScotApp_267,Protección
+ScotApp_1460,Billetes
+ScotApp_1185,EMBOLSAR PONER EN CAJA LÍMITE EXCEDIDO
+ScotApp_1009,Modo Tienda
+ScotApp_867,No
+ScotApp_1856,  No embolsar
+ScotApp_1677,Verifique que la puerta del Reciclador de Monedas esté cerrada.
+ScotApp_746,746unused
+ScotApp_646,S
+ScotApp_1394,Error de interfaz digital
+ScotApp_446,Suspender transacción
+ScotApp_346,Débito con cambio
+ScotApp_246,246unused
+ScotApp_146,Por favor seleccione el tipo de pago.
+ScotApp_1501,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1609, Depósito de rechazados está casi lleno     
+ScotApp_1194,NÚMERO DE AUTORIZACIÓN
+ScotApp_946,Aprobación de bolsa de tienda
+ScotApp_846,"Escanee artículos o toque ""Terminó escaneo""."
+ScotApp_1843,Su bolsa
+ScotApp_1467,"Use la pantalla ""Status Efectivo / Papel"" para descargar el dinero."
+ScotApp_725,725unused
+ScotApp_625,Ingresar una tolerancia de peso entre <%s> and <%s>.
+ScotApp_1381,Procesando...
+ScotApp_425,425unused
+ScotApp_325,Fecha ingresada no es válida
+ScotApp_225,Depósito de captura de lector de tarjetas se ha insertado
+ScotApp_1676,Puerta del Reciclador de Monedas abierta
+ScotApp_925,925unused
+ScotApp_825,Embolsar artículo
+ScotApp_1608, Depósito de rechazados está vacío     
+ScotApp_1842,Ayuda completa
+ScotApp_1808,Seleccione el artículo en el recibo.
+ScotApp_1466,Estado del reciclador de dinero – Lleno
+ScotApp_1380,precio
+ScotApp_1854,Opcional
+ScotApp_1675,Error del Reciclador de Monedas
+ScotApp_1597,Tarjeta de lealtad
+ScotApp_1350,%s\n%s %s añadido
+ScotApp_738,738unused
+ScotApp_638,Información de tolerancia WLDB vigente
+ScotApp_538,538unused
+ScotApp_338,Escriba las primeras tres letras del artículo.
+ScotApp_238,\nAceptador de efectivo no registró efectivo insertado.\n\nRevise cassette de billetes.
+ScotApp_138,Tomar la tarjeta
+ScotApp_1170,"* Abra la cubierta de la impresora y compruebe si hay algún atasco de papel en el área mostrada. \n* Retire el papel.\n* Cierre la cubierta de la impresora y vuelva a cargar el papel.\n* Si el error persiste, reinicie el terminal."
+ScotApp_1841,Por favor vaya a la caja para la aprobación
+ScotApp_1740,Verificar bolsa
+ScotApp_938,938unused
+ScotApp_838,Contrato del Cliente
+ScotApp_1133,Atasco en el aceptador de billetes.
+ScotApp_1387,Se encontró un error fatal de software. \nReinicie el terminal.\n\nPara reiniciar el terminal:\nGire la llave de cerradura del Supervisor a ‘S’ -O BIEN- oprima el botón Supervisor\n* Seleccione Reiniciar todo el sistema.\n* Llame a soporte técnico e informe del error.
+ScotApp_1674,"Presione el botón de rechazo para liberar las monedas atascadas.  Si vuelve a ocurrir el error, puede haber un atasco de monedas.  Abra la tapa de las monedas y asegúrela.  Retire las monedas atascadas.  Presione el botón de rechazo para reiniciar.  Desenganche y cierre la tapa de las monedas."
+ScotApp_1650,(ddmmaa)
+ScotApp_690,690unused
+ScotApp_590,Device Factory terminando...
+ScotApp_490,"Escanee sus artículos, o toque ""Inicio"" para empezar."
+ScotApp_390,Artículos no en venta
+ScotApp_290,290unused
+ScotApp_190,Cargando Agente de Transacciones...
+ScotApp_990,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_890,Smart Scale cargando...
+ScotApp_1772,CUPÓN
+ScotApp_1661,"No se puede imprimir recibo. Toque ""Otros recibos"" para intentar de nuevo."
+ScotApp_1132,Error de comunicación.
+ScotApp_1386,Error fatal
+ScotApp_784,Distribuidor de billetes no funciona\n* Llenar distribuidor de billetes o\n* Eliminar traba o\n* Regular cubo de purga.
+ScotApp_684,Hoy
+ScotApp_584,EBT denegado.
+ScotApp_484,Se necesita firma
+ScotApp_384,384unused
+ScotApp_284,Escáner: Datos perdidos
+ScotApp_1595,Idioma preferido
+ScotApp_1451,ID de cajero
+ScotApp_984,Correa transportadora cargada
+ScotApp_884,Cancelar suspensión
+ScotApp_1847,"Artículo añadido. Escanee el artículo siguiente o toque ""Ingrese código""."
+ScotApp_1660,Seleccionar opción de impresión
+ScotApp_1131,El cassette de billetes está afuera o insertado indebidamente.
+ScotApp_1385,Seleccionar idioma
+ScotApp_1436,"Se ha excedido el umbral de ""Omitir embolsado"""
+ScotApp_1049,1049unused
+ScotApp_666,666unused
+ScotApp_1594,Apague y reinicialice debidamente el terminal.
+ScotApp_466,   Artículo escaneado desconocido
+ScotApp_366,Impresora - atasco de cuchilla
+ScotApp_266,Agente de seg. terminando...
+ScotApp_966,966unused
+ScotApp_1541,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1846,"Escanear artículo o tocar ""Ingrese código""."
+ScotApp_1667,Atasco de billetes
+ScotApp_1689,Error del Reciclador de Billetes
+ScotApp_745,745unused
+ScotApp_645,Vuelva a colocar artículo escaneado en el área de embolsado.
+ScotApp_1581,Expendedor de monedas
+ScotApp_445,Beneficio en efectivo
+ScotApp_345,345unused
+ScotApp_245,Lector de tarjetas - dispositivo no funciona
+ScotApp_145,145unused
+ScotApp_945,Límite\Bolsa/Caja
+ScotApp_713,713unused
+ScotApp_613,Colocar el artículo en la balanza de bolsas.
+ScotApp_513,513unused
+ScotApp_313,313unused
+ScotApp_213,213unused
+ScotApp_113,Cancelar artículos
+ScotApp_1573,"Toque el botón ""Cargar"" para reabastecer. Para descargar, toque los botones ""Recoger del Aceptador"" y ""Recoger del Expendedor""."
+ScotApp_913,Artículo imprevisto en balanza de seguridad.
+ScotApp_813,"Escriba  No. de Orden de Compra / Nombre de proyecto y toque ""Ingresar""."
+ScotApp_1666,Error del Reciclador de Billetes
+ScotApp_1137,Cassette de billetes %s no instalado.
+ScotApp_1580,Expendedor de billetes
+ScotApp_758,758unused
+ScotApp_658,baja reserva de dinero
+ScotApp_558,Artículo de cantidad restringida
+ScotApp_1653,La cantidad excede la capacidad. La cantidad máxima necesaria es %s. Cantidad de %s se ha ingresado automáticamente.
+ScotApp_358,Regresar a modo de asistencia
+ScotApp_258,Agente de Transacciones terminando...
+ScotApp_158,Este artículo necesita autorización de la tienda.  Por favor continúe.
+ScotApp_1844,Buscar
+ScotApp_958,Balanza de bolsas
+ScotApp_858,Sí
+ScotApp_1136,Depósito de billetes rechazados está afuera o no está bien enganchado.
+ScotApp_1587,¿Está seguro de que desea ignorar los cambios en la pantalla de Administración de Billetes?
+ScotApp_1531,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1599,Falló búsqueda de preferencia de %s.
+ScotApp_1652,(aammdd)
+ScotApp_1123,"* NO continúe sin antes retirar todos los billetes atascados.\n* Cuidadosamente saque el expendedor de billetes de la unidad.\n* Retire los billetes atascados encima del expendedor de billetes sin tocar las correas.\n* Empuje el expendedor de billetes hacia dentro de la unidad.\n* Enganche la puerta y luego toque ""Corregí el problema""."
+ScotApp_1342,Seleccionar utilidad
+ScotApp_1332,Espacio
+ScotApp_1586,%s    %s  %s
+ScotApp_1444,Retirar
+ScotApp_1598,Preferencias activadas.
+ScotApp_1651,(aaaammdd)
+ScotApp_1122,Puede haber un billete atascado en la salida del expendedor de billetes.\n\nSaque parcialmente el expendedor de billetes del gabinete.\n\nRetire los billetes atascados del área indicada.\nReinserte cuidadosamente el expendedor de billetes en el gabinete.
+ScotApp_1331,¿
+ScotApp_1585,Compartimientos   Valor  Cambio de valor
+ScotApp_1118,Problema al expender billetes de %s.\n\nbilletes de %s no se pudieron extraer del cassette de billetes.\n\nRetire el cassette de billetes de %s y revise el estado de los billetes.
+ScotApp_1884,Alerta de Smart Assist
+ScotApp_1191,SE NECESITA MEDIDA
+ScotApp_1121,Puede haber un billete atascado en el área indicada.\n\nSaque parcialmente el expendedor de billetes del gabinete.\n\nRetire los billetes atascados.\n\nReinserte el expendedor de billetes cuidadosamente en el gabinete.
+ScotApp_503,503unused
+ScotApp_403,403unused
+ScotApp_1849,
+ScotApp_1330,Artículo no embolsado
+ScotApp_1355,Su saldo
+ScotApp_1584,Compartimientos   Número    Cambio en el\n                                  conteo
+ScotApp_465,%s               %s
+ScotApp_365,Impresora - atasco de cabezal
+ScotApp_265,265unused
+ScotApp_965,965unused
+ScotApp_633,Firma:
+ScotApp_433,433unused
+ScotApp_333,Lector de tarjetas error de atasco en apertura
+ScotApp_233,Verifique que el aceptador de billetes esté instalado correctamente.\n\nTire del mango para liberarlo y deslice el aceptador de billetes hacia delante.\n\nEmpuje el aceptador de billetes hacia dentro de nuevo hasta que se detenga.
+ScotApp_133,133unused
+ScotApp_1120,Puede haber un atasco de billetes delante del cassette de billetes de %s.\n\nRetire el cassette de %s y vea si hay un atasco de billetes en esta área.\n\nRetire los billetes atascados si fuera posible y reinserte el cassette de billetes.
+ScotApp_1805,Salir del Modo sólo dinero
+ScotApp_933,Discrepancia de peso
+ScotApp_833,833unused
+ScotApp_1337,Salir de NCR SelfServ Checkout
+ScotApp_1780,INICIAR TRANSACCIÓN
+ScotApp_712,712unused
+ScotApp_612,Agregar peso
+ScotApp_512,Validaciones visuales
+ScotApp_312,depósito está atascado
+ScotApp_212,212unused
+ScotApp_112,Confirmar cantidad
+ScotApp_1081,Mostrar\nTodos los carriles
+ScotApp_778,778unused
+ScotApp_678,678unused
+ScotApp_578,Fin de pago con tarjeta. Cambio adeudado.
+ScotApp_478,Deposite los cupones.
+ScotApp_378,Impresora de recibos
+ScotApp_278,Registro de seguridad
+ScotApp_1127,Reconectar
+ScotApp_1802,Aceptar sólo tarjetas
+ScotApp_978,Umbral = %d
+ScotApp_878,Ingrese el precio.
+ScotApp_1533,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1787,"Ingrese el número de bolsas de plástico que usó o ""0"" si no se usaron bolsas."
+ScotApp_1799,Modo sólo tarjetas
+ScotApp_1309,* Inserte el cassette hasta que enganche.\n* Verifique que el motor del aceptador de billetes se encienda brevemente.
+ScotApp_1323,El peso queda en la
+ScotApp_1079,Vuelva a colocar artículo escaneado en la correa.
+ScotApp_1382,(SD)
+ScotApp_1532,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1786,Cargo por bolsa de plástico
+ScotApp_1094,Imprimir firmas
+ScotApp_1113,%s @ %s/%s\t%s
+ScotApp_1798,Modo sólo dinero
+ScotApp_1322,Error del sensor de cupones.\nFalla de comunicación.
+ScotApp_1078,Seleccione la expectativa de peso. (Cliente debe colocar artículo en la correa).
+ScotApp_1334,  Artículo no está en la correa
+ScotApp_1785,El registro no es válido. Por favor regístrese de nuevo usando el teclado o su huella dactilar.
+ScotApp_1046,Por favor lleve %s al cajero en la estación de pago.
+ScotApp_1696,Situación corregida
+ScotApp_1112,%s @ %s %s/%s\t%s
+ScotApp_1158,Error del dispositivo de teclado del PIN / EFT
+ScotApp_1065,1065unused
+ScotApp_1321,Fin de pago con comprobante. Saldo pendiente.
+ScotApp_764,764unused
+ScotApp_1530,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1784,ARTÍCULO MULTIPACK
+ScotApp_1070,1070unused
+ScotApp_49,49unused
+ScotApp_1111,  Cant. %s @ %s/%s\t%s
+ScotApp_753,Ayer por horas
+ScotApp_653,"Ingrese el valor del cupón en centavos y toque ""Ingresar"""
+ScotApp_453,Aceptador de monedas status lleno
+ScotApp_353,Regresar
+ScotApp_253,253unused
+ScotApp_153,153unused
+ScotApp_1320,Empezar pago con comprobante.
+ScotApp_953,"Cierre y reinicie el terminal:\n* Gire la llave del Supervisor a ‘S’, o presione el botón Supervisor.\n* Seleccione ""Ejecute ADD en la Siguiente Reinicialización"". Seleccione ""Sí"" para confirmar.\n* Seleccione ""Apagar todo el sistema"".\n* Cuando la pantalla se ponga en blanco, apague el terminal desde el UPS o tomacorriente múltiple.\n* Encienda el terminal. Verifique el visor de eventos. Si el error se repite, llame a servicio técnico."
+ScotApp_853,Cuatro artículos
+ScotApp_1845,Recibo
+ScotApp_1537,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_732,732unused
+ScotApp_632,632unused
+ScotApp_532,Artículo restringido
+ScotApp_432,EBT
+ScotApp_332,Dejando modo de asistencia.
+ScotApp_232,* Retire el aceptador de billetes y el cassette.\n* Revise si hay atascos en el cassette.\n* Abra las puertas de acceso encima del aceptador y revise si hay atascos de billetes.\n* Cierre firmemente las puertas de acceso.\n* Vuelva a insertar el aceptador y el cassette.
+ScotApp_132,132unused
+ScotApp_1110,  Cant. %s @ %s/cada uno\t%s
+ScotApp_1242,DÉBITO
+ScotApp_1285,Populares
+ScotApp_932,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_832,832unused
+ScotApp_1327,"Toque el informe deseado, luego toque ""Ejecutar informe""."
+ScotApp_711,711unused
+ScotApp_611,Seleccionar la función deseada.
+ScotApp_511,Comparar la firma del cliente con la de la tarjeta.
+ScotApp_411,Tomar tarjeta de lealtad
+ScotApp_311,depósito está vacío
+ScotApp_111,Recalibrar balanza
+ScotApp_1789,CUPÓN
+ScotApp_1536,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_911,Eliminar protección
+ScotApp_811,Escanee su tarjeta de regalo. Por favor revise si hay más artículos en su canasta.
+ScotApp_1628,Error de CPU
+ScotApp_1523,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1349,%s\n %s\n%s %s esperado\n%s %s observado
+ScotApp_1892,Análisis de seguridad
+ScotApp_1279,CHEQUE
+ScotApp_1535,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1057,1057unused
+ScotApp_1441,Administración de monedas
+ScotApp_1313,* Revise si la impresora tiene atascos de papel.\n* Recargue el papel.\n* Apague y reinicialice debidamente el terminal.
+ScotApp_1681,Error del Reciclador de Billetes
+ScotApp_1069,1069unused
+ScotApp_1325,Colocar artículo en la balanza.
+ScotApp_1278,USERDEFINED20
+ScotApp_1103,Anterior
+ScotApp_1534,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_1056,1056unused
+ScotApp_1312,* Retire el cassette de billetes.\n* Abra y retire los billetes.\n* Cierre y reinserte en el aceptador.\n* Verifique que el motor del aceptador de billetes se enciende y que la luz LED está verde.
+ScotApp_1265,USERDEFINED7
+ScotApp_1850,Dispositivos en error
+ScotApp_1213,DESCONOCIDO
+ScotApp_1521,Por favor consulte el manual del dispositivo para corregir el error.
+ScotApp_139,Tome su recibo
+ScotApp_1043,Use el Modo de ayuda para aceptar %s del cliente.
+ScotApp_1401,Asistencia en curso.\n\nPor favor espere...
+UnknownItemMessage,La ayuda está en camino.\n\nPonga el artículo a un lado y continúe.
+TimeRestrictedItemMessage,No puede comprar este artículo en este momento. \n\nPonga el artículo a un lado y continúe.
+ItemQuantityExceededMessage,Ha excedido la cantidad permitida con este artículo.\n\nPor favor póngalo a un lado y continúe.
+WeightMismatch,Verificando el peso del artículo.\n\nPor favor espere…
+ItemQuantityExceeded,Límite de cantidad Excedido
+WaitForRemoteAssistanceTitle,Asistente remoto
+ScotApp_489,Gracias por usar NCR SelfServ Checkout.
+ScotApp_273,No escanee en este momento.\nPonga el artículo a un lado.
+ScotApp_431,Tarjeta de lealtad no válida. Favor de verificar.
+ScotApp_410,Se necesita asistencia para:
+ScotApp_1739,"Por favor espere a un asistente.\nEl sistema no pudo verificar sus bolsas.\nSi ha colocado accidentalmente alguna otra cosa que no sea una bolsa en el área de embolsado, por favor retírela ahora."
+ScotApp_73,Regresar a Modo de compras
+ScotApp_772,Se solicitó suspender la operación en curso.\nPor favor confirme o cancele esta solicitud.
+ScotApp_530,Error al leer tarjeta.\nUse una tarjeta diferente.\n   -o-\nPague en efectivo.\n   -o-\nPida ayuda.
+ScotApp_524,Se ingresó PIN equivocado.\nVuelva a ingresar PIN en el dispositivo de pago.
+ScotApp_397,Usar el modo de asistencia para vender los artículos válidos.\nReunir los otros artículos que no se deben vender.
+ScotApp_171,"""%s""\n\n¿Es correcto %d?"
+ScotApp_1374,\n---------------------------------------\n
+ScotApp_1646,Se ha suspendido la transacción. Ponga los artículos a un lado.
+ScotApp_495,Ha excedido la cantidad permitida con este artículo.\n\nPor favor póngalo a un lado y continúe.
+ScotApp_529,"Retire la tarjeta, luego....\nIntroduzca una tarjeta diferente.\n   -o-\nPague en efectivo.\n   -o-\nPida ayuda."
+ScotApp_275,No introduzca tarjetas de crédito en este momento.\nTome su tarjeta.
+ScotApp_1891,Verificación por el sistema en curso. \nPor favor espere...
+ScotApp_1750,Por favor espere mientras procesamos su huella dactilar.
+ScotApp_169,¿Desea continuar con su compra?
+ScotApp_415,Tome su tarjeta de lealtad.\nYa se introdujo la tarjeta antes.
+ScotApp_1793,Esta máquina sólo acepta tarjetas de crédito y débito en este momento.\n¿Desea continuar?
+ScotApp_477,Deposite sus cupones.\nDespués que se imprima su recibo:\n--Recoja sus artículos.\n--Lleve el recibo y los cupones a la estación de pago.
+ScotApp_177,Compra cancelada. Poner todos los articulos a un lado.
+ScotApp_656,Por favor ponga el/la <%s> a un lado.\nUn asociado de la tienda lo asistirá.
+ScotApp_1709,No inserte billetes ni monedas en este momento.\nTome su dinero devuelto.\nLos billetes se entregan debajo del escáner.
+ScotApp_435,"Seleccione el tipo de beneficio.\nSi desea usar sellos para alimentos, se deben usar antes que otros beneficios."
+ScotApp_808,Llevar artículos con etiquetas de seguridad al dependiente para retirarlas.
+ScotApp_294,"Para recibir asistencia de la tienda, toque el botón ""Pedir ayuda""."
+ScotApp_1287,Por favor espere ...\nRevisando peso de artículo.
+ScotApp_525,"Código personal PIN equivocado.\nRetire la tarjeta, luego....\nIntroduzca una tarjeta diferente\n   -o-\nPague en efectivo"
+ScotApp_480,Por favor toque OK y luego lleve su comprobante y los artículos a la caja.
+ScotApp_1751,* Se ha excedido el peso máximo permitido.\n* Retire artículos de balanza.
+ScotApp_175,"¿Desea retirar\n""%s""\ndel recibo?"
+ScotApp_1746,El servidor de huellas dactilares no está disponible.\nPor favor intente de nuevo.
+ScotApp_1839,Por favor espere a un cajero.\nNo escanee en este momento. Ponga el artículo a un lado.
+ScotApp_501,"Por favor firme el recibo, y espere la autorización de la tienda."
+ScotApp_414,Tome su tarjeta de lealtad.\nNo se pueden aplicar los descuentos a su compra actual. Éstos se le enviarán por correo.
+ScotApp_563,Ocurrió un error al inicializar los Totales Finales.\nSe va a cerrar la aplicación ahora.
+ScotApp_263,No se puede anular el artículo antes de anular su cupón.\nAnule el cupón del artículo primero.
+ScotApp_800,"Por favor revise su canasta\n\nEscanee más artículos ahora o\nToque ""OK"" para pagar."
+ScotApp_134,Autorización en curso.\nPor favor espere.
+ScotApp_620,Ingresar tolerancia
+ScotApp_161,"%s\nUse el teclado para ingresar la cantidad y toque ""OK""."
+ScotApp_440,El saldo de su beneficio en efectivo es inferior al necesario.\n¿Desea aplicar el resto de su beneficio en efectivo de %s a esta compra?
+ScotApp_184,%s se cargará a su cuenta.
+ScotApp_274,No introduzca efectivo en este momento.\nTome su efectivo.
+ScotApp_1744,El dispositivo no reconoció su huella dactilar.\nPor favor intente de nuevo.
+ScotApp_160,El artículo se ha retirado de la venta.\nYa llega ayuda.\nPonga el artículo a un lado y continúe con su compra.
+ScotApp_1795,"O restrinja a ""Sólo tarjetas""."
+ScotApp_159,Se desconoce el precio del artículo.\nYa llega ayuda.\nPonga el artículo a un lado y continúe con su compra.
+ScotApp_458,Seleccione el tipo de beneficio.\nNo se pueden utilizar sellos para alimentos con esta compra.
+ScotApp_1329,Por favor espere ...\nRevisando peso de artículo.\nPeso doble embolsado.
+ScotApp_407,Error al leer tarjeta.\n* Intentar con tarjeta diferente\n   -o-\n* Pedir ayuda
+ScotApp_706,"Su saldo en sellos de alimentos es inferior al total de esta compra.\nToque ""OK"" para usar una forma de pago diferente."
+ScotApp_606,Borrar Registros de peso
+ScotApp_906,Por favor llévese sus artículos.
+ScotApp_705,"Su saldo en efectivo es inferior al total de esta compra.\nToque ""OK"" para usar una forma de pago diferente."
+ScotApp_605,Añadir Registro de peso
+ScotApp_405,Error al leer tarjeta.\n* Pruebe tarjeta diferente\n   -o-\n* Pague en efectivo\n   -o-\n* Pida ayuda
+ScotApp_491,Tome su tarjeta.
+ScotApp_818,Por favor espere a un cajero.\nSe necesita asistencia para:
+ScotApp_1796,"O restrinja a ""Sólo dinero"". "
+ScotApp_438,El saldo de sus sellos para alimentos es inferior al necesario.\n¿Desea aplicar el resto de su beneficio de sellos para alimentos de %s a esta compra?
+ScotApp_1596,"¿Desea guardar %s como su idioma preferido en su %s?\n Seleccione ""Sí"" o ""No""."
+ScotApp_766,%s se cargará a su cuenta.
+ScotApp_166,Ya llega ayuda.\nPor favor continúe con su compra.
+ScotApp_413,Tome su tarjeta de lealtad.\nRecibirá precios de descuento.
+ScotApp_1797,"La acción correctiva no corrigió el error.\nPor favor intente de nuevo o restrinja a ""Sólo dinero""."
+ScotApp_178,Espere la autorización de la tienda.\nSe necesita autorización:
+ScotApp_790,Su tarjeta ha sido rechazada.\nPor favor deslice un tipo de pago diferente.
+ScotApp_1794,Está máquina sólo acepta dinero en este momento. \nNo se puede procesar tarjetas de crédito o débito.\n¿Desea continuar?
+ScotApp_412,Este artículo hará que su compra exceda %s.\nPor favor pague ahora y compre artículos adicionales por separado.
+ScotApp_546,Usted no tiene edad suficiente para comprar este artículo.\nPor favor póngalo a un lado y continúe con su compra.
+ScotApp_553,Los cupones se aceptan al final de su compra.\nPor favor póngalos a un lado y continúe.
+ScotApp_211,Procesando...\nPor favor espere.
+ScotApp_1400,Asistente remoto
+ScotApp_1754,Las letras no coinciden con un artículo.
+ScotApp_1859,"¿Compra un cajón completo de %s? Seleccione ""Sí"" o ""No""."
+ScotApp_533,Usted no puede comprar este artículo en este momento.\nPor favor póngalo a un lado y continúe con su compra.
+ScotApp_1763,e=d=%5.3fkg Max %5.3f kg min %3.1f kg Nmax %4.0f
+ScotApp_1762,e=d=%4.2flb Max %4.2f lb min %3.1f lb Nmax %4.0f
+ScotApp_1764,e = d = %4.2f lb Max %4.2f lb Min %3.1f lb Nmax %4.0f
+ScotApp_1765,e = d = %5.3f kg Max %5.3f kg Min %3.1f kg Nmax %4.0f
+ScotApp_305,Elija el envase para: %s
+ScotApp_703,"Use el teclado de PIN. Toque ""Cancelar"" en el teclado de PIN para anular el pago."
+ScotApp_125,"Digite la fecha de nacimiento del cliente %s y toque ""Aprobar"""
+ScotApp_1853,"Ingrese la fecha de nacimiento del cliente %s y toque ""Ingresar""."
+ScotApp_654,La fecha debe estar en formato %s.Valor ingresado: %s
+ScotApp_560,Este sistema no acepta cupones.
+ScotApp_1788,Is %d es correcto? \n\nSe añadirá un cargo por bolsa de %s a su total.
+ScotApp_1358,El monto de %s de la tarjeta de regalo se ha aplicado a su compra.\n\nEl saldo de su tarjeta de regalo es de %s.
+ScotApp_167,El cupón no concuerda con ningún artículo comprado.\n\nNo se puede aceptar este cupón.
+ScotApp_164,El sistema no reconoce ese código de artículo.\n\nAsegure que se haya ingresado el número correcto.
+ScotApp_547,Número y contraseña de operador incorrectos.\n\nPor favor intente de nuevo.
+ScotApp_442,%s de su compra se puede pagar con sellos para alimentos.\n\n%s
+ScotApp_443,%s se cargará a su cuenta.\n\n¿Está de acuerdo?
+ScotApp_700,El artículo no se puede vender en este carril.\nEstá por llegar ayuda.\n\nPonga el artículo a un lado y continúe con su compra.
+ScotApp_165,El sistema no reconoce este artículo.\nYa llega ayuda.\n\nPonga el artículo a un lado y continúe con su compra.
+ScotApp_182,La cantidad que ha ingresado para este cupón es demasiado grande.\n\nEste sistema no puede aceptar este cupón.
+ScotApp_733,Tarjeta rechazada.\nUse otra tarjeta o pague en efectivo.
+ScotApp_812,Gracias por usar NCR SelfServ Checkout.\nPor favor lleve su tarjeta de regalo al cajero.
+ScotApp_1826,¿Le gustaría guardar sus preferencias en su tarjeta de la tienda?
+ScotApp_1852,Por favor retire el artículo cancelado del área de embolsado.
+QRCodeErrorText,QR Code Error
+ScanQRCodeInstruction,Scan this code to complete\nyour Mobile shopping.
+ScotApp_1896,Transferring items from mobile cart.
+ScotApp_1897,Por favor espere...
+ScotApp_1898,Mobile Cart
+ScotApp_1899,Mobile Audit
+ScotApp_1900,Mobile Shopper Audit
+ScotApp_1901,"Touch ""OK"" then use Attendant Handset to complete audit."
+ScotApp_1902,Begin Mobile Transaction
+ScotApp_1903,End Mobile Transaction
+ScotApp_1904,%d Items Sold
+ScotApp_1905,Scan barcode to complete your Mobile checkout.
+ScotApp_1906,Mobile cart transfer is complete.
+ScotApp_1907,\nTouch Pay or add more items.
+MoveLeft,< Move
+MoveRight,Move >
+Accessibility,Accessibility
+SearchItemCodeWatermark,Enter Item Code
+ScanAndBagNoSearchKeyIn,Scan or look up item to start
+ScanLookUpKeyInItem,"Scan, look up, or key in item code to start."
+LookUpKeyInItem,Look up or Key in Item
+ScanOrKeyInItem,Scan or Key in Item
+XM_ProcessingCashTextV6HW,•   Insert coins in Coin Acceptor.\n•   Insert notes in Note Acceptor.\n
+XM_CoinHoppersV6HW,Coin Hoppers
+XM_CoinBoxV6HW,Coin Box - %d - %s
+XM_ConfirmTransferNotesToBaseLevelV6HW,Transfer Notes to Note Box\n\nAmount to transfer: %s\nCount to transfer: %d\n\nThe transferring process may take several minutes.
+XM_ConfirmTransferAllNotesV6HW,Transfer All Notes to Note Box\n\nAmount to transfer: %s\nCount to transfer: %d\n\nThe transferring process may take several minutes.
+XM_ResetCoinsAllCoinsV6HW,Dispense All Coins
+XM_ResetCoinHopperCountsV6HW,Reset Coin Hopper Counts
+XM_ResetNoteBoxCountsV6HW,Reset Note Box Count
+XM_MenuNoteBoxTransferV6HW,Note Box Transfers
+XM_AddCashLeadthruV6HW,"•   Insert coins in Coin Acceptor.\n•   Insert notes in Note Acceptor.\n•   Touch ""Enable Coin Refill Chute"" to add coins in refill chute.\n•   Touch ""Setup Loader"" to add notes in loader."
+XM_FinishedAddingCashV6HW,"When finished adding cash, touch ""OK""."
+XM_OKV6HW,OK
+XM_SetupLoaderV6HW,Setup Loader
+XM_MenuSetupLoaderV6HW,Setup Loader
+XM_SetupLoaderLeadthruV6HW,"•   Enter ""%s"" default denomination amount/count for the \n     loader and touch ""OK"".\n•   When finished, ""Apply Changes""."
+XM_SetupLoaderNotEmptyV6HW,"\nWhen swapping loaders, because the current loader\ncount is greater than zero, manually remove the notes from the current loader and add the notes to the new loader."
+XM_NoteLoaderV6HW,Note Loader
+XM_EnableCoinInputBowlV6HW,Enable Coin Input Bowl
+XM_EnableCoinRefillChuteV6HW,Enable Coin Refill Chute
+XM_EnableCoinAcceptorV6HW,Enable Coin Acceptor
+XM_TopOffCashPrintStatusV6HW,Top-Off Cash or Print Status
+XM_TransferOperationPreemptiveV6HW,Note transfer in progress... please wait.\n\nDO NOT REMOVE NOTE BOX or   \nother devices until operation is complete.
+XM_TransferOperationInstructionV6HW,Transfer Complete.\nRemove all notes from Note Box and\n Reset Note Box.
+XM_PendingDispenseV6HW,Pending dispense %d - %s
+XM_PendingTransferV6HW,Pending transfer %d - %s
+XM_PendingResetV6HW,Pending reset %d - %s
+XM_ConfirmResetNoteBoxV6HW,Reset Note Box Counts/Value\n\nAmount to Reset: %s\nCount to Reset: %d\n\nAmount after reset note box: £0\nCount after reset note box: 0
+XM_PendingCashRemoveV6HW,"Open safe door, remove Note Box and all notes.\nReplace empty Note Box.\n\nWhen complete, touch ""OK""."
+XM_LeadThruResetNoteBoxFunctionV6HW,"Reset Functions\n•   Reset Note Box Count to zero.\n•   When finished, ""Apply Changes""."
+XM_AllV6HW,All
+XM_LeadThruTransferNotesToNoteBoxFunctionV6HW,"Note Box Transfers\n•   To transfer notes, touch ""Apply Changes"".\n•   To cancel, touch ""Cancel Changes""."
+XM_ReplenishNotesFromLoaderToRecyclersPreemptiveV6HW,Loading in progress... please wait.
+XM_SetupLoaderAlertConfirmationV6HW,"Setup Loader\n\nEnsure loader has correct values and is inserted, then\n touch ""OK"" to load notes."
+XM_SetupLoaderAlertConfirmation1V6HW,"Setup Loader\n\nAdd notes to loader, ensure loader is inserted, then touch ""OK"" to load notes."
+XM_SetupLoaderConfirmationV6HW,Setup Loader\n\n%s notes Status in loader:\n\nOriginal / Starting Amount: %s\nOriginal / Starting Count: %d\nAmount to Add to Loader: %s\nCount to Add to Loader: %d\n\nPlace notes that are not designated as float or dispense on the bottom of the loader.  Notes on the bottom of loader will be automatically counted and loaded until the loader denomination is reached.\n\nThe loading process may take several minutes.
+XM_SetupLoaderConfirmation1V6HW,Setup Loader\n\nAll loader notes will automatically be\nloaded and counted.\n\nThe loading process may take several minutes.
+XM_PendingNotesAddedV6HW,Default notes added %d - %s
+XM_ProcessingCashV6HW,Processing Cash
+XM_ProcessingCashLeadThruV6HW,•   Insert coins in Coin Acceptor.\n•   Insert notes in Note Acceptor.
+XM_SetupLoaderLeadThru1V6HW,"•   To add notes to loader, touch ""Apply Changes"".\n•   To cancel, touch ""Cancel Changes""."
+XM_LeadThruDispenseFunctionV6HW,Dispense Functions\n•   Enter amount/count for %s notes using keypad.
+XM_LeadThruDispenseFunction1V6HW,"Dispense Functions\n•   To dispense coins, touch ""Apply Changes"".\n•   To cancel, touch ""Cancel Changes""."
+XM_ConfirmCoinDispenseAllV6HW,Dispense All Coins\n\nAmount to Dispense: %s\nCount to Dispense: %d
+XM_DispenseOperationPreemptiveV6HW,"Dispensing coins in progress.\n\nRemove coins from coin bowl when full and touch ""OK""."
+XM_ConfirmCoinDispenseToBaseLevelV6HW,Dispense Coins to Base Level\n\nAmount to Dispense: %s\nCount to Dispense: %d
+XM_LeadThruResetCoinHopperFunctionV6HW,"Reset Functions\n•   Reset Coin Hopper Counts to zero.\n•   When finished, ""Apply Changes""."
+XM_ResetCoinHopperLeadThruV6HW,"Remove coins from coin hoppers. Replace\nempty coin hoppers.\n\nWhen complete, touch ""OK""."
+XM_LoaderCountEnteredExceededCapacityV6HW,The loader count entered exceeds capacity. Maximum loader count allowed is %d.
+XM_CoinHopperPendingResetV6HW,Pending reset %d - %s
+XM_ConfirmResetCoinHopperV6HW,Reset Coin Hopper Counts / Value\n
+XM_ConfirmResetCoinHopper1V6HW,\n%s\nReset Amount: %s Count: %d\n
+XM_ConfirmResetCoinHopper2V6HW,\nAfter Reset:\nCoins in Hopper: %s Count: %d\nCoins in Coin Box: %s Count: %d
+XM_SignSigTouchDisplayV6HW,Please sign signature on the touch display.
+XM_LeadThruCashManagementErrorV6HW,Cash Management Error
+XM_LoanPickupUpdateFailureV6HW,Cash management update failed
+XM_LoanPickupUpdateNoResponseV6HW,No Response from POS when updating Cash management status
+XM_LoanPickupUpdateFailureInstructionV6HW,"\n•   Touch 'Retry' to update.\n•   If error recurs, contact store management.\n•   This error will not clear until a successful update is performed."
+XM_LoanPickupUpdateNoResponseInstructionV6HW,•   Report this error immediately to store management.\n•   The cash management status may not have been updated.\n•   Access the Utility Functions screen.
+XM_LoanPickupUpdateNoResponseInstruction1V6HW,"•   Touch ""Generate Diagnostic Log Files"" then touch ""Shutdown Entire System"".\n•   Power the system back on.\n•   If error recurs, generate another diagnostic log file and call for service.\n"
+XM_CashManagementErrorRetryButtonV6HW,Retry
+XM_CannotCompleteTransferV6HW,Cannot complete transfer.\n The note box does not have sufficient space. Please empty the note box before performing this operation.
+XM_CashStatusLeadthruV6HW,"•   Print cash status.\n•   Insert coins in Coin Acceptor.\n•   Insert notes in Note Acceptor.\n•   Touch ""Exit"" when finished."
+XM_NonDispensableCoinsV6HW,Non-dispensable Coins
+XM_DispensableCoinsV6HW,Dispensable Coins
+XM_ConfirmNoteDispenseV6HW,Dispense Notes\n\nAmount to Dispense: %s\nCount to Dispense: %d
+XM_DispenseNoteFullPreemptiveV6HW,Please Take Notes\n\nNotes are dispensed in bunches of %d.\nDispensing will pause until all notes are taken.
+XM_NoteBoxV6HW,Note Box
+XM_NoteRecyclerV6HW,Note Recyclers
+XM_DispenseCoinsToBaseLevelV6HW,Dispense Coins\nto Base Level
+XM_TransferNotesToBaseLevelV6HW,Transfer Notes to Base Level
+XM_TransferAllNotesV6HW,Transfer All Notes
+XM_LeadThruNoteBoxTransferV6HW,"Note Box Transfers\n•   Select desired transfer function.\n•   When finished, ""Apply Changes""."
+XM_LeadThruResetFunctionV6HW,"Reset Functions\n•   Select desired reset function.\n•   When finished, ""Apply Changes""."
+XM_LeadThruDispenseFunction2V6HW,"Dispense Functions\n•   Touch note denomination and enter amount/count or select\n     function.\n•   When finished, ""Apply Changes""."
+XM_DispenseThresholdV6HW,Number entered exceeded count available to dispense.\nMaximum count was entered: %d
+RemoveItemFromProduceScale,Remove item from scale.
+RemoveItemFromProduceScaleTitle,Remove Item

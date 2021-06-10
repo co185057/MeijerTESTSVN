@@ -1,0 +1,2795 @@
+﻿AmountSaved,Beløb gemt
+Assistance,Assistance
+AssistanceComing,"Du får assistance nu, fortsæt venligst."
+Back,Gå tilbage
+BagItem,Pak denne vare.
+BagItemCart,Pak varen
+BagItemOrSkip,Pak denne vare eller vælg at springe over.
+CallForHelp,Tilkald hjælp?
+Cancel,Annullér
+CancelAll,Annullér alle
+CancelCoupons,Annullér værdiboner
+CancelPayment,Annullér betaling
+CantScanCoupon,Kan ikke scanne værdibon
+CartPay,Betal
+Change,Ændr:
+Confirm,Vil du annullere hele købet?
+ConfirmQuantity,Er {0} korrekt?
+Continue,Vil du fortsætte?
+CouponMessage,Læg værdibonerne til side for nu. Aflevér dem ved købets afslutning.
+DepositCard,Kom det brugte gavekort i værdibonsprækken.
+DepositCoupon,Aflevér værdiboner
+DepositGiftCard,Indlevér gavekort
+Disconnected,Vent venligst...
+Done,Færdig
+Due,At betale:{0}
+EditCart,Redigér vogn
+Enter,Indtast
+EnterAmount,Indtast beløb
+EnterCouponValue,"Indtast værdibonens værdi i øre og tryk på ""OK"""
+EnterId,Indtast dit ID.
+EnterPassword,Indtast dit password.
+EnterPin,Indtast PIN-kode
+EnterQuantity,Hvor mange har du?
+EnterWeight,Læg varen på vægten:
+Finish,Tak fordi du handlede hos os.
+FinishAndAdd,Færdiggør og tilføj
+GiftCard,Gavekorts restbeløb
+GoBack,Gå tilbage
+IncorrectLogin,Forkert operatørnummer og password.\n\nPrøv igen.
+InsertCash,Betal med kontanter
+InsertCoupon,Indsæt værdibon
+InvalidBarcodeScan,Læg varen til side og fortsæt \nwith your purchase.
+Item,{0} vare
+Items,{0} varer
+ItemsAddedFormat,{0} varer der skal tilføjes vognen.
+Language,Sprog
+NCRCorp,NCR Corp
+No,Nej
+OK,OK
+Or,eller
+OtherPayment,Anden betaling
+OtherPaymentMethod,Andre betalingsmetoder
+OwnBag,Egen pose
+Paid,Betalt:{0}
+PayAnotherWay,Betal på en anden måde
+PointsEarned,Optjente point
+PrintReceipt,Udskriv kvittering
+Proceed,Fortsæt
+Remove,Fjern
+RemovedItem,Jeg fjernede varen
+RestrictedItem,Begrænset vare
+ReturnToScan,Gå tilbage
+ScanAndBag,"Scan, søg eller indtast varekode for at starte."
+ScanCoupon,Scan værdiboner
+ScanGiftCard,Scan gavekort
+ScanNextItem,Scan næste vare.
+ScanVoucher,Scan værdibeviser
+SearchResultsFor,"Søgeresultater for ""{0}"""
+SearchWatermark,Indtast varenavn eller -kode
+SearchItemNameWatermark,Enter Item Name
+SearchKeyInItem,Søg eller indtast vare
+SelectCashBack,Vælg beløbet for kontanter tilbage
+SelectLanguage,Vælg et sprog
+SelectPaymentType,Vælg betalingsform
+SellBags,"Hvor mange plastikposer brugte du ?  Indtast 0, hvis du ikke brugte nogen."
+SignNeeded,Underskrift nødvendig
+SignSignature,Underskriv på underskriftspladen.
+SkipBagging,Spring pakningen over
+Space,Mellemrum
+StartScanning,Start scanning
+StoreLogin,Log på butikken
+TakeCash,Tag dine returnerede kontanter
+TakeChange,Tag imod mønter
+TakeReceipt,Tag din kvittering
+Tax,Skat
+TimeRestrictedItem,Tidsbegrænsede varer
+Total,I alt
+TouchCancel,"Tryk på ""Annullér"" på PIN-kodeblokkenfor at annullere betalingen."
+TryAgain,Prøv igen
+UnexpectedDecreaseMessage,Læg varen tilbage på pakkehylden.
+UnexpectedIncreaseMessage,Fjern varen fra pakkehylden.
+UsePinpad,Anvend PIN-kodeblok
+VoidItem,"Scan uønskede varer eller tryk på ""Fjern"" på bonen."
+Volume,Volumen
+Yes,Ja
+ItemNumberAmount,AV :  
+WeightExpected,FV :  
+WeightObserved,OV :  
+UnknownPriceMessage,Varens pris er ukendt.\nDer er hjælp på vej.\n\nLæg varen til side og fortsæt.
+SetAllItemsAsideMessage,Hele købet annulleret.\n\nLæg alle varer til side.
+ConfirmAbortMessage,"Er du sikker på, at du tømme vognen? Transaktionen bliver annulleret."
+NoKeep,"Nej, behold."
+NoReturn,"Nej, tilbage til transaktion."
+YesEmpty,"Ja, tøm vogn og slut transaktion."
+YesRemove,"Ja, fjern."
+HostOfflineMessage,Kassen er offline og systemet prøver at få forbindelse.
+LaneClosedMessage,Kassen lukket
+LoadingText,Indlæser
+VerifyBagsMessage,"Hvis du ved et uheld har anbragt noget andet end en pose i pakkeområdet, skal det fjernes nu."
+HelpOnWay,Der er hjælp på vej.  Fortsæt venligst.
+OwnBagMessage,Læg dine poser på vægten.
+UseOwnBag,Jeg bruger min egen pose
+AttendantMode,Ekspedienttilstand
+AttendantTrainingMode,Ekspedient- og oplæringstilstand
+TrainingMode,Oplæringstilstand
+ScaleBroken,"Fjern varen fra vægten og tryk på knappen ""Scale Zero"" på scanneren."
+Refunded,Tilbagebetalt:
+EnterIDMessage,"Indtast din bruger-id og tryk på ""Indtast""."
+EnterIDText,Indtast id
+EnterPasswordMessage,"Indtast dit password og tryk på ""Indtast""."
+EnterPasswordText,Indtast password
+VisualVerify,Verificér visuelt
+SingleItemAddedFormat,{0} vare der skal tilføjes vognen.
+Approved,Godkendt
+VoidItemBeforeCouponMessage,"Kan ikke annullere varen, indtil dens værdibon er annulleret. Annullér varens værdibon først."
+VerifyBags,Ekspedient vil verificere dine poser.
+CancelItems,Annullér vare
+EnterQuantityTitle,Du skal angive kvantitet
+SecUnExpectedIncreaseTitle,Pakkealarm
+WeightMismatchTitle,Hjælp nødvendig
+AssistanceNeededTitle,Hjælp nødvendig
+CheckBasketTitle,Tjek kurv
+ConfirmDebitAmountTitle,Bekræft beløbet
+DropoffCouponsTitle,Indlevér værdiboner.
+InsufficientBalanceTitle,Utilstrækkeligt restbeløb
+OperatorPasswordStateInvalidPasswordWithFPTitle,Fejl ved fingeraftrykslogin
+PurchaseCrateTitle,Køb kasse
+RestrictedItemTitle,Begrænset vare
+SecBagAreaBackupTitle,For mange varer på båndet
+SignChargeTitle,Underskriv kvittering
+TakeCardTitle,Tag dit kort
+ContinueTitle,Fortsæt?
+ApprovalNeededTitle,Du skal godkende
+IncorrectLoginTitle,Forkert tal
+RecalledItemTitle,Tilbagekaldt vare
+RemovedItemTitle,Pakkealarm
+SetAllItemsAsideTitle,Læg varerne til side
+TakeLoyaltyCardTitle,Tag kundekort
+UnknownPriceTitle,Ukendt pris
+ConfirmEBTAmountTitle,Bekræft beløbet
+DisconnectedTitle,Afbrudt
+ShuttingDown,Lukker ned
+NoneText,Ingen
+SMText,Butikstilstand
+SMLogInReceiptText,Logget på Butikstilstand
+SMLogOutReceiptText,Logget ud af Butikstilstand
+WLDBOffLineText,Vægtdatabase: Off-line
+OperatorIDText,Operatør-ID:
+SignOnButtonText,Log på
+SignOffButtonText,Log af
+AlertText,Alarmer:
+SuspendInProgressText,Suspendér i gang
+SuspendLeadthru1,Der blev modtaget en anmodning om at suspendere den aktuelle transaktion. \nBekræft eller annullér denne anmodning.
+SuspendLeadthru2,"Du har suspenderet den aktuelle transaktion.  Bekræft denne anmodning.  For at annullere, tryk på ""Gå tilbage"" og annullér fra NCR SelfServ Checkout-terminalen."
+ReceiptText,Kvittering:
+SuspendReasonText1,Suspendér: Generelt
+CancelSuspendButtonText,Annullér parkering
+ConfirmSuspendNowButtonText,Bekræft Suspendér \nnu
+ConfirmAllowSuspendButtonText,Bekræft Tillad suspendér
+ConfirmSuspendRequestButtonText,Bekræft Suspendér anmodning
+CancelSuspendNowButtonText,Annullér Suspendér nu
+GoBackButtonText,Gå tilbage
+CancelSuspendRequestButtonText,Annullér Suspendér anmodning
+CouponText,Værdiboner:
+SuspendReasonText2,Suspendér: Værdiboner
+CouponReceiptText,%d værdiboner i alt $%.2f
+SuspendNowButtonText,Suspendér nu
+RequestSuspendButtonText,Anmod om Suspendér
+NotConnectedText,Ikke forbundet.
+ConnectingText,Forbinder…Vent venligst
+ApprovalNeededText,Du skal godkende:
+SuspendReasonText3,Suspendér: Andet
+ClearRequestButtonText,Ryd anmodning
+ApproveButtonText,Godkend
+RestrictedItemText,Begrænsede varer:
+SuspendReasonText4,Suspendér: Begrænset
+SecurityLogText,Sikkerhed Log:
+SuspendReasonText5,Suspendér: Sikkerhed
+SignatureText,Underskrift:
+SignatureAndNameText,Underskrift: %s
+ConnectingLeadthru,Får forbindelse til NCR SelfServ Checkout…Vent venligst
+EnterIDLeadthru,Indtast id vha. tastaturet nedenfor.
+EnterPasswordLeadthru,Indtast password vha. tastaturet nedenfor.
+LoggingInLeadthru,Logger på...Vent venligst
+ApproveSecurityButtonText,Godkend Sikkerhed
+ApprovalNeededButtonText,Du skal godkende
+VerifySignatureButtonText,Verificér \nunderskrift
+AllowSuspendButtonText,Tillad parkering
+MainButtonText,Hoved
+SuspendTransactionButtonText,Parkér trans
+ApproveAndCollectButtonText,Godkend & tag imod
+ClearApprovalsButtonText,Ryd godkendelser
+BirthDateOver30ButtonText,Fødselsdato over 30
+SignAgainButtonText,Underskriv igen
+BackSpaceButtonText,Backspace
+EnterButtonText,Indtast
+LaneNumberText,Kasse nr.: %d
+RAPTitle,NCR SelfServ Checkout Fjerngodkendelsesstation
+CancelSuspendText,Annullér Afbryd
+OtherPaymentSelectedText,Anden betaling valgt
+CouponCollectionText,Modtagelse af værdibon
+PendingSuspendText,Afventer Suspendér
+SignatureApprovalText,Underskriftsgodkendelse
+LaneText,Gang
+VideoButtonText,Video
+ClearButtonText,Ryd
+QuantityButtonText,Antal
+FeesAndCustomerAgreementsTitle,Betalinger; kundeaftaler:
+FeesButtonText,Betalinger
+CustomerAgreementButtonText,Kundeaftale
+FeesAndCustomerAgreementsLeadthru,Betalinger; kundeaftaler
+TransactionSuspendedText,Transaktion Suspendér
+POSMessageText,POS-meddelelse:
+ConnectingWaitingText,"Vent venligst, får forbindelse til NCR SelfServ Checkout…"
+DateOfBirthNotNeededButtonText,Dato ikke nødvendig
+AssistModeButtonText,Assistance
+ClearSecurityButtonText,Ryd sikkerhed
+VisualApproveButtonText,Godkend visuelt
+CheckAgeTitle,Tjek kundens alder
+CouponLimitExceededTitle,Værdibons udløbsdato overskredet
+VerifyItemAndPriceTitle,Verificér vare og pris
+UnknownItemTitle,Ukendt vare sat til side
+ItemNotForSaleTitle,Vare ikke til salg
+ItemQuantityExceededTitle,Antal varer overskredet
+TimeRestrictedItemTitle,Tidsbegrænset vare
+CheckAgeLeadthru,"Indtast fødselsdato %s og tryk på ""Indtast"""
+InvalidBirthDateFormatLeadthru,Indtastede datoformat er ugyldig \nindtast igen i %s format.
+CouponLimitExceededLeadthru,"Tryk på ""Godkend"" for at kunne modtage værdibon ved kassen eller tryk på ""Godkend & tag imod og tag imod fra kunden."
+VisualApproveLeadthru,"Tryk på ""Godkend visuelt"" eller tryk på ""Assistance"" for at ændre transaktionen."
+UnknownItemLeadthru,"Tag varen ved kassen og tryk ""Ryd sikkerhed"" eller tryk ""Assistance"" for at afslutte transaktionen."
+ItemNotForSaleLeadthru,"Tag imod varen ved kassen og tryk på ""Ryd sikkerhed""."
+OffLineLaneButtonText,Offline
+ExitText,Afslut
+EnterDataLaneButtonText,Indtast Data
+AgeCheckLaneButtonText,Alderstjek
+CouponLaneButtonText,Værdibon
+VoidLaneButtonText,Tilbagefør
+VerifyItemLaneButtonText,Verificér vare
+NotFoundLaneButtonText,Ikke fundet
+NoSaleLaneButtonText,Intet salg
+QuantityLaneButtonText,Antal
+HelpLaneButtonText,Hjælp
+NoInterventionLeadthru,No Intervention is currently required.
+OffLineLeadthru,Kassen er offline og systemet prøver at få forbindelse.
+CancelRequestButtonText,Annullér anmodning
+HelpRequestTitle,Hjælp påkrævet
+SecurityLaneButtonText,Sikkerhed
+VoidLeadthru,"Tag imod tilbageført vare og tryk på ""godkend tilbageført""."
+ApproveVoidButtonText,Godkend tilbageført
+SecurityLeadthru,"Overvåg kundetransaktion mht. sikkerhed og tryk på ""Ryd sikkerhed""."
+SecurityViolationText,Sikkerhedsbrud
+OtherPaymentText,"""Anden betaling"" valgt"
+SuspendTransactionLeadthru,"Tryk på ""Afbryd trans"" for at afbryde transaktionen."
+EASText,Vare med EAS-mærke stadig aktiv
+DeactivateLeadthru,"Deaktivér vare eller fjern hårdt mærke og tryk på ""Ryd sikkerhed""."
+CompareSignatureTitle,Sammenlign underskrifter
+CompareSignatureLeadthru,"Sammenlign underskrifter og tryk på ""Godkend"" eller ""Underskriv igen""."
+EnterPriceLeadthru,"Indtast varens pris og tryk på ""Indtast""."
+UtilityButtonText,Værktøjer
+ReturnToMainButtonText,Return to Main
+GetDiagFilesButtonText,Hent diag. filer
+CouponApprovalLeadthru,"Godkend værdiboner fra kunde ved godkendelsesstationen og tryk på ""Godkend""."
+RebootSystemButtonText,Genstart hele systemet
+ShutDownSystemButtonText,Luk hele systemet ned
+LaneStatusTitle,Gangstatus
+LaneStatusLeadthru,Vælg funktion.
+AgeRestrictedText,Aldersbegrænset vare; %2d år gammel
+BirthdateEnterText,"Fødselsdato indtastet: %2d/%2d/%4d,%d år gammel"
+HelpRequestLeadthru,"Tryk på ""Annullér anmodning"" efter at have hjulpet kunden."
+TotalText,I alt:
+ItemText,Varer:
+MultimediaTrainingText,Multimedia Training
+VolumeControlButtonText,Volumenkontrol
+SecurityViolationNumText,Security Violations:
+ItemPurchasedText,Items Purchased:
+EnterPriceTitle,Prisindtastning
+CancelTransactionGenericTitle,Annullér transaktion
+CancelTransactionGenericLeadthru,"Tryk på ""Ja"" for at annullere transaktionen eller på ""Nej"" for at genoptage transaktionen."
+YesButtonText,Ja
+NoButtonText,Nej
+ConfirmSuspendTitle,Parkering:
+ConfirmSuspendLeadthru,Bekræft parkering.
+ConfirmSuspendButtonText,Bekræft parkering
+IncorrectItemWeightTitle,Forkert vægt på sikkerhedsvægten.
+IncorrectItemWeightLeadthru,"Fjern varen og tryk på ""Ryd sikkerhed"" eller tryk på ""Godkend & Opdatér vægt""."
+ApproveUpdateButtonText,Godkend & opdatér vægt
+UnexpectedIncreaseTitle,Uventet vare på sikkerhedsvægten.
+UnexpectedIncreaseLeadthru,"Gå til kassen, fjern ekstra varer og tryk på ""Ryd sikkerhed""."
+SkipBaggingBtnThresholdLeadthru,"Tjek varerne ved kassen og tryk på ""Ryd sikkerhed""."
+NewWeightItemTitle,Ingen optegnelse over varens vægt.
+NewWeightItemLeadthru,"Verificér varens vægt og tryk på ""Godkend & opdatér vægt"" eller tryk på ""Godkend/Ingen opdatering""."
+ApproveNoUpdateButtonText,Godkend/Ingen opdatering.
+BagItemTimerExpiredTitle,Forventet vægt på sikkerhedsvægten.
+TakeChangeTimerExpiredTitle,Tag imod mønter
+TakeChangeTimerExpiredBottomCaption,Timer udløbet
+PickingUpItemsTimerExpiredTitle,Varer ikke lagt tilbage på pakkehylden.
+DeviceFailureTitle,Fejlfunktion af modulet
+DeviceFailureLeadthru,Gå til kassen og tjek modulet.
+WLDBFailureTitle,Vægtindlæringsdatabasen (WLDB) kommunikerer ikke korrekt.
+WLDBFailureLeadthru,Tjek kommunikationen.
+UnexpectedDecreaseTitle,Varen er fjernet fra pakkehylden.
+ClosedLaneTitle,Gå til kassen og log på i Butikstilstand for at åbne kassen.
+ClosedLaneLeadthru,Kassen lukket
+BagAreaBackupTitle,For mange varer på båndet.
+BagAreaBackupLeadthru,Fjern nogle af varerne på båndet.
+MinimumAgeText,År gammel minimum.
+SafetyCoverOpenLeadthru,Fjern alle varer fra båndet og luk sikkerhedsdækslet.
+VerifySignatureLeadthru,Sammenlign kundens underskrift med den på kortet.
+AssistedTenderTitle,Operatørassisteret betaling
+AssistedTenderLeadthru,Anvend Assistance til at godkende en check fra kunden.
+AssistedTenderHHLeadthru,Anvend ekspedientstation for at godkende betalingen.
+AssistedEndorsementLeadthru,Godkendelse nødvendig. Vent venligst på hjælp fra operatøren.
+StartTransactionButtonText,Start transaktion
+StartTransactionTitle,Operatørassisterede funktioner
+StartTransactionLeadthru,Vælg ønskede funktion.
+StartTransactionAMButtonText,Start & assistér
+ItemsForgottenTitle,Vægt forbliver\nvægt til løsvægt.
+InsertCouponTimerExpiredTitle,Indsæt værdibon
+CollectGiftCardTitle,Tag imod gavekort
+HostOfflineLeadthru,Kassen er offline og systemet prøver at få forbindelse.
+SpaceButtonText,Mellemrum
+LaneReceiptItemType1,%s\t%s
+LaneReceiptItemType2,%s
+LaneReceiptItemType3,%s\t%s\tStk. %s à %s/each\t%s
+LaneReceiptItemType4,%s\t%s\tStk. %s à %s/%s\t%s
+LaneReceiptItemType5,%s\t%s\t%ss à %s %s/%s\t%s
+LaneReceiptItemType6,%s\t%s\t%ss à %s/%s\t%s
+CloseLaneButtonText,Luk kasse
+ReportingButtonText,Rapporterer
+KeyInCodeTitle,Tast koden ind
+KeyInCodeLeadthru,"Indtast varens kode og tryk på ""OK""."
+VoidItemButtonText,Tilbagefør vare
+ChangePriceButtonText,Prisændring
+ChangeQuantityButtonText,Ændring af antal
+ReturnToShoppingButtonText,Retur
+BasicAssistModeTitle,Assistance
+BasicAssistModeLeadthru,Scan vare eller vælg funktion.
+ChangePriceTitle,Ændr pris
+KeyInPriceLeadthru,Indtast pris for: %d %s
+VoidAllButtonText,Tilbagefør alle
+VoidItemTitle,Tilbagefør varer
+VoidItemLeadthru,"Scan eller bladr til vare på kvittering og tryk på ""Tilbagefør vare"" eller ""Tilbagefør alle""."
+ChangeQuantityTitle,Ændr antal
+KeyInQuantityLeadthru,Indtast antallet for: %s
+FullAssistButtonText,Fuld assistance
+CloseButtonText,Luk
+UpdateItemLeadthru,"Bladr til varen på kvitteringen og tryk på ""Indtast""."
+OKButtonText,OK
+CouponNoMatchLeadthru,Værdibon matcher ikke nogen vare på kvitteringen. Denne værdibon kan ikke godkendes.
+CouponTooHighLeadthru,"Beløbet, du indtastede for denne værdibon, var for højt. Dette system kan ikke godkende denne værdibon.."
+EnterCouponValueLeadthru,"Indtast værdibonens værdi i øre og tryk på ""Indtast""."
+ItemQuantityExceededLeadthru,Du har overskredet det tilladte antal for denne vare. Læg den til side og fortsæt.
+ProcessingLeadthru,Behandling i gang...vent venligst.
+VoidNoMatchLeadthru,Kan ikke finde den scannede vare. Den er endnu ikke blevet købt eller den er allerede blevet annulleret.
+ConfirmAbortLeadthru,Vil du standse processen og annullere hele købet?
+ContinueTransLeadthru,Vil du fortsætte med købet?
+ConfirmQuantityTitle,Bekræft antal
+ConfirmVoidTitle,"Bekræft, at du vil annullere købet"
+CouponNoMatchTitle,Værdibon matcher ikke
+CouponTooHighTitle,Værdibon for høj
+CrateableItemTitle,Køb kasse
+EnterCouponValueTitle,Indtast værdibons værdi
+EnterQuantityLeadthru,"Indtast antallet og tryk på ""Indtast""."
+EnterWeightTitle,Vej varen
+EnterWeightLeadthru,Gå til kassen og anbring varen på vægten.
+AMItemQuantityExceededTitle,Antalsgrænse
+ProcessingTitle,Behandling i gang...
+SelectContainerTitle,Vælg emballage
+SelectContainerLeadthru,"Vælg emballage fra listen og tryk på ""Indtast""."
+VoidNoMatchTitle,Kan ikke annullere varen
+ConfirmAbortTitle,Annullér alle varer
+ContinueTransTitle,Fortsæt?
+ScaleBrokenTitle,Nulstil vægt
+ScaleBrokenLeadthru,"Fjern varen fra vægten og tryk på knappen ""Scale Zero"" på scanneren."
+UpdateNotAllowedTitle,Kan ikke opdatere varen
+UpdateNotAllowedLeadthru,Ændring af antal for den vejede vare er ikke tilladt.
+SmEnterBirthdateTitle,Varer med begrænsning
+SmEnterBirthdateLeadthru,Indtast kundens fødselsdato
+SmVisualItemsTitle,Visuelle valideringer
+SmVisualItemsLeadthru,Godkend visuelle valideringsvarer
+SmCouponItemsTitle,Godkend brugte værdiboner
+SmCouponItemsLeadthru,Tjek brugte værdiboner
+SmRestrictedItemsTitle,Varer med begrænsning
+SmRestrictedItemsLeadthru,Vælg ønskede funktion.
+KeyInBirthDateButtonText,Indtast dato
+KeyInCodeButtonText,Indtast \nkode
+SmRunReportsTitle,Rapportér indhold
+PrintReportButtonText,Udskriv rapport
+LaneReceiptItemType7,    %s
+AM_RestrictedNotAllowedTitle,Begrænset vare
+AM_RestrictedNotAllowedLeadthru,Begrænset vare er blevet annulleret – aldersgrænse ikke opfyldt. \n\nLæg varen til side.
+TransactionCancelTitle,Annullér transaktion
+TransactionCancelLeadThru,Transaktion annulleret. Fjern varer fra \nkassen.
+OutOfSyncNeedAssistTitle,ASSIST
+OutOfSyncNeedAssistLeadthru,POS er usynkroniseret; fortsæt i Assistance for at resynkronisere.
+OutOfSyncStopTitle,GENSTART
+OutOfSyncStopLeadthru,POS-serveren er nede eller usynkroniseret; luk terminalen ned vha. kontakten.
+MultiPackItemTitle,Tjek vedr. multipakke
+MultiPackItemLeadthru,"Hvis varen er en multipakke, skal du trykke på ""Assistance"" og tilbageføre den og dernæst scanne multipakkestregkoden."
+CancelActionButtonText,Annullér handling
+EnterIDFpLeadthru,"Indtast din bruger-id og tryk på ""Indtast"" eller anbring din finger på fingeraftrykslæseren for at logge på."
+ReEnterIDFpLeadthru,Ugyldigt login. Log venligst på igen vha. tastaturet eller dit fingeraftryk.
+HH_SuspendLeadthru1,Suspend current transaction? Confirm or Cancel.
+HH_SuspendLeadthru2,"Current transaction suspended. Confirm. To cancel, touch ""Gå tilbage"" and cancel."
+HH_ReEnterIDLeadthru,Forkert ID eller password. Indtast igen på tastaturet.
+HH_CheckAgeLeadthru,"Indtast fødselsdato %s og tryk på ""Indtast"""
+HH_CouponLimitExceededLeadthru,"""Godkend"" for værdiboner ved kassen eller ""Godkend & tag imod"" for at tage imod fra kunden."
+HH_VisualApproveLeadthru,"""Godkend visuelt"" eller ""Assist Mode"" for at ændre transaktionen."
+HH_VisualApproveLeadthru2,"""Godkend visuelt"" eller ""Assist Mode"" at Lane to modify."
+HH_UnknownItemLeadthru,"Tag imod varen, ""Ryd sikkerhed"" eller ""Assist Mode"" for at afslutte."
+HH_UnknownItemLeadthru2,"Tag imod varen, ""Ryd sikkerhed"" eller use ""Assist Mode"" at Lane to complete."
+HH_ItemNotForSaleLeadthru,"Tag imod varen ved kassen og ""Ryd sikkerhed""."
+HH_NoInterventionLeadthru,Ingen indgriben er nødvendig.
+HH_OffLineLeadthru,Kassen er offline. Systemet prøver at få forbindelse.
+HH_InvalidBirthDateFormatLeadthru,Datoformat er ugyldig \nIndtast i %s format.
+HH_VoidLeadthru,"Tag imod tilbageført vare og ""Godkend tilbageført""."
+HH_SuspendTransactionLeadthru,"Tryk på ""Parkér trans"" for at parkér transaktionen."
+HH_DeactivateLeadthru,"Deaktivér vare eller fjern hårdt mærke og tryk på ""Ryd sikkerhed""."
+HH_CompareSignatureLeadthru,"Sammenlign underskrifter og ""Godkend"" eller ""Underskriv igen""."
+HH_EnterPriceLeadthru,"Indtast varens pris og ""Indtast""."
+HH_CouponApprovalLeadthru,"Godkend værdiboner fra kunde og ""Godkend""."
+HH_HelpRequestLeadthru,"""Annullér anmodning"" efter at have hjulpet kunden."
+HH_CancelTransactionGenericLeadthru,"""Ja"" for at annullere transaktionen eller ""Nej"" for at genoptage."
+HH_IncorrectItemWeightLeadthru,"Fjern varen og ""Ryd sikkerhed"" eller ""Godkend & Opdatér vægt""."
+HH_UnexpectedIncreaseLeadthru,"Fjern ekstra varer ved kassen og ""Ryd sikkerhed""."
+HH_SkipBaggingBtnThresholdLeadthru,"Tjek varerne ved kassen og ""Ryd sikkerhed""."
+HH_NewWeightItemLeadthru,"Verificér varens vægt og tryk på ""Godkend opdatér vægt"" eller tryk på ""Godkend/Ingen opdatering""."
+HH_SafetyCoverOpenLeadthru,Fjern alle varer fra båndet og luk sikkerhedsdækslet.
+HH_VerifySignatureLeadthru,Sammenlign kundens underskrift med den på kortet.
+HH_AssistedEndorsementLeadthru,Godkendelse nødvendig. Vent på hjælp fra operatøren.
+HH_HostOfflineLeadthru,Kassen er offline. Systemet prøver at få forbindelse.
+HH_KeyInCodeLeadthru,"Indtast varens kode og ""Indtast""."
+HH_VoidItemLeadthru,"Scan eller bladr til vare på kvittering og tryk på ""Tilbagefør vare"" eller ""Tilbagefør alle""."
+HH_UpdateItemLeadthru,"Bladr til varen på kvitteringen og tryk på ""Indtast""."
+HH_CouponNoMatchLeadthru,Værdibon matcher ikke nogen vare på kvitteringen. Denne værdibon kan ikke godkendes.
+HH_CouponTooHighLeadthru,Værdibons beløb for højt. System kan ikke acceptere det.
+HH_ItemQuantityExceededLeadthru,Tilladte antal overskredet. \n\nLæg varen til side og fortsæt.
+HH_VoidNoMatchLeadthru,Kan ikke finde den scannede vare. Varen blev ikke købt eller blev annulleret.
+HH_ConfirmAbortLeadthru,Vil du standse processen og annullere hele købet?
+HH_ContinueTransLeadthru,Fortsæt med dit køb?
+HH_EnterQuantityLeadthru,"Indtast antallet og ""Indtast""."
+HH_SelectContainerLeadthru,"Vælg emballage fra listen og ""Indtast""."
+HH_ScaleBrokenLeadthru,"Fjern varen fra vægten og tryk på ""Scale Zero"" på scanneren."
+HH_UpdateNotAllowedLeadthru,Ændring af antallet ikke tilladt.
+HH_AM_RestrictedNotAllowedLeadthru,Begrænset vare annulleret – aldersgrænse ikke opfyldt. Læg varen til side.
+HH_OutOfSyncNeedAssistLeadthru,"POS usynkroniseret, ""Assistance"" for at resynkronisere."
+HH_OutOfSyncStopLeadthru,POS-serveren nede eller usynkroniseret; luk terminalen ned vha. kontakten.
+HH_MultiPackItemLeadthru,"Hvis multipakke, ""Assistance"", annullér, og scan dernæst multipakkestregkoden."
+HH_ReturnToShoppingButtonText,Retur
+DoneButtonText,Færdig
+ConfirmSuspendFromLaneStatusLeadthruText,Bekræft eller annullér parkering.
+HH_SuspendTransactionButtonText,Parkér trans
+HH_TransactionCancelTitle,Annullér transaktion
+HH_TransactionCancelLeadThru,Transaktion annulleret. Fjern varer fra kassen.
+ShiftButtonText,Shift
+FixLaterButtonText,Reparér senere
+HopperLaneButtonText,Møntsubstitution 
+HopperLeadThru,"%sGå til kassen og påfyld mønter eller ryd blokering eller tryk på ""Reparér senere"" for at fortsætte."
+TransactionCountText,Optælling:
+SecurityDisableText,Sikkerhed deaktiveret 
+SecurityDisableButtonOn,Tænd
+SecurityDisableButtonOff,Sluk
+SecurityDisableStatusTextOn,Pakningssikkerhed er aktiveret
+SecurityDisableStatusTextOff,Pakningssikkerhed er deaktiveret
+SuspendDeclinedLaneButtonText,Afbryd afvist
+ConfirmSuspendDeclinedLeadthru,Bekræft eller annullér Afbrydelsesafvisning.
+ConfirmSuspendDeclinedButtonText,Bekræft afvisning
+CancelSuspendDeclinedButtonText,Gå tilbage
+TMTransLeadthru,"Kasse befinder sig i træningstilstand, skal transaktionen fortsættes?"
+HH_TMTransLeadthru,"Kasse befinder sig i træningstilstand,\nskal transaktionen fortsættes?"
+TMTransLaneButtonText,Træningstrans
+DateFormat1,(mmddåååå)
+DateFormat2,(mmddåå)
+DateFormat3,(ddmmåååå)
+DateFormat4,(ddmmåå)
+DateFormat5,(ååååmmdd)
+DateFormat6,(ååmmdd)
+GoBackCouponButtonText,Gå tilbage
+ApproveCouponButtonText,Godkend Coupon
+CouponExceededLimitLeadthru,"Tryk ""Godkend Coupon"" for at acceptere couponen eller skift til hjælpemodus for at afvise den."
+CouponExceededLimitFinalizationLeadthru,Transaktionen gennemført med coupon over forretningens coupon limit.
+ClearSecurityFinalizationButtonText,Ryd sikkerhed
+ExpandReceiptButtonText,Udvid kvittering
+CollapseReceiptButtonText,Luk kvittering sammen
+InvalidBarcodeLeadThru,"Hent vare ved kasse og berør ""Godkend"" for at fortsætte transaktion."
+InvalidBarcodeLaneButtonText,Bekræft vare
+HH_InvalidBarcodeLeadThru,"Hent vare, berør ""Godkend"" for at fortsætte transaktion."
+GoToLaneOrHHRapLeadthru, Please go to Lane or HHRap for approval
+GoToLaneOrRapLeadthru, Please go to Lane or Rap for approval
+GoToLaneLeadthru, Gå hen til kassen for godkendelse
+DisableRapApprovalText, Deaktivér FKP godkendelse
+DisableHHRapApprovalText, Deaktivér HHFKP godkendelse
+UpdateItemButtonText,Opdatér vare
+SuspendConfirmationTitle,Bekræftelse af parkering
+DoNotApproveButtonText,Godkend ikke
+SmVoidAndRemoveItemLeadthru,Fjern den annullerede vare fra pakkehylden.
+RestrictedItemsNotApprovedTitle,Begrænsede varer - Ikke godkendte
+HH_AssistAtLaneLeadthru,Gå til kassen for at tilbageføre varer.
+XM_Acceptor,Acceptor
+XM_CashStatus,Kontantbeholdning
+XM_CashStatusLeadthru,Vælg den ønskede funktion.
+XM_CoinAcceptor,møntntacceptor
+XM_CoinOverflow,Møntoverløb
+XM_CoinOverflowText,Overløb
+XM_CoinRecycler,Møntgenbrugsmodul
+XM_Coins,Mønter
+XM_NoteOverflow,Seddeloverløb
+XM_NoteOverflowText,Pengeboks
+XM_NoteRecycler,Seddelgenbrugsmodul
+XM_Notes,Sedler
+XM_PurgeOperationText,Tømmefunktioner
+XM_TerminalNumber,Terminalnummer
+XM_TotalCount,Samlet optælling:
+XM_TotalValue,Samlet værdi:
+XM_CoinsSubtotal,Mønter subtotal:
+XM_NotesSubtotal,Sedler subtotal:
+XM_GrandTotal,Samlet sum:
+XM_PurgeInstruction,Tømmefunktioner: Afviste sedler opdaget. Gå til kassen og tjek modulet.
+XM_RAP_NegativeAlert,Negative number found. Gå til kassen og tjek modulet.
+XM_AreYouSure,"Er du sikker på at du vil udføre handlingerne, der er angivet nedenfor?"
+XM_Attendant,Expedient
+XM_Backspace,Backspace
+XM_BillAcceptor,Seddelacceptor
+XM_BillDispenser,Seddelreturmodul
+XM_Bins,Beholdere
+XM_BothDispenseFailure,Gav ikke %s retur.\nFå kontanter eller returmodul fejlbehæftet.
+XM_CancelChanges,Annullér  ændringer
+XM_CannotCompleteTransfer,Kan ikke færdiggøre overførslen. Kontantbeholderen har ikke nok plads. Tøm kontantbeholderen før du udfører denne funktion.
+XM_CashManagement,Pengehåndtering
+XM_CashManagementReport,Kontanthåndteringsrapport
+XM_CashRemove,Fjern kontanter
+XM_CashRemoveLeadthru,Vælg den ønskede funktion.
+XM_CashReplenishLeadthru,Vælg den ønskede funktion.
+XM_CashReplenishLeadthru1,Ilæg mønter eller vælg funktion.
+XM_CashReplenishLeadthru2,Ilæg kontanter eller vælg funktion.
+XM_CashReplenishLeadthru3,"Når færdig, tryk på ""Afslut""."
+XM_CashReplenishment,Tilføj kontanter
+XM_ChangeInCount,Ændr. i optæl.
+XM_ChangeInValue,Ændring i værdi
+XM_Clear,Ryd
+XM_ClearPrompt1,"Vælg en anden funktion eller ""Afslut""."
+XM_ClearPrompt2,"Vælg en anden funktion eller ""Afslut""."
+XM_CoinAcceptorOffline,Acceptor reagerer ikke.\n\nLuk ned og genstart terminalen.
+XM_CoinDispenseFailure,Gav ikke penge retur %s.\nFor få mønter eller fejl på møntreturmodulet.
+XM_CoinDispenser,Møntreturgivning
+XM_CoinManagement,Mønthåndtering
+XM_ConfirmAction,Bekræft handlinger
+XM_ConfirmCoinDispense,* Udbetal mønter\nBeløb at udbetale: %snBeløb at udbetale: %d
+XM_ConfirmEmptyCoinAcceptor,* Nulstil møntacceptormængde til nul\nBeløb at fjerne:%s
+XM_ConfirmEmptyCoinOverflow,* Nulstil møntoverløbsmængde til nul\nBeløb at fjerne:%s
+XM_ConfirmEmptyNoteAcceptor,* Nulstil seddelacceptormængder til nul\nBeløb at fjerne:%s
+XM_ConfirmEmptyNoteOverflow,* Nulstil kontantbeholdermængder til nul\nBeløb at fjerne:%s
+XM_ConfirmFillLoaderCassette,* Indstil seddelmængder\nNyt beløb: %s\nNy mængde: %d
+XM_ConfirmManualCoinEmpty,* Nulstil møntmængder til nul\nBeløb at fjerne:%s\nMængde at fjerne: %d
+XM_ConfirmManualCoinFill, * Indstil møntmængder\nNyt beløb: %s\nNy mængde: %d
+XM_ConfirmManualNoteEmpty,* Nulstil seddelmængder til nul\nBeløb at fjerne: %s\nMængde at fjerne: %d
+XM_ConfirmManualNoteFill,* Indstil seddeltællere\nNyt beløb: %s\nNy mængde: %d
+XM_ConfirmNoteDispense,* Udbetal sedler\nBeløb at udbetale: %s\nMængde at udbetale: %d
+XM_ConfirmTransferNotesToOverflow,* Overfør sedler til kontantbeholder\nBeløb at overføre: %s\nMængde at overføre: %d
+XM_Count,Optælling
+XM_DispenseCupFull,Møntreturmodul er fuld.  Fjern mønterne for at færdiggøre udbetalingen.
+XM_DispenseCupFullPreemptive,"Tag mønter\nHvis møntretur er fuld, tømmes straks. Udbetaling vil pausere, indtil skål er tom."
+XM_DispenseFullPreemptive,"Tag sedler og mønter Sedler kommer ud i bundter på 15. Udbetaling vil pausere indtil alle sedler er taget. Hvis møntretur er fuld, tømmes straks. Udbetaling vil pausere, indtil skål er tom."
+XM_DispenseNoteFullPreemptive,Tag sedler Sedler kommer ud i bundter på 15. Udbetaling vil pausere indtil alle sedler er taget.
+XM_DispenseSensorBlock,Møntretur skal være fuld eller sensor er i stykker. Fjern mønter eller ring efter service.
+XM_DispenseText,Returnering
+XM_DispenseThreshold,"Det indtastede tal overskrider antallet af sedler og mønter, der kan udbetales.  Indtastet maksimale antal: %d"
+XM_Empty,Tom
+XM_EmptyCashAcceptorLT,Fjern sedler fra kontantacceptor
+XM_EmptyCashBoxLT,Fjern sedler fra kontantbeholder
+XM_EmptyCoinAcceptor,Nulstil møntacceptor
+XM_EmptyCoinAcceptorLT,Fjern mønter fra møntacceptor
+XM_EmptyCoinHopperLT,Fjern mønter fra enheden.
+XM_EmptyCoinOverflow,Nulstil møntoverløb
+XM_EmptyCoinOverflowLT,Fjern mønter fra møntoverløb
+XM_EmptyLoaderCassetteLT,Fjern sedler fra indføringskassette
+XM_EmptyNoteAcceptor,Nulstil seddelacceptor
+XM_EmptyNoteCassetteLT,Fjern sedler fra seddelkassetter og udtømningsbeholder
+XM_EmptyNoteOverflow,Nulstil pengeboks
+XM_Enter,Indtast
+XM_ExceededAmount,Beløbet overskrider kapaciteten. Nødvendigt maksimumbeløb er %s.
+XM_ExceededCapacity,Tallet overskrider kapaciteten. Nødvendige maks. indsætningstal er %d.
+XM_Execute,Anvend  ændringer
+XM_Exit,Afslut
+XM_FastLaneReport,NCR SelfServ Checkout rapport
+XM_FillLoaderCassette,Indstil  seddeltællere
+XM_GoBack,Gå tilbage
+XM_ID,Kasseekspedient-id
+XM_IDPrompt,"Indtast id og tryk på ""Indtast""."
+XM_InvalidAmount,Den indtastede værdi for %s er ikke gyldig.\nIndtast venligst igen.
+XM_KeyPadEnterCoinAmount,Indtast beløb for %s mønter vha. tastatur.
+XM_KeyPadEnterCoinCount,Indtast antal %s mønter vha. tastatur.
+XM_KeyPadEnterNoteAmount,Indtast beløb for %s sedler vha. tastatur.
+XM_KeyPadEnterNoteCount,Indtast antal %s sedler vha. tastatur.
+XM_KeyPadInstr,Indtast mønt vha. tastatur
+XM_ManualBothFillAlert,Åbn kassedør og læg sedler i kassetterne og mønter i påfyldningstragtene. Du må ikke komme penge i acceptorerne.
+XM_ManualBothRecyclerFillAlert,Åbn kassedøren og læg sedler i kassetten og mønter i tragtene. Før dem ikke ind i mønt- og seddelacceptorer.
+XM_ManualCoinDispenserEmpty,Nulstil  mønttællere
+XM_ManualCoinDispenserFill,Indstil  mønttællere
+XM_ManualCoinFillAlert,Åbn kassedør og fyld mønter direkte i enheden. Du må ikke komme mønter i møntacceptoren.
+XM_ManualEmptyAlert,Fjern alle penge fra enheden.
+XM_ManualFillAlert,Åbn kassedør og læg penge  direkte i enheden. Du må ikke komme penge i acceptorerne.
+XM_ManualNoteDispenserEmpty,Nulstil  seddeltællere
+XM_ManualNoteDispenserFill,Indstil  seddeltællere
+XM_ManualNoteFillAlert,Åbn kassedør og læg sedlerne  direkte i kassetten. Du må ikke komme sedler i seddelacceptoren.
+XM_ManualNoteRecyclerFillAlert,Åbn kassedør og læg sedler direkte i isætningsenheden. Før dem ikke ind i seddelacceptoren.
+XM_No,Nej
+XM_NoteDispenseFailure,Gav ikke %s retur.\nFå sedler eller seddelreturmodul fejlbehæftet.
+XM_PW,Kasseekspedient password
+XM_PWPrompt,"Indtast password og tryk på ""Indtast""."
+XM_PendingText,Afventer
+XM_PleaseWait,Behandling i gang...\nVent venligst.
+XM_Print,Udskriv kontantbeholdning
+XM_PurgeCoinRecycler,Tøm møntgenbrugsmodul
+XM_PurgeNoteRecycler,Tøm seddelgenbrugsmodul
+XM_ReEnter,Forkert kasseekspedientnummer og password.\nPrøv igen
+XM_ResetCoinsToBaseLevel,Udbetal mønter til basisniveau
+XM_ResetNotesToBaseLevel,Overfør sedler til basisniveau
+XM_SelectFunc1,Vælg systemfunktion
+XM_SelectFunc2,Vælg den ønskede funktion.
+XM_StoreNumber,Butiksnr.:
+XM_TransferAllNotes,Overfør alle sedler
+XM_TransferNotesToOverflow,Overfør sedler til pengeboks
+XM_Update,Opdater
+XM_Yes,Ja
+XM_CardManagement,Korthåndtering
+XM_SequenceNumber,Sekvensnummer
+XM_TotalCoinsInserted,Indsat i alt
+XM_TotalNotesInserted,Indsat i alt
+XM_Value,Værdi
+XM_TransferXCount,Overførsel (x) Mængde
+XM_TransferXAmount,Overførsel (x) Beløb 
+XM_TransfertoCashBoxLeadThruText,"Tryk på ""Anvend ændringer"" for at overføre %s sedler til kontantbeholderen. Tryk på ""Annuller ændringer"" for at fortryde ventende ændringer."
+XM_MenuDispenseFunctions,Udbetalings-\nfunktioner
+XM_MenuResetFunctions,Nulstillings-\nfunktioner
+XM_MenuCashBoxTransfer,Kontantbh.- overførsler
+XM_LeadThruCashBoxTransfer,"Vælg ønsket overførselsfunktion. Når færdig ""Anvend ændringer""."
+XM_LeadThruResetFunction,"Vælg ønsket nulstillingsfunktion. Når færdig ""Anvend ændringer""."
+XM_LeadThruDispenseFunction,"Tryk på værdi og indtast beløb eller tryk på ""Udbetal mønter til basisniveau""."
+XM_PurgeInstructionRecycler,"Tømmefunktioner: Afviste sedler opdaget. Fjern afviste sedler fra kontantbeholder. Ryd advarsel ved at trykke på ""Overfør alle sedler"" og dernæst ""Nulstil kontantbeholder""."
+XM_PurgeInstructionNonRecycler,"Tømmefunktioner: Afviste sedler opdaget. Fjern afviste sedler fra tømmebeholder. Ryd advarsel ved at trykke på ""Nulstil  seddeltællere""."
+XM_ReplenishInstruction,"Læg kontanter i eller vælg værdi og indtast beløb eller indstil mængder. Når færdig ""Anvend ændringer""."
+XM_PickUpAutoAmount,Udtag auto-beløb
+XM_PickUpXAmount,Udtag (x) beløb
+XM_MenuPickUpFunctions,Pengeudtagningsfunktioner
+XM_LeadThruPickUpFunction,"Vælg ønsket udtagningsfunktion. Når færdig ""Anvend ændringer""."
+XM_KeyPadEnterPickUpAmount,Indtast udtagningsbeløb vha. tastatur.
+XM_InvalidPickUpAmount,"Den indtastede værdi er større end tilgængelige beløb, der kan overføres eller udbetales."
+XM_InvalidStartingBank,"Det konfigurerede startbeløb er større end tilgængelige beløb, der kan overføres eller udbetales."
+XM_CalculatedPickUpAmount,Det beregnede udtagningsbeløb er %s.
+XM_UnableToPickUp,Kan ikke udføre udtagning.
+XM_CoinAllowedDispenseExceeded,Forsøger at udbetale %d mønter. Maksimum mønter tilladt at udbetale er %d.
+XM_InvalidPickUpAmount2,Beløbet i kontantbeholderen og møntoverløb er større end udtagningsbeløbet.
+XM_LockScreen,Lås skærm
+XM_SystemBusy,System optaget… Vent venligst
+XM_AreYouSure_LockScreen,"Er du sikker på, at du ønsker at låse skærmen?\nSkærmen kan ikke låses op før modulerne er færdig med deres opgaver."
+XM_NegativeAlert,"Negativt tal fundet. Mulige årsager: Indtastningsfejl, eller sedler blev anbragt i indføringskassetten, men optællinger for disse sedler blev ikke indtastet i kontanthåndtering.\nFølg nedenstående trin for afhjælpning:\n1. Vælg Tilføj kontanter.\n2. Tryk på værdien med det negative tal.\n3. Indtast det nøjagtige kronebeløb for det negative tal og/eller beløbet i kassetten.\n4. Vælg Anvend ændringer.\n5. Vælg ""Ja"" for at bekræfte og dernæst ""Afslut""."
+XM_AddCashLeadthru1,Læg mønter i eller tryk på beholder og indtast beløb eller indstil mængde.
+XM_AddCashLeadthru2,Læg kontanter i eller tryk på beholder og indtast beløb eller indstil mængde.
+XM_AddCashLeadthru3,Tryk på beholder og indtast beløb eller indstil mængde.
+XM_CoinHopperEmpty,"Mønttragtbeholderne skal tømmes for at nulstille møntmængder til nul. Tøm hver mønttragtbeholder før der trykkes på ""Anvend ændringer""."
+XM_CollectRemainingCoins,"Fjern mønter fra møntreturmekanismen, når udbetalingen er færdig."
+XM_FPIDPrompt,"Indtast din bruger-id og tryk på ""Indtast"" eller anbring din finger på fingeraftrykslæseren for at logge på."
+XM_LoanFailure,Lånfejl
+XM_LoanFailureLeadthru,Lån blev afvist. Vælg ønskede funktion.
+XM_UndoLoan,Annullér lån
+XM_CommitLoan,Effektuér lån
+XM_PickUpFailure,Udtagningsfejl
+XM_PickUpFailureLeadthru,Udtagning blev afvist. Vælg ønskede funktion.
+XM_UndoPickUp,Annullér udtagning
+XM_CommitPickUp,Effektuér udtagning
+XM_ManualRemoveCashAlert,"Fjern kontanter fra kontantbeholder og mønter fra møntbeholderen for at annullere lån.\n\nSedler\nTæl og fjern: %d\nBeløb, der skal fjernes: %s\n\nMønter\nTæl og fjern: %d\nBeløb, der skal fjernes: %s"
+XM_POSRejectedLoanPickUp,POS afviste lån/udtagning:  %s / %d  afvist.\n
+XM_LoanPickUpCashierOverrides,Kasseekspedients ID %s omgåelse af lån/udtagning: %s / %d  disponeret.\n\n
+XM_PlaceJammedBill,Fjern kontantbeholderen og anbring eventuelle fastsiddende sedler deri.
+MinMaxFastLaneBtnPrimaryTxt,Minimér SelfServ Checkout
+MinMaxFastLaneBtnSecondaryTxt,Maksimér SelfServ Checkout
+MinMaxFastLaneBtnPrimaryShowConfirmation,"For at minimere SelfServ Checkout skal du trykke på knappen ""Minimér SelfServ Checkout""."
+MinMaxFastLaneBtnSecondaryShowConfirmation,"For at maksimere SelfServ Checkout skal du trykke på knappen ""Maksimér SelfServ Checkout""."
+StopStartFastLaneBtnPrimaryTxt,Stop SelfServ Checkout
+StopStartFastLaneBtnSecondaryTxt,Start SelfServ Checkout
+SwitchToRAPBtnPrimaryTxt,Skift til FKP
+ShutdownSystemBtnPrimaryTxt,Luk hele systemet ned
+RebootSystemBtnPrimaryTxt,Genstart hele systemet
+VolumeBtnPrimaryTxt,Volumenkontrol
+EventViewerBtnPrimaryTxt,Event Viewer
+GenerateLogBtnPrimaryTxt,Hent diag. filer
+ExitFastLaneAndRunProfileBtnPrimaryTxt,Stop SelfServ Checkout og kør Profile Manager
+ExitFastLaneAndRunProfileBtnSecondaryTxt,Kør Profile Manager
+TerminalInfoBtnPrimaryTxt,Terminal Info
+MinMaxRAPBtnPrimaryTxt,Minimér FKP
+MinMaxRAPBtnSecondaryTxt,Maksimér FKP.
+MinMaxRAPBtnPrimaryShowConfirmation,"For at minimere FKP skal du trykke på knappen ""Minimér FKP""."
+MinMaxRAPBtnSecondaryShowConfirmation,"For at maksimere FKP skal du trykke på knappen ""Maksimér FKP""."
+StopStartRAPButtonPrimaryTxt,Stop FKP
+StopStartRAPButtonSecondaryTxt,Start FKP
+RapConfigureBtnPrimaryTxt,FKP-konfigurering
+SwitchToFastLaneBtnPrimaryTxt,Skift over til SelfServ Checkout
+ExitRAPAndRunProfileBtnPrimaryTxt,Stop FKP og kør Profile Manager
+ExitRAPAndRunProfileBtnSecondaryTxt,Kør Profile Manager
+UtilityFunctionsTitle,NCR SelfServ Checkout\nVærktøjer
+SignOnTitle,NCR SelfServ Checkout Log på
+SystemStartup,Systemet starter…vent venligst
+StartTitle,Opstart af systemet
+TerminalID,Terminal-id:
+InterfaceVersion,Software version:
+TrainingProgramPrimaryTxt,Træningsprogram
+LaunchPadNet_OperatorIDText,Bruger-id:
+KeySwitchOperatorID,Nøglelås
+LaunchPadNet_SignOnButtonText,Log på
+LaunchPadNet_SignOffButtonText,Log af
+SignedOffButtonText,Logget af
+Exit,Afslut alle
+LaunchPadNet_ReturnToShoppingButtonText,Retur
+PickListEditor,Pick List Editor
+RunADDTxt,Kør ADD ved næste genstart
+TouchWareTxt,Kalibrér berøringsskærm
+DiagConfirm,"Er du sikker på, at du vil generere diagnostiske logfiler?"
+ProfileManagerFLConfirm,"Er du sikker på, at du vil stoppe SelfServ Checkout og køre Profile Manager?"
+ProfileManagerRAPConfirm,"Er du sikker på, at du vil stoppe FKP og køre Profile Manager?"
+ProfileManagerConfirm,"Er du sikker på, at du vil starte Profile Manager?"
+EventViewerConfirm,"Er du sikker på, at du vil starte Event Viewer?"
+TrainingConfirm,"Er du sikker på, at du vil starte træningsprogrammet?"
+PicklistConfirm,"Er du sikker på, at du vil starte Picklist Editor?"
+RunADDConfirm,Er du sikker på at du vil køre TILFØJ ved næste Genstart?
+CalibrateConfirm,"Er du sikker på, at du vil kalibrere berøringsskærmen?"
+ShutdownConfirm,"Er du sikker på, at du vil lukke hele systemet ned?"
+RebootConfirm,"Er du sikker på, at du vil genstarte hele systemet?"
+CloseAllConfirm,"Er du sikker på, at du vil afslutte alle programmer og gå til skrivebordet?"
+VolumeConfirm,"Er du sikker på, at du vil justere volumenkontrollen?"
+TerminalInfoConfirm,"Er du sikker på, at du vil se terminalinformationen?"
+StopFastLaneConfirm,"Er du sikker på, at du vil stoppe SelfServ Checkout?"
+StopRAPConfirm,"Er du sikker på, at du vil stoppe FKP?"
+StartFastLaneConfirm,"Er du sikker på, at du vil starte SelfServ Checkout?"
+StartRAPConfirm,"Er du sikker på, at du vil starte FKP?"
+WindowsLogOnTxt,Log på Windows
+WindowsLogOnConfirm,"Er du sikker på, at du vil afslutte alle programmer og logge på som en ny bruger?"
+YesText,Ja
+NoText,Nej
+CommandPromptPrimaryTxt,Command Prompt
+CommandPromptConfirm,Er du sikker på at Command Prompt skal startes ?
+RSMLEPrimaryTxt,Retail Systems Manager LE
+RSMLEConfirm,"Er du sikker på, at du vil starte Retail Systems Manager LE?"
+OperatorRegistrationUtility,Operatørregistreringsfunktion
+LaunchPadNet_EnterIDFpLeadthru,"Indtast din bruger-id og tryk på ""Indtast"" eller anbring din finger på fingeraftrykslæseren for at logge på."
+LaunchPadNet_ReEnterIDFpLeadthru,Ugyldigt login. Log venligst på igen vha. tastaturet eller dit fingeraftryk.
+LaunchPadNet_ClearButtonText,Ryd
+LaunchPadNet_EnterButtonText,Indtast
+LaunchPadNet_GoBackButtonText,Gå tilbage
+LaunchPadNet_SpaceButtonText,Mellemrum
+LaunchPadNet_BackSpaceButtonText,Backspace
+LaunchPadNet_EnterIDLeadthru,Indtast id vha. tastaturet nedenfor:
+ReEnterIDLeadthru,Forkert ID  eller password. Indtast igen på tastaturet.
+LaunchPadNet_EnterPasswordLeadthru,Indtast password vha. tastaturet nedenfor:
+CancelButtonText,Annullér
+LaunchPadNet_LoggingInLeadthru,Logger på…Vent venligst
+LaunchPadNet_ShiftButtonText,Shift
+LaunchPadNet_SignedOffButtonText,Logget af
+LaunchPadNet_ReEnterIDLeadthru,Forkert id  eller password. Indtast igen vha. tastaturet nedenfor.
+LegalCaptionText,"LEGAL CAPTION\nThis system is for the use of authorized personnel only. By logging onto this system, you are subject to the terms and conditions of all Information Security policies and standards. Use by unauthorized individuals or for unauthorized purposes is a violation of federal and/or state law. The company reserves the right to take any necessary actions to protect authorized users, intellectual property and other information assets. Individuals using this system are subject to having all of their activities on this system monitored. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals possible evidence of criminal activity, system personnel may provide the evidence of such monitoring to law enforcement officials.\n        "
+SignBelow,Underskriv nedenfor.
+AlertStatusTextOff,
+AlertStatusTextOn,!!!
+InitialText,.
+PageIndicatorLabelFormat,Side {0} af {1}
+XM_CashUnbalance,Discrepancy error occurred in the recycler.
+XM_Cassette,Cassette
+XM_CassetteMissing,Bill Cassette is not in the unit. Put Bill Cassette back into the unit.
+XM_Collect,Collect
+XM_CollectFailure,The collect operation resulted in failure.
+XM_EmptyCassetteAndRejectBin,Remove bills from Bill Cassettes and Reject Bin.
+XM_GloryDispenseCupFullPreemptive,"Please Take Coins\nIf coin return is full, empty promptly.  Dispensing will pause until bowl is emptied."
+XM_GloryDispenseFullPreemptive,"Please Take Bills and Coins\nBills are dispensed in bunches of 10. Dispensing will pause until all bills are taken. If coin return is full, empty promptly. Dispensing will pause until bowl is emptied."
+XM_GloryDispenseNoteFullPreemptive,Please Take Bills\nBills are dispensed in bunches of 10. Dispensing will pause until all bills are taken.
+XM_GrandTotalText,Samlet sum: %s
+XM_InitializeError,The system encounters an error to be corrected.
+XM_LeadThruGloryFunction,"Touch denomination and enter amount or touch ""Collect""."
+XM_ManualRemoveCashAlertGlory,Remove cash from the cassette to undo loan.\n\nBills\nCount to remove: %d\nAmount to remove: %s
+XM_NegativeAlert_Remove,"Negative number found. Possible causes: keying error occurred, or bills were placed in the loader cassette, but the counts for these bills were not entered in Cash Management.\n\nFollow steps below to resolve:\n1. Select ""Exit"" then select ""Add Cash"".\n2. Touch the denomination with the negative number.\n3. Enter the exact dollar amount of the negative number and/or the amount placed in the loader.\n4. Select ""Apply Changes"".\n5. Select ""Yes"" to confirm and then ""Exit""."
+XM_OperatorID,Operator ID %s
+XM_TotalAddedText,Total Added: %s
+XM_TotalColectedText,Total Collected: %s
+XM_TotalRemovedText,Total Removed: %s
+HH_TransactionCancelLeadThru2,Transaction cancelled.
+DueCart,At betale
+ScotApp_1742,UGYLDIG POSE
+ScotApp_71,71unused
+ScotApp_61,61unused
+ScotApp_51,Kan ikke scanne værdibon
+ScotApp_41,Varer med begrænsning
+ScotApp_31,Værdiboner
+ScotApp_1055,1055unused
+ScotApp_11,11unused
+ScotApp_789,Indlæs dit kort.\nTjek kurven for yderligere varer.
+ScotApp_689,  Salg:      %d
+ScotApp_589,Device Factory indlæst.
+ScotApp_389,Indlæser kort
+ScotApp_289,289unused
+ScotApp_189,Funktionerne er indlæst.
+ScotApp_91,91unused
+ScotApp_773,Beløb gemt:
+ScotApp_673,Giv %s kunden byttepenge.
+ScotApp_1264,USERDEFINED6
+ScotApp_473,Mediumniveau lavt
+ScotApp_373,Blokering af printer eject
+ScotApp_989,989unused
+ScotApp_889,%s\nFaktisk vægt(%s): %s\nForventet vægt(%s): %s
+ScotApp_1520,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1042,"GODKENDELSE CHIT:\nDETTE ER BLEVET UDSKREVET, FORDI GODKENDELSE AF ET DOKUMENT FEJLEDE. VEDHÆFT DETTE\nCHIT TIL DET PÅGÆLDENDE DOKUMENT.\n----------------------------------------\n"
+ScotApp_973,973unused
+ScotApp_873,Indtastning af DL/id-nummer:
+ScotApp_1737,Egen pose
+ScotApp_752,I går sammendrag
+ScotApp_652, **Ingen data for denne EAN
+ScotApp_1054,1054unused
+ScotApp_452,Tjek om kablet er forsvarligt sat til i siden på møntacceptoren.
+ScotApp_352,Opdatér
+ScotApp_252,\nMøntreturmodul blokeret\n\nFjern møntreturmodulets blokering.
+ScotApp_152,152unused
+ScotApp_1310,"* Fjern seddelacceptoren.\n* Indsæt seddelacceptoren igen, indtil den låser.\n* Tjek, at seddelacceptorens motor tænder og lysdioden er grøn."
+ScotApp_661,(Std)
+ScotApp_952,Tilføj nul vægt
+ScotApp_852,Tre varer
+ScotApp_1527,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1838,Verificér vare
+ScotApp_731,Sammendrag
+ScotApp_631,Ejers navn:
+ScotApp_531,\nUnderskriftslæserfejl
+ScotApp_331,Fjern varer fra pakkevægten. Tastaturet er deaktiveret.
+ScotApp_231,231unused
+ScotApp_131,Aflevér værdiboner
+ScotApp_1736,"Anbring dine poser i pakkeområdet og tryk på ""Færdig"", når du er færdig."
+ScotApp_1250,PINKODEENHED KREDIT
+ScotApp_831,831unused
+ScotApp_300,300unused
+ScotApp_1306,%s byttepenge udbetalt
+ScotApp_710,710unused
+ScotApp_610,Varevægt:
+ScotApp_510,Underskriv igen
+ScotApp_310,beholder er lav
+ScotApp_210,210unused
+ScotApp_110,Vej varen
+ScotApp_1526,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1126,"Fejl ved møntreturmodul.\n\nTjek afbryderknappen, hvis en sådan findes på modulet."
+ScotApp_1040,Underskrift
+ScotApp_810, Under træning
+ScotApp_1735,Anbring dine poser
+ScotApp_1257,PINKODEENHED MADKUPONER
+ScotApp_704,Indtastning på Dankort-terminalen
+ScotApp_604,Scan en vare.
+ScotApp_504,504unused
+ScotApp_404,404unused
+ScotApp_304,Vælg emballage
+ScotApp_204,Kopierer fil til server...
+ScotApp_104,104unused
+ScotApp_1269,USERDEFINED11
+ScotApp_904,Godkendelse af varens vægt
+ScotApp_804,804unused
+ScotApp_1047,Godkendelse nødvendig. Vent venligst på hjælp fra operatøren.
+ScotApp_1478,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1134,Seddelkassetten er fuld.
+ScotApp_1734,Jeg har min egen pose med
+ScotApp_1256,PINKODEENHED EBT
+ScotApp_1512,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1465,Fejl ved kontantgenbrugsmodulet
+ScotApp_1721,Transaktion i træningstilstand
+ScotApp_1890,Behandling i gang...
+ScotApp_1243,KUNDE
+ScotApp_1544,Se modulets manual for at afhjælpe fejlen.
+ScotApp_63,Nej
+ScotApp_53,53unused
+ScotApp_43,43unused
+ScotApp_33,Jeg afhjalp problemet
+ScotApp_1255,PINKODEENHED DEBET CHECKKONTO
+ScotApp_13,  %ss à %s/%s
+ScotApp_1511,Se modulets manual for at afhjælpe fejlen.
+ScotApp_93,Scan & pak
+ScotApp_83,83unused
+ScotApp_1464,Terminalnummer
+ScotApp_1189,INDTASTET VARE
+ScotApp_1720,FV:
+ScotApp_1045,Betal med %s
+ScotApp_672,*** TRANSAKTION I TRÆNINGSTILSTAND ***
+ScotApp_572,"Indtast varens kode og tryk på ""Indtast""."
+ScotApp_472,Hjælp nødvendig
+ScotApp_372,Printer sidelæns komm. fejl
+ScotApp_272,Tjek brugte værdiboner
+ScotApp_172,Scan uønsket vare eller vælg vare på kvitteringen.
+ScotApp_1510,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1701,Gav ikke penge retur %s.
+ScotApp_972,972unused
+ScotApp_872,Annullér parkering
+ScotApp_1188,INDTASTET KVANTITET
+ScotApp_1727,Find vare
+ScotApp_751,I dag pr. Time
+ScotApp_651,Standard
+ScotApp_551,551unused
+ScotApp_451,Møntacceptorstatus blokeret
+ScotApp_351,Kontanter / Papirstatus
+ScotApp_251,251unused
+ScotApp_151,Tag kontanterne
+ScotApp_951,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s fjernet;LSWND3=%s;
+ScotApp_851,To varer
+ScotApp_730,730unused
+ScotApp_630,Kreditkortnr.:
+ScotApp_430,Ude af drift
+ScotApp_330,Assistance
+ScotApp_230,Kontantacceptor status afvist
+ScotApp_130,Aflevér dine værdiboner.
+ScotApp_1726,Færdig med søgning
+ScotApp_930,Tjek kommunikationen.
+ScotApp_830,Jeg fjernede vare eller pakke
+ScotApp_193,193unused
+ScotApp_1457,Valuta er høj
+ScotApp_1283,1283unused
+ScotApp_724,724unused
+ScotApp_624,Ugyldig tolerance indtastet
+ScotApp_424,Indtast beløb
+ScotApp_324,Dato ikke nødvendig
+ScotApp_224,Kortlæserbeholder fjernet
+ScotApp_124,124unused
+ScotApp_1469,"Gav ikke kunden %s retur. %s\n* Tjek mønt- og seddelreturmoduler.\n* Tryk på  ""Kontanter / Papirstatus"" for at fylde op eller rydde blokering."
+ScotApp_924,924unused
+ScotApp_824,Bekræftelse af parkering
+ScotApp_576,Begynd kortbetaling.
+ScotApp_1247,MADKUPONER
+ScotApp_1678,Fejl i seddelgenbrugsmodul
+ScotApp_1503,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1756,"Vælg fra søgeresultater eller ""Gå tilbage""."
+ScotApp_1456,Forkert kasseekspedientnummer og password.\nPrøv igen
+ScotApp_1502,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1712,Afbrydelse afvist
+ScotApp_1468,Kontantgenbrugsmodulets status tom
+ScotApp_1246,EBT
+ScotApp_75,Færdig
+ScotApp_65,65unused
+ScotApp_55,Annullér alle
+ScotApp_45,45unused
+ScotApp_35,Byttepenge:
+ScotApp_1258,PINKODEENHED GAVEKORT
+ScotApp_15,Varekode:
+ScotApp_1711,Afbryd afvist
+ScotApp_1683,Uoprettelig fejl. Luk kassen. Tilkald Gunnebo og videregiv fejloplysningerne vist nedenfor. SafePay-fejl: %s
+ScotApp_95,Scan værdiboner
+ScotApp_85,85unused
+ScotApp_1058,Assisteret betaling
+ScotApp_1664,Seddelblokering
+ScotApp_797,"Gav ikke penge tilbage %s.\n* Undersøg sedler i kassetter og seddelreturmodul for blokeringer.\n* Sørg for, at seddelkassetter og beholdere sidder forsvarligt fastlåst.\n* Luk pengeskabets dør."
+ScotApp_697,697unused
+ScotApp_597,NCR SelfServ Checkout Forms ved at blive indlæst %d...
+ScotApp_497,Beløb at betale:
+ScotApp_297,297unused
+ScotApp_197,Presentation Services indlæst.
+ScotApp_997,Indtast pris
+ScotApp_897,WTINFO indlæst.
+ScotApp_1454,"Indtast password og tryk på ""Indtast""."
+ScotApp_1710,Tag dine returnerede kontanter
+ScotApp_1741,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s forv;LSWND3=%s %s obv
+ScotApp_1388,Træningsprogram
+ScotApp_771,Annullér parkering
+ScotApp_671,Afslut træningstilstand
+ScotApp_571,"Indtast antallet og tryk på ""Indtast""."
+ScotApp_471,   Visuel validering
+ScotApp_371,"Printer, udskift hoved"
+ScotApp_271,Godkend brugte værdiboner
+ScotApp_971,971unused
+ScotApp_871,Bekræft parkering
+ScotApp_1840,Butiksnr.:
+ScotApp_750,I dag sammendrag
+ScotApp_650,Almindeligt produkt
+ScotApp_550,550unused
+ScotApp_450,450unused
+ScotApp_350,Kontanter / Papirstatus
+ScotApp_250,250unused
+ScotApp_150,Vælg beløbet for kontanter tilbage
+ScotApp_1773,Tryk “Godkend Coupon” for at acceptere couponen eller skift til hjælpemodus for at afvise den. 
+ScotApp_950,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s tilføjet;LSWND3=%s;
+ScotApp_850,En vare
+ScotApp_1405,"POS er usynkroniseret, fortsæt i assistance for at resynkronisere."
+ScotApp_1513,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1657,Ugyldig afd.
+ScotApp_1225,UKENDT VARE
+ScotApp_644,-------------------------------------------------------------------
+ScotApp_544,Password kan ikke være længere end %d cifre.
+ScotApp_444,Madkuponer
+ScotApp_344,344unused
+ScotApp_244,244unused
+ScotApp_144,Sammenlign underskrift
+ScotApp_1590,MØNTBEHOLDERE %s ER BLOKEREDE
+ScotApp_1669,Fejl i mønt/seddel genbrugsmodul
+ScotApp_944,For mange anmodninger til at pakke.  Maks. = %d.
+ScotApp_844,844unused
+ScotApp_1729,Find varer:
+ScotApp_1447,Fjern kontanter
+ScotApp_1703,(+)
+ScotApp_1656,"Indtast gruppenummeret og tryk på ""Indtast""."
+ScotApp_915,For mange anmodninger til at kunne springe båndet over.  Maks. = %d.
+ScotApp_1668,"En seddelblokering kan være til stede i det viste område. Åbn øverste låg til seddelgenbrugsmodulet. Fjern eventuelle blokerede sedler, der kan være til stede. Luk enheden og sæt låget på igen. Fortsæt transaktionen."
+ScotApp_1542,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1139,Seddelreturmodulets dør er åben.
+ScotApp_1254,PINKODEENHED DEBET OPSPARINGSKONTO
+ScotApp_1249,PINKODEENHED GENERISK
+ScotApp_77,Kredit
+ScotApp_67,Gå tilbage
+ScotApp_57,Afslut & betal
+ScotApp_47,Start
+ScotApp_37,37unused
+ScotApp_1458,NCR SelfServ Checkout rapport
+ScotApp_17,Værdibon
+ScotApp_1752,Vægt på vægten er over kapacitet.
+ScotApp_1643,Fejl i seddelgenbrugsmodul
+ScotApp_97,Vælg beholder fra liste
+ScotApp_87,87unused
+ScotApp_1665,Lås op og fjern kassetten. Fjern blokeret seddel. Sæt kassetten i igen. Luk genbrugsmodulet. Fortsæt transaktionen.
+ScotApp_1138,Gav ikke penge retur %s.
+ScotApp_1589,MØNTER ER LØBET TØR
+ScotApp_1445,Ændring i optælling
+ScotApp_1318,Scan værdibeviser
+ScotApp_1654,Tallet overskrider kapaciteten. Maksimum indsætningstal nødvendig er %d. Tak på %d indtastes automatisk.
+ScotApp_796,"Lav på mønter eller møntreturmodul slukket ved en fejltagelse.\n* Tænd for møntreturmodulet ELLER\n* genpåfyld, sluk for møntreturmodulet og tænd dernæst og tryk på ""Møntreturmodul genpåfyldt"" – Kassestatusskærm."
+ScotApp_696,696unused
+ScotApp_596,NCR SelfServ Checkout AuxDisp indlæst.
+ScotApp_1391,"Tryk på ""Jeg afhjalp problemet"".\nHvis fejlen vedvarer, skal du lukke terminalen ned og genstarte den."
+ScotApp_396,Der var behov for personalets hjælp til:
+ScotApp_296,296unused
+ScotApp_196,Presentation Services ved at blive indlæst...
+ScotApp_1588,"Hver beholder skal tømmes før knappen ""Returmodulopsamling"" kan vælges.  Tøm hver møntpåfyldningstragt og tryk dernæst på ""returmodulopsamling""."
+ScotApp_996,Prisindtastning
+ScotApp_896,WTINFO er ved at blive indlæst...
+ScotApp_574,"Indtast dit password og tryk på ""Indtast""."
+ScotApp_1093,Udskriv sidste kvittering
+ScotApp_1641,"Genpåfyld møntpåfyldningstragt og fortsæt. Hvis der ikke gives mønter tilbage, er påfyldningstragten måske låst.  Tilkald service.\n\nSafePay-fejl: %s"
+ScotApp_1781,TAK UDLØB
+ScotApp_562,Værdiboner skal sælges i assistance
+ScotApp_874,"Indtast DL- eller id-nummeret og tryk på ""Indtast""."
+ScotApp_1124,1124unused
+ScotApp_770,Bekræft parkering
+ScotApp_670,Gå ind i træningstilstand
+ScotApp_570,570unused
+ScotApp_470,   Aldersbegrænset
+ScotApp_370,"Printer, printer åben"
+ScotApp_270,Godkend værdiboner
+ScotApp_170,"Fjern varen fra vægten og tryk på knappen ""Scale Zero"" på scanneren."
+ScotApp_1640,Fejl i påfyldningstragt
+ScotApp_870,Alarmer:
+ScotApp_1733,"Vælg ""Gå tilbage"" for at fortsætte."
+ScotApp_1553,Valuta høj-status:
+ScotApp_664,Scan dine varer eller vælg et sprog.
+ScotApp_564,564unused
+ScotApp_464,%s               %s
+ScotApp_364,364unused
+ScotApp_264,264unused
+ScotApp_964,"Fjern varen og tryk på ""Ryd sikkerhed"" eller tryk på ""Godkend & Opdatér vægt""."
+ScotApp_864,Godkendelse:
+ScotApp_1647,(mmddåååå)
+ScotApp_1119,"Seddelreturmodul virker ikke med adgangsdøren åben.\n\nLuk og lås seddelreturmodulets eller pengeskabets dør.\n\nHvis fejlen opstår igen, skal du tilkalde service."
+ScotApp_1659,Udskriv kvittering
+ScotApp_819,Bekræft parkering af annulleret vare.
+ScotApp_1339,Genstart hele systemet
+ScotApp_1582,Mediumstatus
+ScotApp_1154,Fejl ved scanner
+ScotApp_1117,"%s seddelreturkassette ude eller ikke helt indsat.\n\nInstallér eller anbring %s seddelkassetten således, at den er låst."
+ScotApp_1294,Q - S
+ScotApp_1030,Indsæt din værdibon.
+ScotApp_1658,"Verificér, at kunden modtog de korrekte byttepenge."
+ScotApp_1421,Assistance
+ScotApp_709,709unused
+ScotApp_1129,Afhjælpning ikke udført korrekt.\n\nPrøv igen.
+ScotApp_509,509unused
+ScotApp_409,Systemmeddelelse
+ScotApp_309,krone
+ScotApp_209,Stop program
+ScotApp_109,Fortsæt?
+ScotApp_1338,Hent diag. filer
+ScotApp_909,Ukorrekt vægt på sikkerhedsvægten.
+ScotApp_809,POS-meddelelse:
+ScotApp_1645,"Tjek, at seddellåget sidder forsvarligt fast."
+ScotApp_1116,"Seddelreturmodul virker ikke, hvis seddelafvisningsbeholderen ikke er til stede og låst forsvarligt fast.\n\nIndsæt seddelafvisningsbeholderen og sørg for, at den sidder forsvarligt låst fast."
+ScotApp_1128,%s\n
+ScotApp_1452,"Indtast id og tryk på ""Indtast""."
+ScotApp_183,183unused
+ScotApp_1450,Låseboks
+ScotApp_1293,P
+ScotApp_1644,Låget til seddelgenbrugsmodulet er af
+ScotApp_1115,RAPPORTERING OFFLINE
+ScotApp_795,Køb overvåget for at sikre bedre service.
+ScotApp_695,695unused
+ScotApp_595,NCR SelfServ Checkout AuxDisp ved at blive indlæst...
+ScotApp_395,Begrænsede varer ikke tilladte
+ScotApp_295,295unused
+ScotApp_195,Device Manager indlæst.
+ScotApp_566,566unused
+ScotApp_1324,Vægt forbliver på vægten\nefter transaktionen.
+ScotApp_995,Gå til kassen og log på i Butikstilstand for at åbne kassen.
+ScotApp_895,DBM slutter...
+ScotApp_1102,Næste
+ScotApp_1383,(Undt.)
+ScotApp_1402,SEDDELAFVISERBEHOLDERS KABEL ER AFKOBLET.
+ScotApp_1292,N - O
+ScotApp_1114,"""Slut på rapportperiode"" opdateret"
+ScotApp_1222,UDE AF DRIFT
+ScotApp_1101,%s\t%s
+ScotApp_1159,PinPad / EFT svarer ikke.
+ScotApp_1100,%s
+ScotApp_1539,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1649,(ddmmåååå)
+ScotApp_1317,Betaling med værdibevis
+ScotApp_1883,"Tjek posevægten, tjek vognen for ekstra varer og tryk på ""Ryd sikkerhed""."
+ScotApp_729,729unused
+ScotApp_629,Samlet beløb:
+ScotApp_429,Rød
+ScotApp_329,  %ss à %d %s/%s
+ScotApp_229,229unused
+ScotApp_129,"Verificér, at annullerede varer er blevet lagt til side."
+ScotApp_1107,%s\t%s\t%s Stk. à %s/%s\t%s
+ScotApp_1538,Se modulets manual for at afhjælpe fejlen.
+ScotApp_929,Vægtindlæringsdatabasen (WLDB) kommunikerer ikke korrekt.
+ScotApp_829,829unused
+ScotApp_1316,* Åbn printerlåget og tjek for papirstop i det viste område.\n * Luk printerlåget og sæt papiret i igen.
+ScotApp_81,Fortsæt
+ScotApp_1882,Smart Assist-alarm – vare ikke scannet.
+ScotApp_1673,Møntstop
+ScotApp_1135,Fejl ved seddelreturmodul
+ScotApp_1705,Kommunikationsfejl.
+ScotApp_1894,Set item aside and continue with your purchase.
+ScotApp_787,"Fødselsdato indtastet: %s, %d år gammel"
+ScotApp_1398, Kasseeks/Træn
+ScotApp_1106,%s\t%s\t%s Stk. à %s\t%s
+ScotApp_1525,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1493,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1490,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1315,* Åbn printerlåget og tjek for papirstop.\n * Luk printerlåget og sæt papiret i igen.
+ScotApp_1881,"Tjek posevægten, fjern ekstra varer og tryk på ""Ryd sikkerhed""."
+ScotApp_1173,GODKENDT ANNULLERET VARE
+ScotApp_1524,Se modulets manual for at afhjælpe fejlen.
+ScotApp_505,Forkert tal
+ScotApp_1302,Luk
+ScotApp_905, (Mere information på kvittering...)
+ScotApp_1164,Printer er ikke anbragt korrekt.
+ScotApp_1492,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1314,* Åbn printerlåget og ryd eventuelle papirrester.\n * Luk låget.\n * Indsæt ny papirrulle.\n * Fød papiret ind i printeren fra øverst på rullen.
+ScotApp_1817,"* Træk møntgenbrugsmodulet ud.\n* Åbn de runde sidedøre og ryd mønterne fra bælterne.\n* Sørg for, at alle døre er lukket og låst korrekt.\n* Returnér mønterne til kunden. Hvis fejlen opstår igen, skal du tilkalde service."
+ScotApp_1442,"Indsæt kontanter for at genpåfylde eller tryk på ""Fjern kontanter"" for at tage dem ud."
+ScotApp_1880,Uventet vare på posevægten.
+ScotApp_1172,BEKRÆFTET PARKERING
+ScotApp_1415,1415unused
+ScotApp_788,Gyldig fødselsdag:%s
+ScotApp_688,688unused
+ScotApp_588,Device Factory ved at blive indlæst...
+ScotApp_488,Læg varen på vægten: %s
+ScotApp_388,Behandling i gang...
+ScotApp_288,"Tryk på ""Jeg afhjalp problemet"".\n\nHvis fejlen vedvarer, genstartes terminalen:\nDrej supervisor nøglelås til ""S"" ELLER tryk på supervisor-knappen.\nVælg ""Luk hele systemet"".\nNår skærmen bliver blank, skal du slukke for terminalen på UPS'en eller på multistikdåsen.\nTænd for terminalen. Hvis fejlen opstår igen, skal du tilkalde service."
+ScotApp_188,Funktioner er ved at blive indlæst...
+ScotApp_988,Uventet vare på båndet. Fjern varen.
+ScotApp_888,Der er en uventet vare på pakkehylden. Fjern varen.
+ScotApp_1887,Se transaktion
+ScotApp_1171,UVENTET FORØGELSE
+ScotApp_1199,INDTASTET UDLØBSDATO
+ScotApp_1300,Start transaktion
+ScotApp_1326,Indsæt værdibon timer udløbet
+ScotApp_1291,K - M
+ScotApp_1517,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1886,Tjek for ekstra varer.
+ScotApp_749,749unused
+ScotApp_1529,Se modulets manual for at afhjælpe fejlen.
+ScotApp_549,549unused
+ScotApp_449,Møntacceptorstatus afvist
+ScotApp_349,349unused
+ScotApp_249,249unused
+ScotApp_149,Indtast PIN-kode
+ScotApp_1307,Kvittering udskriver
+ScotApp_1738,Ekspedient skal verificere dine poser
+ScotApp_949,949unused
+ScotApp_717,717unused
+ScotApp_617,Vælg indstilling for vægtsammenligning. (Sammenlign vægt med eksisterende indtastninger).
+ScotApp_517,Anden betaling påkrævet.
+ScotApp_417,Hard Totals indlæst.
+ScotApp_317,317unused
+ScotApp_217,217unused
+ScotApp_117,Læg varerne til side
+ScotApp_1516,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1885,Vare ikke scannet
+ScotApp_917,For mange anmodninger til at kunne fjerne varerne fra pakkehylden.  Maks. = %d.
+ScotApp_817,Hjælp nødvendig
+ScotApp_1177,TIMER FOR PAK VARE UDLØBET
+ScotApp_1528,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1175,TÆRKSEL FOR PAK IKKE OVERSKREDET
+ScotApp_1109,%s\t%s\t%s @ %s/%s\t%s
+ScotApp_1453,Kasseekspedient password
+ScotApp_1693,Møntsubstitution
+ScotApp_1515,Se modulets manual for at afhjælpe fejlen.
+ScotApp_7,7unused
+ScotApp_6,6unused
+ScotApp_5,5unused
+ScotApp_4,4unused
+ScotApp_3,3unused
+ScotApp_2,kg
+ScotApp_1,lb
+ScotApp_1176,NY VARE INDTASTET
+ScotApp_1724,TRANSAKTION I TRÆNINGSTILSTAND
+ScotApp_1019,Anbring på båndet
+ScotApp_9,9unused
+ScotApp_8,8unused
+ScotApp_609,Redigér vægttolerance
+ScotApp_1305,%s indsat
+ScotApp_1893,Invalid Barcode
+ScotApp_1409,Menuen Hjælp
+ScotApp_1692,Supervisor login
+ScotApp_1163,"Tryk på ""Jeg afhjalp problemet"".\n\nHvis fejlen vedvarer, genstartes terminalen:\nDrej supervisor nøglelås til ""S"" ELLER tryk på supervisor-knappen.\nVælg ""Luk hele systemet"".\nNår skærmen bliver blank, skal du slukke for terminalen på UPS'en eller på multistikdåsen.\nTænd for terminalen. Hvis fejlen opstår igen, skal du tilkalde service."
+ScotApp_1514,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1372,Møntacceptor
+ScotApp_1048,1048unused
+ScotApp_967,967unused
+ScotApp_1304,Kundekort godkendt.
+ScotApp_1162,Modulet er offline.
+ScotApp_1833,Exc_TB
+ScotApp_1818,"* Lås op og træk bakken til tragten ud for at rydde fastsiddende mønter (I).\n* Læg fastsiddende mønter tilbage i korrekt(e) tragtbeholder(e). Sæt bakken til tragten tilbage igen og lås den.\n* Træk møntgenbrugsmodulet ud. Lås dernæst op og fjern låget.\n* Træk det viste kabel ud (II).\n* Udløs den røde flig på siden af acceptoren, træk den fremad og vend den om for at rydde fastsiddende mønter fra de viste områder (III).\n* Sæt acceptoren ind igen og tilslut kablet.\n* Sæt på plads og lås låget. Hvis fejlen opstår igen, skal du tilkalde service."
+ScotApp_1174,VÆGT MATCHER IKKE
+ScotApp_1500,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1366,Vægt
+ScotApp_1161,Fejl ved personsøger
+ScotApp_1717,OV:
+ScotApp_1832,Exc_DEPT
+ScotApp_1370,Krypteringsværktøj
+ScotApp_669,Underskriftsudskrift mislykkedes. Der opstod fejl.
+ScotApp_569,Tast koden
+ScotApp_469,469unused
+ScotApp_369,Printer komm. fejl
+ScotApp_269,Assistance
+ScotApp_1507,Se modulets manual for at afhjælpe fejlen.
+ScotApp_969,969unused
+ScotApp_737,737unused
+ScotApp_637,"Sikkerhed er offline, sidste handling blev annulleret."
+ScotApp_537,537unused
+ScotApp_437,Utilstrækkeligt restbeløb
+ScotApp_337,"Scan din vare eller indtast koden og tryk på ""OK""."
+ScotApp_237,"Indsæt kassetten og sørg for, at den låser sig på plads.\n\nTræk i kassettens håndtag for at sikre, at låsen holder kassetten på plads."
+ScotApp_137,Tag imod mønter
+ScotApp_931,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s forventet;LSWND3=%s %s observeret;
+ScotApp_1519,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1831,Interp. 
+ScotApp_937,Grænse\fjern varer
+ScotApp_837,Betalinger
+ScotApp_1702,*** KOPI AF KVITTERING ***
+ScotApp_1377,kvantitet
+ScotApp_1728,Vælg fra populære varer eller søg efter varen alfabetisk. 
+ScotApp_1395,Gå ind i kasseekspedient-tilstand
+ScotApp_716,716unused
+ScotApp_616,Vægtsammenligning
+ScotApp_516,Anden betaling
+ScotApp_416,Hard Totals er ved at blive indlæst...
+ScotApp_316,316unused
+ScotApp_216,* Åbn printerkabinettets dør.\n* Åbn printerens låg for at tjekke for papirstop.\n* Luk printerlåget og sæt papir i igen.\n* Der bør nu blive udskrevet en kvittering med en smiley.\n* Luk og lås printerkabinettets dør.
+ScotApp_116,Annullér alle varer
+ScotApp_1522,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1506,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1879,"Tjek posevægten og tryk på ""Ryd sikkerhed""."
+ScotApp_916,"Tjek varerne ved kassen og tryk på ""Ryd sikkerhed""."
+ScotApp_816,816unused
+ScotApp_1167,"* Åbn printerkabinettets dør.\n* Lås op og skub printeren tilbage.\n* Åbn printerlåget for at tjekke for papirstop.\n* Luk printerlåget og sæt papir i.\n* Træk forsigtigt printeren fremad, indtil den låser sig på plads."
+ScotApp_1518,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1830, Indtastninger godkendt 
+ScotApp_1376,", %s"
+ScotApp_783,783unused
+ScotApp_683,683unused
+ScotApp_583,Kort afvist.
+ScotApp_483,Underskriv underskriftsenheden vha. den fastgjorte pen.
+ScotApp_383,383unused
+ScotApp_283,Indtast password
+ScotApp_1505,Se modulets manual for at afhjælpe fejlen.
+ScotApp_983,Båndet er ved at blive indlæst...
+ScotApp_883,Bekræft parkering
+ScotApp_1363,Linjedisplay
+ScotApp_1714,GODKENDT AFVISNING AF AFBRYDELSE
+ScotApp_1837,"Tryk på “Godkend"" for at fortsætte transaktionen."
+ScotApp_1449,Seddelstatus
+ScotApp_1375,Ændring efter vare:\n%s
+ScotApp_1248,GAVEKORT
+ScotApp_1153,Papirstop.
+ScotApp_1504,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1362,Nøglelås
+ScotApp_1836,UGYLDIG STREGKODE
+ScotApp_1571,Bekræft ignorér ændring
+ScotApp_1215,FEJL I MODUL
+ScotApp_1858,Discrepancy error occurred in the recycler.
+ScotApp_1152,Løbet tør for papir.
+ScotApp_1700,"Gav ikke retur %s. %s\n* Tjek mønt- og seddelreturmoduler.\n* Hvis de er tomme, skal de fyldes.\n* Hvis de ikke er tomme, skal blokeringen ryddes.\n* Tryk på ""Tilstand afhjulpet""."
+ScotApp_1823,Der blev udfærdiget en elektronisk kvittering.
+ScotApp_1605,     Kortreturmoduls beholder er tom
+ScotApp_1361,Pengeveksler
+ScotApp_1835,Verificér eller læg varen til side
+ScotApp_1878,Ukorrekt vægt på posevægten.
+ScotApp_1281,ASSISTERET BETALING
+ScotApp_1425,Forbind
+ScotApp_1570,Ignorér ændringer
+ScotApp_814,814unused
+ScotApp_291,"Møntreturrør blokeret\n%s\nFjern møntreturblokeringen og tryk på ""Ryddet blokering""."
+ScotApp_191,Transaction Broker indlæst.
+ScotApp_1151,Printerlåget er åbent.
+ScotApp_1707,Mønter er blokeret i acceptoren
+ScotApp_1822,Se varens vægt nederst til venstre på skærmen
+ScotApp_757,757unused
+ScotApp_657,Læg tilbagebetaling/rabat til side indtil købet er færdigt.
+ScotApp_557,Kvantitetsbegrænsede varer
+ScotApp_457,457unused
+ScotApp_357,357unused
+ScotApp_257,257unused
+ScotApp_157,Systemmeddelelse
+ScotApp_1360,Pengeskuffe
+ScotApp_1719,TV:
+ScotApp_1834,Maks
+ScotApp_1868,"Sørg for, at dine hænder er uden for scannerens kameravisning"
+ScotApp_957,DB Manager Client fejlede at kommunikere
+ScotApp_857,Verificér monteringsomkostning
+ScotApp_1064,1064unused
+ScotApp_1577,Samlet optælling:
+ScotApp_736,736unused
+ScotApp_636,Sikkerhed er offline.
+ScotApp_1091,1091unused
+ScotApp_436,Bekræft beløbet
+ScotApp_336,Åbn vare
+ScotApp_236,236unused
+ScotApp_136,Betal med kontanter
+ScotApp_1509,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1821,Acceptér vægt
+ScotApp_936,Grænse\pak ikke
+ScotApp_836,Betalinger & kundeaftaler
+ScotApp_1367,Scanner
+ScotApp_1718,AV:
+ScotApp_1274,USERDEFINED16
+ScotApp_715,715unused
+ScotApp_615,Vælg indstilling for pakkeforstærkning. (Kunden forventes at pakke varen).
+ScotApp_515,515unused
+ScotApp_315,315unused
+ScotApp_215,Debetopsparinger
+ScotApp_115,"Bekræft, at du vil annullere købet"
+ScotApp_1576,Seddelreturmodulstatus:
+ScotApp_1090,Kør rapport
+ScotApp_815,Åbn kasseapparatet
+ScotApp_1508,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1406,Synk TB/POS
+ScotApp_1099,Ukendt modulfejl
+ScotApp_1563,Indsætning
+ScotApp_782,Blokering af seddelreturmodul\n* Fjern blokeringen eller\n* justér beholderen.
+ScotApp_682,682unused
+ScotApp_582,Betaling afsluttet.
+ScotApp_482,482unused
+ScotApp_382,Ukendt
+ScotApp_282,Indtast id
+ScotApp_1575,Møntreturmodulstatus:
+ScotApp_1097,Udskriv optegnelser / rapporter
+ScotApp_1448,Møntstatus
+ScotApp_982,Modulfejl
+ScotApp_143,Underskriv kvittering
+ScotApp_1353,Kom det brugte gavekort i værdibonsprækken.
+ScotApp_1704,"Tryk på ""Fortsæt"".\n\nHvis fejlen vedvarer, genstartes terminalen:\nDrej supervisor nøglelås til ""S"" ELLER tryk på supervisor-knappen.\nVælg ""Luk hele systemet"".\nNår skærmen bliver blank, skal du slukke for terminalen på UPS'en eller på multistikdåsen.\nTænd for terminalen. Hvis fejlen opstår igen, skal du tilkalde service."
+ScotApp_1827,\n    - Aktuelle sprog (%s)
+ScotApp_1562,Optælling
+ScotApp_1815,"* Lås op og træk påfyldningsbakken ud.\n* Sæt evt. manglende tragte tilbage og sørg for, at alle tragte sidder på plads.\n* Sørg for, at tragten til mønter med laveste værdi er på plads og sidder korrekt.\n* Sørg for, at tragte til den korrekte valuta er indsat. Hvis fejlen opstår igen, skal du tilkalde service."
+ScotApp_1574,Den indtastede værdi for %s er ikke gyldig.\nIndtast venligst igen.
+ScotApp_1543,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1290,D - J
+ScotApp_1096,Rapporterer
+ScotApp_1352,Indlevér gavekort
+ScotApp_1561,Betegnelse
+ScotApp_1083,Varer fjernet fra pakkehylden. Læg varen tilbage.
+ScotApp_1753,Vare ikke fundet
+ScotApp_418,Hard Totals slutter...
+ScotApp_318,318unused
+ScotApp_1813,"%s\n* Lås op og træk bakken til tragten ud (I).\n* Fjern fastsiddende tragtbeholder(e). Tjek og ryd eventuelle fastsiddende mønter i udgangsområdet (II).\n* Hvis der ikke sidder noget i udgangsområdet, tømmes tragtbeholder(ne). Tjek og ryd eventuelle fastsiddende mønter ved roterende skive (III).\n* Sæt tragtbeholder(ne) tilbage.\n* Sørg for at alle døre er korrekt lukket og låst. Hvis fejlen vender tilbage, skal du ringe til serviceafdelingen."
+ScotApp_1095,"Vælg rapporttype og tryk dernæst på ""Kør rapport""."
+ScotApp_1351,%s\n%s %s fjernet
+ScotApp_1825,Gem præferencer
+ScotApp_777,777unused
+ScotApp_677,677unused
+ScotApp_577,Begynd kontantbetaling.
+ScotApp_377,Enheder – Status
+ScotApp_277,277unused
+ScotApp_1560,Acceptor i alt:  %s
+ScotApp_1082,Varen fjernet
+ScotApp_977,Faktisk vægt: %s %s
+ScotApp_877,Prisanm.
+ScotApp_1777,Transaktionen gennemført med coupon over forretningens coupon limit.
+ScotApp_1812,Mønter sidder fast eller møntbeholdere er fulde/væk
+ScotApp_756,756unused
+ScotApp_556,Parkering ikke mulig.
+ScotApp_456,456unused
+ScotApp_356,Krypteringsværktøj
+ScotApp_256,User Exits slutter...
+ScotApp_156,Systemmeddelelse
+ScotApp_1231,VISUELT VERIFICERET
+ScotApp_1874,1874unused
+ScotApp_956,"Luk ned og genstart terminalen:\n* Drej supervisor nøglelås til ""S"" -ELLER- tryk på supervisor-knappen.\n* Vælg ""Kør ADD ved næste genstart"". Vælg ""Ja"" for at bekræfte.\n* Vælg ""Luk hele systemet"".\n* Når skærmen bliver blank, skal du slukke for terminalen på UPS'en eller på multistikdåsen.\n* Tænd for terminalen. Tjek event viewer. Hvis fejlen vender tilbage, skal du ringe til serviceafdelingen."
+ScotApp_856,Kvittering:
+ScotApp_1567,Returmodul i alt:  %s
+ScotApp_735,735unused
+ScotApp_635,Indtast fødselsdato
+ScotApp_535,   Klokkeslæt tilbagekaldt
+ScotApp_335,Kortlæser mulig kundemanipulation
+ScotApp_235,Kontantacceptor status næsten fuld
+ScotApp_135,135unused
+ScotApp_1776,Butiksaut.
+ScotApp_1811,"* Træk møntgenbrugsmodulet ud.\n* Ryd blokeringen fra det viste område ved at fjerne mønterne eller skubbe dem fremad.\n* Returnér mønterne til kunden. Hvis fejlen opstår igen, skal du tilkalde service."
+ScotApp_935,Vægtreduktion
+ScotApp_835,Kvittering:
+ScotApp_1708,"Tryk på møntreturknappen flere gange for at rydde møntstoppet og tryk dernæst på ""Jeg afhjalp problemet"".\n\nHvis fejlen opstår igen, skal du tilkalde service."
+ScotApp_1168,Printer er ikke låst fast i fremadrettet position.
+ScotApp_1446,Tag ud
+ScotApp_1566,Fuld erstatning
+ScotApp_1080,Læg varen på båndet.
+ScotApp_1775,Godkend Coupon
+ScotApp_1810,Mønterne sidder fast.
+ScotApp_1297,TAG BYTTEPENGE TIMER UDLØBET
+ScotApp_1648,(mmddåå)
+ScotApp_708,708unused
+ScotApp_608,Indstil vægt-sammenligning
+ScotApp_508,508unused
+ScotApp_408,408unused
+ScotApp_308,øre
+ScotApp_208,208unused
+ScotApp_108,Værdibon matcher ikke
+ScotApp_781,781unused
+ScotApp_681,Vælg blandt favoritter
+ScotApp_581,Parkering ikke mulig
+ScotApp_481,Hjælp nødvendig
+ScotApp_381,Normal
+ScotApp_908,Sikkerhed
+ScotApp_521,Beløb refunderet:
+ScotApp_1087,Kortet er godkendt. Scan dine varer og værdiboner.
+ScotApp_981,981unused
+ScotApp_881,Parkering:
+ScotApp_1774,Værdibon for høj
+ScotApp_1296,Genpåfyld alle møntbeholdere til de optimale serviceniveauer.
+ScotApp_1583,valutabeholdningen er lav (%s)
+ScotApp_1552,beholder er fuld
+ScotApp_1295,T - Å
+ScotApp_1877,Tyverialarm
+ScotApp_1761,"Værdibonbeholder kan være fuld eller værdibonåbning er blokeret. Fjern elemente1r, der blokerer værdibonåbningen og tøm dernæst værdibonbeholderen."
+ScotApp_1086,"""Tilføj nul vægt"" sletter alle vægtindtastninger."
+ScotApp_693,693unused
+ScotApp_794,Blokering af seddelreturkassette\nFjern blokeringen.
+ScotApp_694,694unused
+ScotApp_594,NCR SelfServ Checkout SigCap indlæst.
+ScotApp_494,Vælg returpengebeløb fra listen.
+ScotApp_394,394unused
+ScotApp_1098,* Åbn printerkabinettets dør.\n* Tjek for papirstop i det viste område.\n* Hvis der ikke er noget papirstop skal du lægge mere papir i.\n* Der vil blive udskrevet en kvittering med et smilende ansigt.\n* Luk og lås printerkabinettets dør.
+ScotApp_1551,valuta er høj (%s)
+ScotApp_994,Lukket
+ScotApp_894,DBM indlæst.
+ScotApp_1760,"Værdibonbeholder kan være fuld eller værdibonåbning er blokeret. Fjern elementer, der blokerer værdibonåbningen og tøm dernæst værdibonbeholderen."
+ScotApp_1371,Kontantacceptor
+ScotApp_1803,Acceptér kun kontanter
+ScotApp_1359,Papirseddelprinter
+ScotApp_1085,Tag imod værdiboner
+ScotApp_21,21unused
+ScotApp_776,776unused
+ScotApp_676,Møntreturmodul: Genpåfyldt på %s ved %s
+ScotApp_1491,Se modulets manual for at afhjælpe fejlen.
+ScotApp_476,Aflevering af værdiboner
+ScotApp_376,376unused
+ScotApp_276,276unused
+ScotApp_176,Vil du standse processen og annullere hele købet?
+ScotApp_976,976unused
+ScotApp_876,"Indtast den overordnede kasseekspedients id og tryk på ""Indtast""."
+ScotApp_1271,USERDEFINED13
+ScotApp_1767,Kan ikke få adgang til vægtparametre.
+ScotApp_755,Behandling i gang...
+ScotApp_655,Undtagelse vare
+ScotApp_1084,Modtagelse
+ScotApp_455,455unused
+ScotApp_355,Vælg systemfunktion
+ScotApp_255,255unused
+ScotApp_155,Systemmeddelelse
+ScotApp_1011,Transporterer...
+ScotApp_869,"Indtast autorisationsnummeret og tryk på ""Indtast""."
+ScotApp_955,Smart Scale Enable fejlede
+ScotApp_855,Monteringsomkostning:
+ScotApp_23,+ %s (%s)
+ScotApp_1766,Scanner/vægtfejl.
+ScotApp_1280,KONTANTER
+ScotApp_1335,Kassen lukket
+ScotApp_1497,Se modulets manual for at afhjælpe fejlen.
+ScotApp_728,728unused
+ScotApp_628,Kasse nr.: %d
+ScotApp_528,528unused
+ScotApp_428,Gul
+ScotApp_328,"Gav ikke kunden penge retur %s.\n* Tjek mønt- og seddelreturmoduler.\n* Hvis de er tomme, skal de fyldes.\n* Hvis de ikke er tomme, skal blokeringen ryddes.\n* Tryk på ""Jeg afhjalp problemet""."
+ScotApp_228,Kortlæsers lukkemekanisme kan ikke åbne
+ScotApp_128,128unused
+ScotApp_1690,Tilkald venligst service
+ScotApp_281,281unused
+ScotApp_181,"\nBrug tastaturet til at indtaste værdibonens værdi i øre og tryk på ""OK""."
+ScotApp_928,Gå til kassen og tjek modulet.
+ScotApp_828,828unused
+ScotApp_1033,"Deaktivér vare eller fjern hårdt mærke ved kassen og tryk på ""Ryd sikkerhed""."
+ScotApp_1496,Se modulets manual for at afhjælpe fejlen.
+ScotApp_680,680unused
+ScotApp_580,Forsøgte at annullere varen før dens værdibon blev annulleret.
+ScotApp_380,380unused
+ScotApp_280,Ryd sikkerhedslog
+ScotApp_180,Læg værdibonerne til side for nu.\nAflevér dem ved købets afslutning.
+ScotApp_1364,Micr
+ScotApp_980,Timer udløbet uden kunderespons
+ScotApp_880,880unused
+ScotApp_970,970unused
+ScotApp_1104,e=d=0.01 lb Max 30.00 lb min 0.2 lb Nmax 3000
+ScotApp_1032,Vare med EAS-mærke stadig aktiv.
+ScotApp_1286,Dansk
+ScotApp_1462,Beholdere
+ScotApp_1298,Operatørassisterede funktioner
+ScotApp_1031,Scan dine værdiboner.
+ScotApp_1482,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1706,"Enhed ikke klar.\n* Luk alle andre applikationer, der kan have adgang til enheden og tryk på ""Jeg afhjalp problemet"".\n* Hvis fejlen genopstår, skal du ringe til Gunnebo for service."
+ScotApp_1399, Ekspedient
+ScotApp_1494,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1672,Fejl i møntgenbrugsmodul
+ScotApp_573,"Indtast din bruger-id og tryk på ""Indtast""."
+ScotApp_173,173unused
+ScotApp_775,Velkommen til NCR SelfServ Checkout! Vi håber du får en god shopping-oplevelse!
+ScotApp_675,Møntreturmodul genpåfyldt
+ScotApp_1481,Se modulets manual for at afhjælpe fejlen.
+ScotApp_79,79unused
+ScotApp_69,69unused
+ScotApp_59,Prøv igen
+ScotApp_39,Annullér transaktion
+ScotApp_29,Varer med begrænsning
+ScotApp_19,Skat
+ScotApp_975,975unused
+ScotApp_603,Redigér/Tilføj vægtindtastning
+ScotApp_99,"Kvantitet, der skal annulleres"
+ScotApp_89,89unused
+ScotApp_303,Annullér vare
+ScotApp_203,203unused
+ScotApp_103,Indtast varens kode.
+ScotApp_1889,Sikkerhedstillidsniveau
+ScotApp_1443,"Indsæt mønter for at genpåfylde eller tryk på ""Fjern kontanter"" for at tage dem ud."
+ScotApp_903,Varen er fjernet fra pakkehylden.
+ScotApp_803,803unused
+ScotApp_1555,Returmodul
+ScotApp_1037,Underskrift
+ScotApp_1480,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1263,USERDEFINED5
+ScotApp_1697,Ryddet blokering
+ScotApp_748,748unused
+ScotApp_648,UPC
+ScotApp_548,548unused
+ScotApp_448,Din kundekonto er blevet aktiveret.
+ScotApp_348,348unused
+ScotApp_248,248unused
+ScotApp_148,148unused
+ScotApp_1479,Se modulets manual for at afhjælpe fejlen.
+ScotApp_948,\n* Fjernhjælp
+ScotApp_848,Du skal angive kvantitet:
+ScotApp_485,Underskrift nødvendig
+ScotApp_1036,Vare med EAS-mærke aktiv
+ScotApp_1487,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1499,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1023,1023unused
+ScotApp_1179,TIMER FOR GÅ VÆK UDLØBET
+ScotApp_1035,Vare med EAS-mærke aktiv
+ScotApp_1682,Fejl i den generelle seddelaflæser
+ScotApp_1486,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1144,Returmodulet reagerer ikke.
+ScotApp_866,Ja
+ScotApp_1498,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1384,Sprog
+ScotApp_1743,"Indtast din bruger-id og tryk på ""Indtast"" eller anbring din finger på fingeraftrykslæseren for at logge på."
+ScotApp_1319,VÆRDIBEVIS
+ScotApp_1178,TÆRSKEL FOR FÆRDIG MED AT FJERNE OVERSKREDET
+ScotApp_1001,Vare ikke fundet
+ScotApp_1034,1034unused
+ScotApp_1485,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1068,1068unused
+ScotApp_1694,"Substitution anvendes, da %sTryk på ""Kontanter / Papirstatus"" for at genpåfylde eller rydde blokering."
+ScotApp_1165,"Træk printeren forsigtigt fremad, indtil den låser sig på plads.\n\nLuk og lås printerkabinettets dør."
+ScotApp_1021,Bemærk
+ScotApp_1230,NEGATIV AFD.
+ScotApp_1484,Se modulets manual for at afhjælpe fejlen.
+ScotApp_912,Godkend & opdatér vægt
+ScotApp_723,723unused
+ScotApp_623,"Indtast tolerance vha. tastaturet og tryk på ""Indtast""."
+ScotApp_523,Kort afvist
+ScotApp_423,Betal med kort. Tjek kurven for flere varer.
+ScotApp_323,  %d Stk. à %d/%s
+ScotApp_223,Kortlæserbeholder fuld
+ScotApp_123,123unused
+ScotApp_1020,Scan varer
+ScotApp_923,923unused
+ScotApp_823,Annulleringsgodkendelse
+ScotApp_1483,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1237,VÆRDIBON
+ScotApp_1680,Uoprettelig fejl. Luk kassen. Tilkald Gunnebo og videregiv fejloplysningerne vist nedenfor. SafePay-fejl: %s
+ScotApp_702,702unused
+ScotApp_602,Redigér/Tilføj \nvægtindtastning
+ScotApp_502,Læg annulleret vare til side.
+ScotApp_402,Ikke til stede
+ScotApp_302,Indtast din PIN-kode på betalingsmodulet.
+ScotApp_202,Tester logoff...
+ScotApp_102,Tilbagekaldt vare
+ScotApp_1722,"Kasse befinder sig i træningstilstand, skal transaktionen fortsættes?"
+ScotApp_902,Varen er fjernet fra pakkehylden.  Returnér varen.
+ScotApp_802,"\nVil du købe en hel kasse %s?\n\nVælg ""Ja"" eller ""Nej""."
+ScotApp_568,Ryd
+ScotApp_468,   Tilbagekaldt
+ScotApp_368,Blokering pga. manglende printerpapir
+ScotApp_268,Fejllæsning af kortet
+ScotApp_1027,"Tryk på ""Ja"" for at annullere transaktionen eller på ""Nej"" for at genoptage transaktionen."
+ScotApp_1354,Tag imod gavekort
+ScotApp_968,968unused
+ScotApp_868,Indtastning af autorisationsnummer:
+ScotApp_1433,på pakkevægten.
+ScotApp_1687,"Brug skærmen ""Kontanter / Papirstatus"" til at indsætte kontanter."
+ScotApp_1150,Printerkabinettets dør er åben.
+ScotApp_1699,"Substitution anvendes, da %sGenpåfyld eller ryd blokering og tryk dernæst på ""Tilstand afhjulpet""."
+ScotApp_1259,USERDEFINED1
+ScotApp_1223,KONTANTER / PAPIRMANGEL
+ScotApp_1379,pris pr. stk.
+ScotApp_1432,<<<Lav seddelbeholdning. Genpåfyld venligst.>>>
+ScotApp_1686,Uoprettelig fejl. Luk kassen. Tilkald Gunnebo og videregiv fejloplysningerne vist nedenfor. SafePay-fejl: %s
+ScotApp_1157,"Seddelreturmodulets dør kan være åben.\n\nSeddelreturmodulet virker ikke, når adgangsdøren er åben.\n\nLuk og lås modulets dør eller pengeskabsdøren helt."
+ScotApp_1013,For mange varer på båndet
+ScotApp_1184,FLERE DATA
+ScotApp_1848,"Vare slettet. Scan næste vare eller tryk på ""Tast koden""."
+ScotApp_1169,"Åbn printerkabinettets dør.\n* Træk printeren forsigtigt fremad, indtil den låser sig på plads.\n* Luk og lås printerkabinettets dør."
+ScotApp_1662,Andre kvitteringer
+ScotApp_1311,"* Fjern seddelacceptoren.\n* Åbn acceptormodulet.\n* Tjek for papirstop og sæt så modulet på plads igen.\n* Tjek, at seddelacceptorens motor tænder og at lysdioden er grøn."
+ScotApp_1025,Fjern alle varer fra båndet og luk sikkerhedsdækslet.
+ScotApp_1378,vægt
+ScotApp_22,Ingen\nkontanter\ntilbage\n+ 0          \n(%s)
+ScotApp_1234,KVANTITET BEGRÆNSET
+ScotApp_1685,Fejl i den generelle møntenhed
+ScotApp_1156,"Tjek, at møntreturmodulets afbryder er tændt."
+ScotApp_1012,Din vare bliver transporteret.
+ScotApp_1365,Magnetkortlæser
+ScotApp_1235,VARE MED EAS-MÆRKE AKTIV
+ScotApp_1221,AUDACTION
+ScotApp_1143,Møntbeholdningen er lav eller møntmagasinet er ikke til stede.
+ScotApp_434,Ydelsestype
+ScotApp_1625,"Indsæt mønter for at genpåfylde eller tryk på ""Fjern mønter"" for at tage dem ud."
+ScotApp_1430,Tilbagefør vare
+ScotApp_1684,Fejl i møntgenbrugsmodul
+ScotApp_1155,Modulet er offline.
+ScotApp_834,Betalinger && kundeaftaler:
+ScotApp_799,Tjek kurv
+ScotApp_699,Usælgelig vare
+ScotApp_599,Nulstiller Forms Device...
+ScotApp_499,499unused
+ScotApp_399,399unused
+ScotApp_299,299unused
+ScotApp_199,User Exits indlæst.
+ScotApp_743,743unused
+ScotApp_643,Vare slettet. Scan næste vare.
+ScotApp_543,Operatør-id kan ikke være længere end %d cifre.
+ScotApp_343,343unused
+ScotApp_243,Ugyldigt kort i kortlæser
+ScotApp_999,Grænse overskredet
+ScotApp_899,Godkend annullering af
+ScotApp_1220,EFT
+ScotApp_1142,Fejl ved møntreturmodul
+ScotApp_943,Jeg bruger min egen pose
+ScotApp_843,843unused
+ScotApp_1437,"""Vare fjernet"" tærskel overskredet"
+ScotApp_1601,     Kortreturmoduls beholder er lav
+ScotApp_722,722unused
+ScotApp_622,Redigér tolerance for PLU
+ScotApp_522,Forkert PIN-kode
+ScotApp_422,422unused
+ScotApp_322,322unused
+ScotApp_222,"Printeranmodningsseksvens: Tjek printer eller event viewer for fejl og tryk dernæst på ""Jeg afhjalp problemet""."
+ScotApp_122,122unused
+ScotApp_1010,1010unused
+ScotApp_922,922unused
+ScotApp_822,Godkend annulleret vare
+ScotApp_1715,Godkendelse af afvisning af afbrydelse
+ScotApp_1227,TIDSBEGRÆNSET
+ScotApp_701,701unused
+ScotApp_601,601unused
+ScotApp_401,Betal med kort. Tjek kurven for flere varer.
+ScotApp_301,Indtast værdibons værdi
+ScotApp_201,Tester logon...
+ScotApp_101,Ukendt pris
+ScotApp_1633,Fejl i seddelgenbrugsmodul
+ScotApp_901,Ingen pakning godkendt.
+ScotApp_801,Køb kasse
+ScotApp_1824,Der blev ikke udfærdiget en elektronisk kvittering.
+ScotApp_1328,Dobbeltvægt
+ScotApp_1299,Start transaktion og indtast assistance
+ScotApp_1226,TILBAGEKALDT VARE
+ScotApp_1140,Blokering i seddelreturmodul.
+ScotApp_1579,Seddelacceptor
+ScotApp_1426,%s\nIs %d korrekt?
+ScotApp_1632,"Fjern seddellåget. Tjek kabel til seddelvalidator og prøv igen. Hvis fejlen opstår igen, skal du tilkalde service.\n\nSafePay-fejl: %s"
+ScotApp_1141,Gav ikke penge retur %s. FORSIGTIG: Seddel kan sidde fast øverst i seddelreturmodulet.
+ScotApp_1791,Kun kontanter
+ScotApp_1357,Tag imod gavekort
+ScotApp_763,763unused
+ScotApp_714,714unused
+ScotApp_614,Pakkeforstærkning
+ScotApp_514,514unused
+ScotApp_314,problem med beholder
+ScotApp_214,Kontrollerer debet
+ScotApp_114,Kan ikke annullere varen
+ScotApp_1369,Div.
+ScotApp_78,ATM (Ingen kontanter)
+ScotApp_1630,Fejl i seddelgenbrugsmodul
+ScotApp_58,OK
+ScotApp_48,48unused
+ScotApp_914,"Gå til kassen, fjern ekstra varer og tryk på ""Ryd sikkerhed""."
+ScotApp_1422,Håndholdt scanner
+ScotApp_18,I alt
+ScotApp_1147,Fejl i sikkerhedsvægten.
+ScotApp_1578,Samlet værdi:
+ScotApp_1022,Jeg vil ikke pakke denne vare
+ScotApp_98,98unused
+ScotApp_88,88unused
+ScotApp_1003,Tid begrænset
+ScotApp_1434,Aldersbegrænset
+ScotApp_1356,Modtag
+ScotApp_1212,ANDET
+ScotApp_1455,Ugyldigt nummer
+ScotApp_1713,Tryk på Godkend for afvisning af afbrydelse
+ScotApp_1565,Indtast indsætningsværdi for %s
+ScotApp_194,Device Manager ved at blive indlæst...
+ScotApp_1275,USERDEFINED17
+ScotApp_1146,Acceptor reagerer ikke.
+ScotApp_1303,Kundekort godkendt: nr.%s
+ScotApp_70,70unused
+ScotApp_60,Tilkald hjælp
+ScotApp_50,50unused
+ScotApp_40,Butiksaut.
+ScotApp_30,Annullerede varer
+ScotApp_20,20unused
+ScotApp_10,10unused
+ScotApp_1779,"Kan ikke annullere varen, indtil dens værdibon er annulleret. Annullér varens værdibon først."
+ScotApp_1211,STANDARD
+ScotApp_90,90unused
+ScotApp_80,80unused
+ScotApp_663,Fejl ved indtastning af PIN-kode
+ScotApp_463,Fjerngodkendelse slutter...
+ScotApp_363,\nBrug tastatur til at indtaste operatørens password.
+ScotApp_163,163unused
+ScotApp_1420,Annullér vare\n%s?
+ScotApp_1145,Fejl ved møntacceptor
+ScotApp_963,Annullér anmodning
+ScotApp_863,Indtastning af værdibons værdi
+ScotApp_1816,Mønter sidder fast eller døren er åben.
+ScotApp_1637,Problem med kabel
+ScotApp_742,742unused
+ScotApp_642,Vare tilføjet. Scan næste vare.
+ScotApp_542,Kan ikke oprette operatørstregkode.
+ScotApp_342,Typebeskrivelse
+ScotApp_242,Kortblokering i kortlæser
+ScotApp_142,Bekræft beløbet
+ScotApp_1210,SIDSTE VISNING
+ScotApp_942,942unused
+ScotApp_842,842unused
+ScotApp_1044,Operatørassisteret betaling
+ScotApp_1427,Ændr kvantitet for vare: \n%s
+ScotApp_721,721unused
+ScotApp_621,Standard
+ScotApp_1341,Volumenkontrol
+ScotApp_421,"Scan dine varer eller tryk på ""Start"" for at begynde."
+ScotApp_321,Verifikation af transaktion
+ScotApp_221,Luk og lås printerkabinettets dør.
+ScotApp_121,varer fra denne kasse.
+ScotApp_1636,Fejl i møntgenbrugsmodul
+ScotApp_921,Forventet vægt på sikkerhedsvægten.
+ScotApp_821,821unused
+ScotApp_600,Sikkerheds-vedligeholdelse
+ScotApp_500,500unused
+ScotApp_400,400unused
+ScotApp_1368,Sigcap
+ScotApp_200,Tester Transaction Broker...
+ScotApp_100,Du skal angive kvantitet
+ScotApp_1076,Bemærk
+ScotApp_1623,Overfør sedler til kassette til opsamling
+ScotApp_1340,Luk hele systemet ned
+ScotApp_1108,%s\t%s\t%s @ %s %s/%s\t%s
+ScotApp_1814,Påfyldningstragten er ude eller sidder ikke på plads.
+ScotApp_1758,Fejl i værdibonbeholder
+ScotApp_1635,"Tjek kabel til seddelgenbrugsmodul og prøv igen. Hvis fejlen opstår igen, skal du tilkalde service.\n\nSafePay-fejl: %s"
+ScotApp_1557,Returmodul-opsamling
+ScotApp_734,734unused
+ScotApp_634,634unused
+ScotApp_534,Tidsbegrænsede varer
+ScotApp_1413,Afslut venligst din transkation inden for det næste antal minutter. Der kan snart opstå en strømafbrydelse.
+ScotApp_334,Kortlæser intet kort-fejl
+ScotApp_234,"Fjern seddelkassetten.\n\nFjern sedlerne fra kassetten.\n\nSæt kassetten tilbage og sørg for, at den låser sig på plads.\n\nTræk i kassettens håndtag for at sikre, at låsen holder kassetten på plads."
+ScotApp_1569,Værdi
+ScotApp_1801,Betjeningsfunktion
+ScotApp_934,Vægtforøgning
+ScotApp_1622,Kassette
+ScotApp_768,Bekræftelse af parkering
+ScotApp_668,Underskriftsudskrift lykkedes.
+ScotApp_1347,Prøver at få forbindelse igen
+ScotApp_1778,Ryd sikkerhed
+ScotApp_168,Scan dine værdiboner og læg dem til side indtil købet er afsluttet.
+ScotApp_1203,GODKENDT DOKUMENT
+ScotApp_1634,Problem med kabel
+ScotApp_1556,Acceptoropsamling
+ScotApp_1412,Hjælpefunktioner
+ScotApp_1783,SIKKERHEDSLÅG ÅBENT
+ScotApp_1232,GODKENDT UNDERSKRIFT
+ScotApp_1568,Samlet sum:        %s
+ScotApp_1800,Vælg betjeningsfunktion
+ScotApp_1495,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1621,Lås seddelkassetten op
+ScotApp_1346,Kassen er offline og systemet prøver at få forbindelse.
+ScotApp_72,72unused
+ScotApp_62,Ja
+ScotApp_52,Annullér værdiboner
+ScotApp_42,Annullerede varer
+ScotApp_32,Fortsæt
+ScotApp_12,  %d Stk. à %s
+ScotApp_1411,Ændr kvantitet
+ScotApp_92,Velkommen!
+ScotApp_82,82unused
+ScotApp_1807,_ _ _
+ScotApp_1089,Slut på rapportperiode
+ScotApp_1620,Lås seddellåget op
+ScotApp_1345,Security Manager slutter...
+ScotApp_1819,Fejl ved acceptor i møntgenbrugsmodul
+ScotApp_762,762unused
+ScotApp_662,%
+ScotApp_1554,Acceptor
+ScotApp_462,Fjerngodkendelse indlæst.
+ScotApp_362,Indtast password
+ScotApp_262,262unused
+ScotApp_162,Scan dine varer og værdiboner.
+ScotApp_1410,Ændr pris
+ScotApp_962,"Tag imod annulleret vare ved kassen og tryk på ""godkend annullér""."
+ScotApp_862,Indtastning af værdibons værdi:
+ScotApp_1806,"\n* Tryk på ""Kun kort"" for at afslutte transaktionen og giv byttepenge til kunden manuelt."
+ScotApp_1088,1088unused
+ScotApp_1627,Fejl i mønt/seddel genbrugsmodul
+ScotApp_741,741unused
+ScotApp_641, Gns vægt   Approved    Tally     Tol.type     Tol.værdi     Date
+ScotApp_541,Udskriv operatørstregkode
+ScotApp_441,Bekræft beløbet
+ScotApp_341,341unused
+ScotApp_241,Device Manager uventet fejl
+ScotApp_141,Vælg korttype
+ScotApp_941,Annulleret vare
+ScotApp_841,Vareindtastning
+ScotApp_1873,1873unused
+ScotApp_25,Fødselsdato:
+ScotApp_720,720unused
+ScotApp_520,Ukendt vare
+ScotApp_420,420unused
+ScotApp_320,Gå tilbage
+ScotApp_220,* Åbn printerkabinettets dør.\n* Åbn printerlåget for at tjekke for papirstop.\n* Sæt ny rulle papir i printeren.\n* Luk og lås printerkabinettets dør.
+ScotApp_120,Transaktion annulleret. Fjern
+ScotApp_1626,Indsæt kontanter for at genpåfylde eller vælg en anden funktion.
+ScotApp_1423,Den håndholdte scanner forsøger at få forbindelse.
+ScotApp_920,Godkend/Ingen opdatering.
+ScotApp_820,Godkend annullér
+ScotApp_1757,"Tilføj en accent ved at trykke på knappen ""Accent"" nederst på skærmen og indtast bogstavet."
+ScotApp_1872,1872unused
+ScotApp_754,Foregående 7 dages sammendrag
+ScotApp_554,Indlæs ikke kortene nu.
+ScotApp_1613,Afvisningsbeholder
+ScotApp_354,Systemfunktioner
+ScotApp_254,Møntreturmodulet fejlfungerer.\nFyld møntreturmodulet eller\ntænd for strømmen eller\nfjern modulets blokering.
+ScotApp_154,Indlæser...
+ScotApp_1769,Indt. kode
+ScotApp_1240,KONTANTER
+ScotApp_954,Smart Scale Open fejlede
+ScotApp_854,Fem varer
+ScotApp_1547,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1403,"Stop og start NCR SelfServ Checkout programmet. Hvis der stadig er fejl, så kontakt help desk."
+ScotApp_545,Begrænset vare
+ScotApp_1559,Afslut
+ScotApp_1871,%s %s observeret
+ScotApp_1612,Korthåndtering
+ScotApp_1550,Se modulets manual for at afhjælpe fejlen.
+ScotApp_845,Scan yderligere varer:
+ScotApp_1564,Indtast indsætningstal for %s
+ScotApp_1768,Vægtenhed ikke understøttet.
+ScotApp_1272,USERDEFINED14
+ScotApp_1546,Se modulets manual for at afhjælpe fejlen.
+ScotApp_74,Godkend annulleringer
+ScotApp_64,Annullér valgt
+ScotApp_54,Annuller
+ScotApp_44,44unused
+ScotApp_34,34unused
+ScotApp_1558,Afslut & gem
+ScotApp_14,14unused
+ScotApp_1870,%s %s forventet
+ScotApp_1389,Underskriftslæserfejl
+ScotApp_1611,     Afvisningsbeholder er fuld
+ScotApp_94,94unused
+ScotApp_84,Indlæs funktioner
+ScotApp_1289,B - C
+ScotApp_687,Udskriv rapport
+ScotApp_587,Underskrift
+ScotApp_487,Ned
+ScotApp_387,Transport blokering
+ScotApp_287,Scanner: Ugyldigt mærke
+ScotApp_1545,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1336,Værktøjer
+ScotApp_987,Fjern varen fra båndet. Returnér varen.
+ScotApp_887,Varen fjernet
+ScotApp_555,Anden betaling
+ScotApp_1610,     Afvisningsbeholder er næsten fuld (%s) 
+ScotApp_1041,Godkend underskrift
+ScotApp_1691,Kontanthåndtering
+ScotApp_1809,Fejl ved returmønter i møntgenbrugsmodul
+ScotApp_1288,A
+ScotApp_761,761unused
+ScotApp_1193,VERIFICERET IDENTITET
+ScotApp_561,Læg værdibonen til side
+ScotApp_461,Fjerngodkendelse er ved at blive indlæst...
+ScotApp_361,Kassen lukket
+ScotApp_261,261unused
+ScotApp_961,"Fejl i vægtindlæringsdatabase: Tjek event viewer for fejl og tryk dernæst på ""Jeg afhjalp problemet""."
+ScotApp_861,861unused
+ScotApp_1876,%s %s observeret
+ScotApp_740,740unused
+ScotApp_640,Eksisterende vægtindtastninger i vægtindl-db
+ScotApp_540,540unused
+ScotApp_340,Vælg varen fra listen. Brug piletasterne til at bladre op og ned.
+ScotApp_240,Device Manager generel fejl
+ScotApp_140,Mange tak!
+ScotApp_1105,"e=d=0,005kg Maks 13,995kg min 0,1kg Nmax 2799"
+ScotApp_1192,MONTERINGSOMKOSTNING
+ScotApp_940,Annullér
+ScotApp_840,Vareindtastning:
+ScotApp_1863,"Tryk på “Godkend"" eller ""Annullér vare"""
+ScotApp_1463,Ændring i værdi
+ScotApp_1875,%s %s forventet
+ScotApp_774,Optjente point:
+ScotApp_674,"""Betaling afvist, grund: """
+ScotApp_780,780unused
+ScotApp_474,474unused
+ScotApp_374,"Printer, fejl med sorte mærker"
+ScotApp_174,Kan ikke finde den indscannede vare. Den er endnu ikke blevet købt eller den er allerede blevet annulleret.
+ScotApp_1029,Indsæt værdibon
+ScotApp_974,974unused
+ScotApp_1679,Fejl i seddelbibliotek
+ScotApp_1747,Fejl ved fingertryksaflæser
+ScotApp_1862,Bekræft vare på scannervægten.
+ScotApp_1603,     Kortreturmoduls beholder er normal
+ScotApp_1419,Multipakke
+ScotApp_1759,Værdibonbeholder fuld
+ScotApp_649,Pris indlejret
+ScotApp_1039,Tidligere varer har EAS-mærke(r).
+ScotApp_849,Du skal angive kvantitet
+ScotApp_765,765unused
+ScotApp_565,Log på butikken
+ScotApp_1549,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1861,PICKLIST
+ScotApp_1731,PL-billeder indlæses…
+ScotApp_76,76unused
+ScotApp_66,66unused
+ScotApp_56,Annullér betaling
+ScotApp_46,Hjælp
+ScotApp_36,Tilbagebetalt:
+ScotApp_26,26unused
+ScotApp_16,%s vil blive debiteret på dit kort.
+ScotApp_719,719unused
+ScotApp_619,Vælg <indtast tolerance> eller <Standard> for at redigere nuværende tolerance.
+ScotApp_519,Værdibon for høj
+ScotApp_419,419unused
+ScotApp_319,Betal med kort
+ScotApp_219,219unused
+ScotApp_119,Annullér alle varer
+ScotApp_96,96unused
+ScotApp_86,86unused
+ScotApp_1755,Vælg fra liste
+ScotApp_1038,Verificér underskrift
+ScotApp_919,"Verificér varens vægt og tryk på ""Godkend & opdatér vægt"" eller tryk på ""Godkend/Ingen opdatering""."
+ScotApp_1489,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1745,Fingeraftrykmodulet er afbrudt.\n\nPrøv igen.
+ScotApp_1860,Please select from picklist assisted items or look-up item alphabetically.
+ScotApp_1268,USERDEFINED10
+ScotApp_1008,1008unused
+ScotApp_786,Parkeret
+ScotApp_686,I går
+ScotApp_586,Værdiboner: %0.Gammel/$%0.2lf
+ScotApp_486,Op
+ScotApp_386,Kassette fjernet
+ScotApp_286,Scanner: Ugyldigt mærkepræfiks2
+ScotApp_186,186unused
+ScotApp_1488,Se modulets manual for at afhjælpe fejlen.
+ScotApp_986,986unused
+ScotApp_886,Varen er fjernet fra pakkehylden.\nReturnér varen.
+ScotApp_1393,"Stop og start NCR SelfServ Checkout programmet. Hvis der stadig er fejl, så kontakt help desk."
+ScotApp_1867,Kameravisning blokeret
+ScotApp_68,68unused
+ScotApp_38,38unused
+ScotApp_28,Annullér køb
+ScotApp_1024,1024unused
+ScotApp_760,Indlæs kortet på siden af denne monitor.
+ScotApp_660,Alle valutaniveauer er normal
+ScotApp_460,Dette vil afslutte dit køb.
+ScotApp_360,Luk kasse
+ScotApp_260,260unused
+ScotApp_1392,Trelys-fejl
+ScotApp_960,\nMaksimum vægttilladelse overskredet.\n\nFjern varer fra pakkevægten.
+ScotApp_860,Mål nødvendige:
+ScotApp_1866,Mere populær
+ScotApp_1459,Kontanthåndteringsrapport
+ScotApp_1239,INGEN
+ScotApp_1301,Redigér PickList
+ScotApp_1749,Behandler fingeraftryk
+ScotApp_1017,Fjern nogle af varerne på båndet.
+ScotApp_1771,Couponværdi-Limit
+ScotApp_739,739unused
+ScotApp_639,Vægt forventet Vægt sammenligning
+ScotApp_539,539unused
+ScotApp_439,439unused
+ScotApp_339,339unused
+ScotApp_239,Device Manager uventet status
+ScotApp_1092,Rapportindhold
+ScotApp_1851,Godkend ikke
+ScotApp_1238,ANDEN BETALING
+ScotApp_939,Timer udløbet
+ScotApp_839,Annullér handling
+ScotApp_1333,Backspace
+ScotApp_24,Annulleret
+ScotApp_1016,For mange varer på båndet.
+ScotApp_1615,Tryk på knappen returmodulopsamling for at udtage
+ScotApp_1723,Træningstrans
+ScotApp_1028,Værdibons tærskel overskredet
+ScotApp_1435,Fejl ved mønt\seddelreturmodulet
+ScotApp_1698,"Tryk på ""Tilstand afhjulpet""."
+ScotApp_1688,Kassettefejl
+ScotApp_454,454unused
+ScotApp_1593,Fjern mønter
+ScotApp_1642,Fejl i seddelgenbrugsmodul
+ScotApp_1015,For mange varer på båndet
+ScotApp_785,785unused
+ScotApp_685,Pr. time
+ScotApp_585,585unused
+ScotApp_536,Møntacceptor
+ScotApp_385,385unused
+ScotApp_285,Scanner: Ugyldigt mærkesuffiks
+ScotApp_185,Sammenlign kundens underskrift med den på kortet.
+ScotApp_1224,PRIS NØDVENDIG
+ScotApp_985,Læg varen på båndet.
+ScotApp_885,Pakkealarm
+ScotApp_575,"Afslut kontantbetaling. Beløb, der skal betales."
+ScotApp_475,Parkér transaktion
+ScotApp_375,Printer timeout
+ScotApp_1002,Intet salg
+ScotApp_1888,"Overvåg kundetransaktion mht. sikkerhed og tryk på ""Ryd sikkerhed""."
+ScotApp_910,910unused
+ScotApp_1592,"Fjern mønter fra den blokerede beholder. Vip beholderen. Drej skruen til højre, indtil mønten kan fjernes. Brug ikke overdreven tvang."
+ScotApp_875,Overordnet kasseekspedients id til annullering af køb
+ScotApp_1014,Fjern nogle af varerne på båndet.
+ScotApp_1572,"Er du sikker på, at du ønsker at ignorere ændringer på mønthåndteringsskærmen?"
+ScotApp_1790,Kun kredit/Dankort
+ScotApp_1344,Security Manager indlæst.
+ScotApp_798,798unused
+ScotApp_698,698unused
+ScotApp_598,Form %d blev ikke gemt!
+ScotApp_498,Betalt beløb:
+ScotApp_398,Kassette indsat
+ScotApp_298,298unused
+ScotApp_198,User Exits ved at blive indlæst...
+ScotApp_998,Kvantitet
+ScotApp_898,WTINFO slutter...
+ScotApp_1416,Tjek vedr. multipakke
+ScotApp_1431,Tilbagefør alle
+ScotApp_1236,Behandler rapport...
+ScotApp_1770,Vælg fra søgeresultater.
+ScotApp_1000,Ikke fundet
+ScotApp_1439,"""Pose/kasse"" tærskel overskredet"
+ScotApp_1217,ANNULLÉR
+ScotApp_759,Indlæs kortet på betalingsmodulet.
+ScotApp_659,Valuta lav-status:
+ScotApp_559,Ingen værdiboner
+ScotApp_459,Der vil være et restbeløb efter dette køb.
+ScotApp_359,Systemfunktioner
+ScotApp_259,Device Manager slutter...
+ScotApp_1007,Hjælp påkrævet
+ScotApp_1438,"""Ny vare"" tærskel overskredet"
+ScotApp_959,Vægtindlæringsdatabase
+ScotApp_859,Nej
+ScotApp_1216,SIKKERHED
+ScotApp_1373,TAG IMOD GAVEKORT
+ScotApp_1005,Visuel validering
+ScotApp_1655,Salg på gruppen
+ScotApp_1228,PARKERET
+ScotApp_1725,Security Disabled
+ScotApp_1006,Anden betaling
+ScotApp_496,Antalsgrænse
+ScotApp_1018,År gammel minimum.
+ScotApp_1160,"Tjek, om kablet er tilsluttet bag på PinPad.\n\nHvis kablet er forsvarligt fastgjort, skal du trykke på ""Jeg afhjalp problemet"".\n\nHvis fejlen vedvarer, skal du lukke ned og genstarte terminalen."
+ScotApp_1073,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;DATANEEDEDTYPE=%d;
+ScotApp_1424,"Du skal trykke på ""Forbind"" for at forbinde din håndholdte scanner."
+ScotApp_1202,LUKKET KASSE
+ScotApp_679,Hjælp-rapporter
+ScotApp_1792,Kun kort
+ScotApp_1214,KVITTERING
+ScotApp_1804,Afslut kun kort-funktion
+ScotApp_879,879unused
+ScotApp_1072,Har brug for information
+ScotApp_1631,Fejl i seddelvalidator
+ScotApp_1148,Komponentfejl i sikkerhedsvægten.
+ScotApp_1244,DEBET OPSPARINGSKONTO
+ScotApp_1004,Bekræft vare
+ScotApp_1282,Skal bruge pris på
+ScotApp_1071,1071unused
+ScotApp_1276,USERDEFINED18
+ScotApp_1200,PRISANMODNING
+ScotApp_1639,Fejl i møntgenbrugsmodul
+ScotApp_1828,\n    - Volumenniveau %d%%
+ScotApp_1308,PIN-kode indtastet
+ScotApp_1417,"Hvis varen er en multipakke, skal du trykke på ""Assistance"" og annullere den og dernæst scanne multipakkestregkoden."
+ScotApp_1343,Security Manager ved at blive indlæst...
+ScotApp_779,779unused
+ScotApp_1429,<<<Lav møntbeholdning. Genpåfyld venligst.>>>
+ScotApp_579,579unused
+ScotApp_479,Indlevér værdiboner
+ScotApp_379,Kontantacceptor
+ScotApp_279,Anerkend alle registrerede sikkerhedsproblemer.
+ScotApp_179,179unused
+ScotApp_1865,Åbn vare\nuden vægt
+ScotApp_1207,VERIFICERET UNDERSKRIFT
+ScotApp_1638,"Tjek kablerne til møntgenbrugsmodul og prøv igen. Hvis fejlen opstår igen, skal du tilkalde service.\n\nSafePay-fejl: %s"
+ScotApp_979,Tærskel = %d kundeforespørgsler
+ScotApp_707,Foregående 7 dage
+ScotApp_607,Indstil pakkeforstærkning
+ScotApp_507,Verificér visuelt varerne
+ScotApp_307,Anden emballage
+ScotApp_207,207unused
+ScotApp_107,Hjælp på vej
+ScotApp_1219,ALDER BEGRÆNSET
+ScotApp_907,907unused
+ScotApp_807,Fjern alarmbrikker
+ScotApp_1077,Returnér varerne på båndet
+ScotApp_1428,Ændr prisen for vare: \n%s
+ScotApp_1695,Reparér senere
+ScotApp_1206,UDEAKTIVERET VARE
+ScotApp_1218,MODTAGELSE
+ScotApp_1782,START TRANS I HJÆLPETILSTAND
+ScotApp_1273,USERDEFINED15
+ScotApp_1624,Overfør alle sedler til kassetten
+ScotApp_793,793unused
+ScotApp_1059,1059unused
+ScotApp_593,NCR SelfServ Checkout SigCap ved at blive indlæst...
+ScotApp_493,Din kvittering bliver udskrevet under betalingsmodulet.
+ScotApp_393,Logprinter
+ScotApp_293,Anmodning om hjælp
+ScotApp_1205,FOR MANGE VARER I PAKKEOMRÅDET
+ScotApp_993,Kassen lukket
+ScotApp_893,DBM er ved at blive indlæst...
+ScotApp_1063,1063unused
+ScotApp_1414,"Denne kasse kan ikke bruges, før strømmen er tilbage."
+ScotApp_1182,BELØBSGRÆNSE FOR VÆRDIBON
+ScotApp_1201,ASSISTERET BETALING
+ScotApp_1075,Grænse\spring båndet over
+ScotApp_1348,Kassen lukket
+ScotApp_1671,Åbn seddelgenbrugsenheden og fjern sedler fra kassetten. Luk genbrugsenheden. Frigiv nogle mønter fra påfyldningstragten og fjern dem fra bøtten med byttepenge.
+ScotApp_1204,DOKUMENTNUMMER
+ScotApp_1284,1284unused
+ScotApp_1062,1062unused
+ScotApp_1233,ANDEN BETALING
+ScotApp_27,Dette er ikke muligt nu.
+ScotApp_1074,Godkendelse til at springe båndet over.
+ScotApp_1472,Kontantgenbrugsmodulet ikke klar
+ScotApp_1026,Ann. trans.
+ScotApp_1061,1061unused
+ScotApp_1617,Det indtastede beløb overskrider kapaciteten. Indtast indsætningstal for returmodulbeholderen igen. Maksimumkapacitet er %d.
+ScotApp_1050,1050unused
+ScotApp_744,744unused
+ScotApp_1591,Tjek kabelforbindelserne til møntreturmodulet
+ScotApp_1130,Fejl ved seddelacceptor
+ScotApp_1270,USERDEFINED12
+ScotApp_1629,Problem med CPU-indstillinger eller Sysdata-parametre.  Tilkald service. SafePay-fejl: %s
+ScotApp_1820,"Fjern varen fra vægten og tryk på knappen "">0<"" på scanneren."
+ScotApp_882,Bekræft parkering.
+ScotApp_1440,Seddelhåndtering
+ScotApp_1407,GENSTART
+ScotApp_727,727unused
+ScotApp_627,Transaktionsnr.:
+ScotApp_527,527unused
+ScotApp_427,Medium lav
+ScotApp_327,"Apparat offline, kontroller forbindelserne og/eller hændelsesprotokollen."
+ScotApp_227,Kortlæser ugyldigt kort indsat
+ScotApp_127,127unused
+ScotApp_665,"Vælg ""Annullér alle"" eller ""Gå tilbage"" for at fortsætte."
+ScotApp_1060,VENT VENLIGST...
+ScotApp_1616,"Indtast indsætningstal for returmodulbeholderen. Det maksimale beløb, du kan indsætte er %d."
+ScotApp_927,Fejlfunktion af modulet
+ScotApp_827,Før varens stregkode forbi aflæsningsvinduet og læg varen på pakkehylden.
+ScotApp_1540,Se modulets manual for at afhjælpe fejlen.
+ScotApp_900,Anbring varen på pakkehylden.
+ScotApp_1277,USERDEFINED19
+ScotApp_865,Verificér kortholder
+ScotApp_506,506unused
+ScotApp_406,406unused
+ScotApp_306,Ingen emballage
+ScotApp_206,Funktionerne vil blive indlæst.
+ScotApp_106,Hjælp nødvendig
+ScotApp_1209,GAVEKORTSGRÆNSE OVERSKREDET
+ScotApp_806,Godkend visuelle valideringsvarer
+ScotApp_1067,1067unused
+ScotApp_1418,Maksimum vægttilladelse overskredet.
+ScotApp_1473,"Enheden er ikke klar.\n\nTilslut strømmen, check kommunikationskablet eller skub enheden på plads."
+ScotApp_187,187unused
+ScotApp_1716,FV:
+ScotApp_1190,INDTASTET VÆRDIBON
+ScotApp_1602,     Kortreturmoduls beholder er lav (%s)
+ScotApp_1149,Fejl ved kvitteringsprinter
+ScotApp_1066,1066unused
+ScotApp_1614,Returmodulbeholder
+ScotApp_792,792unused
+ScotApp_692,692unused
+ScotApp_592,NCR SelfServ Checkout Encryptor indlæst.
+ScotApp_492,Tag dine byttepenge.
+ScotApp_392,Ukendte varer
+ScotApp_292,Kan ikke scanne værdibon
+ScotApp_192,192unused
+ScotApp_1241,KREDIT
+ScotApp_1197,ANNULLERET TRANSAKTION
+ScotApp_1548,Se modulets manual for at afhjælpe fejlen.
+ScotApp_992,Indtast fødselsdag
+ScotApp_892,Smart Scale slutter...
+ScotApp_1053,"Vent på, at kasseekspedienten giver dig papirssedlen til underskrift."
+ScotApp_1404,POS-serveren er nede eller usynkroniseret; luk terminalen ned vha. kontakten.
+ScotApp_1245,DEBET CHECKKONTO
+ScotApp_1262,USERDEFINED4
+ScotApp_1471,Fejl ved møntgenbrugsmodulet
+ScotApp_1196,KØREKORTSNUMMER
+ScotApp_1052,1052unused
+ScotApp_1600,Kortreturmodulstatus:
+ScotApp_1663,beholder er tom eller blokeret
+ScotApp_1261,USERDEFINED3
+ScotApp_1125,"Genpåfyld alle møntkanaler helt op i møntmagasinet.\nSkift til Butikstilstand, vælg ""Kontanter / Papirstatus"" og tryk på knappen ""Møntreturmodul genpåfyldt""."
+ScotApp_1183,PRISANMODNING
+ScotApp_1470,Fejl ved seddelgenbrugsmodulet
+ScotApp_1195,CSA PARKERET
+ScotApp_1229,TILKALDTE HJÆLP
+ScotApp_1051,Godkendelse af papirsseddel
+ScotApp_1607,     Afvisningsbeholder er normal (%s)
+ScotApp_1895,Genr Excp
+ScotApp_747,747unused
+ScotApp_647,N
+ScotApp_447,Din kundekonto er blevet aktiveret.
+ScotApp_347,Begrænset vare er blevet annulleret – aldersgrænse ikke opfyldt. Læg varen til side.
+ScotApp_247,247unused
+ScotApp_147,147unused
+ScotApp_1260,USERDEFINED2
+ScotApp_1619,Parker
+ScotApp_769,Bekræft eller annullér parkering.
+ScotApp_947,Ny vægtvare
+ScotApp_847,Scanning afsluttet
+ScotApp_1477,Se modulets manual for at afhjælpe fejlen.
+ScotApp_726,726unused
+ScotApp_626,Tolerance:
+ScotApp_526,\nForkert PIN-kode indtastet.\nIndsæt andet kort\n  –eller-\nbetal med kontanter
+ScotApp_426,Kasse nr.:
+ScotApp_326,Fødselsdato opfylder ikke aldersgrænsen for begrænsede varer.
+ScotApp_226,Kortlæsermodul fungerer ikke
+ScotApp_126,(mmddåå).
+ScotApp_1606,     Afvisningsbeholder er normal
+ScotApp_926,Varer ikke lagt tilbage på pakkehylden.
+ScotApp_826,Jeg vil ikke pakke\ndenne vare
+ScotApp_1267,USERDEFINED9
+ScotApp_1618,"En seddelreturkassette ude eller ikke helt indsat.\n\nInstallér eller anbring seddelkassetten således, at den er låst."
+ScotApp_1181,TÆRSKEL FOR VÆRDIBON OVERSKREDET
+ScotApp_205,Kopiering er færdig.
+ScotApp_105,Ukendt vare
+ScotApp_1476,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1730,Søgning
+ScotApp_1390,Læseren svarer ikke
+ScotApp_805,Godkend varer
+ScotApp_1864,Gå til kasse
+ScotApp_1408,HJÆLP
+ScotApp_1266,USERDEFINED8
+ScotApp_1180,INGEN PRISMATCH
+ScotApp_1208,SOLGT VHA. ASSISTANCE
+ScotApp_1475,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1397,Ekspedient
+ScotApp_1748,Fejl ved fingeraftrykslogin
+ScotApp_718,718unused
+ScotApp_618,Vægttolerance
+ScotApp_518,Betal med kontanter.
+ScotApp_1253,PINKODEENHED KUNDE
+ScotApp_1604,     Kortreturmoduls beholder er normal (%s)
+ScotApp_218,Printer næsten tom
+ScotApp_118,Du skal godkende
+ScotApp_552,Operatør og password kan ikke starte med nul.
+ScotApp_791,Vælg betalingsform.
+ScotApp_691,691unused
+ScotApp_591,NCR SelfServ Checkout Encryptor ved at blive indlæst...
+ScotApp_391,Varer uden pris
+ScotApp_918,Ingen optegnelse over varens vægt.
+ScotApp_1187,FEJL I MODUL
+ScotApp_991,Alderstjek
+ScotApp_891,Smart Scale indlæst.
+ScotApp_1474,Hardwarefejl. Fejlkode E%d
+ScotApp_1396,Afslut kasseekspedient-tilstand
+ScotApp_1252,PINKODEENHED DEBET KONTANTER TILBAGE
+ScotApp_1732,PL-billeder indlæst.
+ScotApp_1461,Mønter
+ScotApp_1166,"* Åbn printerkabinettets dør.\n* Lås op og skub printeren tilbage.\n* Åbn printerlåget for at tjekke for papirstop.\n* Luk printerlåget og sæt papir i.\n* Træk forsigtigt printeren fremad, indtil den låser sig på plads."
+ScotApp_1186,UVENTET REDUKTION
+ScotApp_1857,  Anbring ikke på båndet
+ScotApp_1829,Godkend
+ScotApp_1670,Fejl i mønt/seddel genbrugsmodul
+ScotApp_1198,INDTASTET KONTONUMMER
+ScotApp_1869,Hånd kan ses
+ScotApp_1251,PINKODEENHED DEBET
+ScotApp_1855,Valgfri
+ScotApp_767,Mediumniveau normal
+ScotApp_667,Kortet er registreret. Scan dine varer og værdiboner.
+ScotApp_567,Indtast
+ScotApp_467,467unused
+ScotApp_367,367unused
+ScotApp_267,Sikkerhed
+ScotApp_1460,Sedler
+ScotApp_1185,TÆRSKEL FOR PAK KASSE OVERSKREDET
+ScotApp_1009,Butikstilstand
+ScotApp_867,Nej
+ScotApp_1856,  Pak ikke
+ScotApp_1677,"Tjek, at møntgenbrugsmodulets dør er lukket."
+ScotApp_746,746unused
+ScotApp_646,J
+ScotApp_1394,Digital interfacefejl
+ScotApp_446,Parkér transaktion
+ScotApp_346,ATM (Kontanter tilbage)
+ScotApp_246,246unused
+ScotApp_146,Vælg din betalingstype.
+ScotApp_1501,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1609,     Afvisningsbeholder er næsten fuld
+ScotApp_1194,AUTORISATIONSNUMMER
+ScotApp_946,Pose/kassegodkendelse
+ScotApp_846,"Scan varer eller tryk på ""Scanning afsluttet""."
+ScotApp_1843,Eg. pose
+ScotApp_1467,"Brug skærmen ""Kontanter / Papirstatus"" til at tage kontanter ud."
+ScotApp_725,725unused
+ScotApp_625,Indtast en vægttolerance mellem <%s> og <%s>.
+ScotApp_1381,Behandling i gang...
+ScotApp_425,425unused
+ScotApp_325,Dato indtastet er ikke en gyldig dato
+ScotApp_225,Kortlæserbeholder indsat
+ScotApp_1676,Døren til møntgenbrugsmodulet åben
+ScotApp_925,925unused
+ScotApp_825,Pak varen
+ScotApp_1608,     Afvisningsbeholder er tom
+ScotApp_1842,Fuld assistance
+ScotApp_1808,Vælg vare på bon.
+ScotApp_1466,Kontantgenbrugsmodulets status fuld
+ScotApp_1380,pris
+ScotApp_1854,Valgfri
+ScotApp_1675,Fejl i møntgenbrugsmodul
+ScotApp_1597,Kundekort
+ScotApp_1350,%s\n%s %s tilføjet
+ScotApp_738,738unused
+ScotApp_638,Effektiv toleranceinfo om vægtindl-db
+ScotApp_538,538unused
+ScotApp_338,Indtast de første tre bogstaver af varens beskrivelse.
+ScotApp_238,\nKontantacceptor loggede ikke indførte kontanter.\n\nKontrollér seddelkassetten.
+ScotApp_138,Tag dit kort
+ScotApp_1170,"* Åbn printerlåget og tjek for papirstop i det viste område. \n* Fjern papir.\n* Luk printerlåget og sæt papir i igen.\n* Hvis fejlen vedvarer, genstartes terminalen."
+ScotApp_1841,Gå hen til kassen for godkendelse
+ScotApp_1740,Verificér pose
+ScotApp_938,938unused
+ScotApp_838,Kundeaftale
+ScotApp_1133,Blokering i seddelacceptor.
+ScotApp_1387,"Fatal softwarefejl opstået.\nGenstart terminal.\n\nSådan genstartes terminalen:\n* Drej supervisors nøglelås til 'S' -ELLER- tryk på knappen supervisor.\n* Vælg genstart hele systemet.\n* Tilkald support og underret dem om fejlen."
+ScotApp_1674,Tryk på afvisningsknappen for at udløse de blokerede mønter. Hvis fejlen genopstår kan det dreje sig om et møntstop. Åbn møntlåget og fastgør det. Fjern eventuelle blokerede mønter. Tryk på afvisningsknappen for at nulstille modulet. Giv slip og luk for møntlåget.
+ScotApp_1650,(ddmmåå)
+ScotApp_690,690unused
+ScotApp_590,Device Factory slutter...
+ScotApp_490,"Scan dine varer eller tryk på ""Start"" for at begynde."
+ScotApp_390,Tilbagekaldt varer
+ScotApp_290,290unused
+ScotApp_190,Transaction Broker ved at blive indlæst...
+ScotApp_990,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_890,Smart Scale er ved at blive indlæst...
+ScotApp_1772,VÆRDIBON
+ScotApp_1661,"Ude af stand til at udskrive kvittering. Tryk på ""Andre kvitteringer"" for at prøve igen."
+ScotApp_1132,Kommunikationsfejl.
+ScotApp_1386,Fatal fejl
+ScotApp_784,Seddelreturmodul fungerer ikke\n* Fyld seddelreturmodulet eller\n* fjern blokeringen eller\n* justér beholderen.
+ScotApp_684,I dag
+ScotApp_584,EBT afvist.
+ScotApp_484,Underskrift nødvendig
+ScotApp_384,384unused
+ScotApp_284,Scanner: Data tabt
+ScotApp_1595,Foretrukket sprog
+ScotApp_1451,Kasseekspedient-id
+ScotApp_984,Båndet indlæst.
+ScotApp_884,Annullér parkering
+ScotApp_1847,"Vare tilføjet. SScan næste vare eller tryk på ""Tast koden""."
+ScotApp_1660,Vælg udskriftsmulighed
+ScotApp_1131,Seddelkassette er ude eller ikke indsat korrekt.
+ScotApp_1385,Vælg sprog
+ScotApp_1436,"""Spring pakning over"" tærskel overskredet"
+ScotApp_1049,1049unused
+ScotApp_666,666unused
+ScotApp_1594,Luk terminalen korrekt ned og genstart den.
+ScotApp_466,   Scannet ukendt vare
+ScotApp_366,Blokering i printerkniv
+ScotApp_266,Sec.Agent slutter...
+ScotApp_966,966unused
+ScotApp_1541,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1846,"Scan vare eller tryk på ""Tast koden""."
+ScotApp_1667,Seddelblokering
+ScotApp_1689,Fejl i seddelgenbrugsmodul
+ScotApp_745,745unused
+ScotApp_645,Læg den scannede vare på pakkehylden igen.
+ScotApp_1581,Møntreturmodul
+ScotApp_445,Kontantydelse
+ScotApp_345,345unused
+ScotApp_245,Kortlæsermodul fungerer ikke
+ScotApp_145,145unused
+ScotApp_945,Grænse\pose/kasse
+ScotApp_713,713unused
+ScotApp_613,Læg varen på pakkevægten.
+ScotApp_513,513unused
+ScotApp_313,313unused
+ScotApp_213,213unused
+ScotApp_113,Annullér vare
+ScotApp_1573,Tryk på indsætningsknapperne for at genpåfylde eller tryk på knapperne acceptor-opsamling og returmodul-opsamling for at udtage.
+ScotApp_913,Uventet vare på sikkerhedsvægten.
+ScotApp_813,"Indtast PO-nr./jobnavn og tryk på ""Indtast""."
+ScotApp_1666,Fejl i seddelgenbrugsmodul
+ScotApp_1137,%s Seddelkassette er ikke installeret.
+ScotApp_1580,Seddelreturmodul
+ScotApp_758,758unused
+ScotApp_658,valuta er lav
+ScotApp_558,Kvantitetsbegrænset vare
+ScotApp_1653,"Bel?bet overstiger kapaciteten, som er\n%s. %s er registreret automatisk."
+ScotApp_358,Vend tilbage til Assistance
+ScotApp_258,Transaction Broker slutter...
+ScotApp_158,Denne vare kræver butikkens godkendelse. Fortsæt venligst.
+ScotApp_1844,Søgning
+ScotApp_958,Pakkevægt
+ScotApp_858,Ja
+ScotApp_1136,Seddelafvisningsbeholder er ude eller ikke låst helt.
+ScotApp_1587,"Er du sikker på, at du ønsker at ignorere ændringer på seddelhåndteringsskærmen?"
+ScotApp_1531,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1599,%s præferencesøgning fejlede.
+ScotApp_1652,(ååmmdd)
+ScotApp_1123,"* Fortsæt IKKE før alle fastsiddende sedler er fjernet.\n* Træk forsigtigt seddelreturmodulet ud af kabinettet.\n* Fjern fastsiddende sedler øverst i modulet uden at forstyrre remmene.\n* Skub møntreturmodulet tilbage i kabinettet.\n*  Lås dør og tryk dernæst på ""Jeg afhjalp problemet""."
+ScotApp_1342,Vælg Værktøjer
+ScotApp_1332,Mellemrum
+ScotApp_1586,%s    %s  %s
+ScotApp_1444,Fjern
+ScotApp_1598,Præferencer aktiveret.
+ScotApp_1651,(ååååmmdd)
+ScotApp_1122,Seddel kan sidde fast ved seddelreturmodulets udgang.\n\nTræk seddelreturmodulet delvist ud af kabinettet.\n\nFjern eventuelle fastsiddende sedler i det viste område.\nSkub seddelreturmodulet forsigtigt tilbage i kabinettet.
+ScotApp_1331,Shift
+ScotApp_1585,Behl.             Værdi   Ændr. i værdi
+ScotApp_1118,Problem med at give %s sedler tilbage.\n\n%s sedler kunne ikke fås fra seddelkassetten.\n\nFjern %s seddelkassetten og tjek sedlernes tilstand.
+ScotApp_1884,Smart Assist-alarm
+ScotApp_1191,MÅL NØDVENDIG
+ScotApp_1121,Seddel kan sidde fast i det viste område.\n\nTræk seddelreturmodulet delvist ud af kabinettet.\n\nFjern fastsiddende sedler.\n\nSkub forsigtigt seddelreturmodulet tilbage i kabinettet.
+ScotApp_503,503unused
+ScotApp_403,403unused
+ScotApp_1849,
+ScotApp_1330,Vare ikke pakket
+ScotApp_1355,Din saldo
+ScotApp_1584,Behl.             Antal   Ændr. i antal
+ScotApp_465,%s               %s
+ScotApp_365,Blokering i printerhoved
+ScotApp_265,265unused
+ScotApp_965,965unused
+ScotApp_633,Underskrift:
+ScotApp_433,433unused
+ScotApp_333,Kortlæsers lukkemekanisme blokeringsfejl
+ScotApp_233,"Sørg for, at seddelacceptoren er installeret korrekt.\n\nTræk håndtaget fremad for at frigøre den og skub seddelacceptoren fremad.\n\nSkub seddelacceptoren tilbage, indtil den stopper."
+ScotApp_133,133unused
+ScotApp_1120,"En seddelblokering kan være til stede foran %s seddelkassetten.\n\nFjern %s kassette og se efter en seddelblokering i dette område.\n\nFjern om muligt sedler, der sidder fast, og sæt seddelkassetten tilbage."
+ScotApp_1805,Afslut kun kontanter-funktion
+ScotApp_933,Vægt matcher ikke
+ScotApp_833,833unused
+ScotApp_1337,Afslut SelfServ Checkout
+ScotApp_1780,START TRANSAKTION
+ScotApp_712,712unused
+ScotApp_612,Tilføj vægt
+ScotApp_512,Visuelle valideringer
+ScotApp_312,beholder er blokeret
+ScotApp_212,212unused
+ScotApp_112,Bekræft kvantitet
+ScotApp_1081,Vis\nalle kasser
+ScotApp_778,778unused
+ScotApp_678,678unused
+ScotApp_578,Afslut kortbetaling.  Byttepenge.
+ScotApp_478,Indlevér værdiboner.
+ScotApp_378,"Kvittering, printer"
+ScotApp_278,Sikkerhedslog
+ScotApp_1127,ReConnect
+ScotApp_1802,Acceptér kun kort
+ScotApp_978,Tærskel = %d
+ScotApp_878,Indtast pris.
+ScotApp_1533,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1787,"Indtast antallet af plastikposer, som du brugte eller 0 hvis der ikke blev brugt nogen poser."
+ScotApp_1799,Kun kort-funktion
+ScotApp_1309,"* Indsæt kassetten indtil den låser.\n* Tjek, at seddelacceptorens motor tænder kortvarigt."
+ScotApp_1323,Vægt forbliver
+ScotApp_1079,Anbring scannet vare på båndet igen.
+ScotApp_1382,(Std)
+ScotApp_1532,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1786,Plastikposepris
+ScotApp_1094,Udskriv underskrifter
+ScotApp_1113,%s @ %s/%s\t%s
+ScotApp_1798,Kun kontanter-funktion
+ScotApp_1322,Fejl ved værdibonsensor\nKommunikationsfejl.
+ScotApp_1078,Vælg indstilling for vægtforventning. (Kunde bør lægge varen på båndet).
+ScotApp_1334,  Vare ikke på båndet
+ScotApp_1785,Ugyldigt login. Log venligst på igen vha. tastaturet eller dit fingeraftryk.
+ScotApp_1046,Tag %s med til ekspedienten ved kassen.
+ScotApp_1696,Tilstand afhjulpet
+ScotApp_1112,%s @ %s %s/%s\t%s
+ScotApp_1158,Fejl ved PinPad /EFT-modul
+ScotApp_1065,1065unused
+ScotApp_1321,"Afslut betaling med værdibevis.  Beløb, der skal betales."
+ScotApp_764,764unused
+ScotApp_1530,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1784,FLERPAKSVARE
+ScotApp_1070,1070unused
+ScotApp_49,49unused
+ScotApp_1111,  %s Stk. à %s/%s\t%s
+ScotApp_753,I går pr. Time
+ScotApp_653,"Indtast værdibonens værdi i øre og tryk på ""Indtast""."
+ScotApp_453,Møntacceptorstatus fuld
+ScotApp_353,Gå tilbage
+ScotApp_253,253unused
+ScotApp_153,153unused
+ScotApp_1320,Begynd betaling med værdibevis.
+ScotApp_953,"Luk ned og genstart terminalen:\n* Drej supervisor nøglelås til ""S"" -ELLER- tryk på supervisor-knappen.\n* Vælg ""Kør ADD ved næste genstart"". Vælg ""Ja"" for at bekræfte.\n* Vælg ""Luk hele systemet"".\n* Når skærmen bliver blank, skal du slukke for terminalen på UPS'en eller på multistikdåsen.\n* Tænd for terminalen. Tjek event viewer. Hvis fejlen vender tilbage, skal du ringe til serviceafdelingen."
+ScotApp_853,Fire varer
+ScotApp_1845,Kvittering
+ScotApp_1537,Se modulets manual for at afhjælpe fejlen.
+ScotApp_732,732unused
+ScotApp_632,632unused
+ScotApp_532,Begrænset vare
+ScotApp_432,EBT
+ScotApp_332,Afslutter assistance
+ScotApp_232,"* Fjern seddelacceptor og kassette.\n* Kontrollér, om der er papirstop i kassetten.\n* Åbn adgangsdørene oven på acceptoren og kontrollér, om der er blokering af sedler.\n* Luk adgangsdørene forsvarligt.\n* Sæt acceptor og kassette tilbage."
+ScotApp_132,132unused
+ScotApp_1110,  %s Stk. à %s\t%s
+ScotApp_1242,DEBET
+ScotApp_1285,Populær
+ScotApp_932,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_832,832unused
+ScotApp_1327,"Tryk på ønsket rapport og tryk dernæst på ""Kør rapport""."
+ScotApp_711,711unused
+ScotApp_611,Vælg ønskede funktion.
+ScotApp_511,Sammenlign kundens underskrift med den på kortet.
+ScotApp_411,Tag kundekort
+ScotApp_311,beholder er tom
+ScotApp_111,Nulstil vægt
+ScotApp_1789,VÆRDIBON
+ScotApp_1536,Se modulets manual for at afhjælpe fejlen.
+ScotApp_911,Ryd sikkerhed
+ScotApp_811,Scan dit gavekort. Tjek din kurv for yderligere varer.
+ScotApp_1628,CPU-fejl
+ScotApp_1523,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1349,%s\n %s\n%s %s forventet\n%s %s observeret
+ScotApp_1892,Sikkerhedsanalyse
+ScotApp_1279,CHECK
+ScotApp_1535,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1057,1057unused
+ScotApp_1441,Mønthåndtering
+ScotApp_1313,* Tjek printeren for papirstop.\n* Sæt papir i igen.\n* Luk terminalen korrekt ned og genstart den.
+ScotApp_1681,Fejl i seddelgenbrugsmodul
+ScotApp_1069,1069unused
+ScotApp_1325,Læg varen på vægten.
+ScotApp_1278,USERDEFINED20
+ScotApp_1103,Foregående
+ScotApp_1534,Se modulets manual for at afhjælpe fejlen.
+ScotApp_1056,1056unused
+ScotApp_1312,"* Fjern seddelkassetten.\n* Åbn og fjern sedlerne.\n* Luk og sæt den ind i acceptoren igen.\n* Tjek, at seddelacceptorens motor tænder og at lysdioden er grøn."
+ScotApp_1265,USERDEFINED7
+ScotApp_1850,Moduler med fejl
+ScotApp_1213,UKENDT
+ScotApp_1521,Se modulets manual for at afhjælpe fejlen.
+ScotApp_139,Tag din kvittering
+ScotApp_1043,Anvend assistance til at godkende %s fra kunden.
+ScotApp_1401,Hjælp i gang.\n\nVent venligst...
+UnknownItemMessage,Der er hjælp på vej.\n\nLæg varen til side og fortsæt.
+TimeRestrictedItemMessage,Du kan ikke købe denne vare på dette tidspunkt. \n\nLæg varen til side og fortsæt.
+ItemQuantityExceededMessage,Du har overskredet det tilladte antal for denne vare. \n\nLæg varen til side og fortsæt.
+WeightMismatch,Tjekker varens vægt.\n\nVent venligst…
+ItemQuantityExceeded,Antalsgrænse Overskredet
+WaitForRemoteAssistanceTitle,Fjernekspedient
+ScotApp_489,Tak fordi du har anvendt NCR SelfServ Checkout.
+ScotApp_273,Scan ikke nu.\nLæg varen til side.
+ScotApp_431,Ugyldigt kundekort. Verificér venligst.
+ScotApp_410,Hjælp nødvendig til:
+ScotApp_1739,"Vent på ekspedient.\nSystemet kunne ikke verificere dine poser.\nHvis du ved et uheld har anbragt noget andet end en pose i pakkeområdet, skal det fjernes nu"". "
+ScotApp_73,Vend tilbage til indkøbstilstand
+ScotApp_772,Der blev anmodet om at parkere transaktionen.\nBekræft eller annullér anmodning.
+ScotApp_530,Kort fejllæst.\nBrug et andet kort.\n  –eller-\nBetal med kontanter.\n  –eller-\nTilkald hjælp.
+ScotApp_524,Forkert PIN-kode indtastet.\nIndtast PIN-koden igen på betalingsmodulet.
+ScotApp_397,"Brug assistance til at sælge de gyldige varer.\nSaml andre varer sammen, der ikke skal sælges."
+ScotApp_171,"""%s""\n\nEr %d korrekt?"
+ScotApp_1374,\n---------------------------------------\n
+ScotApp_1646,Transaktion parkeret. Læg alle varer til side.
+ScotApp_495,Du har overskredet det tilladte antal for denne vare.\n\nLæg den til side og fortsæt.
+ScotApp_529,"Fjern kort, dernæst...\nIndsæt andet kort.\n  –eller-\nBetal med kontanter.\n  –eller-\nTilkald hjælp."
+ScotApp_275,Indfør ikke kreditkort nu.\nTag dit kort.
+ScotApp_1891,Systembekræftelse i gang. \nVent venligst...
+ScotApp_1750,Vent venligst mens vi behandler dit fingeraftryk.
+ScotApp_169,Vil du fortsætte med købet?
+ScotApp_415,Tag dit kundekort.\nKort blev indsat før.
+ScotApp_1793,Denne maskine vil kun acceptere kredit- og Dankort.\nØnsker du at fortsætte?
+ScotApp_477,Aflevér dine værdiboner.\nNår din kvittering er udskrevet:\n-- Tag dine varer.\n-- Tag kvittering og værdiboner til kassen.
+ScotApp_177,Hele købet annulleret. Læg alle varer til side.
+ScotApp_656,Læg <%s> til side.\nButikspersonalet vil hjælpe dig.
+ScotApp_1709,Du må ikke indføre sedler eller mønter nu. Tag dine returnerede kontanter. Sedler returneres under scanneren.
+ScotApp_435,"Vælg ydelsestype.\nHvis du vil bruge dine madkuponer, skal de anvendes før andre ydelser."
+ScotApp_808,"Tag varer med alarmbrikker til med til personalet, så vedkommende kan fjerne dem."
+ScotApp_294,"Klik på knappen ""Tilkald hjælp"" for at få hjælp fra personalet."
+ScotApp_1287,Vent venligst...\nTjekker varens vægt.
+ScotApp_525,"Forkert PIN-kode indtastet.\nFjern kort, dernæst...\nIndsæt andet kort\n  –eller-\nbetal med kontanter"
+ScotApp_480,Tryk på OK og tag så din transaktionskvittering og varerne med til kassen.
+ScotApp_1751,Maksimum vægttilladelse overskredet.\nFjern varer fra pakkevægten.
+ScotApp_175,"Vil du fjerne\n""%s""\nfra kvitteringen?"
+ScotApp_1746,Fingeraftryksserver er ikke tilgængelig.\nForsøg igen.
+ScotApp_1839,Vent venligst på kasseekspedienten.\nScan ikke nu. Læg varen til side.
+ScotApp_501,Underskriv kvitteringen og vent på butikkens godkendelse.
+ScotApp_414,Tag dit kundekort.\nRabatterne kan ikke trækkes fra dit nuværende køb. Du vil få dem tilsendt.
+ScotApp_563,"Der opstod en fejl, da Hard Totals var ved at blive initialiseret.\nProgrammet slutter nu."
+ScotApp_263,"Kan ikke annullere varen, indtil dens værdibon er annulleret.\nAnnullér varens værdibon først."
+ScotApp_800,"Tjek din kurv.\n\nScan yderligere varer nu eller\nTryk på ""OK"" for at betale."
+ScotApp_134,Autorisation i gang.\nVent venligst...
+ScotApp_620,Indtast tolerance
+ScotApp_161,"%s\nBrug tastatauret til at indtaste kvantitet og tryk på ""OK""."
+ScotApp_440,"Restbeløbet af din kontantydelse er mindre end det, du har brug for.\nVil du anvende resten af kontantydelsen %s på dette køb?"
+ScotApp_184,%s vil blive debiteret din konto.
+ScotApp_274,Indfør ikke kontanter nu.\nTag dine kontanter.
+ScotApp_1744,Modulet kunne ikke genkende dit fingeraftryk.\nPrøv igen.
+ScotApp_160,Varen er blevet tilbagekaldt.\nHjælp er på vej.\nLæg varen til side og fortsæt med dit køb.
+ScotApp_1795,"Eller begræns til ""Kun kort""."
+ScotApp_159,Varens pris er ukendt.\nHjælp er på vej.\nLæg varen til side og fortsæt med dit køb.
+ScotApp_458,Vælg ydelsestypen.\nMadkuponer kan ikke anvendes til dette køb.
+ScotApp_1329,Vent venligst...\nTjekker varens vægt.\nDobbeltvægt pakket.
+ScotApp_407,Fejl ved læsning af kort.\n* Prøv et andet kort\n – eller-\n* Tilkald hjælp
+ScotApp_706,"Det tilbageblevne beløb af dine madkuponer er mindre end det samlede beløb for dette køb.\nTryk på ""OK"" for at bruge en anden betalingsmetode."
+ScotApp_606,Slet vægtindtastninger
+ScotApp_906,Tag dine varer.
+ScotApp_705,"Det tilbageblevne beløb af din kontantydelse er mindre end det samlede beløb for dette køb.\nTryk på ""OK"" for at bruge en anden betalingsmetode."
+ScotApp_605,Tilføj vægtindtastning
+ScotApp_405,Fejl ved læsning af kort.\n* Prøv et andet kort\n – eller-\n* Betal med kontanter\n –eller-\n* Tilkald hjælp
+ScotApp_491,Tag dit kort.
+ScotApp_818,Vent venligst på kasseekspedienten.\nHjælp nødvendig til:
+ScotApp_1796,"Eller begræns til ""Kun kontanter""."
+ScotApp_438,"Restbeløbet af dine madkuponer er mindre end det, du har brug for.\nVil du anvende resten af madkuponydelsen %s på dette køb?"
+ScotApp_1596,"Vil du gemme %s som dit foretrukne sprog på din %s?\n Vælg ""Ja"" eller ""Nej""."
+ScotApp_766,%s vil blive debiteret din konto.
+ScotApp_166,Hjælp er på vej.\nFortsæt med dit køb.
+ScotApp_413,Tag dit kundekort.\nRabatpriserne vil blive anvendt.
+ScotApp_1797,"Forsøg på afhjælpning hjalp ikke.\nForsøg igen eller begræns til ""Kun kontanter""."
+ScotApp_178,Vent på butikkens godkendelse.\nGodkendelse nødvendig for:
+ScotApp_790,Dit kort blev afvist.\nVælg venligst en anden betalingsmetode.
+ScotApp_1794,Denne maskine vil kun acceptere kontanter på nuværende tidspunkt.\nDer kan ikke tages imod kredit- eller Dankort.\nØnsker du at fortsætte?
+ScotApp_412,Denne vare vil få dit køb til at overskride %s.\nBetal venligst nu og køb andre varer separat.
+ScotApp_546,Du er ikke gammel nok til at købe denne vare.\nLæg den til side og fortsæt med dit køb.
+ScotApp_553,Værdiboner godkendes ved købets afslutning.\nLæg dem til side og fortsæt.
+ScotApp_211,Behandling i gang...\nVent venligst.
+ScotApp_1400,Fjernekspedient
+ScotApp_1754,Bogstaver svarer ikke til vare.
+ScotApp_1859,"Vil du købe en hel kasse %s? Vælg ""Ja"" eller ""Nej""."
+ScotApp_533,Du kan ikke købe denne vare nu.\nLæg den til side og fortsæt med dit køb.
+ScotApp_1763,e=d=%5.3fkg Max %5.3f kg min %3.1f kg Nmax %4.0f
+ScotApp_1762,e=d=%4.2flb Max %4.2f lb min %3.1f lb Nmax %4.0f
+ScotApp_1764,e = d = %4.2f lb Max %4.2f lb Min %3.1f lb Nmax %4.0f
+ScotApp_1765,e = d = %5.3f kg Max %5.3f kg Min %3.1f kg Nmax %4.0f
+ScotApp_305,Vælg emballage til: %s
+ScotApp_703,"Brug Dankort-terminalen. Tryk på ""Slet alt"" på Dankort-terminalen for at annullere betalingen."
+ScotApp_125,"Indtast kundes fødselsdag %s og tryk på ""Godkend"""
+ScotApp_1853,"Indtast kundens fødselsdato %s og tryk på ""Indtast"". "
+ScotApp_654,Dato skal være i %s format.Værdi indtastet i: %s
+ScotApp_560,Dette system godkender ikke værdiboner.
+ScotApp_1788,Er %d korrekt? \n\nEn posepris på %s vil blive tilføjet det samlede beløb.
+ScotApp_1358,Gavekortbeløb på %s er blevet brugt på dit køb.\n\nDin gavekortsaldo er %s.
+ScotApp_167,Værdibon matcher ikke nogen købt vare.\n\nDenne værdibon kan ikke godkendes.
+ScotApp_164,Systemet genkender ikke denne vare.\n\nTast det korrekte varenummer.
+ScotApp_547,Forkert operatørnummer og password.\n\nPrøv igen.
+ScotApp_442,%saf dit køb kan betales med madkuponer.\n\n%s
+ScotApp_443,%s vil blive debiteret på din konto.\n\nEr det OK?
+ScotApp_700,Varen kan ikke sælges ved denne kasse.\nHjælp er på vej.\n\nLæg varen til side og fortsæt med dit køb.
+ScotApp_165,Systemet genkender ikke denne vare.\nHjælp er på vej.\n\nLæg varen til side og fortsæt med dit køb.
+ScotApp_182,"Beløbet, som du indtastede for denne værdibon, var for højt.\n\nDette system kan ikke godkende denne værdibon."
+ScotApp_733,Kort afvist.\nBrug et andet kort eller betal med kontanter.
+ScotApp_812,Tak fordi du brugte NCR SelfServ Checkout.\nTag dit gavekort med dig til kasseekspedienten.
+ScotApp_1826,Ønsker du at gemme dine præferencer på dit kundekort?
+ScotApp_1852,Fjern den annullerede vare fra pakkehylden.
+QRCodeErrorText,QR Code Error
+ScanQRCodeInstruction,Scan this code to complete\nyour Mobile shopping.
+ScotApp_1896,Transferring items from mobile cart.
+ScotApp_1897,Vent venligst...
+ScotApp_1898,Mobile Cart
+ScotApp_1899,Mobile Audit
+ScotApp_1900,Mobile Shopper Audit
+ScotApp_1901,"Touch ""OK"" then use Attendant Handset to complete audit."
+ScotApp_1902,Begin Mobile Transaction
+ScotApp_1903,End Mobile Transaction
+ScotApp_1904,%d Items Sold
+ScotApp_1905,Scan barcode to complete your Mobile checkout.
+ScotApp_1906,Mobile cart transfer is complete.
+ScotApp_1907,\nTouch Pay or add more items.
+MoveLeft,< Move
+MoveRight,Move >
+Accessibility,Accessibility
+SearchItemCodeWatermark,Enter Item Code
+ScanAndBagNoSearchKeyIn,Scan or look up item to start
+ScanLookUpKeyInItem,"Scan, look up, or key in item code to start."
+LookUpKeyInItem,Look up or Key in Item
+ScanOrKeyInItem,Scan or Key in Item
+XM_MenuSetupLoaderV6HW,Opsætning af indførings-\nenhed
+XM_SetupLoaderV6HW,Opsætning af indføringsenhed
+XM_AddCashLeadthruV6HW,"•  Indsæt mønter i møntacceptoren.\n•  Indsæt sedler i seddelacceptoren.\n•  Tryk på ""Aktivér møntgenopfyldningsrende"" for at tilføje mønter i\n     genopfyldningsrenden.\n•  Tryk på ""Opsætning af indføringsenhed"" for at lægge sedler i indføringsenhed."
+XM_AllV6HW,Alt
+XM_CannotCompleteTransferV6HW,"Kan ikke færdiggøre overførsel.\n Møntbeholderen har ikke tilstrækkelig plads.Tøm seddelbeholderen, før du udfører denne handling."
+XM_CashManagementErrorRetryButtonV6HW,Prøv igen
+XM_CashStatusLeadthruV6HW,"• Udskriv kontantbeholdning.\n• Indsæt mønter i møntacceptoren.\n• Indsæt sedler i seddelacceptoren.\n• Tryk på ""Afslut"", når du er færdig."
+XM_CoinBoxV6HW,Møntboks - %d - %s
+XM_CoinHopperPendingResetV6HW,Afventer nulstilling %d - %s
+XM_CoinHoppersV6HW,Mønttragte
+XM_ConfirmCoinDispenseAllV6HW,"Udbetal alle mønter\n\nBeløb, der skal udbetales: %s\nTal, der skal udbetales: %d"
+XM_ConfirmCoinDispenseToBaseLevelV6HW,"Udbetal mønter til basisniveau\n\nBeløb, der skal udbetales: %s\nTal, der skal udbetales: %d"
+XM_ConfirmNoteDispenseV6HW,"Udbetal sedler\n\nBeløb, der skal udbetales: %s\nTal, der skal udbetales: %d"
+XM_ConfirmResetCoinHopper1V6HW,\n%s\nNulstil beløb: %s Tal: %d\n
+XM_ConfirmResetCoinHopper2V6HW,\nEfter nulstilling:\nMønter i påfyldningstragt: %s Tal: %d\nMønter i møntbeholder: %s Tal: %d
+XM_ConfirmResetCoinHopperV6HW,Nulstil mønttragttal / værdi\n
+XM_ConfirmResetNoteBoxV6HW,"Nulstil seddelbeholdertal/værdi\n\nBeløb, der skal nulstilles: %s\nTal, der skal nulstilles: %d\n\nBeløb efter nulstilling af seddelbeholder: kr0\nTal efter nulstilling af seddelbeholder: 0"
+XM_ConfirmTransferAllNotesV6HW,"Overfør alle sedler til seddelbeholder\n\nBeløb, der skal overføres: %s\nTal, der skal overføres: %d\n\nOverførslen kan tage flere minutter."
+XM_ConfirmTransferNotesToBaseLevelV6HW,"Overfør sedler til seddelbeholder\n\nBeløb, der skal overføres: %s\nTal, der skal overføres: %d\n\nOverførslen kan tage flere minutter."
+XM_DispensableCoinsV6HW,"Mønter, der kan udbetales"
+XM_DispenseCoinsToBaseLevelV6HW,Udbetal mønter\ntil basisniveau
+XM_DispenseNoteFullPreemptiveV6HW,"Tag sedlerne\n\nSedlerne udbetales i bundter af %d.\nUdbetaling vil pausere, indtil alle sedler er taget."
+XM_DispenseOperationPreemptiveV6HW,"Dispensing coins in progress.\n\nRemove coins from coin bowl when full and touch ""OK""."
+XM_DispenseThresholdV6HW,"Det indtastede tal overskrider antallet af sedler og mønter, der kan udbetales.  Indtastet maksimale antal: %d"
+XM_EnableCoinAcceptorV6HW,Aktivér møntacceptor
+XM_EnableCoinInputBowlV6HW,Aktivér møntindgangsskål
+XM_EnableCoinRefillChuteV6HW,Aktivér mønt-\ngenopfyld-\nningsrende
+XM_FinishedAddingCashV6HW,"Når du er færdig, skal du trykke på ""OK""."
+XM_LeadThruCashManagementErrorV6HW,Kontanthåndteringsfejl
+XM_LeadThruDispenseFunction1V6HW,"Udbetalingsfunktioner\n•  Tryk på ""Anvend ændringer"" til udbetaling af mønter.\n•  Tryk på ""Annullér ændringer"" for at annullere."
+XM_LeadThruDispenseFunction2V6HW,"Udbetalingsfunktioner\n•  Tryk på seddelværdi og indtast beløb/tal eller vælg\n     funktion.\n•  Når færdig ""Anvend ændringer""."
+XM_LeadThruDispenseFunctionV6HW,Udbetalingsfunktioner\n• Indtast beløb/tal for %s sedler vha. tastatur.
+XM_LeadThruNoteBoxTransferV6HW,"Seddelbeholderoverførsler\n•  Vælg ønskede overførselsfunktion.\n•  Når færdig ""Anvend ændringer""."
+XM_LeadThruResetCoinHopperFunctionV6HW,"Nulstillingsfunktioner\n•  Nulstil møntpåfyldningstragttal.\n•  Når færdig ""Anvend ændringer""."
+XM_LeadThruResetFunctionV6HW,"Nulstillingsfunktioner\n•  Vælg ønskede nulstillingsfunktion.\n•  Når færdig ""Anvend ændringer""."
+XM_LeadThruResetNoteBoxFunctionV6HW,"Nulstillingsfunktioner\n•  Nulstil seddelbeholdertal.\n•  Når færdig ""Anvend ændringer""."
+XM_LeadThruTransferNotesToNoteBoxFunctionV6HW,"Seddelbeholderoverførsler\n•  Tryk på ""Anvend ændringer"" til overførsel af sedler.\n•  Tryk på ""Annullér ændringer"" for at annullere."
+XM_LoaderCountEnteredExceededCapacityV6HW,The loader count entered exceeds capacity. Maximum loader count allowed is %d.
+XM_LoanPickupUpdateFailureInstructionV6HW,"\n•   Tryk på 'Forsøg igen' for at opdatere.\n•   Hvis fejlen opstår igen, kontaktes butiksledelsen.\n•   Denne fejl vil ikke blive ryddet, før der udføres en vellykket opdatering."
+XM_LoanPickupUpdateFailureV6HW,Kontanthåndteringsopdatering mislykkedes
+XM_LoanPickupUpdateNoResponseInstruction1V6HW,"\n•   Hvis fejlen opstår igen, genereres endnu en diagnostisk logfil og service tilkaldes."
+XM_LoanPickupUpdateNoResponseInstructionV6HW,•   Indberet straks denne fejl til butiksledelsen.\n•   Kontanthåndteringsstatussen er måske ikke blevet opdateret.\n•   Gå til skærmen Hjælpefunktioner.
+XM_LoanPickupUpdateNoResponseV6HW,Intet respons fra POS ved opdatering af kontanthåndteringsstatus
+XM_MenuNoteBoxTransferV6HW,Seddel-\nbeholder-\noverførsler
+XM_NonDispensableCoinsV6HW,"Mønter, der ikke kan udbetales"
+XM_NoteBoxV6HW,Seddel-\nbeholder
+XM_NoteLoaderV6HW,Seddel-\nindføringsenhed
+XM_NoteRecyclerV6HW,Seddelgenbrugsmoduler
+XM_OKV6HW,OK
+XM_PendingCashRemoveV6HW,"Åbn pengeskabsdøren, fjern seddelbeholder og alle sedler.\nSæt tom seddelbeholder på plads.\n\nNår færdig, tryk på ""OK""."
+XM_PendingDispenseV6HW,Afventer udbetaling %d - %s
+XM_PendingNotesAddedV6HW,Standardsedler tilføjet %d - %s
+XM_PendingResetV6HW,Afventer nulstilling %d - %s
+XM_PendingTransferV6HW,Afventer overførsel %d - %s
+XM_ProcessingCashLeadThruV6HW,• Indsæt mønter i møntacceptoren.\n• Indsæt sedler i seddelacceptoren.
+XM_ProcessingCashTextV6HW,\n• Indsæt mønter i møntacceptoren.\n• Indsæt sedler i seddelacceptoren.\n
+XM_ProcessingCashV6HW,Behandler kontanter
+XM_ReplenishNotesFromLoaderToRecyclersPreemptiveV6HW,Isætning i gang...vent venligst.
+XM_ResetCoinHopperCountsV6HW,Nulstil mønttragttal
+XM_ResetCoinHopperLeadThruV6HW,"Fjern mønter fra møntpåfyldningstragte.Erstat\ntøm møntpåfyldningstragte.\n\nNår færdig, tryk på ""OK""."
+XM_ResetCoinsAllCoinsV6HW,Udbetal alle mønter
+XM_ResetNoteBoxCountsV6HW,Nulstil seddel-\nbeholdertal
+XM_SetupLoaderAlertConfirmation1V6HW,"Opsætning af indføringsenhed\n\nLæg sedler i indføringsenheden, sørg for, at den er indsat og tryk dernæst på ""OK"" for at ilægge sedler."
+XM_SetupLoaderAlertConfirmationV6HW,"Opsætning af indføringsenhed\n\nSørg for, at indføringsenheden har korrekte værdier og er indsat\nog tryk dernæst på ""OK"" for at ilægge sedler."
+XM_SetupLoaderConfirmation1V6HW,Opsætning af indføringsenhed\n\nAlle indføringssedler vil automatisk blive\nisat og talt.\n\nindføringsprocessen kan tage flere minutter.
+XM_SetupLoaderConfirmationV6HW,"Opsætning af indføringsenhed\n\n%s seddelstatus i indføringsenhed:\n\nOriginalt/startbeløb: %s\nOriginalt/starttal: %d\nBeløb, der skal tilføjes i indføringsenheden: %s\nTal, der skal tilføjes i indføringsenheden: %d\n\nAnbring sedler, der ikke betegnes som kontantbeløb, eller udbetal i bunden af indføringsenheden. Sedler i bunden af indføringsenheden vil automatisk blive talt og isat, indtil indføringsenhedens værdi er nået.\n\nIndføringsprocessen kan tage flere minutter."
+XM_SetupLoaderLeadThru1V6HW,"•  Tryk på ""Anvend ændringer"" for at tilføje sedler til indføringsenheden\n•  Tryk på ""Annullér ændringer"" for at annullere."
+XM_SetupLoaderLeadthruV6HW,"•  Indtast ""%s"" standardværdibeløb/beløb til indføringsenhed og tryk på ""OK"".\n•  Når færdig ""Anvend ændringer""."
+XM_SetupLoaderNotEmptyV6HW,"\nWhen swapping loaders, because the current loader\ncount is greater than zero, manually remove the notes from the current loader and add the notes to the new loader."
+XM_SignSigTouchDisplayV6HW,Underskriv på berøringsskærmen.
+XM_TopOffCashPrintStatusV6HW,Fyld op med kontanter eller udskriv status
+XM_TransferAllNotesV6HW,Overfør alle sedler
+XM_TransferNotesToBaseLevelV6HW,Overfør sedler til basisniveau
+XM_TransferOperationInstructionV6HW,Overførsel afsluttet.\nFjern alle sedler fra seddelbeholderen og\n Nulstil seddelbeholder.
+XM_TransferOperationPreemptiveV6HW,"Seddeloverførsel i gang...vent venligst\n\nFJERN IKKE SEDDELBEHOLDER eller   \nandre enheder, indtil operationen er færdig."
+RemoveItemFromProduceScale,Remove item from scale.
+RemoveItemFromProduceScaleTitle,Remove Item

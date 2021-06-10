@@ -1,0 +1,47 @@
+<Display Version="1.0">
+  <Controls>
+    <Control Name="AssistModeButton" Type="Button">
+      <Properties>
+        <Property Name="Position">351,9,74,63</Property>
+        <Property Name="Font">LaneStatusFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">$AssistModeButtonText$</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\10x7-btn_toprow_lane-sm.png</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="AssistModeBlockButton" Type="Button">
+      <Properties>
+        <Property Name="Position">351,9,74,63</Property>
+        <Property Name="Font">LaneStatusFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">$AssistModeButtonText$</Property>
+        <Property Name="TextPosition">7,7,100,49</Property>
+        <Property Name="Picture">%MediaPath%\10x7-btn_toprow_lane-lg.png</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="State">2</Property>
+        <Property Name="Visible">False</Property>
+        <Property Name="Z-Order">4</Property>
+      </Properties>
+    </Control>
+    <Control Name="LaneStatusButton" Type="Button">
+      <Properties>
+        <Property Name="Position">272,9,74,63</Property>
+        <Property Name="Font">LaneStatusFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">$LaneStatusTitle$</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\10x7-btn_toprow_lane-sm.png</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="CameraButton" Type="Button">
+      <Properties>
+        <Property Name="Visible">True</Property>
+      </Properties>
+    </Control>
+  </Controls>
+</Display>

@@ -1,0 +1,19 @@
+<Display Version="1.0">
+  <Languages>
+    <Language Name="040c">
+      <StringTable>
+        <String Name="IPText">Adresse IP</String>
+        <String Name="BatteryText">Etat de la batterie</String>
+        <String Name="FreeStorageText">Espace de stockage</String>
+        <String Name="SystemStorageText">Stockage système</String>
+        <String Name="FreeMemoryText">Mémoire disponible</String>
+        <String Name="SystemMemoryText">Mémoire système</String>
+        <String Name="ProcessorTypeText">Type de processeur</String>
+        <String Name="ComputerNameText">Nom de l'ordinateur</String>
+        <String Name="TerminalTitleText">Informations du terminal</String>
+        <String Name="BatteryChargeText">Chargement</String>
+        <String Name="OkButtonText">OK</String>
+      </StringTable>
+    </Language>
+  </Languages>
+</Display>

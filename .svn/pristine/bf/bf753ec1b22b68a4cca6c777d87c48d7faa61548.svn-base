@@ -1,0 +1,81 @@
+//////////////////////////////////////////////////////////////////////
+//
+// OposScan.hi
+//
+//   Scanner header file for OPOS Controls and Service Objects.
+//
+// Modification history
+// -------------------------------------------------------------------
+// 95-12-08 OPOS Release 1.0                                     CRM
+// 97-06-04 OPOS Release 1.2                                     CRM
+//   Add the following properties:
+//     DecodeData, ScanDataType, ScanDataLabel
+//
+//////////////////////////////////////////////////////////////////////
+
+#if !defined(OPOSSCAN_HI)
+#define      OPOSSCAN_HI
+
+
+#include "Opos.hi"
+#include "OposScan.h"
+
+
+//////////////////////////////////////////////////////////////////////
+// Numeric Property Index Values.
+//////////////////////////////////////////////////////////////////////
+
+// * Properties *
+
+//      Added for Release 1.2:
+const LONG PIDXScan_DecodeData         =   1 + PIDX_SCAN+PIDX_NUMBER;
+const LONG PIDXScan_ScanDataType       =   2 + PIDX_SCAN+PIDX_NUMBER;
+
+// * Validation Functions *
+
+inline BOOL IsValidScanNumericPidx(LONG Pidx)
+{
+  return FALSE;
+}
+
+inline BOOL IsValidScanNumericPidx12(LONG Pidx)
+{
+  return ( PIDXScan_DecodeData <= Pidx &&
+           Pidx <= PIDXScan_ScanDataType )
+    ? TRUE : FALSE ;
+}
+
+inline BOOL IsValidScanCapPidx(LONG Pidx)
+{
+  return FALSE;
+}
+
+
+//////////////////////////////////////////////////////////////////////
+// String Property Index Values.
+//////////////////////////////////////////////////////////////////////
+
+// * Property *
+
+const LONG PIDXScan_ScanData            =   1 + PIDX_SCAN+PIDX_STRING;
+
+//      Added for Release 1.2:
+const LONG PIDXScan_ScanDataLabel       =   2 + PIDX_SCAN+PIDX_STRING;
+
+// * Validation Functions *
+
+inline BOOL IsValidScanStringPidx(LONG Pidx)
+{
+  return ( PIDXScan_ScanData == Pidx )
+    ? TRUE : FALSE ;
+}
+
+inline BOOL IsValidScanStringPidx12(LONG Pidx)
+{
+  return ( PIDXScan_ScanData <= Pidx &&
+           Pidx <= PIDXScan_ScanDataLabel )
+    ? TRUE : FALSE ;
+}
+
+
+#endif			// !defined(OPOSSCAN_HI)

@@ -1,0 +1,1126 @@
+
+; File Belt1Sm.txt
+;
+; Revision History
+;
+; .tve.1 fixes for stealing a 2nd item
+; .tve.2 added 2ndItemReverse; 2ndItemStop, and Flush logic
+; 2/27/02	tve		Added reverse belt timout for Reverse and 2ndItemReverse states.
+; 3/7/02	tve		Merged belt1sm and belt2sm; added seperate handling for sensorB errors;
+;					Added SendScaleStatus to app.
+; 3/18/02	tve.3	197601 - Skip Bagging does not run belt
+; 3/18/02	tve.4	198003 - Flush&Finish implemented
+; 3/22/02	Return to zero timer to 3.5S for long items
+; 3/22/02	Added UnPurchasedItemPause to detect B after item left belt 1;
+;			Handling B before real item leaves belt but after GW remains a problem.
+; 3/27/02	Rewritten to handle odd shaped items by ignoring sensor B activity after the
+;			1st training edge for a programmed amount of time.
+; 4/4/02	Latch Scan during HandleBagAreaBackup loop, process it
+; 4/4/02	Failed to clear varFinishFlush on exit from state FlushAndFinish
+; 5/3/02	tve Added "TestForScan" state preceeding "Reset".  Allows consideration of varScanState
+;				seperate from reset state.
+; 5/8/02	lpm Added "FlatItemTimerReset" on entry to ItemPassingB because it was waiting the entire 3 sec to leave the transporting item screen
+; 5/10/02	tve Added fix TestForScan state belt running forever
+; 5/20/02	tve Added FlushBelt1 from Pause2ndItem after GW to start belt 1 and
+;				and eliminate SM loop
+; 5/22/02	tve Changed Idle transition to Weigh to be based on latched scan event instead
+;				of scan event (which may have already happended).
+; 5/22/02	tve Added Un-Reverse to advance the belt from Sensor A stop
+; 5/22/02	lpm Removed FlushAndFinish from Reverse. App will call StableGoodWt instead 205407
+; 5/23/02 	tve Added Tick timer to all states w/ var evaluation to force immediate eval of transitions
+; 5/23/02	tve changed SecurityStop to use good/bad wt events rather than varScaleWt
+;			which is not currently being reset correctly.  Think about removing
+;			varScaleWt entirely if not needed.
+; 5/24/02	lpm Removed un-reverse for now
+; 8/20/02	lpm Added handler for App requested Stop state while in Idle - TAR206623
+; 8/29/02	lpm added handler for App request to stop belt while in NoItemOnBelt 213516
+; 9/09/01	lpm removed handler for latching good weight, instead use the test for scan and RequestWeight methods 214105
+; 9/10/02	lpm added handler for App request to stop belt while in EarlyScannerEnabled, goto Possible2ndItem 214475
+; 9/10/02	lpm put back in handle BadWeightEvent in 2ndItemReverse and change BadWeightEvent in FinishAndFlush
+; 9/17/02	lpm change App Request Stop in state EarlyScannerEnabled goto state SecurityStop 213516
+; 9/17/02	lpm handle BagAreaBackup when TB_ "NEED MORE DATA" delays occur 214763
+; 9/18/02	lpm handle App Request Stop in state FinishAndFlush due to TB_ "NEED MORE DATA" occurring after
+;			Qty item (Qty items always call FinishAndFlush as well as being NeedMoreData items) 213516
+; 9/18/02	lpm Added transition for bad weight in 2ndItemPause TAB state - 214911
+; 10/22/02	lpm Delay stopping belt 2 when App requests "NEED MORE DATA" stop, so item doesn't stop in front of sensor 'C' 217127
+; 11/08/02	lpm During SuspectBadWeight, a StableGoodWeight could occur. Added handler. 216750
+;			Also, during GoodWeight, if ScaleReadsZero occurs, App returns OnBackToLGW, which re-enables
+;			the scanner. Should goto TestForScan at this point 216750
+; 11/20/02  chu handle eAppRequestStopBelt while in FlushBelt2. If App goes to S&B from
+;           BagAreaBackUp and Qty needed item scanned, App asks to stop betls but TAB is
+;           at FlushBelt2 so TAB ignores stop. 213516
+; 11/22/02	tve Added AssistMode, AssistModeScan, and AssistMode Exit states
+; 11/22/02	tve Added QuantityItemPassingB State
+; 11/26/02  chu Added transition for good weight in UnPurchasedItemStop so when the security event is approved, ScotApp sends
+;           GoodWeight event to TAB, TAB should go from UnPurchasedItemStop-->GoodWeight-->ItemPassingB-->EarlyScanEnable..
+;           221089
+; 11/27/02  chu Changed QuantityIgnoreSensorBTimerValue from 3000 to 4000 220160
+; 11/27/02  chu Added transition for Quantity item in GoodWeight and FinishAndFlush states  220160
+; 11/27/02  chu Took out transition for Qunatity item in EarlyScannEanble state 220160
+; 11/27/02  chu Added Action: "ClearItemScanEvent" and"EnablingScanner" in QuantityPassingB state 221060
+; 12/03/04  chu Added transition in state StopBelt2: for ZeroWeight, go to GoodWeight state 214475
+; 12/17/02  chu Added transition in state SecurityStop: for ZeroWeight, go to GoodWeight state 214475/214519
+; 01/07/03  chu/tve Added transitions from stopbelt2 securitystop GoodWeight for eSkipBagging
+; 01/08/03  chu Took out transition in SecurityStop/StopBelt2: for ZeroWeight, go to GoodWeight state 216750. 214475/214519 has been fixed in ScotApp.
+; 01/09/03  chu For QuantityPassingB, we used to do: "security issue here.  Once we get a good weight on quantity and start belt moving,
+;           then we're currently ignoring bad weights. This insures that the belt is not interrupted as quantity items are flushed.
+;           Timer set to 3.5 - SCT (.75) = 2.75 S." Now, we take care of BadWegiht. 224015
+; 01/09/03  tve Added Sensor D Support
+; 01/17/03  tve Added ClearScan between UnpurchasedItemStopBelt2 to Weigh state to reset VarScanState. 224825
+; 01/17/03  lpm Added ResetAppStopRqstVar to UnPurchasedItemStopBelt2 on exit.  Leaving same in UnPurchasedItemStop because do leave there for TestForScan. 224608,224469,224637
+; 01/17/03  tve changed ResetAppSetopRequest clear on xxxStopBelt2 OnExit.  Added varAM transitions to XXStopBelt2
+; 02/07/03  jsm Added AssistModeExit transition to Reset so that TAB will let app. know it can exit if reset gets sent before assistmodeexit
+; 02/18/03  chu Added flatitemtimer in LateScaleEnable state so when the timer is expired, we go to ItemPassingB state 227993
+; 02/19/03  chu/tve Long item blocking both sensor B and D. 228294
+; 02/19/03  chu/tve Added 3 more states to handle BagAreaBackUp at WrongItemStopBelt2. 228292
+; 02/24/03  chu Added state: ForceBelt1Run so TAB not in the loop when Sensor B is blocked by a stolen item which has
+;           same weight as the previous item 228746
+; 02/26/03  chu Added transition in UnPurchasedItemPause so if a sensor B fall event is coming, we go back to Idle state 229097
+; 02/27/03  tve Reworked ClearScan state to eliminate hang when scan events preceeds tick expiration; 231704
+; 06/13/03  chu Added the action to set varAppStopRqst back to zero onExit. 239582
+; 07/19/04  ddm
+; 10/20/06  chu Added transition in FinishFlush if there is a bad weight.239582
+; 02/14/06  chu Changed AssistModeExit state so it will reset the flat on exit 310282
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;                            TAB Perormance Changes
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; 05/10/07 JCA Inlcudes scanner enable hack based on "GoodWeight"
+;              Added state "TestFor2Items" State
+;              Added state "FirstItemOffBelt" state
+;              Changed eB Fall transition from "LateBadWeight" to "TestFor2Items"
+;              Changed Wgt Bad transition from "IgnoreSensorB" to "TestFor2Items"
+;              Changed vB !=0 transision from "CheckForSecondItem" to "TestFor2Items"
+;              Temporarily removed vWgt= -1 transition from "Idle" to "UnpurchasedItemPause"
+;              Temporarily removed eB Rise transition from "Idle" to "UnpurchasedItemPause"
+;              Temporarily changed WaitForNextScanTimerValue from 7500 to 1000
+;              Removed Wgt Bad transition form "GoodWeight" to "WrongItemPause"
+;              Added Action: "ResetScanState", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varScanState", 0 in "GoodWeight"
+;              Commented dead states - "WrongItemAtSensorA" and "WrongItemReverse"
+;              Added State "BadWeightWait" entered from "Weigh" if the weight is bad
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+; 05/16/07 JCA Added Action: "ResetScanState", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varScanState", 0 
+;              in "Reset", "Weigh", and "FinishNFlush". Eliminated Added Action: "ResetScanState" in states
+;              "ClearScan", "TestForScan", and "GoodWeight" 
+;
+;              Eliminated transition to "ClearScan" from state UnPurchasedItemStopBelt2 on vWT=1. Goes to state
+;              "Weigh" on vScan instead.
+;              vWT=0 transitions to "Reset" instead of "TestTestForScan"
+;
+;              vScan from "UnPurchasedItemStop" goes to "Weigh" instead of vWt=1 -> "Weigh"
+;              vWT=0 transitions to "Reset" instead of "TestTestForScan"
+;
+;              vScan from "UnpurchasedItemReverse" goes to "Weigh" instead of vWt=1 -> "Weigh"
+;              vWT=0 transitions to "Reset" instead of "TestTestForScan"
+;              
+;              Eliminated "ClearScan" state
+;
+;
+; 05/17/07 JCA Moved state "FirstItemOffBelt" delay to transition on vWT=Bad from "IgnoreSensorB"
+;              This provides standard 750 ms delay for first item to transition after B Rise before
+;              trying to handle second item. Note: Mulit-break handling will be required later...
+;
+;              vScan transitions directly to "Weigh" after "TestFor2Items" state... "FirstItemOffBelt" should
+;              provide enough time to not cause transition from "Weigh" to "Pause" on next item.
+;
+;              Reset IgnoreB TMO in state "FirstItemOffBelt" on entry
+;              Transition to "TestFor2Items" on IgnoreB TMO
+;           
+;              Removed vWt=Bad transition from state "ItemPassedD"... this variable is checked in "IgnoreSensorB"
+;
+; 05/18/07 JCA Shortened TMO in state "FirstItemOffBelt" by triggering off the remaining timeout in state 
+;              "IgnoreSensorB". Also added transition for eB fall to exit earlier if possible. This should 
+;              provide a faster cycle to handle scanned second items without entering the "Pause" state. 
+;
+; 05/22/07 JCA Simplified "LateScaleEnable" path triggered when an items stable good weight is not recieved before
+;              the item reaches sensor B. This reduces spike time for transportig this item.
+;              Eliminated States: "ItemPassingB", "LateBadWeight" since a bad weight can be trapped in state
+;              "IgnoreSensorB" for subsequent unscanned items behind the current scanned item.
+;              New transition vB fall from "LateScaleEnable" to "IgnoreSensorB"
+;              NOTE: Multi-break filtering will be added on next round of testing...
+;  
+; 05/23/07 JCA Added flat TMO from state "LateScaleEnable" to "IgnoreSensorB" incase the item does not break 
+;              sensor B
+;              Transition on varSensorBFall == 0 instead of 2 to determine when item passes sensor B in State
+;              "LateScaleEnable".
+;              to do : Waitfornextscantimervalue set back to 7500
+;              to do : Added StopBelt1timerValue set to 1000
+;
+; 05/25/07 JCA Removed transition from "Reset" to "Weigh" based on good weight. If there is no scan... there
+;              cannot be a good weight.
+;              Modify TMO for FlatITemTimer2 from 1500 to 1000. THe distance from sensor D to Senor B is about 
+;              a one second time span. The extra 500 ms is causing major problems and excessive spikes.
+;              Added the following transitions based on vScan: "UnpurchasedItemPause" to "Weigh"... 
+;              "UnpurchaseItemAsk" to "Weigh"... and "ForceBelt1Run" to "Weigh". This allows a faster cycle
+;              time when an item is scanned and avoids problems caused by delays.
+;
+; 05/29/07 JCA Added Tick Timer to "UnpurchasedItemPause" "UnpurchaseItemAsk" and "ForceBelt1Run" to handle vScan 
+;              variable when changed. This supports previous changes above.
+;
+; 06/07/07 JCA Adjusted FLAT TMO from 4000 to 2000. 
+;              Added new state "ItemNearD" to handle items not seen by sensor D. Transition to this state is also
+;              made when vScan arrives indicating that another scanned item is following this item. This pushes 
+;              the processing along when pending scans are waiting.
+;              Removed Flat TMO transition to state "ItemPastD" and added transition to state "ItemNearD"
+;
+; 06/18/07 JCA Moved transition from "Idle" to "TestForScan" on vScan in front of "Idle" to "UnpurchItemStop" on
+;              varAppStopRqst.
+;              Added eScan event transition in state "WrongItemStop and "WrongItemStopBelt2" to exit when entered 
+;              via vAppStop. The scanner should be disabled for all other wrong item cases so this should have 
+;              limited risk on normal wrong item processing.
+;              Reset ScanState in state "GoodWeight" just prior to enabling the scanner to avoid entereing 
+;              "WrongItemStop" casued by ScanState being out of sync.
+;
+;06/20/07  JCA Added state "IdleFrontStop" to handle stopping the front belt before the back belt after an item
+;              is processed with not pending scans behind. This allows items on the rear belt to properly 
+;              transition all the way to the collection area without the security risks of the front belt moving.
+;              Adjusted timer "WaitForNextScanTimer" (1500)for stopping front belt and added new timer value
+;              "WaitForNextScanTimer2" (3000) to transion to reset which stops both belts.
+;
+; 06/26/07 JCA Cleared skip bagging on exit from reset to avoid problem caused by skip bagging comming in late
+;              after a scan.
+;              Adjusted WaitForNextScan tmo to 1000 ms.
+;
+; 06/28/07 JCA Changed flat timer in state "ItemNearD" and state "GoodWeightto flat2Timer (1000 ms) 
+;              to move the cycyle faster if items are not detected by the sensors. Note: true flat items 
+;              may need to receive a good weight a certain time delay after the scan.
+;
+; 06/29/07 JCA Removed sensorBFall event from "UnpurchasedItemPause" to fix extra unscanned items 
+;              placed behind a scanned item from transitioning to the rear belt.
+; 
+; 09/15/07 JCA Added event WT=Bad to state "Idle Front Stop" and "Test For Scan" going to "Unpurch Item Reverse"
+;              to catch extra items slipping by on the belt. 
+;
+; 10/02/07 JCA NOTE::: CHANGE REQUIRED IN SecuritySMTab.xml - no wt=0 was received in state "Unpurch Item Stop" 
+;              when item was removed from the belt. SecuritySMTab.xml Event = BackToLGW in anystate results in 
+;              sending Scale-Reads-Zero.
+; 
+; 10/02/07 JCA Event vStop from the "Weigh" state now goes to the "Wrong Item Reverse" state to reverse item
+;              that are Unknown or recalled.
+; 
+; 10/3/07  JCA Event Wt=bad and eWaitRead TMO from state "Wrong Item Ask" now goes to state "Wrong Item Stop" 
+;              instead of state "Wrong Item Reverse"
+;
+; 10/3/07  JCA Start rear belt foward in state "Wrong Item Stop" and "Unpurch Item Stop" to get the last validated
+;              item away from sensor C to prevent BAB.
+;
+; 10/3/07  JCA CHanged delay for handling bad weight in state "BadWeightWait" to 500 ms instead of 750 ms. Used 
+;              eWaitRead instead eDelayRead. 
+;
+; 10/05/07 JCA VStop from weigh state now goes to "Wrong item Stop" instead of "Wrong item Reverse" based on new
+;              demo with Dusty.
+;
+; 10/05/07 JCA Reset latch for sensor D in state "Wrong item Stop"                   
+;
+; 10/05/07 JCA Set value for FlatItemTimer2Value to 1500 to make sure item has a chance to pass the sensor D and B
+;              before timeouts if the item is not flat.
+;
+; 10/15/07 JCA Removed reference to state "WrongItemReverse" since reversing the front belt is no longer requrid 
+;              for wrong items.
+;
+; 10/15/07 JCA Changed WaitReadScaleTimerValue = 400 and modified SecurityConfig.xml slow conclusion timer to
+;              700 ms. This provided a good balance between the applicaion and TAB state table for trapping 
+;              invlaid weights.
+;
+; 10/31/07 JCA Added eB=1 event from state "BadWeightWait" to transition to state "WrongItemPause" to stop the 
+;              front belt before the item travels to the rear belt.
+;
+; 10/31/07 JCA Added eBadWeight event from states "CheckFor2ndItem" and "Idle" which transitions to state 
+;              "TestFor2Items" to catch bad weights caused by extra items tossed behind a valid scanned 
+;              item.
+;
+; 10/31/07 JCA Added eB=0 from state "Idle" to transation to state "TestFor2Items" to catch extra item being
+;              tossed behind a valid scanned item
+;
+; 11/15/07 JCA Added changes from patch f (transition to "AssistMode" state from bagging area full states)
+;
+; VERSION 26
+;
+; 12/04/07 JCA Added new good weight state "GoodWeightStopped" to handle good weights received when the front
+;              conveyor is stopped. This is needed to delay enabling the scanner until we exit from 
+;              "GoodWeightStopped" to allow time for the scale to go unstable then stable when the belt starts
+;
+; 12/04/07 JCA The folowing states (front conveyor stopped) now transition to "GoodWeightStopped" instead of 
+;              "GoodWeight". States are "WrongItemPause", "WrongItemAsk", "WrongItemStop", "WrongItemStopBelt2"
+;
+; Version 27
+;
+; 04/14/08 JCA Changed sensor B variable to sensor B Event in state "Weigh" to handle long items.
+; Version 28
+; 
+;
+; Version 29 5/12/2008
+;
+; 04/23/08 JCA Changed FlatItemTimer2 (1500) timeout to FlatItemTimer(2000) to catch eBrise in state ItemNearD.
+;             This will allow extra time if an item is rolling on the belt between d and b.
+;
+; 5/15/08  JCA Added states "Quantity Entered" and "Quantity Moving" and removed state "Clear Quantity". These
+;              states are used when pricessing a quantity entry from state "WrongItemStop" and 
+;              "WrongItemStopBelt2". This allows the item to begin traveling on the belt before the scanner
+;              is enabled to provide some distance between the quantity item and the next item scanned. Prior
+;              versions of this situation would result in 2 items on front belt with weight mismatch.
+;
+; 6/3/08   JCA Clear varScaleWt variable upon entry of "GoodWeight" and "GoodWeightStopped" and "LateScaleEnable"
+;              and "QuantityMoving" instead of waiting until "ItemNearD" or "ItemPastD" or "QuantityPassingB". 
+;              This prevents loosing an early weight report. 
+;
+; 6/3/08   JCA Removed old "WrongItemReverse" state since items no longer reverse on weight mismatches.
+;
+; 6/4/08   JCA Added BreadHeadFilter to catch bread head multibreaks at sensor B. This re-establishes the 
+;              timer on short multi-breaks to allow the item to transition on to the rear belt. Changed 
+;              transition to BreadHeadFilter instead of IgnoreSensorB from states "ItemNearD", "ItemPastD",
+;              and "LateScaleEnable". State "BreadHeadFilter transitions to "IgnoreSensorB" on timeout.
+;              This change includes new state "BreadHeadFilter" and timer event.
+;
+; 6/5/08   JCA Made change to transition from "UnpurchedItemAsk" to "FrontIdleStop" when wt=0. This prevents
+;              the front belt from moving for no reason after an unexpected weight.
+;  
+; 12/18/08 JCA Added scan event handler from state "FinishAndFlush" to proceed to state "TestForScan". This
+;              addresses problem with ignoring events if scan comes in in "FlushAndFinish" state.    
+
+
+;;enum eTAB_EVENTS {
+
+;// Events from ScotApp to TAB SM
+Const:	eStableGoodWeight		,  0x0001,
+Const:	eStableBadWeight		,  0x0002,
+Const:	eLightItemExpected		,  0x0003,
+Const:	eScaleReadsZero			,  0x0004,
+Const:	eItemScan			,  0x0005,
+Const:	eReset				,  0x0006,
+Const:	eSkipBagging			,  0x0007,
+Const:  eFlushAndFinish			,  0x0008,
+Const:	eHandleBagAreaBackup		,  0x0009,
+Const:	eAppRequestStopBelt		,  0x000A,
+Const:	eAssistModeStart		,  0x000B,
+Const:	eAssistModeStop			,  0x000C,
+Const:  eQuantityItem                   ,  0x000D,
+
+;;//Sensor Events
+Const:	eSensorARisingEdge		,  0x0020,
+Const:	eSensorAFallingEdge		,  0x0027,
+Const:	eSensorBRisingEdge		,  0x0021,
+Const:	eSensorBFallingEdge		,  0x0022,
+Const:	eSensorCRisingEdge		,  0x0023,
+Const:	eSensorCFallingEdge		,  0x0024,
+Const:	eSensorDRisingEdge		,  0x0025,
+Const:	eSensorDFallingEdge		,  0x0026,
+
+;// Dictionary of Actions
+;// Action codes from TAB SM for Sensors
+Const:	eBelt1Stop			,  0x0200,
+Const:	eBelt1Forward			,  0x0201,
+Const:	eBelt1Reverse			,  0x0202,
+Const:	eBelt2Stop			,  0x0210,
+Const:	eBelt2Forward			,  0x0211,
+
+;// Action codes from TAB SM for ScotApp
+Const:	eScannerDisable			,  0x0400,
+Const:  eScannerEnable                  ,  0x0401,
+Const:  eItemMovedOffBelt               ,  0x0402,
+Const:	eBagAreaClear			,  0x0410,
+Const:	eBagAreaBackup			,  0x0411,
+Const:	eSendScaleStatus		,  0x0440,
+Const:  eAmExitDone			,  0x0441,
+
+;// Action codes from TAB SM1 for TAB SM2
+Const:	eTick				,  0x0500,
+
+;**********************************************************************************
+;	Timer declarations
+;**********************************************************************************
+;// Timer definitions for TAB SM
+Const:  eTickTimer			,  0x0800,
+Const:	eItemPassByCTimer		,  0x0801,
+Const:	eWaitForNextScanTimer		,  0x0802,
+Const:	eBackupFlushDelayTimer		,  0x0803,
+Const:	eBreadHeadTimer			,  0x0804,
+Const:	eNoItemTimer			,  0x0805,
+Const:	eFlushBeltsTimer		,  0x0806,
+Const:  eReverseBeltTimer		,  0x0807,
+Const:  eIgnoreSensorBTimer		,  0x0808,
+Const:	eStabilizeTimer			,  0x0809,
+Const:	eFlushBelt2Timer		,  0x080A,
+Const:	eFlatItemTimer			,  0x080B,
+Const:	eDelayReadScaleTimer		,  0x080C,
+Const:	eWaitReadScaleTimer 		,  0x080D,
+Const:	eFlushBelt1Timer		,  0x080E,
+Const:  eUnReverseBeltTimer		,  0x080F,
+Const:	eStopBelt2Timer			,  0x0810,
+Const:	eAMFlushTimer			,  0x0811,
+Const:  eRecentResetTimer		,  0x0812,
+Const:  eMaxDToBTimer			,  0x0813,
+Const:  eForceBelt1RunTimer		,  0x0814,
+;Const:  eBreadHeadTimer 		,  0x0815,
+
+
+;};
+;**********************************************************************************
+;	Timer initialization values
+;**********************************************************************************
+; By convention, timer initialization values are associated with a timer declaration by
+;   by name and suffix "Value"
+
+	;TickTimerValue time allows for item block sensor C before declaring a bag area backup
+Timer: TickTimerValue				, 1
+
+	;ItemPassByCTimerValue time allowed for item to pass sensor C before declaring Bag Area Backup
+Timer: ItemPassByCTimerValue		, 5000
+
+	;WaitForNextScanTimerValue time allowed to run both belts after an item transitions to rear belt
+Timer: WaitForNextScanTimerValue	, 1000
+
+	;WaitForNextScanTimerValue time allowed to stop front belt but keep back belt running after transition
+Timer: WaitForNextScanTimerValue2	, 3000
+
+	;BreadHeadTimerValue is used to filter bread head multi-breaks at sensor B
+Timer: BreadHeadTimerValue		, 500
+
+	;NoItemTimerValue time allowed after belt started for an item weight to be detected
+Timer: NoItemTimerValue				, 5000
+
+	;BackupFlushDelayTimerValue time to delay after sensor C clears before starting belt 2
+	; to flush a Bag Area Backup
+Timer: BackupFlushDelayTimerValue	, 750
+
+	;FlushBeltsTimerValue time to run both belts when Finish&Flush is asserted
+Timer: FlushBeltsTimerValue			, 4500
+
+	;ReverseBeltTimerValue max time belt 1 is allowed to run in reverse
+Timer: ReverseBeltTimerValue		, 3500
+
+	;StabilizeTimerValue time after an item reaches Sensor B we will wait for a stable weight
+	; before reversing
+Timer: StabilizeTimerValue			, 3000
+
+	;FlushBelt2TimerValue time to run belt 2 after the Sensor C has cleared
+	; and BackupFlushDelayTimerVaue
+	; delay has expired.  Don't mess w/ tihs.
+Timer: FlushBelt2TimerValue			, 2500
+
+	;FlatItemTimerValue time we'll linger waiting for a sensor D rising edge before assuming
+	; its a flat item.  Don't mess w/ this.
+Timer: FlatItemTimerValue			, 2000
+
+	;FlatItemTimer2Value time we'll linger waiting for a sensor B rising edge after Sensor D
+	; before assuming its a flat item
+Timer: FlatItemTimer2Value			, 1500
+
+	;DelayReadScaleTimerValue time after a bad weight to delay before requesting updated
+	; weight information
+Timer: DelayReadScaleTimerValue		, 750
+
+	;WaitReadScaleTimerValue time allowed for the application to respond with weight
+	; data after Asking
+Timer: WaitReadScaleTimerValue		, 400
+
+	;IgnoreSensorBTimerValue time following the 1st sensor B falling edge of an item
+	; that we will ignore subsequent B transitions
+Timer: IgnoreSensorBTimerValue		, 250
+
+	;FlushBelt1TimerValue time belt 1 runs after leaving Pause2ndItem with a good weight
+	; Possibly obsoleted.
+Timer: FlushBelt1TimerValue		, 500
+
+	;UnReverseBeltTimerValue max time belt 1 is allowed to run in reverse
+Timer: UnReverseBeltTimerValue		, 1100
+
+	; UnReverseTimerValue time belt 1 run in reverse to pull item off belt 1 cover plate
+	;  allowing valid weight readings.
+Timer: UnReverseTimerValue		, 900
+
+	; StopBelTimerValue time belt 2 is allowed to run after stopping belt 1 to insure
+	;  that items are not left blocking sensor C
+Timer: StopBeltTimerValue		, 1500
+
+	; AMFlushTimerValue timer allowed for belts to run after exiting Assist Mode.
+Timer: AMFlushTimerValue		, 6500
+
+	; timer allowing multiple items on belt 1 to get fully off belt 1
+Timer: QuantityIgnoreSensorBTimerValue  , 2500
+
+	; eRecentResetTimer timer starts on exit from Reset and is used to reset the var
+	;  varRecentReset to it's reset condition.  This var provides a level 1 for the
+	;  duration of this timer allowing states to detect a Reset state in the recent
+	;  history.
+Timer: RecentResetTimerValue	, 350
+
+	;Late bad weight waits for B-fall or this timout.  Fires when long item
+	; blocks B & C during backup.
+Timer: MaxDToBTimerValue	, 2500
+
+	; ForceBelt1RunTimerValue time belt1 runs after leaving UnPurchasedItemAsk with
+	; a good weight.
+Timer: ForceBelt1RunTimerValue	, 250
+
+
+
+
+
+;**********************************************************************************
+;		Variable Declarations
+;**********************************************************************************
+; Unless otherwise noted, variables are cleared to 0 and latch to 1 on associated event.
+
+; varScaleWt is used to store the last scale weight event provided;
+;	as uninitialized / zero / good / bad  as -2, -1, 0, 1
+Variable:	varScaleWt,				-2
+Variable:	varScanState,			0
+Variable:	varRecentReset,			0
+
+; Sensor latch variables
+; Sensor D inits to 0; raisinging edge sets to 1; falling edge sets to 2
+Variable:	varSensorDState,		0
+Variable:	varSensorCState,		0
+Variable:	varSensorBState,		0
+Variable:	varSensorAState,		0
+
+; Item Attribute vars.  Indicate special handling in the state machine
+Variable:	varSkipBagging,			0
+Variable:	varLiteItem,			0
+Variable:	varQuantityItem,		0
+Variable:	varAppStopRqst,			0
+
+; Special Mode settings
+Variable:	varFinishFlush,			0
+Variable:	varHandleBagAreaBackup,	0
+Variable:	varAssistModeStart,		0
+Variable:	varAssistModeStop,		0
+
+;**********************************************************************************
+;		Global Handlers
+;**********************************************************************************
+; Events are always processed by these global handlers BEFORE being processed by the
+;   general state machine.  They are generally used to latch asynchronous events from the app
+;   allowing the state machine to process them at a more convienient time.
+
+State:	GblItemScan
+	Action: "LatchItemScanEvent", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varScanState", 1
+
+State:	GblLiteItem
+	Action: "LatchLiteItemEvent", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varLiteItem", 1
+
+State:	GblSkipBagging
+	Action: "LatchSkipBaggingEvent", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varSkipBagging", 1
+
+State:	GblHandleBagAreaBackup
+	Action: "LatchHandleBagAreaBackupEvent", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varHandleBagAreaBackup", 1
+
+State:	GblSensorARise
+	Action: "LatchSensorARise", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varSensorAState", 1
+
+State:	GblSensorAFall
+	Action: "LatchSensorAFall", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varSensorAState", 0
+
+State:	GblSensorBRise
+	Action: "LatchSensorBRise", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varSensorBState", 1
+
+State:	GblSensorBFall
+	Action: "LatchSensorBFall", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varSensorBState", 0
+
+State:	GblSensorCRise
+	Action: "LatchSensorCRise", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varSensorCState", 1
+	Action: "ItemPassByCTimerStart", eActTypeTimerStart, eItemPassByCTimer ,0, false, eDoOnEntry, "ItemPassByC", ItemPassByCTimerValue
+
+State:	GblSensorCFall
+	Action: "LatchSensorCFall", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varSensorCState", 0
+	Action: "ItemPassByCTimerReset", eActTypeTimerReset, eItemPassByCTimer ,0, false, eDoOnEntry, "ItemPassByC", 0
+
+State:	GblSensorDRise
+	Action: "LatchSensorDRise", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varSensorDState", 1
+
+State:	GblSensorDFall
+	Action: "LatchSensorDFall", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varSensorDState", 2
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+State: "GblSignalBagAreaBackup"
+	Action: "BagAreaBackup", eActTypeSignal, eBagAreaBackup ,0, false, eDoOnEntry, "", 0
+
+State: GblZeroScaleWt
+	Action: "LatchStableZeroWeight", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varScaleWt", 0
+
+State: GblGoodScaleWt
+	Action: "LatchStableGoodWeight", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varScaleWt", 1
+
+State: GblBadScaleWt
+	Action: "LatchStableBadWeight", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varScaleWt", -1
+
+State: GblFinishFlush
+	Action: "LatchFinishFlush", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varFinishFlush", 1
+
+State: GblQuantityItem
+	Action: "LatchQuantityItem", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varQuantityItem", 1
+
+State: GblAppStopRqst
+	Action: "LatchAppStopRqst", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varAppStopRqst", 1
+
+State: GblAssistModeStart
+	Action: "LatchAssistModeStart", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varAssistModeStart", 1
+
+State: GblAssistModeStop
+	Action: "LatchAssistModeStop", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varAssistModeStop", 1
+
+State: GblRecentResetTimeout
+	Action: "ClearRecentResetFlag", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varRecentReset", 0
+
+; Each Global Handler must be a transition of the pseudo state "GLOBAL" in order to be called
+;
+State: "GLOBAL"
+	Transition: "GblItemScanEvent", eItemScan, "GblItemScan"
+	Transition: "GblStableGoodWeightEvent", eStableGoodWeight, "GblGoodScaleWt"
+	Transition: "GblScaleReadsZeroEvent", eScaleReadsZero, "GblZeroScaleWt"
+	Transition: "GblStableBadWeightEvent", eStableBadWeight, "GblBadScaleWt"
+	Transition: "GblSensorCRiseEvent", eSensorCRisingEdge, "GblSensorCRise"
+	Transition: "GblSensorCFallEvent", eSensorCFallingEdge, "GblSensorCFall"
+	Transition: "GblSensorARiseEvent", eSensorARisingEdge, "GblSensorARise"
+	Transition: "GblSensorAFallEvent", eSensorAFallingEdge, "GblSensorAFall"
+	Transition: "GblSensorBRiseEvent", eSensorBRisingEdge, "GblSensorBRise"
+	Transition: "GblSensorBFallEvent", eSensorBFallingEdge, "GblSensorBFall"
+	Transition: "GblSensorDRiseEvent", eSensorDRisingEdge, "GblSensorDRise"
+	Transition: "GblSensorDFallEvent", eSensorDFallingEdge, "GblSensorDFall"
+	Transition: "BagAreaBackupDetectionTimerExpired", eItemPassByCTimer, "GblSignalBagAreaBackup"
+	Transition: "GblLiteItemEvent", eLightItemExpected, "GblLiteItem"
+	Transition: "GblSkipBaggingEvent", eSkipBagging, "GblSkipBagging"
+	Transition: "GblHandleBagAreaBackupEvent", eHandleBagAreaBackup, "GblHandleBagAreaBackup"
+	Transition: "GblHandleFinishFlushEvent", eFlushAndFinish, "GblFinishFlush"
+	Transition: "GblAssistModeStart", eAssistModeStart, "GblAssistModeStart"
+	Transition: "GblAssistModeStop", eAssistModeStop, "GblAssistModeStop"
+	Transition: "GblQuantityitem", eQuantityItem, "GblQuantityItem"
+	Transition: "GblAppStopRqst", eAppRequestStopBelt, "GblAppStopRqst"
+	Transition: "GblRecentResetTimout", eRecentResetTimer, "GblRecentResetTimeout"
+
+;**********************************************************************************
+;	State Definitions
+;**********************************************************************************
+; A word on Events.  Please understand if you want to transition on the occurance of an
+;   event, or on the latched value of an event.  For example, transition on eStableGoodWeight
+;   transitions only when the stable good weigh occurs; while transition on varWeight=1
+;   transitions if a good weight event has been received sometime previously (since the
+;	variable was last cleared or modified by zero weight or bad weight events).
+; Also note that actions can be specified to execute on Entry of Exit to a State.
+;   This is powerful and often eliminates the need for additional states.  Commonly
+;   used in timer management also.
+;
+; Please insure that Reset is a "stable" state.  When the App calls for Reset, we don't
+;  want to immediately jump out and start running the belts for some reason.
+
+State: "Reset"
+	Action: "Belt1Stop", eActTypeSignal, eBelt1Stop ,0, false, eDoOnEntry, "", 0
+	Action: "Belt2Stop", eActTypeSignal, eBelt2Stop ,0, false, eDoOnEntry, "", 0
+	Action: "SendScannerEnable", eActTypeSignal, eScannerEnable ,0, false, eDoOnEntry, "", 0
+	Action: "WaitForNextScanTimerReset", eActTypeTimerReset, eWaitForNextScanTimer ,0, false, eDoOnEntry, "WaitScan", 0
+	Action: "ResetFinishFlushVar", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varFinishFlush", 0
+        Action: "ResetScanState", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varScanState", 0
+	Action: "ResetSkipBaggingVar", eActTypeVarSet, 0, 0, false, eDoOnExit, "varSkipBagging", 0
+	Action: "ResetLiteItemVar", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varLiteItem", 0
+	Action: "ResetQuantityItemVar", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varQuantityItem", 0
+	Action: "ResetAppStopRqstVar", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varAppStopRqst", 0
+		;need to ignore good weights when in reset;
+		;app is sending them as startup.  Might be ok to change the weight reset back
+		; to OnEntry if app stops sending crap.
+	Action: "ResetScaleWtVar", eActTypeVarSet, 0, 0, false, eDoOnExit, "varScaleWt", -2
+		; the following two actions create varRecentReset as a one-shot fired leaving Reset state
+		; for a duration of RecentResetTimerValue.  It is used by xxStop states to xfr immediately to xxStopBelt2
+	Action: "SetRecentResetFlag", eActTypeVarSet, 0, 0, false, eDoOnExit, "varRecentReset", 1
+	Action: "RecentResetTimerStart", eActTypeTimerStart, eRecentResetTimer ,0, false, eDoOnExit, "RecentReset", RecentResetTimerValue
+        Action: "ResetAppStopRqstVar", eActTypeVarSet, 0, 0, false, eDoOnExit, "varAppStopRqst", 0
+
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+	Transition: "ItemScan", eItemScan, "Weigh"
+	Transition: "StableBadWeight", eStableBadWeight, "UnPurchasedItemPause"
+	Transition: "ExitingAssistMode", "AssistModeExit" , varAssistModeStop, ==, 1
+	Transition: "HandleBagAreaBackupRequest", "BagAreaBackup" , varHandleBagAreaBackup, ==, 1
+	; only called from attract at trans start
+	Transition: "HandleFlushAndFinishRequest", "FlushAndFinish" , varFinishFlush, ==, 1
+ 	Transition: "AssistModeStarting", "AssistMode" , varAssistModeStart, ==, 1
+
+State: "Weigh"
+	Action: "ScannerDisable", eActTypeSignal, eScannerDisable ,0, false, eDoOnEntry, "", 0
+        Action: "ResetScanState", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varScanState", 0
+	Action: "Belt1Forward", eActTypeSignal, eBelt1Forward ,0, false, eDoOnEntry, "", 0
+	Action: "Belt2Forward", eActTypeSignal, eBelt2Forward ,0, false, eDoOnEntry, "", 0
+	Action: "NoItemTimerStart", eActTypeTimerStart, eNoItemTimer ,0, false, eDoOnEntry, "NoItem", NoItemTimerValue
+	Action: "NoItemTimerReset", eActTypeTimerReset, eNoItemTimer ,0, false, eDoOnExit, "NoItem", 0
+	Action: "ResetFinishFlush", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varFinishFlush", 0
+	Action: "ResetSensorDLatch", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varSensorDState", 0
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+	;Transition: "SensorBSetProcessed", "Pause" , varSensorBState, ==, 1
+        Transition: "SensorBRiseEvent", eSensorBRisingEdge, "Pause"
+	Transition: "AppStopRqstProcessed", "WrongItemStop" , varAppStopRqst, ==, 1
+	Transition: "GoodWeightProcessed", "GoodWeight" , varScaleWt, ==, 1
+	Transition: "BadWeightProcessed", "BadWeightWait" , varScaleWt, ==, -1
+	Transition: "NoItemTimerExpired", eNoItemTimer, "WrongItemStop"
+	Transition: "SkipBaggingProcessed", "Reset" , varSkipBagging, ==, 1
+	Transition: "Reset", eReset, "Reset"
+
+State: "GoodWeight"
+	Action: "Belt1Forward", eActTypeSignal, eBelt1Forward ,0, false, eDoOnEntry, "", 0
+	Action: "Belt2Forward", eActTypeSignal, eBelt2Forward ,0, false, eDoOnEntry, "", 0
+	Action: "ResetScaleWtVar", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varScaleWt", -2
+	Action: "FlatItemTimerStart", eActTypeTimerStart, eFlatItemTimer ,0, false, eDoOnEntry, "FlatItem", FlatItemTimer2Value
+	Action: "FlatItemTimerReset", eActTypeTimerReset, eFlatItemTimer ,0, false, eDoOnExit, "FlatItem", 0
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+        Action: "ResetScanState", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varScanState", 0
+	Action: "EnablingScanner", eActTypeSignal, eScannerEnable ,0, false, eDoOnEntry, "", 999
+
+	Transition: "SkipBaggingProcessed", "Reset" , varSkipBagging, ==, 1
+		;weight required items rq tab stop very late.  May be app problem...
+	Transition: "AppStopRqstProcessed", "WrongItemStop" , varAppStopRqst, ==, 1
+	Transition: "QuantityProcessed", "QuantityPassingB" , varQuantityItem, ==, 1
+	Transition: "ItemPastSensorD", "ItemPastD" , varSensorDState, ==, 2
+;;	Transition: "ZeroWeightProcessed", "TestForScan" , varScaleWt, ==, 0
+	Transition: "FlatItemTimerExpired", eFlatItemTimer, "ItemNearD"
+        Transition: "ScanPending", "ItemNearD" , varScanState, ==, 1
+	Transition: "Reset", eReset, "Reset"
+
+State: "GoodWeightStopped"
+	Action: "ResetAppStopRqstVar", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varAppStopRqst", 0
+	Action: "Belt1Forward", eActTypeSignal, eBelt1Forward ,0, false, eDoOnEntry, "", 0
+	Action: "Belt2Forward", eActTypeSignal, eBelt2Forward ,0, false, eDoOnEntry, "", 0
+	Action: "ResetScaleWtVar", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varScaleWt", -2
+	Action: "FlatItemTimerStart", eActTypeTimerStart, eFlatItemTimer ,0, false, eDoOnEntry, "FlatItem", FlatItemTimer2Value
+	Action: "FlatItemTimerReset", eActTypeTimerReset, eFlatItemTimer ,0, false, eDoOnExit, "FlatItem", 0
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+        Action: "ResetScanState", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varScanState", 0
+	Action: "EnablingScanner", eActTypeSignal, eScannerEnable ,0, false, eDoOnExit, "", 999
+
+	Transition: "SkipBaggingProcessed", "Reset" , varSkipBagging, ==, 1
+		;weight required items rq tab stop very late.  May be app problem...
+	Transition: "AppStopRqstProcessed", "WrongItemStop" , varAppStopRqst, ==, 1
+	Transition: "QuantityProcessed", "QuantityPassingB" , varQuantityItem, ==, 1
+	Transition: "ItemPastSensorD", "ItemPastD" , varSensorDState, ==, 2
+	Transition: "FlatItemTimerExpired", eFlatItemTimer, "ItemNearD"
+        Transition: "ScanPending", "ItemNearD" , varScanState, ==, 1
+	Transition: "Reset", eReset, "Reset"
+
+State: "Pause"
+	Action: "Belt1Stop", eActTypeSignal, eBelt1Stop ,0, false, eDoOnEntry, "", 0
+	Action: "Belt2Stop", eActTypeSignal, eBelt2Stop ,0, false, eDoOnEntry, "", 0
+	Action: "StabilizeTimerStart", eActTypeTimerStart, eStabilizeTimer ,0, false, eDoOnEntry, "Stabilize", StabilizeTimerValue
+	Action: "StabilizeTimerReset", eActTypeTimerReset, eStabilizeTimer ,0, false, eDoOnExit, "Stabilize", 0
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+	Transition: "GoodWeightProcessed", "LateScaleEnable" , varScaleWt, ==, 1
+	Transition: "BadWeightProcessed", "WrongItemPause" , varScaleWt, ==, -1
+	Transition: "StabilizeTimerExpired", eStabilizeTimer, "WrongItemAsk"
+	Transition: "Reset", eReset, "Reset"
+
+State: "WrongItemPause"
+	Action: "Belt1Stop", eActTypeSignal, eBelt1Stop ,0, false, eDoOnEntry, "", 0
+	Action: "Belt2Stop", eActTypeSignal, eBelt2Stop ,0, false, eDoOnEntry, "", 0
+	Action: "DelayReadScaleTimerStart", eActTypeTimerStart, eDelayReadScaleTimer	,0, false, eDoOnEntry, "Pause2nd", DelayReadScaleTimerValue
+	Action: "DelayReadScaleTimerReset", eActTypeTimerReset, eDelayReadScaleTimer	,0, false, eDoOnExit,  "Pause2nd", 0
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+	Transition: "DelayReadScaleTimerExpired", eDelayReadScaleTimer,	"WrongItemAsk"
+	Transition: "GoodWeightProcessed", "GoodWeightStopped" , varScaleWt, ==, 1
+	Transition: "Reset", eReset, "Reset"
+
+State: "WrongItemAsk"
+	Action: "ClearVarWeight", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varScaleWt", -2
+	Action: "RequestWeight", eActTypeSignal, eSendScaleStatus ,0, false, eDoOnEntry, "", 0
+	Action: "WaitReadScaleTimerStart", eActTypeTimerStart, eWaitReadScaleTimer	,0, false, eDoOnEntry, "Pause2nd", WaitReadScaleTimerValue
+	Action: "WaitReadScaleTimerReset", eActTypeTimerReset, eWaitReadScaleTimer	,0, false, eDoOnExit,  "Pause2nd", 0
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+	Transition: "BadWeightProcessed", "WrongItemStop" , varScaleWt, ==, -1
+	Transition: "GoodWeightProcessed", "GoodWeightStopped" , varScaleWt, ==, 1
+	Transition: "PauseReadScaleTimerExpired", eWaitReadScaleTimer,	"WrongItemStop"
+	Transition: "Reset", eReset, "Reset"
+
+State: "WrongItemStop"
+	Action: "Belt1Stop", eActTypeSignal, eBelt1Stop ,0, false, eDoOnEntry, "", 0
+	Action: "Belt2TimerStart", eActTypeTimerStart, eStopBelt2Timer ,0, false, eDoOnEntry, "StopBelt2", StopBeltTimerValue
+	Action: "Belt2Forward", eActTypeSignal, eBelt2Forward ,0, false, eDoOnEntry, "", 0
+        Action: "ResetScaleWtVar", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varScaleWt", -2
+	Action: "ResetAppStopRqstVar", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varAppStopRqst", 0
+	Action: "Belt2TimerReset", eActTypeTimerReset, eStopBelt2Timer ,0, false, eDoOnExit, "StopBelt2", 0
+	Action: "ResetSensorDLatch", eActTypeVarSet, 0, 0, false, eDoOnExit, "varSensorDState", 0
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+	Transition: "ItemScan", eItemScan, "Weigh"
+        Transition: "RecentResetFlag", "WrongItemStopBelt2" , varRecentReset, ==, 1
+	Transition: "Belt2TimerExpired", eStopBelt2Timer, "WrongItemStopBelt2"
+        Transition: "QuantityProcessed", "QuantityEntered" , varQuantityItem, ==, 1
+	Transition: "GoodWeightProcessed", "GoodWeightStopped" , varScaleWt, ==, 1
+	Transition: "HandleFlushAndFinishRequest", "FlushAndFinish" , varFinishFlush, ==, 1
+	Transition: "SkipBaggingProcessed", "Reset" , varSkipBagging, ==, 1
+	Transition: "Reset", eReset, "Reset"
+
+State: "WrongItemStopBelt2"
+	Action: "Belt2Stop", eActTypeSignal, eBelt2Stop ,0, false, eDoOnEntry, "", 0
+	Action: "ResetAppStopRqstVar", eActTypeVarSet, 0, 0, false, eDoOnExit, "varAppStopRqst", 0
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+	Transition: "ItemScan", eItemScan, "Weigh"
+        Transition: "HandleBagAreaBackupRequest", "BagAreaBackupAlt" , varHandleBagAreaBackup, ==, 1
+        Transition: "QuantityProcessed", "QuantityEntered" , varQuantityItem, ==, 1
+	Transition: "GoodWeightProcessed", "GoodWeightStopped" , varScaleWt, ==, 1
+	Transition: "HandleFlushAndFinishRequest", "FlushAndFinish" , varFinishFlush, ==, 1
+	Transition: "SkipBaggingProcessed", "Reset" , varSkipBagging, ==, 1
+ 	Transition: "AssistModeStarting", "Reset" , varAssistModeStart, ==, 1
+	Transition: "Reset", eReset, "Reset"
+
+State: "ItemPastD"
+	Action: "FlatItemTimer2Start", eActTypeTimerStart, eFlatItemTimer ,0, false, eDoOnEntry, "FlatItem", FlatItemTimer2Value
+	Action: "FlatItemTimer2Reset", eActTypeTimerReset, eFlatItemTimer ,0, false, eDoOnExit, "FlatItem", 0
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+	Transition: "SensorBBlocked", "BreadHeadFilter" , varSensorBState, ==, 1
+	Transition: "FlatItemTimer2Expired", eFlatItemTimer, "BreadHeadFilter"
+	Transition: "Reset", eReset, "Reset"
+
+State: "LateScaleEnable"
+	Action: "Belt1Forward", eActTypeSignal, eBelt1Forward ,0, false, eDoOnEntry, "", 0
+	Action: "Belt2Forward", eActTypeSignal, eBelt2Forward ,0, false, eDoOnEntry, "", 0
+	Action: "ResetScaleWtVar", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varScaleWt", -2
+	Action: "EnablingScanner", eActTypeSignal, eScannerEnable ,0, false, eDoOnExit, "", 999
+        Action: "FlatItemTimer2Start", eActTypeTimerStart, eFlatItemTimer ,0, false, eDoOnEntry, "FlatItem", FlatItemTimer2Value
+	Action: "FlatItemTimer2Reset", eActTypeTimerReset, eFlatItemTimer ,0, false, eDoOnExit, "FlatItem", 0
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+
+        Transition: "SensorBFall", "BreadHeadFilter" , varSensorBState, ==, 0
+        Transition: "FlatItemTimer2Expired", eFlatItemTimer, "BreadHeadFilter"
+	Transition: "Reset", eReset, "Reset"
+
+State: "QuantityPassingB"
+	;Action: "EnablingScanner", eActTypeSignal, eScannerEnable ,0, false, eDoOnExit, "", 999
+        ;Action: "Belt1Forward", eActTypeSignal, eBelt1Forward ,0, false, eDoOnEntry, "", 0
+	;Action: "Belt2Forward", eActTypeSignal, eBelt2Forward ,0, false, eDoOnEntry, "", 0
+	Action: "IgnoreSensorBTimerStart", eActTypeTimerStart, eIgnoreSensorBTimer ,0, false, eDoOnEntry, "IgnoreB", QuantityIgnoreSensorBTimerValue
+	Action: "IgnoreSensorBTimerReset", eActTypeTimerReset, eIgnoreSensorBTimer ,0, false, eDoOnExit, "IgnoreB", 0
+        Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+	Action: "ItemMovedOffBelt", eActTypeSignal, eItemMovedOffBelt ,0, false, eDoOnExit, "", 999
+
+	Transition: "IgnoreSensorBTimerExpired", eIgnoreSensorBTimer, "CheckFor2ndItem"
+	;Transition: "BadWeightProcessed", "WrongItemPause" , varScaleWt, ==, -1
+	Transition: "Reset", eReset, "Reset"
+        Transition: "SkipBaggingProcessed", "Reset" , varSkipBagging, ==, 1
+                ;New SecMgr sends GoodWeight by default, then SkipBagging.  Need to allow here
+
+
+State: "IgnoreSensorB"
+	Action: "IgnoreSensorBTimerStart", eActTypeTimerStart, eIgnoreSensorBTimer ,0, false, eDoOnEntry, "IgnoreB", IgnoreSensorBTimerValue
+;JCA	Action: "IgnoreSensorBTimerReset", eActTypeTimerReset, eIgnoreSensorBTimer ,0, false, eDoOnExit, "IgnoreB", 0
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+        Action: "ItemMovedOffBelt", eActTypeSignal, eItemMovedOffBelt ,0, false, eDoOnExit, "", 999
+
+	Transition: "BadWeightProcessed", "FirstItemOffBelt" , varScaleWt, ==, -1
+	Transition: "IgnoreSensorBTimerExpired", eIgnoreSensorBTimer, "CheckFor2ndItem"
+	Transition: "Reset", eReset, "Reset"
+
+State: "CheckFor2ndItem"
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+        Transition: "StableBadWeight", eStableBadWeight, "TestFor2Items"
+	Transition: "NoLateItemDetected", "Idle" , varSensorBState, ==, 0
+;;JCA	Transition: "LateItemDetected", "UnPurchasedItemPause" , varSensorBState, !=, 0
+	Transition: "LateItemDetected", "TestFor2Items" , varSensorBState, !=, 0
+	Transition: "Reset", eReset, "Reset"
+
+State: "Idle"
+	Action: "Belt1Forward", eActTypeSignal, eBelt1Forward ,0, false, eDoOnEntry, "", 0
+	Action: "Belt2Forward", eActTypeSignal, eBelt2Forward ,0, false, eDoOnEntry, "", 0
+	Action: "WaitForNextScanTimerStart", eActTypeTimerStart, eWaitForNextScanTimer ,0, false, eDoOnEntry, "WaitScan", WaitForNextScanTimerValue
+	Action: "WaitForNextScanTimerReset", eActTypeTimerReset, eWaitForNextScanTimer ,0, false, eDoOnExit, "WaitScan", 0 
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+	Transition: "HandleBagAreaBackupRequest", "BagAreaBackup" , varHandleBagAreaBackup, ==, 1
+	Transition: "ItemScanRecognized", "TestForScan" , varScanState, ==, 1
+        Transition: "StableBadWeight", eStableBadWeight, "TestFor2Items"
+        Transition: "LateItemDetected", "TestFor2Items" , varSensorBState, !=, 0
+	Transition: "AppStopRqstProcessed", "UnPurchasedItemStop" , varAppStopRqst, ==, 1
+        Transition: "HandleFlushAndFinishRequest", "FlushAndFinish" , varFinishFlush, ==, 1
+	Transition: "AssistModeStarting", "AssistMode" , varAssistModeStart, ==, 1
+	Transition: "WaitForNextScanTimerExpired", eWaitForNextScanTimer, "IdleFrontStop"
+	Transition: "Reset", eReset, "Reset"
+
+State: "TestForScan"
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+	Transition: "ProcessingLatchedItemScan", "Weigh" , varScanState, ==, 1
+        Transition: "StableBadWeight", eStableBadWeight, "UnPurchasedItemReverse"
+	Transition: "NoScanPending", "Reset" , varScanState, ==, 0
+
+State: "FlushAndFinish"
+	Action: "Belt1Forward", eActTypeSignal, eBelt1Forward ,0, false, eDoOnEntry, "", 0
+	Action: "Belt2Forward", eActTypeSignal, eBelt2Forward ,0, false, eDoOnEntry, "", 0
+	Action: "FlushBeltsTimerStart", eActTypeTimerStart, eFlushBeltsTimer ,0, false, eDoOnEntry, "FlushAll", FlushBeltsTimerValue
+	Action: "FlushBeltsTimerReset", eActTypeTimerReset, eFlushBeltsTimer ,0, false, eDoOnExit, "FlushAll", 0
+	Action: "ClearFinishFlush", eActTypeVarSet, 0, 0, false, eDoOnExit, "varFinishFlush", 0
+        Action: "ResetScanState", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varScanState", 0
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+	Transition: "ItemScan", eItemScan, "TestForScan"
+        Transition: "AppStopRqstProcessed", "UnPurchasedItemStop" , varAppStopRqst, ==, 1
+	Transition: "AssistModeStarting", "AssistMode" , varAssistModeStart, ==, 1
+	Transition: "BadWeightProcessed", "UnPurchasedItemPause" , varScaleWt, ==, -1
+	Transition: "WaitForNextScanTimerExpired", eWaitForNextScanTimer, "TestForScan"
+	Transition: "FlushBeltsTimerExpired", eFlushBeltsTimer, "TestForScan"
+;;	Transition: "Reset", eReset, "Reset"
+	Transition: "Reset", eReset, "FlushAndFinish1"
+
+State: "FlushAndFinish1"
+	Action: "FlushBeltsTimerStart", eActTypeTimerStart, eFlushBeltsTimer ,0, false, eDoOnEntry, "FlushAll", FlushBeltsTimerValue
+	Transition: "FlushBeltsTimerExpired", eFlushBeltsTimer, "Reset"
+
+
+
+State: "UnPurchasedItemPause"
+	Action: "Belt1Stop", eActTypeSignal, eBelt1Stop ,0, false, eDoOnEntry, "", 0
+	Action: "PauseReadScaleTimerStart", eActTypeTimerStart, eDelayReadScaleTimer	,0, false, eDoOnEntry, "Pause2nd", DelayReadScaleTimerValue
+        Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+	Transition: "ItemScanRecognized", "Weigh" , varScanState, ==, 1
+;JCA    Transition: "SensorBFallingEdge", eSensorBFallingEdge, "Idle"
+	Transition: "PauseReadScaleTimerExpired", eDelayReadScaleTimer,	"UnPurchasedItemAsk"
+	Transition: "Reset", eReset, "Reset"
+
+State: "UnPurchasedItemAsk"
+	Action: "ClearVarWeight", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varScaleWt", -2
+	Action: "RequestWeight", eActTypeSignal, eSendScaleStatus ,0, false, eDoOnEntry, "", 0
+	Action: "PauseReadScaleTimerStart", eActTypeTimerStart, eDelayReadScaleTimer	,0, false, eDoOnEntry, "Pause2nd", WaitReadScaleTimerValue
+	Action: "PauseReadScaleTimerReset", eActTypeTimerReset, eDelayReadScaleTimer	,0, false, eDoOnExit,  "Pause2nd", 0
+        Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+	Transition: "ItemScanRecognized", "Weigh" , varScanState, ==, 1
+        Transition: "BadWeightProcessed", "UnPurchasedItemReverse" , varScaleWt, ==, -1
+	Transition: "ZeroWeightProcessed", "IdleFrontStop" , varScaleWt, ==, 0
+	Transition: "GoodWeightProcessed", "ForceBelt1Run" , varScaleWt, ==, 1
+	Transition: "PauseReadScaleTimerExpired", eDelayReadScaleTimer,	"UnPurchasedItemReverse"
+	Transition: "Reset", eReset, "Reset"
+
+State: "ForceBelt1Run"
+	Action: "ForceBelt1RunTimerStart", eActTypeTimerStart, eForceBelt1RunTimer	,0, false, eDoOnEntry, "Pause2nd", ForceBelt1RunTimerValue
+	Action: "ForceBelt1RunTimerReset", eActTypeTimerReset, eForceBelt1RunTimer	,0, false, eDoOnExit,  "Pause2nd", 0
+	Action: "Belt1Forward", eActTypeSignal, eBelt1Forward ,0, false, eDoOnEntry, "", 0
+	Action: "Belt2Forward", eActTypeSignal, eBelt2Forward ,0, false, eDoOnEntry, "", 0
+        Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+        Transition: "ItemScanRecognized", "Weigh" , varScanState, ==, 1
+        Transition: "ForceBelt1RunTimerExpired", eForceBelt1RunTimer,	"Idle"
+	Transition: "BadWeightProcessed", "UnPurchasedItemPause" , varScaleWt, ==, -1
+	Transition: "Reset", eReset, "Reset"
+
+State: "UnPurchasedItemReverse"
+	Action: "Belt1Reverse", eActTypeSignal, eBelt1Reverse ,0, false, eDoOnEntry, "", 0
+	Action: "Belt2Stop", eActTypeSignal, eBelt2Stop ,0, false, eDoOnEntry, "", 0
+	Action: "ReverseBeltTimerStart", eActTypeTimerStart, eReverseBeltTimer ,0, false, eDoOnEntry, "Reverse", ReverseBeltTimerValue
+	Action: "ReverseBeltTimerReset", eActTypeTimerReset, eReverseBeltTimer ,0, false, eDoOnExit, "Reverse", 0
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+	Transition: "SensorAInterrupt", "UnPurchasedItemStop" , varSensorAState, ==, 1
+;;chu 050703	Transition: "GoodOrZeroWeightProcessed", "UnPurchasedItemStop" , varScaleWt, >=, 0
+        Transition: "ItemScanRecognized", "Weigh" , varScanState, ==, 1
+	Transition: "ZeroWeightProcessed", "Reset" , varScaleWt, ==, 0
+	Transition: "GoodWeightProcessed", "FlushAndFinish" , varScaleWt, ==, 1
+	Transition: "ReverseBeltTimerExpired", eReverseBeltTimer, "UnPurchasedItemStop"
+	Transition: "HandleFlushAndFinishRequest", "FlushAndFinish" , varFinishFlush, ==, 1
+	Transition: "Reset", eReset, "Reset"
+
+State: "UnPurchasedItemStop"
+	Action: "Belt1Stop", eActTypeSignal, eBelt1Stop ,0, false, eDoOnEntry, "", 0
+	Action: "ResetAppStopRqstVar", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varAppStopRqst", 0
+	Action: "Belt2Forward", eActTypeSignal, eBelt2Forward ,0, false, eDoOnEntry, "", 0
+        Action: "ResetScaleWtVar", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varScaleWt", -2
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+	Action: "Belt2TimerStart", eActTypeTimerStart, eStopBelt2Timer ,0, false, eDoOnEntry, "StopBelt2", StopBeltTimerValue
+	Action: "Belt2TimerReset", eActTypeTimerReset, eStopBelt2Timer ,0, false, eDoOnExit, "StopBelt2", 0
+
+	Transition: "HandleBagAreaBackupRequest", "BagAreaBackup" , varHandleBagAreaBackup, ==, 1
+		;From any App state, an approved unexpected item needs to move down the belt, though it
+		;may not have been purchased.
+        
+        Transition: "ItemScanRecognized", "Weigh" , varScanState, ==, 1
+        Transition: "BadWeightProcessed", "UnPurchasedItemReverse" , varScaleWt, ==, -1
+	Transition: "GoodWeightProcessed", "FlushAndFinish" , varScaleWt, ==, 1
+	Transition: "ZeroWeightProcessed", "Reset" , varScaleWt, ==, 0
+	Transition: "HandleFlushAndFinishRequest", "FlushAndFinish" , varFinishFlush, ==, 1
+	Transition: "Belt2TimerExpired", eStopBelt2Timer, "UnPurchasedItemStopBelt2"
+	Transition: "Reset", eReset, "Reset"
+
+State: "UnPurchasedItemStopBelt2"
+	Action: "Belt2Stop", eActTypeSignal, eBelt2Stop ,0, false, eDoOnEntry, "", 0
+	Action: "ResetAppStopRqstVar", eActTypeVarSet, 0, 0, false, eDoOnExit, "varAppStopRqst", 0
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+
+	Transition: "HandleBagAreaBackupRequest", "BagAreaBackup" , varHandleBagAreaBackup, ==, 1
+		;From any App state, an approved unexpected item needs to move down the belt, though it
+		;may not have been purchased.
+        Transition: "ItemScanRecognized", "Weigh" , varScanState, ==, 1
+	Transition: "BadWeightProcessed", "UnPurchasedItemStop" , varScaleWt, ==, -1
+	Transition: "GoodWeightProcessed", "FlushAndFinish", varScaleWt, ==, 1
+	Transition: "ZeroWeightProcessed", "Reset" , varScaleWt, ==, 0
+	Transition: "HandleFlushAndFinishRequest", "FlushAndFinish" , varFinishFlush, ==, 1
+ 	Transition: "AssistModeStarting", "Reset" , varAssistModeStart, ==, 1
+	Transition: "Reset", eReset, "Reset"
+
+State: "BagAreaBackup"
+	Action: "Belt1Stop", eActTypeSignal, eBelt1Stop ,0, false, eDoOnEntry, "", 0
+	Action: "Belt2Stop", eActTypeSignal, eBelt2Stop ,0, false, eDoOnEntry, "", 0
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+	Transition: "BadWeightProcessed", "UnPurchasedItemPause" , varScaleWt, ==, -1
+	Transition: "BackupClear", "BackupFlushDelay" , varSensorCState, ==, 0
+	Transition: "AssistModeStarting", "AssistMode" , varAssistModeStart, ==, 1
+	Transition: "Reset", eReset, "Reset"
+
+State: "BackupFlushDelay"
+	Action: "BackupFlushDelayTimerStart", eActTypeTimerStart, eBackupFlushDelayTimer ,0, false, eDoOnEntry, "BackupFlushDelay", BackupFlushDelayTimerValue
+	Action: "BackupFlushDelayTimerReset", eActTypeTimerReset, eBackupFlushDelayTimer ,0, false, eDoOnExit, "BackupFlushDelay", 0
+
+	Transition: "BackupFlushDelayExpired", eBackupFlushDelayTimer, "FlushBelt2"
+	Transition: "Reset", eReset, "Reset"
+
+State: "FlushBelt2"
+	Action: "Belt2Forward", eActTypeSignal, eBelt2Forward ,0, false, eDoOnEntry, "", 0
+	Action: "FlushBelt2TimerStart", eActTypeTimerStart, eFlushBelt2Timer ,0, false, eDoOnEntry, "FlushBelt", FlushBelt2TimerValue
+	Action: "FlushBelt2TimerReset", eActTypeTimerReset, eFlushBelt2Timer ,0, false, eDoOnExit, "FlushBelt", 0
+	Action: "ClearHandleBagAreaBackupEvent", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varHandleBagAreaBackup", 0
+	Action: "BagAreaClear", eActTypeSignal, eBagAreaClear ,0, false, eDoOnEntry, "", 0
+
+	Transition: "FlushBelt2TimerExpired", eFlushBelt2Timer, "Idle"
+	Transition: "Reset", eReset, "Reset"
+
+State: "BagAreaBackupAlt"
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+	Transition: "BackupClear", "BackupFlushDelayAlt" , varSensorCState, ==, 0
+	Transition: "AssistModeStarting", "AssistMode" , varAssistModeStart, ==, 1
+	Transition: "Reset", eReset, "Reset"
+
+State: "BackupFlushDelayAlt"
+	Action: "BackupFlushDelayTimerStart", eActTypeTimerStart, eBackupFlushDelayTimer ,0, false, eDoOnEntry, "BackupFlushDelay", BackupFlushDelayTimerValue
+	Action: "BackupFlushDelayTimerReset", eActTypeTimerReset, eBackupFlushDelayTimer ,0, false, eDoOnExit, "BackupFlushDelay", 0
+
+	Transition: "BackupFlushDelayExpired", eBackupFlushDelayTimer, "FlushBelt2Alt"
+	Transition: "Reset", eReset, "Reset"
+
+State: "FlushBelt2Alt"
+	Action: "Belt2Forward", eActTypeSignal, eBelt2Forward ,0, false, eDoOnEntry, "", 0
+	Action: "FlushBelt2TimerStart", eActTypeTimerStart, eFlushBelt2Timer ,0, false, eDoOnEntry, "FlushBelt", FlushBelt2TimerValue
+	Action: "FlushBelt2TimerReset", eActTypeTimerReset, eFlushBelt2Timer ,0, false, eDoOnExit, "FlushBelt", 0
+	Action: "ClearHandleBagAreaBackupEvent", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varHandleBagAreaBackup", 0
+	Action: "BagAreaClear", eActTypeSignal, eBagAreaClear ,0, false, eDoOnEntry, "", 0
+
+	Transition: "FlushBelt2TimerExpired", eFlushBelt2Timer, "WrongItemStopBelt2"
+	Transition: "Reset", eReset, "Reset"
+
+State: "AssistMode"
+	Action: "Belt1Stop", eActTypeSignal, eBelt1Stop ,0, false, eDoOnEntry, "", 0
+	Action: "Belt2Stop", eActTypeSignal, eBelt2Stop ,0, false, eDoOnEntry, "", 0
+	Action: "ClearVarAssistModeStart", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varAssistModeStart", 0
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+	Transition: "AM_ItemScanned", eItemScan, "AssistModeScan"
+	Transition: "ExitingAssistMode", "AssistModeExit" , varAssistModeStop, ==, 1
+	Transition: "Reset", eReset, "Reset"
+
+State: "AssistModeScan"
+	Action: "Belt1Forward", eActTypeSignal, eBelt1Forward ,0, false, eDoOnEntry, "", 0
+	Action: "Belt2Forward", eActTypeSignal, eBelt2Forward ,0, false, eDoOnEntry, "", 0
+	Action: "AMFlushTimerStart", eActTypeTimerStart, eAMFlushTimer ,0, false, eDoOnEntry, "AmScan", AMFlushTimerValue
+	Action: "AMFlushTimerReset", eActTypeTimerReset, eAMFlushTimer ,0, false, eDoOnExit, "AmScan", 0
+
+	Transition: "AM_ItemScanned", eItemScan, "AssistModeScan"
+	Transition: "AMFlushTimerExpired", eAMFlushTimer, "AssistMode"
+	Transition: "Reset", eReset, "Reset"
+
+State: "AssistModeExit"
+	Action: "SignalAssistModeExit", eActTypeSignal, eAmExitDone ,0, false, eDoOnEntry, "", 0
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+	Action: "ClearVarAssistModeStop", eActTypeVarSet, 0, 0, false, eDoOnExit, "varAssistModeStop", 0
+
+
+	Transition: "ExitingAssistMode", "Reset" , varAssistModeStop, ==, 1
+	Transition: "Reset", eReset, "Reset"
+
+State: "TestFor2Items"
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+        Action: "ResetScaleWtVar", eActTypeVarSet, 0, 0, false, eDoOnExit, "varScaleWt", -2
+
+	Transition: "ScanPending", "Weigh" , varScanState, ==, 1
+       	Transition: "NoScanPending", "UnPurchasedItemPause" , varScanState, ==, 0
+	Transition: "Reset", eReset, "Reset"
+
+State: "FirstItemOffBelt"
+	Action: "IgnoreSensorBTimerReset", eActTypeTimerReset, eIgnoreSensorBTimer ,0, false, eDoOnExit, "IgnoreB", 0
+
+        Transition: "SensorBFallingEdge", eSensorBFallingEdge, "TestFor2Items"
+	Transition: "IgnoreSensorBTimerExpired", eIgnoreSensorBTimer, "TestFor2Items"
+	Transition: "Reset", eReset, "Reset"
+
+State: "BadWeightWait"
+        Action: "WaitReadScaleTimerStart", eActTypeTimerStart, eWaitReadScaleTimer	,0, false, eDoOnEntry, "Pause2nd", WaitReadScaleTimerValue
+	Action: "WaitReadScaleTimerReset", eActTypeTimerReset, eWaitReadScaleTimer	,0, false, eDoOnExit,  "Pause2nd", 0
+
+	Transition: "SensorBRisingEdge", eSensorBRisingEdge, "WrongItemPause"
+        Transition: "GoodWeightProcessed", "GoodWeight" , varScaleWt, ==, 1
+	Transition: "PauseReadScaleTimerExpired", eWaitReadScaleTimer,	"WrongItemPause"	
+	Transition: "Reset", eReset, "Reset"
+
+State: "ItemNearD"
+	Action: "FlatItemTimerStart", eActTypeTimerStart, eFlatItemTimer ,0, false, eDoOnEntry, "FlatItem", FlatItemTimerValue
+	Action: "FlatItemTimerReset", eActTypeTimerReset, eFlatItemTimer ,0, false, eDoOnExit, "FlatItem", 0
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+	Transition: "SensorBBlocked", "BreadHeadFilter" , varSensorBState, ==, 1
+        Transition: "ItemPastSensorD", "ItemPastD" , varSensorDState, ==, 2
+	Transition: "FlatItemTimerExpired", eFlatItemTimer, "BreadHeadFilter"
+	Transition: "Reset", eReset, "Reset"
+
+State: "IdleFrontStop"
+	Action: "Belt1Stop", eActTypeSignal, eBelt1Stop ,0, false, eDoOnEntry, "", 0
+	Action: "Belt2Forward", eActTypeSignal, eBelt2Forward ,0, false, eDoOnEntry, "", 0
+        Action: "WaitForNextScanTimerStart", eActTypeTimerStart, eWaitForNextScanTimer ,0, false, eDoOnEntry, "WaitScan", WaitForNextScanTimerValue2
+	Action: "WaitForNextScanTimerReset", eActTypeTimerReset, eWaitForNextScanTimer ,0, false, eDoOnExit, "WaitScan", 0 
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+
+	Transition: "HandleBagAreaBackupRequest", "BagAreaBackup" , varHandleBagAreaBackup, ==, 1
+        Transition: "StableBadWeight", eStableBadWeight, "UnPurchasedItemReverse"
+	Transition: "ItemScanRecognized", "TestForScan" , varScanState, ==, 1
+	Transition: "AppStopRqstProcessed", "UnPurchasedItemStop" , varAppStopRqst, ==, 1
+        Transition: "HandleFlushAndFinishRequest", "FlushAndFinish" , varFinishFlush, ==, 1
+	Transition: "AssistModeStarting", "AssistMode" , varAssistModeStart, ==, 1
+	Transition: "WaitForNextScanTimerExpired", eWaitForNextScanTimer, "Reset"
+	Transition: "Reset", eReset, "Reset"
+
+State: "QuantityEntered"
+	Action: "ResetAppStopRqstVar", eActTypeVarSet, 0, 0, false, eDoOnExit, "varAppStopRqst", 0
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+	Transition: "GoodWeightProcessed", "QuantityMoving" , varScaleWt, ==, 1
+	Transition: "SkipBaggingProcessed", "Reset" , varSkipBagging, ==, 1
+ 	Transition: "AssistModeStarting", "Reset" , varAssistModeStart, ==, 1
+	Transition: "Reset", eReset, "Reset"
+
+State: "QuantityMoving"
+	Action: "Belt1Forward", eActTypeSignal, eBelt1Forward ,0, false, eDoOnEntry, "", 0
+	Action: "Belt2Forward", eActTypeSignal, eBelt2Forward ,0, false, eDoOnEntry, "", 0
+	Action: "ResetScaleWtVar", eActTypeVarSet, 0, 0, false, eDoOnEntry, "varScaleWt", -2
+        Action: "FlatItemTimerStart", eActTypeTimerStart, eFlatItemTimer ,0, false, eDoOnEntry, "FlatItem", FlatItemTimerValue
+	Action: "FlatItemTimerReset", eActTypeTimerReset, eFlatItemTimer ,0, false, eDoOnExit, "FlatItem", 0
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+        Action: "ResetScanState", eActTypeVarSet, 0, 0, false, eDoOnExit, "varScanState", 0
+	Action: "EnablingScanner", eActTypeSignal, eScannerEnable ,0, false, eDoOnExit, "", 999
+	Action: "ClearVarQuantityItem", eActTypeVarSet, 0, 0, false, eDoOnExit, "varQuantityItem", 0
+
+	Transition: "FlatItemTimerExpired", eFlatItemTimer, "QuantityPassingB"
+        Transition: "SkipBaggingProcessed", "Reset" , varSkipBagging, ==, 1
+ 	Transition: "AssistModeStarting", "Reset" , varAssistModeStart, ==, 1
+	Transition: "Reset", eReset, "Reset"
+
+State: "BreadHeadFilter"
+	Action: "BreadHeadTimerStart", eActTypeTimerStart, eBreadHeadTimer ,0, false, eDoOnEntry, "BreadHead", BreadHeadTimerValue
+	Action: "BreadHeadTimerReset", eActTypeTimerReset, eBreadHeadTimer ,0, false, eDoOnExit, "BreadHead", 0
+	Action: "TickTimerStart", eActTypeTimerStart, eTickTimer ,0, false, eDoOnEntry, "Tick", TickTimerValue
+
+	Transition: "SensorBRisingEdge", eSensorBRisingEdge, "BreadHeadFilter"
+	Transition: "BreadHeadTimerExpired", eBreadHeadTimer, "IgnoreSensorB"
+	Transition: "Reset", eReset, "Reset"

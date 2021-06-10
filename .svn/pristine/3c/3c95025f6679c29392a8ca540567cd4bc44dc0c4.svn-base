@@ -1,0 +1,489 @@
+<?xml version="1.0" ?>
+<project name="FastLane" default="Main" basedir=".">
+  <echo message="Defining Initialization Target."/>
+  <!--
+	Preparing the initialization variables.
+	
+	LOGGING INFO:
+	D:\AutomatedBuilds\CruiseControl\Sales>ant -logger org.apache.tools.ant.listener.MailLogger
+	D:\AutomatedBuilds\CruiseControl\Sales>ant -logger org.apache.tools.ant.listener.MailLogger
+	-->
+	
+  <target name="FruitName">
+	<property name="ReleaseTag" value="Release 01/10/2019"/>
+	<property name="RetailBuildUtility" location="D:\CreateBuild\Scripts\ZENDeliverables\RetailBuildUtility.exe"/>
+	<exec executable="${RetailBuildUtility}" failonerror="true" outputproperty="FruitName">
+      <arg value="ReleaseName"/>
+	  <arg value="${ReleaseTag}"/>
+	</exec>
+	<echo message="Fruit name is ${FruitName}"/>
+  </target>	
+	
+  <target name="SetEnv">
+    <echo message=""/>
+    <echo message=""/>
+    <echo message=""/>
+    <echo message=""/>
+    <echo message="Setting up the build environment variables..."/>
+    <echo message=""/>
+    <echo message=""/>
+    <taskdef resource="net/sf/antcontrib/antlib.xml"/>
+    <!--*** THIS MUST EXIST TO USE ANT CONTRIB IF THEN LOGIC *** -->
+    <echo message=""/>
+    <property name="MailList" value="Ryan.Cichewicz@meijer.com,  
+		    Greg.Rademacher@meijer.com,
+        Aazath.Thamin@meijer.com,
+        Buzz.Seifert@meijer.com,				
+        Chris.Rinehart@meijer.com,
+        Eric.Poll@meijer.com,
+        Harikishore.Muvva@meijer.com, 
+	     	Deepak.Gautam@meijer.com,
+        Nicolette.Hamilton@meijer.com,
+        Suresh.Thota@meijer.com,
+    		Jeremiah.Berlinski@meijer.com,
+        Mitchell.Saum@meijer.com, 
+        Rajmohan.Govindaraju@meijer.com,
+        Ryan.Leckenby@meijer.com, 
+    		Alexander.Bronola@ncr.com, 
+    		MC124339@ncr.com, 
+    		Syam.Bhupathi@ncr.com, 
+    		Michael.Gibson@ncr.com, 
+    		Christoeffer.Estrada@ncr.com,
+    		Deepu.Ambardar@meijer.com,
+        MohanRaju.Kabirdass@meijer.com,
+        Scott.Rehberg@meijer.com,
+        Lisa.Minaker@ncr.com, 
+    		POSQATEAM@meijer.com, 
+    		matias.paulez@ncr.com,
+			Frederick.RevillezaJr@ncr.com"/>
+    <echo message=""/>
+    <echo message="Build On Server:"/>
+    <exec dir="D:\pstools" executable="cmd"   failonerror="false" output="Server.name" outputproperty="Server.name">
+      <arg value="/c hostname"/>
+    </exec>
+    <echo message="${Server.name}"/>
+    <property environment="env"/>
+    <property name="MjrMailHost" value="exsmtp01.meijer.com"/>
+    <property name="BuildYear" value="2020"/>
+    <echo message="Year ${BuildYear}"/>
+    <property name="PI" value="17"/>
+    <echo message="PI ${PI}"/>
+    <property name="BranchName" value="Support"/>
+    <echo message="${BranchName}"/>
+    <property name="Build Type" value="Beta"/>
+    <!--
+	Setting Official / Beta - ****THIS IS CASE SENSITIVE****
+	-->
+    <if>
+      <equals arg1="${Build Type}" arg2="Official" />
+      <then>
+        <echo message="The value of property Build Type is 'Official'" />
+      </then>
+
+      <elseif>
+        <equals arg1="${Build Type}" arg2="Beta" />
+        <then>
+          <echo message="The value of property Build Type is 'Beta'" />
+        </then>
+      </elseif>
+      <else>
+        <echo message="The value of property Build Type is not 'Beta' or 'Official'" />
+        <fail>
+          <condition>
+            <not>
+              <isset property="thisdoesnotexist"/>
+            </not>
+          </condition>
+        </fail>
+      </else>
+    </if>   
+    
+    <!--
+	Connecting to Version Control Folder
+	-->
+
+    <copy file="\\W0982iapps0090.ius.meijer.com\MeijerProvided\${BuildYear}\PI${PI}\VersionControl\${BranchName}\FastlaneBuild.Number" tofile=".\FastlaneBuild.Number" failonerror="false"/>
+
+    
+
+    
+    <!--
+	Pulling Version Information 
+	-->
+
+    <propertyfile file="FastlaneBuild.number"
+           comment="Build Number for ANT. Edit not!">
+      <entry key="build.number" type="int"
+          default="1"  />
+    </propertyfile>
+    <property file="FastlaneBuild.number"/>
+    <echo message= "Build ${build.number}"/>
+
+    <if>
+      <equals arg1="${Build Type}" arg2="Official" />
+      <then>
+        <echo message="Official Version File'" />
+        <property name="DGPatch" value="SCO.${BuildYear}.${PI}.${build.number}"/>
+        <echo message="${DGPatch}"/>
+      </then>
+
+      <elseif>
+        <equals arg1="${Build Type}" arg2="Beta" />
+        <then>
+          <echo message="Beta Version File" />
+          <property name="DGPatch" value="SCO.${BuildYear}.${PI}.${BranchName}.${build.number}"/>
+          <echo message="${DGPatch}"/>
+        </then>
+      </elseif>
+
+    </if>
+  </target>
+
+  <target name="init">
+    <mkdir dir="log\"/>
+    <mkdir dir="D:\Builds\Build_Fastlane\"/>
+    <mkdir dir="\\W0982iapps0090.ius.meijer.com\NCRProvided\Fastlane\${BuildYear}\PI${PI}"/>
+    <!-- Delete last build-->
+    <delete includeemptydirs="true">
+      <fileset dir="D:\Builds\Build_Fastlane\" includes="**/*"/>
+    </delete>
+    <delete includeemptydirs="true">
+      <fileset dir="D:\Meijer Package\updates\" includes="**/*"/>
+    </delete>
+    <!-- Move files to correct DIR-->
+    <copy todir="D:\Builds\Build_Fastlane\">
+      <fileset dir="..\Meijer\"/>
+    </copy>
+    <copy todir="D:\Meijer Package\updates\">
+      <fileset dir="\\W0982iapps0090.ius.meijer.com\NCRProvided\Fastlane\${BuildYear}\PI${PI}"/>
+    </copy>
+    <!-- Remove Read Only
+    <attrib readonly="false">
+      <fileset dir="D:\newcopy\m60p\"/>
+    </attrib>
+-->
+  </target>
+
+
+  <target name="Versioning">
+    <echo message=""/>
+    <echo message=""/>
+    <echo message=""/>
+    <echo message=""/>
+    <echo message=""/>
+
+    <replace file="D:\Builds\Build_Fastlane\Build\LaneSetup.ini" token="@VersionToken1@" value="${DGPatch}"/>
+    <replace file="D:\Builds\Build_Fastlane\Build\RapSetup.ini" token="@VersionToken1@" value="${DGPatch}"/>
+    <replace file="D:\Builds\Build_Fastlane\Build\UpCon.ini" token="@VersionToken1@" value="${DGPatch}"/>
+    <replace file="D:\Builds\Build_Fastlane\Build\Update.bat" token="@DG@" value="${PI}"/>
+    <replace file="D:\Builds\Build_Fastlane\Build\Update.bat" token="@PI@" value="${PI}"/>
+	<replace file=".\_post_update.bat" token="@PI@" value="${PI}"/>
+	
+	<replace file=".\SCO_Updates_SS90.ini" token="@PI@" value="${DGPatch}"/>
+	<replace file=".\SCO_Updates_SCOT6.ini" token="@PI@" value="${DGPatch}"/>
+	<replace file=".\SCO_Updates_SCOT5_Talladega.ini" token="@PI@" value="${DGPatch}"/>
+	<replace file=".\SCO_Updates_SCOT5_Pocono.ini" token="@PI@" value="${DGPatch}"/>
+	<replace file=".\SCO_Updates_RAP_7702.ini" token="@PI@" value="${DGPatch}"/>
+	<replace file=".\SCO_Updates_RAP_7616.ini" token="@PI@" value="${DGPatch}"/>
+	<replace file=".\SCO_Updates_RAP_7403.ini" token="@PI@" value="${DGPatch}"/>
+	
+    
+    <echo message=""/>
+    <echo message=""/>
+    <echo message=""/>
+  </target>
+
+  <!--
+	Perform a full FastLane Build
+	-->
+  <target name="BuildFastLane">
+    <echo message=""/>
+    <echo message=""/>
+    <echo message=""/>
+    <echo message=""/>
+    <echo message="Building FastLane."/>
+    <echo message=""/>
+    <echo message="PI${PI}"/>
+    <echo message="${DGPatch}"/>
+
+    <copy file="D:\Builds\Build_Fastlane\Build\Update.bat" tofile="D:\Meijer Package\updates\Update.bat"/>
+    <echo message=""/>
+    <copy file="D:\Builds\Build_Fastlane\Build\Upcon.ini" tofile="D:\Meijer Package\scot\Upcon\Upcon.ini"/>
+    <echo message="Beginning actual fastlane build"/>
+    <copy file="D:\Builds\Build_Fastlane\SCOT\UpCon\UpconUpdate.bat" tofile="D:\Meijer Package\scot\Upcon\UpconUpdate.bat"/>
+    <exec dir="D:\Builds\" executable="cmd"  output=".\log\BuildFastLane.log" failonerror="true">
+      <arg value="/c BuildScotAllU.bat ${DGPatch}"/>
+    </exec>
+    <exec dir="D:\Builds\Build_Fastlane\Symbols" executable='wzzip.exe'  output=".\log\Symbols.log"
+		failonerror="true">
+      <arg line="-r"/>
+      <arg line="-P"/>
+      <arg line="-k"/>
+      <arg value="D:\Builds\Symbols_${DGPatch}.zip"/>
+      <arg line="*.*"/>
+    </exec>
+    <mail mailhost="${MjrMailHost}" messagemimetype="text/plain"
+			from="Ryan.Cichewicz@meijer.com"
+			tolist="Ryan.Cichewicz@meijer.com"
+			subject="Automated Build Results -Fastlane ${DGPatch}"
+			message="Fastlane has been successfully built in Release mode."
+			files="D:\Builds\Build_Fastlane\BuildScotAll-UnicodeReleaseScot.log"
+			failonerror="true">
+    </mail>
+    <echo message=" Fastlane (Release version) has been successfully built"/>
+
+  </target>
+
+  <target name="Deploy">
+    <echo message=""/>
+    <echo message=""/>
+    <echo message=""/>
+    <echo message=""/>
+    <echo message=""/>
+    <echo message="Copying build to \MeijerProvided"/>
+
+	
+	<!-- Create APLDR Package -->
+	
+	<mkdir dir="D:\Builds\Build_Fastlane\Build\SCO_APLDR_Updates\"/>
+	<copy file=".\_post_update.bat" tofile="D:\Builds\Build_Fastlane\Build\SCO_APLDR_Updates\SCO_Packages\${DGPatch}_post_update.bat"/>
+  <copy file=".\CS17010_NTUC_6.0.5_FLTCPConnect_v4.exe" tofile="D:\Builds\Build_Fastlane\Build\SCO_APLDR_Updates\SCO_Packages\CS17010_NTUC_6.0.5_FLTCPConnect_v4.exe"/>
+  <copy file=".\CS19012_FLServices_Meijer_6.0.5.13_v1.exe" tofile="D:\Builds\Build_Fastlane\Build\SCO_APLDR_Updates\SCO_Packages\CS19012_FLServices_Meijer_6.0.5.13_v1.exe"/>
+	<copy file=".\FindSuccessMsg.bat" tofile="D:\Builds\Build_Fastlane\Build\SCO_APLDR_Updates\FindSuccessMsg.bat"/>
+	<copy file=".\LineMatch.bat" tofile="D:\Builds\Build_Fastlane\Build\SCO_APLDR_Updates\LineMatch.bat"/>
+	<copy file=".\SendEmail.vbs" tofile="D:\Builds\Build_Fastlane\Build\SCO_APLDR_Updates\SendEmail.vbs"/>
+
+	<copy file="D:\Builds\Build_Fastlane\Build\MeijerLaneSetup.exe" tofile="D:\Builds\Build_Fastlane\Build\SCO_APLDR_Updates\SCO_Packages\${DGPatch}_MeijerLaneSetup.exe"/>
+	<copy file="D:\Builds\Build_Fastlane\Build\MeijerRapSetup.exe" tofile="D:\Builds\Build_Fastlane\Build\SCO_APLDR_Updates\SCO_Packages\${DGPatch}_MeijerRapSetup.exe"/>
+	<copy todir="D:\Builds\Build_Fastlane\Build\SCO_APLDR_Updates\SCO_Packages\">
+      <fileset dir="\\W0982iapps0090.ius.meijer.com\NCRProvided\Fastlane\${BuildYear}\PI${PI}"/>
+    </copy>
+	<copy todir="D:\Builds\Build_Fastlane\Build\SCO_APLDR_Updates\Hold">
+	<fileset dir=".\">
+		<include name="**/*.ini"/>
+	</fileset>
+	</copy>	
+	<!-- Altiris 
+	<copy todir="\\w0982eappv0212\eXpress\posdata\Sprints\${BuildYear}\PI${PI}\APLDR_SCO\${DGPatch}_SCO_APLDR_Updates\SCO_APLDR_Updates">
+	<fileset dir="D:\Builds\Build_Fastlane\Build\SCO_APLDR_Updates"/>
+	</copy>
+	-->
+		<!-- Bit9 -->
+	<copy todir="\\w0982IAPPV0056.ius.meijer.com\archive\Fastlane\APLDR_SCO\${DGPatch}_SCO_APLDR_Updates">
+	<fileset dir="D:\Builds\Build_Fastlane\Build\SCO_APLDR_Updates"/>
+	</copy>
+
+	<copy todir="\\W0982iapps0090.ius.meijer.com\MeijerProvided\${BuildYear}\PI${PI}\${Build Type}\${DGPatch}_SCO_APLDR_Updates">
+	<fileset dir="D:\Builds\Build_Fastlane\Build\SCO_APLDR_Updates"/>
+	</copy>
+
+   <echo message="Copying build to \MeijerProvided"/>
+    <copy todir="\\W0982iapps0090.ius.meijer.com\MeijerProvided\${BuildYear}\PI${PI}\${Build Type}">
+      <fileset dir="D:\">
+        <include name="*Builds/*.exe"/>
+      </fileset>
+    </copy>
+    <copy file="D:\Builds\Symbols_${DGPatch}.zip" tofile="\\W0982iapps0090.ius.meijer.com\MeijerProvided\${BuildYear}\PI${PI}\${Build Type}\Builds\Symbols_${DGPatch}.zip" overwrite="true" failonerror="true"/>
+
+
+
+    <!-- Move to Bit9 LAB repository  ALL BUILDS -->
+    <echo message="Moving Executable Package to Bit9 Lab..."/>
+
+    <copy todir="\\w0982IAPPV0056.ius.meijer.com\archive\Fastlane\" failonerror="true">
+      <fileset dir="D:\Builds">
+        <include name="*.exe"/>
+      </fileset>
+    </copy>
+
+    <copy todir="\\w0982IAPPV0056.ius.meijer.com\archive\Fastlane\${DGPatch}" failonerror="true">
+      <fileset dir="D:\Builds\Build_Fastlane\">
+      </fileset>
+    </copy>
+
+    <copy todir="\\w0982IAPPV0056.ius.meijer.com\archive\Fastlane\${DGPatch}" failonerror="true">
+      <fileset dir="D:\Meijer Package\">
+      </fileset>
+    </copy>
+ <!-- Move to Bit9 Prod repository  Prod BUILDS
+    <if>
+      <equals arg1="${Build Type}" arg2="Official" />
+      <then>
+        <echo message="The value of property Build Type is 'Official'" />
+        <copy todir="\\w0982eappv0212\Express\posdata\Sprints\${BuildYear}\PI${PI}" failonerror="false">
+          <fileset dir="D:\Builds">
+            <include name="*.exe"/>
+          </fileset>
+        </copy>
+
+
+        
+        <echo message="Moving Executable Package to Bit9 Lab..."/>
+        <copy todir="\\w0982EAPPV0890.us.meijer.com\archive\Fastlane\APLDR_SCO\${DGPatch}_SCO_APLDR_Updates">
+          <fileset dir="D:\Builds\Build_Fastlane\Build\SCO_APLDR_Updates"/>
+        </copy>
+
+        <copy todir="\\w0982EAPPV0890.us.meijer.com\archive\Fastlane\" failonerror="true">
+          <fileset dir="D:\Builds">
+            <include name="*.exe"/>
+          </fileset>
+        </copy>
+
+        <copy todir="\\w0982EAPPV0890.us.meijer.com\archive\Fastlane\${DGPatch}\" failonerror="true">
+          <fileset dir="D:\Builds\Build_Fastlane\">
+          </fileset>
+        </copy>
+
+        <copy todir="\\w0982EAPPV0890.us.meijer.com\archive\Fastlane\${DGPatch}" failonerror="true">
+          <fileset dir="D:\Meijer Package\">
+          </fileset>
+        </copy>
+		
+      </then>
+
+      <elseif>
+        <equals arg1="${Build Type}" arg2="Beta" />
+        <then>
+          <echo message="The value of property Build Type is 'Beta'" />
+        </then>
+      </elseif>
+      <else>
+        <echo message="The value of property Build Type is not 'Beta' or 'Official'" />
+        <fail>
+          <condition>
+            <not>
+              <isset property="thisdoesnotexist"/>
+            </not>
+          </condition>
+        </fail>
+      </else>
+    </if>
+-->
+    <echo message="Moving build to completed builds folder"/>
+    <move todir="D:\Builds\Completed Builds">
+      <fileset dir="D:\">
+        <include name="*Builds/*.exe"/>
+      </fileset>
+    </move>
+    <move todir="D:\Builds\Completed Builds\Builds">
+      <fileset dir="D:\Builds">
+        <include name="Symbols_${DGPatch}.zip"/>
+      </fileset>
+    </move>
+    <copy file="D:\Builds\Build_Fastlane\Build\SSCO_Config.exe" tofile="\\W0982iapps0090.ius.meijer.com\MeijerProvided\${BuildYear}\PI${PI}\VersionControl\${BranchName}\NPRF\SSCO_Config.exe"/>
+    <echo message="Fastlane Build is complete, package is deployed"/>
+    <echo message="I love it when a plan comes together!"/>
+  </target>
+
+
+  <target name="Notification">
+
+
+
+    <if>
+      <equals arg1="${Build Type}" arg2="Official" />
+      <then>
+        <echo message="Official Version File'" />
+        <mail mailhost="${MjrMailHost}" messagemimetype="text/html"
+        from="Ryan.Cichewicz@meijer.com"
+        tolist="${MailList}"
+        subject="Automated Software Release Communication -Fastlane ${DGPatch}"
+        messagefile="D:\Builds\FL_Notification_Mail.htm"
+        files="D:\Builds\Build_Fastlane\BuildScotAll-UnicodeReleaseScot.log"
+        failonerror="false">
+        </mail>
+      </then>
+
+      <elseif>
+        <equals arg1="${Build Type}" arg2="Beta" />
+        <then>
+          <echo message="Beta Version File" />
+          <mail mailhost="${MjrMailHost}" messagemimetype="text/html"
+          from="Ryan.Cichewicz@meijer.com"
+          tolist="${MailList}"
+          subject="Automated Software Release Communication -Fastlane ${DGPatch}"
+          messagefile="D:\Builds\Fl_Beta_Notification.htm"
+          files="D:\Builds\Build_Fastlane\BuildScotAll-UnicodeReleaseScot.log"
+          failonerror="false">
+          </mail>
+        </then>
+      </elseif>
+
+    </if>
+    
+    <echo message=" Fastlane (Release version) has been successfully built"/>
+  </target>
+
+<target name="ZenWorks">
+    <echo message=""/>
+    <echo message=""/>
+	
+	 <if>
+      <equals arg1="${Build Type}" arg2="Official" />
+      <then>
+        <echo message="The value of property Build Type is 'Official'" />
+
+			<scp todir="root@a0985iappv0024:/root/sco/sco_content/"
+					keyfile="D:\Builds\Build_Fastlane\Build\id_rsa"
+					passphrase="qwer85veri20"
+					trust="yes">
+			<fileset dir="D:\Builds\Build_Fastlane\Build\SCO_APLDR_Updates"/>		
+</scp>
+
+	   
+
+	<sshexec host="a0985iappv0024"
+         username="root"
+         keyfile="D:\Builds\Build_Fastlane\Build\id_rsa"
+         passphrase="qwer85veri20"
+         command="cd sco &amp;&amp; ./sco.sh ${DGPatch} ${Build Type}"
+		 trust="yes"
+		 failonerror="false"/>
+		 
+		 
+      </then>
+
+      <elseif>
+        <equals arg1="${Build Type}" arg2="Beta" />
+        <then>
+          <echo message="The value of property Build Type is 'Beta'" />
+        </then>
+      </elseif>
+      <else>
+        <echo message="The value of property Build Type is not 'Beta' or 'Official'" />
+        <fail>
+          <condition>
+            <not>
+              <isset property="thisdoesnotexist"/>
+            </not>
+          </condition>
+        </fail>
+      </else>
+    </if>
+  </target>
+
+  <target name="cleanup">
+    <!--
+	Incrementing version for next build
+	-->
+    <propertyfile file="FastlaneBuild.number"
+             comment="Build Number for ANT. Edit not!">
+      <entry key="build.number" type="int"
+      operation="+"      default="1"  />
+    </propertyfile>
+    <property file="FastlaneBuild.number"/>
+    <echo message= "Build ${build.number}"/>
+    <copy file=".\FastlaneBuild.Number" tofile="\\W0982iapps0090.ius.meijer.com\MeijerProvided\${BuildYear}\PI${PI}\VersionControl\${BranchName}\FastlaneBuild.Number"/>
+  </target>
+
+  <!--
+	<target name="Main" depends="SetEnv, init, Versioning, BuildFastLane, Deploy, ZenWorks, Notification, cleanup">
+	-->
+  <target name="Main" depends="SetEnv, init, Versioning, BuildFastLane, Deploy, ZenWorks, Notification, cleanup">
+    <echo message="All Done."/>
+    <!--
+			Just a stub target used to call the worker targets.
+			Just an exe.
+			-->
+  </target>
+</project>

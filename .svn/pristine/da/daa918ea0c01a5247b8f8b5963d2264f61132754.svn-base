@@ -1,0 +1,84 @@
+;
+; Report Server ini file
+;
+
+
+[General]
+; StoreName is the name of the store.  Saved in the store record of the database.
+; 
+StoreName=Store 1
+; ArchiveInterval is the number of days between archive operations of the importer
+ArchiveInterval=7
+; DataExpirationInterval is the point at which data is removed from the database.  If
+; the data is more than this many days old, it is removed from the database the next
+; time an archive operation is performed
+DataExpirationInterval=30
+; CustomDays are used to set custom fields in the store record.  Standard reports are
+; based on the current day, yesterday and 7 days ago.  If reports based on other intervals
+; are needed, the developer may choose to use these fields to set the other intervals.
+CustomDays1=14
+CustomDays2=30
+
+; Number of days between signature report files being generated.
+; Default is 1.  0 means don't generate signatures
+DaysBetweenSignatureReports=1
+; Number of days files are kept before being deleted.
+SignatureFileExpirationDays=90
+
+; MenuFile is the name of the report menu xml file defining which reports are to be used
+; Language is the language currently in use and is used as an index into the
+; ReportText table of the reporting database.  Use one of the commented out pairs to change 
+; the language and comment out the English version.
+MenuFile=c:\scot\config\ReportGeneratorMenus0409.000
+Language=0409
+
+;US English - 0409
+;MenuFile=c:\scot\config\ReportGeneratorMenus0409.xml
+;Language=0409
+;UK ENGLISH - 0809
+;MenuFile=c:\scot\config\ReportGeneratorMenus0809.xml
+;Language=0809
+;AUSTRALIAN ENGLISH - 0c09
+;MenuFile=c:\scot\config\ReportGeneratorMenus0c09.xml
+;Language=0c09
+;NEW ZEALAND ENGLISH - 1409
+;MenuFile=c:\scot\config\ReportGeneratorMenus1409.xml
+;Language=1409
+;GERMAN - 0407
+;MenuFile=c:\scot\config\ReportGeneratorMenus0407.xml
+;Language=0407
+;FRENCH - 040C
+;MenuFile=c:\scot\config\ReportGeneratorMenus040C.xml
+;Language=040C
+;QUEBECOIS - 0C0C
+;MenuFile=c:\scot\config\ReportGeneratorMenus0C0C.xml
+;Language=0C0C
+;DUTCH - 0413
+;MenuFile=c:\scot\config\ReportGeneratorMenus0413.xml
+;Language=0413
+;ITALIAN - 0410
+;MenuFile=c:\scot\config\ReportGeneratorMenus0410.xml
+;Language=0410
+;SPANISH MEXICAN- 080A
+;MenuFile=c:\scot\config\ReportGeneratorMenus080A.xml
+;Language=080A
+;JAPANESE - 0411
+;MenuFile=c:\scot\config\ReportGeneratorMenus0411.xml
+;Language=0411
+;SPANISH CASTILIAN- 0C0A
+;MenuFile=c:\scot\config\ReportGeneratorMenus0C0A.xml
+;Language=0C0A
+;POLISH - 0415
+;MenuFile=c:\scot\config\ReportGeneratorMenus0415.xml
+;Language=0415
+;KOREAN - 0412
+;MenuFile=c:\scot\config\ReportGeneratorMenus0412.xml
+;Language=0412
+
+
+
+
+
+
+
+

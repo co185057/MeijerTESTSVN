@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Display>
+	<!-- THIS FILE USE TO CONFIG 7401MSR PINPAD UNIT -->
+	<Control Name="SwipeCardVideo" Type="Video" Synchronize="False">
+		<Video>%MediaPath%\InsertCard_40_mini.avi</Video>
+	</Control>
+	<Control Name="RequestSigVideo" Type="Video" Synchronize="False">
+		<Video>%MediaPath%\SignName_Topaz_FF_Mini.avi</Video>
+	</Control>
+	<Control Name="TakeCardVideo" Type="Video" Synchronize="False">
+		<Position>215,145,573,323</Position>
+		<Video>%MediaPath%\TakeCard_40_mini.avi</Video>
+	</Control>	
+	<!--CONTEXT -->
+	<Context Name="TakeCard" Synchronize="False">
+		<IncludeControl Name="TakeCardVideo"/>
+		<IncludeControl Name="InstructionTextArea">
+			<CustomData>
+				<StringId>0</StringId>
+			</CustomData>
+		</IncludeControl>
+	</Context>	
+</Display>

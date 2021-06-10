@@ -1,0 +1,104 @@
+<Display Version="1.0">
+  <Controls>
+    <Control Name="BagAndEASVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\BagItem_32.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="CashPaymentVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\InsertCash_32.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="DepositCouponsVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\InsertCoupon_32.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="PINEntrySigDevVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\KeyInPin_32.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="EnterWeightVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\WeighItem_32.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="EnterWtForPriceEmbeddedVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\WeighItem_32.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="InsertCouponVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\InsertCoupon_32.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="TakeChangeVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\TakeChange_32.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="TakeCashVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\TakeChange_32.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="TakeReceiptVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\TakeReceipt_32.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="PickingUpItemsVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\Security_ReturnItem_32.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="SecMisMatchWeightVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\Security_RemoveItem_32.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="SecUnexpectedDecreaseVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\Security_ReturnItem_32.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="SecUnExpectedIncreaseVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\Security_RemoveItem_32.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="ScaleBrokenVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\ResetScale_32.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="ScanBagVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\ScanItem_32.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="AttractVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\Attract_32.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="SwipeCardVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\SwipeCard_TopPinPad_32.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="ScanCardVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\ScanCard_30_mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="VoucherPaymentVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\ScanCard_30_mini.avi</Property>
+      </Properties>
+    </Control>
+  </Controls>
+</Display>

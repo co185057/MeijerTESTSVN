@@ -1,0 +1,19 @@
+<Display Version="1.0">
+  <Languages>
+    <Language Name="0407">
+      <StringTable>
+        <String Name="IPText">IP-Adresse</String>
+        <String Name="BatteryText">Batteriestatus</String>
+        <String Name="FreeStorageText">Verfügbarer Speicher</String>
+        <String Name="SystemStorageText">Systemspeicher</String>
+        <String Name="FreeMemoryText">Verfügbarer Arbeitsspeicher</String>
+        <String Name="SystemMemoryText">Systemarbeitsspeicher</String>
+        <String Name="ProcessorTypeText">Prozessortyp</String>
+        <String Name="ComputerNameText">Computername</String>
+        <String Name="TerminalTitleText">Kasseninformation</String>
+        <String Name="BatteryChargeText">Aufladung</String>
+        <String Name="OkButtonText">OK</String>
+      </StringTable>
+    </Language>
+  </Languages>
+</Display>

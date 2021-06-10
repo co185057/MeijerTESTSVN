@@ -1,0 +1,118 @@
+<Display Version="1.0">
+  <Controls>
+    <Control Name="AttractVideo" Type="Video">
+      <Properties>
+        <Property Name="Video">%MediaPath%\10x7_SafePay-Attract_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="BagAndEASVideo" Type="Video">
+      <Properties>
+        <Property Name="Video">%MediaPath%\10x7_SafePay-PlaceOnBelt_TAB_SP.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="SwipeCardVideo" Type="Video">
+      <Properties>
+        <Property Name="Video">%MediaPath%\10x7_SafePay-InsertCard_Hybrid_b_TAB_SP.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="CashPaymentVideo" Type="Video">
+      <Properties>
+        <Property Name="Video">%MediaPath%\10x7_SafePay-InsertCash_TAB_SP.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="PINEntrySigDevVideo" Type="Video">
+      <Properties>
+        <Property Name="Video">%MediaPath%\10x7_SafePay-KeyInPin_Hybrid_b_TAB_SP.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="SecMisMatchWeightVideo" Type="Video">
+      <Properties>
+        <Property Name="Video">%MediaPath%\10x7_SafePay-Security_RemoveItem_TAB_SP.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="SecUnExpectedIncreaseVideo" Type="Video">
+      <Properties>
+        <Property Name="Video">%MediaPath%\10x7_SafePay-Security_RemoveItem_TAB_SP.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="ScaleBrokenVideo" Type="Video">
+      <Properties>
+        <Property Name="Video">%MediaPath%\10x7_SafePay-ResetScale_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="PickingUpItemsVideo" Type="Video">
+      <Properties>
+        <Property Name="Video">%MediaPath%\10x7_SafePay-Security_ReturnItem_TAB_SP.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="SecUnexpectedDecreaseVideo" Type="Video">
+      <Properties>
+        <Property Name="Video">%MediaPath%\10x7_SafePay-Security_ReturnItem_TAB_SP.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="ScanCardVideo" Type="Video">
+      <Properties>
+        <Property Name="Video">%MediaPath%\10x7_SafePay-ScanCard_TAB_SP.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="VoucherPaymentVideo" Type="Video">
+      <Properties>
+        <Property Name="Video">%MediaPath%\10x7_SafePay-ScanCard_TAB_SP.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="ScanBagVideo" Type="Video">
+      <Properties>
+        <Property Name="Video">%MediaPath%\10x7_SafePay-ScanItem_TAB_SP.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="TakeChangeVideo" Type="Video">
+      <Properties>
+        <Property Name="Video">%MediaPath%\10x7_SafePay-TakeChange_TAB_SP.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="TakeCashVideo" Type="Video">
+      <Properties>
+        <Property Name="Video">%MediaPath%\10x7_SafePay-TakeChange_TAB_SP.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="TakeReceiptVideo" Type="Video">
+      <Properties>
+        <Property Name="Video">%MediaPath%\10x7_SafePay-TakeReceipt_TAB_SP.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="EnterWeightVideo" Type="Video">
+      <Properties>
+        <Property Name="Video">%MediaPath%\10x7_SafePay-WeighItem_TAB_SP.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="EnterWtForPriceEmbeddedVideo" Type="Video">
+      <Properties>
+        <Property Name="Video">%MediaPath%\10x7_SafePay-WeighItem_TAB_SP.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="BackedUpItemsVideo" Type="Video">
+      <Properties>
+        <Property Name="Video">%MediaPath%\10x7_SafePay-BackedUpItems_TAB_SP.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="TransportItemVideo" Type="Video">
+      <Properties>
+        <Property Name="Video">%MediaPath%\10x7_SafePay-TransportItem_TAB_SP.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="TakeCardVideo" Type="Video">
+      <Properties>
+        <Property Name="Position">215,145,573,323</Property>
+        <Property Name="Video">%MediaPath%\10x7_SafePay-TakeCard_Hybrid_b_TAB_SP.avi</Property>
+      </Properties>
+    </Control>
+  </Controls>
+  <Contexts>
+    <Context Name="TakeCard">
+      <Include>
+        <Control Name="TakeCardVideo">
+        </Control>
+      </Include>
+    </Context>
+  </Contexts>
+</Display>

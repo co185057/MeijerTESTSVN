@@ -1,0 +1,58 @@
+<Display Version="1.0">
+	<Languages>
+		<Language Name="0415">
+			<StringTable>
+				<String Name="MainTitle">Konfiguracja\nPZO</String>
+				<String Name="AddButtonText">Dodaj</String>
+				<String Name="AddLaneTitle">Dodaj stanowisko</String>
+				<String Name="ApplyButtonText">Zastosuj</String>
+				<String Name="Backspace">Usuń</String>				
+				<String Name="CancelButtonText">Anuluj</String>
+				<String Name="ConfigTypeText">Typ konfiguracji stanowiska:</String>
+				<String Name="ConfirmDeleteTitle">Potwierdź usunięcie</String>
+				<String Name="ConfirmDeleteText">Czy chcesz usunąć stanowisko:</String>
+				<String Name="ConfirmExitTitle">Potwierdź wyjście</String>
+				<String Name="ConfirmExitText">Czy na pewno chcesz odrzucić te zmiany?</String>
+				<String Name="ConfirmSaveTitle">Potwierdź zapis</String>
+				<String Name="ConfirmSaveText">Zamierzasz zapisać zmiany w pliku RapNet.xml. Czy chcesz kontynuować?</String>
+				<String Name="DeleteButtonText">Usuń</String>
+				<String Name="DuplicateIPTitle">Powtarzający się adres IP</String>
+				<String Name="DuplicateLaneTitle">Znaleziono powtarzające się stanowisko</String> 
+				<String Name="DuplicateLaneText">Stanowisko %s już istnieje</String>
+				<String Name="EditLaneTitle">Edytuj stanowisko</String>
+				<String Name="EmptyText">Pusty</String>
+				<String Name="Enter">Akceptuj</String>
+				<String Name="EnterHostNameInstruction">Wprowadź nazwę hosta i naciśnij "Akceptuj".</String>
+				<String Name="EnterIPAddressInstruction">Wprowadź adres IP i naciśnij "Akceptuj".</String>
+				<String Name="EnterIPOctetInstruction">Wprowadź oktet IP i naciśnij "Akceptuj".</String>
+				<String Name="EnterHostNameText">Wprowadź nazwę hosta stanowiska</String>
+				<String Name="EnterIPAddressText">Wprowadź adres IP stanowiska</String>
+				<String Name="EnterIPOctetText">Wprowadź oktet IP stanowiska</String>
+				<String Name="ErrorText">Błąd</String>
+				<String Name="ExitButtonText">Wyjdź</String>
+				<String Name="FileErrorTitle">Plik nie znaleziony</String>
+				<String Name="FileErrorText">Błąd: Nie znaleziono pliku RapNet.xml.</String>
+				<String Name="HostNameText">Nazwa serwera</String>
+				<String Name="IPAddressText">Adres IP</String>
+				<String Name="IPOctetText">Oktet IP</String>
+				<String Name="LaneText">Stanowisko</String>
+				<String Name="MoveButtonText">Przenieś</String>
+				<String Name="NoButtonText">Nie</String>
+				<String Name="NoLane">Wszystkie stanowiska zostały usunięte.</String>
+				<String Name="NoLaneToDelete">Nie ma już żadnych stanowisk do usunięcia.</String>
+				<String Name="NoLaneWarningTitle">RapNet.xml nie zawiera żadnych stanowisk</String>
+				<String Name="NoLaneWarningText">Ostrzeżenie: RapNet.xml nie zawiera konfiguracji żadnych stanowisk.</String>
+				<String Name="OkButtonText">OK</String>
+				<String Name="RestartRAPTitle">Zrestartuj PZO</String>
+				<String Name="RestartRAPText">Musisz zrestartować PZO</String>
+				<String Name="SameRapIPAddress">Nie można użyć tego samego adresu IP, jaki ma stacjonarny PZO: %s</String>
+				<String Name="SameHHRapIPAddress">Nie można użyć tego samego adresu IP, jaki ma podręczny PZO: %s</String>
+				<String Name="SaveButtonText">Zapisz</String>
+				<String Name="SelectLaneToDelete">Wybierz stanowisko, które chcesz usunąć.</String>
+				<String Name="SelectSourceText">Wybierz stanowisko, które chcesz przenieść</String>
+				<String Name="SelectDestinationText">Wybierz miejsce docelowe</String>
+				<String Name="YesButtonText">Tak</String>
+			</StringTable>
+		</Language>
+	</Languages>
+</Display>

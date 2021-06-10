@@ -1,0 +1,96 @@
+﻿<Display Version="1.0">
+  <Languages>
+    <Language Name="041f"> Turkish - Turkey
+      <StringTable>
+        <!-- Start of Main Screen Context -->
+        <String Name="MinMaxFastLaneBtnPrimaryTxt">FastLane’i Simge Durumuna Küçült</String>
+        <String Name="MinMaxFastLaneBtnSecondaryTxt">FastLane’i Büyüt</String>
+        <String Name="MinMaxFastLaneBtnPrimaryShowConfirmation">FastLane’i simge durumuna getirmek için “FastLane’i Simge Durumuna Küçült” butonuna basin.</String>
+        <String Name="MinMaxFastLaneBtnSecondaryShowConfirmation">FastLane’i büyütmek için “FastLane’i Büyüt” butonuna basin.</String>
+        <String Name="StopStartFastLaneBtnPrimaryTxt">FastLane’i Durdur</String>
+        <String Name="StopStartFastLaneBtnSecondaryTxt">FastLane’i Baslat</String>
+        <String Name="SwitchToRAPBtnPrimaryTxt">UOP’a Geç</String>
+        <String Name="ShutdownSystemBtnPrimaryTxt">Tüm Sistemi Kapat</String>
+        <String Name="RebootSystemBtnPrimaryTxt">Tüm Sistemi Yeniden Yükle</String>
+        <String Name="VolumeBtnPrimaryTxt">Ses Kontrolü</String>
+        <String Name="EventViewerBtnPrimaryTxt">Islem Görüntüleyici</String>
+        <String Name="GenerateLogBtnPrimaryTxt">Tanı Kayıt Dosyalarını Oluştur</String>
+        <String Name="ExitFastLaneAndRunProfileBtnPrimaryTxt">FastLane’i Durdur ve Profil Yöneticisini Çalıştır</String>
+        <String Name="ExitFastLaneAndRunProfileBtnSecondaryTxt">Profil Yöneticisi’ni Aç</String>
+        <String Name="TerminalInfoBtnPrimaryTxt">Terminal Bilgisi</String>
+        <String Name="MinMaxRAPBtnPrimaryTxt">UOP’i Simge Durumuna Küçült</String>
+        <String Name="MinMaxRAPBtnSecondaryTxt">UOP’i Büyüt</String>
+        <String Name="MinMaxRAPBtnPrimaryShowConfirmation">UOP’i simge durumuna getirmek için “UOP’i Simge Durumuna Küçült” butonuna basin.</String>
+        <String Name="MinMaxRAPBtnSecondaryShowConfirmation">UOP’i büyütmek için “UOP’i Büyüt” butonuna basin.</String>
+        <String Name="StopStartRAPButtonPrimaryTxt">UOP’yi Durdur</String>
+        <String Name="StopStartRAPButtonSecondaryTxt">UOP’i Baslat</String>
+		<String Name="RapConfigureBtnPrimaryTxt">Rap Yapılandırması</String>
+        <String Name="SwitchToFastLaneBtnPrimaryTxt">FastLane’e Geç</String>
+        <String Name="ExitRAPAndRunProfileBtnPrimaryTxt">UOP’yi Durdur ve Profil Yöneticisini Çalıştır</String>
+        <String Name="ExitRAPAndRunProfileBtnSecondaryTxt">Profil Yöneticisi’ni Aç</String>
+        <String Name="UtilityFunctionsTitle">NCR FastLane\nCihaz Fonksiyonları</String>
+        <String Name="StartTitle">Sistem Baslatma</String>
+        <String Name="SystemStartup">Sistem baslatiliyor…lütfen bekleyin</String>
+        <String Name="TerminalID">Terminal Kimliği:: </String>
+        <String Name="InterfaceVersion">Yazılım versiyonu.</String>
+        <String Name="TrainingProgramPrimaryTxt">Egitim Programi</String>
+        <String Name="OperatorIDText">Operatör Kimliği:</String>
+        <String Name="KeySwitchOperatorID">Tuş Kilidi</String>
+        <String Name="SignOnButtonText">Oturum Aç</String>
+        <String Name="SignOffButtonText">Oturumu Kapat</String>
+        <String Name="SignedOffButtonText">Oturum Kapandi</String>
+        <String Name="Exit">Tümünden Çık</String>
+        <String Name="ReturnToShoppingButtonText">Geri Dön</String>
+        <String Name="PickListEditor">Liste Editörünü Seç</String>
+        <String Name="RunADDTxt">Bir dahaki sistem yüklemesinde ADD’ i çalıştırın</String>
+        <String Name="TouchWareTxt">Dokunmatik Ekrani Ayarla</String>
+        <String Name="DiagConfirm">Tanisal Günlük Dosyasi olusturmak istediginizden emin misiniz?</String>
+        <String Name="ProfileManagerFLConfirm">FastLane’i durdurup Profil Yöneticisini çalistirmak istediginizden emin misiniz?</String>
+        <String Name="ProfileManagerRAPConfirm">UOP’i durdurup Profil Yöneticisini çalistirmak istediginizden emin misiniz?</String>
+        <String Name="ProfileManagerConfirm">Profil Yöneticisini baslatmak istediginizden emin misiniz?</String>
+        <String Name="EventViewerConfirm">Olay Görüntüleyisini baslatmak istediginizden emin misiniz?</String>
+        <String Name="TrainingConfirm">Egitim Programini baslatmak istediginizden emin misiniz?</String>
+        <String Name="PicklistConfirm">Seçim Listesi Düzenleyicisini baslatmak istediginizden emin misiniz?</String>
+        <String Name="RunADDConfirm">Bir dahaki Sistem Başlatmada ADD’i çalıştırmak istediğinize emin misiniz?</String>
+        <String Name="CalibrateConfirm">Dokunmatik ekrani ayarlamak istediginizden emin misiniz?</String>
+        <String Name="ShutdownConfirm">Tüm sistemi kapatmak istediginizden emin misiniz?</String>
+        <String Name="RebootConfirm">Tüm sistemi yeniden yüklemek istediginizden emin misiniz?</String>
+        <String Name="CloseAllConfirm">Tüm uygulamalari kapatip masaüstüne gitmek istediginizden emin misiniz?</String>
+        <String Name="VolumeConfirm">Ses kontrolünü ayarlamak istediginizden emin misiniz?</String>
+        <String Name="TerminalInfoConfirm">Terminal bilgisini görüntülemek istediginizden emin misiniz?</String>
+        <String Name="StopFastLaneConfirm">FastLane’i durdurmak istediginizden emin misiniz?</String>
+        <String Name="StopRAPConfirm">UOP’i durdurmak istediginizden emin misiniz?</String>
+        <String Name="StartFastLaneConfirm">FastLane’i baslatmak istediginizden emin misiniz?</String>
+        <String Name="StartRAPConfirm">UOP’i baslatmak istediginizden emin misiniz?</String>
+        <String Name="WindowsLogOnTxt">Windows Oturumu Aç</String>
+        <String Name="WindowsLogOnConfirm">Tüm uygulamalardan çikip yeni kullanici oturumu açmak istediginizden emin misiniz?</String>
+        <String Name="YesText">Evet</String>
+        <String Name="NoText">Hayir</String>
+        <String Name="CommandPromptPrimaryTxt">Komut Istemi</String>
+        <String Name="CommandPromptConfirm">Komut Istemini baslatmak istediginize emin misiniz?</String>
+        <String Name="RSMLEPrimaryTxt">Retail Systems Manager LE programi</String>
+        <String Name="RSMLEConfirm">Retail Systems Manager LE programini baslatmak istediginize emin misiniz?</String>
+		<String Name="OperatorRegistrationUtility">Operatör Kayıt Cihazı</String>
+		<String Name="EnterIDFpLeadthru">Kullanıcı Adınızı girin ve “Giriş”e basın veya giriş yapmak için parmağınızı parmak izi okuyucusuna yerleştirin.</String>
+		<String Name="ReEnterIDFpLeadthru">Geçersiz Giriş. Lütfen klavyeyi veya parmak izinizi kullanarak tekrar giriş yapın.</String>		
+        <!-- End of Main Screen Context -->
+        <!-- Start of Authentication Contexts -->
+        <String Name="ClearButtonText">Sil</String>
+        <String Name="EnterButtonText">Git</String>
+        <String Name="GoBackButtonText">Geri Git</String>
+        <String Name="SpaceButtonText">Boşluk</String>
+        <String Name="BackSpaceButtonText">Geri Tuşu</String>
+        <String Name="EnterIDLeadthru">Aşağıdaki tuş takımını kullanarak Kullanıcı Kimliği Girin</String>
+        <String Name="ReEnterIDLeadthru">Hatalı Kullanıcı Kimliği veya şifre. Lütfen aşağıdaki tuş takımını kullanarak yeniden giriş yapın.</String>
+        <String Name="EnterPasswordLeadthru">Aşağıdaki tuş takımını kullanarak şifrenizi girin:</String>
+        <String Name="CancelButtonText">İptal Et</String>
+        <String Name="LoggingInLeadthru">Oturum açiliyor…Lütfen bekleyin</String>
+        <String Name="ShiftButtonText">Degistir</String>
+		<String Name="LegalCaptionText">LEGAL CAPTION
+This system is for the use of authorized personnel only. By logging onto this system, you are subject to the terms and conditions of all Information Security policies and standards. Use by unauthorized individuals or for unauthorized purposes is a violation of federal and/or state law. The company reserves the right to take any necessary actions to protect authorized users, intellectual property and other information assets. Individuals using this system are subject to having all of their activities on this system monitored. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals possible evidence of criminal activity, system personnel may provide the evidence of such monitoring to law enforcement officials.
+        </String>
+        <!-- End of Authentication Contexts -->
+      </StringTable>
+    </Language>
+  </Languages>
+</Display>

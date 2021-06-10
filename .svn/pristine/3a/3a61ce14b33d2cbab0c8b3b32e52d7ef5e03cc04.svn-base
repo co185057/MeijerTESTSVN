@@ -1,0 +1,37 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\Software\NCR\SCOT\CurrentVersion\SCOTAPP\Devices\TakeawayBelt\TakeawayBelt]
+"Configure"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\SCOTAPP\Devices\SecureCam\SecureCam]
+"Configure"="No"
+
+[HKEY_LOCAL_MACHINE\Software\NCR\SCOT\CurrentVersion\SCOTAPP\Devices\TakeawayBelt\TakeawayBelt\DataCapture]
+"DcapControl"="4"
+"DCapMask"="4"
+"DcapFile"="%DATA_DRIVE%\\scot\\logs\\TakeawayBelt.log"
+"DcapTime"="F00 -> Hex time option(s): 100=m:s, 300=h:m:s, 700=m/d h:m:s; 800+digits=millisec; 1000=threadid"
+"DcapLinePrefix"="TAB: "
+"DcapFileMax"="2048 -> Max KB of data cap file"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\ScotApp\Controls\SmartScale]
+"AllowCommFailure"=dword:0000000a
+"Time-Out"=dword:000000c8
+"WeightUnit"=dword:00000004
+"LGWTolerance"=dword:0000001e
+"AllowShiftingWts"=dword:00000000
+"StableWtTolerance"=dword:00000014
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\SCOTAPP\SecurityManager]
+"State.Machine.Name"="%APP_DRIVE%\\scot\\config\\SecuritySMTab.xml"
+"State.Machine.Library"="SecurityManagerTab"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\ScotApp\Controls\SmartScale\DataCapture]
+"DcapControl"="4 -> Hex destination(s): 1=DCap App, 2=Debugger, 4=File; 10/20/40 for immediate"
+"DcapFile"="%DATA_DRIVE%\\scot\\logs\\smartscale.log"
+"DcapFileMax"="5120 -> Max KB of data cap file"
+"DcapLinePrefix"="ASS: "
+"DcapMask"="FFFFFFFF -> Hex mask of events to capture"
+"DcapTime"="F00 -> Hex time option(s): 100=m:s, 300=h:m:s, 700=m/d h:m:s; 800+digits=millisec; 1000=threadid"
+"DcapVersion"="1.1.2"
+

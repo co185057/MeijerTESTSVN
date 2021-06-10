@@ -1,0 +1,202 @@
+;Tend040b  Finland - Finnish
+
+;ScotTend.dat option file is created for the new finalization screen which includes 15 tender buttons. 
+;Each tender button may have the following options:  Button number, Tender type, Text, Bitmap, Cashback, 
+;Confirm Total, NeedPin, Integrated MSR, Capture Signature, Verify Signature. 
+;Cash, Other Payment and Coupons do not have options besides text and bitmap. 
+;Bitmaps should be put in SCOT\images
+
+;The button sequence on the screen is as following:
+;1	2	3	4	5
+;6	7	8	9	10
+;11	12	13	14	15
+
+;The SCOTOPTS options in the following table has been removed from SCOTOPTS.dat file. These options are replaced by the relative options in SCOTTend.dat.
+;Customers may use ScotTend.000 (or ScotTend.xxx where xxx is the terminal number) to override the same options in ScotTend.dat. 
+;These option files are in SCOT\Config directory. TB may copy SCOTTend.000 or SCOTTend.xxx from server. 
+;If the same options reside in SCOTOpts.000 (or SCOTOpts.xxx) - for example CreditNeedsPIN,
+;the option in SCOTOpts.000 or SCOTOpts.xxx will override the same option in ScotTend for backward compatibility. 
+
+;Begin of the table
+
+;SCOTOPTS			SCOTTend
+;CreditNeedsPIN			TenderType Credit, NeedPin option
+;CreditCashBack			TenderType Credit, CashBack option
+;DebitNeedsPIN			TenderType Debit, NeedPin option
+;DebitCashBack			TenderType Debit, CashBack option
+;EBTFSNeedsPIN			TenderType FoodStamp, NeedPin option
+;EBTCBNeedsPIN			TenderType EBT(CashBenefit), NeedPin option
+;EBTCBCashBack			TenderType EBT(CashBenefit), CashBack option
+;DebitNeedsSignatureCapture	TenderType Debit, SignatureCapture option
+;DebitNeedsVerifySignature	TenderType Debit, VerifySignature option
+;SignatureCapture		TenderType Credit, SignatureCapture option
+;VerifySignature		TenderType Credit, VerifySignature option
+;CreditMSR			TenderType Credit, IntegratedMSR option
+;DebitMSR			TenderType Debit, IntegratedMSR option
+;DebitSavingsMSR		TenderType DebitSavings, IntegratedMSR option
+;DebitCheckingMSR		TenderType DebitChecking, IntegratedMSR option
+;EBTMSR				TenderType EBT(CashBenefit), IntegratedMSR option
+;FoodStampMSR			TenderType FoodStamp, IntegratedMSR option (Cashback not valid)
+;GiftCardMSR			TenderType GiftCard, IntegratedMSR option
+;PIPSCOTPromptCardType		(No option)
+;PIPSCOTPromptCashBack		Cashback option for PIP tenders
+;PIPSCOTPromptConfirmTotal	ConfirmTotal option for PIP tenders
+;PhoneCardMSR			(no option) or (not yet supported)
+;LoyaltyMSR			TenderType Loyalty, IntegrateMSR option
+
+;End of the table
+
+;The following is the enum code definition for tender type which could be found in TransBroker.h
+
+;typedef enum
+;{
+;	TB_TENDER_COUPON = -2,
+;	TB_TENDER_OTHERPAYMENT=-1,
+;	TB_TENDER_NONE = 0,
+;	TB_TENDER_CASH = 1,
+;	TB_TENDER_CREDIT =2,
+;	TB_TENDER_DEBIT = 3,
+;	TB_TENDER_LOYALTY =4,
+;	TB_TENDER_DEBITSAVING =5,
+;	TB_TENDER_DEBITCHECKING =6,
+;	TB_TENDER_EBT =7,
+;	TB_TENDER_FOODSTAMPS =8,
+;	TB_TENDER_GIFTCARD =9,
+;	TB_TENDER_PIP_GENERIC =10,        //Partial Integrated Pinpad (PIP) tenders
+;	TB_TENDER_PIP_CREDIT =11,         // "
+;	TB_TENDER_PIP_DEBIT =12,          // "
+;    	TB_TENDER_PIP_DEBIT_CASHBACK =13, // "
+;	TB_TENDER_PIP_LOYALTY =14,        // "
+;	TB_TENDER_PIP_DEBITSAVING =15,    // "  
+;	TB_TENDER_PIP_DEBITCHECKING =16,  // "
+;	TB_TENDER_PIP_EBT =17,            // "
+;	TB_TENDER_PIP_FOODSTAMPS =18,     // "
+;	TB_TENDER_PIP_GIFTCARD =19,       // "
+;	TB_TENDER_USERDEFINED1 =20,       // Added for customer specific use
+;	TB_TENDER_USERDEFINED2 =21,       // "
+;	TB_TENDER_USERDEFINED3 =22,       // "
+;	TB_TENDER_USERDEFINED4 =23,       // " 
+;	TB_TENDER_USERDEFINED5 =24,       // " 
+;	TB_TENDER_USERDEFINED6 =25,       // " 
+;	TB_TENDER_USERDEFINED7 =26,       // "
+;	TB_TENDER_USERDEFINED8 =27,       // "
+;	TB_TENDER_USERDEFINED9 =28,       // "
+;	TB_TENDER_USERDEFINED10 =29,      // "
+;	TB_TENDER_USERDEFINED11 =30,      // Added for customer specific use
+;	TB_TENDER_USERDEFINED12 =31,      // " 
+;	TB_TENDER_USERDEFINED13 =32,      // "
+;	TB_TENDER_USERDEFINED14 =33,      // "
+;	TB_TENDER_USERDEFINED15 =34,      // " 
+;	TB_TENDER_USERDEFINED16 =35,      // "
+;	TB_TENDER_USERDEFINED17 =36,      // "
+;	TB_TENDER_USERDEFINED18 =37,      // "
+;	TB_TENDER_USERDEFINED19 =38,      // "
+;	TB_TENDER_USERDEFINED20 =39,      // "
+;	TB_TENDER_CHECK =40,              // "
+;	TB_TENDER_ASSISTTENDER =42,       // Added for RAP Tendering Tar 207043 Feng 20020611
+;	TB_TENDER_VOUCHERPAYMENT = 43,    // RFC 213717 Added for Voucher Tenders
+;	TB_LAST_TENDERTYPE = 100       // Please add additional tender type above this ID
+;} TBTENDERTYPE;  
+
+;For Credit/Debit only system, the tendertype option of [button8] is set to 0 to hide "Debit With Cash Back" button.
+; TAR 202035 Note that the EBT cashback amounts are only used if the
+; tender type is TB_TENDER_EBT or TB_TENDER_PIP_EBT.  All other tenders
+; use the CashBack amounts if cashback is allowed
+
+[button1]
+TenderType = 1
+Text = "Käteinen"
+Bitmap = "8x6_EuroCash.jpg"
+CashBackIfVoided=N
+
+[button2]
+TenderType = 2
+Text = "Luottokortti"
+Bitmap = "8x6_creditcard.jpg"
+CashBack = N
+ConfirmTotal = N
+NeedPin =N
+IntegratedMSR = N
+CaptureSignature =Y
+VerifySignature = N
+VerifySignatureOverAmount=-1
+CashBackIfVoided=N
+
+[button3]
+TenderType = 3
+Text = "Pankkikortti"
+Bitmap = "8x6_debit.jpg"
+CashBack = N
+ConfirmTotal = N
+NeedPin =N
+IntegratedMSR = N
+CaptureSignature = N
+VerifySignature = N
+VerifySignatureOverAmount=-1
+
+[button4]
+TenderType = 3
+Text = "Rahanpalautus"
+Bitmap = "8x6_euro_debit_cashback.jpg"
+CashBack = Y
+ConfirmTotal = Y
+NeedPin =N
+IntegratedMSR = N
+CaptureSignature = N
+VerifySignature = N
+VerifySignatureOverAmount=-1
+
+[button5]
+;TenderType = 8
+TenderType = 0
+Text = "EBT Food Stamps"
+Bitmap = "8x6_EBTfoodstamps.jpg"
+CashBack = N
+ConfirmTotal = Y
+NeedPin =N
+IntegratedMSR = N
+CaptureSignature = N
+VerifySignature = N
+
+[button6]
+;TenderType = 7
+TenderType = 0
+Text = "EBT Cash Benefit"
+Bitmap = "8x6_EBTcashbenefit.jpg"
+CashBack = Y
+ConfirmTotal = Y
+NeedPin =N
+IntegratedMSR = N
+CaptureSignature = N
+VerifySignature = N
+
+[button7]
+TenderType = 40
+Text = "Sekki"
+Bitmap = "8x6_check.jpg"
+CashBackIfVoided=N
+
+[button8]
+TenderType = -1
+Text = "Muu maksutapa"
+Bitmap = "8x6_other_payment.jpg"
+
+[button10]
+TenderType = -2
+Text = "Kuponki"
+Bitmap = "8x6_coupon.jpg"
+
+[button11]
+TenderType = 43
+Text = "Maksu vaihto- tai hyvitystositteella"
+Bitmap = "8x6_voucher.jpg"
+
+[button12]
+TenderType = 9
+Text = "Lahjakortti"
+Bitmap = "8x6_giftcard.jpg"
+CashBack = N
+ConfirmTotal = N
+NeedPin = N
+IntegratedMSR = N
+

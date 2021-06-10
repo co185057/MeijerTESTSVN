@@ -1,0 +1,203 @@
+//////////////////////////////////////////////////////////////////////
+//
+// Opos.hi
+//
+//   General header file for OPOS Control Objects and Service Objects.
+//
+// Modification history
+// -------------------------------------------------------------------
+// 95-12-08 OPOS Release 1.0                                     CRM
+// 96-03-18 OPOS Release 1.01                                    CRM
+//   Remove HKEY_LOCAL_MACHINE from the root keys, so that they
+//     may be directly used by RegOpenKey.
+// 96-04-22 OPOS Release 1.1                                     CRM
+//   Add POS Keyboard values.
+// 97-06-04 OPOS Release 1.2                                     CRM
+//   Add Cash Changer and Tone Indicator.
+//   Add the following properties:
+//     AutoDisable, BinaryConversion, DataCount
+// January 2000 Windows CE Updates                               WTS
+//   Use _T macro so the strings will compile under Unicode
+//
+//////////////////////////////////////////////////////////////////////
+
+#if !defined(OPOS_HI)
+#define      OPOS_HI
+
+
+#include "Opos.h"
+
+
+//////////////////////////////////////////////////////////////////////
+// Registry Keys
+//////////////////////////////////////////////////////////////////////
+
+// OPOS_ROOTKEY is the key under which all OPOS Service Object keys
+//   and values are placed.  This key will contain device class keys.
+//   (The base key is HKEY_LOCAL_MACHINE.)
+#define OPOS_ROOTKEY \
+    _T("SOFTWARE\\OLEforRetail\\ServiceOPOS")
+
+// Device Class Keys
+//   Rel 1.0
+#define OPOS_CLASSKEY_CASH    _T("CashDrawer")
+#define OPOS_CLASSKEY_COIN    _T("CoinDispenser")
+#define OPOS_CLASSKEY_TOT     _T("HardTotals")
+#define OPOS_CLASSKEY_LOCK    _T("Keylock")
+#define OPOS_CLASSKEY_DISP    _T("LineDisplay")
+#define OPOS_CLASSKEY_MICR    _T("MICR")
+#define OPOS_CLASSKEY_MSR     _T("MSR")
+#define OPOS_CLASSKEY_PTR     _T("POSPrinter")
+#define OPOS_CLASSKEY_SCAL    _T("Scale")
+#define OPOS_CLASSKEY_SCAN    _T("Scanner")
+#define OPOS_CLASSKEY_SIG     _T("SignatureCapture")
+//   Rel 1.1
+#define OPOS_CLASSKEY_KBD     _T("POSKeyboard")
+//   Rel 1.2
+#define OPOS_CLASSKEY_CHAN    _T("CashChanger")
+#define OPOS_CLASSKEY_TONE    _T("ToneIndicator")
+//   Rel 1.3
+#define OPOS_CLASSKEY_PPAD    _T("PINPad")
+
+#define OPOS_CLASSKEY_BB      _T("BumpBar")
+#define OPOS_CLASSKEY_FPTR    _T("FiscalPrinter")
+#define OPOS_CLASSKEY_ROD     _T("RemoteOrderDisplay")
+//   Rel 1.4
+#define OPOS_CLASSKEY_CAT     _T("CAT")
+
+
+// OPOS_ROOTKEY_PROVIDER is the key under which a Service Object
+//   provider may place provider-specific information.
+//   (The base key is HKEY_LOCAL_MACHINE.)
+#define OPOS_ROOTKEY_PROVIDER \
+    _T("SOFTWARE\\OLEforRetail\\ServiceInfo")
+
+
+//////////////////////////////////////////////////////////////////////
+// Common Property Base Index Values.
+//////////////////////////////////////////////////////////////////////
+
+// * Base Indices *
+
+const LONG PIDX_NUMBER                  =        0;
+const LONG PIDX_STRING                  =  1000000; // 1,000,000
+
+// * Range Test Functions *
+
+inline BOOL IsNumericPidx(LONG Pidx)
+{
+  return ( Pidx < PIDX_STRING ) ? TRUE : FALSE;
+}
+inline BOOL IsStringPidx(LONG Pidx)
+{
+  return ( Pidx >= PIDX_STRING ) ? TRUE : FALSE;
+}
+
+// **Warning**
+//   OPOS property indices may not be changed by future releases.
+//   New indices must be added sequentially at the end of the
+//     numeric, capability, and string sections.
+//     Also, the validation functions must be updated.
+
+
+// Note: The ControlObjectDescription and ControlObjectVersion
+//   properties are processed entirely by the CO. Therefore, no
+//   property index values are required below.
+
+
+//////////////////////////////////////////////////////////////////////
+// Common Numeric Property Index Values.
+//////////////////////////////////////////////////////////////////////
+
+// * Properties *
+
+const LONG PIDX_Claimed                 =   1 + PIDX_NUMBER;
+const LONG PIDX_DataEventEnabled        =   2 + PIDX_NUMBER;
+const LONG PIDX_DeviceEnabled           =   3 + PIDX_NUMBER;
+const LONG PIDX_FreezeEvents            =   4 + PIDX_NUMBER;
+const LONG PIDX_OutputID                =   5 + PIDX_NUMBER;
+const LONG PIDX_ResultCode              =   6 + PIDX_NUMBER;
+const LONG PIDX_ResultCodeExtended      =   7 + PIDX_NUMBER;
+const LONG PIDX_ServiceObjectVersion    =   8 + PIDX_NUMBER;
+const LONG PIDX_State                   =   9 + PIDX_NUMBER;
+
+//      Added for Release 1.2:
+const LONG PIDX_AutoDisable             =  10 + PIDX_NUMBER;
+const LONG PIDX_BinaryConversion        =  11 + PIDX_NUMBER;
+const LONG PIDX_DataCount               =  12 + PIDX_NUMBER;
+
+//      Added for Release 1.3:
+const LONG PIDX_PowerNotify             =  13 + PIDX_NUMBER;
+const LONG PIDX_PowerState              =  14 + PIDX_NUMBER;
+
+// * Capabilities *
+
+//      Added for Release 1.3:
+const LONG PIDX_CapPowerReporting       =  501 + PIDX_NUMBER;
+
+// * Validation Functions *
+
+inline BOOL IsValidNumericPidx(LONG Pidx)
+{
+  return ( PIDX_Claimed <= Pidx && Pidx <= PIDX_State )
+    ? TRUE : FALSE ;
+}
+
+inline BOOL IsValidNumericPidx12(LONG Pidx)
+{
+  return ( PIDX_Claimed <= Pidx && Pidx <= PIDX_DataCount )
+    ? TRUE : FALSE ;
+}
+
+
+//////////////////////////////////////////////////////////////////////
+// Common String Property Index Values.
+//////////////////////////////////////////////////////////////////////
+
+// * Properties *
+
+const LONG PIDX_CheckHealthText         =   1 + PIDX_STRING; 
+const LONG PIDX_DeviceDescription       =   2 + PIDX_STRING;
+const LONG PIDX_DeviceName              =   3 + PIDX_STRING;
+const LONG PIDX_ServiceObjectDescription=   4 + PIDX_STRING;
+
+// * Validation Function *
+
+inline BOOL IsValidStringPidx(LONG Pidx)
+{
+  return ( PIDX_CheckHealthText <= Pidx &&
+           Pidx <= PIDX_ServiceObjectDescription )
+    ? TRUE : FALSE ;
+}
+
+
+//////////////////////////////////////////////////////////////////////
+// Class Property Base Index Values.
+//////////////////////////////////////////////////////////////////////
+
+//   Rel 1.0
+const LONG PIDX_CASH    =  1000;  // Cash Drawer.
+const LONG PIDX_COIN    =  2000;  // Coin Dispenser.
+const LONG PIDX_TOT     =  3000;  // Hard Totals.
+const LONG PIDX_LOCK    =  4000;  // Keylock.
+const LONG PIDX_DISP    =  5000;  // Line Display.
+const LONG PIDX_MICR    =  6000;  // Magnetic Ink Character Recognition.
+const LONG PIDX_MSR     =  7000;  // Magnetic Stripe Reader.
+const LONG PIDX_PTR     =  8000;  // POS Printer.
+const LONG PIDX_SCAL    =  9000;  // Scale.
+const LONG PIDX_SCAN    = 10000;  // Scanner - Bar Code Reader.
+const LONG PIDX_SIG     = 11000;  // Signature Capture.
+//   Rel 1.1
+const LONG PIDX_KBD     = 12000;  // POS Keyboard.
+//   Rel 1.2
+const LONG PIDX_CHAN    = 13000;  // Cash Changer.
+const LONG PIDX_TONE    = 14000;  // Tone Indicator.
+const LONG PIDX_PPAD    = 17000;  // PIN Pad.
+
+const LONG PIDX_BB      = 15000;  // Bump Bar.
+const LONG PIDX_FPTR    = 16000;  // Fiscal Printer.
+const LONG PIDX_ROD     = 18000;  // Remote Order Display.
+//   Rel 1.4
+const LONG PIDX_CAT     = 19000;  // CAT.
+
+#endif                  // !defined(OPOS_HI)

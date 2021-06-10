@@ -1,0 +1,204 @@
+//////////////////////////////////////////////////////////////////////
+//
+// OposPtr.hi
+//
+//   POS Printer header file for OPOS Controls and Service Objects.
+//
+// Modification history
+// -------------------------------------------------------------------
+// 95-12-08 OPOS Release 1.0                                     CRM
+// 96-03-18 OPOS Release 1.01                                    CRM
+//   Change ...Nearend to ...NearEnd.
+//   Change ...Barcode to ...BarCode.
+//   Corrected IsValidPtrNumericPidx function.
+// 96-04-22 OPOS Release 1.1                                     CRM
+//   Add the following properties:
+//     CapCharacterSet, CapTransaction, ErrorLevel, RotateSpecial,
+//     ErrorString, FontTypefaceList, RecBarCodeRotationList,
+//     SlpBarCodeRotationList
+//
+//////////////////////////////////////////////////////////////////////
+
+#if !defined(OPOSPTR_HI)
+#define      OPOSPTR_HI
+
+
+#include "Opos.hi"
+#include "OposPtr.h"
+
+
+//////////////////////////////////////////////////////////////////////
+// Numeric Property Index Values.
+//////////////////////////////////////////////////////////////////////
+
+// * Properties *
+
+const LONG PIDXPtr_AsyncMode            =   1 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CharacterSet         =   2 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CoverOpen            =   3 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_ErrorStation         =   4 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_FlagWhenIdle         =   5 + PIDX_PTR+PIDX_NUMBER;
+
+const LONG PIDXPtr_JrnEmpty             =   6 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_JrnLetterQuality     =   7 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_JrnLineChars         =   8 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_JrnLineHeight        =   9 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_JrnLineSpacing       =  10 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_JrnLineWidth         =  11 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_JrnNearEnd           =  12 + PIDX_PTR+PIDX_NUMBER;
+
+const LONG PIDXPtr_MapMode              =  13 + PIDX_PTR+PIDX_NUMBER;
+
+const LONG PIDXPtr_RecEmpty             =  14 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_RecLetterQuality     =  15 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_RecLineChars         =  16 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_RecLineHeight        =  17 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_RecLineSpacing       =  18 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_RecLinesToPaperCut   =  19 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_RecLineWidth         =  20 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_RecNearEnd           =  21 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_RecSidewaysMaxChars  =  22 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_RecSidewaysMaxLines  =  23 + PIDX_PTR+PIDX_NUMBER;
+
+const LONG PIDXPtr_SlpEmpty             =  24 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_SlpLetterQuality     =  25 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_SlpLineChars         =  26 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_SlpLineHeight        =  27 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_SlpLinesNearEndToEnd =  28 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_SlpLineSpacing       =  29 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_SlpLineWidth         =  30 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_SlpMaxLines          =  31 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_SlpNearEnd           =  32 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_SlpSidewaysMaxChars  =  33 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_SlpSidewaysMaxLines  =  34 + PIDX_PTR+PIDX_NUMBER;
+
+//      Added for Release 1.1:
+const LONG PIDXPtr_ErrorLevel           =  35 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_RotateSpecial        =  36 + PIDX_PTR+PIDX_NUMBER;
+
+
+// * Capabilities *
+
+const LONG PIDXPtr_CapConcurrentJrnRec  = 501 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapConcurrentJrnSlp  = 502 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapConcurrentRecSlp  = 503 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapCoverSensor       = 504 + PIDX_PTR+PIDX_NUMBER;
+
+const LONG PIDXPtr_CapJrn2Color         = 505 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapJrnBold           = 506 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapJrnDhigh          = 507 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapJrnDwide          = 508 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapJrnDwideDhigh     = 509 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapJrnEmptySensor    = 510 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapJrnItalic         = 511 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapJrnNearEndSensor  = 512 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapJrnPresent        = 513 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapJrnUnderline      = 514 + PIDX_PTR+PIDX_NUMBER;
+
+const LONG PIDXPtr_CapRec2Color         = 515 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapRecBarCode        = 516 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapRecBitmap         = 517 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapRecBold           = 518 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapRecDhigh          = 519 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapRecDwide          = 520 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapRecDwideDhigh     = 521 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapRecEmptySensor    = 522 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapRecItalic         = 523 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapRecLeft90         = 524 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapRecNearEndSensor  = 525 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapRecPapercut       = 526 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapRecPresent        = 527 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapRecRight90        = 528 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapRecRotate180      = 529 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapRecStamp          = 530 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapRecUnderline      = 531 + PIDX_PTR+PIDX_NUMBER;
+
+const LONG PIDXPtr_CapSlp2Color         = 532 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapSlpBarCode        = 533 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapSlpBitmap         = 534 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapSlpBold           = 535 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapSlpDhigh          = 536 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapSlpDwide          = 537 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapSlpDwideDhigh     = 538 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapSlpEmptySensor    = 539 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapSlpFullslip       = 540 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapSlpItalic         = 541 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapSlpLeft90         = 542 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapSlpNearEndSensor  = 543 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapSlpPresent        = 544 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapSlpRight90        = 545 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapSlpRotate180      = 546 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapSlpUnderline      = 547 + PIDX_PTR+PIDX_NUMBER;
+
+//      Added for Release 1.1:
+const LONG PIDXPtr_CapCharacterSet      = 548 + PIDX_PTR+PIDX_NUMBER;
+const LONG PIDXPtr_CapTransaction       = 549 + PIDX_PTR+PIDX_NUMBER;
+
+
+// * Validation Functions *
+
+inline BOOL IsValidPtrNumericPidx(LONG Pidx)
+{
+  return ( PIDXPtr_AsyncMode <= Pidx &&
+           Pidx <= PIDXPtr_SlpSidewaysMaxLines )
+    ? TRUE : FALSE ;
+}
+
+inline BOOL IsValidPtrNumericPidx11(LONG Pidx)
+{
+  return ( PIDXPtr_AsyncMode <= Pidx &&
+           Pidx <= PIDXPtr_RotateSpecial )
+    ? TRUE : FALSE ;
+}
+
+inline BOOL IsValidPtrCapPidx(LONG Pidx)
+{
+  return ( PIDXPtr_CapConcurrentJrnRec <= Pidx &&
+           Pidx <= PIDXPtr_CapSlpUnderline )
+    ? TRUE : FALSE ;
+}
+
+inline BOOL IsValidPtrCapPidx11(LONG Pidx)
+{
+  return ( PIDXPtr_CapConcurrentJrnRec <= Pidx &&
+           Pidx <= PIDXPtr_CapTransaction )
+    ? TRUE : FALSE ;
+}
+
+
+//////////////////////////////////////////////////////////////////////
+// String Property Index Values.
+//////////////////////////////////////////////////////////////////////
+
+// * Properties *
+
+const LONG PIDXPtr_CharacterSetList     =   1 + PIDX_PTR+PIDX_STRING;
+const LONG PIDXPtr_JrnLineCharsList     =   2 + PIDX_PTR+PIDX_STRING;
+const LONG PIDXPtr_RecLineCharsList     =   3 + PIDX_PTR+PIDX_STRING;
+const LONG PIDXPtr_SlpLineCharsList     =   4 + PIDX_PTR+PIDX_STRING;
+
+//      Added for Release 1.1:
+const LONG PIDXPtr_ErrorString          =   5 + PIDX_PTR+PIDX_STRING;
+const LONG PIDXPtr_FontTypefaceList     =   6 + PIDX_PTR+PIDX_STRING;
+const LONG PIDXPtr_RecBarCodeRotationList=  7 + PIDX_PTR+PIDX_STRING;
+const LONG PIDXPtr_SlpBarCodeRotationList=  8 + PIDX_PTR+PIDX_STRING;
+
+
+// * Validation Functions *
+
+inline BOOL IsValidPtrStringPidx(LONG Pidx)
+{
+  return ( PIDXPtr_CharacterSetList <= Pidx &&
+           Pidx <= PIDXPtr_SlpLineCharsList )
+    ? TRUE : FALSE ;
+}
+
+inline BOOL IsValidPtrStringPidx11(LONG Pidx)
+{
+  return ( PIDXPtr_CharacterSetList <= Pidx &&
+           Pidx <= PIDXPtr_SlpBarCodeRotationList )
+    ? TRUE : FALSE ;
+}
+
+
+#endif			// !defined(OPOSPTR_HI)

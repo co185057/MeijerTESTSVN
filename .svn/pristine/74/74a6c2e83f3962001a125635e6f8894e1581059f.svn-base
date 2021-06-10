@@ -1,0 +1,67 @@
+//////////////////////////////////////////////////////////////////////
+//
+// OposTot.hi
+//
+//   Hard Totals header file for OPOS Controls and Service Objects.
+//
+// Modification history
+// -------------------------------------------------------------------
+// 95-12-08 OPOS Release 1.0                                     CRM
+//
+//////////////////////////////////////////////////////////////////////
+
+#if !defined(OPOSTOT_HI)
+#define      OPOSTOT_HI
+
+
+#include "Opos.hi"
+#include "OposTot.h"
+
+
+//////////////////////////////////////////////////////////////////////
+// Numeric Property Index Values.
+//////////////////////////////////////////////////////////////////////
+
+// * Properties *
+
+const LONG PIDXTot_FreeData             =   1 + PIDX_TOT+PIDX_NUMBER;
+const LONG PIDXTot_NumberOfFiles        =   2 + PIDX_TOT+PIDX_NUMBER;
+const LONG PIDXTot_TotalsSize           =   3 + PIDX_TOT+PIDX_NUMBER;
+const LONG PIDXTot_TransactionInProgress=   4 + PIDX_TOT+PIDX_NUMBER;
+
+// * Capabilities *
+
+const LONG PIDXTot_CapErrorDetection    = 501 + PIDX_TOT+PIDX_NUMBER;
+const LONG PIDXTot_CapSingleFile        = 502 + PIDX_TOT+PIDX_NUMBER;
+const LONG PIDXTot_CapTransactions      = 503 + PIDX_TOT+PIDX_NUMBER;
+
+// * Validation Functions *
+
+inline BOOL IsValidTotNumericPidx(LONG Pidx)
+{
+  return ( PIDXTot_FreeData <= Pidx &&
+           Pidx <= PIDXTot_TransactionInProgress )
+    ? TRUE : FALSE ;
+}
+
+inline BOOL IsValidTotCapPidx(LONG Pidx)
+{
+  return ( PIDXTot_CapErrorDetection <= Pidx &&
+           Pidx <= PIDXTot_CapTransactions )
+    ? TRUE : FALSE ;
+}
+
+
+//////////////////////////////////////////////////////////////////////
+// String Property Index Values.
+//////////////////////////////////////////////////////////////////////
+
+// * Validation Function *
+
+inline BOOL IsValidTotStringPidx(LONG Pidx)
+{
+  return FALSE;
+}
+
+
+#endif			// !defined(OPOSTOT_HI)

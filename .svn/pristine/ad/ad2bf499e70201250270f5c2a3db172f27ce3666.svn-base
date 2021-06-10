@@ -1,0 +1,45 @@
+////////////////////////////////////////////////////////////////////////
+//
+// NCRTOT.HI
+//
+//   NCR Specific Hard Totals header file for OPOS Controls and Service
+//   Objects.
+//
+//   Copyright (c) 1996 NCR.  All rights reserved.
+//
+// Modification history
+// ---------------------------------------------------------------------
+// 96-03-14 OPOS Release 1.0                                     WTS
+//
+////////////////////////////////////////////////////////////////////////
+
+#if !defined(NCRTOT_HI)
+#define      NCRTOT_HI
+
+
+#include "opostot.hi"
+#include "ncrtot.h"
+
+// Registry related constants
+const	WORD	MAX_KEY_LENGTH = 16;
+
+// Maximum number of files supported
+#ifdef _UT
+const	WORD	MAX_TOTALS_FILES = 8;
+#else
+const	WORD	MAX_TOTALS_FILES = 256;
+#endif
+
+// Maximum number of handles supported
+const	WORD	MAX_TOTALS_HANDLES = (2 * MAX_TOTALS_FILES);
+
+// Largest name allowed for a totals file
+const	WORD	MAX_TOTALS_FILENAME_LEN = 10;
+
+// Default size of a disk totals file, in kilobytes
+const   WORD    DEFAULT_DISK_TOTALS_FILE_SIZE = 16;
+
+// Totals signature
+#define HT_SIGNATURE	"\x3\x7HT"
+
+#endif			// !defined(NCRTOT_HI)

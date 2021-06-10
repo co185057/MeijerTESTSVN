@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileTransportService", "FileTransportService.vcproj", "{DEA08C12-D41A-4CA6-8844-FD76793BA59E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 1
+		SccProjectUniqueName0 = FileTransportService.vcproj
+		SccProjectName0 = \u0022$/Integration_Base/VER_03.00/CURRENT_DEV/Source/AfxTransBroker/FileTransportService\u0022,\u0020IYKGAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = true
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{DEA08C12-D41A-4CA6-8844-FD76793BA59E}.Debug.ActiveCfg = Debug|Win32
+		{DEA08C12-D41A-4CA6-8844-FD76793BA59E}.Debug.Build.0 = Debug|Win32
+		{DEA08C12-D41A-4CA6-8844-FD76793BA59E}.Release.ActiveCfg = Release|Win32
+		{DEA08C12-D41A-4CA6-8844-FD76793BA59E}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

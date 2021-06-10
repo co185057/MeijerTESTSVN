@@ -1,0 +1,2795 @@
+﻿AmountSaved,Megtakarított összeg
+Assistance,Segítség
+AssistanceComing,"A segítség hamarosan érkezik; kérem, folytassa."
+Back,Vissza
+BagItem,Tegye az árucikket a csomagoló területre.
+BagItemCart,Árucikk csomagolása
+BagItemOrSkip,"Csomagolja be ezt az árucikket, vagy hagyja ki ezt a lépést."
+CallForHelp,Hívjon segítséget?
+Cancel,Mégse
+CancelAll,Összes eltávolítása
+CancelCoupons,Kuponok elvetése
+CancelPayment,Fizetés elvetése
+CantScanCoupon,Nem tudom leolvasni a kupon
+CartPay,Fizetés
+Change,Visszajáró:
+Confirm,Elveti teljes vásárlását?
+ConfirmQuantity,{0} helyes?
+Continue,Kívánja folytatni?
+CouponMessage,Egyelőre tegye félre a kuponokat. Majd a vásárlás végén adja le őket.
+DepositCard,"Kérem, helyezze kiürült ajándékkártyáját a kuponnyílásba."
+DepositCoupon,Adja le kuponjait
+DepositGiftCard,Ajándékkártya behelyezése
+Disconnected,"Kérem, várjon..."
+Done,Kész
+Due,Fizetendő:{0}
+EditCart,Kosár szerkesztése
+Enter,Enter
+EnterAmount,Írja be az összeget
+EnterCouponValue,"Írja be a kupon értékét centben, majd érintse meg az „OK” gombot."
+EnterId,Írja be az azonosítóját.
+EnterPassword,Írja be a jelszavát.
+EnterPin,Írja be a PIN-t
+EnterQuantity,Hány darab van?
+EnterWeight,Tegye az árucikket a mérlegre:
+Finish,"Köszönjük, hogy nálunk vásárolt."
+FinishAndAdd,Befejezés és hozzáadás
+GiftCard,Ajándékkártya egyenlege
+GoBack,Vissza
+IncorrectLogin,"Az eladó száma és jelszava helytelen.\nKérem, próbálkozzon újra."
+InsertCash,Helyezze be a készpénzt
+InsertCoupon,Kupon behelyezése
+InvalidBarcodeScan,"Tegye félre az árucikket, és folytassa a vásárlást."
+Item,{0} árucikk
+Items,{0} árucikk
+ItemsAddedFormat,{0} kocsihoz adandó árucikk.
+Language,Nyelv
+NCRCorp,NCR Corp
+No,Nem
+OK,OK
+Or,vagy
+OtherPayment,Más fizetés
+OtherPaymentMethod,Más fizetési módok.
+OwnBag,Saját táska
+Paid,Fizetve:{0}
+PayAnotherWay,Fizessen más módon
+PointsEarned,Szerzett pontszám
+PrintReceipt,Blokknyomtatás
+Proceed,Tovább
+Remove,Eltávolítás
+RemovedItem,Eltávolítottam az árucikket
+RestrictedItem,Korlátozás alá eső árucikk
+ReturnToScan,Vissza
+ScanAndBag,"Olvassa le, keresse meg, vagy írja be az árucikk kódját az indításhoz"
+ScanCoupon,Kuponok leolvasása
+ScanGiftCard,Ajándékkártya beolvasása
+ScanNextItem,Olvassa be a következő árucikket.
+ScanVoucher,Utalványok leolvasása
+SearchResultsFor,„{0}” keresési eredményei
+SearchWatermark,Árucikk nevének vagy kódjának megadása
+SearchItemNameWatermark,Enter Item Name
+SearchKeyInItem,Árucikk keresése vagy megadása
+SelectCashBack,Válassza ki a felvenni kívánt készpénz összegét
+SelectLanguage,Nyelv választása
+SelectPaymentType,Válasszon fizetési módot
+SellBags,"Hány műanyag táskát használt? Írjon be 0-t, ha egyet sem használt."
+SignNeeded,Aláírás szükséges
+SignSignature,Írjon alá az aláírás-digitalizálóra.
+SkipBagging,Csomagolás kihagyása
+Space,Szóköz
+StartScanning,Leolvasás indítása
+StoreLogin,Bejelentkezés a terminálba
+TakeCash,Vegye el a visszajáró készpénzt
+TakeChange,Vegye el a visszajárót
+TakeReceipt,Vegye el a bizonylatot
+Tax,Adó
+TimeRestrictedItem,Időkorlátozás alá eső árucikkek
+Total,Összeg
+TouchCancel,A fizetés elvetéséhez érintse meg a PinPad terminálon az „Elvet” gombot.
+TryAgain,Próbálja ismét
+UnexpectedDecreaseMessage,Tegye vissza az árucikket a csomagolóterületre.
+UnexpectedIncreaseMessage,Távolítsa el az árucikkeket a csomagolóterületről.
+UsePinpad,Használja a PinPad terminált.
+VoidItem,"Olvassa le a nem kívánt árucikket, vagy nyomja meg az ""Eltávolítás"" gombot a blokkon."
+Volume,Hangerő
+Yes,Igen
+ItemNumberAmount,NOI :  
+WeightExpected,WE :  
+WeightObserved,WO :  
+UnknownPriceMessage,"Az árucikk ára ismeretlen.\nMunkatársunk már úton van.\n\nTegye félre az árucikket, és folytassa."
+SetAllItemsAsideMessage,Teljes vásárlás elvetve.\n\nTegye félre az összes árucikket.
+ConfirmAbortMessage,Biztos kiüríti a kosarát? A tranzakció megszakításra kerül.
+NoKeep,"Nem, maradjon."
+NoReturn,"Nem, vissza a tranzakcióhoz."
+YesEmpty,"Igen, kosár kiürítése és a tranzakció befejezése."
+YesRemove,"Igen, eltávolítom."
+HostOfflineMessage,A Lane offline és a rendszer megpróbál újra.
+LaneClosedMessage,Pénztársor lezárva
+LoadingText,Betöltés folyamatban
+VerifyBagsMessage,"Ha véletlenül táska helyett mást tett a csomagoló területre, kérem, most távolítsa el."
+HelpOnWay,"Munkatársunk már úton van. Kérem, folytassa."
+OwnBagMessage,Tegye a táskáját a csomagoló területre.
+UseOwnBag,Saját táskát használok
+AttendantMode,Eladó üzemmód
+AttendantTrainingMode,Eladó és Tanító üzemmód
+TrainingMode,Tanuló üzemmód
+ScaleBroken,"Vegye le az árucikket a mérlegről, majd nyomja meg a leolvasón a "">0<"" gombot."
+Refunded,Visszatérítve:
+EnterIDMessage,"A billentyűzeten írja be felhasználói azonosítóját, majd érintse meg az ""Enter"" gombot."
+EnterIDText,Írja be az azonosítót
+EnterPasswordMessage,"A billentyűzeten írja be jelszavát, majd érintse meg az ""Enter"" gombot."
+EnterPasswordText,Írja be a jelszót
+VisualVerify,Vizuális ellenőrzés
+SingleItemAddedFormat,{0} kocsihoz adandó árucikk.
+Approved,Jóváhagyva
+VoidItemBeforeCouponMessage,"Az árucikk csak akkor törölhető, ha kuponja már törölve van. Előbb törölje az árucikk kuponját."
+VerifyBags,Táskáit az eladó ellenőrizni fogja.
+CancelItems,Árucikk eltávolítása
+EnterQuantityTitle,Meg kell adni a mennyiséget
+SecUnExpectedIncreaseTitle,Csomagolási riasztás
+WeightMismatchTitle,Segítség szükséges
+AssistanceNeededTitle,Segítség szükséges
+CheckBasketTitle,Kosár ellenőrzése
+ConfirmDebitAmountTitle,Erősítse meg az összeget
+DropoffCouponsTitle,Adja le a kuponokat.
+InsufficientBalanceTitle,Az egyenleg nem elegendő
+OperatorPasswordStateInvalidPasswordWithFPTitle,Ujjlenyomat-olvasó bejelentkezési hiba
+PurchaseCrateTitle,Rekesz vásárlása
+RestrictedItemTitle,Korlátozás alá eső árucikk
+SecBagAreaBackupTitle,Feltorlódott árucikkek
+SignChargeTitle,Írja alá a blokkot
+TakeCardTitle,Vegye el a kártyát
+ContinueTitle,Folytatja?
+ApprovalNeededTitle,Jóváhagyás szükséges
+IncorrectLoginTitle,Helytelen szám.
+RecalledItemTitle,Visszahívott árucikk
+RemovedItemTitle,Csomagolási riasztás
+SetAllItemsAsideTitle,Tegye félre az árucikkeket
+TakeLoyaltyCardTitle,Vegye el a hűségkártyát
+UnknownPriceTitle,Ismeretlen ár
+ConfirmEBTAmountTitle,Erősítse meg az összeget
+DisconnectedTitle,Megszakadt a kapcsolat
+ShuttingDown,Leállítás folyamatban
+NoneText,Nincs
+SMText,Üzlet üzemmód
+SMLogInReceiptText,Bejelentkezve Üzlet üzemmódba
+SMLogOutReceiptText,Kijelentkezve Üzlet üzemmódból
+WLDBOffLineText,Súly-adatbázis: Off-line
+OperatorIDText,Eladó azonosítója: 
+SignOnButtonText,Bejelentkezés
+SignOffButtonText,Kijelentkezés
+AlertText,Riasztások:
+SuspendInProgressText,Felfüggesztés folyamatban
+SuspendLeadthru1,"A jelenlegi tranzakció felfüggesztését kérték. \nKérem, erosítse meg vagy vesse el ezt a kérést."
+SuspendLeadthru2,"A jelenlegi tranzakció felfüggesztését kérte. Kérem, erosítse meg ezt a kérést.  Az elvetéshez érintse meg a ""Vissza"" gombot és lépjen ki az NCR SelfServ Checkout termináljából."
+ReceiptText,Blokk:
+SuspendReasonText1,Felfüggesztés: Általános
+CancelSuspendButtonText,Vesse el a felfüggesztést
+ConfirmSuspendNowButtonText,Azonnali fefüggesztés \nmegerosítése
+ConfirmAllowSuspendButtonText,Felfüggesztés engedélyezésének megerosítése
+ConfirmSuspendRequestButtonText,Fefüggesztés-kérés megerosítése
+CancelSuspendNowButtonText,Azonnali fefüggesztés elvetése
+GoBackButtonText,Vissza
+CancelSuspendRequestButtonText,Fefüggesztés-kérés elvetése
+CouponText,Kuponok:
+SuspendReasonText2,Felfüggesztés: Kuponok
+CouponReceiptText,%d kupon összesen $%.2f értékben
+SuspendNowButtonText,Azonnali felfüggesztés
+RequestSuspendButtonText,Felfüggesztés-kérés
+NotConnectedText,Nincs csatlakoztatva.
+ConnectingText,"Csatlakozás folyamatban... Kérem, várjon"
+ApprovalNeededText,Jóváhagyás szükséges:
+SuspendReasonText3,Felfüggesztés: Egyéb
+ClearRequestButtonText,Kérés törlése
+ApproveButtonText,Jóváhagyás
+RestrictedItemText,Korlátozás alá eso árucikk:
+SuspendReasonText4,Felfüggesztés: Korlátozás alá eso
+SecurityLogText,Biztonsági napló:
+SuspendReasonText5,Felfüggesztés: Biztonság
+SignatureText,Aláírás:
+SignatureAndNameText,Aláírás: %s
+ConnectingLeadthru,"Csatlakozás az NCR SelfServ Checkout... Kérem, várjon"
+EnterIDLeadthru,Írja be az azonosítót a lenti billentyuzeten.
+EnterPasswordLeadthru,Írja be a jelszót a lenti billentyuzeten.
+LoggingInLeadthru,"Bejelentkezés folyamatban... Kérem, várjon"
+ApproveSecurityButtonText,Jóváhagyás Biztonság
+ApprovalNeededButtonText,Jóváhagyás szükséges.
+VerifySignatureButtonText,Aláírás \nellenorzése
+AllowSuspendButtonText,Felfüggesztés engedélyezése
+MainButtonText,Fomenü
+SuspendTransactionButtonText,Tranz. felfügg.
+ApproveAndCollectButtonText,Jóváhagy és beszed
+ClearApprovalsButtonText,Jóváhagyások törlése
+BirthDateOver30ButtonText,Születési dátum szerint 30 év feletti
+SignAgainButtonText,Írja alá ismét
+BackSpaceButtonText,Visszatörl.
+EnterButtonText,Enter
+LaneNumberText,Pénztársor száma: %d
+RAPTitle,NCR SelfServ Checkout\nTávoli jóváhagyó állomás
+CancelSuspendText,Vesse el a felfüggesztést
+OtherPaymentSelectedText,Más fizetés kiválasztva
+CouponCollectionText,Kuponbeszedés
+PendingSuspendText,Felfüggesztés függoben
+SignatureApprovalText,Aláírás jóváhagyása
+LaneText,Pénztársor
+VideoButtonText,Videó
+ClearButtonText,Törlés
+QuantityButtonText,Mennyiség
+FeesAndCustomerAgreementsTitle,Díjak && Vásárlói szerzodés:
+FeesButtonText,Díjak
+CustomerAgreementButtonText,Vásárlói szerzodés
+FeesAndCustomerAgreementsLeadthru,Díjak & Vásárlói szerzodés:
+TransactionSuspendedText,Tranzakció felfüggesztve
+POSMessageText,POS üzenet:
+ConnectingWaitingText,"Kérem, várjon, csatlakozás az NCR SelfServ Checkout programhoz..."
+DateOfBirthNotNeededButtonText,Dátum nem szükséges.
+AssistModeButtonText,Segíto üzemmód
+ClearSecurityButtonText,Áthaladhat
+VisualApproveButtonText,Vizuális jóváhagyás
+CheckAgeTitle,Ellenorizze a vevo életkorát
+CouponLimitExceededTitle,Kuponkorlát túllépve
+VerifyItemAndPriceTitle,Ellenorizze az árucikket és az árat
+UnknownItemTitle,Ismeretlen árucikk félretéve
+ItemNotForSaleTitle,Az árucikk nem eladó
+ItemQuantityExceededTitle,Árucikk mennyisége túllépve
+TimeRestrictedItemTitle,Idokorlátozás alá eso árucikk
+CheckAgeLeadthru,"Írja be a szül.dátumot %s, majd ""Enter""."
+InvalidBirthDateFormatLeadthru,A beírt dátum formátuma érvénytelen \nÍrja be újra %s formátumban.
+CouponLimitExceededLeadthru,"A kuponok pénztári leadásához a ""Jóváhagyás"", vevőtől való beszedéséhez a ""Jóváhagy és beszed"" gombot érintse meg."
+VisualApproveLeadthru,"Vizuális jóváhagyás, vagy ""Segíto üzemmód"" a tranzakció módosításához."
+UnknownItemLeadthru,"Vegye fel az árucikket a pénztársorban és érintse meg az ""Áthaladhat"" gombot, vagy a tranzakció végrehajtásához érintse meg a ""Segíto üzemmód"" gombot."
+ItemNotForSaleLeadthru,"Vegye fel az árucikket a pénztársorban és érintse meg az ""Áthaladhat"" gombot."
+OffLineLaneButtonText,Offline
+ExitText,Kilépés
+EnterDataLaneButtonText,Írja be az adatokat
+AgeCheckLaneButtonText,Életkor-ell.
+CouponLaneButtonText,Kupon
+VoidLaneButtonText,Érvénytelenítés
+VerifyItemLaneButtonText,Árucikk ellenorzése
+NotFoundLaneButtonText,Nem található
+NoSaleLaneButtonText,Nem adható el
+QuantityLaneButtonText,Mennyiség
+HelpLaneButtonText,Segítség
+NoInterventionLeadthru,Most nincs szükség beavatkozásra.
+OffLineLeadthru,"A pénztársor jelenleg offline állapotban van, és a rendszer megpróbál automatikusan visszacsatlakozni."
+CancelRequestButtonText,Kérés elvetése
+HelpRequestTitle,Segítségkérés
+SecurityLaneButtonText,Biztonság
+VoidLeadthru,"Szedje be az érvénytelenített árucikket, majd érintse meg az ""Érvénytelenítés jóváhagyása"" gombot."
+ApproveVoidButtonText,Érvénytelenítés jóváhagyása
+SecurityLeadthru,majd érintse meg az „Áthaladhat” gombot.
+SecurityViolationText,Biztonsági szabály megsértése
+OtherPaymentText,Más fizetés kiválasztva
+SuspendTransactionLeadthru,"Érintse meg a ""Tranz. felfügg."" vagy a ""Segíto üzemmód"" gombot, majd fogadja el a fizetést."
+EASText,EAS Árucikk még mindig aktív
+DeactivateLeadthru,"Deaktiválja az árucikket vagy távolítsa el a kemény címkét, majd érintse meg az ""Áthaladhat"" gombot."
+CompareSignatureTitle,Hasonlítsa össze az aláírásokat
+CompareSignatureLeadthru,"Hasonlítsa össze az aláírásokat, majd érintse meg a ""Jóváhagyás"" vagy ""Aláírás újra"" gombot."
+EnterPriceLeadthru,"A billentyuzeten írja be az árucikk árát, majd érintse meg az ""Enter"" gombot."
+UtilityButtonText,Segédprogram
+ReturnToMainButtonText,Vissza a fomenübe
+GetDiagFilesButtonText,Diagn. fájlok beolv.
+CouponApprovalLeadthru,"Fogadja el a vevotol a kuponokat a jóváhagyó állomáson, majd érintse meg a ""Jóváhagyás"" gombot."
+RebootSystemButtonText,Teljes rendszer újraindítása
+ShutDownSystemButtonText,Teljes rendszer lezárása
+LaneStatusTitle,Pénztársor állapota
+LaneStatusLeadthru,Válasszon funkciót.
+AgeRestrictedText,Életkori korlátozás alá eso árucikk; %2d éves
+BirthdateEnterText,"Beírt születési dátum: %2d/%2d/%4d,%d éves"
+HelpRequestLeadthru,"Miután segített a vevonek, érintse meg a ""Kérés elvetése"" gombot."
+TotalText,Összeg:
+ItemText,Árucikk:
+MultimediaTrainingText,Multimédiás betanítás
+VolumeControlButtonText,Hangeroszabályzó
+SecurityViolationNumText,Biztonsági szabályok megsértései:
+ItemPurchasedText,Vásárolt árucikk:
+EnterPriceTitle,Ár bevitele
+CancelTransactionGenericTitle,Tranzakció elvetése
+CancelTransactionGenericLeadthru,"A tranzakció elvetéséhez az ""Igen"", folytatásához a ""Nem"" gombot érintse meg."
+YesButtonText,Igen
+NoButtonText,Nem
+ConfirmSuspendTitle,Felfüggesztés:
+ConfirmSuspendLeadthru,Erosítse meg a felfüggesztést.
+ConfirmSuspendButtonText,Erosítse meg a felfüggesztést
+IncorrectItemWeightTitle,Helytelen súly a biztonsági mérlegen.
+IncorrectItemWeightLeadthru,"Távolítsa el az árucikket, majd érintse meg az ""Áthaladhat"" vagy a ""Súly jóváhagyása & és frissítése"" gombot."
+ApproveUpdateButtonText,Súly jóváhagyása & és frissítése
+UnexpectedIncreaseTitle,Váratlan árucikk a biztonsági mérlegen.
+UnexpectedIncreaseLeadthru,"Menjen a pénztársorhoz, távolítsa el a többlet-árucikkeket, majd érintse meg az ""Áthaladhat"" gombot."
+SkipBaggingBtnThresholdLeadthru,"Ellenorizze a pénztársorban lévo árucikkeket, majd érintse meg az ""Áthaladhat"" gombot."
+NewWeightItemTitle,Nincs adat az árucikk súlyáról.
+NewWeightItemLeadthru,"Ellenorizze az árucikk súlyát, majd érintse meg a ""Súly jóváhagyása & és frissítése"" vagy a ""Jóváhagyás / nincs frissítés"" gombot."
+ApproveNoUpdateButtonText,Jóváhagyás / nincs frissítés
+BagItemTimerExpiredTitle,A biztonsági mérlegen súlynak kell lennie.
+TakeChangeTimerExpiredTitle,Vegye el a visszajárót
+TakeChangeTimerExpiredBottomCaption,Idozíto lejárt
+PickingUpItemsTimerExpiredTitle,Az árucikkek nem lettek visszatéve a csomagoló területre.
+DeviceFailureTitle,Az eszköz hibásan muködik
+DeviceFailureLeadthru,Menjen a pénztársorhoz és ellenorizze az eszközt.
+WLDBFailureTitle,A WLDB adatátvitele nem helyes.
+WLDBFailureLeadthru,Ellenorizze az adatátvitelt.
+UnexpectedDecreaseTitle,Árucikk eltávolítva a csomagoló területrol.
+ClosedLaneTitle,A pénztársor megnyitásához menjen oda és jelentkezzen be Üzlet üzemmódba.
+ClosedLaneLeadthru,Pénztársor lezárva
+BagAreaBackupTitle,Feltorlódott árucikkek a szalagon
+BagAreaBackupLeadthru,Távolítsa el a feltorlódott árucikkeket a szalagról.
+MinimumAgeText,Minimum életkor.
+SafetyCoverOpenLeadthru,"Távolítson el minden árucikket a szalagról, és zárja le a biztonsági fedelet."
+VerifySignatureLeadthru,Hasonlítsa össze a vásárló aláírását a kártyán szereplovel.
+AssistedTenderTitle,Eladó által segített fizetés
+AssistedTenderLeadthru,Csekket Segíto üzemmódban fogadhat el a vevotol.
+AssistedTenderHHLeadthru,A fizetést az Eladói állomás segítségével fogadhatja el.
+AssistedEndorsementLeadthru,"Jóváhagyás szükséges. Kérem, várja meg munkatársunk segítségét."
+StartTransactionButtonText,Tranzakció elindítása
+StartTransactionTitle,Eladó által segített funkciók
+StartTransactionLeadthru,Válassza ki a kívánt funkciót.
+StartTransactionAMButtonText,Indítás & és segítség
+ItemsForgottenTitle,Súly marad \na csomagmérlegen.
+InsertCouponTimerExpiredTitle,Kupon behelyezése
+CollectGiftCardTitle,Ajándékkártya beszedése
+HostOfflineLeadthru,"A pénztársor offline állapotban van, és a rendszer megpróbál visszacsatlakozni."
+SpaceButtonText,Szóköz
+LaneReceiptItemType1,%s\t%s
+LaneReceiptItemType2,    %s
+LaneReceiptItemType3,"%s\t%s\tMen %s, %s/db\t%s"
+LaneReceiptItemType4,%s\t%s\tMen %s @ %s/%s\t%s
+LaneReceiptItemType5,%s\t%s\t%ss @ %s %s/%s\t%s
+LaneReceiptItemType6,%s\t%s\t%ss @ %s/%s\t%s
+CloseLaneButtonText,Zárja le a pénztárt
+ReportingButtonText,Kimutatáskészítés
+KeyInCodeTitle,Írja be a kódot
+KeyInCodeLeadthru,"Írja be az árucikk kódját, majd érintse meg az ""OK"" gombot."
+VoidItemButtonText,Árucikk törlése
+ChangePriceButtonText,Ár módo sítása
+ChangeQuantityButtonText,Mennyiség módo sítása
+ReturnToShoppingButtonText,Vissza vásárlási üzemmódba
+BasicAssistModeTitle,Segítési funkciók
+BasicAssistModeLeadthru,Olvassa le az árucikket vagy válasszon funkciót.
+ChangePriceTitle,Ár módosítása
+KeyInPriceLeadthru,Írja be az árat erre: %d %s
+VoidAllButtonText,Összes törlése
+VoidItemTitle,Árucikk törlése
+VoidItemLeadthru,"Olvassa le a cikket vagy görgessen rá a blokkon, majd ""Árucikk törlése"" vagy ""Összes törlése""."
+ChangeQuantityTitle,Mennyiség módosítása
+KeyInQuantityLeadthru,Írja be a mennyiséget erre: %s
+FullAssistButtonText,Teljes köru segítés
+CloseButtonText,Bezárás
+UpdateItemLeadthru,"Görgessen a blokkon az árucikkre, majd érintse meg az ""Enter"" gombot."
+OKButtonText,OK
+CouponNoMatchLeadthru,A kupon nem egyezik a blokk egyik tételével sem. Ez a kupon nem fogadható el.
+CouponTooHighLeadthru,A kuponra túl nagy összeget írt be. Ez a rendszer nem tudja elfogadni ezt a kupont.
+EnterCouponValueLeadthru,"Írja be a kupon értékét centben, majd érintse meg az ""Enter"" gombot."
+ItemQuantityExceededLeadthru,"Túllépte az erre az árucikkre megengedett mennyiséget. Kérem, tegye félre és folytassa."
+ProcessingLeadthru,"Feldolgozás folyamatban... Kérem, várjon."
+VoidNoMatchLeadthru,"A leolvasott árucikk nem található. Vagy még nem vásárolta meg, vagy már elvetette."
+ConfirmAbortLeadthru,Abbahagyja a fizetést és elveti teljes vásárlását?
+ContinueTransLeadthru,Folytatni kívánja a vásárlást?
+ConfirmQuantityTitle,Erosítse meg a mennyiséget
+ConfirmVoidTitle,Erősítse meg az eltávolítást
+CouponNoMatchTitle,Pár nélküli kupon
+CouponTooHighTitle,Túl nagy értéku kupon
+CrateableItemTitle,Rekesz vásárlása
+EnterCouponValueTitle,Írja be a kupon értékét
+EnterQuantityLeadthru,"A billentyűzeten írja be a mennyiséget, majd nyomja meg az ""OK"" gombot."
+EnterWeightTitle,Mérje le az árucikket
+EnterWeightLeadthru,Menjen a pénztársorhoz és tegye az árut a mérlegre.
+AMItemQuantityExceededTitle,Mennyiségi korlát
+ProcessingTitle,Feldolgozás folyamatban...
+SelectContainerTitle,Válassza ki a rekeszt
+SelectContainerLeadthru,"Válassza ki a rekeszt a listából, majd érintse meg az ""Enter"" gombot."
+VoidNoMatchTitle,Az árucikk nem vetheto el
+ConfirmAbortTitle,Összes árucikk eltávolítása
+ContinueTransTitle,Folytatja?
+ScaleBrokenTitle,Mérleg alaphelyzetbe
+ScaleBrokenLeadthru,"Vegye le az árucikket a mérlegről, majd nyomja meg a leolvasón a "">0<"" gombot."
+UpdateNotAllowedTitle,Az árucikk nem frissítheto
+UpdateNotAllowedLeadthru,Mért árucikk mennyisége nem változtatható meg.
+SmEnterBirthdateTitle,Korlátozás alá eso árucikkek
+SmEnterBirthdateLeadthru,Írja be a vásárló születési dátumát
+SmVisualItemsTitle,Vizuális ellenorzések
+SmVisualItemsLeadthru,Vizuálisan ellenőrzött árucikkek jóváhagyása
+SmCouponItemsTitle,Hagyja jóvá a használt kuponokat
+SmCouponItemsLeadthru,Ellenorizze a használt kuponokat
+SmRestrictedItemsTitle,Korlátozás alá eso árucikkek
+SmRestrictedItemsLeadthru,Válassza ki a kívánt funkciót.
+KeyInBirthDateButtonText,Írja be a dátumot
+KeyInCodeButtonText,Írja be a \nkódot
+SmRunReportsTitle,Kimutatás tartalma
+PrintReportButtonText,Kimutatás nyomtatása
+LaneReceiptItemType7,    %s
+AM_RestrictedNotAllowedTitle,Korlátozás alá eso árucikk
+AM_RestrictedNotAllowedLeadthru,"Korlátozás alá eso árucikk elvetve - korhatár nem teljesült.\n\nKérem, tegye félre az árucikket."
+TransactionCancelTitle,Tranzakció elvetése
+TransactionCancelLeadThru,Tranzakció elvetve. Távolítsa el az árucikkeket errol a \npénztárhelyrol.
+OutOfSyncNeedAssistTitle,SEGÍTÉS
+OutOfSyncNeedAssistLeadthru,"A POS nincs szinkronban, újraszinkronizáláshoz lépjen be Segíto üzemmódba."
+OutOfSyncStopTitle,ÚJRAINDÍTÁS
+OutOfSyncStopLeadthru,"POS-kiszolgáló leállt vagy nincs szinkronban, zárja le a terminált a kapcsolóval."
+MultiPackItemTitle,"Ellenorizze, többcsomagos-e"
+MultiPackItemLeadthru,"Ha többcsomagos az árucikk, a ""Segíto üzemmód"" gombot megérintve törölje, majd olvassa le a többcsomagos vonalkódot."
+CancelActionButtonText,Muvelet elvetése
+EnterIDFpLeadthru,"Bejelentkezés: felh.-azon. beírása és ""Enter"", vagy helyezze ujját az ujjlenyomat-olvasóra."
+ReEnterIDFpLeadthru,"Érvénytelen bejelentkezés. Kérem, jelentkezzen be ismét a billentyuzeten vagy ujjlenyomatával."
+HH_SuspendLeadthru1,Felfüggeszti ezt a tranzakciót? Erosítse meg vagy vesse el.
+HH_SuspendLeadthru2,"Jelenlegi tranzakció felfüggesztve. Erosítse meg. Az elvetéshez érintse meg a ""Vissza"" gombot, és vesse el."
+HH_ReEnterIDLeadthru,Helytelen azonosító vagy jelszó. Írja be újra a billentyuzeten.
+HH_CheckAgeLeadthru,"Írja be a szül.dátumot %s, majd ""Enter""."
+HH_CouponLimitExceededLeadthru,"Hagyja jóvá a kuponokat a pénztársornál, vagy ""Jóváhagy és beszed"" választásával szedje be a vevotol."
+HH_VisualApproveLeadthru,"Vizuális jóváhagyás, vagy ""Segíto üzemmód"" a tranzakció módosításához."
+HH_VisualApproveLeadthru2,"""Vizuális jóváhagyása"", vagy ""Assist mód"" Lane módosítani."
+HH_UnknownItemLeadthru,"Vegye fel az árucikket, és a befejezéshez érintse meg az ""Áthaladhat"" vagy a ""Segíto üzemmód"" gombot."
+HH_UnknownItemLeadthru2,"Gyűjtsd elem, a ""Clear Security"", vagy használja a ""Assist mód"" Lane befejezni."
+HH_ItemNotForSaleLeadthru,"Vegye fel az árucikket a pénztársorban és érintse meg az ""Áthaladhat"" gombot."
+HH_NoInterventionLeadthru,Nincs szükség beavatkozásra.
+HH_OffLineLeadthru,Pénztársor offline állapotban. A rendszer megpróbál visszacsatlakozni.
+HH_InvalidBirthDateFormatLeadthru,Érvénytelen dátumformátum \n%s formátumban írja be.
+HH_VoidLeadthru,"Szedje be az érvénytelenített árucikket, majd érintse meg az ""Érvénytelenítés jóváhagyása"" gombot."
+HH_SuspendTransactionLeadthru,"A tranzakció felfüggesztéséhez érintse meg a ""Tranz. felfügg"" gombot."
+HH_DeactivateLeadthru,"Deaktiválja az árucikket vagy távolítsa el a kemény címkét, majd érintse meg az ""Áthaladhat"" gombot."
+HH_CompareSignatureLeadthru,"Hasonlítsa össze az aláírásokat, majd érintse meg a ""Jóváhagyás"" vagy ""Aláírás újra"" gombot."
+HH_EnterPriceLeadthru,"A billentyuzeten írja be az árucikk árát, majd érintse meg az ""Enter"" gombot."
+HH_CouponApprovalLeadthru,"Fogadja el a vevotol a kuponokat, majd érintse meg a ""Jóváhagyás"" gombot."
+HH_HelpRequestLeadthru,"Miután segített a vevonek, érintse meg a ""Kérés elvetése"" gombot."
+HH_CancelTransactionGenericLeadthru,"A tranzakció elvetéséhez az ""Igen"", folytatásához a ""Nem"" gombot érintse meg."
+HH_IncorrectItemWeightLeadthru,"Távolítsa el az árucikket, majd érintse meg az ""Áthaladhat"" vagy a ""Súly jóváhagyása és frissítése"" gombot."
+HH_UnexpectedIncreaseLeadthru,"Távolítsa el a többlet-árucikkeket a pénztársorban, majd érintse meg az ""Áthaladhat"" gombot."
+HH_SkipBaggingBtnThresholdLeadthru,"Ellenorizze a pénztársorban lévo árucikkeket, majd érintse meg az ""Áthaladhat"" gombot."
+HH_NewWeightItemLeadthru,"Ellenorizze az árucikk súlyát, majd érintse meg a ""Súly jóváhagyása és frissítése"" vagy a ""Jóváhagyás / nincs frissítés"" gombot."
+HH_SafetyCoverOpenLeadthru,Távolítson el minden árucikket a szalagról. Zárja le a biztonsági fedelet.
+HH_VerifySignatureLeadthru,Hasonlítsa össze a vevo aláírását a kártyán lévovel.
+HH_AssistedEndorsementLeadthru,Jóváhagyás szükséges. Várja meg munkatársunk segítségét.
+HH_HostOfflineLeadthru,Pénztársor offline állapotban. A rendszer megpróbál visszacsatlakozni.
+HH_KeyInCodeLeadthru,"Írja be az árucikk kódját, majd érintse meg az ""Enter"" gombot."
+HH_VoidItemLeadthru,"Olvassa le az árucikket vagy görgessen rá a blokkon. Érintse meg az """"Árucikk törlése"" vagy ""Összes törlése"" gombot."
+HH_UpdateItemLeadthru,"Görgessen a blokkon az árucikkre, majd érintse meg az ""Enter"" gombot."
+HH_CouponNoMatchLeadthru,A kupon nem egyezik a blokk egyik tételével sem. Kupon elutasítva.
+HH_CouponTooHighLeadthru,A kupon összege túl nagy. A rendszer nem fogadhatja el.
+HH_ItemQuantityExceededLeadthru,Megengedett mennyiség túllépve. \n\nTegye félre az árucikket és folytassa.
+HH_VoidNoMatchLeadthru,"A leolvasott árucikk nem található. Az árucikket nem vásárolta meg, vagy elvetette."
+HH_ConfirmAbortLeadthru,Abbahagyja a fizetést és elveti teljes vásárlását?
+HH_ContinueTransLeadthru,Folytatja a vásárlást?
+HH_EnterQuantityLeadthru,"A billentyűzeten írja be a mennyiséget, majd nyomja meg az ""OK"" gombot."
+HH_SelectContainerLeadthru,"Válassza ki a rekeszt a listából, majd érintse meg az ""Enter"" gombot."
+HH_ScaleBrokenLeadthru,"Vegye le az árucikket a mérlegrol, majd nyomja meg a leolvasón a ""Scale Zero"" gombot."
+HH_UpdateNotAllowedLeadthru,A mennyiség módosítása nem megengedett.
+HH_AM_RestrictedNotAllowedLeadthru,Korlátozás alá eso árucikk elvetve - korhatár nem teljesült. Tegye félre az árucikket.
+HH_OutOfSyncNeedAssistLeadthru,"A POS nincs szinkronban, ""Segíto üzemmód"" az újraszinkronizáláshoz."
+HH_OutOfSyncStopLeadthru,"POS-kiszolgáló leállt vagy nincs szinkronban, zárja le a terminált a kapcsolóval."
+HH_MultiPackItemLeadthru,"Ha többcsomagos, akkor ""Segíto üzemmód"", törölje, majd olvassa le a többcsomagos vonalkódot."
+HH_ReturnToShoppingButtonText,Return
+DoneButtonText,Kész
+ConfirmSuspendFromLaneStatusLeadthruText,Erosítse meg vagy vesse el a felfüggesztést.
+HH_SuspendTransactionButtonText,Tranz. felfügg.
+HH_TransactionCancelTitle,Tranzakció elvetése
+HH_TransactionCancelLeadThru,Tranzakció elvetve. Távolítsa el az árucikkeket a pénztárhelyrol.
+ShiftButtonText,műszak
+FixLaterButtonText,Rendbehozás késobb
+HopperLaneButtonText,Helyettesítés érmével
+HopperLeadThru,"%sA folytatáshoz menjen a pénztársorhoz és töltse fel az érméket vagy szüntesse meg az elakadást, vagy érintse meg a ""Rendbehozás késobb"" gombot"
+TransactionCountText,Darabszám:
+SecurityDisableText,Biztonság letiltva
+SecurityDisableButtonOn,Bekapcsolás
+SecurityDisableButtonOff,Kikapcsolás
+SecurityDisableStatusTextOn,Csomagolásbiztonság bekapcsolva
+SecurityDisableStatusTextOff,Csomagolásbiztonság kikapcsolva
+SuspendDeclinedLaneButtonText,Felfüggesztés elutasítva
+ConfirmSuspendDeclinedLeadthru,Felfüggesztés elutasításának megerosítése vagy elvetés.
+ConfirmSuspendDeclinedButtonText,Elutasítás megerosítése
+CancelSuspendDeclinedButtonText,Vissza
+TMTransLeadthru,"A pénztársor tanuló üzemmódban van, folytatja a tranzakciót?"
+HH_TMTransLeadthru,"A pénztársor tanuló üzemmódban van,\nfolytatja a tranzakciót?"
+TMTransLaneButtonText,Tanuló tranz
+DateFormat1,(hhnnéééé)
+DateFormat2,(hhnnéé)
+DateFormat3,(nnhhéééé)
+DateFormat4,(nnhhéé)
+DateFormat5,(ééééhhnn)
+DateFormat6,(ééhhnn)
+GoBackCouponButtonText,Vissza
+ApproveCouponButtonText,Kupon jóváhagyása
+CouponExceededLimitLeadthru,"A ""Kupon jóváhagyása"" gombot megérintve elfogadhatja a kupont, vagy Segíto üzemmódba belépve törölheti."
+CouponExceededLimitFinalizationLeadthru,"A tranzakciót olyan kuponnal véglegesítették, amely túllépi az üzlet kuponkorlátját."
+ClearSecurityFinalizationButtonText,Áthaladhat
+ExpandReceiptButtonText,Blokk kibontása
+CollapseReceiptButtonText,Blokk összec sukása
+InvalidBarcodeLeadThru,"A tranzakció folytatásához vegye fel az árut a pénztársorban és érintse meg a ""Jóváhagyás"" gombot."
+InvalidBarcodeLaneButtonText,Árucikk ellenőrzése
+HH_InvalidBarcodeLeadThru,"A tranzakciót az áru felvételével és a ""Jóváhagyás"" megérintésével folytathatja."
+GoToLaneOrHHRapLeadthru,"Kérjük, látogasson el Lane vagy HHRap jóváhagyásra"
+GoToLaneOrRapLeadthru,"Kérjük, látogasson el Lane vagy Rap jóváhagyásra"
+GoToLaneLeadthru,Jóváhagyáshoz menjen a pénztársorhoz
+DisableRapApprovalText,TJP jóváhagyás letiltása
+DisableHHRapApprovalText,KTJP jóváhagyás letiltása
+UpdateItemButtonText,Cikk frissítése
+SuspendConfirmationTitle,Megerősítés felfüggesztése
+DoNotApproveButtonText,Ne hagyja jóvá
+SmVoidAndRemoveItemLeadthru,"Kérem, távolítsa el az elvetett árucikket a csomagoló területről."
+RestrictedItemsNotApprovedTitle,Korlátozás alá eső árucikkek - nincsenek jóváhagyva
+HH_AssistAtLaneLeadthru,Árucikket a pénztársorban érvényteleníthet.
+XM_Acceptor,Befizető
+XM_CashStatus,Készpénz állapota
+XM_CashStatusLeadthru,Válassza ki a kívánt funkciót
+XM_CoinAcceptor,Érmebefizető
+XM_CoinOverflow,Érmetúlcsordulás-tartó
+XM_CoinOverflowText,Túlcsord.
+XM_CoinRecycler,Érme-visszaforgató
+XM_Coins,Érmék
+XM_NoteOverflow,Bankjegy-túlcsordulástartó
+XM_NoteOverflowText,Túlcsord.
+XM_NoteRecycler,Bankjegy-visszaforgató
+XM_Notes,Bankjegyek
+XM_PurgeOperationText,Kiürítési műveletek
+XM_TerminalNumber,Terminál száma
+XM_TotalCount,Darabszám összesen:
+XM_TotalValue,Összérték:
+XM_CoinsSubtotal,Érmék részösszeg:
+XM_NotesSubtotal,Bankjegyek részösszeg:
+XM_GrandTotal,Mindösszesen:
+XM_PurgeInstruction,Kiürítési műveletek: selejtes bankjegyek. Menjen a pénztársorhoz és ellenőrizze az eszközt.
+XM_RAP_NegativeAlert,Negatív szám. Menjen a pénztársorhoz és ellenőrizze az eszközt.
+XM_AreYouSure,Biztosan végre kívánja hajtani az alább felsorolt műveleteket?
+XM_Attendant,Eladó
+XM_Backspace,Visszatörl.
+XM_BillAcceptor,Bankjegybefizető
+XM_BillDispenser,Bankjegykiadó
+XM_Bins,Tartályok
+XM_BothDispenseFailure,"%s kiadása sikertelen.\nKevés a készpénz, vagy hibázott a kiadó."
+XM_CancelChanges,Változtatások elvetése
+XM_CannotCompleteTransfer,A pénz áthelyezése nem végezhető el. A pénztartályban nincs elég hely.\nA művelet előtt ürítse ki a pénztartályt.
+XM_CashManagement,Tilføj kontanter
+XM_CashManagementReport,Készpénzkezelési kimutatás
+XM_CashRemove,Pénz eltávolítása
+XM_CashRemoveLeadthru,Válassza ki a kívánt funkciót
+XM_CashReplenishLeadthru,Válassza ki a kívánt funkciót
+XM_CashReplenishLeadthru1,Helyezzen be érméket vagy válasszon funkciót.
+XM_CashReplenishLeadthru2,Helyezzen be készpénzt vagy válasszon funkciót.
+XM_CashReplenishLeadthru3,"Ha végzett, érintse meg a ""Kilépés"" gombot."
+XM_CashReplenishment,Készpénz hozzáadása
+XM_ChangeInCount,Darab változott
+XM_ChangeInValue,Érték változott
+XM_Clear,Törlés
+XM_ClearPrompt1,"Ha végzett, válasszon másik funkciót vagy érintse meg a ""Kilépés"" gombot."
+XM_ClearPrompt2,"Válasszon másik funkciót vagy érintse meg a ""Kilépés"" gombot."
+XM_CoinAcceptorOffline,Az érmebefizető nem reagál.\n\nZárja le és indítsa újra a terminált.
+XM_CoinDispenseFailure,"%s kiadása sikertelen.\nKevés az érme, vagy hibázott az érmekiadó."
+XM_CoinDispenser,Érmekiadó
+XM_CoinManagement,Érmekezelés
+XM_ConfirmAction,Erősítse meg a műveleteket
+XM_ConfirmCoinDispense,* Érmék kiadása\nKiadandó összeg: %s\nKiadandó darabszám: %d
+XM_ConfirmEmptyCoinAcceptor,* Érmebefizető (%s) alaphelyzetbe
+XM_ConfirmEmptyCoinOverflow,* Érme-túlcsordulástartók darabszámainak nullázása\nKiveendő összeg: %s
+XM_ConfirmEmptyNoteAcceptor,* Bankjegy-túlcsordulástartók darabszámainak nullázása\nKiveendő összeg: %s
+XM_ConfirmEmptyNoteOverflow,* Pénztartályok darabszámainak nullázása\nKiveendő összeg: %s
+XM_ConfirmFillLoaderCassette,* Bankjegy-darabszámok beállítása\nÚj összeg: %s\nÚj darabszám: %d
+XM_ConfirmManualCoinEmpty,* Érme-darabszámok nullázása\nKiveendő összeg: %s\nKiveendő darabszám: %d
+XM_ConfirmManualCoinFill,* Érme-darabszámok beállítása\nÚj összeg: %s\nÚj darabszám: %d
+XM_ConfirmManualNoteEmpty,* Bankjegy-darabszámok nullázása\nKiveendő összeg: %s\nKiveendő darabszám: %d
+XM_ConfirmManualNoteFill,* Bankjegy-darabszámok beállítása\nÚj összeg: %s\nÚj darabszám: %d
+XM_ConfirmNoteDispense,* Bankjegyek kiadása\nKiadandó összeg: %s\nKiadandó darabszám: %d
+XM_ConfirmTransferNotesToOverflow,* Bankjegyek áthelyezése a pénztartályba\nÁthelyezendő összeg: %s\nÁthelyezendő darabszám: %d
+XM_Count,Darabszám
+XM_DispenseCupFull,Az érmekiadó megtelt. A kiadás végrehajtásához vegye ki az érméket.
+XM_DispenseCupFullPreemptive,"Vegye el az érméket\nHa az érmekiadó megtelt, azonnal ürítse.\nA tál kiürítéséig a kiadás szünetel."
+XM_DispenseFullPreemptive,"Vegye el az érméket\nHa az érmekiadó megtelt, azonnal ürítse.\nA tál kiürítéséig a kiadás szünetel."
+XM_DispenseNoteFullPreemptive,"Vegye el a bankjegyeket \nA bankjegyek kiadása 15-ösével történik. A kiadás szünetel, amíg az összes bankjegyet el nem veszik."
+XM_DispenseSensorBlock,"Lehet, hogy az érmekiadó megtelt, vagy az érzékelő elromlott. Kérem, vegye ki az érméket vagy hívjon karbantartót."
+XM_DispenseText,Kiadás
+XM_DispenseThreshold,A beírt szám nagyobb a maximálisan kiadható darabszámnál.\nA maximális darabszám lett megadva: %d
+XM_Empty,Üres
+XM_EmptyCashAcceptorLT,Vegye ki a bankjegyeket a készpénzbefizetőből
+XM_EmptyCashBoxLT,Vegye ki a bankjegyeket a pénztartályból
+XM_EmptyCoinAcceptor,Érmebefizető alaphelyzetbe
+XM_EmptyCoinAcceptorLT,Vegye ki az érméket az érmebefizetőből
+XM_EmptyCoinHopperLT,Vegye ki az érméket az eszközből.
+XM_EmptyCoinOverflow,Érme-túlcs.t. alaph.
+XM_EmptyCoinOverflowLT,Vegye ki az érméket az érme-túlcsordulástartóból
+XM_EmptyLoaderCassetteLT,Vegye ki a bankjegyeket a töltőkazettából
+XM_EmptyNoteAcceptor,Bankjegy-befizető alaph.
+XM_EmptyNoteCassetteLT,Vegye ki a bankjegyeket a bankjegykazettákból és a kiürítő tartályból.
+XM_EmptyNoteOverflow,Pénztartály alaphelyzetbe
+XM_Enter,Enter
+XM_ExceededAmount,Az összeg meghaladja a kapacitást. A szükséges maximális összeg %s.
+XM_ExceededCapacity,A darabszám meghaladja a kapacitást. A szükséges maximális töltési darabszám %d.
+XM_Execute,Változtatások alkalmazása
+XM_Exit,Kilépés
+XM_FastLaneReport,NCR SelfServ önkiszolgáló kassza kimutatás
+XM_FillLoaderCassette,Bankjegy db beállítása
+XM_GoBack,Vissza
+XM_ID,Pénztáros azonosítója
+XM_IDPrompt,"Írja be az azonosítót, majd érintse meg az ""Enter"" gombot."
+XM_InvalidAmount,"%s beírt értéke érvénytelen.\nKérem, írja be újra."
+XM_KeyPadEnterCoinAmount,A számbillentyűzeten írja be a %s érmék összegét.
+XM_KeyPadEnterCoinCount,A számbillentyűzeten írja be a %s érmék darabszámát.
+XM_KeyPadEnterNoteAmount,A számbillentyűzeten írja be a %s bankjegyek összegét.
+XM_KeyPadEnterNoteCount,A számbillentyűzeten írja be a %s bankjegyek darabszámát.
+XM_KeyPadInstr,A darabszámot a számbillentyűzeten írja be
+XM_ManualBothFillAlert,"Nyissa ki a pénztársor ajtaját, és tegye a bankjegyeket a kazettákba és az érméket az adagolókba. Ne a befizetőkbe tegye."
+XM_ManualBothRecyclerFillAlert,"Nyissa ki a pénztársor ajtaját, és tegyen bankjegyeket a feltöltőkbe és érméket az adagolókba. Ne a befizetőkbe tegye."
+XM_ManualCoinDispenserEmpty,Érme db alaph.
+XM_ManualCoinDispenserFill,Érme db beállítása
+XM_ManualCoinFillAlert,"Nyissa ki a pénztársor ajtaját, és tegye az érméket közvetlenül az eszközbe. Ne a bankjegybefizetőbe tegye őket."
+XM_ManualEmptyAlert,Minden készpénzt vegyen ki az eszközből.
+XM_ManualFillAlert,"Nyissa ki a pénztársor ajtaját, és tegye a készpénzt közvetlenül az eszközbe. Ne a befizetőkbe tegye."
+XM_ManualNoteDispenserEmpty,Bankjegy db alaph.
+XM_ManualNoteDispenserFill,Bankjegy db beállítása
+XM_ManualNoteFillAlert,"Nyissa ki a pénztársor ajtaját, és tegye a bankjegyeket közvetlenül a kazettába. Ne a bankjegybefizetőbe tegye."
+XM_ManualNoteRecyclerFillAlert,"Nyissa ki a pénztársor ajtaját, és tegye a bankjegyeket közvetlenül a feltöltőbe. Ne a bankjegybefizetőbe tegye őket."
+XM_No,Nem
+XM_NoteDispenseFailure,"%s kiadása sikertelen.\nKevés a bankjegy, vagy hibázott a bankjegykiadó."
+XM_PW,Pénztáros jelszava
+XM_PWPrompt,"Írja be a jelszót, majd érintse meg az ""Enter"" gombot."
+XM_PendingText,Folyamatban
+XM_PleaseWait,"Feldolgozás folyamatban...\nKérem, várjon."
+XM_Print,Készpénz-állapot nyomtatása
+XM_PurgeCoinRecycler,Érme-visszaforgató ürítése
+XM_PurgeNoteRecycler,Bankjegy-visszaforgató ürítése
+XM_ReEnter,"Hibás a pénztáros száma és jelszava.\nKérem, próbálkozzon újra."
+XM_ResetCoinsToBaseLevel,Alapszint feletti érmék kiadása
+XM_ResetNotesToBaseLevel,Helyezze át a bankjegyeket alapszintre
+XM_SelectFunc1,Válassza ki a rendszerfunkciót
+XM_SelectFunc2,Válassza ki a kívánt funkciót
+XM_StoreNumber,Üzlet száma:
+XM_TransferAllNotes,Helyezze át az összes bankjegyet
+XM_TransferNotesToOverflow,Bankjegyek áthelyezése a pénztartályba
+XM_Update,Frissítés
+XM_Yes,Igen
+XM_SequenceNumber,Sorszám
+XM_CardManagement,Kártyakezelés
+XM_TotalCoinsInserted,Behelyezve\nösszesen
+XM_TotalNotesInserted,Behelyezve\nösszesen
+XM_Value,Érték
+XM_TransferXCount,Áthelyezés (x) Darabszám
+XM_TransferXAmount,Áthelyezés (x) Összeg
+XM_PickUpAutoAmount,Autom. összeg ürítése
+XM_PickUpXAmount,(x) összeg ürítése
+XM_TransfertoCashBoxLeadThruText,"Ha %s bankjegy(ek)et kíván áthelyezni a pénztartályba, érintse meg a ""Változtatások alkalmazása"" gombot. Az összes függőben lévő változtatás visszavonásához érintse meg a ""Változtatások elvetése"" gombot."
+XM_MenuDispenseFunctions,Kiadás\nfunkc.
+XM_MenuResetFunctions,Funkc. alaph.- be
+XM_MenuCashBoxTransfer,Áth. pénztartály
+XM_MenuPickUpFunctions,Ürítési funkciók
+XM_LeadThruCashBoxTransfer,"Válassza ki a kívánt áth. funkciót.\nHa kész, „Változtatások alkalmazása”.."
+XM_LeadThruResetFunction,"Válassza ki az alaph. funkciót.\nHa kész, „Változtatások alkalmazása”.."
+XM_LeadThruDispenseFunction,"Érintse meg a címletet és írja be az összeget vagy ""Alapszint feletti érmék kiadása""."
+XM_LeadThruPickUpFunction,"Válassza ki a kívánt ürítési funkciót. Ha kész, ""Változtatások alkalmazása""."
+XM_PurgeInstructionRecycler,"Kiürítési műveletek: selejtes bankjegyek. Vegye ki a selejtes bankjegyeket a pénztartályból. Törölje a riasztást az ""Összes bankjegy áthelyezése"", majd a ""Pénztartály alaphelyzetbe"" gombbal."
+XM_PurgeInstructionNonRecycler,"Kiürítési műveletek: selejtes bankjegyek. Vegye ki a selejtes bankjegyeket a kiürítő tartályból. Törölje a riasztást a ""Bankjegy-darabszámok alaphelyzetbe"" gombbal."
+XM_ReplenishInstruction,"Helyezzen be készpénzt vagy válaszon címletet és írjon be egy összeget, vagy adjon meg darabszámokat. Ha kész, ""Változtatások alkalmazása"""
+XM_KeyPadEnterPickUpAmount,Írja be az ürítés összegét a billentyűzeten.
+XM_InvalidPickUpAmount,A beírt érték meghaladja az áthelyezéshez vagy kiadáshoz rendelkezésre álló értéket.
+XM_InvalidStartingBank,A beállított induló kassza meghaladja az áthelyezéshez vagy kiadáshoz rendelkezésre álló értéket.
+XM_CalculatedPickUpAmount,A számított ürítési összeg %s.
+XM_UnableToPickUp,Az ürítés nem végezhető el.
+XM_CoinAllowedDispenseExceeded,Kísérlet %d érme kiadására. Legfeljebb %d érme adható ki.
+XM_InvalidPickUpAmount2,A pénztartályban és az érme-túlcsordulástartóban lévő összeg meghaladja az ürítési összeget.
+XM_LockScreen,Képernyő zárolása
+XM_SystemBusy,"A rendszer dolgozik… Kérem, várjon"
+XM_AreYouSure_LockScreen,"Biztosan zárolja a képernyőt? A képernyő zárolása csak akkor oldható fel, ha minden eszköz elvégezte a feladatait."
+XM_NegativeAlert,"Negatív szám. Lehetséges okok: beírási hiba, vagy a feltöltőben lévő bankjegyek darabszáma nem lett beírva a Készpénzkezelésben.\n\nAz alábbiak szerint járjon el:\n1. Válassza a ""Készpénz hozzáadása"" pontot.\n2. Érintse meg a negatív értékű címletet.\n3. Írja be a negatív szám pontos forintösszegét és/vagy a feltöltőbe tett összeget.\n4. Válassza a ""Változtatások alkalmazása""  pontot.\n5. ""Igen""-nel erősítse meg, majd érintse meg a ""Kilépés"" gombot."
+XM_AddCashLeadthru1,"Helyezzen be érméket vagy érintse meg a hengert és írjon be egy összeget, vagy adjon meg darabszámokat."
+XM_AddCashLeadthru2,"Helyezzen be készpénzt vagy érintse meg a hengert és írjon be egy összeget, vagy adjon meg darabszámokat."
+XM_AddCashLeadthru3,"Érintse meg a hengert és írjon be egy összeget, vagy adjon meg darabszámokat."
+XM_CoinHopperEmpty,"Az érme-darabszámokat csak az érmeadagoló tartályok kiürítése után lehet nullázni. A ""Változtatások alkalmazása"" gomb megérintése előtt ürítse ki mindegyik."
+XM_CollectRemainingCoins,"Vegye ki az érméket az érmekiadóból, amikor a visszaadás befejeződött."
+XM_FPIDPrompt,"A bejelentkezéshez a billentyűzeten írja be felhasználói azonosítóját és érintse meg az ""Enter"" gombot, vagy helyezze ujját az ujjlenyomat-olvasóra."
+XM_LoanFailure,Kölcsön hiba
+XM_LoanFailureLeadthru,Kölcsön elutasítva. Válassza ki a kívánt funkciót.
+XM_UndoLoan,Kölcsön visszavonása
+XM_CommitLoan,Kölcsön véglegesítése
+XM_PickUpFailure,Ürítési hiba
+XM_PickUpFailureLeadthru,Ürítés elutasítva. Válassza ki a kívánt funkciót.
+XM_UndoPickUp,Ürítés visszavonása
+XM_CommitPickUp,Ürítés véglegesítése
+XM_ManualRemoveCashAlert,A kölcsön visszavonásához vegye ki a pénzt a pénztartályból és az érméket az érme-túlcsordulástartóból.\n\nBankjegyek\nKiveendő darabszám: %d\nKiveendő összeg: %s\n\nÉrmék\nKiveendő darabszám: %d\nKiveendő összeg: %s
+XM_POSRejectedLoanPickUp,A POS elutasította a kölcsönt/ürítést: %s / %d elutasítva.\n
+XM_LoanPickUpCashierOverrides,Kölcsön/ürítés felülbírálása pénztáros %s azonosítójával: %s / %d véglegesítve.
+XM_PlaceJammedBill,"Vegye ki a pénztartályt és tegye bele az elakadt bankjegyeket, ha vannak."
+MinMaxFastLaneBtnPrimaryTxt,SelfServ Checkout minimalizálása
+MinMaxFastLaneBtnSecondaryTxt,SelfServ Checkout maximalizálása
+MinMaxFastLaneBtnPrimaryShowConfirmation,"A SelfServ Checkout minimalizálásához érintse meg a ""SelfServ Checkout minimalizálás"" gombot."
+MinMaxFastLaneBtnSecondaryShowConfirmation,"A SelfServ Checkout maximalizálásához érintse meg a ""SelfServ Checkout maximalizálás"" gombot."
+StopStartFastLaneBtnPrimaryTxt,SelfServ Checkout leállítása
+StopStartFastLaneBtnSecondaryTxt,SelfServ Checkout elindítása
+SwitchToRAPBtnPrimaryTxt,Átváltás RAP-re
+ShutdownSystemBtnPrimaryTxt,Teljes rendszer lezárása
+RebootSystemBtnPrimaryTxt,Teljes rendszer újraindítása
+VolumeBtnPrimaryTxt,Hangerõszabályzó
+EventViewerBtnPrimaryTxt,Eseménynézõ
+GenerateLogBtnPrimaryTxt,Diagnosztikai naplófájlok generálása
+ExitFastLaneAndRunProfileBtnPrimaryTxt,SelfServ Checkout leállítása ás Profilkezelõ futtatása
+ExitFastLaneAndRunProfileBtnSecondaryTxt,Profilkezelõ futtatása
+TerminalInfoBtnPrimaryTxt,Termináladatok
+MinMaxRAPBtnPrimaryTxt,RAP minimalizálása
+MinMaxRAPBtnSecondaryTxt,RAP maximalizálása
+MinMaxRAPBtnPrimaryShowConfirmation,"Az RAP minimalizálásához érintse meg az ""RAP minimalizálás"" gombot."
+MinMaxRAPBtnSecondaryShowConfirmation,"Az RAP maximalizálásához érintse meg az ""RAP maximalizálás"" gombot."
+StopStartRAPButtonPrimaryTxt,RAP leállítása
+StopStartRAPButtonSecondaryTxt,RAP elindítása
+RapConfigureBtnPrimaryTxt,RAP konfigurálása
+SwitchToFastLaneBtnPrimaryTxt,Átváltás a SelfServ Checkout programra
+ExitRAPAndRunProfileBtnPrimaryTxt,RAP leállítása ás Profilkezelõ futtatása
+ExitRAPAndRunProfileBtnSecondaryTxt,Profilkezelõ futtatása
+UtilityFunctionsTitle,NCR SelfServ Checkout\nSegédfunkciók
+StartTitle,Rendszerindítás
+SystemStartup,"A rendszer indul... kérem, várjon"
+TerminalID,Terminál azonosítója: 
+InterfaceVersion,Szoftververzió: 
+TrainingProgramPrimaryTxt,Tanulóprogram
+LaunchPadNet_OperatorIDText,Eladó azonosítója: 
+KeySwitchOperatorID,Zár
+LaunchPadNet_SignOnButtonText,Bejelentkezés
+LaunchPadNet_SignOffButtonText,Kijelentkezés
+SignedOffButtonText,Kijelentkezve
+Exit,Kilépés mindenbõl
+LaunchPadNet_ReturnToShoppingButtonText,Vissza
+PickListEditor,Árulista szerkesztése
+RunADDTxt,ADD futtatása a következõ indításkor
+TouchWareTxt,Érintõképernyõ kalibrálása
+DiagConfirm,Biztosan generálni kíván diagnosztikai naplófájlokat?
+ProfileManagerFLConfirm,Biztosan leállítja a SelfServ Checkout funkciót és futtatja a Profilkezelõt?
+ProfileManagerRAPConfirm,Biztosan leállítja az RAP-t és futtatja a Profilkezelõt?
+ProfileManagerConfirm,Biztosan elindítja a Profilkezelõt?
+EventViewerConfirm,Biztosan elindítja az Eseménynézõt?
+TrainingConfirm,Biztosan elindítja a Betanító programot?
+PicklistConfirm,Biztosan elindítja a Picklist Editort?
+RunADDConfirm,Biztosan futtatja az Automatikus eszközészlelést a következõ újraindításkor?
+CalibrateConfirm,Biztosan kalibrálja az érintõképernyõt?
+ShutdownConfirm,Biztosan lezárja a teljes rendszert?
+RebootConfirm,Biztosan újraindítja a teljes rendszert?
+CloseAllConfirm,Biztosan kilép minden alkalmazásból és az asztalra megy?
+VolumeConfirm,Biztosan beállítja a hangerõt?
+TerminalInfoConfirm,Biztosan megtekinti a terminál adatait?
+StopFastLaneConfirm,Biztosan leállítja a SelfServ Checkout programot?
+StopRAPConfirm,Biztosan leállítja az RAP-t?
+StartFastLaneConfirm,Biztosan elindítja a SelfServ Checkout programot?
+StartRAPConfirm,Biztosan elindítja az RAP-t?
+WindowsLogOnTxt,Windows-bejelentkezés
+WindowsLogOnConfirm,Biztosan kilép minden alkalmazásból és bejelentkezik új felhasználóként?
+YesText,Igen
+NoText,Nem
+CommandPromptPrimaryTxt,Parancssor
+CommandPromptConfirm,Biztosan elindítja a Parancssort?
+RSMLEPrimaryTxt,Retail Systems Manager LE
+RSMLEConfirm,Biztosan elindítja a Retail Systems Manager LE programot?
+OperatorRegistrationUtility,Munkatárs-regisztráló segédprogram
+LaunchPadNet_EnterIDFpLeadthru,"Bejelentkezés: felh.-azonosító beírása és ""Enter"", vagy helyezze ujját az ujjlenyomat-olvasóra."
+LaunchPadNet_ReEnterIDFpLeadthru,"Érvénytelen bejelentkezés. Kérem, jelentkezzen be ismét a billentyűzeten vagy ujjlenyomatával."
+LaunchPadNet_ClearButtonText,Törlés
+LaunchPadNet_EnterButtonText,Enter
+LaunchPadNet_GoBackButtonText,Vissza
+LaunchPadNet_SpaceButtonText,Szóköz
+LaunchPadNet_BackSpaceButtonText,Visszatörlés
+LaunchPadNet_EnterIDLeadthru,Írja be az azonosítót a lenti billentyûzeten:
+ReEnterIDLeadthru,Helytelen azonosító vagy jelszó. Írja be újra a lenti billentyuzeten.
+LaunchPadNet_EnterPasswordLeadthru,Írja be a jelszót a lenti billentyûzeten:
+CancelButtonText,Mégse
+LaunchPadNet_LoggingInLeadthru,"Bejelentkezés folyamatban... Kérem, várjon"
+LaunchPadNet_ShiftButtonText,műszak
+LaunchPadNet_SignedOffButtonText,Kijelentkezve
+LaunchPadNet_ReEnterIDLeadthru,Helytelen azonosító vagy jelszó. Írja be újra a lenti billentyûzeten.
+LegalCaptionText,"LEGAL CAPTION\nThis system is for the use of authorized personnel only. By logging onto this system, you are subject to the terms and conditions of all Information Security policies and standards. Use by unauthorized individuals or for unauthorized purposes is a violation of federal and/or state law. The company reserves the right to take any necessary actions to protect authorized users, intellectual property and other information assets. Individuals using this system are subject to having all of their activities on this system monitored. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals possible evidence of criminal activity, system personnel may provide the evidence of such monitoring to law enforcement officials.\n        "
+SignBelow,Írja alá alább.
+PageIndicatorLabelFormat,{1}/{2}. oldal
+SignOnTitle,NCR SelfServ Checkout Log In
+HH_TransactionCancelLeadThru2,Tranzakció elvetve.
+AlertStatusTextOff,
+AlertStatusTextOn,!!!
+InitialText,.
+XM_CashUnbalance,Discrepancy error occurred in the recycler.
+XM_Cassette,Kazetta
+XM_CassetteMissing,Bill Cassette is not in the unit.\nPut Bill Cassette back into the unit.
+XM_Collect,Beszedés
+XM_CollectFailure,The collect operation resulted in failure.
+XM_EmptyCassetteAndRejectBin,Remove bills from Bill Cassettes and Reject Bin.
+XM_GloryDispenseCupFullPreemptive,"Please Take Coins\nIf coin return is full, empty promptly.  Dispensing will pause until bowl is emptied."
+XM_GloryDispenseFullPreemptive,"Please Take Bills and Coins\nBills are dispensed in bunches of 10. Dispensing will pause until all bills are taken. If coin return is full, empty promptly. Dispensing will pause until bowl is emptied."
+XM_GloryDispenseNoteFullPreemptive,Please Take Bills\nBills are dispensed in bunches of 10. Dispensing will pause until all bills are taken.
+XM_GrandTotalText,Végösszeg: %s
+XM_InitializeError,The system encounters an error to be corrected.
+XM_LeadThruGloryFunction,"Touch denomination and enter amount\nor touch ""Collect""."
+XM_ManualRemoveCashAlertGlory,Remove cash from the cassette to undo loan.\n\nNotes\nCount to remove: %d\nAmount to remove: %s
+XM_NegativeAlert_Remove,"Negatív szám. Lehetséges okok: beírási hiba, vagy a feltöltőben lévő bankjegyek darabszáma nem lett beírva a Készpénzkezelésben.\n\nAz alábbiak szerint járjon el:\n1. maribeth Válassza a ""Készpénz hozzáadása"" pontot.\n2. Érintse meg a negatív értékű címletet.\n3. Írja be a negatív szám pontos forintösszegét és/vagy a feltöltőbe tett összeget.\n4. Válassza a ""Változtatások alkalmazása""  pontot.\n5. ""Igen""-nel erősítse meg, majd érintse meg a ""Kilépés"" gombot."
+XM_OperatorID,Eladó azonosítója %s
+XM_TotalAddedText,Total Added: %s
+XM_TotalColectedText,Total Collected: %s
+XM_TotalRemovedText,Total Removed: %s
+DueCart,Fizetendő
+ScotApp_1742,ÉRVÉNYTELEN CSOMAG
+ScotApp_71,71nemhasznált
+ScotApp_61,61nemhasznált
+ScotApp_51,Nem tudom leolvasni a kupon
+ScotApp_41,Korlátozás alá eső árucikkek
+ScotApp_31,Kuponok
+ScotApp_1055,1055nemhasznált
+ScotApp_11,11nemhasznált
+ScotApp_789,"Húzza végig kártyáját.Kérem, nézze meg,\nvannak-e kosarában további árucikkek."
+ScotApp_689,  Eladás:      %d
+ScotApp_589,Device Factory betöltve.
+ScotApp_389,Kártya feldolgozása
+ScotApp_289,289nemhasznált
+ScotApp_189,Beállítások betöltve.
+ScotApp_91,91nemhasznált
+ScotApp_773,Megtakarított összeg:
+ScotApp_673,"Kérem, adjon a vevőnek %s visszajárót."
+ScotApp_1264,FELHASZNÁLÓÁLTALDEF6
+ScotApp_473,Médiaszint alacsony
+ScotApp_373,Nyomtató lapdobás elakadt
+ScotApp_989,989nemhasznált
+ScotApp_889,%s\nTényleges súly(%s): %s\nVárt súly(%s): %s
+ScotApp_1520,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1042,"ELFOGADÁSI FELJEGYZÉS:\nEZ AZÉRT NYOMTATÓDOTT KI, MERT EGY\nDOKUMENTUM ELFOGADÁSA SIKERTELEN VOLT.  CSATOLJA EZT A FELJEGYZÉST\nA MEGFELELŐ DOKUMENTUMHOZ.\n----------------------------------------\n"
+ScotApp_973,973nemhasznált
+ScotApp_873,Személyi ig. vagy jogosítvány számának beírása:
+ScotApp_1737,Saját táska
+ScotApp_752,"Tegnap, összesítés"
+ScotApp_652, **Nincs WLDB bejegyzés ehhez az UPC-hez
+ScotApp_1054,1054nemhasznált
+ScotApp_452,"Ellenőrizze, jól van-e bedugva a kábel az érmebefizető oldalába."
+ScotApp_352,Frissítés
+ScotApp_252,\nElakadás az érmekiadóban\n\nSzüntesse meg az érmekiadó elakadását.
+ScotApp_152,152nemhasznált
+ScotApp_1310,"* Vegye ki a bankjegybefizetőt.\n* Csúsztassa vissza a bankjegybefizetőt reteszelésig.\n* Győződjön meg róla, hogy a bankjegybefizető motorja bekapcsol és a LED zölden világít."
+ScotApp_661,(Alap)
+ScotApp_952,Nulla súly hozzáadása
+ScotApp_852,Három árucikk
+ScotApp_1527,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1838,Cikk ell.
+ScotApp_731,Összesítés
+ScotApp_631,Tulajdonos neve:
+ScotApp_531,\nAz aláírás-rögzítő eszköz meghibásodott
+ScotApp_331,Vegye le az árucikkeket a csomagmérlegről. Billentyűzet letiltva.
+ScotApp_231,231nemhasznált
+ScotApp_131,Adja le kuponjait
+ScotApp_1736,"Kérem, tegye csomagjait a csomagoló területre, és ha kész, érintse meg a ""Kész"" gombot."
+ScotApp_1250,PIP JÓVÁÍRÁS
+ScotApp_831,831nemhasznált
+ScotApp_300,300nemhasznált
+ScotApp_1306,%s visszajáró kiadva
+ScotApp_710,710nemhasznált
+ScotApp_610,Árucikk súlya:
+ScotApp_510,Írja alá ismét
+ScotApp_310,tartály kimerülőben
+ScotApp_210,210nemhasznált
+ScotApp_110,Mérje le az árucikket
+ScotApp_1526,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1126,"Az érmekiadó hibás.\n\nHa van a kiadón be-/kikapcsoló, ellenőrizze, be van-e kapcsolva."
+ScotApp_1040,Aláírás
+ScotApp_810,Tanító üzemm.
+ScotApp_1735,Tegye fel csomagjait
+ScotApp_1257,PIP ÉLELMISZERJEGY
+ScotApp_704,PINPad-en beírt kód
+ScotApp_604,Árucikk leolvasása.
+ScotApp_504,504nemhasznált
+ScotApp_404,404nemhasznált
+ScotApp_304,Válassza ki a rekeszt
+ScotApp_204,Fájl másolása a kiszolgálóra...
+ScotApp_104,104nemhasznált
+ScotApp_1269,FELHASZNÁLÓÁLTALDEF11
+ScotApp_904,Áru súlyának jóváhagyása
+ScotApp_804,804nemhasznált
+ScotApp_1047,"Jóváhagyás szükséges. Kérem, várja meg munkatársunk segítségét."
+ScotApp_1478,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1134,A bankjegykazetta megtelt.
+ScotApp_1734,Saját táskát hoztam
+ScotApp_1256,PIP EBT
+ScotApp_1512,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1465,Készpénz-visszaforgató Eszközhiba
+ScotApp_1721,Tanuló üzemmódú tranzakció
+ScotApp_1890,Feldolgozás folyamatban...
+ScotApp_1243,HŰSÉG
+ScotApp_1544,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_63,Nem
+ScotApp_53,53nemhasznált
+ScotApp_43,43nemhasznált
+ScotApp_33,Megszüntettem a problémát
+ScotApp_1255,PIP TERHELÉS-ELLENŐRZÉS
+ScotApp_13,"  %ss, %s/%s"
+ScotApp_1511,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_93,Leolvasás és csomagolás
+ScotApp_83,83nemhasznált
+ScotApp_1464,Terminál száma
+ScotApp_1189,BEÍRT ÁRUCIKK
+ScotApp_1720,WR:
+ScotApp_1045,Fizetés módja %s
+ScotApp_672,*** TANULÓ ÜZEMMÓDÚ TRANZAKCIÓ ***
+ScotApp_572,"A billentyűzeten írja be az árucikk kódját, majd érintse meg az ""Enter"" gombot."
+ScotApp_472,Segítség szükséges
+ScotApp_372,Nyomtató oldalirányú adatátviteli hiba
+ScotApp_272,Ellenőrizze a használt kuponokat
+ScotApp_172,"Olvassa le a nem kívánt árucikket, vagy válassza ki a blokkon."
+ScotApp_1510,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1701,%s kiadása sikertelen.
+ScotApp_972,972nemhasznált
+ScotApp_872,Vesse el a felfüggesztést
+ScotApp_1188,BEÍRT MENNYISÉG
+ScotApp_1727,Árucikk kikeresése
+ScotApp_751,"Ma, óránként"
+ScotApp_651,Alap
+ScotApp_551,551nemhasznált
+ScotApp_451,Érmebefizető állapota Elakadás
+ScotApp_351,Készpénz / papír állapota
+ScotApp_251,251nemhasznált
+ScotApp_151,"Kérem, vegye el a készpénzt"
+ScotApp_951,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s eltávolítva;LSWND3=%s;
+ScotApp_851,Két árucikk
+ScotApp_730,730nemhasznált
+ScotApp_630,Hitelkártya száma:
+ScotApp_430,Üzemen kívül
+ScotApp_330,Segítő üzemmód
+ScotApp_230,Készpénzbefizető állapota Elutasítva
+ScotApp_130,"Kérem, adja le kuponjait."
+ScotApp_1726,Keresés \nbefejezve
+ScotApp_930,Ellenőrizze az adatátvitelt.
+ScotApp_830,Elvettem az árucikket vagy táskát
+ScotApp_193,193nemhasznált
+ScotApp_1457,Pénz magas szinten
+ScotApp_1283,1283nemhasznált
+ScotApp_724,724nemhasznált
+ScotApp_624,A beírt tűrés érvénytelen
+ScotApp_424,Írja be az összeget
+ScotApp_324,Dátum nem szükséges.
+ScotApp_224,Kártyaolvasó kimeneti tartálya eltávolítva
+ScotApp_124,124nemhasznált
+ScotApp_1469,"%s kiadása a vevőnek sikertelen. %s\n* Ellenőrizze az érme- és a bankjegykiadót.\n* Az újratöltéshez vagy az elakadás megszüntetéséhez érintse meg a ""Készpénz / papír állapota"" gombot."
+ScotApp_924,924nemhasznált
+ScotApp_824,Megerősítés felfüggesztése
+ScotApp_576,Kártyás fizetés megkezdése.
+ScotApp_1247,ÉLELMISZERJEGYEK
+ScotApp_1678,Bankjegy-visszaforgató hiba
+ScotApp_1503,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1756,"Válasszon a keresés eredményeiből, vagy ugorjon ""Vissza""."
+ScotApp_1456,"Hibás a pénztáros száma és jelszava. \nKérem, próbálkozzon újra"
+ScotApp_1502,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1712,Felfüggesztés elutasítva
+ScotApp_1468,Készpénz-visszaforgató állapot Üres
+ScotApp_1246,EBT
+ScotApp_75,Kész
+ScotApp_65,65nemhasznált
+ScotApp_55,Összes eltávolítása
+ScotApp_45,45nemhasznált
+ScotApp_35,Visszajáró:
+ScotApp_1258,PIP AJÁNDÉKKÁRTYA
+ScotApp_15,Árucikk kódja:
+ScotApp_1711,Felfüggesztés-kérés elutasítva
+ScotApp_1683,"Kijavíthatatlan hiba.  Kérem, zárja le a pénztársort.  Hívja a Gunnebót, és adja meg a lent látható hibaadatokat.\n\nSafePay hiba: %s"
+ScotApp_95,Kuponok leolvasása
+ScotApp_85,85nemhasznált
+ScotApp_1058,Seg. fizetés
+ScotApp_1664,Bankjegy-elakadás
+ScotApp_797,"%s kiadása a vevőnek sikertelen.\n* Ellenőrizze, nincs-e elakadás a kazettákban és a bankjegykiadóban.\n* Ellenőrizze, reteszelve vannak-e a bankjegykazetták és a kiürítő tartály.\n* Zárja be a biztonsági ajtót."
+ScotApp_697,697nemhasznált
+ScotApp_597,NCR SelfServ Checkout %d sz. űrlap betöltése...
+ScotApp_497,Fizetendő:
+ScotApp_297,297nemhasznált
+ScotApp_197,Ábrázolási szolgáltatások betöltve.
+ScotApp_997,Írja be az árat
+ScotApp_897,WTINFO betöltve.
+ScotApp_1454,"A billentyűzeten írja be a jelszót, majd érintse meg az ""Enter"" gombot."
+ScotApp_1710,Vegye el a visszajáró készpénzt
+ScotApp_1741,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s vár;LSWND3=%s %s ész
+ScotApp_1388,Tanulóprogram
+ScotApp_771,Vesse el a felfüggesztést
+ScotApp_671,Kilépés tanító üzemmódból
+ScotApp_571,"A billentyűzeten írja be a mennyiséget, majd nyomja meg az ""OK"" gombot."
+ScotApp_471,   Vizuális ellenőrzés
+ScotApp_371,Nyomtató cseréljen fejet
+ScotApp_271,Hagyja jóvá a használt kuponokat
+ScotApp_971,971nemhasznált
+ScotApp_871,Erősítse meg a felfüggesztést
+ScotApp_1840,Üzlet száma:
+ScotApp_750,"Ma, összesítés"
+ScotApp_650,Szokásos termék
+ScotApp_550,550nemhasznált
+ScotApp_450,450nemhasznált
+ScotApp_350,Készpénz / papír állapota
+ScotApp_250,250nemhasznált
+ScotApp_150,Válassza ki a felvenni kívánt készpénz összegét
+ScotApp_1773,"A ""Kupon jóváhagyása"" gombot megérintve elfogadhatja a kupont, vagy Segítő üzemmódba belépve törölheti."
+ScotApp_950,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s hozzáadva;LSWND3=%s;
+ScotApp_850,Egy árucikk
+ScotApp_1405,"A POS nincs szinkronban, újraszinkronizáláshoz lépjen be Segítő üzemmódba."
+ScotApp_1513,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1657,Érvénytelen osztály
+ScotApp_1225,ISMERETLEN ÁRUCIKK
+ScotApp_644,------------------------------------------
+ScotApp_544,A jelszó nem lehet %d számjegynél hosszabb.
+ScotApp_444,Élelmiszerjegyek
+ScotApp_344,344nemhasznált
+ScotApp_244,244nemhasznált
+ScotApp_144,Hasonlítsa össze az aláírást
+ScotApp_1590,%s TARTÁLY ÉRMÉI ELAKADTAK
+ScotApp_1669,Érme-/bankjegy-visszaforgató hiba
+ScotApp_944,Túl sok kérés csomagolásra/dobozolásra.  Max = %d.
+ScotApp_844,844nemhasznált
+ScotApp_1729,Árucikkek kikeresése:
+ScotApp_1447,Pénz eltávolítása
+ScotApp_1703,(+)
+ScotApp_1656,"A billentyűzeten írja be az osztály kódját, majd érintse meg az ""Enter"" gombot."
+ScotApp_915,Túl sok kérés a szalag kihagyására.  Max = %d.
+ScotApp_1668,"A mutatott helyen bankjegy-elakadás lehet. Nyissa fel a bankjegy-visszaforgató fedelét. Ha van elakadt bankjegy, távolítsa el.  Zárja be az egységet és tegye vissza a bankjegy-visszaforgató fedelét.  Folytassa a tranzakciót."
+ScotApp_1542,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1139,Bankjegykiadó ajtaja nyitva.
+ScotApp_1254,PIP TERHELÉSI MEGTAKARÍTÁS
+ScotApp_1249,PIP ÁLTALÁNOS
+ScotApp_77,Hitel
+ScotApp_67,Vissza
+ScotApp_57,Befejezés és fizetés
+ScotApp_47,Kezdés
+ScotApp_37,37nemhasznált
+ScotApp_1458,NCR SelfServ Checkout kassza kimutatás
+ScotApp_17,Kupon
+ScotApp_1752,A mérlegen lévő súly meghaladja a kapacitást.
+ScotApp_1643,Bankjegy-visszaforgató hiba
+ScotApp_97,Válasszon rekeszt a listából
+ScotApp_87,87nemhasznált
+ScotApp_1665,Nyissa ki a kazetta zárját és vegye ki a kazettát.  Távolítsa el az elakadt bankjegyet.  Tegye vissza a kazettát. Zárja be a visszaforgató egységet. Folytassa a tranzakciót.
+ScotApp_1138,%s kiadása sikertelen.
+ScotApp_1589,ÉRMÉK KIVÉVE
+ScotApp_1445,Darabszám megváltozott
+ScotApp_1318,Utalványok leolvasása
+ScotApp_1654,A darabszám meghaladja a kapacitást. A szükséges maximális töltési darabszám %d. A darabszámra automatikusan %d íródott be.
+ScotApp_796,"Kevés az érme, vagy érmekiadó hibázott/kikapcsolva.\n* Kapcsolja be az érmekiadót, VAGY\n* Töltse fel az érmekiadót és kapcsolja ki, majd be, érintse meg az ""Érmekiadó feltöltve"" gombot - pénztársor állapotképernyő."
+ScotApp_696,696nemhasznált
+ScotApp_596,NCR SelfServ Checkout AuxDisp betöltve.
+ScotApp_1391,"\n\nÉrintse meg a ""Megszüntettem a problémát"" gombot.\n\nHa a probléma fennáll, zárja le és indítsa újra a terminált."
+ScotApp_396,Munkatárs segítségét kérték a következőhöz:
+ScotApp_296,296nemhasznált
+ScotApp_196,Ábrázolási szolgáltatások betöltése folyamatban...
+ScotApp_1588,"A ""Kiadó ürítése"" gombot csak akkor választhatja ki, ha előbb minden tartályt kiürített.  Ürítse ki az adagoló tartályt, majd érintse meg a ""Kiadó ürítése"" gombot."
+ScotApp_996,Ár bevitele
+ScotApp_896,WTINFO töltődik...
+ScotApp_574,"A billentyűzeten írja be jelszavát, majd érintse meg az ""Enter"" gombot."
+ScotApp_1093,Utolsó blokk nyomtatása
+ScotApp_1641,"Töltse fel az adagolót és folytassa.  Ha nincs érmekiadás, lehet, hogy az adagoló reteszelve van.  Hívjon karbantartót.\n\nSafePay hiba: %s"
+ScotApp_1781,KÖSZÖNJÜK LEJÁRT
+ScotApp_562,Kuponokat Segítő üzemmódban kell eladni
+ScotApp_874,"A billentyűzeten írja be személyi igazolványa vagy jogosítványa számát, majd érintse meg az ""Enter"" gombot."
+ScotApp_1124,1124nemhasznált
+ScotApp_770,Erősítse meg a felfüggesztést
+ScotApp_670,Belépés Tanító üzemmódba
+ScotApp_570,570nemhasznált
+ScotApp_470,   Életkori korlátozás alá esik
+ScotApp_370,Nyomtató nyomtató nyitva
+ScotApp_270,Hagyja jóvá a kuponokat
+ScotApp_170,"Vegye le az árucikket a mérlegről, majd nyomja meg a leolvasón a "">0<"" gombot."
+ScotApp_1640,Adagoló hiba
+ScotApp_870,Riasztások:
+ScotApp_1733,"A folytatáshoz válassza a ""Vissza"" lehetőséget."
+ScotApp_1553,Pénz magas szinten állapot:
+ScotApp_664,Olvassa le árucikkeit vagy válasszon nyelvet.
+ScotApp_564,564nemhasznált
+ScotApp_464,%s               %s
+ScotApp_364,364nemhasznált
+ScotApp_264,264nemhasznált
+ScotApp_964,"Távolítsa el az árucikket, majd érintse meg az ""Áthaladhat"" vagy a ""Súly jóváhagyása és frissítése"" gombot."
+ScotApp_864,Jóváhagyás:
+ScotApp_1647,(hhnnéééé)
+ScotApp_1119,"A bankjegykiadó nyitott ajtóval nem működik.\n\nCsukja be és reteszelje a kiadó ajtaját vagy biztonsági ajtaját.\n\nHa a hiba ismét fellép, hívjon karbantartót."
+ScotApp_1659,Blokknyomtatás
+ScotApp_819,Erősítse meg az árucikk felfüggesztését vagy érvénytelenítését.
+ScotApp_1339,Teljes rendszer újraindítása
+ScotApp_1582,Média állapota
+ScotApp_1154,Leolvasó-hiba
+ScotApp_1117,"%s bankjegykiadó kaz. kivéve vagy nincs jól a helyén.\n\n* Tegye vissza %s, vagy tolja a helyére reteszelésig."
+ScotApp_1294,Q - S
+ScotApp_1030,Helyezze be kuponját.
+ScotApp_1658,"Kérem, ellenőrizze, helyes visszajárót kapott-e a vásárló."
+ScotApp_1421,Segítő üzemmód
+ScotApp_709,709nemhasznált
+ScotApp_1129,"A javítási műveletet nem helyesen végezte el.\n\nKérem, próbálja meg újra."
+ScotApp_509,509nemhasznált
+ScotApp_409,Rendszerüzenet
+ScotApp_309,forint
+ScotApp_209,Program leállítása
+ScotApp_109,Folytatja?
+ScotApp_1338,Diagn. fájlok beolv.
+ScotApp_909,Helytelen súly a biztonsági mérlegen.
+ScotApp_809,POS üzenet:
+ScotApp_1645,"Ellenőrizze, hogy a bankjegy-visszaforgató fedele biztonságosan rögzítve van-e."
+ScotApp_1116,"A bankjegykiadó csak akkor működik, ha a bankjegy-selejttartály a helyén van és reteszelt.\n\nCsúszassa be reteszelésig a bankjegy-selejttartályt."
+ScotApp_1128,%s\n
+ScotApp_1452,"A billentyűzeten írja be az azonosítót, majd érintse meg az ""Enter"" gombot."
+ScotApp_183,183nemhasznált
+ScotApp_1450,Pénzesdoboz
+ScotApp_1293,P
+ScotApp_1644,Bankjegy-visszaforgató fedele levéve
+ScotApp_1115,KIMUTATÁSKÉSZÍTÉS OFF-LINE
+ScotApp_795,A szolgáltatás jobbá tétele érdekében a vásárlásokat figyeljük.
+ScotApp_695,695nemhasznált
+ScotApp_595,NCR SelfServ Checkout AuxDisp betöltése...
+ScotApp_395,Korlátozás alá eső árucikkek nem megengedettek
+ScotApp_295,295nemhasznált
+ScotApp_195,Eszközkezelő betöltve.
+ScotApp_566,566nemhasznált
+ScotApp_1324,Súly marad a mérlegen\na tranzakció után.
+ScotApp_995,A pénztársor megnyitásához menjen oda és jelentkezzen be Üzlet üzemmódba.
+ScotApp_895,DBM leáll...
+ScotApp_1102,Következő
+ScotApp_1383,(Kiv)
+ScotApp_1402,BANKJEGY-SELEJTTARTÁLY RÖVIDZÁRDUGÓJA LEVÉVE.
+ScotApp_1292,N - O
+ScotApp_1114,"""Kimutatási időszak vége"" frissítése sikeres"
+ScotApp_1222,ÜZEMEN KÍVÜL
+ScotApp_1101,%s\t%s
+ScotApp_1159,PinPad / EFT nem reagál.
+ScotApp_1100,%s
+ScotApp_1539,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1649,(nnhhéééé)
+ScotApp_1317,Utalványos fizetés
+ScotApp_1883,"Nézze meg, nincs-e többlet-árucikk a csomagmérlegen és a kocsiban, majd érintse meg az „Áthaladhat” gombot."
+ScotApp_729,729nemhasznált
+ScotApp_629,Teljes összeg:
+ScotApp_429,Vörös
+ScotApp_329,"  %ss, %d %s/%s"
+ScotApp_229,229nemhasznált
+ScotApp_129,"Ellenőrizze, félre vannak-e téve az érvénytelenített árucikkek."
+ScotApp_1107,"%s\t%s\tMen %s, %s/%s\t%s"
+ScotApp_1538,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_929,A WLDB adatátvitele nem helyes.
+ScotApp_829,829nemhasznált
+ScotApp_1316,"* Nyissa fel a nyomtató fedelét és nézze meg, nem akadt-e el a papír a mutatott helyen.\n* Zárja le a nyomtató fedelét és töltse fel a papírt."
+ScotApp_81,Tovább
+ScotApp_1882,Smart Assist riasztás - a cikk nem lett leolvasva.
+ScotApp_1673,Érmeelakadás
+ScotApp_1135,Bankjegykiadó hiba
+ScotApp_1705,Adatátviteli hiba.
+ScotApp_1894,Set item aside and continue with your purchase.
+ScotApp_787,"Beírt születési dátum: %s, %d éves"
+ScotApp_1398, Elad/Betan
+ScotApp_1106,"%s\t%s\tMen %s, %s/db\t%s"
+ScotApp_1525,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1493,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1490,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1315,"* Nyissa fel a nyomtató fedelét és nézze meg, nem akadt-e el a papír.\n* Zárja le a nyomtató fedelét és töltse fel a papírt."
+ScotApp_1881,"Ellenőrizze a csomagmérleget, távolítsa el a többlet-árucikkeket, majd érintse meg az „Áthaladhat” gombot."
+ScotApp_1173,ÉRVÉNYTELENÍTETT ÁRUCIKK JÓVÁHAGYVA
+ScotApp_1524,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_505,Helytelen szám.
+ScotApp_1302,Bezárás
+ScotApp_905, (Továbbiak a blokkon...)
+ScotApp_1164,A nyomtató nem jól van elhelyezve.
+ScotApp_1492,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1314,"* Nyissa fel a nyomtató fedelét és ha van papírhulladék, távolítsa el.\n* Zárja le a fedelet.\n* Tegyen be új papírtekercset.\n* Vezesse be a papírt a tekercs tetejéről a nyomtatóba."
+ScotApp_1817,"* Húzza ki az érme-visszaforgatót.\n* Nyissa ki a kerek oldalajtókat és távolítsa el az érméket a szalagokról.\n* Biztosítsa, hogy minden ajtó helyesen legyen becsukva és bezárva.\n* Adja vissza az érméket az ügyfélnek. Ha a hiba ismét fellép, hívjon karbantartót."
+ScotApp_1442,"Helyezzen be készpénzt a feltöltéshez, vagy érintse meg a ""Pénz eltávolítása"" gombot a kiürítéshez."
+ScotApp_1880,Váratlan árucikk a csomagmérlegen.
+ScotApp_1172,FELFÜGGESZTÉS MEGERŐSÍTVE
+ScotApp_1415,1415nemhasznált
+ScotApp_788,Érvényes születési dátum: %s
+ScotApp_688,688nemhasznált
+ScotApp_588,Device Factory betöltése folyamatban...
+ScotApp_488,Tegye az árucikket a mérlegre: %s
+ScotApp_388,Feldolgozás folyamatban...
+ScotApp_288,"Érintse meg a ""Megszüntettem a problémát"" gombot.\n* Ha a hiba nem szűnt meg, indítsa újra a terminált:\n* Forgassa a Felügyelő zárját 'S' állásba, vagy nyomja meg a Felügyelő gombot.\n* Válassza a ""Teljes rendszer leállítása"" lehetőséget.\n* Amikor a képernyő üressé válik, kapcsolja ki a terminált a szünetmentes tápon vagy az elosztón.\n* Kapcsolja be a terminált. Ha a hiba ismét fellép, hívjon karbantartót."
+ScotApp_188,Beállítások betöltése folyamatban...
+ScotApp_988,Váratlan árucikk a szalagon. Távolítsa el ezt az árucikket.
+ScotApp_888,Váratlan árucikk a csomagoló területen.  Távolítsa el az árucikket.
+ScotApp_1887,Tekintse meg a tranzakciót
+ScotApp_1171,VÁRATLAN NÖVEKEDÉS
+ScotApp_1199,BEÍRT LEJÁRATI DÁTUM
+ScotApp_1300,Tranzakció elindítása
+ScotApp_1326,KUPON BEHELYEZÉSÉNEK IDŐZÍTŐJE LEJÁRT
+ScotApp_1291,K - M
+ScotApp_1517,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1886,"Nézze meg, vannak-e többlet-árucikkek."
+ScotApp_749,749nemhasznált
+ScotApp_1529,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_549,549nemhasznált
+ScotApp_449,Érmebefizető állapota Elutasítva
+ScotApp_349,349nemhasznált
+ScotApp_249,249nemhasznált
+ScotApp_149,Írja be a PIN-t
+ScotApp_1307,A blokk nyomtatódik
+ScotApp_1738,Táskáit az eladó ellenőrizni fogja
+ScotApp_949,949nemhasznált
+ScotApp_717,717nemhasznált
+ScotApp_617,Súly-összehasonlítás beállítása. (Áru súlyának összevetése a meglévő bejegyzésekkel.)
+ScotApp_517,Más fizetés kérése.
+ScotApp_417,Hard Totals betöltve.
+ScotApp_317,317nemhasznált
+ScotApp_217,217nemhasznált
+ScotApp_117,Tegye félre az árucikkeket
+ScotApp_1516,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1885,Leolvasatlan áru
+ScotApp_917,Túl sok kérés árucikkek csomagoló területről való eltávolítására.  Max = %d.
+ScotApp_817,Segítség szükséges
+ScotApp_1177,ÁRUCSOMAGOLÁS IDŐZÍTŐJE LEJÁRT
+ScotApp_1528,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1175,NINCS CSOMAGOLÁS KÜSZÖB TÚLLÉPVE
+ScotApp_1109,"%s\t%s\t%s, %s/%s\t%s"
+ScotApp_1453,Pénztáros jelszava
+ScotApp_1693,Helyettesítés érmével
+ScotApp_1515,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_7,7nemhasznált
+ScotApp_6,6nemhasznált
+ScotApp_5,5nemhasznált
+ScotApp_4,4nemhasznált
+ScotApp_3,3nemhasznált
+ScotApp_2,kg
+ScotApp_1,lb
+ScotApp_1176,ÚJ ÁRUCIKK BEÍRVA
+ScotApp_1724,TANULÓ ÜZEMMÓDÚ TRANZAKCIÓ
+ScotApp_1019,Tegye a szalagra
+ScotApp_9,9nemhasznált
+ScotApp_8,8nemhasznált
+ScotApp_609,Súlytűrés szerkesztése
+ScotApp_1305,%s behelyezve
+ScotApp_1893,Érvénytelen vonalkód
+ScotApp_1409,Segítség menü
+ScotApp_1692,Felügyelői bejelentkezés
+ScotApp_1163,"Érintse meg a ""Megszüntettem a problémát"" gombot.\n\nHa a hiba nem szűnt meg, indítsa újra a terminált:\nForgassa a Felügyelő zárját 'S' állásba, vagy nyomja meg a Felügyelő gombot.\nVálassza a ""Teljes rendszer leállítása"" lehetőséget.\nAmikor a képernyő üressé válik, kapcsolja ki a terminált a szünetmentes tápon vagy az elosztón.\nKapcsolja be a terminált. Ha a hiba ismét fellép, hívjon karbantartót."
+ScotApp_1514,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1372,Érmebefizető
+ScotApp_1048,1048nemhasznált
+ScotApp_967,967nemhasznált
+ScotApp_1304,Hűségkártya elfogadva.
+ScotApp_1162,Az eszköz offline állapotban van.
+ScotApp_1833,Kiv_TB
+ScotApp_1818,"* Nyissa ki az adagoló tálcát, majd húzza ki az elakadás megszüntetéséhez (I).\n* Tegye vissza az elakadt érméket a megfelelő adagoló tartály(ok)ba. Ezután tegye vissza és zárja be az adagolótartályt.\n* Húzza ki az érme-visszaforgatót. Utána nyissa ki a fedelét, és vegye le.\n* Húzza le a mutatott kábelt (II).\n* Oldja ki a befizető jobb oldalán lévő piros nyelvet, majd húzza előre és fordítsa meg, és szüntesse meg az elakadást a mutatott helyeken (III).\n* Tegye vissza a befizetőt és csatlakoztassa vissza a kábelt.\n* Tegye vissza és reteszelje a fedelet. Ha a hiba ismét fellép, hívjon karbantartót."
+ScotApp_1174,SÚLY ELTÉR
+ScotApp_1500,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1366,Mérleg
+ScotApp_1161,Személyhívó hiba
+ScotApp_1717,WO:
+ScotApp_1832,Kiv_Oszt
+ScotApp_1370,Titkosító
+ScotApp_669,Aláírás nyomtatása sikertelen. Hibák történtek.
+ScotApp_569,Írja be a kódot
+ScotApp_469,469nemhasznált
+ScotApp_369,Nyomtató adatátviteli hiba
+ScotApp_269,Segítő üzemmód
+ScotApp_1507,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_969,969nemhasznált
+ScotApp_737,737nemhasznált
+ScotApp_637,"A biztonság offline állapotban van, utolsó művelet elvetve."
+ScotApp_537,537nemhasznált
+ScotApp_437,Az egyenleg nem elegendő
+ScotApp_337,"Olvassa le az árucikket vagy a billentyűzeten írja be a kódját, majd érintse meg az ""OK"" gombot."
+ScotApp_237,"Csúsztassa be a kazettát reteszelésig.\n\nA kazetta karját meghúzva győződjön meg róla, hogy a retesz a helyén tartja a kazettát."
+ScotApp_137,Vegye el a visszajárót
+ScotApp_931,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s várt;LSWND3=%s %s észlelt;
+ScotApp_1519,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1831,Interp.
+ScotApp_937,Korlát \ Árucikkek eltávolítása
+ScotApp_837,Díjak
+ScotApp_1702,*** DUPLIKÁLT BLOKK ***
+ScotApp_1377,mennyiség
+ScotApp_1728,"Kérem, válasszon a népszerű árucikkekből, vagy keresse meg az árucikket betűrend szerint."
+ScotApp_1395,Belépés Eladó üzemmódba
+ScotApp_716,716nemhasznált
+ScotApp_616,Súly-összehasonlítás
+ScotApp_516,Más fizetés
+ScotApp_416,Hard Totals betöltése folyamatban...
+ScotApp_316,316nemhasznált
+ScotApp_216,"* Nyissa fel a nyomtató fedelét és nézze meg, nem akadt-e el a papír.\n* Vegye ki a papírt.\n* Zárja le a nyomtató fedelét és töltse fel a papírt."
+ScotApp_116,Összes árucikk eltávolítása
+ScotApp_1522,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1506,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1879,"Ellenőrizze a csomagmérleget, majd érintse meg az „Áthaladhat” gombot."
+ScotApp_916,"Ellenőrizze a pénztársorban lévő árucikkeket, majd érintse meg az ""Áthaladhat"" gombot."
+ScotApp_816,816nemhasznált
+ScotApp_1167,"* Nyissa ki a nyomtatószekrény ajtaját.\n* A nyomtatót a reteszelés kioldása után tolja hátra.\n* Nyissa fel a nyomtató fedelét, és nézze meg, nincs-e elakadás.\n* Zárja le a nyomtató fedelét és töltsön be papírt.\n* Óvatosan húzza előre a nyomtatót reteszelésig."
+ScotApp_1518,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1830, Tételek   Jóváhagyva
+ScotApp_1376,", %s"
+ScotApp_783,783nemhasznált
+ScotApp_683,683nemhasznált
+ScotApp_583,Kártya elutasítva.
+ScotApp_483,"Kérem, írjon alá az aláírás-digitalizálón a mellékelt tollal."
+ScotApp_383,383nemhasznált
+ScotApp_283,Írja be a jelszót
+ScotApp_1505,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_983,Takeaway Belt betöltése folyamatban...
+ScotApp_883,Erősítse meg a felfüggesztést.
+ScotApp_1363,Szövegsor-kijelző
+ScotApp_1714,FELFÜGGESZTÉS ELUTASÍTÁSA JÓVÁHAGYVA
+ScotApp_1837,"A tranzakciót a ""Jóváhagyás"" megérintésével folytathatja."
+ScotApp_1449,Bankjegy állapot
+ScotApp_1375,Árucikk utólagos módosítása:\n%s
+ScotApp_1248,AJÁNDÉKKÁRTYA
+ScotApp_1153,Papírelakadás.
+ScotApp_1504,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1362,Zár
+ScotApp_1836,ÉRVÉNYTELEN VONALKÓD
+ScotApp_1571,Változtatások figyelmen kívül hagyásának megerősítése
+ScotApp_1215,ESZKÖZHIBA
+ScotApp_1858,Discrepancy error occurred in the recycler.
+ScotApp_1152,Kifogyott a papír.
+ScotApp_1700,"%s kiadása sikertelen. %s\nEllenőrizze a bankjegy- és érme-visszaforgatókat.\nAmelyik üres, töltse fel.\nHa nincs üres, szüntesse meg az elakadást. \nÉrintse meg az ""Állapot kijavítva"" gombot."
+ScotApp_1823,Digitális blokk sikeresen létrehozva.
+ScotApp_1605,     Kártyakiadó tartálya üres
+ScotApp_1361,Készpénz-visszaadó
+ScotApp_1835,Ellenőrizze az árut vagy tegye félre
+ScotApp_1878,Helytelen súly a csomagmérlegen.
+ScotApp_1281,SEGÍTETT FIZETÉS
+ScotApp_1425,Csatlakozás
+ScotApp_1570,Változtatások figyelmen kívül hagyása
+ScotApp_814,814nemhasznált
+ScotApp_291,"Elakadás az érmekiadó csövében\n%s\nSzüntesse meg az érmekiadó elakadását, majd érintse meg az ""Elakadást megszüntettem"" gombot."
+ScotApp_191,Transaction Broker betöltve.
+ScotApp_1151,Nyomtató fedele nyitva.
+ScotApp_1707,Elakadt érmék a befizetőben.
+ScotApp_1822,A cikk súlya a képernyőn baloldalt lent látható.
+ScotApp_757,757nemhasznált
+ScotApp_657,A visszatérítést/árengedményt tegye félre a vásárlás végéig.
+ScotApp_557,Mennyiségi korlátozás alá eső árucikkek
+ScotApp_457,457nemhasznált
+ScotApp_357,357nemhasznált
+ScotApp_257,257nemhasznált
+ScotApp_157,Rendszerüzenet
+ScotApp_1360,Pénztárfiók
+ScotApp_1719,WA:
+ScotApp_1834,Max
+ScotApp_1868,Ne takarja a kezével a kamera rálátását a leolvasóra
+ScotApp_957,Az adatbázis-kezelő kliens adatátvitele sikertelen
+ScotApp_857,Összeállítási díj ellenőrzése
+ScotApp_1064,1064nemhasznált
+ScotApp_1577,Darabszám összesen:
+ScotApp_736,736nemhasznált
+ScotApp_636,A biztonság offline állapotban van.
+ScotApp_1091,1091nemhasznált
+ScotApp_436,Erősítse meg az összeget
+ScotApp_336,Cikk-keresés
+ScotApp_236,236nemhasznált
+ScotApp_136,Helyezze be a készpénzt
+ScotApp_1509,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1821,Súly elfogadása
+ScotApp_936,Korlát \ Csomagolás kihagyása
+ScotApp_836,Díjak és vásárlói szerződések
+ScotApp_1367,Leolvasó
+ScotApp_1718,NOI:
+ScotApp_1274,FELHASZNÁLÓÁLTALDEF16
+ScotApp_715,715nemhasznált
+ScotApp_615,Válassza a kötelező csomagolást. (A vevőnek csomagolnia kell az árucikket.)
+ScotApp_515,515nemhasznált
+ScotApp_315,315nemhasznált
+ScotApp_215,Terhelési megtakarítás
+ScotApp_115,Erősítse meg az eltávolítást
+ScotApp_1576,Bankjegykiadó állapota:
+ScotApp_1090,Kimutatás futtatása
+ScotApp_815,Pénztárfiók kinyitása
+ScotApp_1508,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1406,Sync TB/POS
+ScotApp_1099,Ismeretlen eszközhiba
+ScotApp_1563,Betöltés
+ScotApp_782,Bankjegykiadó elakadt\nSzüntesse meg a bankjegykiadó elakadását vagy\nÁllítsa be a kiürítő tartályt.
+ScotApp_682,682nemhasznált
+ScotApp_582,Fizetés elvégezve.
+ScotApp_482,482nemhasznált
+ScotApp_382,Ismeretlen
+ScotApp_282,Írja be az azonosítót
+ScotApp_1575,Érmekiadó állapota:
+ScotApp_1097,Rekordok/kimutatások nyomtatása
+ScotApp_1448,Érme állapot
+ScotApp_982,Eszközhiba
+ScotApp_143,Írja alá a blokkot
+ScotApp_1353,"Kérem, helyezze kiürült ajándékkártyáját a kuponnyílásba."
+ScotApp_1704,"Érintse meg a ""Megszüntettem a problémát"" gombot.\n\nHa a hiba nem szűnt meg, indítsa újra a terminált:\nForgassa a Felügyelő zárját 'S' állásba, vagy nyomja meg a Felügyelő gombot.\nVálassza a ""Teljes rendszer leállítása"" lehetőséget.\nAmikor a képernyő üressé válik, kapcsolja ki a terminált a szünetmentes tápon vagy az elosztón.\nKapcsolja be a terminált. Ha a hiba ismét fellép, hívjon karbantartót."
+ScotApp_1827,\n    - Jelenlegi nyelv (%s)
+ScotApp_1562,Darab
+ScotApp_1815,"* Nyissa ki z adagoló tálcát, majd húzza ki.\n* Ha hiányzik adagoló, tegye vissza, és győződjön meg róla, hogy minden adagoló jól a helyén van.\n* A legkisebb címletű érme adagolója legyen helyesen betéve.\n* A megfelelő pénzadagolók legyenek betéve. Ha a hiba ismét fellép, hívjon karbantartót."
+ScotApp_1574,%s beírt értéke érvénytelen. \nÍrja be újra.
+ScotApp_1543,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1290,D - J
+ScotApp_1096,Kimutatáskészítés
+ScotApp_1352,Ajándékkártya behelyezése
+ScotApp_1561,Címlet
+ScotApp_1083,Árucikk eltávolítva a csomagoló területről.\nTegye vissza.
+ScotApp_1753,Az árucikk nem található
+ScotApp_418,Hard Totals leállása folyamatban...
+ScotApp_318,318nemhasznált
+ScotApp_1813,"%s\n* Nyissa ki az adagoló tálca zárját, és húzza ki az adagoló tálcát (I).\n*  Vegye ki az elakadt adagoló tartály(oka)t. Szüntesse meg az elakadásokat a kilépő területen (II).\n* Ha nincs elakadás a kilépő területen, ürítse ki az adagoló tartály(oka)t. Keresse meg és szüntesse meg az elakadásokat a tárcsa forgatásával (III).\n* Tegye vissza az adagoló tartály(oka)t.\n* Biztosítsa, hogy minden ajtó helyesen legyen becsukva és bezárva. Ha a hiba ismét fellép, hívjon karbantartót."
+ScotApp_1095,"Válassza ki a kimutatás típusát, majd érintse meg a ""Kimutatás futtatása"" gombot."
+ScotApp_1351,%s\n%s %s eltávolítva
+ScotApp_1825,Beállítások mentése
+ScotApp_777,777nemhasznált
+ScotApp_677,677nemhasznált
+ScotApp_577,Készpénzes fizetés megkezdése.
+ScotApp_377,Egységek  -  Állapot
+ScotApp_277,277nemhasznált
+ScotApp_1560,Befizető összesen:  %s
+ScotApp_1082,Elvettem az árucikket vagy csomagot
+ScotApp_977,Tényleges súly: %s %s
+ScotApp_877,Ár bekérése
+ScotApp_1777,"A tranzakciót olyan kuponnal véglegesítették, amely túllépi az üzlet kuponkorlátját."
+ScotApp_1812,"Az érmék elakadtak, vagy érmetartályok tele vagy kivéve."
+ScotApp_756,756nemhasznált
+ScotApp_556,Tranzakció felfüggesztése elutasítva.
+ScotApp_456,456nemhasznált
+ScotApp_356,Titkosító
+ScotApp_256,User Exits leállása folyamatban...
+ScotApp_156,Rendszerüzenet
+ScotApp_1231,VIZUÁLISAN ELLENŐRIZVE
+ScotApp_1874,1874unused
+ScotApp_956,"Állítsa le és indítsa újra a terminált:\n\nForgassa a Felügyelő zárját 'S' állásba, VAGY nyomja meg a Felügyelő gombot.\nVálassza a ""Teljes rendszer leállítása"" lehetőséget.\nAmikor a képernyő üressé válik, kapcsolja ki a terminált a szünetmentes tápon vagy az elosztón.\nKapcsolja be a terminált. Ha a hiba ismét fellép, hívjon karbantartót."
+ScotApp_856,Blokk:
+ScotApp_1567,Kiadó összesen:  %s
+ScotApp_735,735nemhasznált
+ScotApp_635,Írja be a szül. dátumot
+ScotApp_535,   Visszahívás dátuma
+ScotApp_335,Kártyaolvasó a vevő esetleg megpiszkálta
+ScotApp_235,Készpénzbefizető állapota Csaknem megtelt
+ScotApp_135,135nemhasznált
+ScotApp_1776,Üzlet engedélye
+ScotApp_1811,"* Húzza ki az érme-visszaforgatót.\n* Az érmék kivételével vagy előre tolásával szüntesse meg az elakadást a mutatott helyen.\n* Adja vissza az érméket az ügyfélnek. Ha a hiba ismét fellép, hívjon karbantartót."
+ScotApp_935,Súlycsökkenés
+ScotApp_835,Blokk:
+ScotApp_1708,"A pénzvisszaadó gombot többször megnyomva szüntesse meg az érme-elakadást, majd érintse meg a ""Megszüntettem a problémát"" gombot.\n\nHa a hiba ismét fellép, hívjon karbantartót."
+ScotApp_1168,A nyomtató nincs reteszelve elülső helyzetben.
+ScotApp_1446,Kiürítés
+ScotApp_1566,Teljes csere
+ScotApp_1080,Tegye az árucikket a szalagra.
+ScotApp_1775,Kupon jóváhagyása
+ScotApp_1810,Az érmék elakadtak.
+ScotApp_1297,VISSZAJÁRÓ ELVÉTELI IDŐZÍTŐJE LEJÁRT
+ScotApp_1648,(hhnnéé)
+ScotApp_708,708nemhasznált
+ScotApp_608,Súly-összehasonlítás beállítása
+ScotApp_508,508nemhasznált
+ScotApp_408,408nemhasznált
+ScotApp_308,forint
+ScotApp_208,208nemhasznált
+ScotApp_108,Pár nélküli kupon
+ScotApp_781,781nemhasznált
+ScotApp_681,Vál. a Kedvencekből
+ScotApp_581,Tranzakció felfüggesztése elutasítva
+ScotApp_481,Segítség szükséges
+ScotApp_381,Normál
+ScotApp_908,Biztonság
+ScotApp_521,Visszatérített összeg:
+ScotApp_1087,Kártya elfogadva. Olvassa le árucikkeit és kuponjait.
+ScotApp_981,981nemhasznált
+ScotApp_881,Felfügg.:
+ScotApp_1774,TÚL NAGY ÉRTÉKŰ KUPON
+ScotApp_1296,Töltsön újra minden érmetartályt optimális működési szintre.
+ScotApp_1583,pénz kifogyóban (%s)
+ScotApp_1552,tartály megtelt
+ScotApp_1295,T - Z
+ScotApp_1877,Lopásriasztás
+ScotApp_1761,"A kupontartály megtelt, vagy a kuponnyílás el van zárva. Ha valami elzárja a kuponnyílást, távolítsa el, majd ürítse ki a kupontartályt."
+ScotApp_1086,"""Nulla súly hozzáadása"" töröl minden súlybejegyzést."
+ScotApp_693,693nemhasznált
+ScotApp_794,Bankjegykiadó kazettája elakadt\nSzüntesse meg a bankjegykiadó elakadását.
+ScotApp_694,694nemhasznált
+ScotApp_594,NCR SelfServ Checkout SigCap betöltve.
+ScotApp_494,Válassza ki a listából visszajáró készpénz összegét.
+ScotApp_394,394nemhasznált
+ScotApp_1098,"* Nyissa ki a nyomtatószekrény ajtaját.\n* Nézze meg, nincs-e a mutatott helyen papírelakadás.\n* Ha nincs, töltsön be papírt.\n* Egy mosolygós blokknak kell nyomtatódnia.\n* Csukja be és zárja be a nyomtatószekrény ajtaját."
+ScotApp_1551,pénz magas szinten  (%s)
+ScotApp_994,Lezárva
+ScotApp_894,DBM betöltve.
+ScotApp_1760,"A kupontartály megtelt, vagy a kuponnyílás el van zárva. Ha valami elzárja a kuponnyílást, távolítsa el, majd ürítse ki a kupontartályt."
+ScotApp_1371,Készpénzbefizető
+ScotApp_1803,Csak készpénz
+ScotApp_1359,Szalagnyomtató
+ScotApp_1085,Kuponok beszedése
+ScotApp_21,21nemhasznált
+ScotApp_776,776nemhasznált
+ScotApp_676,"Érmekiadó: Újratöltve: %s, %s"
+ScotApp_1491,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_476,Kuponok leadása
+ScotApp_376,376nemhasznált
+ScotApp_276,276nemhasznált
+ScotApp_176,Abbahagyja a fizetést és elveti teljes vásárlását?
+ScotApp_976,976nemhasznált
+ScotApp_876,"A billentyűzeten írja be a főpénztáros azonosítóját, majd érintse meg az ""Enter"" gombot."
+ScotApp_1271,FELHASZNÁLÓÁLTALDEF13
+ScotApp_1767,A mérleg súlyparaméterei nem érhetők el.
+ScotApp_755,Feldolgozás folyamatban...
+ScotApp_655,Kivétel-árucikk
+ScotApp_1084,Beszedés
+ScotApp_455,455nemhasznált
+ScotApp_355,Válassza ki a rendszerfunkciót
+ScotApp_255,255nemhasznált
+ScotApp_155,Rendszerüzenet
+ScotApp_1011,Továbbítás folyamatban...
+ScotApp_869,"A billentyűzeten írja be az engedélyezési számot, majd érintse meg az ""Enter"" gombot."
+ScotApp_955,Smart Scale engedélyezés sikertelen
+ScotApp_855,Összeállítási díj:
+ScotApp_23,+ %s (%s)
+ScotApp_1766,Leolvasó/mérleg hiba.
+ScotApp_1280,KÉSZPÉNZ
+ScotApp_1335,Pénztársor lezárva
+ScotApp_1497,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_728,728nemhasznált
+ScotApp_628,Pénztársor száma: %d
+ScotApp_528,528nemhasznált
+ScotApp_428,Sárga
+ScotApp_328,"%s kiadása a vevőnek sikertelen.\n* Ellenőrizze az érme- és a bankjegykiadót.\n* Ha üres, töltse fel.\n* Ha nem üres, szüntesse meg az elakadást.\n* Érintse meg a ""Megszüntettem a problémát"" gombot."
+ScotApp_228,Kártyaolvasó redőnye zárt állapotban beragadt
+ScotApp_128,128nemhasznált
+ScotApp_1690,"Kérem, hívjon karbantartót."
+ScotApp_281,281nemhasznált
+ScotApp_181,"\nA számbillentyűzeten írja be a kupon értékét centben, majd érintse meg az ""OK"" gombot."
+ScotApp_928,Menjen a pénztársorhoz és ellenőrizze az eszközt.
+ScotApp_828,828nemhasznált
+ScotApp_1033,"A pénztársorban deaktiválja az árucikket vagy távolítsa el a kemény címkét, majd érintse meg az ""Áthaladhat"" gombot."
+ScotApp_1496,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_680,680nemhasznált
+ScotApp_580,Kísérlet az árucikk érvénytelenítésére kuponjának érvénytelenítése előtt.
+ScotApp_380,380nemhasznált
+ScotApp_280,Áthaladhat napló
+ScotApp_180,Egyelőre tegye félre a kuponokat. Majd a vásárlás végén adja le őket.
+ScotApp_1364,Micr
+ScotApp_980,Az idő lejárt és a vevő nem reagált
+ScotApp_880,880nemhasznált
+ScotApp_970,970nemhasznált
+ScotApp_1104,e=d=0.01 lb Max 30.00 lb min 0.2 lb Nmax 3000
+ScotApp_1032,EAS Árucikk még mindig aktív.
+ScotApp_1286,Magyar
+ScotApp_1462,Tartályok
+ScotApp_1298,Eladó által segített funkciók
+ScotApp_1031,Olvassa le kuponjait.
+ScotApp_1482,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1706,"Az eszköz nem üzemkész. Zárjon be minden más alkalmazást, amely hozzáférhet az eszközhöz, majd érintse meg a ""Megszüntettem a problémát"" gombot.  Ha a hiba ismét fellép, kérjen karbantartást a Gunnebótól."
+ScotApp_1399, Eladó
+ScotApp_1494,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1672,Érme-visszaforgató hiba
+ScotApp_573,"A billentyűzeten írja be felhasználói azonosítóját, majd érintse meg az ""Enter"" gombot."
+ScotApp_173,173nemhasznált
+ScotApp_775,Üdvözli az NCR SelfServ Checkout kassza!
+ScotApp_675,Érmekiadó újratöltve
+ScotApp_1481,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_79,79nemhasznált
+ScotApp_69,69nemhasznált
+ScotApp_59,Próbálja ismét
+ScotApp_39,Tranzakció elvetése
+ScotApp_29,Korlátozás alá eső árucikkek
+ScotApp_19,Adó
+ScotApp_975,975nemhasznált
+ScotApp_603,Súlyadat szerkesztése/hozzáadása
+ScotApp_99,Érvénytelenítendő mennyiség
+ScotApp_89,89nemhasznált
+ScotApp_303,Árucikk eltávolítása
+ScotApp_203,203nemhasznált
+ScotApp_103,A billentyűzeten írja be az árucikk kódját.
+ScotApp_1889,Biztonsági bizalmi szint
+ScotApp_1443,"Helyezzen be érmét a feltöltéshez, vagy érintse meg a ""Pénz eltávolítása"" gombot a kiürítéshez."
+ScotApp_903,Árucikk eltávolítva a csomagoló területről.
+ScotApp_803,803nemhasznált
+ScotApp_1555,Kiadó
+ScotApp_1037,Aláírás
+ScotApp_1480,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1263,FELHASZNÁLÓÁLTALDEF5
+ScotApp_1697,Elakadás megszüntetve
+ScotApp_748,748nemhasznált
+ScotApp_648,UPC
+ScotApp_548,548nemhasznált
+ScotApp_448,Törzsvásárlói számlája aktiválva lett.
+ScotApp_348,348nemhasznált
+ScotApp_248,248nemhasznált
+ScotApp_148,148nemhasznált
+ScotApp_1479,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_948,\n* Távoli segítségnyújtás
+ScotApp_848,Szükséges mennyiség:
+ScotApp_485,Aláírás szükséges
+ScotApp_1036,EAS Árucikk aktív
+ScotApp_1487,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1499,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1023,1023nemhasznált
+ScotApp_1179,TÁVOZÁSI IDŐZÍTŐ LEJÁRT
+ScotApp_1035,EAS Árucikk aktív
+ScotApp_1682,Bankjegyolvasó egység általános hiba
+ScotApp_1486,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1144,A kiadó nem reagál.
+ScotApp_866,Igen
+ScotApp_1498,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1384,Nyelv
+ScotApp_1743,"Bejelentkezés: felh.-azon. beírása és ""Enter"", vagy helyezze ujját az ujjlenyomat-olvasóra."
+ScotApp_1319,UTALVÁNY
+ScotApp_1178,ELTÁVOLÍTVA KÜSZÖB TÚLLÉPVE
+ScotApp_1001,Az árucikk nem található
+ScotApp_1034,1034nemhasznált
+ScotApp_1485,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1068,1068nemhasznált
+ScotApp_1694,"%s miatt helyettesítés történik. Az újratöltéshez vagy az elakadás megszüntetéséhez érintse meg a ""Készpénz / papír állapota"" gombot."
+ScotApp_1165,"Óvatosan húzza előre a nyomtatót, amíg nem reteszel.\n\nCsukja be és zárja be a nyomtatószekrény ajtaját."
+ScotApp_1021,Figyelem
+ScotApp_1230,NEGATÍV OSZT
+ScotApp_1484,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_912,Súly jóváhagyása és frissítése
+ScotApp_723,723nemhasznált
+ScotApp_623,"Írja be a tűrést a billentyűzeten, majdérintse meg az ""Enter"" gombot."
+ScotApp_523,Kártya elutasítva
+ScotApp_423,"Helyezze be a kártyát. Kérem, nézze meg, vannak-e kosarában további árucikkek."
+ScotApp_323,  Men. %d @ %d/%s
+ScotApp_223,A kártyaolvasó kimeneti tartálya megtelt
+ScotApp_123,123nemhasznált
+ScotApp_1020,Árucikkek leolvasása
+ScotApp_923,923nemhasznált
+ScotApp_823,Jóváhagyás érvénytelenítése
+ScotApp_1483,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1237,KUPON
+ScotApp_1680,"Kijavíthatatlan hiba.  Kérem, zárja le a pénztársort.  Hívja a Gunnebót, és adja meg a lent látható hibaadatokat.\n\nSafePay hiba: %s"
+ScotApp_702,702nemhasznált
+ScotApp_602,Súlyadat\nszerkesztése/hozzáadása
+ScotApp_502,Tegye félre az elvetett árucikket.
+ScotApp_402,Nincs
+ScotApp_302,"Kérem, írja be PIN-kódját a fizető terminálon."
+ScotApp_202,Kijelentkezés tesztelése...
+ScotApp_102,Visszahívott árucikk
+ScotApp_1722,"A pénztársor tanuló üzemmódban van, folytatja a tranzakciót?"
+ScotApp_902,Árucikk eltávolítva a csomagoló területről.  Tegye vissza az árucikket.
+ScotApp_802,"\nEgy teljes rekesz\n%s vásárlása?\n\nVálassza az ""Igen""-t vagy a ""Nem""-et."
+ScotApp_568,Törlés
+ScotApp_468,   Visszahívva
+ScotApp_368,Nyomtató papír nincs betöltve elakadás
+ScotApp_268,Kártya olvasása hibás
+ScotApp_1027,"A tranzakció elvetéséhez az ""Igen"", folytatásához a ""Nem"" gombot érintse meg."
+ScotApp_1354,Ajándékkártya beszedése
+ScotApp_968,968nemhasznált
+ScotApp_868,Engedélyezési szám beírása:
+ScotApp_1433,a csomagmérlegen.
+ScotApp_1687,"Készpénz betöltéséhez használja a ""Készpénz / papír állapota"" képernyőt."
+ScotApp_1150,Nyomtató szekrényének ajtaja nyitva.
+ScotApp_1699,"%s miatt helyettesítés történik. Végezzen feltöltést vagy szüntesse meg az alakadást, majd érintse meg az ""Állapot kijavítva"" gombot."
+ScotApp_1259,FELHASZNÁLÓÁLTALDEF1
+ScotApp_1223,PÉNZ-/PAPÍRHIÁNY
+ScotApp_1379,egységár
+ScotApp_1432,<<<Bankjegy kevés. Töltse fel.>>>
+ScotApp_1686,"Kijavíthatatlan hiba.  Kérem, zárja le a pénztársort.  Hívja a Gunnebót, és adja meg a lent látható hibaadatokat.\n\nSafePay hiba: %s"
+ScotApp_1157,"Lehet, hogy a bankjegykiadó ajtaja nyitva van.\n\nA bankjegykiadó nyitott ajtóval nem működik.\n\nTeljesen zárja be és reteszelje a kiadó ajtaját vagy biztonsági ajtaját."
+ScotApp_1013,Feltorlódott árucikkek
+ScotApp_1184,TOVÁBBI ADATOK
+ScotApp_1848,"Árucikk törölve. Olvassa le az árucikket, vagy érintse meg a ""Írja be a kódot"" gombot"
+ScotApp_1169,* Nyissa ki a nyomtatószekrény ajtaját.\n* Óvatosan húzza előre a nyomtatót reteszelésig.\n* Csukja be és zárja be a nyomtatószekrény ajtaját.
+ScotApp_1662,Más blokkok
+ScotApp_1311,"* Vegye ki a bankjegybefizetőt.\n* Nyissa ki a befizető modult.\n* Ellenőrizze, nincs-e elakadás, majd tegye vissza a modult.\n* Győződjön meg róla, hogy a bankjegybefizető motorja bekapcsol és a LED zölden világít."
+ScotApp_1025,"Távolítson el minden árucikket a szalagról, és zárja le a biztonsági fedelet."
+ScotApp_1378,súly
+ScotApp_22,Nincs\nkészpénz\nfelvétel\n+ 0          \n(%s)
+ScotApp_1234,MENNYISÉGKORLÁTOS
+ScotApp_1685,Érmeegység általános hiba
+ScotApp_1156,"Ellenőrizze, be van-e kapcsolva az érmekiadó tápkapcsolója."
+ScotApp_1012,Árucikkének továbbítása folyamatban van.
+ScotApp_1365,MSR
+ScotApp_1235,EAS ÁRUCIKK AKTÍV
+ScotApp_1221,AUDACTION
+ScotApp_1143,"Érmék kifogyóban, vagy az érmetartály nincs betéve."
+ScotApp_434,Juttatás fajtája
+ScotApp_1625,"Helyezzen be érméket a feltöltéshez, vagy érintse meg az ""Érmék eltávolítása"" gombot a kiürítéshez."
+ScotApp_1430,Árucikk törlése
+ScotApp_1684,Érme-visszaforgató hiba
+ScotApp_1155,Az eszköz offline állapotban van.
+ScotApp_834,Díjak és vásárlói szerződések:
+ScotApp_799,Kosár ellenőrzése
+ScotApp_699,Nem eladható árucikk
+ScotApp_599,Űrlapeszköz alaphelyzetbe állítása...
+ScotApp_499,499nemhasznált
+ScotApp_399,399nemhasznált
+ScotApp_299,299nemhasznált
+ScotApp_199,User Exits betöltve.
+ScotApp_743,743nemhasznált
+ScotApp_643,Cikk törölve. Olvassa le a következő cikket.
+ScotApp_543,Az eladó azonosítója nem lehet %d számjegynél hosszabb.
+ScotApp_343,343nemhasznált
+ScotApp_243,Kártyaolvasó érvénytelen kártya
+ScotApp_999,Korlát túllépve
+ScotApp_899,Érvénytelenítés jóváhagyása a következőhöz:
+ScotApp_1220,EFT
+ScotApp_1142,Érmekiadó hiba
+ScotApp_943,Saját táskát használok
+ScotApp_843,843nemhasznált
+ScotApp_1437,"""Árucikk eltávolítva"" korlát túllépve"
+ScotApp_1601,     Kártyakiadó tartálya kifogyóban
+ScotApp_722,722nemhasznált
+ScotApp_622,UPC tűrésének szerkesztése
+ScotApp_522,Hibás PIN-kód
+ScotApp_422,422nemhasznált
+ScotApp_322,322nemhasznált
+ScotApp_222,"Nyomtató által kért műveletek: Nézze meg, vannak-e hibák a nyomtatón vagy az Eseménynézőben, majd érintse meg a ""Megszüntettem a problémát"" gombot."
+ScotApp_122,122nemhasznált
+ScotApp_1010,1010nemhasznált
+ScotApp_922,922nemhasznált
+ScotApp_822,Árucikk érvénytelenítésének jóváhagyása
+ScotApp_1715,SuspensionDecline Approval
+ScotApp_1227,IDŐKORLÁTOZÁS ALÁ ESIK
+ScotApp_701,701nemhasznált
+ScotApp_601,601nemhasznált
+ScotApp_401,"Helyezze be a kártyát. Kérem, nézze meg, vannak-e kosarában további árucikkek."
+ScotApp_301,Írja be a kupon értékét
+ScotApp_201,Bejelentkezés tesztelése...
+ScotApp_101,Ismeretlen ár
+ScotApp_1633,Bankjegy-visszaforgató hiba
+ScotApp_901,Csomagolás kihagyása jóváhagyva.
+ScotApp_801,Rekesz vásárlása
+ScotApp_1824,Digitális blokk nem lett létrehozva.
+ScotApp_1328,Dupla súly
+ScotApp_1299,Tranzakció elindítása és belépés Segítő üzemmódba
+ScotApp_1226,VISSZAHÍVOTT ÁRUCIKK
+ScotApp_1140,Elakadás a bankjegykiadóban.
+ScotApp_1579,Bankjegybefizető
+ScotApp_1426,%s\n%d helyes?
+ScotApp_1632,"Vegye le a bankjegyfedelet. Ellenőrizze a bankjegyellenőrzőhöz menő kábelt, és próbálkozzon újra.  Ha a hiba ismét fellép, hívjon karbantartót.\n\nSafePay hiba: %s"
+ScotApp_1141,%s kiadása sikertelen. VIGYÁZAT: Elakadt bankjegyek lehetnek a bankjegykiadó tetejében.
+ScotApp_1791,Csak készpénz
+ScotApp_1357,Ajándékkártya beszedése
+ScotApp_763,763nemhasznált
+ScotApp_714,714nemhasznált
+ScotApp_614,Kötelező csomagolás
+ScotApp_514,514nemhasznált
+ScotApp_314,tartályprobléma
+ScotApp_214,Terhelés-ellenőrzés
+ScotApp_114,Az árucikk nem vethető el
+ScotApp_1369,Egyéb
+ScotApp_78,ATM (terhelés)
+ScotApp_1630,Bankjegy-visszaforgató hiba
+ScotApp_58,OK
+ScotApp_48,48nemhasznált
+ScotApp_914,"Menjen a pénztársorhoz, távolítsa el a többlet-árucikkeket, majd érintse meg az ""Áthaladhat"" gombot."
+ScotApp_1422,Kézi leolvasó
+ScotApp_18,Összeg
+ScotApp_1147,Biztonsági mérleg hiba
+ScotApp_1578,Összérték:
+ScotApp_1022,Nem akarom csomagolni\nezt az árucikket
+ScotApp_98,98nemhasznált
+ScotApp_88,88nemhasznált
+ScotApp_1003,Időkorlátos
+ScotApp_1434,Életkori korlátozás alá esik
+ScotApp_1356,Beszedés
+ScotApp_1212,EGYÉB
+ScotApp_1455,Érvénytelen szám
+ScotApp_1713,A felfüggesztés elutasítását fogadja el a Jóváhagyás gombbal
+ScotApp_1565,Írja be a(z) %s töltési értékét
+ScotApp_194,Eszközkezelő betöltése folyamatban...
+ScotApp_1275,FELHASZNÁLÓÁLTALDEF17
+ScotApp_1146,A befizető nem reagál.
+ScotApp_1303,Elfogadott hűségkártya száma: %s
+ScotApp_70,70nemhasznált
+ScotApp_60,Hívjon segítséget
+ScotApp_50,50nemhasznált
+ScotApp_40,Üzlet engedélye
+ScotApp_30,Érvénytelenített árucikkek
+ScotApp_20,20nemhasznált
+ScotApp_10,10nemhasznált
+ScotApp_1779,"Az árucikk csak akkor törölhető, ha kuponja már törölve van. Előbb törölje az árucikk kuponját."
+ScotApp_1211,ALAPÉRTELMEZÉS
+ScotApp_90,90nemhasznált
+ScotApp_80,80nemhasznált
+ScotApp_663,PIN-beviteli hiba
+ScotApp_463,Távoli jóváhagyás lezárása folyamatban...
+ScotApp_363,\nA számbillentyűzeten írja be az eladói jelszót.
+ScotApp_163,163nemhasznált
+ScotApp_1420,%s\nárucikk elvetése?
+ScotApp_1145,Érmebefizető hiba
+ScotApp_963,Kérés elvetése
+ScotApp_863,Kupon értékének beírása
+ScotApp_1816,Az érmék elakadtak vagy ajtó nyitva.
+ScotApp_1637,Kábelprobléma
+ScotApp_742,742nemhasznált
+ScotApp_642,Cikk hozzáadva. Olvassa le a következő cikket.
+ScotApp_542,Az eladó vonalkódja nem hozható létre.
+ScotApp_342,Írja be a leírást
+ScotApp_242,Kártyaolvasó kártyaelakadás
+ScotApp_142,Erősítse meg az összeget
+ScotApp_1210,UTOLSÓ MEGTEKINTÉS
+ScotApp_942,942nemhasznált
+ScotApp_842,842nemhasznált
+ScotApp_1044,Eladó által segített fizetés
+ScotApp_1427,Mennyiség módosítása ennél az árunál: \n%s
+ScotApp_721,721nemhasznált
+ScotApp_621,Alapértelmezés
+ScotApp_1341,Hangerőszabályzó
+ScotApp_421,"Olvassa le árucikkeit, vagy a kezdéshez érintse meg a ""Kezdés"" gombot."
+ScotApp_321,Tranzakció ellenőrzése
+ScotApp_221,Csukja be és zárja be a nyomtatószekrény ajtaját.
+ScotApp_121,az árucikkeket erről a pénztárhelyről.
+ScotApp_1636,Érme-visszaforgató hiba
+ScotApp_921,A biztonsági mérlegen súlynak kell lennie.
+ScotApp_821,821nemhasznált
+ScotApp_600,Biztonsági karbantartás
+ScotApp_500,500nemhasznált
+ScotApp_400,400nemhasznált
+ScotApp_1368,Sigcap
+ScotApp_200,Transaction Broker tesztelése folyamatban...
+ScotApp_100,Meg kell adni a mennyiséget
+ScotApp_1076,Figyelem
+ScotApp_1623,Tegye át a bankjegyeket a kazettába kiürítéshez.
+ScotApp_1340,Teljes rendszer lezárása
+ScotApp_1108,"%s\t%s\t%s, %s %s/%s\t%s"
+ScotApp_1814,"Adagoló tartály kivéve, vagy nincs jól a helyén."
+ScotApp_1758,Kupontartály hiba
+ScotApp_1635,"Ellenőrizze a bankjegy-visszaforgatóhoz menő kábelt, és próbálkozzon újra.   Ha a hiba ismét fellép, hívjon karbantartót.\n\nSafePay hiba: %s"
+ScotApp_1557,Kiadó kiürítése
+ScotApp_734,734nemhasznált
+ScotApp_634,634nemhasznált
+ScotApp_534,Időkorlátozás alá eső árucikkek
+ScotApp_1413,"Kérem, a következő # percen belül fejezze be tranzakcióját.  Hamarosan áramszünet lehet."
+ScotApp_334,Kártyaolvasó nincs kártya
+ScotApp_234,"Vegye ki a bankjegykazettát.\n\nVegye ki a kazettából a bankjegyeket.\n\nCsúsztassa be a kazettát reteszelésig.\n\nA kazetta karját meghúzva győződjön meg róla, hogy a retesz a helyén tartja a kazettát."
+ScotApp_1569,Érték
+ScotApp_1801,Üzemmód
+ScotApp_934,Súlynövekedés
+ScotApp_1622,Kazetta
+ScotApp_768,Megerősítés felfüggesztése
+ScotApp_668,Aláírás nyomtatása sikeres.
+ScotApp_1347,Visszacsatlakozás megkísérlése
+ScotApp_1778,Áthaladhat
+ScotApp_168,Olvassa le kuponjait és tegye őket félre a vásárlás végéig.
+ScotApp_1203,ELFOGADOTT DOKUMENTUM
+ScotApp_1634,Kábelprobléma
+ScotApp_1556,Befizető kiürítése
+ScotApp_1412,Segítési funkciók
+ScotApp_1783,BIZTONSÁGI FEDÉL NYITVA
+ScotApp_1232,JÓVÁHAGYOTT ALÁÍRÁS
+ScotApp_1568,Összeg:        %s
+ScotApp_1800,Válassza ki az üzemmódot
+ScotApp_1495,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1621,Bankjegykazetta kinyitása
+ScotApp_1346,"A pénztársor offline állapotban van, és a rendszer megpróbál visszacsatlakozni."
+ScotApp_72,72nemhasznált
+ScotApp_62,Igen
+ScotApp_52,Kuponok elvetése
+ScotApp_42,Érvénytelenített árucikkek
+ScotApp_32,Tovább
+ScotApp_12,"  Men %d, %s/db"
+ScotApp_1411,Mennyiség módosítása
+ScotApp_92,Üdvözlöm!
+ScotApp_82,82nemhasznált
+ScotApp_1807,_ _ _
+ScotApp_1089,Kimutatási időszak vége
+ScotApp_1620,Bankjegyfedél kinyitása
+ScotApp_1345,Security Manager leállítása folyamatban...
+ScotApp_1819,Az érme-visszaforgató befizetőjének hibái
+ScotApp_762,762nemhasznált
+ScotApp_662,%
+ScotApp_1554,Befizető
+ScotApp_462,Távoli jóváhagyás betöltve.
+ScotApp_362,Írja be a jelszót
+ScotApp_262,262nemhasznált
+ScotApp_162,Olvassa le árucikkeit és kuponjait.
+ScotApp_1410,Ár módosítása
+ScotApp_962,"Szedje össze az érvénytelenített árucikket a pénztársorban, majd érintse meg az ""Érvénytelenítés jóváhagyása"" gombot."
+ScotApp_862,Kupon értékének beírása:
+ScotApp_1806,"\n\nA tranzakció befejezéséhez és a visszajáró kézi átadásához érintse meg a ""Csak kártyák"" gombot."
+ScotApp_1088,1088nemhasznált
+ScotApp_1627,Érme-/bankjegy-visszaforgató hiba
+ScotApp_741,741nemhasznált
+ScotApp_641, Tételek  Jóváhagyva  Tétellista   Tol.Type    Tol.Value     Dátum
+ScotApp_541,Eladó bejelentkezési vonalkódjának nyomtatása
+ScotApp_441,Erősítse meg az összeget
+ScotApp_341,341nemhasznált
+ScotApp_241,Eszközkezelő váratlan hiba
+ScotApp_141,Válassza ki a kártya típusát
+ScotApp_941,Érvénytelenített árucikk
+ScotApp_841,Árucikk bevitele
+ScotApp_1873,1873unused
+ScotApp_25,Születési dátum:
+ScotApp_720,720nemhasznált
+ScotApp_520,Az árucikk kódja ismeretlen
+ScotApp_420,420nemhasznált
+ScotApp_320,Vissza
+ScotApp_220,"* Nyissa ki a nyomtatószekrény ajtaját.\n* Nyissa fel a nyomtató fedelét, és nézze meg, nincs-e elakadás.\n* Töltsön be új papírtekercset a nyomtatóba.\n* Csukja be és zárja be a nyomtatószekrény ajtaját."
+ScotApp_120,Tranzakció elvetve. Távolítsa el
+ScotApp_1626,"Helyezzen be készpénzt a feltöltéshez, vagy válasszon másik funkciót."
+ScotApp_1423,A kézi leolvasó csatlakozni próbál.
+ScotApp_920,Jóváhagyás / nincs frissítés
+ScotApp_820,Érvénytelenítés jóváhagyása
+ScotApp_1757,"Ékezetes betűhöz érintsen meg egy ""Ékezet"" gombot a képernyő alján, majd írja be a betűt."
+ScotApp_1872,1872unused
+ScotApp_754,Előző 7 nap összesítése
+ScotApp_554,Terhelési kártyát most ne húzzon le.
+ScotApp_1613,Selejttartály
+ScotApp_354,Rendszerfunkciók
+ScotApp_254,Érmekiadó üzemképtelen.\nTöltse fel az érmekiadót vagy\nKapcsolja be a tápfeszültséget vagy\nSzüntesse meg a kiadó elakadását.
+ScotApp_154,Betöltés folyamatban...
+ScotApp_1769,Kód beírása
+ScotApp_1240,KÉSZPÉNZ
+ScotApp_954,Smart Scale megnyitás sikertelen
+ScotApp_854,Öt árucikk
+ScotApp_1547,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1403,"Állítsa le és indítsa újra az NCR SelfServ Checkout kassza programját. Ha a probléma fennáll, kérje a help desk segítségét."
+ScotApp_545,Korlátozás alá eső árucikk
+ScotApp_1559,Kilépés
+ScotApp_1871,%s %s észlelt
+ScotApp_1612,Kártyakezelés
+ScotApp_1550,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_845,További árucikkek leolvasása:
+ScotApp_1564,Írja be a(z) %s töltési darabszámát
+ScotApp_1768,Nem támogatott súlyegység.
+ScotApp_1272,FELHASZNÁLÓÁLTALDEF14
+ScotApp_1546,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_74,Érvénytelenítések jóváhagyása
+ScotApp_64,Kiválasztott elvetése
+ScotApp_54,Mégse
+ScotApp_44,44nemhasznált
+ScotApp_34,34nemhasznált
+ScotApp_1558,Kilépés és mentés
+ScotApp_14,14nemhasznált
+ScotApp_1870,%s %s várt
+ScotApp_1389,Aláírásrögzítő eszköz hiba
+ScotApp_1611,     Selejttartály megtelt
+ScotApp_94,94nemhasznált
+ScotApp_84,Opciók betöltése
+ScotApp_1289,B - C
+ScotApp_687,Kimutatás nyomtatása
+ScotApp_587,Aláírás
+ScotApp_487,Le
+ScotApp_387,Továbbítási elakadás
+ScotApp_287,Leolvasó: Érvénytelen címke
+ScotApp_1545,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1336,Segédprogram
+ScotApp_987,Árucikk eltávolítva a szalagról. Tegye vissza az árucikket.
+ScotApp_887,Árucikk eltávolítva
+ScotApp_555,Más fizetés
+ScotApp_1610,     Selejttartály csaknem megtelt (%s)
+ScotApp_1041,Aláírás jóváhagyása
+ScotApp_1691,Készpénzkezelés
+ScotApp_1809,Az érme-visszaforgató kiadójának hibái
+ScotApp_1288,A
+ScotApp_761,761nemhasznált
+ScotApp_1193,SZEMÉLYAZONOSSÁG ELLENŐRIZVE
+ScotApp_561,Tegye félre a kupont
+ScotApp_461,Távoli jóváhagyás betöltése folyamatban...
+ScotApp_361,Pénztársor lezárva
+ScotApp_261,261nemhasznált
+ScotApp_961,"Súlytanuló adatbázis hiba: Nézze meg a hibákat az Eseménynézőben, majd érintse meg a ""Megszüntettem a problémát"" gombot."
+ScotApp_861,861nemhasznált
+ScotApp_1876,%s %s észlelt
+ScotApp_740,740nemhasznált
+ScotApp_640,Meglévő WLDB súlybejegyzések
+ScotApp_540,540nemhasznált
+ScotApp_340,Válassza ki az árucikket a listából. A nyílgombokkal görgethet fel és le.
+ScotApp_240,Eszközkezelő általános hiba
+ScotApp_140,Köszönöm
+ScotApp_1105,"e=d=0,005kg Max 13,995kg min 0,1kg Nmax 2799"
+ScotApp_1192,ÖSSZEÁLLÍTÁSI DÍJ
+ScotApp_940,Visszavonás
+ScotApp_840,Árucikk bevitele:
+ScotApp_1863,Érintse meg a „Jóváhagyás” vagy az „Árucikk érvénytelenítése” gombot.
+ScotApp_1463,Érték megváltozott
+ScotApp_1875,%s %s várt
+ScotApp_774,Szerzett pontszám:
+ScotApp_674,"""Fizetés elutasítva, oka: """
+ScotApp_780,780nemhasznált
+ScotApp_474,474nemhasznált
+ScotApp_374,Nyomtató fekete jel hiba
+ScotApp_174,"A leolvasott árucikk nem található.\n\nVagy még nem vásárolta meg, vagy már elvetette."
+ScotApp_1029,Kupon behelyezése
+ScotApp_974,974nemhasznált
+ScotApp_1679,Érme-/bankjegy-visszaforgató hiba
+ScotApp_1747,Ujjlenyomat-olvasó hiba
+ScotApp_1862,Ellenőrizze a leolvasó mérlegen lévő árut
+ScotApp_1603,     Kártyakiadó tartálya normális
+ScotApp_1419,Többcsomagos
+ScotApp_1759,Kupontartály megtelt
+ScotApp_649,Beágyazott ár
+ScotApp_1039,Az előző árucikkeken van EAS címke.
+ScotApp_849,Szükséges mennyiség
+ScotApp_765,765nemhasznált
+ScotApp_565,Bejelentkezés a terminálba
+ScotApp_1549,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1861,ÁRULISTA
+ScotApp_1731,PickList Images betöltése folyamatban...
+ScotApp_76,76nemhasznált
+ScotApp_66,66nemhasznált
+ScotApp_56,Fizetés elvetése
+ScotApp_46,Segítség
+ScotApp_36,Visszatérítve:
+ScotApp_26,26nemhasznált
+ScotApp_16,kártyáján %s terhelés fog megjelenni.
+ScotApp_719,719nemhasznált
+ScotApp_619,Tűrés szerk.: a <Tűrés beírása> vagy az <Alapértelmezés> gombbal.
+ScotApp_519,Túl nagy értékű kupon
+ScotApp_419,419nemhasznált
+ScotApp_319,Fizetés kártyával
+ScotApp_219,219nemhasznált
+ScotApp_119,Összes árucikk eltávolítása
+ScotApp_96,96nemhasznált
+ScotApp_86,86nemhasznált
+ScotApp_1755,Válasszon a listából
+ScotApp_1038,Aláírás ellenőrzése
+ScotApp_919,"Ellenőrizze az árucikk súlyát, majd érintse meg a ""Súly jóváhagyása és frissítése"" vagy a ""Jóváhagyás / nincs frissítés"" gombot."
+ScotApp_1489,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1745,"Az ujjlenyomat-olvasó nincs csatlakoztatva.\n\nKérem, próbálkozzon újra."
+ScotApp_1860,"Válasszon az árulistában felsorolt árukból, vagy keresse meg az árucikket betűrend szerint."
+ScotApp_1268,FELHASZNÁLÓÁLTALDEF10
+ScotApp_1008,1008nemhasznált
+ScotApp_786,Felfüggesztve a pénztársorban
+ScotApp_686,Tegnap
+ScotApp_586,Kuponok: %0.0ld/Ft%0.2lf
+ScotApp_486,Fel
+ScotApp_386,Kazetta eltávolítva
+ScotApp_286,Leolvasó: Érvénytelen címke-prefix2
+ScotApp_186,186nemhasznált
+ScotApp_1488,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_986,986nemhasznált
+ScotApp_886,Árucikk eltávolítva a csomagoló területről.\nTegye vissza.
+ScotApp_1393,"Állítsa le és indítsa újra az NCR SelfServ Checkout kassza programját. Ha a probléma fennáll, kérje a help desk segítségét."
+ScotApp_1867,Kamera rálátása takarva
+ScotApp_68,68nemhasznált
+ScotApp_38,38nemhasznált
+ScotApp_28,Vásárlás elvetése
+ScotApp_1024,1024nemhasznált
+ScotApp_760,Húzza le kártyáját a monitor oldalán.
+ScotApp_660,Minden pénz normál szinten
+ScotApp_460,Ezzel befejezi vásárlását.
+ScotApp_360,Zárja le a pénztársort
+ScotApp_260,260nemhasznált
+ScotApp_1392,Tri-Light hiba
+ScotApp_960,"Csomagmérleg hiba: Nézze meg a csomagmérleg vagy az eseménynéző hibáit, majd érintse meg a ""Megszüntettem a problémát"" gombot."
+ScotApp_860,Mérés szükséges:
+ScotApp_1866,Népszerűbb
+ScotApp_1459,Készpénzkezelési kimutatás
+ScotApp_1239,NINCS
+ScotApp_1301,Árulista szerkesztése
+ScotApp_1749,Ujjlenyomat feldolgozása folyamatban
+ScotApp_1017,Távolítsa el a feltorlódott árucikkeket a szalagról.
+ScotApp_1771,Kupon-értékhatár
+ScotApp_739,739nemhasznált
+ScotApp_639,Várt súly     Súly összehas.
+ScotApp_539,539nemhasznált
+ScotApp_439,439nemhasznált
+ScotApp_339,339nemhasznált
+ScotApp_239,Eszközkezelő váratlan állapot
+ScotApp_1092,Kimutatás tartalma
+ScotApp_1851,Ne hagyja jóvá 
+ScotApp_1238,EGYÉB FIZETÉS
+ScotApp_939,Időzítő lejárt
+ScotApp_839,Művelet elvetése
+ScotApp_1333,Visszatörlés
+ScotApp_24,Érvénytelenítve
+ScotApp_1016,Feltorlódott árucikkek a szalagon
+ScotApp_1615,"A kiürítéshez érintse meg a ""Kiadó ürítése"" gombot."
+ScotApp_1723,Tanuló tranz
+ScotApp_1028,Kuponkorlát túllépve
+ScotApp_1435,Érmekiadó/bankjegykiadó hiba
+ScotApp_1698,"Érintse meg az ""Állapot kijavítva"" gombot."
+ScotApp_1688,Kazettahiba
+ScotApp_454,454nemhasznált
+ScotApp_1593,Távolítsa el az érméket
+ScotApp_1642,Bankjegy-visszaforgató hiba
+ScotApp_1015,Feltorlódott árucikkek
+ScotApp_785,785nemhasznált
+ScotApp_685,Óránként
+ScotApp_585,585nemhasznált
+ScotApp_536,Érmebefizető
+ScotApp_385,385nemhasznált
+ScotApp_285,Leolvasó: Érvénytelen címke-utótag
+ScotApp_185,Hasonlítsa össze a vásárló aláírását a kártyán szereplővel.
+ScotApp_1224,ÁR SZÜKSÉGES
+ScotApp_985,Tegye az árucikket a szalagra.
+ScotApp_885,Csomagolási riasztás
+ScotApp_575,Készpénzes fizetés befejezése.  Fizetendő összeg.
+ScotApp_475,Tranzakció felfüggesztése
+ScotApp_375,Nyomtató időtúllépés
+ScotApp_1002,Nem adható el
+ScotApp_1888,majd érintse meg az „Áthaladhat” gombot.
+ScotApp_910,910nemhasznált
+ScotApp_1592,"Távolítsa el az érméket az elakadt tartályból. Döntse meg a tartályt. Forgassa a csavart jobbra, amíg ki nem tudja venni az érmét. Ne alkalmazzon túlzott erőt."
+ScotApp_875,Főpénztáros azonosítója vásárlás elvetéséhez
+ScotApp_1014,Távolítsa el a feltorlódott árucikkeket a szalagról.
+ScotApp_1572,Biztosan figyelmen kívül hagyja az Érmekezelő képernyő változásait?
+ScotApp_1790,Csak hitelkártyák / betéti kártyák
+ScotApp_1344,Security Manager betöltve.
+ScotApp_798,798nemhasznált
+ScotApp_698,698nemhasznált
+ScotApp_598,%d sz. űrlap tárolása sikertelen!
+ScotApp_498,Fizetve:
+ScotApp_398,Kazetta behelyezve
+ScotApp_298,298nemhasznált
+ScotApp_198,User Exits betöltése folyamatban...
+ScotApp_998,Mennyiség
+ScotApp_898,WTINFO leáll...
+ScotApp_1416,"Ellenőrizze, többcsomagos-e"
+ScotApp_1431,Összes törlése
+ScotApp_1236,Kimutatás feldolgozása...
+ScotApp_1770,Válasszon a keresés eredményeiből.
+ScotApp_1000,Nem található
+ScotApp_1439,"""Csomag/doboz"" korlát túllépve"
+ScotApp_1217,ÉRVÉNYTELENÍTÉS
+ScotApp_759,Húzza végig kártyáját a fizető terminálon.
+ScotApp_659,Pénz kifogyóban állapot:
+ScotApp_559,Nincs kuponokat
+ScotApp_459,A vásárlás után lesz fennmaradó egyenlege.
+ScotApp_359,Rendszerfunkciók
+ScotApp_259,Eszközkezelő leállása folyamatban...
+ScotApp_1007,Segítségkérés
+ScotApp_1438,"""Új árucikk"" korlát túllépve"
+ScotApp_959,Súlytanuló adatbázis
+ScotApp_859,Nem
+ScotApp_1216,BIZTONSÁG
+ScotApp_1373,AJÁNDÉKKÁRTYA BESZEDÉSE
+ScotApp_1005,Vizuális ellenőrzés
+ScotApp_1655,Osztály eladása
+ScotApp_1228,FELFÜGGESZTVE
+ScotApp_1725,Biztonság letiltva
+ScotApp_1006,Más fizetés
+ScotApp_496,Mennyiségi korlát
+ScotApp_1018,Minimum életkor.
+ScotApp_1160,"Ellenőrizze, csatlakoztatva van-e a kábel a PinPad hátuljába.\n\nHa jól van csatlakoztatva, érintse meg a ""Megszüntettem a problémát"" gombot.\n\nHa a hiba fennáll, zárja le és indítsa újra a terminált."
+ScotApp_1073,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;DATANEEDEDTYPE=%d;
+ScotApp_1424,"A kézi leolvasó csatlakoztatásához érintse meg a ""Csatlakozás"" gombot."
+ScotApp_1202,LEZÁRT PÉNZTÁRSOR
+ScotApp_679,Segítségnyújtási kimutatások
+ScotApp_1792,Csak kártyák
+ScotApp_1214,BLOKK
+ScotApp_1804,"Kilépés ""Csak kártyák"" üzemmódból"
+ScotApp_879,879nemhasznált
+ScotApp_1072,Információ szükséges
+ScotApp_1631,Bankjegyellenőrző hiba
+ScotApp_1148,A biztonsági mérleg komponensei meghibásodtak
+ScotApp_1244,TERHELÉSI MEGTAKARÍTÁS
+ScotApp_1004,Cikk ell.
+ScotApp_1282,Ár kell a következőhöz:
+ScotApp_1071,1071nemhasznált
+ScotApp_1276,FELHASZNÁLÓÁLTALDEF18
+ScotApp_1200,ÁR BEKÉRÉSE
+ScotApp_1639,Érme-visszaforgató hiba
+ScotApp_1828,\n    - Hangerő %d%%
+ScotApp_1308,PIN beírva
+ScotApp_1417,"Ha többcsomagos az árucikk, a ""Segítő üzemmód"" gombot megérintve törölje, majd olvassa le a többcsomagos vonalkódot."
+ScotApp_1343,Security Manager betöltése folyamatban...
+ScotApp_779,779nemhasznált
+ScotApp_1429,<<<Érme kevés. Töltse fel.>>>
+ScotApp_579,579nemhasznált
+ScotApp_479,Adja le a kuponokat
+ScotApp_379,Készpénzbefizető
+ScotApp_279,Fogadja el az összes rögzített biztonsági problémát.
+ScotApp_179,179nemhasznált
+ScotApp_1865,Cikk-keresés\n súly nélkül
+ScotApp_1207,ELLENŐRZÖTT ALÁÍRÁS
+ScotApp_1638,"Ellenőrizze az érme-visszaforgató kábeleit, és próbálkozzon újra. Ha a hiba ismét fellép, hívjon karbantartót.\n\nSafePay hiba: %s"
+ScotApp_979,Küszöbérték = %d vásárlói kérés
+ScotApp_707,Előző 7 nap
+ScotApp_607,Kötelező csomagolás beállítása
+ScotApp_507,Vizuálisan ellenőrizze az árucikkeket.
+ScotApp_307,Másik rekesz
+ScotApp_207,207nemhasznált
+ScotApp_107,Érkezik a segítség
+ScotApp_1219,ÉLETKORI KORLÁTOZÁS ALÁ ESIK
+ScotApp_907,907nemhasznált
+ScotApp_807,Biztonsági címkék eltávolítása
+ScotApp_1077,Tegye vissza az árucikkeket a szalagra
+ScotApp_1428,Ár módosítása erre az árura: \n%s
+ScotApp_1695,Rendbehozás később
+ScotApp_1206,NEM INAKTIVÁLT ÁRUCIKK
+ScotApp_1218,BESZEDÉS
+ScotApp_1782,TRANZAKCIÓ INDÍTÁSA SEGÍTŐ ÜZEMMÓDBAN
+ScotApp_1273,FELHASZNÁLÓÁLTALDEF15
+ScotApp_1624,Összes bankjegy áthelyezése a kazettába
+ScotApp_793,793nemhasznált
+ScotApp_1059,1059nemhasznált
+ScotApp_593,NCR SelfServ Checkout SigCap betöltése...
+ScotApp_493,Blokkját a fizető terminál alatt kapja meg.
+ScotApp_393,Naplónyomtató
+ScotApp_293,Segítségkérés
+ScotApp_1205,CSOMAGOLÁSI TERÜLETEN TORLÓDÁS
+ScotApp_993,Pénztársor lezárva
+ScotApp_893,DBM töltődik...
+ScotApp_1063,1063nemhasznált
+ScotApp_1414,"Ez a pénztársor nem működik, amíg vissza nem áll a tápfeszültség."
+ScotApp_1182,KUPONÖSSZEG-KORLÁT
+ScotApp_1201,SEGÍTETT FIZETÉS
+ScotApp_1075,Korlát \ Szalag kihagyása
+ScotApp_1348,Pénztársor lezárva
+ScotApp_1671,"Nyissa fel a bankjegy-visszaforgató egységet és távolítsa el a bankjegyeket a kazettából. Zárja be a visszaforgató egységet.\nAdja ki az érméket az adagolóból, és távolítsa el őket a visszajáró tartójából."
+ScotApp_1204,DOKUMENTUM SZÁMA
+ScotApp_1284,1284nemhasznált
+ScotApp_1062,1062nemhasznált
+ScotApp_1233,EGYÉB FIZETÉS
+ScotApp_27,27nemhasznált
+ScotApp_1074,Jóváhagyás a szalag kihagyására.
+ScotApp_1472,Készpénz-visszaforgató Az eszköz nem üzemkész
+ScotApp_1026,Tranz. elvet
+ScotApp_1061,1061nemhasznált
+ScotApp_1617,A beírt mennyiség meghaladja a kapacitást. Írja be újra a kiadó tartály töltési darabszámát. A maximális kapacitás %d darab.
+ScotApp_1050,1050nemhasznált
+ScotApp_744,744nemhasznált
+ScotApp_1591,"Ellenőrizze, jól vannak-e bedugva az érmekiadó felé menő kábelek."
+ScotApp_1130,Bankjegybefizető hiba
+ScotApp_1270,FELHASZNÁLÓÁLTALDEF12
+ScotApp_1629,"Probléma a CPU beállításaival vagy a rendszeradatok paramétereivel.  Kérem, hívjon karbantartót.\n\nSafePay hiba: %s"
+ScotApp_1820,"Vegye le az árucikket a mérlegről, majd nyomja meg a leolvasón a "">0<"" gombot."
+ScotApp_882,Erősítse meg a felfüggesztést.
+ScotApp_1440,Bankjegykezelés
+ScotApp_1407,ÚJRAINDÍTÁS
+ScotApp_727,727nemhasznált
+ScotApp_627,Tranzakció száma:
+ScotApp_527,527nemhasznált
+ScotApp_427,Media Low
+ScotApp_327,"Eszköz off-line, ellenőrizze a csatlakozásokat és/vagy az eseménynaplót:"
+ScotApp_227,Kártyaolvasó a betett kártya érvénytelen
+ScotApp_127,127nemhasznált
+ScotApp_665,"A folytatáshoz válassza az ""Összes eltávolítása"" vagy a ""Vissza"" lehetőséget."
+ScotApp_1060,"KÉREM, VÁRJON..."
+ScotApp_1616,Írja be a kiadó tartály töltési darabszámát. Maximum %d darabot tölthet be.
+ScotApp_927,Az eszköz hibásan működik
+ScotApp_827,"Húzza el az árucikk vonalkódját a leolvasó felett, majd tegye a csomagoló területre."
+ScotApp_1540,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_900,Tegye az árucikket a csomagoló területre.
+ScotApp_1277,FELHASZNÁLÓÁLTALDEF19
+ScotApp_865,Kártyatulajdonos ellenőrzése
+ScotApp_506,506nemhasznált
+ScotApp_406,406nemhasznált
+ScotApp_306,Nincs rekesz
+ScotApp_206,Opciók be lesznek töltve.
+ScotApp_106,Segítség szükséges
+ScotApp_1209,AJÁNDÉKKÁRTYA-KORLÁT TÚLLÉPVE
+ScotApp_806,Vizuálisan ellenőrzött árucikkek jóváhagyása
+ScotApp_1067,1067nemhasznált
+ScotApp_1418,Maximális megengedett súly túllépve.
+ScotApp_1473,"Az eszköz nem üzemkész. \n\nKapcsolja be a tápkapcsolót, ellenőrizze az adatátviteli kábelt, vagy tegye vissza az egységet a szekrénybe. "
+ScotApp_187,187nemhasznált
+ScotApp_1716,WE:
+ScotApp_1190,BEÍRT KUPON
+ScotApp_1602,     Kártyakiadó tartálya kifogyóban (%s)
+ScotApp_1149,Blokknyomtató-hiba
+ScotApp_1066,1066nemhasznált
+ScotApp_1614,Kiadó tartály
+ScotApp_792,792nemhasznált
+ScotApp_692,692nemhasznált
+ScotApp_592,NCR SelfServ Checkout Encryptor betöltve.
+ScotApp_492,"Kérem, vegye el a visszajárót."
+ScotApp_392,Ismeretlen árucikkek
+ScotApp_292,Nem tudom leolvasni a kupon
+ScotApp_192,192nemhasznált
+ScotApp_1241,JÓVÁÍRÁS
+ScotApp_1197,ELVETETT TRANZAKCIÓ
+ScotApp_1548,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_992,Írja be a születésnapot
+ScotApp_892,Smart Scale leáll...
+ScotApp_1053,"Várjon, míg a pénztáros hozza az aláírandó papírszalagot."
+ScotApp_1404,"POS-kiszolgáló leállt vagy nincs szinkronban, zárja le a terminált a kapcsolóval."
+ScotApp_1245,TERHELÉS-ELLENŐRZÉS
+ScotApp_1262,FELHASZNÁLÓÁLTALDEF4
+ScotApp_1471,Érme-visszaforgató eszközhiba
+ScotApp_1196,VEZETŐ JOGOSÍTVÁNYSZÁMA
+ScotApp_1052,1052nemhasznált
+ScotApp_1600,Kártyakiadó állapota:
+ScotApp_1663,tartály üres vagy elakadt
+ScotApp_1261,FELHASZNÁLÓÁLTALDEF3
+ScotApp_1125,"Az érmetartályban töltsön fel minden érmecsatornát a tetejéig.\n\nLépjen be Üzlet üzemmódba, válassza a ""Készpénz / papír állapota"" lehetőséget és érintse meg az ""Érmekiadó újratöltve"" gombot."
+ScotApp_1183,ÁR BEKÉRÉSE
+ScotApp_1470,Bankjegy-visszaforgató eszközhiba
+ScotApp_1195,CSA FELFÜGGESZTVE
+ScotApp_1229,SEGÍTSÉGET KÉRT
+ScotApp_1051,Papírszalag jóváhagyása
+ScotApp_1607,     Selejttartály normális (%s)
+ScotApp_1895,Genr Excp
+ScotApp_747,747nemhasznált
+ScotApp_647,N
+ScotApp_447,Törzsvásárlói számlája aktiválva lett.
+ScotApp_347,"Korlátozás alá eső árucikk elvetve - a korhatár nem teljesült. Kérem, tegye félre az árucikket."
+ScotApp_247,247nemhasznált
+ScotApp_147,147nemhasznált
+ScotApp_1260,FELHASZNÁLÓÁLTALDEF2
+ScotApp_1619,Felfügg.
+ScotApp_769,Erősítse meg vagy vesse el a felfüggesztést.
+ScotApp_947,Új súlybejegyzés
+ScotApp_847,Leolvasás befejezve
+ScotApp_1477,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_726,726nemhasznált
+ScotApp_626,Tűrés:
+ScotApp_526,\nHibás PIN-kódot írt be.\nHúzzon végig egy másik kártyát\n   vagy\nFizessen készpénzzel
+ScotApp_426,Pénztársor száma:
+ScotApp_326,A születési dátum nem felel meg a korlátozás alá eső árucikkek korhatárának.
+ScotApp_226,A kártyaolvasó üzemképtelen
+ScotApp_126,(hhnnéé).
+ScotApp_1606,     Selejttartály normális
+ScotApp_926,Az árucikkek nem lettek visszatéve a csomagoló területre.
+ScotApp_826,Nem akarom csomagolni\nezt az árucikket
+ScotApp_1267,FELHASZNÁLÓÁLTALDEF9
+ScotApp_1618,"Egy bankjegykiadó kazetta kivéve, vagy nincs teljesen a helyén.\n\nTegye be a bankjegykazettát, vagy csúsztassa a helyére reteszelésig."
+ScotApp_1181,KUPONKORLÁT TÚLLÉPVE
+ScotApp_205,Másolás kész.
+ScotApp_105,Ismeretlen árucikk
+ScotApp_1476,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1730,Keres
+ScotApp_1390,Az eszköz nem reagál
+ScotApp_805,Árucikkek jóváhagyása
+ScotApp_1864,Menjen a pénztársorhoz
+ScotApp_1408,SEGÍTSÉG
+ScotApp_1266,FELHASZNÁLÓÁLTALDEF8
+ScotApp_1180,NINCS ILLESZKEDŐ ÁR
+ScotApp_1208,ELADVA SEGÍTŐ ÜZEMMÓDBAN
+ScotApp_1475,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1397,Eladó
+ScotApp_1748,Ujjlenyomat-olvasó bejelentkezési hiba
+ScotApp_718,718nemhasznált
+ScotApp_618,Súlytűrés
+ScotApp_518,Helyezze be a készpénzt.
+ScotApp_1253,PIP HŰSÉG
+ScotApp_1604,     Kártyakiadó tartálya normális (%s)
+ScotApp_218,A nyomtató csaknem üres
+ScotApp_118,Jóváhagyás szükséges.
+ScotApp_552,Az eladó száma és jelszava nem kezdődhet nullával.
+ScotApp_791,Válasszon fizetési módot
+ScotApp_691,691nemhasznált
+ScotApp_591,NCR SelfServ Checkout Encryptor betöltése...
+ScotApp_391,"Árucikkek, amelyekhez ár kell"
+ScotApp_918,Nincs adat az árucikk súlyáról.
+ScotApp_1187,ESZKÖZHIBA
+ScotApp_991,Életkor-ell.
+ScotApp_891,Smart Scale betöltve.
+ScotApp_1474,Hardverhiba. Hibakód E%d
+ScotApp_1396,Kilépés eladó üzemmódból
+ScotApp_1252,PIP TERHELÉS KÉSZPÉNZFELVÉTEL
+ScotApp_1732,PickList Images betöltve.
+ScotApp_1461,Érmék
+ScotApp_1166,"* Nyissa ki a nyomtatószekrény ajtaját.\n* A nyomtatót a reteszelés kioldása után tolja hátra.\n* Nyissa fel a nyomtató fedelét, és nézze meg, nincs-e elakadás.\n* Zárja le a nyomtató fedelét és töltsön be papírt.\n* Óvatosan húzza előre a nyomtatót reteszelésig."
+ScotApp_1186,VÁRATLAN CSÖKKENÉS
+ScotApp_1857,  Ne tegye a szalagra
+ScotApp_1829,Jóváhagyás
+ScotApp_1670,Érme-/bankjegy-visszaforgató hiba
+ScotApp_1198,BEÍRT SZÁMLASZÁM
+ScotApp_1869,A keze útban van
+ScotApp_1251,PIP TERHELÉS
+ScotApp_1855,Választható
+ScotApp_767,Médiaszint normális
+ScotApp_667,Kártya lehúzva. Olvassa le árucikkeit és kuponjait.
+ScotApp_567,Enter
+ScotApp_467,467nemhasznált
+ScotApp_367,367nemhasznált
+ScotApp_267,Biztonság
+ScotApp_1460,Bankjegyek
+ScotApp_1185,CSOMAG DOBOZ KORLÁT TÚLLÉPVE
+ScotApp_1009,Üzlet üzemmód
+ScotApp_867,Nem
+ScotApp_1856,  Ne csomagolja
+ScotApp_1677,"Győződjön meg róla, hogy az érme-visszaforgató ajtaja zárva van."
+ScotApp_746,746nemhasznált
+ScotApp_646,I
+ScotApp_1394,Digitális interfész hiba
+ScotApp_446,Tranzakció felfüggesztése
+ScotApp_346,ATM (készpénzfelvétel)
+ScotApp_246,246nemhasznált
+ScotApp_146,"Kérem, válassza ki a fizetési módot."
+ScotApp_1501,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1609,     Selejttartály csaknem megtelt
+ScotApp_1194,ENGEDÉLY SZÁMA
+ScotApp_946,Csomag/Doboz jóváhagyás
+ScotApp_846,"Olvasson le árucikkeket, vagy érintse meg a ""Leolvasás befejezve"" gombot."
+ScotApp_1843,Saját táska
+ScotApp_1467,"Készpénz kiürítéséhez használja a ""Készpénz / papír állapota"" képernyőt."
+ScotApp_725,725nemhasznált
+ScotApp_625,Írjon be egy <%s> és <%s> közötti súlytűrést.
+ScotApp_1381,Feldolgozás folyamatban...
+ScotApp_425,425nemhasznált
+ScotApp_325,A beírt dátum érvénytelen.
+ScotApp_225,Kártyaolvasó kimeneti tartálya behelyezve
+ScotApp_1676,Érme-visszaforgató ajtaja nyitva
+ScotApp_925,925nemhasznált
+ScotApp_825,Árucikk csomagolása
+ScotApp_1608,     Selejttartály üres
+ScotApp_1842,Teljes körű segítés
+ScotApp_1808,Válassza ki az árucikket a blokkon.
+ScotApp_1466,Készpénz-visszaforgató állapot Megtelt
+ScotApp_1380,ár
+ScotApp_1854,Választható
+ScotApp_1675,Érme-visszaforgató hiba
+ScotApp_1597,Hűségkártya
+ScotApp_1350,%s\n%s %s hozzáadva
+ScotApp_738,738nemhasznált
+ScotApp_638,Effektív WLDB tűrésadat
+ScotApp_538,538nemhasznált
+ScotApp_338,Írja be az árucikk leírásának első három betűjét.
+ScotApp_238,\nA készpénzbefizető nem naplózta a behelyezett készpénzt.\n\nEllenőrizze a bankjegykazettát.
+ScotApp_138,Vegye el a kártyát
+ScotApp_1170,"Nyissa ki a nyomtatószekrény ajtaját.\n* Nyissa fel a nyomtató fedelét, és ha van papírelakadás, szüntesse meg.\n* Csukja le a nyomtató fedelét és töltsön be papírt.\n* Csukja be és zárja be a nyomtatószekrény ajtaját."
+ScotApp_1841,Jóváhagyáshoz menjen a pénztársorhoz
+ScotApp_1740,Csomag ellenőrzése
+ScotApp_938,938nemhasznált
+ScotApp_838,Vásárlói szerződés
+ScotApp_1133,Elakadás a bankjegybefizetőben.
+ScotApp_1387,"Fatális szoftverhiba történt.\nIndítsa újra a terminált.\n\nA terminál újraindításához:\n* Forgassa a Felügyelő zárját 'S' állásba, vagy nyomja meg a Felügyelő gombot.\n* Válassza a ""Teljes rendszer újraindítása"" lehetőséget.\n* Hívjon karbantartót és mondja el a hibát."
+ScotApp_1674,"Az elutasító gombot megnyomva szabadítsa ki az elakadt érméket.  Ha a hiba ismét fellép, lehet, hogy elakadtak érmék. Nyissa ki és rögzítse az érmenyílás fedelét.  Ha van elakadt érme, távolítsa el.  Az elutasító gombot megnyomva állítson be alaphelyzetet.  Oldja ki és zárja be az érmenyílás fedelét."
+ScotApp_1650,(nnhhéé)
+ScotApp_690,690nemhasznált
+ScotApp_590,Device Factory leállása folyamatban...
+ScotApp_490,"Olvassa le árucikkeit, vagy a kezdéshez érintse meg a ""Kezdés"" gombot."
+ScotApp_390,Visszahívott árucikkek
+ScotApp_290,290nemhasznált
+ScotApp_190,Transaction Broker betöltése folyamatban...
+ScotApp_990,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_890,Smart Scale betöltése folyamatban...
+ScotApp_1772,Kupon
+ScotApp_1661,"A blokkot nem lehet kinyomtatni. Újabb próbálkozáshoz érintse meg a ""Más blokkok"" gombot."
+ScotApp_1132,Adatátviteli hiba.
+ScotApp_1386,Fatális hiba
+ScotApp_784,Bankjegykiadó üzemképtelen\n* Töltse fel a bankjegykiadót vagy\n* Szüntesse meg a kiadó elakadását vagy\n* Állítsa be a kiürítő tartályt.
+ScotApp_684,Ma
+ScotApp_584,EBT elutasítva.
+ScotApp_484,Aláírás szükséges
+ScotApp_384,384nemhasznált
+ScotApp_284,Leolvasó: Adat elveszett
+ScotApp_1595,Preferált nyelv
+ScotApp_1451,Pénztáros azonosítója
+ScotApp_984,Takeaway Belt betöltve.
+ScotApp_884,Vesse el a felfüggesztést
+ScotApp_1847,"Árucikk hozzáadva. Olvassa le az árucikket, vagy érintse meg a ""Írja be a kódot"" gombot"
+ScotApp_1660,Select print option
+ScotApp_1131,"Bankjegykazetta kivéve, vagy nincs jól a helyén."
+ScotApp_1385,Válasszon nyelvet
+ScotApp_1436,"""Csomagolás kihagyása"" korlát túllépve"
+ScotApp_1049,1049nemhasznált
+ScotApp_666,666nemhasznált
+ScotApp_1594,"Üzemszerűen zárja le, majd indítsa újra a terminált."
+ScotApp_466,   Beolvasva Ismeretlen árucikk
+ScotApp_366,Nyomtató a kés elakadt
+ScotApp_266,Bizt. ügynökalkalmazás leállása folyamatban...
+ScotApp_966,966nemhasznált
+ScotApp_1541,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1846,"Olvassa le az árucikket, vagy érintse meg a ""Írja be a kódot"" gombot."
+ScotApp_1667,Bankjegy-elakadás
+ScotApp_1689,Bankjegy-visszaforgató hiba
+ScotApp_745,745nemhasznált
+ScotApp_645,A leolvasott árucikket tegye ismét a csomagoló területre.
+ScotApp_1581,Érmekiadó
+ScotApp_445,Készpénzjuttatás
+ScotApp_345,345nemhasznált
+ScotApp_245,A kártyaolvasó üzemképtelen
+ScotApp_145,145nemhasznált
+ScotApp_945,Korlát\Csomag/Doboz
+ScotApp_713,713nemhasznált
+ScotApp_613,Tegye az árucikket a csomagmérlegre.
+ScotApp_513,513nemhasznált
+ScotApp_313,313nemhasznált
+ScotApp_213,213nemhasznált
+ScotApp_113,Árucikk eltávolítása
+ScotApp_1573,"Feltöltéshez érintse meg a ""Töltés"" gombokat, kiürítéshez érintse meg a ""Befizető ürítése"" és ""Kiadó ürítése"" gombokat."
+ScotApp_913,Váratlan árucikk a biztonsági mérlegen.
+ScotApp_813,"Írja be a megrendelés számát / munka nevét, majd érintse meg az ""Enter"" gombot"
+ScotApp_1666,Bankjegy-visszaforgató hiba
+ScotApp_1137,%s bankjegykazetta nincs betéve.
+ScotApp_1580,Bankjegykiadó
+ScotApp_758,758nemhasznált
+ScotApp_658,pénz kifogyóban
+ScotApp_558,Mennyiségi korlátozás alá eső árucikk
+ScotApp_1653,Az összeg meghaladja a kapacitást. A szükséges maximális összeg %s. Az összegre automatikusan %s íródott be.
+ScotApp_358,Visszatérés Segítő üzemmódba
+ScotApp_258,Transaction Broker leállása folyamatban...
+ScotApp_158,"Ehhez az árucikkhez az üzlet jóváhagyása szükséges. Kérem, folytassa."
+ScotApp_1844,Keresés
+ScotApp_958,Csomagmérleg
+ScotApp_858,Igen
+ScotApp_1136,"Bankjegy-selejttartály kivéve, vagy nincs teljesen a helyén."
+ScotApp_1587,Biztosan figyelmen kívül hagyja a Bankjegykezelő képernyő változásait?
+ScotApp_1531,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1599,%s preferencia keresése sikertelen.
+ScotApp_1652,(ééhhnn)
+ScotApp_1123,"* NE folytassa, amíg el nem távolítja az elakadt bankjegyeket.\n* Óvatosan húzza ki a bankjegykiadót a szekrényből.\n* A szalagok érintése nélkül távolítsa el a bankjegykiadó tetejéből az elakadt bankjegyeket.\n* Tolja vissza a bankjegykiadót a szekrénybe.\n* Zárja be az ajtót, majd érintse meg a ""Megszüntettem a problémát"" gombot."
+ScotApp_1342,Segédprogram kiválasztása
+ScotApp_1332,Szóköz
+ScotApp_1586,%s    %s  %s
+ScotApp_1444,Eltávolítás
+ScotApp_1598,Preferenciák aktiválva.
+ScotApp_1651,(ééééhhnn)
+ScotApp_1122,"Bankjegy-elakadás lehet a bankjegykiadó kimeneténél.\n\nKissé húzza ki a bankjegykiadót a szekrényből.\n\nHa van elakadt bankjegy a mutatott helyen, távolítsa el.\nGondosan tolja vissza a bankjegykiadót a szekrénybe."
+ScotApp_1331,Shift
+ScotApp_1585,Tart.             Érték  Érték változott
+ScotApp_1118,"Probléma van %s bankjegyek kiadásával.\n\nA bankjegykazetta nem tudott %s bankjegyeket kiadni.\n\nVegye ki a(z) %s bankjegykazettát, és ellenőrizze a bankjegyek állapotát."
+ScotApp_1884,Smart Assist riasztás
+ScotApp_1191,MÉRÉS SZÜKSÉGES
+ScotApp_1121,Elakadhatott egy bankjegy a mutatott helyen.\n* Kissé húzza ki a bankjegykiadót a szekrényből.\n* Távolítsa el az elakadt bankjegyeket.\n* Gondosan tolja vissza a bankjegykiadót a szekrénybe.
+ScotApp_503,503nemhasznált
+ScotApp_403,403nemhasznált
+ScotApp_1849,
+ScotApp_1330,Árucikk nincs csomagolva
+ScotApp_1355,Egyenlege
+ScotApp_1584,Tart.             Darab  Darab változott
+ScotApp_465,%s               %s
+ScotApp_365,Nyomtató a fej elakadt
+ScotApp_265,265nemhasznált
+ScotApp_965,965nemhasznált
+ScotApp_633,Aláírás:
+ScotApp_433,433nemhasznált
+ScotApp_333,Kártyaolvasó redőny elakadt
+ScotApp_233,"Győződjön meg róla, hogy a bankjegybefizető helyesen van betéve.\n\nA kart előre húzva oldja ki és csúsztassa előre a bankjegybefizetőt.\n\nNyomja vissza ütközésig a bankjegybefizetőt."
+ScotApp_133,133nemhasznált
+ScotApp_1120,"Bankjegy-elakadás lehet a(z) %s bankjegykazetta előtt.\n\nA(z) %s bankjegykazettát kivéve nézze meg, nincs-e itt elakadás.\n\nTávolítsa el az elakadt bankjegyeket, ha lehet, és tegye vissza a bankjegykazettát."
+ScotApp_1805,"Kilépés ""Csak készpénz"" üzemmódból"
+ScotApp_933,Súly nem egyezik
+ScotApp_833,833nemhasznált
+ScotApp_1337,Kilépés a SelfServ Checkout programból
+ScotApp_1780,TRANZAKCIÓ ELINDÍTÁSA
+ScotApp_712,712nemhasznált
+ScotApp_612,Súly hozzáadása
+ScotApp_512,Vizuális ellenőrzés
+ScotApp_312,tartály elakadt
+ScotApp_212,212nemhasznált
+ScotApp_112,Erősítse meg a mennyiséget
+ScotApp_1081,Összes pénztársor\nmutatása
+ScotApp_778,778nemhasznált
+ScotApp_678,678nemhasznált
+ScotApp_578,Kártyás fizetés befejezése.  Visszajáró.
+ScotApp_478,Adja le a kuponokat.
+ScotApp_378,Blokknyomtató
+ScotApp_278,Biztonsági napló
+ScotApp_1127,Visszacsatlak.
+ScotApp_1802,Csak kártyák
+ScotApp_978,Küszöbérték = %d
+ScotApp_878,Írja be az árat.
+ScotApp_1533,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1787,"Írja be a felhasznált műanyag táskák árát, vagy 0-t ha nem használt táskát."
+ScotApp_1799,Csak kártyás üzemmód
+ScotApp_1309,\n\nCsúsztassa be a kazettát reteszelésig.\n\nA bankjegybefizető motorjának rövid időre be kell kapcsolnia.
+ScotApp_1323,Súly marad
+ScotApp_1079,A leolvasott árucikket tegye ismét a szalagra.
+ScotApp_1382,(Norm)
+ScotApp_1532,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1786,Műanyag táska ára
+ScotApp_1094,Aláírások nyomtatása
+ScotApp_1113,"  %s, %s/%s\t%s"
+ScotApp_1798,Csak készpénzes üzemmód
+ScotApp_1322,Kuponérzékelő hiba\nAdatátviteli hiba.
+ScotApp_1078,Válassza ki a várható súly beállítását. (Az ügyfél tegye az árucikket a szalagra.)
+ScotApp_1334,  Az árucikk nincs a szalagon
+ScotApp_1785,"Érvénytelen bejelentkezés. Kérem, jelentkezzen be ismét a billentyűzeten vagy ujjlenyomatával."
+ScotApp_1046,"Kérem, vigye %s áruját a pénztárhoz."
+ScotApp_1696,Állapot kijavítva
+ScotApp_1112,"  %s, %s %s/%s\t%s"
+ScotApp_1158,PinPad / EFT eszközhiba
+ScotApp_1065,1065nemhasznált
+ScotApp_1321,Fejezze be az utalványos fizetést.  Fizetendő összeg.
+ScotApp_764,764nemhasznált
+ScotApp_1530,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1784,TÖBBCSOMAGOS ÁRUCIKK
+ScotApp_1070,1070nemhasznált
+ScotApp_49,49nemhasznált
+ScotApp_1111,"  Men %s, %s/%s\t%s"
+ScotApp_753,"Tegnap, óránként"
+ScotApp_653,"Írja be a kupon értékét centben, majd érintse meg az ""Enter"" gombot."
+ScotApp_453,Érmebefizető állapota Megtelt
+ScotApp_353,Vissza
+ScotApp_253,253nemhasznált
+ScotApp_153,153nemhasznált
+ScotApp_1320,Indítsa el az utalványos fizetést.
+ScotApp_953,"Állítsa le és indítsa újra a terminált:\n\nForgassa a Felügyelő zárját 'S' állásba, VAGY nyomja meg a Felügyelő gombot.\nVálassza a ""Teljes rendszer leállítása"" lehetőséget.\nAmikor a képernyő üressé válik, kapcsolja ki a terminált a szünetmentes tápon vagy az elosztón.\nKapcsolja be a terminált. Ha a hiba ismét fellép, hívjon karbantartót."
+ScotApp_853,Négy árucikk
+ScotApp_1845,Blokk
+ScotApp_1537,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_732,732nemhasznált
+ScotApp_632,632nemhasznált
+ScotApp_532,Korlátozás alá eső árucikk
+ScotApp_432,EBT
+ScotApp_332,Kilépés a Segítő üzemmódból
+ScotApp_232,"* Vegye le a bankjegybefizetőt és a kazettát.\n* Nézze meg, nincs-e elakadás a kazettában.\n* Nyissa ki a befizető tetején lévő ajtókat és nézze meg, nincs-e elakadt bankjegy.\n* Erőteljesen zárja be az ajtókat.\n* Tegye vissza a bankjegybefizetőt és a kazettát."
+ScotApp_132,132nemhasznált
+ScotApp_1110,"  Men %s, %s/db\t%s"
+ScotApp_1242,TERHELÉS
+ScotApp_1285,Közkedvelt
+ScotApp_932,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_832,832nemhasznált
+ScotApp_1327,"Érintse meg a kívánt kimutatást, majd a ""Kimutatás futtatása"" gombot."
+ScotApp_711,711nemhasznált
+ScotApp_611,Válassza ki a kívánt funkciót.
+ScotApp_511,Hasonlítsa össze a vásárló aláírását a kártyán szereplővel.
+ScotApp_411,Vegye el a hűségkártyát
+ScotApp_311,tartály üres
+ScotApp_111,Mérleg alaphelyzetbe
+ScotApp_1789,KUPON
+ScotApp_1536,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_911,Áthaladhat
+ScotApp_811,"Olvassa le ajándékkártyáját. Kérem, nézze meg, vannak-e kosarában további árucikkek."
+ScotApp_1628,CPU-hiba
+ScotApp_1523,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1349,%s\n %s\n%s %s várt\n%s %s észlelt
+ScotApp_1892,Biztonsági elemzés
+ScotApp_1279,CSEKK
+ScotApp_1535,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1057,1057nemhasznált
+ScotApp_1441,Érmekezelés
+ScotApp_1313,"* Ellenőrizze, nem akadt-e el a papír a nyomtatóban.\n* Töltse fel a papírt.\n* Helyesen zárja le és indítsa újra a terminált."
+ScotApp_1681,Bankjegy-visszaforgató hiba
+ScotApp_1069,1069nemhasznált
+ScotApp_1325,Tegye az árucikket a mérlegre.
+ScotApp_1278,FELHASZNÁLÓÁLTALDEF20
+ScotApp_1103,Előző
+ScotApp_1534,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_1056,1056nemhasznált
+ScotApp_1312,"* Vegye ki a bankjegykazettát.\n* Nyissa ki, és távolítsa el a bankjegyeket.\n* Csukja be és tegye vissza a befizetőbe.\n* Győződjön meg róla, hogy a bankjegybefizető motorja bekapcsol és a LED zölden világít."
+ScotApp_1265,FELHASZNÁLÓÁLTALDEF7
+ScotApp_1850,Hibázott eszközök
+ScotApp_1213,ISMERETLEN
+ScotApp_1521,A hiba kijavításához lásd az eszköz kézikönyvét.
+ScotApp_139,Vegye el a bizonylatot
+ScotApp_1043,%s Segítő üzemmódban fogadható el a vevőtől.
+ScotApp_1401,"Segítségnyújtás folyamatban.\n\nKérem, várjon..."
+UnknownItemMessage,"Munkatársunk már úton van.\n\nTegye félre az árucikket, és folytassa."
+TimeRestrictedItemMessage,"Nem lehet megvásárolni ezt az árucikket jelenleg. \n\nTegye félre az árucikket, és folytassa."
+ItemQuantityExceededMessage,"Túllépte az erre az árucikkre megengedett mennyiséget. \n\nKérem, tegye félre és folytassa."
+WeightMismatch,"Folyik az árucikk súlyellenőrzése.\n\nKérem, várjon..."
+ItemQuantityExceeded,Mennyiségi korlát túllépve
+WaitForRemoteAssistanceTitle,Távoli eladó
+ScotApp_489,"Köszönjük, hogy az NCR SelfServ Checkout kassza használatát választotta."
+ScotApp_273,Most ne olvassa le.\nTegye félre az árucikket.
+ScotApp_431,"Érvénytelen hűségkártya. Kérem, ellenőrizze."
+ScotApp_410,Segítség kell a következőhöz:
+ScotApp_1739,"Kérem, várja meg az eladót.\nCsomagjait a rendszer nem tudta azonosítani.\nHa véletlenül csomag helyett mást tett a csomagoló területre, kérem, most távolítsa el."
+ScotApp_73,Vissza vásárlási üzemmódba
+ScotApp_772,"A jelenlegi tranzakció felfüggesztését kérték.\nKérem, erősítse meg vagy vesse el ezt a kérést."
+ScotApp_530,A kártya olvasása hibás.\nHasználjon másik kártyát.\n   vagy\nFizessen készpénzzel.\n   vagy\nHívjon segítséget.
+ScotApp_524,Hibás PIN-kódot írt be.\nÍrja be újra a PIN-kódot a fizető terminálon.
+ScotApp_397,Az eladható árucikkeket Segítő üzemmódban adja el.\nA nem eladható többi árucikket szedje össze.
+ScotApp_171,"""%s""\n\n%d helyes?"
+ScotApp_1374,\n---------------------------------------\n
+ScotApp_1646,Tranzakció felfüggesztve. Tegyen félre minden árucikket.
+ScotApp_495,"Túllépte az erre az árucikkre megengedett mennyiséget.\n\nKérem, tegye félre és folytassa."
+ScotApp_529,"Vegye ki a kártyát, majd...\nTegyen be egy másik kártyát.\n   vagy\nFizessen készpénzzel.\n   vagy\nHívjon segítséget."
+ScotApp_275,Most ne tegyen be terhelési kártyát.\nVegye el kártyáját.
+ScotApp_1891,"Rendszer általi ellenőrzés folyamatban. \nKérem, várjon..."
+ScotApp_1750,"Kérem, várjon, amíg ujjlenyomatát feldolgozzuk."
+ScotApp_169,Folytatni kívánja a vásárlást?
+ScotApp_415,Vegye el hűségkártyáját.\nA kártya korábban már be lett helyezve.
+ScotApp_1793,Ez a gép jelenleg csak hitelkártyákat és betéti kártyákat fogad el.\nKívánja folytatni?
+ScotApp_477,Adja le kuponjait.\nHa a blokk kinyomtatódott:\n-- Szedje össze árucikkeit.\n-- Vigye a blokkot és a kuponokat a pénztároshoz.
+ScotApp_177,Teljes vásárlás elvetve. Tegye félre az összes árucikket.
+ScotApp_656,"Kérem, tegye félre a(z) <%s> árucikket.\nEgy munkatársunk segíteni fog."
+ScotApp_1709,"Most ne tegyen be bankjegyeket vagy érméket.\nKérem, vegye el a visszaadott készpénzt.\nA bankjegyeket a leolvasó alatt veheti el."
+ScotApp_435,"Válassza ki a juttatás fajtáját.\nHa élelmiszerjegyeket szeretne használni, azokat minden más juttatás előtt kell használnia."
+ScotApp_808,A biztonsági címkés árucikkeket vetesse le az eladóval.
+ScotApp_294,"Ha munkatársunk segítségét kéri, érintse meg a ""Hívjon segítséget"" gombot."
+ScotApp_1287,"Kérem, várjon...\nFolyik az árucikk súlyellenőrzése."
+ScotApp_525,"Hibás PIN-kódot írt be.\nVegye ki a kártyát, majd...\nTegyen be egy másik kártyát\n   vagy\nFizessen készpénzzel"
+ScotApp_480,"Kérem, érintse meg az ""OK"" gombot, majd vigye a tranzakció bizonylatát és az árucikkeket a pénztároshoz."
+ScotApp_1751,"Vegyen le minden súlyt a csomagmérlegről, és érintse meg a ""Tovább"" gombot."
+ScotApp_175,"Eltávolítja a(z)\n""%s""\ntételt a blokkról?"
+ScotApp_1746,"Az ujjlenyomat-kiszolgáló nem áll rendelkezésre.\nKérem, próbálkozzon újra."
+ScotApp_1839,"Kérem, várja meg a pénztárost.\nMost ne olvassa le. Tegye félre az árucikket.                    "
+ScotApp_501,"Kérem, írja alá a blokkot, és várjon, míg az üzlet jóváhagyja."
+ScotApp_414,Vegye el hűségkártyáját.\nJelenlegi vásárlására nem alkalmazhatók árengedmények. Azokat postán fogja megkapni.
+ScotApp_563,Hiba történt a Hard Totals inicializálásakor.\nAz alkalmazás most kilép.
+ScotApp_263,Az árucikk csak kuponjának érvénytelenítése után érvényteleníthető.\nElőbb az árucikk kuponját érvénytelenítse.
+ScotApp_800,"Kérem, ellenőrizze kosarát.\n\nOlvasson le további árucikkeket, vagy\nÉrintse meg az ""OK"" gombot a fizetéshez."
+ScotApp_134,"Engedélyezés folyamatban. \nKérem, várjon."
+ScotApp_620,Tűrés beírása
+ScotApp_161,"%s\nÍrja be a mennyiséget a számbillentyűzeten, majd érintse meg az ""OK"" gombot."
+ScotApp_440,Készpénzjuttatásának egyenlege a szükségesnél kisebb.\nKívánja fennmaradó %s készpénzjuttatását felhasználni ehhez a vásárláshoz?
+ScotApp_184,számláján %s terhelés fog megjelenni.
+ScotApp_274,Most ne tegyen be készpénzt.\nVegye el készpénzét.
+ScotApp_1744,"Ujjlenyomatát az eszköz nem ismerte fel.\nKérem, próbálkozzon újra."
+ScotApp_160,Az árucikket visszahívták.\nMunkatársunk már úton van.\nTegye félre az árucikket és folytassa vásárlását.
+ScotApp_1795,"Vagy korlátozzon ""Csak kártyák""-ra."
+ScotApp_159,Az árucikk ára ismeretlen.\nMunkatársunk mar úton van.\nTegye félre az árucikket és folytassa vásárlását.
+ScotApp_458,Válassza ki a juttatás fajtáját.\nEhhez a vásárláshoz nem használható élelmiszerjegy.
+ScotApp_1329,"Kérem, várjon...\nFolyik az árucikk súlyellenőrzése.\nDupla súly csomagolva."
+ScotApp_407,Hiba a kártya olvasásakor.\n*  Próbálkozzon másik kártyával\n   vagy\n*  Hívjon segítséget
+ScotApp_706,"Élelmiszerjegy-egyenlege kisebb a jelen vásárlás végösszegénél.\nMás fizetési módszerhez érintse meg az ""OK"" gombot."
+ScotApp_606,Súlyadatok törlése
+ScotApp_906,"Kérem, vegye el árucikkeit."
+ScotApp_705,"Készpénzjuttatási egyenlege kisebb a jelen vásárlás végösszegénél.\nMás fizetési módszerhez érintse meg az ""OK"" gombot."
+ScotApp_605,Súlyadat hozzáadása
+ScotApp_405,Hiba a kártya olvasásakor.\n*  Próbálkozzon másik kártyával\n   vagy\n*  Fizessen készpénzzel\n   vagy\n*  Hívjon segítséget
+ScotApp_491,"Kérem, vegye el kártyáját."
+ScotApp_818,"Kérem, várja meg a pénztárost.\nSegítség kell a következőhöz:"
+ScotApp_1796,"Vagy korlátozzon ""Csak készpénz""-re."
+ScotApp_438,Élelmiszerjegy-egyenlege a szükségesnél kisebb.\nKívánja fennmaradó %s élelmiszerjegy-juttatását felhasználni ehhez a vásárláshoz?
+ScotApp_1596,"Szeretné a(z) %s nyelvet preferáltként menteni %s eszközén?\nVálassza az ""Igen"" vagy ""Nem"" lehetőséget."
+ScotApp_766,számláján %s terhelés fog megjelenni.
+ScotApp_166,"Munkatársunk már úton van.\nKérem, folytassa vásárlását."
+ScotApp_413,Vegye el hűségkártyáját.\nA rendszer engedményes árakat fog alkalmazni.
+ScotApp_1797,"A beavatkozás nem szüntette meg a hibát.\nKérem, próbálkozzon újra, vagy korlátozzon ""Csak készpénz""-re."
+ScotApp_178,Várja meg az üzlet jóváhagyását.\nJóváhagyás kell a következőhöz:
+ScotApp_790,"Kártyáját a rendszer elutasította.\nKérem, válasszon másik fizetési módot."
+ScotApp_1794,Ez a gép jelenleg csak készpénzt fogad el.\nHitelkártyát és betéti kártyát nem tud feldolgozni.\nKívánja folytatni?
+ScotApp_412,"Ezzel az árucikkel vásárlása %s feletti lenne.\nKérem, fizessen most, és a többi árucikket külön vásárolja meg."
+ScotApp_546,"Ön nem elég idős, hogy megvásárolja ezt a terméket.\nKérem, tegye félre és folytassa a vásárlást."
+ScotApp_553,"A kuponok elfogadása a vásárlás végén történik.\nKérem, tegye őket félre és folytassa."
+ScotApp_211,"Feldolgozás folyamatban...\nKérem, várjon."
+ScotApp_1400,Távoli eladó
+ScotApp_1754,"A betűk nem egyeznek egy árucikkel.\nKérem, próbálkozzon újra."
+ScotApp_1859,"Egy teljes rekesz %s vásárlása? Válassza az ""Igen""-t vagy a ""Nem""-et."
+ScotApp_533,"Most nem tudja megvásárolni ezt az árucikket.\nKérem, tegye félre és folytassa a vásárlást."
+ScotApp_1763,e=d=%5.3fkg Max %5.3f kg min %3.1f kg Nmax %4.0f
+ScotApp_1762,e=d=%4.2flb Max %4.2f lb min %3.1f lb Nmax %4.0f
+ScotApp_1764,e = d = %4.2f lb Max %4.2f lb Min %3.1f lb Nmax %4.0f
+ScotApp_1765,e = d = %5.3f kg Max %5.3f kg Min %3.1f kg Nmax %4.0f
+ScotApp_305,Válassza ki a(z) %s rekeszét
+ScotApp_703,"Használja a PIN-terminált. A fizetés elvetéséhez nyomja meg a PIN-terminálon az ""Elvet"" gombot."
+ScotApp_125,"Írja be a vevő születési dátumát %s és érintse meg a ""Jóváhagyás"" gombot."
+ScotApp_1853,"Írja be a vevő születési dátumát %s és érintse meg a ""Enter"" gombot."
+ScotApp_654,A dátumnak %s formátumúnak kell lennie. Beírt érték: %s
+ScotApp_560,Ez a rendszer nem fogad el kuponokat.
+ScotApp_1788,%d helyes? \n\nVégösszegéhez %s táskadíj lesz hozzáadva.
+ScotApp_1358,Vásárlására %s ajándékkártya-összeg érvényesítve. \n\nAjándékkártya-egyenlege %s.
+ScotApp_167,A kupon nem való egyik vásárolt árucikkhez sem.\n\nEz a kupon nem fogadható el.
+ScotApp_164,"A rendszer nem ismeri fel ezt az árukódot.\n\nEllenőrizze, helyes számot írt-e be."
+ScotApp_547,"Az eladó száma és jelszava helytelen.\n\nKérem, próbálkozzon újra."
+ScotApp_442,Vásárlásából %s fizethető élelmiszerjegyekkel is.\n\n%s
+ScotApp_443,Számláján %s kerül terhelésre.\n\nRendben van?
+ScotApp_700,Az árucikk nem adható el ebben a pénztársorban.\nMunkatársunk már úton van.\n\nTegye félre az árucikket és folytassa vásárlását.
+ScotApp_165,A rendszer nem ismeri fel ezt az árucikket.\nMunkatársunk már úton van.\n\nTegye félre az árucikket és folytassa vásárlását.
+ScotApp_182,Túl nagy értéket írt be erre a kuponra.\n\nEz a rendszer nem tudja elfogadni ezt a kupont.
+ScotApp_733,"Kártya elutasítva.\nHasználjon másik kártyát, vagy fizessen készpénzben."
+ScotApp_812,"Köszönjük, hogy az NCR SelfServ Checkout kassza használatát választotta.\nKérem, vigye ajándékkártyáját a pénztároshoz."
+ScotApp_1826,Szeretné menteni beállításait a Hűségkártyáján?
+ScotApp_1852,"Kérem, távolítsa el az elvetett árucikket a csomagoló területről."
+QRCodeErrorText,QR Code Error
+ScanQRCodeInstruction,Scan this code to complete\nyour Mobile shopping.
+ScotApp_1896,Transferring items from mobile cart.
+ScotApp_1897,"Kérem, várjon..."
+ScotApp_1898,Mobile Cart
+ScotApp_1899,Mobile Audit
+ScotApp_1900,Mobile Shopper Audit
+ScotApp_1901,"Touch ""OK"" then use Attendant Handset to complete audit."
+ScotApp_1902,Begin Mobile Transaction
+ScotApp_1903,End Mobile Transaction
+ScotApp_1904,%d Items Sold
+ScotApp_1905,Scan barcode to complete your Mobile checkout.
+ScotApp_1906,Mobile cart transfer is complete.
+ScotApp_1907,\nTouch Pay or add more items.
+MoveLeft,< Move
+MoveRight,Move >
+Accessibility,Accessibility
+SearchItemCodeWatermark,Enter Item Code
+ScanAndBagNoSearchKeyIn,Scan or look up item to start
+ScanLookUpKeyInItem,"Scan, look up, or key in item code to start."
+LookUpKeyInItem,Look up or Key in Item
+ScanOrKeyInItem,Scan or Key in Item
+XM_MenuSetupLoaderV6HW,Beáll.-ok betölt
+XM_SetupLoaderV6HW,Beáll.-ok betölt
+XM_ProcessingCashTextV6HW,•   Tegye be az érméket az érmebefizetőbe.\n•   Tegye be a bankjegyeket a bankjegybefizetőbe.\n
+XM_CoinHoppersV6HW,Érmeadagolók
+XM_CoinBoxV6HW,Érmetartály - %d - %s
+XM_AddCashLeadthruV6HW,"•   Tegye be az érméket az érmebefizetőbe.\n•   Tegye be a bankjegyeket a bankjegybefizetőbe.\n•   Érintse meg az „Érme-töltőcső eng.” gombot, hogy érmék kerüljenek a\n     töltőcsőbe.\n•   Érintse meg a „Beáll.-ok betölt” gombot, hogy bankjegyeket vegyen fel a\n     betöltőben."
+XM_ConfirmTransferNotesToBaseLevelV6HW,Bankjegyek áthelyezése a bankjegytartályba\n\nÁthelyezendő összeg: %s\nÁthelyezendő darabszám: %d\n\nAz átvitel több percet is igénybe vehet.
+XM_ConfirmTransferAllNotesV6HW,Minden bankjegy áthelyezése a bankjegytartályba\n\n Áthelyezendő összeg: %s\nÁthelyezendő darabszám: %d\n\n Az átvitel több percet is igénybe vehet.
+XM_ResetCoinsAllCoinsV6HW,Minden érme kiadása
+XM_ResetCoinHopperCountsV6HW,Állítsa alaphelyzetbe az érmeadagoló-darabszámokat
+XM_ResetNoteBoxCountsV6HW,Állítsa alaphelyzetbe a bankjegytartály-darabszámot
+XM_MenuNoteBoxTransferV6HW,Bankjegytartály-átvitelek
+XM_FinishedAddingCashV6HW,"Amikor befejezte a készpénz felvételét, érintse meg az „OK” gombot."
+XM_OKV6HW,OK
+XM_SetupLoaderLeadthruV6HW,"•   Adja meg a(z) „%s” alapértelmezett címlet összegét/számát\n     a betöltő számára, és érintse meg az „OK” gombot.\n•   Ha kész, „Változtatások alkalmazása”."
+XM_SetupLoaderNotEmptyV6HW,"\nWhen swapping loaders, because the current loader\ncount is greater than zero, manually remove the notes from the current loader and add the notes to the new loader."
+XM_NoteLoaderV6HW,Bankjegy-betölto
+XM_EnableCoinInputBowlV6HW,Érmebetöltő tál engedélyezése
+XM_EnableCoinRefillChuteV6HW,Érme- töltőcső eng.
+XM_EnableCoinAcceptorV6HW,Érme- befiz.eng.
+XM_TopOffCashPrintStatusV6HW,Készpénz-kiegészítés vagy Nyomtatás állapota
+XM_TransferOperationPreemptiveV6HW,"Bankjegyek átvitele folyamatban...\n\nNE TÁVOLÍTSA EL A BANKJEGYTARTÁLYT, vagy\nmás készülékeket, amíg a művelet be nem fejeződik."
+XM_TransferOperationInstructionV6HW,"Az átvitel befejeződött.\nTávolítsa el az összes bankjegyet a bankjegytartályból, \nés állítsa alaphelyzetbe a bankjegytartályt."
+XM_PendingDispenseV6HW,Kiadás folyamatban %d - %s
+XM_PendingTransferV6HW,Átvitel folyamatban %d - %s
+XM_PendingResetV6HW,Alaphelyzetbe állítás folyamatban %d - %s
+XM_ConfirmResetNoteBoxV6HW,Állítsa alaphelyzetbe a bankjegytartály-darabszámokat/értéket\n\nAlaphelyzetbe állítandó össze: %s\nAlaphelyzetbe állítandó darabszám: %d\n\nA bankjegytartály alaphelyzetbe állítása utáni össze: $0\nA bankjegytartály alaphelyzetbe állítása utáni darabszám: 0
+XM_PendingCashRemoveV6HW,"ONyissa ki a széf ajtaját, és távolítsa el a bankjegytartályt és az összes bankjegyet.\nTegye vissza az üres bankjegytartályt.\n\nHa végzett, érintse meg az „OK” gombot."
+XM_LeadThruResetNoteBoxFunctionV6HW,"Funkc.alaph.-be\n•   Bankjegytartály-átvitelek to zero.\n•   Ha kész, „Változtatások alkalmazása”.."
+XM_AllV6HW,Összes
+XM_LeadThruTransferNotesToNoteBoxFunctionV6HW,Bankjegytartály-átvitelek\n•   A bankjegyek átviteléhez érintse meg a „Változtatások alkalmazása”\n     gombot.\n•   A visszavonáshoz érintse meg a „Változtatások elvetése” gombot
+XM_ReplenishNotesFromLoaderToRecyclersPreemptiveV6HW,Betöltés folyamatban...
+XM_SetupLoaderAlertConfirmationV6HW,"Beáll.-ok betölt\n\nEllenőrizze, hogy a betöltő értékei helyesek-e és a betöltő be van-e helyezve, \nmajd érintse meg az „OK” gombot a bankjegyek betöltéséhez."
+XM_SetupLoaderAlertConfirmation1V6HW,"Beáll.-ok betölt\n\nTegye a bankjegyeket a betöltőbe, ellenőrizze, hogy a betöltő be van-e helyezve, majd érintse meg az „OK” gombot a bankjegyek betöltéséhez."
+XM_SetupLoaderConfirmationV6HW,"Beáll.-ok betölt\n\n%s bankjegyek állapota a betöltőben:\n\nEredeti /kezdő összeg: %s\nEredeti /kezdő darabszám: %d\nA betöltőhöz adandó összeg: %s\nA betöltőhöz adandó darabszám: %d\n\nTegye a nem plusz és nem kiadásra szánt bankjegyeket a betöltő aljára.  A betöltő alján lévő bankjegyeket a gép automatikusan megszámlálja és betölti, amíg el nem éri a betöltő címletét.\n\nA betöltési folyamat több percet is igénybe vehet."
+XM_SetupLoaderConfirmation1V6HW,Beáll.-ok betölt\n\nA rendszer a betöltő minden bankjegyét\nautomatikusan betölti és megszámlálja.\n\nA betöltési folyamat több percet is igénybe vehet.
+XM_PendingNotesAddedV6HW,Alapértelmezett hozzáadott bankjegyek %d - %s
+XM_ProcessingCashV6HW,Készpénz feldolgozása
+XM_ProcessingCashLeadThruV6HW,•   Tegye be az érméket az érmebefizetőbe.\n•   Tegye be a bankjegyeket a bankjegybefizetőbe.
+XM_SetupLoaderLeadThru1V6HW,•   A bankjegyek betöltőhöz adásához érintse meg a „Változtatások alkalmazása” gombot.\n•   A visszavonáshoz érintse meg a „Változtatások elvetése” gombot.
+XM_LeadThruDispenseFunctionV6HW,Kiadás funkc.\n•   A számbillentyűzeten írja be a %s bankjegyek összegét/darabszámát.
+XM_LeadThruDispenseFunction1V6HW,Kiadás funkc.\n•   A bankjegyek kiadásához érintse meg a „Változtatások alkalmazása” gombot.\n•    A visszavonáshoz érintse meg a „Változtatások elvetése” gombot.
+XM_ConfirmCoinDispenseAllV6HW,Minden érme kiadása\n\n Kiadandó összeg: %s\nKiadandó darabszám: %d
+XM_DispenseOperationPreemptiveV6HW,"Dispensing coins in progress.\n\nRemove coins from coin bowl when full and touch ""OK""."
+XM_ConfirmCoinDispenseToBaseLevelV6HW,Vydat mince na základní úroveň\n\nKiadandó összeg: %s\nKiadandó darabszám: %d
+XM_LeadThruResetCoinHopperFunctionV6HW,"Funkc.alaph.-be\n•   Állítsa alaphelyzetbe az érmeadagoló-darabszámokat to zero.\n•   Ha kész, „Változtatások alkalmazása”.."
+XM_ResetCoinHopperLeadThruV6HW,"Vegye ki az érméket az érmeadagolókból. Távolítsa el\neaz üres érmeadagolókat.\n\nHa végzett, érintse meg az „OK” gombot."
+XM_LoaderCountEnteredExceededCapacityV6HW,The loader count entered exceeds capacity. Maximum loader count allowed is %d.
+XM_CoinHopperPendingResetV6HW,Alaphelyzetbe állítás folyamatban %d - %s
+XM_ConfirmResetCoinHopperV6HW,Állítsa alaphelyzetbe az érmeadagoló-darabszámokat / Value\n
+XM_ConfirmResetCoinHopper1V6HW,\n%s\nalaphelyzetbe állítási összeg %s darabszám: %d\n
+XM_ConfirmResetCoinHopper2V6HW,\nAlaphelyzetbe állítás után:\nÉrmék az érmetartályban: %s darabszám: %d\nÉrmék az érmetartályban: %s darabszám: %d
+XM_SignSigTouchDisplayV6HW,Írjon alá az érintőkijelzőn.
+XM_LeadThruCashManagementErrorV6HW,Készpénzkezelési hiba
+XM_LoanPickupUpdateFailureV6HW,A készpénzkezelés frissítése nem sikerült
+XM_LoanPickupUpdateNoResponseV6HW,A POS nem válaszolt a készpénzkezelés állapotának frissítésekor
+XM_LoanPickupUpdateFailureInstructionV6HW,"\n•   A frissítéshez érintse meg a „Próbálja újra” gombot\n•   Ha a hiba továbbra is fennáll, értesítse az üzlet vezetőségét.\n•   A hibaállapot mindaddig fennáll, amíg nem sikerül frissíteni."
+XM_LoanPickupUpdateNoResponseInstructionV6HW,"•   Azonnal jelentse a hibát az üzlet vezetőségének.\n•   Lehet, hogy nem frissült a készpénzkezelés állapota.\n•   Nyissa meg a Segédfunkciók képernyőt."
+XM_LoanPickupUpdateNoResponseInstruction1V6HW,"•    Érintse meg a „Diagnosztikai naplófájlok generálása”, majd a „Teljes rendszer leállítása” gombot.\n•   Kapcsolja vissza a rendszert.\n•    Ha a probléma nem szűnik meg, generáljon új diagnosztikai naplófájlt, és hívjon karbantartót.\n"
+XM_CashManagementErrorRetryButtonV6HW,Próbálja újra
+XM_CannotCompleteTransferV6HW,A pénz áthelyezése nem végezhető el.\n A bankjegytartályban nincs elég hely. A művelet előtt ürítse ki a bankjegytartályt.
+XM_CashStatusLeadthruV6HW,"•   Készpénz-állapot nyomtatása.\n•   Tegye be az érméket az érmebefizetőbe.\n•   Tegye be a bankjegyeket a bankjegybefizetőbe.\n•   Ha végzett, érintse meg a „Kilépés” gombot."
+XM_NonDispensableCoinsV6HW,Nem kiadható érmék
+XM_DispensableCoinsV6HW,Kiadható érmék
+XM_ConfirmNoteDispenseV6HW,Bankjegyek kiadása\n\nKiadandó összeg: %s\nKiadandó darabszám: %d
+XM_DispenseNoteFullPreemptiveV6HW,"Vegye el a bankjegyeket\n\nA bankjegyek kiadása %d darabos adagokban történik.\nA kiadás szünetel, amíg az összes bankjegyet el nem veszik."
+XM_NoteBoxV6HW,Bankjegytartály
+XM_NoteRecyclerV6HW,Bankjegy-visszaforgatók
+XM_DispenseCoinsToBaseLevelV6HW,Érmék kiad.\nalapsz
+XM_TransferNotesToBaseLevelV6HW,Bankj.alapsz vitele
+XM_TransferAllNotesV6HW,Összes bankj.áthely
+XM_LeadThruNoteBoxTransferV6HW,"Bankjegytartály-átvitelek\n•   Válassza ki a kívánt áth. funkciót.\n•   Ha kész, „Változtatások alkalmazása”.."
+XM_LeadThruResetFunctionV6HW,"Funkc.alaph.-be\n•    Válassza ki az alaph. funkciót.\n•    Ha kész, „Változtatások alkalmazása”.."
+XM_LeadThruDispenseFunction2V6HW,"Kiadás funkc.\n•   Érintse meg a címletet, és adja meg az összeget/darabszámot, vagy\n      válassza a(z) funkciót.\n•   Ha kész, „Változtatások alkalmazása”.."
+XM_DispenseThresholdV6HW,A beírt szám nagyobb a maximálisan kiadható darabszámnál.\nA maximális darabszám lett megadva: %d
+RemoveItemFromProduceScale,Remove item from scale.
+RemoveItemFromProduceScaleTitle,Remove Item

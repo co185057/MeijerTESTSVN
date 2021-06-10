@@ -1,0 +1,58 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\SCOTAPP\Devices\TakeawayBelt\TakeawayBelt]
+"Configure"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\Installation\TakeAwayBelts]
+"Configure"="Y"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT - Platform\ObservedOptions]
+"TakeAwayBelts"="Y"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\ScotApp\Controls\SmartScale]
+"Time-Out"=dword:000000c8
+"AllowShiftingWts"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\SCOTAPP\SecurityManager]
+"State.Machine.Name"="c:\\scot\\config\\SecuritySMTab.xml"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEForRetail\ServiceOPOS\Scale\BagScaleFlintec]
+"HoldStability"=".05 -> Size of vertical window for unstable detection (after stable detected). Larger values hide instability more than smaller values. (.1-1) "
+"SampleWindow"="8 -> SampleWindow is the length(number) of samples in the CStable constructor"
+"MaxWeight"="75 -> Maximum weight to be reported by the scale in \"ScaleUnit\"."
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\OLEForRetail\ServiceOPOS\Scale\BagScaleFlintec\Filter]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEForRetail\ServiceOPOS\Scale\BagScaleFlintec\Filter]
+"0"="0.01624109421934830"
+"1"="0.01017483827452850"
+"2"="0.01305161436343990"
+"3"="0.01620900646167750"
+"4"="0.01959466033316540"
+"5"="0.02314231907305620"
+"6"="0.02677223669468370"
+"7"="0.03039819501396360"
+"8"="0.03393350907288460"
+"9"="0.03728861434726790"
+"10"="0.04036209762964580"
+"11"="0.04308185262773430"
+"12"="0.04535232184142090"
+"13"="0.04712260154034090"
+"14"="0.04833290383523670"
+"15"="0.04894213467160580"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\Keylock\OnTrak - Keylock]
+"SensorPollTimeout"="1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\DMConfig\TakeAwayBelts]
+"CurrentState"="2"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\DMConfig\TakeAwayBelts\Actual]
+"1"="regedit /s TakeAwayBeltsActual.reg"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\DMConfig\TakeAwayBelts\Null]
+"1"="regedit /s TakeAwayBeltsNull.reg"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\DMConfig\TakeAwayBelts\None]
+"1"="regedit /s TakeAwayBeltsNone.reg"
+

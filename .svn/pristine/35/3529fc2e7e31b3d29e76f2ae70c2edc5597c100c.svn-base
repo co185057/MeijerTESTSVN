@@ -1,0 +1,16 @@
+;******************************************************************************
+; RAPLogTraceCheck.ini for the FastLane RAP Application RAP.log file.
+;
+; This file specifies the rules that determine whether a FastLane RAP.log
+; (and RAP.log.bak) file represents a normal termination of RAP on the previous 
+; run.
+;******************************************************************************
+
+[RAPLog]
+File0=%DATA_DRIVE%\scot\logs\RAPNet.log
+File1=%DATA_DRIVE%\scot\logs\RAPNet.log.bak
+
+; "-CVideoSwitch::Close" should appear within the last line of the file.
+Case0=NthOccurrenceFromEndWithin,"Clean Shutdown","End Data Capture",0,0
+
+ValidCaseSet0=0x00000001,"Clean Shutdown"

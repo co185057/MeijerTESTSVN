@@ -1,0 +1,58 @@
+<Display Version="1.0">
+	<Languages>
+		<Language Name="0411">
+			<StringTable>
+				<String Name="MainTitle">RAP設定</String>
+				<String Name="AddButtonText">ADD</String>
+				<String Name="AddLaneTitle">ADDレーン</String>
+				<String Name="ApplyButtonText">適用</String>
+				<String Name="Backspace">バックスペース</String>				
+				<String Name="CancelButtonText">取消</String>
+				<String Name="ConfigTypeText">レーン設定タイプ</String>
+				<String Name="ConfirmDeleteTitle">削除を確認</String>
+				<String Name="ConfirmDeleteText">レーンを削除しますか？</String>
+				<String Name="ConfirmExitTitle">終了を確認</String>
+				<String Name="ConfirmExitText">変更を取り消しますか？</String>
+				<String Name="ConfirmSaveTitle">保存を確認</String>
+				<String Name="ConfirmSaveText">変更はRapNet.xmlに保存されます。続行しますか？</String>
+				<String Name="DeleteButtonText">削除</String>
+				<String Name="DuplicateIPTitle">IPアドレスをコピーします</String>
+				<String Name="DuplicateLaneTitle">レーンの重複が見つかりました</String> 
+				<String Name="DuplicateLaneText">レーンの%sはすでにあります</String>
+				<String Name="EditLaneTitle">レーンの編集</String>
+				<String Name="EmptyText">空です</String>
+				<String Name="Enter">入力</String>
+				<String Name="EnterHostNameInstruction">ホストネームを入力して’入力’を押します</String>
+				<String Name="EnterIPAddressInstruction">IPアドレスを入力して’入力’を押します</String>
+				<String Name="EnterIPOctetInstruction">IPオクテットを入力して’入力’を押します</String>
+				<String Name="EnterHostNameText">レーンのホスト名を入力</String>
+				<String Name="EnterIPAddressText">レーンのIPアドレスを入力</String>
+				<String Name="EnterIPOctetText">レーンのIPオクテットを入力</String>
+				<String Name="ErrorText">エラー</String>
+				<String Name="ExitButtonText">終了</String>
+				<String Name="FileErrorTitle">ファイルが見つかりません</String>
+				<String Name="FileErrorText">エラー：RapNet.xmlファイルが見つかりません</String>
+				<String Name="HostNameText">ホスト名</String>
+				<String Name="IPAddressText">IPアドレス	</String>
+				<String Name="IPOctetText">IPオクテット</String>
+				<String Name="LaneText">レーン</String>
+				<String Name="MoveButtonText">移動</String>
+				<String Name="NoButtonText">いいえ</String>
+				<String Name="NoLane">すべてのレーンが削除されました</String>
+				<String Name="NoLaneToDelete">削除するレーンがありません</String>
+				<String Name="NoLaneWarningTitle">RapNet.xmlにはレーンがありません</String>
+				<String Name="NoLaneWarningText">警告：RapNet.xmlにはレーンが設定されていません</String>
+				<String Name="OkButtonText">OK</String>
+				<String Name="RestartRAPTitle">RAP再スタート</String>
+				<String Name="RestartRAPText">RAPを再スタートさせてください</String>
+				<String Name="SameRapIPAddress">デスクトップRAPのIPアドレスと同じIPアドレスを使うことはできません：%s</String>
+				<String Name="SameHHRapIPAddress">ハンドヘルドRAPのIPアドレスと同じIPアドレスを使うことはできません：%s</String>
+				<String Name="SaveButtonText">保存</String>
+				<String Name="SelectLaneToDelete">レーンを選択して削除</String>
+				<String Name="SelectSourceText">レーンを選択して動かす</String>
+				<String Name="SelectDestinationText">あて先を選択</String>
+				<String Name="YesButtonText">はい</String>
+			</StringTable>
+		</Language>
+	</Languages>
+</Display>

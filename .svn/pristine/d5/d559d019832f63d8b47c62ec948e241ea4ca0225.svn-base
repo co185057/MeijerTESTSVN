@@ -1,0 +1,100 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B653948D-D2D6-4A7D-AB43-1A4F5ADBE1B2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RapNetProxyBase</RootNamespace>
+    <AssemblyName>RapNetProxyBase</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug8\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release8\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PsxNet, Version=3.3.2.91, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\scot\ADK\lib\release7\PsxNet.dll</HintPath>
+    </Reference>
+    <Reference Include="RPSWNET, Version=6.0.2.22, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\scot\ADK\lib\release7\RPSWNET.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\RapNetBase\src\Biometric.cs">
+      <Link>src\Biometric.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\ConfigData.cs">
+      <Link>src\ConfigData.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\ConnectThread.cs">
+      <Link>src\ConnectThread.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\LanePsx.cs">
+      <Link>src\LanePsx.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\MonitoringState.cs">
+      <Link>src\MonitoringState.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\Pinvoke.cs">
+      <Link>src\Pinvoke.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\Remote.cs">
+      <Link>src\Remote.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\ScannerThread.cs">
+      <Link>src\ScannerThread.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\SharedPsx.cs">
+      <Link>src\SharedPsx.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\SignOnState.cs">
+      <Link>src\SignOnState.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\SimpleHash.cs">
+      <Link>src\SimpleHash.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\State.cs">
+      <Link>src\State.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\TransactionCount.cs">
+      <Link>src\TransactionCount.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>if not exist "..\..\..\..\..\Bin\$(ConfigurationName)8" mkdir "..\..\..\..\..\Bin\$(ConfigurationName)8"
+copy $(TargetFileName) "..\..\..\..\..\Bin\$(ConfigurationName)8\." /y
+if exist $(TargetName).pdb copy $(TargetName).pdb "..\..\..\..\..\Bin\$(ConfigurationName)8\." /y</PostBuildEvent>
+  </PropertyGroup>
+</Project>

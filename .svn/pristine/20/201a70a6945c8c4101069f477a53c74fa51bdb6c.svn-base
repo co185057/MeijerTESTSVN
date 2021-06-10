@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Display>
+	<Includes>
+		<!-- FULL ASSISTMODE XML -->
+		<Include File="%ConfigPath%\ACSAssistMode.xml"/>
+	</Includes>
+	<!-- Uncomment the "Alert" and "SmAssistOverrides" and the "Startup" override in SharedRap.000 to enable toggle -->
+	<Contexts>
+		<!-- Disable the Full Assist Mode button from the AM outside assist mode context -->
+		<Context Name="StartTransactionAM">
+			<IncludeControl Name="HHAssistModeButton">
+			    <Visible>False</Visible>
+			</IncludeControl>
+		</Context>
+		<!--
+		<Context Name="Alert">
+			<Size>77,44</Size>
+			<BackgroundColor>White</BackgroundColor>					
+			<IncludeControl Name="LaneButton">
+				<Position>0,0,77,44</Position>
+				<Picture>%MediaPath%\8x6-btn_alert.png</Picture>
+				<ClickMove>1</ClickMove>	
+				<Z-Order>1</Z-Order>
+			</IncludeControl>
+			<IncludeControl Name="LaneButtonText">
+				<Position>8,22,76,19</Position>
+				<Z-Order>2</Z-Order>			
+			</IncludeControl>
+		</Context>
+		<Context Name="SmAssistMode">
+			<CustomData>
+				<ShowAlerts>True</ShowAlerts>
+			</CustomData>
+		</Context>
+		-->
+	</Contexts>
+</Display>

@@ -1,0 +1,1321 @@
+; SCOTOPTS.000 has options for all SCOT terminals in a store
+
+;The SCOTOPTS options in the following table has been removed from SCOTOPTS.dat file. These options are replaced by the relative options in SCOTTend.dat.
+;Customers may use ScotTend.000 (or ScotTend.xxx where xxx is the terminal number) to override the same options in ScotTend.dat. 
+;These option files are in SCOT\Config directory. TB may copy SCOTTend.000 or SCOTTend.xxx from server. 
+;If the same options reside in SCOTOpts.000 (or SCOTOpts.xxx) - for example CreditNeedsPIN,
+;the option in SCOTOpts.000 or SCOTOpts.xxx will override the same option in ScotTend for backward compatibility. 
+
+;Begin of the table
+
+;SCOTOPTS			SCOTTend
+;CreditNeedsPIN			TenderType Credit, NeedPin option
+;CreditCashBack			TenderType Credit, CashBack option
+;DebitNeedsPIN			TenderType Debit, NeedPin option
+;DebitCashBack			TenderType Debit, CashBack option
+;EBTFSNeedsPIN			TenderType FoodStamp, NeedPin option
+;EBTCBNeedsPIN			TenderType EBT(CashBenefit), NeedPin option
+;EBTCBCashBack			TenderType EBT(CashBenefit), CashBack option
+;DebitNeedsSignatureCapture	TenderType Debit, SignatureCapture option
+;DebitNeedsVerifySignature	TenderType Debit, VerifySignature option
+;SignatureCapture		TenderType Credit, SignatureCapture option
+;VerifySignature		TenderType Credit, VerifySignature option
+;CreditMSR			TenderType Credit, IntegratedMSR option
+;DebitMSR			TenderType Debit, IntegratedMSR option
+;DebitSavingsMSR		TenderType DebitSavings, IntegratedMSR option
+;DebitCheckingMSR		TenderType DebitChecking, IntegratedMSR option
+;EBTMSR				TenderType EBT(CashBenefit), IntegratedMSR option
+;FoodStampMSR			TenderType FoodStamp, IntegratedMSR option
+;GiftCardMSR			TenderType GiftCard, IntegratedMSR option
+;PIPSCOTPromptCardType		(No option)
+;PIPSCOTPromptCashBack		Cashback option for PIP tenders
+;PIPSCOTPromptConfirmTotal	ConfirmTotal option for PIP tenders
+;PhoneCardMSR			(no option) or (not yet supported)
+;LoyaltyMSR			TenderType Loyalty, IntegrateMSR option
+
+;End of the table
+
+
+; SCOT tender options
+[Tender]
+CashAllowed=Y
+CreditAllowed=Y
+DebitAllowed=Y
+CashBack1=10
+CashBack2=20
+CashBack3=30
+CashBack4=40
+CashBack5=50
+CashBack6=0
+CashBack7=0
+CashBack8=0
+CashBack9=0
+CashBack10=0
+CashBack11=0
+Denominations=1,2,5,10,20,50,100
+;AllowCoupons - A=All modes, O=Only in assist mode (NOT ZERO), N=No modes TAR#102019
+AllowCoupons=A
+;The following option, ShowUseCoupons, is ignored if AllowCoupons=N (above)
+;ShowUseCoupons - Y=enable use coupon button, N=disable use coupon button
+ShowUseCoupons=Y
+EBTFSAllowed=Y
+EBTCBAllowed=Y
+; TAR 202035 Note that the following cashback amounts are only used if the
+; tender type is TB_TENDER_EBT or TB_TENDER_PIP_EBT.  All other tenders
+; use the CashBack amounts entered above.
+; There is a restriction for 5992 pinpad, the cashback amounts showed on the pinpad will not use the following amounts,
+; it will use the CashBack amounts entered above.
+EBTCashBack1=10
+EBTCashBack2=20
+EBTCashBack3=30
+EBTCashBack4=40
+EBTCashBack5=50
+EBTCashBack6=0
+EBTCashBack7=0
+EBTCashBack8=0
+EBTCashBack9=0
+EBTCashBack10=0
+EBTCashBack11=0
+AllowCancelWithPartialEBTTender=N
+OtherPayment=N
+; If Foodstamp total is more than transaction total
+; Y - will make SCOT use FoodStampTotal to call TBEnterTender()
+; N - will make SCOT use transaction total to call TBEnterTender()
+SubmitFSTtotalIfMorethanTrxTotal=N
+; Using Motorized Card Reader, Yes or No
+IsMotorizedMSR=N
+; If using Motorized MSR w/ PIP, and PIP is for entering PIN only, set the following to Y.
+;PIPPINEncryptorOnly=N ;;future use;;
+;PrintReceiptTrxOverAmount - Allows retailer to configure an amount under which the receipt will not be automatically
+; printed.  A print receipt button will be prominently displayed on the ThankYou screen if the receipt is not going to
+; auto-generate.  European Union customers must keep the option set at 0 (zero) to comply with Weights and Measures
+; legal requirements.
+PrintReceiptTrxOverAmount=0
+
+;For remote tendering transaction, dispense change at Lane side or pop RAP cash drawer at RAP side. The default value is Y
+DispenseChangeAtLaneForRemoteTendering=Y  
+
+
+; SCOT tracing options
+[Tracing]
+TraceOn=y
+CurrentLevel=6
+FocusLevel=0
+FocusComps=
+;Max trace log size in KB
+MaxLogSize=5000
+EntriesToFlush=1
+; MillisecondsToFlush - Time when buffer is flush to traces.log.  In Milliseconds
+MillisecondsToFlush=0
+
+; SCOT operational options
+[Operations]
+
+; Numeric or Alphanumeric key pad for operator ID and Password
+; If Y, operator ID and password will have numeric keypad.  Otherwise, will have alphanumeric keypad
+OperatorNumericKeyPad=Y
+; Operator ID and Password max digits
+OperatorIDMaxDigit=12
+OperatorPWMaxDigit=12
+;+SSCOADK-264
+;This option is for building picklist.
+;If blank (default), Default value is 90.
+PicklistThreshold = 90;
+;+SSCOADK-264
+
+;+SSCOADK-263
+;This option is for building picklist.
+;If blank (default), Default value is 90.
+ValidationThreshold= 90;
+;-SSCOADK-263
+
+;When set to Y, items will be sorted alphabetically.
+;Set to N for unsorted items.
+;Search item result will always be sorted alphabetically regardless of the option value.
+PicklistSortedAlphabetical = Y
+
+;When set to Y, display the image specified in picklist.xml
+;When N, display the image <upc>.jpg
+;default is N
+UsePicklistXMLImageName = N
+
+;When set to Y, TakeChange screen will be bypass if there are no bills change.
+;Default = Y.
+TakeChangeBypassedIfNoBills=Y
+
+;Alternate store mode menu PSX context definition for Head cashiers.
+;If not blank, supervisor validation will be performed when logging into store mode menus and the named context will be used.
+;If blank (default) or SmAuthorization, supervisor validation will not be performed at store mode entry and SmAuthorization ;will be used for all cashier logins.
+HeadCashierContext=
+
+;This option is to specify the format of the receipt file
+;No option is set as default 
+;Currently Supported values are ANSI and UNICODE
+ReceiptFileFormat=
+
+; Add Glory CM Support
+; Turning on this option shows RAP info if cash unbalance 
+; is detected in attract screen. Default value is N.
+ShowRapInfoWhenAbnormalBalance=N
+
+;SR742 begin
+;Turning on this option will allow customers to go into degraded mode of operations
+;This option remains N by default whether the lane is configured for cash devices or not.
+AllowDegradedMode=N
+;SR742 end
+
+;SSCOADK-2352
+;This option enables MSR during DegradedMode Cash Only mode
+;Default value is N
+EnableMSRDegradedModeCashOnly=N
+
+;SR81 begin
+;Turning on this option will change the delayed intervention on restricted items and
+;visual verify items to be an immediate intervention
+ImmediateInterventionForRestrictedItems = N
+ImmediateInterventionForVisualVerifyItems = N
+;SR81 end
+
+;SSCOADK-321
+AllowSaleOfRestrictedItems = Y
+AllowSaleOfRestrictedItemsInAssist = Y
+
+;To enable/disable Topaz Signature Bitmap/Boldness (default value is N)
+EnableTopazSignatureBoldness=N
+
+;+SR719
+: Turnning on this option will bypass the "mute" state of the volume control
+VolumeControlMuteBypass = N
+;-SR719
+
+;(+) SR898 ====================
+;Tri-Color Light Override Options
+;this makes the Tri-Color Light Color to Green in Attract Screen
+;and makes 'in-transaction' Tri-Color Light to "Off"
+;
+;Defaults to ìNî [Not Enabled]
+InvertLightStates = N
+;(-) SR898 ====================
+
+;+SR713
+;If SellBagsAtFinalize=Y, Display BagSale screen during finalization
+;If SellBagsItemCode is not blank, use specified itemcode. 
+;Otherwise, use TBCMD to allow TB to specify
+;BagPrice option can be used if SellBagsItemCode is configured.
+;see in the PLufile.txt for the desired price with correct itemcode of Plastic Bags configured in SellBagsItemCode.
+;RepeatSellBags is set to Y, If Self-Serve Checkout already in SMFinish and go back to ScanAndBag then press F&P button, 
+;the Plastic Bag screen will be  displayed again.
+SellBagsAtFinalize=N
+SellBagsItemCode=1234567
+BagPrice=10
+RepeatSellBags=N
+;-SR713
+
+;SR801
+;If set to Y, security will be enable in dataneeded screens except in dataneeded during itemsale
+;The value of this option can be overridden by the value of the data needed option - EnableSecurity
+;Default value will be N, disabling security
+EnableSecurityInCMDataNeeded=N
+
+ScaleMetric=N
+MaxCoupon=500   ;Indicates Maximum value PER KEYED-INCOUPON. 100=$1
+;SR678 begin
+;Indicates Maximum value PER COUPON both scanned and keyed in. 100=$1
+;Set to -1 by default which disable the option ñ for backward compatibility
+MaxCouponLimit = -1	
+;SR678 end
+;although customer TB/SSF override could change this, FastLane default is
+;number of consecutive times the same coupon can be scanned/keyed-in per transaction
+DuplicateCouponMax=2
+;Total coupon dollar amount allowed PER TRANSACTION. 100=$1, This parameter is used only if 
+;total value of transaction is less than the Upper$AmtForPercentToApply
+TotalCoupons$AmtMax=225
+;% of gross sales that the coupon dollar amount can be per transaction, this parameter comes into play 
+;only when total value of transaction is greater than or equal to Upper$AmtForPercentToApply.
+CouponPercentofGrossSales=15
+;The upper limit used to determine when to use coupons by $ amount(TotalCoupons$AmtMax) versus 
+;coupon % of gross sales (CouponPercentofGrossSales), 100=$1
+Upper$AmtForPercentToApply=2000
+;At Bag Item, allow <Skip Bagging> btn, Y/N.
+AllowSkipBaggingBtn=Y
+;At Bag Item, allow <Store Login> btn, Y/N.
+AllowStoreLoginBtnOnBagItemScreen=Y
+;The following option is to show Item Removed Button on Item Remove Violation Screen 
+;which results from a weight decrease at the Bag Item screen only.
+;If the button is enabled, the default button text is: Item Removed which is defined
+;in scotmsge.dat as message 1082;
+;the default message is Return items to bagging area or touch "Item Removed" which
+;is defined in scotmsged.at as message 1083
+;the default audio message is:  return item to bagging area or touch item removed
+;which is defined in scotwave.dat as 123=Sec_ItemRemovedOnRemoveViolation
+ShowItemRemovedButtonOnRemoveItemViolationScreen = Y
+; Default is set to yes. If this option is set to Y, the audio is not played at all
+; in the "Item Removed Violation" screen. If this option is set to N, audio is played and
+; depending on the timeout setting for ItemRemoveViolationAutoAdvanceTimer, audio might be 
+;interrupted when auto advancing the "Item Removed Violation" screen
+SuppressAudioInItemRemoveViolation=Y
+; This option can be used to suppress audio in the unexpected increase violation
+; screen, if the AdvanceUnexpectedIncreaseMax option is set. The audio will not play if this 
+; option is set to Y and the AdvanceUnexpectedIncreaseMax threshold has not been reached yet. Once
+; the AdvanceUnexpectedIncreaseMax threshold is reached, the audio is played as normal. Default 
+; is set to N. 
+SuppressAudioInUnexpectedIncrease=N
+; This option can be used to suppress audio in the mismatch weight violation
+; screen, if the AdvanceMismatchMax option is set. The audio will not play if this 
+; option is set to Y and the AdvanceMismatchMax threshold has not been reached yet. Once
+; the AdvanceMismatchMax threshold is reached, the audio is played as normal. Default 
+; is set to N.
+SuppressAudioInMismatch=N
+; Default is set to yes. If set, it will display a "Item not bagged" text on the
+; electronic receipt on the lane and RAP, when skip bagging button is pressed
+; on BagItem screen
+ShowSkipBaggingOnEReceipt=Y
+;At Unexpected Weight Increasing Alert, allow <Bag/Box> btn, Y/N.
+AllowContainerBtn=N		
+;At Unexpected Increase screen, disable the <Bag/Box> button after the first item is sold.
+;This only works if AllowContainerBtn is Y.
+;Y = Disable the button after the first item is sold.
+;N = Do not disable the button after the first item is sold.
+DisableUnexpIncContainerBtnAftFirstItem = N
+;At MisMatched Bagging Alert, allow <Bag/Box> btn, Y/N.
+AllowContainerBtnForMismatching=N
+;SR085 At Unexpected Weight Increase Alert in Finalization states (states after F&P), allow <Bag/Box> btn, Y/N. Default N.
+AllowContainerBtnInFinalization=N
+;At Removing Items, allow <Item Removed> btn, Y/N.	
+AllowItemRemovedBtn=Y
+;At Removing Items, allow <Store Login> btn, Y/N.	
+AllowStoreLoginBtnOnRemoveItemScreen=Y
+;At WaitForRemoteAssistance screen, allow <Done> btn, Y/N
+AllowAMDoneBtn=N				
+;Use tare for Weighted Item?
+;If the following option, SelectTareOnWeight, is N, use the option AutoTareCode to 
+;define the tare code which will automatically be used on each weight-required item.
+SelectTareOnWeight=Y
+AutoTareCode=0
+;If the following option, JumpToTarePickList, is Y, SCOTAPP will bypass the
+;Select Container Screen and go directly to the Tare Pick List. The Default value is Y
+JumpToTarePickList=Y
+;Option to display new mulitiselect context for picklist items sold with a receipt and no bagging required
+AllowMultiPick=N
+
+;+SSCOADK-264
+;This option will enable PicklistAssist.
+;Default value is false.
+PicklistAssistEnable=N
+;-SSCOADK-264
+
+
+;This option will enable SecureCam.
+;Default value is N.
+SecureCamEnable=N
+
+;This option will make SmartAssist Intervention as Delayed.
+;Default value is N.
+;If set to 'N', SmartAssist will use the GenericDelayedIntervention Feature
+;If set to 'Y', SmartAssist will use the normal DataNeeded
+ImmediateInterventionForSmartAssist=N
+
+;This option will enable bad trust level intervention
+;This option will only take effect once SecureCamEnable is Y
+;Default value is N.
+ReportTrustLevel=N
+
+;Option to allow auto advance to ProduceFavorites when an item is placed on produce scale
+;Default value is Y but only works when PicklistAssist is enable.
+AllowPLAAutoAdvance=Y
+;Value of the CMAP HashTable to store all items found on PickList.xml
+;For Best Performance, value should be a prime number and 20% larger than the highest anticipated size
+;eg, Base PickList.xml has 901 items. 901 + (20% of 901) = 1081.2 . next higher prime number is 1087
+PickListHashTableSize=1087
+
+;Option to display picklist item code
+DisplayPickListItemCode=Y
+;Option to display picklist items/categories on Scan & Bag
+DisplayQuickPickItems=N
+;Option to display sub categories instead of main categories in Picklist tab
+DisplayPickListSubCategoriesInTab=N
+;Option to highlight first category after Search button is pressed
+HighlightFirstCategoryFromSearch=Y
+;Use which tare in SCOTTARE.dat file for Tare Container1 and Tare Container2
+TareContainer1=1
+TareContainer2=3
+Suspend=Y
+VoidCouponBeforeSuspend=N
+AllowSuspendIfPartiallyTendered=N
+IfSuspendedDispensePartiallyPaidCash=Y
+PrintSignatureReceipt=N
+AllowCancelAll=Y
+PrintVersion=Y
+;If PrintPendingApprovalOnSuspend is Y any outstanding approvals needed will be appended to the receipt
+PrintPendingApprovalOnSuspend=Y
+;If Printer is controlled by TB (e.g. Fiscal Printer) set this option to Y . 
+TBControlsPrinter=N
+;Print receipt option on cancelled transaction. Y ñ print receipt on cancelled transaction. N ñ donít print receipt on cancelled transaction. Default value is Y.
+PrintReceiptOnCancelledTransaction=Y
+;If Y, Personalization Receipt feature will be on and it will override the option of "PrintReceiptTrxOverAmount" in scottend.dat
+;if N, Personalization Receipt feature will be off
+:***NOTE*** European Union customers must have this feature turned off to comply with Weights and Measures requirements.
+PersonalizationReceipt=N
+;Hold Receipt until in designated state;
+;Default is "Any" or null will start the receipt printing immediately, will generate the receipt as soon as the TB_CLOSED is received.
+;ìNonInterventionStateî means hold receipt until there's a possible intervention coming. The last chance the receipt
+;will be printed is in SMTakeReceipt. This option is the same with EOTReceiptPrintingState=SMTakeReceipt
+;"SMTakeChange", hold printing receipt until SMTakeChange State - print receipt when is Change dispensed.
+;"SMTakeReceipt", hold printing receipt until SMTakeReceipt state ñ which is after Change is dispensed.
+;EOTReceiptPrintingState=SMTakeReceipt
+;EOTReceiptPrintingState=SMTakeChange
+EOTReceiptPrintingState=Any
+;EOTReceiptPrintingState=NonInterventionState
+;
+;Option to add paper cut to receipts generated by TB_CLOSED
+;Y = Add paper cut to transaction receipt (Default value)
+;N = disable cut receipt function
+AddPaperCutToTransReceipt=Y
+;
+;Set below to BASE64 if the TB uses BASE64 binary to text encoding for the receipt barcode data
+ReceiptBarcodeDataTextToBinaryDecoder=NONE
+;Set below to N if the TB encodes the receipt barcode data as packed BCD for type 128 C
+EncodeDataAsPackedBCD=Y
+;
+;Disable Hard Coded (02/20) identification of Price Embedded labels
+;If set to Y, only InStore barcodes configured with Price Embedded option will be identified as price embedded labels
+DisableBasePriceEmbeddedDefinitions=N
+;if TruncateSupplementalCodeForSecurity=Y all supplemental code will be truncated before barcode passed to Security Agent
+TruncateSupplementalCodeForSecurity=Y
+;Price Embedded Verifier=Y then UPC A2/CD PriceEmbedded format = 02 iiii V ppppp C = 5 digit price field, EAN standard
+;Price Embedded Verifier=N then UPC A2/CD PriceEmbedded format = 02 iiiii V pppp C (leading zero optional) = 4 digit price field, UPC standard
+UPCAPriceEmbeddedVerifier=Y
+;If the customer birthday is already inputed as 19, He buy a beer which requires 21 age. 
+;Does SCOT automatically void that item?
+AutoVoidUnderageRestrict=Y
+; 0-no dispense, 1-dispense, other values are reserved for future usage
+AllowDispenseInTrainingMode=0
+;Send the Signature data to TB if this option is Y. 
+SendSignatureDataToTB=N
+; Next 3 options are for Reports. 'NumberOfReportLogsToKeep' minimum value is 8, 
+;                                  maximum is 365 (or 366 for leap year)'.
+LogDataForSystemReports=Y
+;Obsolete configuration below 
+NumberOfReportLogsToKeep=30
+; EOD has 3 options 
+; 1 = FastLaneControl option allows EOD1 to occur at Midnight (default)
+; 2 = TBControl option allows TB2 to control the EOD
+; 3 = OperatorControl option allows for initiation of EOD in response to a button press on the report screen
+EOD = 1
+EODTimeout = 60000
+;SR682-Option to display weight exception information and number of items(similar to RAP) on the lane.
+ShowWeightInfoOnLane=Y
+;This option controls the amount time that application waits for the launched batch file to complete. The timeout value
+;specifies the time-out interval, in millisecond. If set to 0, application does not wait
+SyncTimeTimeout=60000
+
+;PIP - Partial Integrated PINPad
+PartialIntegratedPINPad = Y
+;Set to N if the integrated MSR is not the 7401 (default is Y)
+Use7401MSR = Y
+; I = handle as an immediate intervention, D = handle as a delayed intervention, N = or any other value indicate donít intervene
+HandleUnDeActivatedItemAs=D
+;
+; How to display Toggle option on Remote Assist Mode:
+; 0 (default) = Disable Toggle Functionality and display nothing.
+; 1 = Display Lane Number only if lane needs intervention.
+; 2 = Display Lane Status only if lane needs intervention.
+; 3 = Always display lane number, but display lane status when intervention required.
+RemoteAssistModeToggleDisplay=0
+;
+;Allow 9 digit Id and password.  Possible values for OperatorLoginBarcodeType is 0, 1, and 2.  
+;Where 0 = No scannable barcode allowed. 1 = EAN13 type barcode.  2 = Code 128 type barcode.
+;Default is 1
+OperatorLoginBarcodeType=1
+;Allow barcode height to be configurable, tar 430804
+OperatorLoginBarcodeHeight=4
+;If LoginBarcodeType is 2, then there is option to allow leading zeros in login and/or password
+AllowLeadingZerosInCode128LoginBarCode=N
+;Barcode type mask for EAN13 type:  Keep the prefix "412".  You may have operator Id and password of length 1-7 digits long, but the total should add up to 8 digits. 
+;That's because, for EAN 13 type the length must be 13 to be printed.  We are using 3 digits for the prefix/signature and 8 for Id and PW and 2 check digits.  
+;No barcode will be printed if the mask length is less than 13 including the prefix/signature.     
+;Example: if your Id and password is 1234 and 3456 respectively then the mask should be 412uuuupppp.
+;if your Id is 12345 and password is 678 then the mask should be 412uuuuuppp
+;You may not have a leading 0 in your id or password.  Operator Print Barcode button will be disabled if the mask contain
+;anything other than 'u' and 'p' for ID and PW
+;For Code 128 type, keep the prefix "412".  Use operator Id and password up to 9 digit long.
+;Example: if your Id and password is 123456789 and 234567890 respectively then the mask should be 412uuuuuuuuuppppppppp
+;If your Id is 12345 and password is 123 then the mask should be 412uuuuuppp
+;you may not have leading 0 in your Id or password
+;Also for Code 128 on the HHRAP, in order to sign on by scanning the operator barcode from the HHRAP device the 
+;Windows Registry (on the HHRAP) will have to be modified. Set the HHRAP registry key
+;HKEY_LOCAL_MACHINE\SOFTWARE\NCR\NcrRapRemoteScanner\Profiles\ThisDevice\Code128Prefix="B3".
+
+OperatorBarcodeMask=412uuuupppp
+OperatorTwoLineText=N
+SendPOSOperatorBarcode=N
+DefaultSendPOSOperatorPassword=0
+
+;display coin substitution for Hopper
+HopperSubstitutionIntervention=Y
+;transaction limit for ìFix Laterî button on hopper substitution intervention
+HopperFixLaterTrxLimit=5;
+
+;Set the following option to Y if you want to log WLDB mismatch to a log file.  Set the 
+;WLDBMmismatchMaxFileSize to the desired size in K.  Default is 5000 K 
+LogWLDBmismatch=Y
+;File size in bytes
+WLDBmismatchMaxFileSize=5000
+;Check the Cash Changer's status at attract screen. N is the Default value.
+CheckCashChanger=N
+
+;Option for gift card tendering
+;0 - no gift card, 1 - scanned gift card, 2 - swiped gift card
+GiftCardRedemption=0
+
+;Option for display of gift card balance
+;Y - display gift card balance, N - donít display gift card balance
+DisplayGiftCardBalance=Y
+
+;Methods of zero balanced gift card collection
+;0 - no collection, 1 - deposit card in coupon slot, 2 - collect card by cashier
+MethodOfCollectionForEmptyGiftCard=1
+;center the DataNeeded buttons horizontally rather than rely on button position
+CenterCustomerDataNeededButtons=Y
+; This option if set to Y will display the Volume control button in Attract screen
+ShowVolumeControl=N
+; This value is used to increment the current volume by the percentage of maximum volume value. This value is ;interpreted as a percentage. The value of 20 specifics a volume increment value that is 20% of maximum volume. This ;option is used if ShowVolumeControl is set to ëyÅE
+VolumeControlIncrementLevel=20
+
+;Glory cash recycler - Number of times to attempt a dispense when device is busy.
+GloryDispenseRetries=60
+;CardDispenser feature
+ManageCardDispenser=N
+CardDispenserBinCapacity=150
+DispenserRejectBinNearFull=15
+DispenserRejectBinFull=20
+
+;Reprint any receipt by transaction number. Turning on this feature requires POS support.
+ReprintReceiptByTransNumber=N
+PrintDuplicateMsgonPrintLastReceipt=N
+
+;Intervention at start of training mode transaction. Y ñ approval required for start of every training mode transaction. N ñ no intervention.
+InterventionAtStartOfTrainingModeTransaction=Y
+
+;Turning on this option will force the approval of the age restricted item/visual verify item/coupon ratio approval item, when the user selects the Suspend button on lane or rap
+ForceDelayedApprovalBeforeSuspend=Y
+
+;SR085 - This option allows the display of "I brought my own bag" bttn on Attract. Default is N.
+CustomerBagAllowed=N
+
+;SR880 - Add Own Bag button to S&B Screen as an Option. Default is N.
+CustomerBagAllowedInScanAndBag=N
+
+;SR93 - Biometric device support.  Default is N.
+UseFingerPrintDevice=N
+
+; IncludeCouponsInItemCount Indicates if Scanned and Keyed coupons are included in the item count
+;   displayed at the RAP.  Default, legacy behavior is to include the coupons.
+IncludeCouponsInItemCount=Y
+
+;To enable/disable the search button on the PickList
+AllowPickListSearchButton=Y
+
+;To enable/disable fuzzy search
+AllowFuzzySearch=Y
+
+;To Enable/Disable USSF (default is N).
+EnableUSSF=N
+
+; SR730 RFC380486 - List of contexts which will transition to the Scan And Bag context before going to the Bag Item context after an item sale.
+; Contexts should be entered like the following example:
+;TransitionToScanAndBagContexts=ProduceFavorites,MultiSelectProduceFavorites,EnterWeight,SelectTare,KeyInCode
+TransitionToScanAndBagContexts=
+
+;SR821 ñ Enhance SMM to Allow Keyed Item Number
+;This option is used to allow a  ìKeyed in Codeî functionality in SMM
+;Default is N
+AllowSMMKeyInCode=N  
+
+; This option is use to enable SSCOMobile Shopper
+; Default is N
+EnableMobileShopper=N
+;Send a Finish message to Central 
+SendFinishTransaction=Y
+
+; Send Mobile customer id "CardNumber" as first scan, default is yes
+SendMobileCustomerIDAsLoyaltyScan=Y
+
+; MobileCustomerIDFilters - only used if SendMobileCustomerIDAsLoyaltyScan is Y
+; If no filters,  all CustomerIDs from mobile are sent as first mobile scan.
+; Format is MobileCustIDFilterN=<Type>,Filter
+; Filter list index must not skip numbers.  1,2,3,4,....
+; Type is E (exclusion) or I (inclusion),  any others require SSF
+;"x" matches any character
+;"c" matches any character, but signifies check digit
+; ì+î is a variable length indicator field. Use to indicate length >= length of mask 
+; "*" filter matches any string,  should be final filter.
+;MobileCustIDFilter1=E,201xxxxxxxxxc
+;MobileCustIDFilter2=I,*
+
+; MobileShopperBarcodeConversions - list of barcode type and prefix that support in Mobile transaction
+; Formart is MobileShopperBarcodeConversionN=<Scan Type>,<prefix>
+MobileShopperBarcodeConversion1=101,A%s
+MobileShopperBarcodeConversion2=102,E%s
+MobileShopperBarcodeConversion3=103,FF%s
+MobileShopperBarcodeConversion4=104,F%s
+MobileShopperBarcodeConversion5=106,B2%s
+MobileShopperBarcodeConversion6=108,B1%s
+MobileShopperBarcodeConversion7=110,B3%s
+MobileShopperBarcodeConversion8=107,N%s
+MobileShopperBarcodeConversion9=120,]C1%s
+MobileShopperBarcodeConversion10=201,]L2%s
+MobileShopperBarcodeConversion11=202,]U0%s
+MobileShopperBarcodeConversion12=206,]z0%s
+MobileShopperBarcodeConversion13=203,]d0%s
+MobileShopperBarcodeConversion14=204,]Q0%s
+MobileShopperBarcodeConversion15=205,]Q0%s
+MobileShopperBarcodeConversion16=105,B2%s
+MobileShopperBarcodeConversion17=109,]G0%s
+
+; SCOT functional options
+[State]
+
+;Send a message to the TB to indicate that a Tender has been started.
+;When this option is used, Scotapp sends TenderSelected message
+;and expects TB_TENDERSTARTED message for tender processing
+;Default is false
+TenderStartedMessage=N
+
+AllowInterruptWavFiles=Y
+SayPrices=Y
+SayPhrases=Y
+SayPricesDisableInAttendantMode=N
+DisableAudioInAttendantMode=Y
+AllowTBAudioControl=N
+TrainingProgramButtonVisible=N
+; MoviePlayOnAttract option overrides WelcomeScreenVideo option on attract screen,
+; can be turned off with MoviePlayOnAttract=N, supports mpg, avi and mov files
+; File should be located in %APP_DRIVE%\scot\config folder
+MoviePlayOnAttract=SCOTDEMO.AVI
+; MoviePlayOnAttractBelt option replaces the MoviePlayOnAttract option if the
+; current system is configured with a Takeaway Belt.
+MoviePlayOnAttractBelt=BELTSLNT.AVI
+; Setting LiveVideo toíNÅEwill turn off the following 2 live video options.
+LiveVideo=N
+WelcomeScreenVideo=Y
+; Setting PaintScanAndBagOnInitialScan to Y will give immediate feedback on 
+; scan from the attract screen
+PaintScanAndBagOnInitialScan=Y
+; Setting ForceTrxStartOnSwipe to Y will force a TBStart() call before a call
+; to tb.VerifyLoyaltyCard()
+ForceTrxStartOnSwipe=N
+; For Produce Favorites Screen to show ProduceFavorites must be Y
+; and there must be items in SCOTPICK.DAT with column 6 set to Y
+ProduceFavorites=Y
+; Set OverridePickDesc to Y to override the description in SCOTPICK.DAT with the optional 3rd
+; column text in the SCOTPIMG files
+OverridePickDesc=N
+; Default File Name for Produce Bitmap (Displayed for an item when the SCOTPIMG files do not contain a matching PMA Code and bitmap filename)
+DefaultProduceBMPName=PHOTONOTAVAILABLE.JPG
+; When a produce scale is not configured on the lane, this option does not come into play. The effect is as if the DisplayWeightsAndMeasures is N.
+DisplayWeightsAndMeasures=Y
+HasSidecar=Y
+AllowLoyaltyCard=N
+LoyaltyCardReminder=N
+LoyaltyCardReminderAfterFirstItemSold=N
+AssistMode=Y
+LookupItemIsButton1=Y
+FlashLookupItemButton=Y
+FlashKeyInCodeButton=Y
+EscalateTakeYourItemsTimeout=Y
+InvalidCouponPrefix=""
+
+;Should Price Embedded items be weighed on the ScannerScale, Y/N. 
+;  If Y, TB supplied "Weight Field" will not be used. 
+;  Yes will only work if SubstCkPriceEmbeddedWeights=Y
+ForceWeighingOFPriceEmbedded=N	
+
+; ConfirmationForSuspendingTransaction has value Y or N
+ConfirmationForSuspendingTransaction=Y
+; A new optional check your cart screen
+; If this option is set to Y, show an additional screen before Finish & Pay screen.
+; Otherwise, set to N.
+CheckBasketReminder=N
+; SCOT 2.0 has no MSR Card MEI, so we will disable attempts to light it up!
+HasCardMEI=N
+; If coupon sensor is installed and this option is set to Y, 
+; show Insert Coupon screen after scan a coupon.
+; Set this option to N if you don't want to show Insert Coupon screen.
+CouponSensor=N
+; Set this option to N if you don't want to allow cashier to initiate transaction from RAP 
+; if cashier is allowed to initiate transaction from RAP, set this option to the section name 
+; in scotdataentry.ini which contains the correct control options
+RapInitiateTransaction=N
+;RapInitiateTransaction=StartTransactionAM
+;RapInitiateTransaction=StartTransaction
+
+; Option for Date of Birth Not Needed button to display (or not display) in store mode and RAP
+; Set this option to N if you don't want to display the button.
+DOBNotNeededButton=Y
+
+;If set to Y, display the number of items on RAP .
+DisplayNumberOfItemsOnRAP=Y
+
+;Allow or disallow security disable functionality. If set to Y, shows the Security Disable button on RAP, default is N
+SecurityDisableAllowed=N
+
+;If set to Y, Security will remain disabled for the succeeding transactions when security has been disabled through Security Disable button on RAP.
+;Security Disable button should be toggled to re-enable security. Works only if SecurityDisableAllowed=Y
+;default is N
+SecurityDisableNoReset=N
+
+;SSCOADK-3912 Reintroducing AllowLookUpItem and AllowKeyInCode options with default set to Yes.
+AllowLookUpItem=Y
+AllowKeyInCode=Y
+
+DualLanguage=N
+;if Dual Language is Yes, following two options must be defined, in the format
+;2 character ISO639 language code, button name on attract screen, message filename
+;tare description filename, security conclusions filename, tender filename, price speaker 3-letter currency code
+;---------------------------------------------------------------------------------------------------
+; Button text displaying name of the language can either be text string or ID to get from translated
+; text file of that language.
+; Example: For language code 0411, name of language will be message 1286 from msg0411.dat 
+; Similarly, for language=FR message 1286 from MSGFREN.dat will be used for language name
+;---------------------------------------------------------------------------------------------------
+; HOW TO USE THE NEW THREE-LETTER CURRENCY CODE:
+; In order to speak prices in EUROS or POUNDS, we need to configure 0809EUR or 0809GBP entries for
+; SayPrice0809EUR.dat or SayPrice0809GBP.dat respectively as following:
+; 1. Specify the 3-letter currency code for the second language
+;    Language2=UK,1286,UNUSED,TAREUK.DAT,UNUSED,TENDUK.DAT,EUR
+;    or
+;    Language2=UK,1286,UNUSED,TAREUK.DAT,UNUSED,TENDUK.DAT,GBP
+; 2. Add new entries for EUR or GBP in registry 
+;    HKLM\SOFTWARE\NCR\NCRDisplayEngine\SayPrice
+;        0809EUR = C:\scot\Sound\SayPrice0809
+;    or
+;        0809GBP = C:\scot\Sound\SayPrice0809
+; 3. Make sure the following sayprice exist
+;    C:\scot\Sound\SayPrice0809\SayPrice0809EUR.dat
+;    or
+;    C:\scot\Sound\SayPrice0809\SayPrice0809GBP.dat
+;
+;Language1=EN,1286,UNUSED,SCOTTARE.DAT,UNUSED,SCOTTEND.DAT
+;Language2=ES,1286,UNUSED,TARESPAN.DAT,UNUSED,TENDSPAN.DAT
+;Language2=FR,1286,UNUSED,TAREFREN.DAT,UNUSED,TENDFREN.DAT
+;Language2=UK,1286,UNUSED,TAREUK.DAT,UNUSED,TENDUK.DAT
+;Language2=UK,1286,UNUSED,TAREUK.DAT,UNUSED,TENDUK.DAT,EUR
+;Language2=0413,1286,UNUSED,TARE0413.DAT,UNUSED,TEND0413.DAT
+;Language2=0407,1286,UNUSED,TARE0407.DAT,UNUSED,TEND0407.DAT
+;Language2=040C,1286,UNUSED,TARE040C.DAT,UNUSED,TEND040C.DAT
+;Language2=0410,1286,UNUSED,TARE0410.DAT,UNUSED,TEND0410.DAT
+;Language2=0C09,1286,UNUSED,TARE0C09.DAT,UNUSED,TEND0C09.DAT
+;Language2=1409,1286,UNUSED,TARE1409.DAT,UNUSED,TEND1409.DAT
+;Language2=0C0A,1286,UNUSED,TARE0C0A.DAT,UNUSED,TEND0C0A.DAT
+;Language2=0415,1286,UNUSED,TARE0415.DAT,UNUSED,TEND0415.DAT
+;Language2=041d,1286,UNUSED,TARE041d.DAT,UNUSED,TEND041d.DAT
+;Language2=041f,1286,UNUSED,TARE041f.DAT,UNUSED,TEND041f.DAT
+;Language2=040b,1286,UNUSED,TARE040b.DAT,UNUSED,TEND040b.DAT
+;Language2=0406,1286,UNUSED,TARE0406.DAT,UNUSED,TEND0406.DAT
+;Language2=0427,1286,UNUSED,TARE0427.DAT,UNUSED,TEND0427.DAT
+;Language2=0427,1286,UNUSED,TARE0427.DAT,UNUSED,TEND0427.DAT,EUR
+;Language2=1809,1286,UNUSED,TARE1809.DAT,UNUSED,TEND1809.DAT
+;Language2=0452,1286,UNUSED,TARE0452.DAT,UNUSED,TEND0452.DAT
+;Language2=0424,1286,UNUSED,TARE0424.DAT,UNUSED,TEND0424.DAT,PRICESOUNDCONFIG0424.DAT
+;Language2=041a,1286,UNUSED,TARE041a.DAT,UNUSED,TEND041a.DAT,PRICESOUNDCONFIG041a.DAT
+;Language2=041b,1286,UNUSED,TARE041b.DAT,UNUSED,TEND041b.DAT,PRICESOUNDCONFIG041b.DAT
+;Language2=0405,1286,UNUSED,TARE0405.DAT,UNUSED,TEND0405.DAT,PRICESOUNDCONFIG0405.DAT
+;Language2=040e,1286,UNUSED,TARE040e.DAT,UNUSED,TEND040e.DAT
+;Language2=0408,1286,UNUSED,TARE0408.DAT,UNUSED,TEND0408.DAT
+;Language2=0403,1286,UNUSED,TARE0403.DAT,UNUSED,TEND0403.DAT
+;Language2=0446,1286,UNUSED,TARE0446.DAT,UNUSED,TEND0446.DAT
+;Language2=0c04,1286,UNUSED,TARE0c04.DAT,UNUSED,TEND0c04.DAT
+;Language2=041e,1286,UNUSED,TARE041e.DAT,UNUSED,TEND041e.DAT
+;Language2=0422,1286,UNUSED,TARE0422.DAT,UNUSED,TEND0422.DAT
+;Language2=0816,1286,UNUSED,TARE0816.DAT,UNUSED,TEND0816.DAT
+;Language2=081a,1286,UNUSED,TARE081a.DAT,UNUSED,TEND081a.DAT
+; ---------------The following 3 settings are for Japan -------------------------------------
+;Language1=0411,1286,UNUSED,TARE0411.DAT,UNUSED,TEND0411.DAT
+;Language2=EN,1286,UNUSED,SCOTTARE.DAT,UNUSED,SCOTTEND.DAT
+;Language2=UK,1286,UNUSED,TAREUK.DAT,UNUSED,TENDUK.DAT
+; -------------------------------------------------------------------------------------------
+; ---------------The following settings are for Korean -------------------------------------
+;Language1=0412,1286,UNUSED,TARE0412.DAT,UNUSED,TEND0412.DAT, PRICESOUNDCONFIG0412.DAT
+;Language2=EN,1286,UNUSED,SCOTTARE.DAT,UNUSED,SCOTTEND.DAT,PRICESOUNDCONFIG0412EN.DAT
+; -------------------------------------------------------------------------------------------
+; ---------------The following settings are for Saudi Arabia -------------------------------------
+;Language1=UK,1286,UNUSED,TAREUK.DAT,UNUSED,TENDUK.DAT,SAR
+;Language2=0401,1286,UNUSED,TARE0401.DAT,UNUSED,TEND0401.DAT
+; -------------------------------------------------------------------------------------------
+; ---------------The following settings are for Russian -------------------------------------
+;Language1=0419,1286,UNUSED,TARE0419.DAT,UNUSED,TEND0419.DAT,RUB
+;Language2=UK,1286,UNUSED,TAREUK.DAT,UNUSED,TENDUK.DAT,RUB
+;Language3=0419,1286,UNUSED,TARE0419.DAT,UNUSED,TEND0419.DAT,EUR
+;Language4=0419,1286,UNUSED,TARE0419.DAT,UNUSED,TEND0419.DAT,USD
+;Language5=0419,1286,UNUSED,TARE0419.DAT,UNUSED,TEND0419.DAT,LTL
+;Language6=0419,1286,UNUSED,TARE0419.DAT,UNUSED,TEND0419.DAT,CZK
+;Language7=0419,1286,UNUSED,TARE0419.DAT,UNUSED,TEND0419.DAT,TRY
+;Language8=0419,1286,UNUSED,TARE0419.DAT,UNUSED,TEND0419.DAT,PLN
+;Language9=0419,1286,UNUSED,TARE0419.DAT,UNUSED,TEND0419.DAT,GBP
+;Language10=0419,1286,UNUSED,TARE0419.DAT,UNUSED,TEND0419.DAT,HUF
+; -------------------------------------------------------------------------------------------
+; ----------The following settings are for Mandarin (US English as Primary)------------------
+;Language1=EN,1286,UNUSED,SCOTTARE.DAT,UNUSED,SCOTTEND.DAT
+;Language2=0804,1286,UNUSED,TARE0804.DAT,UNUSED,TEND0804.DAT (please add Dollars Say Price config here)
+; ----------The following settings are for Mandarin (Mandarin as Primary)------------------
+;Language1=0804,1286,UNUSED,TARE0804.DAT,UNUSED,TEND0804.DAT
+;Language2=EN,1286,UNUSED,SCOTTARE.DAT,UNUSED,SCOTTEND.DAT  (please add Renminbi Say Price config here)
+; -------------------------------------------------------------------------------------------
+; ----------The following settings are for Malay (UK as Primary)------------------
+;Language1=UK,1286,UNUSED,TAREUK.DAT,UNUSED,TENDUK.DAT,MYR
+;Language2=043e,1286,UNUSED,TARE043e.DAT,UNUSED,TEND043e.DAT
+; -------------------------------------------------------------------------------------------
+;
+;Set this option to 'Y' to allow changing language during transactions
+AllowLanguageSelectionDuringTransaction=N
+;Set this option to 'Y' to allow language selection on Attract screen
+;SR085 - This option allows a single language bttn on Attract instead of multiple bttns for different languages. This setting makes sense ONLY when ;DualLanguage=Y. When DualLanguage=Y and CustomerBagAllowed=Y, we should force this option to be Y. Default is N.
+SingleLanguageButtonAtAttract=N
+
+;Attendant Mode options
+;Allow or disallow Attendant mode (Y or N), default is Y
+AttndModeAllowed=Y
+;Bypass intervention/storemode login in attendant mode (Y or N), default is Y
+AttndModeLoginBypass=Y
+;Handle interventions immediately (Y or N), default is Y
+AttndModeImmedInterventions=Y
+
+;Basic Assist Menu options
+;Access assisted sales menu from store mode Assist button (Default = Y) +SSCOADK-3580
+AssistMenuFromStoreModeAllowed=Y
+;Access Basic Assist Menu from RAP Assist button (Default = Y) +SSCOADK-3580
+AssistMenuFromRAPAllowed=Y
+;SR819 begin
+; Display Assist Menus before store mode menus when logging in during transaction, Default is N 
+; If this feature will be used, Context Sensitive xml file should be included in FastLane3.1.xml (for Lane) and RAP.xml (for RAP and HHRAP).  
+ContextSensitiveMenus=N
+; Is Assist Menu allowed during finalization? Default is N
+AssistMenuDuringFinalization=N
+; Assist menu context when in itemization (SmAssistMenu or SmAssistMenuHC) 
+; If blank or default is SmAssistMenu
+AssistMenuItemizeContext=SmAssistMenu
+; Assist menu context for head cashier during itemization (SmAssistMenu or SmAssistMenuHC)
+; If blank or default is SmAssistMenu
+AssistMenuItemizeHeadCashier=SmAssistMenu
+; Assist menu context when in finalization (SmAssistMenu or SmAssistMenuFinalize)
+; If blank or default is SmAssistMenu
+AssistMenuFinalizeContext=SmAssistMenu
+; Assist menu context for head cashier during finalization (SmAssistMenu, SmAssistMenuFinalize or SmAssistMenuFinalizeHC)
+; If blank or default is SmAssistMenu
+AssistMenuFinalizeHeadCashier=SmAssistMenu
+;SR819 end
+
+;Startup Options
+;FastLane will go to LaneClosed screen when started. Otherwise startup will go to the Attract screen
+StartupToLaneClosed=N
+;StartupWaitForTB = Y --> FastLane expects TB_LANECLOSED or TB_LANEOPEN from TB for close/open
+StartupWaitForTB=N
+
+;SR814.2 begin
+;Allow or disallow Accept Weight button to be enable in SMEnterWeight
+AcceptWeightBtnEnable=N
+;Allow or disallow Beep to be enable in SMEnterWeight
+AcceptWeightBeepEnable=N
+;SR814.2 end
+
+; SCOT screen and audio time out limits by process
+[TimeOut]
+; Valid values for the following are 0-180, in seconds.
+; 0 is a special value meaning to never time out.
+; Any value here can be overridden in the unique SCOTOPTS.xxx files.
+; The option RequestSig is never set to lower than 35.
+Tender=90
+StateDefault=60
+TakeCard=60
+TakeCash=15
+TakeCoins=3
+; The option TakeReceipt is never set to 0, this will cause Coreapp to be stuck at SMTakeReceipt state
+TakeReceipt=3
+ItemTransactionResult=15
+ContinueTransaction=65
+Help=45
+Signon=30
+Signoff=30
+Attract=30
+ThankYou=30
+ItemSaleInProgress=0
+EASDeactivationScreenTimer=15
+CheckBasketReminder=10
+RequestSig=90
+TimeOutTransportItem=7
+;After this many seconds, play the audio prompt when entering the Bag Item screen.  0=immediate
+InitialBagItemAudio=5	
+;After this many seconds, re-play the audio prompt.	
+PeriodicBagItemAudio=15		
+;After this many seconds, play the audio prompt when entering the Removing Items screen. 0=immediate
+InitialRemovingItemsAudio=6 
+;After this many seconds, re-play the audio prompt.
+PeriodicRemovingItemsAudio=15	
+;After this many seconds, play the audio prompt to continue purchasing
+WalkAwayTimerAudio=15
+;Delay in seconds before first take your items audio message on Thank You screen
+InitialTakeYourItemAudio=15
+;Delay in seconds between take your items audio messages
+RecurringTakeYourItemAudio=15
+;Wait this many seconds on the Thank You screen if on a Takeaway Belt system
+ThankYouTimerBelt=1
+;Wait this many seconds on the Thank You screen if on a no security bagscale system
+ThankYouTimerNoBagScale=0
+;After this many seconds, play the audio prompt when entering the Bag Area Backup screen 0=immediate
+InitialClearBagAreaAudio=0
+;After this many seconds, re-play the audio prompt on the Bag Area Backup screen
+PeriodicClearBagAreaAudio=15
+;After this many seconds, re-play the audio prompt on the Insert Coupon screen
+CouponSensorScreenTimer=15
+;Timer only intended for 7883 scanner where plate can block sensor, touchscreen motion sensor used to wakeup scanner motor
+;keep value >20 to prevent performance problem, max value=120, 0=off
+TouchScreenProximityEnablesScannerMotor=0
+;Timer used for touchscreen motion sensor to detect that a customer is present, 0=off
+MotionSensorOnAttractInterval=0
+;Timer used for Scanner Scale on Attract Screen and Scan and Bag Screen
+ScannerScaleOnAttractInterval=2000
+;After this many seconds, display Bag Item screen
+DisplayBagItemScreenTimer=5
+;Eliminate the brief extra item and weight mismatch blips during processing item on tab, tar 379130  
+DisplayIncreaseMisMatchScreenTimer = 2 
+;After this many seconds, re-play the audio prompt.
+;used with SMSecMisMatchWeight, SMSecUnExpectedIncrease, and SMSecUnExpectedDecrease
+PeriodicSecurityAudio=15	
+;After this many seconds, re-play the audio prompt on Take Change screen
+CashOutSensorAudioTimer=10
+;Timer for sending Heartbeat message to RSM/SNMP. 0=No heartbeat, Default is 1800s.
+HeartbeatTimer=1800
+;After this many seconds, Exit Suspend screen. If timeout value is set to 0 , the application will not move off ìSuspendÅE
+;state until user presses the ìokÅEbutton.
+ExitSuspendScreenTimer=5
+; NOTE!! the timers above are in seconds, please keep any new timers using seconds above this line ***
+; NOTE!! the following timers are in milliseconds, please add any new timers using milliseconds below
+;After this many milliseconds, escalate the Bag Item message to RAP, 0=immediate
+BagItemEscalationMilliSecs=8000
+;After this many milliseconds, escalate the Removing Items message to RAP, 0=immediate
+RemovingItemsEscalationMilliSecs=3000
+;After this many milliseconds, change the tricolorlight to notify mgmt of security problem, 0=immediate
+;used with SMSecMisMatchWeight, SMSecUnExpectedIncrease, and SMSecUnExpectedDecrease
+DelaySecurityNotificationMilliSecs=10000
+;After this many milliseconds, the escalation timer in the Thank You state will expire
+;Used in conjunction with State option EscalateTakeYourItemsTimeout
+TakeYourItemEscalationMilliSecs=30000
+;This option controls the amount time the Thank You screen stay up with the Print Receipt button until timeout.
+;The timeout value specifies the time-out interval, in milliseconds. If set to 0, Print Receipt button will be hidden. 
+PrintReceiptInThankYouScreenTimer=5000
+;After this many seconds, exit Tender Balance screen, 0 means no time out.
+TenderBalanceScreenTimer=0
+;After this many seconds, exit Deposit Gift Card screen, 0 means no time out.
+DepositGiftCardScreenTimer=0
+;Glory cash recycler - Time in milliseconds to wait between dispense attempts.
+GloryUnitDispenseTimeout=500
+;NOTE!! the timer(s) below are in minutes, please keep any new timers using milleseconds above this line ***
+;Busy Lease Timer - Set time in minutes, default is 10 minutes.
+BusyLeaseTimer=0
+;Idle timer for Attendant Mode exit, 0 means no time out.
+AttendantModeTimer=300
+;After this many seconds, set the volume back to default. A value of 0 means no timeout.
+VolumeControlTimer=15
+;After this many seconds, set the language back to primary language. A value of o means no timeout
+SingleLanguageButtonAtAttractTimer=30
+;SR085 - After this many seconds, display PutBagOnScale screen. Default is 5.
+DisplayPutBagOnScaleScreenTimer=5
+
+;SR778 - After this many milliseconds, display the Skip Bagging button if the item does not have a WLDB entry. 
+;If set to 0, this feature will be disabled. Default is 0. In order to enable this feature, AllowSkipBaggingBtn must be set to Y.
+EnableSkipBaggingButtonTimer=0
+;SR814.2 Set the minimum value for EnterWeightTimer to 1000ms
+EnterWeightTimer=1000
+
+;For Mobile Transaction, after this many second, re-play the audio prompt on Remove Item From Produce Scale
+;Default is 5 seconds
+RemoveItemFromProduceScaleAudio=5
+
+;SR2774 Ability to lock CM screen
+;After this many seconds, the cash management screen will locked. Default is 5 minutes ( 300000 milliseconds).
+LockScreenTimer = 300000
+
+;+SSCOADK-264
+;this option is for pipeserver response timeOut period.
+;Default value is 2000 milliseconds.
+;Range 2000 - 4000 milliseconds.
+VVResponseWaitTimeout = 2000
+;-SSCOADK-264
+
+; RecallingItems wait for Done.
+; Default: 240
+RecallingWaitForDone=240
+
+;StopLift Analysis timeout value
+SecurityAnalysisTimer=10
+
+; SCOT user exit controls
+[UserExit]
+AllEnabled=N
+00Enabled=N
+01Enabled=N
+02Enabled=N
+03Enabled=N
+04Enabled=N
+05Enabled=N
+06Enabled=N
+07Enabled=N
+08Enabled=N
+09Enabled=N
+10Enabled=N
+11Enabled=N
+12Enabled=N
+13Enabled=N
+14Enabled=N
+15Enabled=N
+16Enabled=N
+99Enabled=N
+Int1=0
+Int2=0
+Int3=0
+Int4=0
+Int5=0
+String1=?
+String2=?
+String3=?
+String4=?
+String5=OmitCustSensitiveDataInTraces
+
+; International Setting --------------------------------
+[Locale]
+; SR834
+; StoreName is actually the store number and StoreDescriptor is the descriptive name of the store. 
+; No StoreName and StoreDescriptor are set as Default
+StoreName=
+StoreDescriptor=
+; ShowStoreOnReport is an option whether to display StoreDesctiptor and StoreName on Cash Management report header
+; The default setting is not to display them.
+ShowStoreOnReport=N
+
+; Cash amount to be left in the recycler. 
+; For Glory setup, default is -1 (disabled). If this option is disabled CM uses the setting on the 
+; physical device during cash collection.Otherwise, it should use any positive amount set in this option.
+; For BCR/BNR setup, default value depends on the CashRecyclerBaseLevel for each country. 
+; Setting this to -1 or any negative value will disable this option.
+StartingBank=-1
+
+
+;LeaveCashAcceptorsEnabledDuringTransaction=Y will leave the Cash Acceptors enabled during customer mode itemization.  
+;Inserted notes or coins on states that did not previously allow cash to be inserted will be accepted, 
+; but will not trigger any action until the app moves to state where cash was traditionally accepted (ScanAndBag or Finish). 
+LeaveCashAcceptorsEnabledDuringTransaction=Y
+
+;DisableCashAcceptorsDuringItemization will disable cash acceptors during itemization.
+DisableCashAcceptorsDuringItemization=N
+
+IsCurrencySymbolOnEReceiptCol1=Y
+IsCurrencySymbolOnEReceiptCol2=N
+IsTaxLine=Y
+CashValueList=-1,-5,-10,-25,100,500,1000,2000
+;The CashLowListForNewEnhancedCoinLowSensor option is used only for coin dispensor with the new enhanced coin low sensor. 
+;The CashLowListForNewEnhancedCoinLowSensor will override the CashLowList option for coin dispensor with the new enhanced coin low sensor.
+CashLowList=75,40,75,75,20,20,20,20
+CashLowListForNewEnhancedCoinLowSensor=15,12,17,13,20,20,20,20
+;The following options are for Coin Hopper
+CashValueListForCoinHopper=-1,-5,-10,-25,100,500,1000,2000
+CashLowListForCoinHopper=53,37,73,32,20,20,20,20
+
+;For Cash Management feature
+;Note: To enable the cash management feature, execute the script CMEnable.bat.
+;      To disable the cash management feature, execute the script CMDisable.bat.
+;      These scripts are located in the scot\bin folder.
+CashManagementScreen=Y
+
+;SR969
+;View Cash Management screen at the RAP 
+;This option will show and enable the "Cash Status" button in RAP's LaneStatus context 
+;But CashManagementScreen option needs to be enabled first to use this feature.
+;Default value is N.
+DisplayCashManagementAtRAP=N
+
+CashManagementDisabledInTransaction=N
+CashCapacity=462,120,348,264,3000,3000,3000,3000
+CashCapacityForCoinHopper= 2100,700,2820,600,3000,3000,3000,3000
+
+;SR700
+; Turn on/off on sending Balance update to report server
+SendBalanceUpdates=Y
+; Enable / Disable coin recycler dispense.
+AllowCoinDispense=Y
+; Enable / Disable note recycler dispense.
+AllowNoteDispense=Y
+;Option to allow deposit money in Cash Status screen, Y= allowed (Default value), N= not allowed
+AllowDepositInCashStatus=Y
+; RFC 409358 - Show the percent full value for each denomination.
+ShowPercentFullValue=Y
+; RFC 409358 - Show the base level graphic for each denomination where the base level is greater than 0.
+ShowBaseLevel=Y
+; RFC 428709 - Set this option to N to disable Purge operation. Default value is Y
+TrackPurgeCount=Y
+; RFC 428711 - If this is set Y, then the auto fill capacity will be used on each coin denomination. Default is N.
+UseFullHopperCapacity=N
+; RFC 428711 - Default is N. If this is set to Y, then the auto fill indicator 
+;will be displayed on each coin denomination
+ShowAutoFill=N
+;SR700
+
+
+;For Cash recycler Cash Management
+AllowSoftwareRemoval=N
+AllowSoftwareUnload=N
+CashHighList=150,150,150,150,150,110,128,80,90;160
+
+; *** SafePay cash management settings. ***
+; Location of note cassette to use.
+; 0=Front location.  1=Rear location.
+; FastLane currently supports only one cassette at a time.
+NoteCassetteLocation=0
+
+; If Y, then note cover may be removed with normal store mode access.
+; If N, then head cashier access is required to remove the note cover.
+; Regardless of the setting, the note cover can be removed w/o head cashier
+; access for certain error conditions (note jam).
+AllowNoteCoverRemoval=N
+
+; If Y, then enable note cassette removal and pickup with head cashier access.
+AllowNoteCassetteRemoval=Y
+
+; When the "Transfer Notes for Pickup" button is pressed in cash management, this SafePay mode will be used.
+; Valid values are 0 through 3.
+XferToCassetteMode=0
+
+; *** END SafePay cash management settings ***
+
+;For generic cash management screen
+CashManagementDisplayCount=Y
+CashAcceptorCapacity=500
+CoinAcceptorCapacity=500
+CashAcceptorHighThreshold=450
+CoinAcceptorHighThreshold=450
+
+CurrencySettingNotFromRegionalSetting=N 
+DateSettingNotFromRegionalSetting=N
+;ShortDateOrdering=0
+;NoCenturyDigit=0 means 2 digits for year, NoCenturyDigit=1 means 4 digits
+;NoCenturyDigit=0
+;DateSeparator=/
+
+AltF4ExitAllowed=Y
+
+;If Y, it uses the calculated values in CM.
+;If N, specify the values in CashRecyclerBaseLevel
+UseCalculatedBaseLevel=Y
+;CashRecyclerBaseLevel=(Specify the value of this option if UseCalculatedBaseLevel = N)
+
+;If Y, it uses the calculated values in CM.
+;If N, specify the values in CashDispenserFillCount
+UseCalculatedFillCount=Y
+;CashDispenserFillCount=(Specify the value of this option if UseCalculatedFillCount = N)
+
+[Template]
+; Special Templates (SCOT_DPSWindowe.prs)
+; To use 'ABC' instead of 'QWERTY' keyboard, specify as follows
+; Keyboard=wCMKBD_ABC   
+; The default is QWERTY keyboard, wCMKBD.
+Keyboard=wCMKBD
+;Keyboard=wCMKeyBoardMTX 
+;-----------------------------------------------
+; Please note : 'AssistMode' option should be the xml file name for specific assist mode template.  
+; When changing this option, xml files included in FastLane.000 must be changed with the new assistmode name
+; and FastLane must be restarted (it won't work if you reload options). 
+AssistMode=wSMKBDIBM4680
+;-----------------------------------------------
+AlphaNumeric=wCMAlphaNumericKeyboard
+
+; In-Store Pager Support
+[Paging]
+; Send Page Parameters (Y - send page, N - do not send page)
+GreenFlashingSendPage=N
+YellowSendPage=N
+RedSendPage=N
+OutOfServiceSendPage=N
+;
+; Page Resend Parameters (valid values >=0, =0 - don't resend, >0 - Elapse time in secs.)
+GreenFlashingElapseTime=0
+YellowElapseTime=0
+RedElapseTime=90
+OutOfServiceElapseTime=0
+;
+; Media Low Page Limits (valid values >=0, GreenFlashingLimitTime takes precedence)
+GreenFlashingLimitTime=30    ;(=0 - use GreenFlashinLimitTrans, >0 - Limit in minutes)
+GreenFlashingLimitTrans=15   ;(=0 - use GreenFlashinLimitTime, >0 - Limit by # of Trans.)
+;
+; Availability Parameters ( valid values >=0 )
+AvailabilityCount=2147483647
+
+;
+; Data files
+[Data]
+MessageFile=SCOTMSGE
+BitmapFile=SCOTBMPE
+WaveFile=SCOTWAVE
+SASIActionFile=SASIActione
+TenderFile=SCOTTEND
+TareFile=SCOTTARE
+XMLFile=FastLane3.1
+DefaultImagePath="%APP_DRIVE%\scot\image\Image not available_Grey_02.png"
+;
+
+[PrintObjects]
+; each entry will have object details
+; for a bitmap, format of key value: "bitmap name,Alignment,Width(unused as of now),scaling factor" 
+ChitBmp1=%APP_DRIVE%\scot\image\scotlogo.bmp,3,0,1.000
+ChitBmp2=%APP_DRIVE%\scot\image\scotlogo.bmp,3,0,1.000
+;
+; For slimmer receipt 58mm paper, use width=280 and height=210 for signature report
+; Default for 80mm is 400x300
+SignatureWindowWidth=400
+SignatureWindowHeight=300
+
+;For Topaz Signature Bitmap/Boldness : 
+; Valid values are: 1, 3, 7, 15, 31, 63, 127, 255 (default value is 7)
+; Table value to bits:
+;    1 = 1
+;    3 = 11   
+;    7 = 111
+;   15 = 1111
+;   31 = 11111
+;   63 = 111111
+;  127 = 1111111
+;  255 = 11111111
+TopazSignatureBoldness=7
+
+; for CM Receipt CharacterLimit and JustifyIndex Configuration
+; Default Values:
+; CharacterLimit=44
+; JustifyIndex=27
+; for 58mm receipts, configured values are CharacterLimit=35 and JustifyIndex=22
+CharacterLimit=44
+JustifyIndex=27
+
+;Consumer Marketing options	
+[CM]
+; if 'RewardInfo' is set to 'N', no other options in this section will be considered
+RewardInfo=N
+; set option, 'CustomerMessage' to -1 if no message has to be displayed
+; otherwise, set it to the message id which is defined in SCOTMSGE files
+CustomerMessage=775
+TotalSavings=Y
+TotalRewardPoints=Y
+; Set below option to 'N' to make TotalSavings appear on right side of reward_info bar
+TotalSavingsOnLeft=Y
+
+;This section is used to allow the store to Zero-out the variable part
+;of In-Store barcodes before sending it to Security Agent. It allows Security Agent to keep
+;from populating the WLDB with Barcodes whose item numbers are constant, but the rest 
+;of the barcode varies because of weight, week/month ...
+;the In-Store barcodes are expected to be in the format : xxiiiippppp or xxiiiivppppc
+;where xx represents the barcode prefix "24" for example, iiii represents the item code
+;"1234567" for example, and ppppp represents the variable part of the barcode that should be
+;zeroed-out before being sent to Security Agent, "v" can be a verifier of some type,
+;"c" is the checksum. In any case, the variable part "pppp", the verifier "v"(if present), the
+;checksum "c"(if present) of a barcode matching a pattern defined in [InStoreBarcodes] will be replaced
+;by zeroes for Security Agent only.
+;A field to identify this barcode as price embedded can be added to the pattern by appending a ",Y" to the pattern.
+;Note there is no limit on the number of custom codes that can be defined, but it is required that 
+;they are kept in sequence: customcode1, customcode2, customcode3....
+[InStoreBarcodes]
+;CustomCode1=25iiiiiipppp
+;CustomCode2=26iiiipppppp
+;CustomCode3=27iiiiivppppc
+;CustomCode4=
+;CustomCode5=
+;Sample with Price Embedded field set to Y
+;CustomCode1=02ipppppppppc,Y
+
+
+;This section is used to define Multi-Label Barcodes. Each field must be separated by white space.
+;For each barcode that makes up the multi-label barcode two fields are required. The first field defines the
+;OPOS compliant symbology type of the barcode. Common values are UPCA 101, UPCE 102,
+;JAN8 and EAN8 104, Code39 108 and Code128 128. Other values are defined in OPOSSCAN.H.
+;The next field defines the prefix of the barcode and where the item code is located. Any character 
+;until the first 'x' or 'i' is read while be considered a part of the prefix.
+;The barcode specific fields must appear in item code order. (In case the item code can span
+;multiple barcodes.)
+;An 'i' represents the item code. An 'x' represents additional characters in the barcode. (Trailing 'x's are ;optional.)
+;Note: There is no limit on the number of multi-Label barcodes that can be defined (although the 
+;leading prefix must be unique), but it is required that 
+;they are defined in sequence: MultiLabelFormat1, MultiLabelFormat2, MultiLabelFormat3....
+;
+;Note: Do not define unless your scanner is properly programmed to read Multi-Label Barcodes!
+;
+[MultiLabelBarCodes]
+;MultiLabelFormat1=104 25iiiiiiiiiix 104 28xxxxxxxxxxx
+;MultiLabelFormat2=104 21iiiiiiiiii  104 22x 
+;MultiLabelFormat3=104 26iiiii       104 27xxxxxiiiii
+;Option to prepend first prefix to item code
+PrependFirstPrefixToItemCode=N
+
+
+[AutoRun]
+;Set On=Y to enable AutoRun. 
+;DO NOT ENABLE IN LIVE ENVIRONMENT! LAB ONLY!
+On=N
+;Number of transactions to run. If 0, it forces the lane to run trxs continuously (RFC375580)
+;Re-start by reloading options or reloading scotapp.
+NumberOfTransactionsToRun=25
+;Select random timer for AttractDelay and ItemPurchaseDelay.  If select random timer for these two timers, set it to Y.  If select fix timer then set to N.
+RandomTimer=Y
+;maximum Number of seconds to wait at attract before starting next transaction. 
+;Actual value is set randomly from 1 to the value set below (RFC375570)
+AttractDelay=1
+;maximum Number of seconds to wait on scan and bag before selling an item
+;Actual value is set randomly from 1 to the value set below (RFC375570)
+ItemPurchaseDelay=2
+;Bypass security bagging logic 
+;When Y, lane will ignore bag scale changes. Unexpected weight increases and decreases will not interrupt the operation.
+BypassBagging=Y
+;Item code to sell at scan and bag
+ItemCodeToSell=1111
+;Number of items to sell at a scan and bag
+NumberOfItemsToSell=5
+;How much cash to insert when all items are sold(quick pay)
+TotalCashToPay=1585
+;Set On to enable automatic remote assist mode cash tendering
+;DO NOT ENABLE IN LIVE ENVIRONMENT! LAB ONLY!
+AssistModeOn=N
+;List of keys to send to TB while in remote assist(use AssistKeyData.dat for reference)
+AssistKeyList=24 24 24 24 45 8 26 24 18 6
+
+
+[Utility]
+;Disable the Exit button? And set the password.
+;Y: Yes N: No
+ExitButtonVisible=Y
+ExitPassword=1               
+ExitID=1
+; Training doc to show in store mode utility menu.  REPLACE/OVERRIDE WITH REAL DOCUMENT!
+; Note that the flag TrainingProgramButtonVisible must be set to Y
+TrainingDocument=c:\TrainingHTMLFile.htm
+; Path to internet explorer executable, since it's not in the PATH variable and should not
+; be hard-coded
+InternetExplorerEXE=%OS_DRIVE%\program files\internet explorer\iexplore.exe
+
+;industry standard coupon codes, should be left in unless there is a need to customise
+;"x" matches any character
+;"c" matches any character, but signifies check digit
+; ì+î is a variable length indicator field. Use to indicate length >= length of mask
+[Coupons]
+CustomCoupon1=5xxxxxxxxxc
+CustomCoupon2=5xxxxxxxxxxc
+CustomCoupon3=99xxxxxxxxxxc
+CustomCoupon4=8110xxxxxxxxxxxxxxxxxxxxx+
+[Connections]
+;Port# required for UDP server
+UDPServerPort = 6982
+;Port# required for Pipeserver
+PipeserverPortno = 5051
+
+[BarcodePrintWidths]
+;Format is barcode type = barcode print width
+;A value of -1 for the print width is the default (legacy behavior where the SSCO app calculates the print width)
+;PTR_BCS_Codabar is 107
+107=-1
+;PTR_BCS_Code128 is 110
+110=-1

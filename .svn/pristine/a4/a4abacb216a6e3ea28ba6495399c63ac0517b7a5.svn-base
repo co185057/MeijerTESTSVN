@@ -1,0 +1,111 @@
+; Switch Message File  \\ Dutch - Netherlands
+;
+; file SMsg0413.dat     
+;
+
+[WindowName]
+SupervisorSwitchTI = Terminal-ID
+SupervisorSwitch = In Supervisor Stand
+NormalSwitch = In Normale Stand
+SupervisorSwitchEV = In supervisorstand / Event Viewer wordt uitgevoerd.
+SupervisorSwitchGDF = In supervisorstand / GetDiagFiles wordt uitgevoerd.
+SupervisorSwitchPM = In supervisorstand / Profile Manger wordt uitgevoerd.
+SupervisorSwitchTIF = In supervisorstand / Terminalinformatie wordt uitgevoerd.
+
+[ButtonCaptions]
+ExSCRGetDiagFiles = Genereer Diagnostische Log Bestanden
+ExAMRGetDiagFiles = Genereer Diagnostische Log Bestanden
+ExSCRProfileManager = FastLane Verlaten en Profile Manager Runnen
+ExAMRProfileManager = Caissière Stand verlaten en Profile Manager Runnen
+ExSC = FastLane Verlaten  
+ExAM = Caissière Stand Verlaten
+SwitchtoAM = Schakel naar Caissière Stand
+SwitchtoSC = Schakel naar FastLane
+MinimizeSC = Verklein FastLane
+MinimizeAM = Verklein Caissière Stand
+MaximizeSC = Vergroot FastLane
+MaximizeAM = Vergroot Caissière Stand
+Shutdown = Gehele Systeem Afsluiten
+Reboot = Gehele Systeem Herstarten
+RestartAM = Caissière Stand Herstarten
+RestartSC = FastLane starten
+RGetDiagFiles = Genereer Diagnostische Log Bestanden
+RProfileManager = Profile Manager uitvoeren
+EvtVwr = Event Viewer
+Volume = Volume Regelaar 
+RTerminalInformation=Terminalinformatie
+ExitSwitchApp = SwitchApp verlaten
+BClear = Clear
+BEnter = Enter
+BCancel = Annuleer
+AuthTitleID = Toets gebruikernummer en druk op "Enter"
+AuthTitlePassWord = Toets wachtwoord in en druk op "Enter"
+RegisterFingerprint= Vingerafdruk registreren
+AuthTitleIDBiometric= Of gebruik vingerafdruk om in te loggen
+AuthInvalidLogin = Ongeldig gebruikers-id/wachtwoord of vingerafdruk, probeer opnieuw
+FPDevice= Vingerafdrukapparaat niet aangesloten\n\nVoer gebruikers-id/wachtwoord in
+FPDuplicateID= Meerdere gebruikers-id’s voor één vingerafdruk: %s, voer gebruikers-id/wachtwoord in
+
+
+[SwitchErrorMsg]
+;ClcSwitch
+OnButtonReboot1 = Herstarten FastLane mislukt. 
+ButtonThread1 = Mislukt starten %s.
+LoadPathsFromRegistry1 = Geen Ja/Nee configuratie waarde verkregen voor Lane-Light-Support door SwitchApp van de registry. 
+LoadPathsFromRegistry2 = Geen Ja/Nee configuratie waarde verkregen voor Powerpad Support door SwitchApp van de registry. 
+WaitForAppTermination1 = %s is niet afgesloten binnen %d seconden. Gehele Systeem Herstarten. 
+MonitorAppTermination1 = %s niet normaal beëindigd.
+LaunchBatchFile1 = Mislukt starten van batch file %s.
+PowerpadOn1 = Mislukt inschakelen Tag Deactivation Device. Resultaat Code %u 
+PowerpadOn2 = Mislukt inschakelen Tag Deactivation Device. 
+PowerpadOn3 = Mislukt activeren Tag Deactivation Device. Resultaat Code %u 
+PowerpadOn4 = Mislukt activeren Tag Deactivation Device. 
+MiscIFLaneLightOn1 = Mislukt aanschakelen Kassa Lamp. Controleer het Event Log.
+MiscIFLaneLightOn2 = Mislukt inschakelen Miscellaneous Interface. Controleer beschikbaarheid device en controleer het event log. 
+MiscIFLaneLightOff1 = Mislukt uitschakelen Kassa Lamp. Controleer het Event Log.
+MiscIFLaneLightOff2 = Mislukt vrijgeven Miscellaneous Interface. Controleer het event log. 
+MiscIFLaneLightOff3 = Mislukt afsluiten Miscellaneous Interface. Controleer het event log. 
+OposControl1 = Mislukt aanmaken %s control. Controleer of control is geregistreerd. 
+OposControl2 = Mislukt openen %s. Controleer of profiel is vernieuwd in de registry. 
+OposControl3 = Mislukt claimen %s. Controleer of profiel is vernieuwd in de registry. 
+CloseControl1 = Mislukt vrijgenven %s. Controleer het event log. 
+CloseControl2 = Mislukt afsluiten %s. Controleer het event log. 
+CreateSalesApp1 = Mislukt om applicatie te starten. 
+CreateSalesApp2 = %s kon niet worden geinitialiseerd binnen %d seconden. 
+LaunchBatchFile2 = Batch file %s bestaat niet.
+;CSwitch2Dlg
+OnInitDialog1 = Mislukt openen van Keylock device. 
+;CKWarning
+OnInitDialog2 = Om te %s: breng de Supervisorsleutel terug in 'N'-stand, of druk nogmaals op de knop %s.
+DrMsg1 = Het systeem is uitgeschakeld: bezig met het verzamelen van logboekgegevens...
+DrMsg2 = Het systeem is uitgeschakeld: logboekgegevens verzameld, het systeem wordt opnieuw opgestart...
+
+[OtherMsg]
+MARSMsg = MARS-firmware wordt gecontroleerd. Updates, indien nodig, kunnen tot 10 minuten in beslag nemen.
+5992Msg = 5922-firmware wordt gecontroleerd. Updates, indien nodig, kunnen tot 10 minuten in beslag nemen.
+K590Msg = K590-firmware wordt gecontroleerd. Updates, indien nodig, kunnen tot 10 minuten in beslag nemen. 
+K580Msg = K580-firmware wordt gecontroleerd. Updates, indien nodig, kunnen tot 10 minuten in beslag nemen. 
+F306Msg = F306-firmware wordt gecontroleerd. Updates, indien nodig, kunnen tot 10 minuten in beslag nemen.
+F307Msg = F307-firmware wordt gecontroleerd. Updates, indien nodig, kunnen tot 10 minuten in beslag nemen. 
+F309Msg = F309-firmware wordt gecontroleerd. Updates, indien nodig, kunnen tot 10 minuten in beslag nemen. 
+USBTQMsg = Firmware van muntverdeler wordt gecontroleerd. Updates, indien nodig, kunnen tot 10 minuten in beslag nemen.
+WaitMsg = Even geduld...
+ADDMsg = Automatische detectie van toestellen.
+TraceCheckMsg = Traceerbestanden van de applicatie worden gecontroleerd op abnormale beëindiging. 
+ArdacMsg = Ardac-firmware wordt gecontroleerd. Updates, indien nodig, kunnen tot 10 minuten in beslag nemen.
+SR5Msg = Muntinvoer wordt gecontroleerd. Updates, indien nodig, kunnen tot 10 minuten in beslag nemen.
+GDFMsg = Even geduld a.u.b.
+MCRWMsg = Firmware van de gemotoriseerde kaartlezer wordt gecontroleerd. Updates, indien nodig, kunnen tot 10 minuten in beslag nemen.
+TransferMsg= Bezig met de overdracht van het diagnosebestand...
+CF9520Msg = Update mislukt. De huidige muntinvoer ondersteunt geen Mexicaanse munten. Vervang hem door de CF9520 model MK2.
+GLORYMsg = Glory Recycler-firmware wordt gecontroleerd. Updates, indien nodig, kunnen tot 10 minuten in beslag nemen.
+IOBoxMsg = IOBox-firmware wordt gecontroleerd. Updates, indien nodig, kunnen tot 10 minuten in beslag nemen.
+7875Msg = Scanner-firmware wordt gecontroleerd. Updates, indien nodig, kunnen tot 10 minuten in beslag nemen.
+BiosMsg = BIOS wordt gecontroleerd. Updates, indien nodig, kunnen tot 10 minuten in beslag nemen. Het systeem zal opnieuw opstarten als de update geslaagd is.
+MEIMsg = MEI-firmware wordt gecontroleerd. Updates, indien nodig, kunnen tot 10 minuten in beslag nemen.
+ScaleMsg = Weegschaalfirmware wordt gecontroleerd. Updates, indien nodig, nemen ongeveer 2 minuten in beslag.
+BCRMsg = Muntrecyclerfirmware wordt gecontroleerd. Updates, indien nodig, nemen ongeveer 10 minuten in beslag.
+BNRMsg = Biljetrecyclerfirmware wordt gecontroleerd. Updates, indien nodig, nemen ongeveer 10 minuten in beslag.
+MSRDIPMsg = Kaartbetalingfirmware wordt gecontroleerd. Updates, indien nodig, nemen ongeveer 10 minuten in beslag.
+F53Msg = F53-firmware wordt gecontroleerd. Updates, indien nodig, kunnen tot 10 minuten in beslag nemen.
+

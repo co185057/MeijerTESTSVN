@@ -1,0 +1,140 @@
+; SCOTOPTS.000 has override options for all SCOT terminals in a store
+
+[Template]
+;-----------------------------------------------
+; Please note : 'AssistMode' option should be the xml file name for specific assist mode template.  
+; When changing this option, FastLane must be restarted (it won't work if you reload options). 
+AssistMode=ACSAssistMode
+
+[Tender]
+CashBack1=10
+CashBack2=20
+CashBack3=40
+CashBack4=60
+CashBack5=80
+CashBack6=100
+CashBack7=0
+CashBack8=0
+CashBack9=0
+CashBack10=0
+CashBack11=0
+EBTCashBack1=10
+EBTCashBack2=20
+EBTCashBack3=40
+EBTCashBack4=60
+EBTCashBack5=80
+EBTCashBack6=100
+EBTCashBack7=0
+EBTCashBack8=0
+EBTCashBack9=0
+EBTCashBack10=0
+EBTCashBack11=0
+
+; SCOT screen and audio time out limits by process
+[TimeOut]
+ItemSaleInProgress=0
+CheckBasketReminder=3
+InitialBagItemAudio=3
+ContinueTransaction=45
+PeriodicBagItemAudio=8
+InitialRemovingItemsAudio=3
+PeriodicRemovingItemsAudio=8
+InitialTakeYourItemAudio=10
+DelaySecurityNotificationMilliSecs=1
+
+[State]
+DualLanguage=Y
+;if Dual Language is Yes, following two options must be defined, in the format
+;2 character ISO639 language code, button name on attract screen, message filename
+;tare description filename, security conclusions filename, tender filename, price speaker filename
+;---------------------------------------------------------------------------------------------------
+; Button text displaying name of the language can either be text string or ID to get from translated
+; text file of that language.
+; Example: For language code 0411, name of language will be message 1286 from msg0411.dat 
+; Similarly, for language=FR message 1286 from MSGFREN.dat will be used for language name
+;---------------------------------------------------------------------------------------------------
+Language1=EN,English,SCOTMSGE.DAT,SCOTTARE.DAT,UNUSED,SCOTTEND.DAT
+Language2=ES,Español,MSGSPAN.DAT,TARESPAN.DAT,UNUSED,TENDSPAN.DAT
+CheckBasketReminder=N
+SayPrices=N
+CouponSensor=Y
+; Set this option to N if you don't want to allow cashier to initiate transaction from RAP 
+; if cashier is allowed to initiate transaction from RAP, set this option to the section name 
+; in scotdataentry.ini which contains the correct control options
+;RapInitiateTransaction=N
+RapInitiateTransaction=StartTransactionAM
+;RapInitiateTransaction=StartTransaction
+AssistMenuFromRAPAllowed=Y
+
+
+; SCOT operational options
+[Operations]
+;Option for gift card tendering
+;0 - no gift card, 1 - scanned gift card, 2 - swiped gift card
+GiftCardRedemption=2
+DisplayGiftCardBalance=N
+SelectTareOnWeight=N
+UPCAPriceEmbeddedVerifier=N
+PartialIntegratedPINPad =Y
+MethodofCollectionForEmptyGiftCard=0
+AltF4ExitAllowed=Y
+; EOD has 3 options 
+; 1 = FastLaneControl option allows EOD1 to occur at Midnight (default)
+; 2 = TBControl option allows TB2 to control the EOD
+; 3 = OperatorControl option allows for initiation of EOD in response to a button press on the report screen
+EOD = 2
+EODTimeout = 60000
+OperatorLoginBarcodeType=0
+;SSCOPTL-952
+DuplicateCouponMax=1000
+;Total coupon dollar amount allowed PER TRANSACTION. 100=$1, This parameter is used only if 
+;total value of transaction is less than the Upper$AmtForPercentToApply
+TotalCoupons$AmtMax=100000
+;% of gross sales that the coupon dollar amount can be per transaction, this parameter comes into play 
+;only when total value of transaction is greater than or equal to Upper$AmtForPercentToApply.
+CouponPercentofGrossSales=100
+;The upper limit used to determine when to use coupons by $ amount(TotalCoupons$AmtMax) versus 
+;coupon % of gross sales (CouponPercentofGrossSales), 100=$1
+Upper$AmtForPercentToApply=100000
+ShowSkipBaggingOnEReceipt=Y
+;Consumer Marketing options	
+[CM]
+; if 'RewardInfo' is set to 'N', no other options in this section will be considered
+RewardInfo=N
+; set option, 'CustomerMessage' to -1 if no message has to be displayed
+; otherwise, set it to the message id which is defined in SCOTMSGE files
+CustomerMessage=775
+TotalSavings=Y
+TotalRewardPoints=Y
+; Set below option to 'N' to make TotalSavings appear on right side of reward_info bar
+TotalSavingsOnLeft=Y
+
+
+[PrintObjects]
+; each entry will have object details
+; for a bitmap, format of key value: "bitmap name,Alignment,Width(unused as of now)" 
+;ChitBmp1=c:\ACS\DATA\PAMLOGO10.dat,3,0
+;ChitBmp2=c:\ACS\DATA\PAMLOGO10.dat,3,0
+ChitBmp1=
+ChitBmp2=
+
+
+
+[Tracing]
+EntriesToFlush=50
+
+[Utility]
+;Disable the Exit button? And set the password.
+;Y: Yes N: No
+ExitButtonVisible=Y
+ExitPassword=1               
+ExitID=1
+
+; International Setting --------------------------------
+[Locale]
+CashLowListForNewEnhancedCoinLowSensor=10,7,12,8,20,20,20,20
+CashLowList=10,7,12,8,20,20,20,20
+
+;For generic cash management screen
+CashManagementDisplayCount=N
+CashManagementAPPTrackCashCount=N

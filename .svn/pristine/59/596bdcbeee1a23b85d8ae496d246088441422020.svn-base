@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<!-- The format of this file is:	 	-->
+<!-- <DeviceError>                           	-->
+<!-- 	<SectionName>			     	-->
+<!--		<Title1>Msg id in scotmsge.dat for title 1</Title1>-->
+<!--		<Title2>Msg id in scotmsge.dat for title 2</Title2>-->
+<!--	   	<Text>Msg id in scotmsge.dat</Text>		-->
+<!--		<Image>Bitmap id in scotbmpe.dat</Image> 	-->
+<!--		<Wave>id in scotwave.dat</Wave>			-->
+<!--		<Movie>Movie name in text</Movie>		-->
+<!--	</SectionName>					-->
+<!--</DeviceError>					-->
+
+
+<DeviceError>
+
+
+	<DM_PTR_COVER_OPEN>
+		<Title1>1149</Title1>
+		<Title2>1151</Title2>
+		<Text>216</Text>
+     	<Image>274</Image>
+	</DM_PTR_COVER_OPEN>
+
+	<DM_PTR_ERR_EMPTY>
+		<Title1>1149</Title1>
+		<Title2>1152</Title2>
+		<Text>220</Text>               
+	</DM_PTR_ERR_EMPTY>
+
+	<PTRSTAT_ERROR_STATE>
+		<Title1>1149</Title1>
+		<Title2>1153</Title2>
+		<Text>1098</Text>
+	</PTRSTAT_ERROR_STATE>
+
+
+	<PTRSTAT_ERROR_STATE2>
+		<Title1>1149</Title1>
+		<Title2>1153</Title2>
+		<Text>1170</Text>             
+	</PTRSTAT_ERROR_STATE2>
+	
+
+	<DM_PTR_ERR_PAPER_JAM>
+		<Title1>1149</Title1>
+		<Title2>1153</Title2>
+		<Text>1098</Text>
+		<Image>275</Image>
+	</DM_PTR_ERR_PAPER_JAM>
+
+	<DM_PTR_ERR_PAPER_JAM2>
+		<Title1>1149</Title1>
+		<Title2>1153</Title2>
+		<Text>1170</Text>
+		<Image>275</Image> 
+	</DM_PTR_ERR_PAPER_JAM2>
+
+	<DM_PTR_ERR_REQUEST_SEQUENCE>
+		<Title1>1149</Title1>
+		<Text>222</Text>
+	</DM_PTR_ERR_REQUEST_SEQUENCE>
+
+	<DM_PTR_ERR_HEAD_JAM>
+		<Title1>1149</Title1>
+		<Text>365</Text>
+	</DM_PTR_ERR_HEAD_JAM>
+
+	<DM_PTR_ERR_KNIFE_JAM>
+		<Title1>1149</Title1>
+		<Text>366</Text>
+	</DM_PTR_ERR_KNIFE_JAM>
+
+	<DM_PTR_ERR_PAPER_NOT_LOADED_JAM>
+		<Title1>1149</Title1>
+		<Text>368</Text>
+	</DM_PTR_ERR_PAPER_NOT_LOADED_JAM>
+
+	<DM_PTR_ERR_COMMS_ERROR>
+		<Title1>1149</Title1>
+		<Title2>1155</Title2>
+		<Text>1313</Text>
+	</DM_PTR_ERR_COMMS_ERROR>
+
+	<DM_PTR_ERR_PRINTER_OPEN>
+		<Title1>1149</Title1>
+		<Text>370</Text>
+	</DM_PTR_ERR_PRINTER_OPEN>
+
+	<DM_PTR_ERR_REPLACE_HEAD>
+		<Title1>1149</Title1>
+		<Text>371</Text>
+	</DM_PTR_ERR_REPLACE_HEAD>
+
+	<DM_PTR_ERR_SIDEWAYS_COMMS_ERROR>
+		<Title1>1149</Title1>
+		<Text>372</Text>
+	</DM_PTR_ERR_SIDEWAYS_COMMS_ERROR>
+
+	<DM_PTR_ERR_EJECT_JAM>
+		<Title1>1149</Title1>
+		<Text>373</Text>
+	</DM_PTR_ERR_EJECT_JAM>
+
+	<DM_PTR_ERR_BLACKMARK_ERROR>
+		<Title1>1149</Title1>
+		<Text>374</Text>
+	</DM_PTR_ERR_BLACKMARK_ERROR>
+
+	<DM_PTR_ERR_TIME_OUT>
+		<Title1>1149</Title1>
+		<Text>375</Text>
+	</DM_PTR_ERR_TIME_OUT>
+
+	<DEVICEERRORUNKNOWN>
+		<Title1>1149</Title1>
+		<Text> 1099</Text>
+	</DEVICEERRORUNKNOWN>
+
+
+
+
+</DeviceError>

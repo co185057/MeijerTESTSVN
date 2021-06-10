@@ -1,0 +1,10 @@
+; File Belt2Sm.txt
+;
+; Revision History
+;
+; 2/27/02	.tve.	Added HandleBagAreaBackup handling; Added Flush state and Finish&Flush transition
+; 3/7/02	.tve	obsoleted belt2sm.txt
+
+
+State: "Reset" 
+

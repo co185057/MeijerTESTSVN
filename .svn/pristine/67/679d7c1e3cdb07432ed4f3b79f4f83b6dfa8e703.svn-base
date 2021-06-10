@@ -1,0 +1,19 @@
+<Display Version="1.0">
+  <Languages>
+    <Language Name="0412">
+      <StringTable>
+        <String Name="IPText">IP 주소</String>
+        <String Name="BatteryText">배터리 상태</String>
+        <String Name="FreeStorageText">여유 공간</String>
+        <String Name="SystemStorageText">시스템 공간</String>
+        <String Name="FreeMemoryText">여유 메모리</String>
+        <String Name="SystemMemoryText">시스템 메모리</String>
+        <String Name="ProcessorTypeText">프로세서 유형</String>
+        <String Name="ComputerNameText">컴퓨터 이름</String>
+        <String Name="TerminalTitleText">터미널 정보</String>
+        <String Name="BatteryChargeText">충전중</String>
+        <String Name="OkButtonText">확인</String>
+      </StringTable>
+    </Language>
+  </Languages>
+</Display>

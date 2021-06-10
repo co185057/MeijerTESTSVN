@@ -1,0 +1,58 @@
+﻿<Display Version="1.0">
+  <Languages>
+    <Language Name="041d">
+      <StringTable>
+        <String Name="SwitchToRAPBtnPrimaryTxt">Växla till FKP</String>
+        <String Name="ShutdownSystemBtnPrimaryTxt">Stänga ned hela systemet</String>
+        <String Name="RebootSystemBtnPrimaryTxt">Starta om hela systemet</String>
+        <String Name="VolumeBtnPrimaryTxt">Volyminställning</String>
+        <String Name="EventViewerBtnPrimaryTxt">Händelsegranskare</String>
+        <String Name="GenerateLogBtnPrimaryTxt">Skapa diagnosfiler</String>
+        <String Name="RapConfigureBtnPrimaryTxt">FKP-\nkonfiguration</String>
+        <String Name="TerminalInfoBtnPrimaryTxt">Terminal-\ninformation</String>
+        <String Name="MinMaxRAPBtnPrimaryTxt">Minimera FKP</String>
+        <String Name="MinMaxRAPBtnSecondaryTxt">Maximera FKP</String>
+        <String Name="MinMaxRAPBtnPrimaryShowConfirmation">Minimera FKP genom att trycka på knappen "Minimera FKP".</String>
+        <String Name="MinMaxRAPBtnSecondaryShowConfirmation">Maximera FKP genom att trycka på knappen "Maximera FKP".</String>
+        <String Name="StopStartRAPButtonPrimaryTxt">Stoppa FKP</String>
+        <String Name="StopStartRAPButtonSecondaryTxt">Starta FKP</String>
+        <String Name="ExitRAPAndRunProfileBtnPrimaryTxt">Stoppa FKP och kör Profile Manager</String>
+        <String Name="ExitRAPAndRunProfileBtnSecondaryTxt">Kör Profile Manager</String>
+        <String Name="UtilityFunctionsTitle">Verktygsfunktioner</String>
+        <String Name="SignOnTitle">NCR FastLane\nSign On</String>
+        <String Name="SystemStartup">Systemet startar…Vänta</String>
+        <String Name="StartTitle">Systemstart</String>
+        <String Name="TerminalID">Terminal-ID:  </String>
+        <String Name="OperatorIDText">Användar-ID: </String>
+        <String Name="SignOnButtonText">Logga in</String>
+        <String Name="SignOffButtonText">Logga ut</String>
+        <String Name="SignedOffButtonText">Utloggad</String>
+        <String Name="Exit">Avsluta alla</String>
+        <String Name="ReturnToShoppingButtonText">Återgå</String>
+        <String Name="DiagConfirm">Vill du verkligen skapa diagnosfiler?</String>
+        <String Name="ProfileManagerRAPConfirm">Vill du verkligen stoppa FKP och köra Profile Manager?</String>
+        <String Name="CalibrateConfirm">Vill du verkligen kalibrera pekskärmen?</String>
+        <String Name="ShutdownConfirm">Vill du verkligen stänga ned hela systemet?</String>
+        <String Name="RebootConfirm">Vill du verkligen starta om hela systemet?</String>
+        <String Name="CloseAllConfirm">Vill du verkligen avsluta alla program och öppna skrivbordet?</String>
+        <String Name="VolumeConfirm">Vill du verkligen ändra volymen?</String>
+        <String Name="TerminalInfoConfirm">Vill du verkligen se terminalinformationen?</String>
+        <String Name="StopRAPConfirm">Vill du verkligen stoppa FKP?</String>
+        <String Name="StartRAPConfirm">Vill du verkligen starta FKP?</String>
+        <String Name="YesText">Ja</String>
+        <String Name="NoText">Nej</String>
+        <String Name="ClearButtonText">Radera</String>
+        <String Name="EnterButtonText">OK</String>
+        <String Name="GoBackButtonText">Gå tillbaka</String>
+        <String Name="SpaceButtonText">Blanksteg</String>
+        <String Name="BackSpaceButtonText">Backsteg</String>
+        <String Name="ShiftButtonText">Skift</String>
+        <String Name="EnterIDLeadthru">Ange ID med knappsatsen nedan:</String>
+        <String Name="ReEnterIDLeadthru">Fel ID eller lösenord. Ange dem en gång till med knappsatsen nedan.</String>
+        <String Name="EnterPasswordLeadthru">Ange lösenordet med med knappsatsen nedan:</String>
+        <String Name="CancelButtonText">Avbryt</String>
+        <String Name="LoggingInLeadthru">Loggar in...Vänta</String>
+        </StringTable>
+    </Language>
+  </Languages>
+</Display>

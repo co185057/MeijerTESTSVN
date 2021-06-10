@@ -1,0 +1,23 @@
+HKCR
+{
+	Mabry.TelnetXFirewallPropPage.1 = s 'TelnetXFirewallPropPage Class'
+	{
+		CLSID = s '{32999857-1A54-4A4A-9CB2-0C8F70C1AE39}'
+	}
+	Mabry.TelnetXFirewallPropPage = s 'TelnetXFirewallPropPage Class'
+	{
+		CLSID = s '{32999857-1A54-4A4A-9CB2-0C8F70C1AE39}'
+		CurVer = s 'Mabry.TelnetXFirewallPropPage.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {32999857-1A54-4A4A-9CB2-0C8F70C1AE39} = s 'TelnetXFirewallPropPage Class'
+		{
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+		}
+	}
+}

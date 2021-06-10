@@ -1,0 +1,3796 @@
+﻿;
+; File Localization.ini
+; version=6.0.4
+;----------------------------------------------------------------------------------------------------------------------------------------------------------------
+; DATE              VERSION             SUMMARY
+;----------------------------------------------------------------------------------------------------------------------------------------------------------------
+; 02/01/2016         6.0.2            [SSCOADK-3024] TescoCZ - NextGenUI - Build I13 - czech characters are not printed correctly
+; 04/22/2016         6.0.3            [SSCOB-14600] RFQ 8075 - Application support for Colombia
+; 04/22/2016         6.0.4            [SSCOADK-3318] Merge missing changes from old revisions     
+;----------------------------------------------------------------------------------------------------------------------------------------------------------------
+;
+; [PrimaryLanguage]
+; XXXX=Language Name // Use for Primary Language Input Screen
+; NOTE: Please sort alphabetically accordin to the description of the Locale
+; -----------------------------------------------
+[PrimaryLanguage]
+0C0A=Castilian (Spain)
+0804=Chinese (China)
+0403=Catalan (Catalan)
+041A=Croatian (Croatia)
+0405=Czech Republic (Czech)
+0406=Danish (Denmark)
+0413=Dutch (Netherlands)
+0C09=English (Australia)
+1409=English (New Zealand)
+0809=English (United Kingdom)
+0409=English (USA/Canada)
+040B=Finnish (Finland)
+0C0C=French (Canada)
+040C=French (France)
+0407=German (Germany)
+0408=Greek (Greece)
+040e=Hungarian (Hungary)
+1809=Irish (Ireland)
+0410=Italian (Italy)
+0411=Japanese (Japan)
+0412=Korean (South Korea)
+0427=Lithuanian (Lithuania)
+0415=Polish (Poland)
+0419=Russian (Russia)
+041b=Slovak (Slovakia)
+0424=Slovene (Slovenia)
+080A=Spanish (Mexico)
+041D=Swedish (Sweden)
+041F=Turkish (Turkey)
+0422=Ukrainian (Ukraine)
+;
+; Currency Description
+;
+; -----------------------------------------------
+; [CurrencyDescription] 
+; Int.Code=Text Description  // Use for Currency Input Screen
+; -----------------------------------------------
+
+[CurrencyDescription]
+USD=United States
+CDN=Canada
+GBPc=Clydesdale Bank
+GBPS=Bank of Scotland
+GBPr=Royal Bank of Scotland
+GBPe=Bank of England
+NLG=Netherlands
+DEM=Germany
+EUR=Euro  
+AUD=Australian Dollar
+NZD=New Zealand Dollar
+JPY=Japanese Yen
+KRW=South Korea Won
+PLN=Polish Zloty
+MXN=Mexican Peso
+HUF=Hungarian Forint
+SEK=Swedish Krona
+TRL=Turkish Lira
+DKK=Danish Krone
+LTL=Lithuanian Litas
+CZK=Czech Korun
+SAR=Saudi Arabia Riyal
+RUB=Russian Ruble
+HRK=Croatian Kuna
+RMB=People's Republic of China Renminbi
+CNY=Chinese Yuan
+SGD=Singaporean Dollar
+MYR=Malaysian Ringgit
+UAH=Ukrainian Hryvnia
+
+;
+; Currency Values (Cash and Coin Dispensers)
+;
+; -----------------------------------------------
+; [CurrencyValues] 
+; // Use for Input Currency Values Screen
+; XXX=CoinCol1:CoinCol2:CoinCol3:CoinCol4:CoinCol5:CoinCol6:CoinCol7:CoinCol8:
+;     BillDefault1:BillDefault2:BillDefault3:BillDefault4;
+;     ValidCoin1,ValidCoin2,ValidCoin3,ValidCoin4,...:
+;     0(First Value should be Zero),ValidBill1,ValidBill2,ValidBill3,ValidBill4,...
+; -----------------------------------------------
+
+[CurrencyValues]
+
+; Platform Code supports up to 6 denominations for cash dispenser (0 included)
+; :0,100,500,1000,2000
+
+USD =25:10:1:1:1:5:10:25:100:500:1000:0;1,5,10,25,50,100:0,100,500,1000,2000
+CDN =100:1:25:5:10:25:1:200:500:1000:0:0;1,5,10,25,100,200:0,500,1000,2000
+GBPc=200:5:2:20:100:10:1:50:500:1000:0:0;1,2,5,10,20,50,100,200:0,500,1000,2000
+GBPs=200:5:2:20:100:10:1:50:500:1000:0:0;1,2,5,10,20,50,100,200:0,500,1000,2000
+GBPr=200:5:2:20:100:10:1:50:500:1000:0:0;1,2,5,10,20,50,100,200:0,500,1000,2000
+GBPe=200:5:2:20:100:10:1:50:500:1000:0:0;1,2,5,10,20,50,100,200:0,500,1000,2000
+EUR=200:1:20:5:10:100:2:50:500:1000:0:0;1,2,5,10,20,50,100,200,500:0,500,1000,2000,5000,10000,20000,50000
+;NZD=200:1:20:5:10:100:2:50:1000:2000:0:0;1,2,5,10,20,50,100,200,500:0,1000,2000,5000
+AUD=20:200:10:10:5:100:200:20:500:1000:2000:0;5,10,20,100,200:0,500,1000,2000,5000
+JPY=500:1:100:5:50:100:1:10:1000:2000:5000:0;1,5,10,50,100,500:0,1000,2000,5000,10000
+
+;new countries support for 4.0 patch B
+NZD=20:5:10:100:100:10:5:20:500:1000:0:0;5,10,20,50,100:0,500,1000
+KRW=500:50:100:10:10:100:10:100:1000:5000:0:0;10,50,100,500:0,1000,5000,10000
+MXN=10:20:50:100:100:200:500:1000:2000:10000:20000:0;10,20,50,100,200,500,1000:0,2000,10000,20000
+PLN=500:10:100:50:5:200:1:100:1000:2000:0:0;1,5,10,50,100,200,500:0,1000,2000,5000,10000,20000
+
+;new countries support for 4.2 patch E
+;HUF=1:2:5:10:20:50:100:200:500;1,2,5,10,20,50,100:0,200,500,1000,2000,5000,10000,20000
+SEK=50:100:500:0:0:0:0:0:2000:5000:0:0;50,50,100,100,500,1000:0,2000,5000,10000,20000,50000,100000
+TRL=100:1:100:10:25:50:5:100:100:500:0:0;1,5,10,25,50,100:0,100,500,1000,2000,5000,10000
+
+;new countries support for patch G
+DKK=25:50:200:200:1000:2000:0:0:5000:10000:0:0;50,50,100,100,500,1000:0,2000,5000,10000,50000,100000
+LTL=1:2:5:20:50:100:200:500:1000:2000:0:0;1,2,5,20,50,100,200,500:0,1000,2000,5000,10000,20000,50000
+
+;new countries support for patch 4.5
+CZK=1:2:5:10:20:50:100:200:10000:20000:50000:0;50,50,100,100,500,1000:0,10000,20000,50000
+
+;SAR
+SAR=5:10:25:50:100:0:0:0:100:1000:5000:0;5,10,25,50,100:0,100,500,1000,2000,5000,10000,50000
+
+;new countries support for SSCO 5.0
+;http://en.wikipedia.org/wiki/Hungarian_forint
+;COINS = 5, 10, 20, 50, 100, 200 forint
+;NOTES = 500, 1000, 2000, 5000, 10000, 20000 forint
+;multiply the basic units by 10^nLocaleNoOfDigitsAfterDecimal (by default 10^2). Hungarian has no centavo so do not multiply by 100
+HUF=20:10:5:5:5:50:100:200:500:1000:5000:0;5,10,20,50,100,200:0,500,1000,2000,5000,10000,20000
+
+;http://en.wikipedia.org/wiki/Russian_ruble
+;COINS =                Freq. used 	50 kopeks, 1, 2, 5, 10 rubles    Rarely used 	1, 5, 10 kopeks
+;NOTES =               Freq. used 	50, 100, 500, 1,000, 5,000 rubles   Rarely used 	5, 10 rubles
+RUB=500:1000:10:50:50:10:100:200:5000:10000:50000:100000;1,5,10,50,100,200,500,1000:0,500,1000,5000,10000,50000,100000,500000
+
+;http://en.wikipedia.org/wiki/Croatian_kuna
+;COINS = Freq. used	5, 10, 20, 50 lipa, 1, 2, 5 kn       Rarely used	1, 2 lipa, 25 kn
+;NOTES = Freq. used	10, 20, 50, 100, 200 kn            Rarely used	5, 500, 1000 kn
+;http://coins.about.com/od/worldcoins/ig/World-Coins-Gallery-Index/Croatian-Money-Coins.htm
+;One Lipa - 1/100 of a Kuna  i.e. Lipa ~= Centavo
+HRK=1:5:10:20:50:100:200:500:1000:5000:10000:20000;1,2,5,10,20,50,100,200,500:0,500,1000,2000,5000,10000,20000,50000,100000
+
+;Greek Drachma is not supported. Only EURO is for Greek Localized SSCO
+
+;http://en.wikipedia.org/wiki/Renminbi
+;COINS =           Freq. used 	¥0.1, ¥0.5, ¥1        Rarely used 	¥0.01, ¥0.02, ¥0.05
+; NOTES =         Freq. used 	¥1, ¥5, ¥10, ¥20, ¥50, ¥100   Rarely used 	¥0.1, ¥0.2, ¥0.5, ¥2
+CNY=5:10:10:50:50:10:1:2:500:1000:2000:5000;1,2,5,10,50,100:0,100,500,1000,5000,2000,5000,10000
+
+;http://en.wikipedia.org/wiki/Singapore_dollar
+;COINS = Freq. used	5, 10, 20, 50 cents, $1             Rarely used	1 cent (no longer issued but still usable), $5
+;NOTES = Freq. used	$2, $5, $10, $50, $100 & $1000      Rarely used	$20, $25, $10,000
+SGD=5:10:20:50:100:20:10:5:200:500:1000:5000;1,5,10,20,50,100,500:0,200,500,1000,2000,2500,5000,10000,100000,1000000
+
+MYR=5:10:20:50:50:20:10:5:100:500:1000:5000:10000;5,10,20,50:0,100,500,1000,5000,10000
+
+;http://en.wikipedia.org/wiki/Ukrainian_hryvnia
+;COINS = 1, 2, 5, 10, 25, 50 kopiyok, 1 hryvnia
+;NOTES = 1, 2, 5, 10, 20, 50, 100, 200, 500 hryvnia
+UAH=1:5:10:25:50:10:5:1:100:500:2000:5000;1,2,5,10,25,50,100:0,100,200,500,1000,2000,5000,10000,20000,50000
+
+; XXXDenomination=Opacity:Low:Normal:Singularity:Size
+
+USD100=14,20,65,101,66
+USD500=11,20,55,101,66
+USD1000=11,20,55,101,66
+USD2000=13,20,55,101,66
+CDN500=13,20,65,118,70
+CDN1000=14,20,55,118,70
+CDN2000=20,20,55,118,70
+GBPc500=15,20,65,116,68
+GBPc1000=19,20,55,122,74
+GBPc2000=32,20,55,124,78
+GBPe500=34,20,65,116,68
+GBPe1000=42,20,55,122,74
+GBPe2000=48,20,55,124,78
+GBPs500=28,20,65,116,68
+GBPs1000=15,20,55,122,74
+GBPs2000=23,20,55,124,78
+GBPr500=18,20,65,116,68
+GBPr1000=28,20,55,122,74
+GBPr2000=23,20,55,124,78
+USD0=0,0,0,0,0
+CDN0=0,0,0,0,0
+GBPc0=0,0,0,0,0
+GBPe0=0,0,0,0,0
+GBPs0=0,0,0,0,0
+GBPr0=0,0,0,0,0
+
+EUR0=0,0,0,0,0
+EUR500=31,20,55,105,62
+EUR1000=37,20,55,110,67
+EUR2000=35,20,55,126,72
+EUR5000=32,20,55,128,77
+EUR10000=35,20,55,137,82
+EUR20000=34,20,55,143,82
+EUR50000=30,20,55,140,82
+
+;not correct values below
+SAR100=37,20,55,110,67
+SAR500=37,20,55,110,67
+SAR1000=37,20,55,110,67
+SAR2000=37,20,55,110,67
+SAR5000=37,20,55,110,67
+SAR10000=35,20,55,126,72
+SAR50000=32,20,55,128,77
+
+
+;NZD0=0,0,0,0,0
+;NZD1000=27,20,55,124,68
+;NZD2000=31,20,55,119,70
+;NZD5000=23,20,55,119,72
+
+;for new country FL40 Patch B
+NZD0=0,0,0,0,0
+NZD500=23,20,55,101,66
+NZD1000=27,20,55,101,66
+NZD2000=31,20,55,126,70
+
+AUD0=0,0,0,0,0
+AUD500=255,20,55,121,66
+AUD1000=16,20,55,106,65
+AUD2000=24,20,55,138,65
+AUD5000=48,20,55,132,65
+AUD10000=44,20,55,134,65
+
+JPY0=0,0,0,0,0
+JPY1000=255,20,65,110,74
+JPY2000=255,20,55,94,74
+JPY5000=255,20,55,110,74
+JPY10000=255,20,55,110,76
+
+
+;new countries support for 4.0 patch B
+;singularity and size is just a guess
+
+; XXXDenomination=Opacity:Low:Normal:Singularity:Size
+
+KRW0=0,0,0,0,0
+KRW100=255,20,55,146,76
+KRW500= 255,20,55,146,76
+KRW1000=255,20,55,120,68
+KRW5000= 255,20,55,106,68
+KRW10000= 255,20,55,87,68
+
+; XXXDenomination=Opacity:Low:Normal:Singularity:Size
+
+MXN0=0,0,0,0,0
+MXN2000=255,20,55,130,66
+MXN10000= 255,20,55,146,66
+MXN20000= 255,20,55,136,66
+
+; XXXDenomination=Opacity:Low:Normal:Singularity:Size
+
+PLN0=0,0,0,0,0
+PLN1000=255,20,55,116,60
+PLN2000= 255,20,55,121,63
+PLN5000=255,20,55,121,62
+PLN10000=255,20,55,121,62
+PLN20000=255,20,55,121,62
+
+;new countries support for 4.2 patch E
+
+; XXXDenomination=Opacity:Low:Normal:Singularity:Size
+
+SEK0=0,0,0,0,0
+SEK2000=255,20,55,125,67
+SEK5000=255,20,55,134,77
+SEK10000=255,20,55,125,73
+SEK20000=255,20,55,125,73
+SEK50000=255,20,55,125,73
+SEK100000=255,20,55,125,73
+
+; XXXDenomination=Opacity:Low:Normal:Singularity:Size
+
+TRL0=0,0,0,0,0
+TRL100=255,20,55,155,76
+TRL500=255,20,55,138,76
+
+; XXXDenomination=Opacity:Low:Normal:Singularity:Size
+
+DKK0=0,0,0,0,0
+DKK5000=255,20,55,117,72
+DKK10000=255,20,55,112,72
+
+; XXXDenomination=Opacity:Low:Normal:Singularity:Size
+
+LTL0=0,0,0,0,0
+LTL1000=255,20,55,132,65
+LTL2000=255,20,55,113,65
+
+
+;new countries support for patch 4.5
+CZK0=0,0,0,0,0
+CZK10000=31,20,55,105,62
+CZK20000=37,20,55,110,67
+CZK50000=35,20,55,126,72
+
+;new countries support for 5.0
+RUB0=0,0,0,0,0
+RUB1000=37,20,55,110,67
+RUB5000=32,20,55,128,77
+RUB10000=35,20,55,137,82
+RUB50000=30,20,55,140,82
+RUB100000=37,20,55,110,67
+RUB500000=32,20,55,128,77
+
+;Opacity is NOT correct
+;Low is based on Standard Value 20
+;Normal is based on Standard Value 55
+;Singularity is NOT correct
+;Size is taken from http://en.wikipedia.org/wiki/Croatian_kuna
+HRK0=0,0,0,0,0
+HRK1000=255,20,55,110,63
+HRK2000=255,20,55,110,65
+HRK5000=255,20,55,110,67
+HRK10000=255,20,55,110,69
+HRK20000=255,20,55,110,71
+
+HUF500=255,20,55,110,70
+HUF1000=255,20,55,110,70
+HUF5000=255,20,55,110,70
+
+;NO Greek Drachma Support
+
+;Opacity is NOT correct
+;Low is based on Standard Value 20
+;Normal is based on Standard Value 55
+;Singularity is NOT correct
+CNY0=0,0,0,0,0
+CNY100=255,20,55,110,63
+CNY500=255,20,55,110,63
+CNY1000=255,20,55,110,70
+CNY2000=255,20,55,110,70
+CNY5000=255,20,55,110,77
+CNY10000=255,20,55,110,80
+
+;Opacity is NOT correct
+;Low is based on Standard Value 20
+;Normal is based on Standard Value 55
+;Singularity is NOT correct
+;size is based on http://en.wikipedia.org/wiki/Singapore_dollar (3rd series)
+; 25$ based on orchid series
+; 20$ based on largest among the different series
+SGD0=0,0,0,0,0
+SGD200=255,20,55,110,63
+SGD500=255,20,55,110,66
+SGD1000=255,20,55,110,69
+SGD2000=255,20,55,110,79
+SGD2500=255,20,55,110,72
+SGD5000=255,20,55,110,74
+SGD10000=255,20,55,110,77
+SGD100000=255,20,55,110,83
+SGD1000000=255,20,55,110,90
+
+MYR0=0,0,0,0,0
+MYR100=255,20,55,110,65
+MYR500=255,20,55,110,65
+MYR1000=255,20,55,110,65
+MYR2000=255,20,55,110,65
+MYR5000=255,20,55,110,69
+
+;Opacity is NOT correct
+;Low is based on Standard Value 20
+;Normal is based on Standard Value 55
+;Singularity is NOT correct
+;size is based on https://en.wikipedia.org/wiki/Ukrainian_hryvnia
+AUH0=0,0,0,0,0
+AUH100=255,20,55,110,63
+AUH200=255,20,55,110,63
+AUH500=255,20,55,110,63
+AUH1000=255,20,55,110,66
+AUH2000=255,20,55,110,69
+AUH5000=255,20,55,110,72
+AUH10000=255,20,55,110,75
+AUH20000=255,20,55,110,75
+AUH50000=255,20,55,110,75
+
+;
+; Options depending of Primary Language
+;
+; -----------------------------------------------
+; [Language Code]
+; Currency=XXX,YYYY         // Define the list of currencies supported by that Language Code
+; RapMsg=RMsgXXXX.dat       // Root of Rap Message File Name (rap.ini)
+; SwitchMsg=SMsgXXXX.dat    // Root of the Switch Message File Name (switch.ini)  
+; XXXCDOnly=Yes or No       // Credit Debit Only (used for package only)
+; XXXScaleMetric=Yes or No  // Scale Metric = Yes:Kilos, No:Pounds (Scotopts.dat)
+; XXXCodePage=437           // Receipt Printer Code Page (Device Manager)
+; XXXTaxLine=Y or N         // EReceipt Tax Line (Scotopts.dat)
+; XXXWAVEFILES=EN           // Define language for all Wave Files (wav, and price speaker)
+; XXXAPPSCOTMSG=SCOTMSG	      // Core Application Message File Name (Scotopts.dat)
+; XXXAPPSASIACTION=SASIACTION // Core Application SasiAction File Name (Scotopts.dat)
+; XXXAPPSCOTTEND=SCOTTEND     // Core Application Tender File Name (Scotopts.dat)
+; XXXAPPSCOTTARE=SCOTTARE     // Core Application Tare File Name (Scotopts.dat)
+; XXXDenominations=1,2,5,10,20,50,100  // (Scotopts.dat)
+; XXXCashValueList=-1,-5,-10,-25,-100,-200,100,500,1000,2000 // -1 Coin, 1 Bill (Green Blinking / Scotopts.dat)
+; XXXCashLowList=25,19,19,19,19,19,20,20,20,20               // (30% of Normal) Low Level (Green Blinking / Scotopts.dat)
+; Tar 176141
+; XXXTendBitMap01=BBBBB.BMP  // Bitmap to Set for Button1 for each Tender File.
+; -----------------------------------------------
+
+; -----------------------------------------------
+; English (USA/Canada)
+; -----------------------------------------------
+
+[0409]
+Currency=USD,CDN,CNY
+RapMsg=RMsg0409.dat
+SwitchMsg=SMsg0409.dat
+SendscotMsg=Sendscot_0409.ini
+TerminalInfoMsg=TerminalInfo.ini
+Language=0409
+MenuFile=c:\scot\config\ReportGeneratorMenus0409.xml
+; USD
+USDCDOnly=No
+USDFullFunctionDisable=No
+USDScaleMetric=No
+USDCodePage=850
+USDTaxLine=Y
+USDWAVEFILES=EN
+USDAPPSCOTMSG=SCOTMSGE
+USDAPPSASIACTION=SASIACTIONE
+USDAPPSCOTTEND=SCOTTEND
+USDAPPSCOTTARE=SCOTTARE
+USDDenominations=1,2,5,10,20,50,100
+
+;only for 3.x and 4.x and 5.x MINI and glory
+USDCashValueList=-1,-5,-10,-25,100,500,1000,2000
+USDCashLowList=75,40,75,75,20,20,20,20
+USDCashCapacity=462,120,348,264,3000,3000,3000,3000
+
+;USD Hopper
+USDCashValueListForCoinHopper=-1,-5,-25,100,500,1000,2000
+USDCashLowListForCoinHopper=61,55,46,20,20,20,20
+USDCashCapacityForCoinHopper= 2100,700,2820,600,3000,3000,3000,3000
+;Canister
+USDCashLowListForNewEnhancedCoinLowSensor=11,8,13,9,20,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+USDF53CashValueList=-1,-5,-10,-25,100,500,1000,2000
+USDF53CashLowList=77,52,99,43,20,20,20,20
+USDF53CashCapacity=500,500,500,500,350,350,350,350
+USDF53CashRecyclerBaseLevel=758,442,569,428,350,175,88,88
+USDF53CashDispenserFillCount=758,442,569,428,350,175,88,88
+USDF53StartingBank=-1
+USDF53EnablePickUpXAmount=N
+
+;BCR/Puloon
+USDVCDMCashValueList=-1,-5,-10,-25,100,500,1000,2000
+USDVCDMCashLowList=77,52,99,43,15,15,15,15
+USDVCDMCashCapacity=500,500,500,500,450,450,450,450
+USDVCDMCashRecyclerBaseLevel=758,442,569,428,450,225,113,113
+USDVCDMCashDispenserFillCount=758,442,569,428,450,225,113,113
+USDVCDMStartingBank=-1
+USDVCDMEnablePickUpXAmount=N
+
+;BCR/BNR
+USDBNRCashValueList=-1,-5,-10,-25,100,500,1000,2000
+USDBNRCashLowList=77,52,99,43,5,5,5,5
+USDBNRCashRecyclerBaseLevel=758,442,569,428,0,0,0,0
+USDBNRCashDispenserFillCount=758,442,569,428,20,0,0,0
+USDBNRStartingBank=19358
+USDBNREnablePickUpXAmount = Y
+
+USDCashAcceptorCapacity=590
+USDCoinAcceptorCapacity=1000
+USDCashAcceptorHighThreshold=450
+USDCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+USDTendBitMap01=Cash.jpg
+USDTendBitMap04=debit_w_cash.jpg
+USDMaxBillsType1=11
+USDFontCharset=0 
+; CDN
+CDNCDOnly=No
+CDNFullFunctionDisable=No
+CDNScaleMetric=Yes
+CDNCodePage=437
+CDNTaxLine=Y
+CDNWAVEFILES=EN
+CDNAPPSCOTMSG=SCOTMSGE
+CDNAPPSASIACTION=SASIACTIONE
+CDNAPPSCOTTEND=SCOTTEND
+CDNAPPSCOTTARE=SCOTTARE
+CDNDenominations=5,10,20,50,100
+
+CDNCashValueList=-5,-10,-25,-100,-200,500,1000,2000
+CDNCashLowList=19,19,19,19,19,20,20,20
+CDNCashCapacity=131,195,292,118,133,3000,3000,3000
+
+;CDN Hopper
+CDNCashValueListForCoinHopper=-5,-10,-25,-100,-200,500,1000,2000
+CDNCashLowListForCoinHopper=31,73,32,30,31,20,20,20
+CDNCashCapacityForCoinHopper=700,2820,600,600,600,3000,3000,3000
+;Canister Tlex
+CDNCashLowListForNewEnhancedCoinLowSensor=6,10,7,6,9,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+CDNF53CashValueList=-5,-10,-25,-50,-100,-200,500,1000,2000
+CDNF53CashLowList=55,111,51,31,34,33,20,20,20
+CDNF53CashCapacity=500,500,500,500,500,500,350,350,350
+CDNF53CashRecyclerBaseLevel=200,200,200,200,200,200,200,200,200
+CDNF53CashDispenserFillCount=200,200,200,200,200,200,200,200,200
+CDNF53StartingBank=-1
+CDNF53EnablePickUpXAmount=N
+;BCR/Puloon
+CDNVCDMCashValueList=-5,-10,-25,-50,-100,-200,500,1000,2000
+CDNVCDMCashLowList=55,111,51,31,34,33,15,15,15
+CDNVCDMCashCapacity=500,500,500,500,500,500,450,450,450
+CDNVCDMCashRecyclerBaseLevel=200,200,200,200,200,200,200,200,200
+CDNVCDMCashDispenserFillCount=200,200,200,200,200,200,200,200,200
+CDNVCDMStartingBank=-1
+CDNVCDMEnablePickUpXAmount=N
+;BCR/BNR
+CDNBNRCashValueList=-5,-10,-25,-50,-100,-200,500,1000,2000
+CDNBNRCashLowList=55,111,51,31,34,33,5,5,5
+CDNBNRCashRecyclerBaseLevel=200,200,200,200,200,200,0,0,0
+CDNBNRCashDispenserFillCount=200,200,200,200,200,200,0,0,0
+CDNBNRStartingBank=78200
+CDNBNREnablePickUpXAmount = Y
+CDNCashAcceptorCapacity=590
+CDNCoinAcceptorCapacity=1000
+CDNCashAcceptorHighThreshold=450
+CDNCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+CDNTendBitMap01=internationalCash.jpg
+CDNTendBitMap04=international_debit_cashback.jpg
+CDNMaxBillsType1=30
+CDNFontCharset=0 
+
+;CNY
+CNYCDOnly=No
+CNYFullFunctionDisable=No
+CNYScaleMetric=Yes
+CNYCodePage=936
+CNYTaxLine=N
+CNYWAVEFILES=0804
+CNYAPPSCOTMSG=MSG0804
+CNYAPPSASIACTION=SASI0804
+CNYAPPSCOTTEND=TEND0804
+CNYAPPSCOTTARE=TARE0804
+CNYDenominations=1,2,5,10,20,50,100
+
+;Begin Support for 5.x hardware (4 Coins, 4 Bills)
+CNYCashValueList=-5,-10,-50,-100,100,500,1000,2000
+CNYCashLowList=20,20,20,20,20,20,20,20
+CNYCashCapacity=20,20,20,20,20,20,20,20
+;BCR/F53
+CNYF53CashValueList=-5,-10,-50,-100,100,500,1000,2000
+CNYF53CashLowList=43,69,64,38,20,20,20,20
+CNYF53CashCapacity=431,689,638,376,350,350,350,350
+CNYF53CashRecyclerBaseLevel=431,689,638,376,88,88,88,88
+CNYF53CashDispenserFillCount=431,689,638,376,88,88,88,88
+CNYF53StartingBank=-1
+CNYF53EnablePickUpXAmount=N
+;BCR/Puloon (Will not be supported anymore)
+;BCR/BNR
+CNYBNRCashValueList=-5,-10,-50,-100,100,500,1000,2000
+CNYBNRCashLowList=43,69,64,38,5,5,5,5
+CNYBNRCashRecyclerBaseLevel=431,689,638,376,88,88,88,88
+CNYBNRCashDispenserFillCount=431,689,638,376,88,88,88,88
+CNYBNRStartingBank=775000
+CNYBNREnablePickUpXAmount = Y
+
+CNYCashAcceptorCapacity=590
+CNYCoinAcceptorCapacity=1000
+CNYCashAcceptorHighThreshold=450
+CNYCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+CNYCashValueListForCoinHopper=-5,-10,-50,-100,100,500,1000,2000
+CNYCashLowListForCoinHopper=43,69,64,38,20,20,20,20
+CNYCashCapacityForCoinHopper=216,344,319,188,3000,3000,3000,3000
+CNYCashLowListForNewEnhancedCoinLowSensor=13,13,13,13,20,20,20,20
+CNYTendBitMap01=Eurocash.jpg
+CNYTendBitMap04=Euro_debit_cashback.jpg
+CNYMaxBillsType1=30
+CNYFontCharset=0
+
+; -----------------------------------------------
+; French (Canada)
+; -----------------------------------------------
+
+[0C0C]
+Currency=USD,CDN
+RapMsg=RMsg0C0C.dat
+SwitchMsg=SMsg0C0C.dat
+SendscotMsg=Sendscot_0C0C.ini
+TerminalInfoMsg=TerminalInfo.ini.0C0C
+Language=0C0C
+MenuFile=c:\scot\config\ReportGeneratorMenus0C0C.xml
+; USD
+USDCDOnly=No
+USDFullFunctionDisable=No
+USDScaleMetric=No
+USDCodePage=437
+USDTaxLine=Y
+USDWAVEFILES=FR
+USDAPPSCOTMSG=MSGFREN
+USDAPPSASIACTION=SASIFREN
+USDAPPSCOTTEND=TENDFREN
+USDAPPSCOTTARE=TAREFREN
+USDDenominations=1,2,5,10,20,50,100
+
+;only for 3.x and 4.x and 5.x MINI and glory
+USDCashValueList=-1,-5,-10,-25,100,500,1000,2000
+USDCashLowList=75,40,75,75,20,20,20,20
+USDCashCapacity=462,120,348,264,3000,3000,3000,3000
+
+;USD Hopper
+USDCashValueListForCoinHopper=-1,-5,-25,100,500,1000,2000
+USDCashLowListForCoinHopper=61,55,46,20,20,20,20
+USDCashCapacityForCoinHopper= 2100,700,2820,600,3000,3000,3000,3000
+;Canister
+USDCashLowListForNewEnhancedCoinLowSensor=11,8,13,9,20,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+USDF53CashValueList=-1,-5,-10,-25,100,500,1000,2000
+USDF53CashLowList=77,53,99,44,20,20,20,20
+USDF53CashCapacity=500,500,500,500,350,350,350,350
+USDF53CashRecyclerBaseLevel=758,442,569,428,350,175,88,88
+USDF53CashDispenserFillCount=758,442,569,428,350,175,88,88
+USDF53StartingBank=-1
+USDF53EnablePickUpXAmount=N
+;BCR/Puloon
+USDVCDMCashValueList=-1,-5,-10,-25,100,500,1000,2000
+USDVCDMCashLowList=77,53,99,44,15,15,15,15
+USDVCDMCashCapacity=500,500,500,500,450,450,450,450
+USDVCDMCashRecyclerBaseLevel=758,442,569,428,450,225,113,113
+USDVCDMCashDispenserFillCount=758,442,569,428,450,225,113,113
+USDVCDMStartingBank=-1
+USDVCDMEnablePickUpXAmount=N
+;BCR/BNR
+USDBNRCashValueList=-1,-5,-10,-25,100,500,1000,2000
+USDBNRCashLowList=77,53,99,44,5,5,5,5
+USDBNRCashRecyclerBaseLevel=758,442,569,428,0,0,0,0
+USDBNRCashDispenserFillCount=758,442,569,428,20,0,0,0
+USDBNRStartingBank=19358
+USDBNREnablePickUpXAmount = Y
+USDCashAcceptorCapacity=590
+USDCoinAcceptorCapacity=1000
+USDCashAcceptorHighThreshold=450
+USDCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+USDTendBitMap01=Cash.jpg
+USDTendBitMap04=debit_w_cash.jpg
+USDMaxBillsType1=11
+USDFontCharset=0 
+; CDN
+CDNCDOnly=No
+CDNFullFunctionDisable=No
+CDNScaleMetric=Yes
+CDNCodePage=437
+CDNTaxLine=Y
+CDNWAVEFILES=FR
+CDNAPPSCOTMSG=MSGFREN
+CDNAPPSASIACTION=SASIFREN
+CDNAPPSCOTTEND=TENDFREN
+CDNAPPSCOTTARE=TAREFREN
+CDNDenominations=5,10,20,50,100
+
+CDNCashValueList=-5,-10,-25,-100,-200,500,1000,2000
+CDNCashLowList=19,19,19,19,19,20,20,20
+CDNCashCapacity=131,195,292,118,133,3000,3000,3000
+
+;CDN Hopper
+CDNCashValueListForCoinHopper=-5,-10,-25,-100,-200,500,1000,2000
+CDNCashLowListForCoinHopper=31,73,32,30,31,20,20,20
+CDNCashCapacityForCoinHopper=700,2820,600,600,600,3000,3000,3000
+;Canister Tlex
+CDNCashLowListForNewEnhancedCoinLowSensor=6,10,7,6,9,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+CDNF53CashValueList=-5,-10,-25,-50,-100,-200,500,1000,2000
+CDNF53CashLowList=55,111,51,31,34,33,20,20,20
+CDNF53CashCapacity=500,500,500,500,500,500,350,350,350
+CDNF53CashRecyclerBaseLevel=200,200,200,200,200,200,200,200,200
+CDNF53CashDispenserFillCount=200,200,200,200,200,200,200,200,200
+CDNF53StartingBank=-1
+CDNF53EnablePickUpXAmount=N
+;BCR/Puloon
+CDNVCDMCashValueList=-5,-10,-25,-50,-100,-200,500,1000,2000
+CDNVCDMCashLowList=55,111,51,31,34,33,15,15,15
+CDNVCDMCashCapacity=500,500,500,500,500,500,450,450,450
+CDNVCDMCashRecyclerBaseLevel=200,200,200,200,200,200,200,200,200
+CDNVCDMCashDispenserFillCount=200,200,200,200,200,200,200,200,200
+CDNVCDMStartingBank=-1
+CDNVCDMEnablePickUpXAmount=N
+;BCR/BNR
+CDNBNRCashValueList=-5,-10,-25,-50,-100,-200,500,1000,2000
+CDNBNRCashLowList=55,111,51,31,34,33,5,5,5
+CDNBNRCashRecyclerBaseLevel=200,200,200,200,200,200,0,0,0
+CDNBNRCashDispenserFillCount=200,200,200,200,200,200,0,0,0
+CDNBNRStartingBank=78200
+CDNBNREnablePickUpXAmount = Y
+CDNCashAcceptorCapacity=590
+CDNCoinAcceptorCapacity=1000
+CDNCashAcceptorHighThreshold=450
+CDNCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+CDNTendBitMap01=internationalCash.jpg
+CDNTendBitMap04=international_debit_cashback.jpg
+CDNMaxBillsType1=30
+CDNFontCharset=0 
+
+; -----------------------------------------------
+; Spanish (Mexican)
+; -----------------------------------------------
+
+[080A]
+Currency=USD,CDN,MXN,CLP,ARS,COP
+RapMsg=RMsg080A.dat
+SwitchMsg=SMsg080A.dat
+SendscotMsg=Sendscot_080A.ini
+TerminalInfoMsg=TerminalInfo.ini.080A
+Language=080A
+MenuFile=c:\scot\config\ReportGeneratorMenus080A.xml
+; USD
+USDCDOnly=No
+USDFullFunctionDisable=No
+USDScaleMetric=No
+USDCodePage=1252
+USDTaxLine=Y
+USDWAVEFILES=ES
+USDAPPSCOTMSG=MSGSPAN
+USDAPPSASIACTION=SASISPAN
+USDAPPSCOTTEND=TENDSPAN
+USDAPPSCOTTARE=TARESPAN
+USDDenominations=1,2,5,10,20,50,100
+
+;only for 3.x and 4.x and 5.x MINI and glory
+USDCashValueList=-1,-5,-10,-25,100,500,1000,2000
+USDCashLowList=75,40,75,75,20,20,20,20
+USDCashCapacity=462,120,348,264,3000,3000,3000,3000
+
+;USD Hopper
+USDCashValueListForCoinHopper=-1,-5,-25,100,500,1000,2000
+USDCashLowListForCoinHopper=61,55,46,20,20,20,20
+USDCashCapacityForCoinHopper= 2100,700,2820,600,3000,3000,3000,3000
+;Canister
+USDCashLowListForNewEnhancedCoinLowSensor=11,8,13,9,20,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+USDF53CashValueList=-1,-5,-10,-25,100,500,1000,2000
+USDF53CashLowList=77,53,99,44,20,20,20,20
+USDF53CashCapacity=500,500,500,500,350,350,350,350
+USDF53CashRecyclerBaseLevel=758,442,569,428,350,175,88,88
+USDF53CashDispenserFillCount=758,442,569,428,350,175,88,88
+USDF53StartingBank=-1
+USDF53EnablePickUpXAmount=N
+;BCR/Puloon
+USDVCDMCashValueList=-1,-5,-10,-25,100,500,1000,2000
+USDVCDMCashLowList=77,53,99,44,15,15,15,15
+USDVCDMCashCapacity=500,500,500,500,450,450,450,450
+USDVCDMCashRecyclerBaseLevel=758,442,569,428,450,225,113,113
+USDVCDMCashDispenserFillCount=758,442,569,428,450,225,113,113
+USDVCDMStartingBank=-1
+USDVCDMEnablePickUpXAmount=N
+;BCR/BNR
+USDBNRCashValueList=-1,-5,-10,-25,100,500,1000,2000
+USDBNRCashLowList=77,53,99,44,5,5,5,5
+USDBNRCashRecyclerBaseLevel=758,442,569,428,0,0,0,0
+USDBNRCashDispenserFillCount=758,442,569,428,20,0,0,0
+USDBNRStartingBank=19358
+USDBNREnablePickUpXAmount = Y
+USDCashAcceptorCapacity=590
+USDCoinAcceptorCapacity=1000
+USDCashAcceptorHighThreshold=450
+USDCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+USDTendBitMap01=Cash.jpg
+USDTendBitMap04=debit_w_cash.jpg
+USDMaxBillsType1=11
+USDFontCharset=0 
+; CDN
+CDNCDOnly=No
+CDNFullFunctionDisable=No
+CDNScaleMetric=Yes
+CDNCodePage=1252
+CDNTaxLine=Y
+CDNWAVEFILES=ES
+CDNAPPSCOTMSG=MSGSPAN
+CDNAPPSASIACTION=SASISPAN
+CDNAPPSCOTTEND=TENDSPAN
+CDNAPPSCOTTARE=TARESPAN
+CDNDenominations=5,10,20,50,100
+
+CDNCashValueList=-5,-10,-25,-100,-200,500,1000,2000
+CDNCashLowList=19,19,19,19,19,20,20,20
+CDNCashCapacity=131,195,292,118,133,3000,3000,3000
+
+;CDN Hopper
+CDNCashValueListForCoinHopper=-5,-10,-25,-100,-200,500,1000,2000
+CDNCashLowListForCoinHopper=31,73,32,30,31,20,20,20
+CDNCashCapacityForCoinHopper=700,2820,600,600,600,3000,3000,3000
+;Canister Tlex
+CDNCashLowListForNewEnhancedCoinLowSensor=6,10,7,6,9,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+CDNF53CashValueList=-5,-10,-25,-50,-100,-200,500,1000,2000
+CDNF53CashLowList=55,111,51,31,34,33,20,20,20
+CDNF53CashCapacity=500,500,500,500,500,500,350,350,350
+CDNF53CashRecyclerBaseLevel=200,200,200,200,200,200,200,200,200
+CDNF53CashDispenserFillCount=200,200,200,200,200,200,200,200,200
+CDNF53StartingBank=-1
+CDNF53EnablePickUpXAmount=N
+;BCR/Puloon
+CDNVCDMCashValueList=-5,-10,-25,-50,-100,-200,500,1000,2000
+CDNVCDMCashLowList=55,111,51,31,34,33,15,15,15
+CDNVCDMCashCapacity=500,500,500,500,500,500,450,450,450
+CDNVCDMCashRecyclerBaseLevel=200,200,200,200,200,200,200,200,200
+CDNVCDMCashDispenserFillCount=200,200,200,200,200,200,200,200,200
+CDNVCDMStartingBank=-1
+CDNVCDMEnablePickUpXAmount=N
+;BCR/BNR
+CDNBNRCashValueList=-5,-10,-25,-50,-100,-200,500,1000,2000
+CDNBNRCashLowList=55,111,51,31,34,33,5,5,5
+CDNBNRCashRecyclerBaseLevel=200,200,200,200,200,200,0,0,0
+CDNBNRCashDispenserFillCount=200,200,200,200,200,200,0,0,0
+CDNBNRStartingBank=78200
+CDNBNREnablePickUpXAmount = Y
+CDNCashAcceptorCapacity=590
+CDNCoinAcceptorCapacity=1000
+CDNCashAcceptorHighThreshold=450
+CDNCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+CDNTendBitMap01=internationalCash.jpg
+CDNTendBitMap04=international_debit_cashback.jpg
+CDNMaxBillsType1=30
+CDNFontCharset=0 
+; MXN
+MXNCDOnly=No
+MXNFullFunctionDisable=No
+MXNScaleMetric=No
+MXNCodePage=1252
+MXNTaxLine=Y 
+MXNWAVEFILES=ES
+MXNAPPSCOTMSG=MSGSPAN
+MXNAPPSASIACTION=SASISPAN
+MXNAPPSCOTTEND=TENDSPAN
+MXNAPPSCOTTARE=TARESPAN
+MXNDenominations=20,50,100,200,500,1000
+
+MXNCashValueList=-10,-20,-50,-100,-200,-500,-1000,2000,10000,20000 
+MXNCashLowList=20,20,20,20,20,20,20,20,20,20 
+MXNCashCapacity=116,150,133,276,127,165,100,3000,3000,3000 
+MXNCashValueListForCoinHopper=-10,-20,-50,-100,-200,-500,-1000,2000,10000,20000 
+MXNCashLowListForCoinHopper=20,20,20,20,20,20,20,20,20,20  
+MXNCashCapacityForCoinHopper= 2100,700,2820,600,600,600,600,3000,3000,3000
+
+MXNCashLowListForNewEnhancedCoinLowSensor=10,9,7,8,6,5,4,20,20,20 
+
+;Begin Support for 5.x hardware
+;BCR/F53
+MXNF53CashValueList=-10,-20,-50,-100,-200,-500,-1000,2000,10000,20000
+MXNF53CashLowList=20,20,20,20,20,20,20,20,20,20 
+MXNF53CashCapacity=116,150,133,276,127,165,100,3000,3000,3000 
+MXNF53CashRecyclerBaseLevel=200,200,200,200,200,200,200,200,200,200
+MXNF53CashDispenserFillCount=200,200,200,200,200,200,200,200,200,200
+MXNF53StartingBank=-1
+MXNF53EnablePickUpXAmount=N
+;BCR/Puloon
+MXNVCDMCashValueList=-10,-20,-50,-100,-200,-500,-1000,2000,10000,20000
+MXNVCDMCashLowList=20,20,20,20,20,20,20,20,20,20 
+MXNVCDMCashCapacity=116,150,133,276,127,165,100,3000,3000,3000 
+MXNVCDMCashRecyclerBaseLevel=200,200,200,200,200,200,200,200,200,200
+MXNVCDMCashDispenserFillCount=200,200,200,200,200,200,200,200,200,200
+MXNVCDMStartingBank=-1
+MXNVCDMEnablePickUpXAmount=N
+;BCR/BNR not supported
+MXNBNRCashRecyclerBaseLevel=200,200,200,200,200,200,200,0,0,0
+MXNBNRCashDispenserFillCount=200,200,200,200,200,200,200,20,0,0
+MXNBNRStartingBank=78200
+MXNBNREnablePickUpXAmount = Y
+MXNCashAcceptorCapacity=590
+MXNCoinAcceptorCapacity=1000
+MXNCashAcceptorHighThreshold=450
+MXNCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+MXNTendBitMap01= internationalCash.jpg
+MXNTendBitMap04= international_debit_cashback.jpg
+MXNMaxBillsType1=11 
+MXNFontCharset=0 
+
+; CLP
+CLPCDOnly=No
+CLPFullFunctionDisable=No
+CLPScaleMetric=No
+CLPCodePage=1252
+CLPTaxLine=Y
+CLPWAVEFILES=ES
+CLPAPPSCOTMSG=MSGSPAN
+CLPAPPSASIACTION=SASISPAN
+CLPAPPSCOTTEND=TENDSPAN
+CLPAPPSCOTTARE=TARESPAN
+CLPDenominations=1000,2000,5000,10000,20000
+
+;only for 3.x and 4.x and 5.x MINI and glory
+CLPCashValueList=-1,-5,-10,-50,-100,-500,1000,2000,5000
+CLPCashLowList=63,63,63,36,35,39,20,20,0
+CLPCashCapacity=931,946,634,365,283,388,590,590,590
+
+;CLP Hopper
+CLPCashValueListForCoinHopper=-1,-5,-10,-50,-100,-500,1000,2000,5000
+CLPCashLowListForCoinHopper=63,63,63,36,35,39,20,20,0
+CLPCashCapacityForCoinHopper=931,946,634,365,283,388,590,590,590
+;Canister
+CLPCashLowListForNewEnhancedCoinLowSensor=13,13,13,13,13,13,20,20,0
+
+;Begin Support for 5.x hardware
+;5X supports for 1 and 5 pesos only!
+;BCR/F53
+CLPF53CashValueList=-1,-5,-10,-50,-100,-500,1000,2000,5000
+CLPF53CashLowList=93,95,63,36,35,39,20,20,0
+CLPF53CashCapacity=931,946,634,365,283,388,590,590,590
+CLPF53CashRecyclerBaseLevel=931,946,634,365,283,388,590,590,590
+CLPF53CashDispenserFillCount=931,946,634,365,283,388,590,590,590
+CLPF53StartingBank=-1
+CLPF53EnablePickUpXAmount=N
+;BCR/Puloon
+CLPVCDMCashValueList=-1,-5,-10,-50,-100,-500,1000,2000,5000
+CLPVCDMCashLowList=93,95,63,36,35,39,20,20,0
+CLPVCDMCashCapacity=931,946,634,365,283,388,590,590,590
+CLPVCDMCashRecyclerBaseLevel=931,946,634,365,283,388,590,590,590
+CLPVCDMCashDispenserFillCount=931,946,634,365,283,388,590,590,590
+CLPVCDMStartingBank=-1
+CLPVCDMEnablePickUpXAmount=N
+;BCR/BNR
+CLPBNRCashValueList=-1,-5,-10,-50,-100,-500,1000,2000,5000
+CLPBNRCashLowList=93,95,63,36,35,39,20,20,0
+CLPBNRCashRecyclerBaseLevel=931,946,634,365,283,388,590,590,590
+CLPBNRCashDispenserFillCount=931,946,634,365,283,388,590,590,590
+CLPBNRStartingBank=4576596
+CLPBNREnablePickUpXAmount = Y
+CLPCashAcceptorCapacity=590
+CLPCoinAcceptorCapacity=1000
+CLPCashAcceptorHighThreshold=450
+CLPCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+CLPTendBitMap01=Cash.jpg
+CLPTendBitMap04=debit_w_cash.jpg
+CLPMaxBillsType1=11
+CLPFontCharset=0 
+
+; ARS
+ARSCDOnly=No
+ARSFullFunctionDisable=No
+ARSScaleMetric=No
+ARSCodePage=1252
+ARSTaxLine=Y
+ARSWAVEFILES=ES
+ARSAPPSCOTMSG=MSGSPAN
+ARSAPPSASIACTION=SASISPAN
+ARSAPPSCOTTEND=TENDSPAN
+ARSAPPSCOTTARE=TARESPAN
+ARSDenominations=2,5,10,20,50,100
+
+;only for 3.x and 4.x and 5.x MINI and glory
+ARSCashValueList=-5,-10,-25,-50,-100,500,1000,2000
+ARSCashLowList=108,103,42,39,38,20,20,0
+ARSCashCapacity=1076,961,423,390,383,590,590,590
+
+;ARS Hopper
+ARSCashValueListForCoinHopper=-5,-10,-25,-50,-100,500,1000,2000
+ARSCashLowListForCoinHopper=108,103,42,39,38,20,20,0
+ARSCashCapacityForCoinHopper=1076,961,423,390,383,590,590,590
+;Canister
+ARSCashLowListForNewEnhancedCoinLowSensor=13,13,13,13,13,20,20,0
+
+;Begin Support for 5.x hardware
+;BCR/F53
+ARSF53CashValueList=-5,-10,-25,-50,-100,500,1000,2000
+ARSF53CashLowList=108,103,42,39,38,20,20,0
+ARSF53CashCapacity=1076,961,423,390,383,590,590,590
+ARSF53CashRecyclerBaseLevel=1076,961,423,390,383,590,590,590
+ARSF53CashDispenserFillCount=1076,961,423,390,383,590,590,590
+ARSF53StartingBank=-1
+ARSF53EnablePickUpXAmount=N
+;BCR/Puloon
+ARSVCDMCashValueList=-5,-10,-25,-50,-100,500,1000,2000
+ARSVCDMCashLowList=108,103,42,39,38,20,20,0
+ARSVCDMCashCapacity=1076,961,423,390,383,590,590,590
+ARSVCDMCashRecyclerBaseLevel=1076,961,423,390,383,590,590,590
+ARSVCDMCashDispenserFillCount=1076,961,423,390,383,590,590,590
+ARSVCDMStartingBank=-1
+ARSVCDMEnablePickUpXAmount=N
+;BCR/BNR
+ARSBNRCashValueList=-5,-10,-25,-50,-100,500,1000,2000
+ARSBNRCashLowList=108,103,42,39,38,20,20,0
+ARSBNRCashRecyclerBaseLevel=1076,961,423,390,383,590,590,590
+ARSBNRCashDispenserFillCount=1076,961,423,390,383,590,590,590
+ARSBNRStartingBank=2148365
+ARSBNREnablePickUpXAmount = Y
+ARSCashAcceptorCapacity=590
+ARSCoinAcceptorCapacity=1000
+ARSCashAcceptorHighThreshold=450
+ARSCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+ARSTendBitMap01=Cash.jpg
+ARSTendBitMap04=debit_w_cash.jpg
+ARSMaxBillsType1=11
+ARSFontCharset=0 
+
+; COP
+COPCDOnly=No
+COPFullFunctionDisable=No
+COPScaleMetric=No
+COPCodePage=1252
+COPTaxLine=Y 
+COPWAVEFILES=ES
+COPAPPSCOTMSG=MSGSPAN
+COPAPPSASIACTION=SASISPAN
+COPAPPSCOTTEND=TENDSPAN
+COPAPPSCOTTARE=TARESPAN
+COPDenominations=1000,2000,5000,10000,20000,50000
+
+COPCashValueList=-5000,-10000,-20000,-50000,-100000,1000,2000,5000,10000,20000,50000
+COPCashLowList=20,20,20,20,20,20,20,20,20,20,20
+COPCashCapacity=133,276,127,165,100,3000,3000,3000,3000,3000,3000
+COPCashValueListForCoinHopper=-50,-100,-200,-500,-1000,1000,2000,5000,10000,20000,50000
+COPCashLowListForCoinHopper=20,20,20,20,20,20,20,20,20,20,20
+COPCashCapacityForCoinHopper=133,276,127,165,100,3000,3000,3000,3000,3000,3000
+
+COPCashLowListForNewEnhancedCoinLowSensor=7,8,6,5,4,20,20,20,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+COPF53CashValueList=-5000,-10000,-20000,-50000,-100000,1000,2000,5000,10000,20000,50000
+COPF53CashLowList=20,20,20,20,20,20,20,20,20,20,20
+COPF53CashCapacity=133,276,127,165,100,3000,3000,3000,3000,3000,3000
+COPF53CashRecyclerBaseLevel=200,200,200,200,200,200,200,200,200,200,200
+COPF53CashDispenserFillCount=200,200,200,200,200,200,200,200,200,200,200
+COPF53StartingBank=-1
+COPF53EnablePickUpXAmount=N
+;BCR/Puloon
+COPVCDMCashValueList=-5000,-10000,-20000,-50000,-100000,1000,2000,5000,10000,20000,50000
+COPVCDMCashLowList=20,20,20,20,20,20,20,20,20,20,20
+COPVCDMCashCapacity=133,276,127,165,100,3000,3000,3000,3000,3000,3000
+COPVCDMCashRecyclerBaseLevel=200,200,200,200,200,200,200,200,200,200,200
+COPVCDMCashDispenserFillCount=200,200,200,200,200,200,200,200,200,200,200
+COPVCDMStartingBank=-1
+COPVCDMEnablePickUpXAmount=N
+;BCR/BNR
+COPBNRCashValueList=-5000,-10000,-20000,-50000,-100000,1000,2000,5000,10000,20000,50000
+COPBNRCashLowList=20,20,20,20,20,20,20,20,20,20,20 
+COPBNRCashRecyclerBaseLevel=200,200,200,200,200,200,200,200,200,200,200
+COPBNRCashDispenserFillCount=200,200,200,200,200,200,200,200,200,200,200
+COPBNRStartingBank=78200
+COPBNREnablePickUpXAmount = Y
+COPCashAcceptorCapacity=590
+COPCoinAcceptorCapacity=1000
+COPCashAcceptorHighThreshold=450
+COPCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+COPTendBitMap01= internationalCash.jpg
+COPTendBitMap04= international_debit_cashback.jpg
+COPMaxBillsType1=11 
+COPFontCharset=0 
+
+; -----------------------------------------------
+; UK (Britain)
+; -----------------------------------------------
+
+[0809]
+Currency=GBPe,GBPc,GBPs,GBPr,EUR,SAR,SGD,MYR,ZAR
+RapMsg=RMsg0809.dat
+SwitchMsg=SMsg0809.dat
+SendscotMsg=Sendscot_0809.ini
+TerminalInfoMsg=TerminalInfo.ini.0809
+Language=0809
+MenuFile=c:\scot\config\ReportGeneratorMenus0809.xml
+
+; GBP (JIRA SSCOP-2504)
+GBPCDOnly=No
+GBPFullFunctionDisable=No
+GBPScaleMetric=Yes
+GBPCodePage=1252
+GBPTaxLine=N
+GBPWAVEFILES=UK
+GBPAPPSCOTMSG=MSGUK
+GBPAPPSASIACTION=SASIUK
+GBPAPPSCOTTEND=TENDUK
+GBPAPPSCOTTARE=TAREUK
+GBPDenominations=5,10,20,50,100
+GBP-CIDenominations=1,5,10,20,50,100
+GBP-IOMDenominations=1,5,10,20,50,100
+
+GBPCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+GBPCashLowList=20,20,20,20,20,20,20,20,20,20,20
+GBPCashCapacity=150,120,134,120,127,115,70,90,3000,3000,3000
+
+; GBP Hopper
+GBPCashValueListForCoinHopper=-1,-5,-10,-20,-100,500,1000,2000
+GBPCashLowListForCoinHopper=68,78,54,46,32,20,20,20
+GBPCashCapacityForCoinHopper= 1008,1383,514,656,626,3000,3000,3000
+
+GBPCashLowListForNewEnhancedCoinLowSensor=10,7,9,8,9,9,5,5,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+GBPF53CashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+GBPF53CashLowList=77,37,48,24,54,20,28,22,20,20,20
+GBPF53CashCapacity=500,500,500,500,500,500,500,500,350,350,350
+GBPF53CashRecyclerBaseLevel=415,200,363,186,308,152,69,55,175,88,88
+GBPF53CashDispenserFillCount=415,200,363,186,308,152,69,55,175,88,88
+GBPF53StartingBank=-1
+GBPF53EnablePickUpXAmount=N
+;BCR/Puloon
+GBPVCDMCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+GBPVCDMCashLowList=77,37,48,24,54,20,28,22,15,15,15
+GBPVCDMCashCapacity=500,500,500,500,500,500,500,500,450,450,450
+GBPVCDMCashRecyclerBaseLevel=415,200,363,186,308,152,69,55,225,113,113
+GBPVCDMCashDispenserFillCount=415,200,363,186,308,152,69,55,225,113,113
+GBPVCDMStartingBank=-1
+GBPVCDMEnablePickUpXAmount=N
+;BCR/BNR
+GBPBNRCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+GBPBNRCashLowList=77,37,48,24,54,20,28,22,5,5,0
+GBPBNRCashRecyclerBaseLevel=415,200,363,186,308,152,69,55,0,0,0
+GBPBNRCashDispenserFillCount=415,200,363,186,308,152,69,55,20,0,0
+GBPBNRStartingBank=36150
+GBPBNREnablePickUpXAmount = Y
+GBPCashAcceptorCapacity=590
+GBPCoinAcceptorCapacity=1000
+GBPCashAcceptorHighThreshold=450
+GBPCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+GBPTendBitMap01=internationalCash.jpg
+GBPTendBitMap04=international_debit_cashback.jpg
+GBPMaxBillsType1=30
+GBPFontCharset=0 
+
+; End of fixing for JIRA SSCOP-2504
+
+; GBPe
+GBPeCDOnly=No
+GBPeFullFunctionDisable=No
+GBPeScaleMetric=Yes
+GBPeCodePage=1252
+GBPeTaxLine=N
+GBPeWAVEFILES=UK
+GBPeAPPSCOTMSG=MSGUK
+GBPeAPPSASIACTION=SASIUK
+GBPeAPPSCOTTEND=TENDUK
+GBPeAPPSCOTTARE=TAREUK
+; SSCOADK-1468: With 'Denominations' option, need to specify currency code as GBP-e instead of GBPe
+GBP-eDenominations=5,10,20,50,100
+GBPeCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+GBPeCashLowList=20,20,20,20,20,20,20,20,20,20,20
+GBPeCashCapacity=150,120,134,120,127,115,70,90,3000,3000,3000
+
+; GBP Hopper
+GBPeCashValueListForCoinHopper=-1,-5,-10,-20,-100,500,1000,2000
+GBPeCashLowListForCoinHopper=68,78,54,46,32,20,20,20
+GBPeCashCapacityForCoinHopper= 1008,1383,514,656,626,3000,3000,3000
+
+GBPeCashLowListForNewEnhancedCoinLowSensor=10,7,9,8,9,9,5,5,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+GBPeF53CashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+GBPeF53CashLowList=77,37,48,24,54,20,28,22,20,20,0
+GBPeF53CashCapacity=500,500,500,500,500,500,500,500,350,350,350
+GBPeF53CashRecyclerBaseLevel=415,200,363,186,308,152,69,55,175,88,88
+GBPeF53CashDispenserFillCount=415,200,363,186,308,152,69,55,175,88,88
+GBPeF53StartingBank=-1
+GBPeF53EnablePickUpXAmount=N
+;BCR/Puloon
+GBPeVCDMCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+GBPeVCDMCashLowList=77,37,48,24,54,20,28,22,15,15,15
+GBPeVCDMCashCapacity=500,500,500,500,500,500,500,500,450,450,450
+GBPeVCDMCashRecyclerBaseLevel=415,200,363,186,308,152,69,55,225,113,113
+GBPeVCDMCashDispenserFillCount=415,200,363,186,308,152,69,55,225,113,113
+GBPeVCDMStartingBank=-1
+GBPeVCDMEnablePickUpXAmount=N
+;BCR/BNR
+GBPeBNRCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+GBPeBNRCashLowList=77,37,48,24,54,20,28,22,5,5,0
+GBPeBNRCashRecyclerBaseLevel=415,200,363,186,308,152,69,55,0,0,0
+GBPeBNRCashDispenserFillCount=415,200,363,186,308,152,69,55,20,0,0
+GBPeBNRStartingBank=36150
+GBPeBNREnablePickUpXAmount = Y
+GBPeCashAcceptorCapacity=590
+GBPeCoinAcceptorCapacity=1000
+GBPeCashAcceptorHighThreshold=450
+GBPeCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+GBPeTendBitMap01=internationalCash.jpg
+GBPeTendBitMap04=international_debit_cashback.jpg
+GBPeMaxBillsType1=30
+GBPeFontCharset=0 
+
+; GBPc
+GBPcCDOnly=No
+GBPcFullFunctionDisable=No
+GBPcScaleMetric=Yes
+GBPcCodePage=1252
+GBPcTaxLine=N
+GBPcWAVEFILES=UK
+GBPcAPPSCOTMSG=MSGUK
+GBPcAPPSASIACTION=SASIUK
+GBPcAPPSCOTTEND=TENDUK
+GBPcAPPSCOTTARE=TAREUK
+; SSCOADK-1468: With 'Denominations' option, need to specify currency code as GBP-c instead of GBPc
+GBP-cDenominations=5,10,20,50,100
+
+GBPcCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+GBPcCashLowList=20,20,20,20,20,20,20,20,20,20,20
+GBPcCashCapacity=150,120,134,120,127,115,70,90,3000,3000,3000
+
+; GBP Hopper
+GBPcCashValueListForCoinHopper=-1,-5,-10,-20,-100,500,1000,2000
+GBPcCashLowListForCoinHopper=68,78,54,46,32,20,20,20
+GBPcCashCapacityForCoinHopper= 1008,1383,514,656,626,3000,3000,3000
+; Canister 
+GBPcCashLowListForNewEnhancedCoinLowSensor=10,7,9,8,9,9,5,5,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+GBPcF53CashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+GBPcF53CashLowList=77,37,48,24,54,20,28,22,20,20,0
+GBPcF53CashCapacity=500,500,500,500,500,500,500,500,350,350,350
+GBPcF53CashRecyclerBaseLevel=415,200,363,186,308,152,69,55,175,88,88
+GBPcF53CashDispenserFillCount=415,200,363,186,308,152,69,55,175,88,88
+GBPcF53StartingBank=-1
+GBPcF53EnablePickUpXAmount=N
+;BCR/Puloon
+GBPcVCDMCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+GBPcVCDMCashLowList=77,37,48,24,54,20,28,22,15,15,15
+GBPcVCDMCashCapacity=500,500,500,500,500,500,500,500,450,450,450
+GBPcVCDMCashRecyclerBaseLevel=415,200,363,186,308,152,69,55,225,113,113
+GBPcVCDMCashDispenserFillCount=415,200,363,186,308,152,69,55,225,113,113
+GBPcVCDMStartingBank=-1
+GBPcVCDMEnablePickUpXAmount=N
+;BCR/BNR
+GBPcBNRCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+GBPcBNRCashLowList=77,37,48,24,54,20,28,22,5,5,0
+GBPcBNRCashRecyclerBaseLevel=415,200,363,186,308,152,69,55,0,0,0
+GBPcBNRCashDispenserFillCount=415,200,363,186,308,152,69,55,20,0,0
+GBPcBNRStartingBank=36150
+GBPcBNREnablePickUpXAmount = Y
+GBPcCashAcceptorCapacity=590
+GBPcCoinAcceptorCapacity=1000
+GBPcCashAcceptorHighThreshold=450
+GBPcCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+GBPcTendBitMap01=internationalCash.jpg
+GBPcTendBitMap04=international_debit_cashback.jpg
+GBPcMaxBillsType1=30
+GBPcFontCharset=0 
+; GBPs
+GBPsCDOnly=No
+GBPsFullFunctionDisable=No
+GBPsScaleMetric=Yes
+GBPsCodePage=1252
+GBPsTaxLine=N
+GBPsWAVEFILES=UK
+GBPsAPPSCOTMSG=MSGUK
+GBPsAPPSASIACTION=SASIUK
+GBPsAPPSCOTTEND=TENDUK
+GBPsAPPSCOTTARE=TAREUK
+; SSCOADK-1468: With 'Denominations' option, we need to specify currency code as GBP-s instead of GBPs
+GBP-sDenominations=5,10,20,50,100
+
+GBPsCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+GBPsCashLowList=20,20,20,20,20,20,20,20,20,20,20
+GBPsCashCapacity=150,120,134,120,127,115,70,90,3000,3000,3000
+
+; GBP Hopper
+GBPsCashValueListForCoinHopper=-1,-5,-10,-20,-100,500,1000,2000
+GBPsCashLowListForCoinHopper=68,78,54,46,32,20,20,20
+GBPsCashCapacityForCoinHopper= 1008,1383,514,656,626,3000,3000,3000
+; Canister
+GBPsCashLowListForNewEnhancedCoinLowSensor=10,7,9,8,9,9,5,5,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+GBPsF53CashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+GBPsF53CashLowList=77,37,48,24,54,20,28,22,20,20,0
+GBPsF53CashCapacity=500,500,500,500,500,500,500,500,350,350,350
+GBPsF53CashRecyclerBaseLevel=415,200,363,186,308,152,69,55,175,88,88
+GBPsF53CashDispenserFillCount=415,200,363,186,308,152,69,55,175,88,88
+GBPsF53StartingBank=-1
+GBPsF53EnablePickUpXAmount=N
+;BCR/Puloon
+GBPsVCDMCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+GBPsVCDMCashLowList=77,37,48,24,54,20,28,22,15,15,15
+GBPsVCDMCashCapacity=500,500,500,500,500,500,500,500,450,450,450
+GBPsVCDMCashRecyclerBaseLevel=415,200,363,186,308,152,69,55,225,113,113
+GBPsVCDMCashDispenserFillCount=415,200,363,186,308,152,69,55,225,113,113
+GBPsVCDMStartingBank=-1
+GBPsVCDMEnablePickUpXAmount=N
+;BCR/BNR
+GBPsBNRCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+GBPsBNRCashLowList=77,37,48,24,54,20,28,22,5,5,0
+GBPsBNRCashRecyclerBaseLevel=415,200,363,186,308,152,69,55,0,0,0
+GBPsBNRCashDispenserFillCount=415,200,363,186,308,152,69,55,20,0,0
+GBPsBNRStartingBank=36150
+GBPsBNREnablePickUpXAmount = Y
+GBPsCashAcceptorCapacity=590
+GBPsCoinAcceptorCapacity=1000
+GBPsCashAcceptorHighThreshold=450
+GBPsCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+GBPsTendBitMap01=internationalCash.jpg
+GBPsTendBitMap04=international_debit_cashback.jpg
+GBPsMaxBillsType1=30
+GBPsFontCharset=0 
+; GBPr
+GBPrCDOnly=No
+GBPrFullFunctionDisable=No
+GBPrScaleMetric=Yes
+GBPrCodePage=1252
+GBPrTaxLine=N
+GBPrWAVEFILES=UK
+GBPrAPPSCOTMSG=MSGUK
+GBPrAPPSASIACTION=SASIUK
+GBPrAPPSCOTTEND=TENDUK
+GBPrAPPSCOTTARE=TAREUK
+; SSCOADK-1468: With 'Denominations' option, we need to specify currency code as GBP-r instead of GBPr
+GBP-rDenominations=5,10,20,50,100
+GBPrCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+GBPrCashLowList=20,20,20,20,20,20,20,20,20,20,20
+GBPrCashCapacity=150,120,134,120,127,115,70,90,3000,3000,3000
+
+; GBP Hopper
+GBPrCashValueListForCoinHopper=-1,-5,-10,-20,-100,500,1000,2000
+GBPrCashLowListForCoinHopper=68,78,54,46,32,20,20,20
+GBPrCashCapacityForCoinHopper= 1008,1383,514,656,626,3000,3000,3000
+; Canister
+GBPrCashLowListForNewEnhancedCoinLowSensor=10,7,9,8,9,9,5,5,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+GBPrF53CashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+GBPrF53CashLowList=77,37,48,24,54,20,28,22,20,20,0
+GBPrF53CashCapacity=500,500,500,500,500,500,500,500,350,350,350
+GBPrF53CashRecyclerBaseLevel=415,200,363,186,308,152,69,55,175,88,88
+GBPrF53CashDispenserFillCount=415,200,363,186,308,152,69,55,175,88,88
+GBPrF53StartingBank=-1
+GBPrF53EnablePickUpXAmount=N
+;BCR/Puloon
+GBPrVCDMCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+GBPrVCDMCashLowList=77,37,48,24,54,20,28,22,15,15,15
+GBPrVCDMCashCapacity=500,500,500,500,500,500,500,500,450,450,450
+GBPrVCDMCashRecyclerBaseLevel=415,200,363,186,308,152,69,55,225,113,113
+GBPrVCDMCashDispenserFillCount=415,200,363,186,308,152,69,55,225,113,113
+GBPrVCDMStartingBank=-1
+GBPrVCDMEnablePickUpXAmount=N
+;BCR/BNR
+GBPrBNRCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+GBPrBNRCashLowList=77,37,48,24,54,20,28,22,5,5,0
+GBPrBNRCashRecyclerBaseLevel=415,200,363,186,308,152,69,55,0,0,0
+GBPrBNRCashDispenserFillCount=415,200,363,186,308,152,69,55,20,0,0
+GBPrBNRStartingBank=36150
+GBPrBNREnablePickUpXAmount = Y
+GBPrCashAcceptorCapacity=590
+GBPrCoinAcceptorCapacity=1000
+GBPrCashAcceptorHighThreshold=450
+GBPrCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+GBPrTendBitMap01=internationalCash.jpg
+GBPrTendBitMap04=international_debit_cashback.jpg
+GBPrMaxBillsType1=30
+GBPrFontCharset=0 
+; EUR
+EURCDOnly=No
+EURFullFunctionDisable=No
+EURScaleMetric=Yes
+EURCodePage=1252
+EURTaxLine=N
+EURWAVEFILES=UK
+EURAPPSCOTMSG=MSGUK
+EURAPPSASIACTION=SASIUK
+EURAPPSCOTTEND=TENDUK
+EURAPPSCOTTARE=TAREUK
+EURDenominations=5,10,20,50,100,200,500
+
+EURCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURCashLowList=20,20,20,20,20,20,20,20,20,20,20,20
+EURCashCapacity=168,168,168,151,140,122,108,117,3000,3000,3000,3000
+; EUR Hopper
+EURCashValueListForCoinHopper=-1,-5,-10,-50,-100,-200,500,1000,2000
+EURCashLowListForCoinHopper=85,65,65,43,43,34,20,20,20
+EURCashCapacityForCoinHopper= 2904,933,966,395,465,382,3000,3000,3000
+
+;Canister
+EURCashLowListForNewEnhancedCoinLowSensor=13,13,13,11,10,8,6,7,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+EURF53CashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURF53CashLowList=100,76,59,60,42,32,36,32,20,20,20,20
+EURF53CashCapacity=500,500,500,500,500,500,500,500,350,350,350,350
+EURF53CashRecyclerBaseLevel=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53CashDispenserFillCount=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53StartingBank=-1
+EURF53EnablePickUpXAmount=N
+;BCR/Puloon
+EURVCDMCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURVCDMCashLowList=100,76,59,60,42,32,36,32,15,15,15,15
+EURVCDMCashCapacity=500,500,500,500,500,500,500,500,450,450,450,450
+EURVCDMCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMCashDispenserFillCount=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMStartingBank=-1
+EURVCDMEnablePickUpXAmount=N
+;BCR/BNR
+EURBNRCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURBNRCashLowList=100,76,59,60,42,32,36,32,5,5,5,5
+EURBNRCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,0,0,0,0
+EURBNRCashDispenserFillCount=581,436,340,340,242,185,88,80,20,0,0,0
+EURBNRStartingBank=45443
+EURBNREnablePickUpXAmount = Y
+
+EURCashAcceptorCapacity=590
+EURCoinAcceptorCapacity=1000
+EURCashAcceptorHighThreshold=450
+EURCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+EURTendBitMap01=Eurocash.jpg
+EURTendBitMap04=Euro_debit_cashback.jpg
+EURMaxBillsType1=30
+EURFontCharset=0
+
+; SAR
+SARCDOnly=No
+SARFullFunctionDisable=No
+SARScaleMetric=Yes
+SARCodePage=1252
+SARTaxLine=N
+SARWAVEFILES=UK
+SARAPPSCOTMSG=MSGUK
+SARAPPSASIACTION=SASIUK
+SARAPPSCOTTEND=TENDUK
+SARAPPSCOTTARE=TAREUK
+SARDenominations=1,5,10,20,50,100,200,500
+
+SARCashValueList=-5,-10,-25,-50,100,1000,5000
+SARCashLowList=103,63,50,41,20,20,20
+SARCashCapacity=500,500,500,500,350,350,350
+
+;Hopper
+SARCashValueListForCoinHopper=-5,-10,-25,-50,100,1000,5000
+SARCashLowListForCoinHopper=68,78,54,46,20,20,20
+SARCashCapacityForCoinHopper= 1008,1383,514,656,3000,3000,3000
+;Canister
+SARCashLowListForNewEnhancedCoinLowSensor=10,7,9,8,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+SARF53CashValueList=-5,-10,-25,-50,100,1000,5000
+SARF53CashLowList=103,63,50,41,20,20,20
+SARF53CashCapacity=500,500,500,500,350,350,350
+SARF53CashRecyclerBaseLevel=1761,1082,851,704,88,88,88
+SARF53CashDispenserFillCount=1761,1082,851,704,88,88,88
+SARF53StartingBank=-1
+SARF53EnablePickUpXAmount=N
+;BCR/Puloon
+SARVCDMCashValueList=-5,-10,-25,-50,100,1000,5000
+SARVCDMCashLowList=103,63,50,41,15,15,15
+SARVCDMCashCapacity=500,500,500,500,450,450,450
+;not correct values below 4 lines
+SARVCDMCashRecyclerBaseLevel=415,200,363,186,225,113,113
+SARVCDMCashDispenserFillCount=415,200,363,186,225,113,113
+SARVCDMStartingBank=-1
+SARVCDMEnablePickUpXAmount=N
+;BCR/BNR
+SARBNRCashValueList=-5,-10,-25,-50,100,1000,5000
+SARBNRCashLowList=101,76,59,59,5,5,5
+SARBNRCashRecyclerBaseLevel=581,437,339,340,0,0,0
+SARBNRCashDispenserFillCount=581,437,339,340,0,0,0
+SARBNRStartingBank=36150
+SARBNREnablePickUpXAmount = Y
+SARCashAcceptorCapacity=590
+SARCoinAcceptorCapacity=1000
+SARCashAcceptorHighThreshold=450
+SARCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+SARTendBitMap01=internationalCash.jpg
+SARTendBitMap04=international_debit_cashback.jpg
+SARMaxBillsType1=30
+SARFontCharset=0
+
+; SGD (Code page is retained at 1252 assuming printer will print only English Characters)
+SGDCDOnly=No
+SGDFullFunctionDisable=No
+SGDScaleMetric=Yes
+SGDCodePage=1252
+SGDTaxLine=N
+SGDWAVEFILES=UK
+SGDAPPSCOTMSG=MSGUK
+SGDAPPSASIACTION=SASIUK
+SGDAPPSCOTTEND=TENDUK
+SGDAPPSCOTTARE=TAREUK
+SGDDenominations=2,5,10,25,50,100
+
+;Begin Support for 5.x hardware
+SGDCashValueList=-5,-10,-20,-50,-100,200,500,1000,5000
+SGDCashLowList=130,84,45,28,17,20,20,20,20
+SGDCashCapacity=1302,845,450,285,168,590,590,590,590
+;BCR/F53
+SGDF53CashValueList=-5,-10,-20,-50,-100,200,500,1000,5000
+SGDF53CashLowList=130,84,45,28,17,20,20,20,20
+SGDF53CashCapacity=500,500,500,500,500,350,350,350,350 
+SGDF53CashRecyclerBaseLevel=418,200,363,186,308,69,55,175,88
+SGDF53CashDispenserFillCount=418,200,363,186,308,69,55,175,88
+SGDF53StartingBank=-1
+SGDF53EnablePickUpXAmount=N
+;BCR/Puloon
+SGDVCDMCashValueList=-5,-10,-20,-50,-100,200,500,1000,5000
+SGDVCDMCashLowList=130,84,45,28,17,20,20,20,20
+SGDVCDMCashCapacity=500,500,500,500,500,350,350,350,350
+SGDVCDMCashRecyclerBaseLevel=418,200,363,186,308,69,55,175,88
+SGDVCDMCashDispenserFillCount=418,200,363,186,308,69,55,175,88
+SGDVCDMStartingBank=-1
+SGDVCDMEnablePickUpXAmount=N
+;BCR/BNR
+SGDBNRCashValueList=-5,-10,-20,-50,-100,200,500,1000,5000
+SGDBNRCashLowList=130,84,45,28,17,20,20,20,20
+SGDBNRCashRecyclerBaseLevel=418,200,363,186,308,69,55,175,88
+SGDBNRCashDispenserFillCount=418,200,363,186,308,69,55,175,88
+SGDBNRStartingBank=20614
+SGDBNREnablePickUpXAmount = Y
+SGDCashAcceptorCapacity=590
+SGDCoinAcceptorCapacity=1000
+SGDCashAcceptorHighThreshold=450
+SGDCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+SGDCashValueListForCoinHopper=-5,-10,-20,-50,-100,200,500,1000,5000
+SGDCashLowListForCoinHopper=130,84,45,28,17,20,20,20,20
+SGDCashCapacityForCoinHopper=1302,845,450,285,168,590,590,590,590
+SGDCashLowListForNewEnhancedCoinLowSensor=10,7,9,8,9,20,20,20,20
+SGDTendBitMap01=internationalCash.jpg
+SGDTendBitMap04=international_debit_cashback.jpg
+SGDMaxBillsType1=30
+SGDFontCharset=0  
+
+; MYR (Code page is retained at 1252 assuming printer will print only English Characters)
+MYRCDOnly=No
+MYRFullFunctionDisable=No
+MYRScaleMetric=Yes
+MYRCodePage=1252
+MYRTaxLine=N
+MYRWAVEFILES=UK
+MYRAPPSCOTMSG=MSGUK
+MYRAPPSASIACTION=SASIUK
+MYRAPPSCOTTEND=TENDUK
+MYRAPPSCOTTARE=TAREUK
+MYRDenominations=1,5,10,20,50,100
+
+;Begin Support for 5.x hardware
+MYRCashValueList=-5,-10,-20,-50,100,500,1000,2000,5000,10000
+MYRCashLowList=130,84,45,28,20,20,20,20,20,0
+MYRCashCapacity=1302,845,450,285,590,590,590,590,590,590
+;BCR/F53
+MYRF53CashValueList=-5,-10,-20,-50,100,500,1000,2000,5000,10000
+MYRF53CashLowList=130,84,45,28,20,20,20,20,20,0
+MYRF53CashCapacity=500,500,500,500,350,350,350,350,350,350
+MYRF53CashRecyclerBaseLevel=418,200,363,186,152,69,55,175,88,0
+MYRF53CashDispenserFillCount=418,200,363,186,152,69,55,175,88,0
+MYRF53StartingBank=-1
+MYRF53EnablePickUpXAmount=N
+;BCR/Puloon
+MYRVCDMCashValueList=-5,-10,-20,-50,100,500,1000,2000,5000,10000
+MYRVCDMCashLowList=130,84,45,28,20,20,20,20,20,0
+MYRVCDMCashCapacity=500,500,500,500,350,350,350,350,350,350
+MYRVCDMCashRecyclerBaseLevel=418,200,363,186,152,69,55,175,88,0
+MYRVCDMCashDispenserFillCount=418,200,363,186,152,69,55,175,88,0
+MYRVCDMStartingBank=-1
+MYRVCDMEnablePickUpXAmount=N
+;BCR/BNR
+MYRBNRCashValueList=-5,-10,-20,-50,100,500,1000,2000,5000,10000
+MYRBNRCashLowList=130,84,45,28,20,20,20,20,20,0
+MYRBNRCashRecyclerBaseLevel=418,200,363,186,152,69,55,175,88,0
+MYRBNRCashDispenserFillCount=418,200,363,186,152,69,55,175,88,0
+MYRBNRStartingBank=20614
+MYRBNREnablePickUpXAmount = Y
+MYRCashAcceptorCapacity=590
+MYRCoinAcceptorCapacity=1000
+MYRCashAcceptorHighThreshold=450
+MYRCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+MYRCashValueListForCoinHopper=-5,-10,-20,-50,100,500,1000,2000,5000,10000
+MYRCashLowListForCoinHopper=130,84,45,28,20,20,20,20,20,0
+MYRCashCapacityForCoinHopper=1302,845,450,285,590,590,590,590,590,590
+MYRCashLowListForNewEnhancedCoinLowSensor=10,7,9,20,20,20,20,20,20
+MYRTendBitMap01=internationalCash.jpg
+MYRTendBitMap04=international_debit_cashback.jpg
+MYRMaxBillsType1=30
+MYRFontCharset=0  
+
+;ZAR (Code page is retained at 1252 assuming printer will print only English Characters)
+ZARCDOnly=No
+ZARFullFunctionDisable=No
+ZARScaleMetric=Yes
+ZARCodePage=1252
+ZARTaxLine=N
+ZARWAVEFILES=UK
+ZARAPPSCOTMSG=MSGUK
+ZARAPPSASIACTION=SASIUK
+ZARAPPSCOTTEND=TENDUK
+ZARAPPSCOTTARE=TAREUK
+ZARDenominations=10,20,50,100,200
+
+;Begin Support for 5.x hardware
+ZARCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,-500,1000,2000,5000,10000,20000
+ZARCashLowList=130,84,45,28,50,50,50,50,50,20,20,20,20,20
+ZARCashCapacity=500,500,500,500,500,500,500,500,500,350,350,350,350,350
+;BCR/F53
+ZARF53CashValueList=-1,-2,-5,-10,-20,-50,-100,-200,-500,1000,2000,5000,10000,20000
+ZARF53CashLowList=90,80,100,28,50,40,30,30,30,20,20,20,20,20
+ZARF53CashCapacity=500,500,500,500,500,500,500,500,500,350,350,350,350,350
+ZARF53CashRecyclerBaseLevel=418,200,363,186,200,200,200,200,152,69,55,175,88,0
+ZARF53CashDispenserFillCount=418,200,363,186,200,200,200,200,152,69,55,175,88,0
+ZARF53StartingBank=-1
+ZARF53EnablePickUpXAmount=N
+;BCR/Puloon
+ZARVCDMCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,-500,1000,2000,5000,10000,20000
+ZARVCDMCashLowList=90,80,100,28,50,40,30,30,30,15,15,15,15,15
+ZARVCDMCashCapacity=500,500,500,500,500,500,500,500,500,450,450,450,450,450
+ZARVCDMCashRecyclerBaseLevel=418,200,363,186,200,200,200,200,152,69,55,175,88,0
+ZARVCDMCashDispenserFillCount=418,200,363,186,200,200,200,200,152,69,55,175,88,0
+ZARVCDMStartingBank=-1
+ZARVCDMEnablePickUpXAmount=N
+;BCR/BNR
+ZARBNRCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,-500,1000,2000,5000,10000,20000
+ZARBNRCashLowList=90,80,100,28,50,40,30,30,30,5,5,5,5,5
+ZARBNRCashRecyclerBaseLevel=418,200,363,186,200,200,200,200,152,69,55,175,88,0
+ZARBNRCashDispenserFillCount=418,200,363,186,200,200,200,200,152,69,55,175,88,0
+ZARBNRStartingBank=20614
+ZARBNREnablePickUpXAmount = Y
+ZARCashAcceptorCapacity=590
+ZARCoinAcceptorCapacity=1000
+ZARCashAcceptorHighThreshold=450
+ZARCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+ZARCashValueListForCoinHopper=-1,-2,-5,-10,-20,-50,-100,-200,-500,1000,2000,5000,10000,20000
+ZARCashLowListForCoinHopper=90,80,100,28,50,40,30,30,30,20,20,20,20,20
+ZARCashCapacityForCoinHopper=500,500,500,500,500,500,500,500,500,350,350,350,350,350
+ZARCashLowListForNewEnhancedCoinLowSensor=90,80,100,28,50,40,30,30,30,20,20,20,20,20
+ZARTendBitMap01=internationalCash.jpg
+ZARTendBitMap04=international_debit_cashback.jpg
+ZARMaxBillsType1=30
+ZARFontCharset=0  
+; -----------------------------------------------
+; Dutch (Standard)
+; -----------------------------------------------
+
+[0413]
+Currency=EUR
+RapMsg=RMsg0413.dat
+SwitchMsg=SMsg0413.dat
+SendscotMsg=Sendscot_0413.ini
+TerminalInfoMsg=TerminalInfo.ini.0413
+Language=0413
+MenuFile=c:\scot\config\ReportGeneratorMenus0413.xml
+; NLG
+NLGCDOnly=Yes
+NLGFullFunctionDisable=No
+NLGScaleMetric=Yes
+NLGCodePage=1252
+NLGTaxLine=N
+NLGWAVEFILES=0413
+NLGAPPSCOTMSG=MSG0413
+NLGAPPSASIACTION=SASI0413
+NLGAPPSCOTTEND=TEND0413
+NLGAPPSCOTTARE=TARE0413
+NLGDenominations=0
+NLGCashValueList=0
+NLGCashLowList=0
+NLGTendBitMap01=0413cash.jpg
+NLGTendBitMap04=0413debit_w_cash.jpg
+NLGMaxBillsType1=30
+NLGFontCharset=0 
+; EUR
+EURCDOnly=No
+EURFullFunctionDisable=No
+EURScaleMetric=Yes
+EURCodePage=1252
+EURTaxLine=N
+EURWAVEFILES=0413
+EURAPPSCOTMSG=MSG0413
+EURAPPSASIACTION=SASI0413
+EURAPPSCOTTEND=TEND0413
+EURAPPSCOTTARE=TARE0413
+EURDenominations=5,10,20,50,100,200,500
+
+EURCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURCashLowList=20,20,20,20,20,20,20,20,20,20,20,20
+EURCashCapacity=168,168,168,151,140,122,108,117,3000,3000,3000,3000
+
+; EUR Hopper
+EURCashValueListForCoinHopper=-1,-5,-10,-50,-100,-200,500,1000,2000
+EURCashLowListForCoinHopper=85,65,65,43,43,34,20,20,20
+EURCashCapacityForCoinHopper= 2904,933,966,395,465,382,3000,3000,3000
+;Canister  
+EURCashLowListForNewEnhancedCoinLowSensor=13,13,13,11,10,8,6,7,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+EURF53CashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURF53CashLowList=100,76,59,60,42,32,36,32,20,20,20,20
+EURF53CashCapacity=500,500,500,500,500,500,500,500,350,350,350,350
+EURF53CashRecyclerBaseLevel=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53CashDispenserFillCount=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53StartingBank=-1
+EURF53EnablePickUpXAmount=N
+;BCR/Puloon
+EURVCDMCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURVCDMCashLowList=100,76,59,60,42,32,36,32,15,15,15,15
+EURVCDMCashCapacity=500,500,500,500,500,500,500,500,450,450,450,450
+EURVCDMCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMCashDispenserFillCount=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMStartingBank=-1
+EURVCDMEnablePickUpXAmount=N
+;BCR/BNR
+EURBNRCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURBNRCashLowList=100,76,59,60,42,32,36,32,5,5,5,5
+EURBNRCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,0,0,0,0
+EURBNRCashDispenserFillCount=581,436,340,340,242,185,88,80,20,0,0,0
+EURBNRStartingBank=45443
+EURBNREnablePickUpXAmount = Y
+
+EURCashAcceptorCapacity=590
+EURCoinAcceptorCapacity=1000
+EURCashAcceptorHighThreshold=450
+EURCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+EURTendBitMap01=0413cash.jpg
+EURTendBitMap04=0413debit_w_cash.jpg
+EURMaxBillsType1=30
+EURFontCharset=0
+
+; -----------------------------------------------
+; German (Standard)
+; -----------------------------------------------
+
+[0407]
+Currency=EUR
+RapMsg=RMsg0407.dat
+SwitchMsg=SMsg0407.dat
+SendscotMsg=Sendscot_0407.ini
+TerminalInfoMsg=TerminalInfo.ini.0407
+Language=0407
+MenuFile=c:\scot\config\ReportGeneratorMenus0407.xml
+; DEM
+DEMCDOnly=Yes
+DEMFullFunctionDisable=No
+DEMScaleMetric=Yes
+DEMCodePage=1252
+DEMTaxLine=N
+DEMWAVEFILES=0407
+DEMAPPSCOTMSG=MSG0407
+DEMAPPSASIACTION=SASI0407
+DEMAPPSCOTTEND=TEND0407
+DEMAPPSCOTTARE=TARE0407
+DEMDenominations=0
+DEMCashValueList=0
+DEMCashLowList=0
+DEMTendBitMap01=internationalCash.jpg
+DEMTendBitMap04=international_debit_cashback.jpg
+DEMMaxBillsType1=30
+DEMFontCharset=0 
+; EUR
+EURCDOnly=No
+EURFullFunctionDisable=No
+EURScaleMetric=Yes
+EURCodePage=1252
+EURTaxLine=N
+EURWAVEFILES=0407
+EURAPPSCOTMSG=MSG0407
+EURAPPSASIACTION=SASI0407
+EURAPPSCOTTEND=TEND0407
+EURAPPSCOTTARE=TARE0407
+EURDenominations=5,10,20,50,100,200,500
+
+EURCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURCashLowList=20,20,20,20,20,20,20,20,20,20,20,20
+EURCashCapacity=168,168,168,151,140,122,108,117,3000,3000,3000,3000
+
+; EUR Hopper
+EURCashValueListForCoinHopper=-1,-5,-10,-50,-100,-200,500,1000,2000
+EURCashLowListForCoinHopper=85,65,65,43,43,34,20,20,20
+EURCashCapacityForCoinHopper= 2904,933,966,395,465,382,3000,3000,3000
+;Canister  
+EURCashLowListForNewEnhancedCoinLowSensor=13,13,13,11,10,8,6,7,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+EURF53CashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURF53CashLowList=100,76,59,60,42,32,36,32,20,20,20,20
+EURF53CashCapacity=500,500,500,500,500,500,500,500,350,350,350,350
+EURF53CashRecyclerBaseLevel=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53CashDispenserFillCount=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53StartingBank=-1
+EURF53EnablePickUpXAmount=N
+;BCR/Puloon
+EURVCDMCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURVCDMCashLowList=100,76,59,60,42,32,36,32,15,15,15,15
+EURVCDMCashCapacity=500,500,500,500,500,500,500,500,450,450,450,450
+EURVCDMCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMCashDispenserFillCount=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMStartingBank=-1
+EURVCDMEnablePickUpXAmount=N
+;BCR/BNR
+EURBNRCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURBNRCashLowList=100,76,59,60,42,32,36,32,5,5,5,5
+EURBNRCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,0,0,0,0
+EURBNRCashDispenserFillCount=581,436,340,340,242,185,88,80,20,0,0,0
+EURBNRStartingBank=45443
+EURBNREnablePickUpXAmount = Y
+
+EURCashAcceptorCapacity=590
+EURCoinAcceptorCapacity=1000
+EURCashAcceptorHighThreshold=450
+EURCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+EURTendBitMap01=Eurocash.jpg
+EURTendBitMap04=Euro_debit_cashback.jpg
+EURMaxBillsType1=30
+EURFontCharset=0
+
+; -----------------------------------------------
+; French (France)
+; -----------------------------------------------
+
+[040C]
+Currency=EUR
+RapMsg=RMsg040C.dat
+SwitchMsg=SMsg040C.dat
+SendscotMsg=Sendscot_040C.ini
+TerminalInfoMsg=TerminalInfo.ini.040C
+Language=040C
+MenuFile=c:\scot\config\ReportGeneratorMenus040C.xml
+; EUR
+EURCDOnly=No
+EURFullFunctionDisable=No
+EURScaleMetric=Yes
+EURCodePage=1252
+EURTaxLine=N
+EURWAVEFILES=040C
+EURAPPSCOTMSG=MSG040C
+EURAPPSASIACTION=SASI040C
+EURAPPSCOTTEND=TEND040C
+EURAPPSCOTTARE=TARE040C
+EURDenominations=5,10,20,50,100,200,500
+
+EURCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURCashLowList=20,20,20,20,20,20,20,20,20,20,20,20
+EURCashCapacity=168,168,168,151,140,122,108,117,3000,3000,3000,3000
+
+; EUR Hopper
+EURCashValueListForCoinHopper=-1,-5,-10,-50,-100,-200,500,1000,2000
+EURCashLowListForCoinHopper=85,65,65,43,43,34,20,20,20
+EURCashCapacityForCoinHopper= 2904,933,966,395,465,382,3000,3000,3000
+;Canister  
+EURCashLowListForNewEnhancedCoinLowSensor=13,13,13,11,10,8,6,7,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+EURF53CashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURF53CashLowList=100,76,59,60,42,32,36,32,20,20,20,20
+EURF53CashCapacity=500,500,500,500,500,500,500,500,350,350,350,350
+EURF53CashRecyclerBaseLevel=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53CashDispenserFillCount=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53StartingBank=-1
+EURF53EnablePickUpXAmount=N
+;BCR/Puloon
+EURVCDMCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURVCDMCashLowList=100,76,59,60,42,32,36,32,15,15,15,15
+EURVCDMCashCapacity=500,500,500,500,500,500,500,500,450,450,450,450
+EURVCDMCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMCashDispenserFillCount=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMStartingBank=-1
+EURVCDMEnablePickUpXAmount=N
+;BCR/BNR
+EURBNRCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURBNRCashLowList=100,76,59,60,42,32,36,32,5,5,5,5
+EURBNRCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,0,0,0,0
+EURBNRCashDispenserFillCount=581,436,340,340,242,185,88,80,20,0,0,0
+EURBNRStartingBank=45443
+EURBNREnablePickUpXAmount = Y
+
+EURCashAcceptorCapacity=590
+EURCoinAcceptorCapacity=1000
+EURCashAcceptorHighThreshold=450
+EURCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+EURTendBitMap01=Eurocash.jpg
+EURTendBitMap04=Euro_debit_cashback.jpg
+EURMaxBillsType1=30
+EURFontCharset=0
+
+; -----------------------------------------------
+; Italian (Italy)
+; -----------------------------------------------
+
+[0410]
+Currency=EUR
+RapMsg=RMsg0410.dat
+SwitchMsg=SMsg0410.dat
+SendscotMsg=Sendscot_0410.ini
+TerminalInfoMsg=TerminalInfo.ini.0410
+Language=0410
+MenuFile=c:\scot\config\ReportGeneratorMenus0410.xml
+; EUR
+EURCDOnly=No
+EURFullFunctionDisable=No
+EURScaleMetric=Yes
+EURCodePage=1252
+EURTaxLine=N
+EURWAVEFILES=0410
+EURAPPSCOTMSG=MSG0410
+EURAPPSASIACTION=SASI0410
+EURAPPSCOTTEND=TEND0410
+EURAPPSCOTTARE=TARE0410
+EURDenominations=5,10,20,50,100,200,500
+
+EURCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURCashLowList=20,20,20,20,20,20,20,20,20,20,20,20
+EURCashCapacity=168,168,168,151,140,122,108,117,3000,3000,3000,3000
+
+; EUR Hopper
+EURCashValueListForCoinHopper=-1,-5,-10,-50,-100,-200,500,1000,2000
+EURCashLowListForCoinHopper=85,65,65,43,43,34,20,20,20
+EURCashCapacityForCoinHopper= 2904,933,966,395,465,382,3000,3000,3000
+;Canister  
+EURCashLowListForNewEnhancedCoinLowSensor=13,13,13,11,10,8,6,7,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+EURF53CashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURF53CashLowList=100,76,59,60,42,32,36,32,20,20,20,20
+EURF53CashCapacity=500,500,500,500,500,500,500,500,350,350,350,350
+EURF53CashRecyclerBaseLevel=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53CashDispenserFillCount=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53StartingBank=-1
+EURF53EnablePickUpXAmount=N
+;BCR/Puloon
+EURVCDMCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURVCDMCashLowList=100,76,59,60,42,32,36,32,15,15,15,15
+EURVCDMCashCapacity=500,500,500,500,500,500,500,500,450,450,450,450
+EURVCDMCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMCashDispenserFillCount=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMStartingBank=-1
+EURVCDMEnablePickUpXAmount=N
+;BCR/BNR
+EURBNRCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURBNRCashLowList=100,76,59,60,42,32,36,32,5,5,5,5
+EURBNRCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,0,0,0,0
+EURBNRCashDispenserFillCount=581,436,340,340,242,185,88,80,20,0,0,0
+EURBNRStartingBank=45443
+EURBNREnablePickUpXAmount = Y
+
+EURCashAcceptorCapacity=590
+EURCoinAcceptorCapacity=1000
+EURCashAcceptorHighThreshold=450
+EURCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+EURTendBitMap01=Eurocash.jpg
+EURTendBitMap04=Euro_debit_cashback.jpg
+EURMaxBillsType1=30
+EURFontCharset=0
+
+; -----------------------------------------------
+; English (Australia)
+; -----------------------------------------------
+
+[0C09]
+Currency=AUD
+RapMsg=RMsg0C09.dat
+SwitchMsg=SMsg0C09.dat
+SendscotMsg=Sendscot_0C09.ini
+TerminalInfoMsg=TerminalInfo.ini.0C09
+Language=0C09
+MenuFile=c:\scot\config\ReportGeneratorMenus0C09.xml
+; AUD
+AUDCDOnly=No
+AUDFullFunctionDisable=No
+AUDScaleMetric=Yes
+AUDCodePage=1252
+AUDTaxLine=N
+AUDWAVEFILES=0C09
+AUDAPPSCOTMSG=MSG0C09
+AUDAPPSASIACTION=SASI0C09
+AUDAPPSCOTTEND=TEND0C09
+AUDAPPSCOTTARE=TARE0C09
+AUDDenominations=5,10,20,50,100
+
+; AUD Hopper
+AUDCashValueListForCoinHopper=-5,-10,-20,-100,-200,500,1000,2000,5000,10000 
+AUDCashLowListForCoinHopper=53,36,19,20,26,20,20,20,20,20
+AUDCashCapacityForCoinHopper= 2904,933,966,395,465,382,3000,3000,3000,3000,3000
+
+AUDCashValueList=-5,-10,-20,-100,-200,500,1000,2000,5000,10000
+AUDCashLowList=20,20,20,20,20,20,20,20,20,20
+AUDCashCapacity=173,260,200,87,160,500,3000,3000,3000,3000
+
+AUDCashLowListForNewEnhancedCoinLowSensor=13,9,6,4,4,20,20,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+AUDF53CashValueList=-5,-10,-20,-50,-100,-200,500,1000,2000,5000
+AUDF53CashLowList=81,46,23,17,27,37,20,20,20,20
+AUDF53CashCapacity=500,500,500,500,500,500,350,350,350,350
+AUDF53CashRecyclerBaseLevel=463,262,231,99,67,92,350,175,175,88
+AUDF53CashDispenserFillCount=463,262,231,99,67,92,350,175,175,88
+AUDF53StartingBank=-1
+AUDF53EnablePickUpXAmount=N
+;BCR/Puloon
+AUDVCDMCashValueList=-5,-10,-20,-50,-100,-200,500,1000,2000,5000
+AUDVCDMCashLowList=81,46,23,17,27,37,15,15,15,15
+AUDVCDMCashCapacity=500,500,500,500,500,500,450,450,450,450
+AUDVCDMCashRecyclerBaseLevel=463,262,231,99,67,92,450,225,225,113
+AUDVCDMCashDispenserFillCount=463,262,231,99,67,92,450,225,225,113
+AUDVCDMStartingBank=-1
+AUDVCDMEnablePickUpXAmount=N
+;BCR/BNR
+AUDBNRCashValueList=-5,-10,-20,-50,-100,-200,500,1000,2000,5000
+AUDBNRCashLowList=81,46,23,17,27,37,5,5,5,5
+AUDBNRCashRecyclerBaseLevel=463,262,231,99,67,92,0,0,0,0
+AUDBNRCashDispenserFillCount=463,262,231,99,67,92,20,0,0,0
+AUDBNRStartingBank=39605
+AUDBNREnablePickUpXAmount = Y
+
+AUDCashAcceptorCapacity=590
+AUDCoinAcceptorCapacity=1000
+AUDCashAcceptorHighThreshold=450
+AUDCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+AUDTendBitMap01=internationalCash.jpg
+AUDTendBitMap04=international_debit_cashback.jpg
+AUDMaxBillsType1=30
+AUDFontCharset=0 
+
+; -----------------------------------------------
+; English (New Zealand)
+; -----------------------------------------------
+
+[1409]
+Currency=NZD
+RapMsg=RMsg1409.dat
+SwitchMsg=SMsg1409.dat
+SendscotMsg=Sendscot_1409.ini
+TerminalInfoMsg=TerminalInfo.ini.1409
+MenuFile=c:\scot\config\ReportGeneratorMenus1409.xml
+Language=1409
+
+; NZD
+NZDCDOnly=No
+NZDFullFunctionDisable=No
+NZDScaleMetric=Yes
+NZDCodePage=1252
+NZDTaxLine=N
+NZDWAVEFILES=1409
+NZDAPPSCOTMSG=MSG1409
+NZDAPPSASIACTION=SASI1409
+NZDAPPSCOTTEND=TEND1409
+NZDAPPSCOTTARE=TARE1409
+NZDDenominations=5,10,20,50,100
+
+NZDCashValueList=-10,-20,-50,-100,-200,500,1000,2000,5000,10000
+NZDCashLowList=7,7,6,4,4,20,20,20,20,20
+NZDCashCapacity=200,200,344,264,170,3000,3000,3000,3000,3000
+
+; NZD Hopper
+NZDCashValueListForCoinHopper=-10,-20,-50,-100,500,1000,2000,5000,10000
+NZDCashLowListForCoinHopper=85,65,45,25,20,20,20,20,20
+NZDCashCapacityForCoinHopper= 2904,933,966,395,3000,3000,3000,3000,3000
+
+;Canister TFlex
+NZDCashLowListForNewEnhancedCoinLowSensor=5,5,4,3,3,20,20,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+NZDF53CashValueList=-5,-10,-20,-50,-100,-200,500,1000,2000
+NZDF53CashLowList=92,45,23,19,24,24,20,20,0
+NZDF53CashCapacity=500,500,500,500,500,500,350,350,350
+NZDF53CashRecyclerBaseLevel=200,200,200,200,200,200,200,200,200
+NZDF53CashDispenserFillCount=200,200,200,200,200,200,200,200,200
+NZDF53StartingBank=-1
+NZDF53EnablePickUpXAmount=N
+;BCR/Puloon
+NZDVCDMCashValueList=-5,-10,-20,-50,-100,-200,500,1000,2000
+NZDVCDMCashLowList=92,45,23,19,24,24,15,15,15
+NZDVCDMCashCapacity=500,500,500,500,500,500,450,450,450
+NZDVCDMCashRecyclerBaseLevel=200,200,200,200,200,200,200,200,200
+NZDVCDMCashDispenserFillCount=200,200,200,200,200,200,200,200,200
+NZDVCDMStartingBank=-1
+NZDVCDMEnablePickUpXAmount=N
+;BCR/BNR
+NZDBNRCashValueList=-5,-10,-20,-50,-100,-200,500,1000,2000
+NZDBNRCashLowList=92,45,23,19,24,24,5,5,0
+NZDBNRCashRecyclerBaseLevel=200,200,200,200,200,200,0,0,0,0
+NZDBNRCashDispenserFillCount=200,200,200,200,200,200,20,0,0,0
+NZDBNRStartingBank=77000
+NZDBNREnablePickUpXAmount = Y
+
+NZDCashAcceptorCapacity=590
+NZDCoinAcceptorCapacity=1000
+NZDCashAcceptorHighThreshold=450
+NZDCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+NZDTendBitMap01=internationalCash.jpg
+NZDTendBitMap04=international_debit_cashback.jpg
+NZDMaxBillsType1=30
+NZDFontCharset=0 
+
+; -----------------------------------------------
+; Korea
+; -----------------------------------------------
+
+[0412]
+Currency=KRW
+RapMsg=RMsg0412.dat
+SwitchMsg=SMsg0412.dat
+SendscotMsg=Sendscot_0412.ini
+TerminalInfoMsg=TerminalInfo.ini.0412
+MenuFile=c:\scot\config\ReportGeneratorMenus0412.xml
+Language=0412
+
+; KRW
+KRWCDOnly=No
+KRWFullFunctionDisable=No
+KRWScaleMetric=Yes
+KRWCodePage=949
+KRWTaxLine=Y
+KRWWAVEFILES=0412
+KRWAPPSCOTMSG=MSG0412
+KRWAPPSASIACTION=SASIACTIONE
+KRWAPPSCOTTEND=TEND0412
+KRWAPPSCOTTARE=TARE0412
+KRWDenominations=1000,5000,10000
+
+;Begin Support for 5.x hardware
+KRWCashValueList=-10,-50,-100,-500,1000,5000,10000
+KRWCashLowList=20,20,20,20,20,20,20,20,20
+KRWCashCapacity=456,145,432,119,100,100,3000,3000,3000
+
+;BCR/F53
+KRWF53CashValueList=-10,-50,-100,-500,1000,5000,10000
+KRWF53CashLowList=56,61,47,33,20,20,20
+KRWF53CashCapacity=500,500,500,500,350,350,350
+KRWF53CashRecyclerBaseLevel=550,348,273,325,350,175,88
+KRWF53CashDispenserFillCount=550,348,273,325,350,175,88
+KRWF53StartingBank=-1
+KRWF53EnablePickUpXAmount=N
+;BCR/Puloon
+KRWVCDMCashValueList=-10,-50,-100,-500,1000,5000,10000
+KRWVCDMCashLowList=56,61,47,33,15,15,15
+KRWVCDMCashCapacity=500,500,500,500,450,450,450
+KRWVCDMCashRecyclerBaseLevel=550,348,273,325,450,225,113
+KRWVCDMCashDispenserFillCount=550,348,273,325,450,225,113
+KRWVCDMStartingBank=-1
+KRWVCDMEnablePickUpXAmount=N
+;BCR/BNR not supported
+KRWBNRCashValueList=-10,-50,-100,-500,1000,5000,10000
+KRWBNRCashLowList=56,61,47,33,5,5,5
+KRWBNRCashRecyclerBaseLevel=550,348,273,325,0,0,0
+KRWBNRCashDispenserFillCount=550,348,273,325,20,0,0
+KRWBNRStartingBank=77000
+KRWBNREnablePickUpXAmount = Y
+
+KRWCashAcceptorCapacity=590
+KRWCoinAcceptorCapacity=1000
+KRWCashAcceptorHighThreshold=450
+KRWCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+KRWCashLowListForNewEnhancedCoinLowSensor=13,12,12,10,20,20,20,20
+KRWCashValueListForCoinHopper=-10,-50,-100,-500,1000,5000,10000
+KRWCashLowListForCoinHopper=20,20,20,20,20,20,20,20,20
+KRWCashCapacityForCoinHopper= 2100,700,2820,600,3000,3000,3000
+KRWTendBitMap01=internationalCash.jpg
+KRWTendBitMap04=international_debit_cashback.jpg
+KRWMaxBillsType1=11
+KRWFontCharset=0 
+
+; -----------------------------------------------
+; Poland
+; -----------------------------------------------
+
+[0415]
+Currency=PLN
+RapMsg=RMsg0415.dat
+SwitchMsg=SMsg0415.dat
+SendscotMsg=Sendscot_0415.ini
+TerminalInfoMsg=TerminalInfo.ini.0415
+MenuFile=c:\scot\config\ReportGeneratorMenus0415.xml
+Language=0415
+
+; PLN
+PLNCDOnly=No
+PLNFullFunctionDisable=No
+PLNScaleMetric=Yes
+PLNCodePage=1252
+PLNTaxLine=Y
+PLNWAVEFILES=0415
+PLNAPPSCOTMSG=MSG0415
+PLNAPPSASIACTION=SASIACTIONE
+PLNAPPSCOTTEND=TEND0415
+PLNAPPSCOTTARE=TARE0415
+PLNDenominations=10,20,50,100,200
+PLNCashValueList=-1,-5,-10,-50,-100,-200,-500,1000,2000,5000 
+PLNCashLowList=20,20,20,20,20,20,20,20,20,20 
+PLNCashCapacity=163,163,134,134,268,114,114,3000,3000,3000 
+
+PLNCashLowListForNewEnhancedCoinLowSensor=10,10,7,7,7,5,5,20,20,20 
+PLNCashValueListForCoinHopper=-1,-5,-10,-50,-100,-200,-500,1000,2000,5000 
+PLNCashLowListForCoinHopper=20,20,20,20,20,20,20,20,20,20 
+
+PLNCashCapacityForCoinHopper= 2100,700,2820,600,600,600,600,3000,3000,3000 
+
+;Begin Support for 5.x hardware
+;BCR/F53
+PLNF53CashValueList=-1,-5,-10,-50,-100,-500,1000,2000,5000
+PLNF53CashLowList=140,88,80,62,51,47,20,20,20
+PLNF53CashCapacity=500,500,500,500,500,500,500,500,500,350,350,350
+PLNF53CashRecyclerBaseLevel=702,541,439,510,400,310,255,118,117,350,175,88
+PLNF53CashDispenserFillCount=702,541,439,510,400,310,255,118,117,350,175,88
+PLNF53StartingBank=-1
+PLNF53EnablePickUpXAmount=N
+;BCR/Puloon
+PLNVCDMCashValueList=-1,-5,-10,-50,-100,-500,1000,2000,5000
+PLNVCDMCashLowList=140,88,80,62,51,47,15,15,15
+PLNVCDMCashCapacity=500,500,500,500,500,500,450,450,450
+PLNVCDMCashRecyclerBaseLevel=702,541,439,510,400,310,450,225,113
+PLNVCDMCashDispenserFillCount=702,541,439,510,400,310,450,225,113
+PLNVCDMStartingBank=-1
+PLNVCDMEnablePickUpXAmount=N
+;BCR/BNR not supported
+PLNBNRCashValueList=-1,-5,-10,-50,-100,-500,1000,2000,5000
+PLNBNRCashLowList=140,88,80,62,51,47,5,5,5
+PLNBNRCashRecyclerBaseLevel=702,541,439,510,400,310,0,0,0
+PLNBNRCashDispenserFillCount=702,541,439,510,400,310,0,0,0
+PLNBNRStartingBank=77000
+PLNBNREnablePickUpXAmount = Y
+
+PLNCashAcceptorCapacity=590
+PLNCoinAcceptorCapacity=1000
+PLNCashAcceptorHighThreshold=450
+PLNCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+PLNTendBitMap01=internationalCash.jpg
+PLNTendBitMap04=international_debit_cashback.jpg
+PLNMaxBillsType1=11
+PLNFontCharset=0 
+
+; -----------------------------------------------
+; Spanish (Mexican)
+; -----------------------------------------------
+
+[080A]
+Currency=MXN
+RapMsg=RMsg080A.dat
+SwitchMsg=SMsg080A.dat
+SendscotMsg=Sendscot_080A.ini
+TerminalInfoMsg=TerminalInfo.ini.080A
+Language=080A
+MenuFile=c:\scot\config\ReportGeneratorMenus080A.xml
+; MXN
+MXNCDOnly=No
+MXNFullFunctionDisable=No
+MXNScaleMetric=No
+MXNCodePage=1252
+MXNTaxLine=Y 
+MXNWAVEFILES=ES
+MXNAPPSCOTMSG=MSGSPAN
+MXNAPPSASIACTION=SASISPAN
+MXNAPPSCOTTEND=TENDSPAN
+MXNAPPSCOTTARE=TARESPAN
+MXNDenominations=20,50,100,200,500,1000
+
+MXNCashValueList=-10,-20,-50,-100,-200,-500,-1000,2000,10000,20000 
+MXNCashLowList=20,20,20,20,20,20,20,20,20,20 
+MXNCashCapacity=116,150,133,276,127,165,100,3000,3000,3000 
+MXNCashValueListForCoinHopper=-10,-20,-50,-100,-200,-500,-1000,2000,10000,20000 
+MXNCashLowListForCoinHopper=20,20,20,20,20,20,20,20,20,20  
+MXNCashCapacityForCoinHopper= 2100,700,2820,600,600,600,600,3000,3000,3000
+;Canister
+MXNCashLowListForNewEnhancedCoinLowSensor=10,9,7,8,6,5,4,20,20,20 
+
+;Begin Support for 5.x hardware
+BCR/F53
+MXNF53CashValueList=-1,-5,-10,-25,-50,-100,-200,2000,10000,20000 
+MXNF53CashLowList=20,20,20,20,20,20,20,20,20,20 
+MXNF53CashCapacity=116,150,133,276,127,165,100,3000,3000,3000 
+MXNF53CashRecyclerBaseLevel=200,200,200,200,200,200,200,200,200,200
+MXNF53CashDispenserFillCount=200,200,200,200,200,200,200,200,200,200
+MXNF53StartingBank=-1
+MXNF53EnablePickUpXAmount=N
+;BCR/Puloon
+MXNVCDMCashValueList=-1,-5,-10,-25,-50,-100,-200,2000,10000,20000 
+MXNVCDMCashLowList=20,20,20,20,20,20,20,20,20,20 
+MXNVCDMCashCapacity=116,150,133,276,127,165,100,3000,3000,3000 
+MXNVCDMCashRecyclerBaseLevel=200,200,200,200,200,200,200,200,200,200
+MXNVCDMCashDispenserFillCount=200,200,200,200,200,200,200,200,200,200
+MXNVCDMStartingBank=-1
+MXNVCDMEnablePickUpXAmount=N
+;BCR/BNR not supported
+MXNBNRCashValueList=-1,-5,-10,-25,-50,-100,-200,2000,10000,20000 
+MXNBNRCashLowList=20,20,20,20,20,20,20,20,20,20 
+MXNBNRCashRecyclerBaseLevel=200,200,200,200,200,200,200,0,0,0
+MXNBNRCashDispenserFillCount=200,200,200,200,200,200,200,20,0,0
+MXNBNRStartingBank=78200
+MXNBNREnablePickUpXAmount = Y
+MXNCashAcceptorCapacity=590
+MXNCoinAcceptorCapacity=1000
+MXNCashAcceptorHighThreshold=450
+MXNCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+MXNTendBitMap01= internationalCash.jpg
+MXNTendBitMap04= international_debit_cashback.jpg
+MXNMaxBillsType1=11 
+MXNFontCharset=0 
+
+; -----------------------------------------------
+; Hungary
+; -----------------------------------------------
+
+[040E]
+Currency=HUF
+RapMsg=RMsg040E.dat
+SwitchMsg=SMsg040E.dat
+SendscotMsg=Sendscot_040E.ini
+TerminalInfoMsg=TerminalInfo.ini.040E
+Language=040E
+MenuFile=c:\scot\config\ReportGeneratorMenus040E.xml
+; HUF
+HUFCDOnly=No
+HUFFullFunctionDisable=No
+HUFScaleMetric=No
+HUFCodePage=CP852
+HUFTaxLine=Y
+HUFWAVEFILES=040E
+HUFAPPSCOTMSG=MSG040E
+HUFAPPSASIACTION=SASI040E
+HUFAPPSCOTTEND=TEND040E
+HUFAPPSCOTTARE=TARE040E
+;NOTE: Hungarian has no Decimal Digit. Thus no need to multiply 100
+;Check from list in "Retail Coin List 10-05-11 with hopper programming.xls" for coins; "Bill length and thickness values September-30-2011.xls" for notes
+HUFDenominations=500,1000,2000,5000,10000,20000
+HUFCashValueList=-5,-10,-20,-50,-100,-200,500,1000,2000,5000,10000,20000
+HUFCashLowList=20,20,20,20,20,20,20,20,20,20,20,20
+HUFCashCapacity=20,20,20,20,20,20,20,20,20,20,20,20
+
+HUFCashLowListForNewEnhancedCoinLowSensor=11,9,15,10,8,9,20,20,20,20,20,20
+HUFCashValueListForCoinHopper=-5,-10,-20,-50,-100,-200,500,1000,2000,5000,10000,20000
+HUFCashLowListForCoinHopper=61,44,36,34,30,28,20,20,20,20,20,20
+HUFCashCapacity=306,219,180,168,151,141,3000,3000,3000,3000,3000,3000
+
+HUFCashCapacityForCoinHopper=613,439,361,337,301,282,350,350,350,350,350,350
+
+;Begin Support for 5.x hardware
+;BCR/F53
+HUFF53CashValueList=-5,-10,-20,-50,-100,-200,500,1000,2000,5000,10000,20000
+HUFF53CashLowList=61,44,36,34,30,28,20,20,20,20,20,20
+HUFF53CashCapacity=613,439,361,337,301,282,350,350,350,350,350,350
+HUFF53CashRecyclerBaseLevel=613,439,361,337,301,282,88,88,88,88,88,88
+HUFF53CashDispenserFillCount=613,439,361,337,301,282,88,88,88,88,88,88
+HUFF53StartingBank=-1
+HUFF53EnablePickUpXAmount=N
+;BCR/Puloon (Not Supported Anymore)
+;BCR/BNR not supportted
+HUFBNRCashValueList=-5,-10,-20,-50,-100,-200,500,1000,2000,5000,10000,20000
+HUFBNRCashLowList=61,44,36,34,30,28,5,5,5,5,5,5
+HUFBNRCashRecyclerBaseLevel=613,439,361,337,301,282,88,88,88,88,88,88
+HUFBNRCashDispenserFillCount=613,439,361,337,301,282,88,88,88,88,88,88
+HUFBNRStartingBank=77000
+HUFBNREnablePickUpXAmount = Y
+
+HUFCashAcceptorCapacity=590
+HUFCoinAcceptorCapacity=1000
+HUFCashAcceptorHighThreshold=450
+HUFCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+HUFTendBitMap01=internationalCash.jpg
+HUFTendBitMap04=international_debit_cashback.jpg
+HUFMaxBillsType1=11
+HUFFontCharset=0
+
+
+; -----------------------------------------------
+; Sweden
+; -----------------------------------------------
+
+[041D]
+Currency=SEK
+RapMsg=RMsg041D.dat
+SwitchMsg=SMsg041D.dat
+SendscotMsg=Sendscot_041D.ini
+TerminalInfoMsg=TerminalInfo.ini.041D
+Language=041D
+MenuFile=c:\scot\config\ReportGeneratorMenus041D.xml
+; SEK
+SEKCDOnly=No
+SEKFullFunctionDisable=No
+SEKScaleMetric=Yes
+SEKCodePage=CP865
+SEKTaxLine=N
+SEKWAVEFILES=041D
+SEKAPPSCOTMSG=MSG041D
+SEKAPPSASIACTION=SASI041D
+SEKAPPSCOTTEND=TEND041D
+SEKAPPSCOTTARE=TARE041D
+SEKDenominations=20,50,100,200,500,1000 
+
+SEKCashValueList=-50,-100,-500,2000,5000,10000,20000,50000,100000
+SEKCashLowList=72,51,42,20,20,20,20,20,20
+SEKCashCapacity=2904,514,450,55,55,55,55,55,55
+
+
+; SEK Hopper only
+SEKCashValueListForCoinHopper=-50,-100,-500,-1000,2000,10000,20000,50000,100000
+SEKCashLowListForCoinHopper=72,51,42,30,20,20,20,20,20
+SEKCashCapacityForCoinHopper=971,531,378,508,3000,3000,3000,3000,3000
+SEKCashLowListForNewEnhancedCoinLowSensor=72,51,42,30,20,20,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+SEKF53CashValueList=-100,-500,-1000,2000,5000,10000,20000,50000,100000
+SEKF53CashLowList=37,27,36,20,20,0,0,0,0
+SEKF53CashCapacity=500,500,500,350,350,350,350,350,350
+SEKF53CashRecyclerBaseLevel=318,232,312,350,175,88,88,88,88
+SEKF53CashDispenserFillCount=318,232,312,350,175,88,88,88,88
+SEKF53StartingBank=-1
+SEKF53EnablePickUpXAmount=N
+;BCR/Puloon
+SEKVCDMCashValueList=-100,-500,-1000,2000,5000,10000,20000,50000,100000
+SEKVCDMCashLowList=37,27,36,15,15,15,15,15,15
+SEKVCDMCashCapacity=500,500,500,450,450,450,450,450,450
+SEKVCDMCashRecyclerBaseLevel=318,232,312,225,113,113,113,113,113
+SEKVCDMCashDispenserFillCount=318,232,312,225,113,113,113,113,113
+SEKVCDMStartingBank=-1
+SEKVCDMEnablePickUpXAmount=N
+;BCR/BNR
+SEKBNRCashValueList=-100,-500,-1000,2000,5000,10000,20000,50000,100000
+SEKBNRCashLowList=37,27,36,5,5,0,0,0,0
+SEKBNRCashRecyclerBaseLevel=318,232,312,0,0,0,0,0,0
+SEKBNRCashDispenserFillCount=318,232,312,20,0,0,0,0,0
+SEKBNRStartingBank=370000
+SEKBNREnablePickUpXAmount = Y
+
+SEKCashAcceptorCapacity=590
+SEKCoinAcceptorCapacity=1000
+SEKCashAcceptorHighThreshold=450
+SEKCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+SEKTendBitMap01=internationalCash.jpg
+SEKTendBitMap04=international_debit_cashback.jpg
+SEKMaxBillsType1=11
+SEKFontCharset=0
+
+
+; -----------------------------------------------
+; Turkey
+; -----------------------------------------------
+
+[041F]
+Currency=TRL
+RapMsg=RMsg041F.dat
+SwitchMsg=SMsg041F.dat
+SendscotMsg=Sendscot_041F.ini
+TerminalInfoMsg=TerminalInfo.ini.041F
+Language=041F
+MenuFile=c:\scot\config\ReportGeneratorMenus041F.xml
+; TRL
+TRLCDOnly=No
+TRLFullFunctionDisable=No
+TRLScaleMetric=No
+TRLCodePage=CP858
+TRLTaxLine=Y
+TRLWAVEFILES=041F
+TRLAPPSCOTMSG=MSG041F
+TRLAPPSASIACTION=SASI041F
+TRLAPPSCOTTEND=TEND041F
+TRLAPPSCOTTARE=TARE041F
+TRLDenominations=5,10,20,50,100,200
+
+TRLCashValueList=-1,-5,-10,-25,-50,-100,500,1000,2000
+TRLCashLowList=10,12,10,12,10,10,20,20,20
+TRLCashCapacity= 20,20,20,20,20,20,20,20,20
+
+TRLCashLowListForNewEnhancedCoinLowSensor=10,12,10,12,10,10,20,20,20
+TRLCashCapacityForCoinHopper= 2100,700,2820,600,600,600,3000,3000,3000
+TRLCashValueListForCoinHopper=-1,-5,-10,-25,-50,-100,500,1000,2000
+TRLCashLowListForCoinHopper=12,12,12,10,10,10,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+TRLF53CashValueList=-1,-5,-10,-25,-50,-100,500,1000,2000
+TRLF53CashLowList=91,86,70,48,38,32,20,20,20
+TRLF53CashCapacity=500,500,500,500,500,500,350,350,350
+TRLF53CashRecyclerBaseLevel=609,492,402,322,115,95,350,175,175
+TRLF53CashDispenserFillCount=609,492,402,322,115,95,350,175,175
+TRLF53StartingBank=-1
+TRLF53EnablePickUpXAmount=N
+;BCR/Puloon
+TRLVCDMCashValueList=-1,-5,-10,-25,-50,-100,500,1000,2000
+TRLVCDMCashLowList=91,86,70,48,38,32,15,15,15
+TRLVCDMCashCapacity=500,500,500,500,500,500,450,450,450
+TRLVCDMCashRecyclerBaseLevel=609,492,402,322,115,95,450,225,225
+TRLVCDMCashDispenserFillCount=609,492,402,322,115,95,450,225,225
+TRLVCDMStartingBank=-1
+TRLVCDMEnablePickUpXAmount=N
+;BCR/BNR not supported
+TRLBNRCashValueList=-1,-5,-10,-25,-50,-100,500,1000
+TRLBNRCashLowList=91,86,70,48,38,32,5,5
+TRLBNRCashRecyclerBaseLevel=609,492,402,322,115,95,0,0
+TRLBNRCashDispenserFillCount=609,492,402,322,115,95,20,0
+TRLBNRStartingBank=77000
+TRLBNREnablePickUpXAmount = Y
+
+TRLCashAcceptorCapacity=590
+TRLCoinAcceptorCapacity=1000
+TRLCashAcceptorHighThreshold=450
+TRLCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+TRLTendBitMap01=internationalCash.jpg
+TRLTendBitMap04=international_debit_cashback.jpg
+TRLMaxBillsType1=11
+TRLFontCharset=0
+
+; -----------------------------------------------
+; Finland (Finnish)
+; -----------------------------------------------
+
+[040B]
+Currency=EUR
+RapMsg=RMsg040B.dat
+SwitchMsg=SMsg040B.dat
+SendscotMsg=Sendscot_040B.ini
+TerminalInfoMsg=TerminalInfo.ini.040B
+Language=040B
+MenuFile=%APP_DRIVE%\scot\config\ReportGeneratorMenus040B.xml
+;EUR
+EURCDOnly=No
+EURFullFunctionDisable=No
+EURScaleMetric=Yes
+EURCodePage=CP865
+EURTaxLine=N
+EURWAVEFILES=040B
+EURAPPSCOTMSG=MSG040B
+EURAPPSASIACTION=SASI040B
+EURAPPSCOTTEND=TEND040B
+EURAPPSCOTTARE=TARE040B
+EURDenominations=5,10,20,50,100,200,500
+
+EURCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURCashLowList=20,20,20,20,20,20,20,20,20,20,20,20
+EURCashCapacity=168,168,168,151,140,122,108,117,3000,3000,3000,3000
+
+; EUR Hopper
+EURCashValueListForCoinHopper=-1,-5,-10,-50,-100,-200,500,1000,2000
+EURCashLowListForCoinHopper=85,65,65,43,43,34,20,20,20
+EURCashCapacityForCoinHopper= 2904,933,966,395,465,382,3000,3000,3000
+;Canister  
+EURCashLowListForNewEnhancedCoinLowSensor=13,13,13,11,10,8,6,7,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+EURF53CashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURF53CashLowList=100,76,59,60,42,32,36,32,20,20,20,20
+EURF53CashCapacity=500,500,500,500,500,500,500,500,350,350,350,350
+EURF53CashRecyclerBaseLevel=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53CashDispenserFillCount=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53StartingBank=-1
+EURF53EnablePickUpXAmount=N
+;BCR/Puloon
+EURVCDMCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURVCDMCashLowList=100,76,59,60,42,32,36,32,15,15,15,15
+EURVCDMCashCapacity=500,500,500,500,500,500,500,500,450,450,450,450
+EURVCDMCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMCashDispenserFillCount=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMStartingBank=-1
+EURVCDMEnablePickUpXAmount=N
+;BCR/BNR
+EURBNRCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURBNRCashLowList=100,76,59,60,42,32,36,32,5,5,5,5
+EURBNRCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,0,0,0,0
+EURBNRCashDispenserFillCount=581,436,340,340,242,185,88,80,20,0,0,0
+EURBNRStartingBank=45443
+EURBNREnablePickUpXAmount = Y
+
+EURCashAcceptorCapacity=590
+EURCoinAcceptorCapacity=1000
+EURCashAcceptorHighThreshold=450
+EURCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+EURTendBitMap01=Eurocash.jpg
+EURTendBitMap04=Euro_debit_cashback.jpg
+EURMaxBillsType1=30
+EURFontCharset=0
+
+; -----------------------------------------------
+; Japan
+; -----------------------------------------------
+[0411]
+Currency=JPY
+RapMsg=RMsg0411.dat
+SwitchMsg=SMsg0411.dat
+SendscotMsg=Sendscot_0411.ini
+TerminalInfoMsg=TerminalInfo.ini.0411
+MenuFile=c:\scot\config\ReportGeneratorMenus0411.xml
+Language=0411
+
+; JPY
+JPYCDOnly=No
+JPYFullFunctionDisable=No
+JPYScaleMetric=Yes
+JPYCodePage=932
+JPYTaxLine=Y
+JPYWAVEFILES=0411
+JPYAPPSCOTMSG=MSG0411
+JPYAPPSASIACTION=SASIACTIONE
+JPYAPPSCOTTEND=TEND0411
+JPYAPPSCOTTARE=TARE0411
+JPYDenominations=1000,2000,5000,10000
+JPYCashValueList=-1,-5,-10,-50,-100,-500,1000,2000,5000,10000
+JPYCashLowList=30,10,30,10,30,10,20,0,5,0
+JPYCashManagementScreen=Y
+JPYCashHighList=150,110,150,110,150,95,190,190,90,90;90
+JPYCashCapacity=160,120,160,120,160,105,200,200,100,100;100
+JPYCashLowListForNewEnhancedCoinLowSensor=11,11,11,9,9,8,20,20,20,20
+JPYCashValueListForCoinHopper=-1,-5,-10,-50,-100,-500,1000,2000,5000,10000
+JPYCashCapacityForCoinHopper= 2100,700,2820,600,600,600,3000,3000,3000,3000
+JPYCashLowListForCoinHopper=20,20,20,20,20,20,10,10,5,5
+JPYTendBitMap01=internationalCash.jpg
+JPYTendBitMap04=international_debit_cashback.jpg
+JPYMaxBillsType1=11
+JPYFontCharset=0 
+
+; Commented out below 2 lines to use new ones for Glory
+;JPYCashValueList=-1,-5,-10,-50,-100,-500,1000,2000,5000,10000
+;JPYCashLowList=20,20,20,20,20,20,20,20,20,20
+; removed USD section for Jpy - Tan/Chris 080503
+
+; -----------------------------------------------
+; Spanish Castilian
+; -----------------------------------------------
+[0C0A]
+Currency=EUR
+RapMsg=RMsg0C0A.dat
+SwitchMsg=SMsg0C0A.dat
+SendscotMsg=Sendscot_0C0A.ini
+TerminalInfoMsg=TerminalInfo.ini.0C0A
+MenuFile=c:\scot\config\ReportGeneratorMenus0C0A.xml
+Language=0C0A
+
+; EUR
+EURCDOnly=No
+EURFullFunctionDisable=No
+EURScaleMetric=Yes
+EURCodePage=1252
+EURTaxLine=N
+EURWAVEFILES=0C0A
+EURAPPSCOTMSG=MSG0C0A
+EURAPPSASIACTION=SASI0C0A
+EURAPPSCOTTEND=TEND0C0A
+EURAPPSCOTTARE=TARE0C0A
+EURDenominations=5,10,20,50,100,200,500
+
+EURCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURCashLowList=20,20,20,20,20,20,20,20,20,20,20,20
+EURCashCapacity=168,168,168,151,140,122,108,117,3000,3000,3000,3000
+
+; EUR Hopper
+EURCashValueListForCoinHopper=-1,-5,-10,-50,-100,-200,500,1000,2000
+EURCashLowListForCoinHopper=85,65,65,43,43,34,20,20,20
+EURCashCapacityForCoinHopper= 2904,933,966,395,465,382,3000,3000,3000
+;Canister  
+EURCashLowListForNewEnhancedCoinLowSensor=13,13,13,11,10,8,6,7,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+EURF53CashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURF53CashLowList=100,76,59,60,42,32,36,32,20,20,20,20
+EURF53CashCapacity=500,500,500,500,500,500,500,500,350,350,350,350
+EURF53CashRecyclerBaseLevel=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53CashDispenserFillCount=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53StartingBank=-1
+EURF53EnablePickUpXAmount=N
+;BCR/Puloon
+EURVCDMCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURVCDMCashLowList=100,76,59,60,42,32,36,32,15,15,15,15
+EURVCDMCashCapacity=500,500,500,500,500,500,500,500,450,450,450,450
+EURVCDMCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMCashDispenserFillCount=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMStartingBank=-1
+EURVCDMEnablePickUpXAmount=N
+;BCR/BNR
+EURBNRCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURBNRCashLowList=100,76,59,60,42,32,36,32,5,5,5,5
+EURBNRCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,0,0,0,0
+EURBNRCashDispenserFillCount=581,436,340,340,242,185,88,80,20,0,0,0
+EURBNRStartingBank=45443
+EURBNREnablePickUpXAmount = Y
+
+EURCashAcceptorCapacity=590
+EURCoinAcceptorCapacity=1000
+EURCashAcceptorHighThreshold=450
+EURCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+EURTendBitMap01=Eurocash.jpg
+EURTendBitMap04=Euro_debit_cashback.jpg
+EURMaxBillsType1=30
+EURFontCharset=0
+
+; -----------------------------------------------
+; Denmark
+; -----------------------------------------------
+
+[0406]
+Currency=DKK
+RapMsg=RMsg0406.dat
+SwitchMsg=SMsg0406.dat
+SendscotMsg=Sendscot_0406.ini
+TerminalInfoMsg=TerminalInfo.ini.0406
+MenuFile=c:\scot\config\ReportGeneratorMenus0406.xml
+Language=0406
+
+; DKK
+DKKCDOnly=No
+DKKFullFunctionDisable=No
+DKKScaleMetric=Yes
+DKKCodePage=858
+DKKTaxLine=N
+DKKWAVEFILES=0406
+DKKAPPSCOTMSG=MSG0406
+DKKAPPSASIACTION=SASI0406
+DKKAPPSCOTTEND=TEND0406
+DKKAPPSCOTTARE=TARE0406
+DKKDenominations=50,100,200,500,1000
+
+DKKCashValueList=-25,-50,-200,-1000,-2000,5000,10000
+DKKCashLowList=64,58,53,50,44,20,20
+DKKCashCapacity=1400,820,590,500,366,3000,3000
+
+;DKK Hopper
+DKKCashValueListForCoinHopper=-25,-50,-200,-1000,-2000,5000,10000
+DKKCashLowListForCoinHopper=64,58,53,50,44,20,20
+DKKCashCapacityForCoinHopper= 1400,820,590,500,366,3000,3000
+;Canister
+DKKCashLowListForNewEnhancedCoinLowSensor=64,58,53,50,44,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+DKKF53CashValueList=-25,-50,-100,-200,-500,-1000,-2000,5000,10000
+DKKF53CashLowList=58,62,38,42,18,22,27,20,20
+DKKF53CashCapacity=500,500,500,500,500,500,500,350,350
+DKKF53CashRecyclerBaseLevel=290,306,268,209,113,143,133,175,88
+DKKF53CashDispenserFillCount=290,306,268,209,113,143,133,175,88
+DKKF53StartingBank=-1
+DKKF53EnablePickUpXAmount=N
+;BCR/Puloon
+DKKVCDMCashValueList=-25,-50,-100,-200,-500,-1000,-2000,5000,10000
+DKKVCDMCashLowList=58,62,38,42,18,22,27,15,15
+DKKVCDMCashCapacity=500,500,500,500,500,500,500,500,450,450,450,450
+DKKVCDMCashRecyclerBaseLevel=290,306,268,209,113,143,133,225,113
+DKKVCDMCashDispenserFillCount=290,306,268,209,113,143,133,225,113
+DKKVCDMStartingBank=-1
+DKKVCDMEnablePickUpXAmount=N
+;BCR/BNR
+DKKBNRCashValueList=-25,-50,-100,-200,-500,-1000,-2000,5000,10000
+DKKBNRCashLowList=58,62,38,42,18,22,27,5,5
+DKKBNRCashRecyclerBaseLevel=290,306,268,209,113,143,133,0,0
+DKKBNRCashDispenserFillCount=290,306,268,209,113,143,133,20,0
+DKKBNRStartingBank=775000
+DKKBNREnablePickUpXAmount = Y
+
+DKKCashAcceptorCapacity=590
+DKKCoinAcceptorCapacity=1000
+DKKCashAcceptorHighThreshold=450
+DKKCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+DKKTendBitMap01=Eurocash.jpg
+DKKTendBitMap04=Euro_debit_cashback.jpg
+DKKMaxBillsType1=30
+DKKFontCharset=0
+
+
+; -----------------------------------------------
+; Lithuania
+; -----------------------------------------------
+
+[0427]
+Currency=LTL,EUR
+RapMsg=RMsg0427.dat
+SwitchMsg=SMsg0427.dat
+SendscotMsg=Sendscot_0427.ini
+TerminalInfoMsg=TerminalInfo.ini.0427
+MenuFile=c:\scot\config\ReportGeneratorMenus0427.xml
+Language=0427
+
+; LTL
+LTLCDOnly=No
+LTLFullFunctionDisable=No
+LTLScaleMetric=Yes
+LTLCodePage=1257
+LTLTaxLine=N
+LTLWAVEFILES=0427
+LTLAPPSCOTMSG=MSG0427
+LTLAPPSASIACTION=SASI0427
+LTLAPPSCOTTEND=TEND0427
+LTLAPPSCOTTARE=TARE0427
+LTLDenominations=10,20,50,100,200,500
+
+LTLCashValueList=-1,-2,-5,-20,-50,-100,-200,-500,1000,2000
+LTLCashLowList=10,10,10,7,7,7,7,6,20,20
+LTLCashCapacity=191,187,187,125,122,118,115,109,1800,1800
+LTLCashValueListForCoinHopper=-1,-2,-5,-20,-50,-100,-200,-500,1000,2000
+LTLCashLowListForCoinHopper=10,10,10,7,7,7,7,6,20,20
+LTLCashCapacityForCoinHopper= 0,0,0,0,0,0,0,0
+
+LTLCashLowListForNewEnhancedCoinLowSensor=10,10,10,7,7,7,7,6,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+LTLF53CashValueList=-1,-5,-10,-20,-100,-500,1000,2000
+LTLF53CashLowList=98,55,91,50,41,25,20,20
+LTLF53CashCapacity=500,500,500,500,500,500,350,350
+LTLF53CashRecyclerBaseLevel=561,319,522,290,117,72,175,88
+LTLF53CashDispenserFillCount=561,319,522,290,117,72,175,88
+LTLF53StartingBank=-1
+LTLF53EnablePickUpXAmount=N
+;BCR/Puloon
+LTLVCDMCashValueList=-1,-5,-10,-20,-100,-500,1000,2000
+LTLVCDMCashLowList=98,55,91,50,41,25,15,15
+LTLVCDMCashCapacity=500,500,500,500,500,500,450,450
+LTLVCDMCashRecyclerBaseLevel=561,319,522,290,117,72,225,113
+LTLVCDMCashDispenserFillCount=561,319,522,290,117,72,225,113
+LTLVCDMStartingBank=-1
+LTLVCDMEnablePickUpXAmount=N
+;BCR/BNR not supported
+LTLBNRCashValueList=-1,-5,-10,-20,-100,-500,1000,2000
+LTLBNRCashLowList=98,55,91,50,41,25,5,5
+LTLBNRCashRecyclerBaseLevel=561,319,522,290,117,72,0,0
+LTLBNRCashDispenserFillCount=561,319,522,290,117,72,20,0
+LTLBNRStartingBank=775000
+LTLBNREnablePickUpXAmount = Y
+
+LTLCashAcceptorCapacity=590
+LTLCoinAcceptorCapacity=1000
+LTLCashAcceptorHighThreshold=450
+LTLCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+LTLTendBitMap01=Eurocash.jpg
+LTLTendBitMap04=Euro_debit_cashback.jpg
+LTLMaxBillsType1=30
+LTLFontCharset=0
+
+; EUR
+EURCDOnly=No
+EURFullFunctionDisable=No
+EURScaleMetric=Yes
+EURCodePage=1257
+EURTaxLine=N
+EURWAVEFILES=0427
+EURAPPSCOTMSG=MSG0427
+EURAPPSASIACTION=SASI0427
+EURAPPSCOTTEND=TEND0427
+EURAPPSCOTTARE=TARE0427
+EURDenominations=5,10,20,50,100,200,500
+
+EURCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURCashLowList=20,20,20,20,20,20,20,20,20,20,20,20
+EURCashCapacity=168,168,168,151,140,122,108,117,3000,3000,3000,3000
+
+; EUR Hopper
+EURCashValueListForCoinHopper=-1,-5,-10,-50,-100,-200,500,1000,2000
+EURCashLowListForCoinHopper=85,65,65,43,43,34,20,20,20
+EURCashCapacityForCoinHopper= 2904,933,966,395,465,382,3000,3000,3000
+;Canister  
+EURCashLowListForNewEnhancedCoinLowSensor=13,13,13,11,10,8,6,7,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+EURF53CashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURF53CashLowList=100,76,59,60,42,32,36,32,20,20,20,20
+EURF53CashCapacity=500,500,500,500,500,500,500,500,350,350,350,350
+EURF53CashRecyclerBaseLevel=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53CashDispenserFillCount=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53StartingBank=-1
+EURF53EnablePickUpXAmount=N
+;BCR/Puloon
+EURVCDMCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURVCDMCashLowList=100,76,59,60,42,32,36,32,15,15,15,15
+EURVCDMCashCapacity=500,500,500,500,500,500,500,500,450,450,450,450
+EURVCDMCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMCashDispenserFillCount=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMStartingBank=-1
+EURVCDMEnablePickUpXAmount=N
+;BCR/BNR
+EURBNRCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURBNRCashLowList=100,76,59,60,42,32,36,32,5,5,5,5
+EURBNRCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,0,0,0,0
+EURBNRCashDispenserFillCount=581,436,340,340,242,185,88,80,20,0,0,0
+EURBNRStartingBank=45443
+EURBNREnablePickUpXAmount = Y
+
+EURCashAcceptorCapacity=590
+EURCoinAcceptorCapacity=1000
+EURCashAcceptorHighThreshold=450
+EURCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+EURTendBitMap01=Eurocash.jpg
+EURTendBitMap04=Euro_debit_cashback.jpg
+EURMaxBillsType1=30
+EURFontCharset=0
+
+
+
+; -----------------------------------------------
+; Irish (Ireland)
+; -----------------------------------------------
+
+[1809]
+Currency=EUR
+RapMsg=RMsg1809.dat
+SwitchMsg=SMsg1809.dat
+SendscotMsg=Sendscot_1809.ini
+TerminalInfoMsg=TerminalInfo.ini.1809
+Language=1809
+MenuFile=c:\scot\config\ReportGeneratorMenus1809.xml
+; EUR
+EURCDOnly=No
+EURFullFunctionDisable=No
+EURScaleMetric=Yes
+EURCodePage=1252
+EURTaxLine=N
+EURWAVEFILES=1809
+EURAPPSCOTMSG=MSG1809
+EURAPPSASIACTION=SASI1809
+EURAPPSCOTTEND=TEND1809
+EURAPPSCOTTARE=TARE1809
+EURDenominations=5,10,20,50,100,200,500
+
+EURCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURCashLowList=20,20,20,20,20,20,20,20,20,20,20,20
+EURCashCapacity=168,168,168,151,140,122,108,117,3000,3000,3000,3000
+
+; EUR Hopper
+EURCashValueListForCoinHopper=-1,-5,-10,-50,-100,-200,500,1000,2000
+EURCashLowListForCoinHopper=85,65,65,43,43,34,20,20,20
+EURCashCapacityForCoinHopper= 2904,933,966,395,465,382,3000,3000,3000
+;Canister  
+EURCashLowListForNewEnhancedCoinLowSensor=13,13,13,11,10,8,6,7,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+EURF53CashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURF53CashLowList=100,76,59,60,42,32,36,32,20,20,20,20
+EURF53CashCapacity=500,500,500,500,500,500,500,500,350,350,350,350
+EURF53CashRecyclerBaseLevel=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53CashDispenserFillCount=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53StartingBank=-1
+EURF53EnablePickUpXAmount=N
+;BCR/Puloon
+EURVCDMCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURVCDMCashLowList=100,76,59,60,42,32,36,32,15,15,15,15
+EURVCDMCashCapacity=500,500,500,500,500,500,500,500,450,450,450,450
+EURVCDMCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMCashDispenserFillCount=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMStartingBank=-1
+EURVCDMEnablePickUpXAmount=N
+;BCR/BNR
+EURBNRCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURBNRCashLowList=100,76,59,60,42,32,36,32,5,5,5,5
+EURBNRCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,0,0,0,0
+EURBNRCashDispenserFillCount=581,436,340,340,242,185,88,80,20,0,0,0
+EURBNRStartingBank=45443
+EURBNREnablePickUpXAmount = Y
+
+EURCashAcceptorCapacity=590
+EURCoinAcceptorCapacity=1000
+EURCashAcceptorHighThreshold=450
+EURCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+EURTendBitMap01=Eurocash.jpg
+EURTendBitMap04=Euro_debit_cashback.jpg
+EURMaxBillsType1=30
+EURFontCharset=0
+
+; -----------------------------------------------
+; Slovene (Slovenia)
+; -----------------------------------------------
+
+[0424]
+Currency=EUR
+RapMsg=RMsg0424.dat
+SwitchMsg=SMsg0424.dat
+SendscotMsg=Sendscot_0424.ini
+TerminalInfoMsg=TerminalInfo.ini.0424
+Language=0424
+MenuFile=c:\scot\config\ReportGeneratorMenus0424.xml
+; EUR
+EURCDOnly=No
+EURFullFunctionDisable=No
+EURScaleMetric=Yes
+EURCodePage=1252
+EURTaxLine=N
+EURWAVEFILES=0424
+EURAPPSCOTMSG=MSG0424
+EURAPPSASIACTION=SASI0424
+EURAPPSCOTTEND=TEND0424
+EURAPPSCOTTARE=TARE0424
+EURDenominations=5,10,20,50,100,200,500
+
+EURCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURCashLowList=20,20,20,20,20,20,20,20,20,20,20,20
+EURCashCapacity=168,168,168,151,140,122,108,117,3000,3000,3000,3000
+
+; EUR Hopper
+EURCashValueListForCoinHopper=-1,-5,-10,-50,-100,-200,500,1000,2000
+EURCashLowListForCoinHopper=85,65,65,43,43,34,20,20,20
+EURCashCapacityForCoinHopper= 2904,933,966,395,465,382,3000,3000,3000
+;Canister  
+EURCashLowListForNewEnhancedCoinLowSensor=13,13,13,11,10,8,6,7,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+EURF53CashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURF53CashLowList=100,76,59,60,42,32,36,32,20,20,20,20
+EURF53CashCapacity=500,500,500,500,500,500,500,500,350,350,350,350
+EURF53CashRecyclerBaseLevel=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53CashDispenserFillCount=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53StartingBank=-1
+EURF53EnablePickUpXAmount=N
+;BCR/Puloon
+EURVCDMCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURVCDMCashLowList=100,76,59,60,42,32,36,32,15,15,15,15
+EURVCDMCashCapacity=500,500,500,500,500,500,500,500,450,450,450,450
+EURVCDMCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMCashDispenserFillCount=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMStartingBank=-1
+EURVCDMEnablePickUpXAmount=N
+;BCR/BNR
+EURBNRCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURBNRCashLowList=100,76,59,60,42,32,36,32,5,5,5,5
+EURBNRCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,0,0,0,0
+EURBNRCashDispenserFillCount=581,436,340,340,242,185,88,80,20,0,0,0
+EURBNRStartingBank=45443
+EURBNREnablePickUpXAmount = Y
+
+EURCashAcceptorCapacity=590
+EURCoinAcceptorCapacity=1000
+EURCashAcceptorHighThreshold=450
+EURCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+EURTendBitMap01=Eurocash.jpg
+EURTendBitMap04=Euro_debit_cashback.jpg
+EURMaxBillsType1=30
+EURFontCharset=0
+
+; -----------------------------------------------
+; Slovak (Slovakia)
+; -----------------------------------------------
+
+[041b]
+Currency=EUR
+RapMsg=RMsg041b.dat
+SwitchMsg=SMsg041b.dat
+SendscotMsg=Sendscot_041b.ini
+TerminalInfoMsg=TerminalInfo.ini.041b
+Language=041b
+MenuFile=c:\scot\config\ReportGeneratorMenus041b.xml
+; EUR
+EURCDOnly=No
+EURFullFunctionDisable=No
+EURScaleMetric=Yes
+EURCodePage=1252
+EURTaxLine=N
+EURWAVEFILES=041b
+EURAPPSCOTMSG=MSG041b
+EURAPPSASIACTION=SASI041b
+EURAPPSCOTTEND=TEND041b
+EURAPPSCOTTARE=TARE041b
+EURDenominations=5,10,20,50,100,200,500
+
+EURCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURCashLowList=20,20,20,20,20,20,20,20,20,20,20,20
+EURCashCapacity=168,168,168,151,140,122,108,117,3000,3000,3000,3000
+
+; EUR Hopper
+EURCashValueListForCoinHopper=-1,-5,-10,-50,-100,-200,500,1000,2000
+EURCashLowListForCoinHopper=85,65,65,43,43,34,20,20,20
+EURCashCapacityForCoinHopper= 2904,933,966,395,465,382,3000,3000,3000
+
+EURCashLowListForNewEnhancedCoinLowSensor=13,13,13,11,10,8,6,7,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+EURF53CashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURF53CashLowList=100,76,59,60,42,32,36,32,20,20,20,20
+EURF53CashCapacity=500,500,500,500,500,500,500,500,350,350,350,350
+EURF53CashRecyclerBaseLevel=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53CashDispenserFillCount=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53StartingBank=-1
+EURF53EnablePickUpXAmount=N
+;BCR/Puloon
+EURVCDMCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURVCDMCashLowList=100,76,59,60,42,32,36,32,15,15,15,15
+EURVCDMCashCapacity=500,500,500,500,500,500,500,500,450,450,450,450
+EURVCDMCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMCashDispenserFillCount=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMStartingBank=-1
+EURVCDMEnablePickUpXAmount=N
+;BCR/BNR
+EURBNRCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURBNRCashLowList=100,76,59,60,42,32,36,32,5,5,5,5
+EURBNRCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,0,0,0,0
+EURBNRCashDispenserFillCount=581,436,340,340,242,185,88,80,20,0,0,0
+EURBNRStartingBank=45443
+EURBNREnablePickUpXAmount = Y
+
+EURCashAcceptorCapacity=590
+EURCoinAcceptorCapacity=1000
+EURCashAcceptorHighThreshold=450
+EURCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+EURTendBitMap01=Eurocash.jpg
+EURTendBitMap04=Euro_debit_cashback.jpg
+EURMaxBillsType1=30
+EURFontCharset=0
+
+; -----------------------------------------------
+; Czech Republic (Czech)
+; -----------------------------------------------
+
+[0405]
+Currency=CZK
+RapMsg=RMsg0405.dat
+SwitchMsg=SMsg0405.dat
+SendscotMsg=Sendscot_0405.ini
+TerminalInfoMsg=TerminalInfo.ini
+Language=0405
+MenuFile=c:\scot\config\ReportGeneratorMenus0405.xml
+; CZK
+CZKCDOnly=No
+CZKFullFunctionDisable=No
+CZKScaleMetric=Yes
+CZKCodePage=852
+CZKTaxLine=Y
+CZKWAVEFILES=0405
+CZKAPPSCOTMSG=MSG0405
+CZKAPPSASIACTION=SASIACTIONE
+CZKAPPSCOTTEND=TEND0405
+CZKAPPSCOTTARE=TARE0405
+CZKDenominations=100,200,500,1000,2000
+
+CZKCashValueList=-100,-200,-500,-1000,-2000,-5000,10000,20000,50000
+CZKCashLowList=75,40,75,75,20,20,20,20
+CZKCashCapacity=462,120,348,264,3000,3000,3000,3000
+
+CZKCashValueListForCoinHopper=-100,-200,-500,-1000,-2000,-5000,10000,20000,50000
+CZKCashLowListForCoinHopper=61,55,46,46,46,46,20,20,20,20
+CZKCashCapacityForCoinHopper= 2100,700,2820,600,600,600,3000,3000,3000
+CZKCashLowListForNewEnhancedCoinLowSensor=11,8,13,9,9,9,20,20,20
+
+;Begin Support for 5.x hardware
+CZKF53CashValueList=-100,-200,-500,-1000,-2000,-5000,10000,20000,50000
+CZKF53CashLowList=60,52,46,29,26,23,20,20,20
+CZKF53CashCapacity=500,500,500,500,500,500,350,350,350
+CZKF53CashRecyclerBaseLevel=346,300,262,167,65,58,350,175,88
+CZKF53CashDispenserFillCount=346,300,262,167,65,58,350,175,88
+CZKF53StartingBank=-1
+CZKF53EnablePickUpXAmount=N
+
+CZKVCDMCashValueList=-100,-200,-500,-1000,-2000,-5000,10000,20000,50000
+CZKVCDMCashLowList=60,52,46,29,26,23,15,15,15
+CZKVCDMCashCapacity=462,120,348,264,3000,3000,3000,3000
+CZKVCDMCashRecyclerBaseLevel=346,300,262,167,65,58,450,225,113
+CZKVCDMCashDispenserFillCount=346,300,262,167,65,58,450,225,113
+CZKVCDMStartingBank=-1
+CZKVCDMEnablePickUpXAmount=N
+
+CZKBNRCashValueList=-100,-200,-500,-1000,-2000,-5000,10000,20000,50000
+CZKBNRCashLowList=60,52,46,29,26,23,5,5,5
+CZKBNRCashRecyclerBaseLevel=346,300,262,167,65,58,0,0,0
+CZKBNRCashDispenserFillCount=346,300,262,167,65,58,20,0,0
+CZKBNRStartingBank=812600
+CZKBNREnablePickUpXAmount = Y
+
+CZKCashAcceptorCapacity=590
+CZKCoinAcceptorCapacity=1000
+CZKCashAcceptorHighThreshold=450
+CZKCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+CZKTendBitMap01=Cash.jpg
+CZKTendBitMap04=debit_w_cash.jpg
+CZKMaxBillsType1=30
+CZKFontCharset=0 
+
+; -----------------------------------------------
+; Russia (Russian)
+; -----------------------------------------------
+
+[0419]
+Currency=RUB
+RapMsg=RMsg0419.dat
+SwitchMsg=SMsg0419.dat
+SendscotMsg=Sendscot_0419.ini
+TerminalInfoMsg=TerminalInfo.ini.0419
+Language=0419
+MenuFile=%APP_DRIVE%\scot\config\ReportGeneratorMenus0419.xml
+; RUB
+RUBCDOnly=No
+RUBFullFunctionDisable=No
+RUBScaleMetric=Yes
+RUBCodePage=866
+RUBTaxLine=N
+RUBWAVEFILES=0419
+RUBAPPSCOTMSG=MSG0419
+RUBAPPSASIACTION=SASI0419
+RUBAPPSCOTTEND=TEND0419
+RUBAPPSCOTTARE=TARE0419
+RUBDenominations=10,50,100,200,500,1000,5000,10000,50000,100000,500000
+
+;Begin Support for 5.x hardware (6 coins and 5 notes)
+RUBCashValueList=-10,-50,-100,-200,-500,-1000,5000,10000,50000,100000,500000
+RUBCashLowList=20,20,20,20,20,20,20,20,20,20,20
+RUBCashCapacity=20,20,20,20,20,20,20,20,20,20,20
+;BCR/F53
+RUBF53CashValueList=-50,-100,-200,-500,-1000,5000,10000,50000,100000,500000
+RUBF53CashLowList=115,79,70,48,39,33,20,20,20,20,20
+RUBF53CashCapacity=1154,791,703,475,391,327,350,350,350,350,350
+RUBF53CashRecyclerBaseLevel=1154,791,703,475,391,327,350,350,350,350,350
+RUBF53CashDispenserFillCount=1154,791,703,475,391,327,350,350,350,350,350
+RUBF53StartingBank=-1
+RUBF53EnablePickUpXAmount=N
+;BCR/Puloon (Not Supported Anymore)
+;BCR/BNR
+RUBBNRCashValueList=-10,-50,-100,-200,-500,-1000,5000,10000,50000,100000,500000
+RUBBNRCashLowList=115,79,70,48,39,33,5,5,5,5,5
+RUBBNRCashRecyclerBaseLevel=1154,791,703,475,391,327,88,88,88,88,88
+RUBBNRCashDispenserFillCount=1154,791,703,475,391,327,88,88,88,88,88
+RUBBNRStartingBank=775000
+RUBBNREnablePickUpXAmount = Y
+
+RUBCashAcceptorCapacity=590
+RUBCoinAcceptorCapacity=1000
+RUBCashAcceptorHighThreshold=450
+RUBCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+RUBCashValueListForCoinHopper=-10,-50,-100,-200,-500,-1000,5000,10000,50000,100000,500000
+RUBCashLowListForCoinHopper=115,79,70,48,39,33,20,20,20,20,20
+RUBCashCapacityForCoinHopper=577,395,352,238,196,164,3000,3000,3000,3000,3000
+RUBCashLowListForNewEnhancedCoinLowSensor=13,13,13,11,10,8,20,20,20,20,20
+RUBTendBitMap01=Eurocash.jpg
+RUBTendBitMap04=Euro_debit_cashback.jpg
+RUBMaxBillsType1=30
+RUBFontCharset=0
+
+;-----------------------------------------------
+; [041a] - Croatia
+;-----------------------------------------------
+[041a]
+Currency=HRK
+RapMsg=RMsg041a.dat
+SwitchMsg=SMsg041a.dat
+SendscotMsg=Sendscot_041a.ini
+TerminalInfoMsg=TerminalInfo.ini.041a
+Language=041a
+MenuFile=%APP_DRIVE%\scot\config\ReportGeneratorMenus041a.xml
+
+; HRK
+HRKCDOnly=No
+HRKFullFunctionDisable=No
+HRKScaleMetric=Yes
+HRKCodePage=1251
+HRKTaxLine=N
+HRKWAVEFILES=041a
+HRKAPPSCOTMSG=MSG041a
+HRKAPPSASIACTION=SASI041a
+HRKAPPSCOTTEND=TEND041a
+HRKAPPSCOTTARE=TARE041a
+HRKDenominations=1,2,5,10,20,50,100,200,500,1000,2000,10000
+
+;Begin Support for 5.x hardware (9 Coins, 3 Bills)
+HRKCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,-500,1000,2000,10000
+HRKCashLowList=20,20,20,20,20,20,20,20,20,20,20,20
+HRKCashCapacity=20,20,20,20,20,20,20,20,20,20,20,20
+;BCR/F53
+HRKF53CashValueList=-1,-2,-5,-10,-20,-50,-100,-200,-500,1000,2000,10000
+HRKF53CashLowList=111,83,92,71,82,64,50,42,35,20,20,20
+HRKF53CashCapacity=1108,834,918,713,822,639,497,417,352,350,350,350
+HRKF53CashRecyclerBaseLevel=1108,834,918,713,822,639,497,417,352,88,88,88
+HRKF53CashDispenserFillCount=1108,834,918,713,822,639,497,417,352,88,88,88
+HRKF53StartingBank=-1
+HRKF53EnablePickUpXAmount=N
+;BCR/Puloon (Will not be supported anymore)
+;BCR/BNR
+HRKBNRCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,-500,1000,2000,10000
+HRKBNRCashLowList=111,83,92,71,82,64,50,42,35,5,5,5
+HRKBNRCashRecyclerBaseLevel=1108,834,918,713,822,639,497,417,352,88,88,88
+HRKBNRCashDispenserFillCount=1108,834,918,713,822,639,497,417,352,88,88,88
+HRKBNRStartingBank=775000
+HRKBNREnablePickUpXAmount = Y
+
+HRKCashAcceptorCapacity=590
+HRKCoinAcceptorCapacity=1000
+HRKCashAcceptorHighThreshold=450
+HRKCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+HRKCashValueListForCoinHopper=-1,-2,-5,-10,-20,-50,-100,-200,-500,1000,2000,10000
+HRKCashLowListForCoinHopper=111,83,92,71,82,64,50,42,35,20,20,20
+HRKCashCapacityForCoinHopper=554,417,459,357,411,319,249,208,176,3000,3000,3000
+HRKCashLowListForNewEnhancedCoinLowSensor=13,13,13,13,13,13,11,10,8,20,20,20
+HRKTendBitMap01=Eurocash.jpg
+HRKTendBitMap04=Euro_debit_cashback.jpg
+HRKMaxBillsType1=30
+HRKFontCharset=0
+
+;-----------------------------------------------
+; [0408] - Greek
+;-----------------------------------------------
+[0408]
+Currency=EUR
+RapMsg=RMsg0408.dat
+SwitchMsg=SMsg0408.dat
+SendscotMsg=Sendscot_0408.ini
+TerminalInfoMsg=TerminalInfo.ini.0408
+Language=0408
+MenuFile=%APP_DRIVE%\scot\config\ReportGeneratorMenus0408.xml
+
+; EUR
+EURCDOnly=No
+EURFullFunctionDisable=No
+EURScaleMetric=Yes
+EURCodePage=1253
+EURTaxLine=N
+EURWAVEFILES=0408
+EURAPPSCOTMSG=MSG0408
+EURAPPSASIACTION=SASI0408
+EURAPPSCOTTEND=TEND0408
+EURAPPSCOTTARE=TARE0408
+EURDenominations=5,10,20,50,100,200,500
+
+EURCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURCashLowList=20,20,20,20,20,20,20,20,20,20,20,20
+EURCashCapacity=168,168,168,151,140,122,108,117,3000,3000,3000,3000
+
+; EUR Hopper
+EURCashValueListForCoinHopper=-1,-5,-10,-50,-100,-200,500,1000,2000
+EURCashLowListForCoinHopper=85,65,65,43,43,34,20,20,20
+EURCashCapacityForCoinHopper= 2904,933,966,395,465,382,3000,3000,3000
+
+EURCashLowListForNewEnhancedCoinLowSensor=13,13,13,11,10,8,6,7,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+EURF53CashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURF53CashLowList=100,76,59,60,42,32,36,32,20,20,20,20
+EURF53CashCapacity=500,500,500,500,500,500,500,500,350,350,350,350
+EURF53CashRecyclerBaseLevel=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53CashDispenserFillCount=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53StartingBank=-1
+EURF53EnablePickUpXAmount=N
+;BCR/Puloon
+EURVCDMCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURVCDMCashLowList=100,76,59,60,42,32,36,32,15,15,15,15
+EURVCDMCashCapacity=500,500,500,500,500,500,500,500,450,450,450,450
+EURVCDMCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMCashDispenserFillCount=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMStartingBank=-1
+EURVCDMEnablePickUpXAmount=N
+;BCR/BNR
+EURBNRCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURBNRCashLowList=100,76,59,60,42,32,36,32,5,5,5,5
+EURBNRCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,0,0,0,0
+EURBNRCashDispenserFillCount=581,436,340,340,242,185,88,80,20,0,0,0
+EURBNRStartingBank=45443
+EURBNREnablePickUpXAmount = Y
+EURCashAcceptorCapacity=590
+EURCoinAcceptorCapacity=1000
+EURCashAcceptorHighThreshold=450
+EURCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+EURTendBitMap01=Eurocash.jpg
+EURTendBitMap04=Euro_debit_cashback.jpg
+EURMaxBillsType1=30
+EURFontCharset=0
+
+;-----------------------------------------------
+; [0804] - Chinese-China
+;-----------------------------------------------
+[0804]
+Currency=CNY,USD
+RapMsg=RMsg0804.dat
+SwitchMsg=SMsg0804.dat
+SendscotMsg=Sendscot_0804.ini
+TerminalInfoMsg=TerminalInfo.ini.0804
+Language=0804
+MenuFile=%APP_DRIVE%\scot\config\ReportGeneratorMenus0804.xml
+
+;CNY
+CNYCDOnly=No
+CNYFullFunctionDisable=No
+CNYScaleMetric=Yes
+CNYCodePage=936
+CNYTaxLine=N
+CNYWAVEFILES=0804
+CNYAPPSCOTMSG=MSG0804
+CNYAPPSASIACTION=SASI0804
+CNYAPPSCOTTEND=TEND0804
+CNYAPPSCOTTARE=TARE0804
+CNYDenominations=1,2,5,10,20,50,100
+
+;Begin Support for 5.x hardware (4 Coins, 4 Bills)
+CNYCashValueList=-5,-10,-50,-100,100,500,1000,2000
+CNYCashLowList=20,20,20,20,20,20,20,20
+CNYCashCapacity=20,20,20,20,20,20,20,20
+;BCR/F53
+CNYF53CashValueList=-5,-10,-50,-100,100,500,1000,2000
+CNYF53CashLowList=43,69,64,38,20,20,20,20
+CNYF53CashCapacity=431,689,638,376,350,350,350,350
+CNYF53CashRecyclerBaseLevel=431,689,638,376,88,88,88,88
+CNYF53CashDispenserFillCount=431,689,638,376,88,88,88,88
+CNYF53StartingBank=-1
+CNYF53EnablePickUpXAmount=N
+;BCR/Puloon (Will not be supported anymore)
+;BCR/BNR
+CNYBNRCashValueList=-5,-10,-50,-100,100,500,1000,2000
+CNYBNRCashLowList=43,69,64,38,5,5,5,5
+CNYBNRCashRecyclerBaseLevel=431,689,638,376,88,88,88,88
+CNYBNRCashDispenserFillCount=431,689,638,376,88,88,88,88
+CNYBNRStartingBank=775000
+CNYBNREnablePickUpXAmount = Y
+
+CNYCashAcceptorCapacity=590
+CNYCoinAcceptorCapacity=1000
+CNYCashAcceptorHighThreshold=450
+CNYCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+CNYCashValueListForCoinHopper=-5,-10,-50,-100,100,500,1000,2000
+CNYCashLowListForCoinHopper=43,69,64,38,20,20,20,20
+CNYCashCapacityForCoinHopper=216,344,319,188,3000,3000,3000,3000
+CNYCashLowListForNewEnhancedCoinLowSensor=13,13,13,13,20,20,20,20
+CNYTendBitMap01=Eurocash.jpg
+CNYTendBitMap04=Euro_debit_cashback.jpg
+CNYMaxBillsType1=30
+CNYFontCharset=0
+
+; USD
+USDCDOnly=No
+USDFullFunctionDisable=No
+USDScaleMetric=No
+USDCodePage=936
+USDTaxLine=Y
+USDWAVEFILES=0804
+USDAPPSCOTMSG=MSG0804
+USDAPPSASIACTION=SASI0804
+USDAPPSCOTTEND=TEND0804
+USDAPPSCOTTARE=TARE0804
+USDDenominations=1,2,5,10,20,50,100
+
+;only for 3.x and 4.x and 5.x MINI and glory
+USDCashValueList=-1,-5,-10,-25,100,500,1000,2000
+USDCashLowList=75,40,75,75,20,20,20,20
+USDCashCapacity=462,120,348,264,3000,3000,3000,3000
+
+;USD Hopper
+USDCashValueListForCoinHopper=-1,-5,-25,100,500,1000,2000
+USDCashLowListForCoinHopper=61,55,46,20,20,20,20
+USDCashCapacityForCoinHopper= 2100,700,2820,600,3000,3000,3000,3000
+;Canister
+USDCashLowListForNewEnhancedCoinLowSensor=11,8,13,9,20,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+USDF53CashValueList=-1,-5,-10,-25,100,500,1000,2000
+USDF53CashLowList=77,53,99,44,20,20,20,20
+USDF53CashCapacity=500,500,500,500,350,350,350,350
+USDF53CashRecyclerBaseLevel=758,442,569,428,350,175,88,88
+USDF53CashDispenserFillCount=758,442,569,428,350,175,88,88
+USDF53StartingBank=-1
+USDF53EnablePickUpXAmount=N
+;BCR/Puloon
+USDVCDMCashValueList=-1,-5,-10,-25,100,500,1000,2000
+USDVCDMCashLowList=77,53,99,44,15,15,15,15
+USDVCDMCashCapacity=500,500,500,500,450,450,450,450
+USDVCDMCashRecyclerBaseLevel=758,442,569,428,450,225,113,113
+USDVCDMCashDispenserFillCount=758,442,569,428,450,225,113,113
+USDVCDMStartingBank=-1
+USDVCDMEnablePickUpXAmount=N
+;BCR/BNR
+USDBNRCashValueList=-1,-5,-10,-25,100,500,1000,2000
+USDBNRCashLowList=77,53,99,44,5,5,5,5
+USDBNRCashRecyclerBaseLevel=758,442,569,428,0,0,0,0
+USDBNRCashDispenserFillCount=758,442,569,428,20,0,0,0
+USDBNRStartingBank=19358
+USDBNREnablePickUpXAmount = Y
+USDCashAcceptorCapacity=590
+USDCoinAcceptorCapacity=1000
+USDCashAcceptorHighThreshold=450
+USDCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+USDTendBitMap01=Cash.jpg
+USDTendBitMap04=debit_w_cash.jpg
+USDMaxBillsType1=11
+USDFontCharset=0 
+
+; -----------------------------------------------
+; Catalan (Catalan)
+; -----------------------------------------------
+
+[0403]
+Currency=EUR
+RapMsg=RMsg0403.dat
+SwitchMsg=SMsg0403.dat
+SendscotMsg=Sendscot_0403.ini
+TerminalInfoMsg=TerminalInfo.ini.0403
+Language=0403
+MenuFile=%APP_DRIVE%\scot\config\ReportGeneratorMenus0403.xml
+
+; EUR
+EURCDOnly=No
+EURFullFunctionDisable=No
+EURScaleMetric=Yes
+EURCodePage=1252
+EURTaxLine=N
+EURWAVEFILES=0403
+EURAPPSCOTMSG=MSG0403
+EURAPPSASIACTION=SASI0403
+EURAPPSCOTTEND=TEND0403
+EURAPPSCOTTARE=TARE0403
+EURDenominations=5,10,20,50,100,200,500
+
+EURCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURCashLowList=20,20,20,20,20,20,20,20,20,20,20,20
+EURCashCapacity=168,168,168,151,140,122,108,117,3000,3000,3000,3000
+; EUR Hopper
+EURCashValueListForCoinHopper=-1,-5,-10,-50,-100,-200,500,1000,2000
+EURCashLowListForCoinHopper=85,65,65,43,43,34,20,20,20
+EURCashCapacityForCoinHopper= 2904,933,966,395,465,382,3000,3000,3000
+
+;Canister
+EURCashLowListForNewEnhancedCoinLowSensor=13,13,13,11,10,8,6,7,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+EURF53CashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURF53CashLowList=100,76,59,60,42,32,36,32,20,20,20,20
+EURF53CashCapacity=500,500,500,500,500,500,500,500,350,350,350,350
+EURF53CashRecyclerBaseLevel=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53CashDispenserFillCount=581,436,340,340,242,185,88,80,175,88,0,0
+EURF53StartingBank=-1
+EURF53EnablePickUpXAmount=N
+;BCR/Puloon
+EURVCDMCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURVCDMCashLowList=100,76,59,60,42,32,36,32,15,15,15,15
+EURVCDMCashCapacity=500,500,500,500,500,500,500,500,450,450,450,450
+EURVCDMCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMCashDispenserFillCount=581,436,340,340,242,185,88,80,225,113,113,0
+EURVCDMStartingBank=-1
+EURVCDMEnablePickUpXAmount=N
+;BCR/BNR
+EURBNRCashValueList=-1,-2,-5,-10,-20,-50,-100,-200,500,1000,2000
+EURBNRCashLowList=100,76,59,60,42,32,36,32,5,5,5,5
+EURBNRCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,0,0,0,0
+EURBNRCashDispenserFillCount=581,436,340,340,242,185,88,80,20,0,0,0
+EURBNRStartingBank=45443
+EURBNREnablePickUpXAmount = Y
+
+EURCashAcceptorCapacity=590
+EURCoinAcceptorCapacity=1000
+EURCashAcceptorHighThreshold=450
+EURCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+EURTendBitMap01=10x7_internationalCash.jpg
+EURTendBitMap04=10x7_international_debit_cashback.jpg
+EURMaxBillsType1=30
+EURFontCharset=0
+
+; -----------------------------------------------
+; Ukrainian (Ukraine)
+; -----------------------------------------------
+
+[0422]
+Currency=UAH,RUB
+RapMsg=RMsg0422.dat
+SwitchMsg=SMsg0422.dat
+SendscotMsg=Sendscot_0422.ini
+TerminalInfoMsg=TerminalInfo.ini.0422
+Language=0422
+MenuFile=%APP_DRIVE%\scot\config\ReportGeneratorMenus0422.xml
+
+; UAH
+UAHCDOnly=No
+UAHFullFunctionDisable=No
+UAHScaleMetric=Yes
+UAHCodePage=866
+UAHTaxLine=N
+UAHWAVEFILES=0422
+UAHAPPSCOTMSG=MSG0422
+UAHAPPSASIACTION=SASI0422
+UAHAPPSCOTTEND=TEND0422
+UAHAPPSCOTTARE=TARE0422
+UAHDenominations=1,2,5,10,25,50,100,200,500
+
+; UAHCashCapacity and UAHCashCapacityForCoinHopper are NOT correct
+UAHCashValueList=-5,-10,-50,-100,100,200,500,1000,2000,5000,10000
+UAHCashLowList=43,69,64,38,20,20,20,20,20,20,20
+UAHCashCapacity=3000,3000,3000,3000,3000,3000,3000,3000,3000,3000,3000
+; UAH Hopper
+UAHCashValueListForCoinHopper=-5,-10,-50,-100,100,200,500,1000,2000,5000,10000
+UAHCashLowListForCoinHopper=43,69,64,38,20,20,20,20,20,20,20
+UAHCashCapacityForCoinHopper= 3000,3000,3000,3000,3000,3000,3000,3000,3000,3000,3000
+
+;Canister
+UAHCashLowListForNewEnhancedCoinLowSensor=43,69,64,38,20,20,20,20,20,20,20
+
+;Begin Support for 5.x hardware
+;BCR/F53
+;UAHF53CashValueList=-5,-10,-50,-100,100,200,500,1000,2000,5000,10000
+;UAHF53CashLowList=100,76,59,60,42,32,36,32,20,20,20,20
+;UAHF53CashCapacity=500,500,500,500,500,500,500,500,350,350,350,350
+;UAHF53CashRecyclerBaseLevel=581,436,340,340,242,185,88,80,175,88,0,0
+;UAHF53CashDispenserFillCount=581,436,340,340,242,185,88,80,175,88,0,0
+;UAHF53StartingBank=-1
+;UAHF53EnablePickUpXAmount=N
+
+;BCR/Puloon
+;UAHVCDMCashValueList=-5,-10,-50,-100,100,200,500,1000,2000,5000,10000
+;UAHVCDMCashLowList=100,76,59,60,42,32,36,32,15,15,15,15
+;UAHVCDMCashCapacity=500,500,500,500,500,500,500,500,450,450,450,450
+;UAHVCDMCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,225,113,113,0
+;UAHVCDMCashDispenserFillCount=581,436,340,340,242,185,88,80,225,113,113,0
+;UAHVCDMStartingBank=-1
+;UAHVCDMEnablePickUpXAmount=N
+
+;BCR/BNR
+;UAHBNRCashValueList=-5,-10,-50,-100,100,200,500,1000,2000,5000,10000
+;UAHBNRCashLowList=100,76,59,60,42,32,36,32,5,5,5,5
+;UAHBNRCashRecyclerBaseLevel=581,436,340,340,242,185,88,80,0,0,0,0
+;UAHBNRCashDispenserFillCount=581,436,340,340,242,185,88,80,20,0,0,0
+;UAHBNRStartingBank=45443
+;UAHBNREnablePickUpXAmount = Y
+
+UAHCashAcceptorCapacity=590
+UAHCoinAcceptorCapacity=1000
+UAHCashAcceptorHighThreshold=450
+UAHCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+UAHTendBitMap01=10x7_internationalCash.jpg
+UAHTendBitMap04=10x7_international_debit_cashback.jpg
+UAHMaxBillsType1=30
+UAHFontCharset=0
+
+; RUB
+RUBCDOnly=No
+RUBFullFunctionDisable=No
+RUBScaleMetric=Yes
+RUBCodePage=866
+RUBTaxLine=N
+RUBWAVEFILES=0422
+RUBAPPSCOTMSG=MSG0422
+RUBAPPSASIACTION=SASI0422
+RUBAPPSCOTTEND=TEND0422
+RUBAPPSCOTTARE=TARE0422
+RUBDenominations=10,50,100,200,500,1000,5000,10000,50000,100000,500000
+
+;Begin Support for 5.x hardware (6 coins and 5 notes)
+RUBCashValueList=-10,-50,-100,-200,-500,-1000,5000,10000,50000,100000,500000
+RUBCashLowList=20,20,20,20,20,20,20,20,20,20,20
+RUBCashCapacity=20,20,20,20,20,20,20,20,20,20,20
+;BCR/F53
+RUBF53CashValueList=-50,-100,-200,-500,-1000,5000,10000,50000,100000,500000
+RUBF53CashLowList=115,79,70,48,39,33,20,20,20,20,20
+RUBF53CashCapacity=1154,791,703,475,391,327,350,350,350,350,350
+RUBF53CashRecyclerBaseLevel=1154,791,703,475,391,327,350,350,350,350,350
+RUBF53CashDispenserFillCount=1154,791,703,475,391,327,350,350,350,350,350
+RUBF53StartingBank=-1
+RUBF53EnablePickUpXAmount=N
+;BCR/Puloon (Not Supported Anymore)
+;BCR/BNR
+RUBBNRCashValueList=-10,-50,-100,-200,-500,-1000,5000,10000,50000,100000,500000
+RUBBNRCashLowList=115,79,70,48,39,33,5,5,5,5,5
+RUBBNRCashRecyclerBaseLevel=1154,791,703,475,391,327,88,88,88,88,88
+RUBBNRCashDispenserFillCount=1154,791,703,475,391,327,88,88,88,88,88
+RUBBNRStartingBank=775000
+RUBBNREnablePickUpXAmount = Y
+
+RUBCashAcceptorCapacity=590
+RUBCoinAcceptorCapacity=1000
+RUBCashAcceptorHighThreshold=450
+RUBCoinAcceptorHighThreshold=850
+;End Support for 5.x hardware
+
+RUBCashValueListForCoinHopper=-10,-50,-100,-200,-500,-1000,5000,10000,50000,100000,500000
+RUBCashLowListForCoinHopper=115,79,70,48,39,33,20,20,20,20,20
+RUBCashCapacityForCoinHopper=577,395,352,238,196,164,3000,3000,3000,3000,3000
+RUBCashLowListForNewEnhancedCoinLowSensor=13,13,13,11,10,8,20,20,20,20,20
+RUBTendBitMap01=Eurocash.jpg
+RUBTendBitMap04=Euro_debit_cashback.jpg
+RUBMaxBillsType1=30
+RUBFontCharset=0
+
+;-----------------------------------------------
+
+;-----------------------------------------------
+; [Misc]
+;-----------------------------------------------
+[Misc]
+Video=BaggerSilent.avi
+
+;-----------------------------------------------
+; [FiscalPrinter]
+;-----------------------------------------------
+[FiscalPrinter]
+Country=0410
+OldSoundFile=ReceiptPrintBelowPaymentDevice.wma
+OldBitmap=CInfoTakeReceipt.bmp
+SoundFile=Fiscal_TakeYourReceipt.wma
+BitmapFile=Fiscal_CInfoTakeItalianReceipt.bmp
+
+;-----------------------------------------------
+; [JPYCashBack]
+;-----------------------------------------------
+[JPYCashBack]
+CashBack1=3000
+CashBack2=5000
+CashBack3=10000
+CashBack4=20000
+CashBack5=0
+EBTCashBack1=3000
+EBTCashBack2=5000
+EBTCashBack3=10000
+EBTCashBack4=20000
+EBTCashBack5=0
+

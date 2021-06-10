@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Popup", "Popup.vcproj", "{D354B998-CA11-4693-B6D3-7DA19B8CF1D3}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 1
+		SccProjectUniqueName0 = Popup.vcproj
+		SccProjectName0 = \u0022$/SCOTx\u0020Software/Source/Release\u00203.0/Platform/Utility/Popup\u0022,\u0020AVOHAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = true
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Debug Unicode
+		ConfigName.2 = Release
+		ConfigName.3 = Release Unicode
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D354B998-CA11-4693-B6D3-7DA19B8CF1D3}.Debug.ActiveCfg = Debug|Win32
+		{D354B998-CA11-4693-B6D3-7DA19B8CF1D3}.Debug.Build.0 = Debug|Win32
+		{D354B998-CA11-4693-B6D3-7DA19B8CF1D3}.Debug Unicode.ActiveCfg = Debug Unicode|Win32
+		{D354B998-CA11-4693-B6D3-7DA19B8CF1D3}.Debug Unicode.Build.0 = Debug Unicode|Win32
+		{D354B998-CA11-4693-B6D3-7DA19B8CF1D3}.Release.ActiveCfg = Release|Win32
+		{D354B998-CA11-4693-B6D3-7DA19B8CF1D3}.Release.Build.0 = Release|Win32
+		{D354B998-CA11-4693-B6D3-7DA19B8CF1D3}.Release Unicode.ActiveCfg = Release Unicode|Win32
+		{D354B998-CA11-4693-B6D3-7DA19B8CF1D3}.Release Unicode.Build.0 = Release Unicode|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

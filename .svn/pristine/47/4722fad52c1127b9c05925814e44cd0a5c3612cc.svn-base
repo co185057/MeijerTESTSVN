@@ -1,0 +1,2794 @@
+﻿AmountSaved,Säästetty summa
+Assistance,Apu
+AssistanceComing,"Apu on tulossa, ole hyvä ja jatka."
+Back,Palaa takaisin
+BagItem,Pussita tämä tuote.
+BagItemCart,Pakkaa tuote
+BagItemOrSkip,Pussita tämä tuote tai valitse ohitus.
+CallForHelp,Kutsu apua?
+Cancel,Peruuta
+CancelAll,Poista kaikki
+CancelCoupons,Poista kupongit
+CancelPayment,Peruuta maksu
+CantScanCoupon,Kuponkia ei voi lukea
+CartPay,Maksa
+Change,Vaihtorahat:
+Confirm,Haluatko peruuttaa koko ostotapahtuman?
+ConfirmQuantity,Onko {0} oikein?
+Continue,Haluatko jatkaa?
+CouponMessage,Aseta kupongit sivuun nyt. Jätä ne ostotapahtuman lopussa.
+DepositCard,Syötä käytetty lahjakortti kuponkiaukkoon.
+DepositCoupon,Jätä kupongit
+DepositGiftCard,Jätä lahjakortti
+Disconnected,Hetkinen...
+Done,Valmis
+Due,Maksettava:{0}
+EditCart,Muokkaa koria
+Enter,Syötä
+EnterAmount,Syötä määrä
+EnterCouponValue,"Syötä kupongin arvo senteissä ja paina ""OK""."
+EnterId,Syötä oma tunnus.
+EnterPassword,Syötä oma salasana.
+EnterPin,Syötä PIN-koodi
+EnterQuantity,Montako sinulla on?
+EnterWeight,Aseta tuote vaa’alle:
+Finish,Kiitos käynnistäsi.
+FinishAndAdd,Lopeta & lisää
+GiftCard,Lahjakortin tase
+GoBack,Palaa takaisin
+IncorrectLogin,Väärä käyttäjän tunnusnumero ja salasana.\nOle hyvä ja yritä uudestaan.
+InsertCash,Syötä käteinen
+InsertCoupon,Syötä kuponki sisään
+InvalidBarcodeScan,Aseta tuote sivuun ja jatka ostotapahtumaa.
+Item,{0} tuote
+Items,{0} tuotetta
+ItemsAddedFormat,{0} tuotetta lisättävä koriin.
+Language,Kieli
+NCRCorp,NCR Corp
+No,Ei
+OK,OK
+Or,tai
+OtherPayment,Muu maksutapa
+OtherPaymentMethod,Muut maksutavat
+OwnBag,Oma kassi
+Paid,Maksettu:{0}
+PayAnotherWay,Muu maksutapa
+PointsEarned,Ansaitut pisteet
+PrintReceipt,Tulosta kuitti
+Proceed,Jatka
+Remove,Poista
+RemovedItem,Poistin tuotteet
+RestrictedItem,Rajoitettu tuote
+ReturnToScan,Palaa takaisin
+ScanAndBag,"Aloita lukemalla tuotekoodi, etsimällä tai näppäilemällä se."
+ScanCoupon,Lue kupongit
+ScanGiftCard,Lue lahjakortti
+ScanNextItem,Lue seuraava tuote.
+ScanVoucher,Lue vaihto- tai hyvitystositteen viivakoodi
+SearchResultsFor,"Hae tulokset ""{0}"""
+SearchWatermark,Syötä tuotteen nimi tai koodi
+SearchItemNameWatermark,Enter Item Name
+SearchKeyInItem,Etsi tuote tai näppäile se
+SelectCashBack,Valitse palautettavan käteisen koko
+SelectLanguage,Valitse kieli
+SelectPaymentType,Valitse maksutapa
+SellBags,"Montako muovikassia käytit?  Syötä 0, ellet käyttänyt yhtään."
+SignNeeded,Tarvitaan allekirjoitus
+SignSignature,Allekirjoita allekirjoitusnäytölle.
+SkipBagging,Ohita pakkaaminen
+Space,Välilyönti
+StartScanning,Aloita luku
+StoreLogin,Sisäänkirjaus myyntitilaan
+TakeCash,Ota palautettu käteinen
+TakeChange,Ota vaihtorahat
+TakeReceipt,Ota kuitti
+Tax,Alv.  [VAT]
+TimeRestrictedItem,Aikarajoitetut tuotteet
+Total,Yhteensä
+TouchCancel,Peruuta maksu painamalla pinkoodilaitteesta Peruuta.
+TryAgain,Yritä uudelleen
+UnexpectedDecreaseMessage,Palauta tuote pakkausalueelle.
+UnexpectedIncreaseMessage,Poista tuote pakkausalueelta.
+UsePinpad,Käytä pinkoodilaitetta
+VoidItem,"Lue ei-toivotut tuotteet tai napauta kuitilta ""Poista""."
+Volume,Äänenvoimakkuus
+Yes,Kyllä
+ItemNumberAmount,KPL :  
+WeightExpected,OP :  
+WeightObserved,TP :  
+UnknownPriceMessage,Tuotteen hinta on tuntematon.\nApu on tulossa.\n\nAseta tuote sivuun ja jatka.
+SetAllItemsAsideMessage,Kaikki luetut tuotteet poistettu.\n\nAseta kaikki tuotteet sivuun.
+ConfirmAbortMessage,Haluatko varmasti tyhjän korin? Tapahtuma peruutetaan.
+NoKeep,"Ei, pidä."
+NoReturn,"Ei, palauta tapahtumaan."
+YesEmpty,"Kyllä, tyhjennä kori ja lopeta tapahtuma."
+YesRemove,"Kyllä, poista."
+HostOfflineMessage,Kassa ei ole tällä hetkellä yhdistetyssä tilassa ja järjestelmä yrittää yhdistää sen takaisin.
+LaneClosedMessage,Kassa on suljettu
+LoadingText,Ladataan
+VerifyBagsMessage,"Jos olet tahattomasti asettanut pakkausalueelle jotain muuta kuin kassin, poista se nyt."
+HelpOnWay,Apu on tulossa.  Ole hyvä ja jatka.
+OwnBagMessage,"Laita kassisi vaa'alle."
+UseOwnBag,Kassi/laatikko
+AttendantMode,Valvojatila
+AttendantTrainingMode,Valvoja- & koulutustila
+TrainingMode,Harjoittelutila
+ScaleBroken,Poista tuote vaa’alta ja paina lukulaitteessa olevaa Nollaa vaaka -näppäintä.
+Refunded,Palautettu:
+EnterIDMessage,Näppäile käyttäjätunnus ja paina Syötä.
+EnterIDText,Syötä käyttäjätunnus
+EnterPasswordMessage,Näppäile salasana ja paina Syötä.
+EnterPasswordText,Syötä salasana
+VisualVerify,Silmämääräinen tarkistus
+SingleItemAddedFormat,{0} tuote lisättävä koriin.
+Approved,Hyväksytty
+VoidItemBeforeCouponMessage,Tuotetta ei voida mitätöidä ennen kuin kuponki on mitätöity. Mitätöi ensin kuponki.
+VerifyBags,Valvoja tulee tarkistamaan kassinne.
+CancelItems,Poista tuotteet
+EnterQuantityTitle,Syötä lukumäärä
+SecUnExpectedIncreaseTitle,Pakkaamishälytys
+WeightMismatchTitle,Apua tarvitaan
+AssistanceNeededTitle,Apua tarvitaan
+CheckBasketTitle,Tarkista kori
+ConfirmDebitAmountTitle,Vahvista summa
+DropoffCouponsTitle,Jätä kupongit.
+InsufficientBalanceTitle,Arvo ei riitä
+OperatorPasswordStateInvalidPasswordWithFPTitle,Sormenjäljellä sisäänkirjautumisen virhe
+PurchaseCrateTitle,Osta juomakori
+RestrictedItemTitle,Rajoitettu tuote
+SecBagAreaBackupTitle,Jätetyt tuotteet
+SignChargeTitle,Allekirjoita kuitti
+TakeCardTitle,Ota kortti
+ContinueTitle,Jatka?
+ApprovalNeededTitle,Tarvitaan hyväksyntä
+IncorrectLoginTitle,Väärä numero
+RecalledItemTitle,Myynnistä poistettu tuote
+RemovedItemTitle,Pakkaamishälytys
+SetAllItemsAsideTitle,Aseta tuotteet sivuun
+TakeLoyaltyCardTitle,Ota etukortti
+UnknownPriceTitle,Hinta on tuntematon
+ConfirmEBTAmountTitle,Vahvista summa
+DisconnectedTitle,Yhteys katkaistu
+ShuttingDown,Sammutetaan
+NoneText,Ei tekstiä
+SMText,Myyntitila
+SMLogInReceiptText,Kirjauduttu myyntitilaan
+SMLogOutReceiptText,Kirjauduttu ulos myyntitilasta
+WLDBOffLineText,Painotietokanta: Ei yhdistetty
+OperatorIDText,Käyttäjätunnus: 
+SignOnButtonText,Siskirj
+SignOffButtonText,Uloskirj
+AlertText,Hälytykset:
+SuspendInProgressText,Keskeytys on käynnissä
+SuspendLeadthru1,Nykyisen tapahtuman keskeytystä on pyydetty. \nVahvista tai peruuta tämä pyyntö.
+SuspendLeadthru2,Olet keskeyttänyt nykyisen toimenpiteen.  Vahvista pyyntö.  Pyynnön peruuttamiseksi paina Palaa takaisin ja peruuta tapahtuma NCR SelfServ Checkout-kassapäätteestä.
+ReceiptText,Kuitti:
+SuspendReasonText1,Keskeytys: Yleinen
+CancelSuspendButtonText,Peruuta keskeytys
+ConfirmSuspendNowButtonText,Vahvista keskeytys \nnyt
+ConfirmAllowSuspendButtonText,Vahvista salli keskeytys
+ConfirmSuspendRequestButtonText,Vahvista keskeytyspyyntö
+CancelSuspendNowButtonText,Peruuta keskeytys nyt
+GoBackButtonText,Palaa takaisin
+CancelSuspendRequestButtonText,Peruuta keskeytyspyyntö
+CouponText,Kupongit:
+SuspendReasonText2,Keskeytys: Kupongit
+CouponReceiptText,%d kupongit yhteensä $%.2f
+SuspendNowButtonText,Keskeytä nyt
+RequestSuspendButtonText,Pyydä keskeytystä
+NotConnectedText,Ei yhdistetty.
+ConnectingText,Yhdistetään...odota hetki
+ApprovalNeededText,Tarvitaan hyväksynnät:
+SuspendReasonText3,Keskeytys: Muu 
+ClearRequestButtonText,Poista pyyntö
+ApproveButtonText,Hyväksy
+RestrictedItemText,Rajoitetut tuotteet:
+SuspendReasonText4,Keskeytys: Rajoitettu
+SecurityLogText,Turvallisuusloki:
+SuspendReasonText5,Keskeytys: Hälytys
+SignatureText,Allekirjoitus:
+SignatureAndNameText,Allekirjoitus: %s
+ConnectingLeadthru,Yhdistetään NCR SelfServ Checkout-ohjelmaan...odota hetki
+EnterIDLeadthru,Syötä käyttäjätunnus alla olevalla näppäimistöllä.
+EnterPasswordLeadthru,Syötä salasana alla olevalla näppäimistöllä.
+LoggingInLeadthru,Kirjaudutaan sisään...odota hetki
+ApproveSecurityButtonText,Hyväksy hälytys
+ApprovalNeededButtonText,Tarvitaan hyväksyntä
+VerifySignatureButtonText,Tarkista \nallekirjoitus
+AllowSuspendButtonText,Salli keskeytys
+MainButtonText,Pää
+SuspendTransactionButtonText,Keskeytä tapahtuma
+ApproveAndCollectButtonText,Hyväksy & kerää
+ClearApprovalsButtonText,Poista hyväksynnät
+BirthDateOver30ButtonText,Ikä yli 30
+SignAgainButtonText,Allekirj uudestaan
+BackSpaceButtonText,Peruuta
+EnterButtonText,Syötä
+LaneNumberText,Kassa: %d
+RAPTitle,NCR SelfServ Checkout -etäohjauspiste
+CancelSuspendText,Peruuta keskeytys
+OtherPaymentSelectedText,Muu maksutapa valittu
+CouponCollectionText,Kuponkien keruu
+PendingSuspendText,Keskeytystä ei ole vahvistettu
+SignatureApprovalText,Allekirjoituksen hyväksyntä
+LaneText,Kassa
+VideoButtonText,Video
+ClearButtonText,Poista
+QuantityButtonText,Määrä
+FeesAndCustomerAgreementsTitle,Maksut && asiakassopimukset
+FeesButtonText,Maksut
+CustomerAgreementButtonText,Asiakassopimukset
+FeesAndCustomerAgreementsLeadthru,Maksut & asiakassopimukset
+TransactionSuspendedText,Tapahtuma keskeytetty
+POSMessageText,POS-viesti:
+ConnectingWaitingText,"Odota hetki, yhdistetään NCR SelfServ Checkout-ohjelmaan..."
+DateOfBirthNotNeededButtonText,Tietoa ei tarvita
+AssistModeButtonText,Tukitila
+ClearSecurityButtonText,Nollaa hälytys
+VisualApproveButtonText,Silmin hyväksyntä
+CheckAgeTitle,Tarkista asiakkaan ikä
+CouponLimitExceededTitle,Kupongin arvo ylitetty
+VerifyItemAndPriceTitle,Tarkista tuote ja hinta
+UnknownItemTitle,"Tuntematon tuote, aseta sivuun"
+ItemNotForSaleTitle,Tuote ei ole myynnissä
+ItemQuantityExceededTitle,Tuotemäärä ylitetty
+TimeRestrictedItemTitle,Ajallisesti rajoitettu tuote
+CheckAgeLeadthru,"Näppäile syntymäaika %s ja paina ""Syötä"""
+InvalidBirthDateFormatLeadthru,Pvm syötetty väärässä muodossa \nSyötä se %s muodossa.
+CouponLimitExceededLeadthru,Paina Hyväksy salliaksesi kupongin jätön kassalle tai paina Hyväksy & kerää ja nouda kuponki asiakkaalta.
+VisualApproveLeadthru,Paina Silmin hyväksyntä tai paina Tukitila muuttaaksesi tapahtumaa.
+UnknownItemLeadthru,Kerää tuote kassalta ja paina Nollaa hälytys tai paina Tukitila päättääksesi tapahtuman.
+ItemNotForSaleLeadthru,Kerää tuote kassalta ja paina Nollaa hälytys.
+OffLineLaneButtonText,Ei verkossa
+ExitText,Poistu
+EnterDataLaneButtonText,Syötä tieto
+AgeCheckLaneButtonText,Iän tarkastus
+CouponLaneButtonText,Kuponki
+VoidLaneButtonText,Mitätöi
+VerifyItemLaneButtonText,Tarkista tuote
+NotFoundLaneButtonText,Ei löydy
+NoSaleLaneButtonText,Ei myyntiä
+QuantityLaneButtonText,Määrä
+HelpLaneButtonText,Tuki
+NoInterventionLeadthru,Väliintuloa ei tarvita tällä hetkellä.
+OffLineLeadthru,Kassa ei ole yhdistetty ja järjestelmä yrittää yhdistää sen automaattisesti uudelleen.
+CancelRequestButtonText,Peruuta pyyntö
+HelpRequestTitle,Apua pyydetty
+SecurityLaneButtonText,Hälytys
+VoidLeadthru,Kerää mitätöity tuote ja paina Hyväksy mitätöinti.
+ApproveVoidButtonText,Hyväksy mitätöinti
+SecurityLeadthru,"Valvo asiakastapahtuman turvallisuutta ja paina ""Kuittaa hälytys""."
+SecurityViolationText,Turvaloukkaus
+OtherPaymentText,Muu maksutapa valittu
+SuspendTransactionLeadthru,Paina Keskeytä tapahtuma maksun hyväksymiseksi.
+EASText,Hälytintuote yhä aktiivinen
+DeactivateLeadthru,Deaktivoi tuote tai poista hälytin ja paina Nollaa hälytys.
+CompareSignatureTitle,Vertaa allekirjoituksia
+CompareSignatureLeadthru,Vertaa allekirjoituksia ja paina Hyväksy tai Allekirjoita uudelleen.
+EnterPriceLeadthru,Näppäile tuotteen hinta ja paina Syötä.
+UtilityButtonText,Apuohjelma
+ReturnToMainButtonText,Palaa etusivulle
+GetDiagFilesButtonText,Hae virhetiedostot
+CouponApprovalLeadthru,Hyväksy asiakkaan kupongit hyväksymispisteessä ja paina Hyväksy.
+RebootSystemButtonText,Käynnistä koko järjestelmä uudelleen
+ShutDownSystemButtonText,Sulje koko järjestelmä
+LaneStatusTitle,Kassatila
+LaneStatusLeadthru,Valitse toiminto.
+AgeRestrictedText,Iän perusteella rajoitettu tuote; %2d vuotta
+BirthdateEnterText,"Syntymäpäivä syötetty:%2d/%2d/%4d,%d vuotta"
+HelpRequestLeadthru,Auta ensin asiakasta ja paina sitten Peruuta pyyntö.
+TotalText,Yhteensä:
+ItemText,Tuotteet:
+MultimediaTrainingText,Multimedia-harjoittelu
+VolumeControlButtonText,Äänenvoimakkuus
+SecurityViolationNumText,Turvaloukkaukset:
+ItemPurchasedText,Ostetut tuotteet:
+EnterPriceTitle,Hinnan syöttö
+CancelTransactionGenericTitle,Peruuta tapahtuma
+CancelTransactionGenericLeadthru,Paina Kyllä peruuttaaksesi tapahtuman tai paina Ei palauttaaksesi sen.
+YesButtonText,Kyllä
+NoButtonText,Ei
+ConfirmSuspendTitle,Keskeytys:
+ConfirmSuspendLeadthru,Vahvista keskeytys.
+ConfirmSuspendButtonText,Vahvista keskeytys
+IncorrectItemWeightTitle,"Tarkistusvaa'alla on väärä paino."
+IncorrectItemWeightLeadthru,Siirrä tuote ja paina Nollaa hälytys tai paina Hyväksy & päivitä paino.
+ApproveUpdateButtonText,Hyväksy & päivitä paino
+UnexpectedIncreaseTitle,"Tarkistusvaa'alla on odottamaton tuote."
+UnexpectedIncreaseLeadthru,"Mene kassalle, siirrä ylimääräiset tuotteet pois ja paina Nollaa hälytys."
+SkipBaggingBtnThresholdLeadthru,Tarkista kassalla olevat tuotteet ja paina Nollaa hälytys.
+NewWeightItemTitle,Tuotteen painoa ei ole rekisteröity.
+NewWeightItemLeadthru,Tarkista tuotteen paino ja paina Hyväksy & päivitä paino tai paina Hyväksy/Ei päivitystä.
+ApproveNoUpdateButtonText,Hyväksy/Ei päivitystä.
+BagItemTimerExpiredTitle,"Tarkistusvaa'alla on odotettu paino."
+TakeChangeTimerExpiredTitle,Ota vaihtorahat
+TakeChangeTimerExpiredBottomCaption,Aika on päättynyt
+PickingUpItemsTimerExpiredTitle,Tuotteita ei ole palautettu pakkausalueelle.
+DeviceFailureTitle,Laitehäiriö
+DeviceFailureLeadthru,Mene kassalle ja tarkista laite.
+WLDBFailureTitle,Painotietokanta ei kommunikoi oikein.
+WLDBFailureLeadthru,Tarkista yhteys.
+UnexpectedDecreaseTitle,Tuote on siirretty pois pakkausalueelta.
+ClosedLaneTitle,Mene kassalle ja kirjaudu Myyntitilaan avataksesi kassan.
+ClosedLaneLeadthru,Kassa on suljettu
+BagAreaBackupTitle,Jätetyt tuotteet ovat hihnalla
+BagAreaBackupLeadthru,Poista jätetyt tuotteet hihnalta
+MinimumAgeText,Alaikäraja.
+SafetyCoverOpenLeadthru,Poista kaikki tuotteet hihnalta ja sulje turvakansi.
+VerifySignatureLeadthru,Vertaa asiakkaan allekirjoitusta kortissa lukevaan.
+AssistedTenderTitle,Valvoja-avusteinen maksuväline
+AssistedTenderLeadthru,Käytä tukitilaa sekin hyväksymiseen asiakkaalta.
+AssistedTenderHHLeadthru,Hyväksy maksu valvojapisteestä.
+AssistedEndorsementLeadthru,"Apua tarvitaan. Ole hyvä ja odota, että valvoja tulee apuun."
+StartTransactionButtonText,Aloita tapahtuma
+StartTransactionTitle,Valvoja-avusteiset toiminnot
+StartTransactionLeadthru,Valitse haluttu toiminto.
+StartTransactionAMButtonText,Käynnistä & auta
+ItemsForgottenTitle,"Paino ei katoa\nkassivaa'alta."
+InsertCouponTimerExpiredTitle,Syötä kuponki
+CollectGiftCardTitle,Kerää lahjakortti
+HostOfflineLeadthru,Kassa ei ole tällä hetkellä yhdistettynä ja järjestelmä yrittää yhdistää sen takaisin.
+SpaceButtonText,Välilyönti
+LaneReceiptItemType1,%s\t%s
+LaneReceiptItemType2,%s
+LaneReceiptItemType3,%s\t%s\tMäärä %s @ %s/per\t%s
+LaneReceiptItemType4,%s\t%s\tMäärä %s @ %s/%s\t%s
+LaneReceiptItemType5,%s\t%s\t%ss @ %s %s/%s\t%s
+LaneReceiptItemType6,%s\t%s\t%ss @ %s/%s\t%s
+CloseLaneButtonText,Sulje kassa
+ReportingButtonText,Raportointi
+KeyInCodeTitle,Näppäile koodi
+KeyInCodeLeadthru,Näppäile tuotteen koodi ja kosketa OK.
+VoidItemButtonText,Mitätöi tuote
+ChangePriceButtonText,Hinnanmuutos
+ChangeQuantityButtonText,Määrän muutos
+ReturnToShoppingButtonText,Palaa ostotilaan
+BasicAssistModeTitle,Tukitoiminnot
+BasicAssistModeLeadthru,Lue tuotteen viivakoodi tai valitse toiminto.
+ChangePriceTitle,Muuta hinta
+KeyInPriceLeadthru,Näppäile hinta tuotteelle: %d %s
+VoidAllButtonText,Mitätöi kaikki
+VoidItemTitle,Mitätöi tuotteet
+VoidItemLeadthru,Lue tuotteen koodi tai valitse tuote sähköiseltä kuitilta ja paina Mitätöi tuote tai Mitätöi kaikki.
+ChangeQuantityTitle,Muuta määrää
+KeyInQuantityLeadthru,Näppäile määrä tuotteelle: %s
+FullAssistButtonText,Täysi tuki
+CloseButtonText,Sulje
+UpdateItemLeadthru,Selaa tuotteen kohdalle sähköisellä kuitilla ja paina Syötä.
+OKButtonText,OK
+CouponNoMatchLeadthru,Kuponki ei vastaa mitään kuitilla olevaa tuotetta. Tätä kuponkia ei hyväksytä.
+CouponTooHighLeadthru,Syöttämäsi kupongin arvo on liian korkea.  Järjestelmä ei hyväksy tätä kuponkia.
+EnterCouponValueLeadthru,Syötä kupongin arvo senteissä ja paina Syötä.
+ItemQuantityExceededLeadthru,Olet ylittänyt tuotteen hyväksytyn ostomäärän.  Ole hyvä ja aseta se syrjään ja jatka.
+ProcessingLeadthru,Käsitellään...odota hetki.
+VoidNoMatchLeadthru,Luettua tuotetta ei löydy.  Sen koodia ei joko ole luettu tai tuote on jo poistettu.
+ConfirmAbortLeadthru,Haluatko keskeyttää ostotapahtuman ja peruuttaa kaikki ostokset?
+ContinueTransLeadthru,Haluatko jatkaa ostotapahtumaa?
+ConfirmQuantityTitle,Vahvista määrä
+ConfirmVoidTitle,Vahvista peruuta
+CouponNoMatchTitle,Kuponki on väärä
+CouponTooHighTitle,Kupongin arvo liian korkea.
+CrateableItemTitle,Osta juomakori
+EnterCouponValueTitle,Syötä kupongin arvo
+EnterQuantityLeadthru,Näppäile määrä ja paina Syötä.
+EnterWeightTitle,Painotuote
+EnterWeightLeadthru,"Mene kassalle ja aseta tuote vaa'alle."
+AMItemQuantityExceededTitle,Kappaleraja
+ProcessingTitle,Käsitellään...
+SelectContainerTitle,Valitse pakkaus
+SelectContainerLeadthru,Valitse pakkaus luettelosta ja paina Syötä.
+VoidNoMatchTitle,Tuotetta ei voida poistaa
+ConfirmAbortTitle,Poista kaikki tuotteet
+ContinueTransTitle,Jatketaanko?
+ScaleBrokenTitle,Nollaa vaaka
+ScaleBrokenLeadthru,"Poista tuote vaa'alta ja paina lukulaitteessa olevaa näppäintä Nollaa vaaka."
+UpdateNotAllowedTitle,Tuotetta ei voida päivittää
+UpdateNotAllowedLeadthru,Punnitun tuotteen määrän muutos ei ole sallittua.
+SmEnterBirthdateTitle,Rajoitetut tuotteet
+SmEnterBirthdateLeadthru,Näppäile asiakkaan syntymäaika
+SmVisualItemsTitle,Silmämääräiset vahvistukset
+SmVisualItemsLeadthru,Hyväksy silmämääräisesti vahvistettavat tuotteet
+SmCouponItemsTitle,Hyväksy käytetyt kupongit
+SmCouponItemsLeadthru,Tarkista käytetyt kupongit
+SmRestrictedItemsTitle,Rajoitetut tuotteet
+SmRestrictedItemsLeadthru,Valitse haluttu toiminto.
+KeyInBirthDateButtonText,Näppäile pvm
+KeyInCodeButtonText,Näppäile \nkoodi
+SmRunReportsTitle,Raportin sisältö
+PrintReportButtonText,Tulosta raportti
+LaneReceiptItemType7,    %s
+AM_RestrictedNotAllowedTitle,Rajoitettu tuote
+AM_RestrictedNotAllowedLeadthru,Rajoitettu tuote on poistettu – alaikäraja ei täyty. \n\nAseta tuote sivuun.
+TransactionCancelTitle,Tapahtuman peruutus
+TransactionCancelLeadThru,Tapahtuma on peruutettu. Siirrä tuotteet pois tältä \nkassalta.
+OutOfSyncNeedAssistTitle,TUKI
+OutOfSyncNeedAssistLeadthru,POS ei ole ajoitettu. Siirry tukitilaan sen ajoittamiseksi.
+OutOfSyncStopTitle,KÄYNNISTÄ UUDELLEEN
+OutOfSyncStopLeadthru,POS-palvelin ei ole toiminnassa tai sitä ei ole ajoitettu. Sammuta kassapääte virtakytkimestä.
+MultiPackItemTitle,"Tarkista, onko tuote monipakkaus"
+MultiPackItemLeadthru,"Jos tuote on monipakkaus, paina Tukitila ja lue sen jälkeen monipakkauksen viivakoodi."
+CancelActionButtonText,Peruuta toimenpide
+EnterIDFpLeadthru,"Syötä käyttäjätunnus ja paina ""Syötä"" tai laita sormesi sormenjälkilukijaan sisäänkirjautumista varten."
+ReEnterIDFpLeadthru,Virheellinen sisäänkirjautuminen. Kirjaudu sisään uudelleen näppäimistön tai sormenjäljen avulla.
+HH_SuspendLeadthru1,Keskeytetäänkö nykyinen tapahtuma? Vahvista tai peruuta.
+HH_SuspendLeadthru2,"Nykyinen tapahtuma keskeytetty. Vahvista. Jos haluat peruuttaa toiminnon, paina Palaa takaisin ja peruuta."
+HH_ReEnterIDLeadthru,Väärä käyttäjätunnus tai salasana. Ole hyvä ja näppäile ne uudestaan.
+HH_CheckAgeLeadthru,"Näppäile syntymäaika %s ja paina ""Syötä"""
+HH_CouponLimitExceededLeadthru,Kupongit hyväksytään kassalla painamalla Hyväksy ja kerättäessä asiakkaalta painamalla Hyväksy & Kerää.
+HH_VisualApproveLeadthru,Tapahtumaa muutetaan painamalla Silmin hyväksyntä tai Tukitila.
+HH_VisualApproveLeadthru2,"""Visual Approve"", or ""Assist Mode"" at Lane to modify."
+HH_UnknownItemLeadthru,"Kerää tuote, paina Poista hälytys tai Tukitila päättääksesi toiminnon."
+HH_UnknownItemLeadthru2,"Collect item, ""Clear Security"", or use ""Assist Mode"" at Lane to complete."
+HH_ItemNotForSaleLeadthru,Kerää tuote kassalta ja paina Nollaa hälytys.
+HH_NoInterventionLeadthru,Väliintuloa ei tarvita.
+HH_OffLineLeadthru,Kassa ei ole yhdistetty. Järjestelmä yrittää yhdistää sen takaisin.
+HH_InvalidBirthDateFormatLeadthru,Päivämäärä on syötetty väärässä muodossa\nSyötä se muodossa %s.
+HH_VoidLeadthru,Kerää mitätöity tuote ja paina Hyväksy mitätöinti.
+HH_SuspendTransactionLeadthru,Paina Keskeytä tapahtuma tapahtuman keskeyttämiseksi.
+HH_DeactivateLeadthru,Deaktivoi tuote tai poista hälytin ja paina Nollaa hälytys.
+HH_CompareSignatureLeadthru,Vertaa allekirjoituksia ja paina Hyväksy tai Allekirjoita uudelleen.
+HH_EnterPriceLeadthru,Näppäile tuotteen hinta ja paina Syötä.
+HH_CouponApprovalLeadthru,Hyväksy kupongit asiakkaalta ja paina Hyväksy.
+HH_HelpRequestLeadthru,Auta ensin asiakasta ja paina sitten Peruuta pyyntö.
+HH_CancelTransactionGenericLeadthru,Tapahtuma peruutetaan painamalla Kyllä tai palautetaan painamalla Ei.
+HH_IncorrectItemWeightLeadthru,Siirrä tuote ja paina Nollaa hälytys tai paina Hyväksy & päivitä paino.
+HH_UnexpectedIncreaseLeadthru,Siirrä ylimääräiset tuotteet ja paina Nollaa hälytys.
+HH_SkipBaggingBtnThresholdLeadthru,Tarkista kassalla olevat tuotteet ja paina Nollaa hälytys.
+HH_NewWeightItemLeadthru,Tarkista tuotteen paino ja paina Hyväksy & päivitä paino tai paina Hyväksy/Ei päivitystä.
+HH_SafetyCoverOpenLeadthru,Siirrä kaikki tuotteet pois hihnalta. Sulje turvakansi.
+HH_VerifySignatureLeadthru,Vertaa asiakkaan allekirjoitusta kortissa lukevaan.
+HH_AssistedEndorsementLeadthru,"Tukea tarvitaan. Ole hyvä ja odota, että valvoja tulee apuun."
+HH_HostOfflineLeadthru,Kassa ei ole yhdistetty. Järjestelmä yrittää yhdistää sen takaisin.
+HH_KeyInCodeLeadthru,Syötä tuotteen koodi ja paina Syötä.
+HH_VoidItemLeadthru,Lue tuotteen koodi tai etsi tuote sähköiseltä kuitilta selausnäppäimellä. Mitätöi tuote tai Mitätöi kaikki.
+HH_UpdateItemLeadthru,Selaa tuotteen kohdalle sähköisellä kuitilla ja paina Syötä.
+HH_CouponNoMatchLeadthru,Kuponki ei vastaa mitään kuitilla olevaa tuotetta. Kuponkia ei hyväksytä.
+HH_CouponTooHighLeadthru,Kupongin arvo liian korkea. Järjestelmä ei hyväksy sitä.
+HH_ItemQuantityExceededLeadthru,Sallittu määrä ylitetty. \n\nAseta tuote sivuun ja jatka.
+HH_VoidNoMatchLeadthru,Luettua tuotetta ei löydy. Tuotteen koodia ei ole luettu tai tuote on poistettu.
+HH_ConfirmAbortLeadthru,Keskeytetäänkö ostotapahtuma ja poistetaanko kaikki ostokset?
+HH_ContinueTransLeadthru,Haluatko jatkaa ostotapahtumaa?
+HH_EnterQuantityLeadthru,Näppäile määrä ja paina Syötä.
+HH_SelectContainerLeadthru,Valitse pakkaus luettelosta ja paina Syötä.
+HH_ScaleBrokenLeadthru,"Poista tuote vaa'alta ja paina lukulaitteessa olevaa Nollaa vaaka -näppäintä."
+HH_UpdateNotAllowedLeadthru,Määrän muutos ei ole sallittua.
+HH_AM_RestrictedNotAllowedLeadthru,Rajoitettu tuote on poistettu - alaikäraja ei täyttynyt. Aseta tuote sivuun.
+HH_OutOfSyncNeedAssistLeadthru,"POS ei ole ajoitettu, paina Tukitila ajoittaaksesi sen uudelleen."
+HH_OutOfSyncStopLeadthru,POS-palvelin ei ole toiminnassa tai sitä ei ole ajoitettu. Sammuta kassapääte virtakytkimestä.
+HH_MultiPackItemLeadthru,"Jos monipakkaus, paina mitätöimiseksi Tukitila ja lue sitten monipakkauksen koodi."
+HH_ReturnToShoppingButtonText,Palaa
+DoneButtonText,Valmis
+ConfirmSuspendFromLaneStatusLeadthruText,Vahvista tai peruuta.
+HH_SuspendTransactionButtonText,Tapahtumankesk
+HH_TransactionCancelTitle,Tapahtuman peruutus
+HH_TransactionCancelLeadThru,Tapahtuma on peruutettu. Siirrä tuotteet pois tältä kassalta.
+ShiftButtonText,Vaihto
+FixLaterButtonText,Korjaa myöhemmin
+HopperLaneButtonText,Korvikekolikot
+HopperLeadThru,"%sMene kassalle ja täytä kolikoita tai poista tukos tai paina ""Korjaa myöhemmin"" jatkaaksesi."
+TransactionCountText,Lukumäärä:
+SecurityDisableText,Turvallisuus poistettu käytöstä
+SecurityDisableButtonOn,Kytke päälle
+SecurityDisableButtonOff,Kytke pois päältä
+SecurityDisableStatusTextOn,Pakkaamisturvallisuus päällä
+SecurityDisableStatusTextOff,Pakkaamisturv. pois päältä
+SuspendDeclinedLaneButtonText,Keskeytys kielletty
+ConfirmSuspendDeclinedLeadthru,Vahvista tai peruuta keskeytyksen kielto.
+ConfirmSuspendDeclinedButtonText,Vahvista kielto
+CancelSuspendDeclinedButtonText,Palaa
+TMTransLeadthru,"Kassa on harjoittelutilassa, jatketaanko tapahtumaa?"
+HH_TMTransLeadthru,"Kassa on harjoittelutilassa,\njatketaanko tapahtumaa?"
+TMTransLaneButtonText,Harjoittelutap
+DateFormat1,(kkppvvvv)
+DateFormat2,(kkppvv)
+DateFormat3,(ppkkvvvv)
+DateFormat4,(ppkkvv)
+DateFormat5,(vvvvkkpp)
+DateFormat6,(vvkkpp)
+GoBackCouponButtonText,Palaa takaisin
+ApproveCouponButtonText,Hyväksy kuponki
+CouponExceededLimitLeadthru,"Hyväksy kuponki valitsemalla ""Hyväksy kuponki"" tai mitätöi se tukitilassa."
+CouponExceededLimitFinalizationLeadthru,"Tapahtuma päätettiin käyttämällä kuponkia, joka ylittää myymälän kuponkirajan."
+ClearSecurityFinalizationButtonText,Nollaa hälytys
+ExpandReceiptButtonText,Laajenna kuitti
+CollapseReceiptButtonText,Kutista kuitti
+InvalidBarcodeLeadThru,Kerää tuote kassalta ja jatka tapahtumaa painamalla ”Hyväksy”.
+InvalidBarcodeLaneButtonText,Tark. Tuote
+HH_InvalidBarcodeLeadThru,"Kerää tuote, paina ”Hyväksy” tapahtuman jatkamiseksi."
+GoToLaneOrHHRapLeadthru, Please go to Lane or HHRap for approval
+GoToLaneOrRapLeadthru, Please go to Lane or Rap for approval
+GoToLaneLeadthru, Mene kassalle hyväksyntää varten
+DisableRapApprovalText, Estä EOO:n hyväksyntä
+DisableHHRapApprovalText, Estä KPEOO:n hyväksyntä
+UpdateItemButtonText,Päivitä tuote
+SuspendConfirmationTitle,Keskeytysvahvistus
+DoNotApproveButtonText,Älä hyväksy
+SmVoidAndRemoveItemLeadthru,Siirrä poistettu tuote pois pakkausalueelta.
+RestrictedItemsNotApprovedTitle,Rajoitetut tuotteet - Ei hyväksytty
+HH_AssistAtLaneLeadthru,Mene kassalle mitätöimään tuotteet.
+XM_Acceptor,Vastaanotin
+XM_CashStatus,Rahan tila
+XM_CashStatusLeadthru,Valitse haluttu toiminto.
+XM_CoinAcceptor,Kolikonvastaanotin
+XM_CoinOverflow,Kolikkojen ylivientikotelo
+XM_CoinOverflowText,Ylivienti
+XM_CoinRecycler,Kolikkokierrätin
+XM_Coins,Kolikot
+XM_NoteOverflow,Setelien ylivientikotelo
+XM_NoteOverflowText,Ylivienti
+XM_NoteRecycler,Setelikierrätin
+XM_Notes,Setelit
+XM_PurgeOperationText,Lajittelutoiminnot
+XM_TerminalNumber,Kassanumero
+XM_TotalCount,Kokonaismäärä:
+XM_TotalValue,Kokonaisarvo:
+XM_CoinsSubtotal,Kol. välisumma:
+XM_NotesSubtotal,Set. välisumma:
+XM_GrandTotal,Kokonaissumma:
+XM_PurgeInstruction,Lajittelutoiminnot:  Hylättyjä seteleitä havaittu. Mene kassalle ja tarkista laite.
+XM_RAP_NegativeAlert,Negative number found. Mene kassalle ja tarkista laite.
+XM_AreYouSure,"Oletko varma, että haluat suorittaa alla luetellut toimet?"
+XM_Attendant,Valvoja
+XM_Backspace,Peruuta
+XM_BillAcceptor,Setelinvastaanotin
+XM_BillDispenser,Setelinpalautin
+XM_Bins,Kotelot
+XM_BothDispenseFailure,%s:n palautus epäonnistui.\nRahamäärä on alhainen tai palauttimessa on vika.
+XM_CancelChanges,Peruuta muutokset
+XM_CannotCompleteTransfer,Siirtoa ei voida päättää. Kassalaatikossa ei ole riittävästi tilaa. Tyhjennä kassalaatikko ennen tämän toimenpiteen toteuttamista.
+XM_CashManagement,Setelinhallinta
+XM_CashManagementReport,Rahanhallinnan raportti
+XM_CashRemove,Poista rahaa
+XM_CashRemoveLeadthru,Valitse haluttu toiminto.
+XM_CashReplenishLeadthru,Valitse haluttu toiminto.
+XM_CashReplenishLeadthru1,Syötä kolikot tai valitse toiminto.
+XM_CashReplenishLeadthru2,Syötä käteinen tai valitse toiminto.
+XM_CashReplenishLeadthru3,"Kun valmis, paina ""Lopeta""."
+XM_CashReplenishment,Lisää käteinen
+XM_ChangeInCount,Määrän muutos
+XM_ChangeInValue,Arvon muutos
+XM_Clear,Poista
+XM_ClearPrompt1,"Kun valmis, valitse toinen toiminto tai ""Lopeta"""
+XM_ClearPrompt2,"Valitse toinen toiminto tai ""Lopeta"""
+XM_CoinAcceptorOffline,Vastaanotin ei reagoi.\n\nSammuta kassapääte ja käynnistä uudelleen.
+XM_CoinDispenseFailure,%s palautus epäonnistui.\nVaihtokolikot ovat vähissä tai kolikonpalauttimessa on virhe.
+XM_CoinDispenser,Kolikonpalautin
+XM_CoinManagement,Kolikonhallinta
+XM_ConfirmAction,Vahvista toimenpiteet
+XM_ConfirmCoinDispense,* Palauta kolikot\nPalautettava summa: %s\nPalautettava määrä: %d
+XM_ConfirmEmptyCoinAcceptor,* Kolikonvastaanottimen lukemien nollaus\nPoistettava summa:%s
+XM_ConfirmEmptyCoinOverflow,* Nollaa kolikoiden ylivientilukemat\nPoistettava summa:%s
+XM_ConfirmEmptyNoteAcceptor,* Nollaa setelinvastaanottimen lukemat\nPoistettava summa:%s
+XM_ConfirmEmptyNoteOverflow,* Nollaa kassalaatikon lukemat\nPoistettava summa:%s
+XM_ConfirmFillLoaderCassette,* Aseta setelilukemat\nUusi summa: %s\nUusi määrä: %d
+XM_ConfirmManualCoinEmpty,* Nollaa kolikolukemat\nPoistettava summa: %s\nPoistettava määrä: %d
+XM_ConfirmManualCoinFill,* Aseta kolikkolukemat\nUusi summa: %s\nUusi määrä: %d
+XM_ConfirmManualNoteEmpty,* Nollaa setelilukemat\nPoistettava summa: %s\nPoistettava määrä: %d
+XM_ConfirmManualNoteFill,* Aseta setelilukemat\nUusi summa: %s\nUusi määrä: %d
+XM_ConfirmNoteDispense,* Palauta setelit\nPalautettava summa: %s\nPalautettava määrä: %d
+XM_ConfirmTransferNotesToOverflow,* Siirrä setelit kassalaatikkoon\nSiirrettävä summa: %s\nSiirrettävä määrä: %d
+XM_Count,Lukumäärä
+XM_DispenseCupFull,Kolikonpalautus on täynnä.  Poista kolikoita päättääksesi palautuksen.
+XM_DispenseCupFullPreemptive,"Ota kolikot\nJos kolikonpalautusalue on täynnä, tyhjennä pikaisesti.  Palautus keskeytyy, kunnes kulho tyhjennetään."
+XM_DispenseFullPreemptive,"Ota setelit ja kolikot\nSetelit palautetaan 15 kpl nipuissa. Annostelu keskeytyy, kunnes kaikki setelit on otettu. Jos kolikonpalautusalue on täynnä, tyhjennä pikaisesti. Palautus keskeytyy, kunnes kulho tyhjennetään."
+XM_DispenseNoteFullPreemptive," Ota setelit\nSetelit palautetaan 15 kpl nipuissa. Annostelu keskeytyy, kunnes kaikki setelit on otettu."
+XM_DispenseSensorBlock,Kolikkojen palautus voi olla täynnä tai anturi on rikki. Poista kolikot tai ota yhteys huoltoon.
+XM_DispenseText,Palauta
+XM_DispenseThreshold,Syötetty lukumäärä ylitti palautettavina olevien määrän.  Maksimi määrä syötettiin: %d
+XM_Empty,Tyhjennä
+XM_EmptyCashAcceptorLT,Ota setelit setelinvastaanottimesta
+XM_EmptyCashBoxLT,Ota setelit kassalaatikosta
+XM_EmptyCoinAcceptor,Nollaa kolikon-vastaanotin
+XM_EmptyCoinAcceptorLT,Poista kolikot kolikonvastaanottimesta
+XM_EmptyCoinHopperLT,Poista kolikot laitteesta.
+XM_EmptyCoinOverflow,Nollaa kol. yliv.kot.
+XM_EmptyCoinOverflowLT,Poista kolikot kolikkojen ylivientikotelosta
+XM_EmptyLoaderCassetteLT,Ota setelit pois setelikaseteista ja lajittelukotelosta
+XM_EmptyNoteAcceptor,Nollaa setelin-vastaanotin
+XM_EmptyNoteCassetteLT,Poista setelit setelikaseteista
+XM_EmptyNoteOverflow,Nollaa kassal.luk.
+XM_Enter,Syötä
+XM_ExceededAmount,Summa ylittää kapasiteetin. Maksimi tarvittava summa on %s.
+XM_ExceededCapacity,Määrä ylittää kapasiteetin. Maksimi tarvittava ladattava määrä on %d.
+XM_Execute,Ota muutokset käyttöön
+XM_Exit,Lopeta
+XM_FastLaneReport,NCR SelfServ Checkout-raportti
+XM_FillLoaderCassette,Aseta seteli-lukemat
+XM_GoBack,Palaa takaisin
+XM_ID,Kassanhoitajan tunnus
+XM_IDPrompt,Näppäile tunnus ja paina Syötä.
+XM_InvalidAmount,%s syötetty arvo ei ole voimassa.\nSyötä se uudelleen.
+XM_KeyPadEnterCoinAmount,Syötä %s kolikkojen summa näppäimistöllä.
+XM_KeyPadEnterCoinCount,Syötä %s kolikkojen määrä näppäimistöllä.
+XM_KeyPadEnterNoteAmount,Syötä %s seteleiden summa näppäimistöllä.
+XM_KeyPadEnterNoteCount,Syötä %s setelien määrä näppäimistöllä.
+XM_KeyPadInstr,Syötä näppäimistöllä lukumäärä
+XM_ManualBothFillAlert,Avaa kassan vi ja aseta seteleitä kasetteihin ja kolikoita suppiloihin. Älä syötä niitä vastaanottimiin.
+XM_ManualBothRecyclerFillAlert,Avaa kassan ovi ja aseta seteleitä lataajaan ja kolikoita suppiloihin. Älä syötä niitä vastaanottimiin.
+XM_ManualCoinDispenserEmpty,Nollaa kolikkoluk.
+XM_ManualCoinDispenserFill,Aseta kolikko-lukemat
+XM_ManualCoinFillAlert,Avaa kassan ovi ja aseta kolikoita suoraan laitteeseen. Älä syötä niitä kolikonvastaanottimeen.
+XM_ManualEmptyAlert,Poista kaikki raha laitteesta.
+XM_ManualFillAlert,Avaa kassan ovi ja aseta rahaa suoraan laitteeseen. Älä syötä sitä vastaanottimiin.
+XM_ManualNoteDispenserEmpty,Nollaa setelilukemat
+XM_ManualNoteDispenserFill,Aseta seteli-lukemat
+XM_ManualNoteFillAlert,Avaa kassan ovi ja aseta seteleitä suoraan kasettiin. Älä syötä niitä setelinvastaanottimeen.
+XM_ManualNoteRecyclerFillAlert,Avaa kassan ovi ja aseta seteleitä suoraan lataajaan. Älä syötä niitä setelinvastaanottimeen.
+XM_No,Ei
+XM_NoteDispenseFailure,%s:n palautus epäonnistui.\nSetelimäärä on alhainen tai setelinpalauttimessa on virhe.
+XM_PW,Kassanhoitajan salasana
+XM_PWPrompt,Näppäile salasana ja paina Syötä.
+XM_PendingText,Avoin
+XM_PleaseWait,Käsitellään...\nOdota hetki.
+XM_Print,Tulosta käteisen tila
+XM_PurgeCoinRecycler,Tyhjennä kolikkokierrätin
+XM_PurgeNoteRecycler,Tyhjennä setelikierrätin
+XM_ReEnter,Väärä kassanhoitajan numero ja salasana.\nYritä uudelleen
+XM_ResetCoinsToBaseLevel,Ann. kol. p-tasoon asti
+XM_ResetNotesToBaseLevel,Siirrä set. p-tasoon
+XM_SelectFunc1,Valitse järjestelmätoiminto
+XM_SelectFunc2,Valitse haluttu toiminto.
+XM_StoreNumber,Myymälä #:
+XM_TransferAllNotes,Siirrä kaikki setelit
+XM_TransferNotesToOverflow,Siirrä setelit kassa-laatikkoon
+XM_Update,Päivitä
+XM_Yes,Kyllä
+XM_CardManagement,Kortinhallinta
+XM_SequenceNumber,Järjestysnumero
+XM_TotalCoinsInserted,Asetettu yhteensä
+XM_TotalNotesInserted,Asetettu yhteensä
+XM_Value,Arvo
+XM_TransferXCount,Siirrä (x) määrä
+XM_TransferXAmount,Siirrä (x) summa
+XM_TransfertoCashBoxLeadThruText,Siirrä %s setelit kassalaatikkoon painamalla ”Ota muutokset käyttöön”. Peruuta kaikki vireillä olevat muutokset painamalla ”Peruuta muutokset”.
+XM_MenuDispenseFunctions,Palautustoim.
+XM_MenuResetFunctions,Nollaustoim.
+XM_MenuCashBoxTransfer,Kassal. siirrot
+XM_LeadThruCashBoxTransfer,"Valitse haluamasi siirtotoiminto. Kun valmis, ""Ota muutokset käyttöön""."
+XM_LeadThruResetFunction,"Valitse haluamasi nollaustoiminto. Kun valmis, ""Ota muutokset käyttöön""."
+XM_LeadThruDispenseFunction,"Paina rahayksikköä ja syötä summa tai paina ""Annostele kolikot perustasoon""."
+XM_PurgeInstructionRecycler,"Lajittelutoiminnot:  Hylättyjä seteleitä havaittu.  Poista hylätyt setelit kassalaatikosta.  Poista varoitus painamalla ""Siirrä kaikki setelit"" ja sitten ""Nollaa kassalaatikko""."
+XM_PurgeInstructionNonRecycler,"Lajittelutoiminnot: Hylättyjä seteleitä havaittu.  Poista hylätyt setelit lajittelukotelosta.  Poista varoitus painamalla ""Nollaa setelilukemat""."
+XM_ReplenishInstruction,"Syötä käteinen tai valitse rahayksikkö ja syötä summa tai aseta määrät. Kun valmis, ""Ota muutokset käyttöön""."
+XM_PickUpAutoAmount,Nouda autom. summa
+XM_PickUpXAmount,Nouda (x) summa
+XM_MenuPickUpFunctions,Noutotoiminnot
+XM_LeadThruPickUpFunction,"Valitse haluamasi noutotoiminto. Kun valmis, ""Ota muutokset käyttöön""."
+XM_KeyPadEnterPickUpAmount,Syötä näppäimistöllä noutosumma.
+XM_InvalidPickUpAmount,Syötetty arvo on suurempi kuin siirrettävissä tai palautettavissa oleva summa.
+XM_InvalidStartingBank,Määritetty pohjakassa on suurempi kuin siirrettävissä tai palautettavissa oleva summa.
+XM_CalculatedPickUpAmount,Laskettu noutosumma on %s.
+XM_UnableToPickUp,Nouto ei ole mahdollista.
+XM_CoinAllowedDispenseExceeded,Yritetään annostella %d kolikkoa. Maksimi palautettava kolikkomäärä on %d.
+XM_InvalidPickUpAmount2,Kassalaatikossa ja kolikkojen ylivientikotelossa oleva summa on suurempi kuin noutomäärä.
+XM_LockScreen,Lukitse näyttö
+XM_SystemBusy,Järjestelmä varattu…odota hetki
+XM_AreYouSure_LockScreen,"Oletko varma, että haluat lukita näytön? \nNäytön lukitusta ei voi poistaa ennen kuin laitteet päättävät toimintonsa."
+XM_NegativeAlert,"Negatiivinen numero löydetty. Mahdolliset syyt: tapahtui näppäilyvirhe tai setelit laitettiin lataajakasettiin, mutta näiden setelien määriä ei syötetty rahanhallintaan.\n\nRatkaise ongelma alla olevien vaiheiden mukaisesti:\n1. Valitse ""Lisää käteinen"". \n2. Paina rahayksikköä, jossa on negatiivinen numero. \n3. Syötä negatiivisen numeron tarkka eurosumma ja/tai lataajaan laitettu määrä. \n4. Valitse ""Ota muutokset käyttöön"". \n5. Vahvista valitsemalla ""Kyllä"" ja paina sitten ""Lopeta""."
+XM_AddCashLeadthru1,Aseta kolikot tai kosketa sylinteriä ja syötä summa tai aseta lukemat.
+XM_AddCashLeadthru2,Aseta rahat tai kosketa sylinteriä ja syötä summa tai aseta lukemat.
+XM_AddCashLeadthru3,Kosketa sylinteriä ja syötä summa tai aseta lukemat.
+XM_CoinHopperEmpty,"Kolikkosuppilokotelot on tyhjennettävä, jotta kolikkolukemat voidaan nollata.  Tyhjennä jokainen kolikkosuppilokotelo ennen kuin painat ""Ota muutokset käyttöön""."
+XM_CollectRemainingCoins,"Poista kolikot kolikonpalauttimesta, kun palautus on valmis."
+XM_FPIDPrompt,"Syötä käyttäjätunnus ja paina ""Syötä"" tai laita sormesi sormenjälkilukijaan sisäänkirjautumista varten."
+XM_LoanFailure,Laina epäonnistui
+XM_LoanFailureLeadthru,Laina hylättiin. Valitse haluttu toiminto.
+XM_UndoLoan,Peruuta laina
+XM_CommitLoan,Tee laina
+XM_PickUpFailure,Nouto epäonnistui
+XM_PickUpFailureLeadthru,PNouto hylättiin. Valitse haluttu toiminto.
+XM_UndoPickUp,Peruuta nouto
+XM_CommitPickUp,Tee nouto
+XM_ManualRemoveCashAlert,Poista setelit kassalaatikosta ja kolikot kolikkojen ylivientikotelosta lainan peruuttamiseksi.\n\nSetelit\nPoistettava määrä: %d\nPoistettava määrä: %s\n\nKolikot\nPoistettava määrä: %d\nPoistettava määrä: %s
+XM_POSRejectedLoanPickUp,MP kieltäytyi lainasta/noudosta:  %s / %d  hylätty.\n
+XM_LoanPickUpCashierOverrides,Kassanhoitajan tunnus %s lainan/noudon ohitus: %s / %d  suoritettu.\n\n
+XM_PlaceJammedBill,Poista kassalaatikko ja laita juuttuneet setelit sisään.
+MinMaxFastLaneBtnPrimaryTxt,Pienennä SelfServ Checkout
+MinMaxFastLaneBtnSecondaryTxt,Suurenna SelfServ Checkout
+MinMaxFastLaneBtnPrimaryShowConfirmation,"Paina ""Pienennä SelfServ Checkout"" -painiketta SelfServ Checkout-ikkunan pienentämiseksi."
+MinMaxFastLaneBtnSecondaryShowConfirmation,"Paina ""Suurenna SelfServ Checkout"" -painiketta SelfServ Checkout-ikkunan suurentamiseksi."
+StopStartFastLaneBtnPrimaryTxt,Sammuta SelfServ Checkout
+StopStartFastLaneBtnSecondaryTxt,Käynnistä SelfServ Checkout
+SwitchToRAPBtnPrimaryTxt,Siirry EOO-ohjelmaan
+ShutdownSystemBtnPrimaryTxt,Sammuta koko järjestelmä
+RebootSystemBtnPrimaryTxt,Käynnistä uudelleen koko järjestelmä
+VolumeBtnPrimaryTxt,Äänenvoimakkuus
+EventViewerBtnPrimaryTxt,Tapahtumienvalvonta
+GenerateLogBtnPrimaryTxt,Luo virhelokitiedostot
+ExitFastLaneAndRunProfileBtnPrimaryTxt,Sulje SelfServ Checkout ja aja Profile Manager -ohjelma
+ExitFastLaneAndRunProfileBtnSecondaryTxt,Aja Profile Manager -ohjelma
+TerminalInfoBtnPrimaryTxt,Kassapäätetiedot
+MinMaxRAPBtnPrimaryTxt,Pienennä EOO
+MinMaxRAPBtnSecondaryTxt,Suurenna EOO
+MinMaxRAPBtnPrimaryShowConfirmation,"Paina ""Pienennä EOO"" -näppäintä EOO-ikkunan pienentämiseksi."
+MinMaxRAPBtnSecondaryShowConfirmation,"Paina ""Suurenna EOO"" -näppäintä EOO-ikkunan suurentamiseksi."
+StopStartRAPButtonPrimaryTxt,Sulje EOO
+StopStartRAPButtonSecondaryTxt,Käynnistä EOO
+RapConfigureBtnPrimaryTxt,Eoo konfigurointi
+SwitchToFastLaneBtnPrimaryTxt,Siirry SelfServ Checkout-ohjelmaan
+ExitRAPAndRunProfileBtnPrimaryTxt,Pysäytä EOO ja aja Profile Manager -ohjelma
+ExitRAPAndRunProfileBtnSecondaryTxt,Aja Profile Manager -ohjelma
+UtilityFunctionsTitle,NCR SelfServ Checkout\n-apuohjelmien toiminnot
+StartTitle,Järjestelmän käynnistys
+SystemStartup,Järjestelmä käynnistyy…odota hetki
+TerminalID,Kassapäätteen tunnussana: 
+InterfaceVersion,Ohjelmaversio:
+TrainingProgramPrimaryTxt,Harjoitteluohjelma
+LaunchPadNet_OperatorIDText,Käyttäjätunnus: 
+KeySwitchOperatorID,Avainlukko
+LaunchPadNet_SignOnButtonText,Siskirj
+LaunchPadNet_SignOffButtonText,Uloskirj
+SignedOffButtonText,Kirjauduttu ulos
+Exit,Poistu kaikista
+LaunchPadNet_ReturnToShoppingButtonText,Palaa
+PickListEditor,Tuotelistan muokkaus
+RunADDTxt,Aja ALT Seuraavan Uudelleenkäynnistyksen Aikana
+TouchWareTxt,Kosketusnäytön kalibrointi
+DiagConfirm,Haluatko varmasti luoda virhelokitiedostot?
+ProfileManagerFLConfirm,Haluatko varmasti sulkea SelfServ Checkout-sovelluksen ja ajaa Profile Manager -ohjelman?
+ProfileManagerRAPConfirm,Haluatko varmasti sulkea EOO-sovelluksen ja ajaa Profile Manager -ohjelman?
+ProfileManagerConfirm,Haluatko varmasti käynnistää Profile Manager -ohjelman?
+EventViewerConfirm,Haluatko varmasti käynnistää tapahtumienvalvontaohjelman?
+TrainingConfirm,Haluatko varmasti käynnistää harjoitteluohjelman?
+PicklistConfirm,Haluatko varmasti käynnistää tuotelistan muokkausohjelman?
+RunADDConfirm,"Oletko varma, että haluat ajaa ADD-sovelluksen seuraavan uudelleenkäynnistyksen yhteydessä?"
+CalibrateConfirm,Haluatko varmasti kalibroida kosketusnäytön?
+ShutdownConfirm,Haluatko varmasti sammuttaa koko järjestelmän?
+RebootConfirm,Haluatko varmasti käynnistää uudelleen koko järjestelmän?
+CloseAllConfirm,Haluatko varmasti poistua kaikista sovelluksista ja siirtyä työpöydälle?
+VolumeConfirm,Haluatko varmasti säätää äänenvoimakkuutta?
+TerminalInfoConfirm,Haluatko varmasti katsoa kassapäätetietoja?
+StopFastLaneConfirm,Haluatko varmasti sulkea SelfServ Checkout-sovelluksen?
+StopRAPConfirm,Haluatko varmasti suljea EOO-sovelluksen?
+StartFastLaneConfirm,Haluatko varmasti käynnistää SelfServ Checkout-sovelluksen?
+StartRAPConfirm,Haluatko varmasti käynnistää EOO-sovelluksen?
+WindowsLogOnTxt,Sisäänkirjaudu Windows-ohjelmaan
+WindowsLogOnConfirm,Haluatko varmasti poistua kaikista sovelluksista ja kirjautua sisään uutena käyttäjänä?
+YesText,Kyllä
+NoText,Ei
+CommandPromptPrimaryTxt,Komentokehote 
+CommandPromptConfirm,Haluatko varmasti käynnistää komentokehotteen?
+RSMLEPrimaryTxt,Retail Systems Manager LE -jälleenmyyntijärjestelmien hallintaohjelma
+RSMLEConfirm,Haluatko varmasti käynnistää Retail Systems Manager LE -jälleenmyyntijärjestelmien hallintaohjelman?
+OperatorRegistrationUtility,Käyttäjän rekisteröinnin aputoiminto
+LaunchPadNet_EnterIDFpLeadthru,"Syötä käyttäjätunnus ja paina ""Syötä"" tai laita sormesi sormenjälkilukijaan sisäänkirjautumista varten."
+LaunchPadNet_ReEnterIDFpLeadthru,Virheellinen sisäänkirjautuminen. Kirjaudu sisään uudelleen näppäimistön tai sormenjäljen avulla.
+LaunchPadNet_ClearButtonText,Poista
+LaunchPadNet_EnterButtonText,Syötä
+LaunchPadNet_GoBackButtonText,Palaa takaisin
+LaunchPadNet_SpaceButtonText,Välilyönti
+LaunchPadNet_BackSpaceButtonText,Peruuta
+LaunchPadNet_EnterIDLeadthru,Syötä käyttäjätunnus alla olevalla näppäimistöllä:
+ReEnterIDLeadthru,Väärä käyttäjätunnus tai salasana. Syötä ne uudestaan alla olevalla näppäimistöllä.
+LaunchPadNet_EnterPasswordLeadthru,Syötä salasana alla olevalla näppäimistöllä:
+CancelButtonText,Peruuta
+LaunchPadNet_LoggingInLeadthru,Kirjaudutaan sisään…odota hetki
+LaunchPadNet_ShiftButtonText,Vaihto
+LaunchPadNet_SignedOffButtonText,Kirjauduttu ulos
+LaunchPadNet_ReEnterIDLeadthru,Väärä käyttäjätunnus tai salasana. Syötä ne uudestaan alla olevalla näppäimistöllä.
+LegalCaptionText,"LEGAL CAPTION\nThis system is for the use of authorized personnel only. By logging onto this system, you are subject to the terms and conditions of all Information Security policies and standards. Use by unauthorized individuals or for unauthorized purposes is a violation of federal and/or state law. The company reserves the right to take any necessary actions to protect authorized users, intellectual property and other information assets. Individuals using this system are subject to having all of their activities on this system monitored. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals possible evidence of criminal activity, system personnel may provide the evidence of such monitoring to law enforcement officials.\n        "
+SignBelow,Allekirjoita alle.
+SignOnTitle,NCR SelfServ Checkout Log In
+HH_TransactionCancelLeadThru2,Transaction cancelled.
+AlertStatusTextOff,
+AlertStatusTextOn,!!!
+InitialText,.
+PageIndicatorLabelFormat,Sivu {0}/{1}
+XM_CashUnbalance,Kierrättimessä tapahtui ristiriitavirhe.
+XM_Cassette,Kasetti
+XM_CassetteMissing,Setelikasetti ei ole yksikössä.\nLaita setelikasetti takaisin yksikköön.
+XM_Collect,Kerää
+XM_CollectFailure,Keruutoimenpide aiheutti häiriön.
+XM_EmptyCassetteAndRejectBin,Poista setelit setelikaseteista ja hylkäyskotelosta.
+XM_GloryDispenseCupFullPreemptive,"Ota kolikot\nJos kolikonpalautusalue on täynnä, tyhjennä pikaisesti.  Palautus keskeytyy, kunnes kulho tyhjennetään."
+XM_GloryDispenseFullPreemptive,"Ota setelit ja kolikot\nSetelit palautetaan 10 nipuissa. Palautus keskeytyy, kunnes kaikki setelit otetaan. Jos kolikonpalautusalue on täynnä, tyhjennä pikaisesti. Palautus keskeytyy, kunnes kulho tyhjennetään."
+XM_GloryDispenseNoteFullPreemptive,"Ota setelit\nSetelit palautetaan 10 nipuissa. Palautus keskeytyy, kunnes kaikki setelit otetaan."
+XM_GrandTotalText,Kokonaissumma: %s
+XM_InitializeError,"Järjestelmässä tapahtui virhe, joka on korjattava."
+XM_LeadThruGloryFunction,"Paina nimellisarvoa ja syötä summa\ntai paina ""Kerää""."
+XM_ManualRemoveCashAlertGlory,Poista rahat kasetista lainan peruuttamiseksi.\n\nSetelit\nPoistettava lukumäärä: %d\nPoistettava summa: %s
+XM_NegativeAlert_Remove,"Negatiivinen numero löydetty. Mahdollisia syitä: tapahtui näppäilyvirhe tai setelit laitettiin lataajakasettiin, mutta näiden setelien lukumääriä ei syötetty kassanhallintaan.\n\nRatkaise seuraavien vaiheiden mukaisesti:\n1. Valitse ""Lopeta"" ja valitse sitten ""Lisää käteinen"".\n2. Paina rahayksikköä, jossa on negatiivinen numero.\n3. Syötä negatiivisen numeron tarkka eurosumma ja/tai lataajaan laitettu summa.\n4. Valitse ""Ota muutokset käyttöön"".\n5. Vahvista valitsemalla ""Kyllä"" ja paina sitten ""Lopeta""."
+XM_OperatorID,Käyttäjätunnus %s
+XM_TotalAddedText,Lisätty yhteensä: %s
+XM_TotalColectedText,Kerätty yhteensä: %s
+XM_TotalRemovedText,Poistettu yhteensä: %s
+DueCart,Maksettava
+XM_ProcessingCashTextV6HW,•   Laita kolikoita kolikonvastaanottimeen.\n•   Laita seteleitä setelinvastaanottimeen.\n
+XM_CoinHoppersV6HW,Kolikkosuppilot
+XM_CoinBoxV6HW,Kolikkolaatikko - %d - %s
+XM_ConfirmTransferNotesToBaseLevelV6HW,Siirrä seteleitä setelilaatikkoon\n\nSiirrettävä summa: %s\nSiirrettävä lukumäärä: %d\n\nSiirtotoimenpide voi kestää muutaman minuutin.
+XM_ConfirmTransferAllNotesV6HW,Siirrä kaikki setelit setelilaatikkoon\n\nSiirrettävä summa: %s\nSiirrettävä lukumäärä: %d\n\nSiirtotoimenpide voi kestää muutaman minuutin.
+XM_ResetCoinsAllCoinsV6HW,Palauta kaikki kolikot
+XM_ResetCoinHopperCountsV6HW,Nollaa kolikkosuppilon lukemat
+XM_ResetNoteBoxCountsV6HW,Nollaa setelilaatikon lukema
+XM_MenuNoteBoxTransferV6HW,Setelilaatikon siirrot
+XM_AddCashLeadthruV6HW,"•   Laita kolikoita kolikonvastaanottimeen.\n•   Laita seteleitä setelinvastaanottimeen.\n•   Paina ""Aktivoi kolikkojen täyttökouru"" kolikkojen lisäämiseksi\n     täyttökouruun.\n•   Paina ""Aseta lataaja"" seteleiden lisäämiseksi lataajaan."
+XM_FinishedAddingCashV6HW,"Kun olet lisännyt rahat, paina ""OK""."
+XM_OKV6HW,OK
+XM_SetupLoaderV6HW,Aseta lataaja
+XM_SetupLoaderLeadthruV6HW,"•   Syötä oletusnimellisarvon mukainen summa/lukumäärä\n     ""%s"" lataajaa varten ja paina ""OK"".\n•   Kun valmis, ""Ota muutokset käyttöön""."
+XM_NoteLoaderV6HW,Setelilataaja
+XM_EnableCoinInputBowlV6HW,Aktivoi kolikkojen syöttöastia
+XM_EnableCoinRefillChuteV6HW,Aktivoi kolikkojen täyttökouru
+XM_EnableCoinAcceptorV6HW,Aktivoi kolikonvast.
+XM_TopOffCashPrintStatusV6HW,Lisää rahaa ja tulosta tila
+XM_TransferOperationPreemptiveV6HW,"Setelinsiirto käynnissä... odota.\n\nÄLÄ POISTA SETELILAATIKKOA tai   \nmuita laitteita, kunnes toimenpide on valmis."
+XM_TransferOperationInstructionV6HW,Siirto valmis.\nPoista kaikki setelit setelilaatikosta ja nollaa setelilaatikko.
+XM_PendingDispenseV6HW,Käynnissä palautus %d - %s
+XM_PendingTransferV6HW,Käynnissä siirto %d - %s
+XM_PendingResetV6HW,Käynnissä nollaus %d - %s
+XM_ConfirmResetNoteBoxV6HW,Nollaa setelilaatikon lukumäärät/arvo\n\nNollattava summa: %s\nNollattava lukumäärä: %d\n\nSumma setelilaatikon nollauksen jälkeen: 0 €\nLukumäärä setelilaatikon nollauksen jälkeen: 0
+XM_PendingCashRemoveV6HW,"Avaa turvaovi, poista setelilaatikko ja kaikki setelit.\nAseta tyhjä setelilaatikko takaisin paikalleen.\n\nKun valmis, paina ""OK""."
+XM_LeadThruResetNoteBoxFunctionV6HW,"Nollaustoiminnot\n•   Nollaa setelilaatikon lukema.\n•   Kun valmis, ""Ota muutokset käyttöön""."
+XM_AllV6HW,Kaikki
+XM_LeadThruTransferNotesToNoteBoxFunctionV6HW,"Setelilaatikon siirrot\n•   Siirrä setelit painamalla ""Ota muutokset käyttöön"".\n•   Peruuta painamalla ""Peruuta muutokset""."
+XM_ReplenishNotesFromLoaderToRecyclersPreemptiveV6HW,Lataus käynnissä... odota.
+XM_SetupLoaderAlertConfirmationV6HW,"Aseta lataaja\n\nVarmista, että lataajassa on oikeat arvot ja se on asetettuna paikalleen, lataa sitten setelit painamalla ""OK""."
+XM_SetupLoaderAlertConfirmation1V6HW,"Aseta lataaja\n\nLisää setelit lataajaan, varmista, että lataaja on asetettuna paikalleen, lataa sitten setelit painamalla ""OK""."
+XM_SetupLoaderConfirmationV6HW,"Aseta lataaja\n\n%s setelien tila lataajassa:\n\nAlkuperäinen / aloitussumma: %s\nAlkuperäinen / aloituslukumäärä: %d\nLataajaan lisättävä summa: %s\nLataajaan lisättävä lukumäärä: %d\n\nSuuremman nimellisarvon seteleitä lataajan\nalaosassa, jos nykyinen ladataan ja lasketaan\nautomaattisesti.\n\nLataustoimenpide voi kestää muutaman minuutin."
+XM_SetupLoaderConfirmation1V6HW,Aseta lataaja\n\nKaikki lataajan setelit ladataan ja\nlasketaan automaattisesti.\n\nLataustoimenpide voi kestää muutaman minuutin.
+XM_PendingNotesAddedV6HW,Oletusseteleitä lisätty %d - %s
+XM_ProcessingCashV6HW,Rahojen käsittely
+XM_ProcessingCashLeadThruV6HW,•   Laita kolikoita kolikonvastaanottimeen.\n•   Laita seteleitä setelinvastaanottimeen.
+XM_SetupLoaderLeadThru1V6HW,"•   Lisää seteleitä lataajaan painamalla ""Ota muutokset käyttöön"".\n•   Peruuta painamalla ""Peruuta muutokset""."
+XM_LeadThruDispenseFunctionV6HW,Palautustoiminnot\n•   Syötä %s seteleiden summa/lukumäärä näppäimistöllä.
+XM_LeadThruDispenseFunction1V6HW,"Palautustoiminnot\n•   Palauta kolikot painamalla ""Ota muutokset käyttöön"".\n•   Peruuta painamalla ""Peruuta muutokset""."
+XM_ConfirmCoinDispenseAllV6HW,Palauta kaikki kolikot\n\nPalautettava summa: %s\nPalautettava lukumäärä: %d
+XM_DispenseOperationPreemptiveV6HW,"Kolikkojen palautus käynnissä.\n\nPoista kolikot kolikkoastiasta, kun se on täynnä, ja paina ""OK""."
+XM_ConfirmCoinDispenseToBaseLevelV6HW,Annostele kolikot perustasolle\n\nPalautettava summa: %s\nPalautettava lukumäärä: %d
+XM_LeadThruResetCoinHopperFunctionV6HW,"Nollaustoiminnot\n•   Nollaa kolikkosuppilon lukemat.\n•   Kun valmis, ""Ota muutokset käyttöön""."
+XM_ResetCoinHopperLeadThruV6HW,"Poista kolikot kolikkosuppiloista. Aseta\ntyhjät kolikkosuppilot takaisin paikalleen.\n\nKun valmis, paina ""OK""."
+XM_LoaderCountEnteredExceededCapacityV6HW,Lataajalle syötetty lukumäärä ylittää kapasiteetin. Sallittu ladattava enimmäismäärä on %d.
+XM_CoinHopperPendingResetV6HW,Käynnissä nollaus %d - %s
+XM_ConfirmResetCoinHopperV6HW,Nollaa kolikkosuppilon lukumäärät/arvo\n
+XM_ConfirmResetCoinHopper1V6HW,\n%s\nNollaa summa: %s lukumäärä: %d\n
+XM_ConfirmResetCoinHopper2V6HW,\nNollauksen jälkeen:\nKolikoita suppilossa: %s lukumäärä: %d\nKolikoita kolikkolaatikossa: %s lukumäärä: %d
+XM_CannotCompleteTransferV6HW,Siirtoa ei voida päättää. \nKassalaatikossa ei ole riittävästi tilaa. \nTyhjennä kassalaatikko \nennen tämän toimenpiteen toteuttamista.
+XM_CashStatusLeadthruV6HW,"•   Tulosta käteisen tila.\n•   Laita kolikoita kolikonvastaanottimeen.\n•   Laita seteleitä setelinvastaanottimeen.\n•   Paina ""Lopeta"", kun olet valmis."
+XM_NonDispensableCoinsV6HW,Ei-palautettavissa olevat kolikot
+XM_DispensableCoinsV6HW,Palautettavissa olevat kolikot
+XM_ConfirmNoteDispenseV6HW,Palauta seteleitä\n\nPalautettava summa: %s\nPalautettava lukumäärä: %d
+XM_DispenseNoteFullPreemptiveV6HW,"Ota setelit\n\nSetelit palautetaan %d nipuissa.\nPalautus keskeytyy, kunnes kaikki setelit otetaan."
+XM_NoteBoxV6HW,Setelilaatikko
+XM_NoteRecyclerV6HW,Setelinkierrättimet
+XM_DispenseCoinsToBaseLevelV6HW,Ann. kol.\np-tasoon asti
+XM_TransferNotesToBaseLevelV6HW,Siirrä setelit perustasolle asti
+XM_TransferAllNotesV6HW,Siirrä kaikki setelit
+XM_LeadThruNoteBoxTransferV6HW,"Setelilaatikon siirrot\n•   Valitse haluamasi siirtotoiminto.\n•   Kun valmis, ""Ota muutokset käyttöön""."
+XM_LeadThruResetFunctionV6HW,"Nollaustoiminnot\n•   Valitse haluamasi nollaustoiminto.\n•   Kun valmis, ""Ota muutokset käyttöön""."
+XM_LeadThruDispenseFunction2V6HW,"Palautustoiminnot\n•   Paina seteliyksikköä ja syötä summa/lukumäärä tai valitse toiminto.\n•   Kun valmis, ""Ota muutokset käyttöön""."
+XM_SignSigTouchDisplayV6HW,Allekirjoita kosketusnäytölle.
+XM_LeadThruCashManagementErrorV6HW,Kassanhallinnan virhe
+XM_LoanPickupUpdateFailureV6HW,Kassanhallinnan päivitys epäonnistui
+XM_LoanPickupUpdateNoResponseV6HW,Ei vastausta POS:sta kassanhallinnan tilaa päivitettäessä
+XM_LoanPickupUpdateFailureInstructionV6HW,"\n• Paina päivittämiseksi ""Yritä uudelleen""\n• Jos virhe tapahtuu uudelleen, ota yhteyttä myymälän johtoon\n• Tämä virhe ei poistu, kunnes päivitys onnistuu."
+XM_LoanPickupUpdateNoResponseInstructionV6HW,• Raportoi tämä virhe heti myymälän johdolle.\n• Kassanhallinnan tila ei ole välttämättä päivittynyt.\n•   Avaa aputoimintonäyttö.
+XM_LoanPickupUpdateNoResponseInstruction1V6HW,"•   Paina ""Luo virhelokitiedostot"" ja paina sitten ""Sammuta koko järjestelmä"".\n•   Käynnistä järjestelmä uudelleen.\n•   Jos virhe ilmenee uudelleen, luo toinen virhelokitiedosto ja ota yhteys huoltoon.\n"
+XM_CashManagementErrorRetryButtonV6HW,Yritä uudelleen
+XM_DispenseThresholdV6HW,Syötetty lukumäärä ylitti palautettavina olevien\nmäärän. Maksimi määrä syötettiin: %d
+ScotApp_1742,VIRHEELLINEN KASSI 
+ScotApp_71,71unused
+ScotApp_61,61unused
+ScotApp_51,Kuponkia ei voi lukea
+ScotApp_41,Rajoitetut tuotteet
+ScotApp_31,Kupongit
+ScotApp_1055,1055unused
+ScotApp_11,11unused
+ScotApp_789,"Vedä kortti kortinlukijan läpi.\nTarkista, ettei koriin ole jäänyt tuotteita."
+ScotApp_689,  Sales:      %d
+ScotApp_589,Device Factory -ohjelma on ladattu.
+ScotApp_389,Korttia käsitellään
+ScotApp_289,289unused
+ScotApp_189,Asetukset on ladattu.
+ScotApp_91,91unused
+ScotApp_773,Säästetty summa:
+ScotApp_673,Anna asiakkaalle %s vaihtorahat.
+ScotApp_1264,USERDEFINED6
+ScotApp_473,Tarviketaso alhainen
+ScotApp_373,Tulostimessa poistovirhe
+ScotApp_989,989unused
+ScotApp_889,%s\nTodellinen paino(%s): %s\nOdotetut painot(%s): %s
+ScotApp_1520,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1042,"SIIRTOKUITTI:\nTÄMÄ KUITTI ON TULOSTETTU, KOSKA ASIAKIRJAN\nSIIRTO EPÄONNISTUI.  LIITÄ TÄMÄ KUITTI\n KYSEISEEN ASIAKIRJAAN.\n----------------------------------------\n"
+ScotApp_973,973unused
+ScotApp_873,Sosiaaliturvatunnus: [Social Security Number in Finnland]
+ScotApp_1737,Oma kassi
+ScotApp_752,Edellisen päivän yhteenveto
+ScotApp_652, **Painotietokannassa ei ole kirjauksia tälle tuotekoodille
+ScotApp_1054,1054unused
+ScotApp_452,"Varmista, että kaapeli on kiinnitetty kunnolla kolikonvastaanottimen reunaan."
+ScotApp_352,Päivitä
+ScotApp_252,\nKolikonpalauttimessa on tukos\n\nPoista tukos kolikonpalauttimesta.
+ScotApp_152,152unused
+ScotApp_1310,"* Irrota setelinvastaanotin.\n* Työnnä vastaanotinta, kunnes se lukkiutuu paikalleen.\n* Varmista, että setelinvastaanottimen moottori käynnistyy ja että LED-valo on vihreä."
+ScotApp_661,(Oletus)
+ScotApp_952,Lisää nollapaino
+ScotApp_852,Kolme tuotetta
+ScotApp_1527,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1838,Tarkista tuote
+ScotApp_731,Yhteenveto
+ScotApp_631,Omistajan nimi:
+ScotApp_531,\nAllekirjoituksen tallennuslaitteen virhe
+ScotApp_331,Siirrä tuotteet tarkistusvaa’alta. Näppäimistö on estetty.
+ScotApp_231,231unused
+ScotApp_131,Jätä kupongit
+ScotApp_1736,"Aseta omat kassit pakkausalueelle ja paina ""Valmis"", kun olet valmis."
+ScotApp_1250,PIP LUOTTO
+ScotApp_831,831unused
+ScotApp_300,300unused
+ScotApp_1306,%s Vaihtoraha palautettu
+ScotApp_710,710unused
+ScotApp_610,Tuotteen paino:
+ScotApp_510,Allekirjoita uudestaan
+ScotApp_310,kotelo on melkein tyhjä
+ScotApp_210,210unused
+ScotApp_110,Punnitse tuote
+ScotApp_1526,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1126,"Kolikonpalauttimen virhe.\n\nTarkista, palauttimen päällekytkentäkytkin, jos ko. laitteessa on sellainen."
+ScotApp_1040,Allekirjoitus
+ScotApp_810, Harjoittelu
+ScotApp_1735,Aseta omat kassit
+ScotApp_1257,PIP FOODSTAMPS
+ScotApp_704,PINPad-syöttö
+ScotApp_604,Lue tuotteen viivakoodi.
+ScotApp_504,504unused
+ScotApp_404,404unused
+ScotApp_304,Valitse tuotepakkaus
+ScotApp_204,Tiedostoa kopioidaan palvelimelle…
+ScotApp_104,104unused
+ScotApp_1269,USERDEFINED11
+ScotApp_904,Tuotteen painon hyväksyntä
+ScotApp_804,804unused
+ScotApp_1047,Tukea tarvitaan. Ole hyvä ja odota valvojan apua.
+ScotApp_1478,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1134,Setelikasetti on täynnä.
+ScotApp_1734,Toin oman kassin
+ScotApp_1256,PIP EBT
+ScotApp_1512,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1465,Rahan kierrätyslaitteen virhe
+ScotApp_1721,Harjoittelutilan tapahtuma
+ScotApp_1890,Processing...
+ScotApp_1243,ETUKORTTI
+ScotApp_1544,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_63,Ei
+ScotApp_53,53unused
+ScotApp_43,43unused
+ScotApp_33,Ongelma on korjattu
+ScotApp_1255,PIP TILIVELOITUS
+ScotApp_13,  %ss @ %s/%s
+ScotApp_1511,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_93,Lue & pakkaa
+ScotApp_83,83unused
+ScotApp_1464,Kassanumero
+ScotApp_1189,SYÖTETTY TUOTE
+ScotApp_1720,PP:
+ScotApp_1045,Maksa %s
+ScotApp_672,*** TAPAHTUMA SUORITETAAN  HARJOITTELUTILASSA ***
+ScotApp_572,Näppäile tuotteen koodi ja paina Syötä.
+ScotApp_472,Apua tarvitaan
+ScotApp_372,Kommunikaatiovirhe: tulostaa ei voi poikittain
+ScotApp_272,Tarkista käytetyt kupongit
+ScotApp_172,Lue ei halutun tuotteen viivakoodi tai valitse tuote sähköiseltä kuitilta.
+ScotApp_1510,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1701,%s palautus epäonnistui.
+ScotApp_972,972unused
+ScotApp_872,Peruuta keskeytys
+ScotApp_1188,SYÖTETTY MÄÄRÄ
+ScotApp_1727,Tuotteen haku
+ScotApp_751,Tänään tunneittain
+ScotApp_651,Oletus
+ScotApp_551,551unused
+ScotApp_451,Kolikonvastaanottimen tila: tukos
+ScotApp_351,Vaihtorahan / paperin tila
+ScotApp_251,251unused
+ScotApp_151,Ota vaihtorahat
+ScotApp_951,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s poistettu;LSWND3=%s;
+ScotApp_851,Kaksi tuotetta
+ScotApp_730,730unused
+ScotApp_630,Luottokortti #:
+ScotApp_430,Epäkunnossa
+ScotApp_330,Tukitila
+ScotApp_230,Setelinvastaanottimen tila: hylätty
+ScotApp_130,Ole hyvä ja jätä kupongit.
+ScotApp_1726,Haku päättynyt
+ScotApp_930,Tarkista yhteys.
+ScotApp_830,Tuote on poistettu
+ScotApp_193,193unused
+ScotApp_1457,Rahataso on korkea
+ScotApp_1283,1283unused
+ScotApp_724,724unused
+ScotApp_624,Kelpaamaton poikkeama syötetty
+ScotApp_424,Syötä määrä
+ScotApp_324,Tietoa ei tarvita
+ScotApp_224,Kortinlukijan keruulaatikko on poistettu
+ScotApp_124,124unused
+ScotApp_1469,"%s:n palautus asiakkaalle epäonnistui. %s\n* Tarkasta kolikon- ja setelinpalauttimet.\n* Paina ""Vaihtorahan / paperin tila"" täyttöä varten tai poistaaksesi tukoksen."
+ScotApp_924,924unused
+ScotApp_824,Keskeytysvahvistus
+ScotApp_576,Aloita korttimaksu.
+ScotApp_1247,FOODSTAMPS
+ScotApp_1678,Setelikierrättimen virhe
+ScotApp_1503,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1756,"Valitse hakutuloksista tai ""Palaa takaisin""."
+ScotApp_1456,Väärä kassanhoitajan numero ja salasana.\nYritä uudelleen
+ScotApp_1502,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1712,Keskeytys hylätty
+ScotApp_1468,Rahan kiertolaitteen tila: tyhjä
+ScotApp_1246,EBT
+ScotApp_75,Valmis
+ScotApp_65,65unused
+ScotApp_55,Poista kaikki
+ScotApp_45,45unused
+ScotApp_35,Palautussumma:
+ScotApp_1258,PIP LAHJAKORTTI
+ScotApp_15,Tuotekoodi:
+ScotApp_1711,Keskeytys kielletty
+ScotApp_1683,Ei-korjattavissa oleva virhe.  Sulje kassa.  Soita Gunnebolle ja anna alla näkyvät virhetiedot.\n\nSafePay-virhe: %s
+ScotApp_95,Lue kupongit
+ScotApp_85,85unused
+ScotApp_1058,Avust. maksuväl.
+ScotApp_1664,Setelitukos
+ScotApp_797,"Vaihtorahan palautus epäonnistui %s.\n* Tarkista kaseteissa olevat setelit ja tarkista, ettei kolikonpalauttimessa ole tukoksia.\n* Varmista, että kolikkokasetit ja lajittelukotelo on lukittu paikalleen.\n* Sulje turvaovi."
+ScotApp_697,697unused
+ScotApp_597,NCR SelfServ Checkout Forms -lomakeohjelmaa ladataan %d...
+ScotApp_497,Maksettava summa:
+ScotApp_297,297unused
+ScotApp_197,Palveluiden esittely on ladattu.
+ScotApp_997,Syötä hinta
+ScotApp_897,WTINFO-ohjelma on ladattu.
+ScotApp_1454,Näppäile salasana ja paina Syötä.
+ScotApp_1710,Ota palautettu käteinen
+ScotApp_1741,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s odot.;LSWND3=%s %s tod.
+ScotApp_1388,Harjoitteluohjelma
+ScotApp_771,Peruuta keskeytys
+ScotApp_671,Poistu harjoittelutilasta
+ScotApp_571,Näppäile määrä ja paina Syötä.
+ScotApp_471,   Silmämääräinen vahvistus
+ScotApp_371,Vaihda tulostimen kirjoitinpää
+ScotApp_271,Hyväksy käytetyt kupongit
+ScotApp_971,971unused
+ScotApp_871,Vahvista keskeytys
+ScotApp_1840,Myymälä #:
+ScotApp_750,Päivän yhteenveto
+ScotApp_650,Tavallinen tuote
+ScotApp_550,550unused
+ScotApp_450,450unused
+ScotApp_350,Vaihtorahan / paperin tila
+ScotApp_250,250unused
+ScotApp_150,Valitse palautettavan käteisen koko
+ScotApp_1773,"Hyväksy kuponki valitsemalla ""Hyväksy kuponki"" tai mitätöi se tukitilassa."
+ScotApp_950,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s lisätty;LSWND3=%s;
+ScotApp_850,Yksi tuote
+ScotApp_1405,POS ei ole ajoitettu. Siirry tukitilaan ajoittaaksesi sen.
+ScotApp_1513,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1657,Väärä os.
+ScotApp_1225,TUNTEMATON TUOTE
+ScotApp_644,-------------------------------------------------------------------
+ScotApp_544,Salasana ei voi olla yli %d merkin pituinen.
+ScotApp_444,Food Stamps
+ScotApp_344,344unused
+ScotApp_244,244unused
+ScotApp_144,Vertaa allekirjoitusta
+ScotApp_1590,KOTELOSSA %s KOLIKKOTUKOS
+ScotApp_1669,Kolikko-/setelikierrättimen virhe
+ScotApp_944,Liian monta pyyntöä kassi/laatikko.  Maksimi = %d.
+ScotApp_844,844unused
+ScotApp_1729,Haettavat tuotteet:
+ScotApp_1447,Poista setelit
+ScotApp_1703,(+)
+ScotApp_1656,Syötä os. koodi ja paina Syötä
+ScotApp_915,Liian monta hihnan ohituspyyntöä.  Maksimi = %d.
+ScotApp_1668,Osoitetussa paikassa voi olla setelitukos.  Avaa setelikierrättimen yläkansi.  Irrota kaikki siellä olevat juuttuneet setelit.  Sulje yksikkö ja aseta setelikierrättimen yläkansi paikalleen.  Jatka tapahtumaa.
+ScotApp_1542,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1139,Setelinpalauttimen ovi on auki.
+ScotApp_1254,PIP TILIVELOITUS
+ScotApp_1249,PIP YLEINEN
+ScotApp_77,Luotto
+ScotApp_67,Palaa takaisin
+ScotApp_57,Lopeta & maksa
+ScotApp_47,Käynnistä
+ScotApp_37,37unused
+ScotApp_1458,NCR SelfServ Checkout-raportti
+ScotApp_17,Kuponki
+ScotApp_1752,Vaa’alla oleva paino on yli kapasiteetin.
+ScotApp_1643,Setelikierrättimen virhe
+ScotApp_97,Valitse pakkaus luettelosta
+ScotApp_87,87unused
+ScotApp_1665,Avaa kasetin lukko ja poista kasetti.  Irrota juuttunut seteli.  Aseta kasetti takaisin paikalleen. Sulje kierrätinyksikkö. Jatka tapahtumaa.
+ScotApp_1138,%s palautus epäonnistui.
+ScotApp_1589,KOLIKOT OVAT LOPPU
+ScotApp_1445,Lukumäärän muutos
+ScotApp_1318,Lue vaihto- tai hyvitystositteen viivakoodi
+ScotApp_1654,Määrä ylittää kapasiteetin. Maksimi tarvittava ladattava määrä on %d. %d-määrä syötetään automaattisesti.
+ScotApp_796,"Vaihtokolikot ovat vähissä tai kolikonpalauttimessa on virhe/sitä ei ole kytketty päälle.\n* Kytke kolikonpalautin päälle TAI\n* täytä se; kytke kolikonpalautin pois päältä ja sitten takaisin päälle, paina kassatilanäytöltä kohtaa ""Kolikonpalautin on täytetty""."
+ScotApp_696,696unused
+ScotApp_596,NCR SelfServ Checkout AuxDisp -ohjelma on ladattu.
+ScotApp_1391,"Paina ""Ongelma on korjattu"".\nJos virhe ei katoa, sammuta kassapääte ja käynnistä se uudelleen."
+ScotApp_396,Myymälähenkilökunnan apua tarvitaan:
+ScotApp_296,296unused
+ScotApp_196,Palveluiden esittelyä ladataan…
+ScotApp_1588,Jokainen kotelo on tyhjennettävä ennen kuin Palauttimen nouto -painikkeen voi valita.  Tyhjennä jokainen kolikkosuppilokotelo ja paina sitten Palauttimen nouto.
+ScotApp_996,Hinnan syöttö
+ScotApp_896,WTINFO-ohjelmaa ladataan...
+ScotApp_574,Näppäile salasana ja paina Syötä.
+ScotApp_1093,Tulosta viimeinen kuitti
+ScotApp_1641,"Täytä kolikkosuppilo ja jatka. Ellei kolikoita annostella, suppilo saattaa olla lukossa.  Ota yhteys huoltoon.\n\nSafePay-virhe: %s"
+ScotApp_1781,KIITOS AIKA KULUI UMPEEN
+ScotApp_562,Kupongit on käsiteltävä aputilassa.
+ScotApp_874,Näppäile sosiaaliturvatunnus # ja paina Syötä. : [Social Security Number in Finnland]
+ScotApp_1124,1124unused
+ScotApp_770,Vahvista keskeytys
+ScotApp_670,Siirry harjoittelutilaan
+ScotApp_570,570unused
+ScotApp_470,   Ikärajallinen
+ScotApp_370,Tulostin on auki
+ScotApp_270,Hyväksy kupongit
+ScotApp_170,Poista tuote vaa’alta ja paina lukulaitteessa olevaa Nollaa vaaka -näppäintä.
+ScotApp_1640,Suppilo-ongelma
+ScotApp_870,Hälytykset:
+ScotApp_1733,"Valitse ""Palaa takaisin"" jatkaaksesi."
+ScotApp_1553,Ylhäinen rahantila:
+ScotApp_664,Lue tuotteiden koodit tai valitse kieli.
+ScotApp_564,564unused
+ScotApp_464,%s               %s
+ScotApp_364,364unused
+ScotApp_264,264unused
+ScotApp_964,Siirrä tuote pois ja paina Nollaa hälytys tai paina Hyväksy & päivitä paino.
+ScotApp_864,Hyväksyntä:
+ScotApp_1647,(kkppvvvv)
+ScotApp_1119,"Setelinpalautin ei toimi, kun ovi on auki.\n\nSulje ja lukitse palauttimen ovi tai turvaovi.\n\nJos virhe uusiutuu, ota yhteys huoltoon."
+ScotApp_1659,Tulosta kuitti
+ScotApp_819,Vahvista mitätöidyn tuotteen myynnin keskeytys.
+ScotApp_1339,Käynnistä koko järjestelmä uudelleen
+ScotApp_1582,Tarvikkeiden tila
+ScotApp_1154,Lukulaitteen virhe
+ScotApp_1117,"%s setelinpalautuskasetti on ulkona tai sitä ei ole asennettu kunnolla paikalleen.\n\nAsenna paikalleen %s setelikasetti, kunnes se lukkiutuu oikeaan kohtaan."
+ScotApp_1294,Q – S
+ScotApp_1030,Syötä kuponki sisään.
+ScotApp_1658,"Varmista, että asiakas on saanut oikein vaihtorahaa takaisin."
+ScotApp_1421,Tukitila
+ScotApp_709,709unused
+ScotApp_1129,Korjaustoimintoa ei suoritettu kunnolla.\n\nYritä uudelleen.
+ScotApp_509,509unused
+ScotApp_409,Laitteistosanoma
+ScotApp_309,euro
+ScotApp_209,Pysäytä ohjelma
+ScotApp_109,Jatketaanko?
+ScotApp_1338,Hae virhetiedostot
+ScotApp_909,Tarkistusvaa’alla on väärä paino.
+ScotApp_809,POS-viesti:
+ScotApp_1645,"Tarkista, että setelikansi on tiukasti kiinni."
+ScotApp_1116,"Setelinpalautin ei toimi, jos hylättyjen seteleiden koteloa ei ole asennettu paikalleen oikein.\n\nAseta hylättyjen seteleiden kotelo paikalleen ja varmista, että se lukkiutuu sinne kunnolla."
+ScotApp_1128,%s\n
+ScotApp_1452,Näppäile tunnus ja paina Syötä.
+ScotApp_183,183unused
+ScotApp_1450,Lukkolaatikko
+ScotApp_1293,P
+ScotApp_1644,Setelikierrättimen kansi on irti
+ScotApp_1115,RAPORTOIDAAN EI YHDISTETYSSÄ TILASSA
+ScotApp_795,Ostotapahtumaa valvottiin paremman palvelun varmistamiseksi.
+ScotApp_695,695unused
+ScotApp_595,NCR SelfServ Checkout AuxDisp -ohjelmaa ladataan...
+ScotApp_395,Myyntirajoitteisia tuotteita ei sallita.
+ScotApp_295,295unused
+ScotApp_195,Device Manager -laitteenhallintaohjelma on ladattu.
+ScotApp_566,566unused
+ScotApp_1324,Paino jää vaa’alle \ntapahtuman jälkeen.
+ScotApp_995,Mene kassalle ja kirjaudu myyntitilaan kassan avaamiseksi.
+ScotApp_895,DBM-ohjelmaa suljetaan…
+ScotApp_1102,Seuraava
+ScotApp_1383,(Poikkeus)
+ScotApp_1402,HYLÄTTYJEN SETELIEN KOTELON PISTOKE EI OLE KYTKETTY.
+ScotApp_1292,N – O
+ScotApp_1114,Päätä raporttikausi -päivitys onnistui
+ScotApp_1222,EPÄKUNNOSSA
+ScotApp_1101,%s\t%s
+ScotApp_1159,PinPad/EFT-laite ei reagoi.
+ScotApp_1100,%s
+ScotApp_1539,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1649,(ppkkvvvv)
+ScotApp_1317,Maksu vaihto- tai hyvitystositteella
+ScotApp_1883,"Tarkasta kassivaaka ja ostoskori ylim. tuotteiden varalta ja paina ""Kuittaa hälytys""."
+ScotApp_729,729unused
+ScotApp_629,Veloitettava summa:
+ScotApp_429,Punainen
+ScotApp_329,  %ss @ %d %s/%s
+ScotApp_229,229unused
+ScotApp_129,"Varmista, että mitätöidyt tuotteet on asetettu sivuun."
+ScotApp_1107,%s\t%s\tMäärä %s @ %s/%s\t%s
+ScotApp_1538,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_929,Painotietokanta ei kommunikoi oikein.
+ScotApp_829,829unused
+ScotApp_1316,"* Avaa tulostimen kansi ja tarkista, ettei kuvassa näytetyllä alueella ole tukosta.\n * Sulje kansi ja vaihda uusi kuittirulla."
+ScotApp_81,Jatka
+ScotApp_1882,Smart Assist  -hälytys - tuotetta ei luettu.
+ScotApp_1673,Kolikkotukos
+ScotApp_1135,Setelinpalauttimen virhe
+ScotApp_1705,Yhteysvirhe.
+ScotApp_1894,Set item aside and continue with your purchase.
+ScotApp_787,"Syntymäaika syötetty: %s, %d ikäinen"
+ScotApp_1398, AValv./Harj.
+ScotApp_1106,%s\t%s\tMäärä %s @ %s/per\t%s
+ScotApp_1525,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1493,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1490,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1315,"* Avaa tulostimen kansi ja tarkista, ettei sen sisässä ole tukosta.\n * Sulje kansi ja vaihda uusi kuittirulla."
+ScotApp_1881,"Tarkasta kassivaaka, poista ylimääräiset tuotteet ja paina ""Kuittaa hälytys""."
+ScotApp_1173,TUOTTEEN MITÄTÖINTI HYVÄKSYTTY
+ScotApp_1524,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_505,Väärä numero
+ScotApp_1302,Sulje
+ScotApp_905, (lisätietoa sähköisellä kuitilla…)
+ScotApp_1164,Tulostinta ei ole asetettu paikalleen oikein.
+ScotApp_1492,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1314,* Avaa tulostimen kansi ja poista paperiroskat.\n * Sulje kansi.\n * Vaihda uusi kuittirulla.\n* Syötä paperi tulostimeen rullan yläpuolelta.
+ScotApp_1817,"* Vedä kolikkokierrätin ulos.\n* Avaa pyöreät sivuovet ja poista kolikot hihnoilta.\n* Varmista, että kaikki ovet ovat kiinni ja kunnolla lukittuja.\n* Palauta kolikot asiakkaalle. Jos virhe uusiutuu, ota yhteys huoltoon.	"
+ScotApp_1442,Lisää seteleitä tai paina Poista setelit niiden poistamiseksi.
+ScotApp_1880,Kassivaa’alla on odottamaton tuote.
+ScotApp_1172,KESKEYTYS VAHVISTETTU
+ScotApp_1415,1415unused
+ScotApp_788,Syntymäaika kelpaa:%s
+ScotApp_688,688unused
+ScotApp_588,Device Factory -ohjelmaa ladataan...
+ScotApp_488,Aseta tuote vaa’alle: %s
+ScotApp_388,Käsitellään…
+ScotApp_288,"Paina ""Ongelma on korjattu"".\nEllei virhe katoa, käynnistä pääte uudelleen: Aseta päävalv. avainlukko S-asentoon TAI paina päävalvojanäppäintä. Valitse Sammuta koko järjestelmä. Kun näyttö pimenee, sammuta kassapääte UPS-laitteen tai pistorasian kautta. Käynnistä kassapääte. Jos virhe uusiutuu, ota yhteys huoltoon."
+ScotApp_188,Asetuksia ladataan…
+ScotApp_988,Hihnalla on odottamaton tuote tai esine. Siirrä se pois.
+ScotApp_888,Pakkausalueella on odottamaton tuote tai esine.  Siirrä tuote pois.
+ScotApp_1887,Tarkastele tapahtumaa
+ScotApp_1171,ODOTTAMATON NOUSU
+ScotApp_1199,ERÄÄNTYMISPÄIVÄ SYÖTETTY
+ScotApp_1300,Aloita tapahtuma
+ScotApp_1326,Kupongin syöttöaika on päättynyt
+ScotApp_1291,K – M
+ScotApp_1517,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1886,Tarkasta ylim. tuotteiden varalta.
+ScotApp_749,749unused
+ScotApp_1529,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_549,549unused
+ScotApp_449,Kolikonvastaanottímen tila: hylätty
+ScotApp_349,349unused
+ScotApp_249,249unused
+ScotApp_149,Syötä PIN-koodi
+ScotApp_1307,Kuittia tulostetaan
+ScotApp_1738,Valvoja varmistaa kassit
+ScotApp_949,949unused
+ScotApp_717,717unused
+ScotApp_617,Valitse asetus painovertailua varten. (Vertaa tuotteen painoa tallennettuihin painoihin.)
+ScotApp_517,Muu maksutapa on valittu.
+ScotApp_417,Kokonaissumma on ladattu.
+ScotApp_317,317unused
+ScotApp_217,217unused
+ScotApp_117,Aseta tuotteet sivuun
+ScotApp_1516,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1885,Tuotetta ei luettu
+ScotApp_917,Liian monta pyyntöä tuotteiden siirtämiseksi pakkausalueelta.  Maksimi = %d.
+ScotApp_817,Apua tarvitaan
+ScotApp_1177,PAKKAA TUOTE AIKA PÄÄTTYNYT
+ScotApp_1528,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1175,"ÄLÄ PAKKAA, RAJA YLITETTY"
+ScotApp_1109,%s\t%s\t%s @ %s/%s\t%s
+ScotApp_1453,Kassanhoitajan salasana
+ScotApp_1693,Korvikekolikot
+ScotApp_1515,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_7,7unused
+ScotApp_6,6unused
+ScotApp_5,5unused
+ScotApp_4,4unused
+ScotApp_3,3unused
+ScotApp_2,kg
+ScotApp_1,lb 
+ScotApp_1176,UUSI TUOTE SYÖTETTY
+ScotApp_1724,HARJOITTELUTILAN TAPAHTUMA
+ScotApp_1019,Aseta tuote hihnalle
+ScotApp_9,9unused
+ScotApp_8,8unused
+ScotApp_609,Muokkaa sallittua painopoikkeamaa
+ScotApp_1305,%s syötetty
+ScotApp_1893,Invalid Barcode
+ScotApp_1409,Tukivalikko
+ScotApp_1692,Päävalvojan sisäänkirjautuminen
+ScotApp_1163,"Paina ""Ongelma on korjattu"".\n\nJos virhe ei katoa, käynnistä kassapääte uudelleen:\nKäännä päävalvojan avainlukko S-asentoon TAI paina päävalvojanäppäintä.\nValitse Sammuta koko järjestelmä.\nKun näyttö pimenee, sammuta kassapääte UPS-laitteesta tai pistorasian kytkimestä.\nKytke kassapääte päälle. Jos virhe uusiutuu, ota yhteys huoltoon."
+ScotApp_1514,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1372,Kolikonvastaanotin
+ScotApp_1048,1048unused
+ScotApp_967,967unused
+ScotApp_1304,Etukortti on hyväksytty.
+ScotApp_1162,Laite ei ole yhdistetyssä tilassa.
+ScotApp_1833,Poik_TL
+ScotApp_1818,"* Avaa suppilon telineen lukitus ja vedä se ulos tukoksen poistamiseksi (I).\n* Palauta juuttuneet kolikot oikeisiin suppilokoteloihin. Aseta sitten suppilon teline paikalleen ja lukitse.\n* Vedä kolikkokierrätin ulos. Avaa sitten kannen lukitus ja irrota kansi.\n* Kytke kuvassa näytettävä kaapeli irti (II).\n* Vapauta vastaanottimen oikealla puolella oleva punainen salpa, vedä sitä eteen ja käännä ympäri poistaaksesi tukokset osoitetulta alueelta (III).\n*Aseta vastaanotin takaisin paikalleen ja kytke kaapeli uudelleen.\n* Aseta kansi paikalleen ja lukitse. Jos virhe uusiutuu, ota yhteys huoltoon."
+ScotApp_1174,PAINO EI TÄSMÄNNYT
+ScotApp_1500,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1366,Vaaka
+ScotApp_1161,Hakulaitteen virhe
+ScotApp_1717,TP:
+ScotApp_1832,Poik_os
+ScotApp_1370,Salain
+ScotApp_669,Allekirjoitusten tulostus epäonnistui. Tulostuksen aikana tapahtui virheitä.
+ScotApp_569,Näppäile koodi
+ScotApp_469,469unused
+ScotApp_369,Tulostimen kommunikaatiovirhe
+ScotApp_269,Tukitila
+ScotApp_1507,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_969,969unused
+ScotApp_737,737unused
+ScotApp_637,Turvatoiminnot eivät ole yhdistetyssä tilassa. Viimeinen toimenpide peruutettiin.
+ScotApp_537,537unused
+ScotApp_437,Arvo ei riitä
+ScotApp_337,Lue tuotteen viivakoodi tai syötä se ja paina OK.
+ScotApp_237,"Työnnä kasetti aukkoon, kunnes se lukittuu paikalleen.\n\nNykäise kasetin kahvasta varmistaaksesi, että lukitsin pitää kasetin oikeassa asennossa."
+ScotApp_137,Ota vaihtorahat
+ScotApp_931,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s odotettu;LSWND3=%s %s todettu;
+ScotApp_1519,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1831,Int
+ScotApp_937,Rajoita tuotteita\Poista tuotteet
+ScotApp_837,Maksut
+ScotApp_1702,*** KUITIN KAKSOISKAPPALE ***
+ScotApp_1377,määrä
+ScotApp_1728,Valitse tuote suosituimmista tuotteista tai hae tuote aakkosten mukaan. 
+ScotApp_1395,Siirry valvojatilaan
+ScotApp_716,716unused
+ScotApp_616,Painovertailu
+ScotApp_516,Muu maksutapa
+ScotApp_416,Kokonaissummaa ladataan...
+ScotApp_316,316unused
+ScotApp_216,"* Avaa tulostinkotelon ovi.\n* Avaa tulostimen kansi tarkastaaksesi, ettei laitteen sisällä ole tukoksia\n* Sulje tulostimen kansi ja lisää kuittipaperia.\n* Sen jälkeen tulostuuu kuitti, jossa on hymymerkki.\n* Sulje ja lukitse tulostinkotelon ovi."
+ScotApp_116,Poista kaikki tuotteet
+ScotApp_1522,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1506,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1879,"Tarkista kassivaaka ja paina ""Kuittaa hälytys""."
+ScotApp_916,Tarkista kassalla olevat tuotteet ja paina Nollaa hälytys.
+ScotApp_816,816unused
+ScotApp_1167,"* Avaa tulostinkaapin ovi.\n* Irrota tulostin ja työnnä sitä taaksepäin\n* Avaa tulostimen kansi tarkistaaksesi, ettei laitteen sisässä ole tukoksia.\n* Sulje tulostimen kansi ja lisää kuittirulla.\n* Vedä tulostinta varovaisesti eteenpäin, kunnes se lukkiutuu oikeaan asentoon."
+ScotApp_1518,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1830, Syötöt hyväksytty 
+ScotApp_1376,", %s"
+ScotApp_783,783unused
+ScotApp_683,683unused
+ScotApp_583,Korttia ei hyväksytä.
+ScotApp_483,Ole hyvä ja allekirjoita allekirjoitusruutuun oheisella kynällä.
+ScotApp_383,383unused
+ScotApp_283,Syötä salasana
+ScotApp_1505,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_983,Kuljetushihnaa ladataan…
+ScotApp_883,Vahvista keskeytys
+ScotApp_1363,Rivinäytin
+ScotApp_1714,HYVÄKSYTTY KESKEYTYKSEN HYLKÄYS
+ScotApp_1837,Paina ”Hyväksy” tapahtuman jatkamiseksi.
+ScotApp_1449,Seteleiden tila
+ScotApp_1375,Tapahtuman jälkeinen tuotemuutos:\n%s
+ScotApp_1248,LAHJAKORTTI
+ScotApp_1153,Paperitukos.
+ScotApp_1504,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1362,Avainlukko
+ScotApp_1836,KELPAAMATON VIIVAKOODI
+ScotApp_1571,Vahvista muutosten huomioimatta jättäminen
+ScotApp_1215,LAITEVIRHE
+ScotApp_1858,Discrepancy error occurred in the recycler.
+ScotApp_1152,Tulostimesta on paperi loppu.
+ScotApp_1700,"%s:n palautus epäonnistui. %s\n* Tarkasta kolikko- ja setelipalauttimet.\n* Jos tyhjiä, täytä.\nJos ei tyhjiä, poista tukos.\n* Paina ""Tila korjattu""."
+ScotApp_1823,Sähköisen kuitin luonti onnistui.
+ScotApp_1605,      Kortinpalautinkotelo on tyhjä
+ScotApp_1361,Rahanvaihtolaite
+ScotApp_1835,Tarkista tai aseta tuote sivuun
+ScotApp_1878,Kassivaa’alla on väärä paino.
+ScotApp_1281,AVUSTETTU MAKSUVÄLINE
+ScotApp_1425,Yhdistä
+ScotApp_1570,Jätä muutokset huomioimatta
+ScotApp_814,814unused
+ScotApp_291,"Kolikonpalauttimessa on tukos\n%s\nPoista tukos kolikonpalauttimesta ja napsauta sitten ""Tukos poistettu""."
+ScotApp_191,Transaction Broker -ohjelma on ladattu
+ScotApp_1151,Tulostimen kansi on auki.
+ScotApp_1707,Kolikkoja on juuttunut vastaanottimeen
+ScotApp_1822,Katso tuotteen paino näytön vasemmasta alakulmasta
+ScotApp_757,757unused
+ScotApp_657,Aseta palautus- tai alennuskuitti sivuun ostotapahtuman loppuun saakka.
+ScotApp_557,Määrärajoitetut tuotteet
+ScotApp_457,457unused
+ScotApp_357,357unused
+ScotApp_257,257unused
+ScotApp_157,Laitteistosanoma
+ScotApp_1360,Kassalaatikko
+ScotApp_1719,LP:
+ScotApp_1834,Maks.
+ScotApp_1868,"Varmista, että kätesi ovat poissa lukijan kameranäkymästä"
+ScotApp_957,DB Manager Client -ohjelman yhdistäminen epäonnistui
+ScotApp_857,Vahvista asennusmaksu:
+ScotApp_1064,1064unused
+ScotApp_1577,Kokonaismäärä:
+ScotApp_736,736unused
+ScotApp_636,Turvatoiminnot eivät ole yhdistetyssä tilassa.
+ScotApp_1091,1091unused
+ScotApp_436,Vahvista summa
+ScotApp_336,Etsi tuote
+ScotApp_236,236unused
+ScotApp_136,Syötä käteinen
+ScotApp_1509,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1821,Hyväksy paino
+ScotApp_936,Rajoita pakkaamista\Ohita pakkaaminen
+ScotApp_836,Maksut & asiakassopimukset
+ScotApp_1367,Lukulaite
+ScotApp_1718,KPL:
+ScotApp_1274,USERDEFINED16
+ScotApp_715,715unused
+ScotApp_615,Valitse asetus pakkaamisen toimeenpanoa varten. (Asiakkaan on pakattava tuote.)
+ScotApp_515,515unused
+ScotApp_315,315unused
+ScotApp_215,Tiliveloitus
+ScotApp_115,Vahvista poisto
+ScotApp_1576,Setelinpalauttimen tila :
+ScotApp_1090,Aja raportti
+ScotApp_815,Avaa rekisteri
+ScotApp_1508,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1406,Ajoita TB/POS
+ScotApp_1099,Tuntematon laitevirhe
+ScotApp_1563,Lataa
+ScotApp_782,Setelinpalauttimessa tukos\nPoista tukos setelinpalauttimesta tai \nsäädä lajittelukoteloa.
+ScotApp_682,682unused
+ScotApp_582,Maksu on suoritettu.
+ScotApp_482,482unused
+ScotApp_382,Tuntematon
+ScotApp_282,Syötä käyttäjätunnus
+ScotApp_1575,Kolikonpalauttimen tila :
+ScotApp_1097,Tulosta rekisterit / raportit
+ScotApp_1448,Kolikoiden tila
+ScotApp_982,Laitevirhe
+ScotApp_143,Allekirjoita kuitti
+ScotApp_1353,Syötä käytetty lahjakortti kuponkiaukkoon.
+ScotApp_1704,"Paina ""Ongelma on korjattu"".\n\nJos virhe ei katoa, käynnistä kassapääte uudelleen:\nKäännä päävalvojan avainlukko S-asentoon TAI paina päävalvojanäppäintä.\nValitse Sammuta koko järjestelmä.\nKun näyttö pimenee, sammuta kassapääte UPS-laitteesta tai pistorasian kytkimestä.\nKytke kassapääte päälle. Jos virhe uusiutuu, ota yhteys huoltoon."
+ScotApp_1827,\n    - Nykyinen kieli (%s)
+ScotApp_1562,Lukumäärä
+ScotApp_1815,"* Avaa suppilon telineen lukitus ja vedä se ulos.\n* Aseta puuttuvat suppilot paikalleen ja varmista, että ne ovat paikallaan kunnolla.\n* Varmista, että pienimmän kolikkokoon suppilo asetetaan paikalleen kunnolla.\n* Varmista, että oikean rahakoon suppilokoot asetetaan paikalleen. Jos virhe uusiutuu, ota yhteys huoltoon."
+ScotApp_1574,%s syötetty arvo ei ole voimassa.\nSyötä se uudelleen.
+ScotApp_1543,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1290,D – J
+ScotApp_1096,Raportoidaan
+ScotApp_1352,Jätä lahjakortti
+ScotApp_1561,Nimellisarvo
+ScotApp_1083,Palauta tuotteet pakkausalueelle tai kosketa ruutua Tuote on siirretty pois.
+ScotApp_1753,Tuotetta ei löytynyt 
+ScotApp_418,Kokonaissummaa suljetaan...
+ScotApp_318,318unused
+ScotApp_1813,"%s\n* Avaa suppilon telineen lukitus ja vedä se ulos (I).\n* Poista juuttuneet suppilokotelot. Tarkasta, onko poistoalueella tukoksia ja poista ne (II).\n* Ellei poistoalueella ole tukoksia, tyhjennä suppilokotelot. Tarkasta pyöreää levyä kääntämällä, onko tukoksia ja poista tukokset (III).\n* Asenna suppilokotelot takaisin.\n* Varmista, että kaikki luukut ovat kiinni ja kunnolla lukittuja. Jos virhe uusiutuu, ota yhteys huoltoon."
+ScotApp_1095,Valitse raporttilaji ja paina sitten Aja raportti.
+ScotApp_1351,%s\n%s %s removed 
+ScotApp_1825,Tallenna suosikit
+ScotApp_777,777unused
+ScotApp_677,677unused
+ScotApp_577,Aloita käteismaksu.
+ScotApp_377,Yksiköt – tila
+ScotApp_277,277unused
+ScotApp_1560,Vastaanottimen kokonaismäärä:  %s
+ScotApp_1082,Tuote on poistettu
+ScotApp_977,Todellinen paino: %s %s
+ScotApp_877,Hintakehotus
+ScotApp_1777,"Tapahtuma päätettiin käyttämällä kuponkia, joka ylittää myymälän kuponkirajan."
+ScotApp_1812,Kolikoita on jumissa tai kolikkokotelot ovat täynnä tai ulkona
+ScotApp_756,756unused
+ScotApp_556,Tapahtuman keskeytys peruttu.
+ScotApp_456,456unused
+ScotApp_356,Salain
+ScotApp_256,User exits -sovellusta suljetaan…
+ScotApp_156,Laitteistosanoma
+ScotApp_1231,SILMÄMÄÄRÄISESTI TARKISTETTU
+ScotApp_1874,1874unused
+ScotApp_956,"Sammuta kassapääte ja käynnistä uudelleen:\n* Käännä päävalvojan avainlukko S-asentoon TAI paina päävalvojanäppäintä.\n* Valitse ""Aja ALT Seuraavan Uudelleenkäynnistyksen Aikana"". Valitse ""Kyllä"" vahvista.\n* Valitse Sammuta koko järjestelmä.\n* Kun näyttö pimenee, sammuta kassapääte UPS-laitteesta tai pistorasian kytkimestä.\nKäynnistä kassapääte. Tarkasta tapahtumienvalvontaohjelma. Jos virhe uusiutuu, ota yhteys huoltoon."
+ScotApp_856,Kuitti:
+ScotApp_1567,Palauttimen kokonaissumma :  %s
+ScotApp_735,735unused
+ScotApp_635,Näppäile asiakkaan syntymäaika
+ScotApp_535,   Poistotuote (aika)
+ScotApp_335,Asiakas on saattanut peukaloida kortinlukijaa
+ScotApp_235,Setelinvastaanottimen tila: lähes täynnä
+ScotApp_135,135unused
+ScotApp_1776,Myyntilupa
+ScotApp_1811,"* Vedä kolikkokierrätin ulos.\n* Poista tukos näytetyltä alueelta poistamalla kolikot tai työntämällä niitä eteenpäin.\n* Palauta kolikot asiakkaalle. Jos virhe uusiutuu, ota yhteys huoltoon."
+ScotApp_935,Painon lasku
+ScotApp_835,Kuitti:
+ScotApp_1708,"Paina kolikkojen palautuspainiketta useita kertoja kolikkotukoksen poistamiseksi, paina sitten ""Ongelma on korjattu"".\n\nJos virhe uusiutuu, ota yhteys huoltoon."
+ScotApp_1168,Tulostin ei ole lukkiutunut etumaiseen asentoon.
+ScotApp_1446,Poista
+ScotApp_1566,Vaihto kokonaan
+ScotApp_1080,Aseta tuote hihnalle.
+ScotApp_1775,Hyväksy kuponki
+ScotApp_1810,Kolikoita on jumissa.
+ScotApp_1297,"OTA VAIHTORAHAT, AIKA ON PÄÄTTYNYT"
+ScotApp_1648,(kkppvv)
+ScotApp_708,708unused
+ScotApp_608,Aseta painovertailu
+ScotApp_508,508unused
+ScotApp_408,408unused
+ScotApp_308,sentti
+ScotApp_208,208unused
+ScotApp_108,Kuponki on väärä
+ScotApp_781,781unused
+ScotApp_681,Valitse suosittujen tuotteiden joukosta
+ScotApp_581,Tapahtuman keskeytys peruttu
+ScotApp_481,Apua tarvitaan
+ScotApp_381,Normaali
+ScotApp_908,Hälytys
+ScotApp_521,Palautettu summa:
+ScotApp_1087,Kortti on hyväksytty. Lue tuotteet ja kupongit.
+ScotApp_981,981unused
+ScotApp_881,Keskeytys:
+ScotApp_1774,Kupongin arvo liian korkea
+ScotApp_1296,Täytä kaikki kolikkosäiliöt uudelleen optimaaliseen käyttötasoon asti.
+ScotApp_1583,vaihtorahat ovat vähissä (%s)
+ScotApp_1552,kotelo on täynnä
+ScotApp_1295,T – Z
+ScotApp_1877,Varkausvaroitus
+ScotApp_1761,Kuponkikotelo saattaa olla täynnä tai kuponkiaukko on tukossa. Poista kaikki tukkivat kappaleet kuponkiaukosta ja tyhjennä sitten kuponkikotelo.
+ScotApp_1086,Lisää nollapaino poistaa kaikki painokirjaukset.
+ScotApp_693,693unused
+ScotApp_794,Setelinpalauttimessa on tukos\nPoista tukos setelinpalauttimesta.
+ScotApp_694,694unused
+ScotApp_594,NCR SelfServ Checkout SigCap -ohjelma on ladattu.
+ScotApp_494,Valitse luettelosta palautettavan käteisen koko.
+ScotApp_394,394unused
+ScotApp_1098,"* Avaa tulostinkotelon ovi.\n* Tarkista, onko kuvassa näytetyllä alueella paperitukos\n* Ellei tukosta löydy, lisää kuittipaperia.\n* Sen jälkeen tulostuu kuitti, jossa on hymymerkki.\n* Sulje ja lukitse tulostinkotelon ovi."
+ScotApp_1551,rahantaso on ylhäinen (%s)
+ScotApp_994,Suljettu
+ScotApp_894,DBM-ohjelma on ladattu.
+ScotApp_1760,Kuponkikotelo saattaa olla täynnä tai kuponkiaukko on tukossa. Poista kaikki tukkivat kappaleet kuponkiaukosta ja tyhjennä sitten kuponkikotelo.
+ScotApp_1371,Setelinvastaanotin
+ScotApp_1803,Hyväksy vain käteinen
+ScotApp_1359,Kuittitulostin
+ScotApp_1085,Kerää kupongit
+ScotApp_21,21unused
+ScotApp_776,776unused
+ScotApp_676,Kolikonpalautin: Täytetty %s klo %s
+ScotApp_1491,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_476,Kuponkien jättö
+ScotApp_376,376unused
+ScotApp_276,276unused
+ScotApp_176,Haluatko keskeyttää ostotapahtuman ja peruuttaa kaikki ostokset?
+ScotApp_976,976unused
+ScotApp_876,Syötä kassapäällikön käyttäjätunnus ja paina Syötä.
+ScotApp_1271,USERDEFINED13
+ScotApp_1767,Vaa’an painoparametreihin pääsy epäonnistui.
+ScotApp_755,Käsitellään…
+ScotApp_655,Poikkeustuote
+ScotApp_1084,Kerääminen
+ScotApp_455,455unused
+ScotApp_355,Valitse järjestelmätoiminto
+ScotApp_255,255unused
+ScotApp_155,Laitteistosanoma
+ScotApp_1011,Kuljetetaan…
+ScotApp_869,Syötä lupa # ja paina Syötä.
+ScotApp_955,Smart Scale -vaa’an käyttöönotto epäonnistui
+ScotApp_855,Asennusmaksu:
+ScotApp_23,+ %s (%s)
+ScotApp_1766,Skanneri-/vaakavirhe.
+ScotApp_1280,KÄTEINEN
+ScotApp_1335,Kassa on suljettu
+ScotApp_1497,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_728,728unused
+ScotApp_628,Kassa #: %d
+ScotApp_528,528unused
+ScotApp_428,Keltainen
+ScotApp_328,"%s:n palautus epäonnistui. \nTarkasta kolikko- ja setelipalauttimet.\nJos tyhjiä, täytä.\nJos ei tyhjiä, poista tukos.\nPaina ""Ongelma on korjattu""."
+ScotApp_228,Kortinlukijan sulkuläppä juuttunut kiinni
+ScotApp_128,128unused
+ScotApp_1690,Ota yhteys huoltoon
+ScotApp_281,281unused
+ScotApp_181,\nNäppäile kupongin arvo senteissä ja paina OK.
+ScotApp_928,Mene kassalle ja tarkista laite.
+ScotApp_828,828unused
+ScotApp_1033,Deaktivoi tuote tai poista hälytin ja paina Nollaa hälytys.
+ScotApp_1496,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_680,680unused
+ScotApp_580,Tuotetta yritettiin mitätöidä ennen kupongin mitätöintiä.
+ScotApp_380,380unused
+ScotApp_280,Poista turvallisuusloki
+ScotApp_180,Aseta kupongit sivuun nyt.\nJätä ne ostotapahtuman lopussa.
+ScotApp_1364,Micr
+ScotApp_980,Aika päättyi ennen asiakkaan vastausta.
+ScotApp_880,880unused
+ScotApp_970,970unused
+ScotApp_1104,e=d=0.01 lb Max 30.00 lb min 0.2 lb Nmax 3000
+ScotApp_1032,Elektronisesti valvottava tuote yhä aktiivinen.
+ScotApp_1286,Suomi
+ScotApp_1462,Kotelot
+ScotApp_1298,Valvoja-avusteiset toiminnot
+ScotApp_1031,Lue kuponkien koodit.
+ScotApp_1482,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1706,"Laite ei ole valmis.\n* Sulje kaikki muut sovellukset, jotka saattavat käyttää laitetta ja paina ""Ongelma on korjattu"".\n* Jos virhe ilmenee uudelleen, ota yhteys Gunnebolle."
+ScotApp_1399, Valvoja
+ScotApp_1494,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1672,Kolikkokierrättimen virhe
+ScotApp_573,Näppäile käyttäjätunnus ja paina Syötä.
+ScotApp_173,173unused
+ScotApp_775,Tervetuloa NCR:n SelfServ-kassalle!
+ScotApp_675,Kolikonpalautin on täytetty
+ScotApp_1481,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_79,79unused
+ScotApp_69,69unused
+ScotApp_59,Yritä uudelleen
+ScotApp_39,Tapahtuman peruutus
+ScotApp_29,Rajoitetut tuotteet
+ScotApp_19,Alv.  [VAT]
+ScotApp_975,975unused
+ScotApp_603,Muokkaa/Lisää paino
+ScotApp_99,Mitätöitävä määrä
+ScotApp_89,89unused
+ScotApp_303,Poista tuotteet
+ScotApp_203,203unused
+ScotApp_103,Näppäile tuotteen koodi.
+ScotApp_1889,Luottamustaso
+ScotApp_1443,Lisää kolikoita tai paina Poista kolikot niiden poistamiseksi.
+ScotApp_903,Tuote on siirretty pois pakkausalueelta.
+ScotApp_803,803unused
+ScotApp_1555,Palautin
+ScotApp_1037,Allekirjoitus
+ScotApp_1480,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1263,USERDEFINED5
+ScotApp_1697,Tukos poistettu
+ScotApp_748,748unused
+ScotApp_648,TUOTEKOODI
+ScotApp_548,548unused
+ScotApp_448,Kanta-asiakastilisi on aktivoitu.
+ScotApp_348,348unused
+ScotApp_248,248unused
+ScotApp_148,148unused
+ScotApp_1479,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_948,\n* Etätuki
+ScotApp_848,Syötä lukumäärä:
+ScotApp_485,Tarvitaan allekirjoitus
+ScotApp_1036,Elektronisesti valvottava tuote aktiivinen
+ScotApp_1487,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1499,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1023,1023unused
+ScotApp_1179,LÄHTÖAJASTUS KULUNUT LOPPUUN
+ScotApp_1035,Elektronisesti valvottava tuote aktiivinen
+ScotApp_1682,Yleinen setelinlukijayksikön virhe
+ScotApp_1486,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1144,Palautin ei reagoi.
+ScotApp_866,Kyllä
+ScotApp_1498,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1384,Kieli
+ScotApp_1743,"Syötä käyttäjätunnus ja paina ""Syötä"" tai laita sormesi sormenjälkilukijaan sisäänkirjautumista varten."
+ScotApp_1319,VAIHTO- TAI HYVITYSTOSITE
+ScotApp_1178,YLITETYN RAJAN SIIRTO TEHTY
+ScotApp_1001,Tuotetta ei löydy
+ScotApp_1034,1034unused
+ScotApp_1485,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1068,1068unused
+ScotApp_1694,"Korvikkeita käytetään, koska %sPaina ""Vaihtorahan / paperin tila"" täyttöä varten tai poistaaksesi tukoksen."
+ScotApp_1165,"Vedä tulostinta varovaisesti eteenpäin, kunnes se lukkiutuu oikeaan asentoon.\n\nSulje ja lukitse tulostinkaapin ovi."
+ScotApp_1021,Huomio
+ScotApp_1230,NEGATIIVINEN POISTOERO
+ScotApp_1484,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_912,Hyväksy & päivitä paino
+ScotApp_723,723unused
+ScotApp_623,Näppäile poikkeama ja paina Syötä.
+ScotApp_523,Korttia ei hyväksytä
+ScotApp_423,"Syötä kortti. Tarkista, ettei koriin ole jäänyt tuotteita."
+ScotApp_323,  Qty %d @ %d/%s
+ScotApp_223,Kortinlukijan keruulaatikko täynnä
+ScotApp_123,123unused
+ScotApp_1020,Lue tuotteiden koodit
+ScotApp_923,923unused
+ScotApp_823,Mitätöinnin hyväksyntä
+ScotApp_1483,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1237,KUPONKI
+ScotApp_1680,Ei-korjattavissa oleva virhe.  Sulje kassa.  Soita Gunnebolle ja anna alla näkyvät virhetiedot.\n\nSafePay-virhe: %s
+ScotApp_702,702unused
+ScotApp_602,Muokkaa/Lisää \npaino
+ScotApp_502,Aseta poistettu tuote sivuun.
+ScotApp_402,Ei ole
+ScotApp_302,Syötä oma PIN-koodi maksulaitteeseen.
+ScotApp_202,Testataan uloskirjautumista…
+ScotApp_102,Myynnistä poistettu tuote
+ScotApp_1722,"Kassa on harjoittelutilassa, jatketaanko tapahtumaa?"
+ScotApp_902,Tuote on siirretty pois pakkausalueelta.  Palauta tuote.
+ScotApp_802,"\nOstetaanko täysi korillinen\n%s? \n\nValitse ""Kyllä"" tai ""Ei""."
+ScotApp_568,Poista
+ScotApp_468,   Poistotuote
+ScotApp_368,Tulostuspaperia ei ole lisätty
+ScotApp_268,Kortti luettu väärin
+ScotApp_1027,Paina Kyllä tapahtuman peruuttamiseksi tai paina Ei sen palauttamiseksi.
+ScotApp_1354,Kerää lahjakortti
+ScotApp_968,968unused
+ScotApp_868,Lupanumeron syöttö:
+ScotApp_1433,kassivaa’alla.
+ScotApp_1687,"Käytä ""Vaihtorahan / paperin tila"" -näyttöä rahan lisäämiseksi."
+ScotApp_1150,Tulostinkaapin kansi on auki.
+ScotApp_1699,"Korvikkeita käytetään, koska %s. Täytä tai poista tukosja paina sitten ""Tila korjattu""."
+ScotApp_1259,USERDEFINED1
+ScotApp_1223,VAIHTORAHAN / PAPERIN PUUTE
+ScotApp_1379,kappalehinta
+ScotApp_1432,<<<Setelimäärä alhainen. Ole hyvä ja täytä.>>>
+ScotApp_1686,Ei-korjattavissa oleva virhe.  Sulje kassa.  Soita Gunnebolle ja anna alla näkyvät virhetiedot.\n\nSafePay-virhe: %s
+ScotApp_1157,Setelinpalauttimen ovi saattaa olla auki.\n\nSetelinpalautin ei toimi ovi auki.\n\nSulje ja lukitse palauttimen ovi tai turvaovi.
+ScotApp_1013,Jätetyt tuotteet
+ScotApp_1184,LISÄÄ TIETOA
+ScotApp_1848,"Tuote poistettu. Lue seuraava tuote tai kosketa ""Näppäile koodi""."
+ScotApp_1169,"Avaa tulostinkaapin ovi.\n* Vedä tulostinta varovaisesti eteenpäin, kunnes se lukkiutuu oikeaan asentoon.\n\nSulje ja lukitse tulostinkaapin ovi."
+ScotApp_1662,Muut kuitit
+ScotApp_1311,"* Irrota setelinvastaanotin.\n* Avaa vastaanottomoduuli.\n*Vaihda moduuli, jos sen sisällä on tukos.\n* Varmista, että setelinvastaanottimen moottori käynnistyy ja että LED-valo on vihreä."
+ScotApp_1025,Poista kaikki tuotteet hihnalta ja sulje turvakansi.
+ScotApp_1378,paino
+ScotApp_22,Ei\nrahaa\ntakaisin\n+ 0          \n(%s)
+ScotApp_1234,MÄÄRÄRAJOITETTU
+ScotApp_1685,Yleinen kolikkoyksikön virhe
+ScotApp_1156,"Tarkista, onko kolikonpalauttimen virtakytkin päällä."
+ScotApp_1012,Tuotettasi kuljetetaan.
+ScotApp_1365,MSR-kortinlukija
+ScotApp_1235,ELEKTRONISESTI VALVOTTAVA TUOTE AKTIIVINEN
+ScotApp_1221,AUDACTION
+ScotApp_1143,Kolikkojen määrä vähäinen tai kolikkosäiliö ei paikallaan.
+ScotApp_434,Benefit Type
+ScotApp_1625,Lisää kolikoita tai paina ”Poista kolikot” niiden poistamiseksi.
+ScotApp_1430,Mitätöi tuote
+ScotApp_1684,Kolikkokierrättimen virhe
+ScotApp_1155,Laite ei ole yhdistetyssä tilassa.
+ScotApp_834,Maksut && asiakassopimukset:
+ScotApp_799,Tarkista kori
+ScotApp_699,"Tuote, jota ei voi myydä"
+ScotApp_599,Forms Device -laitetta nollataan…
+ScotApp_499,499unused
+ScotApp_399,399unused
+ScotApp_299,299unused
+ScotApp_199,User Exits -sovellus on ladattu.
+ScotApp_743,743unused
+ScotApp_643,Tuote on poistettu. Lue seuraava tuote.
+ScotApp_543,Käyttäjätunnus ei voi olla yli %d merkin pituinen.
+ScotApp_343,343unused
+ScotApp_243,Kortinlukijaan on syötetty kelpaamaton kortti
+ScotApp_999,Raja on ylitetty
+ScotApp_899,Hyväksy tuotteen mitätöinti
+ScotApp_1220,EFT
+ScotApp_1142,Kolikonpalauttimen virhe
+ScotApp_943,Kassi/laatikko
+ScotApp_843,843unused
+ScotApp_1437,Tuote on poistettu -raha ylitetty
+ScotApp_1601,     Kortinpalautinkotelo on melkein tyhjä
+ScotApp_722,722unused
+ScotApp_622,Muokkaa tuotekoodin poikkeamaa
+ScotApp_522,Väärä PIN-koodi
+ScotApp_422,422unused
+ScotApp_322,322unused
+ScotApp_222,"Tulostimen pyyntörivi: Tarkista tulostin tai tapahtumienvalvontaohjelma virheiden varalta ja paina sitten ""Ongelma on korjattu""."
+ScotApp_122,122unused
+ScotApp_1010,1010unused
+ScotApp_922,922unused
+ScotApp_822,Hyväksy mitätöity tuote
+ScotApp_1715,Keskeytyksen hylkäyksen hyväksyntä
+ScotApp_1227,AIKARAJOITETTU
+ScotApp_701,701unused
+ScotApp_601,601unused
+ScotApp_401,"Syötä kortti. Tarkista, ettei koriin ole jäänyt tuotteita."
+ScotApp_301,Syötä kupongin arvo
+ScotApp_201,Testataan sisäänkirjautumista…
+ScotApp_101,Hinta on tuntematon
+ScotApp_1633,Setelikierrättimen virhe
+ScotApp_901,Hyväksyntä pakkaamisen ohittamiseksi.
+ScotApp_801,Osta juomakori
+ScotApp_1824,Sähköistä kuittia ei luotu.
+ScotApp_1328,Kaksinkertainen paino
+ScotApp_1299,Aloita tapahtuma ja siirry tukitilaan
+ScotApp_1226,MYYNNISTÄ POISTETTU TUOTE
+ScotApp_1140,Tukos setelinpalauttimessa.
+ScotApp_1579,Setelinvastaanotin
+ScotApp_1426,\n\n%s\n\nOnko %d oikein?
+ScotApp_1632,"Irrota setelikansi. Tarkista setelintunnistimeen menevä kaapeli ja yritä uudelleen. Jos virhe uusiutuu, ota yhteys huoltoon.\n\nSafePay-virhe: %s"
+ScotApp_1141,%s palautus epäonnistui. HUOMIO: Seteli on saattanut juuttua setelinpalauttimen yläpuolelle.
+ScotApp_1791,Vain käteinen
+ScotApp_1357,Kerää lahjakortti
+ScotApp_763,763unused
+ScotApp_714,714unused
+ScotApp_614,Pakkaamisen toimeenpano
+ScotApp_514,514unused
+ScotApp_314,kotelo-ongelma
+ScotApp_214,Tiliveloitus
+ScotApp_114,Tuotetta ei voida poistaa
+ScotApp_1369,Sekal
+ScotApp_78,Rahaa takaisin (Ei käteistä takaisin)
+ScotApp_1630,Setelikierrättimen virhe
+ScotApp_58,OK
+ScotApp_48,48unused
+ScotApp_914,"Mene kassalle, siirrä ylimääräiset tuotteet ja paina Nollaa hälytys."
+ScotApp_1422,Käsilukija
+ScotApp_18,Yhteensä
+ScotApp_1147,Tarkistusvaa’an virhe
+ScotApp_1578,Kokonaisarvo:
+ScotApp_1022,Ohita hihna
+ScotApp_98,98unused
+ScotApp_88,88unused
+ScotApp_1003,Aikarajoitettu
+ScotApp_1434,Ikärajallinen
+ScotApp_1356,Kerää
+ScotApp_1212,MUU
+ScotApp_1455,Väärä numero
+ScotApp_1713,Paina Hyväksy keskeytyksen hylkäämiseksi
+ScotApp_1565,Syötä latauksen arvo %s
+ScotApp_194,Device Manager -laitteenhallintaohjelmaa ladataan…
+ScotApp_1275,USERDEFINED17
+ScotApp_1146,Vastaanotin ei reagoi.
+ScotApp_1303,Etukortti on hyväksytty: #%s
+ScotApp_70,70unused
+ScotApp_60,Kutsu apua
+ScotApp_50,50unused
+ScotApp_40,Myyntilupa
+ScotApp_30,Mitätöidyt tuotteet
+ScotApp_20,20unused
+ScotApp_10,10unused
+ScotApp_1779,Tuotetta ei voida mitätöidä ennen kuin kuponki on mitätöity. Mitätöi ensin kuponki.
+ScotApp_1211,OLETUS
+ScotApp_90,90unused
+ScotApp_80,80unused
+ScotApp_663,PIN-koodin syöttö epäonnistui
+ScotApp_463,Etähyväksyntää suljetaan…
+ScotApp_363,\nSyötä näppäimistöllä käyttäjän salasana.
+ScotApp_163,163unused
+ScotApp_1420,Peruuta tuote\n%s?
+ScotApp_1145,Kolikonvastaanottimen virhe
+ScotApp_963,Peruuta pyyntö
+ScotApp_863,Kupongin arvon syöttö
+ScotApp_1816,Kolikoita on jumissa tai ovi on auki.
+ScotApp_1637,Kaapeliongelma
+ScotApp_742,742unused
+ScotApp_642,Tuote lisätty. Lue seuraava tuote.
+ScotApp_542,Käyttäjän viivakoodia ei voi luoda.
+ScotApp_342,Syötä nimike
+ScotApp_242,Kortinlukijan korttitukos
+ScotApp_142,Vahvista summa
+ScotApp_1210,VIIMEINEN NÄKYMÄ
+ScotApp_942,942unused
+ScotApp_842,842unused
+ScotApp_1044,Valvoja-avusteinen maksuväline
+ScotApp_1427,Vaihda määrä tuotteelle: \n%s
+ScotApp_721,721unused
+ScotApp_621,Oletus
+ScotApp_1341,Äänenvoimakkuus
+ScotApp_421,Lue tuotteiden viivakoodit tai aloita painamalla Käynnistä.
+ScotApp_321,Tapahtuman varmennus
+ScotApp_221,Sulje tulostinkotelon ovi ja lukitse se.
+ScotApp_121,tuotteet pois tältä kassalta.
+ScotApp_1636,Kolikkokierrättimen virhe
+ScotApp_921,Tarkistusvaa’alla on odotettu paino.
+ScotApp_821,821unused
+ScotApp_600,Turvallisuushuolto
+ScotApp_500,500unused
+ScotApp_400,400unused
+ScotApp_1368,Sigcap
+ScotApp_200,Transaction Broker -ohjelmaa testataan...
+ScotApp_100,Syötä lukumäärä
+ScotApp_1076,Huomio
+ScotApp_1623,Siirrä setelit kasettiin noutoa varten 
+ScotApp_1340,Sulje koko järjestelmä.
+ScotApp_1108,%s\t%s\t%s @ %s %s/%s\t%s
+ScotApp_1814,Suppilokotelo on pois paikaltaan tai ei ole kunnolla paikallaan.
+ScotApp_1758,Kuponkikotelon virhe
+ScotApp_1635,"Tarkista setelikierrättimeen menevä kaapeli ja yritä uudelleen. Jos virhe uusiutuu, ota yhteys huoltoon.\n\nSafePay-virhe: %s"
+ScotApp_1557,Palauttimen noudot
+ScotApp_734,734unused
+ScotApp_634,634unused
+ScotApp_534,Aikarajoitetut tuotteet
+ScotApp_1413,Ole hyvä ja päätä tapahtuma seuraavan # minuutin (minuuttien) aikana.  Virta katkeaa pian.
+ScotApp_334,Kortinlukijan virhe: ei korttia
+ScotApp_234,"Irrota setelikasetti.\n\nOta setelit pois kasetista.\n\nAseta kasetti takaisin, niin että se lukittuu oikeaan asentoon.\n\nNykäise kasetin kahvasta varmistaaksesi, että lukitsin pitää kasetin oikeassa asennossa."
+ScotApp_1569,Arvo
+ScotApp_1801,Toimintatapa
+ScotApp_934,Painon nousu
+ScotApp_1622,Kasetti
+ScotApp_768,Keskeytysvahvistus
+ScotApp_668,Allekirjoitusten tulostus onnistui.
+ScotApp_1347,Yrittää yhdistää uudelleen
+ScotApp_1778,Nollaa hälytys
+ScotApp_168,Lue kuponkien koodit ja aseta ne sivuun ostotapahtuman loppuun saakka.
+ScotApp_1203,SIIRRETTY ASIAKIRJA
+ScotApp_1634,Kaapeliongelma
+ScotApp_1556,Vastaanottimen noudot
+ScotApp_1412,Tukitoiminnot
+ScotApp_1783,TURVAKANSI AUKI
+ScotApp_1232,HYVÄKSYTTY ALLEKIRJOITUS
+ScotApp_1568,Kokonaissumma:        %s
+ScotApp_1800,Valitse toimintatapa
+ScotApp_1495,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1621,Avaa setelikasetin lukko
+ScotApp_1346,Kassa ei ole tällä hetkellä yhdistetyssä tilassa ja järjestelmä yrittää yhdistää sen takaisin.
+ScotApp_72,72unused
+ScotApp_62,Kyllä
+ScotApp_52,Poista kupongit
+ScotApp_42,Mitätöidyt tuotteet
+ScotApp_32,Jatka
+ScotApp_12,  Qty %d @ %s/each
+ScotApp_1411,Muuta määrää
+ScotApp_92,Tervetuloa!
+ScotApp_82,82unused
+ScotApp_1807,_ _ _
+ScotApp_1089,Päätä raporttikausi
+ScotApp_1620,Avaa setelikannen lukko
+ScotApp_1345,Security Manager -ohjelmaa suljetaan...
+ScotApp_1819,Kolikkokierrättimen vastaanottovirheet
+ScotApp_762,762unused
+ScotApp_662,%
+ScotApp_1554,Acceptor	
+ScotApp_462,Etähyväksyntä on ladattu
+ScotApp_362,Syötä salasana
+ScotApp_262,262unused
+ScotApp_162,Lue tuotteet ja kupongit.
+ScotApp_1410,Muuta hintaa
+ScotApp_962,Kerää mitätöity tuote ja paina Hyväksy mitätöinti.
+ScotApp_862,Kupongin arvon syöttö:
+ScotApp_1806,"\n* Päätä tapahtuma painamalla ""Vain kortit"" ja anna vaihtorahat asiakkaalle."
+ScotApp_1088,1088unused
+ScotApp_1627,Kolikko-/setelikierrättimen virhe
+ScotApp_741,741unused
+ScotApp_641,Keskipaino Hyväksytty   Määrä    Tol.tyyppi    Tol.arvo      Pvm
+ScotApp_541,Tulosta käyttäjän viivakoodi
+ScotApp_441,Vahvista summa
+ScotApp_341,341unused
+ScotApp_241,Device Manager –laitteenhallintaohjelman odottamaton virhe
+ScotApp_141,Valitse korttityyppi
+ScotApp_941,Mitätöity tuote
+ScotApp_841,Tuotteen syöttö
+ScotApp_1873,1873unused
+ScotApp_25,Syntymäaika:
+ScotApp_720,720unused
+ScotApp_520,Tuntematon tuotekoodi
+ScotApp_420,420unused
+ScotApp_320,Palaa takaisin
+ScotApp_220,"* Avaa tulostinkotelon ovi.\n* Avaa tulostimen kansi tarkastaaksesi, ettei laitteen sisällä ole tukoksia\n* Lisää tulostimeen kuittipaperia.\n* Sulje ja lukitse tulostinkotelon ovi."
+ScotApp_120,Tapahtuma on peruutettu. Siirrä
+ScotApp_1626,Lisää seteleitä tai valitse muu toiminto.
+ScotApp_1423,Käsilukijaa yritetään yhdistää.
+ScotApp_920,Hyväksy/Ei päivitystä.
+ScotApp_820,Hyväksy mitätöinti
+ScotApp_1757,"Lisää painomerkki, paina ""Painomerkki""-näppäintä näytön alaosasta ja kirjoita sitten merkki."
+ScotApp_1872,1872unused
+ScotApp_754,Viimeisten 7 päivän yhteenveto
+ScotApp_554,Älä vedä maksukortteja tällä kertaa kortinlukimen läpi.
+ScotApp_1613,Hylkäyskotelo
+ScotApp_354,Järjestelmätoiminnot
+ScotApp_254,Kolikonpalautin on toimintakyvytön.\nTäytä kolikonpalautin tai\nkytke siihen virta tai\npoista kolikonpalauttimesta tukos.
+ScotApp_154,Ladataan…
+ScotApp_1769,Anna koodi
+ScotApp_1240,KÄTEINEN
+ScotApp_954,Smart Scale -vaa’an avaus epäonnistui
+ScotApp_854,Viisi tuotetta
+ScotApp_1547,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1403,"Sammuta NCR SelfServ Checkout-ohjelma ja käynnistä se uudelleen. Jos virhe ei katoa, ota yhteys käyttötukeen."
+ScotApp_545,Rajoitettu tuote
+ScotApp_1559,Poistu
+ScotApp_1871,%s %s todettu
+ScotApp_1612,Kortinhallinta
+ScotApp_1550,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_845,Lue ylimääräisten tuotteiden koodit:
+ScotApp_1564,Syötä latauksen määrä %s
+ScotApp_1768,Tukematon painoyksikkö.
+ScotApp_1272,USERDEFINED14
+ScotApp_1546,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_74,Hyväksy mitätöinnit
+ScotApp_64,Peruutus on valittu
+ScotApp_54,Poista
+ScotApp_44,44unused
+ScotApp_34,34unused
+ScotApp_1558,Poistu & tallenna
+ScotApp_14,14unused
+ScotApp_1870,%s %s odotettu
+ScotApp_1389,Allekirjoituksen tallennuslaitteen virhe
+ScotApp_1611,     Hylkäyskotelo on täynnä
+ScotApp_94,94unused
+ScotApp_84,Lataa asetukset
+ScotApp_1289,B – C
+ScotApp_687,Tulosta raportti
+ScotApp_587,Allekirjoitus
+ScotApp_487,Alas
+ScotApp_387,Kuljetintukos
+ScotApp_287,Lukulaite: Väärä tunniste
+ScotApp_1545,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1336,Apuohjelma
+ScotApp_987,Siirrä tuote hihnalta. Palauta tuote.
+ScotApp_887,Tuote on poistettu
+ScotApp_555,Muu maksutapa
+ScotApp_1610,     Hylkäyskotelo on melkein täynnä (%s) 
+ScotApp_1041,Hyväksy allekirjoitus
+ScotApp_1691,Kassanhallinta
+ScotApp_1809,Kolikkokierrättimen palautusvirheet
+ScotApp_1288,A.
+ScotApp_761,761unused
+ScotApp_1193,HENKILÖLLISYYS TARKISTETTU
+ScotApp_561,Aseta kuponki sivuun
+ScotApp_461,Etähyväksyntää ladataan…
+ScotApp_361,Kassa on suljettu
+ScotApp_261,261unused
+ScotApp_961,"Painotietokantavirhe: Tarkista tapahtumienvalvontaohjelma virheiden varalta ja paina sitten ""Ongelma on korjattu""."
+ScotApp_861,861unused
+ScotApp_1876,%s %s todettu
+ScotApp_740,740unused
+ScotApp_640,Nykyiset painokannan painokirjaukset
+ScotApp_540,540unused
+ScotApp_340,Valitse tuote listalta. Käytä nuolinäppäimiä selataksesi listaa ylös- ja alaspäin.
+ScotApp_240,Device Manager –laitteenhallintaohjelman yleinen häiriö
+ScotApp_140,Kiitos
+ScotApp_1105,e=d=0.005kg Maksimi 13.995kg minimi 0.1kg Nmax 2799
+ScotApp_1192,ASENNUSMAKSU
+ScotApp_940,Mitätöi
+ScotApp_840,Tuotteen syöttö:
+ScotApp_1863,"Paina ""Hyväksy"" tai ""Mitätöi tuote"""
+ScotApp_1463,Arvon muutos
+ScotApp_1875,%s %s odotettu
+ScotApp_774,Ansaitut pisteet:
+ScotApp_674,"Maksun hylkäyksen syy: """
+ScotApp_780,780unused
+ScotApp_474,474unused
+ScotApp_374,Mustepatruunavirhe
+ScotApp_174,Luettua tuotetta ei löydy. Sitä ei ole vielä luettu tai se on jo poistettu.
+ScotApp_1029,Syötä kuponki sisään
+ScotApp_974,974unused
+ScotApp_1679,Setelidatavirhe
+ScotApp_1747,Sormenjälkilukijan virhe
+ScotApp_1862,"Tarkasta lukijan vaa'alla oleva tuote"
+ScotApp_1603,     Kortinpalautinkotelon tila on normaali
+ScotApp_1419,Monipakkaus
+ScotApp_1759,Kuponkikotelo täynnä
+ScotApp_649,Koodattu tuote
+ScotApp_1039,Edellisissä tuotteissa on elektroninen hälytin (hälyttimet).
+ScotApp_849,Syötä lukumäärä
+ScotApp_765,765unused
+ScotApp_565,Sisäänkirjaus myyntitilaan
+ScotApp_1549,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1861,TUOTELISTA
+ScotApp_1731,PL-kuvia ladataan...
+ScotApp_76,76unused
+ScotApp_66,66unused
+ScotApp_56,Peruuta maksu
+ScotApp_46,Tuki
+ScotApp_36,Palautettu:
+ScotApp_26,26unused
+ScotApp_16,%s veloitetaan kortiltasi.
+ScotApp_719,719unused
+ScotApp_619,Valitse Syötä sallittu poikkeama tai Oletus muokataksesi nykyistä sallittua poikkeamaa.
+ScotApp_519,Kupongin arvo liian korkea
+ScotApp_419,419unused
+ScotApp_319,Maksa kortilla
+ScotApp_219,219unused
+ScotApp_119,Poista kaikki tuotteet
+ScotApp_96,96unused
+ScotApp_86,86unused
+ScotApp_1755,Valitse listalta 
+ScotApp_1038,Tarkista allekirjoitus
+ScotApp_919,Tarkista tuotteen paino ja paina Hyväksy & päivitä paino tai paina Hyväksy/Ei päivitystä.
+ScotApp_1489,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1745,Sormenjälkilaite ei ole kytkettynä.\n\nYritä uudelleen.
+ScotApp_1860,Please select from picklist assisted items or look-up item alphabetically.
+ScotApp_1268,USERDEFINED10
+ScotApp_1008,1008unused
+ScotApp_786,Keskeytetty kassalla
+ScotApp_686,Eilen
+ScotApp_586,Kupongit: %0.0ld/$%0.2lf
+ScotApp_486,Ylös
+ScotApp_386,Kasetti on poistettu
+ScotApp_286,Lukulaite: Väärä tunnisteen etuliite2
+ScotApp_186,186unused
+ScotApp_1488,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_986,986unused
+ScotApp_886,Palauta tuotteet pakkausalueelle tai kosketa ruutua Tuote on siirretty pois.
+ScotApp_1393,"Sammuta NCR SelfServ Checkout-ohjelma ja käynnistä se uudelleen. Jos virhe ei katoa, ota yhteys käyttötukeen."
+ScotApp_1867,Kameranäkymä estetty
+ScotApp_68,68unused
+ScotApp_38,38unused
+ScotApp_28,Peruuta ostos
+ScotApp_1024,1024unused
+ScotApp_760,Vedä kortti tämän monitorin reunaa pitkin.
+ScotApp_660,Vaihtorahan määrät ovat normaaleja
+ScotApp_460,Näin päätät ostotapahtuman.
+ScotApp_360,Sulje kassa
+ScotApp_260,260unused
+ScotApp_1392,Kolmivalon virhe
+ScotApp_960,\nPainon sallittu raja on ylitetty.\n\nSiirrä tuotteet tarkistusvaa’alta.
+ScotApp_860,Painonmittausta tarvitaan:
+ScotApp_1866,Enemmän suosittuja
+ScotApp_1459,Rahanhallinnan raportti
+ScotApp_1239,EI TEKSTIÄ
+ScotApp_1301,Muokkaa tuotelistaa
+ScotApp_1749,Sormenjälkeä käsitellään
+ScotApp_1017,Poista jätetyt tuotteet hihnalta.
+ScotApp_1771,Kupongin arvon raja
+ScotApp_739,739unused
+ScotApp_639,Odotuspaino    Painovert.
+ScotApp_539,539unused
+ScotApp_439,439unused
+ScotApp_339,339unused
+ScotApp_239,Device Manager –laitteenhallintaohjelman odottamaton tila.
+ScotApp_1092,Raportin sisältö
+ScotApp_1851,Älä hyväksy  
+ScotApp_1238,MUU MAKSUTAPA
+ScotApp_939,Aika on kulunut loppuun
+ScotApp_839,Peruuta toimenpide
+ScotApp_1333,Peruuta
+ScotApp_24,Mitätöity
+ScotApp_1016,Jätetyt tuotteet ovat hihnalla
+ScotApp_1615,Paina palauttimen noutopainiketta palauttimen tyhjentämiseksi
+ScotApp_1723,Harjoittelutap
+ScotApp_1028,Kuponkien raja on ylitetty
+ScotApp_1435,Kolikon\setelinpalauttimen virhe
+ScotApp_1698,"Paina ""Tila korjattu""."
+ScotApp_1688,Kasettivirhe
+ScotApp_454,454unused
+ScotApp_1593,Poista kolikot
+ScotApp_1642,Setelikierrättimen virhe
+ScotApp_1015,Jätetyt tuotteet
+ScotApp_785,785unused
+ScotApp_685,Tunneittain
+ScotApp_585,585unused
+ScotApp_536,Kolikonvastaanotin
+ScotApp_385,385unused
+ScotApp_285,Lukulaite: Väärä tunnistepääte
+ScotApp_185,Vertaa asiakkaan allekirjoitusta kortissa lukevaan.
+ScotApp_1224,TARVITAAN HINTA
+ScotApp_985,Aseta tuote hihnalle.
+ScotApp_885,Pakkaamishälytys
+ScotApp_575,Lopeta käteismaksu.  Maksettava määrä.
+ScotApp_475,Tapahtuma keskeytetty
+ScotApp_375,Tulostuksen aikakatkaisu
+ScotApp_1002,Ei myyntiä
+ScotApp_1888,"Valvo asiakastapahtuman turvallisuutta ja paina ""Kuittaa hälytys""."
+ScotApp_910,910unused
+ScotApp_1592,"Poista kolikot kotelosta, jossa on tukos. Kallista koteloa. Käännä ruuvia oikealle, kunnes kolikon saa irti. Älä käytä liikaa voimaa."
+ScotApp_875,Kassapäällikön käyttäjätunnus ostotapahtuman peruuttamiseksi
+ScotApp_1014,Poista jätetyt tuotteet hihnalta.
+ScotApp_1572,"Oletko varma, että haluat jättää kolikonhallinnan näytöllä näkyvät muutokset huomioimatta?"
+ScotApp_1790,Vain luotto-/pankkikortti
+ScotApp_1344,Security Manager -ohjelma ladattu.
+ScotApp_798,798unused
+ScotApp_698,698unused
+ScotApp_598,%d-lomakkeen tallennus epäonnistui!
+ScotApp_498,Maksettu summa:
+ScotApp_398,Kasetti on asetettu sisään
+ScotApp_298,298unused
+ScotApp_198,User Exits -sovellusta ladataan...
+ScotApp_998,Määrä
+ScotApp_898,WTINFO-ohjelmaa suljetaan...
+ScotApp_1416,"Tarkista, onko tuote monipakkaus"
+ScotApp_1431,Mitätöi kaikki
+ScotApp_1236,Raporttia käsitellään…
+ScotApp_1770,Valitse hakutuloksista.
+ScotApp_1000,Ei löydy
+ScotApp_1439,Kassi/laatikko -raja ylitetty
+ScotApp_1217,MITÄTÖI
+ScotApp_759,Vedä kortti maksulaitteen läpi.
+ScotApp_659,Vaihtorahatilanne alhainen:
+ScotApp_559,Ei kuponkeja
+ScotApp_459,Tästä ostoksesta jää saldoa.
+ScotApp_359,Järjestelmätoiminnot
+ScotApp_259,Device Manager -laitteenhallintaohjelmaa suljetaan...
+ScotApp_1007,Apua on pyydetty
+ScotApp_1438,Uusi tuote -raja ylitetty
+ScotApp_959,Painotietokanta
+ScotApp_859,Ei
+ScotApp_1216,HÄLYTYS
+ScotApp_1373,KERÄÄ LAHJAKORTTI
+ScotApp_1005,Silmämääräinen vahvistus
+ScotApp_1655,Os. myynti
+ScotApp_1228,KESKEYTETTY
+ScotApp_1725,Turvallisuus pois
+ScotApp_1006,Muu maksutapa
+ScotApp_496,Kappaleraja
+ScotApp_1018,Alaikäraja.
+ScotApp_1160,"Tarkista, onko kaapeli liitetty PinPad-laitteen taakse.\n\nJos kaapeli on liitetty kunnolla, paina ""Ongelma on korjattu"".\n\nEllei virhe katoa, sammuta kassapääte ja käynnistä se uudelleen."
+ScotApp_1073,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;DATANEEDEDTYPE=%d;
+ScotApp_1424,Paina Yhdistä käsilukijan yhdistämiseksi.
+ScotApp_1202,SULJE KASSA
+ScotApp_679,Tukiraportit
+ScotApp_1792,Vain kortit
+ScotApp_1214,KUITTI
+ScotApp_1804,Poistu Vain kortit -toiminnosta
+ScotApp_879,879unused
+ScotApp_1072,Tarvitaan tietoa
+ScotApp_1631,Setelintunnistinvirhe
+ScotApp_1148,Tarkistusvaa’an osien virhe
+ScotApp_1244,TILIVELOITUS
+ScotApp_1004,Tark. Tuote
+ScotApp_1282,Hinta tarvitaan tuotteelle
+ScotApp_1071,1071unused
+ScotApp_1276,USERDEFINED18
+ScotApp_1200,HINTAKEHOTUS
+ScotApp_1639,Kolikkokierrättimen virhe
+ScotApp_1828,\n    - Äänenvoimakkuuden taso %d%%
+ScotApp_1308,PIN syötetty
+ScotApp_1417,"Jos tuote on monipakkaus, paina Tukitila ja lue sen jälkeen monipakkauksen viivakoodi."
+ScotApp_1343,Security Manager -ohjelmaa ladataan…
+ScotApp_779,779unused
+ScotApp_1429,<<<Kolikkomäärä alhainen. Ole hyvä ja täytä.>>>
+ScotApp_579,579unused
+ScotApp_479,Jätä kupongit
+ScotApp_379,Setelinvastaanotin
+ScotApp_279,Hyväksy kaikki tallennetut hälytykset.
+ScotApp_179,179unused
+ScotApp_1865,Etsi tuote \nilman painoa
+ScotApp_1207,TARKISTETTU ALLEKIRJOITUS
+ScotApp_1638,"Tarkista kolikkokierrättimen kaapelit ja yritä uudelleen. Jos virhe uusiutuu, ota yhteys huoltoon.\n\nSafePay-virhe: %s"
+ScotApp_979,Raja = %d asiakaspyyntöä
+ScotApp_707,Viimeiset 7 päivää
+ScotApp_607,Aseta pakkaamisen toimeenpano
+ScotApp_507,Tarkista tuotteet silmämääräisesti
+ScotApp_307,Muu pakkaus
+ScotApp_207,207unused
+ScotApp_107,Apua on tulossa
+ScotApp_1219,IKÄRAJOITETTU
+ScotApp_907,907unused
+ScotApp_807,Irrota hälyttimet
+ScotApp_1077,Palauta tuotteet hihnalle
+ScotApp_1428,Vaihda hinta tuotteelle: \n%s
+ScotApp_1695,Korjaa myöhemmin
+ScotApp_1206,EI-AKTIVOIMATON TUOTE
+ScotApp_1218,KERÄÄMINEN
+ScotApp_1782,ALOITA TAPAHTUMA VALVOJATILASSA
+ScotApp_1273,USERDEFINED15
+ScotApp_1624,Siirrä kaikki setelit kasettiin
+ScotApp_793,793unused
+ScotApp_1059,1059unused
+ScotApp_593,NCR SelfServ Checkout SigCap -ohjelmaa ladataan...
+ScotApp_493,Kuitti tulostuu ulos maksulaitteen alta.
+ScotApp_393,Kuittitulostin
+ScotApp_293,Tukipyyntö
+ScotApp_1205,PAKKAUSALUE TUKOSSA
+ScotApp_993,Kassa on suljettu
+ScotApp_893,DBM-ohjelmaa ladataan…
+ScotApp_1063,1063unused
+ScotApp_1414,"Kassa ei ole käytettävissä, ennen kuin virta on palautettu."
+ScotApp_1182,KUPONKIARVON RAJA
+ScotApp_1201,AVUSTETTU MAKSUVÄLINE
+ScotApp_1075,Rajoita\ohita hihna
+ScotApp_1348,Kassa on suljettu
+ScotApp_1671,Avaa setelikierrätinyksikkö ja poista setelit kasetista. Sulje kierrätinyksikkö.\nAnnostele kolikot suppilosta ja irrota vaihtorahakuppi. 
+ScotApp_1204,ASIAKIRJANUMERO
+ScotApp_1284,1284unused
+ScotApp_1062,1062unused
+ScotApp_1233,MUU MAKSUTAPA
+ScotApp_27,27unused
+ScotApp_1074,Hyväksyntä hihnan ohittamiseksi.
+ScotApp_1472,Rahan kierrätyslaite ei ole valmis
+ScotApp_1026,Peruuta tap.
+ScotApp_1061,1061unused
+ScotApp_1617,Syötetty määrä ylittää kotelon kapasiteetin. Syötä uudelleen latauslukema palautinkoteloa varten. Maksimikapasiteetti on %d.
+ScotApp_1050,1050unused
+ScotApp_744,744unused
+ScotApp_1591,Tarkista kolikonpalauttimen johtoliitännät.
+ScotApp_1130,Setelinvastaanottimen virhe
+ScotApp_1270,USERDEFINED12
+ScotApp_1629,Ongelma CPU-asetuksissa tai järj. datan parametreissa.  Ota yhteys huoltoon.\n\nSafePay-virhe: %s
+ScotApp_1820,Poista tuote vaa’alta ja paina lukulaitteessa olevaa Nollaa vaaka -näppäintä.
+ScotApp_882,Vahvista keskeytys.
+ScotApp_1440,Setelinhallinta
+ScotApp_1407,KÄYNNISTÄ UUDELLEEN
+ScotApp_727,727unused
+ScotApp_627,Tapahtuma #:
+ScotApp_527,527unused
+ScotApp_427,Tarvike alh.
+ScotApp_327,"Laite offline-tilassa, tarkasta yhteydet ja/tai tapahtumaloki:"
+ScotApp_227,Kortinlukijaan on syötetty kelpaamaton kortti
+ScotApp_127,127unused
+ScotApp_665,Valitse Poista kaikki tai Palaa takaisin jatkaaksesi.
+ScotApp_1060,HETKINEN…
+ScotApp_1616,Syötä latauslukema palautinkoteloa varten. Maksimimäärä joka voidaan ladata on %d.
+ScotApp_927,Laitehäiriö
+ScotApp_827,Vedä tuotteen viivakoodi lukulaitteen ohi ja aseta tuote pakkausalueelle.
+ScotApp_1540,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_900,Aseta tuote pakkausalueelle.
+ScotApp_1277,USERDEFINED19
+ScotApp_865,Tarkista kortinhaltija
+ScotApp_506,506unused
+ScotApp_406,406unused
+ScotApp_306,Ei pakkausta
+ScotApp_206,Asetukset ladataan.
+ScotApp_106,Apua tarvitaan
+ScotApp_1209,LAHJAKORTIN RAJA YLITETTY
+ScotApp_806,Hyväksy silmämääräisesti vahvistettavat tuotteet
+ScotApp_1067,1067unused
+ScotApp_1418,Painon sallittu raja on ylitetty.
+ScotApp_1473,"Device is not ready.\n\nTurn power on, check Communication cable, or put unit back into cabinet."
+ScotApp_187,187unused
+ScotApp_1716,OP:
+ScotApp_1190,SYÖTETTY TUOTE
+ScotApp_1602,     Kortinpalautinkotelo on melkein tyhjä (%s)
+ScotApp_1149,Kuittitulostimen virhe
+ScotApp_1066,1066unused
+ScotApp_1614,Palautinkotelo
+ScotApp_792,792unused
+ScotApp_692,692unused
+ScotApp_592,NCR SelfServ Checkout Encryptor -salain on ladattu.
+ScotApp_492,Ole hyvä ja ota vaihtorahat.
+ScotApp_392,Tuntemattomat tuotteet
+ScotApp_292,Kuponkia ei voi lukea
+ScotApp_192,192unused
+ScotApp_1241,LUOTTO
+ScotApp_1197,TAPAHTUMA KESKEYTETTY
+ScotApp_1548,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_992,Syötä syntymäaika
+ScotApp_892,Smart Scale -vaakaa suljetaan...
+ScotApp_1053,"Odota, että kassanhoitaja tuo paperilapun allekirjoitusta varten."
+ScotApp_1404,POS-palvelin on alhaalla tai sitä ei ole ajoitettu. Sammuta kassapääte virtakytkimestä.
+ScotApp_1245,TILIVELOITUS
+ScotApp_1262,USERDEFINED4
+ScotApp_1471,Kolikon kierrätyslaitteen virhe
+ScotApp_1196,SOSIAALITURVATUNNUS : [Social Security Number in Finnland]
+ScotApp_1052,1052unused
+ScotApp_1600,Kortinpalauttimen tila :
+ScotApp_1663,kotelo on tyhjä tai tukossa
+ScotApp_1261,USERDEFINED3
+ScotApp_1125,"Täytä kaikki kolikkokanavat kolikkolippaan kanteen asti.\n\nSiirry myyntitilaan, valitse ""Vaihtorahan / paperin tila"" ja paina ""Kolikonpalautin on täytetty"" -painiketta."
+ScotApp_1183,HINTAKEHOTUS
+ScotApp_1470,Setelin kierrätyslaitteen virhe
+ScotApp_1195,CSA KESKEYTETTY
+ScotApp_1229,APUA ON KUTSUTTU
+ScotApp_1051,Paperimuotoinen hyväksyntä
+ScotApp_1607,     Hylkäyskotelon tila on normaali (%s)
+ScotApp_1895,Genr Excp
+ScotApp_747,747unused
+ScotApp_647,E
+ScotApp_447,Kanta-asiakastilisi on aktivoitu.
+ScotApp_347,Rajoitettu tuote on peruutettu - alaikäraja ei täyty. Aseta tuote sivuun.
+ScotApp_247,247unused
+ScotApp_147,147unused
+ScotApp_1260,USERDEFINED2
+ScotApp_1619,Keskeytys
+ScotApp_769,Vahvista tai peruuta keskeytys.
+ScotApp_947,Uusi painotuote
+ScotApp_847,Viivakoodien luku valmis
+ScotApp_1477,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_726,726unused
+ScotApp_626,Poikkeama:
+ScotApp_526,\nVäärä PIN-koodi syötetty.\nSyötä toinen kortti\n -tai-\nmaksa käteisellä
+ScotApp_426,Kassa ##:
+ScotApp_326,Rajoitettujen tuotteiden ikäraja ei täyty syötetyn syntymäajan suhteen.
+ScotApp_226,Kortinlukija toimintakyvytön
+ScotApp_126,(kkppvv).
+ScotApp_1606,     Hylkäyskotelon tila on normaali
+ScotApp_926,Tuotteita ei ole palautettu pakkausalueelle.
+ScotApp_826,Ohita pakkaaminen
+ScotApp_1267,USERDEFINED9
+ScotApp_1618,"Setelinpalautuskasetti on ulkona tai sitä ei ole asennettu kunnolla paikallaan.\n\nAsenna setelikasetti paikalleen oikein, kunnes se lukkiutuu oikeaan kohtaan."
+ScotApp_1181,KUPONKIRAJA ON YLITETTY
+ScotApp_205,Kopiointi on suoritettu.
+ScotApp_105,Tuntematon tuote
+ScotApp_1476,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1730,Haku
+ScotApp_1390,Laite ei vastaa
+ScotApp_805,Hyväksy tuotteet
+ScotApp_1864,Mene kassalle
+ScotApp_1408,TUKI
+ScotApp_1266,USERDEFINED8
+ScotApp_1180,EI HINTAOSUMAA
+ScotApp_1208,MYYTY TUKITILASSA
+ScotApp_1475,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1397,Valvoja
+ScotApp_1748,Sormenjäljellä sisäänkirjautumisen virhe
+ScotApp_718,718unused
+ScotApp_618,Painon sallittu poikkeama
+ScotApp_518,Syötä käteinen.
+ScotApp_1253,PIP ETUKORTTI
+ScotApp_1604,      Kortinpalautinkotelon tila on normaali (%s)
+ScotApp_218,Tulostin on lähes tyhjä
+ScotApp_118,Tarvitaan hyväksyntä
+ScotApp_552,Tunnus ja salasana eivät voi alkaa numerolla nolla.
+ScotApp_791,Valitse maksutapa.
+ScotApp_691,691unused
+ScotApp_591,NCR SelfServ Checkout Encryptor -salainta ladataan...
+ScotApp_391,"Tuotteet, joille tarvitaan hinta"
+ScotApp_918,Ei merkintää tuotteen painosta.
+ScotApp_1187,LAITEVIRHE
+ScotApp_991,Iän tarkastus
+ScotApp_891,Smart Scale -vaaka on ladattu.
+ScotApp_1474,Laitteistovirhe. Virhekoodi E%d
+ScotApp_1396,Poistu valvojatilasta
+ScotApp_1252,PIP PALAUTUS
+ScotApp_1732,PL-kuvat ladattu.
+ScotApp_1461,Kolikot
+ScotApp_1166,"* Avaa tulostinkaapin ovi.\n* Irrota tulostin ja työnnä sitä taaksepäin\n* Avaa tulostimen kansi tarkistaaksesi, ettei laitteen sisässä ole tukoksia.\n* Sulje tulostimen kansi ja lisää kuittirulla.\n* Vedä tulostinta varovaisesti eteenpäin, kunnes se lukkiutuu oikeaan asentoon."
+ScotApp_1186,ODOTTAMATON LASKU
+ScotApp_1857,  Älä aseta hihnan päälle
+ScotApp_1829,Hyväksy
+ScotApp_1670,Kolikko-/setelikierrättimen virhe
+ScotApp_1198,TILINUMERO SYÖTETTY
+ScotApp_1869,Käsi näkymässä
+ScotApp_1251,PIP PANKKI
+ScotApp_1855,Valinnainen
+ScotApp_767,Kassatarvikkeiden taso on normaali
+ScotApp_667,Kortti on vedetty. Lue tuotteet ja kupongit.
+ScotApp_567,Syötä
+ScotApp_467,467unused
+ScotApp_367,367unused
+ScotApp_267,Hälytys
+ScotApp_1460,Setelit
+ScotApp_1185,KASSI- JA LAATIKKORAJA YLITETTY
+ScotApp_1009,Myyntitila
+ScotApp_867,Ei
+ScotApp_1856,  Älä pakkaa pussiin
+ScotApp_1677,"Tarkista, että kolikkokierrättimen ovi on kiinni."
+ScotApp_746,746unused
+ScotApp_646,K
+ScotApp_1394,Digitaalisen liitännän virhe
+ScotApp_446,Keskeytä tapahtuma
+ScotApp_346,Rahaa takaisin (Palautettava käteinen)
+ScotApp_246,246unused
+ScotApp_146,Valitse maksutapa.
+ScotApp_1501,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1609,     Hylkäyskotelo on melkein täynnä
+ScotApp_1194,LUPANUMERO
+ScotApp_946,Kassi/laatikko-hyväksyntä
+ScotApp_846,Lue tuotteiden koodit tai paina Viivakoodien luku valmis.
+ScotApp_1843,Oma kas
+ScotApp_1467,"Käytä ""Vaihtorahan / paperin tila"" -näyttöä rahan poistamiseksi."
+ScotApp_725,725unused
+ScotApp_625,Syötä painopoikkeama <%s> ja <%s> väliltä.
+ScotApp_1381,Käsitellään…
+ScotApp_425,425unused
+ScotApp_325,Syötetty päivämäärä on väärä
+ScotApp_225,Kortinlukijan keruulaatikko on asennettu paikalleen
+ScotApp_1676,Kolikkokierrättimen ovi auki
+ScotApp_925,925unused
+ScotApp_825,Pakkaa tuote
+ScotApp_1608,     Hylkäyskotelo on tyhjä
+ScotApp_1842,Täysi tuki
+ScotApp_1808,Valitse tuote kuitilta.
+ScotApp_1466,Rahan kierrätyslaitteen tila: täynnä
+ScotApp_1380,hinta
+ScotApp_1854,Valinnainen
+ScotApp_1675,Kolikkokierrättimen virhe
+ScotApp_1597,Etukortti
+ScotApp_1350,%s\n%s %s lisätty
+ScotApp_738,738unused
+ScotApp_638,Todelliset painokantapoikkeamien tiedot
+ScotApp_538,538unused
+ScotApp_338,Syötä tuotenimikkeen kolme ensimmäistä kirjainta.
+ScotApp_238,\nSyötettyjen setelien rekisteröinti epäonnistui setelinvastaanottimessa.\n\nTarkista setelikasetti.
+ScotApp_138,Ota kortti
+ScotApp_1170,"* Avaa tulostimen kansi ja tarkista, ettei näytetyllä alueella ole paperitukosta. \n* Poista paperi.\n* Sulje tulostimen kansi ja lataa paperi uudelleen.\n* Ellei virhe katoa, käynnistä pääte uudelleen."
+ScotApp_1841,Mene kassalle hyväksyntää varten
+ScotApp_1740,Varmista kassi
+ScotApp_938,938unused
+ScotApp_838,Asiakassopimus
+ScotApp_1133,Tukos setelinpalauttimessa.
+ScotApp_1387,On tapahtunut ohjelman suorituksen keskeyttävä virhe.\nKäynnistä kassapääte uudelleen.\n\nPäätteen uudelleenkäynnistys:\n* Käännä päävalvojan avainlukko S-asentoon -TAI- paina päävalvojapainiketta.\n* Valitse koko järjestelmän uudelleenkäynnistys.\n* Soita tukeen ja ilmoita virheestä.
+ScotApp_1674,"Paina hylkäyspainiketta vapauttaaksesi juuttuneet kolikot.  Jos virhe tapahtuu uudelleen, se saattaa johtua kolikkotukoksesta. Avaa kolikkokansi ja varmista.  Poista kaikki juuttuneet kolikot.  Nollaa painamalla hylkäyspainiketta.  Vapauta se ja sulje kolikkokansi."
+ScotApp_1650,(ppkkvv)
+ScotApp_690,690unused
+ScotApp_590,Device Factory -ohjelmaa suljetaan...
+ScotApp_490,Lue tuotteiden viivakoodit tai aloita painamalla Käynnistä.
+ScotApp_390,Poistotuotteet
+ScotApp_290,290unused
+ScotApp_190,Transaction Broker -ohjelmaa ladataan…
+ScotApp_990,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_890,Smart Scale -vaakaa ladataan...
+ScotApp_1772,KUPONKI
+ScotApp_1661,Kuitin tulostaminen epäonnistui.  Paina Muut kuitit ja yritä uudelleen.
+ScotApp_1132,Yhteysvirhe.
+ScotApp_1386,Ohjelman suorituksen keskeyttävä virhe
+ScotApp_784,Setelinpalautin toimintakyvytön\n* Täytä setelinpalautin tai\n* poista sieltä tukos tai\n* säädä lajittelukoteloa.
+ScotApp_684,Tänään
+ScotApp_584,EBT Declined
+ScotApp_484,Tarvitaan allekirjoitus
+ScotApp_384,384unused
+ScotApp_284,Lukulaite: Tiedot ovat hävinneet
+ScotApp_1595,Toivottu kieli
+ScotApp_1451,Kassanhoitajan tunnus
+ScotApp_984,Kuljetushihna on ladattu.
+ScotApp_884,Peruuta keskeytys
+ScotApp_1847,"Tuote lisätty. Lue seuraava tuote tai kosketa ""Näppäile koodi""."
+ScotApp_1660,Valitse tulostusvaihtoehto
+ScotApp_1131,Setelilaatikko ei ole laitteen sisällä tai sitä ei ole asennettu sinne kunnolla.
+ScotApp_1385,Valitse kieli
+ScotApp_1436,Ohita pakkaaminen -raja ylitetty
+ScotApp_1049,1049unused
+ScotApp_666,666unused
+ScotApp_1594,Sammuta pääte oikein ja käynnistä se uudestaan. 
+ScotApp_466,   Viivakoodiltaan tuntematon tuote
+ScotApp_366,Tulostimen leikkurissa tukos
+ScotApp_266,Sec.Agent -ohjelmaa suljetaan...
+ScotApp_966,966unused
+ScotApp_1541,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1846,"Lue tuote tai kosketa ""Näppäile koodi""."
+ScotApp_1667,Setelitukos
+ScotApp_1689,Setelikierrättimen virhe
+ScotApp_745,745unused
+ScotApp_645,Aseta luettu tuote takaisin pakkausalueelle.
+ScotApp_1581,Kolikonpalautin
+ScotApp_445,Cash Benefit
+ScotApp_345,345unused
+ScotApp_245,Kortinlukija toimintakyvytön
+ScotApp_145,145unused
+ScotApp_945,Rajoita\kassi/laatikko
+ScotApp_713,713unused
+ScotApp_613,Aseta tuote tarkistusvaa’alle.
+ScotApp_513,513unused
+ScotApp_313,313unused
+ScotApp_213,213unused
+ScotApp_113,Poista tuotteet
+ScotApp_1573,Paina lataa-painikkeita täyttämistä varten tai paina Vastaanottimen noudot ja Palauttimen noudot poistamista varten.
+ScotApp_913,Vaa’alla on odottamaton tuote.
+ScotApp_813,Näppäile PO# / tehtävän nimi ja paina Syötä
+ScotApp_1666,Setelikierrättimen virhe
+ScotApp_1137,%s Setelikasetti ei ole paikallaan.
+ScotApp_1580,Setelinpalautin
+ScotApp_758,758unused
+ScotApp_658,vaihtorahataso alhainen
+ScotApp_558,Määrärajoitettu tuote
+ScotApp_1653,Summa ylittää kapasiteetin. Maksimi tarvittava summa on %s. %s-summa syötetään automaattisesti.
+ScotApp_358,Palaa tukitilaan
+ScotApp_258,Transaction Broker -ohjelmaa suljetaan..
+ScotApp_158,Tätä tuotetta varten tarvitaan myyntihyväksyntä. Ole hyvä ja jatka.
+ScotApp_1844,Haku
+ScotApp_958,Kassivaaka
+ScotApp_858,Kyllä
+ScotApp_1136,Hylättyjen seteleiden kotelo on ulkona tai se ei ole oikeassa asennossa.
+ScotApp_1587,"Oletko varma, että haluat jättää setelinhallinnan näytöllä näkyvät muutokset huomioimatta?"
+ScotApp_1531,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1599,%s preferenssin haku epäonnistui.
+ScotApp_1652,(vvkkpp)
+ScotApp_1123,"* Älä jatka ennen kuin kaikki juuttuneet setelit on poistettu.\n* Vedä setelinpalautin varoen ulos kaapista.\n* Poista juuttuneet setelit setelinpalauttimen päältä häiritsemättä hihnoja.\n* Työnnä setelinpalautin takaisin kaappiin.\n*  Lukitse ovi ja paina sitten ""Ongelma on korjattu""."
+ScotApp_1342,Valitse apuohjelma
+ScotApp_1332,Välilyönti
+ScotApp_1586,%s    %s  %s
+ScotApp_1444,Poista
+ScotApp_1598,Preferenssit on aktivoitu.
+ScotApp_1651,(vvvvkkpp)
+ScotApp_1122,Seteli on saattanut juuttua setelinpalauttimen syöttöalueelle.\n\nVedä setelinpalautin osittain ulos kaapista.\n\nIrrota juuttuneet setelit kuvassa näytetyltä alueelta.\nTyönnä setelinpalautin varovaisesti takaisin kaappiin.
+ScotApp_1331,Vaihto
+ScotApp_1585,Kotelot            Arvo  Arvon muutos
+ScotApp_1118,Ongelma %s seteleiden palautuksessa.\n\n%s Setelit eivät kulkeudu setelikasetista.\n\nAvaa %s setelikasetti ja tarkasta setelien kunto.
+ScotApp_1884,Smart Assist -hälytys
+ScotApp_1191,TARVITAAN MITTAUSTA
+ScotApp_1121,Seteli on saattanut juuttua kuvassa näytetylle alueelle.\n\nVedä setelinpalautin osittain ulos kaapista.\n\nIrrota juuttuneet setelit.\n\nTyönnä setelinpalautin varovaisesti takaisin kaappiin.
+ScotApp_503,503unused
+ScotApp_403,403unused
+ScotApp_1849,
+ScotApp_1330,Tuotetta ei ole pakattu
+ScotApp_1355,Kortin saldo
+ScotApp_1584,Kotelot           Määrä  Määrän muutos
+ScotApp_465,%s               %s
+ScotApp_365,Kirjoitinpäässä tukos
+ScotApp_265,265unused
+ScotApp_965,965unused
+ScotApp_633,Allekirjoitus:
+ScotApp_433,433unused
+ScotApp_333,Kortinlukijan virhe: sulkuläpän tukkeutuma
+ScotApp_233,"Varmista, että setelinvastaanotin on asennettu oikein.\n\nVedä kahvasta eteenpäin irrottaaksesi setelinvastaanottimen ja vedä otinta eteenpäin.\n\nTyönnä seteliotin takaisin, kunnes se pysähtyy."
+ScotApp_133,133unused
+ScotApp_1120,"%s setelikasetin edessä voi olla setelitukos.\n\nPoista %s kasetti ja etsi tukosta ko. alueella.\n\nPoista juuttuneet setelit, jos se on mahdollista, ja aseta setelikasetti paikalleen."
+ScotApp_1805,Poistu Vain käteinen -toiminnosta
+ScotApp_933,Painot eivät vastaa toisiaan
+ScotApp_833,833unused
+ScotApp_1337,Poistu SelfServ Checkout-ohjelmasta
+ScotApp_1780,ALOITA TAPAHTUMA
+ScotApp_712,712unused
+ScotApp_612,Lisää paino
+ScotApp_512,Silmämääräiset vahvistukset
+ScotApp_312,kotelo on jumissa
+ScotApp_212,212unused
+ScotApp_112,Vahvista määrä
+ScotApp_1081,Näytä\nkaikki kassat
+ScotApp_778,778unused
+ScotApp_678,678unused
+ScotApp_578,Lopeta korttimaksu.  Palautettava summa.
+ScotApp_478,Jätä kupongit.
+ScotApp_378,Kuittitulostin
+ScotApp_278,Turvallisuusloki
+ScotApp_1127,Yhdistä uudelleen
+ScotApp_1802,Hyväksy vain kortit
+ScotApp_978,Raja = %d
+ScotApp_878,Syötä hinta.
+ScotApp_1533,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1787,"Syötä käytettyjen muovipussien määrä tai 0, jos pusseja ei käytetty lainkaan."
+ScotApp_1799,Vain kortit -toiminto
+ScotApp_1309,"* Työnnä kasettia, kunnes se lukkiutuu paikalleen.\n* Varmista, että setelinvastaanottimen moottori käynnistyy."
+ScotApp_1323,Paino jää
+ScotApp_1079,Aseta luettu tuote takaisin hihnalle.
+ScotApp_1382,(Perus)
+ScotApp_1532,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1786,Muovipussin hinta
+ScotApp_1094,Tulosta allekirjoitukset
+ScotApp_1113,%s @ %s/%s\t%s
+ScotApp_1798,Vain käteinen -toiminto
+ScotApp_1322,Kupongin anturin virhe\nYhteysvirhe.
+ScotApp_1078,Valitse asetus painoa varten. (Asiakkaan tulee laittaa tuote hihnalle.)
+ScotApp_1334,  Tuote ei ole hihnalla
+ScotApp_1785,Virheellinen sisäänkirjautuminen. Kirjaudu sisään uudelleen näppäimistön tai sormenjäljen avulla.
+ScotApp_1046,Vie maksupisteen %s kassanhoitajalle.
+ScotApp_1696,Tila korjattu
+ScotApp_1112,%s @ %s %s/%s\t%s
+ScotApp_1158,PinPad/EFT-laitteen virhe
+ScotApp_1065,1065unused
+ScotApp_1321,Päätä maksu vaihto- tai hyvitystositteella.  Maksettava määrä.
+ScotApp_764,764unused
+ScotApp_1530,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1784,MONIPAKKAUSTUOTE
+ScotApp_1070,1070unused
+ScotApp_49,49unused
+ScotApp_1111,  Qty %s @ %s/%s\t%s
+ScotApp_753,Edellinen päivä tunneittain
+ScotApp_653,Syötä kupongin arvo senteissä ja paina Syötä.
+ScotApp_453,Kolikonvastaanottimen tila: täynnä
+ScotApp_353,Palaa takaisin
+ScotApp_253,253unused
+ScotApp_153,153unused
+ScotApp_1320,Aloita maksu vaihto- tai hyvitystositteella.
+ScotApp_953,"Sammuta kassapääte ja käynnistä uudelleen:\n* Käännä päävalvojan avainlukko S-asentoon TAI paina päävalvojanäppäintä.\n* Valitse ""Aja ALT Seuraavan Uudelleenkäynnistyksen Aikana"". Valitse ""Kyllä"" vahvista.\n* Valitse Sammuta koko järjestelmä.\n* Kun näyttö pimenee, sammuta kassapääte UPS-laitteesta tai pistorasian kytkimestä.\nKäynnistä kassapääte. Tarkasta tapahtumienvalvontaohjelma. Jos virhe uusiutuu, ota yhteys huoltoon."
+ScotApp_853,Neljä tuotetta
+ScotApp_1845,Kuitti
+ScotApp_1537,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_732,732unused
+ScotApp_632,632unused
+ScotApp_532,Rajoitettu tuote
+ScotApp_432,EBT
+ScotApp_332,Tukitilasta poistuminen
+ScotApp_232,"* Irrota setelinvastaanotin ja kasetti.\n* Tarkista, ettei kasetissa ole tukoksia.\n* Avaa setelinvastaanottimen yläpuolella olevat luukut ja tarkista, ettei niiden sisällä ole setelitukosta.\n* Sulje ovet hyvin.\n* Asenna setelivastaanotin ja kasetti takaisin paikalleen."
+ScotApp_132,132unused
+ScotApp_1110,  Qty %s @ %s/each\t%s
+ScotApp_1242,PANKKI
+ScotApp_1285,Suosittu
+ScotApp_932,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_832,832unused
+ScotApp_1327,Paina haluamaasi raporttia ja sen jälkeen painiketta Aja raportti.
+ScotApp_711,711unused
+ScotApp_611,Valitse haluttu toiminto.
+ScotApp_511,Vertaa asiakkaan allekirjoitusta kortissa lukevaan.
+ScotApp_411,Ota etukortti
+ScotApp_311,kotelo on tyhjä
+ScotApp_111,Nollaa vaaka
+ScotApp_1789,KUPONKI
+ScotApp_1536,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_911,Nollaa hälytys
+ScotApp_811,"Lue lahjakortin koodi. Tarkista, ettei koriin ole jäänyt tuotteita."
+ScotApp_1628,CPU-virhe
+ScotApp_1523,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1349,%s\n %s\n%s %s odotettu\n%s %s todettu
+ScotApp_1892,Turva-analyysi
+ScotApp_1279,TARKASTUS
+ScotApp_1535,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1057,1057unused
+ScotApp_1441,Kolikonhallinta
+ScotApp_1313,"* Tarkista, ettei tulostimessa ole paperitukoksia.\n* Lisää kuittirulla.\n* Sammuta kassapääte ja käynnistä se uudelleen."
+ScotApp_1681,Setelikierrättimen virhe
+ScotApp_1069,1069unused
+ScotApp_1325,Aseta tuote vaa’alle.
+ScotApp_1278,USERDEFINED20
+ScotApp_1103,Edellinen
+ScotApp_1534,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_1056,1056unused
+ScotApp_1312,"* Irrota setelinvastaanotin.\n* Avaa se ja poista setelit.\n* Sulje kasetti ja työnnä se takaisin vastaanottimeen.\n* Varmista, että setelinvastaanottimen moottori käynnistyy ja että LED-valo on vihreä."
+ScotApp_1265,USERDEFINED7
+ScotApp_1850,"Laitteet, joissa virhe"
+ScotApp_1213,TUNTEMATON
+ScotApp_1521,Etsi laitteen käyttöohjeesta ohjeet virheen korjaamiseen.
+ScotApp_139,Ota kuitti
+ScotApp_1043,Käytä tukitilaa maksun %s  hyväksymiseen asiakkaalta.
+ScotApp_1401,Apua on tulossa.\n\nOdota hetki...
+UnknownItemMessage,Apu on tulossa.\n\nAseta tuote sivuun ja jatka.
+TimeRestrictedItemMessage,Et voi ostaa tätä tuotetta tällä kertaa. \n\nLaita tuote sivuun ja jatka.
+ItemQuantityExceededMessage,Tälle tuotteelle sallittu ostomäärä on ylitetty.\n\nAseta tuote sivuun ja jatka.
+WeightMismatch,Tuotteen painon tarkistus.\n\nOdota hetki…
+ItemQuantityExceeded,Kappaleraja Ylitetty
+WaitForRemoteAssistanceTitle,Etävalvoja
+ScotApp_489,Kiitos NCR SelfServ Checkout-kassan käytöstä.
+ScotApp_273,Älä lue tuotteen viivakoodia tällä kertaa.\nAseta tuote sivuun.
+ScotApp_431,Etukortti ei kelpaa. Ole hyvä ja tarkista.
+ScotApp_410,Apua tarvitaan kassalla:
+ScotApp_1739,"Ole hyvä ja odota valvojaa.\nJärjestelmä ei pystynyt varmistamaan kassejanne.\nJos olet tahattomasti asettanut pakkausalueelle jotain muuta kuin kassin, poista se nyt."
+ScotApp_73,Palaa ostotilaan
+ScotApp_772,Nykyisen tapahtuman keskeytystä on pyydetty.\n Vahvista tai peruuta pyyntö.
+ScotApp_530,Kortin lukeminen ei onnistu.\nSyötä toinen kortti.\n -tai-\nmaksa käteisellä.\n -tai- \nkutsu apua.
+ScotApp_524,Väärä PIN-koodi syötetty.\nSyötä PIN uudelleen maksulaitteeseen.
+ScotApp_397,"Kelvot tuotteet voidaan myydä tukitilan kautta.\nKerää tuotteet, joita ei myydä."
+ScotApp_171,"""%s""\n\nOnko %d oikein?"
+ScotApp_1374,\n---------------------------------------\n
+ScotApp_1646,Tapahtuma on keskeytetty. Aseta kaikki tuotteet sivuun.
+ScotApp_495,Tälle tuotteelle sallittu ostomäärä on ylitetty.\n\nAseta tuote sivuun ja jatka.
+ScotApp_529,"Poista kortti, sitten...\nsyötä toinen kortti.\n  -tai-\nmaksa käteisellä.\n -tai- \nkutsu apua."
+ScotApp_275,Älä syötä maksukortteja tällä kertaa.\nOta korttisi.
+ScotApp_1891,Järjestelmävarmennus on meneillään. \nOdota hetki...
+ScotApp_1750,Odota sillä aikaa kun sormenjälkeä käsitellään.
+ScotApp_169,Haluatko jatkaa ostotapahtumaa?
+ScotApp_415,Ota etukorttisi.\nKortti on syötetty aikaisemmin.
+ScotApp_1793,Tämä laite hyväksyy tällä kertaa vain luotto- ja pankkikortteja.\nHaluatko jatkaa?
+ScotApp_477,Jätä kupongit.\nKun kuitti on tulostunut:\n—kerää ostokset.\n—Vie kuitti ja kupongit maksupisteeseen.
+ScotApp_177,Kaikki luetut tuotteet poistettu.
+ScotApp_656,Aseta <%s> sivuun.\nSaat apua myymälän henkilökunnalta.
+ScotApp_1709,Älä aseta seteleitä tai kolikoita tällä kertaa.\nOta palautettu käteinen.\nSetelit palautetaan lukulaitteen alle.
+ScotApp_435,"Select the benefit type.\nIf you would like to use food stamps, they must be used before other benefits."
+ScotApp_808,Vie hälyttimen sisältävät tuotteet valvojalle hälytinten poistamiseksi.
+ScotApp_294,"Jos tarvitset myymälähenkilökunnan apua, paina Pyydä apua -painiketta."
+ScotApp_1287,Odota hetki ...\nTuotteen painoa tarkistetaan.
+ScotApp_525,"Väärä PIN-koodi syötetty.\nPoista kortti, sitten...\nsyötä toinen kortti\n   -tai-\nmaksa käteisellä"
+ScotApp_480,Paina OK ja vie sitten tapahtuman kuitti ja tuotteet kassanhoitajalle.
+ScotApp_1751,Painon sallittu raja on ylitetty.\nSiirrä tuotteet tarkistusvaa’alta.
+ScotApp_175,"Haluatko poistaa\n""%s""\nkuitilta?"
+ScotApp_1746,Sormenjälkipalvelin ei ole käytettävissä.\nYritä uudelleen.
+ScotApp_1839,Ole hyvä ja odota kassanhoitajaa.\nÄlä lue tuotteen viivakoodia tällä kertaa. Aseta tuote sivuun.
+ScotApp_501,Allekirjoita kuitti ja odota myyntihyväksyntää.
+ScotApp_414,Ota etukorttisi.\nAlennushintoja ei voida huomioida tässä ostotapahtumassa. Saat alennuksen postitse.
+ScotApp_563,Kokonaissummien alustamisessa tapahtui virhe.\nSovellus suljetaan nyt.
+ScotApp_263,Tuotetta ei voida mitätöidä ennen kuin kuponki on mitätöity.\nMitätöi ensin kuponki.
+ScotApp_800,Ole hyvä ja tarkista kori.\n\nLue ylimääräisten tuotteiden viivakoodit nyt tai \npaina OK maksaaksesi.
+ScotApp_134,Hyväksyminen on meneillään.\nOdota hetki.
+ScotApp_620,Syötä poikkeama
+ScotApp_161,%s\nNäppäile määrä ja paina OK.
+ScotApp_440,Your cash benefit balance is less than what is needed.\nDo you want to apply your remaining cash benefit of %s to this purchase?
+ScotApp_184,%s laskutetaan tililtäsi.
+ScotApp_274,Älä syötä rahaa tällä kertaa.\nOta rahat.
+ScotApp_1744,Laite epäonnistui sormenjäljen tunnistamisessa.\nYritä uudelleen.
+ScotApp_160,Tuote on poistettu myynnistä.\nApua on tulossa.\nAseta tuote sivuun ja jatka ostotapahtumaa.
+ScotApp_1795,"Tai valitse rajoitukseksi ""Vain kortit""."
+ScotApp_159,Tuotteen hinta on tuntematon.\nApua on tulossa.\nAseta tuote sivuun ja jatka ostotapahtumaa.
+ScotApp_458,Select the benefit type.\nFood stamps cannot be used for this purchase.
+ScotApp_1329,Odota hetki ...\nTuotteen painoa tarkistetaan.\nOn pakattu kaksinkertainen paino.
+ScotApp_407,Kortin lukuvirhe.\n* Kokeile toista korttia\n   -tai-\n* pyydä apua
+ScotApp_706,"Your food stamp balance is less than the total for this purchase.\nTouch ""OK"" to use a different payment method."
+ScotApp_606,Poista painot
+ScotApp_906,Ota tuotteet.
+ScotApp_705,"Your cash benefit balance is less than the total for this purchase.\nTouch ""OK"" to use a different payment method"
+ScotApp_605,Lisää paino
+ScotApp_405,Kortin lukuvirhe.\n* Kokeile toista korttia\n   -tai-\n*  maksa käteisellä\n   -tai-\n*  pyydä apua
+ScotApp_491,Ota korttisi.
+ScotApp_818,Ole hyvä ja odota kassanhoitajaa.\nApua tarvitaan:
+ScotApp_1796,"Tai valitse rajoitukseksi ""Vain käteinen""."
+ScotApp_438,Your food stamp balance is less than what is needed.\nDo you want to apply your remaining food stamp benefit of %s to this purchase?
+ScotApp_1596,"Haluaisitko tallentaa %s toivotuksi kieleksi omaan %s?\n Valitse ""Kyllä"" tai ""Ei""."
+ScotApp_766,%s laskutetaan tililtäsi.
+ScotApp_166,Apua on tulossa.\nJatka ostotapahtumaa.
+ScotApp_413,Ota etukorttisi.\nAlennushinnat otetaan huomioon.
+ScotApp_1797,"Korjaava toimenpide ei korjannut virhettä.\nYritä uudelleen tai valitse rajoitukseksi ""Vain käteinen""."
+ScotApp_178,Odota myyntihyväksyntää.\nHyväksyntä tarvitaan tuotteille:
+ScotApp_790,Korttia ei hyväksytty.\nValitse toinen maksutapa.
+ScotApp_1794,Tämä laite hyväksyy tällä kertaa vain käteistä.\nLuotto- tai pankkikortteja ei voida käsitellä.\nHaluatko jatkaa?
+ScotApp_412,Ostosrajasi ylittyvät tämän tuotteen myötä %s.\nMaksa ensin ja osta muut tuotteet erikseen.
+ScotApp_546,Et riittävän vanha ostamaan tätä tuotetta.\nAseta tuote sivuun ja jatka ostotapahtumaa.
+ScotApp_553,Kupongit hyväksytään ostotapahtuman lopussa.\nAseta ne sivuun ja jatka.
+ScotApp_211,Käsitellään...\nOdota hetki.
+ScotApp_1400,Etävalvoja
+ScotApp_1754,Kirjaimet eivät vastaa tuotetta.
+ScotApp_1859,"Ostetaanko täysi korillinen %s? Valitse ""Kyllä"" tai ""Ei""."
+ScotApp_533,Tämän tuotteen osto ei onnistu tällä kertaa.\nAseta tuote sivuun ja jatka ostotapahtumaa.
+ScotApp_1763,e=d=%5.3fkg Max %5.3f kg min %3.1f kg Nmax %4.0f
+ScotApp_1762,e=d=%4.2flb Max %4.2f lb min %3.1f lb Nmax %4.0f
+ScotApp_1764,e = d = %4.2f lb Max %4.2f lb Min %3.1f lb Nmax %4.0f
+ScotApp_1765,e = d = %5.3f kg Max %5.3f kg Min %3.1f kg Nmax %4.0f
+ScotApp_305,Valitse pakkaus tuotteelle: %s
+ScotApp_703,Käytä PIN-näppäimistöä. Paina PIN-näppäimistön Peruuta -näppäintä maksun peruuttamiseksi.
+ScotApp_125,"Näppäile asiakkaan syntymäaika %s ja paina ""Hyväksy"""
+ScotApp_1853,"Näppäile asiakkaan syntymäaika %s ja paina ""Syötä"". "
+ScotApp_654,Tieto tulee syöttää %s-muodossa.Syötetty arvo: %s
+ScotApp_560,Tämä järjestelmä ei hyväksy kuponkeja.
+ScotApp_1788,Onko %d oikein? \n\nPussin hinta %s lisätään kokonaissummaan.
+ScotApp_1358,Lahjakortin summa %s on käytetty ostotapahtumassa.\n\nLahjakortin saldo on %s.
+ScotApp_167,Kuponki ei vastaa mitään ostettua tuotetta.\n\nTätä kuponkia ei voida hyväksyä.
+ScotApp_164,"Järjestelmä ei tunnista tuotekoodia.\n\nVarmista, että on syötetty oikea numero."
+ScotApp_547,Väärä käyttäjän tunnusnumero ja salasana.\n\nOle hyvä ja yritä uudestaan.
+ScotApp_442,%s of your purchase can be paid with food stamps.\n\n%s
+ScotApp_443,%s veloitetaan tililtäsi.\n\nHyväksytäänkö se?
+ScotApp_700,Tuotetta ei voida myydä tällä kassalla.\nApua on tulossa.\n\nAseta tuote sivuun ja jatka ostotapahtumaa.
+ScotApp_165,Järjestelmä ei tunnista tuotetta.\nApua on tulossa.\n\nAseta tuote sivuun ja jatka ostotapahtumaa.
+ScotApp_182,Syöttämäsi kupongin arvo on liian korkea.\n\nTämä järjestelmä ei voi hyväksyä kuponkia.
+ScotApp_733,Korttia ei hyväksytty.\nKäytä toista korttia tai maksa käteisellä.
+ScotApp_812,Kiitos NCR SelfServ Checkout-kassan käytöstä.\nVie lahjakortti kassanhoitajalle.
+ScotApp_1826,Haluatko tallentaa omat suosikkisi etukortillesi?
+ScotApp_1852,Siirrä poistettu tuote pois pakkausalueelta.
+QRCodeErrorText,QR Code Error
+ScanQRCodeInstruction,Scan this code to complete\nyour Mobile shopping.
+ScotApp_1896,Transferring items from mobile cart.
+ScotApp_1897,Hetkinen...
+ScotApp_1898,Mobile Cart
+ScotApp_1899,Mobile Audit
+ScotApp_1900,Mobile Shopper Audit
+ScotApp_1901,"Touch ""OK"" then use Attendant Handset to complete audit."
+ScotApp_1902,Begin Mobile Transaction
+ScotApp_1903,End Mobile Transaction
+ScotApp_1904,%d Items Sold
+ScotApp_1905,Scan barcode to complete your Mobile checkout.
+ScotApp_1906,Mobile cart transfer is complete.
+ScotApp_1907,\nTouch Pay or add more items.
+MoveLeft,< Move
+MoveRight,Move >
+Accessibility,Accessibility
+SearchItemCodeWatermark,Enter Item Code
+ScanAndBagNoSearchKeyIn,Scan or look up item to start
+ScanLookUpKeyInItem,"Scan, look up, or key in item code to start."
+LookUpKeyInItem,Look up or Key in Item
+ScanOrKeyInItem,Scan or Key in Item
+XM_MenuSetupLoaderV6HW,Aseta lataaja
+RemoveItemFromProduceScale,Remove item from scale.
+RemoveItemFromProduceScaleTitle,Remove Item

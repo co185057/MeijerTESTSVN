@@ -1,0 +1,614 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\dftrans.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\dftrans.ico"
+IDR_DFTRANTYPE          ICON    DISCARDABLE     "res\\dftransDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_BITMAP_AUDITSUCCESS BITMAP  DISCARDABLE     "res\\103.bmp"
+IDB_BITMAP_AUDITFAILURE BITMAP  DISCARDABLE     "res\\104.bmp"
+IDB_BITMAP_WARNING      BITMAP  DISCARDABLE     "res\\105.bmp"
+IDB_BITMAP_ERROR        BITMAP  DISCARDABLE     "res\\106.bmp"
+IDB_BITMAP_INFO         BITMAP  DISCARDABLE     "res\\107.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_REFRESH
+    SEPARATOR
+    BUTTON      ID_EDIT_FIND
+    BUTTON      ID_EDIT_FINDNEXT
+    BUTTON      ID_EDIT_FINDPREV
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM SEPARATOR
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "Refresh",                     ID_FILE_REFRESH
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Find...\tCtrl+F",            ID_EDIT_FIND
+        MENUITEM "Find &Next\tF3",              ID_EDIT_FINDNEXT
+        MENUITEM "Find &Previous\tShift+F3",    ID_EDIT_FINDPREV
+        MENUITEM "Goto Index...\tCtrl+G",       ID_EDIT_GOTOINDEX
+        MENUITEM SEPARATOR
+        MENUITEM "Options..",                   ID_EDIT_OPTIONS
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "Raw State Trans.",            ID_VIEW_RAW
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About SCOTrans...",          ID_APP_ABOUT
+    END
+END
+
+IDR_POPUP MENU DISCARDABLE 
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        POPUP "Find Next Type..."
+        BEGIN
+            MENUITEM "SCOT State Match",            ID_POPUP_FIND_NEXT
+            MENUITEM "TB State Match",              ID_POPUP_FIND_NEXT_TB
+            MENUITEM SEPARATOR
+            MENUITEM "Application Death",           ID_POPUP_FINDNEXTTYPE_APPLICATIONDEATH
+
+            MENUITEM "Application Restart",         ID_POPUP_FINDNEXTTYPE_APPLICATIONRESTART
+
+            MENUITEM "Transaction End",             ID_POPUP_FINDNEXTTYPE_TRANSACTION
+
+        END
+        POPUP "Find Prev Type..."
+        BEGIN
+            MENUITEM "SCOT State Match",            ID_POPUP_FIND_PREV
+            MENUITEM "TB State Match",              ID_POPUP_FIND_PREV_TB
+            MENUITEM SEPARATOR
+            MENUITEM "Application Death",           ID_POPUP_FINDPREVTYPE_APPLICATIONDEATH
+
+            MENUITEM "Application Restart",         ID_POPUP_FINDPREVTYPE_APPLICATIONRESTART
+
+            MENUITEM "Transaction End",             ID_POPUP_FINDPREVTYPE_TRANSACTIONEND
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Show Stats",                  ID_POPUP_STATS, INACTIVE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_EDIT_FIND,           VIRTKEY, CONTROL, NOINVERT
+    "G",            ID_EDIT_GOTOINDEX,      VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F3,          ID_EDIT_FINDNEXT,       VIRTKEY, NOINVERT
+    VK_F3,          ID_EDIT_FINDPREV,       VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 217, 68
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About SCOTrans"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,24,20,20
+    LTEXT           "SCOT State Transistion Viewer",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Unknown",IDC_COPYRIGHT,40,38,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,32,14,WS_GROUP
+    LTEXT           "Written by Scott Barnhart",IDC_STATIC,40,52,119,8
+    LTEXT           "Version: Unknown",IDC_APPVER,40,24,119,8,SS_NOPREFIX
+END
+
+IDD_DFLISTLOAD DIALOG DISCARDABLE  0, 0, 228, 57
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Loading State Transition Data..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "Please wait while State Transition Data is loaded...",
+                    IDC_MSGTXT,7,7,214,15,SS_CENTERIMAGE
+    CONTROL         "Progress1",IDC_LOADPROGRESS,"msctls_progress32",
+                    WS_BORDER,25,27,173,14
+END
+
+IDD_DFSTATS DIALOG DISCARDABLE  0, 0, 285, 146
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dynaframe Statistics"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,117,125,50,14
+    LTEXT           "Name",IDC_STATIC,7,18,67,8
+    LTEXT           "ID#",IDC_STATIC,7,39,67,8
+    LTEXT           "# Times Entered",IDC_STATIC,7,60,67,8
+    LTEXT           "Total Time",IDC_STATIC,7,81,67,8
+    LTEXT           "Average Time",IDC_STATIC,7,102,67,8
+    EDITTEXT        IDC_DFNAME,79,18,193,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_DFID,79,39,40,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_DFNUMTIMES,79,60,40,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_TOTALTIME,79,81,72,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_MAXTIME,206,102,72,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "MinTime",IDC_STATIC,161,81,38,8
+    EDITTEXT        IDC_MINTIME,206,81,72,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "MaxTime",IDC_STATIC,161,102,38,8
+    EDITTEXT        IDC_AVGTIME,79,102,72,14,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_FIND DIALOG DISCARDABLE  0, 0, 289, 114
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Find State"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Find what:",IDC_STATIC,7,7,218,58
+    CONTROL         "SCOT State Name",IDC_DYNANAME,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,15,17,87,10
+    CONTROL         "TB State Name",IDC_DYNAID,"Button",BS_AUTORADIOBUTTON,
+                    15,34,87,10
+    CONTROL         "TB State #",IDC_DYNATRANSNUM,"Button",
+                    BS_AUTORADIOBUTTON,15,50,87,10
+    COMBOBOX        IDC_DYNANAMECOMBO,111,17,108,66,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    COMBOBOX        IDC_DYNAIDCOMBO,111,34,108,54,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DYNATNUMCOMBO,111,50,55,54,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Direction:",IDC_STATIC,7,66,57,40
+    CONTROL         "Up",IDC_RADIO_UP,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    15,76,25,10
+    CONTROL         "Down",IDC_RADIO_DOWN,"Button",BS_AUTORADIOBUTTON,15,89,
+                    35,10
+    DEFPUSHBUTTON   "Find Next",IDOK,232,17,50,14,WS_GROUP
+    PUSHBUTTON      "Cancel",IDCANCEL,232,34,50,14
+END
+
+IDD_GOTO DIALOG DISCARDABLE  0, 0, 186, 66
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Goto Index..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_GOTONDX,104,18,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "OK",IDOK,31,45,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,104,45,50,14
+    LTEXT           "Enter Index #:",IDC_STATIC,41,18,58,8
+END
+
+IDD_OPTIONS DIALOG DISCARDABLE  0, 0, 298, 194
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,83,173,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,163,173,50,14
+    EDITTEXT        IDC_LOG_VIEWER,18,18,132,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",IDC_LOG_BROWSE,156,18,50,14
+    EDITTEXT        IDC_BAK_VIEWER,18,50,132,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",IDC_BAK_BROWSE,156,50,50,14
+    LTEXT           ".STF File Handler (if not a SCOTrans file)",IDC_STATIC,
+                    18,7,159,8
+    LTEXT           ".BAK File Handler (if not a SCOTrans file)",IDC_STATIC,
+                    18,38,159,8
+    LTEXT           "Warn if # lines printed is greater than:",IDC_STATIC,
+                    219,18,72,18
+    EDITTEXT        IDC_PRINT_WARN,219,37,40,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    GROUPBOX        "Choose Text and Color for:",IDC_STATIC,13,72,271,96
+    LTEXT           "Transaction End",IDC_STATIC,20,108,53,8
+    EDITTEXT        IDC_TRANS_END_TEXT,91,108,136,14,ES_AUTOHSCROLL
+    LTEXT           "Application Restart",IDC_STATIC,19,129,60,8
+    EDITTEXT        IDC_APP_RESTART_TEXT,91,129,136,14,ES_AUTOHSCROLL
+    LTEXT           "Application Death",IDC_STATIC,19,150,57,8
+    EDITTEXT        IDC_APP_DEATH_TEXT,91,150,136,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Color",IDC_TRANS_END_COLOR,231,108,50,14
+    PUSHBUTTON      "Color",IDC_APP_RESTART_COLOR,231,129,50,14
+    PUSHBUTTON      "Color",IDC_APP_DEATH_COLOR,231,150,50,14
+    LTEXT           "Lane Closed",IDC_STATIC,20,86,40,8
+    EDITTEXT        IDC_LANE_CLOSED_TEXT,91,86,136,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Color",IDC_LANE_CLOSED_COLOR,231,86,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3, 0, 2, 115
+ PRODUCTVERSION 3, 0, 2
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x9L
+#else
+ FILEFLAGS 0x8L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "NCR\0"
+            VALUE "FileDescription", "SCOT State Transition Viewer\0"
+            VALUE "FileVersion", "3, 0, 2, 115\0"
+            VALUE "InternalName", "SCOTrans\0"
+            VALUE "LegalCopyright", "Copyright (C) 2000 NCR Corp.\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "SCOTrans.EXE\0"
+            VALUE "PrivateBuild", "March 10, 2000\0"
+            VALUE "ProductName", "SCOTAPP\0"
+            VALUE "ProductVersion", "3, 0, 2\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 60
+    END
+
+    IDD_DFLISTLOAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 221
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 50
+    END
+
+    IDD_DFSTATS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 278
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+
+    IDD_FIND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 282
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 106
+    END
+
+    IDD_GOTO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+    END
+
+    IDD_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 291
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 187
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "SCOT State Transition Viewer\n\nSCOTrans\nState Transition Files (*.stf)\n.stf\nSCOTStateTransition.File\nSCOT State Transition File"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "SCOT State Transition Viewer"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_FINDNEXT        "Find the next occurence\nFind Next"
+    ID_EDIT_FINDPREV        "Find the previous occurence\nFind Previous"
+    ID_POPUP_FIND_PREV      "Find previous SCOT state matching this one"
+    ID_POPUP_FIND_NEXT      "Find next SCOT state matching this one"
+    ID_POPUP_STATS          "Show stats for this Dynaframe"
+    IDD_GOTOINDEX           "Goto a specific index"
+    ID_EDIT_GOTOINDEX       "Go to a particular index in the file."
+    ID_FILE_REFRESH         "Refreshes the current file\nRefresh"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_PREF            "Change preferences"
+    ID_EDIT_OPTIONS         "Edit Options"
+    ID_VIEW_RAW             "View the raw state transition log using registered viewer."
+    ID_POPUP_FIND_NEXT_TB   "Find next TB state matching this one"
+    ID_POPUP_FIND_PREV_TB   "Find previousTB state matching this one"
+    ID_POPUP_FINDNEXTTYPE_APPLICATIONDEATH 
+                            "Find next instance of SCOT application death."
+    ID_POPUP_FINDNEXTTYPE_APPLICATIONRESTART 
+                            "Find next instance of graceful SCOT application restart"
+    ID_POPUP_FINDNEXTTYPE_TRANSACTION 
+                            "Find next instance of a SCOT transaction ending."
+    ID_POPUP_FINDPREVTYPE_APPLICATIONDEATH 
+                            "Find previous instance of SCOT application death."
+    ID_POPUP_FINDPREVTYPE_APPLICATIONRESTART 
+                            "Find previous instance of graceful SCOT application restart"
+    ID_POPUP_FINDPREVTYPE_TRANSACTIONEND 
+                            "Find previous instance of a SCOT transaction ending."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\dftrans.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

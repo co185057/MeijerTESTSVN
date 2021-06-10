@@ -1,0 +1,58 @@
+<Display Version="1.0">
+	<Languages>
+		<Language Name="0452">
+			<StringTable>
+				<String Name="MainTitle">Ffurfweddu RAP </String>
+				<String Name="AddButtonText">Ychwanegu</String>
+				<String Name="AddLaneTitle">Ychwanegu Lôn</String>
+				<String Name="ApplyButtonText">Gosod</String>
+				<String Name="Backspace">Dileu</String>				
+				<String Name="CancelButtonText">Canslo</String>
+				<String Name="ConfigTypeText">Math o ffurfweddiad lôn:</String>
+				<String Name="ConfirmDeleteTitle">Cadarnhau Dileu</String>
+				<String Name="ConfirmDeleteText">Ydych chi am ddileu lôn:</String>
+				<String Name="ConfirmExitTitle">Cadarnhau - Allan</String>
+				<String Name="ConfirmExitText">Ydych chi'n siŵr eich bod am waredu'r newidiadau hyn?</String>
+				<String Name="ConfirmSaveTitle">Cadarnhau – Cadw</String>
+				<String Name="ConfirmSaveText">Rydych chi ar fin cadw'r newidiadau i RapNet.xml. Ydych chi am fwrw ymlaen?</String>
+				<String Name="DeleteButtonText">Dileu</String>
+				<String Name="DuplicateIPTitle">Cyfeiriad IP Dyblyg</String>
+				<String Name="DuplicateLaneTitle">Wedi Dod o Hyd i Lôn Ddyblyg</String> 
+				<String Name="DuplicateLaneText">Mae Lôn %s eisoes yn bodoli</String>
+				<String Name="EditLaneTitle">Golygu'r Lôn</String>
+				<String Name="EmptyText">Gwag</String>
+				<String Name="Enter">Cyflwyno</String>
+				<String Name="EnterHostNameInstruction">Teipiwch Enw'r Gwestai yna pwyswch "Cyflwyno".</String>
+				<String Name="EnterIPAddressInstruction">Teipiwch y Cyfeiriad IP yna pwyswch "Cyflwyno".</String>
+				<String Name="EnterIPOctetInstruction">Teipiwch yr Wyth Rhif IP yna pwyswch "Cyflwyno".</String>
+				<String Name="EnterHostNameText">Rhowch Enw Gwesteiwr y Lôn</String>
+				<String Name="EnterIPAddressText">Rhowch Gyfeiriad IP y Lôn</String>
+				<String Name="EnterIPOctetText">Rhowch Wyth Rhif IP y Lôn</String>
+				<String Name="ErrorText">Gwall</String>
+				<String Name="ExitButtonText">Allan</String>
+				<String Name="FileErrorTitle">Heb ddod o hyd i'r Ffeil</String>
+				<String Name="FileErrorText">Gwall: Doedd dim modd dod o hyd i RapNet.xml file.</String>
+				<String Name="HostNameText">Enw Gwesteiwr y Lôn</String>
+				<String Name="IPAddressText">Gyfeiriad IP y Lôn</String>
+				<String Name="IPOctetText">Wyth Rhif IP y Lôn</String>
+				<String Name="LaneText">Lôn</String>
+				<String Name="MoveButtonText">Symud</String>
+				<String Name="NoButtonText">Na</String>
+				<String Name="NoLane">Mae pob lôn wedi cael eu dileu</String>
+				<String Name="NoLaneToDelete">Nid oes rhagor o lonydd i'w dileu.</String>
+				<String Name="NoLaneWarningTitle">Dim un lôn yn RapNet.xml </String>
+				<String Name="NoLaneWarningText">Rhybudd: Does dim un lôn wedi'i ffurfweddu yn RapNet.xml.</String>
+				<String Name="OkButtonText">Iawn</String>
+				<String Name="RestartRAPTitle">Ailgychwyn RAP</String>
+				<String Name="RestartRAPText">Mae angen i chi ailgychwyn RAP.</String>
+				<String Name="SameRapIPAddress">Does dim modd defnyddio'r un cyfeiriad IP â chyfeiriad IP RAP y Bwrdd Gwaith: %s</String>
+				<String Name="SameHHRapIPAddress">Does dim modd defnyddio'r un cyfeiriad IP â chyfeiriad IP RAP y Ddyfais Llaw: %s</String>
+				<String Name="SaveButtonText">Cadw</String>
+				<String Name="SelectLaneToDelete">Dewiswch lôn i'w dileu</String>
+				<String Name="SelectSourceText">Dewiswch lôn i'w symud</String>
+				<String Name="SelectDestinationText">Dewiswch leoliad</String>
+				<String Name="YesButtonText">Iawn</String>
+			</StringTable>
+		</Language>
+	</Languages>
+</Display>

@@ -1,0 +1,125 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1BB935FF-3006-411D-A5DF-4922E49C9E89}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RapNet</RootNamespace>
+    <AssemblyName>RapNetBase</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>WindowsCE</PlatformFamilyName>
+    <PlatformID>E2BECB1F-8C8C-41ba-B736-9BE7D946A398</PlatformID>
+    <OSVersion>5.0</OSVersion>
+    <DeployDirSuffix>RapNetBaseCe</DeployDirSuffix>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FormFactorID>
+    </FormFactorID>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\DebugPPC8\</OutputPath>
+    <DefineConstants>TRACE;WINCE;HHRAP</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\ReleasePPC8\</OutputPath>
+    <DefineConstants>TRACE;WINCE;HHRAP</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="PsxNet, Version=3.3.0.16, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Scot\ADK\lib\releaseARM\PsxNet.dll</HintPath>
+    </Reference>
+    <Reference Include="RPSWNET, Version=5.1.0.12, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Scot\ADK\lib\releaseARM\RPSWNET.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\RapNetBase\src\Biometric.cs">
+      <Link>src\Biometric.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\ConfigData.cs">
+      <Link>src\ConfigData.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\ConnectThread.cs">
+      <Link>src\ConnectThread.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\LanePsx.cs">
+      <Link>src\LanePsx.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\MonitoringState.cs">
+      <Link>src\MonitoringState.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\Pinvoke.cs">
+      <Link>src\Pinvoke.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\Remote.cs">
+      <Link>src\Remote.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\ScannerThread.cs">
+      <Link>src\ScannerThread.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\SharedPsx.cs">
+      <Link>src\SharedPsx.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\SignOnState.cs">
+      <Link>src\SignOnState.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\SimpleHash.cs">
+      <Link>src\SimpleHash.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\State.cs">
+      <Link>src\State.cs</Link>
+    </Compile>
+    <Compile Include="..\RapNetBase\src\TransactionCount.cs">
+      <Link>src\TransactionCount.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\ProcessStartInfo.cs" />
+  </ItemGroup>
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v1.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.v1.targets" />
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v2.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>if not exist "..\..\..\..\..\Bin\$(ConfigurationName)PPC8" mkdir "..\..\..\..\..\Bin\$(ConfigurationName)PPC8"
+copy "RapNetBase.dll" "..\..\..\..\..\Bin\$(ConfigurationName)PPC8\." /y
+if exist RapNetBase.pdb copy "RapNetBase.pdb" "..\..\..\..\..\Bin\$(ConfigurationName)PPC8\." /y
+</PostBuildEvent>
+  </PropertyGroup>
+</Project>

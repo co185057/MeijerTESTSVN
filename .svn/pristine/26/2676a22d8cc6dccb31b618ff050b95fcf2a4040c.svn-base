@@ -1,0 +1,297 @@
+<Display Version="1.2">
+  <Fonts>
+    <Font Name="THDAMTitleFont">
+      <Face>Lucida Sans Unicode</Face>
+      <Size>23</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="THDAMEchoBoxFont">
+      <Face>Courier New</Face>
+      <Size>21</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ToggleLaneStatusFont">
+      <Face>MS Sans Serif</Face>
+      <Size>8</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="THDMessageFont">
+      <Face>Arial</Face>
+      <Size>13</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+  </Fonts>
+  <Controls>
+    <Control Name="Key34" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">390,313,566,63</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">6</Property>
+        <Property Name="ButtonHeight">63</Property>
+        <Property Name="ButtonWidth">137</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\Thd\10x7-bttn_107x49.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">4</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key24" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">652,396,301,354</Property>
+        <Property Name="ButtonHorizontalSpacing">5</Property>
+        <Property Name="ButtonVerticalSpacing">6</Property>
+        <Property Name="ButtonHeight">66</Property>
+        <Property Name="ButtonWidth">148</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\Thd\10x7-bttn_116x52.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">10</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key11" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">390,395,237,66</Property>
+        <Property Name="ButtonHorizontalSpacing">5</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">66</Property>
+        <Property Name="ButtonWidth">116</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\Thd\10x7-bttn_91x52.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">2</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key13" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">390,468,238,217</Property>
+        <Property Name="ButtonHorizontalSpacing">5</Property>
+        <Property Name="ButtonVerticalSpacing">5</Property>
+        <Property Name="ButtonHeight">69</Property>
+        <Property Name="ButtonWidth">76</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\Thd\10x7-bttn_59x54.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">9</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key1" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">64,395,303,354</Property>
+        <Property Name="ButtonHorizontalSpacing">7</Property>
+        <Property Name="ButtonVerticalSpacing">6</Property>
+        <Property Name="ButtonHeight">66</Property>
+        <Property Name="ButtonWidth">148</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\Thd\10x7-bttn_116x52.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">10</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key22" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">552,686,76,69</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">69</Property>
+        <Property Name="ButtonWidth">76</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\Thd\10x7-bttn_59x54.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key23" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">390,686,148,66</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">66</Property>
+        <Property Name="ButtonWidth">148</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\Thd\10x7-bttn_116x52.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key38" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">64,309,147,70</Property>
+        <Property Name="ButtonHorizontalSpacing">4</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">70</Property>
+        <Property Name="ButtonWidth">147</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\Thd\10x7-bttn_115x55.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="ButtonToggle" Type="Button">
+      <Properties>
+        <Property Name="Position">11,83,277,75</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\Thd\10x7-bttn_218x59.png</Property>
+      </Properties>
+    </Control>
+    <Control Name="ButtonLaneStatus0" Type="Static">
+      <Properties>
+        <Property Name="Position">9,148,128,32</Property>
+        <Property Name="Font">ToggleLaneStatusFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="ButtonLaneStatus1" Type="Static">
+      <Properties>
+        <Property Name="Position">137,148,128,32</Property>
+        <Property Name="Font">ToggleLaneStatusFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="ButtonLaneStatus2" Type="Static">
+      <Properties>
+        <Property Name="Position">9,170,128,32</Property>
+        <Property Name="Font">ToggleLaneStatusFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="ButtonLaneStatus3" Type="Static">
+      <Properties>
+        <Property Name="Position">137,170,128,32</Property>
+        <Property Name="Font">ToggleLaneStatusFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="ButtonLaneStatus4" Type="Static">
+      <Properties>
+        <Property Name="Position">9,202,128,32</Property>
+        <Property Name="Font">ToggleLaneStatusFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="ButtonLaneStatus5" Type="Static">
+      <Properties>
+        <Property Name="Position">137,202,128,32</Property>
+        <Property Name="Font">ToggleLaneStatusFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="ButtonLaneStatus6" Type="Static">
+      <Properties>
+        <Property Name="Position">9,234,128,32</Property>
+        <Property Name="Font">ToggleLaneStatusFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="ButtonLaneStatus7" Type="Static">
+      <Properties>
+        <Property Name="Position">137,234,128,32</Property>
+        <Property Name="Font">ToggleLaneStatusFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="Echo1" Type="Static">
+      <Properties>
+        <Property Name="Position">332,228,367,48</Property>
+        <Property Name="Font">THDAMEchoBoxFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextFormat">Title 2</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+  </Controls>
+  <Contexts>
+    <Context Name="SmAssistMode">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\IBM\10x7_InfoIbm_storemode.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">264,20,285,33</Property>
+            <Property Name="Font">THDAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title2">
+          <Properties>
+            <Property Name="Position">264,48,285,33</Property>
+            <Property Name="Font">THDAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">264,146,282,39</Property>
+            <Property Name="Font">THDAMEchoBoxFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo1" />
+        <Control Name="ButtonToggle" />
+        <Control Name="ButtonLaneStatus0" />
+        <Control Name="ButtonLaneStatus1" />
+        <Control Name="ButtonLaneStatus2" />
+        <Control Name="ButtonLaneStatus3" />
+        <Control Name="ButtonLaneStatus4" />
+        <Control Name="ButtonLaneStatus5" />
+        <Control Name="ButtonLaneStatus6" />
+        <Control Name="ButtonLaneStatus7" />
+        <Control Name="Key34" />
+        <Control Name="Key24" />
+        <Control Name="Key11" />
+        <Control Name="Key13" />
+        <Control Name="Key1" />
+        <Control Name="Key22" />
+        <Control Name="Key23" />
+        <Control Name="Key38" />
+        <Control Name="SMButton1" />
+        <Control Name="SMButton2" />
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">12,15,158,22</Property>
+            <Property Name="Font">THDMessageFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+  </Contexts>
+</Display>

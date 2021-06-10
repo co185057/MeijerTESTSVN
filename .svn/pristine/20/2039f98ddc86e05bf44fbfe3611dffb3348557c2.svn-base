@@ -1,0 +1,19 @@
+<Display Version="1.0">
+  <Languages>
+    <Language Name="0411">
+      <StringTable>
+        <String Name="IPText">IPアドレス</String>
+        <String Name="BatteryText">バッテリー状況</String>
+        <String Name="FreeStorageText">フリーストレージ</String>
+        <String Name="SystemStorageText">システムストレージ</String>
+        <String Name="FreeMemoryText">フリーメモリ</String>
+        <String Name="SystemMemoryText">システムメモリ</String>
+        <String Name="ProcessorTypeText">プロセッサタイプ</String>
+        <String Name="ComputerNameText">コンピュータ名</String>
+        <String Name="TerminalTitleText">レーン状況</String>
+        <String Name="BatteryChargeText">充電中</String>
+        <String Name="OkButtonText">戻る</String>
+      </StringTable>
+    </Language>
+  </Languages>
+</Display>

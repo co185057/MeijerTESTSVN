@@ -1,0 +1,58 @@
+﻿<Display Version="1.0">
+	<Languages>
+		<Language Name="0427">
+			<StringTable>
+				<String Name="MainTitle">RAP konfigūracija</String>
+				<String Name="AddButtonText">Pridėti</String>
+				<String Name="AddLaneTitle">Pridėti kasos takelį</String>
+				<String Name="ApplyButtonText">Pritaikyti</String>
+				<String Name="Backspace">Grįžtis</String>				
+				<String Name="CancelButtonText">Panaikinti</String>
+				<String Name="ConfigTypeText">Kasos takelio konfigūracijos tipas:</String>
+				<String Name="ConfirmDeleteTitle">Patvirtinti ištrynimą</String>
+				<String Name="ConfirmDeleteText">Ar norite ištrinti kasos takelį:</String>
+				<String Name="ConfirmExitTitle">Patvirtinti išėjimą</String>
+				<String Name="ConfirmExitText">Ar tikrai atšaukti šiuos keitimus?</String>
+				<String Name="ConfirmSaveTitle">Patvirtinti išsaugojimą</String>
+				<String Name="ConfirmSaveText">Ketinate išsaugoti RapNet.xml pakeitimus. Ar norite tęsti?</String>
+				<String Name="DeleteButtonText">Ištrinti</String>
+				<String Name="DuplicateIPTitle">Dubliuojasi IP adresas</String>
+				<String Name="DuplicateLaneTitle">Rastas besidubliuojantis kasos takelis</String> 
+				<String Name="DuplicateLaneText">Kasos takelis %s jau yra</String>
+				<String Name="EditLaneTitle">Redaguoti kasos takelį</String>
+				<String Name="EmptyText">Tuščia</String>
+				<String Name="Enter">Įvesti</String>
+				<String Name="EnterHostNameInstruction">Įveskite serverio vardą ir palieskite "Įvesti".</String>
+				<String Name="EnterIPAddressInstruction">Įveskite serverio vardą ir palieskite "Įvesti".</String>
+				<String Name="EnterIPOctetInstruction">Įveskite IP ir palieskite "Įvesti".</String>
+				<String Name="EnterHostNameText">Įveskite kasos takelio pavadinimą</String>
+				<String Name="EnterIPAddressText">Įveskite kasos takelio IP adresą</String>
+				<String Name="EnterIPOctetText">Įveskite kasos takelio IP baitus</String>
+				<String Name="ErrorText">Klaida</String>
+				<String Name="ExitButtonText">Išeiti</String>
+				<String Name="FileErrorTitle">Failas nerastas</String>
+				<String Name="FileErrorText">Klaida: nepavyko rasti failo RapNet.xml.</String>
+				<String Name="HostNameText">serverio vardą</String>
+				<String Name="IPAddressText">IP adresą</String>
+				<String Name="IPOctetText">IP baitą</String>
+				<String Name="LaneText">Kasos takelis</String>
+				<String Name="MoveButtonText">Perkelti</String>
+				<String Name="NoButtonText">Ne</String>
+				<String Name="NoLane">Visi kasos takeliai buvo ištrinti</String>
+				<String Name="NoLaneToDelete">Nebėra kasos takelių, kuriuos galima ištrinti.</String>
+				<String Name="NoLaneWarningTitle">RapNet.xml nėra kasos takelių</String>
+				<String Name="NoLaneWarningText">Įspėjimas: RapNet.xml nėra sukonfigūruota jokių kasos takelių.</String>
+				<String Name="OkButtonText">Gerai</String>
+				<String Name="RestartRAPTitle">Paleisti RAP iš naujo</String>
+				<String Name="RestartRAPText">Turite paleisti RAP iš naujo.</String>
+				<String Name="SameRapIPAddress">Negalima naudoti tokio pat IP adreso, kaip ir stalinės RAP IP adresas: %s</String>
+				<String Name="SameHHRapIPAddress">Negalima naudoti tokio pat IP adreso, kaip ir nešiojamos RAP IP adresas: %s</String>
+				<String Name="SaveButtonText">Išsaugoti</String>
+				<String Name="SelectLaneToDelete">Pasirinkite kasos takelį, kurį ištrinti</String>
+				<String Name="SelectSourceText">Pasirinkti kasos takelį, kurį perkelti</String>
+				<String Name="SelectDestinationText">Pasirinkti paskirties vietą</String>
+				<String Name="YesButtonText">Taip</String>
+			</StringTable>
+		</Language>
+	</Languages>
+</Display>

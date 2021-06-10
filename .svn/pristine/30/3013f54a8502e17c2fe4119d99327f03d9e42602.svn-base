@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapNet", "RapNet.csproj", "{3707C994-924B-4631-8A14-D0701310E723}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{20D4826A-C6FA-45DB-90F4-C717570B9F32}") = "RapNetCe", "RapNetCe.csdproj", "{5168CBA1-5867-4044-B12F-D8D5F31D7986}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3707C994-924B-4631-8A14-D0701310E723}.Debug.ActiveCfg = Debug|.NET
+		{3707C994-924B-4631-8A14-D0701310E723}.Debug.Build.0 = Debug|.NET
+		{3707C994-924B-4631-8A14-D0701310E723}.Release.ActiveCfg = Release|.NET
+		{3707C994-924B-4631-8A14-D0701310E723}.Release.Build.0 = Release|.NET
+		{5168CBA1-5867-4044-B12F-D8D5F31D7986}.Debug.ActiveCfg = Debug|Windows CE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal

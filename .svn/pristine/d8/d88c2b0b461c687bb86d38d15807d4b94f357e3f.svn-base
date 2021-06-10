@@ -1,0 +1,63 @@
+﻿<Display Version="1.0">
+  <Languages>
+    <Language Name="040c">
+      <StringTable>
+        <String Name="SwitchToRAPBtnPrimaryTxt">Passer à l'application de RAP</String>
+        <String Name="ShutdownSystemBtnPrimaryTxt">Arrêter</String>
+        <String Name="RebootSystemBtnPrimaryTxt">Redémarrer</String>
+        <String Name="VolumeBtnPrimaryTxt">Volume</String>
+        <String Name="EventViewerBtnPrimaryTxt">Affichage des événements</String>
+        <String Name="GenerateLogBtnPrimaryTxt">Générer fichiers de diagnostic</String>
+        <String Name="RapConfigureBtnPrimaryTxt">Configuration\ndu PAD</String>
+        <String Name="TerminalInfoBtnPrimaryTxt">Info terminal</String>
+        <String Name="MinMaxRAPBtnPrimaryTxt">Minimiser l'application de RAP</String>
+        <String Name="MinMaxRAPBtnSecondaryTxt">Maximiser l'application de RAP</String>
+        <String Name="MinMaxRAPBtnPrimaryShowConfirmation">Pour réduire le poste à distance, appuyez sur le bouton « Minimiser poste à distance »</String>
+        <String Name="MinMaxRAPBtnSecondaryShowConfirmation">Pour agrandir le poste à distance, appuyez sur le bouton « Agrandir poste à distance ».</String>
+        <String Name="StopStartRAPButtonPrimaryTxt">ArrÍter PAD</String>
+        <String Name="StopStartRAPButtonSecondaryTxt">Démarrer RAP</String>
+        <String Name="ExitRAPAndRunProfileBtnPrimaryTxt">ArrÍter PAD et exÈcuter Profile Manager</String>
+        <String Name="ExitRAPAndRunProfileBtnSecondaryTxt">Exécuter la gestion de profil</String>
+        <String Name="UtilityFunctionsTitle">Fonctions utilitaire</String>
+        <String Name="SignOnTitle">NCR FastLane\nOuvrir une session</String>
+        <String Name="StartTitle">DÈmarrage du systËme</String>
+        <String Name="SystemStartup">DÈmarrage en cours, patientez....</String>
+        <String Name="TerminalID">#Poste </String>
+        <String Name="OperatorIDText">Identifiant:</String>
+        <String Name="SignOnButtonText">Ouvrir une session</String>
+        <String Name="SignOffButtonText">Fermeture session</String>
+        <String Name="SignedOffButtonText">Déconnecté</String>
+        <String Name="Exit">Quitter tout</String>
+        <String Name="ReturnToShoppingButtonText">Retour</String>
+        <String Name="TouchWareTxt">Etalonner Ecran tactile</String>
+        <String Name="DiagConfirm">Voulez-vous vraiment gÈnÈrer des fichiers de diagnostics ?</String>
+        <String Name="ProfileManagerRAPConfirm">Voulez-vous vraiment arrÍter PAD et exÈcuter Profile Manager ?</String>
+        <String Name="ProfileManagerConfirm">Voulez-vous vraiment dÈmarrer Profile Manager ?</String>
+        <String Name="EventViewerConfirm">Voulez-vous vraiment dÈmarrer le Journal des ÈvÈnements ?</String>
+        <String Name="CalibrateConfirm">Voulez-vous vraiment Ètalonner l'Ècran tactile ?</String>
+        <String Name="ShutdownConfirm">Voulez-vous vraiment arrÍter le systËme complet ?</String>
+        <String Name="RebootConfirm">Voulez-vous vraiment redÈmarrer le systËme complet ?</String>
+        <String Name="CloseAllConfirm">Voulez-vous vraiment quitter toutes les applications et accÈder au bureau ?</String>
+        <String Name="VolumeConfirm">Voulez-vous vraiment rÈgler le bouton du volume ?</String>
+        <String Name="TerminalInfoConfirm">Voulez-vous vraiment afficher les informations du terminal ?</String>
+        <String Name="StopRAPConfirm">Voulez-vous vraiment arrÍter PAD ?</String>
+        <String Name="StartRAPConfirm">Voulez-vous vraiment démarrer PAD ?</String>
+        <String Name="WindowsLogOnTxt">Ouverture de session Windows</String>
+        <String Name="WindowsLogOnConfirm">Voulez-vous vraiment quitter toutes les applications et vous connecter en tant que nouvel utilisateur ?</String>
+        <String Name="YesText">Oui</String>
+        <String Name="NoText">Non</String>
+        <String Name="ClearButtonText">Effacer</String>
+        <String Name="EnterButtonText">Entrer</String>
+        <String Name="GoBackButtonText">Précédent</String>
+        <String Name="SpaceButtonText">Espace</String>
+        <String Name="BackSpaceButtonText">Retour en arrière</String>
+        <String Name="ShiftButtonText">MAJ</String>
+        <String Name="EnterIDLeadthru">Entrez num. identification en utilisant le clavier ci-dessous.</String>
+        <String Name="ReEnterIDLeadthru">ID/mot de passe incorrect(s). Recommencez via le pavé numérique.</String>
+        <String Name="EnterPasswordLeadthru">Entrez le mot de passe en utilisant le clavier ci-dessous.</String>
+        <String Name="CancelButtonText">Annuler</String>
+        <String Name="LoggingInLeadthru">Ouverture de session...Veuillez patienter</String>
+      </StringTable>
+    </Language>
+  </Languages>
+</Display>
