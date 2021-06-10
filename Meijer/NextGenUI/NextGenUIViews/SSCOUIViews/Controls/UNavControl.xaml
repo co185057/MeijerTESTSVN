@@ -1,0 +1,67 @@
+﻿<Grid
+    x:Class="SSCOUIViews.Controls.UNavControl"
+    xmlns:controls="clr-namespace:SSCOControls;assembly=SSCOControls"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    DataContextChanged="Grid_DataContextChanged"
+    Height="199"
+    Width="199"
+    Margin="0,0,160,0">
+    <StackPanel
+        Orientation="Horizontal"
+        Style="{StaticResource unavControlBackgroundPanelStyle}">
+        <Border
+            Name="UNavMoveToLeftBorder"
+            VerticalAlignment="Top"
+            Style="{StaticResource unavControlMoveWidgetButtonBorderStyle}">
+            <ImageButton
+                Name="UNavMoveToLeftButton"
+                Click="UNavMoveToLeftButton_Click"
+                Text="{Loc MoveLeft}"
+                Style="{StaticResource unavControlMoveWidgetButtonStyle}" />
+            </Border>
+        <Canvas
+            Margin="-54,5,0,0"
+            Height="170"
+            Width="170">
+            <ImageButton
+                Name="UNavLeftButton"
+                Margin="0,42,0,0"
+                Click="UNavLeftButton_Click"
+                Style="{StaticResource unavControlDirectionalButtonStyle}" />
+            <ImageButton
+                Name="UNavUpButton"
+                Margin="42,0,0,0"
+                Click="UNavUpButton_Click"
+                Style="{StaticResource unavControlDirectionalButtonStyle}" />
+            <ImageButton
+                Name="UNavRightButton"
+                Margin="84,42,0,0"
+                Click="UNavRightButton_Click"
+                Style="{StaticResource unavControlDirectionalButtonStyle}" />
+            <ImageButton
+                Name="UNavDownButton"
+                Margin="42,84,0,0"
+                Click="UNavDownButton_Click"
+                Style="{StaticResource unavControlDirectionalButtonStyle}" />
+            <ImageButton
+                Name="UNavSelectButton"
+                Margin="54,54,0,0"
+                Click="UNavSelectButton_Click"
+                Style="{StaticResource unavControlSelectButtonStyle}" />
+        </Canvas>
+        <Border
+            Name="UNavMoveToRightBorder"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"
+            Margin="-58,0,0,0"
+            Visibility="Hidden"
+            Style="{StaticResource unavControlMoveWidgetButtonBorderStyle}">
+            <ImageButton
+                Name="UNavMoveToRightButton"
+                Click="UNavMoveToRightButton_Click"
+                Text="{Loc MoveRight}"
+                Style="{StaticResource unavControlMoveWidgetButtonStyle}" />
+        </Border>
+    </StackPanel>
+</Grid>

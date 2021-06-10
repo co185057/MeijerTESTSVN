@@ -1,0 +1,2720 @@
+﻿AmountSaved,المبلغ المدخر
+Assistance,مساعدة
+AssistanceComing,المساعدة قادمة، يرجى الانتظار.
+Back,العودة
+BagItem,لُطفاً، ضع هذا الغرض في كيس.
+BagItemCart,عبئ السلعة في كيس
+BagItemOrSkip,لُطفاً، ضع هذا الغرض في كيس، أو تخطّى الخطوة.
+CallForHelp,طلب المساعدة?
+Cancel,إلغاء
+CancelAll,إلغاء الكل
+CancelCoupons,إلغاء القسائم
+CancelPayment,إلغاء الدفع
+CantScanCoupon,تعذر مسح القسيمة
+CartPay,ادفع
+Change,تغيير:
+Confirm,هل تريد إلغاء كل مشترياتك؟
+ConfirmQuantity,هل {0} صحيح؟
+Continue,هل ترغب في المتابعة؟
+CouponMessage,ضع القسائم جانبا في الوقت الحالي. أودعها في نهاية عملية الشراء.
+DepositCard,نرجو إدخال بطاقة الهدية المستهلكة في منفذ القسائم.
+DepositCoupon,إيداع القسائم
+DepositGiftCard,إيداع بطاقة الهدية
+Disconnected,يرجى الاننتظار...
+Done,انتهى
+Due,مستحق:{0}
+EditCart,تعديل العربة:
+Enter,إدخال
+EnterAmount,أدخل المبلغ
+EnterCouponValue,"أدخل قيمة القسيمة بالهللة والمِس ""OK"""
+EnterId,أدخل اسم معرّفك.
+EnterPassword,أدخل كلمة السر الخاصة بك.
+EnterPin,أدخل رقم الهوية الشخصي.
+EnterQuantity,كم لديك؟
+EnterWeight,ضع الغرض على الميزان:
+Finish,شكراً لتسوّقكم معنا.
+FinishAndAdd,إنهاء وإضافة
+GiftCard,رصيد بطاقة الهدايا
+GoBack,العودة
+IncorrectLogin,رقم المشغل وكلمة المرور غير صحيحين.\nنرجو المحاولة مجددا.
+InsertCash,أدخل النقود
+InsertCoupon,أدخل القسيمة
+InvalidBarcodeScan,ضع السلعة جانبا وتابع عملية الشراء.
+Item,{0} غرض
+Items,{0} أغراض
+ItemsAddedFormat,{0} أغراض يُراد إضافتها إلى العربة.
+Language,اللغة
+NCRCorp,NCR Corp
+No,لا
+OK,OK
+Or,أو
+OtherPayment,الدفع بطريقة أخرى
+OtherPaymentMethod,طرق دفع أخرى
+OwnBag,كيس خاص
+Paid,مدفوع:{0}
+PayAnotherWay,ادفع بطريقة أخرى
+PointsEarned,النقاط المكتسبة
+PrintReceipt,طباعة الوصل
+Proceed,هل تريد المتابعة
+Remove,إزالة
+RemovedItem,أزلتُ غرضاً
+RestrictedItem,سلعة خاضعة لقيود
+ReturnToScan,العودة
+ScanAndBag,امسح رمز الغرض، أو ابحث عنه، او أدخله للبدء.
+ScanCoupon,مسح القسائم
+ScanGiftCard,امسح بطاقة الهدايا
+ScanNextItem,لُطفاً، امسح الغرض التالي.
+ScanVoucher,مسح الكوبونات
+SearchResultsFor,"نتائج البحث لـ""{0}"""
+SearchWatermark,أدخل اسم الغرض أو رمزه
+SearchItemNameWatermark,Enter Item Name
+SearchKeyInItem,ابحث عن رمز الغرض أو أدخله
+SelectCashBack,اختر مبلغ الباقي
+SelectLanguage,اختر اللغة
+SelectPaymentType,اختر نوع الدفع
+SellBags,كم عدد الأكياس البلاستيكية التي استخدمتها؟ أدخل 0 إن كنت لم تستخدم أي كيس.
+SignNeeded,التوقيع مطلوب
+SignSignature,وقّع لوحة التوقيع.
+SkipBagging,تخطّى التعبئة بالأكياس
+Space,مسافة
+StartScanning,ابدأ بالمسح
+StoreLogin,تسجيل الدخول في المتجر
+TakeCash,خذ نقودك المردودة
+TakeChange,خذ الباقي
+TakeReceipt,خذ الوصل
+Tax,الضريبة
+TimeRestrictedItem,سلع محدودة بقيود زمنية
+Total,المجموع
+TouchCancel,المس إلغاء في لوحة تعريف الرقم الشخصي.
+TryAgain,حاول مرة أخرى
+UnexpectedDecreaseMessage,إرجاع الغرض إلى منطقة الأكياس.
+UnexpectedIncreaseMessage,إزالة الغرض من منطقة الأكياس.
+UsePinpad,استخدم لوحة تعريف الرقم الشخصي
+VoidItem,"امسح السلع غير المرغوبة أو انقر ""إزالة"" على الوصل."
+Volume,الحجم
+Yes,نعم
+ItemNumberAmount,NOI :  
+WeightExpected,WE :  
+WeightObserved,WO :  
+UnknownPriceMessage,سعر السلعة غير معروف.\nالمساعدة في الطريق.\n\nضع الغرض جانباً وتابِع.
+SetAllItemsAsideMessage,تم إلغاء عملية الشراء كلها.\n\nضع جميع السلع جانبا.
+ConfirmAbortMessage,هل تؤكد رغبتك في إفراغ العربة؟ المُعاملة ستُلغى.
+NoKeep,كلا، احفظها.
+NoReturn,كلا، العودة إلى المعاملة.
+YesEmpty,نعم، إفراغ العربة وإنهاء المعاملة.
+YesRemove,نعم، إزالة.
+HostOfflineMessage,الممر خارج الاتصال ويحاول النظام إعادة الاتصال.
+LaneClosedMessage,الممر مغلق
+LoadingText,التحميل جار
+VerifyBagsMessage,إذا وضعتَ بالخطأ شيئاً آخر عدا الكيس في منطقة الأكياس فيرجى إزالته الآن.
+HelpOnWay,المساعدة قادمة، يرجى الانتظار.
+OwnBagMessage,لُطفاً، ضع أكياسك على الميزان.
+UseOwnBag,أستخدم كيسي الخاص
+AttendantMode,نمط المُلاحِظ
+AttendantTrainingMode,نمط المُلاحِظ والتدريب
+TrainingMode,نمط التدريب
+ScaleBroken,"أزل السلعة عن الميزان واضغط على زر ""تصفير الميزان"" على الماسحة الضوئية."
+Refunded,تم رد:
+EnterIDMessage,"اطبع هوية المستخدم والمس ""إدخال"""
+EnterIDText,أدخل الهوية
+EnterPasswordMessage,"اطبع كلمة المرور والمس ""إدخال"""
+EnterPasswordText,أدخل كلمة المرور
+VisualVerify,تحقق بصري
+SingleItemAddedFormat,{0} غرض يُراد إضافته إلى العربة.
+Approved,مقبول
+VoidItemBeforeCouponMessage,ألغ قسيمة السلعة أولا. ا يمكن إلغاء السلعة حتى يتم إلغاء قسيمتها.
+VerifyBags,سيتحقق المُلاحظ من أكياسك.
+CancelItems,إلغاء السلع
+EnterQuantityTitle,الكمية المطلوبة
+SecUnExpectedIncreaseTitle,التنبيه على التعبئة في أكياس
+WeightMismatchTitle,المساعدة مطلوبة
+AssistanceNeededTitle,المساعدة مطلوبة
+CheckBasketTitle,افحص السلة
+ConfirmDebitAmountTitle,تأكيد المبلغ
+DropoffCouponsTitle,إسقاط القسائم.
+InsufficientBalanceTitle,رصيد غير كاف
+OperatorPasswordStateInvalidPasswordWithFPTitle,فشل في تسجيل الدخول ببصمة الإصبع
+PurchaseCrateTitle,صندوق شراء
+RestrictedItemTitle,سلعة خاضعة لقيود
+SecBagAreaBackupTitle,سلع متراكمة
+SignChargeTitle,التوقيع على الوصل
+TakeCardTitle,خذ البطاقة
+ContinueTitle,هل تريد المتابعة؟
+ApprovalNeededTitle,الموافقة مطلوبة
+IncorrectLoginTitle,رقم غير صحيح
+RecalledItemTitle,سلعة مستردة
+RemovedItemTitle,التنبيه على التعبئة في أكياس
+SetAllItemsAsideTitle,وضع السلع جانبا
+TakeLoyaltyCardTitle,خذ بطاقة الولاء
+UnknownPriceTitle,السعر غير معروف
+ConfirmEBTAmountTitle,تأكيد المبلغ
+DisconnectedTitle,تمّ فصل التطبيق
+ShuttingDown,جارٍ إغلاق النظام
+NoneText,لا شيء 
+SMText,وضعية المتجر
+SMLogInReceiptText,تسجيل الدخول إلى وضعية المتجر
+SMLogOutReceiptText,تسجيل الخروج من وضعية المتجر
+WLDBOffLineText,قاعدة بيانات الأوزان: غير متصلة
+OperatorIDText,هوية المشغل: 
+SignOnButtonText,تسجيل الدخول
+SignOffButtonText,تسجيل الخروج
+AlertText,التنبيهات:
+SuspendInProgressText,يجري التعليق
+SuspendLeadthru1,تم تقديم طلب لتعليق العملية الحالية.  نرجو تأكيد أو إلغاء هذا الطلب.
+SuspendLeadthru2,"لقد علقت العملية الحالية.  نرجو تأكيد هذا الطلب.  لإلغائه، المس ""العودة"" وألغ الطلب من جهاز NCR SelfServ Checkout."
+ReceiptText,الوصل:
+SuspendReasonText1,تعليق: عام
+CancelSuspendButtonText,إلغاء التعليق
+ConfirmSuspendNowButtonText,تأكيد التعليق \nالآن
+ConfirmAllowSuspendButtonText,تأكيد السماح \nبالتعليق
+ConfirmSuspendRequestButtonText,تأكيد طلب \nالتعليق
+CancelSuspendNowButtonText,إلغاء التعليق \nالآن
+GoBackButtonText,العودة
+CancelSuspendRequestButtonText,إلغاء طلب \nالتعليق
+CouponText,القسائم:
+SuspendReasonText2,تعليق: القسائم
+CouponReceiptText,%d قسائم مجموعها $%.2f
+SuspendNowButtonText,التعليق الآن
+RequestSuspendButtonText,طلب تعليق
+NotConnectedText,غير متصل.
+ConnectingText,يجري الاتصال... نرجو الانتظار
+ApprovalNeededText,الموافقة مطلوبة:
+SuspendReasonText3,تعليق: غير ذلك
+ClearRequestButtonText,مسح الطلب
+ApproveButtonText,موافقة
+RestrictedItemText,سلع خاضعة لقيود:
+SuspendReasonText4,تعليق: خاضعة لقيود
+SecurityLogText,سجل الأمن:
+SuspendReasonText5,تعليق: الأمن
+SignatureText,التوقيع:
+SignatureAndNameText,التوقيع: %s
+ConnectingLeadthru,يجري الاتصال بـNCR SelfServ Checkout... نرجو الانتظار
+EnterIDLeadthru,أدخل الهوية باستخدام لوحة المفاتيح أدناه.
+EnterPasswordLeadthru,أدخل كلمة المرور باستخدام لوحة المفاتيح أدناه.
+LoggingInLeadthru,يجري تسجيل الدخول... الرجاء الانتظار
+ApproveSecurityButtonText,الموافقة  على الأمن
+ApprovalNeededButtonText,الموافقة\n على الأمن
+VerifySignatureButtonText,توثيق \nالتوقيع
+AllowSuspendButtonText,إتاحة التعليق
+MainButtonText,أساسي
+SuspendTransactionButtonText,تعليق العملية
+ApproveAndCollectButtonText,الموافقة &amp; الجمع
+ClearApprovalsButtonText,مسح الموافقات
+BirthDateOver30ButtonText,تاريخ الميلاد أكبر من 30
+SignAgainButtonText,وقع مرة أخرى
+BackSpaceButtonText,محو
+EnterButtonText,إدخال
+LaneNumberText,الممر: %d
+RAPTitle,\nNCR SelfServ Checkoutمحطة الموافقة عن بعد
+CancelSuspendText,إلغاء التعليق
+OtherPaymentSelectedText,تم اختيار طريقة دفع أخرى
+CouponCollectionText,جمع القسائم
+PendingSuspendText,قيد التعليق
+SignatureApprovalText,الموافقة على التوقيع
+LaneText,الممر
+VideoButtonText,Video فيديو:
+ClearButtonText,مسح
+QuantityButtonText,الكمية
+FeesAndCustomerAgreementsTitle,الرسوم && اتفاقيات العميل:
+FeesButtonText,الرسوم
+CustomerAgreementButtonText,اتفاقية العميل
+FeesAndCustomerAgreementsLeadthru,الرسوم & اتفاقيات العميل
+TransactionSuspendedText,تم تعليق العملية
+POSMessageText,رسالة نقطة البيع:
+ConnectingWaitingText,نرجو الانتظار، يجري الاتصال بـNCR SelfServ Checkout...
+DateOfBirthNotNeededButtonText,لا حاجة إلى التاريخ
+AssistModeButtonText,وضعية المساعدة
+ClearSecurityButtonText,مسح الأمان
+VisualApproveButtonText,الموافقة البصرية
+CheckAgeTitle,افحص عمر العميل
+CouponLimitExceededTitle,تم تجاوز حد القسيمة
+VerifyItemAndPriceTitle,التأكد من السلعة والسعر
+UnknownItemTitle,سلعة غير معروفة ضعها جانبا
+ItemNotForSaleTitle,السلعة غير معروضة للبيع
+ItemQuantityExceededTitle,تم تجاوز كمية السلعة
+TimeRestrictedItemTitle,سلعة محدودة بقيود زمنية
+CheckAgeLeadthru,"أدخل تاريخ الميلاد %s والمس ""إدخال"""
+InvalidBirthDateFormatLeadthru,شكل التاريخ الذي تم إدخاله غير صحيح\nأدخله مجددا بالشكل %s.
+CouponLimitExceededLeadthru,"المس ""موافقة"" للسماح بإيداع القسيمة في الممر أو المس ""موافقة &amp; جمع"" وخذها من العميل."
+VisualApproveLeadthru,"المس ""موافقة بصرية"" أو المس ""وضعية المساعدة"" لتعديل العملية."
+UnknownItemLeadthru,"اجمع السلعة في الممر والمس ""مسح الأمان"" أو المس ""وضعية المساعدة"" لإتمام العملية."
+ItemNotForSaleLeadthru,"اجمع السلعة من الممر والمس ""مسح أمني""."
+OffLineLaneButtonText,غير متصل
+ExitText,خروج    
+EnterDataLaneButtonText,إدخال البيانات
+AgeCheckLaneButtonText,فحص العمر
+CouponLaneButtonText,القسيمة
+VoidLaneButtonText,ملغاة
+VerifyItemLaneButtonText,تأكد من السلعة
+NotFoundLaneButtonText,لم يتم العثور عليه
+NoSaleLaneButtonText,لا يوجد خصم
+QuantityLaneButtonText,الكمية
+HelpLaneButtonText,تعليمات
+NoInterventionLeadthru,لا حاجة إلى التدخل حاليا.
+OffLineLeadthru,الممر خارج الاتصال حاليا ويحاول النظام إعادة الاتصال أوتوماتيكيا.
+CancelRequestButtonText,إلغاء الطلب
+HelpRequestTitle,المساعدة مطلوبة
+SecurityLaneButtonText,الأمان
+VoidLeadthru,"خذ السلعة الملغاة والمس ""الموافقة على الملغاة""."
+ApproveVoidButtonText,الموافقة على الملغاة
+SecurityLeadthru,"راقب معاملة الزبون أمنيّاً والمِس ""وافق أمنيّاً""."
+SecurityViolationText,اختراق أمني
+OtherPaymentText,تم اختيار طريقة دفع أخرى
+SuspendTransactionLeadthru,"المس ""تعليق العملية"" أو ""وضعية المساعدة"" واقبل الدفع."
+EASText,ما زالت البطاقة الأمنية على السلعة نشطة
+DeactivateLeadthru,"عطل السلعة أو انزع البطاقة الصلبة والمس ""مسح أمني""."
+CompareSignatureTitle,مقارنة التوقيع
+CompareSignatureLeadthru,"قارن التوقيع والمس ""موافقة"" أو ""وقع مجددا""."
+EnterPriceLeadthru,"اطبع سعر السلعة والمس ""إدخال""."
+UtilityButtonText,المرفق
+ReturnToMainButtonText,العودة إلى الرئيسية
+GetDiagFilesButtonText,الحصول على ملفات التشخيص
+CouponApprovalLeadthru,"اقبل القسائم من العميل عند محطة القبول والمس ""موافقة""."
+RebootSystemButtonText,إعادة تحميل النظام بالكامل
+ShutDownSystemButtonText,إيقاف تشغيل النظام بالكامل
+LaneStatusTitle,حالة الممر
+LaneStatusLeadthru,اختر الوظيفة.
+AgeRestrictedText,سلعة غير صالحة لجميع الأعمار؛ %2d عاما
+BirthdateEnterText,تم إدخال تاريخ الميلاد:%2d/%2d/%4d، %d عاما
+HelpRequestLeadthru,"المس ""إلغاء الطلب"" بعد مساعدة العميل."
+TotalText,المجموع:
+ItemText,السلع:
+MultimediaTrainingText,تدريب على الوسائط المتعددة
+VolumeControlButtonText,التحكم بارتفاع الصوت
+SecurityViolationNumText,اختراقات أمنية:
+ItemPurchasedText,السلعة المشتراة:
+EnterPriceTitle,إدخال السعر
+CancelTransactionGenericTitle,إلغاء العملية
+CancelTransactionGenericLeadthru,"المس ""نعم"" لإلغاء العملية أو المس ""لا"" لاستئناف العملية."
+YesButtonText,نعم
+NoButtonText,لا
+ConfirmSuspendTitle,تعليق:
+ConfirmSuspendLeadthru,تأكيد التعليق.
+ConfirmSuspendButtonText,تأكيد التعليق
+IncorrectItemWeightTitle,وزن غير صحيح على الميزان الأمني.
+IncorrectItemWeightLeadthru,"أزل السلعة والمس ""مسح أمني""، أو المس ""موافقة &amp; تحديث الوزن""."
+ApproveUpdateButtonText,موافقة &amp; تحديث الوزن
+UnexpectedIncreaseTitle,سلعة غير متوقعة على الميزان الأمني.
+UnexpectedIncreaseLeadthru,"اذهب إلى الممر وأزل السلع الإضافية والمس ""مسح أمني""."
+SkipBaggingBtnThresholdLeadthru,"افحص السلعة في الممر والمس ""مسح أمني""."
+NewWeightItemTitle,لا يوجد سجل لوزن السلعة.
+NewWeightItemLeadthru,"تأكد من وزن السلعة والمس ""موافقة &amp; تحديث الوزن"" أو المس ""موافقة/بدون تحديث""."
+ApproveNoUpdateButtonText,موافقة/ بدون تحديث.
+BagItemTimerExpiredTitle,وزن متوقع على الميزان الأمني.
+TakeChangeTimerExpiredTitle,خذ الباقي
+TakeChangeTimerExpiredBottomCaption,انتهاء مدة الموقت
+PickingUpItemsTimerExpiredTitle,لم تتم إعادة السلع إلى منطقة التعبئة في الأكياس.
+DeviceFailureTitle,عطل في الآلة
+DeviceFailureLeadthru,اذهب إلى الممر وافحص الآلة.
+WLDBFailureTitle,WLDB لا يتواصل بالشكل الصحيح.
+WLDBFailureLeadthru,افحص الاتصال.
+UnexpectedDecreaseTitle,تمت إزالة السلعة من منطقة التعبئة في الأكياس.
+ClosedLaneTitle,اذهب إلى الممر وسجل الدخول في وضعية المتجر لفتح الممر.
+ClosedLaneLeadthru,الممر مغلق
+BagAreaBackupTitle,سلع متراكمة عند الحزام
+BagAreaBackupLeadthru,أزل السلع المتراكمة عند الحزام.
+MinimumAgeText,عاما من العمر كحد أدنى.
+SafetyCoverOpenLeadthru,أزل جميع السلع عن الحزام وأغلق الغطاء الأمني.
+VerifySignatureLeadthru,قارن توقيع العميل بالتوقيع على البطاقة.
+AssistedTenderTitle,عطاء تلقى المساعدة من المشغل
+AssistedTenderLeadthru,استخدم وضعية المساعدة لقبول الشيك من العميل.
+AssistedTenderHHLeadthru,استخدم محطة الموظف الحاضر لقبول الدفع.
+AssistedEndorsementLeadthru,الإقرار مطلوب. نرجو انتظار مساعدة المشغل.
+StartTransactionButtonText,ابدأ المعاملة
+StartTransactionTitle,وظائف بمساعدة المشغل
+StartTransactionLeadthru,اختر الوظيفة المطلوبة.
+StartTransactionAMButtonText,ابدأ &amp; المساعدة
+ItemsForgottenTitle,الوزن المتبقي\nعلى ميزان الأكياس.
+InsertCouponTimerExpiredTitle,أدخل القسيمة
+CollectGiftCardTitle,خذ بطاقة الهدية
+HostOfflineLeadthru,الممر خارج الاتصال ويحاول النظام إعادة الاتصال.
+SpaceButtonText,مسافة
+LaneReceiptItemType1,%s\t%s
+LaneReceiptItemType2,%s
+LaneReceiptItemType3,%s\t%s\tالكمية %s بسعر %s/لكل وحدة\t%s
+LaneReceiptItemType4,%s\t%s\tالكمية%s بسعر%s/%s\t%s
+LaneReceiptItemType5,%s\t%s\t%s بسعر %s %s/%s\t%s
+LaneReceiptItemType6,%s\t%s\t%s بسعر %s/%s\t%s
+CloseLaneButtonText,إغلاق الممر
+ReportingButtonText,إعداد التقارير
+KeyInCodeTitle,إدخال الرمز
+KeyInCodeLeadthru,"اطبع رمز السلعة والمس ""OK""."
+VoidItemButtonText,سلعة ملغاة
+ChangePriceButtonText,تغير في السعر
+ChangeQuantityButtonText,تغير في الكمية
+ReturnToShoppingButtonText,العودة إلى وضعية التسوق
+BasicAssistModeTitle,وظائف المساعد
+BasicAssistModeLeadthru,امسح السلعة أو اختر الوظيفة.
+ChangePriceTitle,تغير في السعر
+KeyInPriceLeadthru,أدخل سعر: %d %s
+VoidAllButtonText,إلغاء الكل
+VoidItemTitle,سلع ملغاة
+VoidItemLeadthru,"امسح أو مرر إلى السلعة على الوصل والمس ""سلعة ملغاة"" أو ""إلغاء الكل""."
+ChangeQuantityTitle,تغير في الكمية
+KeyInQuantityLeadthru,أدخل كمية: %s
+FullAssistButtonText,مساعدة كاملة
+CloseButtonText,إغلاق
+UpdateItemLeadthru,"مرر إلى السلعة على الوصل والمس ""إدخال""."
+OKButtonText,موافق
+CouponNoMatchLeadthru,لا تطابق القسيمة أية سلعة على الوصل. لا يمكن قبول هذه القسيمة.
+CouponTooHighLeadthru,المبلغ الذي أدخلته لهذه القسيمة مرتفع جدا.  لا يستطيع هذا النظام قبول هذه القسيمة.
+EnterCouponValueLeadthru,"أدخل قيمة القسيمة بالسنتات والمس ""إدخال""."
+ItemQuantityExceededLeadthru,لقد تجاوزت الكمية المسموح بها لهذه السلعة.  نرجو وضعها جانبا والمتابعة.
+ProcessingLeadthru,يتم تنفيذ العملية...نرجو الانتظار.
+VoidNoMatchLeadthru,تعذر العثور على السلعة ممسوحة.  لم يتم شراؤها بعد أو تم إلغاؤها.
+ConfirmAbortLeadthru,هل تريد التوقف وإلغاء عملية الشراء كلها؟
+ContinueTransLeadthru,هل تريد متابعة عملية الشراء؟
+ConfirmQuantityTitle,تأكيد الكمية
+ConfirmVoidTitle,تأكيد الإلغاء
+CouponNoMatchTitle,قسيمة غير مطابقة
+CouponTooHighTitle,القسيمة مرتفعة أكثر مما ينبغي
+CrateableItemTitle,صندوق شراء
+EnterCouponValueTitle,أدخل قيمة القسيمة
+EnterQuantityLeadthru,"اطبع الكمية والمس ""إدخال""."
+EnterWeightTitle,زن السلعة
+EnterWeightLeadthru,اذهب إلى الممر وضع السلعة على الميزان.
+AMItemQuantityExceededTitle,حد الكمية المسموح بها
+ProcessingTitle,تجري المعالجة...
+SelectContainerTitle,اختر الوعاء
+SelectContainerLeadthru,"اختر الحاوية من القائمة والمس ""إدخال""."
+VoidNoMatchTitle,تعذر إلغاء السلعة
+ConfirmAbortTitle,إلغاء جميع السلع
+ContinueTransTitle,هل تريد المتابعة؟
+ScaleBrokenTitle,إعادة ضبط الميزان
+ScaleBrokenLeadthru,"أزل السلعة عن الميزان واضغط على زر ""تصفير الميزان"" على الماسحة الضوئية."
+UpdateNotAllowedTitle,تعذر تحديث السلعة
+UpdateNotAllowedLeadthru,تغير في الكمية أو السلعة الموزونة غير مسموحة.
+SmEnterBirthdateTitle,سلع خاضعة لقيود
+SmEnterBirthdateLeadthru,أدخل تاريخ ميلاد العميل
+SmVisualItemsTitle,التوثيق البصري
+SmVisualItemsLeadthru,الموافقة على سلع التوثيق البصري
+SmCouponItemsTitle,الموافقة على القسائم المستخدمة
+SmCouponItemsLeadthru,فحص القسائم المستخدمة
+SmRestrictedItemsTitle,سلع خاضعة لقيود
+SmRestrictedItemsLeadthru,اختر الوظيفة المطلوبة.
+KeyInBirthDateButtonText,أدخل التاريخ
+KeyInCodeButtonText,أدخل \nلرمز
+SmRunReportsTitle,إعداد تقرير عن المحتوى
+PrintReportButtonText,طباعة التقرير
+LaneReceiptItemType7,    %s
+AM_RestrictedNotAllowedTitle,سلعة خاضعة لقيود
+AM_RestrictedNotAllowedLeadthru,تم إلغاء السلعة الخاضعة للقيود - العمر غير مطابق للشروط. نرجو وضع السلعة جانبا.
+TransactionCancelTitle,إلغاء العملية
+TransactionCancelLeadThru,تم إلغاء العملية. أزل السلع عن \nمنضدة الفحص.
+OutOfSyncNeedAssistTitle,مساعدة
+OutOfSyncNeedAssistLeadthru,نقطة البيع غير متزامنة، نرجو الذهاب إلى وضعية المساعدة لإعادة المزامنة.
+OutOfSyncStopTitle,إعادة التحميل
+OutOfSyncStopLeadthru,خادم نقطة البيع معطل أو غير متزامن، نرجو إيقاف تشغيل الجهاز باستخدام المحول.
+MultiPackItemTitle,افحص تعدد الأغلفة
+MultiPackItemLeadthru,"إذا كانت السلعة متعددة الأغلفة، المس ""وضعية المساعدة"" وألغها، ثم امسح باركود الغلاف المتعدد."
+CancelActionButtonText,إلغاء الإجراء
+EnterIDFpLeadthru,"أدخل هوية المستخدم الخاصة بك والمس ""إدخال""، أو ضع إصبعك على قارئ يصمة الإصبع لتسجيل الدخول.</String>"
+ReEnterIDFpLeadthru,تسجيل دخول غير صحيح. نرجو تسجيل الدخول مجددا باستخدام لوحة المفاتيح أو بصمة الإصبع.</String>
+HH_SuspendLeadthru1,هل تريد تعليق العملية الحالية؟ تأكيد أو إلغاء.
+HH_SuspendLeadthru2,"تم تعليق العملية الحالية. تأكيد. للإلغاء، المس ""العودة"" وقم بالإلغاء."
+HH_ReEnterIDLeadthru,هوية أو كلمة مرور غير صحيحة. نرجو إعادة الإدخال باستخدام لوحة المفاتيح.
+HH_CheckAgeLeadthru,"أدخل تاريخ الميلاد %s والمس ""إدخال"""
+HH_CouponLimitExceededLeadthru,"احصل على الموافقة على القسائم في الممر أو ""Approve &amp; Collect"" لأخذها من العميل."
+HH_VisualApproveLeadthru,"وافق بصريا أو المس ""وضعية المساعدة"" لتعديل العملية."
+HH_VisualApproveLeadthru2,"""Visual Approve"", or ""Assist Mode"" at Lane to modify."
+HH_UnknownItemLeadthru,"خذ السلعة، ""مسح أمني"" أو ""وضعية المساعدة"" لإتمامها."
+HH_UnknownItemLeadthru2,"Collect item, ""Clear Security"", or use ""Assist Mode"" at Lane to complete."
+HH_ItemNotForSaleLeadthru,"اجمع السلعة من الممر والمس ""مسح أمني""."
+HH_NoInterventionLeadthru,لا حاجة إلى التدخل.
+HH_OffLineLeadthru,الممر مفصول. يحاول النظام إعادة الاتصال.
+HH_InvalidBirthDateFormatLeadthru,شكل التاريخ غير صحيح \nأدخله بشكل %s.
+HH_VoidLeadthru,"خذ السلعة الملغاة والمس ""الموافقة على الملغاة""."
+HH_SuspendTransactionLeadthru,"المس ""تعليق العملية"" لتعليق العملية."
+HH_DeactivateLeadthru,"عطل السلعة أو انزع البطاقة الصلبة والمس ""مسح أمني""."
+HH_CompareSignatureLeadthru,"قارن التوقيع والمس ""موافقة"" أو ""وقع مجددا""."
+HH_EnterPriceLeadthru,"اطبع سعر السلعة والمس ""إدخال""."
+HH_CouponApprovalLeadthru,"قبول القسائم من العميل و""الموافقة""."
+HH_HelpRequestLeadthru,ألغ الطلب بعد مساعدة العميل.
+HH_CancelTransactionGenericLeadthru,"نعم لإلغاء العملية أو ""لا"" لاستئنافها."
+HH_IncorrectItemWeightLeadthru,"أزل السلعة والمس ""مسح أمني""، أو المس ""موافقة &amp; تحديث الوزن""."
+HH_UnexpectedIncreaseLeadthru,"اجمع السلعة من الممر والمس ""مسح أمني""."
+HH_SkipBaggingBtnThresholdLeadthru,"افحص السلعة في الممر والمس ""مسح أمني""."
+HH_NewWeightItemLeadthru,"تأكد من الوزن والمس ""موافقة &amp; تحديث الوزن"" أو المس ""موافقة/بدون تحديث""."
+HH_SafetyCoverOpenLeadthru,أزل جميع السلع عن الحزام. أغلق الغطاء الأمني.
+HH_VerifySignatureLeadthru,قارن توقيع العميل بالتوقيع الظاهر على البطاقة.
+HH_AssistedEndorsementLeadthru,الإقرار مطلوب. انتظر مساعدة المشغل.
+HH_HostOfflineLeadthru,الممر مفصول. يحاول النظام إعادة الاتصال.
+HH_KeyInCodeLeadthru,"اطبع رمز السلعة والمس ""إدخال""."
+HH_VoidItemLeadthru,"امسح السلعة أو اعثر عليها على الوصل. ""ألغ السلعة"" أو ""إلغاء الكل""."
+HH_UpdateItemLeadthru,"مرر إلى السلعة على الوصل والمس ""إدخال""."
+HH_CouponNoMatchLeadthru,لا تطابق القسيمة أية سلعة على الوصل. لم يتم قبول القسيمة.
+HH_CouponTooHighLeadthru,قيمة القسيمة مرتفعة أكثر مما ينبغي. لا يستطيع النظام قبولها.
+HH_ItemQuantityExceededLeadthru,تم تجاوز الكمية المسموح بها. ضع السلعة جانبا وتابع.
+HH_VoidNoMatchLeadthru,تعذر العثور على السلعة ممسوحة. لم يتم شراء السلعة أو تم إلغاؤها.
+HH_ConfirmAbortLeadthru,هل تريد التوقف وإلغاء عملية الشراء بالكامل؟
+HH_ContinueTransLeadthru,هل تريد متابعة عملية الشراء؟
+HH_EnterQuantityLeadthru,"اطبع الكمية والمس ""إدخال""."
+HH_SelectContainerLeadthru,"اختر الحاوية من القائمة والمس ""إدخال""."
+HH_ScaleBrokenLeadthru,"أزل السلعة عن الميزان واضغط على زر ""تصفير الميزان"" على الماسحة الضوئية."
+HH_UpdateNotAllowedLeadthru,تغيير الكمية غير مسموح.
+HH_AM_RestrictedNotAllowedLeadthru,تم إلغاء السلعة الخاضعة للقيود - العمر غير مطابق للشروط. ضع السلعة جانبا.
+HH_OutOfSyncNeedAssistLeadthru,"نقطة البيع غير متزامنة، ""وضعية المساعدة"" لإعادة مزامنتها."
+HH_OutOfSyncStopLeadthru,خادم نقطة البيع معطل أو غير متزامن، نرجو إيقاف تشغيل الجهاز باستخدام المحول.
+HH_MultiPackItemLeadthru,"إذا كان الغلاف متعدد، ""وضعية المساعدة""، إلغاء، ثم مسح باركود الغلاف المتعدد."
+HH_ReturnToShoppingButtonText,العودة
+DoneButtonText,انتهى
+ConfirmSuspendFromLaneStatusLeadthruText,تأكيد التعليق أو إلغاؤه.
+HH_SuspendTransactionButtonText,تعليق العملية
+HH_TransactionCancelTitle,إلغاء العملية
+HH_TransactionCancelLeadThru,تم إلغاء العملية. أزل السلع عن منضدة الفحص.
+ShiftButtonText,تحول
+FixLaterButtonText,إصلاح لاحقا
+HopperLaneButtonText,استبدال العملة المعدنية
+HopperLeadThru,"%s اذهب إلى الممر وأعد ملء العملات المعدنية أو أزل الانسداد أو المس ""إصلاح لاحقا"" للمتابعة."
+TransactionCountText,التعداد:
+SecurityDisableText,تعطيل الأمن
+SecurityDisableButtonOn,تشغيل
+SecurityDisableButtonOff,توقيف تشغيل
+SecurityDisableStatusTextOn,أمن التعبئة في الأكياس يعمل
+SecurityDisableStatusTextOff,أمن التعبئة في الأكياس معطل
+SuspendDeclinedLaneButtonText,تم رفض التعليق
+ConfirmSuspendDeclinedLeadthru,تأكيد أو إلغاء رفض التعليق.
+ConfirmSuspendDeclinedButtonText,تأكيد الرفض
+CancelSuspendDeclinedButtonText,العودة
+TMTransLeadthru,الممر في وعضية التدريب، \nهل تريد متابعة العملية؟
+HH_TMTransLeadthru,الممر في وعضية التدريب، \nهل تريد متابعة العملية؟
+TMTransLaneButtonText,التدريب Trx
+DateFormat1,(الشهر اليوم السنة)
+DateFormat2,(الشهر اليوم السنة)
+DateFormat3,(اليوم الشهر السنة)
+DateFormat4,(اليوم الشهر السنة)
+DateFormat5,(السنة الشهر اليوم)
+DateFormat6,(السنة الشهر اليوم)
+GoBackCouponButtonText,العودة
+ApproveCouponButtonText,الموافقة على القسيمة
+CouponExceededLimitLeadthru,"المس ""الموافقة على القسيمة"" لقبول القسيمة أو اذهب إلى وضعية المساعدة لإلغائها."
+CouponExceededLimitFinalizationLeadthru,تمت العملية باستخدام القسيمة التي تتجاوز حد القسائم في المتجر.
+ClearSecurityFinalizationButtonText,مسح أمني
+ExpandReceiptButtonText,ابسط الوصل
+CollapseReceiptButtonText,اثن الوصل
+InvalidBarcodeLeadThru,"Collect item at lane and touch ""Approve"" to continue transaction."
+InvalidBarcodeLaneButtonText,تأكد من السلعة
+HH_InvalidBarcodeLeadThru,"Collect item, Touch ""Approve"" to continue transaction."
+GoToLaneOrHHRapLeadthru, Please go to Lane or HHRap for approval
+GoToLaneOrRapLeadthru, Please go to Lane or Rap for approval
+GoToLaneLeadthru, Please go to Lane for approval
+DisableRapApprovalText, Disable RAP Approval
+DisableHHRapApprovalText, Disable HHRAP Approval
+UpdateItemButtonText,Update Item
+SuspendConfirmationTitle,تعليق التأكيد
+DoNotApproveButtonText,Do Not Approve
+SmVoidAndRemoveItemLeadthru,أزل لطفاً السلعة الملغيّة من منطقة التعبئة في الأكياس..
+RestrictedItemsNotApprovedTitle,سلع غير متاحة وخاضعة لقيود
+HH_AssistAtLaneLeadthru,Go to the Lane to void items.
+XM_Acceptor,المتلقي
+XM_CashStatus,حالة النقود
+XM_CashStatusLeadthru,اختر الوظيفة المطلوبة
+XM_CoinAcceptor,متلقي النقود المعدنية
+XM_CoinOverflow,فائض في النقود المعدنية
+XM_CoinOverflowText,فائض
+XM_CoinRecycler,أداة إعادة تدوير النقود المعدنية
+XM_Coins,النقود المعدنية
+XM_NoteOverflow,فائض في النقود الورقية
+XM_NoteOverflowText,فائض
+XM_NoteRecycler,جهاز إعادة تدوير النقود الورقية
+XM_Notes,النقود الورقية
+XM_PurgeOperationText,Purge Operations
+XM_TerminalNumber,رقم الآلة
+XM_TotalCount,مجموع التعداد:
+XM_TotalValue,مجموع القيمة:
+XM_CoinsSubtotal,مجموع القطع النقدية المعدنية:
+XM_NotesSubtotal,مجموع الأوراق النقدية:
+XM_GrandTotal,المجموع الكلي:
+XM_AreYouSure,هل أنت متأكد من أنك تريد إتمام العمليات المدرجة أدناه؟
+XM_Attendant,الحاضر
+XM_Backspace,محو
+XM_BillAcceptor,متلقي النقود الورقية
+XM_BillDispenser,صراف النقود الورقية
+XM_Bins,الصناديق
+XM_BothDispenseFailure,تعذّر الصّرف %s.\nالنقود لا تكفي أو هناك خطأ في الصراف.
+XM_CancelChanges,إلغاء التغييرات
+XM_CannotCompleteTransfer,تعذّر إتمام التحويل.  لا يوجد في صندوق النقود مساحة كافية.  نرجو إفراغ صندوق النقود قبل القيام بهذه العملية.
+XM_CashManagement,إدارة النقود
+XM_CashManagementReport,تقرير إدارة النقود
+XM_CashRemove,إزالة النقود
+XM_CashRemoveLeadthru,اختر الوظيفة المطلوبة
+XM_CashReplenishLeadthru,اختر الوظيفة المطلوبة
+XM_CashReplenishLeadthru1,أودع النقود المعدنية أو اختر الوظيفة المطلوبة
+XM_CashReplenishLeadthru2,أودع النقود أو اختر الوظيفة المطلوبة.
+XM_CashReplenishLeadthru3,"عند الانتهاء، المس ""خروج""."
+XM_CashReplenishment,أكمل النقود
+XM_ChangeInCount,تغير في العدّ
+XM_ChangeInValue,تغير في القيمة
+XM_Clear,امسح
+XM_ClearPrompt1,"عند الإكمال، اختر وظيفة أخرى أو ""اخرج""."
+XM_ClearPrompt2,"اختر وظيفة أخرى أو ""اخرج""."
+XM_CoinAcceptorOffline,المتلقي لا يستجيب.\n\nأطفئ الآلة وأعد تشغيلها.
+XM_CoinDispenseFailure,تعذّر الصّرف %s.\nالنقود المعدنية لا تكفي أو هناك خطأ في صراف النقود المعدنية.
+XM_CoinDispenser,صراف النقود المعدنية
+XM_CoinManagement,إدارة النقود المعدنية
+XM_ConfirmAction,تأكيد العمليات
+XM_ConfirmCoinDispense,* صرف النقود المعدنية %s (%d)
+XM_ConfirmEmptyCoinAcceptor,* Reset Coin Acceptor Counts to Zero\nAmount to remove:%s
+XM_ConfirmEmptyCoinOverflow,* إعادة ضبط فائض النقود المعدنية (%s)
+XM_ConfirmEmptyNoteAcceptor,* إعادة ضبط متلقي النقود الورقية (%s)
+XM_ConfirmEmptyNoteOverflow,* إعادة ضبط فائض النقود الورقية (%s) 
+XM_ConfirmFillLoaderCassette,ضبط تعداد النقود الورقية %s (%d)
+XM_ConfirmManualCoinEmpty,إعادة ضبط تعداد النقود الورقية %s (%d)
+XM_ConfirmManualCoinFill,ضبط تعداد النقود المعدنية %s (%d)
+XM_ConfirmManualNoteEmpty,إعادة ضبط تعداد النقود الورقية %s (%d)
+XM_ConfirmManualNoteFill,ضبط تعداد النقود الورقية %s (%d)
+XM_ConfirmNoteDispense,* صرف النقود الورقية %s (%d)
+XM_ConfirmTransferNotesToOverflow,* نقل النقود الورقية إلى صندوق النقود %s (%d)
+XM_Count,التعداد
+XM_DispenseCupFull,مكان إعادة باقي النقود المعدنية ممتلئ. نرجو إزالة النقود المعدنية لإكمال عملية الصرف.
+XM_DispenseCupFullPreemptive,نرجو أخذ الباقي\nإذا كان مكان إعادة النقود المعدنية ممتلئاً، أفرغه فوراً. سيتوقف صرف النقود حتى يتم إفراغ الوعاء.
+XM_DispenseSensorBlock,قد يكون مكان إعادة النقود المعدنية ممتلئاً أو أداة الاستشعار معطلة. نرجو إزالة النقود المعدنية أو الاتصال بالصيانة.
+XM_DispenseText,صرف
+XM_DispenseThreshold,الرقم الذي تم إدخاله يتجاوز المبلغ المتاح للصرف.  أقصى مبلغ تم إدخاله: %d
+XM_Empty,إفراغ
+XM_EmptyCashAcceptorLT,أزل النقود الورقية من متلقي النقود
+XM_EmptyCashBoxLT,أزل النقود الورقية من صندوق النقود
+XM_EmptyCoinAcceptor,إعادة ضبط متلقي النقود المعدنية
+XM_EmptyCoinAcceptorLT,إزالة النقود المعدنية من متلقي النقود المعدنية
+XM_EmptyCoinHopperLT,إزالة النقود المعدنية من ملقّم النقود المعدنية
+XM_EmptyCoinOverflow,إعادة ضبط فائض النقود المعدنية
+XM_EmptyCoinOverflowLT,إزالة النقود المعدنية من فائض النقود المعدنية
+XM_EmptyLoaderCassetteLT,إزالة النقود الورقية من علبة المُحمّل
+XM_EmptyNoteAcceptor,إعادة ضبط متلقي النقود الورقية
+XM_EmptyNoteCassetteLT,إزالة النقود الورقية من علب المُحمّل
+XM_EmptyNoteOverflow,إعادة ضبط فائض النقود الورقية
+XM_Enter,إدخال
+XM_ExceededAmount,المبلغ يتجاوز السعة. أقصى مبلغ لازم هو %s.
+XM_ExceededCapacity,التعداد يتجاوز السعة. أقصى حد لازم للتعداد هو %d. تم إدخال %d تلقائياً.
+XM_Execute,تطبيق التغييرات
+XM_Exit,خروج    
+XM_FastLaneReport,تقرير NCR SelfServ Checkout
+XM_FillLoaderCassette,ضبط تعداد النقود الورقية
+XM_GoBack,العودة
+XM_ID,هوية المحاسب
+XM_IDPrompt,"اطبع الهوية والمس ""إدخال""."
+XM_InvalidAmount,القيمة التي تم إدخالها لـ%s غير صحيحة. \nنرجو الإدخال مجددا.
+XM_KeyPadEnterCoinAmount,أدخل مبلغ s% قطعة نقدية باستخدام لوحة المفاتيح.
+XM_KeyPadEnterCoinCount,أدخل عدد s% قطعة نقدية باستخدام لوحة المفاتيح.
+XM_KeyPadEnterNoteAmount,أدخل مبلغ s% ورقة نقدية باستخدام لوحة المفاتيح.
+XM_KeyPadEnterNoteCount,أدخل عدد s% ورقة نقدية باستخدام لوحة المفاتيح.
+XM_KeyPadInstr,أدخل التعديد باستخدام لوحة المفاتيح
+XM_ManualBothFillAlert,افتح باب الممر وأودع النقود الورقية في العلب والنقود المعدنية في الملقمات. لا تدخلها إلى أجهزة التلقي.
+XM_ManualCoinDispenserEmpty,إعادة ضبط تعداد النقود المعدنية
+XM_ManualCoinDispenserFill,ضبط تعداد النقود المعدنية
+XM_ManualCoinFillAlert,افتح باب الممر وأودع النقود المعدنية مباشرة في ملقم النقود المعدنية. لا تدخلها إلى أجهزة التلقي.
+XM_ManualEmptyAlert,أزل كل النقود من الجهاز.  
+XM_ManualFillAlert,افتح باب الممر وأودع النقود مباشرة في الجهاز. لا تدخلها إلى أجهزة التلقي.
+XM_ManualNoteDispenserEmpty,إعادة ضبط تعداد النقود الورقية
+XM_ManualNoteDispenserFill,ضبط تعداد النقود الورقية
+XM_ManualNoteFillAlert,افتح باب الممر وأودع النقود الورقية مباشرة في العلبة. لا تدخلها إلى جهاز تلقي النقود الورقية.
+XM_No,لا
+XM_NoteDispenseFailure,تعذّر الصّرف %s.\nالنقود الورقية لا تكفي أو هناك خطأ في صراف النقود الورقية.
+XM_PW,كلمة مرور المحاسب
+XM_PWPrompt,"اطبع كلمة المرور والمس ""إدخال""."
+XM_PendingText,قيد التنفيذ
+XM_PleaseWait,يتم تنفيذ العملية...\nنرجو الانتظار.
+XM_Print,طباعة حالة النقود
+XM_PurgeCoinRecycler,تفريغ جهاز إعادة تدوير النقود المعدنية
+XM_PurgeNoteRecycler,تفريغ جهاز إعادة تدوير النقود الورقية
+XM_ReEnter,رقم المحاسب وكلمة المرور غير صحيحين. \nنرجو المحاولة مرة أخرى.
+XM_ResetCoinsToBaseLevel,صرف النقود المعدنية إلى مستوى القاعدة
+XM_ResetNotesToBaseLevel,نقل النقود الورقية إلى مستوى القاعدة
+XM_SelectFunc1,اختر وظيفة النظام
+XM_SelectFunc2,اختر الوظيفة المطلوبة
+XM_StoreNumber,Store #:
+XM_TransferAllNotes,نقل جميع النقود الورقية
+XM_TransferNotesToOverflow,نقل النقود الورقية إلى الفائض
+XM_Update,تحديث
+XM_Yes,نعم
+XM_SequenceNumber,رقم التسلسل
+XM_CardManagement,إدارة البطاقات
+XM_CoinHopperEmpty,"Coin hopper must be emptied in order to reset coin counts to zero. Empty each coin hopper bin before touching ""Apply Changes""."
+XM_CollectRemainingCoins,Remove coins from coin return when dispense has completed.
+XM_FPIDPrompt,"أدخل هوية المستخدم الخاصة بك والمس ""إدخال""، أو ضع إصبعك على قارئ بصمة الإصبع لتسجيل الدخول."
+XM_LoanFailure,Loan Failure
+XM_LoanFailureLeadthru,Loan was rejected. Select desired function.
+XM_UndoLoan,Undo Loan
+XM_CommitLoan,Commit Loan
+XM_PickUpFailure,Pickup Failure
+XM_PickUpFailureLeadthru,Pickup was rejected. Select desired function.
+XM_UndoPickUp,Undo Pickup
+XM_CommitPickUp,Commit Pickup
+XM_ManualRemoveCashAlert,Remove cash from the cash box and coins from the coin overflow bin to undo loan.\n\nBills\nCount to remove: %d\nAmount to remove: %s\n\nCoins\nCount to remove: %d\nAmount to remove: %s
+XM_POSRejectedLoanPickUp,POS rejected loan/pickup:  %s / %d  rejected.\n
+XM_LoanPickUpCashierOverrides,Cashier ID %s override of loan/pickup: %s / %d  committed.\n\n
+MinMaxFastLaneBtnPrimaryTxt,تصغير نافذة SelfServ Checkout
+MinMaxFastLaneBtnSecondaryTxt,تكبير نافذة SelfServ Checkout
+MinMaxFastLaneBtnPrimaryShowConfirmation,"لتصغير نافذة SelfServ Checkout، المس زر ""Minimize SelfServ Checkout""."
+MinMaxFastLaneBtnSecondaryShowConfirmation,"لتكبير نافذة SelfServ Checkout، المس زر ""Maximize SelfServ Checkout""."
+StopStartFastLaneBtnPrimaryTxt,أوقف SelfServ Checkout
+StopStartFastLaneBtnSecondaryTxt,تشغيل SelfServ Checkout
+SwitchToRAPBtnPrimaryTxt,التحول إلى RAP
+ShutdownSystemBtnPrimaryTxt,إيقاف تشغيل النظام بالكامل
+RebootSystemBtnPrimaryTxt,إعادة تحميل النظام بالكامل
+VolumeBtnPrimaryTxt,التحكم بارتفاع الصوت
+EventViewerBtnPrimaryTxt,Event Viewer
+GenerateLogBtnPrimaryTxt,توليد ملفات سجل التشخيص
+ExitFastLaneAndRunProfileBtnPrimaryTxt,أوقف SelfServ Checkout وشغل Profile Manager
+ExitFastLaneAndRunProfileBtnSecondaryTxt,تشغيل Profile Manager
+TerminalInfoBtnPrimaryTxt,معلومات الجهاز 
+MinMaxRAPBtnPrimaryTxt,تصغير نافذة RAP
+MinMaxRAPBtnSecondaryTxt,تكبير نافذة RAP
+MinMaxRAPBtnPrimaryShowConfirmation,"لتصغير نافذة RAP، المس زر ""Minimize RAP""."
+MinMaxRAPBtnSecondaryShowConfirmation,"لتكبيرر نافذة RAP، المس زر ""Maximize RAP""."
+StopStartRAPButtonPrimaryTxt,أوقف RAP
+StopStartRAPButtonSecondaryTxt,ابدأ تشغيل RAP
+RapConfigureBtnPrimaryTxt,تعريف RAP
+SwitchToFastLaneBtnPrimaryTxt,التحول إلى SelfServ Checkout
+ExitRAPAndRunProfileBtnPrimaryTxt,أوقف RAP وشغل Profile Manager
+ExitRAPAndRunProfileBtnSecondaryTxt,تشغيل Profile Manager
+UtilityFunctionsTitle,NCR SelfServ Checkout\nوظائف المرفق
+StartTitle,بداية تشغيل النظام
+SystemStartup,يجري بدء تشغيل النظام...الرجاء الانتظار
+TerminalID,هوية الجهاز: 
+InterfaceVersion,إصدار البرنامج: 
+TrainingProgramPrimaryTxt,برنامج التدريب
+LaunchPadNet_OperatorIDText,هوية المشغل: 
+KeySwitchOperatorID,إقفال المفاتيح
+LaunchPadNet_SignOnButtonText,تسجيل الدخول
+LaunchPadNet_SignOffButtonText,تسجيل الخروج
+SignedOffButtonText,تم تسجيل الخروج
+Exit,الخروج من الكل
+LaunchPadNet_ReturnToShoppingButtonText,العودة
+PickListEditor,أداة تعديل قائمة الاختيار
+RunADDTxt,شغل الإضافة عند إعادة التحميل التالية
+TouchWareTxt,معايرة الشاشة التي تعمل باللمس
+DiagConfirm,هل أنت متأكد من أنك تريد توليد ملفات السجلات التشخيصية؟
+ProfileManagerFLConfirm,هل أنت متأكد من أنك تريد إيقاف SelfServ Checkout وتشغيل Profile Manager؟
+ProfileManagerRAPConfirm,هل أنت متأكد من أنك تريد إيقاف RAP وتشغيل Profile Manager؟
+ProfileManagerConfirm,هل أنت واثق من أنك تريد تشغيل Profile Manager؟
+EventViewerConfirm,هل أنت واثق من أنك تريد تشغيل Event Viewer
+TrainingConfirm,هل أنت واثق من أنك تريد تشغيل برنامج التدريب
+PicklistConfirm,هل أنت واثق من أنك تريد تشغيل أداة تعديل قائمة الاختيار؟
+RunADDConfirm,هل أنت متأكد من أنك تريد تشغيل اكتشاف الأجهزة أوتوماتيكيا عند التحميل التالي؟
+CalibrateConfirm,هل أنت واثق من أنك تريد معايرة الشاشة التي تعمل باللمس؟
+ShutdownConfirm,هل أنت واثق من أنك تريد إيقاف تشغيل النظام بالكامل؟
+RebootConfirm,هل أنت واثق من أنك تريد إعادة تحميل النظام بالكامل؟
+CloseAllConfirm,هل أنت متأكد من أنك تريد الخروج من جميع التطبيقات والذهاب إلى سطح المكتب؟
+VolumeConfirm,هل أنت واثق من أنك تريد تعديل درجة الصوت؟
+TerminalInfoConfirm,هل أنت واثق من أنك تريد استعراض معلومات الجهاز؟
+StopFastLaneConfirm,هل أنت واثق من أنك تريد إيقاف SelfServ Checkout؟
+StopRAPConfirm,هل أنت واثق من أنك تريد إيقاف RAP؟
+StartFastLaneConfirm,هل أنت واثق من أنك تريد تشغيل SelfServ Checkout؟
+StartRAPConfirm,هل أنت واثق من أنك تريد تشغيل RAP؟
+WindowsLogOnTxt,الدخول إلى ويندوز
+WindowsLogOnConfirm,هل أنت متأكد من أنك تريد الخروج من جميع التطبيقات وتسجيل الدخول باسم مستخدم جديد؟
+YesText,نعم
+NoText,لا
+CommandPromptPrimaryTxt,Command Prompt
+CommandPromptConfirm,هل أنت واثق من أنك تريد تشغيل Command Prompt؟
+RSMLEPrimaryTxt,Retail Systems Manager LE
+RSMLEConfirm,هل أنت واثق من أنك تريد تشغيل Retail Systems Manager LE؟
+OperatorRegistrationUtility,مرفق تسجيل المشغل
+LaunchPadNet_EnterIDFpLeadthru,أدخل الهوية باستخدام لوحة المفاتيح أو استخدام آلة المقاييس الحيوية لتسجيل الدخول.
+LaunchPadNet_ReEnterIDFpLeadthru,تسجيل دخول غير صحيح. نرجو تسجيل الدخول مجددا باستخدام لوحة المفاتيح أو بصمة الإصبع.				
+LaunchPadNet_ClearButtonText,مسح
+LaunchPadNet_EnterButtonText,إدخال
+LaunchPadNet_GoBackButtonText,العودة
+LaunchPadNet_SpaceButtonText,مسافة
+LaunchPadNet_BackSpaceButtonText,محو
+LaunchPadNet_EnterIDLeadthru,أدخل الهوية باستخدام لوحة المفاتيح أدناه:
+ReEnterIDLeadthru,هوية أو كلمة مرور غير صحيحة. نرجو إعادة إدخالها باستخدام لوحة المفاتيح أدناه.
+LaunchPadNet_EnterPasswordLeadthru,أدخل كلمة المرور باستخدام لوحة المفاتيح أدناه:
+CancelButtonText,إلغاء
+LaunchPadNet_LoggingInLeadthru,يجري تسجيل الدخول... الرجاء الانتظار
+LaunchPadNet_ShiftButtonText,تحول
+LaunchPadNet_SignedOffButtonText,تم تسجيل الخروج
+LaunchPadNet_ReEnterIDLeadthru,هوية أو كلمة مرور غير صحيحة. نرجو إعادة إدخالها باستخدام لوحة المفاتيح أدناه.
+LegalCaptionText,تعليق قانوني\nهذا النظام لاستخدام الموظفين المخولين فقط. بتسجيل الدخول إلى هذا النظام، تخضع لشروط وأحكام كل سياسات أمن المعلومات ومعاييرها. إن استخدامها من قبل أشخاص غير مصرح لهم أو لأغراض غير مصرح بها هو انتهاك لقانون فدرالي و/أو قانون الولاية. تحتفظ الشركة بحقها في اتخاذ أية إجراءات لازمة لحماية المستخدمين المخولين والملكية الفكرية والأصول المعلوماتية الأخرى. يخضع مستخدمو هذا النظام لاحتمال مراقبة جميع نشاطاتهم على هذا النظام. أي شخص يستخدم هذا النظام يقبل بهذه الرقابة بوضوح ويعلم أنه لو كشفت هذه الرقابة عن دليل على أي نشاط إجرامي، قد يقوم الموظف المسؤول عن النظام بتقديم هذا الدليل الناتج عن المراقبة إلى مسؤولي تطبيق القانون.\n
+SignBelow,ضع توقيعك أدناه.
+PageIndicatorLabelFormat,صفحة {0} من {1}
+AlertStatusTextOff,
+AlertStatusTextOn,!!!
+InitialText,.
+XM_AddCashLeadthru1,"Insert coins or touch cylinder and enter amount, or set counts."
+XM_AddCashLeadthru2,"Insert cash or touch cylinder and enter amount, or set counts."
+XM_AddCashLeadthru3,"Touch cylinder and enter amount, or set counts."
+XM_AreYouSure_LockScreen,Are you sure you want to lock the screen? \nThe screen cannot be unlocked until the devices finish their task.
+XM_CalculatedPickUpAmount,The calculated pickup amount is %s.
+XM_CashUnbalance,Discrepancy error occurred in the recycler.
+XM_Cassette,Cassette
+XM_CassetteMissing,Bill Cassette is not in the unit. Put Bill Cassette back into the unit.
+XM_CoinAllowedDispenseExceeded,Attempting to dispense %d coins. Maximum coins allowed to dispense is %d.
+XM_Collect,Collect
+XM_CollectFailure,The collect operation resulted in failure.
+XM_DispenseFullPreemptive,"Please Take Bills and Coins\nBills are dispensed in bunches of 15. Dispensing will pause until all bills are taken. If coin return is full, empty promptly. Dispensing will pause until bowl is emptied."
+XM_DispenseNoteFullPreemptive,Please Take Bills\nBills are dispensed in bunches of 15.  Dispensing will pause until all bills are taken.
+XM_EmptyCassetteAndRejectBin,Remove bills from Bill Cassettes and Reject Bin.
+XM_GloryDispenseCupFullPreemptive,"Please Take Coins\nIf coin return is full, empty promptly.  Dispensing will pause until bowl is emptied."
+XM_GloryDispenseFullPreemptive,"Please Take Bills and Coins\nBills are dispensed in bunches of 10. Dispensing will pause until all bills are taken. If coin return is full, empty promptly. Dispensing will pause until bowl is emptied."
+XM_GloryDispenseNoteFullPreemptive,Please Take Bills\nBills are dispensed in bunches of 10. Dispensing will pause until all bills are taken.
+XM_GrandTotalText,Grand Total: %s
+XM_InitializeError,The system encounters an error to be corrected.
+XM_InvalidPickUpAmount,The value entered is greater than the available amount that can be transferred or dispensed.
+XM_InvalidPickUpAmount2,The amount in the cashbox and coin overflow is greater than the pickup amount.
+XM_InvalidStartingBank,The starting bank configured is greater than the available amount that can be transferred or dispensed.
+XM_KeyPadEnterPickUpAmount,Enter pickup amount using keypad.
+XM_LeadThruCashBoxTransfer,"Select desired transfer function. When finished, ""Apply Changes""."
+XM_LeadThruDispenseFunction,"Touch denomination and enter amount or touch ""Dispense Coins to Base Level""."
+XM_LeadThruGloryFunction,"Touch denomination and enter amount or touch ""Collect""."
+XM_LeadThruPickUpFunction,"Select desired pick up function. When finished, ""Apply Changes""."
+XM_LeadThruResetFunction,"Select desired reset function. When finished, ""Apply Changes""."
+XM_LockScreen,Lock Screen
+XM_ManualBothRecyclerFillAlert,Open lane door and deposit bills into the loader and coins into the hoppers. Do not feed them into the acceptors.
+XM_ManualNoteRecyclerFillAlert,Open lane door and deposit bills directly into the loader. Do not feed them into the bill acceptor.
+XM_ManualRemoveCashAlertGlory,Remove cash from the cassette to undo loan.\n\nBills\nCount to remove: %d\nAmount to remove: %s
+XM_MenuCashBoxTransfer,Cash Box Transfers
+XM_MenuDispenseFunctions,Dispense Functions
+XM_MenuPickUpFunctions,Pick Up Functions
+XM_MenuResetFunctions,Reset Functions
+XM_NegativeAlert,"Negative number found. Possible causes: keying error occurred, or bills were placed in the loader cassette, but the counts for these bills were not entered in Cash Management.\n\nFollow steps below to resolve:\n1. Select ""Add Cash"".\n2. Touch the denomination with the negative number.\n3. Enter the exact dollar amount of the negative number and/or the amount placed in the loader.\n4. Select ""Apply Changes"".\n5. Select ""Yes"" to confirm and then ""Exit""."
+XM_NegativeAlert_Remove,"Negative number found. Possible causes: keying error occurred, or bills were placed in the loader cassette, but the counts for these bills were not entered in Cash Management.\n\nFollow steps below to resolve:\n1. Select ""Exit"" then select ""Add Cash"".\n2. Touch the denomination with the negative number.\n3. Enter the exact dollar amount of the negative number and/or the amount placed in the loader.\n4. Select ""Apply Changes"".\n5. Select ""Yes"" to confirm and then ""Exit""."
+XM_OperatorID,Operator ID %s
+XM_PickUpAutoAmount,Pick Up Auto Amount
+XM_PickUpXAmount,Pick Up (x) Amount
+XM_PlaceJammedBill,Remove the cash box and place any jammed bills inside.
+XM_PurgeInstruction,Purge Operations: Rejected bills detected. Go to lane and check device.
+XM_PurgeInstructionNonRecycler,"Purge Operations: Rejected bills detected.  Remove rejected bills from purge bin.  Clear alert by touching ""Reset Bill Counts""."
+XM_PurgeInstructionRecycler,"Purge Operations:  Rejected bills detected.  Remove rejected bills from cash box.  Clear alert by touching ""Transfer All Bills"" and then ""Reset Cash Box""."
+XM_RAP_NegativeAlert,Negative number found. Go to lane and check device.
+XM_ReplenishInstruction,"Insert cash or select denomination and enter amount, or set counts. When finished, ""Apply Changes"""
+XM_SystemBusy,System busy....Please wait
+XM_TotalAddedText,Total Added: %s
+XM_TotalCoinsInserted,Total Inserted
+XM_TotalColectedText,Total Collected: %s
+XM_TotalNotesInserted,Total Inserted
+XM_TotalRemovedText,Total Removed: %s
+XM_TransfertoCashBoxLeadThruText,"To transfer %s bill(s) to the Cash Box, touch ""Apply Changes"". To undo all pending changes, touch ""Cancel Changes""."
+XM_TransferXAmount,Transfer (x) Amount
+XM_TransferXCount,Transfer (x) Count
+XM_UnableToPickUp,Unable to perform pickup.
+XM_Value,Value
+SignOnTitle,NCR SelfServ Checkout Log In
+HH_TransactionCancelLeadThru2,Transaction cancelled.
+DueCart,مستحق
+ScotApp_1742,كيس غير صحيح
+ScotApp_71,71 غير مستخدمة
+ScotApp_61,61 غير مستخدمة
+ScotApp_51,تعذر مسح القسيمة
+ScotApp_41,سلع خاضعة لقيود
+ScotApp_31,القسائم
+ScotApp_1055,1055 غير مستخدمة
+ScotApp_11,11 غير مستخدمة
+ScotApp_789,مرر بطاقتك. \nنرجو البحث في السلة عن سلع إضافية.
+ScotApp_689,    المبيعات:      %d
+ScotApp_589,تم تحميل معمل الأجهزة.
+ScotApp_389,بطاقة المعالجة
+ScotApp_289,289 غير مستخدمة
+ScotApp_189,تم تحميل الخيارات.
+ScotApp_91,91 غير مستخدمة
+ScotApp_773,المبلغ المدخر:
+ScotApp_673,نرجو تزويد العميل بما قدره %s من الباقي.
+ScotApp_1264,محدد من قبل المستخدم6
+ScotApp_473,مستوى الوسط منخفض
+ScotApp_373,انسداد في مخرج الطابعة
+ScotApp_989,989 غير مستخدمة
+ScotApp_889,%s\nالوزن الفعلي(%s): %s\nالأوزان المتوقعة (%s): %s
+ScotApp_1520,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1042,مذكرة إقرار:\nتمت طباعة هذا لأن إقرار الوثيقة\nفشل.  نرجو إرفاق هذه المذكرة\nبالوثيقة الصحيحة.\n--------------------------------------------------------------------------------\n
+ScotApp_973,973 غير مستخدمة
+ScotApp_873,إدخال رقم D.L. / I.D.:
+ScotApp_1737,كيس خاص
+ScotApp_752,ملخص الأمس
+ScotApp_652,  **لا توجد قيود WLDB لكود المنتج العالمي هذا
+ScotApp_1054,1054 غير مستخدمة
+ScotApp_452,تأكد من توصيل الكابل بإحكام في جانب متلقي النقود المعدنية.
+ScotApp_352,تحديث
+ScotApp_252,\nانسداد صراف النقود المعدنية\n\nتخلص من انسداد صراف النقود المعدنية.
+ScotApp_152,152 غير مستخدمة
+ScotApp_1310,* أزل متلقي الأوراق النقدية. \n* أعد إدخال متلقي الأوراق النقدية حتى يثبت في مكانه. \n* تأكد من عمل محرك متلقي الأوراق النقدية ومن أن نور المؤشر أخضر.
+ScotApp_661,(Def)
+ScotApp_952,عدم إضافة وزن
+ScotApp_852,ثلاث سلع
+ScotApp_1527,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1838,Verify Item
+ScotApp_731,ملخص
+ScotApp_631,اسم المالك:
+ScotApp_531,\nخلل في آلة التقاط التوقيع
+ScotApp_331,أزل السلع عن ميزان الأكياس. لوحة المفاتيح معطلة.
+ScotApp_231,231 غير مستخدمة
+ScotApp_131,إيداع القسائم
+ScotApp_1736,"نرجو وضع أكياسك في منطقة التعبئة في أكياس والمس ""انتهى"" عندما تنتهي."
+ScotApp_1250,PIP إضافة
+ScotApp_831,831 غير مستخدمة
+ScotApp_300,300 غير مستخدمة
+ScotApp_1306,تم صرف %s باقي
+ScotApp_710,710 غير مستخدمة
+ScotApp_610,وزن السلعة:
+ScotApp_510,وقع مرة أخرى
+ScotApp_310,الصندوق منخفض
+ScotApp_210,210 غير مستخدمة
+ScotApp_110,زن السلعة
+ScotApp_1526,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1126,فشل في صراف النقود المعدنية. \n\nافحص مفتاح التشغيل والتوقيف إن وجد على الصراف.
+ScotApp_1040,الإمضاء
+ScotApp_810,  قيد التدريب
+ScotApp_1735,ضع أكياسك
+ScotApp_1257,PIP قسائم الطعام
+ScotApp_704,قيد حشية الرقم السري
+ScotApp_604,مسح سلعة.
+ScotApp_504,504 غير مستخدمة
+ScotApp_404,404 غير مستخدمة
+ScotApp_304,اختر الوعاء
+ScotApp_204,نسخ الملف إلى الخادم...
+ScotApp_104,104 غير مستخدمة
+ScotApp_1269,محدد من قبل المستخدم11
+ScotApp_904,الموافقة على وزن السلعة
+ScotApp_804,804 غير مستخدمة
+ScotApp_1047,الإقرار مطلوب. نرجو انتظار مساعدة المشغل.
+ScotApp_1478,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1134,علبة الأوراق ممتلئة.
+ScotApp_1734,اشتريت كيسي الخاص
+ScotApp_1256,PIP EBT
+ScotApp_1512,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1465,خطأ في آلة إعادة تدوير النقود
+ScotApp_1721,عملية وضعية تدريب
+ScotApp_1890,Pجري المعالجة...
+ScotApp_1243,ولاء
+ScotApp_1544,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_63,لا
+ScotApp_53,53 غير مستخدمة
+ScotApp_43,43 غير مستخدمة
+ScotApp_33,صححت المشكلة
+ScotApp_1255,PIP فحص الخصم
+ScotApp_13,    %ss بسعر %s/%s
+ScotApp_1511,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_93,المسح والتعبئة في الأكياس
+ScotApp_83,83 غير مستخدمة
+ScotApp_1464,رقم الآلة
+ScotApp_1189,السلعة المدخلة
+ScotApp_1720,WR:
+ScotApp_1045,ادفع بواسطة %s
+ScotApp_672,*** عملية وضعية تدريب ***
+ScotApp_572,"اطبع رمز السلعة والمس ""إدخال""."
+ScotApp_472,المساعدة مطلوبة
+ScotApp_372,خطأ اتصال جانبي بالطابعة
+ScotApp_272,فحص القسائم المستخدمة
+ScotApp_172,امسح السلعة غير المرغوبة أو اختر السلعة على الوصل.
+ScotApp_1510,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1701,فشل في صرف %s.
+ScotApp_972,972 غير مستخدمة
+ScotApp_872,إلغاء التعليق
+ScotApp_1188,الكمية المدخلة
+ScotApp_1727,البحث عن السلعة
+ScotApp_751,اليوم في الساعة
+ScotApp_651,تلقائي
+ScotApp_551,551 غير مستخدمة
+ScotApp_451,انسداد حالة متلقي البطاقات
+ScotApp_351,حالة النقود / الورق
+ScotApp_251,251 غير مستخدمة
+ScotApp_151,نرجو أخذ النقود
+ScotApp_951,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s تمت إزالة;LSWND3=%s;
+ScotApp_851,سلعتان
+ScotApp_730,730 غير مستخدمة
+ScotApp_630,بطاقة الائتمان#:
+ScotApp_430,خارج الخدمة
+ScotApp_330,وضعية المساعدة
+ScotApp_230,تم رفض حالة متلقي البطاقات
+ScotApp_130,نرجو إيداع قسائمك.
+ScotApp_1726,انتهت عملية البحث
+ScotApp_930,افحص الاتصال.
+ScotApp_830,أزلت السلعة أو الكيس
+ScotApp_193,193 غير مستخدمة
+ScotApp_1457,العملة مرتفعة
+ScotApp_1283,1283 غير مستخدمة
+ScotApp_724,724 غير مستخدمة
+ScotApp_624,تم إدخال درجة تحمل غير صحيحة
+ScotApp_424,أدخل المبلغ
+ScotApp_324,لا حاجة إلى التاريخ
+ScotApp_224,تمت إزالة صندوق الالتقاط في قارئ البطاقات 
+ScotApp_124,124 غير مستخدمة
+ScotApp_1469,"فشل في صرف %s للعميل. %s\n* افحص صرافي النقود الورقية والمعدنية. \n* المس ""حالة النقد/الورق"" لإعادة التعبئة أو لإزالة الانسداد."
+ScotApp_924,924 غير مستخدمة
+ScotApp_824,تعليق التأكيد
+ScotApp_576,بداية عرض البطاقة.
+ScotApp_1247,قسائم الطعام
+ScotApp_1678,خطأ في جهاز إعادة تدوير الأوراق النقدية
+ScotApp_1503,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1756,"اختر من نتائج البحث أو ""العودة""."
+ScotApp_1456,رقم المحاسب وكلمة المرور غير صحيحين. \nنرجو المحاولة مرة أخرى.
+ScotApp_1502,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1712,تم رفض التعليق
+ScotApp_1468,آلة إعادة تدوير النقود فارغة
+ScotApp_1246,EBT
+ScotApp_75,انتهى
+ScotApp_65,65 غير مستخدمة
+ScotApp_55,إلغاء الكل
+ScotApp_45,45 غير مستخدمة
+ScotApp_35,موعد التغيير: 
+ScotApp_1258,PIP بطاقة الهدية
+ScotApp_15,رمز السلعة:
+ScotApp_1711,تم رفض التعليق
+ScotApp_1683,خطأ لا يمكن إصلاحه.  نرجو إغلاق الممر.  اتصل بـGunnebo وقدم لهم معلومات الخطأ المبينة أدناه.\n\n خطأ في SafePay: %s
+ScotApp_95,مسح القسائم
+ScotApp_85,85 غير مستخدمة
+ScotApp_1058,عرض خاضع للمساعدة
+ScotApp_1664,أوراق نقدية عالقة
+ScotApp_797,فشل في صرف %s للعميل.\n* افحص الأوراق النقدية في العلب وتأكد من عدم وجود انسداد في صراف الأوراق النقدية.\n* احرص على تثبيت علبة الأوراق النقدية وصندوق التالف.\n* أغلق باب الخزنة.
+ScotApp_697,697 غير مستخدمة
+ScotApp_597,يجري تحميل أشكال NCR SelfServ Checkout %d...
+ScotApp_497,المبلغ المستحق:
+ScotApp_297,297 غير مستخدمة
+ScotApp_197,تم تحميل خدمات العرض.
+ScotApp_997,أدخل السعر
+ScotApp_897,تم تحميل WTINFO.
+ScotApp_1454,"اطبع كلمة المرور والمس ""إدخال""."
+ScotApp_1710,خذ نقودك المردودة
+ScotApp_1741,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s المتوقع؛;LSWND3=%s %s الملاحظ
+ScotApp_1388,برنامج التدريب
+ScotApp_771,إلغاء التعليق
+ScotApp_671,اخرج من وضعية التدريب
+ScotApp_571,"اطبع الكمية والمس ""إدخال""."
+ScotApp_471,      التوثيق البصري
+ScotApp_371,استبدل رأس الطابعة
+ScotApp_271,الموافقة على القسائم المستخدمة
+ScotApp_971,971 غير مستخدمة
+ScotApp_871,تأكيد التعليق
+ScotApp_1840,Store #:
+ScotApp_750,ملخص اليوم
+ScotApp_650,منتج عادي
+ScotApp_550,550 غير مستخدمة
+ScotApp_450,450 غير مستخدمة
+ScotApp_350,حالة النقود / الورق
+ScotApp_250,250 غير مستخدمة
+ScotApp_150,اختر مبلغ الباقي
+ScotApp_1773,"المس ""الموافقة على القسيمة"" لقبول القسيمة أو اذهب إلى وضعية المساعدة لإلغائها."
+ScotApp_950,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s تمت إضافة;LSWND3=%s;
+ScotApp_850,سلعة واحدة
+ScotApp_1405,نقطة البيع غير متزامنة، نرجو الذهاب إلى وضعية المساعدة لإعادة المزامنة.
+ScotApp_1513,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1657,قسم غير صحيح
+ScotApp_1225,سلعة غير معروفة
+ScotApp_644,-------------------------------------------------------------------
+ScotApp_544,لا يمكن أن تكون كلمة المرور أكثر من %d خانات.
+ScotApp_444,قسائم الطعام
+ScotApp_344,344 غير مستخدمة
+ScotApp_244,244 غير مستخدمة
+ScotApp_144,مقارنة التوقيع
+ScotApp_1590,الصندوق %s النقود المعدنية عالقة
+ScotApp_1669,خطأ في جهاز إعادة تدوير النقود الورقية/المعدنية
+ScotApp_944,طلبات كثيرة للتعبئة في كيس/صندوق.  الأقصى = %d.
+ScotApp_844,844 غير مستخدمة
+ScotApp_1729,البحث عن السلع:
+ScotApp_1447,إزالة النقود
+ScotApp_1703,(+)
+ScotApp_1656,"اطبع رمز القسم والمس ""إدخال""."
+ScotApp_915,طلبات كثيرة لتخطي الحزام.  الأقصى = %d.
+ScotApp_1668,قد يكون هناك أوراق نقدية عالقة في المنطقة المبينة. افتح الغطاء العلوي لجهاز إعادة تدوير النقود الورقية. أزل أية أوراق عالقة قد تجدها.  أغلق الوحدة وأعد الغطاء إلى مكانة.  تابع العملية.
+ScotApp_1542,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1139,باب صراف الأوراق مفتوح.
+ScotApp_1254,PIP مدخرات الخصم
+ScotApp_1249,PIP عام
+ScotApp_77,رصيد
+ScotApp_67,العودة
+ScotApp_57,الإنهاء والدفع
+ScotApp_47,بداية
+ScotApp_37,37 غير مستخدمة
+ScotApp_1458,تقرير NCR SelfServ Checkout
+ScotApp_17,القسيمة
+ScotApp_1752,الوزن على الميزان يفوق السعة.
+ScotApp_1643,خطأ في جهاز إعادة تدوير الأوراق النقدية
+ScotApp_97,اختر الوعاء من القائمة
+ScotApp_87,87 غير مستخدمة
+ScotApp_1665,افتح العلبة وأزلها.  أزل الأوراق النقدية العالقة.  أعد إدخال العلبة. أغلق وحدة إعادة التدوير. تابع العملية.
+ScotApp_1138,فشل في صرف %s.
+ScotApp_1589,نفدت النقود المعدنية
+ScotApp_1445,تغير في العد
+ScotApp_1318,مسح الكوبونات
+ScotApp_1654,التعداد يتجاوز السعة. أقصى حد لازم للتعداد هو %d. تم إدخال %d تلقائيا.
+ScotApp_796,"نقص في النقود المعدنية أو خطأ/توقف عمل في صراف النقود المعدنية. \n* شغل صراف النقود المعدنية، أو\n* أعد تعبئة صراف النقود المعدنية وأوقف تشغيله ثم شغله مجددا، المس ""تمت تعبئة صراف النقود المعدنية"" - شاشة حالة الممر."
+ScotApp_696,696 غير مستخدمة
+ScotApp_596,تم تحميل NCR SelfServ Checkout AuxDisp.
+ScotApp_1391,"المس ""حللت المشكلة"". \nإذا استمر الخطأ، أوقف تشغيل الجهاز وأعد تشغيله."
+ScotApp_396,كانت مساعدة المتجر مطلوبة من أجل:
+ScotApp_296,296 غير مستخدمة
+ScotApp_196,تحميل خدمات العرض جار...
+ScotApp_1588,"يجب تفريغ كل صندوق قبل اختيار زر ""استلام الصراف"".  أفرغ كل صندوق ملقم نقود معدنية والمس ""استلام الصراف""."
+ScotApp_996,إدخال السعر
+ScotApp_896,يجري تحميل WTINFO...
+ScotApp_574,"اطبع كلمة المرور والمس ""إدخال"""
+ScotApp_1093,طباعة آخر وصل
+ScotApp_1641,أعد تعبئة ملقم النقود المعدنية وتابع.  إذا لم يتم صرف نقود معدنية، قد يكون الملقم مغلقا.  نرجو طلب الصيانة. \n\nخطأ في SafePay: %s
+ScotApp_1781,شكرا انتهى
+ScotApp_562,يجب بيع القسائم في وضعية المساعدة
+ScotApp_874,"اطبع # D.L. أو I.D. والمس ""إدخال""."
+ScotApp_1124,1124 غير مستخدمة
+ScotApp_770,تأكيد التعليق
+ScotApp_670,أدخل وضعية التدريب
+ScotApp_570,570 غير مستخدمة
+ScotApp_470,      مقيدة بالعمر
+ScotApp_370,الطابعة مفتوحة
+ScotApp_270,الموافقة على القسائم
+ScotApp_170,أزل السلعة عن الميزان واضغط على زر “<0>” على الماسحة الضوئية.
+ScotApp_1640,خطأ في الملقم
+ScotApp_870,التنبيهات:
+ScotApp_1733,"اختر ""العودة"" للمتابعة."
+ScotApp_1553,حالة العملة المرتفعة:
+ScotApp_664,امسح سلعك أو اختر اللغة.
+ScotApp_564,564 غير مستخدمة
+ScotApp_464,%s               %s
+ScotApp_364,364 غير مستخدمة
+ScotApp_264,264 غير مستخدمة
+ScotApp_964,"أزل السلعة والمس ""مسح أمني""، أو المس ""موافقة & تحديث الوزن""."
+ScotApp_864,الموافقة:
+ScotApp_1647,(الشهر اليوم السنة)
+ScotApp_1119,لن يعمل صراف الأوراق وباب الدخول مفتوح. \n\nأغلق وأقفل باب الصراف أو باب الخزنة.\n\nإذا تكرر الخطأ، اطلب الصيانة.
+ScotApp_1659,طباعة الوصل
+ScotApp_819,تأكيد تعليق السلعة الملغاة.
+ScotApp_1339,إعادة تحميل النظام بالكامل
+ScotApp_1582,حالة الإعلام
+ScotApp_1154,خطأ في الماسحة الضوئية
+ScotApp_1117,%s علبة صراف الأوراق النقدية خارج موضعها أو غير مثبتة بإحكام. \n\n ركب أو أعد علبة الأوراق النقدية %s إلى مكانها حتى تثبت.
+ScotApp_1294,ص - ق
+ScotApp_1030,أدخل قسيمتك.
+ScotApp_1658,نرجو التأكد من أن العميل تسلم الباقي الصحيح.
+ScotApp_1421,وضعية المساعدة
+ScotApp_709,709 غير مستخدمة
+ScotApp_1129,لم يتم الإجراء التصحيحي بالشكل الصحيح. \n\nنرجو المحاولة مجددا.
+ScotApp_509,509 غير مستخدمة
+ScotApp_409,رسالة النظام
+ScotApp_309,دولار
+ScotApp_209,وقف البرنامج
+ScotApp_109,هل تريد المتابعة؟
+ScotApp_1338,الحصول على ملفات التشخيص
+ScotApp_909,وزن غير صحيح على الميزان الأمني.
+ScotApp_809,رسالة نقطة البيع:
+ScotApp_1645,تأكد من تثبيت غطاء الأوراق النقدية بإحكام.
+ScotApp_1116,لن يعمل صراف الأوراق إذا كان صندوق الأوراق المرفوضة غير موجود ومثبت بإحكام في مكانه. \n\nأدخل صندوق الأوراق المرفوضة وتأكد من تثبيته.
+ScotApp_1128,%s\n
+ScotApp_1452,"اطبع الهوية والمس ""إدخال""."
+ScotApp_183,183 غير مستخدمة
+ScotApp_1450,الصندوق المغلق
+ScotApp_1293,ف
+ScotApp_1644,غطاء جهاز إعادة تدوير الأوراق النقدية مرفوع
+ScotApp_1115,إعداد التقارير في وضعية الانفصال
+ScotApp_795,تتم مراقبة عمليات الشراء لضمان خدمة أفضل.
+ScotApp_695,695 غير مستخدمة
+ScotApp_595,يجري تحميل NCR SelfServ Checkout AuxDisp...
+ScotApp_395,سلع غير متاحة وخاضعة لقيود
+ScotApp_295,295 غير مستخدمة
+ScotApp_195,تم تحميل مدير الأجهزة.
+ScotApp_566,566 غير مستخدمة
+ScotApp_1324,الوزن المتبقي على\nالميزان بعد العملية.
+ScotApp_995,اذهب إلى الممر وسجل الدخول في وضعية المتجر لفتح الممر.
+ScotApp_895,يجري إنهاء DBM...
+ScotApp_1102,التالي
+ScotApp_1383,(Exc)
+ScotApp_1402,مقبس صندوق الأوراق المرفوضة لا يعمل.
+ScotApp_1292,س - ع
+ScotApp_1114,"""نجاح تحديث ""فترة إنهاء التقرير"""
+ScotApp_1222,خارج الخدمة
+ScotApp_1101,%s\t%s
+ScotApp_1159,PinPad / EFT لا تستجيب.
+ScotApp_1100,%s
+ScotApp_1539,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1649,(اليوم الشهر السنة)
+ScotApp_1317,الدفع بكوبون
+ScotApp_1883,"افحص ميزان الأكياس والعربة بحثاً عن سلع إضافية والمِس ""وافق أمنيّاً""."
+ScotApp_729,729 غير مستخدمة
+ScotApp_629,مجموع المطلوب:
+ScotApp_429,أحمر
+ScotApp_329,    %ss بسعر %d %s/%s
+ScotApp_229,229 غير مستخدمة
+ScotApp_129,أكد أن السلع الملغاة قد وضعت جانبا.
+ScotApp_1107,%s\t%s\tالكمية%s بسعر %s/%s\t%s
+ScotApp_1538,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_929,WLDB لا يتواصل بالشكل الصحيح.
+ScotApp_829,829 غير مستخدمة
+ScotApp_1316,* افتح غطاء الطابعة وتأكد من عدم وجود أوراق عالقة في المنطقة المبينة. \n* أغلق غطاء الطابعة وأعد تحميل الورق.
+ScotApp_81,حللت المشكلة
+ScotApp_1882,تنبيه المساعدة الذكية - السلعة غير ممسوحة.
+ScotApp_1673,نقود معدنية عالقة
+ScotApp_1135,خطأ في صراف الأوراق
+ScotApp_1705,خطأ في الاتصال.
+ScotApp_1894,Set item aside and continue with your purchase.
+ScotApp_787,تم إدخال تاريخ الميلاد: %s، %d عاما
+ScotApp_1398,  الحاضر/المتدرب
+ScotApp_1106,%s\t%s\tالكمية %s بسعر  %s/لكل وحدة\t%s
+ScotApp_1525,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1493,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1490,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1315,* افتح غطاء الطابعة وتأكد من عدم وجود أوراق عالقة. \n* أغلق غطاء الطابعة وأعد تحميل الورق.
+ScotApp_1881,"افحص ميزان الأكياس، وأزِل السلع الزائدة، والمِس ""وافق أمنيّاً""."
+ScotApp_1173,سلعة ملغاة موافق عليها
+ScotApp_1524,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_505,رقم غير صحيح
+ScotApp_1302,إغلاق
+ScotApp_905,  (المزيد من المعلومات على الوصل...)
+ScotApp_1164,وضع الطابعة غير صحيح.
+ScotApp_1492,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1314,* افتح غطاء الطابعة وأزل أية قصاصات ورق. \n* أغلق الغطاء. \n* أدخل لفافة ورق جديدة. \n* لقم الورق من أعلى اللفافة في الطابعة.
+ScotApp_1817,* اسحب جهاز تدوير القطع النقدية إلى الخارج.\n* افتح الأبواب الجانبية المدورة وأزل القطع النقدية عن الأحزمة.\n* تأكد من إغلاق جميع الأبواب وإقفالها بإحكام.\n* أعد القطع النقدية إلى العميل. إذا تكرر الخطأ، اتصل بالصيانة.
+ScotApp_1442,"أدخل النقود للتعبئة أو المس ""أزل النقود"" للتفريغ."
+ScotApp_1880,سلعة غير متوقعة على ميزان الأكياس.
+ScotApp_1172,تعليق مؤكد
+ScotApp_1415,1415 غير مستخدمة
+ScotApp_788,تاريخ الميلاد الصحيح: %s
+ScotApp_688,688 غير مستخدمة
+ScotApp_588,يجري تحميل معمل الأجهزة...
+ScotApp_488,ضع السلعة على الميزان: %s
+ScotApp_388,تجري المعالجة...
+ScotApp_288,"المس ""حللت المشكلة"".\nإذا بقي الخطأ، أعد تشغيل الآلة:\nأدر قفل المشرف إلى 'S' أو اضغط على زر المشرف.\nاختر ""وقف تشغيل النظام بالكامل"".\nعندما تصبح الشاشة فارغة، أطفئ الآلة من منفذ الكهرباء أو سلك الكهرباء.\nشغل الآلة. إذا حدث الخطأ مجددا، اطلب الصيانة."
+ScotApp_188,تحميل الخيارات جار...
+ScotApp_988,سلعة غير متوقعة على الحزام. أزل السلعة.
+ScotApp_888,سلعة غير متوقعة في منطقة التعبئة في أكياس.  أزل السلعة.
+ScotApp_1887,راجع المعاملة
+ScotApp_1171,زيادة غير متوقعة
+ScotApp_1199,تم إدخال تاريخ انتهاء الصلاحية
+ScotApp_1300,ابدأ المعاملة
+ScotApp_1326,انتهى وقت إدخال القسيمة
+ScotApp_1291,ك - م
+ScotApp_1517,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1886,تأكد من وجود سلع إضافية.
+ScotApp_749,749 غير مستخدمة
+ScotApp_1529,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_549,549 غير مستخدمة
+ScotApp_449,تم رفض حالة متلقي البطاقات
+ScotApp_349,349 غير مستخدمة
+ScotApp_249,249 غير مستخدمة
+ScotApp_149,أدخل رقم الهوية الشخصي.
+ScotApp_1307,طباعة الوصل
+ScotApp_1738,الموظف الحاضر لتوثيق أكياسك
+ScotApp_949,949 غير مستخدمة
+ScotApp_717,717 غير مستخدمة
+ScotApp_617,اختر إعدادات مقارنة الأوزان. (مقارنة وزن السلعة بالقيود الحالية.)
+ScotApp_517,تم طلب الدفع بطريقة أخرى.
+ScotApp_417,تم تحميل المجاميع.
+ScotApp_317,317 غير مستخدمة
+ScotApp_217,217 غير مستخدمة
+ScotApp_117,وضع السلع جانبا
+ScotApp_1516,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1885,سلعة غير ممسوحة
+ScotApp_917,طلبات كثيرة لإزالة السلع من منطقة التعبئة في أكياس.  الأقصى = %d.
+ScotApp_817,المساعدة مطلوبة
+ScotApp_1177,انتهى وقت تعبئة السلع في الأكياس
+ScotApp_1528,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1175,لا تعبئ في أكياس تم تجاوز الحد
+ScotApp_1109,%s\t%s\t%s بسعر  %s/%s\t%s
+ScotApp_1453,كلمة مرور المحاسب
+ScotApp_1693,استبدال العملة المعدنية
+ScotApp_1515,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_7,7 غير مستخدمة
+ScotApp_6,6 غير مستخدمة
+ScotApp_5,5 غير مستخدمة
+ScotApp_4,4 غير مستخدمة
+ScotApp_3,3 غير مستخدمة
+ScotApp_2,kg
+ScotApp_1,lb
+ScotApp_1176,تم إدخال سلعة جديدة
+ScotApp_1724,عملية وضعية تدريب
+ScotApp_1019,ضعه على الحزام
+ScotApp_9,9 غير مستخدمة
+ScotApp_8,8 غير مستخدمة
+ScotApp_609,تعديل تحمل الوزن
+ScotApp_1305,تم إدخال %s
+ScotApp_1893,Invalid Barcode
+ScotApp_1409,قائمة المساعدة
+ScotApp_1692,تسجيل دخول المشرف
+ScotApp_1163,"المس ""حللت المشكلة"".\n\nإذا بقي الخطأ، أعد تشغيل الآلة:\nأدر قفل المشرف إلى 'S' أو اضغط على زر المشرف.\nاختر ""وقف تشغيل النظام بالكامل"".\nعندما تصبح الشاشة فارغة، أطفئ الآلة من منفذ الكهرباء أو سلك الكهرباء.\nشغل الآلة. إذا حدث الخطأ مجددا، اطلب الصيانة."
+ScotApp_1514,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1372,متلقي النقود المعدنية
+ScotApp_1048,1048 غير مستخدمة
+ScotApp_967,967 غير مستخدمة
+ScotApp_1304,تم قبول بطاقة الولاء.
+ScotApp_1162,الآلة مفصولة.
+ScotApp_1833,Exc_TB
+ScotApp_1818,* فك طبق الملقّم واسحبه إلى الخارج لإزالة الانسداد.(I).\n* أعد القطع النقدية العالقة إلى علبة (علب) الملقّم المناسبة. ثم أعد إدخال طبق الملقّم وثبّته. \n* اسحب جهاز تدوير القطع النقدية إلى الخارج. ثم فك الغطاء وانزعه. \n* افصل السلك المبيّن (II).\n* أطلق الزر الأحمر على الجانب الأيمن من المتلقي ثم اسحبه إلى الأمام واقلبه لإزالة الانسداد من المناطق المبيّنة (III). \n* أعد إدخال المتلقي وأعد وصل السلك. \n* أعد الغطاء إلى مكانه وثبّته. إذا تكرر الخطأ، اتصل بالصيانة.
+ScotApp_1174,وزن غير مطابق
+ScotApp_1500,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1366,الميزان
+ScotApp_1161,خطأ في جهاز الإشعار
+ScotApp_1717,WO:
+ScotApp_1832,Exc_DEPT
+ScotApp_1370,المشفر
+ScotApp_669,فشلت طباعة التوقيع. وقع خطأ.
+ScotApp_569,أدخل الرمز
+ScotApp_469,469 غير مستخدمة
+ScotApp_369,خطأ اتصال بالطابعة
+ScotApp_269,وضعية المساعدة
+ScotApp_1507,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_969,969 غير مستخدمة
+ScotApp_737,737 غير مستخدمة
+ScotApp_637,الأمان غير متصل، تم إلغاء الإجراء الأخير.
+ScotApp_537,537 غير مستخدمة
+ScotApp_437,رصيد غير كاف
+ScotApp_337,"امسح سلعتك، أو أدخل رمزها والمس ""OK""."
+ScotApp_237,أدخل علبة الأوراق النقدية حتى تثبت في مكانها.\n\nاسحب مقبض العلبة لضمان تثبيت العلبة في مكانها.
+ScotApp_137,خذ الباقي
+ScotApp_931,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s المتوقع;LSWND3=%s %s الملاحظ;
+ScotApp_1519,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1831,المقحم
+ScotApp_937,الحد من/إزالة السلع
+ScotApp_837,الرسوم
+ScotApp_1702,*** وصل مكرر ***
+ScotApp_1377,الكمية
+ScotApp_1728,نرجو الاختيار من القائمة.
+ScotApp_1395,ادخل وضعية الموظف الحاضر
+ScotApp_716,716 غير مستخدمة
+ScotApp_616,مقارنة الأوزان
+ScotApp_516,الدفع بطريقة أخرى
+ScotApp_416,يجري تحميل المجاميع...
+ScotApp_316,316 غير مستخدمة
+ScotApp_216,* افتح باب خزانة الطابعة.\n* ارفع غطاء الطابعة للتأكد من عدم وجود ورق عالق.\n* أنزل غطاء الطابعة وأعد تحميل الورق.\n* سيتم طباعة وصل برسم وجه مبتسم.\n* أقفل وأغلق باب خزانة الطابعة.
+ScotApp_116,إلغاء جميع السلع
+ScotApp_1522,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1506,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1879,"افحص ميزان الأكياس والمِس ""وافق أمنيّاً""."
+ScotApp_916,"افحص السلعة في الممر والمس ""مسح أمني""."
+ScotApp_816,816 غير مستخدمة
+ScotApp_1167,*افتح باب خزانة الطابعة. \n* افصل الطابعة وادفعها إلى الخلف. \n* افتح غطاء الطابعة لفحص وجود أوراق عالقة. \n* أغلق غطاء الطابعة وأعد تحميل الورق. \n* اسحب الطابعة بحرص إلى الأمام حتى تثبت في مكانها.
+ScotApp_1518,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1830,  المدخلات المعتمدة
+ScotApp_1376,", %s"
+ScotApp_783,783 غير مستخدمة
+ScotApp_683,683 غير مستخدمة
+ScotApp_583,تم رفض البطاقة.
+ScotApp_483,نرجو التوقيع على حشية التوقيع باستخدام القلم المربوط بها.
+ScotApp_383,383 غير مستخدمة
+ScotApp_283,أدخل كلمة المرور
+ScotApp_1505,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_983,يجري تحميل حزام النقل...
+ScotApp_883,تأكيد التعليق
+ScotApp_1363,عرض السطر
+ScotApp_1714,تمت الموافقة على رفض التعليق
+ScotApp_1837,"Touch ""Approve"" to continue transaction."
+ScotApp_1449,حالة النقود الورقية
+ScotApp_1375,التعديل بعد شراء السلعة:\n%s
+ScotApp_1248,بطاقة هدية
+ScotApp_1153,ورق عالق.
+ScotApp_1504,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1362,إقفال المفاتيح
+ScotApp_1836,INVALID BARCODE
+ScotApp_1571,تأكيد تجاهل التغيرات
+ScotApp_1215,خطأ في الآلة
+ScotApp_1858,Discrepancy error occurred in the recycler.
+ScotApp_1152,نفد الورق.
+ScotApp_1700,"فشل في صرف %s. %s\nافحص صرافي النقود المعدنية والورقية. \nإذا كانا فارغين، أعد تعبئتهما. \nإن لم يكونا فارغين، أزل الانسداد. \nالمس ""تم تصحيح الحالة""."
+ScotApp_1823,تم توليد الوصل الإلكتروني بنجاح.
+ScotApp_1605,          صندوق صراف البطاقات فارغ
+ScotApp_1361,مبدل النقود
+ScotApp_1835,تحقق من السلعة أو ضعها جانباً
+ScotApp_1878,وزن غير صحيح على ميزان الأكياس.
+ScotApp_1281,عرض خاضع للمساعدة
+ScotApp_1425,اتصال
+ScotApp_1570,تجاهل التغيرات
+ScotApp_814,814 غير مستخدمة
+ScotApp_291,"انسداد في أنبوب صراف النقود المعدنية\n%s\nتخلص من انسداد صراف النقود المعدنية ثم المس ""تخلصت من الانسداد""."
+ScotApp_191,تم تحميل وسيط العملية.
+ScotApp_1151,غطاء الطابعة مفتوح.
+ScotApp_1707,النقود المعدنية عالقة في المتلقي
+ScotApp_1822,انظر إلى وزن السلعة إلى أدنى يسار الشاشة
+ScotApp_757,757 غير مستخدمة
+ScotApp_657,ضع المبلغ المسترد/مبلغ الخصم جانبا حتى نهاية عملية الشراء.
+ScotApp_557,سلع خاضعة لقيود على الكمية
+ScotApp_457,457 غير مستخدمة
+ScotApp_357,357 غير مستخدمة
+ScotApp_257,257 غير مستخدمة
+ScotApp_157,رسالة النظام
+ScotApp_1360,درج النقود
+ScotApp_1719,WA:
+ScotApp_1834,أقصى
+ScotApp_1868,تأكد من أنّ يدَيكَ خارج مرأى الكاميرا في الماسحة
+ScotApp_957,فشل وكل مدير قاعدة البيانات في الاتصال
+ScotApp_857,أكد رسوم التركيب
+ScotApp_1064,1064 غير مستخدمة
+ScotApp_1577,مجموع التعداد:
+ScotApp_736,736 غير مستخدمة
+ScotApp_636,الأمان غير متصل.
+ScotApp_1091,1091 غير مستخدمة
+ScotApp_436,تأكيد المبلغ
+ScotApp_336,ابحث عن سلعة
+ScotApp_236,236 غير مستخدمة
+ScotApp_136,أدخل النقود
+ScotApp_1509,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1821,تقبّل الوزن
+ScotApp_936,الحد من/تخطي التعبئة في الأكياس
+ScotApp_836,الرسوم & اتفاقيات العميل
+ScotApp_1367,الماسحة الضوئية
+ScotApp_1718,NOI:
+ScotApp_1274,محدد من قبل المستخدم16
+ScotApp_715,715 غير مستخدمة
+ScotApp_615,اختر إعدادات فرض التعبئة في أكياس. (يتوقع من العميل أن يعبئ السلع في أكياس.)
+ScotApp_515,515 غير مستخدمة
+ScotApp_315,315 غير مستخدمة
+ScotApp_215,حفظ الخصم
+ScotApp_115,تأكيد الإلغاء
+ScotApp_1576,حالة صراف النقود:
+ScotApp_1090,تشغيل التقرير
+ScotApp_815,افتح السجل
+ScotApp_1508,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1406,مزانة TB/POS
+ScotApp_1099,خطأ غير معروف في الآلة
+ScotApp_1563,تحميل
+ScotApp_782,انسداد في صراف الأوراق\nأزل انسداد صراف الأوراق أو\nعدل صندوق النفايات.
+ScotApp_682,682 غير مستخدمة
+ScotApp_582,تم العرض.
+ScotApp_482,482 غير مستخدمة
+ScotApp_382,غير معروف
+ScotApp_282,أدخل الهوية
+ScotApp_1575,حالة صراف النقود المعدنية:
+ScotApp_1097,طباعة السجلات / التقارير
+ScotApp_1448,حالة النقود المعدنية
+ScotApp_982,خطأ في الآلة
+ScotApp_143,التوقيع على الوصل
+ScotApp_1353,نرجو إدخال بطاقة الهدية المستهلكة في منفذ القسائم.
+ScotApp_1704,"المس ""حللت المشكلة"".\n\nإذا بقي الخطأ، أعد تشغيل الآلة:\nأدر قفل المشرف إلى 'S' أو اضغط على زر المشرف.\nاختر ""وقف تشغيل النظام بالكامل"".\nعندما تصبح الشاشة فارغة، أطفئ الآلة من منفذ الكهرباء أو سلك الكهرباء.\nشغل الآلة. إذا حدث الخطأ مجددا، اطلب الصيانة."
+ScotApp_1827,\n    - اللغة الحالية (%s)
+ScotApp_1562,التعداد
+ScotApp_1815,*فك واسحب طبق الملقّم إلى الخارج.\n* أعد إدخال أي ملقّم (ملقّمات) مفقودة وتأكد من أن جميع الملقّمات مثبتة في مكانها.\n* تأكد من أن ملقّم فئات القطع النقدية السفلي مثبت وفي مكانه الصحيح.\n* تأكد من إدخال ملقّمات العملات بالشكل الصحيح. إذا تكرر الخطأ، اتصل بالصيانة.
+ScotApp_1574,القيمة التي تم إدخالها لـ%s غير صحيحة. \nنرجو الإدخال مجددا.
+ScotApp_1543,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1290,د - ي
+ScotApp_1096,إعداد التقارير
+ScotApp_1352,إيداع بطاقة الهدية
+ScotApp_1561,الفئة
+ScotApp_1083,تمت إزالة السلعة من منطقة التعبئة في الأكياس.\nأعد السلعة.
+ScotApp_1753,لم يتم العثور على السلعة
+ScotApp_418,يجري إنهاء المجاميع...
+ScotApp_318,318 غير مستخدمة
+ScotApp_1813,%s\n* فك طبق الملقّم واسحبه إلى الخارج.(I).\n* انزع علبة (علب) الملقّم العالقة.  ابحث عن أي انسداد في منطقة الخروج وأزله (II).\n* إن لم تجد انسداداً في منطقة الخروج، أفرغ علبة (علب) الملقّم. ابحث عن أي انسداد وأزله بتدوير القرص (III).\n* أعد إدخال علبة (علب) الملقّم. \n* تأكد من إغلاق جميع الأبواب وإقفالها بإحكام. إذا تكرر الخطأ، اتصل بالصيانة.
+ScotApp_1095,"اختر نوع التقرير ثم المس ""تشغيل التقرير""."
+ScotApp_1351,تمت إزالة%s\n%s %s   
+ScotApp_1825,احفظ الاختيارات المفضّلة
+ScotApp_777,777 غير مستخدمة
+ScotApp_677,677 غير مستخدمة
+ScotApp_577,بداية العرض النقدي.
+ScotApp_377,الوحدات - الحالة
+ScotApp_277,277 غير مستخدمة
+ScotApp_1560,مجموع المتلقي:  %s
+ScotApp_1082,أزلت السلعة أو الكيس
+ScotApp_977,الوزن الفعلي: %s %s
+ScotApp_877,التنبيه على السعر
+ScotApp_1777,تمت العملية باستخدام القسيمة التي تتجاوز حد القسائم في المتجر.
+ScotApp_1812,القطع النقدية عالقة أو أوعية القطع النقدية ممتلئة أو غير موجودة.
+ScotApp_756,756 غير مستخدمة
+ScotApp_556,تم رفض تعليق العملية.
+ScotApp_456,456 غير مستخدمة
+ScotApp_356,المشفر
+ScotApp_256,إنهاء خروج المستخدم...
+ScotApp_156,رسالة النظام
+ScotApp_1231,موثق بصريا
+ScotApp_1874,1874unused
+ScotApp_956,فشل في طلب الميزان الذكي
+ScotApp_856,الوصل:
+ScotApp_1567,مجموع الصراف:  %s
+ScotApp_735,735 غير مستخدمة
+ScotApp_635,أدخل تاريخ الميلاد
+ScotApp_535,      إلغاء الوقت
+ScotApp_335,احتمال عبث عملاء بقارئ البطاقات
+ScotApp_235,متلقي النقود قريب من الامتلاء
+ScotApp_135,135 غير مستخدمة
+ScotApp_1776,تفويض المتجر
+ScotApp_1811,* اسحب جهاز تدوير القطع النقدية إلى الخارج.\n* أزل الانسداد من المنطقة المبيّنة بنزع القطع النقدية أو دفعها إلى الأمام.\n* أعد القطع النقدية إلى العميل. إذا تكرر الخطأ، اتصل بالصيانة.
+ScotApp_935,نقص في الوزن
+ScotApp_835,الوصل:
+ScotApp_1708,"اضغط على زر إعادة القطع النقدية عدة مرات لإزالة الانسداد، ثم المس ""حللت المشكلة"". \n\nإذا تكرر الخطأ، اطلب الصيانة."
+ScotApp_1168,الطابعة غير مثبتة في وضعها إلى الأمام.
+ScotApp_1446,تفريغ
+ScotApp_1566,استبدال بالكامل
+ScotApp_1080,ضع السلعة على الحزام.
+ScotApp_1775,الموافقة على القسائم
+ScotApp_1810,القطع النقدية عالقة.
+ScotApp_1297,انتهى وقت أخذ الباقي
+ScotApp_1648,(الشهر اليوم السنة)
+ScotApp_708,708 غير مستخدمة
+ScotApp_608,ضبط مقارنة الأوزان
+ScotApp_508,508 غير مستخدمة
+ScotApp_408,408 غير مستخدمة
+ScotApp_308,سنت
+ScotApp_208,208 غير مستخدمة
+ScotApp_108,قسيمة غير مطابقة
+ScotApp_781,781 غير مستخدمة
+ScotApp_681,اختر من المفضلة
+ScotApp_581,تم رفض تعليق العملية.
+ScotApp_481,المساعدة مطلوبة
+ScotApp_381,عادي
+ScotApp_908,الأمان
+ScotApp_521,المبلغ المردود:
+ScotApp_1087,تم قبول البطاقة. امسح قسائمك وسلعك.
+ScotApp_981,981 غير مستخدمة
+ScotApp_881,تعليق:
+ScotApp_1774,القسيمة مرتفعة جدا
+ScotApp_1296,أعد تعبئة جميع حاويات النقود المعدنية إلى مستويات أفضل خدمة.
+ScotApp_1583,العملة منخفضة (%s)
+ScotApp_1552,الصندوق ممتلئ
+ScotApp_1295,ر - ن
+ScotApp_1877,تنبيه سرقة
+ScotApp_1761,قد يكون صندوق القسائم ممتلئا أو منفذ القسائم مسدودا. أزل أية أشياء تسد منفذ القسائم ثم أفرغ صندوق القسائم.
+ScotApp_1086,"""""عدم إضافة وزن"" تحذف جميع قيود الوزن."
+ScotApp_693,693 غير مستخدمة
+ScotApp_794,انسداد في علبة صراف الأوراق\nأزل انسداد صراف الأوراق.
+ScotApp_694,694 غير مستخدمة
+ScotApp_594,تم تحميل NCR SelfServ Checkout SigCap.
+ScotApp_494,اختر المبلغ النقدي المسترد من القائمة.
+ScotApp_394,394 غير مستخدمة
+ScotApp_1098,* افتح باب خزانة الطابعة. \n* تأكد من عدم وجود انسداد في المنطقة المبينة. \n* إن لم تجد انسدادا، أعد تحميل الورق. \n* تتم عندها طباعة وصل يحمل وجها مبتسما. \n* أغلق وأقفل باب خزانة الطابعة.
+ScotApp_1551,العملة مرتفعة (%s)
+ScotApp_994,مغلق
+ScotApp_894,تم تحميل DBM.
+ScotApp_1760,قد يكون صندوق القسائم ممتلئا أو منفذ القسائم مسدودا. أزل أية أشياء تسد منفذ القسائم ثم أفرغ صندوق القسائم.
+ScotApp_1371,متلقي النقود
+ScotApp_1803,قبول النقد فقط
+ScotApp_1359,طابعة القسائم
+ScotApp_1085,جمع القسائم
+ScotApp_21,21 غير مستخدمة
+ScotApp_776,776 غير مستخدمة
+ScotApp_676,صراف النقود المعدنية. تمت تعبئته في %s في %s.
+ScotApp_1491,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_476,إسقاط القسيمة
+ScotApp_376,376 غير مستخدمة
+ScotApp_276,276 غير مستخدمة
+ScotApp_176,\nهل تريد التوقف وإلغاء عملية الشراء كلها؟
+ScotApp_976,976 غير مستخدمة
+ScotApp_876,"اطبع هوية المحاسب الرئيسي والمس ""إدخال""."
+ScotApp_1271,محدد من قبل المستخدم13
+ScotApp_1767,فشل في الدخول إلى معايير الوزن في الميزان.
+ScotApp_755,تجري المعالجة...
+ScotApp_655,سلعة مستثناة
+ScotApp_1084,الجمع
+ScotApp_455,455 غير مستخدمة
+ScotApp_355,اختر وظيفة النظام
+ScotApp_255,255 غير مستخدمة
+ScotApp_155,رسالة النظام
+ScotApp_1011,يجري النقل...
+ScotApp_869,"اطبع # التخويل والمس ""إدخال""."
+ScotApp_955,فشل في تفعيل الميزان الذكي
+ScotApp_855,رسوم التركيب:
+ScotApp_23,+ %s (%s)
+ScotApp_1766,خطأ في الماسحة الضوئية/الميزان.
+ScotApp_1280,نقد
+ScotApp_1335,الممر مغلق
+ScotApp_1497,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_728,728 غير مستخدمة
+ScotApp_628,الممر#: %d
+ScotApp_528,528 غير مستخدمة
+ScotApp_428,أصفر
+ScotApp_328,"فشل في صرف %s للعميل. \n*افحص صراف النقود المعدنية والنقود الورقية.\n* إذا كانا فارغين أعد ملأهما.\n* إن لم يكونا فارغين أزل الانسداد.\n* المس ""حللت المشكلة""."
+ScotApp_228,غالق قارئ البطاقات مسدود
+ScotApp_128,128 غير مستخدمة
+ScotApp_1690,نرجو طلب الصيانة
+ScotApp_281,281 غير مستخدمة
+ScotApp_181,"\nاستخدم لوحة المفاتيح لإدخال قيمة القسيمة بالريال والمس ""OK""."
+ScotApp_928,اذهب إلى الممر وافحص الآلة.
+ScotApp_828,828 غير مستخدمة
+ScotApp_1033,"عطل السلعة أو انزع البطاقة الصلبة والمس ""مسح أمني""."
+ScotApp_1496,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_680,680 غير مستخدمة
+ScotApp_580,تمت محاولة إلغاء السلعة قبل إلغاء قسيمتها.
+ScotApp_380,380 غير مستخدمة
+ScotApp_280,مسح سجل الأمن
+ScotApp_180,ضع القسائم جانبا في الوقت الحالي. \nأودعها في نهاية عملية الشراء.
+ScotApp_1364,التعرف على الحروف المكتوبة بحبر مغناطيسي
+ScotApp_980,انتهى الوقت دون استجابة من العميل
+ScotApp_880,880 غير مستخدمة
+ScotApp_970,970 غير مستخدمة
+ScotApp_1104,0.01 lb الأقصى 30.00 lb الأدنى 0.2 lb أقصى عدد 3000
+ScotApp_1032,ما زالت البطاقة الأمنية على السلعة نشطة.
+ScotApp_1286,العربية
+ScotApp_1462,الصناديق
+ScotApp_1298,وظائف بمساعدة المشغل
+ScotApp_1031,امسح قسائمك
+ScotApp_1482,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1706,"الآلة غير جاهزة. أغلق أية تطبيقات أخرى يمكن أن تدخل إلى الآلة والمس ""حللت المشكلة"".  إذا حدث الخطأ مجددا، اتصل بـGunnebo للصيانة."
+ScotApp_1399,  الحاضر
+ScotApp_1494,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1672,خطأ في جهاز إعادة تدوير النقود المعدنية
+ScotApp_573,"اطبع هوية المستخدم والمس ""إدخال"""
+ScotApp_173,173 غير مستخدمة
+ScotApp_775,أهلاً بكم في نظام NCR SelfServ Checkout!
+ScotApp_675,تمت إعادة تعبئة صراف النقود المعدنية
+ScotApp_1481,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_79,79 غير مستخدمة
+ScotApp_69,69 غير مستخدمة
+ScotApp_59,حاول مرة أخرى
+ScotApp_39,إلغاء العملية
+ScotApp_29,سلع خاضعة لقيود
+ScotApp_19,الضريبة
+ScotApp_975,975 غير مستخدمة
+ScotApp_603,تعديل/إضافة قيد وزن
+ScotApp_99,الكمية المراد إلغاؤها
+ScotApp_89,89 غير مستخدمة
+ScotApp_303,إلغاء السلع
+ScotApp_203,203 غير مستخدمة
+ScotApp_103,أدخل رمز السلعة
+ScotApp_1889,مستوى الثقة الأمنيّ
+ScotApp_1443,"أدخل النقود المعدنية للتعبئة أو المس ""أزل النقود"" للتفريغ."
+ScotApp_903,تمت إزالة السلعة من منطقة التعبئة في الأكياس.
+ScotApp_803,803 غير مستخدمة
+ScotApp_1555,الصراف
+ScotApp_1037,الإمضاء
+ScotApp_1480,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1263,محدد من قبل المستخدم5
+ScotApp_1697,تمت إزالة الانسداد
+ScotApp_748,748 غير مستخدمة
+ScotApp_648,كود المنتج العالمي
+ScotApp_548,548 غير مستخدمة
+ScotApp_448,تم تفعيل حساب الزبون المتكرر الخاص بك.
+ScotApp_348,348 غير مستخدمة
+ScotApp_248,248 غير مستخدمة
+ScotApp_148,148 غير مستخدمة
+ScotApp_1479,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_948,\n* المساعدة عن بعد
+ScotApp_848,الكمية المطلوبة:
+ScotApp_485,التوقيع مطلوب
+ScotApp_1036,البطاقة الأمنية على السلعة نشطة
+ScotApp_1487,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1499,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1023,1023 غير مستخدمة
+ScotApp_1179,انتهى وقت الابتعاد
+ScotApp_1035,البطاقة الأمنية على السلعة نشطة
+ScotApp_1682,خطأ في وحدة قارئ الأوراق النقدية العام
+ScotApp_1486,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1144,الصراف لا يستجيب.
+ScotApp_866,نعم
+ScotApp_1498,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1384,اللغة
+ScotApp_1743,"أدخل هوية المستخدم الخاصة بك والمس ""إدخال""، أو ضع إصبعك على قارئ بصمة الإصبع لتسجيل الدخول."
+ScotApp_1319,كوبون
+ScotApp_1178,تمت إزالة تجاوز الحد
+ScotApp_1001,لم يتم العثور على السلعة
+ScotApp_1034,1034 غير مستخدمة
+ScotApp_1485,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1068,1068 غير مستخدمة
+ScotApp_1694,"تم استخدام الاستبدال لأن %sالمس ""حالة الورق/النقود"" لإعادة التعبئة أو أزل الانسداد."
+ScotApp_1165,اسحب الطابعة برفق إلى الأمام حتى تثبت في مكانها. \n\nأغلق وأقفل باب خزانة الطابعة.
+ScotApp_1021,الانتباه
+ScotApp_1230,قسم الرفض
+ScotApp_1484,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_912,موافقة & تحديث الوزن
+ScotApp_723,723 غير مستخدمة
+ScotApp_623,"أدخل التحمل باستخدام لوحة المفاتيح و المس ""إدخال""."
+ScotApp_523,تم رفض البطاقة
+ScotApp_423,أدخل البطاقة. نرجو البحث في السلة عن سلع إضافية.
+ScotApp_323,    الكمية %d بسعر %d/%s
+ScotApp_223,صندوق الالتقاط في قارئ البطاقات ممتلئ
+ScotApp_123,123 غير مستخدمة
+ScotApp_1020,امسح السلع
+ScotApp_923,923 غير مستخدمة
+ScotApp_823,الموافقة على الملغاة
+ScotApp_1483,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1237,القسيمة
+ScotApp_1680,خطأ لا يمكن إصلاحه.  نرجو إغلاق الممر.  اتصل بـGunnebo وقدم لهم معلومات الخطأ المبينة أدناه.\n\n خطأ في SafePay: %s
+ScotApp_702,702 غير مستخدمة
+ScotApp_602,تعديل/إضافة \nقيد وزن
+ScotApp_502,نرجو وضع السلعة الملغاة جانبا.
+ScotApp_402,غير موجود
+ScotApp_302,نرجو إدخال رقمك السري على جهاز الدفع.
+ScotApp_202,يجري اختبار تسجيل الخروج...
+ScotApp_102,سلعة مستردة
+ScotApp_1722,الممر في وضعية التدريب، هل تريد متابعة العملية؟
+ScotApp_902,تمت إزالة السلعة من منطقة التعبئة في الأكياس.  أعد السلعة.
+ScotApp_802,"\nهل تريد شراء صندوق كامل \n من %s؟ \n\n اختر ""نعم"" أو ""لا"".  "
+ScotApp_568,مسح
+ScotApp_468,      مستردة
+ScotApp_368,انسداد في مكان تحميل ورق الطابعة
+ScotApp_268,خطأ في قراءة البطاقة
+ScotApp_1027,"المس ""نعم"" لإلغاء العملية أو المس ""لا"" لاستئناف العملية."
+ScotApp_1354,خذ بطاقة الهدية
+ScotApp_968,968 غير مستخدمة
+ScotApp_868,إدخال رقم التخويل:
+ScotApp_1433,الميزان في الكيس.
+ScotApp_1687,"استخدم شاشة ""حالة النقد/الورق"" لتحميل النقد."
+ScotApp_1150,باب خزانة الطابعة مفتوح.
+ScotApp_1699,"تم استخدام الاستبدال لأن %sأعد التعبئة أو أزل الانسداد، ثم المس ""تم تصحيح الحالة""."
+ScotApp_1259,محدد من قبل المستخدم 1
+ScotApp_1223,نقص في النقد / الورق
+ScotApp_1379,سعر الوحدة
+ScotApp_1432,<<<مستوى الأوراق النقدية منخفض. نرجو إعادة التعبئة.>>>
+ScotApp_1686,خطأ لا يمكن إصلاحه.  نرجو إغلاق الممر.  اتصل بـGunnebo وقدم لهم معلومات الخطأ المبينة أدناه.\n\n خطأ في SafePay: %s
+ScotApp_1157,قد يكون باب صراف الأوراق مفتوحا. \n\nلن يعمل صراف الأوراق وباب الدخول مفتوح. \n\nأغلق وأقفل باب الصراف أو باب الخزنة.
+ScotApp_1013,سلع متراكمة
+ScotApp_1184,بيانات أخرى
+ScotApp_1848,"السلعة أضيفت. امسح السلعة التالية أو المس ""إدخال الرمز""."
+ScotApp_1169,افتح باب خزانة الطابعة. \n* اسحب الطابعة برفق إلى الأمام حتى تثبت في مكانها. \n\nأغلق وأقفل باب خزانة الطابعة.
+ScotApp_1662,وصولا أخرى
+ScotApp_1311,* أزل متلقي الأوراق النقدية. \n* افتح وحدة المتلقي. \n* تأكد من عدم وجود أوراق عالقة ثم استبدل الوحدة. \n* تأكد من تشغيل محرك متلقي الأوراق النقدية ومن أن مصباح المؤشر أخضر.
+ScotApp_1025,أزل جميع السلع عن الحزام وأغلق الغطاء الأمني.
+ScotApp_1378,الوزن
+ScotApp_22,لا\nيوجد\nباقي\n+ 0          \n(%s)
+ScotApp_1234,الكمية خاضعة لقيود
+ScotApp_1685,خطأ في وحدة النقود المعدنية العامة
+ScotApp_1156,تأكد من أن مفتاح تشغيل صراف النقود المعدنية في وضعية التشغيل.
+ScotApp_1012,يتم نقل سلعتك.
+ScotApp_1365,MSR
+ScotApp_1235,البطاقة الأمنية على السلعة نشطة
+ScotApp_1221,AUDACTION
+ScotApp_1143,مستوى النقود المعدنية منخفض أو حاوية القطع النقدية غير موجودة.
+ScotApp_434,نوع الفائدة
+ScotApp_1625,"أدخل النقود المعدنية للتعبئة أو المس ""أزل النقود"" للتفريغ."
+ScotApp_1430,سلعة ملغاة
+ScotApp_1684,خطأ في جهاز إعادة تدوير النقود المعدنية
+ScotApp_1155,الآلة مفصولة.
+ScotApp_834,الرسوم && اتفاقيات العميل:
+ScotApp_799,افحص السلة
+ScotApp_699,سلعة غير قابلة للبيع
+ScotApp_599,إعادة ضبط آلة الأشكال...
+ScotApp_499,499 غير مستخدمة
+ScotApp_399,399 غير مستخدمة
+ScotApp_299,299 غير مستخدمة
+ScotApp_199,تم تحميل مخارج المستخدم.
+ScotApp_743,743 غير مستخدمة
+ScotApp_643,تم حذف سلعة. امسح السلعة التالية.
+ScotApp_543,لا يمكن أن تكون هوية المشغل أكثر من %d خانات.
+ScotApp_343,343 غير مستخدمة
+ScotApp_243,بطاقة غير صحيحة في قارئ البطاقات
+ScotApp_999,تم تجاوز الحد
+ScotApp_899,الموافقة على الملغاة لـ
+ScotApp_1220,EFT
+ScotApp_1142,خطأ في صراف النقود المعدنية.
+ScotApp_943,أستخدم كيسي الخاص
+ScotApp_843,843 غير مستخدمة
+ScotApp_1437,"""تم تجاوز حد ""إزالة السلع"""
+ScotApp_1601,          صندوق صراف البطاقات منخفض
+ScotApp_722,722 غير مستخدمة
+ScotApp_622,اطبع التحمل لكود المنتج العالمي
+ScotApp_522,الرقم السري غير صحيح
+ScotApp_422,422 غير مستخدمة
+ScotApp_322,322 غير مستخدمة
+ScotApp_222,"تتابع طلبات الطباعة: افحص الطابعة أو شاشة العمليات للتأكد من عدم وجود أخطاء، لم المس ""حللت المشكلة""."
+ScotApp_122,122 غير مستخدمة
+ScotApp_1010,1010 غير مستخدمة
+ScotApp_922,922 غير مستخدمة
+ScotApp_822,الموافقة على السلعة الملغاة
+ScotApp_1715,الموافقة على رفض التعليق
+ScotApp_1227,سلعة خاضعة لقيود
+ScotApp_701,701 غير مستخدمة
+ScotApp_601,601 غير مستخدمة
+ScotApp_401,أدخل البطاقة. نرجو البحث في السلة عن سلع إضافية.
+ScotApp_301,أدخل قيمة القسيمة
+ScotApp_201,يجري اختبار تسجيل الدخول...
+ScotApp_101,السعر غير معروف
+ScotApp_1633,خطأ في جهاز إعادة تدوير الأوراق النقدية
+ScotApp_901,الموافقة على تخطي التعبئة في أكياس.
+ScotApp_801,صندوق شراء
+ScotApp_1824, لم يتم توليد الوصل الإلكتروني.
+ScotApp_1328,الوزن مضاعف
+ScotApp_1299,ابدأ العملية وأدخل وضعية المساعدة
+ScotApp_1226,سلعة مستردة
+ScotApp_1140,انسداد في صراف الأوراق النقدية.
+ScotApp_1579,متلقي الأوراق النقدية
+ScotApp_1426,%s\nهل%d صحيح؟
+ScotApp_1632,انزع غطاء الأوراق النقدية. افحص سلك توصيل جهاز توثيق الأوراق النقدية وجرب مجددا.  إذا حدث الخطأ مجددا، اطلب الصيانة.\n\nخطأ في SafePay: %s
+ScotApp_1141,فشل في صرف %s. تحذير: قد تكون هناك أوراق عالقة في أعلى صراف الأوراق النقدية.
+ScotApp_1791,نقد فقط
+ScotApp_1357,خذ بطاقة الهدية
+ScotApp_763,763 غير مستخدمة
+ScotApp_714,714 غير مستخدمة
+ScotApp_614,فرض التعبئة في أكياس
+ScotApp_514,514 غير مستخدمة
+ScotApp_314,مشكلة في الصندوق
+ScotApp_214,فحص الخصم
+ScotApp_114,تعذر إلغاء السلعة
+ScotApp_1369,متفرقة
+ScotApp_78,صراف آلي (لا يوجد نقود)
+ScotApp_1630,خطأ في جهاز إعادة تدوير الأوراق النقدية
+ScotApp_58,OK
+ScotApp_48,48 غير مستخدمة
+ScotApp_914,"اذهب إلى الممر وأزل السلع الإضافية والمس ""مسح أمني""."
+ScotApp_1422,الماسحة الضوئية المحمولة
+ScotApp_18,المجموع
+ScotApp_1147,خطأ في ميزان منطقة التعبئة في الأكياس
+ScotApp_1578,مجموع القيمة:
+ScotApp_1022,لا أريد \nتعبئة هذه السلعة في كيس
+ScotApp_98,98 غير مستخدمة
+ScotApp_88,88 غير مستخدمة
+ScotApp_1003,خاضع لقيود زمنية
+ScotApp_1434,مقيدة بالعمر
+ScotApp_1356,جمع
+ScotApp_1212,غير ذلك
+ScotApp_1455,رقم غير صحيح
+ScotApp_1713,المس الموافقة على رفض التعليق
+ScotApp_1565,أدخل قيمة التحميل لـ%s
+ScotApp_194,تحميل مدير الأجهزة جار...
+ScotApp_1275,محدد من قبل المستخدم17
+ScotApp_1146,المتلقي لا يستجيب.
+ScotApp_1303,تم قبول بطاقة الولاء: #%s
+ScotApp_70,70 غير مستخدمة
+ScotApp_60,طلب المساعدة
+ScotApp_50,50 غير مستخدمة
+ScotApp_40,تفويض المتجر
+ScotApp_30,سلع ملغاة
+ScotApp_20,20 غير مستخدمة
+ScotApp_10,10 غير مستخدمة
+ScotApp_1779,لا يمكن إلغاء السلعة إلا بعد إلغاء قسيمتها. ألغ قسيمة السلعة أولا.
+ScotApp_1211,التلقائي
+ScotApp_90,90 غير مستخدمة
+ScotApp_80,80 غير مستخدمة
+ScotApp_663,فشل في إدخال الرقم السري
+ScotApp_463,يجري إنهاء الموافقة عن بعد...
+ScotApp_363,\nاستخدم لوحة المفاتيح لإدخال كلمة مرور المشغل.
+ScotApp_163,163 غير مستخدمة
+ScotApp_1420,هل تريد إلغاء السلعة \n%s؟
+ScotApp_1145,خطأ في متلقي النقود المعدنية
+ScotApp_963,إلغاء الطلب
+ScotApp_863,إدخال قيمة القسيمة
+ScotApp_1816,القطع النقدية عالقة أو الباب مفتوح.
+ScotApp_1637,مشكلة في السلك
+ScotApp_742,742 غير مستخدمة
+ScotApp_642,تمت إضافة سلعة. امسح السلعة التالية.
+ScotApp_542,تعذر إنشاء باركود المشغل.
+ScotApp_342,اطبع الوصف
+ScotApp_242,انسداد في قارئ البطاقات
+ScotApp_142,تأكيد المبلغ
+ScotApp_1210,المشهد الأخير
+ScotApp_942,942 غير مستخدمة
+ScotApp_842,842 غير مستخدمة
+ScotApp_1044,عطاء تلقى المساعدة من المشغل
+ScotApp_1427,تغيير كمية السلعة: \n%s
+ScotApp_721,721 غير مستخدمة
+ScotApp_621,تلقائي
+ScotApp_1341,التحكم بارتفاع الصوت
+ScotApp_421,"امسح سلعك، أو المس ""بداية"" لتبدأ."
+ScotApp_321,تأكيد العملية
+ScotApp_221,أقفل وأغلق باب خزانة الطابعة.
+ScotApp_121,السلع من نقطة البيع هذه.
+ScotApp_1636,خطأ في جهاز إعادة تدوير النقود المعدنية
+ScotApp_921,وزن متوقع على الميزان الأمني.
+ScotApp_821,821 غير مستخدمة
+ScotApp_600,الصيانة الأمنية
+ScotApp_500,500 غير مستخدمة
+ScotApp_400,400 غير مستخدمة
+ScotApp_1368,Sigcap
+ScotApp_200,يجري اختبار وسيط العملية...
+ScotApp_100,الكمية المطلوبة
+ScotApp_1076,الانتباه
+ScotApp_1623,انقل الأوراق النقدية إلى العلبة لاستلامها
+ScotApp_1340,إيقاف تشغيل النظام بالكامل
+ScotApp_1108,%s\t%s\t%s بسعر  %s %s/%s\t%s
+ScotApp_1814,علبة الملقّم خارج مكانها أو غير مثبتة.	
+ScotApp_1758,خطأ في صندوق القسائم
+ScotApp_1635,افحص سلك توصيل جهاز إعادة تدوير الأوراق النقدية وجرب مجددا.   إذا حدث الخطأ مجددا، اطلب الصيانة.\n\nخطأ في SafePay: %s
+ScotApp_1557,استلام الصراف
+ScotApp_734,734 غير مستخدمة
+ScotApp_634,634 غير مستخدمة
+ScotApp_534,سلع محدودة بقيود زمنية
+ScotApp_1413,نرجو إتمام عمليتك في الدقائق الـ# التالية.  قد يحدث انقطاع في الطاقة قريبا.
+ScotApp_334,خطأ عدم وجود بطاقة في قارئ البطاقات
+ScotApp_234,انزع علبة الأوراق النقدية.\n\nانزع الأوراق النقدية من العلبة.\n\nأعد إدخال العلبة حتى تثبت في مكانها. \n\nاسحب مقبض العلبة لضمان تثبيت العلبة في مكانها.
+ScotApp_1569,القيمة
+ScotApp_1801,وضعية التشغيل
+ScotApp_934,زيادة في الوزن
+ScotApp_1622,علبة
+ScotApp_768,تعليق التأكيد
+ScotApp_668,تمت طباعة التوقيع بنجاح.
+ScotApp_1347,محاولة إعادة الاتصال
+ScotApp_1778,مسح الأمان
+ScotApp_168,امسح قسائمك وضعها جانبا حتى نهاية عملية الشراء.
+ScotApp_1203,وثيقة تم إقرارها
+ScotApp_1634,مشكلة في السلك
+ScotApp_1556,استلام المتلقي
+ScotApp_1412,وظائف المساعد
+ScotApp_1783,غطاء الأمان مفتوح
+ScotApp_1232,توقيع مصدق
+ScotApp_1568,المجموع الكلي:        %s
+ScotApp_1800,اختر وضعية التشغيل 
+ScotApp_1495,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1621,افتح علبة الأوراق النقدية
+ScotApp_1346,الممر خارج الاتصال ويحاول النظام إعادة الاتصال.
+ScotApp_72,72 غير مستخدمة
+ScotApp_62,نعم
+ScotApp_52,إلغاء القسائم
+ScotApp_42,سلع ملغاة
+ScotApp_32,هل تريد المتابعة
+ScotApp_12,    الكمية %d بسعر %s لكل وحدة
+ScotApp_1411,تغير في الكمية
+ScotApp_92,أهلا بكم!
+ScotApp_82,82 غير مستخدمة
+ScotApp_1807,_ _ _
+ScotApp_1089,فترة انتهاء التقرير
+ScotApp_1620,افتح غطاء الأوراق النقدية
+ScotApp_1345,يجري إنهاء المدير الأمني...
+ScotApp_1819,أخطاء في متلقي جهاز تدوير القطع النقدية
+ScotApp_762,762 غير مستخدمة
+ScotApp_662,%
+ScotApp_1554,المتلقي	
+ScotApp_462,تم تحميل الموافقة عن بعد.
+ScotApp_362,أدخل كلمة المرور
+ScotApp_262,262 غير مستخدمة
+ScotApp_162,امسح قسائمك وسلعك.
+ScotApp_1410,تغير في السعر
+ScotApp_962,"خذ السلعة الملغاة في الممر والمس ""الموافقة على الملغاة""."
+ScotApp_862,إدخال قيمة القسيمة:
+ScotApp_1806,"\n* المس ""بطاقات فقط"" لإنهاء العملية وأعط الباقي إلى العميل يدويا."
+ScotApp_1088,1088 غير مستخدمة
+ScotApp_1627,خطأ في جهاز إعادة تدوير النقود الورقية/المعدنية
+ScotApp_741,741 غير مستخدمة
+ScotApp_641, القيود     الموافقة    السجل    نوع التحمل     الموافقة    التاريخ
+ScotApp_541,طباعة باركود مسح المشغل
+ScotApp_441,تأكيد المبلغ
+ScotApp_341,341 غير مستخدمة
+ScotApp_241,خطأ غير متوقع في مدير الأجهزة
+ScotApp_141,اختر نوع البطاقة
+ScotApp_941,سلعة ملغاة
+ScotApp_841,إدخال السلعة
+ScotApp_1873,1873unused
+ScotApp_25,تاريخ الميلاد:
+ScotApp_720,720 غير مستخدمة
+ScotApp_520,رمز السلعة غير معروف
+ScotApp_420,420 غير مستخدمة
+ScotApp_320,العودة
+ScotApp_220,* افتح باب خزانة الطابعة.\n* ارفع غطاء الطابعة للتأكد من عدم وجود ورق عالق.\n* حمل لفافة ورق جديدة في الطابعة.\n* أقفل وأغلق باب خزانة الطابعة.
+ScotApp_120,تم إلغاء العملية إزالة
+ScotApp_1626,أدخل النقود للتعبئة أو اختر وظيفة أخرى.
+ScotApp_1423,تحاول الماسحة الضوئية المحمولة الاتصال.
+ScotApp_920,موافقة/ بدون تحديث.
+ScotApp_820,الموافقة على الملغاة
+ScotApp_1757,"لإضافة حركة، المس مفتاح ""الحركات"" في أسفل الشاشة ثم اطبع الحرف."
+ScotApp_1872,1872unused
+ScotApp_754,ملخص الأيام السبعة الماضية
+ScotApp_554,لا تمسح بطاقات الدفع في الوقت الحالي.
+ScotApp_1613,رفض الصندوق
+ScotApp_354,وظائف النظام
+ScotApp_254,صراف النقود المعدنية غير قابل للتشغيل.
+ScotApp_154,التحميل جار...
+ScotApp_1769,إدخال الرمز
+ScotApp_1240,نقد
+ScotApp_954,فشل في فتح الميزان الذكي
+ScotApp_854,خمس سلع
+ScotApp_1547,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1403,توقف وأعد تشغيل برنامج NCR SelfServ Checkout. إذا ظل الخطأ قائما اتصل بمكتب المساعدة.
+ScotApp_545,سلعة خاضعة لقيود
+ScotApp_1559,خروج    
+ScotApp_1871,%s %s الملاحظ
+ScotApp_1612,إدارة البطاقات
+ScotApp_1550,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_845,مسح السلع الإضافية:
+ScotApp_1564,أدخل تعداد التحميل لـ%s
+ScotApp_1768,وحدة وزن غير مطابقة.
+ScotApp_1272,محدد من قبل المستخدم14
+ScotApp_1546,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_74,الموافقة على الملغاة
+ScotApp_64,إلغاء المختارة
+ScotApp_54,إلغاء
+ScotApp_44,44 غير مستخدمة
+ScotApp_34,34 غير مستخدمة
+ScotApp_1558,الخروج والحفظ
+ScotApp_14,14 غير مستخدمة
+ScotApp_1870,%s %s المتوقع
+ScotApp_1389,خطأ في آلة التقاط التوقيع
+ScotApp_1611,          رفض أن الصندوق ممتلئ
+ScotApp_94,94 غير مستخدمة
+ScotApp_84,خيارات التحميل
+ScotApp_1289,ب - ج
+ScotApp_687,طباعة التقرير
+ScotApp_587,الإمضاء
+ScotApp_487,إلى الأسفل
+ScotApp_387,انسداد في الناقل
+ScotApp_287,الماسحة الضوئية: بطاقة غير صحيحة
+ScotApp_1545,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1336,المرفق
+ScotApp_987,تمت إزالة السلعة عن الحزام. أعد السلعة.
+ScotApp_887,تمت إزالة السلعة
+ScotApp_555,الدفع بطريقة أخرى
+ScotApp_1610,          رفض أن الصندوق شبه ممتلئ (%s)  
+ScotApp_1041,الموافقة على التوقيع
+ScotApp_1691,إدارة النقود
+ScotApp_1809,أخطاء في صراف جهاز تدوير القطع النقدية
+ScotApp_1288,أ
+ScotApp_761,761 غير مستخدمة
+ScotApp_1193,تم التعرف على الهوية
+ScotApp_561,ضع القسيمة جانبا
+ScotApp_461,يجري تحميل الموافقة عن بعد...
+ScotApp_361,الممر مغلق
+ScotApp_261,261 غير مستخدمة
+ScotApp_961,"خطأ في قاعدة بيانات اكتشاف الوزن: افحص مستعرض الأحداث للتأكد من عدم وجود أخطاء، ثم المس ""حللت المشكلة""."
+ScotApp_861,861 غير مستخدمة
+ScotApp_1876,%s %s الملاحظ
+ScotApp_740,740 غير مستخدمة
+ScotApp_640,قيود أوزان WLDB الحالية
+ScotApp_540,540 غير مستخدمة
+ScotApp_340,اختر السلعة من القائمة. استخدم أزرار الأسهم للتنقل إلى الأعلى والأسفل.
+ScotApp_240,عطل عام في مدير الأجهزة
+ScotApp_140,شكرا لك
+ScotApp_1105,0.005 kg الأقصى 13.995 kg الأدنى 0.1 kg أقصى عدد 2799
+ScotApp_1192,رسوم التركيب
+ScotApp_940,ملغاة
+ScotApp_840,إدخال السلعة:
+ScotApp_1863,"المِس ""قبول"" أو ""إلغاء السلعة"""
+ScotApp_1463,تغير في القيمة
+ScotApp_1875,%s %s المتوقع
+ScotApp_774,النقاط المكتسبة:
+ScotApp_674,"""""سبب رفض العرض: "" """
+ScotApp_780,780 غير مستخدمة
+ScotApp_474,474 غير مستخدمة
+ScotApp_374,خطأ في علامات الطابعة
+ScotApp_174,تعذر العثور على السلعة الممسوحة. لم يتم شراؤها بعد، أو تم إلغاؤها.
+ScotApp_1029,أدخل القسيمة
+ScotApp_974,974 غير مستخدمة
+ScotApp_1679,خطأ في مكتبة الأوراق النقدية
+ScotApp_1747,خطأ في قارئ بصمة الإصبع
+ScotApp_1862,تحقق من السلعة على ميزان الماسحة
+ScotApp_1603,          صندوق صراف البطاقات عادي
+ScotApp_1419,متعدد الأغلفة
+ScotApp_1759,صندوق القسائم ممتلئ
+ScotApp_649,تم ترسيخ السعر
+ScotApp_1039,السلع السابقة تحمل بطاقات أمنية.
+ScotApp_849,الكمية المطلوبة
+ScotApp_765,765 غير مستخدمة
+ScotApp_565,تسجيل الدخول في المتجر
+ScotApp_1549,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1861,قائمة الاختيار
+ScotApp_1731,يجري تحميل صور قائمة الاختيار...
+ScotApp_76,76 غير مستخدمة
+ScotApp_66,66 غير مستخدمة
+ScotApp_56,إلغاء الدفع
+ScotApp_46,تعليمات
+ScotApp_36,تم رد:
+ScotApp_26,26 غير مستخدمة
+ScotApp_16,سيتم تقاضي %s من بطاقتك.
+ScotApp_719,719 غير مستخدمة
+ScotApp_619,اختر<اطبع التحمل> أو <تلقائي> لتعديل التحمل الحالي.
+ScotApp_519,القسيمة مرتفعة أكثر مما ينبغي
+ScotApp_419,419 غير مستخدمة
+ScotApp_319,ادفع بالبطاقة
+ScotApp_219,219 غير مستخدمة
+ScotApp_119,إلغاء جميع السلع
+ScotApp_96,96 غير مستخدمة
+ScotApp_86,86 غير مستخدمة
+ScotApp_1755,اختر من القائمة
+ScotApp_1038,تأكيد التوقيع
+ScotApp_919,"أكد وزن السلعة والمس ""موافقة & تحديث الوزن"" أو المس ""موافقة/بدون تحديث""."
+ScotApp_1489,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1745,جهاز بصمة الإصبع مفصول. \n\nنرجو المحاولة مجددا.
+ScotApp_1860,Please select from picklist assisted items or look-up item alphabetically.
+ScotApp_1268,محدد من قبل المستخدم10
+ScotApp_1008,1008 غير مستخدمة
+ScotApp_786,معلق في الممر
+ScotApp_686,الأمس
+ScotApp_586,القسائم: %0.0ld/$%0.2lf
+ScotApp_486,إلى الأعلى
+ScotApp_386,تمت إزالة العلبة
+ScotApp_286,الماسحة الضوئية: سابقة البطاقة2 غير صحيحة
+ScotApp_186,186 غير مستخدمة
+ScotApp_1488,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_986,986 غير مستخدمة
+ScotApp_886,تمت إزالة السلعة من منطقة التعبئة في الأكياس.\nأعد السلعة.
+ScotApp_1393,توقف وأعد تشغيل برنامج NCR SelfServ Checkout. إذا استمر الخطأ، اتصل بمكتب المساعدة.
+ScotApp_1867,مرأى الكاميرا محجوب
+ScotApp_68,68 غير مستخدمة
+ScotApp_38,38 غير مستخدمة
+ScotApp_28,إلغاء الشراء
+ScotApp_1024,1024 غير مستخدمة
+ScotApp_760,مرر بطاقتك عبر جانب هذه الشاشة.
+ScotApp_660,جميع مستويات العملة عادية
+ScotApp_460,بهذا تتم عملية الشراء.
+ScotApp_360,إغلاق الممر
+ScotApp_260,260 غير مستخدمة
+ScotApp_1392,خطأ في Tri-Light
+ScotApp_960,"خلل في ميزان الأكياس: افحص ميزان الأكياس أو مستعرض الأحداث للتأكد من عدم وجود أخطاء، ثم المس ""حللت المشكلة""."
+ScotApp_860,القياس المطلوب:
+ScotApp_1866,أكثر رواجاً
+ScotApp_1459,تقرير إدارة النقود
+ScotApp_1239,لا يوجد
+ScotApp_1301,تعديل قائمة الاختيار
+ScotApp_1749,تجري معالجة بصمة الإصبع
+ScotApp_1017,أزل السلع المتراكمة عند الحزام.
+ScotApp_1771,حد قيمة القسيمة
+ScotApp_739,739 غير مستخدمة
+ScotApp_639,الوزن متوقع    مقارنة الأوزان
+ScotApp_539,539 غير مستخدمة
+ScotApp_439,439 غير مستخدمة
+ScotApp_339,339 غير مستخدمة
+ScotApp_239,حالة مدير الأجهزة غير متوقعة
+ScotApp_1092,إعداد تقرير عن المحتوى
+ScotApp_1851,Do Not Approve  
+ScotApp_1238,دفع بطريقة أخرى
+ScotApp_939,انتهاء مدة الموقت
+ScotApp_839,إلغاء الإجراء
+ScotApp_1333,محو
+ScotApp_24,ملغاة
+ScotApp_1016,سلع متراكمة عند الحزام
+ScotApp_1615,المس زر استلام الصراف للتفريغ
+ScotApp_1723,تدريب Trx
+ScotApp_1028,تم تجاوز حد القسيمة
+ScotApp_1435,خطأ في صراف النقود المعدنية/الورقية
+ScotApp_1698,"المس ""تم تصحيح الحالة""."
+ScotApp_1688,خطأ في العلبة
+ScotApp_454,454 غير مستخدمة
+ScotApp_1593,أزل قطع النقود المعدنية
+ScotApp_1642,خطأ في جهاز إعادة تدوير الأوراق النقدية
+ScotApp_1015,سلع متراكمة
+ScotApp_785,785 غير مستخدمة
+ScotApp_685,في الساعة
+ScotApp_585,585 غير مستخدمة
+ScotApp_536,متلقي النقود المعدنية
+ScotApp_385,385 غير مستخدمة
+ScotApp_285,الماسحة الضوئية: لاحقة بطاقة غير صحيحة
+ScotApp_185,قارن توقيع العميل بالتوقيع على البطاقة.
+ScotApp_1224,السعر مطلوب
+ScotApp_985,ضع السلعة على الحزام.
+ScotApp_885,التنبيه على التعبئة في أكياس
+ScotApp_575,إنهاء العرض النقدي.  الرصيد المستحق.
+ScotApp_475,تعليق العملية
+ScotApp_375,نفد وقت الطباعة
+ScotApp_1002,لا يوجد خصم
+ScotApp_1888,"راقب معاملة الزبون أمنيّاً والمِس ""وافق أمنيّاً""."
+ScotApp_910,910 غير مستخدمة
+ScotApp_1592,أزل النقود المعدنية من الصندوق المزدحم. قم بتمييل الصندوق. أدر البرغي إلى الأيمن حتى تتمكن من إزالة النقود المعدنية. لا تستخدم القوة.
+ScotApp_875,هوية المحاسب الرئيسي لإلغاء عملية الشراء
+ScotApp_1014,أزل السلع المتراكمة عند الحزام.
+ScotApp_1572,هل أنت متأكد من أنك تريد تجاهل التغيرات في شاشة إدارة النقود المعدنية؟
+ScotApp_1790,بطاقات ائتمان/ سحب فقط
+ScotApp_1344,تم تحميل المدير الأمني.
+ScotApp_798,798 غير مستخدمة
+ScotApp_698,698 غير مستخدمة
+ScotApp_598,فشل في تخزين شكل %d!
+ScotApp_498,المبلغ المدفوع:
+ScotApp_398,تم إدخال العلبة
+ScotApp_298,298 غير مستخدمة
+ScotApp_198,تحميل مخارج المستخدم جار...
+ScotApp_998,الكمية
+ScotApp_898,يجري إنهاء WTINFO...
+ScotApp_1416,افحص تعدد الأغلفة
+ScotApp_1431,إلغاء الكل
+ScotApp_1236,تجري معالجة التقرير...
+ScotApp_1770,اختر من نتائج البحث.
+ScotApp_1000,لم يتم العثور عليه
+ScotApp_1439,"""تم تجاوز حد ""التعبئة في أكياس/صناديق"""
+ScotApp_1217,ملغاة
+ScotApp_759,مرر بطاقتك عبر آلة الدفع.
+ScotApp_659,حالة العملة المنخفضة:
+ScotApp_559,لا توجد قسائم
+ScotApp_459,سيتبقى رصيد لعملية الشراء هذه.
+ScotApp_359,وظائف النظام
+ScotApp_259,يجري إنهاء مدير الأجهزة ...
+ScotApp_1007,المساعدة مطلوبة
+ScotApp_1438,"""تم تجاوز حد ""سلعة جديدة"""
+ScotApp_959,قاعدة بيانات اكتشاف الأوزان
+ScotApp_859,لا
+ScotApp_1216,الأمان
+ScotApp_1373,خذ بطاقة الهدية
+ScotApp_1005,التوثيق البصري
+ScotApp_1655,مبيعات القسم
+ScotApp_1228,معلق
+ScotApp_1725,تعطيل الأمن
+ScotApp_1006,عرض آخر
+ScotApp_496,حد الكمية المسموح بها
+ScotApp_1018,عاما من العمر كحد أدنى.
+ScotApp_1160,"تأكد من أن السلك موصول بالجهة الخلفية من PinPad. \n\nإذا كان السلك موصولا بإحكام، المس ""حللت المشكلة"". \n\nإذا استمر الخطأ، أوقف تشغيل الجهاز وأعد تشغيله."
+ScotApp_1073,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;DATANEEDEDTYPE=%d;
+ScotApp_1424,"لتحقيق اتصال ماسحتك الضوئية المحمولة المس ""اتصال""."
+ScotApp_1202,ممر مغلق
+ScotApp_679,تقارير المساعدة
+ScotApp_1792,بطاقات فقط
+ScotApp_1214,الوصل
+ScotApp_1804,الخروج من وضعية البطاقات فقط
+ScotApp_879,879 غير مستخدمة
+ScotApp_1072,بحاجة إلى معلومات
+ScotApp_1631,خطأ في جهاز توثيق الأوراق النقدية
+ScotApp_1148,الميزان لا يستجيب.
+ScotApp_1244,مدخرات الخصم
+ScotApp_1004,تأكد من السلعة
+ScotApp_1282,بحاجة إلى سعر لـ
+ScotApp_1071,1071 غير مستخدمة
+ScotApp_1276,محدد من قبل المستخدم18
+ScotApp_1200,تنبيع على السعر
+ScotApp_1639,خطأ في جهاز إعادة تدوير النقود المعدنية
+ScotApp_1828,\n    - حجم الصوت %d%%
+ScotApp_1308,تم إدخال الرقم السري
+ScotApp_1417,"إذا كانت السلعة متعددة الأغلفة، المس ""وضعية المساعدة"" وألغها، ثم امسح باركود الغلاف المتعدد."
+ScotApp_1343,يجري تحميل المدير الأمني...
+ScotApp_779,779 غير مستخدمة
+ScotApp_1429,<<<مستوى النقود المعدنية منخفض. نرجو إعادة التعبئة.>>>
+ScotApp_579,579 غير مستخدمة
+ScotApp_479,إسقاط القسائم.
+ScotApp_379,متلقي النقود
+ScotApp_279,الاعتراف بجميع الأمنية المسجلة.
+ScotApp_179,179 غير مستخدمة
+ScotApp_1865,ابحث عن سلعة n\من دون وزن
+ScotApp_1207,توقيع موثق
+ScotApp_1638,افحص أسلاك جهاز إعادة تدوير النقود المعدنية وجرب مجددا. إذا حدث الخطأ مجددا، اطلب الصيانة.\n\nخطأ في SafePay: %s
+ScotApp_979,الحد = %d طلبات عملاء
+ScotApp_707,الأيام السبعة الماضية
+ScotApp_607,ضبط فرض التعبئة في أكياس
+ScotApp_507,توثيق السلع بصريا
+ScotApp_307,وعاء آخر
+ScotApp_207,207 غير مستخدمة
+ScotApp_107,المساعدة قادمة
+ScotApp_1219,خاضعة لقيود عمرية
+ScotApp_907,907 غير مستخدمة
+ScotApp_807,إزالة البطاقة الأمنية
+ScotApp_1077,إعادة السلع إلى الحزام
+ScotApp_1428,تغيير سعر السلعة: \n%s
+ScotApp_1695,إصلاح لاحقا
+ScotApp_1206,سلعة تمت إزالة تعطيلها
+ScotApp_1218,الجمع
+ScotApp_1782,ابدأ العملية في الصباح
+ScotApp_1273,محدد من قبل المستخدم15
+ScotApp_1624,انقل جميع الأوراق النقدية إلى العلبة
+ScotApp_793,793 غير مستخدمة
+ScotApp_1059,1059 غير مستخدمة
+ScotApp_593,يجري تحميل NCR SelfServ Checkout SigCap...
+ScotApp_493,ستتم طباعة وصلك تحت آلة الدفع.
+ScotApp_393,طابعة السجل
+ScotApp_293,اطلب المساعدة
+ScotApp_1205,تراكم في منطقة التعبئة في الأكياس
+ScotApp_993,الممر مغلق
+ScotApp_893,يجري تحميل DBM...
+ScotApp_1063,1063 غير مستخدمة
+ScotApp_1414,هذا الممر غير متاح حتى تعود الطاقة.
+ScotApp_1182,حد مبلغ القسيمة
+ScotApp_1201,عرض خاضع للمساعدة
+ScotApp_1075,الحد من/تخطي الحزام
+ScotApp_1348,الممر مغلق
+ScotApp_1671,افتح وحدة إعادة تدوير النقود الورقية وأزل النقود من العلبة. أغلق وحدة إعادة التدوير. \nاصرف النقود المعدنية من الملقم وأزلها من كأس الباقي.
+ScotApp_1204,رقم الوثيقة
+ScotApp_1284,1284 غير مستخدمة
+ScotApp_1062,1062 غير مستخدمة
+ScotApp_1233,دفع بطريقة أخرى
+ScotApp_27,27 غير مستخدمة
+ScotApp_1074,الموافقة على تخطي الحزام.
+ScotApp_1472,آلة إعادة تدوير النقود غير جاهزة
+ScotApp_1026,إلغاء العملية.
+ScotApp_1061,1061 غير مستخدمة
+ScotApp_1617,المبلغ المدخل يتجاوز السعة. أدخل تعداد الحمل لصندوق الصراف مرة أخرى. أقصى سعة هي %d.
+ScotApp_1050,1050 غير مستخدمة
+ScotApp_744,744 غير مستخدمة
+ScotApp_1591,افحص وصلة السلك بصراف النقود المعدنية
+ScotApp_1130,خطأ في متلقي الأوراق النقدية
+ScotApp_1270,محدد من قبل المستخدم12
+ScotApp_1629,مشكلة في إعدادات وحدة المعالجة المركزية أو معايير Sysdata.  نرجو طلب الصيانة. \n\nخطأ في SafePay: %s
+ScotApp_1820,"أزل السلعة من الميزان، واضغط "">0<"" على الماسحة الضوئية."
+ScotApp_882,تأكيد التعليق.
+ScotApp_1440,إدارة الأوراق
+ScotApp_1407,إعادة التحميل
+ScotApp_727,727 غير مستخدمة
+ScotApp_627,العملية #:
+ScotApp_527,527 غير مستخدمة
+ScotApp_427,الوسط منخفض
+ScotApp_327,خطأ في الأجهزة:
+ScotApp_227,تم إدخال بطاقة غير صحيحة في قارئ البطاقات
+ScotApp_127,127 غير مستخدمة
+ScotApp_665,"اختر ""إلغاء الكل"" أو ""العودة"" للمتابعة."
+ScotApp_1060,نرجو الانتظار...
+ScotApp_1616,أدخل تعداد الحمل لصندوق الصراف. أقصى مبلغ يمكنك تحميله هو %d.
+ScotApp_927,عطل في الآلة
+ScotApp_827,مرر باركود السلعة فوق الحشية وضعها في منطقة التعبئة في أكياس.
+ScotApp_1540,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_900,ضع السلعة في منطقة التعبئة في أكياس.
+ScotApp_1277,محدد من قبل المستخدم19
+ScotApp_865,تأكيد حامل البطاقة
+ScotApp_506,506 غير مستخدمة
+ScotApp_406,406 غير مستخدمة
+ScotApp_306,لا يوجد وعاء
+ScotApp_206,سيتم تحميل الخيارات.
+ScotApp_106,المساعدة مطلوبة
+ScotApp_1209,تم تجاوز حد بطاقة الهدية
+ScotApp_806,الموافقة على سلع التوثيق البصري
+ScotApp_1067,1067 غير مستخدمة
+ScotApp_1418,تم تجاوز أقصى حد مسموح من الوزن.
+ScotApp_1473,الآلة غير جاهزة. \n\nصل الطاقة وافحص سلك التوصيل أو أعد الوحدة إلى داخل الخزانة.  
+ScotApp_187,187 غير مستخدمة
+ScotApp_1716,WE:
+ScotApp_1190,القسيمة المدخلة
+ScotApp_1602,          صندوق صراف البطاقات منخفض (%s)
+ScotApp_1149,خطأ في طابعة الوصول
+ScotApp_1066,1066 غير مستخدمة
+ScotApp_1614,صندوق الصراف
+ScotApp_792,792 غير مستخدمة
+ScotApp_692,692 غير مستخدمة
+ScotApp_592,تم تحميل مشفر NCR SelfServ Checkout.
+ScotApp_492,نرجو أخذ الباقي.
+ScotApp_392,سلعة غير معروفة
+ScotApp_292,تعذر مسح القسيمة
+ScotApp_192,192 غير مستخدمة
+ScotApp_1241,إضافة
+ScotApp_1197,عملية ملغاة
+ScotApp_1548,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_992,أدخل تاريخ الميلاد
+ScotApp_892,يجري إنهاء الميزان الذكي...
+ScotApp_1053,انتظر أن يجلب المحاسب القسيمة الورقية للتوقيع عليها.
+ScotApp_1404,خادم نقطة البيع معطل أو غير متزامن، نرجو إيقاف تشغيل الجهاز باستخدام المحول.
+ScotApp_1245,فحص الخصم
+ScotApp_1262,محدد من قبل المستخدم4
+ScotApp_1471,خطأ في آلة إعادة تدوير النقود المعدنية
+ScotApp_1196,رقم رخصة السواقة
+ScotApp_1052,1052 غير مستخدمة
+ScotApp_1600,حالة صراف البطاقات:
+ScotApp_1663,الصندوق فارغ أو مزدحم
+ScotApp_1261,محدد من قبل المستخدم 3
+ScotApp_1125,"أعد تعبئة جميع قنوات النقود المعدنية في أعلى مخزن النقود المعدنية. \n\nانتقل إلى وضعية المتجر، اختر ""حالة النقد/ الورق"" والمس زر ""تمت تعبئة صراف النقود المعدنية""."
+ScotApp_1183,تنبيع على السعر
+ScotApp_1470,خطأ في آلة إعادة تدوير النقود الورقية
+ScotApp_1195,تعليق CSA
+ScotApp_1229,تم طلب المساعدة
+ScotApp_1051,الموافقة على القسيمة الورقية
+ScotApp_1607,          رفض أن الصندوق عادي (%s)
+ScotApp_1895,Genr Excp
+ScotApp_747,747 غير مستخدمة
+ScotApp_647,لا
+ScotApp_447,تم تفعيل حساب الزبون المتكرر الخاص بك.
+ScotApp_347,تم إلغاء السلعة الخاضعة للقيود - العمر غير مطابق للشروط. نرجو وضع السلعة جانبا.
+ScotApp_247,247 غير مستخدمة
+ScotApp_147,147 غير مستخدمة
+ScotApp_1260,محدد من قبل المستخدم 2
+ScotApp_1619,تعليق
+ScotApp_769,تأكيد التعليق أو إلغاؤه.
+ScotApp_947,وزن سلعة جديدة
+ScotApp_847,إنهاء المسح
+ScotApp_1477,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_726,726 غير مستخدمة
+ScotApp_626,درجة التحمل:
+ScotApp_526,\nتم إدخال رقم سري غير صحيح.\nأدخل بطاقة مختلفة\n -أو-\nادفع نقدا
+ScotApp_426,الممر##:
+ScotApp_326,لا يتوافق تاريخ الميلاد مع العمر المطلوب لشراء السلع الخاضعة لقيود.
+ScotApp_226,جهاز قارئ البطاقات غير قابل للتشغيل
+ScotApp_126,(الشهر اليوم السنة).
+ScotApp_1606,          رفض أن الصندوق عادي
+ScotApp_926,لم تتم إعادة السلع إلى منطقة التعبئة في الأكياس.
+ScotApp_826,لا أريد \nتعبئة هذه السلعة في كيس
+ScotApp_1267,محدد من قبل المستخدم9
+ScotApp_1618,علبة صراف الأوراق النقدية خارج موضعها أو غير مثبتة بإحكام. \n\n ركب أو أعد علبة الأوراق النقدية إلى مكانها حتى تثبت.
+ScotApp_1181,تم تجاوز حد القسيمة
+ScotApp_205,تم النسخ.
+ScotApp_105,سلعة غير معروفة
+ScotApp_1476,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1730,بحث
+ScotApp_1390,الآلة لا تستجيب
+ScotApp_805,الموافقة على السلع
+ScotApp_1864,توجّه إلى الممر
+ScotApp_1408,مساعدة
+ScotApp_1266,محدد من قبل المستخدم8
+ScotApp_1180,لا يوجد سعر مطابق
+ScotApp_1208,مباع في وضعية المساعدة
+ScotApp_1475,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1397,الحاضر
+ScotApp_1748,فشل في تسجيل الدخول ببصمة الإصبع
+ScotApp_718,718 غير مستخدمة
+ScotApp_618,تحمل الوزن
+ScotApp_518,أدخل النقود.
+ScotApp_1253,PIP ولاء
+ScotApp_1604,          صندوق صراف البطاقات عادي (%s)
+ScotApp_218,الطابعة فارغة تقريبا
+ScotApp_118,الموافقة مطلوبة
+ScotApp_552,لا يمكن أن تبدأ هوية المشغل وكلمة المرور بالرقم صفر.
+ScotApp_791,اختر نوع الدفع
+ScotApp_691,691 غير مستخدمة
+ScotApp_591,يجري تحميل مشفر NCR SelfServ Checkout...
+ScotApp_391,سلع بحاجة إلى سعر
+ScotApp_918,لا يوجد سجل لوزن السلعة.
+ScotApp_1187,خطأ في الآلة
+ScotApp_991,فحص العمر
+ScotApp_891,تم تحميل الميزان الذكي.
+ScotApp_1474,خطأ في الأجهزة. رمز الخطأ E%d
+ScotApp_1396,اخرج من وضعية الموظف الحاضر
+ScotApp_1252,PIP إعادة خصم نقدا
+ScotApp_1732,تم تحميل صور قائمة الاختيار.
+ScotApp_1461,النقود المعدنية
+ScotApp_1166,*افتح باب خزانة الطابعة. \n* افصل الطابعة وادفعها إلى الخلف. \n* افتح غطاء الطابعة لفحص وجود أوراق عالقة. \n* أغلق غطاء الطابعة وأعد تحميل الورق. \n* اسحب الطابعة بحرص إلى الأمام حتى تثبت في مكانها.
+ScotApp_1186,نقص غير متوقع
+ScotApp_1857,  لا تضع على الحزام
+ScotApp_1829,الموافقة
+ScotApp_1670,خطأ في جهاز إعادة تدوير النقود الورقية/المعدنية
+ScotApp_1198,تم إدخال رقم الحساب
+ScotApp_1869,اليد ظاهرة
+ScotApp_1251,PIP خصم
+ScotApp_1855,Optional
+ScotApp_767,المستوى الإعلامي عادي
+ScotApp_667,تم مسح البطاقة. امسح قسائمك وسلعك.
+ScotApp_567,إدخال
+ScotApp_467,467 غير مستخدمة
+ScotApp_367,367 غير مستخدمة
+ScotApp_267,الأمان
+ScotApp_1460,الأوراق
+ScotApp_1185,تم تجاوز حد التعبئة في أكياس وصناديق
+ScotApp_1009,وضعية المتجر
+ScotApp_867,لا
+ScotApp_1856,  لا تعبئ في أكياس.
+ScotApp_1677,تأكد من إغلاق باب جهاز إعادة تدوير النقود المعدنية.
+ScotApp_746,746 غير مستخدمة
+ScotApp_646,نعم
+ScotApp_1394,خطأ في الواجهة الرقمية
+ScotApp_446,تعليق العملية
+ScotApp_346,الصراف الآلي (الباقي النقدي)
+ScotApp_246,246 غير مستخدمة
+ScotApp_146,نرجو اختيار طريقة الدفع.
+ScotApp_1501,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1609,          رفض أن الصندوق شبه ممتلئ
+ScotApp_1194,رقم التخويل
+ScotApp_946,الموافقة على التعبئة في أكياس/صناديق
+ScotApp_846,"امسح السلع أو المس ""انتهيت من المسح""."
+ScotApp_1843,حقيبة خاصة
+ScotApp_1467,"استخدم شاشة ""حالة النقد/الورق"" لتفريغ النقد."
+ScotApp_725,725 غير مستخدمة
+ScotApp_625,أدخل درجة تحمل وزن بين <%s> و<%s>.
+ScotApp_1381,تجري المعالجة...
+ScotApp_425,425 غير مستخدمة
+ScotApp_325,التاريخ المُدخل غير صحيح
+ScotApp_225,تم إدخال صندوق الالتقاط في قارئ البطاقات 
+ScotApp_1676,باب جهاز إعادة تدوير النقود المعدنية مفتوح
+ScotApp_925,925 غير مستخدمة
+ScotApp_825,عبئ السلعة في كيس
+ScotApp_1608,          رفض أن الصندوق فارغ
+ScotApp_1842,مساعدة كاملة
+ScotApp_1808,اختر السلعة على الوصل.
+ScotApp_1466,آلة إعادة تدوير النقود ممتلئة
+ScotApp_1380,السعر
+ScotApp_1854,Optional
+ScotApp_1675,خطأ في جهاز إعادة تدوير النقود المعدنية
+ScotApp_1597,بطاقة الولاء
+ScotApp_1350,تمت إضافة %s\n%s %s 
+ScotApp_738,738 غير مستخدمة
+ScotApp_638,معلومات تحمل WLDB السارية المفعول
+ScotApp_538,538 غير مستخدمة
+ScotApp_338,اطبع أول ثلاثة حروف من وصف السلعة.
+ScotApp_238,\nفشل متلقي النقود في تسجيل النقود التي تم إدخالها.\n\nافحص علبة النقود.
+ScotApp_138,خذ البطاقة
+ScotApp_1170,افتح باب خزانة الطابعة. \n* افتح غطاء الطابعة وأزل أية أوراق عالقة. \n* أغلق غطاء الطابعة وأعد تحميل الورق. \n* أغلق وأقفل باب خزانة الطابعة.
+ScotApp_1841,Please go to Lane for Approval
+ScotApp_1740,توثيق الكيس
+ScotApp_938,938 غير مستخدمة
+ScotApp_838,اتفاقية العميل
+ScotApp_1133,انسداد في جهاز تلقي الأوراق النقدية.
+ScotApp_1387,"واجه البرنامج خطأ خطيرا. \nأعد تشغيل الجهاز. \n\nلإعادة تشغيل الجهاز:\n* أدر مفتاح المشرف إلى 'S' -أو- اضغط على زر المشرف. \n* اختر إعادة تشغيل النظام بالكامل. \n*اتصل بالدعم وأبلغهم بالخطأ."
+ScotApp_1674,اضغط على زر الإخراج لإخراج النقود المعدنية العالقة.  إذا تكرر الخطأ، قد تكون هناك نقود معدنية عالقة. افتح غطاء النقود المعدنية وثبته.  أزل أية نقود معدنية عالقة.  اضغط على زر الرفض لإعادة الضبط.  أطلق غطاء النقود المعدنية وأغلقه.
+ScotApp_1650,(اليوم الشهر السنة)
+ScotApp_690,690 غير مستخدمة
+ScotApp_590,يجري إنهاء معمل الأجهزة ...
+ScotApp_490,"امسح سلعك، أو المس ""بداية"" لتبدأ."
+ScotApp_390,سلع مستردة
+ScotApp_290,290 غير مستخدمة
+ScotApp_190,تحميل وسيط العملية جار...
+ScotApp_990,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_890,يجري تحميل الميزان الذكي...
+ScotApp_1772,القسيمة
+ScotApp_1661,"تعذرت طباعة الوصل. المس ""وصولات أخرى"" للمحاولة مجددا."
+ScotApp_1132,خطأ في الاتصال.
+ScotApp_1386,خطأ خطير
+ScotApp_784,صراف الأوراق غير قابل للعمل\n* عبئ صراف الأوراق أو\n* أزل انسداد الصراف أو\n* عدل صندوق النفايات.
+ScotApp_684,اليوم
+ScotApp_584,تم رفض EBT.
+ScotApp_484,التوقيع مطلوب
+ScotApp_384,384 غير مستخدمة
+ScotApp_284,الماسحة الضوئية: تم فقد البيانات
+ScotApp_1595,اللغة المفضلة
+ScotApp_1451,هوية المحاسب
+ScotApp_984,تم تحميل حزام النقل.
+ScotApp_884,إلغاء التعليق
+ScotApp_1847,"السلعة أضيفت. امسح السلعة التالية أو المس ""إدخال الرمز""."
+ScotApp_1660,اختر خيار الطباعة
+ScotApp_1131,علبة الأوراق النقدية منزوعة أو غير مركبة بالشكل الصحيح.
+ScotApp_1385,اختر اللغة
+ScotApp_1436,"""تم تجاوز حد ""تخطي التعبئة في أكياس"""
+ScotApp_1049,1049 غير مستخدمة
+ScotApp_666,666 غير مستخدمة
+ScotApp_1594,أطفئ الجهاز بالشكل الصحيح وأعد تشغيله.
+ScotApp_466,      تم مسح سلعة غير معروفة
+ScotApp_366,انسداد في سكين الطابعة
+ScotApp_266,إنهاء الوكيل الثاني...
+ScotApp_966,966 غير مستخدمة
+ScotApp_1541,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1846,"امسح السلعة أو المس ""إدخال الرمز""."
+ScotApp_1667,أوراق نقدية عالقة
+ScotApp_1689,خطأ في جهاز إعادة تدوير الأوراق النقدية
+ScotApp_745,745 غير مستخدمة
+ScotApp_645,أعد السلعة الممسوحة إلى منطقة التعبئة في أكياس.
+ScotApp_1581,صراف النقود المعدنية
+ScotApp_445,مكافأة نقدية
+ScotApp_345,345 غير مستخدمة
+ScotApp_245,جهاز قارئ البطاقات غير قابل للتشغيل
+ScotApp_145,145 غير مستخدمة
+ScotApp_945,الحد/التعبئة في أكياس/التعبئة في صناديق
+ScotApp_713,713 غير مستخدمة
+ScotApp_613,ضع السلعة على ميزان الأكياس.
+ScotApp_513,513 غير مستخدمة
+ScotApp_313,313 غير مستخدمة
+ScotApp_213,213 غير مستخدمة
+ScotApp_113,إلغاء السلع
+ScotApp_1573,المس أزرار التحميل للتعبئة أو المس زري استلام المتلقي واستلام الصراف للتفريغ.
+ScotApp_913,سلعة غير متوقعة على الميزان الأمني.
+ScotApp_813,"اطبع # طلب الشراء / اسم الوظيفة والمس ""إدخال"""""
+ScotApp_1666,خطأ في جهاز إعادة تدوير الأوراق النقدية
+ScotApp_1137,%s علبة الأوراق غير مركبة.
+ScotApp_1580,صراف الأوراق النقدية
+ScotApp_758,758 غير مستخدمة
+ScotApp_658,العملة منخفضة
+ScotApp_558,سلعة خاضعة لقيود على الكمية
+ScotApp_1653,المبلغ يتجاوز السعة. أقصى مبلغ لازم هو %s. تم إدخال مبلغ %s أوتوماتيكيا.
+ScotApp_358,العودة إلى وضعية المساعدة
+ScotApp_258,يجري إنهاء وسيط العملية ...
+ScotApp_158,يجب موافقة المتجر على هذه السلعة. نرجو المتابعة.
+ScotApp_1844,بحث
+ScotApp_958,ميزان الأكياس
+ScotApp_858,نعم
+ScotApp_1136,صندوق الأوراق المرفوضة منزوع أو غير مثبت بإحكام.
+ScotApp_1587,هل أنت متأكد من أنك تريد تجاهل التغيرات في شاشة إدارة النقود الورقية؟
+ScotApp_1531,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1599,فشل في البحث عن المفضلة %s.
+ScotApp_1652,(السنة الشهر اليوم)
+ScotApp_1123,"*لا تتابع حتى تتم إزالة جميع الأوراق العالقة. \n* اسحب صراف الأوراق بحرص إلى خارج الخزانة.\n* أزل الأوراق العالقة في أعلى صراف الأوراق دون إعاقة الأحزمة.\n* ادفع صراف الأوراق إلى مكانه في الخزانة مجددا. \n* أقفل الباب والمس ""حللت المشكلة""."
+ScotApp_1342,اختيار المرفق
+ScotApp_1332,مسافة
+ScotApp_1586,%s              %s  %s
+ScotApp_1444,إزالة
+ScotApp_1598,تم تفعيل المفضلة.
+ScotApp_1651,(السنة الشهر اليوم)
+ScotApp_1122,قد تكون هناك أوراق عالقة في مخرج صراف الأوراق النقدية. \n\nاسحب الصراف جزئيا من الخزانة. \n\nأزل أية أوراق عالقة في المنطقة المبينة. \nادفع الصراف بحرص إلى داخل الخزانة مجددا.
+ScotApp_1331,تحول
+ScotApp_1585,الصناديق				القيمة		التغير في القيمة
+ScotApp_1118,مشكلة في صرف %s ورقة. تعذر استرجاع \n\n%s ورقة من علبة الأوراق النقدية. \n\nأزل علبة الأوراق النقدية %s وافحص حالة الأوراق.
+ScotApp_1884,تنبيه المساعدة الذكية
+ScotApp_1191,القياس مطلوب
+ScotApp_1121,قد تكون هناك أوراق نقدية عالقة في المنطقة المبينة. \n\nاسحب صراف الأوراق النقدية جزئيا من الخزانة. \n\nأزل الأوراق العالقة. \n\nادفع صراف الأوراق بحرص إلى مكانه في الخزانة.
+ScotApp_503,503 غير مستخدمة
+ScotApp_403,403 غير مستخدمة
+ScotApp_1849,
+ScotApp_1330,لم تتم تعبئة السلعة في كيس
+ScotApp_1355,رصيدك
+ScotApp_1584,الصناديق				التعداد	التغير في التعداد
+ScotApp_465,%s               %s
+ScotApp_365,انسداد في رأس الطابعة
+ScotApp_265,265 غير مستخدمة
+ScotApp_965,965 غير مستخدمة
+ScotApp_633,التوقيع:
+ScotApp_433,433 غير مستخدمة
+ScotApp_333,خطأ انسداد في غالق قارئ البطاقات 
+ScotApp_233,تأكد من أن متلقي الأوراق النقدية مركب بالشكل الصحيح.\n\nاسحب المقبض إلى الأمام لإطلاقه واسحب متلقي الأوراق النقدية إلى الأمام.\n\nادفع متلقي الأوراق النقدية إلى الخلف حتى يتوقف.
+ScotApp_133,133 غير مستخدمة
+ScotApp_1120,قد تكون هناك أوراق نقدية عالقة أمام علبة الأوراق النقدية %s أو داخلها. \n\n أزل العلبة %s وابحث عن أوراق نقدية عالقة في هذه المنطقة. \n\n أزل الأوراق العالقة إذا أمكن ثم أعد علبة الأوراق النقدية إلى مكانها.
+ScotApp_1805,الخروج من وضعية النقد فقط
+ScotApp_933,عدم تطابق في الوزن
+ScotApp_833,833 غير مستخدمة
+ScotApp_1337,الخروج من SelfServ Checkout
+ScotApp_1780,ابدأ العملية
+ScotApp_712,712 غير مستخدمة
+ScotApp_612,إضافة وزن
+ScotApp_512,التوثيق البصري
+ScotApp_312,الصندوق مسدود
+ScotApp_212,212 غير مستخدمة
+ScotApp_112,تأكيد الكمية
+ScotApp_1081,إظهار\nجميع الممرات
+ScotApp_778,778 غير مستخدمة
+ScotApp_678,678 غير مستخدمة
+ScotApp_578,إنهاء عرض البطاقة.  موعد التغيير.
+ScotApp_478,إسقاط القسائم.
+ScotApp_378,طباعة الوصل
+ScotApp_278,سجل الأمن
+ScotApp_1127,إعادة الاتصال
+ScotApp_1802,قبول البطاقات فقط
+ScotApp_978,الحد = %d
+ScotApp_878,إدخال السعر.
+ScotApp_1533,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1787,أدخل عدد الأكياس البلاستيكية التي استخدمتها أو 0 إذا لم يتم استخدام أية أكياس.
+ScotApp_1799,وضعية البطاقات فقط
+ScotApp_1309,* أدخل العلبة حتى تثبت في مكانها. \n* تأكد من عمل محرك متلقي الأوراق النقدية لمدة قصيرة.
+ScotApp_1323,الوزن المتبقي
+ScotApp_1079,ضع السلعة الممسوحة على الحزام مجددا.
+ScotApp_1382,(Std)
+ScotApp_1532,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1786,ثمن الكيس البلاستيكي
+ScotApp_1094,طباعة التواقيع
+ScotApp_1113,    %s بسعر  %s/%s\t%s
+ScotApp_1798,وضعية النقد فقط
+ScotApp_1322,خطأ في مجس القسائم\nفشل في الاتصال.
+ScotApp_1078,اختر إعدادات استثناء الوزن. (يجب على العميل أن يضع السلعة على الحزام).
+ScotApp_1334,    السلعة ليست على الحزام
+ScotApp_1785,تسجيل دخول غير صحيح. نرجو تسجيل الدخول مجددا باستخدام لوحة المفاتيح أو بصمة الإصبع.
+ScotApp_1046,نرجو أخذ %s إلى المحاسب عن نقطة البيع.
+ScotApp_1696,تم تصحيح الحالة
+ScotApp_1112,    %s بسعر  %s %s/%s\t%s
+ScotApp_1158,خطأ في آلة PinPad / EFT
+ScotApp_1065,1065 غير مستخدمة
+ScotApp_1321,أنه الدفع بكوبون.  الرصيد المستحق.
+ScotApp_764,764 غير مستخدمة
+ScotApp_1530,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1784,سلعة متعددة الأغلفة
+ScotApp_1070,1070 غير مستخدمة
+ScotApp_49,49 غير مستخدمة
+ScotApp_1111,    الكمية %s بسعر  %s/%s\t%s
+ScotApp_753,الأمس في الساعة
+ScotApp_653,"أدخل قيمة القسيمة بالسنتات والمس ""إدخال""."
+ScotApp_453,حالة متلقي البطاقات ممتلئ
+ScotApp_353,العودة
+ScotApp_253,253 غير مستخدمة
+ScotApp_153,153 غير مستخدمة
+ScotApp_1320,ابدأ الدفع بكوبون.
+ScotApp_953,"أوقف تشغيل الجهاز وأعد تشغيله:\n\n أدر قفل مفاتيح المشرف إلى 'S' -أو- اضغط على زر المشرف.\n اختر ""إيقاف تشغيل النظام بالكامل"".\n عندما تصبح الشاشة فارغة، أوقف تشغيل الجهاز من مصدر الطاقة أو سلك الطاقة.\n شغل الجهاز. إذا حدث الخطأ مجددا، اطلب الصيانة."
+ScotApp_853,أربع سلع
+ScotApp_1845,الوصل
+ScotApp_1537,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_732,732 غير مستخدمة
+ScotApp_632,632 غير مستخدمة
+ScotApp_532,سلعة خاضعة لقيود
+ScotApp_432,EBT
+ScotApp_332,الخروج من وضعية المساعدة
+ScotApp_232,* انزع متلقي النقود الورقية وعلبتها.\n* تأكد من عدم انسداد العلبة.\n* افتح المداخل في أعلى المتلقي وتأكد من عدم وجود أوراق نقدية عالقة.\n* أغلق المداخل بإحكام.\n* أعد المتلقي والعلبة إلى مكانيهما.
+ScotApp_132,132 غير مستخدمة
+ScotApp_1110,    الكمية %s بسعر  %s/لكل وحدة\t%s
+ScotApp_1242,خصم
+ScotApp_1285,مفضل
+ScotApp_932,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_832,832 غير مستخدمة
+ScotApp_1327,"المس التقرير المطلوب ثم المس ""تشغيل التقرير""."
+ScotApp_711,711 غير مستخدمة
+ScotApp_611,اختر الوظيفة المطلوبة.
+ScotApp_511,قارن توقيع العميل بالتوقيع على البطاقة.
+ScotApp_411,خذ بطاقة الولاء
+ScotApp_311,الصندوق فارغ
+ScotApp_111,إعادة ضبط الميزان
+ScotApp_1789,القسيمة
+ScotApp_1536,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_911,مسح الأمان
+ScotApp_811,امسح بطاقة الهدية. نرجو البحث في السلة عن سلع إضافية.
+ScotApp_1628,خطأ في وحدة المعالجة المركزية
+ScotApp_1523,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1349,%s\n %s\n%s %s المتوقع\n%s %s الملاحظ
+ScotApp_1892,التحليل الأمني
+ScotApp_1279,شيك
+ScotApp_1535,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1057,1057 غير مستخدمة
+ScotApp_1441,إدارة النقود المعدنية
+ScotApp_1313,* افحص الطابعة للتأكد من عدم وجود أوراق عالقة. \n* أعد تحميل الورق. \n* أطفئ الجهاز بالشكل الصحيح وأعد تشغيله.
+ScotApp_1681,خطأ في جهاز إعادة تدوير الأوراق النقدية
+ScotApp_1069,1069 غير مستخدمة
+ScotApp_1325,ضع السلعة على الميزان.
+ScotApp_1278,محدد من قبل المستخدم20
+ScotApp_1103,السابق
+ScotApp_1534,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_1056,1056 غير مستخدمة
+ScotApp_1312,* أزل علبة الأوراق النقدية. \n* افتحها وأزل الأوراق النقدية. \n* أغلقها وأعد إدخالها في جهاز التلقي. \n* تأكد من تشغيل محرك متلقي الأوراق النقدية ومن أن مصباح المؤشر أخضر.
+ScotApp_1265,محدد من قبل المستخدم7
+ScotApp_1850,Devices in error
+ScotApp_1213,مجهول
+ScotApp_1521,نرجو الرجوع إلى دليل الآلة لإصلاح الخطأ.
+ScotApp_139,خذ الوصل
+ScotApp_1043,استخدم وضعية المساعدة لقبول %s من العميل.
+ScotApp_1401,المساعدة قيد التنفيذ. \n\nنرجو الانتظار...
+UnknownItemMessage,المساعدة في الطريق.\n\nضع الصنف جانباً و تابِع.
+TimeRestrictedItemMessage,لا يمكنك شراء هذا الصنف في هذه المرّة.\n\nضع الصنف جانباً وتابِع.
+ItemQuantityExceededMessage,لقد تجاوزت الكمية المسموح بها لهذه السلعة.\n\nضع الصنف جانباً وتابِع.
+WeightMismatch,فحص وزن الغرض.\n\nيرجى الاننتظار...
+ItemQuantityExceeded,حدود الكمية تجاوزت الحد
+WaitForRemoteAssistanceTitle,الحاضر عن بعد
+ScotApp_489,شكرا لك على استخدام NCR SelfServ Checkout.
+ScotApp_273,لا تمسح في الوقت الحالي.\nضع السلعة جانبا.
+ScotApp_431,بطاقة ولاء غير صحيحة. نرجو التوثيق.
+ScotApp_410,المساعدة مطلوبة:
+ScotApp_1739,نرجو انتظار موظف حاضر. \nتعذر على النظام توثيق أكياسك. \nإذا كنت قد وضعت عن طريق الخطأ شيئا آخر في منطقة التعبئة في أكياس، نرجو إزالته.
+ScotApp_73,العودة إلى وضعية التسوق
+ScotApp_772,تم تقديم طلب لتعليق العملية الحالية. \nنرجو تأكيد هذا الطلب أو إلغاءه.
+ScotApp_530,أزل البطاقة، ثم...\nأدخل بطاقة مختلفة.\n -أو-\nادفع نقدا.\n -أو-\nاطلب المساعدة.
+ScotApp_524,تم إدخال رقم سري غير صحيح. \nأعد إدخال الرقم السري على آلة الدفع.
+ScotApp_397,استخدم وضعية المساعدة لبيع السلع الصحيحة. \nاجمع السلع الأخرى التي لا يراد بيعها.
+ScotApp_171,"""%s""\n\nهل %d صحيح؟"
+ScotApp_1374,\n---------------------------------------\n
+ScotApp_1646,تم تعليق العملية. ضع كل السلع جانبا.
+ScotApp_495,لقد تجاوزت الكمية المسموح بها لهذه السلعة.\n \nنرجو وضعها جانبا والمتابعة.
+ScotApp_529,أزل البطاقة، ثم...\nأدخل بطاقة مختلفة.\n -أو-\nادفع نقدا.\n -أو-\nاطلب المساعدة.
+ScotApp_275,لا تدخل بطاقات الدفع في الوقت الحالي.\nخذ بطاقتك.
+ScotApp_1891,تحقق النظام جارٍ. \nنرجو الانتظار...
+ScotApp_1750,نرجو الانتظار ريثما نعالج بصمة إصبعك.
+ScotApp_169,هل تريد متابعة عملية الشراء؟
+ScotApp_415,خذ بطاقة الولاء الخاصة بك. \nتم إدخال البطاقة من قبل.
+ScotApp_1793,لا تقبل هذه الآلة سوى بطاقات الائتمان أو بطاقات السحب في الوقت الحالي. \nهل ترغب في الاستمرار؟
+ScotApp_477,أسقط قسائمك.\nبعد طباعة وصلك:\n-- خذ سلعك. \n--خذ الوصل والقسائم إلى منطقة الدفع.
+ScotApp_177,تم إلغاء عملية الشراء كلها. ضع جميع السلع جانبا.
+ScotApp_656,نرجو وضع <%s> جانبا. \nسيساعدك موظف من المتجر.
+ScotApp_1709,لا تدخل الأوراق أو النقود المعدنية في الوقت الحالي. \nنرجو أخذ نقودك المردودة. \nيتم صرف الأوراق النقدية من أسفل الماسحة الضوئية.
+ScotApp_435,اختر نوع الفائدة. \nإذا كنت ترغب في استخدام قسائم الطعام، يجب استخدامها قبل الفوائد الأخرى.
+ScotApp_808,خذ السلع التي تحمل بطاقات أمنية إلى الموظف الحاضر لإزالتها.
+ScotApp_294,"لطلب المساعدة من المتجر، المس زر ""طلب المساعدة""."
+ScotApp_1287,نرجو الانتظار...\nيجري فحص وزن السلعة.
+ScotApp_525,تم إدخال رقم سري غير صحيح. \nأزل البطاقة، ثم... \nأدخل بطاقة مختلفة\n -أو-\nادفع نقدا
+ScotApp_480,"نرجو لمس ""OK"" ثم أخذ استمارة العملية والسلع إلى صندوق المحاسبة."
+ScotApp_1751,أزل كل الأوزان عن ميزان الأكياس والمس متابعة.
+ScotApp_175,"هل تريد إزالة \n""%s""\n من الوصل؟"
+ScotApp_1746,خادم بصمة الإصبع غير متاح. \nنرجو المحاولة مجددا.
+ScotApp_1839,Please wait for cashier.\nDo not scan at this time. Set item aside.
+ScotApp_501,نرجو التوقيع على الوصل وانتظار موافقة المتجر.
+ScotApp_414,خذ بطاقة الولاء الخاصة بك. \nلا يمكن تطبيق الخصم على مشترياتك الحالية. سيتم إرسالها إليك بالبريد.
+ScotApp_563,وقع خطأ عند طلب المجموع. \nسيتم الخروج من التطبيق الآن.
+ScotApp_263,لا يمكن إلغاء السلعة حتى يتم إلغاء قسيمتها.\nألغ قسيمة السلعة أولا.
+ScotApp_800,"نرجو فحص سلتك. \n\nامسح السلع الإضافية الآن أو\nالمس ""OK"" للدفع."
+ScotApp_134,التفويض قيد التنفيذ. \nالرجاء الانتظار.
+ScotApp_620,اطبع التحمل
+ScotApp_161,"%s\nاستخدم لوحة المفاتيح لإدخال الكمية والمس ""OK""."
+ScotApp_440,رصيد المكافأة النقدية الخاصة بك أقل من المطلوب. \nهل تريد تطبيق ما تبقى من قيمة المكافأة النقدية البالغ %s على هذه المشتريات؟
+ScotApp_184,%s سيتم خصمها من حسابك.
+ScotApp_274,لا تدخل النقود في الوقت الحالي.\nخذ نقودك.
+ScotApp_1744,فشلت الآلة في التعرف على بصمة إصبعك. \nنرجو المحاولة مجددا.
+ScotApp_160,تم استرداد السلعة.\nالمساعدة قادمة.\nضع السلعة جانبا وتابع عملية الشراء.
+ScotApp_1795,"أو التقيد بـ""بطاقات فقط""."
+ScotApp_159,سعر السلعة غير معروف.\nالمساعدة قادمة.\nضع السلعة جانبا وتابع عملية الشراء.
+ScotApp_458,اختر نوع الفائدة. \nلا يمكن استخدام قسائم الطعام لعملية الشراء هذه.
+ScotApp_1329,نرجو الانتظار...\nيجري فحص وزن السلعة.\nتمت تعبئة وزن مضاعف.
+ScotApp_407,خطأ في قراءة البطاقة.\n* جرب بطاقة مختلفة\n -أو-\n* اطلب المساعدة
+ScotApp_706,"رصيد قسيمة الطعام لديك أقل من مجموع ثمن هذه المشتريات. \nالمس ""OK"" لاستخدام طريقة دفع أخرى."
+ScotApp_606,حذف قيود وزن
+ScotApp_906,نرجو أخذ سلعك.
+ScotApp_705,"رصيد مكافأتك النقدية أقل من مجموع ثمن هذه المشتريات. \nالمس ""OK"" لاستخدام طريقة دفع أخرى."
+ScotApp_605,إضافة قيد وزن
+ScotApp_405,خطأ في قراءة البطاقة.\n* جرب بطاقة أخرى\n -أو-\n* ادفع نقدا\n -أو-\n* اطلب المساعدة
+ScotApp_491,نرجو أخذ بطاقتك.
+ScotApp_818,نرجو انتظار المحاسب. \nالمساعدة مطلوبة لـ:
+ScotApp_1796,"أو التقيد بـ""نقد فقط""."
+ScotApp_438,رصيد قسيمة الطعام الخاصة بك أقل من المطلوب. \nهل تريد تطبيق ما تبقى من قيمة قسيمة الطعام البالغ %s على هذه المشتريات؟
+ScotApp_1596,"هل تريد حفظ %s على أنها لغتك المفضلة على %s؟\n اختر ""نعم"" أو ""لا""."
+ScotApp_766,%s سيتم خصمها من حسابك.
+ScotApp_166,المساعدة قادمة.\nنرجو متابعة عملية الشراء.
+ScotApp_413,خذ بطاقة الولاء الخاصة بك. \nسيتم تطبيق الأسعار بعد الخضم.
+ScotApp_1797,"لم يصلح الإجراء التصحيح الخطأ. \n نرجو المحاولة مجددا أو التقيد بـ""نقد فقط""."
+ScotApp_178,انتظر موافقة المتجر.\nالموافقة مطلوبة على:
+ScotApp_790,تم رفض بطاقتك. \nنرجو اختيار طريقة دفع أخرى.
+ScotApp_1794,لا تقبل هذه الآلة سوى الدفع نقدا في الوقت الحالي. \nلا يمكن معالجة بطاقات ائتمان أو بطاقات سحب.\nهل ترغب في الاستمرار؟
+ScotApp_412,هذه السلعة ستجعل مشترياتك تتجاوز %s. نرجو الدفع الآن وشراء السلع الأخرى منفصلة.
+ScotApp_546,لا تبلغ السن المطلوبة لشراء هذه السلعة. \nنرجو وضعها جانبا ومتابعة عملية الشراء.
+ScotApp_553,تُقبل القسائم في نهاية عملية الشراء. \nنرجو وضعها جانبا والمتابعة.
+ScotApp_211,يتم تنفيذ العملية...\nنرجو الانتظار.
+ScotApp_1400,الحاضر عن بعد
+ScotApp_1754,الحروف غير مطابقة لسلعة. \nنرجو المحاولة مجددا.
+ScotApp_1859,"هل تريد شراء صندوق كامل من %s ؟  اختر ""نعم"" أو ""لا"".  "
+ScotApp_533,لا يمكنك شراء هذه السلعة حاليا. \nنرجو وضعها جانبا ومتابعة عملية الشراء.
+ScotApp_1763,%5.2f kg أقصى %5.2f kg أدنى %3.1f kg العدد الأقصى %4.0f
+ScotApp_1762,%4.2f lb أقصى %4.2f lb أدنى %3.1f lb العدد الأقصى %4.0f
+ScotApp_1764,%4.2f lb أقصى %4.2f lb أدنى %3.1f lb العدد الأقصى %4.0f
+ScotApp_1765,%5.2f kg أقصى %5.2f kg أدنى %3.1f kg العدد الأقصى %4.0f
+ScotApp_305,اختر الوعاء لـ: %s
+ScotApp_703,"استخدم حشية الرقم السري. اضغط على ""إلغاء"" على حشية الرقم السري لإلغاء الدفع."
+ScotApp_125,"أدخل تاريخ ميلاد الزبون %s  والمس ""الموافقة"""
+ScotApp_1853,"Key in customer's birth date %s and touch ""Enter"". "
+ScotApp_654,يجب أن يكون التاريخ على شكل %s. القيمة المدخلة: %s
+ScotApp_560,هذا النظام لا يقبل القسائم.
+ScotApp_1788,هل %d صحيح؟ \n\nستتم إضافة %s ثمن الأكياس إلى مجموع فاتورتك.
+ScotApp_1358,تم تطبيق مبلغ بطاقة الهدية البالغ %s على مشترياتك. \n\nرصيد بطاقة الهدية الخاصة بك هو %s.
+ScotApp_167,لا تتطابق القسيمة مع أية سلعة مشتراة.\n\nلا يمكن قبول هذه القسيمة.
+ScotApp_164,لم يتعرف النظام على رمز السلعة هذا.\n\nتأكد من إدخال الرقم الصحيح.
+ScotApp_547,رقم المشغل وكلمة المرور غير صحيحين. \n\nنرجو المحاولة مجددا.
+ScotApp_442,%s من مشترياتك يمكن دفع ثمنها بواسطة قسائم الطعام. \n\n%s
+ScotApp_443, سيتم تقاضي %s من حسابك. \n\n هل توافق على ذلك؟  
+ScotApp_700,لا يمكن بيع السلعة في هذا الممر.\nالمساعدة قادمة.\n\nضع السلعة جانبا وتابع عملية الشراء.
+ScotApp_165,لم يتعرف النظام على هذه السلعة.\nالمساعدة قادمة.\n\nضع السلعة جانبا وتابع عملية الشراء.
+ScotApp_182,المبلغ الذي أدخلته لهذه القسيمة كان مرتفعا جدا. \n\nلا يستطيع هذا النظام قبول هذه القسيمة.
+ScotApp_733,تم رفض البطاقة. \nاستخدام بطاقة أخرى أو ادفع نقدا.
+ScotApp_812,شكرا لك على استخدام NCR SelfServ Checout. \nنرجو أخذ بطاقة الهدية الخاصة بك إلى المحاسب.
+ScotApp_1826,هل ترغب في حفظ خياراتك المفضلة على بطاقة الولاء؟
+ScotApp_1852, أزل لطفاً السلعة الملغيّة من منطقة التعبئة في الأكياس..
+QRCodeErrorText,QR Code Error
+ScanQRCodeInstruction,Scan this code to complete\nyour Mobile shopping.
+ScotApp_1896,Transferring items from mobile cart.
+ScotApp_1897,يرجى الاننتظار...
+ScotApp_1898,Mobile Cart
+ScotApp_1899,Mobile Audit
+ScotApp_1900,Mobile Shopper Audit
+ScotApp_1901,"Touch ""OK"" then use Attendant Handset to complete audit."
+ScotApp_1902,Begin Mobile Transaction
+ScotApp_1903,End Mobile Transaction
+ScotApp_1904,%d Items Sold
+ScotApp_1905,Scan barcode to complete your Mobile checkout.
+ScotApp_1906,Mobile cart transfer is complete.
+ScotApp_1907,\nTouch Pay or add more items.
+MoveLeft,< Move
+MoveRight,Move >
+Accessibility,Accessibility
+SearchItemCodeWatermark,Enter Item Code
+ScanAndBagNoSearchKeyIn,Scan or look up item to start
+ScanLookUpKeyInItem,"Scan, look up, or key in item code to start."
+LookUpKeyInItem,Look up or Key in Item
+ScanOrKeyInItem,Scan or Key in Item
+RemoveItemFromProduceScale,Remove item from scale.
+RemoveItemFromProduceScaleTitle,Remove Item

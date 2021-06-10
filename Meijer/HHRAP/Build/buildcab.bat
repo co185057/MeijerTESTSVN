@@ -1,0 +1,1 @@
+c:\temp\meijer\hhrap\Source\cabwiz.exe "NCR Meijer HandHeld Rap.inf" /err "c:\temp\meijer\hhrap\gencabpatch.log" /cpu ARM

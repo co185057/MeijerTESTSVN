@@ -1,0 +1,304 @@
+<Display Version="1.0" Position="0,0,1024,768" Language="0409" SharedData="RapNet">
+  <Includes>
+    <!-- INCLUDE XML HERE -->
+    <Include File="%ConfigPath%\SharedRapFontsAndControls.xml" />
+    <Include File="%ConfigPath%\RapMsg0409.xml" />
+    <Include File="%ConfigPath%\RapMsg0809.xml" />
+    <Include File="%ConfigPath%\RapMsg080a.xml" />
+    <Include File="%ConfigPath%\RapMsg0c0c.xml" />
+    <Include File="%ConfigPath%\RapMsg0407.xml" />
+    <Include File="%ConfigPath%\RapMsg0413.xml" />
+    <Include File="%ConfigPath%\RapMsg040c.xml" />
+    <Include File="%ConfigPath%\RapMsg0410.xml" />
+    <Include File="%ConfigPath%\RapMsg0c0a.xml" />
+    <Include File="%ConfigPath%\RapMsg0c09.xml" />
+    <Include File="%ConfigPath%\RapMsg1409.xml" />
+    <Include File="%ConfigPath%\RapMsg0411.xml" />
+    <Include File="%ConfigPath%\RapMsg0412.xml" />
+    <Include File="%ConfigPath%\RapMsg0415.xml" />
+    <Include File="%ConfigPath%\RapMsg041d.xml" />
+    <Include File="%ConfigPath%\RapMsg041f.xml" />
+    <Include File="%ConfigPath%\RapMsg040b.xml" />
+    <Include File="%ConfigPath%\RapMsg0406.xml" />
+    <Include File="%ConfigPath%\RapMsg0427.xml" />
+	<Include File="%ConfigPath%\RapMsg1809.xml" />
+	<Include File="%ConfigPath%\RapMsg0452.xml" />
+  </Includes>
+  <Controls>
+    <Control Name="SignOnButton" Type="Button">
+      <Properties>
+        <Property Name="Position">636,696,179,71</Property>
+        <Property Name="Font">MainButtonFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\10x7-btn_global.png</Property>
+        <Property Name="TextFormat">$SignOnButtonText$</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="TextPosition">15,5,154,56</Property>
+        <Property Name="State">2</Property>
+        <Property Name="Z-Order">1</Property>
+      </Properties>
+    </Control>
+    <Control Name="UtilityButton" Type="Button">
+      <Properties>
+        <Property Name="Position">837,696,179,71</Property>
+        <Property Name="Font">MainButtonFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">$UtilityButtonText$</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\10x7-btn_global.png</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="TextPosition">15,5,154,56</Property>
+        <Property Name="State">2</Property>
+        <Property Name="Z-Order">1</Property>
+      </Properties>
+    </Control>
+  </Controls>
+  <Contexts>
+    <Context Name="Startup">
+      <CustomData>
+        <Data Name="LaneViewPosition">0,0,1024,696</Data>
+        <Data Name="State">Monitoring</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <Control Name="SignOnButton">
+        </Control>
+        <Control Name="UtilityButton">
+        </Control>
+        <Control Name="OperationID">
+        </Control>
+        <Control Name="DateText">
+        </Control>
+        <Control Name="TransactionCountText">
+		</Control>
+		<Control Name="TransactionCount">
+		</Control>
+      </Include>
+    </Context>
+    <Context Name="EnterID">
+      <CustomData>
+        <Data Name="State">SignOn</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <Control Name="KeyBoardP1">
+        </Control>
+        <Control Name="KeyBoardP2">
+        </Control>
+        <Control Name="SMNumericKeyBoard">
+        </Control>
+        <Control Name="KeyBoardP4">
+          <Properties>
+            <Property Name="Action">Click,ChangeContext,EnterPassword</Property>
+          </Properties>
+        </Control>
+        <Control Name="ButtonCommand0">
+          <Properties>
+            <Property Name="Action">Click,ChangeContext,Startup</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title">
+          <Properties>
+            <Property Name="TextFormat">$RAPTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Leadthru">
+          <Properties>
+            <Property Name="TextFormat">$EnterIDLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Action">ChangeText,ChangeState,KeyBoardP4,Text</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="MainBackground">
+        </Control>
+        <Control Name="OperationID">
+        </Control>
+        <Control Name="DateText">
+        </Control>
+        <Control Name="TransactionCountText">
+	    </Control>
+	    <Control Name="TransactionCount">
+	    </Control>
+      </Include>
+    </Context>
+    <Context Name="EnterPassword">
+      <CustomData>
+        <Data Name="State">SignOn</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <Control Name="KeyBoardP1">
+        </Control>
+        <Control Name="KeyBoardP2">
+        </Control>
+        <Control Name="SMNumericKeyBoard">
+        </Control>
+        <Control Name="KeyBoardP4">
+        </Control>
+        <Control Name="ButtonCommand0">
+          <Properties>
+			<Property Name="Action">Click,ChangeContext,EnterID,,True</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title">
+          <Properties>
+            <Property Name="TextFormat">$RAPTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Leadthru">
+          <Properties>
+            <Property Name="TextFormat">$EnterPasswordLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Password">True</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="MainBackground">
+        </Control>
+        <Control Name="OperationID">
+        </Control>
+        <Control Name="DateText">
+        </Control>
+        <Control Name="TransactionCountText">
+		</Control>
+		<Control Name="TransactionCount">
+		</Control>
+      </Include>
+    </Context>
+    <Context Name="EnterAlphaNumericID">
+      <CustomData>
+        <Data Name="State">SignOn</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <Control Name="AlphaNumP1">
+        </Control>
+        <Control Name="AlphaNumP2">
+        </Control>
+        <Control Name="AlphaNumP3">
+        </Control>
+        <Control Name="AlphaNumP4">
+        </Control>
+        <Control Name="AlphaNumKey3">
+          <Properties>
+            <Property Name="Action">Click,ChangeContext,EnterAlphaNumericPassword</Property>
+          </Properties>
+        </Control>
+        <Control Name="ShiftKey">
+        </Control>
+        <Control Name="SpaceKey">
+        </Control>
+        <Control Name="BackSpaceKey">
+        </Control>
+        <Control Name="ButtonCommand0">
+          <Properties>
+            <Property Name="Action">Click,ChangeContext,Startup</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title">
+          <Properties>
+            <Property Name="TextFormat">$RAPTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Leadthru">
+          <Properties>
+            <Property Name="TextFormat">$EnterIDLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Action">ChangeText,ChangeState,AlphaNumKey3,Text</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="MainBackground">
+        </Control>
+        <Control Name="OperationID">
+        </Control>
+        <Control Name="DateText">
+        </Control>
+        <Control Name="TransactionCountText">
+		</Control>
+		<Control Name="TransactionCount">
+		</Control>
+      </Include>
+    </Context>
+    <Context Name="EnterAlphaNumericPassword">
+      <CustomData>
+        <Data Name="State">SignOn</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <Control Name="AlphaNumP1">
+        </Control>
+        <Control Name="AlphaNumP2">
+        </Control>
+        <Control Name="AlphaNumP3">
+        </Control>
+        <Control Name="ShiftKey">
+        </Control>
+        <Control Name="AlphaNumP4">
+        </Control>
+        <Control Name="AlphaNumKey3">
+        </Control>
+        <Control Name="SpaceKey">
+        </Control>
+        <Control Name="BackSpaceKey">
+        </Control>
+        <Control Name="ButtonCommand0">
+          <Properties>
+            <Property Name="Action">Click,ChangeContext,EnterAlphaNumericID</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title">
+          <Properties>
+            <Property Name="TextFormat">$RAPTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Leadthru">
+          <Properties>
+            <Property Name="TextFormat">$EnterPasswordLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Password">True</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="MainBackground">
+        </Control>
+        <Control Name="OperationID">
+        </Control>
+        <Control Name="DateText">
+        </Control>
+        <Control Name="TransactionCountText">
+		</Control>
+		<Control Name="TransactionCount">
+		</Control>
+      </Include>
+    </Context>
+  </Contexts>
+</Display>

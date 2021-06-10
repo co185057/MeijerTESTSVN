@@ -1,0 +1,14 @@
+<!-- ================================================================================ -->
+<!--                                                                                  -->
+<!-- File: SecurityConfig.xml                                                         -->
+<!--                                                                                  -->
+<!-- Function: Provides the set of user-configurable parameters for the Security      -->
+<!--    Manager component of the FastLane.                                            -->
+<!--                                                                                  -->
+<!-- Notes:                                                                           -->
+<!--                                                                                  -->
+<!--    1.  All timeout values are in milliseconds, ie. 1000 = 1s                     -->
+<!--    2.  All weight values are in thousandths of a pound, ie.                     -->
+<!--        1000 = 1lb                                                                -->
+<!-- This file had been emptied to address SSCOPTL-3561, 3693, 3562, 3563             -->
+<!-- ================================================================================ -->

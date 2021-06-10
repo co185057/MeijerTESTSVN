@@ -1,0 +1,38 @@
+<Display Version="1.0">
+  <Fonts>
+     <!-- FONTS -->
+    <Font Name="CMTotalDiscountFont">
+      <Face>Courier New</Face>
+      <Size>10</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMGMTotalFont">
+      <Face>Courier New</Face>
+      <Size>10</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TotalSBVIFont">
+      <Face>Courier New</Face>
+      <Size>20</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TaxSBVIFont">
+      <Face>Courier New</Face>
+      <Size>10</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+        <Font Name="LargeReceiptFont">
+        <Face>Courier New</Face>
+        <Size>20</Size>
+        <Bold>True</Bold>
+        <Italic>False</Italic>
+	</Font>
+    <Font Name="ReceiptFont">      
+      <Size>13</Size>      
+    </Font>
+  </Fonts> 
+</Display>

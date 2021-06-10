@@ -1,0 +1,54 @@
+REGEDIT4
+
+;
+; Scot items
+;
+; Have Unicode scotapp run
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\Load Controller]
+"ScotFileType"="c:\\scot\\bin\\SCOTAppU.exe"
+
+;
+; TB Trace entries
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\SCOTTB]
+"TBTraceFileBackupName"="c:\\scot\\bin\\TBTrace.log.Bak"
+"TBTraceFileName"="c:\\scot\\bin\\TBTrace.log"
+"TBTraceOn"="Y"
+
+
+;
+; TB Configuration file entries
+;
+"BaseOptionFile"="TBBaseOpts"
+"CustomerOptionFile"="TBCustomerOpts"
+
+;
+; DirectX PSX issue for DirectX window popup
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\UIControls]
+"UseVMR9"=dword:00000000
+"CachedVideos"=dword:00000005
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\PSX]
+"RemoteSendInterval"=dword:00000032
+
+;
+; PIPESERVER
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\SCOTTB\PipeServer]
+"SocketReadPort"="5050"
+"SocketWritePort"="5051"
+"HeaderSpecVersion"="2"
+"TBWritePipe"="\\\\.\\PIPE\\MONITOR"
+"TBReadPipe"="\\\\.\\PIPE\\ORIGINATE"
+"ACKTimeout"= "3000"
+"SendAllToTB"="0"
+
+;
+; PIPESERVER- tbControls required
+;
+[HKEY_LOCAL_MACHINE\SOFTWARE\\NCR\\SCOT\\CurrentVersion\\SCOTTB\\SocketServerInfo]
+"ServerAddress"="localhost"
+"AckNoAck"="1"
+"ListenToDevices"="10,30,3A,40,4A,54,6A,67,C0"
+"TimeForPOStoProcessKey"="50"

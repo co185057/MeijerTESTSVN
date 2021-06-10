@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RapNet</name>
+    </assembly>
+    <members>
+        <member name="T:RapNet.MyApplication">
+            <summary>
+            The class that handles the creation of the application windows.
+            </summary>
+        </member>
+        <member name="M:RapNet.MyApplication.#ctor">
+            <summary>
+            The class constructor.
+            </summary>
+        </member>
+        <member name="M:RapNet.MyApplication.Finalize">
+            <summary>
+            The class destructor.
+            </summary>
+        </member>
+        <member name="M:RapNet.MyApplication.Dispose">
+            <summary>
+            Releases the resources used by the MyApplication instance.
+            </summary>
+        </member>
+        <member name="M:RapNet.MyApplication.Initialize">
+            <summary>
+            Initialize the application.
+            </summary>
+        </member>
+        <member name="M:RapNet.MyApplication.Run">
+            <summary>
+            Runs the application.
+            </summary>
+        </member>
+        <member name="M:RapNet.MyApplication.Exit">
+            <summary>
+            Exits the application.
+            </summary>
+        </member>
+        <member name="M:RapNet.MyApplication.Main(System.String[])">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="F:RapNet.MyApplication.autoEvent">
+            <summary>
+            Event handle used to signal the exit of the application.
+            </summary>
+        </member>
+        <member name="F:RapNet.MyApplication.myPsx">
+            <summary>
+            The SharedPsx instance.
+            </summary>
+        </member>
+        <member name="F:RapNet.MyApplication.remoteMessageDllModule">
+            <summary>
+            RemoteMessage DLL handle used for preloading.
+            </summary>
+        </member>
+        <member name="F:RapNet.MyApplication.scannerDllModule">
+            <summary>
+            Scanner DLL handle used for preloading.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,54 @@
+<Display Version="1.0">
+  <Colors>
+    <Color Name="Purple">
+      <Alpha>255</Alpha>
+      <Red>214</Red>
+      <Green>0</Green>
+      <Blue>115</Blue>
+    </Color>
+  </Colors>
+  <Fonts>
+    <Font Name="FastLaneAMTitleFont">
+      <Face>Lucida Sans Unicode</Face>
+      <Size>18</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="FastLaneAMEchoBoxFont">
+      <Face>Courier New</Face>
+      <Size>16</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ToggleLaneStatusFont">
+      <Face>Arial</Face>
+      <Size>8</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="FastLaneScaleFont">
+      <Face>Arial</Face>
+      <Size>24</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="PSAMButtonFont">
+      <Face>Arial</Face>
+      <Size>12</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMNormalButton">
+      <Face>Arial</Face>
+      <Size>12</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMKeyBoardFont">
+      <Face>Arial</Face>
+      <Size>11</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+  </Fonts>
+</Display>

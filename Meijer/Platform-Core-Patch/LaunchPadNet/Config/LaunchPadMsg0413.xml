@@ -1,0 +1,98 @@
+﻿<Display Version="1.0">
+  <Languages>
+    <Language Name="0413"> Dutch - Netherlands
+      <StringTable>
+        <!-- Start of Main Screen Context -->
+        <String Name="MinMaxFastLaneBtnPrimaryTxt">Verklein FastLane</String>
+        <String Name="MinMaxFastLaneBtnSecondaryTxt">Vergroot FastLane</String>
+        <String Name="MinMaxFastLaneBtnPrimaryShowConfirmation">Druk op de knop “FastLane minimaliseren” om FastLane te minimaliseren.</String>
+        <String Name="MinMaxFastLaneBtnSecondaryShowConfirmation">Druk op de knop “FastLane maximaliseren” om FastLane te maximaliseren.</String>
+        <String Name="StopStartFastLaneBtnPrimaryTxt">FastLane afsluiten</String>
+        <String Name="StopStartFastLaneBtnSecondaryTxt">FastLane starten</String>
+        <String Name="SwitchToRAPBtnPrimaryTxt">Schakel naar RAP</String>
+        <String Name="ShutdownSystemBtnPrimaryTxt">Gehele Systeem Afsluiten</String>
+        <String Name="RebootSystemBtnPrimaryTxt">Gehele Systeem Herstarten</String>
+        <String Name="VolumeBtnPrimaryTxt">Volume Regelaar</String>
+        <String Name="EventViewerBtnPrimaryTxt">Event Viewer</String>
+        <String Name="GenerateLogBtnPrimaryTxt">Genereer Diagnostische Log Bestanden</String>
+        <String Name="ExitFastLaneAndRunProfileBtnPrimaryTxt">Stop FastLane en start Profile Manager</String>
+        <String Name="ExitFastLaneAndRunProfileBtnSecondaryTxt">Profile Manager uitvoeren</String>
+        <String Name="TerminalInfoBtnPrimaryTxt">Terminalinformatie</String>
+        <String Name="MinMaxRAPBtnPrimaryTxt">Verklein PBA</String>
+        <String Name="MinMaxRAPBtnSecondaryTxt">Vergroot PBA</String>
+        <String Name="MinMaxRAPBtnPrimaryShowConfirmation">Druk op de knop “RAP minimaliseren” om het RAP-venster te  minimaliseren.</String>
+        <String Name="MinMaxRAPBtnSecondaryShowConfirmation">Druk op de knop “RAP maximaliseren” om het RAP-venster te  maximaliseren.</String>
+        <String Name="StopStartRAPButtonPrimaryTxt">Stop PBA</String>
+        <String Name="StopStartRAPButtonSecondaryTxt">PBA starten</String>
+		<String Name="RapConfigureBtnPrimaryTxt">PBA-configuratie</String>
+		<String Name="GenerateLogBtnPrimaryTxt">Genereer\nDiagn. Log</String>
+        <String Name="SwitchToFastLaneBtnPrimaryTxt">Schakel naar FastLane</String>
+        <String Name="ExitRAPAndRunProfileBtnPrimaryTxt">PBA Verlaten en Profile Manager Runnen</String>
+        <String Name="ExitRAPAndRunProfileBtnSecondaryTxt">Profile Manager uitvoeren</String>
+        <String Name="UtilityFunctionsTitle">Hulpfuncties\nNCR FastLane</String>
+        <String Name="StartTitle">Systeem starten</String>
+        <String Name="SystemStartup">Het systeem wordt opgestart… even geduld.</String>
+        <String Name="TerminalID">Terminal-ID:</String>
+        <String Name="InterfaceVersion">Softwareversie:</String>
+        <String Name="TrainingProgramPrimaryTxt">Opleidingsprogramma</String>
+        <String Name="OperatorIDText">Operator Nummer: </String>
+        <String Name="KeySwitchOperatorID">Sleutelslot</String>
+        <String Name="SignOnButtonText">Aanmelden</String>
+        <String Name="SignOffButtonText">Afmelden</String>
+        <String Name="SignedOffButtonText">Afgemeld</String>
+        <String Name="Exit">Alles afsluiten</String>
+        <String Name="ReturnToShoppingButtonText">Terugkeren</String>
+        <String Name="PickListEditor">Keuzelijsteditor</String>
+        <String Name="RunADDTxt">AAD Uitvoeren Na Opnieuw Opstarten</String>
+        <String Name="TouchWareTxt">Aanraakscherm kalibreren</String>
+        <String Name="DiagConfirm">Bent u zeker dat u Diagnostische logbestanden wilt genereren?</String>
+        <String Name="ProfileManagerFLConfirm">Bent u zeker dat u FastLane wilt stoppen en Profile Manager wilt starten?</String>
+        <String Name="ProfileManagerRAPConfirm">Bent u zeker dat u PBA wilt stoppen en Profile Manager wilt opstarten?</String>
+        <String Name="ProfileManagerConfirm">Bent u zeker dat u Profile Manager wilt starten?</String>
+        <String Name="EventViewerConfirm">Bent u zeker dat u het Gebeurtenisoverzicht wilt starten?</String>
+        <String Name="TrainingConfirm">Bent u zeker dat u het Opleidingsprogramma wilt starten?</String>
+        <String Name="PicklistConfirm">Bent u zeker dat u Picklist Editor wilt starten?</String>
+        <String Name="RunADDConfirm">Weet u zeker dat u automatische apparaatdetectie wilt uitvoeren na het opnieuw opstarten?</String>
+        <String Name="CalibrateConfirm">Bent u zeker dat u het aanraakscherm wilt kalibreren?</String>
+        <String Name="ShutdownConfirm">Bent u zeker dat u het volledige systeem wilt afsluiten?</String>
+        <String Name="RebootConfirm">Bent u zeker dat u het volledige systeem opnieuw wilt opstarten?</String>
+        <String Name="CloseAllConfirm">Bent u zeker dat u alle toepassingen wilt afsluiten en naar het bureaublad wilt terugkeren?</String>
+        <String Name="VolumeConfirm">Bent u zeker dat u het volume wilt aanpassen?</String>
+        <String Name="TerminalInfoConfirm">Bent u zeker dat u de terminalinformatie wilt weergeven?</String>
+        <String Name="StopFastLaneConfirm">Bent u zeker dat u FastLane wilt stoppen?</String>
+        <String Name="StopRAPConfirm">Bent u zeker dat u PBA wilt stoppen?</String>
+        <String Name="StartFastLaneConfirm">Bent u zeker dat u FastLane wilt starten?</String>
+        <String Name="StartRAPConfirm">Bent u zeker dat u PBA wilt starten?</String>
+        <String Name="WindowsLogOnTxt">Aanmelden Windows</String>
+        <String Name="WindowsLogOnConfirm">Bent u zeker dat u alle toepassingen wilt afsluiten en als een nieuwe gebruiker wilt inloggen?</String>
+        <String Name="YesText">Ja</String>
+        <String Name="NoText">Geen</String>
+        <String Name="CommandPromptPrimaryTxt">Opdrachtprompt</String>
+        <String Name="CommandPromptConfirm">Bent u zeker dat u de Opdrachtprompt wilt starten?</String>
+        <String Name="RSMLEPrimaryTxt">Retail Systems Manager LE</String>
+        <String Name="RSMLEConfirm">Bent u zeker dat u Retail Systems Manager LE wilt starten?</String>
+		<String Name="OperatorRegistrationUtility">Programma voor operatorregistratie</String>
+		<String Name="EnterIDFpLeadthru">Voer gebruikers-id in en druk op ‘Enter’ of plaats uw vinger op de vingerafdruklezer.</String>
+		<String Name="ReEnterIDFpLeadthru">Ongeldige login. Log opnieuw in via het toetsenbord of met uw vingerafdruk</String>
+        <!-- End of Main Screen Context -->
+        
+        <!-- Start of Authentication Contexts -->
+        <String Name="ClearButtonText">Wissen</String>
+        <String Name="EnterButtonText">Enter</String>
+        <String Name="GoBackButtonText">Ga Terug</String>
+        <String Name="SpaceButtonText">Spatiebalk</String>
+        <String Name="BackSpaceButtonText">Backspace</String>
+        <String Name="EnterIDLeadthru">Voer identificatie in met het toetsenbord hieronder.</String>
+        <String Name="ReEnterIDLeadthru">Onjuist ID of wachtwoord. Voer opnieuw in met behulp van toetsenbord onderaan.</String>
+        <String Name="EnterPasswordLeadthru">Voer wachtwoord in met het toetsenbord hieronder.</String>
+        <String Name="CancelButtonText">Annuleer</String>
+        <String Name="LoggingInLeadthru">Inloggen…Een ogenblik geduld a.u.b.</String>
+        <String Name="ShiftButtonText">Shift-toets</String>
+        <String Name="LegalCaptionText">LEGAL CAPTION
+This system is for the use of authorized personnel only. By logging onto this system, you are subject to the terms and conditions of all Information Security policies and standards. Use by unauthorized individuals or for unauthorized purposes is a violation of federal and/or state law. The company reserves the right to take any necessary actions to protect authorized users, intellectual property and other information assets. Individuals using this system are subject to having all of their activities on this system monitored. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals possible evidence of criminal activity, system personnel may provide the evidence of such monitoring to law enforcement officials.
+        </String>
+        <!-- End of Authentication Contexts -->
+      </StringTable>
+    </Language>
+  </Languages>
+</Display>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- The format of this file is:	 	-->
+<!-- <DeviceError>                           	-->
+<!-- 	<SectionName>			     	-->
+<!--		<Title1>Msg id in scotmsge.dat for title 1</Title1>-->
+<!--		<Title2>Msg id in scotmsge.dat for title 2</Title2>-->
+<!--	   	<Text>Msg id in scotmsge.dat</Text>		-->
+<!--		<Image>Bitmap id in scotbmpe.dat</Image> 	-->
+<!--		<Wave>id in scotwave.dat</Wave>			-->
+<!--		<Movie>Movie name in text</Movie>		-->
+<!--	</SectionName>					-->
+<!--</DeviceError>					-->
+
+
+<DeviceError>
+	<DM_STATUS_UNEXPECTED>
+		<Text>239</Text>
+	</DM_STATUS_UNEXPECTED>
+
+	<DM_ERROR_UNEXPECTED>
+		<Text>241</Text>
+	</DM_ERROR_UNEXPECTED>
+
+	<DM_ERROR_GENERALFAILURE>
+		<Text>240</Text>
+	</DM_ERROR_GENERALFAILURE>
+
+</DeviceError>

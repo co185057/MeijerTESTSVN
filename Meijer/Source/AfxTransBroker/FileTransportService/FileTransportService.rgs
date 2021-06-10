@@ -1,0 +1,30 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'FileTransportService'
+		'FileTransportService.EXE'
+		{
+			val AppID = s '%APPID%'
+		}
+	}
+}
+HKLM
+{
+	NoRemove System
+	{
+		NoRemove CurrentControlSet
+		{
+			NoRemove Services
+			{
+				NoRemove 'File Transport Service'
+				{
+					val Description = s 'A background service responsible for transporting files across the network.'
+					val FailureActions = b '00000000000000000000000003000000530065000100000060EA00000100000060EA00000100000060EA0000'
+				}
+			}
+		}
+	}
+}
+	
+

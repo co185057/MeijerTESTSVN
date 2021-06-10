@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<RapNet>
+	<Options>	    
+<!-- Sound played when a barcode is scanned. Silent if empty. -->
+	    <ScanSound>Scan.wav</ScanSound>
+
+	    <!-- Sound played when an immediate intervention is received. Silent if empty. -->
+	    <ImmediateInterventionSound>SecurityHigh.wav</ImmediateInterventionSound>
+
+	    <!-- Sound played when a delayed intervention is received. Silent if empty. -->
+	    <DelayedInterventionSound>SecurityLow.wav</DelayedInterventionSound>
+
+	    <!-- Delay in ms before an intervention sound is played. -->
+	    <InterventionSoundDelay>2000</InterventionSoundDelay>
+
+		<!-- Allow the Alt-F4 keystroke entry to exit the application? (default is true) -->
+		<AltF4ExitAllowed>true</AltF4ExitAllowed>
+
+		<!-- Allow Interventions handling of a lane to be paused to handle interventions in a 2nd lane -->
+	    <MultipleInterventionHandling>true</MultipleInterventionHandling>
+
+
+	</Options>
+</RapNet>
+

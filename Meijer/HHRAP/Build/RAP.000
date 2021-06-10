@@ -1,0 +1,200 @@
+<Display Version="1.0">
+  <Includes>
+    <!-- FULL ASSISTMODE XML -->
+    <Include File="%ConfigPath%\HHACSAssistMode.xml" />
+    <Include File="%ConfigPath%\HHACSAssistModeSpecific.xml" />
+  </Includes>
+  <Controls>
+    <Control Name="LaneReceipt" Type="">
+      <CustomData>
+        <Data Name="ItemType38">ITEM_MSG,ITEM_DESCRIPTION</Data>
+        <Data Name="ItemType38StringID">$LaneReceiptItemType2$</Data>
+        <Data Name="ItemType38Selectable">True</Data>
+        <Data Name="ItemType38Color">Red</Data>
+        <Data Name="ItemType38Wrap">True</Data>
+        <Data Name="ItemType39">ITEM_MSG,ITEM_DESCRIPTION,,ITEM_VOID</Data>
+        <Data Name="ItemType39Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType39Color">DarkGray</Data>
+        <Data Name="ItemType39Selectable">False</Data>
+        <Data Name="ItemType39StringID">$LaneReceiptItemType2$</Data>
+        <Data Name="ItemType39Wrap">True</Data>
+      </CustomData>
+    </Control>
+    <Control Name="AssistReceipt" Type="">
+      <CustomData>
+        <Data Name="ItemType36">ITEM_MSG,ITEM_DESCRIPTION</Data>
+        <Data Name="ItemType36StringID">$LaneReceiptItemType2$</Data>
+        <Data Name="ItemType36Selectable">True</Data>
+        <Data Name="ItemType36Color">Red</Data>
+        <Data Name="ItemType36Wrap">True</Data>
+        <Data Name="ItemType37">ITEM_MSG,ITEM_DESCRIPTION,,ITEM_VOID</Data>
+        <Data Name="ItemType37Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType37Color">DarkGray</Data>
+        <Data Name="ItemType37Selectable">False</Data>
+        <Data Name="ItemType37StringID">$LaneReceiptItemType2$</Data>
+        <Data Name="ItemType37Wrap">True</Data>
+      </CustomData>
+    </Control>
+    <Control Name="NoSaleButton" Type="Button">
+      <Properties>
+        <Property Name="Position">392,9,108,63</Property>
+        <Property Name="Font">LaneStatusFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">$NoSaleButtonText$</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="TextPosition">7,7,100,49</Property>
+        <Property Name="Picture">%MediaPath%\10x7-btn_toprow_lane-lg.png</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+  </Controls>
+  <Contexts>
+    <Context Name="StartTransactionAM">
+      <Include>
+        <Control Name="HHAssistModeButton">
+          <Properties>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmAssistMenu">
+      <Include>
+        <Control Name="SelectedItem">
+          <Properties>
+            <Property Name="Action">ChangeText,ChangeState,SMButton2,Text;ChangeText,ChangeState,SMButton3,Text</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton3">
+          <Properties>
+            <Property Name="TextFormat">$ChangeItemButton$</Property>
+            <Property Name="Visible">True</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton4">
+          <Properties>
+            <Property Name="TextFormat">$MoreButton$</Property>
+            <Property Name="Visible">True</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="ApproveAgeCheck">
+      <Include>
+        <Control Name="NumericKeyPad3">
+          <Properties>
+            <Property Name="Position">247,285,96,38</Property>
+          </Properties>
+        </Control>
+        <Control Name="ButtonCommand1">
+          <Properties>
+            <Property Name="TextFormat">$DateOfBirthCancelButtonText$</Property>
+            <Property Name="Position">386,156,110,58</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="LaneStatus">
+      <Include>
+        <Control Name="ButtonCommand3">
+        </Control>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">14,74,373,77</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneReceiptBackground">
+          <Properties>
+            <Property Name="Position">14,151,487,179</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="NoSaleInProgress">
+      <Properties>
+        <Property Name="Size">512,348</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="ButtonCommand0">
+          <Properties>
+            <Property Name="Position">11,9,108,63</Property>
+            <Property Name="Font">LaneStatusFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="TextPosition">7,7,100,49</Property>
+            <Property Name="Picture">%MediaPath%\10x7-btn_toprow_lane-lg.png</Property>
+            <Property Name="ClickMove">3</Property>
+            <Property Name="Z-Order">2</Property>
+            <Property Name="TextFormat">$SuspendTransactionButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="ButtonCommand1">
+          <Properties>
+            <Property Name="Position">138,9,108,63</Property>
+            <Property Name="Font">LaneStatusFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="TextPosition">7,7,100,49</Property>
+            <Property Name="Picture">%MediaPath%\10x7-btn_toprow_lane-lg.png</Property>
+            <Property Name="ClickMove">3</Property>
+            <Property Name="Z-Order">2</Property>
+            <Property Name="TextFormat">$CloseLaneButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="ButtonCommand2">
+          <Properties>
+            <Property Name="Position">265,9,108,63</Property>
+            <Property Name="Font">LaneStatusFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="TextPosition">7,7,100,49</Property>
+            <Property Name="Picture">%MediaPath%\10x7-btn_toprow_lane-lg.png</Property>
+            <Property Name="ClickMove">3</Property>
+            <Property Name="Z-Order">2</Property>
+            <Property Name="TextFormat">$ReportingButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionText">
+          <Properties>
+            <Property Name="Position">17,77,366,69</Property>
+            <Property Name="TextFormat">$NoSaleLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="ButtonCommand3">
+          <Properties>
+            <Property Name="Position">392,80,108,63</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">14,74,373,77</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneReceiptBackground">
+          <Properties>
+            <Property Name="Position">14,151,487,179</Property>
+          </Properties>
+        </Control>
+        <Control Name="NoSaleButton">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaptionText">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+  </Contexts>
+</Display>

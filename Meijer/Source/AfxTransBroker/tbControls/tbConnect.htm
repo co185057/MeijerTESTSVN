@@ -1,0 +1,22 @@
+<HTML>
+	<HEAD>
+		<TITLE>ATL 7.0 test page for object tbConnect</TITLE>
+	</HEAD>
+	<BODY>
+		<OBJECT progid="tbControls.tbConnect" id="tbConnect" events="true" VIEWASTEXT>
+		</OBJECT>
+		<script language="javascript">
+function tbConnect_OnReceive(p, l) 
+{ 
+   alert(["Hello, onReceive Fired"]); 
+} 
+function tbConnect_Receive() 
+{ 
+   alert(["Hello, onReceive Fired"]); 
+
+   alert('Hello, world2'); 
+} 
+
+		</script>
+	</BODY>
+</HTML>

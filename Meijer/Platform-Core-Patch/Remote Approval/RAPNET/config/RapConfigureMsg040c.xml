@@ -1,0 +1,58 @@
+﻿<Display Version="1.0">
+	<Languages>
+		<Language Name="040c">
+			<StringTable>
+				<String Name="MainTitle">Configuration du PAD</String>
+				<String Name="AddButtonText">Ajouter</String>
+				<String Name="AddLaneTitle">Ajouter caisse</String>
+				<String Name="ApplyButtonText">Appliquer</String>
+				<String Name="Backspace">Retour arrière</String>				
+				<String Name="CancelButtonText">Annuler</String>
+				<String Name="ConfigTypeText">Type de configuration de caisse:</String>
+				<String Name="ConfirmDeleteTitle">Confirmer suppression</String>
+				<String Name="ConfirmDeleteText">Voulez-vous supprimer la caisse:</String>
+				<String Name="ConfirmExitTitle">Confirmer que vous voulez quitter</String>
+				<String Name="ConfirmExitText">Êtes-vous sûr de vouloir rejeter ces changements?</String>
+				<String Name="ConfirmSaveTitle">Confirmer la sauvegarde</String>
+				<String Name="ConfirmSaveText">Vous allez sauvegarder ces changements dans RapNet.xml. Voulez-vous continuer?</String>
+				<String Name="DeleteButtonText">Supprimer</String>
+				<String Name="DuplicateIPTitle">Adresse IP en double</String>
+				<String Name="DuplicateLaneTitle">Caisse trouvée en double</String> 
+				<String Name="DuplicateLaneText">La caisse %s existe déjà</String>
+				<String Name="EditLaneTitle">Modifier la caisse</String>
+				<String Name="EmptyText">Vide</String>
+				<String Name="Enter">Entrée</String>
+				<String Name="EnterHostNameInstruction">Saisissez le nom de l'hôte et appuyez sur "Entrée".</String>
+				<String Name="EnterIPAddressInstruction">Saisissez l'adresse IP et appuyez sur "Entrée".</String>
+				<String Name="EnterIPOctetInstruction">Saisissez l'octet IP et appuyez sur "Entrée".</String>
+				<String Name="EnterHostNameText">Saisissez le nom de l'hôte de la caisse</String>
+				<String Name="EnterIPAddressText">Saisissez l'adresse IP de la caisse</String>
+				<String Name="EnterIPOctetText">Saisissez l'octet IP de la caisse</String>
+				<String Name="ErrorText">Erreur</String>
+				<String Name="ExitButtonText">Quitter</String>
+				<String Name="FileErrorTitle">Fichier introuvable</String>
+				<String Name="FileErrorText">Erreur: impossible de trouver le fichier RapNet.xml.</String>
+				<String Name="HostNameText">Nom de l'hôte</String>
+				<String Name="IPAddressText">Adresse IP</String>
+				<String Name="IPOctetText">Octet IP</String>
+				<String Name="LaneText">Caisse</String>
+				<String Name="MoveButtonText">Déplacer</String>
+				<String Name="NoButtonText">Non</String>
+				<String Name="NoLane">Toutes les caisses ont été supprimées</String>
+				<String Name="NoLaneToDelete">Il n'y a plus de caisse à supprimer.</String>
+				<String Name="NoLaneWarningTitle">Pas de caisses dans RapNet.xml</String>
+				<String Name="NoLaneWarningText">Avertissement: aucune caisse n'est configurée dans RapNet.xml.</String>
+				<String Name="OkButtonText">OK</String>
+				<String Name="RestartRAPTitle">Redémarrer le PAD</String>
+				<String Name="RestartRAPText">Vous devez redémarrer le PAD.</String>
+				<String Name="SameRapIPAddress">Il est interdit d'utiliser la même adresse IP que celle du PAD de bureau: %s</String>
+				<String Name="SameHHRapIPAddress">Il est interdit d'utiliser la même adresse IP que celle du PAD portable: %s</String>
+				<String Name="SaveButtonText">Sauvegarder</String>
+				<String Name="SelectLaneToDelete">Sélectionnez une caisse à supprimer</String>
+				<String Name="SelectSourceText">Sélectionner une caisse à déplacer</String>
+				<String Name="SelectDestinationText">Sélectionner la destination</String>
+				<String Name="YesButtonText">Oui</String>
+			</StringTable>
+		</Language>
+	</Languages>
+</Display>

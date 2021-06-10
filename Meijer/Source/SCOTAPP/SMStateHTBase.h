@@ -1,0 +1,21 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// FILE:  SMStateHTBase.h
+//
+//
+// AUTHOR:    Scott Barnhart
+//
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+#ifndef _SMSTATEHTBASE
+#define _SMSTATEHTBASE
+
+protected:
+  // start up
+  virtual long HTInitialize(void);
+  // shut down
+  virtual long HTUnInitialize(void);
+
+	virtual SMStateBase *HTParse(MessageElement *me, TBSTATE nTBCMOSState);
+
+#endif

@@ -1,0 +1,46 @@
+; ----------------------------------------------------------------------------
+;
+; File tbexcept.txt (TB Emulator only)
+;
+; UPC,Category,Processing Code,Processing Flags,WAV File
+;
+; ----------------------------------------------------------------------------
+; Processing Codes :
+; ----------------------------------------------------------------------------
+; 0 - Ignore processing code
+; 1 - Process as coupon (use thresholds for approval)
+; 2 - Process as coupon but force approval
+; 3 - Process as coupon if price display is not suppressed but do not collect
+;     or approve
+; 4 - Do not process at SCOT lane
+; 5 - Process as visual verify item
+; 
+;----------------------------------------------------------------------------
+; Exception Flags :
+; 1 - Suppress display of price on electronic ;receipt
+; 2 - Request suspend  
+; Please note: Add flag values together if multiple flags are required.
+
+; Formats
+17,30,5,15,50
+;UPC             ;Category                     ;Code;Flag          ;Wav File
+;23456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567;
+
+; Exception Items 
+; -------------------------------------------------------------------------------------------------------------------
+68000            Gift Certificate              4    0
+68001            Coupon                        1    0
+68002            Bottle Refund                 2    0
+68003            Gift Registry1                3    1              GiftRegistry_Processed
+68004            Gift Registry                 3    0
+68005            Tops and Bottoms              5    0
+68006            Prescription Item             5    0
+68008            Bottle Refund                 5    0
+068000000000     Gift Certificate              4    0   
+068000000017     Coupon                        1    0
+068000000024     Bottle Refund                 2    0
+068000000031     Gift Registry1                3    1              GiftRegistry_Processed
+068000000048     Gift Registry                 3    0
+068000000055     Tops and Bottoms              5    0
+068000000062     Prescription Item             5    0
+068000000086     Bottle Refund                 5    0

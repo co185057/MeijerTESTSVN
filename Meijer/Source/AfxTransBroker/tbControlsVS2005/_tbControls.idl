@@ -1,0 +1,765 @@
+import "C:\Program Files\Microsoft Visual Studio 8\VC\PlatformSDK\include\prsht.idl";
+import "C:\Program Files\Microsoft Visual Studio 8\VC\PlatformSDK\include\mshtml.idl";
+import "c:\program files\microsoft visual studio 8\vc\platformsdk\include\dimm.idl";
+import "C:\Program Files\Microsoft Visual Studio 8\VC\PlatformSDK\include\mshtmhst.idl";
+import "c:\program files\microsoft visual studio 8\vc\platformsdk\include\docobj.idl";
+import "C:\Program Files\Microsoft Visual Studio 8\VC\PlatformSDK\include\exdisp.idl";
+import "C:\Program Files\Microsoft Visual Studio 8\VC\PlatformSDK\include\objsafe.idl";
+
+[
+	object,
+	uuid(3FF844BD-E48C-4E60-B5AF-12827E1F9C22),
+	dual,
+	helpstring("ITBStream Interface"),
+	pointer_default(unique)
+] 
+#line 14 "c:\\fastlane\\controls\\dll - tbcontrols\\tbstream.h"
+interface ITBStream : IDispatch {
+#line 16 "c:\\fastlane\\controls\\dll - tbcontrols\\tbstream.h"
+	[id(1),helpstring("method StreamOut")] HRESULT  StreamOut([in,out] LONG *cb, [out,retval] BYTE **pBuffer);
+	[id(2),helpstring("method ParseStream")] HRESULT  ParseStream([in] VARIANT Var);
+	[id(3),helpstring("method ParseBuffer")] HRESULT  ParseBuffer([in] BYTE *pBuffer);
+	[id(4),helpstring("method GetMessage")] HRESULT  GetMessageA([out] LONG *o_pTBMsgObj);
+};
+
+[
+	object,
+	uuid(2DFDB3BF-5971-4251-AE7E-4173468732B0),
+	dual,
+	helpstring("IItemObj Interface"),
+	pointer_default(unique)
+] 
+#line 19 "c:\\fastlane\\controls\\dll - tbcontrols\\itemobj.h"
+interface IItemObj : IDispatch {
+#line 21 "c:\\fastlane\\controls\\dll - tbcontrols\\itemobj.h"
+	[propget,id(1),helpstring("property IsCoupon")] HRESULT  IsCoupon([out,retval] BYTE *pVal);
+	[propput,id(1),helpstring("property IsCoupon")] HRESULT  IsCoupon([in] BYTE newVal);
+	[propget,id(2),helpstring("property IsRestricted")] HRESULT  IsRestricted([out,retval] BYTE *pVal);
+	[propput,id(2),helpstring("property IsRestricted")] HRESULT  IsRestricted([in] BYTE newVal);
+	[propget,id(3),helpstring("property IsVoided")] HRESULT  IsVoided([out,retval] BYTE *pVal);
+	[propput,id(3),helpstring("property IsVoided")] HRESULT  IsVoided([in] BYTE newVal);
+	[propget,id(4),helpstring("property LinkedItem")] HRESULT  LinkedItem([out,retval] BYTE *pVal);
+	[propput,id(4),helpstring("property LinkedItem")] HRESULT  LinkedItem([in] BYTE newVal);
+	[propget,id(5),helpstring("property NeedPrice")] HRESULT  NeedPrice([out,retval] BYTE *pVal);
+	[propput,id(5),helpstring("property NeedPrice")] HRESULT  NeedPrice([in] BYTE newVal);
+	[propget,id(6),helpstring("property NeedQuantity")] HRESULT  NeedQuantity([out,retval] BYTE *pVal);
+	[propput,id(6),helpstring("property NeedQuantity")] HRESULT  NeedQuantity([in] BYTE newVal);
+	[propget,id(7),helpstring("property NeedWeight")] HRESULT  NeedWeight([out,retval] BYTE *pVal);
+	[propput,id(7),helpstring("property NeedWeight")] HRESULT  NeedWeight([in] BYTE newVal);
+	[propget,id(8),helpstring("property NotForSale")] HRESULT  NotForSale([out,retval] BYTE *pVal);
+	[propput,id(8),helpstring("property NotForSale")] HRESULT  NotForSale([in] BYTE newVal);
+	[propget,id(9),helpstring("property PIMItem")] HRESULT  PIMItem([out,retval] BYTE *pVal);
+	[propput,id(9),helpstring("property PIMItem")] HRESULT  PIMItem([in] BYTE newVal);
+	[propget,id(10),helpstring("property SecurityTag")] HRESULT  SecurityTag([out,retval] BYTE *pVal);
+	[propput,id(10),helpstring("property SecurityTag")] HRESULT  SecurityTag([in] BYTE newVal);
+	[propget,id(11),helpstring("property UnknownItem")] HRESULT  UnknownItem([out,retval] BYTE *pVal);
+	[propput,id(11),helpstring("property UnknownItem")] HRESULT  UnknownItem([in] BYTE newVal);
+	[propget,id(12),helpstring("property VisualVerify")] HRESULT  VisualVerify([out,retval] BYTE *pVal);
+	[propput,id(12),helpstring("property VisualVerify")] HRESULT  VisualVerify([in] BYTE newVal);
+	[propget,id(13),helpstring("property ErrorDescription")] HRESULT  ErrorDescription([out,retval] BSTR *pVal);
+	[propput,id(13),helpstring("property ErrorDescription")] HRESULT  ErrorDescription([in] BSTR newVal);
+	[propget,id(14),helpstring("property ExtendedPrice")] HRESULT  ExtendedPrice([out,retval] BSTR *pVal);
+	[propput,id(14),helpstring("property ExtendedPrice")] HRESULT  ExtendedPrice([in] BSTR newVal);
+	[propget,id(15),helpstring("property ItemCode"),bindable,defaultbind,displaybind] HRESULT  ItemCode([out,retval] BSTR *pVal);
+	[propput,id(15),helpstring("property ItemCode"),bindable,defaultbind,displaybind] HRESULT  ItemCode([in] BSTR newVal);
+	[propget,id(16),helpstring("property ItemDescription")] HRESULT  ItemDescription([out,retval] BSTR *pVal);
+	[propput,id(16),helpstring("property ItemDescription")] HRESULT  ItemDescription([in] BSTR newVal);
+	[propget,id(17),helpstring("property Quantity")] HRESULT  Quantity([out,retval] BSTR *pVal);
+	[propput,id(17),helpstring("property Quantity")] HRESULT  Quantity([in] BSTR newVal);
+	[propget,id(18),helpstring("property UnitPrice")] HRESULT  UnitPrice([out,retval] BSTR *pVal);
+	[propput,id(18),helpstring("property UnitPrice")] HRESULT  UnitPrice([in] BSTR newVal);
+	[propget,id(19),helpstring("property Weight")] HRESULT  Weight([out,retval] BSTR *pVal);
+	[propput,id(19),helpstring("property Weight")] HRESULT  Weight([in] BSTR newVal);
+	[propget,id(20),helpstring("property Department")] HRESULT  Department([out,retval] LONG *pVal);
+	[propput,id(20),helpstring("property Department")] HRESULT  Department([in] LONG newVal);
+	[propget,id(21),helpstring("property EntryID")] HRESULT  EntryID([out,retval] LONG *pVal);
+	[propput,id(21),helpstring("property EntryID")] HRESULT  EntryID([in] LONG newVal);
+	[propget,id(22),helpstring("property RestrictedAge")] HRESULT  RestrictedAge([out,retval] LONG *pVal);
+	[propput,id(22),helpstring("property RestrictedAge")] HRESULT  RestrictedAge([in] LONG newVal);
+	[propget,id(23),helpstring("property TareCode")] HRESULT  TareCode([out,retval] LONG *pVal);
+	[propput,id(23),helpstring("property TareCode")] HRESULT  TareCode([in] LONG newVal);
+	[propget,id(24),helpstring("property TaxExempt")] HRESULT  TaxExempt([out,retval] BYTE *pVal);
+	[propput,id(24),helpstring("property TaxExempt")] HRESULT  TaxExempt([in] BYTE newVal);
+	[propget,id(25),helpstring("property EndorsementRequired")] HRESULT  EndorsementRequired([out,retval] BYTE *pVal);
+	[propput,id(25),helpstring("property EndorsementRequired")] HRESULT  EndorsementRequired([in] BYTE newVal);
+	[id(26),helpstring("method Reset")] HRESULT  Reset();
+};
+
+#line 11 "c:\\fastlane\\controls\\dll - tbcontrols\\cashdrawerobj.h"
+typedef enum CashDrawerStations {
+	DRAWER_A = 1,
+	DRAWER_B = 2,
+	DRAWER_UNDEFINED = 153,
+} CashDrawerStations;
+
+#line 16 "c:\\fastlane\\controls\\dll - tbcontrols\\cashdrawerobj.h"
+typedef enum CashDrawerStates {
+	CD_OPEN = 1,
+	CD_CLOSED = 2,
+	CD_UNKNOWN = 153,
+} CashDrawerStates;
+
+[
+	object,
+	uuid(3FF844BD-E48C-4E60-B5AF-12827E1F9C21),
+	dual,
+	helpstring("ICashDrawerObj Interface"),
+	pointer_default(unique)
+] 
+#line 26 "c:\\fastlane\\controls\\dll - tbcontrols\\cashdrawerobj.h"
+interface ICashDrawerObj : IDispatch {
+#line 28 "c:\\fastlane\\controls\\dll - tbcontrols\\cashdrawerobj.h"
+	[propget,id(1),helpstring("property Station")] HRESULT  Station([out,retval] CashDrawerStations *pVal);
+	[propput,id(1),helpstring("property Station")] HRESULT  Station([in] CashDrawerStations newVal);
+	[propget,id(2),helpstring("property Status")] HRESULT  Status([out,retval] CashDrawerStates *pVal);
+	[propput,id(2),helpstring("property Status")] HRESULT  Status([in] CashDrawerStates newVal);
+};
+
+[
+	object,
+	uuid(EB2C6ECD-2D7D-4626-B8FE-264738AA036E),
+	dual,
+	helpstring("ITotalObj Interface"),
+	pointer_default(unique)
+] 
+#line 16 "c:\\fastlane\\controls\\dll - tbcontrols\\totalobj.h"
+interface ITotalObj : IDispatch {
+#line 18 "c:\\fastlane\\controls\\dll - tbcontrols\\totalobj.h"
+	[propget,id(1),helpstring("property TaxDue")] HRESULT  TaxDue([out,retval] BSTR *pVal);
+	[propput,id(1),helpstring("property TaxDue")] HRESULT  TaxDue([in] BSTR newVal);
+	[propget,id(2),helpstring("property TotalDue")] HRESULT  TotalDue([out,retval] BSTR *pVal);
+	[propput,id(2),helpstring("property TotalDue")] HRESULT  TotalDue([in] BSTR newVal);
+	[propget,id(3),helpstring("property TotalDiscount")] HRESULT  TotalDiscount([out,retval] BSTR *pVal);
+	[propput,id(3),helpstring("property TotalDiscount")] HRESULT  TotalDiscount([in] BSTR newVal);
+	[propget,id(4),helpstring("property ErrorDescription")] HRESULT  ErrorDescription([out,retval] BSTR *pVal);
+	[propput,id(4),helpstring("property ErrorDescription")] HRESULT  ErrorDescription([in] BSTR newVal);
+	[propget,id(5),helpstring("property FoodStampAmount")] HRESULT  FoodStampAmount([out,retval] BSTR *pVal);
+	[propput,id(5),helpstring("property FoodStampAmount")] HRESULT  FoodStampAmount([in] BSTR newVal);
+	[propget,id(6),helpstring("property RewardPoints")] HRESULT  RewardPoints([out,retval] LONG *pVal);
+	[propput,id(6),helpstring("property RewardPoints")] HRESULT  RewardPoints([in] LONG newVal);
+};
+
+[
+	object,
+	uuid(5520ED1C-ABB0-4C35-8DF0-6598F441051F),
+	dual,
+	helpstring("ITenderObj Interface"),
+	pointer_default(unique)
+] 
+#line 16 "c:\\fastlane\\controls\\dll - tbcontrols\\tenderobj.h"
+interface ITenderObj : IDispatch {
+#line 18 "c:\\fastlane\\controls\\dll - tbcontrols\\tenderobj.h"
+	[propget,id(1),helpstring("property Description")] HRESULT  Description([out,retval] BSTR *pVal);
+	[propput,id(1),helpstring("property Description")] HRESULT  Description([in] BSTR newVal);
+	[propget,id(2),helpstring("property Type")] HRESULT  Type([out,retval] LONG *pVal);
+	[propput,id(2),helpstring("property Type")] HRESULT  Type([in] LONG newVal);
+	[propget,id(3),helpstring("property Amount")] HRESULT  Amount([out,retval] BSTR *pVal);
+	[propput,id(3),helpstring("property Amount")] HRESULT  Amount([in] BSTR newVal);
+	[propget,id(4),helpstring("property Balance")] HRESULT  Balance([out,retval] BSTR *pVal);
+	[propput,id(4),helpstring("property Balance")] HRESULT  Balance([in] BSTR newVal);
+	[propget,id(5),helpstring("property ChangeDue")] HRESULT  ChangeDue([out,retval] BSTR *pVal);
+	[propput,id(5),helpstring("property ChangeDue")] HRESULT  ChangeDue([in] BSTR newVal);
+	[propget,id(6),helpstring("property Accepted")] HRESULT  Accepted([out,retval] BYTE *pVal);
+	[propput,id(6),helpstring("property Accepted")] HRESULT  Accepted([in] BYTE newVal);
+	[propget,id(7),helpstring("property Voided")] HRESULT  Voided([out,retval] BYTE *pVal);
+	[propput,id(7),helpstring("property Voided")] HRESULT  Voided([in] BYTE newVal);
+	[propget,id(8),helpstring("property CardRemainingBalance")] HRESULT  CardRemainingBalance([out,retval] BSTR *pVal);
+	[propput,id(8),helpstring("property CardRemainingBalance")] HRESULT  CardRemainingBalance([in] BSTR newVal);
+	[propget,id(9),helpstring("property ErrorDescription")] HRESULT  ErrorDescription([out,retval] BSTR *pVal);
+	[propput,id(9),helpstring("property ErrorDescription")] HRESULT  ErrorDescription([in] BSTR newVal);
+};
+
+#line 15 "c:\\fastlane\\controls\\dll - tbcontrols\\rewardobj.h"
+typedef enum tRewardLinePosType {
+	BOTTOM_OF_RECEIPT = 1,
+	ABOVE_REF_ENTRYID = 2,
+	BELOW_REF_ENTRYID = 3,
+	POS_NONE = 4,
+} tRewardLinePosType;
+
+[
+	object,
+	uuid(83398A76-DB40-412F-AB39-34EC9A187C59),
+	dual,
+	helpstring("IRewardObj Interface"),
+	pointer_default(unique)
+] 
+#line 26 "c:\\fastlane\\controls\\dll - tbcontrols\\rewardobj.h"
+interface IRewardObj : IDispatch {
+#line 28 "c:\\fastlane\\controls\\dll - tbcontrols\\rewardobj.h"
+	[propget,id(1),helpstring("property RewardValue")] HRESULT  RewardValue([out,retval] LONG *pVal);
+	[propput,id(1),helpstring("property RewardValue")] HRESULT  RewardValue([in] LONG newVal);
+	[propget,id(2),helpstring("property RewardPosition")] HRESULT  RewardPosition([out,retval] tRewardLinePosType *pVal);
+	[propput,id(2),helpstring("property RewardPosition")] HRESULT  RewardPosition([in] tRewardLinePosType newVal);
+	[propget,id(3),helpstring("property IsVoided")] HRESULT  IsVoided([out,retval] BYTE *pVal);
+	[propput,id(3),helpstring("property IsVoided")] HRESULT  IsVoided([in] BYTE newVal);
+	[propget,id(4),helpstring("property EntryId")] HRESULT  EntryId([out,retval] LONG *pVal);
+	[propput,id(4),helpstring("property EntryId")] HRESULT  EntryId([in] LONG newVal);
+	[propget,id(5),helpstring("property UpdateRewardTotal")] HRESULT  UpdateRewardTotal([out,retval] BYTE *pVal);
+	[propput,id(5),helpstring("property UpdateRewardTotal")] HRESULT  UpdateRewardTotal([in] BYTE newVal);
+	[propget,id(6),helpstring("property Description")] HRESULT  Description([out,retval] BSTR *pVal);
+	[propput,id(6),helpstring("property Description")] HRESULT  Description([in] BSTR newVal);
+	[propget,id(7),helpstring("property AssociatedEntryId")] HRESULT  AssociatedEntryId([out,retval] LONG *pVal);
+	[propput,id(7),helpstring("property AssociatedEntryId")] HRESULT  AssociatedEntryId([in] LONG newVal);
+	[propget,id(8),helpstring("property ShowValue")] HRESULT  ShowValue([out,retval] SHORT *pVal);
+	[propput,id(8),helpstring("property ShowValue")] HRESULT  ShowValue([in] SHORT newVal);
+};
+
+#line 33 "c:\\fastlane\\controls\\dll - tbcontrols\\scannerobj.h"
+typedef enum BarcodeTypes {
+	BT_UPCA = 1,
+	BT_UPCA_SUP = 2,
+	BT_UPCE = 3,
+	BT_UPCE_SUP = 4,
+	BT_UPCD1 = 5,
+	BT_UPCD2 = 6,
+	BT_UPCD3 = 7,
+	BT_UPCD4 = 8,
+	BT_UPCD5 = 9,
+	BT_EAN8 = 10,
+	BT_EAN8_SUP = 11,
+	BT_EAN13 = 12,
+	BT_EAN13_SUP = 13,
+	BT_EAN128 = 14,
+	BT_STD25 = 15,
+	BT_CODABAR = 16,
+	BT_CODE39 = 17,
+	BT_CODE93 = 18,
+	BT_CODE128 = 19,
+	BT_OCRA = 20,
+	BT_OCRB = 20,
+	BT_PDF417 = 64,
+	BT_MAXICODE = 65,
+	BT_UNKNOWN = 153,
+} BarcodeTypes;
+
+[
+	object,
+	uuid(BA1AC205-4D3E-43C3-99D0-C1A3D749BF93),
+	dual,
+	helpstring("IScannerObj Interface"),
+	pointer_default(unique)
+] 
+#line 43 "c:\\fastlane\\controls\\dll - tbcontrols\\scannerobj.h"
+interface IScannerObj : IDispatch {
+#line 45 "c:\\fastlane\\controls\\dll - tbcontrols\\scannerobj.h"
+	[propget,id(1),helpstring("property BarcodeType")] HRESULT  BarcodeType([out,retval] BarcodeTypes *pVal);
+	[propput,id(1),helpstring("property BarcodeType")] HRESULT  BarcodeType([in] BarcodeTypes newVal);
+	[propget,id(2),helpstring("property Data")] HRESULT  Data([out,retval] BSTR *pVal);
+	[propput,id(2),helpstring("property Data")] HRESULT  Data([in] BSTR newVal);
+};
+
+[
+	object,
+	uuid(83DBC6EC-6015-408C-9249-0FBA333CB7D7),
+	dual,
+	helpstring("IKeylockObj Interface"),
+	pointer_default(unique)
+] 
+#line 16 "c:\\fastlane\\controls\\dll - tbcontrols\\keylockobj.h"
+interface IKeylockObj : IDispatch {
+#line 18 "c:\\fastlane\\controls\\dll - tbcontrols\\keylockobj.h"
+	[propget,id(1),helpstring("property Position")] HRESULT  Position([out,retval] BYTE *pVal);
+	[propput,id(1),helpstring("property Position")] HRESULT  Position([in] BYTE newVal);
+};
+
+#line 13 "c:\\fastlane\\controls\\dll - tbcontrols\\keyboardobj.h"
+typedef enum CombinationKeyFlags {
+	KEY_PRESSED_NONE = 0,
+	SHIFT_KEY_PESSED = 1,
+	CTRL_KEY_PRESSED = 2,
+	ALT_KEY_PRESSED = 4,
+} CombinationKeyFlags;
+
+#line 20 "c:\\fastlane\\controls\\dll - tbcontrols\\keyboardobj.h"
+typedef enum KeyEventType {
+	KEY_DOWN = 0,
+	EXTENDED_KEY = 1,
+	KEY_UP = 2,
+} KeyEventType;
+
+[
+	object,
+	uuid(6E77AFE9-47D1-494F-9506-97B889C8ABE7),
+	dual,
+	helpstring("IKeyboardObj Interface"),
+	pointer_default(unique)
+] 
+#line 30 "c:\\fastlane\\controls\\dll - tbcontrols\\keyboardobj.h"
+interface IKeyboardObj : IDispatch {
+#line 32 "c:\\fastlane\\controls\\dll - tbcontrols\\keyboardobj.h"
+	[propget,id(1),helpstring("property KeyCode")] HRESULT  KeyCode([out,retval] LONG *pVal);
+	[propput,id(1),helpstring("property KeyCode")] HRESULT  KeyCode([in] LONG newVal);
+	[propget,id(2),helpstring("property KeyEvent")] HRESULT  KeyEvent([out,retval] KeyEventType *pVal);
+	[propput,id(2),helpstring("property KeyEvent")] HRESULT  KeyEvent([in] KeyEventType newVal);
+	[propget,id(3),helpstring("property CombinationKeys")] HRESULT  CombinationKeys([out,retval] CombinationKeyFlags *pVal);
+	[propput,id(3),helpstring("property CombinationKeys")] HRESULT  CombinationKeys([in] CombinationKeyFlags newVal);
+};
+
+[
+	object,
+	uuid(BF8A79FF-565D-4BB2-9FCC-5110A7E21295),
+	dual,
+	helpstring("IMSRObj Interface"),
+	pointer_default(unique)
+] 
+#line 16 "c:\\fastlane\\controls\\dll - tbcontrols\\msrobj.h"
+interface IMSRObj : IDispatch {
+#line 18 "c:\\fastlane\\controls\\dll - tbcontrols\\msrobj.h"
+	[propget,id(1),helpstring("property Track1")] HRESULT  Track1([out,retval] BSTR *pVal);
+	[propget,id(2),helpstring("property Track2")] HRESULT  Track2([out,retval] BSTR *pVal);
+	[propget,id(3),helpstring("property Track3")] HRESULT  Track3([out,retval] BSTR *pVal);
+	[id(4),helpstring("method SetTrack123")] HRESULT  SetTrack123([in]BYTE Track1Position, [in]BYTE Track2Position, [in]BYTE Track3Position, [in]BSTR Track123);
+};
+
+#line 12 "c:\\fastlane\\controls\\dll - tbcontrols\\microbj.h"
+typedef enum CheckTypes {
+	CHECK_PERSONAL = 1,
+	CHECK_BUSINESS = 2,
+	CHECK_UNKNOWN = 153,
+} CheckTypes;
+
+#line 19 "c:\\fastlane\\controls\\dll - tbcontrols\\microbj.h"
+typedef enum CountryCodes {
+	CC_US = 1,
+	CC_CAN = 2,
+	CC_MEX = 3,
+	CC_UNK = 153,
+} CountryCodes;
+
+[
+	object,
+	uuid(C6F93406-B84F-45D3-BFB2-BB422C48D68F),
+	dual,
+	helpstring("IMICRObj Interface"),
+	pointer_default(unique)
+] 
+#line 29 "c:\\fastlane\\controls\\dll - tbcontrols\\microbj.h"
+interface IMICRObj : IDispatch {
+#line 31 "c:\\fastlane\\controls\\dll - tbcontrols\\microbj.h"
+	[propget,id(1),helpstring("property TransitNumber")] HRESULT  TransitNumber([out,retval] BSTR *pVal);
+	[propput,id(1),helpstring("property TransitNumber")] HRESULT  TransitNumber([in] BSTR newVal);
+	[propget,id(2),helpstring("property AccountNumber")] HRESULT  AccountNumber([out,retval] BSTR *pVal);
+	[propput,id(2),helpstring("property AccountNumber")] HRESULT  AccountNumber([in] BSTR newVal);
+	[propget,id(3),helpstring("property BankNumber")] HRESULT  BankNumber([out,retval] BSTR *pVal);
+	[propput,id(3),helpstring("property BankNumber")] HRESULT  BankNumber([in] BSTR newVal);
+	[propget,id(4),helpstring("property SerialNumber")] HRESULT  SerialNumber([out,retval] BSTR *pVal);
+	[propput,id(4),helpstring("property SerialNumber")] HRESULT  SerialNumber([in] BSTR newVal);
+	[propget,id(5),helpstring("property CheckType")] HRESULT  CheckType([out,retval] CheckTypes *pVal);
+	[propput,id(5),helpstring("property CheckType")] HRESULT  CheckType([in] CheckTypes newVal);
+	[propget,id(6),helpstring("property CountryCode")] HRESULT  CountryCode([out,retval] CountryCodes *pVal);
+	[propput,id(6),helpstring("property CountryCode")] HRESULT  CountryCode([in] CountryCodes newVal);
+	[propget,id(7),helpstring("property Data")] HRESULT  Data([out,retval] BSTR *pVal);
+	[propput,id(7),helpstring("property Data")] HRESULT  Data([in] BSTR newVal);
+};
+
+[
+	object,
+	uuid(098D843A-FDDC-4708-9174-23134176A419),
+	dual,
+	helpstring("IPrinterObj Interface"),
+	pointer_default(unique)
+] 
+#line 17 "c:\\fastlane\\controls\\dll - tbcontrols\\printerobj.h"
+interface IPrinterObj : IDispatch {
+#line 19 "c:\\fastlane\\controls\\dll - tbcontrols\\printerobj.h"
+	[propget,id(1),helpstring("property Function")] HRESULT  Function([out,retval] BYTE *pVal);
+	[propput,id(1),helpstring("property Function")] HRESULT  Function([in] BYTE newVal);
+	[propget,id(2),helpstring("property Arguments")] HRESULT  Arguments([out,retval] BSTR *pVal);
+	[propput,id(2),helpstring("property Arguments")] HRESULT  Arguments([in] BSTR newVal);
+	[propget,id(3),helpstring("property Height")] HRESULT  Height([out,retval] SHORT *pVal);
+	[propput,id(3),helpstring("property Height")] HRESULT  Height([in] SHORT newVal);
+	[propget,id(4),helpstring("property Width")] HRESULT  Width([out,retval] SHORT *pVal);
+	[propput,id(4),helpstring("property Width")] HRESULT  Width([in] SHORT newVal);
+	[propget,id(5),helpstring("property Alignment")] HRESULT  Alignment([out,retval] BYTE *pVal);
+	[propput,id(5),helpstring("property Alignment")] HRESULT  Alignment([in] BYTE newVal);
+	[propget,id(6),helpstring("property TextPosition")] HRESULT  TextPosition([out,retval] SHORT *pVal);
+	[propput,id(6),helpstring("property TextPosition")] HRESULT  TextPosition([in] SHORT newVal);
+	[propget,id(7),helpstring("property StationId")] HRESULT  StationId([out,retval] BYTE *pVal);
+	[propput,id(7),helpstring("property StationId")] HRESULT  StationId([in] BYTE newVal);
+	[propget,id(8),helpstring("property Data")] HRESULT  Data([out,retval] BSTR *pVal);
+	[propput,id(8),helpstring("property Data")] HRESULT  Data([in] BSTR newVal);
+	[propget,id(9),helpstring("property BarcodeType")] HRESULT  BarcodeType([out,retval] BYTE *pVal);
+	[propput,id(9),helpstring("property BarcodeType")] HRESULT  BarcodeType([in] BYTE newVal);
+	[propget,id(10),helpstring("property BarcodeCharacterPrint")] HRESULT  BarcodeCharacterPrint([out,retval] BYTE *pVal);
+	[propput,id(10),helpstring("property BarcodeCharacterPrint")] HRESULT  BarcodeCharacterPrint([in] BYTE newVal);
+	[propget,id(11),helpstring("property BitmapLogoNumber")] HRESULT  BitmapLogoNumber([out,retval] BYTE *pVal);
+	[propput,id(11),helpstring("property BitmapLogoNumber")] HRESULT  BitmapLogoNumber([in] BYTE newVal);
+};
+
+#line 16 "c:\\fastlane\\controls\\dll - tbcontrols\\pinpadobj.h"
+typedef enum TransactionTypes {
+	TT_CREDIT = 2,
+	TT_DEBIT = 3,
+	TT_LOYALTY = 4,
+	TT_DEBIT_SAVINGS = 5,
+	TT_EBT = 7,
+	TT_GIFT = 9,
+	TT_UNDEFINED = 153,
+} TransactionTypes;
+
+#line 22 "c:\\fastlane\\controls\\dll - tbcontrols\\pinpadobj.h"
+typedef enum PinEncodingList {
+	PE_MASTER_SESSION = 0,
+	PE_DUKPT = 1,
+	PE_UNDEFINED = 153,
+} PinEncodingList;
+
+#line 28 "c:\\fastlane\\controls\\dll - tbcontrols\\pinpadobj.h"
+typedef enum PinBlockFormats {
+	PB_ANSI = 0,
+	PB_DIEBOLD = 1,
+	PB_UNDEFINED = 153,
+} PinBlockFormats;
+
+[
+	object,
+	uuid(1A737844-D845-4E97-AD01-A3FFBAD13839),
+	dual,
+	helpstring("IPinpadObj Interface"),
+	pointer_default(unique)
+] 
+#line 39 "c:\\fastlane\\controls\\dll - tbcontrols\\pinpadobj.h"
+interface IPinpadObj : IDispatch {
+#line 41 "c:\\fastlane\\controls\\dll - tbcontrols\\pinpadobj.h"
+	[propget,id(1),helpstring("property PrimaryAccountNumber")] HRESULT  PrimaryAccountNumber([out,retval] BSTR *pVal);
+	[propput,id(1),helpstring("property PrimaryAccountNumber")] HRESULT  PrimaryAccountNumber([in] BSTR newVal);
+	[propget,id(2),helpstring("property TransactionType")] HRESULT  TransactionType([out,retval] TransactionTypes *pVal);
+	[propput,id(2),helpstring("property TransactionType")] HRESULT  TransactionType([in] TransactionTypes newVal);
+	[propget,id(3),helpstring("property PinEncoding")] HRESULT  PinEncoding([out,retval] PinEncodingList *pVal);
+	[propput,id(3),helpstring("property PinEncoding")] HRESULT  PinEncoding([in] PinEncodingList newVal);
+};
+
+[
+	object,
+	uuid(EA8C9BF5-9DBF-486E-8C16-3673E72D4B1C),
+	dual,
+	helpstring("IScaleObj Interface"),
+	pointer_default(unique)
+] 
+#line 16 "c:\\fastlane\\controls\\dll - tbcontrols\\scaleobj.h"
+interface IScaleObj : IDispatch {
+#line 18 "c:\\fastlane\\controls\\dll - tbcontrols\\scaleobj.h"
+	[propget,id(1),helpstring("property Weight")] HRESULT  Weight([out,retval] LONG *pVal);
+	[propput,id(1),helpstring("property Weight")] HRESULT  Weight([in] LONG newVal);
+};
+
+[
+	object,
+	uuid(94ED1368-53C2-44FA-8641-951D31DEE2B5),
+	dual,
+	helpstring("ICustomObj Interface"),
+	pointer_default(unique)
+] 
+#line 16 "c:\\fastlane\\controls\\dll - tbcontrols\\customobj.h"
+interface ICustomObj : IDispatch {
+#line 18 "c:\\fastlane\\controls\\dll - tbcontrols\\customobj.h"
+	[propget,id(1),helpstring("property CustomerData")] HRESULT  CustomerData([out,retval] VARIANT *pVal);
+	[propput,id(1),helpstring("property CustomerData")] HRESULT  CustomerData([in] VARIANT newVal);
+};
+
+#line 12 "c:\\fastlane\\controls\\dll - tbcontrols\\tbgenobj.h"
+typedef enum ResetOptions {
+	RESET_FIELD_DATA = 0,
+	RESET_XML_DOC = 1,
+} ResetOptions;
+
+[
+	object,
+	uuid(5D8CF3FE-492B-445E-A6D9-B673BC610D55),
+	dual,
+	helpstring("ITBGenObj Interface"),
+	pointer_default(unique)
+] 
+#line 23 "c:\\fastlane\\controls\\dll - tbcontrols\\tbgenobj.h"
+interface ITBGenObj : IDispatch {
+#line 25 "c:\\fastlane\\controls\\dll - tbcontrols\\tbgenobj.h"
+	[id(1),helpstring("method SetValue")] HRESULT  SetValue([in] BSTR Name, [in] VARIANT vValue);
+	[id(2),helpstring("method GetValue")] HRESULT  GetValue([in] BSTR Name, [out,retval] VARIANT *vValue);
+	[id(3),helpstring("method Reset")] HRESULT  Reset([in] ResetOptions option);
+	[propget,id(4),helpstring("property xml")] HRESULT  xml([out,retval] BSTR *pVal);
+	[propput,id(4),helpstring("property xml")] HRESULT  xml([in] BSTR newVal);
+	[propget,id(5),helpstring("property MsgId")] HRESULT  MsgId([out,retval] BYTE *pVal);
+	[propput,id(5),helpstring("property MsgId")] HRESULT  MsgId([in] BYTE newVal);
+	[propget,id(6),helpstring("property IsXMLOutput")] HRESULT  IsXMLOutput([out,retval] BYTE *pVal);
+	[propput,id(6),helpstring("property IsXMLOutput")] HRESULT  IsXMLOutput([in] BYTE newVal);
+	[propget,id(7),helpstring("property Validate")] HRESULT  Validate([out,retval] BYTE *pVal);
+	[propput,id(7),helpstring("property Validate")] HRESULT  Validate([in] BYTE newVal);
+	[propget,id(8),helpstring("property Name")] HRESULT  Name([out,retval] BSTR *pVal);
+	[propput,id(8),helpstring("property Name")] HRESULT  Name([in] BSTR newVal);
+	[id(9),helpstring("method GetValue2 does not throw exceptions")] HRESULT  GetValue2([in] BSTR Name, [out,retval] VARIANT *vValue);
+};
+
+#line 46 "c:\\fastlane\\controls\\dll - tbcontrols\\tbconnect.h"
+typedef enum tbConnectReceiveEvent {
+	ReceiveEvent = 0,
+	ReceiveItemObjEvent = 1,
+	ReceiveCashDrawerObjEvent = 2,
+	ReceiveTotalObjEvent = 3,
+	ReceiveTenderObjEvent = 4,
+	ReceiveRewardObjEvent = 5,
+	ReceiveScannerObjEvent = 6,
+	ReceiveKeyboardObjEvent = 7,
+	ReceiveKeylockObjEvent = 8,
+	ReceiveMSRObjEvent = 9,
+	ReceiveMICRObjEvent = 10,
+	ReceivePrinterObjEvent = 11,
+	ReceivePinpadObjEvent = 12,
+	ReceiveScaleObjEvent = 13,
+	ReceiveCustomObjEvent = 14,
+	ReceiveTBGenObjEvent = 15,
+} tbConnectReceiveEvent;
+
+[
+	object,
+	uuid(A4D47620-0FA3-4C43-B3F8-0F726CE22E51),
+	dual,
+	helpstring("ItbConnect Interface"),
+	pointer_default(unique)
+] 
+#line 56 "c:\\fastlane\\controls\\dll - tbcontrols\\tbconnect.h"
+interface ItbConnect : IDispatch {
+#line 58 "c:\\fastlane\\controls\\dll - tbcontrols\\tbconnect.h"
+	[id(1),helpstring("Connect to TB"),helpcontext(1)] HRESULT  Connect();
+	[id(2),helpstring("method Send")] HRESULT  Send([in]ITBStream *pObj);
+	[id(3),helpstring("method ConnectAsTB")] HRESULT  ConnectAsTB();
+	[id(4),helpstring("method SetAck")] HRESULT  SetAck([in] LONG nAck);
+	[id(5),helpstring("method SubscribeTo")] HRESULT  SubscribeTo([in] BSTR szCommaDelimHexDeviceIds);
+	[id(6),helpstring("method Disconnect")] HRESULT  Disconnect();
+	[id(7),helpstring("method SetCallback")] HRESULT  SetCallback([in] VARIANT vCallbackProc);
+};
+
+[
+	object,
+	uuid(13979CBF-F2A8-471D-BF62-72E7A19B88C7),
+	dual,
+	helpstring("IWindowMsg Interface"),
+	pointer_default(unique)
+] 
+#line 14 "c:\\fastlane\\controls\\dll - tbcontrols\\windowmsg.h"
+interface IWindowMsg : IDispatch {
+};
+
+
+[ version(1.0), uuid(FA61F300-E16D-400E-AF05-6297AF0285B4), helpstring("tbControls 1.0 Type Library") ]
+library tbControls
+{
+	importlib("stdole2.tlb");
+	importlib("olepro32.dll");
+
+	[
+		version(1.0),
+		uuid(C8A5701C-082A-4E05-A4B2-E53E08BC0EFB),
+		helpstring("ItemObj Class")
+	] 
+#line 86 "c:\\fastlane\\controls\\dll - tbcontrols\\itemobj.h"
+	coclass CItemObj {
+		interface IItemObj;
+		interface ITBStream;
+	};
+
+	[
+		version(1.0),
+		uuid(FF5BEFA5-8E50-4528-8F04-3340D66E6F80),
+		helpstring("CashDrawerObj Class")
+	] 
+#line 47 "c:\\fastlane\\controls\\dll - tbcontrols\\cashdrawerobj.h"
+	coclass CCashDrawerObj {
+		interface ICashDrawerObj;
+		interface ITBStream;
+	};
+
+	[
+		version(1.0),
+		uuid(E1354D9A-EBFF-479C-9EA2-2C41D6C2BB1E),
+		helpstring("TotalObj Class")
+	] 
+#line 45 "c:\\fastlane\\controls\\dll - tbcontrols\\totalobj.h"
+	coclass CTotalObj {
+		interface ITotalObj;
+		interface ITBStream;
+	};
+
+	[
+		version(1.0),
+		uuid(79D27133-06DF-46F9-8B5D-526D85332082),
+		helpstring("TenderObj Class")
+	] 
+#line 51 "c:\\fastlane\\controls\\dll - tbcontrols\\tenderobj.h"
+	coclass CTenderObj {
+		interface ITenderObj;
+		interface ITBStream;
+	};
+
+	[
+		version(1.0),
+		uuid(CC493BBE-BBB2-4E5F-92E7-83170080B195),
+		helpstring("RewardObj Class")
+	] 
+#line 59 "c:\\fastlane\\controls\\dll - tbcontrols\\rewardobj.h"
+	coclass CRewardObj {
+		interface IRewardObj;
+		interface ITBStream;
+	};
+
+	[
+		version(1.0),
+		uuid(2735E4A9-F209-4534-B7B9-E60D7D663A02),
+		helpstring("ScannerObj Class")
+	] 
+#line 64 "c:\\fastlane\\controls\\dll - tbcontrols\\scannerobj.h"
+	coclass CScannerObj {
+		interface IScannerObj;
+		interface ITBStream;
+	};
+
+	[
+		version(1.0),
+		uuid(23439E29-A334-434B-963D-1AEC4A5A8A0B),
+		helpstring("CKeylockObj Class")
+	] 
+#line 34 "c:\\fastlane\\controls\\dll - tbcontrols\\keylockobj.h"
+	coclass CKeylockObj {
+		interface IKeylockObj;
+		interface ITBStream;
+	};
+
+	[
+		version(1.0),
+		uuid(080D4835-9415-4279-B2B7-8DC4E716AB0D),
+		helpstring("KeyboardObj Class")
+	] 
+#line 52 "c:\\fastlane\\controls\\dll - tbcontrols\\keyboardobj.h"
+	coclass CKeyboardObj {
+		interface IKeyboardObj;
+		interface ITBStream;
+	};
+
+	[
+		version(1.0),
+		uuid(155E348A-B10F-4DFB-90B6-4626518C9136),
+		helpstring("MSRObj Class")
+	] 
+#line 37 "c:\\fastlane\\controls\\dll - tbcontrols\\msrobj.h"
+	coclass CMSRObj {
+		interface IMSRObj;
+		interface ITBStream;
+	};
+
+	[
+		version(1.0),
+		uuid(B5CF4A4A-4EB0-402B-BA77-7CB8E13DEEC4),
+		helpstring("MICRObj Class")
+	] 
+#line 60 "c:\\fastlane\\controls\\dll - tbcontrols\\microbj.h"
+	coclass CMICRObj {
+		interface IMICRObj;
+		interface ITBStream;
+	};
+
+	[
+		version(1.0),
+		uuid(C2D1E10E-3DB1-4FE7-8160-FBEAB907B533),
+		helpstring("PrinterObj Class")
+	] 
+#line 56 "c:\\fastlane\\controls\\dll - tbcontrols\\printerobj.h"
+	coclass CPrinterObj {
+		interface IPrinterObj;
+		interface ITBStream;
+	};
+
+	[
+		version(1.0),
+		uuid(AD4AE7F5-390C-4916-AC73-224FFBF7AC63),
+		helpstring("PinpadObj Class")
+	] 
+#line 62 "c:\\fastlane\\controls\\dll - tbcontrols\\pinpadobj.h"
+	coclass CPinpadObj {
+		interface IPinpadObj;
+		interface ITBStream;
+	};
+
+	[
+		version(1.0),
+		uuid(FB06D951-F350-413B-81CA-F613D234F339),
+		helpstring("ScaleObj Class")
+	] 
+#line 35 "c:\\fastlane\\controls\\dll - tbcontrols\\scaleobj.h"
+	coclass CScaleObj {
+		interface IScaleObj;
+		interface ITBStream;
+	};
+
+	[
+		version(1.0),
+		uuid(CF2B0DA9-5461-4544-8494-001C909E095C),
+		helpstring("CustomObj Class")
+	] 
+#line 35 "c:\\fastlane\\controls\\dll - tbcontrols\\customobj.h"
+	coclass CCustomObj {
+		interface ICustomObj;
+		interface ITBStream;
+	};
+
+	[
+		version(1.0),
+		uuid(E3052DB2-D582-4A89-A354-AD9705641442),
+		helpstring("TBGenObj Class")
+	] 
+#line 54 "c:\\fastlane\\controls\\dll - tbcontrols\\tbgenobj.h"
+	coclass CTBGenObj {
+		interface ITBGenObj;
+		interface ITBStream;
+	};
+
+	[
+		uuid(F82352BA-F302-41C9-99FF-9E0930C2A3BC),
+		helpstring("_ItbConnectEvents Interface")
+	] 
+#line 75 "c:\\fastlane\\controls\\dll - tbcontrols\\tbconnect.h"
+	dispinterface _ItbConnectEvents {
+	properties:
+
+	methods:
+		[id(1),helpstring("method OnReceive")] HRESULT  OnReceive([in] BYTE *pBuf, [in] LONG length);
+		[id(2),helpstring("method Receive")] HRESULT  Receive();
+		[id(3),helpstring("method ReceiveItemObj")] HRESULT  ReceiveItemObj([in]IItemObj *i_pItemObj);
+		[id(4),helpstring("method ReceiveCashDrawerObj")] HRESULT  ReceiveCashDrawerObj([in] ICashDrawerObj *pCashDrawer);
+		[id(5),helpstring("method ReceiveTotalObj")] HRESULT  ReceiveTotalObj([in] ITotalObj *pTotal);
+		[id(6),helpstring("method ReceiveTenderObj")] HRESULT  ReceiveTenderObj([in] ITenderObj *pTender);
+		[id(7),helpstring("method ReceiveRewardObj")] HRESULT  ReceiveRewardObj([in] IRewardObj *pReward);
+		[id(8),helpstring("method ReceiveScannerObj")] HRESULT  ReceiveScannerObj([in]IScannerObj *pScanner);
+		[id(9),helpstring("method ReceiveKeyboardObj")] HRESULT  ReceiveKeyboardObj([in] IKeyboardObj *pKeyboard);
+		[id(10),helpstring("method ReceiveKeylockObj")] HRESULT  ReceiveKeylockObj([in] IKeylockObj *pKeylock);
+		[id(11),helpstring("method ReceiveMSRObj")] HRESULT  ReceiveMSRObj([in]IMSRObj *pMSRObj);
+		[id(12),helpstring("method ReceiveMICRObj")] HRESULT  ReceiveMICRObj([in]IMICRObj *pMICRObj);
+		[id(13),helpstring("method ReceivePrinterObj")] HRESULT  ReceivePrinterObj([in]IPrinterObj *pPrinterObj);
+		[id(14),helpstring("method ReceivePinpadObj")] HRESULT  ReceivePinpadObj([in]IPinpadObj *pPinpadMsg);
+		[id(15),helpstring("method ReceiveScaleObj")] HRESULT  ReceiveScaleObj([in]IScaleObj *pScaleObj);
+		[id(16),helpstring("method ReceiveCustomObj")] HRESULT  ReceiveCustomObj([in]ICustomObj *pCustom);
+		[id(17),helpstring("method ReceiveTBGenObj")] HRESULT  ReceiveTBGenObj([in] ITBGenObj *pGenObj);
+	};
+
+	[
+		version(1.0),
+		uuid(FEA44A8A-E5BC-4BB5-A2AC-34C7A0B29703),
+		helpstring("tbConnect Class")
+	] 
+#line 108 "c:\\fastlane\\controls\\dll - tbcontrols\\tbconnect.h"
+	coclass CtbConnect {
+		interface ItbConnect;
+		[default, source]	interface _ItbConnectEvents;
+	};
+
+	[
+		version(1.0),
+		uuid(8BA51575-F22F-426D-A4D2-5D3301F086F4),
+		helpstring("WindowMsg Class")
+	] 
+#line 31 "c:\\fastlane\\controls\\dll - tbcontrols\\windowmsg.h"
+	coclass CWindowMsg {
+		interface IWindowMsg;
+	};
+
+}
+

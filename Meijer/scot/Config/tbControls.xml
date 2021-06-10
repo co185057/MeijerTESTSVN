@@ -1,0 +1,326 @@
+<?xml version="1.0"?>
+
+<!-- CHANGE HISTORY: 										-->
+<!--												-->
+<!-- CRD 537490 Name: CJ Estrada Date: Mar 17, 2021 -->
+<!-- CRD 564271 Name: CJ Estrada Date: Mar 9, 2021 -->
+<!-- POS83168 Work Request:61232 Name:Matt Condra    Date:February 11, 2014		-->
+<!-- POS57686 Work Request:54416 Name:Robert Susanto Date:March 11 2013  			-->
+<!-- POS12127 Work Request:13752 Name:Robert Susanto Date:April 5 2011  			-->
+<!--												-->
+
+<messages Version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\scot\Config\tbcontrols.xsd">
+	<message name="ItemDetails" msgid="A0" xmloutput="0" validate="1">
+		<fields>
+			<field name="ItemDescription" ftype="string"></field>
+			<field name="ItemCode" ftype="string"></field>
+			<field name="ExtendedPrice" ftype="string"></field>
+			<field name="UnitPrice" ftype="string"></field>
+			<field name="Quantity" ftype="string"></field>
+			<field name="Weight" ftype="string"></field>
+			<field name="IsCoupon" ftype="boolean"></field>
+			<field name="NeedQuantity" ftype="boolean"></field>
+			<field name="NeedWeight" ftype="boolean"></field>
+			<field name="NeedPrice" ftype="boolean"></field>
+			<field name="UnknownItem" ftype="boolean"></field>
+			<field name="NotForSale" ftype="boolean"></field>
+			<field name="IsRestricted" ftype="boolean"></field>
+			<field name="RestrictedAge" ftype="long"></field>
+			<field name="TareCode" ftype="i4"></field>
+			<field name="IsVoided" ftype="boolean"></field>
+			<field name="VisualVerify" ftype="boolean"></field>
+			<field name="LinkedItem" ftype="boolean"></field>
+			<field name="ErrorDescription" ftype="string"></field>
+			<field name="Department" ftype="i4"></field>
+			<field name="EntryID" ftype="i4"></field>
+			<field name="PIMItem" ftype="boolean"></field>
+			<field name="SecurityTag" ftype="i1"></field>
+			<field name="UnitQuantity" ftype="string"></field>
+            <field name="LinkedItemCode" ftype="string"></field>
+			<field name="UserLong" ftype="i4"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="Display" msgid="20" xmloutput="1" validate="1">
+		<fields>
+			<field name="Title1" ftype="string"></field>
+			<field name="Title2" ftype="string"></field>
+			<field name="LTT1" ftype="string"></field>
+			<field name="LTT2" ftype="string"></field>
+			<field name="DF_ID" ftype="i4"></field>
+			<field name="DK1_Label" ftype="string"></field>
+			<field name="DK2_Label" ftype="string"></field>
+			<field name="DK3_Label" ftype="string"></field>
+			<field name="DK4_Label" ftype="string"></field>
+			<field name="DK5_Label" ftype="string"></field>
+			<field name="DK6_Label" ftype="string"></field>
+			<field name="DK7_Label" ftype="string"></field>
+			<field name="DK8_Label" ftype="string"></field>
+			<field name="DK1_Label_Alt" ftype="string"></field>
+			<field name="DK2_Label_Alt" ftype="string"></field>
+			<field name="DK3_Label_Alt" ftype="string"></field>
+			<field name="DK4_Label_Alt" ftype="string"></field>
+			<field name="DK5_Label_Alt" ftype="string"></field>
+			<field name="DK6_Label_Alt" ftype="string"></field>
+			<field name="DK7_Label_Alt" ftype="string"></field>
+			<field name="DK8_Label_Alt" ftype="string"></field>
+			<field name="DK1_Grayed" ftype="i4"></field>
+			<field name="DK2_Grayed" ftype="i4"></field>
+			<field name="DK3_Grayed" ftype="i4"></field>
+			<field name="DK4_Grayed" ftype="i4"></field>
+			<field name="DK5_Grayed" ftype="i4"></field>
+			<field name="DK6_Grayed" ftype="i4"></field>
+			<field name="DK7_Grayed" ftype="i4"></field>
+			<field name="DK8_Grayed" ftype="i4"></field>
+			<field name="DK1_Enabled" ftype="boolean"></field>
+			<field name="DK2_Enabled" ftype="boolean"></field>
+			<field name="DK3_Enabled" ftype="boolean"></field>
+			<field name="DK4_Enabled" ftype="boolean"></field>
+			<field name="DK5_Enabled" ftype="boolean"></field>
+			<field name="DK6_Enabled" ftype="boolean"></field>
+			<field name="DK7_Enabled" ftype="boolean"></field>
+			<field name="DK8_Enabled" ftype="boolean"></field>			
+			<field name="DK1_Desc" ftype="string"/>
+			<field name="DK2_Desc" ftype="string"/>
+			<field name="DK3_Desc" ftype="string"/>
+			<field name="DK4_Desc" ftype="string"/>
+			<field name="DK5_Desc" ftype="string"/>
+			<field name="DK6_Desc" ftype="string"/>
+			<field name="DK7_Desc" ftype="string"/>
+			<field name="DK8_Desc" ftype="string"/>	
+			<field name="DK1_Icon" ftype="string"/>
+			<field name="DK2_Icon" ftype="string"/>
+			<field name="DK3_Icon" ftype="string"/>
+			<field name="DK4_Icon" ftype="string"/>
+			<field name="DK5_Icon" ftype="string"/>
+			<field name="DK6_Icon" ftype="string"/>
+			<field name="DK7_Icon" ftype="string"/>
+			<field name="DK8_Icon" ftype="string"/>		
+			<field name="OperGuid_Txt" ftype="string"></field>
+			<field name="OperGuid_Prompt" ftype="string"></field>
+			<field name="OperGuid_Num" ftype="i4"></field>
+			<field name="OperGuid_Level" ftype="i4"></field>
+			<field name="AllowAMExit" ftype="boolean"></field>
+			<field name="IsOperGuid" ftype="boolean"></field>
+			<field name="Prc_method_desc" ftype="string"></field>
+			<field name="Prc_method_prc" ftype="long"></field>
+			<field name="IsPrcMethod" ftype="boolean"></field>
+			<field name="Void_item_desc" ftype="string"></field>
+			<field name="Void_item_quantity" ftype="long"></field>
+			<field name="Void_item_price" ftype="long"></field>
+			<field name="IsVoidItem" ftype="boolean"></field>
+			<field name="EntryData" ftype="string"></field>
+			<field name="ChangeDue" ftype="i4"></field>
+			<field name="TaxList_Selected" ftype="string"></field>
+			<field name="Raincheck_Selected" ftype="string"></field>  <!-- POS57686 rrs -->
+		</fields>
+	</message>
+	<message name="Reward" msgid="A3" xmloutput="0" validate="1">
+		<fields>
+			<field name="RewardDescription" ftype="string"></field>
+			<field name="RewardValue" ftype="string"></field>
+			<field name="ShowRewardPoints" ftype="boolean"></field>
+			<field name="EntryID" ftype="long"></field>
+			<field name="AssociatedEntryID" ftype="long"></field>
+			<field name="UpdateRewardTotal" ftype="boolean"></field>
+			<field name="RewardPoints" ftype="long"></field>
+			<field name="IsVoided" ftype="boolean"></field>
+			<field name="RewardLocation" ftype="i1"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="long"></field>
+		</fields>
+	</message>
+	<message name="Total" msgid="A2" xmloutput="0" validate="1">
+		<fields>
+			<field name="TaxDue" ftype="string"></field>
+			<field name="TotalDue" ftype="string"></field>
+			<field name="TotalDiscount" ftype="string"></field>
+			<field name="ErrorDescription" ftype="string"></field>
+			<field name="FoodStampAmount" ftype="string"></field>
+			<field name="RewardPoints" ftype="long"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="Tender" msgid="A1" xmloutput="0" validate="1">
+		<fields>
+			<field name="TenderDescription" ftype="string"></field>
+			<field name="TenderType" ftype="long"></field>
+			<field name="Amount" ftype="string"></field>
+			<field name="Balance" ftype="string"></field>
+			<field name="ChangeDue" ftype="string"></field>
+			<field name="Accepted" ftype="boolean"></field>
+			<field name="Voided" ftype="boolean"></field>
+			<field name="ErrorDescription" ftype="string"></field>
+			<field name="CardRemainingBalance" ftype="string"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="CashDrawer" msgid="54" xmloutput="0" validate="1">
+		<fields>
+			<field name="Station" ftype="i1"></field>
+			<field name="Status" ftype="i1"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="Keyboard" msgid="10" xmloutput="0" validate="1">
+		<fields>
+			<field name="Code" ftype="i2"></field>
+			<field name="Events" ftype="i1"></field>
+			<field name="Flags" ftype="i1"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="Keylock" msgid="90" xmloutput="0" validate="1">
+		<fields>
+			<field name="Position" ftype="i1"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="MSR" msgid="40" xmloutput="0" validate="1">
+		<fields>
+			<field name="Len1" ftype="i1"></field>
+			<field name="Len2" ftype="i1"></field>
+			<field name="Len3" ftype="i1"></field>
+			<field name="Tracks" ftype="string"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="MICR" msgid="67" xmloutput="0" validate="1">
+		<fields>
+			<field name="TransitNumber" ftype="string"></field>
+			<field name="BankNumber" ftype="string"></field>
+			<field name="AccountNumber" ftype="string"></field>
+			<field name="SerialNumber" ftype="string"></field>
+			<field name="CheckType" ftype="i1"></field>
+			<field name="CountryCode" ftype="i1"></field>
+			<field name="Data" ftype="string"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="PinPad" msgid="66" xmloutput="0" validate="1">
+		<fields>
+			<field name="Account" ftype="string"></field>
+			<field name="TransactionType" ftype="i2"></field>
+			<field name="PinEncoding" ftype="i1"></field>
+			<field name="WorkingKey" ftype="string"></field>
+			<field name="PinBlockFormat" ftype="i1"></field>
+			<field name="Len1" ftype="i1"></field>
+			<field name="Len2" ftype="i1"></field>
+			<field name="Len3" ftype="i1"></field>
+			<field name="Track1" ftype="string"></field>
+			<field name="Track2" ftype="string"></field>
+			<field name="Track3" ftype="string"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="Printer" msgid="30" xmloutput="0" validate="1">
+		<fields>
+			<field name="Function" ftype="i1"></field>
+			<field name="Height" ftype="i2"></field>
+			<field name="Width" ftype="i2"></field>
+			<field name="Alignment" ftype="i1"></field>
+			<field name="StationId" ftype="i1"></field>
+			<field name="BarcodeType" ftype="i1"></field>
+			<field name="BarcodeCharPrint" ftype="i1"></field>
+			<field name="LogoNumber" ftype="i1"></field>
+			<field name="Data" ftype="bin.base64"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="Scale" msgid="6A" xmloutput="0" validate="1">
+		<fields>
+			<field name="Weight" ftype="long"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="Scanner" msgid="4A" xmloutput="0" validate="1">
+		<fields>
+			<field name="BarcodeType" ftype="long"></field>
+			<field name="Data" ftype="string"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="PosState" msgid="FE" xmloutput="1" validate="1">
+		<fields>
+			<field ftype="string" name="PosState"/>
+			<field ftype="string" name="Group"/>
+			<field ftype="string" name="IgnoreDuplicate"/>
+			<field ftype="string" name="TriggerDelay"/>
+			
+		</fields>
+	</message>
+	<message name="ACSReward" msgid="A3" xmloutput="1" validate="1">
+		<fields>
+			<field name="ContextType" ftype="long"></field>
+			<field name="PointsEarned" ftype="long"></field>
+			<field name="AmountSaved" ftype="long"></field>
+			<field name="TaxForDisplay" ftype="long"></field>
+			<field name="TransactionTotal" ftype="long"></field>
+			<field name="EntryID" ftype="long"></field>
+			<field name="RewardID" ftype="long"></field>
+			<field name="RewardType" ftype="long"></field>
+			<field name="ExtendedRewardValue" ftype="long"></field>
+			<field name="RewardDesc1" ftype="string"></field>
+			<field name="RewardDesc2" ftype="string"></field>
+			<field name="RewardDesc3" ftype="string"></field>
+			<field name="RewardAmt1" ftype="string"></field>
+			<field name="RewardAmt2" ftype="string"></field>
+			<field name="RewardAmt3" ftype="string"></field>
+			<field name="ItemModifier1" ftype="string"></field>
+			<field name="ItemModifier2" ftype="string"></field>
+			<field name="ItemModifier3" ftype="string"></field>
+			<field name="VoidIndicator1" ftype="i4"></field>
+			<field name="VoidIndicator2" ftype="i4"></field>
+			<field name="VoidIndicator3" ftype="i4"></field>
+		</fields>
+	</message>
+	<message name="ACSList" msgid="B0" xmloutput="1" validate="0">
+			<fields>
+				<field name="EntryValue" ftype="string"></field>
+			</fields>
+	</message>
+
+	<!-- POS 12127 rrs -->
+	<message name="ACSTaxList" msgid="B0" xmloutput="1" validate="0">
+			<fields>
+				<field name="TaxListDesc" ftype="string"></field>
+			</fields>
+	</message>
+	<!-- POS 12127 rrs -->
+
+	<!-- POS83168: The PosDynaframeMode Control will allow FastLane to know the appropriate time to enable its scanner.   -->
+	<!-- The appropriate time is when the POS sales app's DF_Mode context's scan_scale is set to "|BITMAP|:scaninpt.bmp". -->
+	<message name="PosDynaframeMode" msgid="B1" xmloutput="1" validate="1">
+		<fields>
+			<field name="PosModeImage" ftype="string"></field>
+			<field name="PosScanScaleImage" ftype="string"></field>
+		</fields>
+	</message>
+	<!-- CRD 313027 -->
+	<message name="EverseenProperties" msgid="B0" xmloutput="1" validate="1">
+		<fields>
+			<field name="EverseenVideoPath" ftype="string"></field>
+		</fields>
+	</message>
+	<!-- CRD 564271 -->
+	<message name="ApplyMeijerCardProperties" msgid="B0" xmloutput="1" validate="1">
+		<fields>
+			<field name="ApplyMeijerCardEnabled" ftype="string"></field>
+			<field name="ApplyMeijerCardRedisplay" ftype="string"></field>		<!-- CRD 537490 -->
+			<field name="ApplyMeijerCardOnAttract" ftype="string"></field>
+			<field name="ApplyMeijerCardOnSNB" ftype="string"></field>
+			<field name="ApplyMeijerCardOnPayment" ftype="string"></field>
+		</fields>
+	</message>
+</messages>

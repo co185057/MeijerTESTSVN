@@ -1,0 +1,58 @@
+﻿<Display Version="1.0">
+	<Languages>
+		<Language Name="041f">
+			<StringTable>
+				<String Name="MainTitle">RAP Yapılandırması</String>
+				<String Name="AddButtonText">Ekle</String>
+				<String Name="AddLaneTitle">Kasa Ekle</String>
+				<String Name="ApplyButtonText">Uygula</String>
+				<String Name="Backspace">Geri Tuşu</String>				
+				<String Name="CancelButtonText">İptal Et</String>
+				<String Name="ConfigTypeText">Kasa yapılandırma tipi:</String>
+				<String Name="ConfirmDeleteTitle">İptali Onayla</String>
+				<String Name="ConfirmDeleteText">Kasayı iptal et?</String>
+				<String Name="ConfirmExitTitle">Çıkışı Onayla</String>
+				<String Name="ConfirmExitText">Bu değişikliklerden vazgeçmek istediğinize emin misiniz?</String>
+				<String Name="ConfirmSaveTitle">Kaydetmeyi Onayla</String>
+				<String Name="ConfirmSaveText">Değişiklikleri RapNet.xml’e kaydediyorsunuz. Devam etmek istiyor musunuz?</String>
+				<String Name="DeleteButtonText">İptal Et</String>
+				<String Name="DuplicateIPTitle">Çift IP Adresi</String>
+				<String Name="DuplicateLaneTitle">Çift Kasa Bulundu</String> 
+				<String Name="DuplicateLaneText">%s kasası zaten mevcut</String>
+				<String Name="EditLaneTitle">Kasayı Düzenle</String>
+				<String Name="EmptyText">Boş</String>
+				<String Name="Enter">Giriş</String>
+				<String Name="EnterHostNameInstruction">Kullanıcı Adınızı Girin ve "Giriş"e basın.</String>
+				<String Name="EnterIPAddressInstruction">IP Adresini Girin ve "Giriş"e basın.</String>
+				<String Name="EnterIPOctetInstruction">IP Oktetini Girin ve "Giriş"e basın.</String>
+				<String Name="EnterHostNameText">Kasa Kullanıcı Adını Girin</String>
+				<String Name="EnterIPAddressText">Kasanın IP Adresini Girin</String>
+				<String Name="EnterIPOctetText">Kasanın IP Oktetini Girin</String>
+				<String Name="ErrorText">Hata</String>
+				<String Name="ExitButtonText">Çıkış</String>
+				<String Name="FileErrorTitle">Dosya Bulunamadı</String>
+				<String Name="FileErrorText">Hata: RapNet.xml dosyası bulunamıyor.</String>
+				<String Name="HostNameText">Kullanıcı Adı</String>
+				<String Name="IPAddressText">IP Adresi</String>
+				<String Name="IPOctetText">IP Baytı</String>
+				<String Name="LaneText">Kasa</String>
+				<String Name="MoveButtonText">Taşı</String>
+				<String Name="NoButtonText">Hayır</String>
+				<String Name="NoLane">Tüm kasalar iptal edildi</String>
+				<String Name="NoLaneToDelete">İptal edilecek başka kasa yok.</String>
+				<String Name="NoLaneWarningTitle">RapNet.xml’de Kasa Yok</String>
+				<String Name="NoLaneWarningText">Uyarı: RapNet.xml için kasa yapılandırılmamış </String>
+				<String Name="OkButtonText">TAMAM</String>
+				<String Name="RestartRAPTitle">RAP’i Yeniden Başlat</String>
+				<String Name="RestartRAPText">RAP’i yeniden başlatmanız gerekiyor</String>
+				<String Name="SameRapIPAddress">Aynı IP adresini Masaüstü RAP IP adresi olarak kullanamazsınız: %s</String>
+				<String Name="SameHHRapIPAddress">Aynı IP adresini Portatif RAP IP adresi olarak kullanamazsınız: %s</String>
+				<String Name="SaveButtonText">Kaydet</String>
+				<String Name="SelectLaneToDelete">İptal edilecek kasayı seçin</String>
+				<String Name="SelectSourceText">Taşınacak kasayı seç</String>
+				<String Name="SelectDestinationText">Hedef Seç</String>
+				<String Name="YesButtonText">Evet</String>
+			</StringTable>
+		</Language>
+	</Languages>
+</Display>

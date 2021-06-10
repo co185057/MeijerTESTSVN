@@ -1,0 +1,274 @@
+﻿<!-- Display the Exit All and Command Prompt buttons. -->
+<!-- Display Operator Registration Utility if biometrics is installed - TAR 381646 -->
+<Display Version="3.0">
+  <Languages>
+    <Language Name="0409">
+      <StringTable>
+        <String Name="ScanIDOrKeyLeadthru">Key in your Employee ID and touch "Enter", Or scan your employee badge.</String>
+        <String Name="ReScanIDOrKeyLeadthru">Incorrect credentials. Please re-key your Employee ID and touch "Enter", Or scan your employee badge.</String>
+        <String Name="ScanIDOnlyLeadthru">Scan your employee badge.</String>
+        <String Name="ReScanIDOnlyLeadthru">Incorrect credentials. Please re-scan your employee badge.</String>
+        <String Name="EnterPasswordOrUseBiometricLeadthru">Key in your password and touch "Enter", Or place your finger on the biometric device to login.</String>
+      </StringTable>
+    </Language>
+  </Languages>
+  <Contexts>
+    <Context Name="FastLaneContext">
+      <Include>
+        <Control Name="CommandPromptButton">
+          <Properties>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="ExitAllFastLaneButton">
+          <Properties>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="OperatorRegistrationUtilityButton">
+          <Properties>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="RapConfigureButton">
+          <Properties>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="RunADDButton">
+          <Properties>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="WindowsLogOnButton">
+          <Properties>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="RAPContext">
+      <Include>
+        <Control Name="CommandPromptButton">
+          <Properties>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="ExitAllFastLaneButton">
+          <Properties>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="TrainingProgramButton">
+          <Properties>
+            <Property Name="Visible">True</Property>
+          </Properties>
+        </Control>
+        <Control Name="OperatorRegistrationUtilityButton">
+          <Properties>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="RunADDButton">
+          <Properties>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="RapConfigureButton">
+          <Properties>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="WindowsLogOnButton">
+          <Properties>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="ScanIDOrKey">
+      <CustomData>
+        <Data Name="State">SignOn</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <Control Name="KeyBoardP1">
+        </Control>
+        <Control Name="KeyBoardP2">
+        </Control>
+        <Control Name="SMNumericKeyBoard">
+        </Control>
+        <Control Name="KeyBoardP4">
+          <Properties>
+            <Property Name="Action">Click,ChangeContext,EnterPasswordOrUseBiometricFromScanIDOrKey</Property>
+          </Properties>
+        </Control>
+        <Control Name="ButtonCommand0">
+        </Control>
+        <Control Name="Title">
+          <Properties>
+            <Property Name="TextFormat">$UtilityFunctionsTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="TerminalID">
+        </Control>
+        <Control Name="Leadthru">
+          <Properties>
+            <Property Name="TextFormat">$ScanIDOrKeyLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Action">ChangeText,ChangeState,KeyBoardP4,Text</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="MainBackground">
+        </Control>
+        <Control Name="OperationID">
+        </Control>
+        <Control Name="DateText">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="ScanIDOnly">
+      <CustomData>
+        <Data Name="State">SignOn</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <Control Name="ButtonCommand0">
+        </Control>
+        <Control Name="Title">
+          <Properties>
+            <Property Name="TextFormat">$UtilityFunctionsTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="TerminalID">
+        </Control>
+        <Control Name="Leadthru">
+          <Properties>
+            <Property Name="TextFormat">$ScanIDOnlyLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Action">ChangeText,ChangeState,KeyBoardP4,Text</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="MainBackground">
+        </Control>
+        <Control Name="OperationID">
+        </Control>
+        <Control Name="DateText">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="EnterPasswordOrUseBiometricFromScanIDOrKey">
+      <CustomData>
+        <Data Name="State">SignOn</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <Control Name="KeyBoardP1">
+        </Control>
+        <Control Name="KeyBoardP2">
+        </Control>
+        <Control Name="SMNumericKeyBoard">
+        </Control>
+        <Control Name="KeyBoardP4">
+        </Control>
+        <Control Name="ButtonCommand0">
+          <Properties>
+            <Property Name="Action">Click,ChangeContext,ScanIDOrKey</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title">
+          <Properties>
+            <Property Name="TextFormat">$UtilityFunctionsTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="TerminalID">
+        </Control>
+        <Control Name="Leadthru">
+          <Properties>
+            <Property Name="TextFormat">$EnterPasswordOrUseBiometricLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Password">True</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="MainBackground">
+        </Control>
+        <Control Name="OperationID">
+        </Control>
+        <Control Name="DateText">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="EnterPasswordOrUseBiometricFromScanIDOnly">
+      <CustomData>
+        <Data Name="State">SignOn</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <Control Name="KeyBoardP1">
+        </Control>
+        <Control Name="KeyBoardP2">
+        </Control>
+        <Control Name="SMNumericKeyBoard">
+        </Control>
+        <Control Name="KeyBoardP4">
+        </Control>
+        <Control Name="ButtonCommand0">
+          <Properties>
+            <Property Name="Action">Click,ChangeContext,ScanIDOnly</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title">
+          <Properties>
+            <Property Name="TextFormat">$UtilityFunctionsTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="TerminalID">
+        </Control>
+        <Control Name="Leadthru">
+          <Properties>
+            <Property Name="TextFormat">$EnterPasswordOrUseBiometricLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Password">True</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="MainBackground">
+        </Control>
+        <Control Name="OperationID">
+        </Control>
+        <Control Name="DateText">
+        </Control>
+      </Include>
+    </Context>
+  </Contexts>
+  <Fonts />
+  <Controls>
+  </Controls>
+</Display>

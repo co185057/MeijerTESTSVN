@@ -1,0 +1,45 @@
+
+
+;Training Checks
+
+;123456780 | 1234567890123412 | 101 | Training normal OK
+;123456780 | 1234567890123413 | 102 | Training "check network down" normal OK
+;123456780 | 1234567890123414 | 103 | Training MICR does not read account number, Type in account and ABA, "Offline" during authorization
+;123456780 | 1234567890123415 | 104 | Training "Drivers License Required", Type in account number and ABA, State Code and DL#
+;123456780 | 1234567890123456 | 105 | Training "Invalid account", Need supervisor position and Auth number
+;123456780 | 1234567890123416 | 106 | Training "check network down" normal OK;
+;123456780 | 1234567890123418 | 107 | Training "MGR- # of checks exceeded", Need supervisor position and Auth number
+;123456780 | 1234567890123419 | 108 | Training "MGR- # of stores exceeded", Need supervisor position and Auth number
+;123456780 | 1234567890123420 | 109 | Training "MGR- Daily $ exceeded", Need supervisor position and Auth number
+;123456780 | 1234567890123421 | 110 | Training "MGR- Onetime $ exceeded", Need supervisor position and Auth number
+;123456780 | 1234567890123422 | 111 | Training "MGR- Returned chk", Need supervisor position and Auth number
+;123456780 | 1234567890123423 | 112 | Training "Drivers License Required", State Code and DL# needed
+;123456780 | 1234567890123424 | 113 | Training "MGR- MICR on NEG File", Need supervisor position and Auth number
+
+;
+;
+;
+; TB Emulator Test Checks
+; CODES
+; 0 -- Accepted
+; 1 -- MICR could not read check, check info must be keyed in
+; 2 -- State Code and DL# must be keyed in for approval
+; 3 -- Need Auth number keyed in for approval (and likely a supervisor key turn)
+;
+; Formats
+12,20,7,5,20,8
+;TRANSIT    ;ACCOUNT            ;SEQNUM;CODE;2X20MESSAGE        ;KEY
+;23456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567;
+123456780   1234567890123412    101    0                        0
+123456780   1234567890123413    102    0    CHECK NETWORK DOWN  0
+123456780   1234567890123414    103    1    MICR COULD NOT READ 0
+123456780   1234567890123415    104    3    DRIVERS LICENSE REQD0
+123456780   1234567890123456    105    3    INVALID ACCOUNT     1
+123456780   1234567890123416    106    0    CHECK NETWORK DOWN  0
+123456780   1234567890123418    107    3    MGR-# OF CHKS EXCEED1
+123456780   1234567890123419    108    3    MGR-# OF STRS EXCEED1
+123456780   1234567890123420    109    3    MGR-DAILY $ EXCEEDED1
+123456780   1234567890123421    110    3    MGR-ONETIME $ EXCEED1
+123456780   1234567890123422    111    3    MGR-RETURNED CHECK  1
+123456780   1234567890123423    112    2    DRIVERS LICENSE REQD0
+123456780   1234567890123424    113    3    MGR-MICR ON NEG FILE1

@@ -1,0 +1,20 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\SCOTTB\PipeServer]
+"SocketReadPort"="5050"
+"SocketWritePort"="5051"
+"HeaderSpecVersion"="2"
+"TBWritePipe"="\\\\.\\PIPE\\MONITOR"
+"TBReadPipe"="\\\\.\\PIPE\\ORIGINATE"
+"ACKTimeout"= "3000"
+"SendAllToTB"="0"
+"WaitForSubscriber"=" <-- list of comma separated device IDs to block until a subscriber is found"
+
+
+; PIPESERVER- NCRTBDevice required
+; device IDs can be found tbControls.xml
+[HKEY_LOCAL_MACHINE\SOFTWARE\\NCR\\SCOT\\CurrentVersion\\SCOTTB\\SocketServerInfo]
+"ServerAddress"="localhost"
+"AckNoAck"="1"
+"ListenToDevices"="10,30,3A,40,4A,54,6A"
+"TimeForPOStoProcessKey"="50"

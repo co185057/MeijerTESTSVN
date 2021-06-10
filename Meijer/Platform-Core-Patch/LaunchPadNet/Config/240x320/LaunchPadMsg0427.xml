@@ -1,0 +1,58 @@
+﻿<Display Version="1.0">
+	<Languages>
+		<Language Name="0427">
+			<StringTable>
+				<String Name="SwitchToRAPBtnPrimaryTxt">Perjungti į RAP</String>
+				<String Name="ShutdownSystemBtnPrimaryTxt">Išjungti visą sistemą</String>
+				<String Name="RebootSystemBtnPrimaryTxt">Perkrauti \nsistemą iš naujo</String>
+				<String Name="VolumeBtnPrimaryTxt">Volume</String>
+				<String Name="EventViewerBtnPrimaryTxt">Įvykių žiūryklė</String>
+				<String Name="GenerateLogBtnPrimaryTxt">Gen.diag.failus</String>
+                                <String Name="RapConfigureBtnPrimaryTxt">RAP\nkonfigūracija</String>
+				<String Name="TerminalInfoBtnPrimaryTxt">Įrenginio informacija</String>
+				<String Name="MinMaxRAPBtnPrimaryTxt">Minimize RAP</String>
+				<String Name="MinMaxRAPBtnSecondaryTxt">Padidinti RAP.</String>
+				<String Name="MinMaxRAPBtnPrimaryShowConfirmation">Jei norite sumažinti RAP, palieskite mygtuką „Sumažinti RAP“.</String>
+				<String Name="MinMaxRAPBtnSecondaryShowConfirmation">Jei norite padidinti RAP, palieskite mygtuką „Padidinti RAP“.</String>
+				<String Name="StopStartRAPButtonPrimaryTxt">Sustabdyti RAP</String>
+				<String Name="StopStartRAPButtonSecondaryTxt">Paleisti RAP</String>
+				<String Name="ExitRAPAndRunProfileBtnPrimaryTxt">Sustabdyti RAP ir paleisti profilių tvarkyklę</String>
+				<String Name="ExitRAPAndRunProfileBtnSecondaryTxt">Paleisti profilių tvarkyklę</String>
+				<String Name="UtilityFunctionsTitle">Pagalbinės funkcijos</String>
+				<String Name="SignOnTitle">NCR FastLane\nSign On</String>
+				<String Name="SystemStartup">Sistema paleidžiama... prašome palaukti</String>
+				<String Name="StartTitle">Sistemos paleidimas</String>
+				<String Name="TerminalID">Įrenginio ID:</String>
+				<String Name="OperatorIDText">ID: </String>
+				<String Name="SignOnButtonText">Įeiti į sistemą</String>
+				<String Name="SignOffButtonText">Išeiti iš sistemos</String>
+				<String Name="SignedOffButtonText">Išėjęs iš sistemos</String>
+				<String Name="Exit">Išeiti iš visų</String>
+				<String Name="ReturnToShoppingButtonText">Grįžti</String>
+				<String Name="DiagConfirm">Ar tikrai norite generuoti diagnostikos žurnalo failus?</String>
+				<String Name="ProfileManagerRAPConfirm">Ar tikrai norite sustabdyti RAP ir paleisti profilių tvarkyklę?</String>
+				<String Name="CalibrateConfirm">Ar tikrai norite paleisti kalibruoti jutiklinį ekraną?</String>
+				<String Name="ShutdownConfirm">Ar tikrai norite išjungti visą sistemą?</String>
+				<String Name="RebootConfirm">Ar tikrai norite įkrauti iš naujo visą sistemą?</String>
+				<String Name="CloseAllConfirm">Ar tikrai norite išeiti iš visų programų ir pereiti į darbalaukį?</String>
+				<String Name="VolumeConfirm">Ar tikrai norite reguliuoti garsumo valdiklį?</String>
+				<String Name="TerminalInfoConfirm">Ar tikrai norite pažiūrėti galinio įrenginio informaciją?</String>
+				<String Name="StopRAPConfirm">Ar tikrai norite sustabdyti RAP?</String>
+				<String Name="StartRAPConfirm">Ar tikrai norite paleisti RAP?</String>
+				<String Name="YesText">Taip</String>
+				<String Name="NoText">Ne</String>
+				<String Name="ClearButtonText">Išvalyti</String>
+				<String Name="EnterButtonText">Įvesti</String>
+				<String Name="GoBackButtonText">Grįžti atgal</String>
+				<String Name="SpaceButtonText">Tarpas</String>
+				<String Name="BackSpaceButtonText">Grįžtis</String>
+				<String Name="ShiftButtonText">„Shift“ mygtukas</String>
+				<String Name="EnterIDLeadthru">Žemiau esančiais mygtukais įveskite ID:</String>
+				<String Name="ReEnterIDLeadthru">Neteising. ID ar slaptaž. Žemiau esančiais mygtukais įveskite iš naujo.</String>
+				<String Name="EnterPasswordLeadthru">Žemiau esančiais mygtukais įveskite slaptažodį:</String>
+				<String Name="CancelButtonText">Panaikinti</String>
+				<String Name="LoggingInLeadthru">Prisiregistruojama... Prašome palaukti</String>
+			</StringTable>
+		</Language>
+	</Languages>
+</Display>

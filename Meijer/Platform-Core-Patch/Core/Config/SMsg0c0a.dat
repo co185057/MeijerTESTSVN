@@ -1,0 +1,109 @@
+; Switch Message File   \\ Spanish - Castilian
+;
+; file SMsg0c0a.dat
+;
+
+[WindowName]
+SupervisorSwitchTI = ID del terminal
+SupervisorSwitch = Interruptor en Estado de Operador
+NormalSwitch = Interruptor en Estado Normal
+SupervisorSwitchEV = Interruptor en estado de operador/ El Visor de Eventos se está ejecutando
+SupervisorSwitchGDF = Interruptor en estado de operador/ GetDiagFiles se está ejecutando
+SupervisorSwitchPM = Interruptor en estado de operador/ El Administrador de Perfil se está ejecutando
+SupervisorSwitchTIF = Interruptor en estado de operador/ Información de Terminal se está ejecutando
+
+[ButtonCaptions]
+ExSCRGetDiagFiles = Generar archivos de registro de diagnósticos
+ExAMRGetDiagFiles = Generar archivos de registro de diagnósticos
+ExSCRProfileManager = Salir de FastLane y Ejecutar Administrador de Perfil
+ExAMRProfileManager = Salir de Modo de operador y Ejecutar Administrador de Perfil
+ExSC = Salir de FastLane
+ExAM = Salir de Modo de operador
+SwitchtoAM = Cambiar a Modo de operador
+SwitchtoSC = Cambiar a FastLane
+MinimizeSC = Minimizar FastLane
+MinimizeAM = Minimizar Modo de operador
+MaximizeSC = Maximizar FastLane
+MaximizeAM = Maximizar Modo de operador
+Shutdown = Cerrar todo el sistema
+Reboot = Reinicializar todo el sistema
+RestartAM = Reiniciar Modo de operador
+RestartSC = Iniciar FastLane
+RGetDiagFiles = Generar archivos de registro de diagnósticos
+RProfileManager = Ejecutar Administrador de Perfil
+EvtVwr = Visor de Eventos
+Volume = Control de volumen
+RTerminalInformation=Información de Terminal
+ExitSwitchApp = Salir de SwitchApp
+BClear = Borrar
+BEnter = Introducir
+BCancel = Cancelar
+AuthTitleID = Introducir su identificación de usuario y tocar "Intro"
+AuthTitlePassWord = Introducir su contraseña y tocar "Intro"
+RegisterFingerprint= Registrar huella dactilar
+AuthTitleIDBiometric= O usar huella dactilar para iniciar sesión
+AuthInvalidLogin = ID, contraseña o huella dactilar no válida, por favor intente de nuevo
+FPDevice= Dispositivo de huellas dactilares desconectado, por favor, introduzca ID/contraseña
+FPDuplicateID= IDs duplicados para una sola huella dactilar:%s, por favor introduzca ID/contraseña
+
+[SwitchErrorMsg]
+;ClcSwitch
+OnButtonReboot1 = Fallo al reinicializar el terminal de FastLane.
+ButtonThread1 = Fallo al iniciar %s.
+LoadPathsFromRegistry1 = Fallo al obtener el valor de configuración Sí/No para Soporte de Luz de Caja mediante SwitchApp desde registro.
+LoadPathsFromRegistry2 = Fallo al obtener el valor de configuración Sí/No para Soporte de PowerPad mediante SwitchApp desde registro.
+WaitForAppTermination1 = %s no pudo terminar en %d segundos. Reinicializar todo el sistema.
+MonitorAppTermination1 = %s terminó anormalmente.
+LaunchBatchFile1 = Fallo al iniciar el archivo por lotes %s.
+PowerpadOn1 = Fallo al habilitar el Dispositivo de Desactivación de Etiqueta. Código de resultado %u.
+PowerpadOn2 = Fallo al habilitar el Dispositivo de Desactivación de Etiqueta.
+PowerpadOn3 = Fallo al activar el Dispositivo de Desactivación de Etiqueta. Código de resultado %u
+PowerpadOn4 = Fallo al activar el Dispositivo de Desactivación de Etiqueta.
+MiscIFLaneLightOn1 = Fallo al encender la Luz de la caja. Consulte el registro de eventos.
+MiscIFLaneLightOn2 = Fallo al habilitar la Interfaz de Uso Diverso. Asegúrese de que el dispositivo esté disponible y consulte el registro de eventos.
+MiscIFLaneLightOff1 = Fallo al apagar la Luz de caja. Consulte el registro de eventos.
+MiscIFLaneLightOff2 = Fallo al liberar la Interfaz de Uso Diverso. Consulte el registro de eventos.
+MiscIFLaneLightOff3 = Fallo al cerrar la Interfaz de Uso Diverso. Consulte el registro de eventos.
+OposControl1 = Fallo al crear el control %s. Asegúrese de que el control esté registrado.
+OposControl2 = Fallo al abrir %s. Asegúrese de que su perfil esté actualizado correctamente en el registro.
+OposControl3 = Fallo al reclamar %s. Asegúrese de que su perfil esté actualizado correctamente en el registro.
+CloseControl1 = Fallo al liberar %s. Consulte el registro de eventos.
+CloseControl2 = Fallo al cerrar %s. Consulte el registro de eventos.
+CreateSalesApp1 = Fallo al iniciar la aplicación. 
+CreateSalesApp2 = %s no pudo inicializarse en %d segundos.
+LaunchBatchFile2 = No se cerró el archivo por lotes %s.
+;CSwitch2Dlg
+OnInitDialog1 = Fallo al abrir el dispositivo Keylock.
+;CKWarning
+OnInitDialog2 = Para %s, debe cambiar el Interruptor de Supervisor a "N" o pulsar el botón %s.
+DrMsg1 = Sistema cerrado: recopilando informes...
+DrMsg2 = Sistema cerrado: Informes recopilados, sistema reinicializándose...
+
+[OtherMsg]
+MARSMsg = Revisando firmware MARS. Las actualizaciones, si fueran necesarias, podrían tardar unos 10 minutos.
+5992Msg = Revisando firmware 5992. Las actualizaciones, si fueran necesarias, podrían tardar unos 10 minutos.
+K590Msg = Revisando firmware K590. Las actualizaciones, si fueran necesarias, podrían tardar unos 10 minutos.
+K580Msg = Revisando firmware K580. Las actualizaciones, si fueran necesarias, podrían tardar unos 10 minutos.
+F306Msg = Revisando firmware F306. Las actualizaciones, si fueran necesarias, podrían tardar unos 10 minutos.
+F307Msg = Revisando firmware F307. Las actualizaciones, si fueran necesarias, podrían tardar unos 10 minutos.
+F309Msg = Revisando firmware F309. Las actualizaciones, si fueran necesarias, podrían tardar unos 10 minutos.
+USBTQMsg = Revisando firmware USB Telequip. Las actualizaciones, si fueran necesarias, podrían tardar unos 10 minutos.
+WaitMsg = Tenga paciencia, por favor ...
+ADDMsg = Detectando dispositivos automáticamente.
+TraceCheckMsg = Revisando si hay una terminación anormal en los archivos de rastreo de la aplicación.
+ArdacMsg = Revisando firmware Ardac. Las actualizaciones, si fueran necesarias, podrían tardar unos 10 minutos.
+SR5Msg = Revisando Aceptador de Monedas. Las actualizaciones, si fueran necesarias, podrían tardar unos 10 minutos.
+GDFMsg = Espere por favor
+MCRWMsg = Verificando firmware del Lector de Tarjetas Motorizado. Las actualizaciones, si fueran necesarias, podrían tardar unos 10 minutos.
+TransferMsg=Transfiriendo archivo de diagnóstico...
+CF9520Msg = Error al actualizar. El Aceptador de Monedas instalado no acepta monedas. Por favor cámbielo por el CF9520 modelo MK2.
+GLORYMsg = Revisando el firmware de Glory Recycler. Las actualizaciones, si fueran necesarias, podrían tardar unos 10 minutos.
+IOBoxMsg = Revisando el firmware de IOBox. Las actualizaciones, si fueran necesarias, podrían tardar unos 10 minutos.
+7875Msg = Verificando el firmware del escáner. Las actualizaciones, si fueran necesarias, podrían tardar unos 10 minutos.
+BiosMsg = Verificando BIOS. Las actualizaciones, si fueran necesarias, podrían tardar unos 10 minutos. El sistema se reiniciará si está todo correcto.
+MEIMsg = Revisando firmware MEI. Las actualizaciones, si fueran necesarias, podrían tardar unos 10 minutos.
+ScaleMsg = Comprobando firmware de báscula. Las actualizaciones, si fueran necesarias, podrían tardar unos 2 minutos.
+BCRMsg = Comprobando el firmware del reciclador de monedas. Las actualizaciones, si fueran necesarias, podrían tardar unos 10 minutos.
+BNRMsg = Comprobando el firmware del reciclador de billetes. Las actualizaciones, si fueran necesarias, podrían tardar unos 10 minutos.
+MSRDIPMsg = Comprobando el firmware de pago con tarjeta. Las actualizaciones, si fueran necesarias, podrían tardar unos 10 minutos.
+F53Msg = Checking F53 firmware. Updates, if needed, could take about 10 minutes.

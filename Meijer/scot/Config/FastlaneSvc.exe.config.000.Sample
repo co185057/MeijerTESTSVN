@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<configuration>
+  <services.config>
+    <service.default binding="webHttpBinding" port="2666" svcType="web" />
+    <services.load>
+      <service name="TCPChannelSvc" 
+               type="FastlaneBaseSvc.TCPService, FLBaseSvc" 
+               enabled="true" 
+               svcType="tcp" 
+               localIP="127.0.0.1" />
+      
+      <service name="HttpClientSvc" 
+               type="FastlaneBaseSvc.HttpClientService, FLBaseSvc" 
+               enabled="true" 
+               svcType="http-client" />
+
+      <service name="MobShoprWebSvc" 
+               type="FastlaneBaseSvc.MobShoprService, FLBaseSvc" 
+               enabled="true" 
+               baseURI="MobShopr" />
+      
+      <service name="XRapWebSvc" 
+               type="FastlaneBaseSvc.XRapService, FLBaseSvc" 
+               enabled="true" 
+               baseURI="" />
+	
+	  <service name="AuditSvc"
+			   type="FLAuditSvc.AuditSvc, FLAuditSvc"
+			   enabled="false"
+			   svcType="plug-in" />		   
+    </services.load>
+	
+    <service.url.defs>
+      <url.def urlId="UploadTicket" url="http://servername:8299/TicketIntegration/UploadTicket" 
+						httpMethod="PUT" reqContType="application/xml" respContType="application/xml"/>
+    </service.url.defs>
+    <string.table>
+      <string strID="LANE_BUSY_OR_NOTREADY" 
+              value="The lane is busy OR not ready, cannot transfer ticket data." />
+    </string.table>
+  </services.config>
+</configuration>

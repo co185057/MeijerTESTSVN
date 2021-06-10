@@ -1,0 +1,9 @@
+<Display Version="1.0">
+  <Controls>
+    <Control Name="RequestSigVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\SignName_Topaz_40_TAB.avi</Property>
+      </Properties>
+    </Control>
+  </Controls>
+</Display>

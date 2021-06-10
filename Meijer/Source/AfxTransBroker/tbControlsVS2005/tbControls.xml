@@ -1,0 +1,212 @@
+<?xml version="1.0" ?>
+<messages>
+	<message name="ItemDetails" msgid="A0">
+		<fields>
+			<field name="ItemDescription" ftype="string"></field>
+			<field name="ItemCode" ftype="string"></field>
+			<field name="ExtendedPrice" ftype="string"></field>
+			<field name="UnitPrice" ftype="string"></field>
+			<field name="Quantity" ftype="string"></field>
+			<field name="Weight" ftype="string"></field>
+			<field name="IsCoupon" ftype="boolean"></field>
+			<field name="NeedQuantity" ftype="boolean"></field>
+			<field name="NeedWeight" ftype="boolean"></field>
+			<field name="NeedPrice" ftype="boolean"></field>
+			<field name="UnknownItem" ftype="boolean"></field>
+			<field name="NotForSale" ftype="boolean"></field>
+			<field name="IsRestricted" ftype="boolean"></field>
+			<field name="RestrictedAge" ftype="long"></field>
+			<field name="TareCode" ftype="i4"></field>
+			<field name="IsVoided" ftype="boolean"></field>
+			<field name="VisualVerify" ftype="boolean"></field>
+			<field name="LinkedItem" ftype="boolean"></field>
+			<field name="ErrorDescription" ftype="string"></field>
+			<field name="Department" ftype="i4"></field>
+			<field name="EntryID" ftype="int"></field>
+			<field name="PIMItem" ftype="boolean"></field>
+			<field name="SecurityTag" ftype="i1"></field>
+			<field name="UnitQuantity" ftype="string"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="Reward" msgid="A3">
+		<fields>
+			<field name="RewardDescription" ftype="string"></field>
+			<field name="RewardValue" ftype="string"></field>
+			<field name="ShowRewardPoints" ftype="boolean"></field>
+			<field name="EntryID" ftype="long"></field>
+			<field name="AssociatedEntryID" ftype="long"></field>
+			<field name="UpdateRewardTotal" ftype="boolean"></field>
+			<field name="RewardPoints" ftype="long"></field>
+			<field name="IsVoided" ftype="boolean"></field>
+			<field name="RewardLocation" ftype="byte"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="long"></field>
+		</fields>
+	</message>
+	<message name="Total" msgid="A2">
+		<fields>
+			<field name="TaxDue" ftype="string"></field>
+			<field name="TotalDue" ftype="string"></field>
+			<field name="TotalDiscount" ftype="string"></field>
+			<field name="ErrorDescription" ftype="string"></field>
+			<field name="FoodStampAmount" ftype="string"></field>
+			<field name="RewardPoints" ftype="long"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="Tender" msgid="A1">
+		<fields>
+			<field name="TenderDescription" ftype="string"></field>
+			<field name="TenderType" ftype="unsignedLong"></field>
+			<field name="Amount" ftype="string"></field>
+			<field name="Balance" ftype="string"></field>
+			<field name="ChangeDue" ftype="string"></field>
+			<field name="Accepted" ftype="boolean"></field>
+			<field name="Voided" ftype="boolean"></field>
+			<field name="ErrorDescription" ftype="string"></field>
+			<field name="CardRemainingBalance" ftype="string"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="CashDrawer" msgid="54">
+		<fields>
+			<field name="Station" ftype="byte"></field>
+			<field name="Status" ftype="byte"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="Keyboard" msgid="10">
+		<fields>
+			<field name="Code" ftype="unsignedShort"></field>
+			<field name="Events" ftype="unsignedByte"></field>
+			<field name="Flags" ftype="unsignedByte"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="Keylock" msgid="90">
+		<fields>
+			<field name="Position" ftype="byte"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="MSR" msgid="40">
+		<fields>
+			<field name="Len1" ftype="unsignedByte"></field>
+			<field name="Len2" ftype="unsignedByte"></field>
+			<field name="Len3" ftype="unsignedByte"></field>
+			<field name="Tracks" ftype="string"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="MICR" msgid="67">
+		<fields>
+			<field name="TransitNumber" ftype="string"></field>
+			<field name="BankNumber" ftype="string"></field>
+			<field name="AccountNumber" ftype="string"></field>
+			<field name="SerialNumber" ftype="string"></field>
+			<field name="CheckType" ftype="unsignedByte"></field>
+			<field name="CountryCode" ftype="unsignedByte"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="PinPad" msgid="66">
+		<fields>
+			<field name="Account" ftype="string"></field>
+			<field name="TransactionType" ftype="unsignedShort"></field>
+			<field name="PinEncoding" ftype="unsignedByte"></field>
+			<field name="WorkingKey" ftype="string"></field>
+			<field name="PinBlockFormat" ftype="unsignedByte"></field>
+			<field name="Len1" ftype="unsignedByte"></field>
+			<field name="Len2" ftype="unsignedByte"></field>
+			<field name="Len3" ftype="unsignedByte"></field>
+			<field name="Track1" ftype="string"></field>
+			<field name="Track2" ftype="string"></field>
+			<field name="Track3" ftype="string"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="Printer" msgid="30">
+		<fields>
+			<field name="Function" ftype="byte"></field>
+			<field name="Height" ftype="unsignedShort"></field>
+			<field name="Width" ftype="unsignedShort"></field>
+			<field name="Alignment" ftype="unsignedByte"></field>
+			<field name="StationId" ftype="unsignedByte"></field>
+			<field name="BarcodeType" ftype="unsignedByte"></field>
+			<field name="BarcodeCharPrint" ftype="unsignedByte"></field>
+			<field name="LogoNumber" ftype="unsignedByte"></field>
+			<field name="Data" ftype="string"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="Scale" msgid="6A">
+		<fields>
+			<field name="Weight" ftype="long"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="Scanner" msgid="4A">
+		<fields>
+			<field name="BarcodeType" ftype="unsignedByte"></field>
+			<field name="Data" ftype="string"></field>
+			<field name="UserLong" ftype="long"></field>
+			<field name="UserString" ftype="string"></field>
+		</fields>
+	</message>
+	<message name="Display" msgid="0x20">
+		<fields>
+			<field name="Static1" ftype="Static" hwnd="" x="" y="" cx="" cy=""></field>
+			<field name="Static2" ftype="Static" hwnd="" x="" y="" cx="" cy=""></field>
+			<field name="Edit1" ftype="Edit" hwnd="" x="" y="" cx="" cy=""></field>
+			<field name="Edit2" ftype="Edit" hwnd="" x="" y="" cx="" cy=""></field>
+			<field name="ListView1" ftype="ListView" hwnd="" x="" y="" cx="" cy="">
+				<rows>
+					<row>
+						<columns>
+							<column name="header0"></column>
+							<column name="header1"></column>
+							<column name="header2"></column>
+						</columns>
+					</row>
+					<row>
+						<columns>
+							<column name="header0"></column>
+							<column name="header1"></column>
+							<column name="header2"></column>
+						</columns>
+					</row>
+				</rows>
+			</field>
+			<field name="ListBox1" ftype="ListBox" hwnd="" x="" y="" cx="" cy="">
+				<Items>
+					<Item name="0"></Item>
+					<Item name="1"></Item>
+					<Item name="2"></Item>
+				</Items>
+			</field>
+			<field name="ComboBox1" ftype="ComboBox" hwnd="" x="" y="" cx="" cy="">
+				<Items>
+					<Item name="0"></Item>
+					<Item name="1"></Item>
+					<Item name="2"></Item>
+				</Items>
+			</field>
+			<field name="image1" ftype="image" hwnd="" x="" y="" cx="" cy=""></field>
+			<field name="button1" hwnd="" ftype="Button" x="10" y="10" cx="50" cy="20"></field>
+			<field name="button2" hwnd="" ftype="Button" x="10" y="10" cx="50" cy="20"></field>
+		
+		</fields>
+	</message>
+</messages>

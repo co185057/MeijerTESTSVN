@@ -1,0 +1,15 @@
+
+Configuration files for applications that execute on the HHRAP are archived within VSS in different directories.
+
+Filename                  Desktop                                             HHRAP
+
+LaunchPadMsgXXXX.xml      $/FastLane/LaunchPadNet/Config                      $/FastLane/LaunchPadNet/Config/240x320
+RapConfigureMsgXXXX.xml   $/FastLane/LaunchPadNet/RapConfigure/Config         $/FastLane/LaunchPadNet/RapConfigure/Config
+RapMsgXXXX.xml            $/FastLane/RemoteApproval/RAPNET/Config             $/FastLane/RemoteApproval/RAPNET/Config/240x320
+TerminalInfoMsgXXXX.xml   N/A                                                 $/FastLane/LaunchPadNet/Config/240x320
+VolumeMsgXXXX.xml         N/A                                                 $/FastLane/LaunchPadNet/Config/240x320
+
+
+
+
+

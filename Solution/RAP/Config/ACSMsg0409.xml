@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Display>
+	<Languages>
+		<Language Name='0409'>
+			<StringTable>
+				<AMReceiptItemType1>%s\t%s</AMReceiptItemType1>
+				<AMReceiptItemType2>%s</AMReceiptItemType2>
+				<AMReceiptItemType3>%s\t%s\t  Qty %s @ %s/each\t%s</AMReceiptItemType3>
+				<AMReceiptItemType4>%s\t%s\t  Qty %s @ %s/%s\t%s</AMReceiptItemType4>	
+				<AMReceiptItemType5>%s\t%s\t  %ss @ %s %s/%s\t%s</AMReceiptItemType5>
+				<AMReceiptItemType6>%s\t%s\t  %ss @ %s/%s\t%s</AMReceiptItemType6>
+				<AssistTaxTextValue>Tax</AssistTaxTextValue>
+				<AssistChangeDue>Change Due</AssistChangeDue>				
+				<ShowAllLanes>Show\nAll Lanes</ShowAllLanes>
+				<TotalValue>Total</TotalValue>
+			</StringTable>
+		</Language>
+	</Languages>
+</Display>

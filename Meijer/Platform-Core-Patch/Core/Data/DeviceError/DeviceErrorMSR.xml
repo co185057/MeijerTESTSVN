@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!-- The format of this file is:	 	-->
+<!-- <DeviceError>                           	-->
+<!-- 	<SectionName>			     	-->
+<!--		<Title1>Msg id in scotmsge.dat for title 1</Title1>-->
+<!--		<Title2>Msg id in scotmsge.dat for title 2</Title2>-->
+<!--	   	<Text>Msg id in scotmsge.dat</Text>		-->
+<!--		<Image>Bitmap id in scotbmpe.dat</Image> 	-->
+<!--		<Wave>id in scotwave.dat</Wave>			-->
+<!--		<Movie>Movie name in text</Movie>		-->
+<!--	</SectionName>					-->
+<!--</DeviceError>				-->
+
+
+<DeviceError>
+	<ERROR_MSR_CARD_JAM>
+		<Text>242</Text>
+	</ERROR_MSR_CARD_JAM>
+
+	<ERROR_MSR_INVALID_CARD>
+		<Text>243</Text>
+	</ERROR_MSR_INVALID_CARD>
+
+	<ERROR_MSR_DEVICE_INOPERABLE>
+		<Text>245</Text>
+	</ERROR_MSR_DEVICE_INOPERABLE>
+
+	<ERROR_MSR_SHUTTER_JAM>
+		<Text>333</Text>
+	</ERROR_MSR_SHUTTER_JAM>
+
+	<ERROR_MSR_NO_CARD>
+		<Text>334</Text>
+	</ERROR_MSR_NO_CARD>
+
+	<MSR_CAPBIN_FULL>
+		<Text>223</Text>
+	</MSR_CAPBIN_FULL>
+
+	<MSR_CAPBIN_REMOVED>
+		<Text>224</Text>
+	</MSR_CAPBIN_REMOVED>
+
+	<MSR_CAPBIN_INSERTED>
+		<Text>225</Text>
+	</MSR_CAPBIN_INSERTED>
+
+	<MSR_DEVICE_INOPERABLE>
+		<Text>226</Text>
+	</MSR_DEVICE_INOPERABLE>
+
+	<MSR_INVALID_CARD_INSERTED>
+		<Text>227</Text>
+	</MSR_INVALID_CARD_INSERTED>
+
+	<MSR_SHUTTER_JAMMED_CLOSE>
+		<Text>228</Text>
+	</MSR_SHUTTER_JAMMED_CLOSE>
+
+	<MSR_POSSIBLE_CUST_TAMPERING>
+		<Text>335</Text>
+	</MSR_POSSIBLE_CUST_TAMPERING>
+
+
+</DeviceError>

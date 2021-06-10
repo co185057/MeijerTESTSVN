@@ -1,0 +1,75 @@
+﻿<Display Version="1.0">
+	<Languages>
+		<Language Name="0406">
+			<StringTable>
+				<String Name="MinMaxFastLaneBtnPrimaryTxt">Minimér FastLane</String>
+				<String Name="MinMaxFastLaneBtnSecondaryTxt">Maksimér FastLane</String>
+				<String Name="MinMaxFastLaneBtnPrimaryShowConfirmation">For at minimere FastLane skal du trykke på knappen "Minimér FastLane".</String>
+				<String Name="MinMaxFastLaneBtnSecondaryShowConfirmation">For at maksimere FastLane skal du trykke på knappen "Maksimér FastLane".</String>
+				<String Name="StopStartFastLaneBtnPrimaryTxt">Stop FastLane</String>
+				<String Name="StopStartFastLaneBtnSecondaryTxt">Start FastLane</String>
+				<String Name="SwitchToRAPBtnPrimaryTxt">Skift til FKP</String>
+				<String Name="ShutdownSystemBtnPrimaryTxt">Luk hele systemet ned</String>
+				<String Name="RebootSystemBtnPrimaryTxt">Genstart hele systemet</String>
+				<String Name="VolumeBtnPrimaryTxt">Volumenkontrol</String>
+				<String Name="EventViewerBtnPrimaryTxt">Event Viewer</String>
+				<String Name="GenerateLogBtnPrimaryTxt">Generér diagnostiske logfiler</String>
+                <String Name="RapConfigureBtnPrimaryTxt">FKP-konfigurering</String>
+				<String Name="ExitFastLaneAndRunProfileBtnPrimaryTxt">Stop FastLane og kør Profile Manager</String>
+				<String Name="ExitFastLaneAndRunProfileBtnSecondaryTxt">Kør Profile Manager</String>
+				<String Name="TerminalInfoBtnPrimaryTxt">Terminalinformation</String>
+				<String Name="MinMaxRAPBtnPrimaryTxt">Minimér FKP</String>
+				<String Name="MinMaxRAPBtnSecondaryTxt">Maksimér FKP.</String>
+				<String Name="MinMaxRAPBtnPrimaryShowConfirmation">For at minimere FKP skal du trykke på knappen "Minimér FKP".</String>
+				<String Name="MinMaxRAPBtnSecondaryShowConfirmation">For at maksimere FKP skal du trykke på knappen "Maksimér FKP".</String>
+				<String Name="StopStartRAPButtonPrimaryTxt">Stop FKP</String>
+				<String Name="StopStartRAPButtonSecondaryTxt">Start FKP</String>
+				<String Name="SwitchToFastLaneBtnPrimaryTxt">Skift over til FastLane</String>
+				<String Name="ExitRAPAndRunProfileBtnPrimaryTxt">Stop FKP og kør Profile Manager</String>
+				<String Name="ExitRAPAndRunProfileBtnSecondaryTxt">Kør Profile Manager</String>
+				<String Name="UtilityFunctionsTitle">NCR FastLane\nHjælpefunktioner</String>
+				<String Name="SignOnTitle">NCR FastLane\nLog på</String>
+				<String Name="SystemStartup">Systemet starter…vent venligst</String>
+				<String Name="StartTitle">Opstart af systemet</String>
+				<String Name="TerminalID">Terminal-id:</String>
+				<String Name="TrainingProgramPrimaryTxt">Træningsprogram</String>
+				<String Name="OperatorIDText">ID: </String>
+				<String Name="SignOnButtonText">Log på</String>
+				<String Name="SignOffButtonText">Log af</String>
+				<String Name="SignedOffButtonText">Logget af</String>
+				<String Name="Exit">Afslut alle</String>
+				<String Name="ReturnToShoppingButtonText">Retur</String>
+				<String Name="PickListEditor">Pick List Editor</String>
+				<String Name="DiagConfirm">Er du sikker på, at du vil generere diagnostiske logfiler?</String>
+				<String Name="ProfileManagerFLConfirm">Er du sikker på, at du vil stoppe FastLane og køre Profile Manager?</String>
+				<String Name="ProfileManagerRAPConfirm">Er du sikker på, at du vil stoppe FKP og køre Profile Manager?</String>
+				<String Name="CalibrateConfirm">Er du sikker på, at du vil kalibrere berøringsskærmen?</String>
+				<String Name="ShutdownConfirm">Er du sikker på, at du vil lukke hele systemet ned?</String>
+				<String Name="RebootConfirm">Er du sikker på, at du vil genstarte hele systemet?</String>
+				<String Name="CloseAllConfirm">Er du sikker på, at du vil afslutte alle programmer og gå til skrivebordet?</String>
+				<String Name="VolumeConfirm">Er du sikker på, at du vil justere volumenkontrollen?</String>
+				<String Name="TerminalInfoConfirm">Er du sikker på, at du vil se terminalinformationen?</String>
+				<String Name="StopFastLaneConfirm">Er du sikker på, at du vil stoppe FastLane?</String>
+				<String Name="StopRAPConfirm">Er du sikker på, at du vil stoppe FKP?</String>
+				<String Name="StartFastLaneConfirm">Er du sikker på, at du vil starte FastLane?</String>
+				<String Name="StartRAPConfirm">Er du sikker på, at du vil starte FKP?</String>
+				<String Name="YesText">Ja</String>
+				<String Name="NoText">Nej</String>
+				<String Name="ClearButtonText">Ryd</String>
+				<String Name="EnterButtonText">Enter</String>
+				<String Name="GoBackButtonText">Gå tilbage</String>
+				<String Name="SpaceButtonText">Mellemrum</String>
+				<String Name="BackSpaceButtonText">Backspace</String>
+				<String Name="ShiftButtonText">Shift</String>
+				<String Name="EnterIDLeadthru">Indtast id vha. tastaturet nedenfor:</String>
+				<String Name="ReEnterIDLeadthru">Forkert id  eller password. Indtast igen vha. tastaturet nedenfor.</String>
+				<String Name="EnterPasswordLeadthru">Indtast password vha. tastaturet nedenfor:</String>
+				<String Name="CancelButtonText">Annullér</String>
+				<String Name="LoggingInLeadthru">Logger på…Vent venligst</String>
+				<String Name="LegalCaptionText">LEGAL CAPTION
+This system is for the use of authorized personnel only. By logging onto this system, you are subject to the terms and conditions of all Information Security policies and standards. Use by unauthorized individuals or for unauthorized purposes is a violation of federal and/or state law. The company reserves the right to take any necessary actions to protect authorized users, intellectual property and other information assets. Individuals using this system are subject to having all of their activities on this system monitored. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals possible evidence of criminal activity, system personnel may provide the evidence of such monitoring to law enforcement officials.
+				</String>
+			</StringTable>
+		</Language>
+	</Languages>
+</Display>

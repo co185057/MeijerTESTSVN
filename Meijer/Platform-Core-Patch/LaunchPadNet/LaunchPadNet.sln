@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaunchPadNet", "LaunchPadNet.csproj", "{3707C994-924B-4631-8A14-D0701310E723}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{20D4826A-C6FA-45DB-90F4-C717570B9F32}") = "LaunchPadNetCe", "LaunchPadNetCe.csdproj", "{1E617F55-DF10-487E-A4EF-9D0D357C65D0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3707C994-924B-4631-8A14-D0701310E723}.Debug.ActiveCfg = Debug|.NET
+		{3707C994-924B-4631-8A14-D0701310E723}.Debug.Build.0 = Debug|.NET
+		{3707C994-924B-4631-8A14-D0701310E723}.Release.ActiveCfg = Release|.NET
+		{3707C994-924B-4631-8A14-D0701310E723}.Release.Build.0 = Release|.NET
+		{1E617F55-DF10-487E-A4EF-9D0D357C65D0}.Debug.ActiveCfg = Debug|Windows CE
+		{1E617F55-DF10-487E-A4EF-9D0D357C65D0}.Debug.Build.0 = Debug|Windows CE
+		{1E617F55-DF10-487E-A4EF-9D0D357C65D0}.Debug.Deploy.0 = Debug|Windows CE
+		{1E617F55-DF10-487E-A4EF-9D0D357C65D0}.Release.ActiveCfg = Release|Windows CE
+		{1E617F55-DF10-487E-A4EF-9D0D357C65D0}.Release.Build.0 = Release|Windows CE
+		{1E617F55-DF10-487E-A4EF-9D0D357C65D0}.Release.Deploy.0 = Release|Windows CE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		    DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal

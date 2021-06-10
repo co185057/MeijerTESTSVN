@@ -1,0 +1,176 @@
+<Display Version="1.2">
+  <Fonts>
+    <Font Name="MTXAMTitleFont">
+      <Face>Lucida Sans Unicode</Face>
+      <Size>23</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="MTXAMEchoBoxFont">
+      <Face>Courier New</Face>
+      <Size>21</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="MTXAMFont">
+      <Face>Lucida Sans Unicode</Face>
+      <Size>13</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+  </Fonts>
+  <Controls>
+    <Control Name="Key44" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">648,289,336,476</Property>
+        <Property Name="ButtonHorizontalSpacing">6</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">56</Property>
+        <Property Name="ButtonWidth">108</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">MTXAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\M T X\10x7-bttn_84x44.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">24</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key25" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">395,289,223,236</Property>
+        <Property Name="ButtonHorizontalSpacing">5</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">56</Property>
+        <Property Name="ButtonWidth">109</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">MTXAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\M T X\10x7-bttn_85x44.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">8</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key33" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">395,532,220,176</Property>
+        <Property Name="ButtonHorizontalSpacing">5</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">56</Property>
+        <Property Name="ButtonWidth">70</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">MTXAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\M T X\10x7-bttn_55x44.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">9</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key1" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">44,289,317,476</Property>
+        <Property Name="ButtonHorizontalSpacing">7</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">56</Property>
+        <Property Name="ButtonWidth">101</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">MTXAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\M T X\10x7-bttn_79x44.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">24</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key43" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">426,556,56,42</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">42</Property>
+        <Property Name="ButtonWidth">56</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">MTXAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\M T X\10x7-bttn_56x42.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key42" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">395,711,145,54</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">54</Property>
+        <Property Name="ButtonWidth">145</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">MTXAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\M T X\10x7-bttn_113x42.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Echo1" Type="Static">
+      <Properties>
+        <Property Name="Position">266,177,379,39</Property>
+        <Property Name="Font">MTXAMEchoBoxFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextFormat">Title 2</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+  </Controls>
+  <Contexts>
+    <Context Name="SmAssistMode">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\M T X\10x7_InfoSScrnAssistModeMTX.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">171,49,374,32</Property>
+            <Property Name="Font">MTXAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title2">
+          <Properties>
+            <Property Name="Position">201,85,20,32</Property>
+            <Property Name="Font">MTXAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">266,138,379,39</Property>
+            <Property Name="Font">MTXAMEchoBoxFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo1" />
+        <Control Name="Key44" />
+        <Control Name="Key25" />
+        <Control Name="Key33" />
+        <Control Name="Key1" />
+        <Control Name="Key43" />
+        <Control Name="Key42" />
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">2,41,163,42</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage">
+          <Properties>
+            <Property Name="Position">2,71,174,57</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+  </Contexts>
+</Display>

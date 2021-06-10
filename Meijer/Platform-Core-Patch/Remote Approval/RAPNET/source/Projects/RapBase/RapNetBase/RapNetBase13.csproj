@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{19A6994E-EBF6-446A-B007-953271710AE9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RapNet</RootNamespace>
+    <AssemblyName>RapNetBase</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug13\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release13\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PsxNet">
+      <HintPath>C:\scot\adk\lib\release7\PsxNet.dll</HintPath>
+    </Reference>
+    <Reference Include="RPSWNET">
+      <HintPath>C:\scot\adk\lib\release7\RPSWNET.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\Biometric.cs" />
+    <Compile Include="src\CAppSettings.cs" />
+    <Compile Include="src\ChangePasswordState.cs" />
+    <Compile Include="src\CheckInState.cs" />
+    <Compile Include="src\CheckOutState.cs" />
+    <Compile Include="src\ConfigData.cs" />
+    <Compile Include="src\ConnectThread.cs" />
+    <Compile Include="src\LanePsx.cs" />
+    <Compile Include="src\MonitoringState.cs" />
+    <Compile Include="src\Pinvoke.cs" />
+    <Compile Include="src\Remote.cs" />
+    <Compile Include="src\ScannerThread.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\SharedPsx.cs" />
+    <Compile Include="src\SignOnBuilder.cs" />
+    <Compile Include="src\SignOnState.cs" />
+    <Compile Include="src\SimpleHash.cs" />
+    <Compile Include="src\State.cs" />
+    <Compile Include="src\TransactionCount.cs" />
+    <Compile Include="Web References\POSFileAccessService\Reference.cs">
+      <DependentUpon>Reference.map</DependentUpon>
+      <SubType>code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <None Include="Web References\POSFileAccessService\POSFileAccessService.disco">
+      <Link>Web References\POSFileAccessService\POSFileAccessService.disco</Link>
+    </None>
+    <None Include="Web References\POSFileAccessService\POSFileAccessService.xsd" />
+    <None Include="Web References\POSFileAccessService\POSFileAccessService0.xsd" />
+    <None Include="Web References\POSFileAccessService\POSFileAccessws.wsdl" />
+    <None Include="Web References\POSFileAccessService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <WebReferences Include="Web References\" />
+    <WebReferenceUrl Include="http://153.60.40.81:9992/POSFileAccessService">
+      <RelPath>Web References\POSFileAccessService\</RelPath>
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <UpdateFromURL>http://153.60.40.81:9992/POSFileAccessService</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>RapNet_POSFileAccessService_POSFileAccessws</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>if not exist "..\..\..\..\..\Bin\$(ConfigurationName)13" mkdir "..\..\..\..\..\Bin\$(ConfigurationName)13"
+copy "RapNetBase.dll" "..\..\..\..\..\Bin\$(ConfigurationName)13\." /y
+if exist RapNetBase.pdb copy "RapNetBase.pdb" "..\..\..\..\..\Bin\$(ConfigurationName)13\." /y</PostBuildEvent>
+  </PropertyGroup>
+</Project>

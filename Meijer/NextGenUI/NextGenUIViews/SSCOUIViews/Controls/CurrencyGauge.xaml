@@ -1,0 +1,94 @@
+﻿<Grid
+    x:Class="SSCOUIViews.Controls.CurrencyGauge"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    mc:Ignorable="d"
+    xmlns:helpers="clr-namespace:SSCOUIModels.Helpers;assembly=SSCOUIModels"
+    xmlns:controls="clr-namespace:SSCOControls;assembly=SSCOControls"
+    DataContextChanged="Grid_DataContextChanged"
+    Name="GaugeControl">
+    <Border
+        Name="GaugeHighlight"
+        Visibility="Hidden"
+        Style="{StaticResource cashManagementHighlightedCylinderBorderStyle}">
+    </Border>
+    <StackPanel>
+        <Grid
+            Name="GenericGauge">
+            <StackPanel>
+                <controls:MeasureTextBlock
+                    Name="GenericGaugeChangeInValue"
+                    Style="{StaticResource cashManagementR6ValueChangeStyle}" />
+                <controls:MeasureTextBlock
+                    Name="GenericGaugeChangeInCount"
+                    Style="{StaticResource cashManagementR6CountChangeStyle}" />
+                <controls:ImageButton
+                    Name="GenericGaugeBody"
+                    IsEnabled="False"
+                    Click="GenericGaugeBody_Click"
+                    Style="{StaticResource cashManagementR6GaugeBodyStyle}">
+                </controls:ImageButton>
+            </StackPanel>
+            <StackPanel
+                Name="GenericGaugeValues"
+                Margin="0,50,0,0"
+                TouchDown="GenericGaugeValues_TouchDown">
+                <controls:MeasureTextBlock
+                    Name="GenericGaugeCurrentValue"
+                    Style="{StaticResource cashManagementR6GenericCurrentValuesStyle}" />
+                <controls:MeasureTextBlock
+                    Name="GenericGaugeCurrentCount"
+                    Style="{StaticResource cashManagementR6GenericCurrentValuesStyle}" />
+                <controls:MeasureTextBlock
+                    Name="GenericGaugeDenomination"
+                    Margin="0,14,0,0"
+                    Style="{StaticResource cashManagementR6DenominationDisabledStyle}" />
+            </StackPanel>
+        </Grid>
+        <Grid
+            Name="ActiveCoinBoxGauge">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition
+                    Width="80" />
+                <ColumnDefinition
+                    Width="80" />
+            </Grid.ColumnDefinitions>
+            <StackPanel
+                Grid.Column="0">
+                <controls:ImageButton
+                    Name="ActiveCoinBoxGaugeBody"
+                    IsEnabled="False"
+                    Style="{StaticResource cashManagementR6GaugeBodyStyle}">
+                </controls:ImageButton>
+            </StackPanel>
+            <StackPanel
+                Grid.Column="0"
+                Margin="0,15,0,0">
+                <controls:MeasureTextBlock
+                    Name="ActiveCoinBoxGaugeCurrentValue"
+                    Style="{StaticResource cashManagementR6GenericCurrentValuesStyle}" />
+                <controls:MeasureTextBlock
+                    Name="ActiveCoinBoxGaugeCurrentCount"
+                    Style="{StaticResource cashManagementR6GenericCurrentValuesStyle}" />
+                <controls:MeasureTextBlock
+                    Name="ActiveCoinBoxGaugeDenomination"
+                    Margin="0,12,0,0"
+                    Style="{StaticResource cashManagementR6DenominationDisabledStyle}" />
+            </StackPanel>
+            <StackPanel
+                Grid.Column="1"
+                Margin="0,15,0,0">
+                <controls:MeasureTextBlock
+                    Name="ActiveCoinBoxGaugeChangeInValue"
+                    TextAlignment="Left"
+                    Style="{StaticResource cashManagementR6ValueChangeStyle}" />
+                <controls:MeasureTextBlock
+                    Name="ActiveCoinBoxGaugeChangeInCount"
+                    TextAlignment="Left"
+                    Style="{StaticResource cashManagementR6CountChangeStyle}" />
+            </StackPanel>
+        </Grid>
+    </StackPanel>
+</Grid>

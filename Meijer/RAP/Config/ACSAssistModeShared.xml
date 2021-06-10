@@ -1,0 +1,68 @@
+<Display Version="1.0">
+  <Includes>
+    <Include File="%ConfigPath%\ACSMsg0409.xml" />
+  </Includes>
+  <Fonts>
+    <Font Name="FastLaneAMTitleFont">
+      <Face>Lucida Sans Unicode</Face>
+      <Size>20</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="FastLaneVoidFont">
+      <Face>Lucida Sans Unicode</Face>
+      <Size>15</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="FastLaneAMEchoBoxFont">
+      <Face>Courier New</Face>
+      <Size>15</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ToggleLaneStatusFont">
+      <Face>Arial</Face>
+      <Size>10</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="FastLaneScaleFont">
+      <Face>Arial</Face>
+      <Size>32</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="PSAMButtonFont">
+      <Face>Arial</Face>
+      <Size>15</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="AMReceiptFont">
+      <Face>Arial</Face>
+      <Size>9</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="AMReceiptFontVoid">
+      <Face>Arial</Face>
+      <Size>12</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+      <Strikethrough>True</Strikethrough>
+    </Font>
+    <Font Name="AMDynakeyFont">
+      <Face>Arial</Face>
+      <Size>12</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+	<Font Name="LeadthruFont">
+      <Face>Arial</Face>
+      <Size>12</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+  </Fonts>
+</Display>

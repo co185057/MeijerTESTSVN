@@ -1,0 +1,802 @@
+<!-- Change History: -->
+<!-- POS151582 Work Request:66559 Name:Saiprasad Srihasam Date:December 26, 2014 -->
+<!-- POS105314 Work Request:61233 Name:Saiprasad Srihasam Date:August 05, 2014      -->
+<!-- POS85228 Work Request:59313 Name:Robert Susanto    Date:December 31, 2013		-->
+<!-- POS92988 Work Request:61233 Name:Kranthi Kumari Cherugondi   Date:May 13, 2014	-->
+
+<Display Version="1.0">
+    <Includes>
+        <Include File="%ConfigPath%\ACSAssistModeShared.xml" />
+    </Includes>
+
+    <Controls>
+    <Control Name="SignOnButton" Type="Button">
+      <Properties>
+        <Property Name="Position">780,696,115,71</Property>
+      </Properties>
+    </Control>
+    <Control Name="UtilityButton" Type="Button">
+      <Properties>
+        <Property Name="Position">900,696,115,71</Property>
+      </Properties>
+    </Control>
+
+    <Control Name="CheckInButton" Type="Button">
+		<Properties>
+			<Property Name="Position">540,696,115,71</Property>
+			<Property Name="Font">MainButtonFont</Property>
+			<Property Name="TextColor">Black</Property>
+			<Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+			<Property Name="Picture">%MediaPath%\10x7-btn_global.png</Property>
+		        <Property Name="TextFormat">$CheckInButtonText$</Property>
+			<Property Name="TextPosition">15,5,154,56</Property>
+			<Property Name="ClickMove">3</Property>
+			<Property Name="State">2</Property>
+			<Property Name="Z-Order">1</Property>
+		</Properties>
+    </Control>
+    <Control Name="CheckOutButton" Type="Button">
+		<Properties>
+			<Property Name="Position">660,696,115,71</Property>
+			<Property Name="Font">MainButtonFont</Property>
+			<Property Name="TextColor">Black</Property>
+			<Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+			<Property Name="Picture">%MediaPath%\10x7-btn_global.png</Property>
+		        <Property Name="TextFormat">$CheckOutButtonText$</Property>
+			<Property Name="TextPosition">15,5,154,56</Property>
+			<Property Name="ClickMove">3</Property>
+			<Property Name="State">2</Property>
+			<Property Name="Z-Order">1</Property>
+		</Properties>
+    </Control>
+
+   <Control Name="ConfirmMessage" Type="Static">
+		<Properties>
+			<Property Name="Position">256,180,512,340</Property>
+			<Property Name="Font">TitleFont</Property>
+			<Property Name="TextColor">Black</Property>
+			<Property Name="TextAlignment">1</Property>
+			<Property Name="Z-Order">2</Property>				
+		</Properties>
+   </Control>
+   <Control Name="ConfirmYes" Type="Button">
+		<Properties>
+			<Property Name="Position">320,430,179,71</Property>
+			<Property Name="Font">TitleFont</Property>
+			<Property Name="TextFormat">$YesText$</Property>
+			<Property Name="TextColor">Black</Property>
+			<Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+			<Property Name="Picture">%MediaPath%\10x7-btn_global.png</Property>
+			<Property Name="Z-Order">2</Property>
+		</Properties>
+   </Control>
+   <Control Name="ConfirmNo" Type="Button">
+		<Properties>
+			<Property Name="Position">520,430,179,71</Property>
+			<Property Name="Font">TitleFont</Property>
+			<Property Name="TextFormat">$NoText$</Property>
+			<Property Name="TextColor">Black</Property>
+			<Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+			<Property Name="Picture">%MediaPath%\10x7-btn_global.png</Property>
+			<Property Name="Z-Order">2</Property>
+		</Properties>
+   </Control>
+   <Control Name="ChangePwdButton" Type="Button">
+		<Properties>
+			<!-- SSCOI-46859: Reposition ChangePwdButton so that the Date and Time will not overlapped with this button -->
+			<Property Name="Position">340,696,115,71</Property>
+			<Property Name="Font">MainButtonFont</Property>
+			<Property Name="TextColor">Black</Property>
+			<Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+			<Property Name="Picture">%MediaPath%\10x7-btn_global.png</Property>
+		        <Property Name="TextFormat">$ChangePwdButtonText$</Property>
+			<Property Name="TextPosition">15,5,154,56</Property>
+			<Property Name="ClickMove">3</Property>
+			<Property Name="State">2</Property>
+			<Property Name="Z-Order">1</Property>
+		</Properties>
+    </Control>
+    <Control Name="OKButton" Type="Button">
+		<Properties>
+	 		<Property Name="Position">450,450,179,71</Property>
+			<Property Name="Font">TitleFont</Property>
+		        <Property Name="TextFormat">$OKButtonText$</Property>
+			<Property Name="TextColor">Black</Property>
+			<Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+			<Property Name="Picture">%MediaPath%\10x7-btn_global.png</Property>
+			<Property Name="Z-Order">2</Property>
+      		</Properties>
+   </Control>
+ </Controls>
+
+    <Contexts>
+        <Context Name="ScanIDOrKey">
+            <CustomData>
+                <Data Name="State">SignOn</Data>
+            </CustomData>
+            <Properties>
+                <Property Name="BackgroundColor">Blue</Property>
+            </Properties>
+            <Include>
+                <Control Name="KeyBoardP1" />
+                <Control Name="KeyBoardP2" />
+                <Control Name="SMNumericKeyBoard" />
+                <Control Name="KeyBoardP4">
+                    <Properties>
+                        <Property Name="Action">Click,ChangeContext,EnterPasswordOrUseBiometricFromScanIDOrKey</Property>
+                    </Properties>
+                </Control>
+                <Control Name="ButtonCommand0">
+                    <Properties>
+                        <Property Name="Action">Click,ChangeContext,Startup</Property>
+                    </Properties>
+                </Control>
+                <Control Name="Title">
+                    <Properties>
+                        <Property Name="TextFormat">$RAPTitle$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="Leadthru">
+                    <Properties>
+                        <Property Name="TextFormat">$ScanIDOrKeyLeadthru$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="Echo">
+                    <Properties>
+                        <Property Name="Action">ChangeText,ChangeState,KeyBoardP4,Text</Property>
+                    </Properties>
+                </Control>
+                <Control Name="EchoBox" />
+                <Control Name="MainBackground" />
+                <Control Name="OperationID" />
+                <Control Name="DateText" />
+            </Include>
+        </Context>
+        <Context Name="ScanIDOnly">
+            <CustomData>
+                <Data Name="State">SignOn</Data>
+            </CustomData>
+            <Properties>
+                <Property Name="BackgroundColor">Blue</Property>
+            </Properties>
+            <Include>
+                <Control Name="ButtonCommand0">
+                    <Properties>
+                        <Property Name="Action">Click,ChangeContext,Startup</Property>
+                    </Properties>
+                </Control>
+                <Control Name="Title">
+                    <Properties>
+                        <Property Name="TextFormat">$RAPTitle$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="Leadthru">
+                    <Properties>
+                        <Property Name="TextFormat">$ScanIDOnlyLeadthru$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="Echo">
+                    <Properties>
+                        <Property Name="Action">ChangeText,ChangeState,KeyBoardP4,Text</Property>
+                    </Properties>
+                </Control>
+                <Control Name="EchoBox" />
+                <Control Name="MainBackground" />
+                <Control Name="OperationID" />
+                <Control Name="DateText" />
+            </Include>
+        </Context>
+        <Context Name="EnterPasswordOrUseBiometricFromScanIDOrKey">
+            <CustomData>
+                <Data Name="State">SignOn</Data>
+            </CustomData>
+            <Properties>
+                <Property Name="BackgroundColor">Blue</Property>
+            </Properties>
+            <Include>
+                <Control Name="KeyBoardP1" />
+                <Control Name="KeyBoardP2" />
+                <Control Name="SMNumericKeyBoard" />
+                <Control Name="KeyBoardP4" />
+                <Control Name="ButtonCommand0">
+                    <Properties>
+                        <Property Name="Action">Click,ChangeContext,ScanIDOrKey</Property>
+                    </Properties>
+                </Control>
+                <Control Name="Title">
+                    <Properties>
+                        <Property Name="TextFormat">$RAPTitle$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="Leadthru">
+                    <Properties>
+                        <Property Name="TextFormat">$EnterPasswordOrUseBiometricLeadthru$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="Echo">
+                    <Properties>
+                        <Property Name="Password">True</Property>
+                    </Properties>
+                </Control>
+                <Control Name="EchoBox" />
+                <Control Name="MainBackground" />
+                <Control Name="OperationID" />
+                <Control Name="DateText" />
+            </Include>
+        </Context>
+        <Context Name="EnterPasswordOrUseBiometricFromScanIDOnly">
+            <CustomData>
+                <Data Name="State">SignOn</Data>
+            </CustomData>
+            <Properties>
+                <Property Name="BackgroundColor">Blue</Property>
+            </Properties>
+            <Include>
+                <Control Name="KeyBoardP1" />
+                <Control Name="KeyBoardP2" />
+                <Control Name="SMNumericKeyBoard" />
+                <Control Name="KeyBoardP4" />
+                <Control Name="ButtonCommand0">
+                    <Properties>
+                        <Property Name="Action">Click,ChangeContext,ScanIDOnly</Property>
+                    </Properties>
+                </Control>
+                <Control Name="Title">
+                    <Properties>
+                        <Property Name="TextFormat">$RAPTitle$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="Leadthru">
+                    <Properties>
+                        <Property Name="TextFormat">$EnterPasswordOrUseBiometricLeadthru$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="Echo">
+                    <Properties>
+                        <Property Name="Password">True</Property>
+                    </Properties>
+                </Control>
+                <Control Name="EchoBox" />
+                <Control Name="MainBackground" />
+                <Control Name="OperationID" />
+                <Control Name="DateText" />
+            </Include>
+        </Context>
+
+    <Context Name="Startup">
+      <Include>
+        <Control Name="CheckInButton">
+        </Control>
+        <Control Name="CheckOutButton">
+        </Control>
+       <!-- +POS92988 -->
+	<Control Name="ChangePwdButton">
+        </Control>
+	<Control Name="TransactionCountText">
+		<Properties>
+			<!-- SSCOI-46859: Reposition TransactionCountText -->
+	 		<Property Name="Position">458,694,150,24</Property>
+        </Properties>
+	</Control>
+	<Control Name="TransactionCount">
+		<Properties>
+		<!-- SSCOI-46859: Reposition TransactionCount -->
+	 		<Property Name="Position">462,715,77,45</Property>
+                </Properties>
+	</Control>
+       <!-- -POS92988 -->
+      </Include>
+    </Context>
+
+   <Context Name="ConfirmationContext">
+	<Properties>
+		<Property Name="BackgroundColor">Blue</Property>
+	</Properties>
+	<Include>
+		<Control Name="MainBackground">
+		</Control>
+		<Control Name="Title">
+			<Properties>
+				<Property Name="TextFormat">$CheckoutConfirmTitle$</Property>
+			</Properties>
+		</Control>
+		<Control Name="ConfirmMessage">
+		</Control>
+		<Control Name="ConfirmYes">
+		</Control>
+		<Control Name="ConfirmNo">
+			<Properties>
+		                        <Property Name="Action">Click,ChangeContext,Startup</Property>
+                    		</Properties>
+		</Control>
+		<Control Name="OperationID">
+		</Control>
+		<Control Name="DateText">
+		</Control>
+	</Include>
+      </Context>
+<!-- +POS92988 -->
+	<Context Name="PWDWillExpire">
+	<Properties>
+		<Property Name="BackgroundColor">Blue</Property>
+	</Properties>
+	<Include>
+		<Control Name="MainBackground">
+		</Control>
+		<Control Name="Title">
+			<Properties>
+				<Property Name="TextFormat">$PWDWillExpireTitle$</Property>
+			</Properties>
+		</Control>
+		<Control Name="ConfirmMessage">
+			<Properties>
+			   <Property Name="TextFormat">$PWDWillExpireLeadthru$</Property>				
+				<Property Name="Position">85,120,900,450</Property>
+			</Properties>
+		</Control>
+		<Control Name="OKButton">
+			<Properties>
+	 		<Property Name="Position">420,400,189,71</Property>
+			</Properties>
+		</Control>
+		<Control Name="OperationID">
+		</Control>
+		<Control Name="DateText">
+		</Control>
+	</Include>
+      </Context>
+	<Context Name="PWDExpired">
+	<Properties>
+		<Property Name="BackgroundColor">Blue</Property>
+	</Properties>
+	<Include>
+		<Control Name="MainBackground">
+		</Control>
+		<Control Name="Title">
+			<Properties>
+				<Property Name="TextFormat">$PWDExpiredTitle$</Property>
+			</Properties>
+		</Control>
+		<Control Name="ConfirmMessage">
+			<Properties>
+				<Property Name="TextFormat">$PWDExpiredLeadthru$</Property>				
+				<Property Name="Position">85,120,900,450</Property>
+			</Properties>
+		</Control>
+		<Control Name="OKButton">
+			<Properties>
+<!--			   <Property Name="Action">Click,ChangeContext,ChangePWD</Property>  -->  <!-- POS105314   -->
+	 		<Property Name="Position">420,400,189,71</Property>
+			</Properties>
+		</Control>
+		<Control Name="OperationID">
+		</Control>
+		<Control Name="DateText">
+		</Control>
+	</Include>
+      </Context>
+    <Context Name="ChangePWD">
+      <CustomData>
+        <Data Name="State">ChangePassword</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <Control Name="KeyBoardP1">
+        </Control>
+        <Control Name="KeyBoardP2">
+        </Control>
+        <Control Name="SMNumericKeyBoard">
+        </Control>
+        <Control Name="KeyBoardP4">
+          <Properties>
+            <Property Name="Action">Click,ChangeContext,EnterOldPWD</Property>
+          </Properties>
+        </Control>
+        <Control Name="ButtonCommand0">
+          <Properties>
+            <Property Name="Action">Click,ChangeContext,Startup</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title">
+          <Properties>
+            <Property Name="TextFormat">$ChangePWDTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Leadthru">
+          <Properties>
+            <Property Name="TextFormat">$EnterIDLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Action">ChangeText,ChangeState,KeyBoardP4,Text</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="MainBackground">
+        </Control>
+	<Control Name="OperationID">
+	</Control>
+        <Control Name="DateText">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="EnterOldPWD">
+      <CustomData>
+       <Data Name="State">ChangePassword</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <Control Name="KeyBoardP1">
+        </Control>
+        <Control Name="KeyBoardP2">
+        </Control>
+        <Control Name="SMNumericKeyBoard">
+        </Control>
+        <Control Name="KeyBoardP4">
+        </Control>
+        <Control Name="ButtonCommand0">   <!-- POS105314   -->
+        </Control>
+        <Control Name="Title">
+          <Properties>
+            <Property Name="TextFormat">$ChangePWDTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Leadthru">
+          <Properties>
+            <Property Name="TextFormat">$EnterOldPWDLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Action">ChangeText,ChangeState,KeyBoardP4,Text</Property>
+            <Property Name="Password">True</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="MainBackground">
+        </Control>
+	<Control Name="OperationID">
+	</Control>
+        <Control Name="DateText">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="EnterNewPWD">
+      <CustomData>
+        <Data Name="State">ChangePassword</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <Control Name="KeyBoardP1">
+        </Control>
+        <Control Name="KeyBoardP2">
+        </Control>
+        <Control Name="SMNumericKeyBoard">
+        </Control>
+        <Control Name="KeyBoardP4">
+          <Properties>
+            <Property Name="Action">Click,ChangeContext,ConfirmNewPWD</Property>
+          </Properties>
+        </Control>
+        <Control Name="ButtonCommand0">
+          <Properties>
+            <Property Name="Action">Click,ChangeContext,Startup</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title">
+          <Properties>
+            <Property Name="TextFormat">$ChangePWDTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Leadthru">
+          <Properties>
+            <Property Name="TextFormat">$EnterNewPWDLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Action">ChangeText,ChangeState,KeyBoardP4,Text</Property>
+            <Property Name="Password">True</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="MainBackground">
+        </Control>
+	<Control Name="OperationID">
+	</Control>
+        <Control Name="DateText">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="ConfirmNewPWD">
+      <CustomData>
+        <Data Name="State">ChangePassword</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <Control Name="KeyBoardP1">
+        </Control>
+        <Control Name="KeyBoardP2">
+        </Control>
+        <Control Name="SMNumericKeyBoard">
+        </Control>
+        <Control Name="KeyBoardP4">        
+        </Control>
+        <Control Name="ButtonCommand0">
+          <Properties>
+            <Property Name="Action">Click,ChangeContext,EnterNewPWD</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title">
+          <Properties>
+            <Property Name="TextFormat">$ChangePWDTitle$</Property>
+          </Properties>ss
+        </Control>
+        <Control Name="Leadthru">
+          <Properties>
+            <Property Name="TextFormat">$ConfirmNewPWDLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Action">ChangeText,ChangeState,KeyBoardP4,Text</Property>
+            <Property Name="Password">True</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="MainBackground">
+        </Control>
+	<Control Name="OperationID">
+	</Control>
+        <Control Name="DateText">
+        </Control>
+      </Include>
+    </Context>
+	<Context Name="PWDLimitExceeded">
+	<Properties>
+		<Property Name="BackgroundColor">Blue</Property>
+	</Properties>
+	<Include>
+		<Control Name="MainBackground">
+		</Control>
+		<Control Name="ConfirmMessage">
+			<Properties>
+		     	   <Property Name="TextFormat">$PWDLimitExceededLeadthru$</Property>				
+   			   <Property Name="Position">85,120,850,450</Property>
+			</Properties>
+		</Control>
+		<Control Name="OKButton">
+			<Properties>
+			   <Property Name="Action">Click,ChangeContext,Startup</Property>
+	 		   <Property Name="Position">420,400,189,71</Property>
+			</Properties>
+		</Control>
+		<Control Name="OperationID">
+		</Control>
+		<Control Name="DateText">
+		</Control>
+	</Include>
+      </Context>
+	<Context Name="PWDChangeSuccessfull">
+	<Properties>
+		<Property Name="BackgroundColor">Blue</Property>
+	</Properties>
+	<Include>
+		<Control Name="MainBackground">
+		</Control>
+		<Control Name="ConfirmMessage">
+			<Properties>
+				<Property Name="TextFormat">$PWDChangeSuccessfullLeadthru$</Property>
+				<Property Name="Position">85,120,900,450</Property>				
+			</Properties>
+		</Control>
+		<Control Name="OKButton">
+			<Properties>
+			   <Property Name="Action">Click,ChangeContext,Startup</Property>
+	 		<Property Name="Position">420,400,189,71</Property>
+			</Properties>
+		</Control>
+		<Control Name="OperationID">
+		</Control>
+		<Control Name="DateText">
+		</Control>
+	</Include>
+      </Context>
+	<Context Name="PWDDoNotMatch">
+	<Properties>
+		<Property Name="BackgroundColor">Blue</Property>
+	</Properties>
+	<Include>
+		<Control Name="MainBackground">
+		</Control>
+		<Control Name="ConfirmMessage">
+			<Properties>
+				<Property Name="TextFormat">$PWDDoNotMatchLeadthru$</Property>
+				<Property Name="Position">85,120,900,450</Property>				
+			</Properties>
+		</Control>
+		<Control Name="OKButton">
+			<Properties>
+			   <Property Name="Action">Click,ChangeContext,EnterNewPWD</Property>
+	 		<Property Name="Position">420,400,189,71</Property>
+			</Properties>
+		</Control>
+		<Control Name="OperationID">
+		</Control>
+		<Control Name="DateText">
+		</Control>
+	</Include>
+      </Context>
+	<Context Name="SamePasswordEntered">
+	<Properties>
+		<Property Name="BackgroundColor">Blue</Property>
+	</Properties>
+	<Include>
+		<Control Name="MainBackground">
+		</Control>
+		<Control Name="ConfirmMessage">
+			<Properties>
+			        <Property Name="TextFormat">$SamePasswordEnteredLeadthru$</Property>
+				<Property Name="Position">85,120,800,450</Property>
+			</Properties>
+		</Control>
+		<Control Name="OKButton">
+			<Properties>
+			   <Property Name="Action">Click,ChangeContext,EnterNewPWD</Property>
+	 		<Property Name="Position">420,400,189,71</Property>
+			</Properties>
+		</Control>
+		<Control Name="OperationID">
+		</Control>
+		<Control Name="DateText">
+		</Control>
+	</Include>
+      </Context>
+	<Context Name="UnableToConnectToServer">
+	<Properties>
+		<Property Name="BackgroundColor">Blue</Property>
+	</Properties>
+	<Include>
+		<Control Name="MainBackground">
+		</Control>
+		<Control Name="ConfirmMessage">
+			<Properties>
+				<Property Name="TextFormat">$UnableToConnectToServerLeadthru$</Property>
+				<Property Name="Position">250,120,600,450</Property>
+			</Properties>
+		</Control>
+		<Control Name="OKButton">
+			<Properties>
+			   <Property Name="Action">Click,ChangeContext,Startup</Property>
+	 		<Property Name="Position">420,400,189,71</Property>
+			</Properties>
+		</Control>
+		<Control Name="OperationID">
+		</Control>
+		<Control Name="DateText">
+		</Control>
+	</Include>
+      </Context>
+<!-- -POS92988 -->
+
+<!-- POS105314   -->
+	<Context Name="ScanIDOrKeyChangePWD">
+            <CustomData>
+                <Data Name="State">ChangePassword</Data>
+            </CustomData>
+            <Properties>
+                <Property Name="BackgroundColor">Blue</Property>
+            </Properties>
+            <Include>
+                <Control Name="KeyBoardP1" />
+                <Control Name="KeyBoardP2" />
+                <Control Name="SMNumericKeyBoard" />
+                <Control Name="KeyBoardP4">
+                    <Properties>
+                        <Property Name="Action">Click,ChangeContext,EnterOldPWD</Property>
+                    </Properties>
+                </Control>
+                <Control Name="ButtonCommand0">
+                    <Properties>
+                        <Property Name="Action">Click,ChangeContext,Startup</Property>
+                    </Properties>
+                </Control>
+                <Control Name="Title">
+                    <Properties>
+                        <Property Name="TextFormat">$ChangePWDTitle$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="Leadthru">
+                    <Properties>
+                        <Property Name="TextFormat">$ScanIDOrKeyLeadthru$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="Echo">
+                    <Properties>
+                        <Property Name="Action">ChangeText,ChangeState,KeyBoardP4,Text</Property>
+                    </Properties>
+                </Control>
+                <Control Name="EchoBox" />
+                <Control Name="MainBackground" />
+                <Control Name="OperationID" />
+                <Control Name="DateText" />
+            </Include>
+        </Context>
+        <Context Name="ScanIDOnlyChangePWD">
+            <CustomData>
+                <Data Name="State">ChangePassword</Data>
+            </CustomData>
+            <Properties>
+                <Property Name="BackgroundColor">Blue</Property>
+            </Properties>
+            <Include>
+                <Control Name="ButtonCommand0">
+                    <Properties>
+                        <Property Name="Action">Click,ChangeContext,Startup</Property>
+                    </Properties>
+                </Control>
+                <Control Name="Title">
+                    <Properties>
+                        <Property Name="TextFormat">$ChangePWDTitle$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="Leadthru">
+                    <Properties>
+                        <Property Name="TextFormat">$ScanIDOnlyLeadthru$</Property>
+                    </Properties>
+                </Control>
+                <Control Name="Echo">
+                    <Properties>
+                        <Property Name="Action">ChangeText,ChangeState,KeyBoardP4,Text</Property>
+                    </Properties>
+                </Control>
+                <Control Name="EchoBox" />
+                <Control Name="MainBackground" />
+                <Control Name="OperationID" />
+                <Control Name="DateText" />
+            </Include>
+        </Context>
+<!-- POS105314   -->
+<!-- (+) POS151582 -->
+	<Context Name="InvalidPassword">
+	<Properties>
+		<Property Name="BackgroundColor">Blue</Property>
+	</Properties>
+	<Include>
+		<Control Name="MainBackground">
+		</Control>
+		<Control Name="ConfirmMessage">
+			<Properties>
+				<Property Name="TextFormat">$InvalidPassword$</Property>
+				<Property Name="Position">85,120,900,450</Property>				
+			</Properties>
+		</Control>
+		<Control Name="OKButton">
+			<Properties>
+			   <Property Name="Action">Click,ChangeContext,EnterNewPWD</Property>
+	 		<Property Name="Position">420,400,189,71</Property>
+			</Properties>
+		</Control>
+		<Control Name="OperationID">
+		</Control>
+		<Control Name="DateText">
+		</Control>
+	</Include>
+      </Context>
+<!-- (-) POS151582 -->
+
+    </Contexts>
+</Display>

@@ -1,0 +1,383 @@
+<Display Version="1.2">
+  <Fonts>
+    <Font Name="SCANMAMTitleFont">
+      <Face>Lucida Sans Unicode</Face>
+      <Size>18</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SCANMEchoBoxFont">
+      <Face>Arial</Face>
+      <Size>11</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SCANMEchoBox1Font">
+      <Face>Courier New</Face>
+      <Size>16</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+  </Fonts>
+  <Controls>
+    <Control Name="Key9" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">539,169,233,167</Property>
+        <Property Name="ButtonHorizontalSpacing">7</Property>
+        <Property Name="ButtonVerticalSpacing">7</Property>
+        <Property Name="ButtonHeight">51</Property>
+        <Property Name="ButtonWidth">73</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\scan master\8x6-bttn_73x51.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">9</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key29" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">704,358,70,111</Property>
+        <Property Name="ButtonHorizontalSpacing">7</Property>
+        <Property Name="ButtonVerticalSpacing">7</Property>
+        <Property Name="ButtonHeight">52</Property>
+        <Property Name="ButtonWidth">70</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\scan master\8x6-bttn_70x52.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">2</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key18" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">539,359,155,169</Property>
+        <Property Name="ButtonHorizontalSpacing">2</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">55</Property>
+        <Property Name="ButtonWidth">49</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\scan master\8x6-bttn_49x55.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">9</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key1" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">350,169,172,414</Property>
+        <Property Name="ButtonHorizontalSpacing">2</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">50</Property>
+        <Property Name="ButtonWidth">172</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\scan master\8x6-bttn_172x50.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">8</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key28" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">645,535,51,55</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">55</Property>
+        <Property Name="ButtonWidth">51</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\scan master\8x6-bttn_51x55.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key27" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">539,535,103,55</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">55</Property>
+        <Property Name="ButtonWidth">103</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\scan master\8x6-bttn_103x55.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key31" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">705,478,68,112</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">112</Property>
+        <Property Name="ButtonWidth">68</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\scan master\8x6-bttn_103x55.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Echo1" Type="Static">
+      <Properties>
+        <Property Name="Position">20,228,294,45</Property>
+        <Property Name="Font">SCANMEchoBoxFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="Echo2" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Position">20,273,294,46</Property>
+        <Property Name="Font">SCANMEchoBoxFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="Echo3" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Position">20,317,294,45</Property>
+        <Property Name="Font">SCANMEchoBoxFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="Echo4" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Position">20,361,294,46</Property>
+        <Property Name="Font">SCANMEchoBoxFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="Echo5" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Position">20,405,294,45</Property>
+        <Property Name="Font">SCANMEchoBoxFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="Echo6" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Position">21,509,294,40</Property>
+        <Property Name="Font">SCANMEchoBox1Font</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="Echo7" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Position">21,548,294,40</Property>
+        <Property Name="Font">SCANMEchoBox1Font</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="Key61" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">588,307,180,283</Property>
+        <Property Name="ButtonHorizontalSpacing">2</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">55</Property>
+        <Property Name="ButtonWidth">42</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\scan master\8x6-bttn_42x55.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">20</Data>
+      </CustomData>
+    </Control>
+    <Control Name="SCANMAMKey1" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">29,307,548,283</Property>
+        <Property Name="ButtonHorizontalSpacing">2</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">55</Property>
+        <Property Name="ButtonWidth">42</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\scan master\8x6-bttn_42x55.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">60</Data>
+      </CustomData>
+    </Control>
+    <Control Name="AMTotalText" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Position">587,235,66,49</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="Font">CMMessageFont</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="AMTotalAmount" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Position">647,235,135,49</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="Font">CMMessageFont</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="TextAlignment">2</Property>
+      </Properties>
+    </Control>
+  </Controls>
+  <Contexts>
+    <Context Name="SmAssistMode">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\Scan Master\8X6_scanmaster.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">174,50,375,33</Property>
+            <Property Name="Font">SCANMAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title2">
+          <Properties>
+            <Property Name="Position">174,93,375,35</Property>
+            <Property Name="Font">SCANMAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">20,184,294,45</Property>
+            <Property Name="Font">SCANMEchoBoxFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo1" />
+        <Control Name="Echo2" />
+        <Control Name="Echo3" />
+        <Control Name="Echo4" />
+        <Control Name="Echo5" />
+        <Control Name="Echo6" />
+        <Control Name="Echo7" />
+        <Control Name="Key9" />
+        <Control Name="Key29" />
+        <Control Name="Key18" />
+        <Control Name="Key1" />
+        <Control Name="Key28" />
+        <Control Name="Key27" />
+        <Control Name="Key31" />
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">2,41,163,42</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage">
+          <Properties>
+            <Property Name="Position">2,71,174,57</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmAssistMode2" Synchronize="False">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\Scan Master\8X6_openfield.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">173,49,375,32</Property>
+            <Property Name="Font">SCANMAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title2">
+          <Properties>
+            <Property Name="Position">173,81,375,36</Property>
+            <Property Name="Font">SCANMAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">20,167,547,33</Property>
+            <Property Name="Font">SCANMEchoBox1Font</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo1">
+          <Properties>
+            <Property Name="Position">20,195,547,32</Property>
+            <Property Name="Font">SCANMEchoBox1Font</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextFormat">Title 1</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo2">
+          <Properties>
+            <Property Name="Position">20,227,547,33</Property>
+            <Property Name="Font">SCANMEchoBox1Font</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextFormat">Title 1</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo3">
+          <Properties>
+            <Property Name="Position">20,255,547,32</Property>
+            <Property Name="Font">SCANMEchoBox1Font</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextFormat">Title 1</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMTaxText">
+          <Properties>
+            <Property Name="Position">587,180,66,49</Property>
+            <Property Name="Font">SMPromptFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMTaxAmount">
+          <Properties>
+            <Property Name="Position">647,180,135,49</Property>
+            <Property Name="Font">SMPromptFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextFormat">%s</Property>
+            <Property Name="TextAlignment">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="AMTotalText" />
+        <Control Name="AMTotalAmount" />
+        <Control Name="Key61" />
+        <Control Name="SCANMAMKey1" />
+        <Control Name="SMButton1" />
+        <Control Name="SMButton2" />
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">5,44,163,42</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage">
+          <Properties>
+            <Property Name="Position">5,74,174,57</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+  </Contexts>
+</Display>

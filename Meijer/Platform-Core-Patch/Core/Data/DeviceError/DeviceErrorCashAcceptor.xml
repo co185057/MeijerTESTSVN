@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<!-- The format of this file is:	 	-->
+<!-- <DeviceError>                           	-->
+<!-- 	<SectionName>			     	-->
+<!--		<Title1>Msg id in scotmsge.dat for title 1</Title1>-->
+<!--		<Title2>Msg id in scotmsge.dat for title 2</Title2>-->
+<!--	   	<Text>Msg id in scotmsge.dat</Text>		-->
+<!--		<Image>Bitmap id in scotbmpe.dat</Image> 	-->
+<!--		<Wave>id in scotwave.dat</Wave>			-->
+<!--		<Movie>Movie name in text</Movie>		-->
+<!--	</SectionName>					-->
+<!--</DeviceError>					-->
+
+
+<DeviceError>
+	<NCR_EBILLSO_CASS_OUT>
+		<Title1>1130</Title1>
+		<Title2>1131</Title2>
+        	<Text>237</Text>
+                <Image>125</Image>
+	</NCR_EBILLSO_CASS_OUT>
+
+	<DM_CASHACCEPTOR_STATUS_FAILURE>
+		<Title1>1130</Title1>
+		<Title2>1132</Title2>
+		<Text>233</Text>
+                <Image>126</Image>
+	</DM_CASHACCEPTOR_STATUS_FAILURE>
+
+	<NCR_EBILLSO_JAM>
+		<Title1>1130</Title1>
+		<Title2>1133</Title2>
+		<Text>232</Text>
+                <Image>127</Image>
+	</NCR_EBILLSO_JAM>
+
+	<NCR_EBILLSO_CASS_FULL>
+		<Title1>1130</Title1>
+		<Title2>1134</Title2>
+		<Text>234</Text>
+	</NCR_EBILLSO_CASS_FULL>
+
+	<DM_CASHACCEPTOR_STATUS_CHEAT>
+		<Title1>1130</Title1>
+		<Text>238</Text>
+	</DM_CASHACCEPTOR_STATUS_CHEAT>
+
+	<DEVICEERRORUNKNOWN>
+		<Title1>1130</Title1>
+		<Text> 1099</Text>
+	</DEVICEERRORUNKNOWN>
+
+	<NCR_EBILLSO_CASHFLOW_CASS_OUT>
+		<Title1>1130</Title1>
+		<Title2>1131</Title2>
+        	<Text>1309</Text>
+                <Image>150</Image>
+	</NCR_EBILLSO_CASHFLOW_CASS_OUT>
+
+	<DM_CASHACCEPTOR_CASHFLOW_STATUS_FAILURE>
+		<Title1>1130</Title1>
+		<Title2>1132</Title2>
+		<Text>1310</Text>
+                <Image>151</Image>
+	</DM_CASHACCEPTOR_CASHFLOW_STATUS_FAILURE>
+
+	<NCR_EBILLSO_CASHFLOW_JAM>
+		<Title1>1130</Title1>
+		<Title2>1133</Title2>
+		<Text>1311</Text>
+                <Image>152</Image>
+	</NCR_EBILLSO_CASHFLOW_JAM>
+
+	<NCR_EBILLSO_CASHFLOW_RTU_OPEN>
+		<Title1>1130</Title1>
+		<Title2>1134</Title2>
+		<Text>1311</Text>
+                <Image>153</Image>
+	</NCR_EBILLSO_CASHFLOW_RTU_OPEN>
+
+	<NCR_EBILLSO_CASHFLOW_CASS_FULL>
+		<Title1>1130</Title1>
+		<Title2>1134</Title2>
+		<Text>1312</Text>
+                <Image>154</Image>
+	</NCR_EBILLSO_CASHFLOW_CASS_FULL>
+
+	<NCR_EBILLSO_ARDAC_CASS_OUT>
+		<Title1>1130</Title1>
+		<Title2>1131</Title2>
+        	<Text>237</Text>
+                <Image>165</Image>
+	</NCR_EBILLSO_ARDAC_CASS_OUT>
+
+	<DM_CASHACCEPTOR_ARDAC_STATUS_FAILURE>
+		<Title1>1130</Title1>
+		<Title2>1132</Title2>
+		<Text>233</Text>
+                <Image>166</Image>
+	</DM_CASHACCEPTOR_ARDAC_STATUS_FAILURE>
+
+	<NCR_EBILLSO_ARDAC_JAM>
+		<Title1>1130</Title1>
+		<Title2>1133</Title2>
+		<Text>232</Text>
+                <Image>167</Image>
+	</NCR_EBILLSO_ARDAC_JAM>
+
+
+
+</DeviceError>

@@ -1,0 +1,21 @@
+﻿<Display Version="1.0">
+  <Languages>
+    <Language Name="0407">
+      <StringTable>
+	<String Name="CouponReceiptText">%d Gutschein-Summe €%.2f</String>        
+	<String Name="CheckAgeLeadthru">Geburtsdatum %s eingeben oder in "Assistenzmodus" wechseln.</String>
+	<String Name="AssistedTenderLeadthru">Berühren Sie "Hilfemodus", um den Scheck vom Kunden entgegenzunehmen.</String>
+        <String Name="AssistedTenderHHLeadthru">Berühren Sie "Hilfemodus", um den Scheck vom Kunden entgegenzunehmen.</String>        
+   	<String Name="LaneReceiptItemType5">%s\t%s\t  %s @ %s %s/%s\t%s</String>
+        <String Name="LaneReceiptItemType6">%s\t%s\t  %s @ %s/%s\t%s</String>
+        <String Name="CloseLaneButtonText">Kasse Schließen</String>        
+	<String Name="EnterIDFpLeadthru">Benutzer-ID eingeben und "Eingabe" drücken oder Finger auf Fingerabdruck-Lesegerät legen.</String>
+	<String Name="HH_CheckAgeLeadthru">Geburtsdatum %s eingeben oder in "Assistenzmodus" wechseln.</String>        
+	<String Name="HopperLeadThru">%s Gehen Sie zur Kasse und füllen Sie Münzen nach oder beseitigen Sie den Stau bzw. drücken Sie "Später beheben", um fortzufahren.</String>
+	<String Name="CouponExceededLimitLeadthru">"Coupon annehmen" drücken, um den Coupon zu akzeptieren, oder in Assistenzmodus wechseln, um ihn abzulehnen.</String>
+	<String Name="ExpandReceiptButtonText">Kassenzettel öffnen</String>
+	<String Name="CollapseReceiptButtonText">Kassenzettel schließen</String>
+      </StringTable>
+    </Language>
+  </Languages>
+</Display>

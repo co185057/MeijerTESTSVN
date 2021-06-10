@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<RapNet>
+	<!-- This is the list of connected FastLanes -->
+	<Lanes>
+	    <Lane>
+	        <Host></Host>
+	    </Lane>
+	    <Lane>
+	        <Host></Host>
+	    </Lane>
+	    <Lane>
+	        <Host></Host>
+	    </Lane>
+        <Lane>
+	        <Host></Host>
+	    </Lane>	   
+	</Lanes>
+	
+	<Options>
+	    <!-- Use Alphanumeric keyboard for signon -->
+	    <AlphaNumericKeyboard>false</AlphaNumericKeyboard>
+	    
+	    <!-- Timeout in ms for signon operation -->
+	    <SignOnTimeout>5000</SignOnTimeout>
+	    
+	    <!-- Time in ms between Psx ConnectRemote invocations -->
+	    <ConnectionPeriod>5000</ConnectionPeriod>
+	    
+	    <!-- Timeout in ms for ConnectRemote operation -->
+	    <ConnectRemoteTimeout>5000</ConnectRemoteTimeout>
+	    
+	    <!-- Timeout in ms for the application to shutdown. If the application is not dead after this time, call process.kill(). -->
+	    <ShutDownTimeout>3000</ShutDownTimeout>
+	    
+	    <!-- Synchronize our local time with FastLane at signon -->
+	    <SynchronizeTimeServer>false</SynchronizeTimeServer>
+	    
+	    <!-- Sound played when a barcode is scanned. Silent if empty. -->
+	    <ScanSound>Scan.wav</ScanSound>
+
+		<!-- Signon via TB first: true ( default ) means registry will only be checked after TB signon times out or TB send failed to all lanes -->
+	    <SignOnTBFirst>true</SignOnTBFirst>
+	    
+		<!-- Is it required to display the legal caption prior to the sign on menu? (default is false). -->
+		<LegalCaptionRequired>false</LegalCaptionRequired>
+
+		<!-- Hash algorith to use when validating password in swusers/maintusers registry. 
+			Desktop possible values: "NONE", "SHA1", "MD5", "SHA256", "SHA384", and "SHA512" (default is NONE)
+			HH possible values: "NONE" and "SHA256"(default is NONE). -->
+		<HashAlgorithm>NONE</HashAlgorithm>
+		
+		<!-- Launch Pad scanner profile (default: SOFTWARE\\NCR\\NcrLaunchPadRemoteScanner). -->
+		<NcrRemoteScanner>SOFTWARE\NCR\NcrLaunchPadRemoteScanner</NcrRemoteScanner>
+	</Options>	
+</RapNet>

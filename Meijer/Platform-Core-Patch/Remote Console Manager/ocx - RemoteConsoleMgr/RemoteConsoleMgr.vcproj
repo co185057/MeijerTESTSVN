@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.10"
+	Name="RemoteConsoleMgr"
+	ProjectGUID="{D100B9D9-7611-43DB-B343-A31C0A689C2B}"
+	RootNamespace="RemoteConsoleMgr"
+	Keyword="MFCActiveXProj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="Debug"
+			ConfigurationType="2"
+			UseOfMFC="2"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\src\util;..\src\xml;&quot;..\src\state-machine&quot;;&quot;..\src\remote-console-manager&quot;;..\src\rap;&quot;..\dll - Utils&quot;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_USRDLL;RCMANAGER_EXPORTS;IC_TRACE_DEVELOP"
+				MinimalRebuild="TRUE"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				BufferSecurityCheck="TRUE"
+				TreatWChar_tAsBuiltInType="TRUE"
+				UsePrecompiledHeader="3"
+				WarningLevel="4"
+				Detect64BitPortabilityProblems="TRUE"
+				DebugInformationFormat="4"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="UtilsD.lib StatemD.lib RCMgrD.lib"
+				OutputFile="$(OutDir)/RemoteConsoleMgrD.ocx"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="&quot;..\dll - Utils\Debug&quot;;&quot;..\dll - StateMachine\Debug&quot;;&quot;..\dll - RCMgr\Debug&quot;"
+				ModuleDefinitionFile=".\RemoteConsoleMgr.def"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile="$(OutDir)/RemoteConsoleMgrD.pdb"
+				SubSystem="2"
+				ImportLibrary="$(OutDir)/RemoteConsoleMgr.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="FALSE"
+				TypeLibraryName="$(IntDir)/$(ProjectName).tlb"
+				HeaderFileName="$(ProjectName)idl.h"/>
+			<Tool
+				Name="VCPostBuildEventTool"
+				Description="Performing registration"
+				CommandLine="copy &quot;RemoteConsoleMgr.lic&quot; $(OutDir)
+xcopy .\Debug\*D.ocx ..\bin\Debug /y/i/s/e
+"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="$(IntDir)"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="Release"
+			ConfigurationType="2"
+			UseOfMFC="2"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				OmitFramePointers="TRUE"
+				AdditionalIncludeDirectories="..\src\util;..\src\xml;&quot;..\src\state-machine&quot;;&quot;..\src\remote-console-manager&quot;;..\src\rap;&quot;..\dll - Utils&quot;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_USRDLL"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				TreatWChar_tAsBuiltInType="TRUE"
+				UsePrecompiledHeader="3"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="TRUE"
+				DebugInformationFormat="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="Utils.lib Statem.lib RCMgr.lib"
+				OutputFile="$(OutDir)/RemoteConsoleMgr.ocx"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="&quot;..\dll - Utils\Release&quot;;&quot;..\dll - StateMachine\Release&quot;;&quot;..\dll - RCMgr\Release&quot;"
+				ModuleDefinitionFile=".\RemoteConsoleMgr.def"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile="$(OutDir)/RemoteConsoleMgr.pdb"
+				SubSystem="2"
+				OptimizeReferences="2"
+				EnableCOMDATFolding="2"
+				ImportLibrary="$(OutDir)/RemoteConsoleMgr.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="FALSE"
+				TypeLibraryName="$(IntDir)/$(ProjectName).tlb"
+				HeaderFileName="$(ProjectName)idl.h"/>
+			<Tool
+				Name="VCPostBuildEventTool"
+				Description="Performing registration"
+				CommandLine="copy &quot;RemoteConsoleMgr.lic&quot; $(OutDir)
+xcopy .\Release\*.ocx ..\bin\Release /y
+
+"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="$(IntDir)"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Debug|Win32"
+			OutputDirectory=".\Debug_Unicode"
+			IntermediateDirectory=".\Debug_Unicode"
+			ConfigurationType="2"
+			UseOfMFC="2"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\src\util;..\src\xml;&quot;..\src\state-machine&quot;;&quot;..\src\remote-console-manager&quot;;..\src\rap;&quot;..\dll - Utils&quot;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_USRDLL;RCMANAGER_EXPORTS;IC_TRACE_DEVELOP;UNICODE"
+				MinimalRebuild="TRUE"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				BufferSecurityCheck="TRUE"
+				TreatWChar_tAsBuiltInType="FALSE"
+				UsePrecompiledHeader="3"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="TRUE"
+				DebugInformationFormat="4"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="UtilsUD.lib StatemUD.lib RCMgrUD.lib"
+				OutputFile="$(OutDir)/RemoteConsoleMgrUD.ocx"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="&quot;..\dll - Utils\Debug_Unicode&quot;;&quot;..\dll - StateMachine\Debug_Unicode&quot;;&quot;..\dll - RCMgr\Debug_Unicode&quot;"
+				ModuleDefinitionFile=".\RemoteConsoleMgr.def"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile="$(OutDir)/RemoteConsoleMgrUD.pdb"
+				SubSystem="2"
+				ImportLibrary="$(OutDir)/RemoteConsoleMgr.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="FALSE"
+				TypeLibraryName="$(IntDir)/$(ProjectName).tlb"
+				HeaderFileName="$(ProjectName)idl.h"/>
+			<Tool
+				Name="VCPostBuildEventTool"
+				Description="Performing registration"
+				CommandLine="xcopy .\Debug_Unicode\*D.ocx ..\bin\Debug /y
+
+"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="$(IntDir)"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Release|Win32"
+			OutputDirectory=".\Release_Unicode"
+			IntermediateDirectory=".\Release_Unicode"
+			ConfigurationType="2"
+			UseOfMFC="2"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				OmitFramePointers="TRUE"
+				AdditionalIncludeDirectories="..\src\util;..\src\xml;&quot;..\src\state-machine&quot;;&quot;..\src\remote-console-manager&quot;;..\src\rap;&quot;..\dll - Utils&quot;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_USRDLL;_UNICODE"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				TreatWChar_tAsBuiltInType="FALSE"
+				UsePrecompiledHeader="3"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="TRUE"
+				DebugInformationFormat="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="UtilsU.lib StatemU.lib RCMgrU.lib"
+				OutputFile="$(OutDir)/RemoteConsoleMgrU.ocx"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="&quot;..\dll - Utils\Release_Unicode&quot;;&quot;..\dll - StateMachine\Release_Unicode&quot;;&quot;..\dll - RCMgr\Release_Unicode&quot;"
+				ModuleDefinitionFile=".\RemoteConsoleMgr.def"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile="$(OutDir)/RemoteConsoleMgrU.pdb"
+				SubSystem="2"
+				OptimizeReferences="2"
+				EnableCOMDATFolding="2"
+				ImportLibrary="$(OutDir)/RemoteConsoleMgrU.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="FALSE"
+				TypeLibraryName="$(IntDir)/$(ProjectName).tlb"
+				HeaderFileName="$(ProjectName)idl.h"/>
+			<Tool
+				Name="VCPostBuildEventTool"
+				Description="Performing registration"
+				CommandLine="xcopy .\Release_Unicode\*.ocx ..\bin\Release /y
+
+"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="$(IntDir)"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm">
+			<File
+				RelativePath="RemoteConsoleMgr.cpp">
+			</File>
+			<File
+				RelativePath="RemoteConsoleMgr.def">
+			</File>
+			<File
+				RelativePath="RemoteConsoleMgr.idl">
+			</File>
+			<File
+				RelativePath="RemoteConsoleMgrCtrl.cpp">
+			</File>
+			<File
+				RelativePath="RemoteConsoleMgrPpg.cpp">
+			</File>
+			<File
+				RelativePath="stdafx.cpp">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc">
+			<File
+				RelativePath="..\src\remote-console-manager\RCMRegistry.h">
+			</File>
+			<File
+				RelativePath="RemoteConsoleMgr.h">
+			</File>
+			<File
+				RelativePath="RemoteConsoleMgrCtrl.h">
+			</File>
+			<File
+				RelativePath="RemoteConsoleMgrPpg.h">
+			</File>
+			<File
+				RelativePath="Resource.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating map file for help compiler..."
+						CommandLine="echo // Generated Help Map file.  Used by $(ProjectName).HPJ. &gt; &quot;hlp\$(ProjectName).hm&quot;
+echo. &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo // Commands (ID_* and IDM_*) &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+makehm ID_,HID_,0x10000 IDM_,HIDM_,0x10000 &quot;$(InputFileName)&quot; &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo. &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo // Prompts (IDP_*) &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+makehm IDP_,HIDP_,0x30000 &quot;$(InputFileName)&quot; &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo. &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo // Resources (IDR_*) &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+makehm IDR_,HIDR_,0x20000 &quot;$(InputFileName)&quot; &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo. &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo // Dialogs (IDD_*) &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+makehm IDD_,HIDD_,0x20000 &quot;$(InputFileName)&quot; &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo. &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo // Frame Controls (IDW_*) &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+makehm IDW_,HIDW_,0x50000 &quot;$(InputFileName)&quot; &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+"
+						Outputs=".\hlp\$(ProjectName).hm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating map file for help compiler..."
+						CommandLine="echo // Generated Help Map file.  Used by $(ProjectName).HPJ. &gt; &quot;hlp\$(ProjectName).hm&quot;
+echo. &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo // Commands (ID_* and IDM_*) &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+makehm ID_,HID_,0x10000 IDM_,HIDM_,0x10000 &quot;$(InputFileName)&quot; &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo. &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo // Prompts (IDP_*) &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+makehm IDP_,HIDP_,0x30000 &quot;$(InputFileName)&quot; &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo. &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo // Resources (IDR_*) &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+makehm IDR_,HIDR_,0x20000 &quot;$(InputFileName)&quot; &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo. &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo // Dialogs (IDD_*) &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+makehm IDD_,HIDD_,0x20000 &quot;$(InputFileName)&quot; &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo. &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo // Frame Controls (IDW_*) &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+makehm IDW_,HIDW_,0x50000 &quot;$(InputFileName)&quot; &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+"
+						Outputs=".\hlp\$(ProjectName).hm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating map file for help compiler..."
+						CommandLine="echo // Generated Help Map file.  Used by $(ProjectName).HPJ. &gt; &quot;hlp\$(ProjectName).hm&quot;
+echo. &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo // Commands (ID_* and IDM_*) &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+makehm ID_,HID_,0x10000 IDM_,HIDM_,0x10000 &quot;$(InputFileName)&quot; &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo. &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo // Prompts (IDP_*) &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+makehm IDP_,HIDP_,0x30000 &quot;$(InputFileName)&quot; &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo. &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo // Resources (IDR_*) &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+makehm IDR_,HIDR_,0x20000 &quot;$(InputFileName)&quot; &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo. &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo // Dialogs (IDD_*) &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+makehm IDD_,HIDD_,0x20000 &quot;$(InputFileName)&quot; &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo. &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo // Frame Controls (IDW_*) &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+makehm IDW_,HIDW_,0x50000 &quot;$(InputFileName)&quot; &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+"
+						Outputs=".\hlp\$(ProjectName).hm"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating map file for help compiler..."
+						CommandLine="echo // Generated Help Map file.  Used by $(ProjectName).HPJ. &gt; &quot;hlp\$(ProjectName).hm&quot;
+echo. &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo // Commands (ID_* and IDM_*) &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+makehm ID_,HID_,0x10000 IDM_,HIDM_,0x10000 &quot;$(InputFileName)&quot; &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo. &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo // Prompts (IDP_*) &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+makehm IDP_,HIDP_,0x30000 &quot;$(InputFileName)&quot; &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo. &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo // Resources (IDR_*) &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+makehm IDR_,HIDR_,0x20000 &quot;$(InputFileName)&quot; &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo. &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo // Dialogs (IDD_*) &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+makehm IDD_,HIDD_,0x20000 &quot;$(InputFileName)&quot; &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo. &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+echo // Frame Controls (IDW_*) &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+makehm IDW_,HIDW_,0x50000 &quot;$(InputFileName)&quot; &gt;&gt; &quot;hlp\$(ProjectName).hm&quot;
+"
+						Outputs=".\hlp\$(ProjectName).hm"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="stdafx.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
+			<File
+				RelativePath="hlp\Bullet.bmp">
+			</File>
+			<File
+				RelativePath="RemoteConsoleMgr.rc">
+			</File>
+			<File
+				RelativePath="RemoteConsoleMgrCtrl.bmp">
+			</File>
+		</Filter>
+		<File
+			RelativePath="ReadMe.txt">
+		</File>
+		<File
+			RelativePath="RemoteConsoleMgr.lic">
+		</File>
+		<File
+			RelativePath="hlp\RemoteConsoleMgr.rtf">
+		</File>
+	</Files>
+	<Globals>
+		<Global
+			Name="DevPartner_IsInstrumented"
+			Value="1"/>
+	</Globals>
+</VisualStudioProject>

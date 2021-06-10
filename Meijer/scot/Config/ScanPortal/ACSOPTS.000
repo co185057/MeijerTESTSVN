@@ -1,0 +1,13 @@
+[AutoDefaults]
+HookTraceMethod=LocalFile
+UseTraceWriter=1
+HookTraceFile=C:\scot\bin\ACSHookManager.log
+
+[TB]
+AppIniPath=C:\ACS\DATA\APPINI.090
+
+[TBxml]
+Tender29=TENDER_WIC
+
+[ACS Tender Types]
+ELECTRONIC WIC=29

@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\BiometricDeviceManager]
+"ConfigFile"="%APP_DRIVE%\\scot\\config\\BiometricDeviceManager.FastLane.xml"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\BiometricDeviceManager\DataCapture]
+"DcapVersion"="1.1.3"
+"DcapTime"="1F03 -> Hex time option(s): 100=m:s, 300=h:m:s, 700=m/d h:m:s; 800+digits=millisec; 1000=threadid"
+"DcapMask"="FFFF -> Capture mask; F=Error, FF=Warning, FFF=Audit, FFFF=Info, FFFFF=Verbose, FFFFFF=Debug"
+"DcapControl"="4 -> Hex destination(s): 1=DCap App, 2=Debugger, 4=File; 10/20/40 for immediate"
+"DcapFileMax"="5120 -> Max KB of data cap file"
+"DcapFile"="C:\\scot\\logs\\BiometricDeviceManager.log"
+"DcapLinePrefix"=""
+

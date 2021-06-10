@@ -1,0 +1,759 @@
+<?xml version="1.0"?>
+<Display>
+	<Includes>
+		<Include File="%ConfigPath%\ACSMsg0409.xml"/>
+	</Includes>
+	<Fonts>
+		<Font Name="FastLaneAMTitleFont">
+			<Face>Lucida Sans Unicode</Face>
+			<Size>20</Size>
+			<Bold>True</Bold>
+			<Italic>False</Italic>
+		</Font>
+		<Font Name="FastLaneVoidFont">
+			<Face>Lucida Sans Unicode</Face>
+			<Size>15</Size>
+			<Bold>True</Bold>
+			<Italic>False</Italic>
+		</Font>
+
+		<Font Name="FastLaneAMEchoBoxFont">
+			<Face>Courier New</Face>
+			<Size>15</Size>
+			<Bold>True</Bold>
+			<Italic>False</Italic>
+		</Font>
+		<Font Name="ToggleLaneStatusFont">
+			<Face>Arial</Face>
+			<Size>10</Size>
+			<Bold>False</Bold>
+			<Italic>False</Italic>
+		</Font>
+		<Font Name="FastLaneScaleFont">
+			<Face>Arial</Face>
+			<Size>32</Size>
+			<Bold>False</Bold>
+			<Italic>False</Italic>
+		</Font>
+		<Font Name="PSAMButtonFont">
+			<Face>Arial</Face>
+			<Size>15</Size>
+			<Bold>True</Bold>
+			<Italic>False</Italic>
+		</Font>
+		<Font Name="AMReceiptFont">
+			<Face>Arial</Face>
+			<Size>9</Size>
+			<Bold>True</Bold>
+			<Italic>False</Italic>
+		</Font>
+		<Font Name="AMDynakeyFont">
+			<Face>Arial</Face>
+			<Size>12</Size>
+			<Bold>True</Bold>
+			<Italic>False</Italic>
+		</Font>
+	</Fonts>
+	<Controls>
+		<Control Name="AssistKeyMap" Type="Static">
+		<!-- Map of Assist keys to virtual keycodes, keystatus, and override text ID for label -->
+		<!-- AssistKeyCount: Actual number of assist keys -->
+		<!-- AssistKeyControls: ascending numeric values corresponding to the assist button list controls -->
+		<!-- KeyboardPOSString, KeyboardVirtualKeyValue, keystatus, textid
+		     KeyboardPOSString - String sent to TB when the button is pressed.   
+		     KeyboardVirtualKeyValue: 
+		        The physical keycode that will map to the assist mode button
+		        Based on keycodes from winuser.h
+			 keystatus:
+			 Bit 0 - allowed during local mode
+			 Bit 1 - allowed during remote mode
+			 Bit 2 - allowed inside txn 
+			 Bit 3 - allowed outside txn 
+			 textID - zero = no override of text defined in Key Control 
+			-->
+			<CustomData>
+				<DepartPrice>Department Price</DepartPrice>	
+				<WICCouponStart>WIC COUPON START DATE</WICCouponStart>
+				<WICCouponEnd>  WIC COUPON END DATE</WICCouponEnd>
+				<AssistKeyCount>31</AssistKeyCount>
+				<Key1>{ITEM},122,15,0</Key1>
+				<Key2>{TRANS},123,15,0</Key2>
+				<Key3>{OTHER},125,15,0</Key3>
+				<Key4>{PRICE},126,0,0</Key4>
+				<Key5>{CLEAR},128,15,0</Key5>
+				<Key6>{LOOKUP},129,0,0</Key6>
+				<Key7>{MISC},123,15,0</Key7>
+				<Key8>{VOID},127,15,0</Key8>
+				<Key9>{COUPON},130,0,0</Key9>
+				<Key10>{PAYMENT},131,6,0</Key10>
+				<Key11>{DEPT},132,15,0</Key11>
+				<Key12>{ENTER},13,15,0</Key12>
+				<Key13>{7},103,15,0</Key13>
+				<Key14>{8},104,15,0</Key14>
+				<Key15>{9},105,15,0</Key15>
+				<Key16>{4},100,15,0</Key16>
+				<Key17>{5},101,15,0</Key17>
+				<Key18>{6},102,15,0</Key18>
+				<Key19>{1},97,15,0</Key19>
+				<Key20>{2},98,15,0</Key20>
+				<Key21>{3},99,15,0</Key21>
+				<Key22>{0},96,15,0</Key22>
+				<Key23>{.},110,0,0</Key23>
+				<Key24>{F1},112,15,0</Key24>
+				<Key25>{F2},113,15,0</Key25>
+				<Key26>{F3},114,15,0</Key26>
+				<Key27>{F4},115,15,0</Key27>
+				<Key28>{F5},116,15,0</Key28>
+				<Key29>{F6},117,15,0</Key29>
+				<Key30>{F7},118,15,0</Key30>
+				<Key31>{F8},119,15,0</Key31>
+			</CustomData>
+		</Control>
+		<Control Name="Key1" Type="ButtonList">
+			<Position>668,201,230,222</Position>
+			<CustomData>
+				<ButtonCount>6</ButtonCount>
+			</CustomData>
+			<List>
+				<Button>ITEM,-,1</Button>
+				<Button>TRANS,-,2</Button>
+				<Button>OTHER,-,3</Button>
+				<Button>PRICE,-,4</Button>
+				<Button>CLEAR,-,5</Button>
+				<Button>LOOKUP,-,6</Button>
+			</List>
+			<ButtonHorizontalSpacing>7</ButtonHorizontalSpacing>
+			<ButtonVerticalSpacing>6</ButtonVerticalSpacing>
+			<ButtonHeight>70</ButtonHeight>
+			<ButtonWidth>111</ButtonWidth>
+			<Audio>%AudioPath%\KeypadValid.wav</Audio>
+			<Font>SMKeyBoardFont</Font>
+			<TextColor>Black</TextColor>
+			<TextColorDisabled>Gray</TextColorDisabled>
+			<Picture>%MediaPath%\10x7-bttn_AM_HardKey.png</Picture>
+		</Control>
+		<Control Name="Key7" Type="ButtonList">
+			<Position>906,201,111,374</Position>
+			<CustomData>
+				<ButtonCount>5</ButtonCount>
+			</CustomData>
+			<List>
+				<Button>MISC,-,7</Button>
+				<Button>VOID,-,8</Button>
+				<Button>COUPON,-,9</Button>
+				<Button>Payment,-,10</Button>
+				<Button>DEPT,-,11</Button>
+			</List>
+			<ButtonHorizontalSpacing>6</ButtonHorizontalSpacing>
+			<ButtonVerticalSpacing>6</ButtonVerticalSpacing>
+			<ButtonHeight>70</ButtonHeight>
+			<ButtonWidth>111</ButtonWidth>
+			<Audio>%AudioPath%\KeypadValid.wav</Audio>
+			<Font>SMKeyBoardFont</Font>
+			<TextColor>Black</TextColor>
+			<TextColorDisabled>Gray</TextColorDisabled>
+			<Picture>%MediaPath%\10x7-bttn_AM_HardKey.png</Picture>
+		</Control>
+		<Control Name="Key12" Type="ButtonList">
+			<Position>906,579,111,146</Position>
+			<CustomData>
+				<ButtonCount>1</ButtonCount>
+			</CustomData>
+			<List>
+				<Button>ENTER,-,12</Button>
+			</List>
+			<ButtonHorizontalSpacing>1</ButtonHorizontalSpacing>
+			<ButtonVerticalSpacing>1</ButtonVerticalSpacing>
+			<ButtonHeight>146</ButtonHeight>
+			<ButtonWidth>111</ButtonWidth>
+			<Audio>%AudioPath%\KeypadValid.wav</Audio>
+			<Font>SMKeyBoardFont</Font>
+			<TextColor>Black</TextColor>
+			<TextColorDisabled>Gray</TextColorDisabled>
+			<Picture>%MediaPath%\10x7-bttn_AM_Enter.png</Picture>
+		</Control>
+		<Control Name="Key13" Type="ButtonList">
+			<Position>668,428,231,222</Position>
+			<CustomData>
+				<ButtonCount>9</ButtonCount>
+			</CustomData>
+			<List>
+				<Button>7,-,13</Button>
+				<Button>8,-,14</Button>
+				<Button>9,-,15</Button>
+				<Button>4,-,16</Button>
+				<Button>5,-,17</Button>
+				<Button>6,-,18</Button>
+				<Button>1,-,19</Button>
+				<Button>2,-,20</Button>
+				<Button>3,-,21</Button>
+			</List>
+			<ButtonHorizontalSpacing>6</ButtonHorizontalSpacing>
+			<ButtonVerticalSpacing>6</ButtonVerticalSpacing>
+			<ButtonHeight>70</ButtonHeight>
+			<ButtonWidth>73</ButtonWidth>
+			<Audio>%AudioPath%\KeypadValid.wav</Audio>
+			<Font>SMKeyBoardFont</Font>
+			<TextColor>Black</TextColor>
+			<TextColorDisabled>Gray</TextColorDisabled>
+			<Picture>%MediaPath%\10x7-bttn_AM_Numeric.png</Picture>
+		</Control>
+		<Control Name="Key22" Type="ButtonList">
+			<Position>668,655,152,70</Position>
+			<CustomData>
+				<ButtonCount>1</ButtonCount>
+			</CustomData>
+			<List>
+				<Button>0,-,22</Button>
+			</List>
+			<ButtonHorizontalSpacing>6</ButtonHorizontalSpacing>
+			<ButtonVerticalSpacing>3</ButtonVerticalSpacing>
+			<ButtonHeight>70</ButtonHeight>
+			<ButtonWidth>152</ButtonWidth>
+			<Audio>%AudioPath%\KeypadValid.wav</Audio>
+			<Font>SMKeyBoardFont</Font>
+			<TextColor>Black</TextColor>
+			<TextColorDisabled>Gray</TextColorDisabled>
+			<Picture>%MediaPath%\10x7-bttn_AM_Zero.png</Picture>
+		</Control>
+		<Control Name="Key23" Type="ButtonList">
+			<Position>826,655,73,70</Position>
+			<CustomData>
+				<ButtonCount>1</ButtonCount>
+			</CustomData>
+			<List>
+				<Button>.,-,23</Button>
+			</List>
+			<ButtonHorizontalSpacing>6</ButtonHorizontalSpacing>
+			<ButtonVerticalSpacing>3</ButtonVerticalSpacing>
+			<ButtonHeight>70</ButtonHeight>
+			<ButtonWidth>73</ButtonWidth>
+			<Audio>%AudioPath%\KeypadValid.wav</Audio>
+			<Font>SMKeyBoardFont</Font>
+			<TextColor>Black</TextColor>
+			<TextColorDisabled>Gray</TextColorDisabled>
+			<Picture>%MediaPath%\10x7-bttn_AM_Numeric.png</Picture>
+		</Control>
+		<Control Name="Key24" Type="ButtonList">
+			<Position>416,201,232,524</Position>
+			<CustomData>
+				<ButtonCount>8</ButtonCount>
+			</CustomData>
+			<List>
+				<Button>F1,-,24</Button>
+				<Button>F2,-,25</Button>
+				<Button>F3,-,26</Button>
+				<Button>F4,-,27</Button>
+				<Button>F5,-,28</Button>
+				<Button>F6,-,29</Button>
+				<Button>F7,-,30</Button>
+				<Button>F8,-,31</Button>
+			</List>
+			<ButtonHorizontalSpacing>6</ButtonHorizontalSpacing>
+			<ButtonVerticalSpacing>6</ButtonVerticalSpacing>
+			<ButtonHeight>60</ButtonHeight>
+			<ButtonWidth>232</ButtonWidth>
+			<Audio>%AudioPath%\KeypadValid.wav</Audio>
+			<Font>AMDynakeyFont</Font>
+			<TextColor>Black</TextColor>
+			<TextColorDisabled>Gray</TextColorDisabled>
+			<TextAlignment>0</TextAlignment>
+			<TextPosition>10,7,200,45</TextPosition>
+			<Logo></Logo>
+			<LogoPosition>205,20,20,20</LogoPosition>
+			<Picture>%MediaPath%\10x7-bttn_AM_Dynakey.png</Picture>
+		</Control>
+		<Control Name="ButtonToggle" Type="Button">
+			<Position>704,0,158,70</Position>
+			<Font>SMKeyBoardFont</Font>
+			<TextColor>Black</TextColor>
+			<TextPosition>6,6,147,58</TextPosition>
+			<TextAlignment>1</TextAlignment>
+			<Picture>%MediaPath%\10x7-bttn_AM_FLFunction.png</Picture>
+			<TextFormat>$ShowAllLanesValue$</TextFormat>
+			<Visible>False</Visible>
+		</Control>
+		<Control Name="ButtonLaneStatus0" Type="Static">
+			<Position>12,0,128,32</Position>
+			<Font>ToggleLaneStatusFont</Font>
+			<TextColor>White</TextColor>
+			<TextAlignment>0</TextAlignment>
+		</Control>
+		<Control Name="ButtonLaneStatus1" Type="Static">
+			<Position>140,0,128,32</Position>
+			<Font>ToggleLaneStatusFont</Font>
+			<TextColor>White</TextColor>
+			<TextAlignment>0</TextAlignment>
+		</Control>
+		<Control Name="ButtonLaneStatus2" Type="Static">
+			<Position>268,0,128,32</Position>
+			<Font>ToggleLaneStatusFont</Font>
+			<TextColor>White</TextColor>
+			<TextAlignment>0</TextAlignment>
+		</Control>
+		<Control Name="ButtonLaneStatus3" Type="Static">
+			<Position>396,0,128,32</Position>
+			<Font>ToggleLaneStatusFont</Font>
+			<TextColor>White</TextColor>
+			<TextAlignment>0</TextAlignment>
+		</Control>
+		<Control Name="ButtonLaneStatus4" Type="Static">
+			<Position>12,15,128,32</Position>
+			<Font>ToggleLaneStatusFont</Font>
+			<TextColor>White</TextColor>
+			<TextAlignment>0</TextAlignment>
+		</Control>
+		<Control Name="ButtonLaneStatus5" Type="Static">
+			<Position>140,12,128,32</Position>
+			<Font>ToggleLaneStatusFont</Font>
+			<TextColor>White</TextColor>
+			<TextAlignment>0</TextAlignment>
+		</Control>
+		<Control Name="ButtonLaneStatus6" Type="Static">
+			<Position>268,12,128,32</Position>
+			<Font>ToggleLaneStatusFont</Font>
+			<TextColor>White</TextColor>
+			<TextAlignment>0</TextAlignment>
+		</Control>
+		<Control Name="ButtonLaneStatus7" Type="Static">
+			<Position>396,12,128,32</Position>
+			<Font>ToggleLaneStatusFont</Font>
+			<TextColor>White</TextColor>
+			<TextAlignment>0</TextAlignment>
+		</Control>
+		<Control Name="Echo1" Type="Static">
+			<Position>332,228,367,48</Position>
+			<Font>FastLaneAMEchoBoxFont</Font>
+			<TextColor>White</TextColor>
+			<TextAlignment>0</TextAlignment>
+			<TextFormat>%s</TextFormat>
+			<Variable>Echo1</Variable>
+			<Z-Order>2</Z-Order>
+		</Control>
+		<Control Name="AssistTermInfo" Type="Static">
+			<Position>26,38,365,42</Position>
+			<Font>FastLaneAMTitleFont</Font>
+			<TextColor>White</TextColor>
+			<TextFormat>%s</TextFormat>
+			<Variable>Echo2</Variable>
+			<TextAlignment>0</TextAlignment>
+		</Control>
+
+		<Control Name="AssistTermInfo2" Type="Static">
+			<Position>26,65,365,42</Position>
+			<Font>FastLaneAMTitleFont</Font>
+			<TextColor>White</TextColor>
+			<TextFormat>%s</TextFormat>
+			<Variable>Echo4</Variable>
+			<TextAlignment>0</TextAlignment>
+		</Control>
+
+		<Control Name="AssistEchoBackground" Type="Static">
+			<Picture>%MediaPath%\10x7_AssistEchoBox.jpg</Picture>
+			<Position>27,201,384,70</Position>
+			<Z-Order>2</Z-Order>
+		</Control>
+		<Control Name="AssistReceiptBackground" Type="Static">
+			<Position>26,276,384,370</Position>
+			<Picture>%MediaPath%\10x7_AssistReceiptBackground.jpg</Picture>
+			<Z-Order>2</Z-Order>
+		</Control>
+		<Control Name="AssistOperatorMessage" Type="Static">
+			<Position>27,276,384,370</Position>
+			<TextArea>38,294,320,307</TextArea>
+			<Picture>%MediaPath%\10x7_AssistOperatorMessage.PNG</Picture>
+			<Font>FastLaneAMTitleFont</Font>
+			<Visible>False</Visible>
+			<TextColor>Black</TextColor>
+			<TextFormat>%s</TextFormat>
+			<TextAlignment>1</TextAlignment>
+			<Variable>Echo3</Variable>
+			<Z-Order>6</Z-Order>
+		</Control>
+		<Control Name="PrcMethodMessage" Type="Static">
+			<Position>27,276,384,370</Position>
+			<TextArea>38,294,320,307</TextArea>
+			<Picture>%MediaPath%\10x7_AssistOperatorMessage.PNG</Picture>
+			<Font>FastLaneAMTitleFont</Font>
+			<Visible>False</Visible>
+			<TextColor>Black</TextColor>
+			<TextFormat>%s</TextFormat>
+			<TextAlignment>0</TextAlignment>
+			<TextLineAlignment>0</TextLineAlignment>
+			<Variable>Echo3</Variable>
+			<Z-Order>6</Z-Order>
+		</Control>
+		<Control Name="VoidItemMessage" Type="Static">
+			<Position>27,276,384,370</Position>
+			<TextArea>38,294,320,307</TextArea>
+			<Picture>%MediaPath%\10x7_AssistOperatorMessage.PNG</Picture>
+			<Font>FastLaneVoidFont</Font>
+			<Visible>False</Visible>
+			<TextColor>Black</TextColor>
+			<TextFormat>%s</TextFormat>
+			<TextAlignment>0</TextAlignment>
+			<TextLineAlignment>0</TextLineAlignment>
+			<Variable>Echo3</Variable>
+			<Z-Order>6</Z-Order>
+		</Control>
+		
+		<Control Name="AssistTotalText" Type="Static">
+			<Position>51,583,241,31</Position>
+			<Font>PSAMButtonFont</Font>
+			<TextColor>White</TextColor>
+			<TextFormat>$TotalValue$</TextFormat>
+			<TextAlignment>2</TextAlignment>
+			<Z-Order>4</Z-Order>
+		</Control>
+		<Control Name="AssistTotalAmount" Type="Static">
+			<Position>290,583,118,31</Position>
+			<Font>PSAMButtonFont</Font>
+			<TextColor>White</TextColor>
+			<TextFormat>%s</TextFormat>
+			<Variable>CMTotalAmount</Variable>
+			<TextAlignment>4</TextAlignment>
+			<Z-Order>3</Z-Order>
+		</Control>
+		<Control Name="AssistChangeDueText" Type="Static">
+			<Position>51,614,241,31</Position>
+			<Font>PSAMButtonFont</Font>
+			<TextColor>White</TextColor>
+			<TextFormat>$AssistChangeDue$</TextFormat>
+			<TextAlignment>2</TextAlignment>
+			<Z-Order>4</Z-Order>
+		</Control>
+		<Control Name="AssistChangeDueAmount" Type="Static">
+			<Position>290,614,118,31</Position>
+			<Font>PSAMButtonFont</Font>
+			<TextColor>White</TextColor>
+			<TextFormat>%s</TextFormat>
+			<Variable>Amount1</Variable>
+			<TextAlignment>4</TextAlignment>
+			<Z-Order>3</Z-Order>
+		</Control>
+		<Control Name="AssistTaxAmount" Type="Static">
+			<Position>290,559,87,15</Position>
+			<Font>AMReceiptFont</Font>
+			<TextColor>White</TextColor>
+			<TextFormat>%s</TextFormat>
+			<Variable>CMTaxAmount</Variable>
+			<TextAlignment>4</TextAlignment>
+			<Z-Order>3</Z-Order>
+		</Control>
+		<Control Name="AssistTaxText" Type="Static">
+			<Position>51,559,240,15</Position>
+			<Font>AMReceiptFont</Font>
+			<TextColor>White</TextColor>
+			<TextFormat>$AssistTaxTextValue$</TextFormat>
+			<TextAlignment>2</TextAlignment>
+			<Z-Order>4</Z-Order>
+		</Control>
+
+	
+
+		<Control Name="AssistReceipt" Type="Receipt">
+			<Position>36,280,362,270</Position>
+			<FillStyle>0</FillStyle>
+			<Font>AMReceiptFont</Font>
+			<TextColor>White</TextColor>
+			<SelectionFont>AMReceiptFont</SelectionFont>
+			<SelectionBackgroundColor>Gray</SelectionBackgroundColor>
+			<SelectionForegroundColor>Black</SelectionForegroundColor>
+			<Z-Order>4</Z-Order>
+			<Columns>
+				<Column Alignment="0" Width="256" />
+				<Column Alignment="2" Width="96" />
+			</Columns>
+			<CustomData>
+				<DataSource>CMSMReceipt</DataSource>
+				<!-- item -->
+				<ItemType1>ITEM_DESCRIPTION,ITEM_EXT_PRICE</ItemType1>
+				<ItemType1StringID>$AMReceiptItemType1$</ItemType1StringID>
+				<!-- void item -->
+				<ItemType2>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_VOID</ItemType2>
+				<ItemType2Font>ReceiptFontVoid</ItemType2Font>
+				<ItemType2Color>DarkGray</ItemType2Color>
+				<ItemType2Selectable>False</ItemType2Selectable>
+				<ItemType2StringID>$AMReceiptItemType1$</ItemType2StringID>
+				<!-- msg item -->
+				<ItemType3>ITEM_MSG</ItemType3>
+				<ItemType3StringID>$AMReceiptItemType2$</ItemType3StringID>
+				<ItemType3Selectable>False</ItemType3Selectable>
+				<ItemType3Color>Red</ItemType3Color>
+				<ItemType3Wrap>True</ItemType3Wrap>
+				<!-- restricted item -->
+				<ItemType4>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_RESTRICTED</ItemType4>
+				<ItemType4Font>ReceiptFont</ItemType4Font>
+				<ItemType4Color>Blue</ItemType4Color>
+				<ItemType4StringID>$AMReceiptItemType1$</ItemType4StringID>
+				<!-- void restricted item -->
+				<ItemType5>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_RESTRICTED,ITEM_VOID</ItemType5>
+				<ItemType5Font>ReceiptFontVoid</ItemType5Font>
+				<ItemType5Color>DarkGray</ItemType5Color>
+				<ItemType5Selectable>False</ItemType5Selectable>
+				<ItemType5StringID>$AMReceiptItemType1$</ItemType5StringID>
+				<!-- reward item -->
+				<ItemType6>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_REWARD</ItemType6>
+				<ItemType6Font>ReceiptFont</ItemType6Font>
+				<ItemType6Selectable>False</ItemType6Selectable>
+				<ItemType6StringID>$AMReceiptItemType1$</ItemType6StringID>
+				<ItemType6Wrap>True</ItemType6Wrap>
+				<!-- quantity item1 -->
+				<ItemType7>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT</ItemType7>
+				<ItemType7StringID>$AMReceiptItemType3$</ItemType7StringID>
+				<!-- quantity item2 -->
+				<ItemType8>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT</ItemType8>
+				<ItemType8StringID>$AMReceiptItemType4$</ItemType8StringID>
+				<!-- restricted quantity item1 -->
+				<ItemType9>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</ItemType9>
+				<ItemType9Font>ReceiptFont</ItemType9Font>
+				<ItemType9Color>Blue</ItemType9Color>
+				<ItemType9StringID>$AMReceiptItemType3$</ItemType9StringID>
+				<!-- restricted quantity item2 -->
+				<ItemType10>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</ItemType10>
+				<ItemType10Font>ReceiptFont</ItemType10Font>
+				<ItemType10Color>Blue</ItemType10Color>
+				<ItemType10StringID>$AMReceiptItemType4$</ItemType10StringID>
+				<!-- void quantity item1 -->
+				<ItemType11>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOID</ItemType11>
+				<ItemType11Font>ReceiptFontVoid</ItemType11Font>
+				<ItemType11Color>DarkGray</ItemType11Color>
+				<ItemType11Selectable>False</ItemType11Selectable>
+				<ItemType11StringID>$AMReceiptItemType3$</ItemType11StringID>
+				<!-- void quantity item2 -->
+				<ItemType12>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOID</ItemType12>
+				<ItemType12Font>ReceiptFontVoid</ItemType12Font>
+				<ItemType12Color>DarkGray</ItemType12Color>
+				<ItemType12Selectable>False</ItemType12Selectable>
+				<ItemType12StringID>$AMReceiptItemType4$</ItemType12StringID>
+				<!-- void restricted quantity item1 -->
+				<ItemType13>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</ItemType13>
+				<ItemType13Font>ReceiptFontVoid</ItemType13Font>
+				<ItemType13Color>DarkGray</ItemType13Color>
+				<ItemType13Selectable>False</ItemType13Selectable>
+				<ItemType13StringID>$AMReceiptItemType3$</ItemType13StringID>
+				<!-- void restricted quantity item2 -->
+				<ItemType14>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</ItemType14>
+				<ItemType14Font>ReceiptFontVoid</ItemType14Font>
+				<ItemType14Color>DarkGray</ItemType14Color>
+				<ItemType14Selectable>False</ItemType14Selectable>
+				<ItemType14StringID>$AMReceiptItemType4$</ItemType14StringID>
+				<!-- weight item1 -->
+				<ItemType15>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT</ItemType15>
+				<ItemType15StringID>$AMReceiptItemType5$</ItemType15StringID>
+				<!-- weight item2 -->
+				<ItemType16>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT</ItemType16>
+				<ItemType16StringID>$AMReceiptItemType6$</ItemType16StringID>
+				<!-- restricted weight item1 -->
+				<ItemType17>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</ItemType17>
+				<ItemType17Font>ReceiptFont</ItemType17Font>
+				<ItemType17Color>Blue</ItemType17Color>
+				<ItemType17StringID>$AMReceiptItemType5$</ItemType17StringID>
+				<!-- restricted weight item2 -->
+				<ItemType18>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</ItemType18>
+				<ItemType18Font>ReceiptFont</ItemType18Font>
+				<ItemType18Color>Blue</ItemType18Color>
+				<ItemType18StringID>$AMReceiptItemType6$</ItemType18StringID>
+				<!-- void weight item1 -->
+				<ItemType19>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOID</ItemType19>
+				<ItemType19Font>ReceiptFontVoid</ItemType19Font>
+				<ItemType19Color>DarkGray</ItemType19Color>
+				<ItemType19Selectable>False</ItemType19Selectable>
+				<ItemType19StringID>$AMReceiptItemType5$</ItemType19StringID>
+				<!-- void weight item2 -->
+				<ItemType20>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_VOID</ItemType20>
+				<ItemType20Font>ReceiptFontVoid</ItemType20Font>
+				<ItemType20Color>DarkGray</ItemType20Color>
+				<ItemType20Selectable>False</ItemType20Selectable>
+				<ItemType20StringID>$AMReceiptItemType6$</ItemType20StringID>
+				<!-- void restricted weight item1 -->
+				<ItemType21>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</ItemType21>
+				<ItemType21Font>ReceiptFontVoid</ItemType21Font>
+				<ItemType21Color>DarkGray</ItemType21Color>
+				<ItemType21Selectable>False</ItemType21Selectable>
+				<ItemType21StringID>$AMReceiptItemType5$</ItemType21StringID>
+				<!-- void restricted weight item2 -->
+				<ItemType22>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</ItemType22>
+				<ItemType22Font>ReceiptFontVoid</ItemType22Font>
+				<ItemType22Color>DarkGray</ItemType22Color>
+				<ItemType22Selectable>False</ItemType22Selectable>
+				<ItemType22StringID>$AMReceiptItemType6$</ItemType22StringID>
+				<!-- exception item -->
+				<ItemType23>ITEM_DESCRIPTION</ItemType23>
+				<ItemType23StringID>$AMReceiptItemType2$</ItemType23StringID>
+				<ItemType23Selectable>False</ItemType23Selectable>
+				<!-- added void item -->
+				<ItemType24>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_VOIDADDED</ItemType24>
+				<ItemType24Font>ReceiptFont</ItemType24Font>
+				<ItemType24Selectable>False</ItemType24Selectable>
+				<ItemType24StringID>$AMReceiptItemType1$</ItemType24StringID>
+				<!-- added void restricted item -->
+				<ItemType25>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_RESTRICTED,ITEM_VOIDADDED</ItemType25>
+				<ItemType25Selectable>False</ItemType25Selectable>
+				<ItemType25StringID>$AMReceiptItemType1$</ItemType25StringID>
+				<!-- added void quantity item1 -->
+				<ItemType26>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOIDADDED</ItemType26>
+				<ItemType26Selectable>False</ItemType26Selectable>
+				<ItemType26StringID>$AMReceiptItemType3$</ItemType26StringID>
+				<!-- added void quantity item2 -->
+				<ItemType27>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOIDADDED</ItemType27>
+				<ItemType27Selectable>False</ItemType27Selectable>
+				<ItemType27StringID>$AMReceiptItemType4$</ItemType27StringID>
+				<!-- added void restricted quantity item1 -->
+				<ItemType28>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOIDADDED</ItemType28>
+				<ItemType28Color>Blue</ItemType28Color>
+				<ItemType28Selectable>False</ItemType28Selectable>
+				<ItemType28StringID>$AMReceiptItemType3$</ItemType28StringID>
+				<!-- added void restricted quantity item2 -->
+				<ItemType29>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOIDADDED</ItemType29>
+				<ItemType29Color>Blue</ItemType29Color>
+				<ItemType29Selectable>False</ItemType29Selectable>
+				<ItemType29StringID>$AMReceiptItemType4$</ItemType29StringID>
+				<!-- added void weight item1 -->
+				<ItemType30>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOIDADDED</ItemType30>
+				<ItemType30Selectable>False</ItemType30Selectable>
+				<ItemType30StringID>$AMReceiptItemType5$</ItemType30StringID>
+				<!-- added void weight item2 -->
+				<ItemType31>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_VOIDADDED</ItemType31>
+				<ItemType31Selectable>False</ItemType31Selectable>
+				<ItemType31StringID>$AMReceiptItemType6$</ItemType31StringID>
+				<!-- added void restricted weight item1 -->
+				<ItemType32>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOIDADDED</ItemType32>
+				<ItemType32Color>Blue</ItemType32Color>
+				<ItemType32Selectable>False</ItemType32Selectable>
+				<ItemType32StringID>$AMReceiptItemType5$</ItemType32StringID>
+				<!-- added void restricted weight item2 -->
+				<ItemType33>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOIDADDED</ItemType33>
+				<ItemType33Color>Blue</ItemType33Color>
+				<ItemType33Selectable>False</ItemType33Selectable>
+				<ItemType33StringID>$AMReceiptItemType6$</ItemType33StringID>
+				<!-- reward item without ext price-->
+				<ItemType34>ITEM_DESCRIPTION,ITEM_REWARD</ItemType34>
+				<ItemType34Font>ReceiptFont</ItemType34Font>
+				<ItemType34Selectable>False</ItemType34Selectable>
+				<ItemType34StringID>$AMReceiptItemType2$</ItemType34StringID>
+				<ItemType34Wrap>True</ItemType34Wrap>
+				<!--  reward item void  -->
+				<ItemType35>ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_REWARD,ITEM_VOID</ItemType35>
+				<ItemType35Font>ReceiptFontVoid</ItemType35Font>
+				<ItemType35Color>DarkGray</ItemType35Color>
+				<ItemType35Selectable>False</ItemType35Selectable>
+				<ItemType35StringID>$AMReceiptItemType1$</ItemType35StringID>
+				<ItemType35Wrap>True</ItemType35Wrap>
+			</CustomData>
+		</Control>
+		<Control Name="DeviceStatus" Type="Static">
+			<Position>26,108,300,24</Position>
+			<Font>TrainingMessageFont</Font>
+			<TextColor>Yellow</TextColor>
+			<TextFormat>%s</TextFormat>
+			<TextAlignment>0</TextAlignment>
+			<Variable>Echo7</Variable>
+		</Control>
+	</Controls>
+	<Contexts>
+		<Context Name="SmAssistMode">
+			<CustomData>
+				<PrimaryLanguage>True</PrimaryLanguage>
+			</CustomData>
+			<Picture>%MediaPath%\10x7_AssistBackground.jpg</Picture>
+			<IncludeControl Name="AssistTermInfo"/>
+			<IncludeControl Name="AssistTermInfo2"/>
+			<IncludeControl Name="Title1">
+				<Position>384,38,364,42</Position>
+				<Font>FastLaneAMTitleFont</Font>
+			</IncludeControl>
+			<IncludeControl Name="Title2">
+				<Position>384,84,364,42</Position>
+				<Font>FastLaneAMTitleFont</Font>
+			</IncludeControl>
+			<IncludeControl Name="LeadthruText">
+				<Font>PSAMButtonFont</Font>
+				<Position>27,140,680,22</Position>
+				<TextAlignment>0</TextAlignment>
+			</IncludeControl>
+			<IncludeControl Name="LeadthruText2">
+				<Font>PSAMButtonFont</Font>
+				<Position>27,167,680,22</Position>
+				<TextAlignment>0</TextAlignment>
+			</IncludeControl>
+			<IncludeControl Name="AssistEchoBackground"/>
+			<IncludeControl Name="Echo">
+				<Position>32,235,371,30</Position>
+				<Font>FastLaneAMEchoBoxFont</Font>
+				<TextColor>White</TextColor>
+				<TextAlignment>2</TextAlignment>
+				<BackgroundColor>Transparent</BackgroundColor>			    
+			</IncludeControl>
+			<IncludeControl Name="TrainingMessage">
+				<Position>26,100,136,24</Position>
+				<Font>TrainingMessageFont</Font>
+				<TextColor>Yellow</TextColor>
+				<TextAlignment>0</TextAlignment>
+				<Z-Order>2</Z-Order>
+			</IncludeControl>
+			<IncludeControl Name="DeviceStatus"/>
+			<IncludeControl Name="ButtonToggle"/>
+			<IncludeControl Name="ButtonLaneStatus0"/>
+			<IncludeControl Name="ButtonLaneStatus1"/>
+			<IncludeControl Name="ButtonLaneStatus2"/>
+			<IncludeControl Name="ButtonLaneStatus3"/>
+			<IncludeControl Name="ButtonLaneStatus4"/>
+			<IncludeControl Name="ButtonLaneStatus5"/>
+			<IncludeControl Name="ButtonLaneStatus6"/>
+			<IncludeControl Name="ButtonLaneStatus7"/>
+			<IncludeControl Name="Key1" />
+			<IncludeControl Name="Key7" />
+			<IncludeControl Name="Key12" />
+			<IncludeControl Name="Key13" />
+			<IncludeControl Name="Key22" />
+			<IncludeControl Name="Key23" />
+			<IncludeControl Name="Key24" />
+                        <IncludeControl Name="SMButton1">
+			   	<Position>786,0,238,70</Position>
+				<Font>AMDynakeyFont</Font>
+				<TextColor>Black</TextColor>
+				<TextPosition>22,12,217,74</TextPosition>
+				<TextAlignment>1</TextAlignment>
+        		<Audio>%AudioPath%\BttnValid.wav</Audio>
+				<Picture>%MediaPath%\10x7-bttn_AM_FLFunction.PNG</Picture>
+				<PictureTransparentColor>Purple</PictureTransparentColor>
+				<Z-Order>5</Z-Order> 
+			</IncludeControl> 
+			<IncludeControl Name="CMWeight">
+				<Position>5,3,252,41</Position>
+				<Font>FastLaneScaleFont</Font>
+				<TextColor>White</TextColor>
+			    <BackgroundColor>Transparent</BackgroundColor>
+			</IncludeControl>
+			<IncludeControl Name="AssistOperatorMessage" />
+			<IncludeControl Name="PrcMethodMessage" />
+			<IncludeControl Name="VoidItemMessage" />
+			<IncludeControl Name="AssistReceiptBackground"/>
+			<IncludeControl Name="SMReceiptScrollDown">
+				<Position>26,653,189,70</Position>
+				<Picture>%MediaPath%\10x7-bttn_AM_ScrollDown.PNG</Picture>
+			</IncludeControl>
+			<IncludeControl Name="SMReceiptScrollUp">
+				<Position>220,653,189,70</Position>
+				<Picture>%MediaPath%\10x7-bttn_AM_ScrollUp.png</Picture>
+			</IncludeControl>
+			<IncludeControl Name="AssistReceiptScrollUp"/>
+			<IncludeControl Name="AssistReceipt" />
+			<IncludeControl Name="AssistTotalText" />
+			<IncludeControl Name="AssistTotalAmount" />
+			<IncludeControl Name="AssistTaxText" />
+			<IncludeControl Name="AssistTaxAmount" />
+
+			<IncludeControl Name="AssistTotalTMDiscountText" />
+			<IncludeControl Name="AssistTotalTMDiscountAmount" />
+			<IncludeControl Name="AssistTotalGMText" />
+			<IncludeControl Name="AssistTotalGMAmount" />
+			<IncludeControl Name="AssistChangeDueText" />
+			<IncludeControl Name="AssistChangeDueAmount" />
+
+			<IncludeControl Name="ATModeDisplay1" />
+			<IncludeControl Name="ATModeDisplay2" />
+		</Context>
+	</Contexts>
+</Display>

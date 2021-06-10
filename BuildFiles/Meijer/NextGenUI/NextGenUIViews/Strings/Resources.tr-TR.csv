@@ -1,0 +1,2795 @@
+﻿AmountSaved,Kazanılan Tutar
+Assistance,Yardım
+AssistanceComing,"Yardım geliyor, lütfen bekleyin."
+Back,Geri Git
+BagItem,Lütfen bu ürünü poşetleyin.
+BagItemCart,Ürünü Paketle
+BagItemOrSkip,Lütfen bu ürünü poşetleyin veya bu adımı atlayın.
+CallForHelp,Yardım İste?
+Cancel,İptal Et
+CancelAll,Tümünü İptal Et
+CancelCoupons,Kuponları İptal Et
+CancelPayment,Ödemeyi İptal Et
+CantScanCoupon,Kupon Taranamıyor
+CartPay,Ödeme yap
+Change,Para üstü:
+Confirm,Ödemeyi durdurup satın alma işleminizi iptal etmek istiyor musunuz?
+ConfirmQuantity,{0} doğru mu?
+Continue,Devam etmek istiyor musunuz?
+CouponMessage,Kuponları şimdilik kenara koyun.Kuponlarınızı satın alma işlemi sonunda teslim edin.
+DepositCard,Lütfen boşalan hediye kartınızı kupon yuvasına yerleştirin.
+DepositCoupon,Kuponları Okut
+DepositGiftCard,Hediye Kartınızı Verin
+Disconnected,LÜTFEN BEKLEYİN...
+Done,Bitti
+Due,Ödenmesi gereken:{0}
+EditCart,Alışveriş sepetini Düzenle
+Enter,Giriş
+EnterAmount,Tutar Girin
+EnterCouponValue,"Kupon değerini kuruş olarak girin ve ""OK"" e basın."
+EnterId,Kimliğinizi Girin
+EnterPassword,Şifrenizi Girin
+EnterPin,PIN Numarasını Gir
+EnterQuantity,Kaç adet var?
+EnterWeight,Ürünü tartıya yerleştirin:
+Finish,Alışverişinizde bizi tercih ettiğiniz için teşekkür ederiz.
+FinishAndAdd,Bitir & Ekle
+GiftCard,Hediye Kartı Bakiyesi
+GoBack,Geri Git
+IncorrectLogin,Hatalı operatör numarası \nve şifresi.\nLütfen tekrar deneyin.
+InsertCash,Nakit Yerleştir
+InsertCoupon,Kuponu Yerleştirin
+InvalidBarcodeScan,Ürünü kenara koyun ve satın alma \nişleminize devam edin.
+Item,{0} Ürün
+Items,{0} Ürünler
+ItemsAddedFormat,{0} Alışveriş sepetine eklenecek ürünler.
+Language,Dil
+NCRCorp,NCR Corp
+No,Hayır
+OK,OK
+Or,veya
+OtherPayment,Diğer Ödeme
+OtherPaymentMethod,Diğer ödeme metodları
+OwnBag,Kendi Çantası
+Paid,Ödenen:{0}
+PayAnotherWay,Başka şekilde öde
+PointsEarned,Kazanılan Puanlar
+PrintReceipt,Fişi Yazdır
+Proceed,Devam Et
+Remove,Kaldır
+RemovedItem,Ürünü kaldırdım
+RestrictedItem,İzne Tabi Ürün
+ReturnToScan,Geri Git
+ScanAndBag,"Başlamak için ürünü taratın, arayın veya ürün kodunu girin."
+ScanCoupon,Kuponları Tara
+ScanGiftCard,Hediye Kartını Tarat
+ScanNextItem,Lütfen sonraki ürünü taratın.
+ScanVoucher,Makbuzları Tarat
+SearchResultsFor,"""{0}"" için Arama Sonuçları"
+SearchWatermark,Ürün Adı veya Kodunu Girin
+SearchItemNameWatermark,Enter Item Name
+SearchKeyInItem,Ürünü Arayın veya Tuşlayın
+SelectCashBack,Para Üstü Tutarını Seç
+SelectLanguage,Bir Dil Seçin
+SelectPaymentType,Ödeme Türü Seç
+SellBags,"Kaç adet plastik poşet kullandınız? Hiç kullanmadıysanız 0'ı tuşlayın."
+SignNeeded,İmza Gerekiyor
+SignSignature,İmza pedini imzalayın.
+SkipBagging,Poşetlemeyi Atla
+Space,Boşluk Tuşu
+StartScanning,Taramaya Başla
+StoreLogin,Mağaza Oturum Açma
+TakeCash,İade Edilen Paranızı Alın
+TakeChange,Para Üstü Al
+TakeReceipt,Fişi Al
+Tax,Vergi
+TimeRestrictedItem,Zaman Kısıtlamalı Ürünler
+Total,Toplam
+TouchCancel,"Ödemeyi iptal etmek için pin pedde iptal et'e basın."
+TryAgain,Yeniden Dene
+UnexpectedDecreaseMessage,Ürünü poşetleme alanına koyun.
+UnexpectedIncreaseMessage,Ürünü poşetleme alanından alın.
+UsePinpad,Pin pedi Kullan
+VoidItem,"İstemediğiniz ürünleri taratarak makbuzda ""Kaldır""a basın."
+Volume,Hacim
+Yes,Evet
+ItemNumberAmount,ÜA:
+WeightExpected,BA:
+WeightObserved,GA:
+UnknownPriceMessage,Ürün fiyatı bilinmiyor.\nYardım geliyor.\n\nÜrünü kenara ayırın ve devam edin.
+SetAllItemsAsideMessage,Tüm satın alma işlemi iptal edildi.\n\nTüm ürünleri kenara koyun.
+ConfirmAbortMessage,Alışveriş sepetini boşaltmak istediğinize emin misiniz? İşlem iptal edilecek.
+NoKeep,"Hayır, kalsın."
+NoReturn,"Hayır, işleme geri dön."
+YesEmpty,"Evet, alışveriş sepetini boşalt ve işlemi sonlandır."
+YesRemove,"Evet, kaldır."
+HostOfflineMessage,Kasa çevrimdışı ve sistem tekrar bağlanmaya çalışıyor.
+LaneClosedMessage,Kasa Kapatıldı
+LoadingText,Yükleniyor
+VerifyBagsMessage,Poşetleme alanına yanlışlıkla poşetten başka bir şey koyduysanız lütfen kaldırın.
+HelpOnWay,Yardım geliyor. Lütfen bekleyin.
+OwnBagMessage,Lütfen ürünlerinizi tartıya yerleştirin.
+UseOwnBag,Poşet/Kutu
+AttendantMode,Sorumlu Modu
+AttendantTrainingMode,Sorumlu & Eğitim Modu
+TrainingMode,Eğitim Modu
+ScaleBroken,"Ürünü tartıdan kaldırın ve tarayıcıda \n""Tartıyı Sıfırla"" tuşuna basın."
+Refunded,Geri Ödenen:
+EnterIDMessage,"Kullanıcı Kimliğinizi girin ve ""Giriş"" e basın."
+EnterIDText,Kimlik Gir
+EnterPasswordMessage,"Şifrenizi girin ve ""Giriş"" e basın."
+EnterPasswordText,Şifre Gir
+VisualVerify,Görsel Onaylama
+SingleItemAddedFormat,{0} Alışveriş sepetine eklenecek ürün.
+Approved,Onaylandı
+VoidItemBeforeCouponMessage,Kuponu iptal edilmeden ürün iptal edilemiyor. Önce ürün kuponunu iptal edin.
+VerifyBags,Sorumlu poşetlerinizi onaylayacak.
+CancelItems,Ürünleri İptal Et
+EnterQuantityTitle,Gerekli Miktar
+SecUnExpectedIncreaseTitle,Paketleme Uyarısı
+WeightMismatchTitle,Yardım Gerekiyor
+AssistanceNeededTitle,Yardım Gerekiyor
+CheckBasketTitle,Sepeti Kontrol Et
+ConfirmDebitAmountTitle,Tutarı Onayla
+DropoffCouponsTitle,Kuponları Teslim Edin.
+InsufficientBalanceTitle,Yetersiz Bakiye
+OperatorPasswordStateInvalidPasswordWithFPTitle,Parmak İziyle Giriş Başarısız
+PurchaseCrateTitle,Kasa Satın Al
+RestrictedItemTitle,İzne Tabi Ürün
+SecBagAreaBackupTitle,Biriken Ürünler
+SignChargeTitle,Fişi İmzala
+TakeCardTitle,Kartı Al
+ContinueTitle,Devam edilsin mi?
+ApprovalNeededTitle,Onaylamanız Gerekiyor
+IncorrectLoginTitle,Hatalı Sayı
+RecalledItemTitle,Piyasadan Çekilmiş Ürün
+RemovedItemTitle,Paketleme Uyarısı
+SetAllItemsAsideTitle,Ürünleri Kenara Koy
+TakeLoyaltyCardTitle,Müşteri Kartını Al
+UnknownPriceTitle,Bilinmeyen Fiyat
+ConfirmEBTAmountTitle,Tutarı Onayla
+DisconnectedTitle,Bağlantı kesildi
+ShuttingDown,Kapatılıyor
+NoneText,Hiçbiri
+SMText,Mağaza Modu
+SMLogInReceiptText,Mağaza Modunda Oturum Açıldı
+SMLogOutReceiptText,Mağaza Modunda Oturum Kapandı
+WLDBOffLineText,Ağırlık Veri Tabanı: Çevrim Dışı
+OperatorIDText,Operatör Kimliği
+SignOnButtonText,Oturum Aç
+SignOffButtonText,Oturumu Kapat
+AlertText,İkazlar:
+SuspendInProgressText,Askıya alma tamamlanıyor
+SuspendLeadthru1,Mevcut işlemin askıya alınması talep edildi. \nLütfen talebi onaylayın veya iptal edin.
+SuspendLeadthru2,"Mevcut işlemi askıya aldınız. Lütfen talebinizi onaylayın. İptal etmek için ""Geri"" tuşuna basın ve NCR SelfServ Checkout Terminali’nden işlemi iptal edin."
+ReceiptText,Fiş:
+SuspendReasonText1,Askıya alma: Genel
+CancelSuspendButtonText,Askıya Alma İptal Et
+ConfirmSuspendNowButtonText,Askıya Almayı Onayla \nŞimdi
+ConfirmAllowSuspendButtonText,İzni Onayla \nAskıya Al
+ConfirmSuspendRequestButtonText,Askıya Almayı Onayla \nTalep Et
+CancelSuspendNowButtonText,Askıya Almayı İptal Et\nŞimdi
+GoBackButtonText,Geri
+CancelSuspendRequestButtonText,Askıya Almayı İptal Et\nTalep
+CouponText,Kuponlar:
+SuspendReasonText2,Askıya Al: Kuponlar
+CouponReceiptText,%d $ tutarındaki %.2f kupon
+SuspendNowButtonText,Şimdi Askıya Al
+RequestSuspendButtonText,Askıya Alma Talep Et
+NotConnectedText,Bağlantı Yok
+ConnectingText,Bağlanıyor...Lütfen Bekleyin
+ApprovalNeededText,Onay Gerekli:
+SuspendReasonText3,Askıya Al: Diğer
+ClearRequestButtonText,Talebi Sil
+ApproveButtonText,Onayla
+RestrictedItemText,İzne Tabi Ürünler
+SuspendReasonText4,Askıya Al: İzne Tabi
+SecurityLogText,Güvenlik Kaydı:
+SuspendReasonText5,Askıya Al: Güvenlik
+SignatureText,İmza:
+SignatureAndNameText,İmza: %s
+ConnectingLeadthru,NCR SelfServ Checkout’e Bağlanıyor...Lütfen bekleyin
+EnterIDLeadthru,Aşağıdaki tuş takımını kullanarak kimliğinizi girin.
+EnterPasswordLeadthru,Aşağıdaki tuş takımını kullanarak şifrenizi girin.
+LoggingInLeadthru,Oturum açılıyor...Lütfen bekleyin
+ApproveSecurityButtonText,Onayla\nGüvenlik
+ApprovalNeededButtonText,Onay Gerekli
+VerifySignatureButtonText,Doğrulama\n\nİmza
+AllowSuspendButtonText,Askıya Almaya İzin Ver
+MainButtonText,Ana
+SuspendTransactionButtonText,İşlemi Askıya Al
+ApproveAndCollectButtonText,Onayla ve Tahsil Et
+ClearApprovalsButtonText,Onayları Sil
+BirthDateOver30ButtonText,30 yaş üzerinde
+SignAgainButtonText,Yeniden İmzala
+BackSpaceButtonText,Geri Tuşu
+EnterButtonText,Giriş
+LaneNumberText,Kasa: %d
+RAPTitle,NCR SelfServ Checkout\nUzaktan Onay İstasyonu
+CancelSuspendText,Askıya Almayı İptal Et
+OtherPaymentSelectedText,Diğer Ödeme seçildi
+CouponCollectionText,Kupon Toplama
+PendingSuspendText,Askıya Alınıyor
+SignatureApprovalText,İmza Onayı
+LaneText,Kasa
+VideoButtonText,Video
+ClearButtonText,Sil
+QuantityButtonText,Miktar
+FeesAndCustomerAgreementsTitle,Ek Ücretler ve Müşteri Anlaşmaları:
+FeesButtonText,Ek Ücretler
+CustomerAgreementButtonText,Müşteri Anlaşması
+FeesAndCustomerAgreementsLeadthru,Ek Ücretler ve Müşteri Anlaşmaları
+TransactionSuspendedText,İşlem Askıya Alındı
+POSMessageText,POS Mesajı:
+ConnectingWaitingText,"Lütfen bekleyin, NCR SelfServ Checkout’e bağlanılıyor..."
+DateOfBirthNotNeededButtonText,Tarih gerekmiyor
+AssistModeButtonText,Yardım Moduna
+ClearSecurityButtonText,Güvenliği Kaldır
+VisualApproveButtonText,Görsel Onay
+CheckAgeTitle,Müşterinin Yaşını Kontrol Et
+CouponLimitExceededTitle,Kupon Limiti Aşıldı
+VerifyItemAndPriceTitle,Ürün ve Fiyatı Doğrula
+UnknownItemTitle,Bilinmeyen Ürün Kenara Ayrıldı
+ItemNotForSaleTitle,Ürün Satılık Değil
+ItemQuantityExceededTitle,Ürün Miktarı Aşıldı
+TimeRestrictedItemTitle,Zaman Kısıtlamalı Ürün
+CheckAgeLeadthru,"Doğum tarihini %s tuşlayıp ""Giriş""ya basın"
+InvalidBirthDateFormatLeadthru,Girilen Tarih Degeri geçersiz \n%s formatinda tekrar girin
+CouponLimitExceededLeadthru,"Kuponla ödeme için kasada ""Onayla""ya basın veya ""Onayla ve Al""a basarak müşteriden alın."
+VisualApproveLeadthru,"""Görsel Onay""a basın veya işlemi belirlemek için ""Yardım Modu""na basın."
+UnknownItemLeadthru,"Ürünü kasadan alın ve ""Güvenliği Kaldır""a basın veya işlemi tamamlamak için ""Yardım Modu""na basın."
+ItemNotForSaleLeadthru,"Ürünü kasadan alın ve ""Güvenliği Kaldır""a basın."
+OffLineLaneButtonText,Çevrimdışı
+ExitText,Çik
+EnterDataLaneButtonText,Veri Gir
+AgeCheckLaneButtonText,Yas Kontrolü
+CouponLaneButtonText,Kupon
+VoidLaneButtonText,İptal
+VerifyItemLaneButtonText,Ürünü Onayla
+NotFoundLaneButtonText,Bulunamadı
+NoSaleLaneButtonText,Indirim Yok
+QuantityLaneButtonText,Miktar
+HelpLaneButtonText,Yardım
+NoInterventionLeadthru,Şu anda müdahaleye gerek yok.
+OffLineLeadthru,Kasa şu anda çevrimdışı ve sistem otomatik olarak tekrar bağlanmaya çalışıyor.
+CancelRequestButtonText,Talebi İptal Et
+HelpRequestTitle,Yardim Talep Edildi
+SecurityLaneButtonText,Güvenlik
+VoidLeadthru,"İptal edilen ürünü alın ve ""İptali Onayla""ya basın."
+ApproveVoidButtonText,İptali Onayla
+SecurityLeadthru,"Güvenlik için müşteri işlemini gözden geçirin ve ""Güvenliği Onayla"" ya  basın."
+SecurityViolationText,Güvenlik İhlali
+OtherPaymentText,"""Diğer Ödeme"" Seçildi"
+SuspendTransactionLeadthru,"""İşlemi Askıya Al""a veya ""Yardım Modu""na basın ve ödemeyi kabul edin."
+EASText,EAS etiketli ürün hala aktif  
+DeactivateLeadthru,"Ürünü etkisiz hale getir veya sert etiketi kaldır ve ""Güvenliği Kaldır""a basın."
+CompareSignatureTitle,İmzaları Karşılaştır
+CompareSignatureLeadthru,"İmzaları karşılaştır ve ""Onayla"" veya ""Yeniden Oturum Aç""a basın."
+EnterPriceLeadthru,"Ürünün fiyatını girin ve ""Giriş""e basın."
+UtilityButtonText,Yardımcı araçlar
+ReturnToMainButtonText,Ana Menüye Dön
+GetDiagFilesButtonText,Tanı Dosyalarını Al
+CouponApprovalLeadthru,"Müşteri kuponlarını onay istasyonunda kabul et ve ""Onayla""ya bas"
+RebootSystemButtonText,Tüm Sistemi Yeniden Yükle
+ShutDownSystemButtonText,Tüm Sistemi Kapat
+LaneStatusTitle,Kasa Statüsü
+LaneStatusLeadthru,İşlev Seç
+AgeRestrictedText,Yaş kısıtlamalı ürün; %2d yaş ve üzeri
+BirthdateEnterText,"Girilen doğum tarihi: %2d/%2d/%4d,%d yaşında"
+HelpRequestLeadthru,"Müşteriye yardım ettikten sonra ""Talebi İptal Et""e basın."
+TotalText,Toplam:
+ItemText,Ürünler:
+MultimediaTrainingText,Multimedya Eğitimi
+VolumeControlButtonText,Ses Kontrolü
+SecurityViolationNumText,Güvenlik İhlalleri
+ItemPurchasedText,Satın Alınan Ürünler:
+EnterPriceTitle,Fiyat Girişi
+CancelTransactionGenericTitle,İşlemi İptal Et
+CancelTransactionGenericLeadthru,"İşlemi iptal etmek için ""Evet""e, devam ettirmek için ""Hayır""a bas."
+YesButtonText,Evet
+NoButtonText,Hayır
+ConfirmSuspendTitle,Askıya Al:
+ConfirmSuspendLeadthru,Askıya Almayı Onayla.
+ConfirmSuspendButtonText,Askıya Almayı Onayla
+IncorrectItemWeightTitle,Güvenlik tartısında hatalı ağırlık.
+IncorrectItemWeightLeadthru,"Ürünü çıkarın ve ""Güvenliği Kaldır""a basın veya ""Ağırlığı Onayla ve Güncelle""ye basın."
+ApproveUpdateButtonText,Ağırlığı Onayla ve Güncelle
+UnexpectedIncreaseTitle,Güvenlik tartısında beklenmeyen ürün.
+UnexpectedIncreaseLeadthru,"Kasaya gidin, ekstra ürünleri çıkarın ve ""Güvenliği Kaldır""a basın."
+SkipBaggingBtnThresholdLeadthru,"Kasadaki ürünleri kontrol edin ve ""Güvenliği Kaldır""a basın."
+NewWeightItemTitle,Ürün ağırlığı kaydı yok.
+NewWeightItemLeadthru,"Ürün ağırlığını onayla ve ""Ağırlığı Onayla ve Güncelle""ye bas veya ""Onayla/Güncelleme Yok""a bas."
+ApproveNoUpdateButtonText,Onayla/Güncelleme Yok
+BagItemTimerExpiredTitle,Güvenlik tartısında beklenen ağırlık
+TakeChangeTimerExpiredTitle,Para üstü al
+TakeChangeTimerExpiredBottomCaption,Süre doldu
+PickingUpItemsTimerExpiredTitle,Ürünler paketleme alanına iade edilmedi.
+DeviceFailureTitle,Cihaz Arızası
+DeviceFailureLeadthru,Kasaya git ve cihazı kontrol et.
+WLDBFailureTitle,WLDB bağlantısı doğru şekilde yapılamıyor.
+WLDBFailureLeadthru,Bağlantıyı kontrol et.
+UnexpectedDecreaseTitle,Ürün paketleme alanından kaldırıldı.
+ClosedLaneTitle,Kasaya git ve kasayı açmak için Yükleme Modunda oturum aç
+ClosedLaneLeadthru,Kasa kapatıldı
+BagAreaBackupTitle,Bantta Birikmiş Ürün
+BagAreaBackupLeadthru,Bantta biriken ürünleri kaldırın.
+MinimumAgeText,Minimum yaş sınırı
+SafetyCoverOpenLeadthru,Banttaki tüm ürünleri kaldırın ve güvenlik kapağını kapatın.
+VerifySignatureLeadthru,Karttaki imzayla müşterinin imzasını karşılaştır.
+AssistedTenderTitle,Operatör Yardımlı Ödeme
+AssistedTenderLeadthru,Müşteriden çek kabul etmek için yardım modunu kullan.
+AssistedTenderHHLeadthru,Ödemeyi kabul etmek için Görevli İstasyonunu kullanın.
+AssistedEndorsementLeadthru,Kabul Gerekiyor. Lütfen operatör yardımı için bekleyin.
+StartTransactionButtonText,İşlemi Başlat
+StartTransactionTitle,Operatör Yardımlı Fonksiyonlar
+StartTransactionLeadthru,İstediğiniz fonksiyonu seçin
+StartTransactionAMButtonText,Başlat ve Yardım Et
+ItemsForgottenTitle,Kalan ağırlık /npaket tartısında
+InsertCouponTimerExpiredTitle,Kuponu Yerleştir
+CollectGiftCardTitle,Hediye Kartını Al
+HostOfflineLeadthru,Kasa çevrimdışı ve sistem yeniden bağlanmaya çalışıyor.
+SpaceButtonText,Boşluk
+LaneReceiptItemType1,%s\t%s
+LaneReceiptItemType2,%s
+LaneReceiptItemType3,%s\t%s\tMkt %s @ %s/adet başına \t%s
+LaneReceiptItemType4,%s\t%s\tMkt %s @ %s/%s\t%s
+LaneReceiptItemType5,%s\t%s\t%ss @ %s %s/%s\t%s
+LaneReceiptItemType6,%s\t%s\t%ss @ %s/%s\t%s
+CloseLaneButtonText,Kasayı Kapat
+ReportingButtonText,Bildiriyor
+KeyInCodeTitle,Kodu Gir
+KeyInCodeLeadthru,"Ürünün kodunu girin ve ""OK""e basın"
+VoidItemButtonText,İptal Edilmiş Ürün
+ChangePriceButtonText,Fiyat Değişikliği
+ChangeQuantityButtonText,Miktar Değişikliği
+ReturnToShoppingButtonText,Alışveriş Moduna Geri Dön
+BasicAssistModeTitle,Yardım Fonksiyonları
+BasicAssistModeLeadthru,Ürünü okut veya fonksiyon seç.
+ChangePriceTitle,Fiyat Değiştir
+KeyInPriceLeadthru,%d %s için fiyat gir
+VoidAllButtonText,Tümünü İptal et
+VoidItemTitle,Ürünleri İptal Et
+VoidItemLeadthru,"Makbuzda ürünü tara veya ürüne git ""Ürünü İptal Et""  veya ""Tümünü İptal Et""e bas."
+ChangeQuantityTitle,Miktar Değiştir
+KeyInQuantityLeadthru,%s için miktar gir
+FullAssistButtonText,Tam Yardım
+CloseButtonText,Kapat
+UpdateItemLeadthru,"Makbuzda ürüne git ve ""Giriş""e bas"
+OKButtonText,OK
+CouponNoMatchLeadthru,Kupon makbuzdaki herhangi bir ürünle eşleşmiyor. Bu kupon kabul edilemez.
+CouponTooHighLeadthru,Bu kupon için girdiğiniz tutar çok yüksek. Bu sistem bu kuponu kabul edemez.
+EnterCouponValueLeadthru,"Kupon değerini sent olarak girin ve ""Giriş""e basın."
+ItemQuantityExceededLeadthru,Bu ürün için izin verilen miktarı aştınız. Lütfen ürünü çıkarın ve devam edin.
+ProcessingLeadthru,İşlem gerçekleştiriliyor...Lütfen bekleyin.
+VoidNoMatchLeadthru,Taranan ürün bulunamıyor. Henüz satın alınmamış veya iptal edilmiş.
+ConfirmAbortLeadthru,Ödemeyi durdurup satın alma işleminizi iptal etmek istiyor musunuz?
+ContinueTransLeadthru,Satın alma işlemine devam etmek istiyor musunuz?
+ConfirmQuantityTitle,Miktarı Onayla
+ConfirmVoidTitle,İptali Onayla
+CouponNoMatchTitle,Uyumsuz Kupon
+CouponTooHighTitle,Kupon Değeri Çok Yüksek
+CrateableItemTitle,Kasa Satın Alın
+EnterCouponValueTitle,Kupon Değeri Girin
+EnterQuantityLeadthru,"Miktarı tuşlayın ve ""Giriş""e basın."
+EnterWeightTitle,Ürünü Tart
+EnterWeightLeadthru,Kasaya git ve ürünü tartıya koy
+AMItemQuantityExceededTitle,Miktar Sınırı
+ProcessingTitle,İşlem gerçekleştiriliyor...
+SelectContainerTitle,Ambalaj Seç
+SelectContainerLeadthru,"Listeden ambalaj seç ve ""Giriş""e bas."
+VoidNoMatchTitle,Ürün İptal Edilemiyor
+ConfirmAbortTitle,Tüm Ürünleri İptal Et
+ContinueTransTitle,Devam Edilsin mi?
+ScaleBrokenTitle,Tartıyı Sıfırla
+ScaleBrokenLeadthru,"Ürünü tartıdan kaldır ve tarayıcıda ""Tartıyı Sıfırla""ya bas."
+UpdateNotAllowedTitle,Ürün Güncellenemiyor
+UpdateNotAllowedLeadthru,Tartılan üründe miktar değişikliği yapılamaz.
+SmEnterBirthdateTitle,İzne Tabi Ürünler
+SmEnterBirthdateLeadthru,Müşterinin doğum tarihini tuşla
+SmVisualItemsTitle,Görsel Onaylamalar
+SmVisualItemsLeadthru,Görsel Onay Ürünlerini Onayla
+SmCouponItemsTitle,Kullanılan Kuponları Onayla
+SmCouponItemsLeadthru,Kullanılan kuponları kontrol et
+SmRestrictedItemsTitle,İzne Tabi Ürünler
+SmRestrictedItemsLeadthru,İstenen fonksiyonu seç.
+KeyInBirthDateButtonText,Tarih gir
+KeyInCodeButtonText,Kodu \nTuşla
+SmRunReportsTitle,İçeriği Raporla
+PrintReportButtonText,Raporu Yazdır
+LaneReceiptItemType7,    %s
+AM_RestrictedNotAllowedTitle,İzne Tabi Ürün
+AM_RestrictedNotAllowedLeadthru,İzne Tabi ürün iptal edildi-yaş sınırını aşıyor. \n\nLütfen ürünü çıkarın.
+TransactionCancelTitle,İşlem İptali
+TransactionCancelLeadThru,İşlem iptal edildi. Ürünleri bu çıkış \nnoktasından çıkartın.
+OutOfSyncNeedAssistTitle,YARDIM
+OutOfSyncNeedAssistLeadthru,"POS makinesi senkronsuz, senkronize etmek için lütfen Yardım Modu’ na geçin."
+OutOfSyncStopTitle,YENİDEN YÜKLE
+OutOfSyncStopLeadthru,"POS sunucusu işlev dışı veya senkronsuz, lütfen düğmeyi kullanarak terminali kapatın."
+MultiPackItemTitle,Çoklu paket kontrolü yap
+MultiPackItemLeadthru,"Eğer ürün çoklu paketse, ""Yardım Modu""na basın ve iptal edin, daha sonra çoklu paket barkodunu okutun."
+CancelActionButtonText,İşlemi İptal Et
+EnterIDFpLeadthru,Kullanıcı Adınızı girin ve “Giriş”e basın veya giriş yapmak için parmağınızı parmak izi okuyucusuna yerleştirin.
+ReEnterIDFpLeadthru,Geçersiz Giriş. Lütfen klavyeyi veya parmak izinizi kullanarak tekrar giriş yapın.
+HH_SuspendLeadthru1,Mevcut işlem askıya alınsın mı? Onayla veya İptal et.
+HH_SuspendLeadthru2,"Mevcut işlem askıya alındı. Onayla. İptal etmek için ""Geri""ye bas ve iptal et."
+HH_ReEnterIDLeadthru,Hatalı Kimlik veya şifre. Lütfen tuş takımını kullanarak tekrar giriş yapın.
+HH_CheckAgeLeadthru,"Doğum tarihini %s\n tuşlayıp ""Giriş""ya basın"
+HH_CouponLimitExceededLeadthru,"Kuponları kasada ""Onayla""ya basın veya müşteriden almak için ""Onayla ve Al""ı seçin."
+HH_VisualApproveLeadthru,"İşlemi değiştirmek için ""Görsel Onay"" veya ""Yardım Modu""nu seçin."
+HH_VisualApproveLeadthru2,"""Visual Approve"", or ""Assist Mode"" at Lane to modify."
+HH_UnknownItemLeadthru,"Ürün alımını tamamlamak için ""Güvenliği Kaldır""ı veya ""Yardım Modu""nu seçin."
+HH_UnknownItemLeadthru2,"Collect item, ""Clear Security"", or use ""Assist Mode"" at Lane to complete."
+HH_ItemNotForSaleLeadthru,"Ürünü kasada al ve ""Güvenliği Kaldır""."
+HH_NoInterventionLeadthru,Müdahale gerekmiyor.
+HH_OffLineLeadthru,Kasa çevrimdışı. Sisteme tekrar bağlanılmaya çalışılıyor.
+HH_InvalidBirthDateFormatLeadthru,Tarih formatı geçersiz\n %s formatında giriş yapın.
+HH_VoidLeadthru,"İptal edilen ürünü al ve ""İptali Onayla""."
+HH_SuspendTransactionLeadthru,"İşlemi askıya almak için ""İşlemi Askıya Al""a basın."
+HH_DeactivateLeadthru,"Ürünü etkisiz hale getirin veya sert etiketi çıkarın ve ""Güvenliği Kaldır""a basın."
+HH_CompareSignatureLeadthru,"İmzaları karşılaştır ve ""Onayla"" veya ""Tekrar Giriş Yap""ı seç."
+HH_EnterPriceLeadthru,"Ürün fiyatını gir ve ""Giriş""e bas."
+HH_CouponApprovalLeadthru,"Müşteriden kupon kabul et ve ""Onayla""."
+HH_HelpRequestLeadthru,"Müşteriye yardım ettikten sonra ""Talebi İptal Et""."
+HH_CancelTransactionGenericLeadthru,"İşlemi iptal etmek için ""Evet"", devam etmek için ""Hayır""a basın."
+HH_IncorrectItemWeightLeadthru,"Ürünü kaldır ve ""Güvenliği Kaldır"" veya ""Onayla ve Ağırlığı Güncelle""."
+HH_UnexpectedIncreaseLeadthru,"Ekstra ürünleri kasadan çıkar ve ""Güvenliği Kaldır""."
+HH_SkipBaggingBtnThresholdLeadthru,"Ürünleri kasada kontrol et ve ""Güvenliği Kaldır""."
+HH_NewWeightItemLeadthru,"Ağırlığı doğrula ve ""Onayla ve Ağırlığı Güncelle"" veya ""Onayla/Güncelleme Yok""a basın."
+HH_SafetyCoverOpenLeadthru,Tüm ürünleri banttan kaldır. Güvenlik kapağını kapat.
+HH_VerifySignatureLeadthru,Müşterinin imzasını karttaki imzayla karşılaştır.
+HH_AssistedEndorsementLeadthru,Kabul Gerekiyor. Operatör yardımı için bekleyin.
+HH_HostOfflineLeadthru,Kasa çevrimdışı. Sisteme yeniden bağlanılmaya çalışılıyor.
+HH_KeyInCodeLeadthru,"Ürün kodunu tuşlayın ve ""Giriş""e basın."
+HH_VoidItemLeadthru,"Makbuzda ürünü tara veya ara. ""Ürünü İptal Et"" veya ""Tümünü İptal Et""."
+HH_UpdateItemLeadthru,"Makbuzda ürünü ara ve ""Giriş""e bas."
+HH_CouponNoMatchLeadthru,Kupon makbuzdaki hiçbir ürüne uymuyor. Kupon kabul edilmedi.
+HH_CouponTooHighLeadthru,Kupon tutarı çok yüksek. Sistem kuponu kabul edemez.
+HH_ItemQuantityExceededLeadthru,İzin verilen miktar aşıldı. Ürünü çıkarın ve devam edin.
+HH_VoidNoMatchLeadthru,Taranan ürün bulunamıyor. Ürün satın alınmamış veya iptal edilmiş.
+HH_ConfirmAbortLeadthru,Hesap kapama durdurulup tüm satın alma işlemi iptal edilsin mi?
+HH_ContinueTransLeadthru,Satın alma işlemine devam edilsin mi?
+HH_EnterQuantityLeadthru,"Miktarı tuşlayın ve ""Giriş""e basın."
+HH_SelectContainerLeadthru,"Listeden ambalaj seçin ve ""Giriş""e basın."
+HH_ScaleBrokenLeadthru,"Ürünü tartıdan kaldırın ve tarayıcıdan ""Tartıyı Sıfırla""ya basın."
+HH_UpdateNotAllowedLeadthru,Miktar değişikliği yapılamaz.
+HH_AM_RestrictedNotAllowedLeadthru,İzne tabi ürün iptal edildi-yaş sınırını aşıyor. \n\nÜrünü çıkarın.
+HH_OutOfSyncNeedAssistLeadthru,"POS makinesi senkronsuz, yeniden senkronize etmek için ""Yardım Modu""."
+HH_OutOfSyncStopLeadthru,"POS sunucusu devre dışı veya senkronsuz, düğmeyi kullanarak terminali kapatın."
+HH_MultiPackItemLeadthru,"Ürün çoklu paketse, ""Yardım Modu’na geçerek iptal edin ve ardından çoklu paket barkodunu okutun.  "
+HH_ReturnToShoppingButtonText,İade
+DoneButtonText,Bitti.
+ConfirmSuspendFromLaneStatusLeadthruText,Askıya almayı onayla veya iptal et.
+HH_SuspendTransactionButtonText,İşlemi Askıya Al.
+HH_TransactionCancelTitle,İşlem İptali
+HH_TransactionCancelLeadThru,İşlem iptal edildi. Ürünleri bu çıkış noktasından çıkartın.
+ShiftButtonText,Değiştir
+FixLaterButtonText,Daha Sonra Onar
+HopperLaneButtonText,Madeni Para Değişikliği
+HopperLeadThru,%sKasaya gidin ve madeni para yükleyin veya sıkışmayı giderin veya devam etmek için “Daha Sonra Düzelt” e basın. 
+TransactionCountText,Say:
+SecurityDisableText,Güvenlik Kapalı
+SecurityDisableButtonOn,Aç
+SecurityDisableButtonOff,Kapat
+SecurityDisableStatusTextOn,Paketleme Güvenliği Açık
+SecurityDisableStatusTextOff,Paketleme Güvenliği Kapalı
+SuspendDeclinedLaneButtonText,Askıya Alma Reddedildi
+ConfirmSuspendDeclinedLeadthru,Askıya Almanın Reddedilmesini Onayla Veya İptal Et.
+ConfirmSuspendDeclinedButtonText,Reddetme İşlemini Onayla
+CancelSuspendDeclinedButtonText,Geri Dön
+TMTransLeadthru,"Kasa eğitim modunda,\nişleme devam edilsin mi?"
+HH_TMTransLeadthru,"Kasa eğitim modunda,\nişleme devam edilsin mi?"
+TMTransLaneButtonText,Eğitim İşl
+DateFormat1,(mmddyyyy)
+DateFormat2,(mmddyy)
+DateFormat3,(ddmmyyyy)
+DateFormat4,(ddmmyy)
+DateFormat5,(yyyymmdd)
+DateFormat6,(yymmdd)
+GoBackCouponButtonText,Geri Git
+ApproveCouponButtonText,Kuponu Onayla
+CouponExceededLimitLeadthru,"Kuponu kabul etmek için ""Kuponu Onayla""ya basın, onaylamayacaksanız Yardım Modu’na geçin."
+CouponExceededLimitFinalizationLeadthru,İşlem mağaza kupon limitini aşan bir kuponla gerçekleştirildi.
+ClearSecurityFinalizationButtonText,Güvenliği Kaldır
+ExpandReceiptButtonText,Fişi Genişlet
+CollapseReceiptButtonText,Fişi Daralt
+InvalidBarcodeLeadThru,"Kasadaki ürünü alın ve işleme devam etmek için ""Onayla"" ya basın."
+InvalidBarcodeLaneButtonText,Ürünü Onayla
+HH_InvalidBarcodeLeadThru,"Ürünü alın ve işleme devam etmek için ""Onayla"" ya basın."
+GoToLaneOrHHRapLeadthru, Please go to Lane or HHRap for approval
+GoToLaneOrRapLeadthru, Please go to Lane or Rap for approval
+GoToLaneLeadthru, Onay için lütfen Kasaya gidin.
+DisableRapApprovalText, RAP Onayını Kapat
+DisableHHRapApprovalText, HHRAP Onayını Kapat
+UpdateItemButtonText,Ürünü güncelle
+SuspendConfirmationTitle,Onayı Askıya Al
+DoNotApproveButtonText,Onaylama
+SmVoidAndRemoveItemLeadthru,Lütfen iptal edilen ürünü paketleme alanından kaldırın.
+RestrictedItemsNotApprovedTitle,Yasaklı Ürünler - Onaylanmadı
+HH_AssistAtLaneLeadthru,Ürünleri iptal etmek için Kasaya gidin.
+XM_Acceptor,Alıcı
+XM_CashStatus,Nakit Durumu
+XM_CashStatusLeadthru,İstenen fonksiyonu seçin.
+XM_CoinAcceptor,Madeni Para Alıcısı
+XM_CoinOverflow,Madeni Para Taşma Haznesi
+XM_CoinOverflowText,Taşma
+XM_CoinRecycler,Bozuk Para Dönüştürücü
+XM_Coins,Madeni paralar
+XM_NoteOverflow,Taşma Haznesi
+XM_NoteOverflowText,Nkt Kut.
+XM_NoteRecycler,Banknot Dönüştürücü
+XM_Notes,Faturalar
+XM_PurgeOperationText,Temizleme İşlemleri
+XM_TerminalNumber,Terminal Numarası
+XM_TotalCount,Toplam Sayı:
+XM_TotalValue,Toplam Değer:
+XM_CoinsSubtotal,Boz.Para Ara Topl:
+XM_NotesSubtotal,Banknot Ara Topl:
+XM_GrandTotal,Genel Toplam:
+XM_PurgeInstruction,Tasfiye İşlemleri: Reddedilen banknotlar tespit edildi. Kasaya gidin ve aygıtı kontrol edin.
+XM_RAP_NegativeAlert,Negative number found. Kasaya gidin ve aygıtı kontrol edin.
+XM_AreYouSure,Aşağıda listelenen işlemleri gerçekleştirmek istediğinizden emin misiniz?
+XM_Attendant,Görevli
+XM_Backspace,Geri Tuşu
+XM_BillAcceptor,Banknot Alıcısı
+XM_BillDispenser,Banknot Vericisi
+XM_Bins,Kutular
+XM_BothDispenseFailure,%s verme hatası.\nDüşük nakit veya verici hatası.
+XM_CancelChanges,Değişiklikleri İptal Et
+XM_CannotCompleteTransfer,Transfer tamamlanamıyor.\nNakit kutusunda yeterli yer yok.\nBu işlemi gerçekleştirmeden önce \nlütfen nakit kutusunu boşaltın.
+XM_CashManagement,Fatura Yönetimi
+XM_CashManagementReport,Nakit Yönetimi Raporu
+XM_CashRemove,Nakdi Çıkar
+XM_CashRemoveLeadthru,İstenen fonksiyonu seçin.
+XM_CashReplenishLeadthru,İstenen fonksiyonu seçin.
+XM_CashReplenishLeadthru1,Bozuk para yerleştirin veya fonksiyon seçin.
+XM_CashReplenishLeadthru2,Nakit yerleştirin veya fonksiyon seçin.
+XM_CashReplenishLeadthru3,Tamamlandığında “Çık” a basın.
+XM_CashReplenishment,Nakit Ekle
+XM_ChangeInCount,Bozukluk Sayısı
+XM_ChangeInValue,Değerde Değişiklik
+XM_Clear,Sil
+XM_ClearPrompt1,İşlem tamamlandığında başka bir fonksiyon seçin veya “Çık” a basın.
+XM_ClearPrompt2,Başka bir fonksiyon seçin veya “Çık” a basın.
+XM_CoinAcceptorOffline,Alıcı yanıt vermiyor.\n\nTerminali kapatarak yeniden başlatın.
+XM_CoinDispenseFailure,%s verilemedi.\nDüşük madeni para seviyesi veya madeni para vericisi hatası.
+XM_CoinDispenser,Madeni Para Vericisi
+XM_CoinManagement,Madeni Para Yönetimi
+XM_ConfirmAction,İşlemleri Onayla
+XM_ConfirmCoinDispense,* Bozuk Para Verme\nVerilecek Miktar: %s\nVerilecek Adet: %d
+XM_ConfirmEmptyCoinAcceptor,* Madeni para alıcı adedini sıfırlayın\nÇıkarılacak adet:%s
+XM_ConfirmEmptyCoinOverflow,* Bozuk Para Taşma Sayacını Sıfırla\nÇıkarılacak Miktar:%s
+XM_ConfirmEmptyNoteAcceptor,* Banknot Alıcı Sayacını Sıfırla\nÇıkarılacak Miktar:%s
+XM_ConfirmEmptyNoteOverflow,* Nakit Kutusu sayacını Sıfırla\nÇıkarılacak Miktar:%s
+XM_ConfirmFillLoaderCassette,* Banknot Ayarı Yapın\nYeni Miktar: %s\nYeni Adet: %d
+XM_ConfirmManualCoinEmpty,* Bozuk Para Adedini Sıfırla\nÇıkarılacak Miktar: %s\nÇıkarılacak adet: %d
+XM_ConfirmManualCoinFill,* Bozuk Para Adedini Ayarla\nYeni Miktar: %s\nYeni Adet: %d
+XM_ConfirmManualNoteEmpty,* Banknot Adedini Sıfırla\nÇıkarılacak miktar: %s\nÇıkarılacak adet: %d
+XM_ConfirmManualNoteFill,* Banknot Ayarı Yapın\nYeni Miktar: %s\nYeni Adet: %d
+XM_ConfirmNoteDispense,* Banknot Ver\nVerilecek miktar: %s\nVerilecek Adet: %d
+XM_ConfirmTransferNotesToOverflow,* Banknotları Nakit Kutusuna Aktar\nAktarılacak Miktar: %s\nAktarılacak Adet: %d
+XM_Count,Say
+XM_DispenseCupFull,Bozuk para iadesi dolu. Verme işlemini tamamlamak için lütfen bozuk paraları çıkarın.
+XM_DispenseCupFullPreemptive,Lütfen Bozuk Paraları Alın\nBozuk para verici dolu ise hemen boşaltın.  Hazne boşaltılana kadar verme işlemi durdurulacaktır.
+XM_DispenseFullPreemptive,"Lütfen Banknot ve Bozuk Paraları Alın\nBanknotlar 15'li desteler halinde verilmektedir. Verme işlemi tüm banknotlar alınana dek durdurulacaktır. Bozuk para verici dolu ise hemen boşaltın. Hazne boşaltılana kadar verme işlemi durdurulacaktır."
+XM_DispenseNoteFullPreemptive,"ütfen Banknotları Alın\nBanknotlar 15'li desteler halinde verilmektedir. Verme işlemi tüm banknotlar alınana dek durdurulacaktır."
+XM_DispenseSensorBlock,Madeni para verici dolu veya sensör bozuk. Lütfen madeni paraları çıkarın veya servisi arayın.
+XM_DispenseText,Verme
+XM_DispenseThreshold,Girilen sayı verilebilecek adedin üzerinde. Girilen maksimum adet: %d
+XM_Empty,Boşalt
+XM_EmptyCashAcceptorLT,Nakit Alıcısındaki banknotları çıkar
+XM_EmptyCashBoxLT,Nakit Kutusundaki banknotları çıkar
+XM_EmptyCoinAcceptor,Madeni Para Alıcısını Boşalt
+XM_EmptyCoinAcceptorLT,Madeni Para Alıcısındaki Madeni Paraları çıkar
+XM_EmptyCoinHopperLT,Bozuk paraları cihazdan çıkarın.
+XM_EmptyCoinOverflow,Boz. P. Taş. Hz. Sıfırla
+XM_EmptyCoinOverflowLT,Madeni Para Taşma Haznesindeki Madeni Paraları çıkar
+XM_EmptyLoaderCassetteLT,Yükleme Kasetindeki banknotları çıkar
+XM_EmptyNoteAcceptor,Banknot\nAlıcısını Boşalt
+XM_EmptyNoteCassetteLT,Banknot Kasetleri ve Temizleme Kutusundan banknotları çıkarın
+XM_EmptyNoteOverflow,Nakit Kutusunu Sıfırla
+XM_Enter,Giriş
+XM_ExceededAmount,Miktar kapasiteyi aşıyor. Gereken maksimum miktar %s.
+XM_ExceededCapacity,Sayı kapasiteyi aşıyor. Gereken maksimum yükleme sayısı %d.
+XM_Execute,Değişiklikleri Uygula
+XM_Exit,Çık
+XM_FastLaneReport,NCR SelfServ Checkout Raporu
+XM_FillLoaderCassette,Banknot adedini ayarla
+XM_GoBack,Geri Git
+XM_ID,Kasiyer Kullanıcı Kimliği
+XM_IDPrompt,Kullanıcı Kimliği girin ve “Giriş” e basın.
+XM_InvalidAmount,%s için girilen değer geçersiz.\nLütfen tekrar deneyin.
+XM_KeyPadEnterCoinAmount,Klavyeyi kullanarak %s bozuk para miktarını girin.
+XM_KeyPadEnterCoinCount,Klavyeyi kullanarak %s bozuk para adedini girin.
+XM_KeyPadEnterNoteAmount,Klavyeyi kullanarak %s banknot miktarını girin.
+XM_KeyPadEnterNoteCount,Klavyeyi kullanarak %s banknot adedini girin.
+XM_KeyPadInstr,Klavyeyi kullanarak sayı girin.
+XM_ManualBothFillAlert,"Kasa kapısını açarak banknotları kasetlere, bozuk paraları haznelere yerleştirin. Alıcılara yerleştirmeyin."
+XM_ManualBothRecyclerFillAlert,"Kasa kapısını açın, banknotları yükleyiciye, bozuk paraları da hazneye yerleştirin."
+XM_ManualCoinDispenserEmpty,Madeni Para Adedini Sıfırla
+XM_ManualCoinDispenserFill,Madeni Para adedini ayarla
+XM_ManualCoinFillAlert,"Kasanın kapısını açın, madeni paraları direk cihaza yerleştirin. Bozuk para alıcısına yerleştirmeyin."
+XM_ManualEmptyAlert,Tüm Nakdi Cihazdan Çıkarın
+XM_ManualFillAlert,Kasa kapısını açın ve cihaza doğrudan nakit yükleyin. Nakdi alıcılara yüklemeyin.
+XM_ManualNoteDispenserEmpty,Banknot  Adedini  Sıfırla
+XM_ManualNoteDispenserFill,Banknot\nadedini ayarla
+XM_ManualNoteFillAlert,Kasa kapısını açın ve banknotları doğrudan kasete yerleştirin. Banknot alıcısına yerleştirmeyin.
+XM_ManualNoteRecyclerFillAlert,Kasa kapısını açın ve banknotları doğrudan yükleyiciye koyun. Banknot alıcısına yüklemeyin.
+XM_No,Hayır
+XM_NoteDispenseFailure,%s verme başarısız.\nDüşük banknot adedi veya banknot vericisi hatası.
+XM_PW,Kasiyer Şifresi
+XM_PWPrompt,Şifrenizi girin ve “Giriş” e basın.
+XM_PendingText,Bekliyor
+XM_PleaseWait,İşlem gerçekleştiriliyor…\n\nLütfen bekleyin.
+XM_Print,Nakit durumunu yazdır
+XM_PurgeCoinRecycler,Madeni Para Dönüştürücüsünü Boşalt
+XM_PurgeNoteRecycler,Banknot Dönüştürücüsünü Boşalt
+XM_ReEnter,Hatalı Kasiyer numarası ve şifresi.\nLütfen tekrar deneyin
+XM_ResetCoinsToBaseLevel,Bozuk Paraları Temel Seviyeye Getirin
+XM_ResetNotesToBaseLevel,Banknot Miktarını Ayarla
+XM_SelectFunc1,Sistem fonksiyonu seç
+XM_SelectFunc2,İstenen fonksiyonu seçin.
+XM_StoreNumber,Mağaza No:
+XM_TransferAllNotes,Tüm Banknotları Geçir
+XM_TransferNotesToOverflow,Banknotları Nakit Kutusuna Taşı
+XM_Update,Güncelle
+XM_Yes,Evet
+XM_CardManagement,Kart Yönetimi
+XM_SequenceNumber,Sıra Numarası
+XM_TotalCoinsInserted,Toplam Yüklenen
+XM_TotalNotesInserted,Toplam Yüklenen
+XM_Value,Değer
+XM_TransferXCount,Transfer (x) Adedi
+XM_TransferXAmount,Transfer (x) Miktarı
+XM_TransfertoCashBoxLeadThruText,"Nakit Kutusuna %s banknot transfer etmek için ""Değişiklikleri Uygula""yı seçin. Bekleyen tüm değişiklikleri geri almak için ""Değişiklikleri İptal Et""i seçin."
+XM_MenuDispenseFunctions,Dağıtım Fonksiyonları
+XM_MenuResetFunctions,Fonksiyonları Sıfırla
+XM_MenuCashBoxTransfer,Nakit Kutusu Fonksiyonları
+XM_LeadThruCashBoxTransfer,"İstenen transfer seçeneğini seçin.\nİşlemi tamamladığınızda ""Değişiklikleri Uygula"" ya basın."
+XM_LeadThruResetFunction,"İstenen sıfırlama seçeneğini seçin.\nİşlemi tamamladığınızda ""Değişiklikleri Uygula"" ya basın."
+XM_LeadThruDispenseFunction,"Para birimine basın ve miktar girin\nveya ""Bozuk Paraları Temel Seviyeye Getirin"" i seçin."
+XM_PurgeInstructionRecycler,"Tasfiye İşlemleri: Reddedilen banknotlar tespit edildi. Reddedilen banknotları nakit kutusundan çıkarın. ""Tüm Banknotları Aktar"" seçeneğiyle uyarıyı durdurun ve ""Nakit Kutusunu Sıfırla""yı seçin."
+XM_PurgeInstructionNonRecycler,"Tasfiye İşlemleri: Reddedilen banknotlar tespit edildi. Reddedilen banknotları tasfiye kutusundan çıkarın. ""Tüm Banknotları Aktar"" seçeneğiyle uyarıyı durdurun."
+XM_ReplenishInstruction,"Banknot veya istenilen para birimini yerleştirin ve miktar veya sayı girin.\nİşlemi tamamladığınızda ""Değişiklikleri Uygula"" ya basın."
+XM_PickUpAutoAmount,Otomatik Alma Miktarı
+XM_PickUpXAmount,(x) Alma Miktarı
+XM_MenuPickUpFunctions,Alma Fonksiyonları
+XM_LeadThruPickUpFunction,"İstenen alma fonksiyonunu seçin.\nİşlemi tamamladığınızda ""Değişiklikleri Uygula"" ya basın."
+XM_KeyPadEnterPickUpAmount,Klavyeyi kullanarak alma miktarını girin.
+XM_InvalidPickUpAmount,Girilen değer aktarılabilecek veya verilebilecek mevcut miktardan daha büyük.
+XM_InvalidStartingBank,Ayarlanan başlangıç dizisi aktarılabilecek veya verilebilecek mevcut miktardan daha büyük.
+XM_CalculatedPickUpAmount,Hesaplanan alma miktarı %s.
+XM_UnableToPickUp,Alma işlemi gerçekleştirilemedi.
+XM_CoinAllowedDispenseExceeded,%d bozuk para alınmaya çalışılıyor. Alınabilecek maksimum bozuk para miktarı %d.
+XM_InvalidPickUpAmount2,Nakit kutusu ve bozuk para taşma haznesindeki miktar alma miktarından büyük.
+XM_LockScreen,Ekranı Kilitle
+XM_SystemBusy,Sistem meşgul…Lütfen bekleyin
+XM_AreYouSure_LockScreen,Ekranı kilitlemek istediğinizden emin misiniz?\nAygıtlar görevlerini tamamlayana kadar ekran açılamaz.
+XM_NegativeAlert,"Negatif sayı bulundu. Muhtemel sebepler: tuşlama hatası yapıldı veya banknotlar yükleyici kasetine yerleştirildi ve banknot adedi Nakit Yönetimine girilmedi.\n\nSorunu çözmek için aşağıdaki adımları izleyin:\n1. ""Nakit Ekle"" ı seçin.\n2. Negatif sayılı birime basın.\n3. Negatif sayının tam karşılığı olan lira miktarını ve/veya yükleyiciye yerleştirilen miktarı girin.\n4. Değişiklikleri Uygula'yı seçin.\n5. Onaylamak için Evet'i seçin ve çıkın."
+XM_AddCashLeadthru1,Bozuk paraları yerleştirin veya silindire dokunarak miktar girin veya adet ayarı yapın.
+XM_AddCashLeadthru2,Banknotları yerleştirin veya silindire dokunarak miktar girin veya adet ayarı yapın.
+XM_AddCashLeadthru3,Silindire dokunun ve miktarı girin veya adedi ayarlayın.
+XM_CoinHopperEmpty,"Madeni para adedini sıfırlamak için madeni para hazneleri boş olmalıdır. ""Değişiklikleri  Uygula""yı seçmeden önce bütün madeni para haznelerini boşaltın."
+XM_CollectRemainingCoins,Verme işlemi tamamlandığında bozuk paraları iade bölümünden çıkarın.
+XM_FPIDPrompt,"Kullanıcı Adınızı girin ve ""Giriş""e basın veya giriş yapmak için parmağınızı parmak izi okuyucusuna yerleştirin."
+XM_LoanFailure,Kredi Hatası
+XM_LoanFailureLeadthru,Kredi reddedildi. İstediğiniz işlevi seçin.
+XM_UndoLoan,Kredi işlemini iptal et
+XM_CommitLoan,Kredi işlemini gerçekleştir
+XM_PickUpFailure,Çekim Hatası
+XM_PickUpFailureLeadthru,Çekim işlemi reddedildi. İstediğiniz işlevi seçin.
+XM_UndoPickUp,Çekimi iptal et
+XM_CommitPickUp,Çekimi gerçekleştir
+XM_ManualRemoveCashAlert,"Çekim işlemini iptal etmek için nakdi nakit kutusundan, madeni paraları da taşma haznesinden çıkarın.\n\nBanknot\nÇıkarılacak adet: %d\nÇıkarılacak miktar: %s\n\nMadeni paralar\nÇıkarılacak adet: %d\nÇıkarılacak miktar: %s"
+XM_POSRejectedLoanPickUp,Kredi/çekim POS tarafından reddedildi: %s / %d reddedildi.\n
+XM_LoanPickUpCashierOverrides,Kasiyer Kimlik No %s krediyi/çekimi geçersiz kıldı: %s / %d  onaylandı.\n\n
+XM_PlaceJammedBill,Nakit kutusunu çıkarın ve sıkışan banknotları içine yerleştirin.
+MinMaxFastLaneBtnPrimaryTxt,SelfServ Checkout’i Simge Durumuna Küçült
+MinMaxFastLaneBtnSecondaryTxt,SelfServ Checkout’i Büyüt
+MinMaxFastLaneBtnPrimaryShowConfirmation,"SelfServ Checkout’i simge durumuna getirmek için ""SelfServ Checkout’i Simge Durumuna Küçült"" butonuna basin."
+MinMaxFastLaneBtnSecondaryShowConfirmation,"SelfServ Checkout’i büyütmek için ""SelfServ Checkout’i Büyüt"" butonuna basin."
+StopStartFastLaneBtnPrimaryTxt,SelfServ Checkout’i Durdur
+StopStartFastLaneBtnSecondaryTxt,SelfServ Checkout’i Baslat
+SwitchToRAPBtnPrimaryTxt,UOP’a Geç
+ShutdownSystemBtnPrimaryTxt,Tüm Sistemi Kapat
+RebootSystemBtnPrimaryTxt,Tüm Sistemi Yeniden Yükle
+VolumeBtnPrimaryTxt,Ses Kontrolü
+EventViewerBtnPrimaryTxt,Islem Görüntüleyici
+GenerateLogBtnPrimaryTxt,Tanı Kayıt Dosyalarını Oluştur
+ExitFastLaneAndRunProfileBtnPrimaryTxt,SelfServ Checkout’i Durdur ve Profil Yöneticisini Çalıştır
+ExitFastLaneAndRunProfileBtnSecondaryTxt,Profil Yöneticisi’ni Aç
+TerminalInfoBtnPrimaryTxt,Terminal Bilgisi
+MinMaxRAPBtnPrimaryTxt,UOP’i Simge Durumuna Küçült
+MinMaxRAPBtnSecondaryTxt,UOP’i Büyüt
+MinMaxRAPBtnPrimaryShowConfirmation,"UOP’i simge durumuna getirmek için ""UOP’i Simge Durumuna Küçült"" butonuna basin."
+MinMaxRAPBtnSecondaryShowConfirmation,"UOP’i büyütmek için ""UOP’i Büyüt"" butonuna basin."
+StopStartRAPButtonPrimaryTxt,UOP’yi Durdur
+StopStartRAPButtonSecondaryTxt,UOP’i Baslat
+RapConfigureBtnPrimaryTxt,RAP Yapılandırması
+SwitchToFastLaneBtnPrimaryTxt,SelfServ Checkout’e Geç
+ExitRAPAndRunProfileBtnPrimaryTxt,UOP’yi Durdur ve Profil Yöneticisini Çalıştır
+ExitRAPAndRunProfileBtnSecondaryTxt,Profil Yöneticisi’ni Aç
+UtilityFunctionsTitle,NCR SelfServ Checkout\nCihaz Fonksiyonları
+StartTitle,Sistem Baslatma
+SystemStartup,Sistem baslatiliyor…lütfen bekleyin
+TerminalID,Terminal Kimliği:: 
+InterfaceVersion,Yazılım versiyonu.
+TrainingProgramPrimaryTxt,Egitim Programi
+LaunchPadNet_OperatorIDText,Operatör Kimliği:
+KeySwitchOperatorID,Tuş Kilidi
+LaunchPadNet_SignOnButtonText,Oturum Aç
+LaunchPadNet_SignOffButtonText,Oturumu Kapat
+SignedOffButtonText,Oturum Kapandı
+Exit,Tümünden Çık
+LaunchPadNet_ReturnToShoppingButtonText,Geri Dön
+PickListEditor,Liste Editörünü Seç
+RunADDTxt,Bir dahaki sistem yüklemesinde ADD’ i çalıştırın
+TouchWareTxt,Dokunmatik Ekrani Ayarla
+DiagConfirm,Tanisal Günlük Dosyasi olusturmak istediginizden emin misiniz?
+ProfileManagerFLConfirm,SelfServ Checkout’i durdurup Profil Yöneticisini çalistirmak istediginizden emin misiniz?
+ProfileManagerRAPConfirm,UOP’i durdurup Profil Yöneticisini çalistirmak istediginizden emin misiniz?
+ProfileManagerConfirm,Profil Yöneticisini baslatmak istediginizden emin misiniz?
+EventViewerConfirm,Olay Görüntüleyisini baslatmak istediginizden emin misiniz?
+TrainingConfirm,Egitim Programini baslatmak istediginizden emin misiniz?
+PicklistConfirm,Seçim Listesi Düzenleyicisini baslatmak istediginizden emin misiniz?
+RunADDConfirm,Bir dahaki Sistem Başlatmada ADD’i çalıştırmak istediğinize emin misiniz?
+CalibrateConfirm,Dokunmatik ekrani ayarlamak istediginizden emin misiniz?
+ShutdownConfirm,Tüm sistemi kapatmak istediginizden emin misiniz?
+RebootConfirm,Tüm sistemi yeniden yüklemek istediginizden emin misiniz?
+CloseAllConfirm,Tüm uygulamalari kapatip masaüstüne gitmek istediginizden emin misiniz?
+VolumeConfirm,Ses kontrolünü ayarlamak istediginizden emin misiniz?
+TerminalInfoConfirm,Terminal bilgisini görüntülemek istediginizden emin misiniz?
+StopFastLaneConfirm,SelfServ Checkout’i durdurmak istediginizden emin misiniz?
+StopRAPConfirm,UOP’i durdurmak istediginizden emin misiniz?
+StartFastLaneConfirm,SelfServ Checkout’i baslatmak istediginizden emin misiniz?
+StartRAPConfirm,UOP’i baslatmak istediginizden emin misiniz?
+WindowsLogOnTxt,Windows Oturumu Aç
+WindowsLogOnConfirm,Tüm uygulamalardan çikip yeni kullanici oturumu açmak istediginizden emin misiniz?
+YesText,Evet
+NoText,Hayir
+CommandPromptPrimaryTxt,Komut Istemi
+CommandPromptConfirm,Komut Istemini baslatmak istediginize emin misiniz?
+RSMLEPrimaryTxt,Retail Systems Manager LE programi
+RSMLEConfirm,Retail Systems Manager LE programini baslatmak istediginize emin misiniz?
+OperatorRegistrationUtility,Operatör Kayıt Cihazı
+LaunchPadNet_EnterIDFpLeadthru,"Kullanıcı Adınızı girin ve ""Giriş""e basın veya giriş yapmak için parmağınızı parmak izi okuyucusuna yerleştirin."
+LaunchPadNet_ReEnterIDFpLeadthru,Geçersiz Giriş. Lütfen klavyeyi veya parmak izinizi kullanarak tekrar giriş yapın.
+LaunchPadNet_ClearButtonText,Sil
+LaunchPadNet_EnterButtonText,Git
+LaunchPadNet_GoBackButtonText,Geri Git
+LaunchPadNet_SpaceButtonText,Boşluk
+LaunchPadNet_BackSpaceButtonText,Geri Tuşu
+LaunchPadNet_EnterIDLeadthru,Aşağıdaki tuş takımını kullanarak Kullanıcı Kimliği Girin
+ReEnterIDLeadthru,Hatalı kimlik veya şifre. Lütfen aşağıdaki tuş takımını kullanarak yeniden giriş yapın.
+LaunchPadNet_EnterPasswordLeadthru,Aşağıdaki tuş takımını kullanarak şifrenizi girin:
+CancelButtonText,İptal Et
+LaunchPadNet_LoggingInLeadthru,Oturum açiliyor…Lütfen bekleyin
+LaunchPadNet_ShiftButtonText,Degistir
+LaunchPadNet_SignedOffButtonText,Oturum Kapandi
+LaunchPadNet_ReEnterIDLeadthru,Hatalı Kullanıcı Kimliği veya şifre. Lütfen aşağıdaki tuş takımını kullanarak yeniden giriş yapın.
+LegalCaptionText,"LEGAL CAPTION\nThis system is for the use of authorized personnel only. By logging onto this system, you are subject to the terms and conditions of all Information Security policies and standards. Use by unauthorized individuals or for unauthorized purposes is a violation of federal and/or state law. The company reserves the right to take any necessary actions to protect authorized users, intellectual property and other information assets. Individuals using this system are subject to having all of their activities on this system monitored. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals possible evidence of criminal activity, system personnel may provide the evidence of such monitoring to law enforcement officials.\n        "
+SignBelow,Aşağıyı imzalayın.
+SignOnTitle,NCR SelfServ Checkout Log In
+HH_TransactionCancelLeadThru2,Transaction cancelled.
+AlertStatusTextOff,
+AlertStatusTextOn,!!!
+InitialText,.
+XM_CassetteMissing,Banknot haznesi ünitede değil.\nBanknot haznesini üniteye geri yerleştirin.
+XM_Cassette,Kaset
+XM_CollectFailure,The collect operation resulted in failure.
+XM_TotalRemovedText,Toplam Çıkarılan: %s
+XM_TotalColectedText,Total Collected: %s
+XM_TotalAddedText,Toplam Eklenen: %s
+XM_OperatorID,Operatör Kimliği %s
+XM_ManualRemoveCashAlertGlory,Remove cash from the cassette to undo loan.\n\nNotes\nCount to remove: %d\nAmount to remove: %s
+XM_LeadThruGloryFunction,"Touch denomination and enter amount\nor touch ""Collect""."
+XM_InitializeError,Sistemde düzeltilmesi gereken bir hata oluştu.
+XM_GrandTotalText,Genel Toplam: %s
+XM_EmptyCassetteAndRejectBin, Banknot haznesi ve İade Kutusundaki banknotları çıkarın.
+XM_Collect,Collect
+XM_CashUnbalance,Geri dönüştürücüde ayırım hatası.
+XM_GloryDispenseNoteFullPreemptive,Lütfen Banknot ve Bozuk Paraları Alın\nBills are dispensed in bunches of 10. Tüm banknotlar çıkarılana kadar verme işlemi durdurulacak.
+XM_GloryDispenseFullPreemptive,"Lütfen Banknot ve Bozuk Paraları Alın\nBills are dispensed in bunches of 10. Tüm banknotlar çıkarılana kadar verme işlemi durdurulacak. Eğer bozuk para iade kısmı doluysa uygun şekilde boşaltın. Verme işlemi, hazne boşalana kadar durdurulacak."
+XM_GloryDispenseCupFullPreemptive,"Lütfen bozuk paraları çıkarın\nEğer bozuk para iade kısmı doluysa uygun şekilde boşaltın.  Verme işlemi, hazne boşalana kadar durdurulacak."
+XM_NegativeAlert_Remove,"Negatif sayı bulundu. Muhtemel sebepler: tuşlama hatası yapıldı veya banknotlar yükleyici kasetine yerleştirildi ve banknot adedi Nakit Yönetimine girilmedi.\n\nSorunu çözmek için aşağıdaki adımları izleyin:\n1. ""Çık"" ı, ardından ""Nakit Ekle"" yi seçin.\n2. Negatif sayılı birime basın.\n3. Negatif sayının tam karşılığı olan lira miktarını ve/veya yükleyiciye yerleştirilen miktarı girin.\n4. Değişiklikleri Uygula'yı seçin.\n5. Onaylamak için Evet'i seçin ve çıkın."
+PageIndicatorLabelFormat,{1} sayfanın {0} ncısı
+DueCart,Ödenmesi gereken
+ScotApp_1742,GEÇERSİZ PAKET
+ScotApp_71,71unused
+ScotApp_61,61unused
+ScotApp_51,Kupon Taranamıyor
+ScotApp_41,İzne Tabi Ürünler
+ScotApp_31,Kuponlar
+ScotApp_1055,1055unused
+ScotApp_11,11unused
+ScotApp_789,Kartınızı yerleştirin.\nLütfen ek ürünler için sepetinizi kontrol edin.
+ScotApp_689,  Sales:      %d
+ScotApp_589,Aygıt Merkezi yüklendi.
+ScotApp_389,Kart İşleniyor
+ScotApp_289,289unused
+ScotApp_189,Seçenekler yüklendi.
+ScotApp_91,91unused
+ScotApp_773,Kazanılan Tutar:
+ScotApp_673,Lütfen müşteriye %s para üstü verin.
+ScotApp_1264,USERDEFINED6
+ScotApp_473,Malzeme Seviyesi Düşük
+ScotApp_373,Yazıcı çıkarma sıkışması
+ScotApp_989,989unused
+ScotApp_889,%s\nGerçek Ağırlık (%s): %s\nBeklenen Ağırlıklar (%S): %s
+ScotApp_1520,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1042,KABUL MAKBUZU:\nBU MAKBUZ BİR BELGE \nKABULU BAŞARISIZ OLDUĞU İÇİN YAZDIRILDI. LÜTFEN BU \nMAKBUZU UYGUN BELGEYE İLİŞTİRİN.\n-----------------------------------------------------\n
+ScotApp_973,973unused
+ScotApp_873,D.L. /Kimlik Numarası Girişi:
+ScotApp_1737,Kendi Çantası
+ScotApp_752,Dünün Özeti
+ScotApp_652, **Bu UPC için WLDB girişi yok
+ScotApp_1054,1054unused
+ScotApp_452,Kablonun madeni para alıcısının yan kısmına düzgün şekilde takılmış olup olmadığını kontrol edin.
+ScotApp_352,Güncelle
+ScotApp_252,\n Madeni para vericisinde sıkışma.\n\nMadeni para vericisindeki sıkışmayı giderin.
+ScotApp_152,152unused
+ScotApp_1310,"* Dönüştürücüyü yuvasından çıkarın. \n* Tüm kapakların kapandığından emin olun. Sarı kol yukarıda yerine yerleştirilmiş ve anahtar kilidi  ‘kilitli’  konumda olsun. \n* Dönüştürücüyü yuvasına geri itin. \n* ""Sorunu çözdüm"" a basın. Hata tekrar ederse servisi arayın."
+ScotApp_661,(Tan)
+ScotApp_952,Sıfır Ağırlık Ekle
+ScotApp_852,Üç Ürün
+ScotApp_1527,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1838,Ürünü Onayla
+ScotApp_731,Özet
+ScotApp_631,Kart Sahibinin Adı:
+ScotApp_531,\nElektronik İmza Alma Aygıtı Hatası
+ScotApp_331,Ürünleri paket tartısından kaldırın. Tuş takımı devre dışı.
+ScotApp_231,"*Dönüştürücüyü kabinden çıkarın. \n* Kapakları sırayla açın. \n* Tüm alanlarda nakit sıkışması olup olmadığını kontrol edin ve varsa çıkartın. \n* 2 veya 3. bölümlerde banknot varsa müşteriye iade edin. 1. bölümde banknot varsa Nakit Ofisi için saklayın. \n* Kapakları ters sırada kapatın. \n* Dönüştürücüyü kabine geri itin. \n* ""Sorunu çözdüm"" a basın. Hata tekrar ederse Nakit Ofisini arayın."
+ScotApp_131,Kuponları Okut
+ScotApp_1736,"Lütfen paketlerinizi paketleme alanına yerleştirin ve ""Bitti"" düğmesine basın."
+ScotApp_1250,PIP KREDİSİ
+ScotApp_831,831unused
+ScotApp_300,300unused
+ScotApp_1306,%s Para üstü verildi
+ScotApp_710,710unused
+ScotApp_610,Ürün Ağırlığı:
+ScotApp_510,Tekrar İmzala
+ScotApp_310,kutunun seviyesi düşük
+ScotApp_210,210unused
+ScotApp_110,Ürünü Tart
+ScotApp_1526,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1126,Madeni para vericisi hatası.\n\nVericide varsa Açma/Kapama düğmesini kontrol edin.
+ScotApp_1040,İmza
+ScotApp_810, Eğitim Modu
+ScotApp_1735,Paketlerinizi Yerleştirin
+ScotApp_1257,PIP YEMEK FİŞLERİ
+ScotApp_704,PinPad Girişi
+ScotApp_604,Bir ürün tara.
+ScotApp_504,504unused
+ScotApp_404,404unused
+ScotApp_304,Ambalaj seç
+ScotApp_204,Dosya sunucuya kopyalanıyor...
+ScotApp_104,104unused
+ScotApp_1269,USERDEFINED11
+ScotApp_904,Ürün ağırlık onayı
+ScotApp_804,804unused
+ScotApp_1047,Kabul Gerekiyor. Lütfen operatör yardımı için bekleyin.
+ScotApp_1478,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1134,Fatura kaseti dolu.
+ScotApp_1734,Kendi paketimi getirdim
+ScotApp_1256,PIP EBT
+ScotApp_1512,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1465,Nakit Geri Dönüştürücü Aygıtı Hatası
+ScotApp_1721,Eğitim Modunda İşlem
+ScotApp_1890,İşlem gerçekleştiriliyor...
+ScotApp_1243,MÜŞTERİ KARTI
+ScotApp_1544,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_63,Hayır
+ScotApp_53,53unused
+ScotApp_43,43unused
+ScotApp_33,Sorunu çözdüm
+ScotApp_1255,PIP BORCU KONTROLÜ
+ScotApp_13,  %ss @ %s/%s
+ScotApp_1511,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_93,Tara ve Paketle
+ScotApp_83,83unused
+ScotApp_1464,Terminal Numarası
+ScotApp_1189,GİRİLEN ÜRÜN
+ScotApp_1720,KA:
+ScotApp_1045,%s ile öde
+ScotApp_672,*** EĞİTİM MODU İŞLEMİ ***
+ScotApp_572,"Ürün kodunu tuşlayın ve ""Giriş"" e basın."
+ScotApp_472,Yardım Gerekiyor
+ScotApp_372,Yazıcı yan kısım bağlantı hatası
+ScotApp_272,Kullanılmış kuponları kontrol et
+ScotApp_172,İstenmeyen ürünü taratın veya fiş üzerinde ürünü seçin.
+ScotApp_1510,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1701,%s verme hatası.
+ScotApp_972,972unused
+ScotApp_872,Askıya Almayı İptal Et
+ScotApp_1188,GİRİLEN MİKTAR
+ScotApp_1727,Ürün Arama
+ScotApp_751,Bugün Saatlik
+ScotApp_651,Varsayılan
+ScotApp_551,551unused
+ScotApp_451,Madeni para alıcısı durumu sıkışma
+ScotApp_351,Nakit / Kağıt Durumu
+ScotApp_251,251unused
+ScotApp_151,Lütfen Nakdi Alın
+ScotApp_951,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s kaldırıldı;LSWND3=%s;
+ScotApp_851,İki Ürün
+ScotApp_730,730unused
+ScotApp_630,Kredi Kartı #:
+ScotApp_430,Servis Dışı
+ScotApp_330,Yardım Modu
+ScotApp_230,Nakit alıcısı açık konumda
+ScotApp_130,Lütfen kuponlarınızı okutun.
+ScotApp_1726,Arama Bitti
+ScotApp_930,Bağlantıyı kontrol edin.
+ScotApp_830,Ürün Kaldırıldı
+ScotApp_193,193unused
+ScotApp_1457,Para seviyesi yüksek
+ScotApp_1283,1283unused
+ScotApp_724,724unused
+ScotApp_624,Geçersiz Tolerans Girildi
+ScotApp_424,Tutar Girin
+ScotApp_324,Tarihe gerek yok
+ScotApp_224,Kart okuyucu toplama kutusu kaldırıldı
+ScotApp_124,124unused
+ScotApp_1469,"Müşteriye %s verme başarısız. %s\n* Bozuk ve kağıt para vericilerini kontrol edin.\n* Tekrar dolum yapmak veya sıkışmayı gidermek için ""Nakit / Kağıt Durumu"" na basın. "
+ScotApp_924,924unused
+ScotApp_824,Onayı Askıya Al
+ScotApp_576,Karttan Ödemeyi Başlat.
+ScotApp_1247,YEMEK FİŞLERİ
+ScotApp_1678,Kağıt Para Dönüştürücü Hatası
+ScotApp_1503,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1756,"Arama sonuçlarından seç veya ""Geri Git"""
+ScotApp_1456,Hatalı Kasiyer numarası ve şifre.\nLütfen tekrar deneyin.
+ScotApp_1502,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1712,Askıya Alma Reddedildi
+ScotApp_1468,Nakit Geri Dönüştürücü Durumu Boş
+ScotApp_1246,EBT
+ScotApp_75,Bitti
+ScotApp_65,65unused
+ScotApp_55,Tümünü İptal Et
+ScotApp_45,45unused
+ScotApp_35,Kalan Para Üstü:
+ScotApp_1258,PIP HEDİYE KARTI
+ScotApp_15,Ürün Kodu:
+ScotApp_1711,Askıya Alma Reddedildi
+ScotApp_1683,Unrecoverable Error.  Please close the Lane.  Call Gunnebo and provide the error information shown below.\n\nSafePay Error: %s
+ScotApp_95,Kuponları Tara
+ScotApp_85,85unused
+ScotApp_1058,Yardımlı Ödeme
+ScotApp_1664,Kağıt Para Sıkışması
+ScotApp_797,%s verme başarısız.\n* Kasetlerdeki ve fatura vericisindeki faturalarda sıkışma olup olmadığını kontrol edin.\n* Fatura kasetleri ve temizleme kutusunun takılı olduğundan emin olun.\n* Güvenlik kapısını kapatın.
+ScotApp_697,697unused
+ScotApp_597,NCR SelfServ Checkout Formları yükleniyor %d...
+ScotApp_497,Ödenecek Tutar:
+ScotApp_297,297unused
+ScotApp_197,Sunum Hizmetleri yüklendi.
+ScotApp_997,Fiyat Gir
+ScotApp_897,AĞRBİLG yüklendi.
+ScotApp_1454,"Şifrenizi girin ve ""Giriş"" e basın."
+ScotApp_1710,İade Edilen Paranızı Alın
+ScotApp_1741,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s Bekl;LSWND3=%s %s Gözl
+ScotApp_1388,Eğitim Programı
+ScotApp_771,Askıya Almayı İptal Et
+ScotApp_671,Eğitim Modundan Çık
+ScotApp_571,"Miktarı tuşlayın ve ""Giriş"" e basın."
+ScotApp_471,   Görsel Doğrulama
+ScotApp_371,Yazıcı başlığı değiştirin
+ScotApp_271,Kullanılmış Kuponları Onayla
+ScotApp_971,971unused
+ScotApp_871,Askıya Almayı Onayla
+ScotApp_1840,Mağaza No:
+ScotApp_750,Bugünün Özeti
+ScotApp_650,Normal Ürün
+ScotApp_550,550unused
+ScotApp_450,450unused
+ScotApp_350,Nakit / Kağıt Durumu
+ScotApp_250,250unused
+ScotApp_150,Para Üstü Tutarını Seç
+ScotApp_1773,"Kuponu kabul etmek için ""Kuponu Onayla""ya basın, onaylamayacaksanız Yardım Modu’na geçin."
+ScotApp_950,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s eklendi;LSWND3=%s;
+ScotApp_850,Bir Ürün
+ScotApp_1405,"POS senkronsuz, tekrar senkronize etmek için lütfen Yardım Moduna geçin."
+ScotApp_1513,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1657,Geçersiz Dprtmn
+ScotApp_1225,BİLİNMEYEN ÜRÜN
+ScotApp_644,-------------------------------------------------------------------
+ScotApp_544,Şifre %d rakamdan büyük olamaz.
+ScotApp_444,Yemek Fişleri
+ScotApp_344,344unused
+ScotApp_244,244unused
+ScotApp_144,İmzayı Karşılaştır
+ScotApp_1590,KUTU %s MADENI PARA SIKIŞMIŞ
+ScotApp_1669,Bozuk/Kağıt Para Dönüştürücü Hatası
+ScotApp_944,Çok faza Poşet/Kutu Talebi Maks=%d
+ScotApp_844,844unused
+ScotApp_1729,Ürünleri Ara:
+ScotApp_1447,Nakdi Çıkar
+ScotApp_1703,(+)
+ScotApp_1656,"Dprtmn kodunu girin ve ""Giriş""e basın"
+ScotApp_915,Bandı atlamak için aşırı talep. Maks = %d
+ScotApp_1668,A note jam may be present in the location shown. Open top cover to note recycler. Remove any jammed notes that may be present.  Close unit and replace top cover to note recycler.  Continue transaction.
+ScotApp_1542,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1139,Fatura vericisinin kapısı açık.
+ScotApp_1254,PIP BORCU İNDİRİMLERİ
+ScotApp_1249,PIP JENERİĞİ
+ScotApp_77,Kredi
+ScotApp_67,Geri Git
+ScotApp_57,Bitir ve Öde
+ScotApp_47,Başlat
+ScotApp_37,37unused
+ScotApp_1458,NCR SelfServ Checkout Raporu
+ScotApp_17,Kupon
+ScotApp_1752,Tartıdaki ağırlık kapasitenin üstünde.
+ScotApp_1643,Kağıt Para Dönüştürücü Hatası
+ScotApp_97,Listeden Ambalaj Seç
+ScotApp_87,87unused
+ScotApp_1665,Unlock and remove cassette.  Remove jammed note.  Re-insert cassette. Close recycler unit. Continue transaction.
+ScotApp_1138,%s verme hatası.
+ScotApp_1589,MADENI PARALAR DIŞARIDA
+ScotApp_1445,Bozukluk Sayısı
+ScotApp_1318,Makbuzları Tarat
+ScotApp_1654,Sayı kapasiteyi aşıyor. Gereken yük sayısı %d. %d sayısı otomatik olarak girildi. 
+ScotApp_796,"Düşük madeni para seviyesi veya madeni para vericisi hatası/kapalı.\n* Madeni para vericisini açın, VEYA\n* Madeni para vericisini yeniden doldurun, kapatın ve açın, ardından ""Madeni Para Vericisi Dolduruldu""ya basın - Kasa Durumu Ekranı."
+ScotApp_696,696unused
+ScotApp_596,NCR SelfServ Checkout AuxDisp yüklendi.
+ScotApp_1391,"""Sorunu çözdüm"" e basın.\nHata devam ederse terminali kapatıp yeniden başlatın."
+ScotApp_396,...için mağaza yardımı gerekliydi
+ScotApp_296,296unused
+ScotApp_196,Sunum Hizmetleri yükleniyor...
+ScotApp_1588,"""Verici Toplama"" düğmesinin seçilebilmesi için her kutu boşaltılmış olmalıdır. Tüm madeni para haznelerini boşaltın ve ""Verici Toplama"" ya basın."
+ScotApp_996,Fiyat Girişi
+ScotApp_896,AĞRBİLG yükleniyor...
+ScotApp_574,"Şifrenizi girin ve ""Giriş"" e basın."
+ScotApp_1093,Son Fişi Yazdır
+ScotApp_1641,Bozuk para haznesini tekrar doldurun ve devam edin. Bozuk para gelmiyorsa Hazne kilitlenmiş olabilir. Servisi arayın.\n\nSafePay Error: %s
+ScotApp_1781,TEŞEKKÜRLER ZAMAN AŞIMI
+ScotApp_562,Kuponların Yardım Modunda satılmaları gerekiyor
+ScotApp_874,"D.L. veya Kimlik Numarasını girin ve ""Giriş"" e basın."
+ScotApp_1124,1124unused
+ScotApp_770,Askıya Almayı Onayla
+ScotApp_670,Eğitim Moduna Gir
+ScotApp_570,570unused
+ScotApp_470,   Yaş Sınırlamalı
+ScotApp_370,Yazıcı yazıcı açık
+ScotApp_270,Kuponları Onayla
+ScotApp_170,"Ürünü tartıdan kaldırın ve tarayıcıda ""Tartıyı Sıfırla"" tuşuna basın."
+ScotApp_1640,Hazne Hatası
+ScotApp_870,Uyarılar:
+ScotApp_1733,"Devam etmek için ""Geri Git"" e basın"
+ScotApp_1553,Para seviyesi Yüksek Durumu:
+ScotApp_664,Ürünlerinizi taratın veya dil seçimi yapın.
+ScotApp_564,564unused
+ScotApp_464,%s               %s
+ScotApp_364,364unused
+ScotApp_264,264unused
+ScotApp_964,"Ürünü kaldırın ve ""Güvenliği Kaldır"" veya ""Ağırlığı Onayla ve Güncelle"" ye basın."
+ScotApp_864,Onay:
+ScotApp_1647,(aaggyyyy)
+ScotApp_1119,Erişim kapısı açık durumdayken fatura vericisi çalışmayacaktır.\n\nVerici kapısını veya güvenlik kapısını kapatın ve mandallayın.\n\nHata tekrarlanırsa tanı dosyası oluşturun ve servisi arayın.
+ScotApp_1659,Fişi Yazdır
+ScotApp_819,İptal edilen ürün için askıya almayı onaylayın.
+ScotApp_1339,Tüm Sistemi Yeniden Yükle
+ScotApp_1582,Malzeme Durumu
+ScotApp_1154,Tarayıcı Hatası
+ScotApp_1117,%s fatura vericisi kaseti çıkmış veya tam olarak yerleştirilmemiş.\n\n %s fatura kasetini yerine tam oturana kadar yerleştirin veya yerine yeniden oturtun.
+ScotApp_1294,Q - S
+ScotApp_1030,Kuponunuzu yerleştirin.
+ScotApp_1658,Müşterinin para üstünü doğru olarak aldığını onaylayın.
+ScotApp_1421,Yardım Modu
+ScotApp_709,709unused
+ScotApp_1129,Düzeltme eylemi uygun şekilde yapılmadı.\n\nLütfen tekrar deneyin.
+ScotApp_509,509unused
+ScotApp_409,Sistem mesajı
+ScotApp_309,dolar
+ScotApp_209,Programı Durdur
+ScotApp_109,Devam edilsin mi?
+ScotApp_1338,Tanı Dosyalarını Al
+ScotApp_909,Güvenlik tartısında hatalı ağırlık.
+ScotApp_809,POS Mesajı:
+ScotApp_1645,Check that the note cover is securely fastened.
+ScotApp_1116,Fatura reddetme kutusu mevcut değilse veya yerine tam olarak oturmamışsa fatura vericisi çalışmayacaktır.\n\nFatura reddetme kutusunu yerleştirin ve yerine tam olarak oturduğundan emin olun.
+ScotApp_1128,%s\n
+ScotApp_1452,"Kullanıcı Kimliği girin ve ""Giriş"" e basın."
+ScotApp_183,183unused
+ScotApp_1450,Kilit Kutusu
+ScotApp_1293,P
+ScotApp_1644,Kağıt Para Dönüştürücü Kapağı Kapalı
+ScotApp_1115,ÇEVRİMDIŞI BİLDİRİYOR
+ScotApp_795,Satın alma işlemleri daha iyi hizmet için görüntülenmişlerdir.
+ScotApp_695,695unused
+ScotApp_595,NCR SelfServ Checkout AuxDisp yükleniyor...
+ScotApp_395,İzne Tabi Ürünlere İzin Verilmiyor
+ScotApp_295,295unused
+ScotApp_195,Aygıt Yöneticisi yüklendi.
+ScotApp_566,566unused
+ScotApp_1324,İşlem sonrasında \ntartıda ağırlık kaldı.
+ScotApp_995,Kasaya gidin ve kasayı açmak için Mağaza Modunda oturum açın.
+ScotApp_895,DBM sonlandırılıyor...
+ScotApp_1102,Sonraki
+ScotApp_1383,(Özel)
+ScotApp_1402,FATURA REDDETME KUTUSU FİŞİ TAKILI DEĞİL.
+ScotApp_1292,N - O
+ScotApp_1114,"""Rapor Periyodunu Sonlandır"" güncelleme başarılı"
+ScotApp_1222,HİZMET DIŞI
+ScotApp_1101,%s\t%s
+ScotApp_1159,PinPad/ EFT cevap vermiyor.
+ScotApp_1100,%s
+ScotApp_1539,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1649,(ggaayyyy)
+ScotApp_1317,Makbuz Ödeme
+ScotApp_1883,"Poşette ve alışveriş arabasında fazla ürün olup olmadığını kontrol edin ve ""Güvenliği Onayla"" ya basın."
+ScotApp_729,729unused
+ScotApp_629,Toplam Ücret:
+ScotApp_429,Kırmızı
+ScotApp_329,  %ss @ %d %s/%s
+ScotApp_229,229unused
+ScotApp_129,İptal edilip çıkarılan ürünleri doğrulayın.
+ScotApp_1107,%s\t%s\tMikt %s @ %s/%s\t%s
+ScotApp_1538,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_929,WLDB doğru şekilde iletişim kuramıyor.
+ScotApp_829,829unused
+ScotApp_1316,* Yazıcı kapağını açın ve gösterilen bölgede kağıt  sıkışması olup olmadığını kontrol edin.\n* Yazıcı kapağını kapatın ve tekrar kağıt yerleştirin.
+ScotApp_81,Devam Et
+ScotApp_1882,Smart Assist uyarısı - ürün taranmadı.
+ScotApp_1673,Bozuk Para Sıkışması
+ScotApp_1135,Fatura Vericisi Hatası
+ScotApp_1705,İletişim hatası.
+ScotApp_1894,Set item aside and continue with your purchase.
+ScotApp_787,"Girilen Doğum Tarihi: %s, %d yaşında"
+ScotApp_1398, Çalışm./Eğt.
+ScotApp_1106,%s\t%s\tMikt %s @ %s/her biri\t%s
+ScotApp_1525,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1493,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1490,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1315,* Yazıcı kapağını açın ve kağıt sıkışması olup olmadığını kontrol edin.\n* Yazıcı kapağını kapatın ve tekrar kağıt yerleştirin.
+ScotApp_1881,"Poşet Tartısını kontrol edin, fazla ürünleri çıkarın ve ""Güvenliği Onayla"" ya basın."
+ScotApp_1173,ONAYLANMIŞ İPTAL EDİLEN ÜRÜN
+ScotApp_1524,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_505,Hatalı Sayı
+ScotApp_1302,Kapat
+ScotApp_905, (Daha fazla bilgi için makbuza bakın...)
+ScotApp_1164,Yazıcı doğru şekilde konumlandırılmamış.
+ScotApp_1492,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1314,* Yazıcı kapağını açın ve kağıt parçası varsa temizleyin.\n* Kapağı kapatın.\n* Yeni kağıt rulosu yerleştirin.\n* Kağıdı yazıcıya rulonun tepesinden yerleştirin.
+ScotApp_1817,"* Madeni para geri dönüstürücüsünü çikarin.\n* Yuvarlak kenar kapilarini açin ve bantlarin üzerindeki madeni paralari temizleyin.\n* Bütün kapilarin uygun sekilde kapatilip kilitlendiginden emin olun.\n* Madeni Paralari müsteriye iade edin. Eğer hata tekrar ederse, servisi arayın."
+ScotApp_1442,"Yeniden yüklemek için Nakit Yerleştirin veya boşaltmak için ""Nakdi Çıkar"" a basın."
+ScotApp_1880,Poşet Tartısında olmaması gereken ürün.
+ScotApp_1172,ONAYLANMIŞ ASKIYA ALMA
+ScotApp_1415,1415unused
+ScotApp_788,Geçerli Doğum Tarihi:%s
+ScotApp_688,688unused
+ScotApp_588,Aygıt Merkezi yükleniyor...
+ScotApp_488,Ürünü Tartıya Koyun: %s
+ScotApp_388,İşlem gerçekleştiriliyor...
+ScotApp_288,"""Sorunu çözdüm"" e basın.\nHata sürüyorsa terminali yeniden yükleyin:\nYönetici kilidini 'S' e getirin -VEYA- Yönetici tuşuna basın.\n""Tüm Sistemi Kapat"" ı seçin.\nEkran kararınca terminali UPS veya güç kaynağından kapatın.\nTerminali açın. Hata tekrarlanırsa tanı dosyası oluşturun ve servisi arayın."
+ScotApp_188,Seçenekler yükleniyor...
+ScotApp_988,Bantta beklenmeyen ürün. Ürünü kaldırın.
+ScotApp_888,Paketleme alanında beklenmeyen ürün. Ürünü kaldırın.
+ScotApp_1887,İşlemi gözden geçirin
+ScotApp_1171,BEKLENMEYEN ARTIŞ
+ScotApp_1199,GİRİLEN SON KULLANMA TARİHİ
+ScotApp_1300,İşlemi Başlat
+ScotApp_1326,Kuponu Yerleştirme Süresi Doldu
+ScotApp_1291,K - M
+ScotApp_1517,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1886,Fazla ürün olup olmadığını kontrol edin.
+ScotApp_749,749unused
+ScotApp_1529,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_549,549unused
+ScotApp_449,Madeni para alıcısı durumu reddedildi.
+ScotApp_349,349unused
+ScotApp_249,249unused
+ScotApp_149,PIN Numarasını Gir
+ScotApp_1307,Fiş yazıdırılıyor
+ScotApp_1738,Görevli Paketlerinizi Onaylayacak
+ScotApp_949,949unused
+ScotApp_717,717unused
+ScotApp_617,Ağırlık karşılaştırması ayarlarını seçin. (Ürün ağırlığını mevcut girişlerle karşılaştır.)
+ScotApp_517,Diğer Ödeme talep edildi.
+ScotApp_417,Hard Totals yüklendi.
+ScotApp_317,317unused
+ScotApp_217,217unused
+ScotApp_117,Ürünleri Kenara Koy
+ScotApp_1516,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1885,Ürün taranmadı
+ScotApp_917,Ürünlerin paketleme alanından kaldırılması için aşırı talep. Maks = %d.
+ScotApp_817,Yardım Gerekiyor
+ScotApp_1177,ÜRÜN PAKETLEME SÜRESİ DOLDU
+ScotApp_1528,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1175,PAKETLEMEYİN PAKET EŞİĞİ AŞILDI
+ScotApp_1109,%s\t%s\t%s @ %s/%s\t%s
+ScotApp_1453,Kasiyer Şifresi
+ScotApp_1693,Madeni Para Değişikliği
+ScotApp_1515,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_7,7unused
+ScotApp_6,6unused
+ScotApp_5,5unused
+ScotApp_4,4unused
+ScotApp_3,3unused
+ScotApp_2,Kg
+ScotApp_1,lb
+ScotApp_1176,YENİ ÜRÜN GİRİLDİ
+ScotApp_1724,EĞİTİM MODU İŞLEMİ
+ScotApp_1019,Bant Üzerine Yerleştirin.
+ScotApp_9,9unused
+ScotApp_8,8unused
+ScotApp_609,Ağırlık Toleransını Düzenle
+ScotApp_1305,%s yerleştirildi
+ScotApp_1893,Geçersiz Barkod
+ScotApp_1409,Yardım Menüsü
+ScotApp_1692,Supervisor Login
+ScotApp_1163,"""Sorunu çözdüm"" e basın.\n\nHata düzelmiyorsa terminali yeniden yükleyin:\nYönetici tuş kilidini ‘S’e getirin -VEYA Yönetici düğmesine basın.\n""Tüm Sistemi Kapat""ı seçin.\nEkran karardıktan sonra terminali UPS’ten veya güç kaynağından kapatın.\nTerminali açın. Eğer hata tekrar ederse, servisi arayın."
+ScotApp_1514,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1372,Madeni Para Alıcısı
+ScotApp_1048,1048unused
+ScotApp_967,967unused
+ScotApp_1304,Müşteri kartı kabul edildi.
+ScotApp_1162,Aygıt çevrimdışı.
+ScotApp_1833,Exc_TB
+ScotApp_1818,* Sikisikligi gidermek için hazne tablasini açin ve çikarin (I). \n* Sikisan bozuk paralari uygun hazne kutularina yerlestirin. Hazne tablasini tekrar yerine yerlestirerek kilitleyin. \n* Bozuk para dönüstürücüsünü çekin. Kapagini açin ve çikarin. \n* Gösterilen kablonun baglantisini kesin (II) \n* Alicinin sag tarafindaki kirmizi kolu açarak öne dogru çekin ve gösterilen bölgelerdeki sikisikliklari gidermek için ters çevirin (III). \n* Aliciyi yerine yerlestirin ve kabloyu tekrar baglayin. \n* Kapagi yerlestirip kapatin. Hata tekrar ederse servisi arayin.
+ScotApp_1174,UYUMSUZ AĞIRLIK
+ScotApp_1500,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1366,Tartı
+ScotApp_1161,Çağrı Cihazı Hatası
+ScotApp_1717,GA:
+ScotApp_1832,Exc_BORÇ
+ScotApp_1370,Şifreleyici
+ScotApp_669,İmza Yazdırma Başarısız. Hatalar Oluştu.
+ScotApp_569,Kodu Tuşla
+ScotApp_469,469unused
+ScotApp_369,Yazıcı bağlantı hatası
+ScotApp_269,Yardım Modu
+ScotApp_1507,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_969,969unused
+ScotApp_737,737unused
+ScotApp_637,"Güvenlik çevrimdışı, son işlem iptal edildi."
+ScotApp_537,537unused
+ScotApp_437,Yetersiz Bakiye
+ScotApp_337,"Ürününüzü okutun veya kodunu girerek ""OK"" e basın."
+ScotApp_237,Kaseti yerine oturuncaya kadar takın.\n\nMandalın kaseti yerinde tuttuğundan emin olmak için kaset kolunu çekin.
+ScotApp_137,Para Üstü Al
+ScotApp_931,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s beklenen; LSWND3=%s %s gözlenen;
+ScotApp_1519,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1831,Int
+ScotApp_937,Ürünleri Sınırla\Kaldır
+ScotApp_837,Ek Ücretler
+ScotApp_1702,***FİŞ KOPYASI***
+ScotApp_1377,miktar
+ScotApp_1728,Popüler ürünler listesinden seçim yapın veya alfabetik olarak arayın.
+ScotApp_1395,Görevli Moduna Gir
+ScotApp_716,716unused
+ScotApp_616,Ağırlık Karşılaştırması
+ScotApp_516,Diğer Ödeme
+ScotApp_416,Hard Totals yükleniyor
+ScotApp_316,316unused
+ScotApp_216,* Yazıcı kabin kapağını açın.\n* Sıkışma olup olmadığını kontrol etmek için yazıcı kapağını açın.\n* Yazıcının kapağını kapatın ve tekrar kağıt yükleyin.\n* Mutlu Yüz resmi olan bir fiş basılmalı.\n*Yazıcı kabin kapısını kapatın ve kilitleyin.
+ScotApp_116,Tüm Ürünleri İptal Et
+ScotApp_1522,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1506,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1879,"Poşet Tartısını kontrol edin ve ""Güvenliği Onayla"" ya basın."
+ScotApp_916,"Kasadaki ürünleri kontrol edin ve ""Güvenliği Kaldır"" a basın."
+ScotApp_816,816unused
+ScotApp_1167,* Yazıcı kabin kapısını açın.\n* Mandalı açın ve yazıcıyı geri itin.\n* Sıkışma olup olmadığını kontrol etmek için yazıcı kapağını açın.\n* Yazıcı kapağını kapatın ve yeniden kağıt yerleştirin.\n* Yerine oturana kadar yazıcıyı dikkatli bir şekilde öne doğru çekin.
+ScotApp_1518,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1830, Girişler Onaylandı
+ScotApp_1376,", %s"
+ScotApp_783,783unused
+ScotApp_683,683unused
+ScotApp_583,Kart Reddedildi.
+ScotApp_483,Lütfen kalemi kullanarak imzanızı atın.
+ScotApp_383,383unused
+ScotApp_283,Şifre Gir
+ScotApp_1505,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_983,Paket Servisi Bandı yükleniyor...
+ScotApp_883,Askıya Almayı Onayla
+ScotApp_1363,Hat Görüntüleme
+ScotApp_1714,ASKIYA ALMA İPTALİ ONAYLANDI
+ScotApp_1837,"İşleme devam etmek için ""Onayla"" ya basın."
+ScotApp_1449,Fatura Durumu
+ScotApp_1375,Otomatik Ürün Değişikliği:\n%s
+ScotApp_1248,HEDİYE KARTI
+ScotApp_1153,Kağıt sıkışması.
+ScotApp_1504,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1362,Tuş Kilidi
+ScotApp_1836,GEÇERSİZ BARKOD
+ScotApp_1571,Değişikliği Yok Saymayı Onayla
+ScotApp_1215,AYGIT HATASI
+ScotApp_1858,Discrepancy error occurred in the recycler.
+ScotApp_1152,Kağıt yok.
+ScotApp_1700,"%s verilemedi. %s madeni para ve fatura vericilerini kontrol edin.\n* Boş ise yeniden doldurun.\n* Boş değil ise sıkışıklığı giderin.\n* ""Durum Düzeltildi"" ye Basın."
+ScotApp_1823,Dijital Makbuz başarıyla oluşturuldu.
+ScotApp_1605,     Kart Vericisi Haznesi boş
+ScotApp_1361,Para Bozma Makinesi
+ScotApp_1835,Kenara alınan ürünü kontrol edin.
+ScotApp_1878,Poşet Tartısında hatalı ağırlık.
+ScotApp_1281,YARDIMLI ÖDEME
+ScotApp_1425,Bağlan
+ScotApp_1570,Değişiklikleri Yok Say
+ScotApp_814,814unused
+ScotApp_291,"Madeni para vericisi tüpünde sıkışma\n%s\nMadeni Para vericisindeki sıkışmayı giderin ve ""Sıkışma Giderildi"" ye basın."
+ScotApp_191,İşlem Brokeri yüklendi.
+ScotApp_1151,Yazıcı kapağı açık.
+ScotApp_1707,Madeni paralar alıcıda sıkıştı
+ScotApp_1822,Ekranın sol alt köşesinden ürün ağırlığını kontrol edin
+ScotApp_757,757unused
+ScotApp_657,Para iadesini/indirimi satın alma işleminin sonuna kadar kenara koyun.
+ScotApp_557,Miktar Sınırlı Ürünler
+ScotApp_457,457unused
+ScotApp_357,357unused
+ScotApp_257,257unused
+ScotApp_157,Sistem mesajı
+ScotApp_1360,Nakit Çekicisi
+ScotApp_1719,EA:
+ScotApp_1834,Maks.
+ScotApp_1868,Ellerinizin kamera görüşünü engellemediğinden emin olun
+ScotApp_957,DB Yöneticisi Kullanıcı Bağlantısı Başarısız
+ScotApp_857,Toplama Ücretini Doğrula
+ScotApp_1064,1064unused
+ScotApp_1577,Toplam Sayı:
+ScotApp_736,736unused
+ScotApp_636,Güvenlik çevrimdışı.
+ScotApp_1091,1091unused
+ScotApp_436,Tutarı Onayla
+ScotApp_336,Ürün Ara
+ScotApp_236,236unused
+ScotApp_136,Nakit Yerleştir
+ScotApp_1509,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1821,Ağırlığı Kabul Et
+ScotApp_936,Paketlemeyi Sınırla\Atla
+ScotApp_836,Ek Ücretler ve Müşteri Anlaşmaları
+ScotApp_1367,Tarayıcı
+ScotApp_1718,ÜA:
+ScotApp_1274,USERDEFINED16
+ScotApp_715,715unused
+ScotApp_615,Mecburi Paketleme uygulaması ayarlarını seçin. (Ürünü paketletmeyi bekleyen müşteri.)
+ScotApp_515,515unused
+ScotApp_315,315unused
+ScotApp_215,Borç İndirimleri
+ScotApp_115,İptali Onayla
+ScotApp_1576,Nakit Vericisi Durumu:
+ScotApp_1090,Raporu Çalıştır
+ScotApp_815,Kasayı Aç
+ScotApp_1508,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1406,Senk TB/POS
+ScotApp_1099,Bilinmeyen Aygıt Hatası
+ScotApp_1563,Yükle
+ScotApp_782,Fatura vericisi sıkışması\nFatura vericisindeki sıkışmayı giderin veya\nTemizlik kutusunu ayarlayın.
+ScotApp_682,682unused
+ScotApp_582,Ödeme Tamamlandı.
+ScotApp_482,482unused
+ScotApp_382,Bilinmeyen
+ScotApp_282,Kimlik Gir
+ScotApp_1575,Madeni Para Vericisi Durumu:
+ScotApp_1097,Kayıtları / Raporları Yazdır
+ScotApp_1448,Madeni Para Durumu
+ScotApp_982,Aygıt Hatası
+ScotApp_143,Fişi İmzala
+ScotApp_1353,Lütfen boşalan hediye kartınızı kupon yuvasına yerleştirin.
+ScotApp_1704,"""Sorunu çözdüm"" e basın.\n\nHata devam ederse terminali yeniden yükleyin:\nYönetici kilidini 'S' e getirin -VEYA- Yönetici düğmesine basın.\nTüm Sistemi Kapat"" ı seçin.\nEkran karardığında terminali UPS'ten veya güç kaynağından kapatın.\nTerminali açın. Hata tekrarlanırsa tanı dosyası oluşturun ve servisi arayın."
+ScotApp_1827,\n    - Mevcut Dil (%s)
+ScotApp_1562,Say
+ScotApp_1815,"* Kilidini açarak hazne tablasini çikarin.\n* Eksik hazneleri yerlestirin ve tüm haznelerin uygun sekilde yerlestirildiginden emin olun.\n* En düsük madeni para degeri haznesinin dogru sekilde yerlestirildiginden emin olun.\n* Uygun para birimi haznelerinin yerlestirildiginden emin olun. Eğer hata tekrar ederse, servisi arayın."
+ScotApp_1574,%s için girilen değer geçersiz.\nLütfen tekrar deneyin.
+ScotApp_1543,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1290,D - J
+ScotApp_1096,Bildiriliyor
+ScotApp_1352,Hediye Kartınızı Verin
+ScotApp_1561,İsimlendirme
+ScotApp_1083,"Ürünleri paketleme alanına geri götürün veya ""Ürün Kaldırıldı"" ya basın."
+ScotApp_1753,Ürün Bulunamadı
+ScotApp_418,Hard Totals sonlandırılıyor...
+ScotApp_318,318unused
+ScotApp_1813,%s\n* Hazne tablasini açin ve çikarin (I).\n* Sikismis hazne kutularini çikarin. Çikis bölümündeki sikisikliklari kontrol edin ve giderin  (II).\n*Sikisma yoksa hazne kutularini bosaltin. Diski çevirerek sikisikligi giderin (III).\n* Hazne kutularini tekrar yerlestirin. \n* Tüm kapilarin kapandigindan ve düzgün sekilde kilitlendiginden emin olun. Hata tekrar ederse servisi arayin.
+ScotApp_1095,"Rapor türünü seçin, sonra ""Raporu Çalıştır"" a basın."
+ScotApp_1351,%s\n%s %s çıkarıldı
+ScotApp_1825,Tercihleri Kaydet
+ScotApp_777,777unused
+ScotApp_677,677unused
+ScotApp_577,Nakit Ödemeyi Başlat.
+ScotApp_377,Birimler – Durum
+ScotApp_277,277unused
+ScotApp_1560,Alıcı toplamı: %s
+ScotApp_1082,Ürün Kaldırıldı
+ScotApp_977,Gerçek Ağırlık: %s %s
+ScotApp_877,Fiyat Sorgulama
+ScotApp_1777,İşlem mağaza kupon limitini aşan bir kuponla gerçekleştirildi.
+ScotApp_1812,Bozuk para sikismasi ya Bozuk para hazneleri dolu
+ScotApp_756,756unused
+ScotApp_556,İşlem askıya alma reddedildi.
+ScotApp_456,456unused
+ScotApp_356,Şifreleyici
+ScotApp_256,Kullanıcı çıkışları sonlandırılıyor...
+ScotApp_156,Sistem mesajı
+ScotApp_1231,GÖRSEL OLARAK DOĞRULANMIŞ
+ScotApp_1874,1874unused
+ScotApp_956,"Terminali kapatıp yeniden başlatın:\n* Yönetici kilidini ‘S’ konumuna getirin VEYA Yönetici düğmesine basın.\n* Seçme ""Bir dahaki sistem yüklemesinde ADD’ i çalıştırın"". Seçeneğini ""Evet"" onaylamak için.\n* ‘Tüm Sistemi kapatın.’\n* Ekran boşaldığında terminali kesintisiz güç kaynağından kapatın veya güç kablosunu prizden çekin.\n* Terminali açın. Olay günlüğünü kontrol edin. Hata tekrarlanırsa tanı dosyası oluşturun ve servisi arayın. ."
+ScotApp_856,Fiş:
+ScotApp_1567,Verici Toplamı: %s
+ScotApp_735,735unused
+ScotApp_635,Müşterinin doğum tarihini gir
+ScotApp_535,   Time Recalled
+ScotApp_335,Kart okuyucusu muhtemel müşteri müdahalesi
+ScotApp_235,Nakit alıcısı doluya yakın konumda
+ScotApp_135,135unused
+ScotApp_1776,Mağaza Yetkisi
+ScotApp_1811,"* Madeni para geri dönüstürücüsünü çikarin.\n* Gösterilen bölgedeki sikismayi madeni paralari çikararak veya ileri iterek giderin.\n* Madeni paralari müsteriye iade edin. Eğer hata tekrar ederse, servisi arayın."
+ScotApp_935,Ağırlık Düşüşü
+ScotApp_835,Fiş:
+ScotApp_1708,"Madeni Para sıkışmasını gidermek için Madeni Para iade butonuna birkaç kez basın, ardından ""sorunu çözdüm"" butonuna basın.\n\nHata tekrarlanırsa tanı dosyası oluşturun ve servisi arayın."
+ScotApp_1168,Yazıcı ön konumda yerine oturmamış.
+ScotApp_1446,Boşalt
+ScotApp_1566,Tam Yenileme
+ScotApp_1080,Ürünü banda koyun.
+ScotApp_1775,Kuponu Onayla
+ScotApp_1810,Madeni para sikismis.
+ScotApp_1297,PARA ÜSTÜ ALMA SÜRESİ DOLDU
+ScotApp_1648,(aaggyy)
+ScotApp_708,708unused
+ScotApp_608,Ağırlık Karşılaştırmayı Ayarla
+ScotApp_508,508unused
+ScotApp_408,408unused
+ScotApp_308,sent
+ScotApp_208,208unused
+ScotApp_108,Uyumsuz Kupon
+ScotApp_781,781unused
+ScotApp_681,Sık Kullanılanlardan Seç
+ScotApp_581,İşlem askıya alma reddedildi
+ScotApp_481,Yardım Gerekiyor
+ScotApp_381,Normal
+ScotApp_908,Güvenlik
+ScotApp_521,İade Edilen Tutar:
+ScotApp_1087,Kart kabul edildi. Ürün ve kuponlarınızı taratın.
+ScotApp_981,981unused
+ScotApp_881,Askıya Al:
+ScotApp_1774,Kupon Çok Yüksek
+ScotApp_1296,Tüm madeni para haznelerini optimum hizmet seviyesine kadar yeniden doldurun.
+ScotApp_1583,Para seviyesi düşük (%s)
+ScotApp_1552,Kutu dolu
+ScotApp_1295,T - Z
+ScotApp_1877,Hırsızlık Alarmı
+ScotApp_1761,Kupon haznesi dolu veya kupon yuvası tıkanmış. Kupon yuvasını tıkayan nesneyi çıkartın ve kupon haznesini boşaltın.
+ScotApp_1086,"""Sıfır Ağırlık Ekle"" tüm ağırlık girişlerini siler."
+ScotApp_693,693unused
+ScotApp_794,Fatura vericisi kasetinde sıkışma\nFatura vericisindeki sıkışmayı ortadan kaldırın.
+ScotApp_694,694unused
+ScotApp_594,NCR SelfServ Checkout SigCap yüklendi.
+ScotApp_494,Para iadesi tutarını listeden seç.
+ScotApp_394,394unused
+ScotApp_1098,"* Yazıcı kabin kapısını açın.\n*Gösterilen bölgede kağıt sıkışması olup olmadığını kontrol edin.\n* Kağıt sıkışması yoksa, yeniden kağıt yükleyin.\n* Üzerinde Gülen Yüz bulunan bir fiş yazdırılacak.\n* Yazıcı kabin kapısını kapatın ve kilitleyin."
+ScotApp_1551,para seviyesi yüksek (%s)
+ScotApp_994,Kapalı
+ScotApp_894,DBM yüklendi.
+ScotApp_1760,Kupon haznesi dolu veya kupon yuvası tıkanmış. Kupon yuvasını tıkayan nesneyi çıkartın ve kupon haznesini boşaltın.
+ScotApp_1371,Nakit Alıcısı
+ScotApp_1803,Yalnızca Nakit Kabul Et
+ScotApp_1359,Slip Yazıcısı
+ScotApp_1085,Kuponları Topla
+ScotApp_21,21unused
+ScotApp_776,776unused
+ScotApp_676,Madeni Para Vericisi: %s %s’te yeniden dolduruldu.
+ScotApp_1491,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_476,Kupon Teslimi
+ScotApp_376,376unused
+ScotApp_276,276unused
+ScotApp_176,Ödemeyi durdurup satın alma işleminizi iptal etmek istiyor musunuz?
+ScotApp_976,976unused
+ScotApp_876,"Baş Kasiyer Kimliğini girin ve ""Giriş"" e basın."
+ScotApp_1271,USERDEFINED13
+ScotApp_1767,Tartı ağırlık parametrelerine ulaşılamıyor.
+ScotApp_755,İşlem gerçekleştiriliyor...
+ScotApp_655,İstisna Ürün
+ScotApp_1084,Toplama
+ScotApp_455,455unused
+ScotApp_355,Sistem fonksiyonu seç
+ScotApp_255,255unused
+ScotApp_155,Sistem mesajı
+ScotApp_1011,Taşınıyor...
+ScotApp_869,"Yetki Numarasını girin ve ""Giriş"" e basın."
+ScotApp_955,Akıllı Tartı Etkinleştirme Başarısız
+ScotApp_855,Toplama Ücreti:
+ScotApp_23,+ %s (%s)
+ScotApp_1766,Tarayıcı/Tartı Hatası.
+ScotApp_1280,NAKİT
+ScotApp_1335,Kasa Kapatıldı
+ScotApp_1497,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_728,728unused
+ScotApp_628,Kasa #: %d
+ScotApp_528,528unused
+ScotApp_428,Sarı
+ScotApp_328,"Müşteriye %s verme başarısız.\n* Madeni para ve fatura vericilerini kontrol edin.\n* Boş ise yeniden doldurun.\n* Boş değil ise sıkışıklığı giderin.\n* ""Sorunu çözdüm"" e basın."
+ScotApp_228,Kart okuyucu girişi sıkışma yüzünden kapandı
+ScotApp_128,128unused
+ScotApp_1690,Lütfen servisi arayın
+ScotApp_281,281unused
+ScotApp_181,"\nKupon değerini sent olarak girmek için tuş takımını kullanın ve ""OK"" e basın."
+ScotApp_928,Kasaya gidin ve aygıtı kontrol edin.
+ScotApp_828,828unused
+ScotApp_1033,"Ürün etkinliğini kaldırın veya kasada sert etiketi çıkararak ""Güvenliği Kaldır"" a basın."
+ScotApp_1496,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_680,680unused
+ScotApp_580,Kuponu iptal edilmeden ürün iptal edilmeye çalışıldı.
+ScotApp_380,380unused
+ScotApp_280,Güvenlik Kaydını Sil
+ScotApp_180,Kuponları şimdilik kenara koyun.\nKuponlarınızı satın alma işlemi sonunda teslim edin.
+ScotApp_1364,Mikr
+ScotApp_980,Müşteri karşılık vermediği için süre doldu
+ScotApp_880,880unused
+ScotApp_970,970unused
+ScotApp_1104,e=d=0.01 lb Max 30.00 lb min 0.2 lb Nmax 3000
+ScotApp_1032,EAS Ürünü hala aktif.
+ScotApp_1286,Türkçe
+ScotApp_1462,Kutular
+ScotApp_1298,Operatör Yardımlı Fonksiyonlar
+ScotApp_1031,Kuponlarınızı taratın.
+ScotApp_1482,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1706,"Aygıt hazır değil. Aygıtı kullanabilecek tüm diğer uygulamaları kapatın ve ""sorunu çözdüm"" butonuna basın. Hata tekrar ederse Gunnebo servisini arayın."
+ScotApp_1399, Görevli
+ScotApp_1494,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1672,Bozuk Para Dönüştürücü Hatası
+ScotApp_573,"Kullanıcı Kimliğinizi girin ve ""Giriş"" e basın."
+ScotApp_173,173unused
+ScotApp_775,NCR Self-Servis İşleme Hoşgeldiniz! Mutlu Alış-verişler!
+ScotApp_675,Madeni Para Vericisi Dolduruldu
+ScotApp_1481,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_79,79unused
+ScotApp_69,69unused
+ScotApp_59,Yeniden Dene
+ScotApp_39,İşlem İptali
+ScotApp_29,İzne Tabi Ürünler
+ScotApp_19,Vergi
+ScotApp_975,975unused
+ScotApp_603,Düzenle/Ekle Ağırlık Girişi
+ScotApp_99,İptal Edilecek Miktar
+ScotApp_89,89unused
+ScotApp_303,Ürünleri İptal Et
+ScotApp_203,203unused
+ScotApp_103,Ürün kodunu gir
+ScotApp_1889,Güvenlik Güvenlirlik Seviyesi
+ScotApp_1443,"Yeniden yükleme yapmak için Madeni Para yerleştirin veya boşaltmak için ""Nakdi Çıkar"" a basın."
+ScotApp_903,Ürün paketleme alanından kaldırıldı.
+ScotApp_803,803unused
+ScotApp_1555,Verici
+ScotApp_1037,İmza
+ScotApp_1480,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1263,USERDEFINED5
+ScotApp_1697,Sıkışma Giderildi
+ScotApp_748,748unused
+ScotApp_648,UPC
+ScotApp_548,548unused
+ScotApp_448,Daimi müşteri hesabınız etkinleştirildi.
+ScotApp_348,348unused
+ScotApp_248,248unused
+ScotApp_148,148unused
+ScotApp_1479,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_948,\n* Uzaktan Yardım
+ScotApp_848,Gerekli Miktar:
+ScotApp_485,İmza Gerekiyor
+ScotApp_1036,EAS Ürünü Aktif
+ScotApp_1487,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1499,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1023,1023unused
+ScotApp_1179,KASADAN AYRILMA SÜRESİ DOLDU
+ScotApp_1035,EAS Ürünü Aktif
+ScotApp_1682,General Note Reader Unit Error
+ScotApp_1486,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1144,Verici cevap vermiyor.
+ScotApp_866,Evet
+ScotApp_1498,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1384,Dil
+ScotApp_1743,"Kullanıcı Adınızı girin ve ""Giriş""e basın veya giriş yapmak için parmağınızı parmak izi okuyucusuna yerleştirin."
+ScotApp_1319,MAKBUZ
+ScotApp_1178,ÇIKARMA İŞLEMİ YAPILDI EŞİĞİ AŞILDI
+ScotApp_1001,Ürün bulunamadı
+ScotApp_1034,1034unused
+ScotApp_1485,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1068,1068unused
+ScotApp_1694,"%s yüzünden değişiklik yapıldı. Yeniden doldurmak veya sıkışmayı gidermek için ""Nakit / Kağıt Durumu"" na basın.  "
+ScotApp_1165,Yazıcıyı yerine oturana kadar dikkatli bir şekilde öne doğru çekin.\n\nYazıcı kabin kapısını kapatıp kilitleyin.
+ScotApp_1021,Dikkat
+ScotApp_1230,NEGATIVE DEPT (No equivalent in TUR)
+ScotApp_1484,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_912,Ağırlığı Onayla ve Güncelle
+ScotApp_723,723unused
+ScotApp_623,"Tuş takımını kullanarak toleransı gir ve ""Giriş"" e basın."
+ScotApp_523,Kart Reddedildi
+ScotApp_423,Kartınızı yerleştirin. Ek ürünler için lütfen sepeti kontrol edin.
+ScotApp_323,  Qty %d @ %d/%s
+ScotApp_223,Kart okuyucu toplama kutusu dolu
+ScotApp_123,123unused
+ScotApp_1020,Ürünleri Tara
+ScotApp_923,923unused
+ScotApp_823,İptal Onayı
+ScotApp_1483,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1237,KUPON
+ScotApp_1680,Unrecoverable Error.  Please close the Lane.  Call Gunnebo and provide the error information shown below.\n\nSafePay Error: %s
+ScotApp_702,702unused
+ScotApp_602,Düzenle/Ekle \nAğırlık Girişi
+ScotApp_502,İptal edilen ürünü kenara koyun.
+ScotApp_402,Mevcut Değil
+ScotApp_302,Lütfen ödeme aygıtına PIN numaranızı girin.
+ScotApp_202,Oturum kapama test ediliyor...
+ScotApp_102,Piyasadan Çekilmiş Ürün
+ScotApp_1722,"Kasa eğitim modunda, işleme devam edilsin mi?"
+ScotApp_902,Ürün paketleme alanından kaldırıldı. Ürünü iade edin.
+ScotApp_802,"\n %s’lik dolu kasa satın alınsın mı?\n\n""Evet"" veya ""Hayır’ı"" seçin."
+ScotApp_568,Sil
+ScotApp_468,   Piyasadan çekilmiş
+ScotApp_368,Yazıcı kağıt yüklenmemiş sıkışma
+ScotApp_268,Hatalı Kart Okuma
+ScotApp_1027,"İşlemi iptal etmek için ""Evet"" e veya işleme devam etmek için ""Hayır"" a basın."
+ScotApp_1354,Hediye Kartınızı Alın
+ScotApp_968,968unused
+ScotApp_868,Yetki Numarası Girişi:
+ScotApp_1433,paket tartısında.
+ScotApp_1687,"Use ""Cash/Paper Status"" screen to load cash."
+ScotApp_1150,Yazı kabin kapısı açık.
+ScotApp_1699,"%s nedeniyle değiştirme yapıldı. Tekrar doldurun veya sıkışıklığı giderin ardından ""Durum Düzeltildi"" düğmesine basın."
+ScotApp_1259,USERDEFINED1
+ScotApp_1223,NAKİT / KAĞIT EKSİKLİĞİ
+ScotApp_1379,birim fiyat
+ScotApp_1432,<<<Düşük fatura seviyesi. Lütfen yeniden doldurun.>>>
+ScotApp_1686,Unrecoverable Error.  Please close the Lane.  Call Gunnebo and provide the error information shown below.\n\nSafePay Error: %s
+ScotApp_1157,Fatura vericisi kapısı açık olabilir.\n\nErişim kapısı açık durumdayken fatura vericisi çalışmayacaktır.\n\nKapağını veya güvenlik kapısını tam olarak kapatın ve mandallayın.
+ScotApp_1013,Biriken Ürünler
+ScotApp_1184,DAHA FAZLA VERİ
+ScotApp_1848,"Ürün iptal edildi. Bir sonraki ürünü taratın veya ""Kodu Tuşla"" a basın."
+ScotApp_1169,Yazıcı kabin kapısını açın.\n* Yerine oturana kadar yazıcıyı dikkatli bir şekilde öne doğru çekin.\n* Yazıcı kabin kapısını kapatın ve kilitleyin.
+ScotApp_1662,Diğer Fişler
+ScotApp_1311,* Fatura alıcısını çıkarın.\n* Alıcı modülünü açın.\n* Sıkışma olup olmadığını kontrol edin ve modülü değiştirin.\n* Fatura alıcısı motorunun açıldığını ve LED ışığının yeşil olduğunu kontrol edin.
+ScotApp_1025,Tüm ürünleri banttan kaldırın ve güvenlik kapağını kapatın.
+ScotApp_1378,ağırlık
+ScotApp_22,\nPara\nİadesi\nYok\n+ 0        \n(%s)
+ScotApp_1234,MİKTAR KISITLAMALI
+ScotApp_1685,General Coin Unit Error
+ScotApp_1156,Madeni para vericisi güç düğmesinin açık olup olmadığını kontrol edin.
+ScotApp_1012,Ürününüz taşınıyor.
+ScotApp_1365,MSR
+ScotApp_1235,EAS ÜRÜNÜ AKTİF
+ScotApp_1221,EKSİ BAKİYE
+ScotApp_1143,Madeni para seviyesi düşük veya madeni para haznesi mevcut değil.
+ScotApp_434,Kazanç Türü
+ScotApp_1625,"Insert coins to replenish or touch ""Remove Coins"" to unload."
+ScotApp_1430,Ürünü İptal Et
+ScotApp_1684,Bozuk Para Dönüştürücü Hatası
+ScotApp_1155,Aygıt çevrimdışı.
+ScotApp_834,Ek Ücretler ve Müşteri Anlaşmaları:
+ScotApp_799,Sepeti Kontrol Et
+ScotApp_699,Satılamayan Ürün
+ScotApp_599,Form Aygıtı Sıfırlanıyor...
+ScotApp_499,499unused
+ScotApp_399,399unused
+ScotApp_299,299unused
+ScotApp_199,Kullanıcı Çıkışları yüklendi.
+ScotApp_743,743unused
+ScotApp_643,Ürün iptal edildi. Sonraki ürünü taratın.
+ScotApp_543,Operatör Kimliği %d rakamdan büyük olamaz.
+ScotApp_343,343unused
+ScotApp_243,Kart okuyucuda geçersiz kart
+ScotApp_999,Sınır aşıldı
+ScotApp_899,...için İptal Etmeyi Onayla
+ScotApp_1220,EFT
+ScotApp_1142,Madeni Para Vericisi Hatası
+ScotApp_943,Poşet/Kutu
+ScotApp_843,843unused
+ScotApp_1437,"""Ürün Kaldırıldı"" eşiği aşıldı"
+ScotApp_1601,     Kart Vericisi Haznesi seviyesi düşük
+ScotApp_722,722unused
+ScotApp_622,UPC için Toleransı Düzenle
+ScotApp_522,Hatalı PIN
+ScotApp_422,422unused
+ScotApp_322,322unused
+ScotApp_222,"Yazıcı talep sırası: Yazıcı veya olay görüntüleyicisi hatalarını kontrol edin, sonra ""Sorunu çözdüm"" e basın."
+ScotApp_122,122unused
+ScotApp_1010,1010unused
+ScotApp_922,922unused
+ScotApp_822,İptal Edilen Ürünü Onayla
+ScotApp_1715,Askıya Alma İptal Onayı
+ScotApp_1227,ZAMAN SINIRLAMALI
+ScotApp_701,701unused
+ScotApp_601,601unused
+ScotApp_401,Kartınızı yerleştirin. Ek ürünler için lütfen sepeti kontrol edin.
+ScotApp_301,Kupon Değerini Gir
+ScotApp_201,Oturum açma test ediliyor...
+ScotApp_101,Bilinmeyen Fiyat
+ScotApp_1633,Kağıt Para Dönüştürücü Hatası
+ScotApp_901,Paketlemeyi Atlama onayı.
+ScotApp_801,Kasa Satın Al
+ScotApp_1824,Dijital makbuz oluşturulmadı.
+ScotApp_1328,Çift Ağırlık
+ScotApp_1299,İşlemi Başlat ve Yardım Moduna Geç
+ScotApp_1226,PİYASADAN ÇEKİLMİŞ ÜRÜN
+ScotApp_1140,Fatura vericisinde sıkışma.
+ScotApp_1579,Fatura Alıcısı
+ScotApp_1426,%s %d doğru mu?
+ScotApp_1632,"Remove Note Cover. Check cable to Note Validator and Retry.  If error recurs, call for Service.\n\nSafePay Error: %s"
+ScotApp_1141,%s verme hatası. DİKKAT: Fatura vericisinin üst kısmına fatura sıkışmış olabilir.
+ScotApp_1791,Yalnızca Nakit
+ScotApp_1357,Hediye Kartınızı Alın
+ScotApp_763,763unused
+ScotApp_714,714unused
+ScotApp_614,Mecburi Paketleme Uygulaması
+ScotApp_514,514unused
+ScotApp_314,kutuda problem var
+ScotApp_214,Borç Kontrolü
+ScotApp_114,Ürün İptal Edilemiyor
+ScotApp_1369,Muhtelif
+ScotApp_78,ATM (Nakitsiz)
+ScotApp_1630,Kağıt Para Dönüştürücü Hatası
+ScotApp_58,OK
+ScotApp_48,48unused
+ScotApp_914,"Kasaya gidin, ekstra ürünleri çıkarın ve ""Güvenliği Kaldır"" a basın."
+ScotApp_1422,Portatif Tarayıcı
+ScotApp_18,Toplam
+ScotApp_1147,Güvenlik Tartısı Hatası
+ScotApp_1578,Toplam Değer:
+ScotApp_1022,Bandı Atla
+ScotApp_98,98unused
+ScotApp_88,88unused
+ScotApp_1003,Zaman sınırlı
+ScotApp_1434,Yaş Sınırlamalı
+ScotApp_1356,Al
+ScotApp_1212,DİĞER
+ScotApp_1455,Geçersiz Numara
+ScotApp_1713,"Askıya Almayı İptal Etmek için ""Onayla"" ya bas"
+ScotApp_1565,%s için Yükleme Değeri Gir
+ScotApp_194,Aygıt Yöneticisi yükleniyor...
+ScotApp_1275,USERDEFINED17
+ScotApp_1146,Alıcı cevap vermiyor.
+ScotApp_1303,Müşteri kartı kabul edildi: #%s
+ScotApp_70,70unused
+ScotApp_60,Yardım İste
+ScotApp_50,50unused
+ScotApp_40,Mağaza Yetkisi
+ScotApp_30,İptal Edilen Ürünler
+ScotApp_20,20unused
+ScotApp_10,10unused
+ScotApp_1779,Kuponu iptal edilmeden ürün iptal edilemiyor. Önce ürün kuponunu iptal edin.
+ScotApp_1211,VARSAYILAN
+ScotApp_90,90unused
+ScotApp_80,80unused
+ScotApp_663,PIN Girişi Hatası
+ScotApp_463,Uzaktan Onay sonlandırılıyor...
+ScotApp_363,\nOperatör şifresini girmek için tuş takımını kullanın.
+ScotApp_163,163unused
+ScotApp_1420,\n%s ürünü iptal edilsin mi?
+ScotApp_1145,Madeni Para Alıcısı Hatası
+ScotApp_963,Talebi İptal Et
+ScotApp_863,Kupon Değeri Girişi
+ScotApp_1816,Madeni paralar sikismis veya kapi açik.
+ScotApp_1637,Cable Problem
+ScotApp_742,742unused
+ScotApp_642,Ürün eklendi. Sonraki ürünü taratın.
+ScotApp_542,Operatör barkodu oluşturulamıyor.
+ScotApp_342,Tanımı Yazın
+ScotApp_242,Kart okuyucuda kart sıkışması
+ScotApp_142,Tutarı Onayla
+ScotApp_1210,SON GÖRÜNTÜLEME
+ScotApp_942,942unused
+ScotApp_842,842unused
+ScotApp_1044,Operatör Yardımlı Ödeme
+ScotApp_1427,Ürün miktarı değiştir: \n%s
+ScotApp_721,721unused
+ScotApp_621,Varsayılan
+ScotApp_1341,Ses Kontrolü
+ScotApp_421,"Ürünlerinizi taratın veya başlamak için ""Başlat"" a basın."
+ScotApp_321,İşlem Doğrulama
+ScotApp_221,Yazıcı kabin kapısını kapatın ve kilitleyin.
+ScotApp_121,bu çıkış noktasından çıkartın.
+ScotApp_1636,Bozuk Para Dönüştürücü Hatası
+ScotApp_921,Güvenlik tartısında beklenen ağırlık.
+ScotApp_821,821unused
+ScotApp_600,Güvenlik Bakımı
+ScotApp_500,500unused
+ScotApp_400,400unused
+ScotApp_1368,SigCap
+ScotApp_200,İşlem Brokeri test ediliyor...
+ScotApp_100,Gerekli Miktar
+ScotApp_1076,Dikkat
+ScotApp_1623,Transfer Notes to Cassette for Pickup
+ScotApp_1340,Tüm Sistemi Kapat
+ScotApp_1108,%s\t%s\t%s @ %s %s/%s\t%s
+ScotApp_1814,Hazne kutusu yerinden çikmis veya tam yerlesmemis.
+ScotApp_1758,Kupon Haznesi Hatası
+ScotApp_1635,"Check cable to Note Recycler and Retry.   If error recurs, call for service.\n\nSafePay Error: %s"
+ScotApp_1557,Verici Toplama
+ScotApp_734,734unused
+ScotApp_634,634unused
+ScotApp_534,Zaman Kısıtlamalı Ürünler
+ScotApp_1413,Lütfen işleminizi sonraki # dakika içinde bitirin. Birazdan güç kesintisi yaşanabilir.
+ScotApp_334,Kart okuyucusu kart yok hatası
+ScotApp_234,Fatura kasetini çıkarın.\n\nFaturaları kasetten çıkarın.\n\n Kaseti yerine oturuncaya kadar tekrar takın.\n\nMandalın kaseti yerinde tuttuğundan emin olmak için kaset kolunu çekin.
+ScotApp_1569,Değer
+ScotApp_1801,Çalışma Modu
+ScotApp_934,Ağırlık Artışı
+ScotApp_1622,Kaset
+ScotApp_768,Onayı Askıya Al
+ScotApp_668,İmza Yazdırma Başarılı.
+ScotApp_1347,Yeniden bağlanmaya çalışıyor
+ScotApp_1778,Güvenliği Kaldır
+ScotApp_168,Kuponlarınızı taratın ve satın alma işleminizin sonuna kadar kenara koyun.
+ScotApp_1203,KABUL EDİLMİŞ BELGE
+ScotApp_1634,Cable Problem
+ScotApp_1556,Alıcı Toplama
+ScotApp_1412,Yardım Fonksiyonları
+ScotApp_1783,GÜVENLİK KAPAĞI AÇIK
+ScotApp_1232,ONAYLANMIŞ İMZA
+ScotApp_1568,Genel Toplam: %s
+ScotApp_1800,Çalışma Modunu Seçin
+ScotApp_1495,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1621,Unlock Note Cassette
+ScotApp_1346,Kasa çevrimdışı ve sistem tekrar bağlanmaya çalışıyor.
+ScotApp_72,72unused
+ScotApp_62,Evet
+ScotApp_52,Kuponları İptal Et
+ScotApp_42,İptal Edilen Ürünler
+ScotApp_32,Devam Et
+ScotApp_12,  Mikt. %d @ %s/her biri için
+ScotApp_1411,Miktar Değiştir
+ScotApp_92,Hoş geldiniz!
+ScotApp_82,82unused
+ScotApp_1807,_ _ _
+ScotApp_1089,Rapor Periyodunu Sonlandır
+ScotApp_1620,Unlock Note Cover
+ScotApp_1345,Güvenlik Yöneticisi sonlandırılıyor...
+ScotApp_1819,Madeni Para Geri Dönüstürücüsü Alici Hatalari
+ScotApp_762,762unused
+ScotApp_662,%
+ScotApp_1554,Alıcı
+ScotApp_462,Uzaktan Onay yüklendi.
+ScotApp_362,Şifre Gir
+ScotApp_262,262unused
+ScotApp_162,Ürün ve kuponlarınızı taratın.
+ScotApp_1410,Fiyat Değiştir
+ScotApp_962,"İptal edilen ürünü kasadan alın, sonra ""İptali Onayla"" ya basın."
+ScotApp_862,Kupon Değeri Girişi:
+ScotApp_1806,"\n* İşlemi sonlandırmak için ""Yalnızca Kartlar"" üzerine basın ve para üstünü elle müşteriye verin."
+ScotApp_1088,1088unused
+ScotApp_1627,Bozuk/Kağıt Para Dönüştürücü Hatası
+ScotApp_741,741unused
+ScotApp_641, Ort.Ağr.   Approved    Tally     Topl.Tür     Topl.Değer    Date
+ScotApp_541,Yazıcı Operatörü Barkodu Tara
+ScotApp_441,Tutarı Onayla
+ScotApp_341,341unused
+ScotApp_241,Beklenmeyen Aygıt Yöneticisi Hatası
+ScotApp_141,Kart Türünü Seç
+ScotApp_941,İptal Edilmiş Ürün
+ScotApp_841,Ürün Girişi
+ScotApp_1873,1873unused
+ScotApp_25,Doğum tarihi:
+ScotApp_720,720unused
+ScotApp_520,Bilinmeyen Ürün Kodu
+ScotApp_420,420unused
+ScotApp_320,Geri Git
+ScotApp_220,* Yazıcı kabin kapağını açın.\n* Sıkışma olup olmadığını kontrol etmek için yazıcı kapağını açın.\n*Yazıcıya yeni kağıt rulosu takın.\n*Yazıcı kabin kapısını kapatın ve kilitleyin.
+ScotApp_120,İşlem iptal edildi. Ürünleri
+ScotApp_1626,Insert cash to replenish or select other function.
+ScotApp_1423,Portatif Tarayıcı bağlanmaya çalışıyor.
+ScotApp_920,Onayla/Güncelleme Yok.
+ScotApp_820,İptal Etmeyi Onayla
+ScotApp_1757,"Aksan eklemek için ekranın alt kısmında bulunan bir ""Aksan"" düğmesine basın ve harfi girin."
+ScotApp_1872,1872unused
+ScotApp_754,Geçmiş 7 Günün Özeti
+ScotApp_554,Yükleme kartlarını bu sefer kullanmayın.
+ScotApp_1613,İade Haznesi
+ScotApp_354,Sistem Fonksiyonları
+ScotApp_254,Madeni para vericisi  çalışmıyor.\nMadeni para vericisini doldurun veya \nVericiyi çalıştırın veya \nSıkışmayı giderin.
+ScotApp_154,Yükleniyor...
+ScotApp_1769,Kodu Gir
+ScotApp_1240,NAKİT
+ScotApp_954,Akıllı Tartı Açma Başarısız
+ScotApp_854,Beş Ürün
+ScotApp_1547,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1403,NCR SelfServ Checkout programını kapatıp yeniden başlatın. Hata devam ederse yardım masasıyla bağlantı kurun.
+ScotApp_545,İzne Tabi Ürün
+ScotApp_1559,Çık
+ScotApp_1871,%s %s gözlenen
+ScotApp_1612,Kart Yönetimi
+ScotApp_1550,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_845,Ek Ürünleri Tarat:
+ScotApp_1564,%s için Yükleme Sayısı Gir
+ScotApp_1768,Desteklenmeyen ağırlık birimi.
+ScotApp_1272,USERDEFINED14
+ScotApp_1546,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_74,İptalleri Onayla
+ScotApp_64,Seçilen Ürünü İptal Et
+ScotApp_54,İptal Et
+ScotApp_44,44unused
+ScotApp_34,34unused
+ScotApp_1558,Çık ve Kaydet
+ScotApp_14,14unused
+ScotApp_1870,%s %s beklenen
+ScotApp_1389,Elektronik İmza Alma Aygıtı Hatası
+ScotApp_1611,     İade Haznesi Dolu
+ScotApp_94,94unused
+ScotApp_84,Yükleme Seçenekleri
+ScotApp_1289,B - C
+ScotApp_687,Rapor Yazdır
+ScotApp_587,İmza
+ScotApp_487,Aşağı
+ScotApp_387,Taşımada sıkışma
+ScotApp_287,Tarayıcı: Geçersiz etiket
+ScotApp_1545,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1336,Yardımcı Program
+ScotApp_987,Ürün banttan kaldırıldı. Ürünü iade edin.
+ScotApp_887,Ürün Kaldırıldı
+ScotApp_555,Diğer Ödeme
+ScotApp_1610,     İade Haznesi seviyesi Doluya Yakın (%s)
+ScotApp_1041,İmzayı Onayla
+ScotApp_1691,Nakit Yönetimi 
+ScotApp_1809,Madeni Para Geri Dönüstürücüsü Verici Hatalari
+ScotApp_1288,A
+ScotApp_761,761unused
+ScotApp_1193,DOĞRULANMIŞ KİMLİK
+ScotApp_561,Kuponu Kenara Koy
+ScotApp_461,Uzaktan Onay yükleniyor...
+ScotApp_361,Kasa Kapatıldı
+ScotApp_261,261unused
+ScotApp_961,"Ağırlık Öğrenme Veri Tabanı hatası: Hatalar için Olay Görüntüleyicisini Kontrol Edin, sonra ""Sorunu çözdüm"" e basın."
+ScotApp_861,861unused
+ScotApp_1876,%s %s gözlenen
+ScotApp_740,740unused
+ScotApp_640,Mevcut WLDB Ağırlık Girişleri
+ScotApp_540,540unused
+ScotApp_340,Ürünü listeden seçin. Aşağı yukarı kaydırmak için ok tuşlarını kullanın.
+ScotApp_240,Genel Aygıt Yöneticisi arızası
+ScotApp_140,Teşekkürler
+ScotApp_1105,e=d=0.005kg Max 13.995kg min 0.1kg Nmax 2799
+ScotApp_1192,TOPLAMA ÜCRETİ
+ScotApp_940,İptal Etme
+ScotApp_840,Ürün Girişi:
+ScotApp_1863,"""Onayla"" veya ""Geçerli Ürün"" e bas"
+ScotApp_1463,Değerde Değişiklik
+ScotApp_1875,%s %s beklenen
+ScotApp_774,Kazanılan Puanlar:
+ScotApp_674,"""Ödeme reddetme sebebi:"""
+ScotApp_780,780unused
+ScotApp_474,474unused
+ScotApp_374,Yazıcı mürekkep kartuşu hatası
+ScotApp_174,Taranan ürün bulunamıyor. Ürün henüz satın alınmamış veya önceden iptal edilmiş.
+ScotApp_1029,Kuponu Yerleştirin
+ScotApp_974,974unused
+ScotApp_1679,Note Library Error
+ScotApp_1747,Parmak izi okuyucusu hatası
+ScotApp_1862,Ürünü tarayıcı tartısında onayla.
+ScotApp_1603,     Kart Vericisi Haznesi seviyesi normal.
+ScotApp_1419,Çoklu Paket
+ScotApp_1759,Kupon Haznesi Dolu
+ScotApp_649,Fiyatı Yazılı
+ScotApp_1039,Önceki ürünlerin EAS etiket(ler)i var.
+ScotApp_849,Gerekli Miktar
+ScotApp_765,765unused
+ScotApp_565,Mağaza Oturum Açma
+ScotApp_1549,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1861,SEÇME LİSTESİ
+ScotApp_1731,PL Görüntüleri Yükleniyor
+ScotApp_76,76unused
+ScotApp_66,66unused
+ScotApp_56,Ödemeyi İptal Et
+ScotApp_46,Yardım
+ScotApp_36,Geri Ödenen:
+ScotApp_26,26unused
+ScotApp_16,%s kartınıza ücretlendirilecek.
+ScotApp_719,719unused
+ScotApp_619,Mevcut toleransı düzenlemek için <Toleransı Tuşla> veya <Varsayılan> ı seçin.
+ScotApp_519,Kupon Çok Yüksek
+ScotApp_419,419unused
+ScotApp_319,Kartla ödeyin
+ScotApp_219,219unused
+ScotApp_119,Tüm Ürünleri İptal Et
+ScotApp_96,96unused
+ScotApp_86,86unused
+ScotApp_1755,Listeden Seç
+ScotApp_1038,İmzayı Doğrula
+ScotApp_919,"Ürün ağırlığını onaylayın ve ""Ağırlığı Onayla ve Güncelle"" ye veya  ""Onayla/Güncelleme Yok"" a basın."
+ScotApp_1489,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1745,Parmak izi cihazı bağlantısı kesildi.\n\n Lütfen tekrar deneyin.
+ScotApp_1860,Seçme listesinden yardımlı ürünleri seçin veya alfabetik olarak arayın.
+ScotApp_1268,USERDEFINED10
+ScotApp_1008,1008unused
+ScotApp_786,Kasada Askıya Alındı
+ScotApp_686,Dün
+ScotApp_586,Kuponlar: %0.0ld/$%0.2lf
+ScotApp_486,Yukarı
+ScotApp_386,Kaset Çıkarıldı
+ScotApp_286,Tarayıcı: Geçersiz etiket öneki2
+ScotApp_186,186unused
+ScotApp_1488,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_986,986unused
+ScotApp_886,"Ürünleri paketleme alanına geri götürün veya ""Ürün Kaldırıldı"" ya basın."
+ScotApp_1393,NCR SelfServ Checkout programını kapatıp yeniden başlatın. Hata devam ederse yardım masasıyla bağlantı kurun.
+ScotApp_1867,Kamera Görüşü Engelleniyor
+ScotApp_68,68unused
+ScotApp_38,38unused
+ScotApp_28,Satın Almayı İptal Et
+ScotApp_1024,1024unused
+ScotApp_760,Kartınızı bu monitörün yan tarafına yerleştirin.
+ScotApp_660,Tüm para seviyeleri normal
+ScotApp_460,Bu işlem satın alma işleminizi tamamlayacak.
+ScotApp_360,Kasayı Kapat
+ScotApp_260,260unused
+ScotApp_1392,Tri-Light Hatası
+ScotApp_960,"Paket Tartısı hatası: Hatalar için Paket Tartısını veya Olay Görüntüleyicisini kontrol edin ve ""Sorunu çözdüm"" e basın. "
+ScotApp_860,Gereken Ölçü:
+ScotApp_1866,Diğer Popüler Ürünler
+ScotApp_1459,Nakit Yönetimi Raporu
+ScotApp_1239,HİÇBİRİ
+ScotApp_1301,Seçim Listesini Düzenle
+ScotApp_1749,Parmak İzi İşleniyor
+ScotApp_1017,Bant üzerinde biriken ürünleri kaldırın.
+ScotApp_1771,Kupon Değer Limiti
+ScotApp_739,739unused
+ScotApp_639,BeklenenAğrl.   Ağrl.Karşılaştırma
+ScotApp_539,539unused
+ScotApp_439,439unused
+ScotApp_339,339unused
+ScotApp_239,Beklenmeyen Aygıt Yöneticisi Durumu
+ScotApp_1092,Rapor İçeriği
+ScotApp_1851,Onaylama
+ScotApp_1238,DİĞER ÖDEME
+ScotApp_939,Süre doldu
+ScotApp_839,Eylemi İptal Et
+ScotApp_1333,Geri Tuşu
+ScotApp_24,İptal Edilmiş
+ScotApp_1016,Bant üzerinde Biriken Ürünler
+ScotApp_1615,Boşaltmak için Verici Haznesi Toplama düğmesine basın
+ScotApp_1723,Eğitim İşl
+ScotApp_1028,Kupon Eşiği Aşıldı
+ScotApp_1435,Madeni Para/Fatura Vericisi Hatası
+ScotApp_1698,"""Durum Düzeltildi"" ye Basın."
+ScotApp_1688,Cassette Error
+ScotApp_454,454unused
+ScotApp_1593,Madeni Paraları Çıkarın
+ScotApp_1642,Kağıt Para Dönüştürücü Hatası
+ScotApp_1015,Biriken Ürünler
+ScotApp_785,785unused
+ScotApp_685,Saatlik
+ScotApp_585,585unused
+ScotApp_536,Madeni Para Alıcısı
+ScotApp_385,385unused
+ScotApp_285,Tarayıcı: Geçersiz etiket soneki
+ScotApp_185,Müşterinin imzasını karttaki imzayla karşılaştır.
+ScotApp_1224,FİYAT GEREKİYOR
+ScotApp_985,Ürünü banda yerleştirin.
+ScotApp_885,Paketleme Uyarısı
+ScotApp_575,Nakit Ödemeyi Sonlandır. Kalan Bakiye.
+ScotApp_475,İşlemi Askıya Alma
+ScotApp_375,Yazıcı zaman aşımı
+ScotApp_1002,Satış Yok
+ScotApp_1888,"Güvenlik için müşteri işlemini gözden geçirin ve ""Güvenliği Onayla"" ya  basın."
+ScotApp_910,910unused
+ScotApp_1592,Kutudan sıkışan madeni paraları çıkarın. Kutuyu eğin. Madeni para çıkacak duruma gelene kadar vidayı sağa çevirin. Aşırı güç kullanmayın.
+ScotApp_875,Satın Almayı İptal Etmek İçin Baş Kasiyer Kimliği
+ScotApp_1014,Biriken ürünleri banttan kaldırın.
+ScotApp_1572,Madeni Para Yönetimi ekranındaki değişiklikleri yok saymak istediğinizden emin misiniz?
+ScotApp_1790,Yalnızca Kredi / Borç
+ScotApp_1344,Güvenlik Yöneticisi yüklendi.
+ScotApp_798,798unused
+ScotApp_698,698unused
+ScotApp_598,%d Formu yüklenemedi.
+ScotApp_498,Ödenen Tutar:
+ScotApp_398,Kaset Yerleştirildi
+ScotApp_298,298unused
+ScotApp_198,Kullanıcı Çıkışları yükleniyor...
+ScotApp_998,Miktar
+ScotApp_898,AĞRBİLG sonlandırılıyor...
+ScotApp_1416,Çoklu paket kontrolü yap
+ScotApp_1431,Tümünü İptal Et
+ScotApp_1236,Rapor oluşturuluyor...
+ScotApp_1770,Arama sonuçlarından seç.
+ScotApp_1000,Bulunamadı
+ScotApp_1439,"""Poşet/kutu"" eşiği aşıldı"
+ScotApp_1217,İPTAL
+ScotApp_759,Kartınızı ödeme aygıtına yerleştirin.
+ScotApp_659,Para Seviyesinde Düşme:
+ScotApp_559,Kupon Yok
+ScotApp_459,Bu satın alma işlemi için bakiyeniz kalacak.
+ScotApp_359,Sistem Fonksiyonları
+ScotApp_259,Aygıt Yöneticisi sonlandırılıyor...
+ScotApp_1007,Yardım Talep Edildi
+ScotApp_1438,"""Yeni Ürün"" eşiği aşıldı"
+ScotApp_959,Ağırlık Öğrenme Veri Tabanı
+ScotApp_859,Hayır
+ScotApp_1216,GÜVENLİK
+ScotApp_1373,HEDİYE KARTINIZI ALIN
+ScotApp_1005,Görsel Doğrulama
+ScotApp_1655,Dprtmn Satışı
+ScotApp_1228,ASKIYA ALINMIŞ
+ScotApp_1725,Güvenlik Kapatıldı
+ScotApp_1006,Diğer Ödeme
+ScotApp_496,Miktar Sınırı
+ScotApp_1018,Minimum yaş:
+ScotApp_1160,"Kablonun PinPad’e bağlı olup olmadığını kontrol edin.\n\nKablo düzgün şekilde takılmışsa, ""Sorunu çözdüm"" e basın.\n\nHata devam ederse, terminali kapatın ve yeniden başlatın"
+ScotApp_1073,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;DATANEEDEDTYPE=%d;
+ScotApp_1424,"Portatif Tarayıcınızın bağlantısını yapmak için ""Bağlan""a basın."
+ScotApp_1202,KAPALI KASA
+ScotApp_679,Yardım Raporları
+ScotApp_1792,Yalnızca Kartlar
+ScotApp_1214,FİŞ
+ScotApp_1804,Yalnızca Kart Modundan çık
+ScotApp_879,879unused
+ScotApp_1072,Bilgi Gerekiyor
+ScotApp_1631,Kağıt Para Onaylayıcı Hatası
+ScotApp_1148,Güvenlik Tartısı bileşenleri hatası
+ScotApp_1244,BORÇ İNDİRİMLERİ
+ScotApp_1004,Ürünü Onayla
+ScotApp_1282,... için fiyat gerekiyor
+ScotApp_1071,1071unused
+ScotApp_1276,USERDEFINED18
+ScotApp_1200,FİYAT SORGULAMA
+ScotApp_1639,Bozuk Para Dönüştürücü Hatası
+ScotApp_1828,\n    - Ses Düzeyi %d%%
+ScotApp_1308,PIN Girildi
+ScotApp_1417,"Eğer ürün çoklu paketse, ""Yardım Modu"" na basın ve iptal edin sonra çoklu paket barkodunu taratın."
+ScotApp_1343,Güvenlik Yöneticisi yükleniyor...
+ScotApp_779,779unused
+ScotApp_1429,<<<Düşük madeni para miktarı. Lütfen yeniden doldurun.>>>
+ScotApp_579,579unused
+ScotApp_479,Kuponları teslim edin
+ScotApp_379,Nakit Alıcısı
+ScotApp_279,Kaydedilen tüm güvenlik konularını onaylayın.
+ScotApp_179,179unused
+ScotApp_1865,Ürün Ara\n Ağırlıksız
+ScotApp_1207,DOĞRULANMIŞ İMZA
+ScotApp_1638,Bozuk Para Dönüştürücü kablosunu kontrol edip tekrar deneyin. Hata tekrarlanırsa servisi arayın.\n\nSafePay Error: %s
+ScotApp_979,Eşik = %d müşteri talepleri
+ScotApp_707,Geçmiş 7 Gün
+ScotApp_607,Paketleme Uygulamasını Ayarla
+ScotApp_507,Ürünleri Gözle Onayla
+ScotApp_307,Diğer ambalaj
+ScotApp_207,207unused
+ScotApp_107,Yardım Geliyor
+ScotApp_1219,YAŞ KISITLAMALI
+ScotApp_907,907unused
+ScotApp_807,Güvenlik Etiketlerini Çıkar
+ScotApp_1077,Ürünleri banda iade et
+ScotApp_1428,Ürün fiyatı değiştir: \n%s
+ScotApp_1695,Daha Sonra Onar
+ScotApp_1206,ALARMI ÇIKARILMAMIŞ ÜRÜN
+ScotApp_1218,TOPLAMA
+ScotApp_1782,İŞLEMİ  AM’DE BAŞLAT
+ScotApp_1273,USERDEFINED15
+ScotApp_1624,Transfer All Notes to Cassette
+ScotApp_793,793unused
+ScotApp_1059,1059unused
+ScotApp_593,NCR SelfServ Checkout SigCap yükleniyor...
+ScotApp_493,Fişiniz ödeme aygıtının alt kısmından yazdırılacak.
+ScotApp_393,Günlük Yazıcısı
+ScotApp_293,Yardım iste
+ScotApp_1205,PAKETLEME ALANI BİRİKME
+ScotApp_993,Kasa Kapatıldı
+ScotApp_893,DBM yükleniyor...
+ScotApp_1063,1063unused
+ScotApp_1414,Güç yeniden yüklenene kadar bu kasa kullanılamaz.
+ScotApp_1182,KUPON TUTARI LİMİTİ
+ScotApp_1201,YARDIMLI ÖDEME
+ScotApp_1075,Bandı Sınırla/Atla
+ScotApp_1348,Kasa Kapatıldı
+ScotApp_1671,Open Note Recycler unit and remove notes from the cassette. Close recycler unit.\nDispense coins from hopper and remove from change cup.
+ScotApp_1204,BELGE NUMARASI
+ScotApp_1284,1284unused
+ScotApp_1062,1062unused
+ScotApp_1233,DİĞER ÖDEME
+ScotApp_27,27unused
+ScotApp_1074,Bant atlama onayı.
+ScotApp_1472,Nakit Geri Dönüştürücü Hazır Değil
+ScotApp_1026,İşl. İptal Et
+ScotApp_1061,1061unused
+ScotApp_1617,Girilen miktar kapasitenin üstünde. Verici Haznesi için yükleme sayısını tekrar girin. Maksimum kapasite %d’dir.
+ScotApp_1050,1050unused
+ScotApp_744,744unused
+ScotApp_1591,Madeni para vericisinin kablo bağlantılarını kontrol edin.
+ScotApp_1130,Fatura Alıcısı Hatası
+ScotApp_1270,USERDEFINED12
+ScotApp_1629,CPU ayarları veya Sistem verisi ayarlarında hata. Lütfen servisi arayın.\n\nSafePay Error: %s
+ScotApp_1820,"Ürünü tartıdan kaldırın ve tarayıcıda "">0<"" tuşuna basın."
+ScotApp_882,Askıya Almayı Onaylayın.
+ScotApp_1440,Fatura Yönetimi
+ScotApp_1407,YENİDEN YÜKLE
+ScotApp_727,727unused
+ScotApp_627,İşlem #:
+ScotApp_527,527unused
+ScotApp_427,Malzeme az
+ScotApp_327,"Cihaz kapalı, bağlantıları ve/veya olay günlüğünü kontrol edin:"
+ScotApp_227,Kart okuyucuya yerleştirilen kart geçersiz
+ScotApp_127,127unused
+ScotApp_665,"Devam etmek için ""Hepsini İptal Et"" veya ""Geri""ye basın."
+ScotApp_1060,LÜTFEN BEKLEYİN...
+ScotApp_1616,Verici Haznesi için Yükleme sayısı girin. Yükleyebileceğiniz maksimum miktar %d’dir.
+ScotApp_927,Aygıt Arızası
+ScotApp_827,Ürün barkodunu şablondan geçirin ve paketleme alanına yerleştirin.
+ScotApp_1540,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_900,Ürünü paketleme alanına yerleştirin.
+ScotApp_1277,USERDEFINED19
+ScotApp_865,Kart Sahibini Doğrula
+ScotApp_506,506unused
+ScotApp_406,406unused
+ScotApp_306,Ambalaj yok
+ScotApp_206,Seçenekler yüklenecek.
+ScotApp_106,Yardım Gerekiyor
+ScotApp_1209,HEDİYE KARTI LİMİTİ AŞILDI
+ScotApp_806,Görsel Doğrulama Ürünlerini Onayla
+ScotApp_1067,1067unused
+ScotApp_1418,Maksimum ağırlık sınırı aşıldı.
+ScotApp_1473,"Aygıt hazır değil.\n\nAygıtı açın, Bağlantı kablosunu kontrol edin veya üniteyi kabine geri koyun."
+ScotApp_187,187unused
+ScotApp_1716,BA:
+ScotApp_1190,GİRİLEN KUPON
+ScotApp_1602,     Kart Vericisi Haznesi seviyesi düşük (%s)
+ScotApp_1149,Fiş Yazıcısı Hatası
+ScotApp_1066,1066unused
+ScotApp_1614,Verici Haznesi
+ScotApp_792,792unused
+ScotApp_692,692unused
+ScotApp_592,NCR SelfServ Checkout Şifreleyici yüklendi.
+ScotApp_492,Lütfen para üstünüzü alın.
+ScotApp_392,Bilinmeyen Ürünler
+ScotApp_292,Kupon taranamıyor
+ScotApp_192,192unused
+ScotApp_1241,KREDİ
+ScotApp_1197,İPTAL EDİLMİŞ İŞLEM
+ScotApp_1548,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_992,Doğum Tarihini Gir
+ScotApp_892,Akıllı Tartı sonlandırılıyor...
+ScotApp_1053,Kasiyerin imzalanmak üzere slip kağıdını getirmesini bekleyin.
+ScotApp_1404,"POS sunucusu çalışmıyor veya senkronsuz, lütfen düğmeyi kullanarak terminali kapatın."
+ScotApp_1245,BORÇ KONTROLÜ
+ScotApp_1262,USERDEFINED4
+ScotApp_1471,Madeni Para Geri Dönüştürücü Hatası
+ScotApp_1196,SÜRÜCÜ BELGESİ NUMARASI
+ScotApp_1052,1052unused
+ScotApp_1600,Kart Vericisi Durumu
+ScotApp_1663,kutu boş veya sıkışma var
+ScotApp_1261,USERDEFINED3
+ScotApp_1125,"Madeni para deposunun üst kısmındaki tüm madeni para kanallarını yeniden doldurun.\n\nMağaza Moduna geçin, ""Nakit / Kağıt Durumu"" nu seçin ve ""Madeni Para Vericisi Dolduruldu"" düğmesine basın."
+ScotApp_1183,FİYAT SORGULAMA
+ScotApp_1470,Fatura Geri Dönüştürücü Hatası
+ScotApp_1195,CSA ASKIYA ALINDI
+ScotApp_1229,YARDIM İSTENDİ
+ScotApp_1051,Slip Kağıdı Onayı
+ScotApp_1607,     İade Haznesi seviyesi normal (%s)
+ScotApp_1895,Genr Excp
+ScotApp_747,747unused
+ScotApp_647,H
+ScotApp_447,Daimi müşteri hesabınız etkinleştirildi.
+ScotApp_347,İzne tabi ürün iptal edildi - yaş sınırı uymadı. Lütfen ürünü kenara koyun.
+ScotApp_247,247unused
+ScotApp_147,147unused
+ScotApp_1260,USERDEFINED2
+ScotApp_1619,Askiya Al
+ScotApp_769,Askıya almayı onaylayın veya iptal edin.
+ScotApp_947,Yeni Ürün Ağırlığı
+ScotApp_847,Tarama Sona Erdi
+ScotApp_1477,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_726,726unused
+ScotApp_626,Tolerans:
+ScotApp_526,\nPIN numarası hatalı girildi.\nFarklı bir kart yerleştirin\n -veya-\nNakit ödeyin
+ScotApp_426,Kasa ##:
+ScotApp_326,Doğum tarihi izne tabi ürün yaş sınırıyla uyuşmuyor.
+ScotApp_226,Kart okuma aygıtı çalışmıyor
+ScotApp_126,(mmddyy).
+ScotApp_1606,     İade Haznesi seviyesi normal
+ScotApp_926,Ürünler paketleme alanına iade edilmedi.
+ScotApp_826,Paketlemeyi Atla
+ScotApp_1267,USERDEFINED9
+ScotApp_1618,Bir banknot vericisi kaseti çıkmış veya tam yerleştirilmemiş.\n\nYerine oturana kadar kaseti itin veya yeniden yerleştirin.
+ScotApp_1181,KUPON EŞİĞİ AŞILDI
+ScotApp_205,Kopyalama tamamlandı.
+ScotApp_105,Bilinmeyen Ürün
+ScotApp_1476,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1730,Ara
+ScotApp_1390,Aygıt cevap vermiyor
+ScotApp_805,Ürünleri Onayla
+ScotApp_1864,Kasaya git
+ScotApp_1408,YARDIM
+ScotApp_1266,USERDEFINED8
+ScotApp_1180,FİYAT UYUŞMAZLIĞI
+ScotApp_1208,YARDIM MODUNDA SATILMIŞ
+ScotApp_1475,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1397,Görevli
+ScotApp_1748,Parmak İziyle Giriş Başarısız
+ScotApp_718,718unused
+ScotApp_618,Ağırlık Toleransı
+ScotApp_518,Nakit yerleştirin.
+ScotApp_1253,PIP MÜŞTERİ KARTI
+ScotApp_1604,     Kart Vericisi Haznesi seviyesi normal (%s)
+ScotApp_218,Yazıcının kağıdı bitmek üzere
+ScotApp_118,Onaylamanız Gerekiyor
+ScotApp_552,Operatör Kimliği ve Şifre sıfır ile başlayamaz.
+ScotApp_791,Ödeme Türü Seç
+ScotApp_691,691unused
+ScotApp_591,NCR SelfServ Checkout Şifreleyici yükleniyor...
+ScotApp_391,Fiyatı Gereken Ürünler
+ScotApp_918,Ürün ağırlığı kaydı yok.
+ScotApp_1187,AYGIT HATASI
+ScotApp_991,Yaş Kontrolü
+ScotApp_891,Akıllı Tartı yüklendi.
+ScotApp_1474,Donanım Hatası. Hata kodu E%d
+ScotApp_1396,Görevli Modundan Çık
+ScotApp_1252,PIP BORCU İADESİ
+ScotApp_1732,PL Görüntüleri Yüklendi
+ScotApp_1461,Madeni paralar
+ScotApp_1166,* Yazıcı kabin kapısını açın.\n* Yazıcı mandalını açıp yazıcıyı geri itin.\n* Sıkışma olup olmadığını kontrol etmek için yazıcı kapağını açın.\n* Yazıcı kapağını kapatın ve yeniden kağıt yerleştirin.\n* Yerine oturana kadar yazıcıyı dikkatlice öne doğru çekin.
+ScotApp_1186,BEKLENMEYEN DÜŞÜŞ
+ScotApp_1857,  Bantın üzerine koymayın.
+ScotApp_1829,Onayla
+ScotApp_1670,Bozuk/Kağıt Para Dönüştürücü Hatası
+ScotApp_1198,GİRİLEN HESAP NUMARASI
+ScotApp_1869,Eliniz Görüş Alanında
+ScotApp_1251,PIP BORCU
+ScotApp_1855,Opsiyonel
+ScotApp_767,Malzeme Seviyesi Normal
+ScotApp_667,Kart girildi. Ürün ve kuponlarınızı taratın.
+ScotApp_567,Giriş
+ScotApp_467,467unused
+ScotApp_367,367unused
+ScotApp_267,Güvenlik
+ScotApp_1460,Faturalar
+ScotApp_1185,PAKET KUTU EŞİĞİ AŞILDI
+ScotApp_1009,Mağaza Modu
+ScotApp_867,Hayır
+ScotApp_1856,  Paketlemeyin
+ScotApp_1677,Check that the Coin Recycler door is closed.
+ScotApp_746,746unused
+ScotApp_646,E
+ScotApp_1394,Dijital Arayüz Hatası
+ScotApp_446,İşlemi Askıya Al
+ScotApp_346,ATM (Para İadesi)
+ScotApp_246,246unused
+ScotApp_146,Lütfen ödeme türünüzü seçin.
+ScotApp_1501,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1609,     İade Haznesi seviyesi Doluya Yakın
+ScotApp_1194,YETKİ NUMARASI
+ScotApp_946,Poşet/Kutu onayı
+ScotApp_846,"Ürünleri taratın veya ""Tarama Bitti"" ye basın."
+ScotApp_1843,Poşetim
+ScotApp_1467,"Nakit boşaltmak için ""Nakit / Kağıt Durumu"" ekranını kullanın."
+ScotApp_725,725unused
+ScotApp_625,<%s> ile <%s> arasında bir ağırlık toleransı girin.
+ScotApp_1381,İşlem gerçekleştiriliyor...
+ScotApp_425,425unused
+ScotApp_325,Girilen tarih geçersiz
+ScotApp_225,Kart okuyucu toplama kutusu yerleştirildi
+ScotApp_1676,Coin Recycler Door Open
+ScotApp_925,925unused
+ScotApp_825,Ürünü Paketle
+ScotApp_1608,     İade Haznesi boş
+ScotApp_1842,Tam Yardım
+ScotApp_1808,Makbuzdan ürün seçin.
+ScotApp_1466,Nakit Geri Dönüştürücü Durumu Dolu
+ScotApp_1380,fiyat
+ScotApp_1854,Opsiyonel
+ScotApp_1675,Bozuk Para Dönüştürücü Hatası
+ScotApp_1597,Müşteri Kartı
+ScotApp_1350,%s\n%s %s eklendi
+ScotApp_738,738unused
+ScotApp_638,Etkin WLDB toleransı bilgisi
+ScotApp_538,538unused
+ScotApp_338,Ürün tanımının ilk üç harfini girin.
+ScotApp_238,\nNakit alıcısı yerleştiren nakdi kaydedemedi.\n\nFatura kasetini kontrol edin.
+ScotApp_138,Kartı Al
+ScotApp_1170,* Yazıcı kapağını açın ve gösterilen alanda kağıt sıkışması olup olmadığını kontrol edin. \n* Kağıdı çıkarın.\n* Yazıcı kapağını kapatın ve tekrar kağıt yükleyin.\n* Starta om terminalen om felet kvarstår.
+ScotApp_1841,Onay için lütfen Kasaya gidin.
+ScotApp_1740,Çantayı Onayla
+ScotApp_938,938unused
+ScotApp_838,Müşteri Anlaşması
+ScotApp_1133,Fatura alıcısında sıkışma.
+ScotApp_1387,"Düzeltilemez Yazılım Hatası Oluştu.\nTerminali Yeniden Başlatın.\n\nTerminali Yeniden Başlatmak İçin:\n* Yönetici kilidini ""S"" e getirin -VEYA- Yönetici düğmesine basın.\n* Tüm Sistemi Yeniden Yükle’yi seçin.\n* Destek Birimini arayın ve hata hakkında bilgi verin."
+ScotApp_1674,"Press reject button to release jammed coins.  If error recurs, a coin jam may be present. Open coin cover and secure.  Remove any jammed coins.  Press reject button to reset.  Release and close coin cover."
+ScotApp_1650,(ggaayy)
+ScotApp_690,690unused
+ScotApp_590,Aygıt Merkezi sonlandırılıyor...
+ScotApp_490,"Ürünlerinizi taratın veya başlamak için ""Başlat"" a basın."
+ScotApp_390,Piyasadan Çekilmiş Ürünler
+ScotApp_290,290unused
+ScotApp_190,İşlem Brokeri yükleniyor...
+ScotApp_990,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_890,Akıllı Tartı yükleniyor...
+ScotApp_1772,Kupon
+ScotApp_1661,"Fiş yazdırılamıyor. Yeniden denemek için ""Diğer Fişler""e basın. "
+ScotApp_1132,İletişim hatası.
+ScotApp_1386,Düzeltilemez Hata
+ScotApp_784,Fatura vericisi çalışmıyor\n* Fatura vericisini doldurun veya\n* Vericideki sıkışmayı giderin veya\n*Temizlik kutusunu ayarlayın.
+ScotApp_684,Bugün
+ScotApp_584,EBT Reddedildi.
+ScotApp_484,İmza Gerekiyor
+ScotApp_384,384unused
+ScotApp_284,Tarayıcı: Kayıp veri
+ScotApp_1595,Tercih Edilen Dil
+ScotApp_1451,Kasiyer Kullanıcı Kimliği
+ScotApp_984,Paket Servisi Bandı yüklendi.
+ScotApp_884,Askıya Almayı İptal Et
+ScotApp_1847,"Ürün eklendi. Bir sonraki ürünü taratın veya ""Kodu Tuşla"" a basın."
+ScotApp_1660,Yazdırma seçeneğini işaretle
+ScotApp_1131,Fatura kaseti çıkmış veya uygun biçimde yerleştirilmemiş.
+ScotApp_1385,Dil Seçimi
+ScotApp_1436,"""Paketlemeyi Atla"" eşiği aşıldı"
+ScotApp_1049,1049unused
+ScotApp_666,666unused
+ScotApp_1594,Terminali uygun şekilde kapat ve yeniden yükle.
+ScotApp_466,   Bilinmeyen Taranmış Ürün
+ScotApp_366,Yazıcı bıçağında sıkışma
+ScotApp_266,Sec.Agent sonlandırılıyor...
+ScotApp_966,966unused
+ScotApp_1541,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1846,"Ürünü taratın veya ""Kodu Tuşla"" a basın.."
+ScotApp_1667,Kağıt Para Sıkışması
+ScotApp_1689,Kağıt Para Dönüştürücü Hatası
+ScotApp_745,745unused
+ScotApp_645,Taranan ürünü tekrar paketleme alanına yerleştirin.
+ScotApp_1581,Madeni Para Vericisi
+ScotApp_445,Nakit Ödeme
+ScotApp_345,345unused
+ScotApp_245,Kart okuma aygıtı çalışmıyor
+ScotApp_145,145unused
+ScotApp_945,Sınır\Poşet/Kutu
+ScotApp_713,713unused
+ScotApp_613,Ürünü ambalaj tartısına yerleştirin.
+ScotApp_513,513unused
+ScotApp_313,313unused
+ScotApp_213,213unused
+ScotApp_113,Ürünleri İptal Et
+ScotApp_1573,Yeniden yükleme yapmak için Yükleme düğmelerine veya boşaltma yapmak için Alıcı Toplama ve Verici Toplama düğmelerine basın.
+ScotApp_913,Güvenlik tartısında beklenmeyen ürün.
+ScotApp_813,"PK Numarasını ve Mesleğinizi yazın ve ""Giriş"" e basın."
+ScotApp_1666,Kağıt Para Dönüştürücü Hatası
+ScotApp_1137,%s Fatura kaseti yüklenmemiş.
+ScotApp_1580,Fatura Vericisi
+ScotApp_758,758unused
+ScotApp_658,Para seviyesi düşük
+ScotApp_558,Miktar Sınırlı Ürün
+ScotApp_1653,Tutar kapasiteyi aşıyor. Gereken maksimum tutar %s. %s tutarı otomatik olarak girildi.
+ScotApp_358,Yardım Moduna Geri dön
+ScotApp_258,İşlem Komisyoncusu sonlandırılıyor...
+ScotApp_158,Bu ürün mağaza onayı gerektiriyor. Lütfen devam edin.
+ScotApp_1844,Arama
+ScotApp_958,Paket Tartısı
+ScotApp_858,Evet
+ScotApp_1136,Fatura reddetme kutusu çıkmış veya tam olarak oturtulmamış.
+ScotApp_1587,Fatura Yönetimi ekranındaki değişiklikleri yok saymak istediğinizden emin misiniz?
+ScotApp_1531,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1599,%s tercih arama başarısız.
+ScotApp_1652,(yyaagg)
+ScotApp_1123,"* Tüm sıkışmış banknotlar çıkartılana kadar işleme devam ETMEYİN.\n* Banknot vericisini kabinden dikkatlice çıkartın.\n* Kayışları hareket ettirmeden banknot vericisinin üst kısmına sıkışan banknotları çıkartın.\n* Nakit vericisini kabine geri itin.\n* Kapıyı kilitleyin ve ""sorunu çözdüm"" butonuna basın. "
+ScotApp_1342,Yardımcı Program Seç
+ScotApp_1332,Boşluk Tuşu
+ScotApp_1586,%s    %s  %s
+ScotApp_1444,Kaldır
+ScotApp_1598,Tercihleriniz düzenlendi.
+ScotApp_1651,(yyyaagg)
+ScotApp_1122,Fatura vericisi çıkışında fatura sıkışması olabilir.\n\nFatura vericisini kısmi olarak kabinden çıkarın.\n\nGösterilen bölgedeki sıkışan faturaları çıkarın.\nFatura vericisini dikkatli bir şekilde kabine geri itin.
+ScotApp_1331,Üst Karakter Tuşu
+ScotApp_1585,Kutular        Değer     Bozukluk Değeri
+ScotApp_1118,"%s fatura verme sorunu.\n\n%s faturalar, fatura kasetinden çıkartılamadı.\n\n %s kaseti çıkarın ve faturaların durumunu kontrol edin."
+ScotApp_1884,Smart Assist uyarısı
+ScotApp_1191,GEREKEN ÖLÇÜ
+ScotApp_1121,Gösterilen bölgede fatura sıkışması olabilir.\n\nFatura vericisini kısmi olarak kabinden çıkarın.\n\nSıkışan faturları çıkarın.\n\n Fatura vericisini dikkatli bir şekilde kabine geri itin.
+ScotApp_503,503unused
+ScotApp_403,403unused
+ScotApp_1849,
+ScotApp_1330,Ürün paketlenmedi
+ScotApp_1355,Bakiyeniz
+ScotApp_1584,Kutular         Sayı      Bozukluk Sayısı
+ScotApp_465,%s               %s
+ScotApp_365,Yazıcı kafasında sıkışma
+ScotApp_265,265unused
+ScotApp_965,965unused
+ScotApp_633,İmza:
+ScotApp_433,433unused
+ScotApp_333,Kart okuyucusu kapakta sıkışma hatası
+ScotApp_233,Fatura alıcısının doğru yerleştirildiğinden emin olun.\n\nFatura alıcısını çıkarmak ve öne kaydırmak için kolu kendinize doğru çekin.\n\nFatura alıcısını durana kadar geri itin.
+ScotApp_133,133unused
+ScotApp_1120,%s fatura kasetinin ön kısmında fatura sıkışması olabilir.\n\n %s kaseti çıkarın ve bu bölgede fatura sıkışması olup olmadığını kontrol edin.\n\nMümkünse sıkışan faturaları çıkarın ve fatura kasetini değiştirin.
+ScotApp_1805,Yalnızca Nakit Modundan çık
+ScotApp_933,Ağırlık Uyumsuzluğu
+ScotApp_833,833unused
+ScotApp_1337,"SelfServ Checkout'den Çık"
+ScotApp_1780,İŞLEMİ BAŞLAT
+ScotApp_712,712unused
+ScotApp_612,Ağırlık Ekle
+ScotApp_512,Görsel Onaylamalar
+ScotApp_312,kutuda sıkışma
+ScotApp_212,212unused
+ScotApp_112,Miktarı Onayla
+ScotApp_1081,Göster\nTüm Kasalar
+ScotApp_778,778unused
+ScotApp_678,678unused
+ScotApp_578,Karttan Ödemeyi Sonlandır. Kalan Para Üstü.
+ScotApp_478,Kuponları Teslim Edin.
+ScotApp_378,Fiş Yazıcısı
+ScotApp_278,Güvenlik Kaydı
+ScotApp_1127,Yeniden Bağlan
+ScotApp_1802,Yalnızca Kart Kabul Et
+ScotApp_978,Eşik = %d
+ScotApp_878,Fiyat Girin.
+ScotApp_1533,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1787,Kullandığınız plastik poşet adedini veya kullanmadıysanız 0 değerini girin.
+ScotApp_1799,Yalnızca Kart Modu
+ScotApp_1309,* Yerine oturana kadar kaseti yerleştirin.\n* Fatura alıcısı motorunun kısaca açıldığını kontrol edin.
+ScotApp_1323,Ağırlık kaldı
+ScotApp_1079,Taranan ürünü tekrar banda koyun.
+ScotApp_1382,(Sd)
+ScotApp_1532,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1786,Plastik Poşet Ücreti
+ScotApp_1094,İmzaları Yazdır
+ScotApp_1113,%s @ %s/%s\t%s
+ScotApp_1798,Yalnızca Nakit Modu
+ScotApp_1322,Kupon Algılayıcı hatası\nBağlantı başarısız.
+ScotApp_1078,Ağırlık beklentisi için ayar seçin. (Müşteri ürünü banda koymalı.)
+ScotApp_1334,Ürün bantta değil
+ScotApp_1785,Geçersiz Giriş. Lütfen klavyeyi veya parmak izinizi kullanarak tekrar giriş yapın.
+ScotApp_1046,"Lütfen %s'inizi ödeme noktasındaki kasiyere götürün."
+ScotApp_1696,Durum Düzeltildi
+ScotApp_1112,%s @ %s %s/%s\t%s
+ScotApp_1158,PinPad/ EFT Aygıt Hatası
+ScotApp_1065,1065unused
+ScotApp_1321,Makbuz Ödemesini sonlandır. Ödenmesi Gereken Bakiye.
+ScotApp_764,764unused
+ScotApp_1530,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1784,ÇOKLU PAKETLİ ÜRÜN
+ScotApp_1070,1070unused
+ScotApp_49,49unused
+ScotApp_1111,  Qty %s @ %s/%s\t%s
+ScotApp_753,Dün Saatlik
+ScotApp_653,"Kupon değerini sent olarak girin ve ""Giriş"" e basın."
+ScotApp_453,Madeni para alıcısı durumu dolu
+ScotApp_353,Geri Git
+ScotApp_253,253unused
+ScotApp_153,153unused
+ScotApp_1320,Makbuz Ödemesini Başlat.
+ScotApp_953,"Terminali kapatıp yeniden başlatın:\n* Yönetici kilidini ‘S’ konumuna getirin VEYA Yönetici düğmesine basın.\n* Seçme ""Bir dahaki sistem yüklemesinde ADD’ i çalıştırın"". Seçeneğini ""Evet"" onaylamak için.\n* ‘Tüm Sistemi kapatın.’\n* Ekran boşaldığında terminali kesintisiz güç kaynağından kapatın veya güç kablosunu prizden çekin.\n* Terminali açın. Olay günlüğünü kontrol edin. Hata tekrarlanırsa tanı dosyası oluşturun ve servisi arayın."
+ScotApp_853,Dört Ürün
+ScotApp_1845,Fiş
+ScotApp_1537,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_732,732unused
+ScotApp_632,632unused
+ScotApp_532,İzne Tabi Ürün
+ScotApp_432,EBT
+ScotApp_332,Yardım Modundan çıkıyor
+ScotApp_232,* Fatura alıcısını ve kaseti çıkarın.\n* Kasette sıkışma olup olmadığını kontrol edin.\n* Alıcının üst kısmındaki erişim kapılarını açın ve fatura sıkışıp sıkışmadığını kontrol edin.\n* Erişim kapılarını sıkıca kapatın.\n* Alıcı ve kaseti yerine yerleştirin.
+ScotApp_132,132unused
+ScotApp_1110,  Qty %s @ %s/each\t%s
+ScotApp_1242,BORÇ
+ScotApp_1285,Popüler
+ScotApp_932,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_832,832unused
+ScotApp_1327,"İstenen raporun düğmesine, sonra ""Raporu Aç"" a basın."
+ScotApp_711,711unused
+ScotApp_611,İstenen fonksiyonu seçin.
+ScotApp_511,Müşterinin imzasını karttaki imzayla karşılaştır.
+ScotApp_411,Müşteri Kartını Al
+ScotApp_311,kutu boş
+ScotApp_111,Tartıyı Sıfırla
+ScotApp_1789,KUPON
+ScotApp_1536,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_911,Güvenliği Kaldır
+ScotApp_811,Hediye kartınızı okutun. Lütfen ek ürünler için sepetinizi kontrol edin.
+ScotApp_1628,CPU Hatası
+ScotApp_1523,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1349,%s\n %s\n%s %s beklenen\n%s %s gözlenen
+ScotApp_1892,Güvenlik Analizi
+ScotApp_1279,ÇEK
+ScotApp_1535,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1057,1057unused
+ScotApp_1441,Madeni Para Yönetimi
+ScotApp_1313,* Yazıcıda kağıt sıkışması olup olmadığını kontrol edin.\n* Yeniden kağıt yerleştirin.\n* Terminali uygun şekilde kapatın ve yeniden yükleyin.
+ScotApp_1681,Kağıt Para Dönüştürücü Hatası
+ScotApp_1069,1069unused
+ScotApp_1325,Ürünü Tartıya Yerleştirin.
+ScotApp_1278,USERDEFINED20
+ScotApp_1103,Önceki
+ScotApp_1534,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_1056,1056unused
+ScotApp_1312,* Fatura kasetini çıkarın.\n* Açıp faturaları çıkarın.\n* Kapatın ve alıcıya geri yerleştirin.\n* Fatura alıcısı motorunun açıldığını ve LED ışığının yeşil olduğunu kontrol edin.
+ScotApp_1265,USERDEFINED7
+ScotApp_1850,Hatalı aygıtlar
+ScotApp_1213,BİLİNMEYEN
+ScotApp_1521,Hatayı düzeltmek için lütfen Aygıt Kılavuzuna başvurun.
+ScotApp_139,Fişi Al
+ScotApp_1043,Müşteriden %s kabul etmek için Yardım Modunu kullanın.
+ScotApp_1401,Yardım başlatılıyor.\n\nLütfen bekleyin...
+UnknownItemMessage,Yardım geliyor. \n\nÜrünü kenara ayırın ve devam edin.
+TimeRestrictedItemMessage,Bu defa bu ürünü satın alamadınız.\n\nLütfen ürünü kenara koyun ve satın alma işleminize devam edin.
+ItemQuantityExceededMessage,Bu ürün için izin verilen miktarı aştınız.\n\nLütfen ürünü kenara koyun ve devam edin.
+WeightMismatch,Ürün ağırlığı kontrol ediliyor.\n\nLütfen bekleyin...
+ItemQuantityExceeded,Niktar Limiti Aşıldı
+WaitForRemoteAssistanceTitle,Uzaktan Görevli
+ScotApp_489,NCR SelfServ Checkout’i kullandığınız için teşekkür ederiz.
+ScotApp_273,Şu anda tarama yapmayın.\nÜrünü kenara koyun.
+ScotApp_431,Geçersiz Müşteri Kartı. Lütfen doğrulayın.
+ScotApp_410,için yardım gerekiyor
+ScotApp_1739,Lütfen görevlinin gelmesini bekleyin.\nSistem paketlerinizi onaylayamadı.\nPaketleme alanına yanlışlıkla paketler dışında bir şey koyduysanız lütfen alın.
+ScotApp_73,Alışveriş Moduna Geri Dön
+ScotApp_772,Mevcut işlemi askıya alma talebinde bulunuldu.\nLütfen bu talebi onaylayın veya iptal edin.
+ScotApp_530,Hatalı Kart okuma.\nFarklı bir kart kullanın.\n -veya-\nNakit ödeyin.\n -veya-\nYardım isteyin.
+ScotApp_524,PIN numarası hatalı girildi.\nÖdeme aygıtında PIN numarasını tekrar girin.
+ScotApp_397,Geçerli ürünleri satmak için Yardım Modunu kullan.\nSatılmayacak diğer ürünleri toplayın.
+ScotApp_171,"""%s""\n\n %d doğru mu?"
+ScotApp_1374,\n---------------------------------------\n
+ScotApp_1646,İşlem askıya alındı. Tüm ürünleri kenara koyun.
+ScotApp_495,Bu ürün için izin verilen miktarı aştınız.\n\nLütfen ürünü kenara koyun ve devam edin.
+ScotApp_529,"Kartı çıkarın, daha sonra...\nFarklı kart yerleştirin.\n -veya-\nNakit ödeyin.\n -veya-\nYardım İsteyin."
+ScotApp_275,Şu anda yükleme kartı kullanmayın.\nKartınızı alın.
+ScotApp_1891,\Sistem Doğrulaması yapılıyor. \nLütfen bekleyin...
+ScotApp_1750, Parmak iziniz işlenirken lütfen bekleyin.
+ScotApp_169,Satın alma işlemine devam etmek istiyor musunuz?
+ScotApp_415,Müşteri Kartınızı alın.\nKart daha önce yerleştirilmişti.
+ScotApp_1793,Bu makine bu sefer yalnızca kredi ve borç kartları kabul edecektir.\nDevam etmek istiyor musunuz?
+ScotApp_477,Kuponlarınızı teslim edin.\nFişiniz yazıldıktan sonra:\n--Ürünlerinizi alın.\n-- Fişi ve kuponları ödeme noktasına götürün.
+ScotApp_177,Tüm satın alma işlemi iptal edildi. Tüm ürünleri kenara koyun.
+ScotApp_656,Lütfen <%s>’i kenara koyun.\nMağaza görevlisi size yardımcı olacak.
+ScotApp_1709,Bu defa banknot veya madeni para yerleştirmeyin.\nLütfen iade edilen paranızı alın.\nBanknotlar tarayıcının alt kısmından verilmektedir. 
+ScotApp_435,Kazanç türünü seçin.\nYemek fişinizi kullanmak istiyorsanız diğer kazançlardan önce kullanmalısınız.
+ScotApp_808,Ürünleri güvenlik etiketlerinin çıkarılması için görevliye götürün.
+ScotApp_294,"Mağazadan yardım istemek için ""Yardım İste"" düğmesine basın."
+ScotApp_1287,Lütfen bekleyin...\nÜrün ağırlığı kontrol ediliyor.
+ScotApp_525,"PIN numarası hatalı girildi.\nKartı çıkarın, daha sonra...\nFarklı kart yerleştirin\n -veya-\nNakit ödeyin"
+ScotApp_480,"Lütfen OK’ye basin, sonra islem slipinizi ve ürünleri kasiyere götürün."
+ScotApp_1751,* Maksimum ağırlık sınırı aşıldı.\n* Ürünleri paket tartısından kaldırın.
+ScotApp_175,"""%s""\n’i fişten çıkarmak istiyor musunuz?"
+ScotApp_1746,Parmak izi sunucusuna ulaşılamıyor.\n Lütfen tekrar deneyin.
+ScotApp_1839,Lütfen kasiyeri bekleyin.\nŞu anda tarama yapmayın. Ürünü kenara koyun.
+ScotApp_501,Lütfen fişi imzalayın ve mağaza onayı için bekleyin.
+ScotApp_414,Müşteri Kartınızı alın.\nMevcut satın alma işleminizde indirimli fiyatlar uygulanamıyor. Size postalanacaklar.
+ScotApp_563,Hard Totals başlatılırken bir hata oluştu.\nUygulamadan şimdi çıkılacak.
+ScotApp_263,Kuponu iptal edilmeden ürün iptal edilemiyor.\nÖnce ürün kuponunu iptal edin.
+ScotApp_800,"Lütfen sepetinizi kontrol edin.\n\nEk ürünleri şimdi taratın veya\nödeme yapmak için ""OK"" e basın."
+ScotApp_134,Yetkilendirme tamamlanıyor.\nLütfen bekleyin.
+ScotApp_620,Toleransı Tuşla
+ScotApp_161,"%s\nMiktarı girmek için tuş takımını kullanın ve ""OK"" e basın."
+ScotApp_440,Nakit ödeme bakiyeniz gerekenden az.\nKalan %s nakit ödemenizi bu satın alma işleminde kullanmak istiyor musunuz?
+ScotApp_184,%s hesabınızdan kesilecek.
+ScotApp_274,Şu anda nakit vermeyin.\nNakit paranızı alın.
+ScotApp_1744,Cihaz parmak izinizi tanımlayamadı.\n Lütfen tekrar deneyin.
+ScotApp_160,Ürün piyasadan çekildi.\nYardım geliyor.\nÜrünü kenara koyun ve satın alma işleminize devam edin.
+ScotApp_1795,"Veya ""Yalnızca Kartlar"" ile sınırlayın."
+ScotApp_159,Ürün fiyatı bilinmiyor.\nYardım geliyor.\nÜrünü kenara koyun ve satın alma işleminize devam edin.
+ScotApp_458,Kazanç türünü seçin.\nBu satın alma işlemi için yemek fişleri kullanılamaz.
+ScotApp_1329,Lütfen bekleyin...\nÜrün ağırlığı kontrol ediliyor.\nÇift ağırlık paketlendi.
+ScotApp_407,Kart okuma hatası.\n* Farklı kart deneyin.\n -veya-\n* Yardım isteyin
+ScotApp_706,"Yemek fişi bakiyeniz bu satın alma işleminin toplamından daha az.\nFarklı bir ödeme metodu kullanmak için ""OK"" e basın."
+ScotApp_606,Sil Ağırlık Girişleri
+ScotApp_906,Lütfen ürünlerinizi alın.
+ScotApp_705,"Nakit ödeme bakiyeniz bu satın alma işleminin toplamından daha az.\nFarklı bir ödeme metodu kullanmak için ""OK"" e basın."
+ScotApp_605,Ekle Ağırlık Girişi
+ScotApp_405,Kart okuma hatası.\n* Farklı kart deneyin.\n -veya-\n* Nakit ödeyin\n -veya-\n* Yardım isteyin
+ScotApp_491,Lütfen kartınızı alın.
+ScotApp_818,Lütfen kasiyeri bekleyin.\niçin yardım gerekiyor:
+ScotApp_1796,"Veya ""Yalnızca Nakit"" ile sınırlayın."
+ScotApp_438,Yemek fişi bakiyeniz gerekenden az.\nKalan %s yemek fişi kazançlarınızı bu satın alma işleminde kullanmak istiyor musunuz?
+ScotApp_1596,"%s i %s’inize tercih edilen dil olarak kaydetmek ister misiniz? ""Evet"" veya ""Hayır""ı seçin."
+ScotApp_766,%s hesabınızdan kesilecek.
+ScotApp_166,Yardım geliyor.\n Lütfen satın alma işleminize devam edin.
+ScotApp_413,Müşteri Kartınızı alın.\nİndirimli fiyatlar uygulanacak.
+ScotApp_1797,"Düzeltme işlemi hatayı düzeltmedi.\nLütfen tekrar deneyin veya ""Yalnızca Nakit"" ile sınırlayın."
+ScotApp_178,Mağaza onayı için bekleyin.\niçin mağaza onayı gerekiyor.
+ScotApp_790,Kartınız reddedildi.\nLütfen farklı bir ödeme metodu seçin.
+ScotApp_1794,Bu makine bu sefer yalnızca nakit kabul edecektir.\nKredi veya borç işlenmeyecek.\nDevam etmek istiyor musunuz?
+ScotApp_412,Bu ürün satın alma limitinizi aşmanıza neden olacak %s.\nLütfen şimdi ödeme yapın ve diğer ürünleri ayrı olarak satın alın.
+ScotApp_546,Bu ürünü alabilecek yaşta değilsiniz.\nLütfen ürünü kenara koyun ve satın alma işleminize devam edin.
+ScotApp_553,Kuponlar satın alma işleminizin sonunda kabul edilir.\nLütfen kuponları kenara koyun ve devam edin.
+ScotApp_211,İşlem gerçekleştiriliyor...\nLütfen bekleyin.
+ScotApp_1400,Uzaktan Görevli
+ScotApp_1754,Harfler herhangi bir ürüne uymuyor.
+ScotApp_1859,"%s’lik dolu kasa satın alınsın mı? ""Evet"" veya ""Hayır’ı"" seçin."
+ScotApp_533,Bu defa bu ürünü satın alamadınız.\nLütfen ürünü kenara koyun ve satın alma işleminize devam edin.
+ScotApp_1763,e=d=%5.3fkg Max %5.3f kg min %3.1f kg Nmax %4.0f
+ScotApp_1762,e=d=%4.2flb Max %4.2f lb min %3.1f lb Nmax %4.0f
+ScotApp_1764,e = d = %4.2f lb Max %4.2f lb Min %3.1f lb Nmax %4.0f
+ScotApp_1765,e = d = %5.3f kg Max %5.3f kg Min %3.1f kg Nmax %4.0f
+ScotApp_305,%s’iniz için ambalaj seçin.
+ScotApp_703,"PIN Tablosunu Kullanın. Ödemeyi iptal etmek için PIN Tablosunda ""İptal Et"" e basın."
+ScotApp_125,"Müşterinin doğrum tarihini %s tuşlayıp ""Onayla"" ya basın "
+ScotApp_1853,"Müşterinin %s doğum tarihini girin ve ""Giriş"" e basın."
+ScotApp_654,Tarih %s formatında olmalı.Değer %s şeklinde girildi.
+ScotApp_560,Bu sistem kupon kabul etmiyor.
+ScotApp_1788,Is %d doğru mu? \n\n%s poşet ücreti ödeme toplamınıza eklenecek.
+ScotApp_1358,%s hediye kartı tutarı satın alma işleminize uygulandı.\n\nHediye kartı bakiyeniz %s.
+ScotApp_167,Kupon satılan bir ürünle eşleşmiyor.\n\nBu kupon kabul edilemez.
+ScotApp_164,Sistem bu ürün kodunu tanımıyor.\n\nDoğru numarayı girdiğinizden emin olun.
+ScotApp_547,Hatalı operatör numarası ve şifresi.\n\nLütfen tekrar deneyin.
+ScotApp_442,Satın aldıklarınızın %s’i yemek fişiyle ödenebilir.\n\n%s
+ScotApp_443,%s hesabınızdan kesilecek.\n\n Tamam mı?
+ScotApp_700,Ürün bu kasada satılamaz.\nYardım geliyor.\n\nÜrünü kenara koyun ve satın alma işleminize devam edin.
+ScotApp_165,Sistem bu ürünü tanımıyor.\nYardım geliyor.\n\nÜrünü kenara koyun ve satın alma işleminize devam edin.
+ScotApp_182,Bu kupon için girdiğiniz tutar çok yüksek.\n\nBu sistem bu kuponu kabul edemez.
+ScotApp_733,Kart reddedildi.\nFarklı bir kart kullanın veya nakit ödeme yapın.
+ScotApp_812,NCR SelfServ Checkout’i kullandığınız için teşekkür ederiz.\nLütfen hediye kartınızı kasiyere götürün.
+ScotApp_1826,Tercihlerinizin Müşteri Kartınıza kaydedilmesini istiyor musunuz?
+ScotApp_1852,Lütfen iptal edilen ürünü paketleme alanından kaldırın.
+QRCodeErrorText,QR Code Error
+ScanQRCodeInstruction,Scan this code to complete\nyour Mobile shopping.
+ScotApp_1896,Transferring items from mobile cart.
+ScotApp_1897,Lütfen bekleyin...
+ScotApp_1898,Mobile Cart
+ScotApp_1899,Mobile Audit
+ScotApp_1900,Mobile Shopper Audit
+ScotApp_1901,"Touch ""OK"" then use Attendant Handset to complete audit."
+ScotApp_1902,Begin Mobile Transaction
+ScotApp_1903,End Mobile Transaction
+ScotApp_1904,%d Items Sold
+ScotApp_1905,Scan barcode to complete your Mobile checkout.
+ScotApp_1906,Mobile cart transfer is complete.
+ScotApp_1907,\nTouch Pay or add more items.
+MoveLeft,< Move
+MoveRight,Move >
+Accessibility,Accessibility
+SearchItemCodeWatermark,Enter Item Code
+ScanAndBagNoSearchKeyIn,Scan or look up item to start
+ScanLookUpKeyInItem,"Scan, look up, or key in item code to start."
+LookUpKeyInItem,Look up or Key in Item
+ScanOrKeyInItem,Scan or Key in Item
+XM_MenuSetupLoaderV6HW,Yükleyiciyi Ayarla
+XM_SetupLoaderV6HW,Yükleyiciyi Ayarla
+XM_ProcessingCashTextV6HW,•   Bozuk paraları Bozuk Para Alıcısına Yerleştirin.\n•   Banknotları Banknot Alıcısına Yerleştirin.\n
+XM_CoinHoppersV6HW,Bozuk para Hazneleri
+XM_CoinBoxV6HW,Bozuk para Kutusu - %d - %s
+XM_AddCashLeadthruV6HW,"•   Bozuk paraları Bozuk Para Alıcısına Yerleştirin.\n•   Banknotları Banknot Alıcısına Yerleştirin.\n•   Yeniden doldurma kanalına bozuk para eklemek için ""Bozuk Para Doldurma\n     Kanalını Etkinleştir"" e basın.\n•   Yükleyiciye banknot yüklemek için ""Yükleyiciyi Ayarla"" ya basın."
+XM_ConfirmTransferNotesToBaseLevelV6HW,Banknotları Banknot Kutusuna Al\n\nTransfer edilecek miktar: %s\nTransfer edilecek adet: %d\n\nTransfer işlemi birkaç dakika sürebilir.
+XM_ConfirmTransferAllNotesV6HW,Tüm Banknotları Banknot Kutusuna Al\n\nTransfer edilecek miktar: %s\nTransfer edilecek adet: %d\n\nTransfer işlemi birkaç dakika sürebilir.
+XM_ResetCoinsAllCoinsV6HW,Tüm Bozuk Parayı Çıkar
+XM_ResetCoinHopperCountsV6HW,Bozuk Para Haznesi Sayaçlarını Sıfırla
+XM_ResetNoteBoxCountsV6HW,Banknot Kutusun Sayacını Sıfırla
+XM_MenuNoteBoxTransferV6HW,Banknot Kutusu Transferleri
+XM_FinishedAddingCashV6HW,"Nakit yüklemeniz bittiğinde ""OK"" a basın."
+XM_OKV6HW,OK
+XM_SetupLoaderLeadthruV6HW,"•   yükleyicisi için varsayılan %s para birimi miktarını/adedini girin ve\n      ""OK"" a basın..\n•   İşlemi tamamladığınızda ""Değişiklikleri Uygula"" ya basın."
+XM_SetupLoaderNotEmptyV6HW,"\nWhen swapping loaders, because the current loader\ncount is greater than zero, manually remove the notes from the current loader and add the notes to the new loader."
+XM_NoteLoaderV6HW,Banknot Yükleyici
+XM_EnableCoinInputBowlV6HW,Bozuk Para Giriş Kasesini Etkinleştir
+XM_EnableCoinRefillChuteV6HW,Bozuk Para Doldurma Kanalını Etkinleştir
+XM_EnableCoinAcceptorV6HW,Bozuk Para Alıcısını Etkinleştir
+XM_TopOffCashPrintStatusV6HW,Nakit veya Yazıcı Durumu
+XM_TransferOperationPreemptiveV6HW,Banknot transferi yapılıyor... Lütfen bekleyin.\n\nİşlem tamamlanmadan BANKNOT KUTUSUNU veya \n diğer cihazları ÇIKARMAYIN.
+XM_TransferOperationInstructionV6HW,Transfer Tamamlandı.\nBanknot Kutusundan tüm banknotları çıkarın ve\nBanknot Kutusunu Sıfırlayın.
+XM_PendingDispenseV6HW,Bekleyen dağıtım %d - %s
+XM_PendingTransferV6HW,Bekleyen transfer %d - %s
+XM_PendingResetV6HW,Bekleyen sıfırlama %d - %s
+XM_ConfirmResetNoteBoxV6HW,Banknot Kutusu Adet/Değerlerini Sıfırla\n\nSıfırlanacak Miktar: %s\nSıfırlanacak Adet: %d\n\nBanknot Kutusu sıfırlama sonrası miktar: TL0\nBanknot kutusu sıfırlama sonrası ader: 0
+XM_PendingCashRemoveV6HW,"Kasa kapısını açın Banknot Kusunu ve tüm banknotları çıkarın.\nBoş Banknot Kutusunu yerine yerleştirin.\n\nİşlemi tamamladığınızda ""OK"" a basın."
+XM_LeadThruResetNoteBoxFunctionV6HW,"Fonksiyonları Sıfırla\n•   Banknot Kutusu adedini sıfıra ayarlayın.\n•   İşlemi tamamladığınızda ""Değişiklikleri Uygula"" ya basın."
+XM_AllV6HW,Tümü
+XM_LeadThruTransferNotesToNoteBoxFunctionV6HW,"Banknot Kutusu Transferleri\n•   Banknotları transfer etmek için ""Değişiklikleri Uygula""ya basın.\n•   İptal etmek için ""Değişiklikleri İptal Et"" e basın."
+XM_ReplenishNotesFromLoaderToRecyclersPreemptiveV6HW,Yükleme işlemi yapılıyor... Lütfen bekleyin.
+XM_SetupLoaderAlertConfirmationV6HW,"Yükleyiciyi Ayarla\n\nYükleyiciye doğru değerlerin girildiğinden emin olduktan sonra banknotları yüklemek için ""OK"" a basın."
+XM_SetupLoaderAlertConfirmation1V6HW,"Yükleyiciyi Ayarla\n\nBanknotları yüklemek için yükleyiciye banknot ekleyip yerine yerleştiğinden emin olun ve ""OK"" a basın."
+XM_SetupLoaderConfirmationV6HW,Yükleyiciyi Ayarla\n\n%s Yükleyicideki banknot Durumu:\n\nOrijinal/Başlangıç Miktarı: %s\nOrijinal/Balangıç Adedi: %d\nYükleyiciye Eklenecek Miktar: %s\nYükleyiciye Eklenecek Adet: %d\n\nVerilmek üzere ayarlanmamış banknotları yükleyicinin alt kısmına yerleştirin.  Yükleyicinin alt kısmındaki banknotlar yükleyici kapasitesine ulaşılana dek otomatik olarak sayılacak ve yüklenecektir.\n\nYükleme işlemi birkaç dakika sürebilir.
+XM_SetupLoaderConfirmation1V6HW,Yükleyiciyi Ayarla\n\nTüm yükleyici banknotları otomatik olarak yüklenecek ve sayılacaktır.\n\nYükleme işlemi birkaç dakika sürebilir.
+XM_PendingNotesAddedV6HW,Eklenilen varsayılan banknotlar %d - %s
+XM_ProcessingCashV6HW,Nakit İşleniyor
+XM_ProcessingCashLeadThruV6HW,•   Bozuk paraları Bozuk Para Alıcısına Yerleştirin.\n•   Banknotları Banknot Alıcısına Yerleştirin.
+XM_SetupLoaderLeadThru1V6HW,"•   Yükleyiciye banknot eklemek için ""Değişiklikleri Uygula"" ya basın.\n•   İptal etmek için ""Değişiklikleri İptal Et"" e basın."
+XM_LeadThruDispenseFunctionV6HW,Dağıtım Fonksiyonları\n•   Klavyeyi kullanarak %s banknot için miktar/adet girin.
+XM_LeadThruDispenseFunction1V6HW,"Dağıtım Fonksiyonları\n•   Bozuk paraları dağıtmak için ""Değişiklikleri Uygula"" ya basın.\n•   İptal etmek için ""Değişiklikleri İptal Et"" e basın."
+XM_ConfirmCoinDispenseAllV6HW,Tüm Bozuk Parayı Çıkar\n\nDağıtılacak Miktar: %s\nDağıtılacak Adet: %d
+XM_DispenseOperationPreemptiveV6HW,"Bozuk para verme işlemi sürdürülüyor.\n\nDoldurma işlemi tamamlandığında bozuk paraları hazneden çıkarın ve ""OK""a basın."
+XM_ConfirmCoinDispenseToBaseLevelV6HW,Bozuk Paraları Temel Seviyeye Getirin\n\nDağıtılacak Miktar: %s\nDağıtılacak Adet: %d
+XM_LeadThruResetCoinHopperFunctionV6HW,"Fonksiyonları Sıfırla\n•   Bozuk para Haznesi Sayacını Sıfırlayın.\n•   İşlemi tamamladığınızda ""Değişiklikleri Uygula"" ya basın."
+XM_ResetCoinHopperLeadThruV6HW,"Bozuk paraları bozuk para haznesinden çıkar. Değiştir\nBozuk para haznelerini boşalt.\n\nİşlemi tamamladığınızda ""OK"" a basın."
+XM_LoaderCountEnteredExceededCapacityV6HW,"Girilen yükleyici adedi kapasiteyi aşıyor. İzin verilen maksimum yükleyici adedi %d'dir."
+XM_CoinHopperPendingResetV6HW,Bekleyen sıfırlama %d - %s
+XM_ConfirmResetCoinHopperV6HW,Bozuk Para Haznesi Sayaçlarını Sıfırla / Değerlerini Sıfırla\n
+XM_ConfirmResetCoinHopper1V6HW,\n%s\nSıfırlama Miktarı: %s Adedi %d\n
+XM_ConfirmResetCoinHopper2V6HW,\nSıfırlama Sonrası:\nHaznedeki Bozuk Para: %s Adedi: %d\nBozuk Para Kutusundaki Bozuk Para: %s Adedi: %d
+XM_SignSigTouchDisplayV6HW,Lütfen dokunmatik ekrandan imza atın.
+XM_LeadThruCashManagementErrorV6HW,Nakit Yönetimi Hatası
+XM_LoanPickupUpdateFailureV6HW,Nakit yönetimi güncelleme başarısız
+XM_LoanPickupUpdateNoResponseV6HW,Nakit yönetimi durumu güncellenirken POS cevap vermiyor
+XM_LoanPickupUpdateFailureInstructionV6HW,"\n•   Güncellemek için ""Tekrar Dene"" ye basın.\n•   Hata tekrarlanırsa mağaza yönetimiyle bağlantı kurun.\n•   Başarılı bir güncelleme yapılmadığı sürece sorun giderilemeyecek."
+XM_LoanPickupUpdateNoResponseInstructionV6HW,•   Bu hatayı derhal mağaza yönetimine bildirin.\n•   Nakit yönetimi durumu güncellenmemiş olabilir.\n•   Aygıt Fonksiyonları ekranını açın.
+XM_LoanPickupUpdateNoResponseInstruction1V6HW,"•   ""Tanı Kayıt Dosyalarını Oluştur"" a, ardından ""Tüm Sistemi Kapat"" a basın.\n•   Sistemi tekrar çalıştırın.\n•   Hata tekrarlanırsa yeni bir tanı dosyası oluşturun ve servisi arayın.\n"
+XM_CashManagementErrorRetryButtonV6HW,Tekrar Dene
+XM_CannotCompleteTransferV6HW,Transfer tamamlanamıyor.\n Banknot kutusunda yeterli alan yok. Bu işlemi gerçekleştirmeden önce lütfen banknot kutusunu boşaltın.
+XM_CashStatusLeadthruV6HW,"•   Nakit durumunu yazdır.\n•   Bozuk paraları Bozuk Para Alıcısına Yerleştirin.\n•   Banknotları Banknot Alıcısına Yerleştirin.\n•   İşlemi tamamladığınızda ""Çık"" a basın."
+XM_NonDispensableCoinsV6HW,Dağıtılamayan Bozuk Paralar
+XM_DispensableCoinsV6HW,Dağıtılabilir Bozuk Paralar
+XM_ConfirmNoteDispenseV6HW,Banknotları Dağıt\n\nDağıtılacak Miktar: %s\nDağıtılacak Adet: %d
+XM_DispenseNoteFullPreemptiveV6HW,Lütfen Banknotları Alın\n\nBanknotlar %d lik desteler halinde dağıtıldı.\nTüm banknotlar alınana kadar dağıtım durdurulacak.
+XM_NoteBoxV6HW,Banknot Kutusu
+XM_NoteRecyclerV6HW,Banknot Geri Dönüştürücüleri
+XM_DispenseCoinsToBaseLevelV6HW,Bozuk Paraları Temel Seviyeye Getirin
+XM_TransferNotesToBaseLevelV6HW,Banknotları Temel Seviyeye Transfer Et
+XM_TransferAllNotesV6HW,Tüm Banknotları Transfer Et
+XM_LeadThruNoteBoxTransferV6HW,"Banknot Kutusu Transferleri\n•   İstenen transfer seçeneğini seçin.\n•   İşlemi tamamladığınızda ""Değişiklikleri Uygula"" ya basın."
+XM_LeadThruResetFunctionV6HW,"Fonksiyonları Sıfırla\n•   İstenen sıfırlama seçeneğini seçin.\n•   İşlemi tamamladığınızda ""Değişiklikleri Uygula"" ya basın."
+XM_LeadThruDispenseFunction2V6HW,"Dağıtım Fonksiyonları\n•   Banknot türüne basın ve miktarı/adedi girin veya fonksiyon seçin.\n•   İşlemi tamamladığınızda ""Değişiklikleri Uygula"" ya basın."
+XM_DispenseThresholdV6HW,Girilen sayı verilebilecek adedin üzerinde.\nGirilen maksimum adet: %d
+RemoveItemFromProduceScale,Remove item from scale.
+RemoveItemFromProduceScaleTitle,Remove Item

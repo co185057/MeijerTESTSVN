@@ -1,0 +1,15 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\RapNet]
+"MediaPath"="%APP_DRIVE%\\SCOT\\IMAGE"
+"ConfigPath"="%APP_DRIVE%\\SCOT\\CONFIG"
+"AudioPath"="%APP_DRIVE%\\SCOT\\SOUND"
+"ShowCursor"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\RAPNET\DataCapture]
+"DcapTime"="0x1F00 -> Hex time option(s): 100=m:s, 300=h:m:s, 700=m/d h:m:s; 800+digits=millisec; 1000=threadid"
+"DcapMask"="0x0000002F -> Hex mask of events to capture"
+"DcapControl"="4 -> Hex destination(s): 1=DCap App, 2=Debugger, 4=File; 10/20/40 for immediate"
+"DcapFileMax"="5120 -> Max KB of data cap file"
+"DcapFile"="%DATA_DRIVE%\\scot\\logs\\RAPNET.log"
+"DcapLinePrefix"="RAPNET:"

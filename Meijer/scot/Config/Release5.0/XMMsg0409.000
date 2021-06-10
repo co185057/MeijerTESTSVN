@@ -1,0 +1,18 @@
+<!-- Change History:							  			-->
+<!-- POS18045 Work Request:16656 Name:Robert Susanto Date:October 12 2011  			-->
+<!-- 												-->
+
+<Display Version="1.0">
+  <Languages>
+    <Language Name="0409">
+      <StringTable>
+        <String Name="XM_CashReplenishLeadthru2">Select function.</String>
+<!--        <String Name="XM_CashReplenishLeadthru2">Insert cash or select function.</String> -->
+       <String Name="XM_PurgeInstructionRecycler">Purge Operations:  Rejected bills detected.  Remove rejected bills from cash box.  Re-insert purged cash box notes or swap with new notes into loader.</String>
+<!--        <String Name="XM_PurgeInstructionRecycler">Purge Operations:  Rejected bills detected.  Remove rejected bills from cash box.  Clear alert by touching "Transfer All Bills" and then "Reset Cash Box".</String>  -->
+        <String Name="XM_AddCashLeadthru2">Touch cylinder and enter amount.</String>
+<!--        <String Name="XM_AddCashLeadthru2">Insert cash or touch cylinder and enter amount, or set counts.</String> -->
+      </StringTable>
+    </Language>
+  </Languages>
+</Display>

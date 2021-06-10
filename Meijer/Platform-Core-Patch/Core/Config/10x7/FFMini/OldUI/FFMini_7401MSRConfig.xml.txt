@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Display>
+	<!-- THIS FILE USE TO CONFIG 7401MSR PINPAD UNIT -->
+	<Control Name="SwipeCardVideo" Type="Video" Synchronize="False">
+		<Video>%MediaPath%\SwipeCard_7401_FF_Mini.avi</Video>
+	</Control>
+	<Control Name="RequestSigVideo" Type="Video" Synchronize="False">
+		<Video>%MediaPath%\SignName_Topaz_FF_Mini.avi</Video>
+	</Control>	
+</Display>

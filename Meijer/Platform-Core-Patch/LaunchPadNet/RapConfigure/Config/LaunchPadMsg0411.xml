@@ -1,0 +1,72 @@
+<Display Version="1.0">
+  <Languages>
+    <Language Name="0411">
+      <StringTable>
+        <String Name="MinMaxFastLaneBtnPrimaryTxt">FastLaneの最小化</String>
+        <String Name="MinMaxFastLaneBtnSecondaryTxt">FastLaneの最大化</String>
+        <String Name="MinMaxFastLaneBtnPrimaryShowConfirmation">FastLaneを最小化するには“FastLaneの最小化”をタッチして下さい。</String>
+        <String Name="MinMaxFastLaneBtnSecondaryShowConfirmation">FastLaneを最大化するには“FastLaneの最大化”をタッチして下さい。</String>
+        <String Name="StopStartFastLaneBtnPrimaryTxt">FastLane終了</String>
+        <String Name="StopStartFastLaneBtnSecondaryTxt">FastLaneの開始</String>
+        <String Name="SwitchToRAPBtnPrimaryTxt">RAPへスイッチ</String>
+        <String Name="ShutdownSystemBtnPrimaryTxt">システム全体のシャットダウン</String>
+        <String Name="RebootSystemBtnPrimaryTxt">システム全体のリブート</String>
+        <String Name="VolumeBtnPrimaryTxt">音量調整</String>
+        <String Name="EventViewerBtnPrimaryTxt">イベントビュアー</String>
+        <String Name="GenerateLogBtnPrimaryTxt">ダイアグログファイル作成</String>
+        <String Name="RapConfigureBtnPrimaryTxt">RAP設定</String>
+        <String Name="ExitFastLaneAndRunProfileBtnPrimaryTxt">FastLane終了/プロファイルマネジャー開始</String>
+        <String Name="ExitFastLaneAndRunProfileBtnSecondaryTxt">プロファイルマネジャー開始</String>
+        <String Name="TerminalInfoBtnPrimaryTxt">レーン状況</String>
+        <String Name="MinMaxRAPBtnPrimaryTxt">RAPの最小化</String>
+        <String Name="MinMaxRAPBtnSecondaryTxt">RAPの最大化</String>
+        <String Name="MinMaxRAPBtnPrimaryShowConfirmation">RAPを最小化するには“RAPの最小化”をタッチして下さい。</String>
+        <String Name="MinMaxRAPBtnSecondaryShowConfirmation">RAPを最大化するには“RAPの最大化”をタッチして下さい。</String>
+        <String Name="StopStartRAPButtonPrimaryTxt">RAP終了</String>
+        <String Name="StopStartRAPButtonSecondaryTxt">RAPの開始</String>
+        <String Name="SwitchToFastLaneBtnPrimaryTxt">FastLaneへスイッチ</String>
+        <String Name="ExitRAPAndRunProfileBtnPrimaryTxt">RAP終了/プロファイルマネジャー開始</String>
+        <String Name="ExitRAPAndRunProfileBtnSecondaryTxt">プロファイルマネジャー開始</String>
+        <String Name="UtilityFunctionsTitle">ユーティリティー機能</String>
+        <String Name="SignOnTitle">NCR FastLane\nサイン イン</String>
+        <String Name="StartTitle">System Startup</String>
+        <String Name="SystemStartup">System starting...please wait</String>
+        <String Name="TerminalID">ターミナルID </String>
+        <String Name="TrainingProgramPrimaryTxt">練習</String>
+        <String Name="OperatorIDText">扱者番号：: </String>
+        <String Name="SignOnButtonText">サイン イン</String>
+        <String Name="SignOffButtonText">サイン オフ</String>
+        <String Name="SignedOffButtonText">サイン・オフ</String>
+        <String Name="Exit">終了</String>
+        <String Name="ReturnToShoppingButtonText">返品</String>
+        <String Name="PickListEditor">商品リスト編集</String>
+        <String Name="DiagConfirm">Are you sure you want to generate Diagnostic Log Files?</String>
+        <String Name="ProfileManagerFLConfirm">Are you sure you want to stop FastLane and run Profile Manager?</String>
+        <String Name="ProfileManagerRAPConfirm">Are you sure you want to stop RAP and run Profile Manager?</String>
+        <String Name="CalibrateConfirm">Are you sure you want to calibrate the touch screen?</String>
+        <String Name="ShutdownConfirm">Are you sure you want to shutdown the entire system?</String>
+        <String Name="RebootConfirm">Are you sure you want to reboot the entire system?</String>
+        <String Name="CloseAllConfirm">Are you sure you want to exit all applications and go to the desktop?</String>
+        <String Name="VolumeConfirm">Are you sure you want to adjust the volume control?</String>
+        <String Name="TerminalInfoConfirm">Are you sure you want to view the terminal information?</String>
+        <String Name="StopFastLaneConfirm">Are you sure you want to stop FastLane?</String>
+        <String Name="StopRAPConfirm">Are you sure you want to stop RAP?</String>
+        <String Name="StartFastLaneConfirm">Are you sure you want to start FastLane?</String>
+        <String Name="StartRAPConfirm">Are you sure you want to start RAP?</String>
+        <String Name="YesText">はい</String>
+        <String Name="NoText">いいえ</String>
+        <String Name="ClearButtonText">クリア</String>
+        <String Name="EnterButtonText">エンター</String>
+        <String Name="GoBackButtonText">戻る</String>
+        <String Name="SpaceButtonText">スペース</String>
+        <String Name="BackSpaceButtonText">バックスペース</String>
+        <String Name="ShiftButtonText">シフト</String>
+        <String Name="EnterIDLeadthru">キーパッドからIDを入力して下さい。</String>
+        <String Name="ReEnterIDLeadthru">暗証番号が正しくありません。再度入力して下さい。</String>
+        <String Name="EnterPasswordLeadthru">キーパッドから暗証番号を入力してください。</String>
+        <String Name="CancelButtonText">取消</String>
+        <String Name="LoggingInLeadthru">ログイン中です...お待ち下さい。</String>
+      </StringTable>
+    </Language>
+  </Languages>
+</Display>

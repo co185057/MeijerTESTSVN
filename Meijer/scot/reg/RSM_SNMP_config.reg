@@ -1,0 +1,52 @@
+REGEDIT4
+
+; [HKEY_LOCAL_MACHINE\SOFTWARE\NCR\RSM]
+; "Roles"="FastLane"
+			
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\RSM\SNMP\Parameters]
+"posAgentTallyEvents"=dword:00000000
+"posAgentStatusEvents"=dword:00000000
+"posAgentCatEvents"=dword:0000001f
+"posAgentSysEvents"=dword:00000000
+"posAgentDevEvents"=dword:00000000
+"posAgentSMEvents"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NCRLoader]
+"Type"=dword:00000110
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SNMP]
+"Start"=dword:00000002
+"Type"=dword:00000110
+"DependOnService"=hex(7):45,76,65,6e,74,4c,6f,67,00,4e,43,52,4c,6f,61,64,65,72,\
+  00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SNMP\Parameters]
+"EnableAuthenticationTraps"=dword:00000000
+			
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SNMP\Parameters\ExtensionAgents]
+"RSMSnmp"="Software\\NCR\\RSM\\SNMP\\CurrentVersion"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SNMP\Parameters\PermittedManagers]
+"1"="192.127.254.60"
+"2"=-
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SNMP\Parameters\TrapConfiguration]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SNMP\Parameters\TrapConfiguration\36805MJRUS00001]
+"1"="192.127.254.60"
+"2"=-
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SNMP\Parameters\TrapConfiguration\Public]
+"1"=""
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SNMP\Parameters\ValidCommunities]
+"36805MJRUS00001"=dword:00000008
+"public"=-
+"192.127.254.60"=-
+"192.127.224.22"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\NCR Store Minder Client\EventTable\WinLogon_1001]
+"eThreshold"=dword:00000001
+"eThresholdCounter"=dword:00000000
+"eValue"= dword:00000000
+"eResetInd"= dword:00000000
+"eCommandLine"=""

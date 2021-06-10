@@ -1,0 +1,2720 @@
+﻿AmountSaved,저장된 금액
+Assistance,도움
+AssistanceComing,곧 도와 드리겠습니다. 계속 진행하십시오.
+Back,뒤로 이동
+BagItem,이 상품을 봉투에 담아 주십시오.
+BagItemCart,상품 담기
+BagItemOrSkip,이 상품을 봉투에 담거나 건너뛰기를 선택합니다.
+CallForHelp,도움 요청?
+Cancel,취소
+CancelAll,모두 취소
+CancelCoupons,쿠폰 취소
+CancelPayment,지불 취소
+CantScanCoupon,쿠폰 스캔 불가능
+CartPay,결제
+Change,거스름돈:
+Confirm,전체 구입 내역을 취소하시겠습니까?
+ConfirmQuantity,{0}이(가) 정확합니까?
+Continue,계속하시겠습니까?
+CouponMessage,잠시 동안 쿠폰을 유보합니다. 구입 마지막 단계에 쿠폰을 투입합니다.
+DepositCard,다 쓴 선물 카드를 쿠폰 슬롯에 투입해 주십시오.
+DepositCoupon,쿠폰 투입
+DepositGiftCard,선물 카드 투입
+Disconnected,잠시만 기다려 주십시오...
+Done,완료
+Due,기한:{0}
+EditCart,카트 편집
+Enter,입력
+EnterAmount,수량 입력
+EnterCouponValue,"쿠폰 금액을 센트 단위로 입력한 후에 'OK'을 누르십시오"
+EnterId,사용자 ID를 입력하십시오.
+EnterPassword,사용자 패스워드를 입력하십시오.
+EnterPin,PIN 입력
+EnterQuantity,얼마나 가지고 계십니까?
+EnterWeight,저울 위에 상품을 올려 놓으십시오:
+Finish,감사합니다.
+FinishAndAdd,종료 & 추가
+GiftCard,선물 카드 잔액
+GoBack,뒤로 이동
+IncorrectLogin,부정확한 오퍼레이터 번호 및 패스워드.\n다시 시도해 주십시오.
+InsertCash,현금 입금
+InsertCoupon,쿠폰 삽입
+InvalidBarcodeScan,상품을 보관하고 구매를 계속합니다.
+Item,{0} 상품
+Items,{0} 상품
+ItemsAddedFormat,{0} 카트에 추가할 상품.
+Language,언어
+NCRCorp,NCR Corp
+No,아니요
+OK,OK
+Or,또는
+OtherPayment,다른 결제 방식
+OtherPaymentMethod,다른 결제 방식
+OwnBag,직접 가져온 장바구니
+Paid,결제:{0}
+PayAnotherWay,다른 방식으로 결제
+PointsEarned,받은 포인트
+PrintReceipt,영수증 인쇄
+Proceed,계속
+Remove,제거
+RemovedItem,상품을 제거했습니다
+RestrictedItem,제한 상품
+ReturnToScan,뒤로 이동
+ScanAndBag,"상품 코드를 스캔, 검색, 또는 입력해서 시작합니다."
+ScanCoupon,쿠폰 스캔
+ScanGiftCard,선물 카드 스캔
+ScanNextItem,다른 상품을 스캔해 주십시오.
+ScanVoucher,상품권 검색
+SearchResultsFor,"'{0}'에 대한 검색 결과"
+SearchWatermark,상품 이름 또는 코드 입력
+SearchItemNameWatermark,Enter Item Name
+SearchKeyInItem,상품 검색 또는 입력
+SelectCashBack,캐시 백 금액 선택
+SelectLanguage,언어 선택
+SelectPaymentType,지불 유형 선택
+SellBags,비닐 봉투를 몇 장 사용하셨습니까?  사용하지 않았다면 0을 입력합니다.
+SignNeeded,서명 필요
+SignSignature,서명 패드에 서명해 주십시오.
+SkipBagging,담기 작업 건너뛰기
+Space,스페이스
+StartScanning,스캔 시작
+StoreLogin,매장 로그인
+TakeCash,반환된 현금을 받아 주십시오
+TakeChange,거스름돈 받기
+TakeReceipt,영수증 받기
+Tax,세금
+TimeRestrictedItem,시간 제한 상품
+Total,총합
+TouchCancel,계속 진행하십시오.
+TryAgain,다시 시도
+UnexpectedDecreaseMessage,상품을 장바구니 영역으로 반납해 주십시오.
+UnexpectedIncreaseMessage,상품을 장바구니 영역에서 제거해 주십시오.
+UsePinpad,PIN 패드 사용
+VoidItem,"원하지 않는 상품을 스캔하거나 영수증에서 ""제거""를 눌러 주십시오."
+Volume,수량
+Yes,예
+ItemNumberAmount,물품수:
+WeightExpected,예상무게 :
+WeightObserved,관찰된 무게 :
+UnknownPriceMessage,상품 가격을 알 수 없습니다.\n곧 도움을 받으실 수 있습니다.\n\n상품을 보관한 후 계속 진행.
+SetAllItemsAsideMessage,전체 구매 내역 취소됨.\n\n모든 상품들을 유보해 주십시오.
+ConfirmAbortMessage,카트를 비우시겠습니까? 거래가 취소될 것입니다.
+NoKeep,"아니요, 유지합니다."
+NoReturn,"아니요, 거래 내역으로 다시 반환합니다."
+YesEmpty,"예, 카트를 비우고 거래를 종료합니다."
+YesRemove,예. 제거합니다.
+HostOfflineMessage,해당 계산 통로는 현재 오프라인 상태이며  자동으로 연결을 다시 시도하고 있습니다.
+LaneClosedMessage,계산 통로 닫기 완료
+LoadingText,로드 중
+VerifyBagsMessage,장바구니 영역에 봉투 하나 이외에 다른 것을 잘못해서 올렸다면 지금 제거해 주십시오.
+HelpOnWay,곧 도움을 받으실 수 있습니다.  계속 진행해 주십시오.
+OwnBagMessage,저울에 상품을 위치시켜 주십시오.
+UseOwnBag,봉투/상자
+AttendantMode,안내 직원 모드
+AttendantTrainingMode,안내 직원 및 교육 모드
+TrainingMode,PIN 패드에서 취소를 누르면 지불을 취소합니다.
+ScaleBroken,"상품을 저울에서 제거한 다음 스캐너의 '저울 영점' 단추를 눌러 주십시오."
+Refunded,환불:
+EnterIDMessage,"사용자 ID를 입력한 다음 '입력'을 눌러 주십시오."
+EnterIDText,ID 입력
+EnterPasswordMessage,"패스워드를 입력한 다음 '입력'을 눌러 주십시오."
+EnterPasswordText,패스워드 입력
+VisualVerify,시각적으로 확인
+SingleItemAddedFormat,{0} 카트에 추가할 상품.
+Approved,승인됨
+VoidItemBeforeCouponMessage,쿠폰이 무효화 될 때까지 관련 상품을 무효화할 수 없습니다. 상품의 쿠폰을 먼저 무효화해 주십시오.
+VerifyBags,안내 직원이 봉투를 검사할 것입니다.
+CancelItems,상품 취소
+EnterQuantityTitle,필요 수량
+SecUnExpectedIncreaseTitle,장바구니 경고
+WeightMismatchTitle,도움 필요
+AssistanceNeededTitle,도움 필요
+CheckBasketTitle,장바구니 확인
+ConfirmDebitAmountTitle,금액 승인
+DropoffCouponsTitle,쿠폰을 제출해 주십시오.
+InsufficientBalanceTitle,잔고 부족
+OperatorPasswordStateInvalidPasswordWithFPTitle,지문 로그인 실패
+PurchaseCrateTitle,상자 단위 구입
+RestrictedItemTitle,제한 상품
+SecBagAreaBackupTitle,뒤로 이동한 상품
+SignChargeTitle,영수증 서명
+TakeCardTitle,카드 받기
+ContinueTitle,계속하시겠습니까?
+ApprovalNeededTitle,승인 필요
+IncorrectLoginTitle,정확하지 않은 숫자
+RecalledItemTitle,반납된 상품
+RemovedItemTitle,장바구니 경고
+SetAllItemsAsideTitle,상품  유보
+TakeLoyaltyCardTitle,고객 카드 받기
+UnknownPriceTitle,알 수 없는 가격
+ConfirmEBTAmountTitle,금액 승인
+DisconnectedTitle,연결 해제됨
+ShuttingDown,중단 중
+NoneText,없음
+SMText,매장 모드
+SMLogInReceiptText,매장 모드로 로그인함
+SMLogOutReceiptText,매장 모드에서 로그아웃 함
+WLDBOffLineText,중량 데이터베이스: 오프라인
+OperatorIDText,오퍼레이터 ID: 
+SignOnButtonText,사인 온
+SignOffButtonText,사인 오프
+AlertText,경고:
+SuspendInProgressText,보류 진행 상태 
+SuspendLeadthru1,현재 거래의 보류 요청이 전달되었습니다.\n이 요청을 승인 또는 취소해 주십시오.
+SuspendLeadthru2,"현재 거래를 보류했습니다.  이 요청을 승인해 주십시오.  취소하기 위해서는 NCR SelfServ Checkout 터미널에서 '뒤로 이동'을 누른 후에 취소해 주십시오."
+ReceiptText,영수증:
+SuspendReasonText1,보류: 일반
+CancelSuspendButtonText,보류 취소
+ConfirmSuspendNowButtonText,지금 보류 \n승인
+ConfirmAllowSuspendButtonText,보류 허용 확인
+ConfirmSuspendRequestButtonText,보류 요청 승인
+CancelSuspendNowButtonText,지금 보류 취소
+GoBackButtonText,뒤로 이동
+CancelSuspendRequestButtonText,보류 요청 취소
+CouponText,쿠폰:
+SuspendReasonText2,보류: 쿠폰
+CouponReceiptText,"쿠폰 %d 장, 총액 $%.2f"
+SuspendNowButtonText,지금 보류
+RequestSuspendButtonText,보류 요청
+NotConnectedText,연결되지 않음.
+ConnectingText,연결 중… 잠시만 기다려 주십시오
+ApprovalNeededText,승인 필요:
+SuspendReasonText3,보류: 기타
+ClearRequestButtonText,요청 삭제
+ApproveButtonText,승인
+RestrictedItemText,제한 상품:
+SuspendReasonText4,보류: 제한됨
+SecurityLogText,보안 로그:
+SuspendReasonText5,보류: 보안
+SignatureText,서명:
+SignatureAndNameText,서명: %s
+ConnectingLeadthru,NCR SelfServ Checkout에 연결 중... 잠시만 기다려 주십시오
+EnterIDLeadthru,아래의 키패드를 이용해서 ID를 입력하십시오.
+EnterPasswordLeadthru,아래의 키패드를 이용해서 패스워드를 입력하십시오.
+LoggingInLeadthru,로그인 중… 잠시만 기다려 주십시오.
+ApproveSecurityButtonText,보안 승인
+ApprovalNeededButtonText,승인 필요
+VerifySignatureButtonText,서명 \n확인
+AllowSuspendButtonText,보류 허용
+MainButtonText,메인
+SuspendTransactionButtonText,거래 보류
+ApproveAndCollectButtonText,승인 및 수집
+ClearApprovalsButtonText,승인 내역 삭제
+BirthDateOver30ButtonText,30 세 이상 출생 날짜
+SignAgainButtonText,다시 서명
+BackSpaceButtonText,백스페이스
+EnterButtonText,입력
+LaneNumberText,계산 통로: %d
+RAPTitle,NCR SelfServ Checkout 원격 승인 스테이션
+CancelSuspendText,보류 취소
+OtherPaymentSelectedText,다른 지불 방식 선택됨
+CouponCollectionText,쿠폰 컬렉션
+PendingSuspendText,유보 중인 보류
+SignatureApprovalText,서명 승인
+LaneText,계산 통로
+VideoButtonText,비디오
+ClearButtonText,삭제
+QuantityButtonText,수량
+FeesAndCustomerAgreementsTitle,요금 및 고객 계약 내용:
+FeesButtonText,요금
+CustomerAgreementButtonText,고객 계약 내용
+FeesAndCustomerAgreementsLeadthru,요금 및 고객 계약 내용
+TransactionSuspendedText,보류된 거래
+POSMessageText,POS 메시지:
+ConnectingWaitingText,잠시만 기다려 주십시오. NCR SelfServ Checkout에 연결 중입니다...
+DateOfBirthNotNeededButtonText,출생 날짜 필요하지 않음
+AssistModeButtonText,도움 모드
+ClearSecurityButtonText,보안 허용
+VisualApproveButtonText,시각 승인
+CheckAgeTitle,고객의 나이 확인
+CouponLimitExceededTitle,쿠폰 한계 초과
+VerifyItemAndPriceTitle,상품 및 가격 확인
+UnknownItemTitle,알 수 없는 상품 유보
+ItemNotForSaleTitle,판매용 상품 아님
+ItemQuantityExceededTitle,상품 수량 초과됨
+TimeRestrictedItemTitle,시간 제한 상품
+CheckAgeLeadthru,고객의 출생 날짜 %s 입력 후 ’입력’ 누름
+InvalidBirthDateFormatLeadthru,입력한 날짜의 형식이 올바르지 않습니다. \n%s 형식으로 다시 입력해 주십시오.
+CouponLimitExceededLeadthru,‘승인’을 누르면 계산 통로에서 쿠폰을 적립할 수 있으며 ‘승인 및 수집’을 누르면 고객에게서 직접 받습니다.
+VisualApproveLeadthru,"거래 내역을 수정하기 위해서는 '시각 승인'이나 '도움 모드'를 눌러 주십시오."
+UnknownItemLeadthru,"계산 통로에서 상품들을 한 곳으로 모은 다음 '보안 허용'이나 '도움 모드'를 눌러서 거래를 완료합니다."
+ItemNotForSaleLeadthru,"계산 통로에서 상품들을 한 곳으로 모은 다음 '보안 허용'을 눌러 주십시오."
+OffLineLaneButtonText,오프라인
+ExitText,나가기
+EnterDataLaneButtonText,데이터 입력
+AgeCheckLaneButtonText,나이 확인
+CouponLaneButtonText,쿠폰
+VoidLaneButtonText,무효
+VerifyItemLaneButtonText,상품 확인
+NotFoundLaneButtonText,찾을 수 없음
+NoSaleLaneButtonText,판매하지 않음
+QuantityLaneButtonText,수량
+HelpLaneButtonText,도움
+NoInterventionLeadthru,현재 직원이 개입이 필요하지 않습니다.
+OffLineLeadthru,해당 계산 통로는 현재 오프라인이며 시스템에서 자동으로 연결을 다시 시도하고 있습니다.
+CancelRequestButtonText,요청 취소
+HelpRequestTitle,도움 요청됨
+SecurityLaneButtonText,보안
+VoidLeadthru,"무효화된 상품을 수집한 후 '무효 승인'을 눌러 주십시오."
+ApproveVoidButtonText,무효 승인
+SecurityLeadthru,"보안을 위해 고객 거래 내역을 관찰하고 '보안 해제'를 눌러 주십시오."
+SecurityViolationText,보안 위반
+OtherPaymentText,다른 지불 방식 선택됨
+SuspendTransactionLeadthru,"'거래 보류' 또는 '도움 모드'를 누른 후 지불을 승인합니다."
+EASText,EAS 상품 활성화 상태 유지
+DeactivateLeadthru,"상품을 비활성화시키거나 하드 태그를 제거한 다음에 '보안 허용'을 눌러 주십시오."
+CompareSignatureTitle,서명 비교
+CompareSignatureLeadthru,"서명을 비교한 다음 '승인'을 누르거나 '다시 서명'을 눌러 주십시오."
+EnterPriceLeadthru,"상품 가격을 입력한 다음 '입력'을 눌러 주십시오."
+UtilityButtonText,유틸리티
+ReturnToMainButtonText,메인으로 돌아감
+GetDiagFilesButtonText,대화상자 파일 얻기
+CouponApprovalLeadthru,"승인 스테이션에서 고객이 제시한 쿠폰을 승인한 다음 '승인'을 누르십시오."
+RebootSystemButtonText,전체 시스템 다시 시작
+ShutDownSystemButtonText,전체 시스템 종료
+LaneStatusTitle,계산 통로 상태
+LaneStatusLeadthru,기능 선택.
+AgeRestrictedText,"나이 제한 상품, %2d 세"
+BirthdateEnterText,"입력한 출생 날짜:%2d/%2d/%4d,%d 세"
+HelpRequestLeadthru,"고객을 도와 드린 후 '요청 취소'를 누르십시오."
+TotalText,총합:
+ItemText,상품:
+MultimediaTrainingText,멀티미디어 교육
+VolumeControlButtonText,부피 제어
+SecurityViolationNumText,보안 위반:
+ItemPurchasedText,구매한 상품:
+EnterPriceTitle,가격 입력
+CancelTransactionGenericTitle,거래 취소
+CancelTransactionGenericLeadthru,"'예'를 누르면 거래를 취소하고 '아니요'를 누르면 거래가 계속됩니다."
+YesButtonText,예
+NoButtonText,아니요
+ConfirmSuspendTitle,보류:
+ConfirmSuspendLeadthru,보류 내역을 확인하십시오.
+ConfirmSuspendButtonText,보류 확인
+IncorrectItemWeightTitle,보안 저울에서 부정확한 중량.
+IncorrectItemWeightLeadthru,"상품을 제거한 다음 '보안 허용'을 누르거나 '중량 승인 및 업데이트'를 눌러 주십시오."
+ApproveUpdateButtonText,중량 승인 및 업데이트
+UnexpectedIncreaseTitle,보안 저울에 예상하지 못한 상품.
+UnexpectedIncreaseLeadthru,"계산 통로로 가서 여분의 상품들을 제거한 다음 '보안 허용'을 눌러 주십시오."
+SkipBaggingBtnThresholdLeadthru,"계산 통로에서 상품들을 확인한 다음 '보안 허용'을 눌러 주십시오."
+NewWeightItemTitle,상품 중량에 대한 기록 없음.
+NewWeightItemLeadthru,"상품 중량을 확인한 다음 '중량 승인 및 업데이트'를 누르거나 '승인/업데이트하지 않음'을 눌러 주십시오."
+ApproveNoUpdateButtonText,승인/업데이트 않음.
+BagItemTimerExpiredTitle,보안 저울에서 예상된 중량.
+TakeChangeTimerExpiredTitle,거스름돈 받기
+TakeChangeTimerExpiredBottomCaption,타이머 시간 초과
+PickingUpItemsTimerExpiredTitle,상품이 장바구니 영역으로 반납되지 않음.
+DeviceFailureTitle,장치 오작동
+DeviceFailureLeadthru,계산 통로로 가서 장치를 점검해 주십시오.
+WLDBFailureTitle,WLDB 통신이 올바로 수행되지 않음.
+WLDBFailureLeadthru,통신을 점검해 주십시오.
+UnexpectedDecreaseTitle,장바구니 영역에서 상품 제거.
+ClosedLaneTitle,계산 통로로 가서 매장 모드로 로그인 한 다음 계산 통로를 열어 주십시오.
+ClosedLaneLeadthru,계산 통로 닫기 완료
+BagAreaBackupTitle,벨트 위의 뒤로 이동한 상품
+BagAreaBackupLeadthru,벨트에서 뒤로 이동한 상품들을 제거해 주십시오.
+MinimumAgeText,최소 나이.
+SafetyCoverOpenLeadthru,모든 상품들을 벨트에서 제거한 다음 안전 커버를 닫아 주십시오.
+VerifySignatureLeadthru,고객의 서명을 카드의 서명과 비교해 주십시오.
+AssistedTenderTitle,오퍼레이터 도움 입찰
+AssistedTenderLeadthru,고객이 수표로 결제하려고 할 경우 도움 모드를 이용하십시오.
+AssistedTenderHHLeadthru,고객이 수표로 결제하려고 할 경우 도움 모드를 이용하십시오.
+AssistedEndorsementLeadthru,배서 필요. 오퍼레이터가 도와 드릴 때까지 잠시만 기다려 주십시오.
+StartTransactionButtonText,거래 시작
+StartTransactionTitle,오퍼레이터 도움 기능
+StartTransactionLeadthru,원하는 기능을 선택하십시오.
+StartTransactionAMButtonText,시작 및 도움
+ItemsForgottenTitle,거래 후 중량이 저울에\n남아 있습니다.
+InsertCouponTimerExpiredTitle,쿠폰 삽
+CollectGiftCardTitle,선물 카드 수집
+HostOfflineLeadthru,해당 계산 통로는 현재 오프라인 상태이며  자동으로 연결을 다시 시도하고 있습니다.
+SpaceButtonText,스페이스
+LaneReceiptItemType1,%s\t%s
+LaneReceiptItemType2,%s
+LaneReceiptItemType3,%s\t%s\t수량 %s @ %s/단일 품목 당\t%s
+LaneReceiptItemType4,%s\t%s\t수량 %s @ %s/%s\t%s
+LaneReceiptItemType5,%s\t%s\t%ss @ %s %s/%s\t%s
+LaneReceiptItemType6,%s\t%s\t%ss @ %s/%s\t%s
+CloseLaneButtonText,계산 통로 닫기
+ReportingButtonText,보고
+KeyInCodeTitle,코드 입력
+KeyInCodeLeadthru,"상품 코드를 입력한 다음 'OK'을 눌러 주십시오."
+VoidItemButtonText,상품 무효화
+ChangePriceButtonText,가격 변경
+ChangeQuantityButtonText,수량 변경
+ReturnToShoppingButtonText,쇼핑 모드로 돌아가기
+BasicAssistModeTitle,도움 기능
+BasicAssistModeLeadthru,상품 스캔 또는 기능 선택.
+ChangePriceTitle,가격 변경
+KeyInPriceLeadthru,다음에 대한 가격 입력: %d %s
+VoidAllButtonText,모두 무효화
+VoidItemTitle,상품 무효화
+VoidItemLeadthru,"상품을 스캔하거나 영수증 상의 상품으로 스크롤해서 '상품 무효화'나 '모두 무효화'를 눌러 주십시오."
+ChangeQuantityTitle,수량 변경
+KeyInQuantityLeadthru,다음에 대한 수량 입력: %s
+FullAssistButtonText,전체 도움
+CloseButtonText,닫기
+UpdateItemLeadthru,"영수증 상의 상품으로 스크롤 해서 '입력'을 누르십시오."
+OKButtonText,확인
+CouponNoMatchLeadthru,쿠폰이 영수증 상의 어떠한 상품과도 일치하지 않습니다. 따라서 이 쿠폰은 사용할 수 없습니다.
+CouponTooHighLeadthru,이 쿠폰에 대해 입력한 금액이 너무 높습니다.  이 시스템은 이 쿠폰을 받을 수 없습니다.
+EnterCouponValueLeadthru,"쿠폰의 금액을 원 단위로 입력한 다음 '입력'을 눌러 주십시오."
+ItemQuantityExceededLeadthru,이 상품에 대해 허용된 금액을 초과했습니다.  상품을 유보한 다음 계속 진행해 주십시오.
+ProcessingLeadthru,처리 중...잠시만 기다려 주십시오.
+VoidNoMatchLeadthru,스캔한 상품을 찾을 수 없습니다.  아직 구입이 되지 않았거나 이미 취소되었습니다.
+ConfirmAbortLeadthru,계산을 중단하고 전체 구입 내역을 취소하시겠습니까?
+ContinueTransLeadthru,구입을 계속하시겠습니까?
+ConfirmQuantityTitle,수량 승인
+ConfirmVoidTitle,취소 승인
+CouponNoMatchTitle,일치하지 않는 쿠폰
+CouponTooHighTitle,쿠폰 금액 너무 높음
+CrateableItemTitle,상자 단위 구입
+EnterCouponValueTitle,쿠폰 금액 입력
+EnterQuantityLeadthru,"수량을 입력한 다음 '입력'을 눌러 주십시오."
+EnterWeightTitle,상품 중량 측정
+EnterWeightLeadthru,상품을 저울에 위치시키십시오.
+AMItemQuantityExceededTitle,수량 제한
+ProcessingTitle,처리 중…
+SelectContainerTitle,용기를 선택하십시오
+SelectContainerLeadthru,"목록 내의 용기로 스크롤한 다음 '입력'을 눌러 주십시오."
+VoidNoMatchTitle,상품 취소 불가능
+ConfirmAbortTitle,모든 상품 취소
+ContinueTransTitle,계속하시겠습니까?
+ScaleBrokenTitle,저울 재설정
+ScaleBrokenLeadthru,"상품을 저울에서 제거한 다음 스캐너의 '저울 영점' 단추를 눌러 주십시오."
+UpdateNotAllowedTitle,상품 업데이트 실패
+UpdateNotAllowedLeadthru,무게를 측정한 물품에 대해 수량을 변경할 수 없습니다.
+SmEnterBirthdateTitle,제한 상품
+SmEnterBirthdateLeadthru,날짜 입력
+SmVisualItemsTitle,시각적 확인
+SmVisualItemsLeadthru,시각적 확인 상품 승인
+SmCouponItemsTitle,사용한 쿠폰 승인
+SmCouponItemsLeadthru,사용한 쿠폰 확인
+SmRestrictedItemsTitle,제한 상품
+SmRestrictedItemsLeadthru,원하는 기능을 선택하십시오.
+KeyInBirthDateButtonText,날짜 입력
+KeyInCodeButtonText,코드 \n입력
+SmRunReportsTitle,보고서 내용
+PrintReportButtonText,보고서 인쇄
+LaneReceiptItemType7,    %s
+AM_RestrictedNotAllowedTitle,제한 상품
+AM_RestrictedNotAllowedLeadthru,제한 상품이 취소되었습니다 – 연령 제한 충족되지 않음. \n\n상품을 유보해 주십시오.
+TransactionCancelTitle,거래 취소
+TransactionCancelLeadThru,거래 취소됨 제거 이 계산대에서의 \n상품
+OutOfSyncNeedAssistTitle,도움 모드를 사용해야 함
+OutOfSyncNeedAssistLeadthru,POS가 동기화에서 벗어 났습니다.  다시 동기화하기 위해 도움 모드를 사용해 주십시오.
+OutOfSyncStopTitle,다시 시작해야 함
+OutOfSyncStopLeadthru,POS 서버가 오프라인이거나 동기화에서 벗어났습니다. 터미널을 꺼 주십시오.
+MultiPackItemTitle,멀티 팩 확인
+MultiPackItemLeadthru,상품이 멀티 팩인 경우 ‘도움 모드’를 눌러서 취소한 다음 멀티 팩 바코드를 스캔해 주십시오.
+CancelActionButtonText,활동 취소
+EnterIDFpLeadthru,사용자 ID를 입력하고 ‘입력’을 누르거나 손가락을 지문 인식 장치에 위치시켜서 로그인합니다.
+ReEnterIDFpLeadthru,잘못된 로그인. 키패드나 지문을 이용해서 다시 로그인해 주십시오.
+HH_SuspendLeadthru1,현재 거래를 보류하시겠습니까? 승인 또는 취소.
+HH_SuspendLeadthru2,현재 거래가 보류되었습니다. 승인. 취소하려면 ‘뒤로 이동’을 누른 다음 취소하십시오.
+HH_ReEnterIDLeadthru,잘못된 ID 또는 패스워드. 키패드에서 다시 입력해 주십시오.
+HH_CheckAgeLeadthru,고객의 출생 날짜 %s 입력 후 ’입력’ 누름
+HH_CouponLimitExceededLeadthru,계산 통로에서 쿠폰 ‘승인’을 누르거나 고객에게서 수집할 경우 ‘승인 및 수집’.
+HH_VisualApproveLeadthru,"거래 내역을 수정하기 위해서는 '시각 승인'이나 '도움 모드'."
+HH_VisualApproveLeadthru2,"""Visual Approve"", or ""Assist Mode"" at Lane to modify."
+HH_UnknownItemLeadthru,"상품 수집, ‘보안 허용’ 또는 ‘도움 모드’로 완료."
+HH_UnknownItemLeadthru2,"Collect item, ""Clear Security"", or use ""Assist Mode"" at Lane to complete."
+HH_ItemNotForSaleLeadthru,"계산 통로에서 상품들을 한 곳으로 모은 다음 '보안 허용'."
+HH_NoInterventionLeadthru,직원이 개입이 필요하지 않움.
+HH_OffLineLeadthru,계산 통로 오프라인. 시스템 재연결 시도 중.
+HH_InvalidBirthDateFormatLeadthru,날짜 형식이 올바르지 않음\n%s 형식으로 입력.
+HH_VoidLeadthru,"무효화된 물품 수집 후 '무효 승인'."
+HH_SuspendTransactionLeadthru,거래를 보류하려면 “거래 보류”를 눌러 주십시오.
+HH_DeactivateLeadthru,"물품을 비활성화시키거나 하드 태그를 제거한 다음에 '보안 허용'."
+HH_CompareSignatureLeadthru,"서명을 비교한 다음 '승인' 또는 '다시 서명'."
+HH_EnterPriceLeadthru,"상품 가격을 입력한 다음 '입력'."
+HH_CouponApprovalLeadthru,고객에게서 쿠폰을 허용한 다음 ‘승인’.
+HH_HelpRequestLeadthru,"고객을 도와 드린 후 '요청 취소'."
+HH_CancelTransactionGenericLeadthru,"'예'를 누르면 거래를 취소하고 '아니요'를 누르면 거래가 계속."
+HH_IncorrectItemWeightLeadthru,"상품을 제거한 다음 '보안 허용'을 누르거나 '중량 승인 및 업데이트'."
+HH_UnexpectedIncreaseLeadthru,"계산 통로에서 여분의 상품들을 제거한 다음 '보안 허용'."
+HH_SkipBaggingBtnThresholdLeadthru,"계산 통로에서 상품들을 확인한 다음 '보안 허용'."
+HH_NewWeightItemLeadthru,무게를 확인 한 다음 ‘중량 승인 및 업데이트’ 또는 ‘승인/업데이트 않음’.
+HH_SafetyCoverOpenLeadthru,벨트에서 모든 상품 제거. 안전 커버 닫음.
+HH_VerifySignatureLeadthru,고객의 서명을 카드 서명과 비교.
+HH_AssistedEndorsementLeadthru,배서 필요. 오퍼레이터 도움 대기.
+HH_HostOfflineLeadthru,계산 통로 오프라인. 시스템 재연결 시도 중.
+HH_KeyInCodeLeadthru,"상품 코드를 입력한 다음 '입력'."
+HH_VoidItemLeadthru,영수증 상의 상품 스캔 또는 스크롤. ‘상품 무효화’ 또는 ‘모두 무효화’.
+HH_UpdateItemLeadthru,"영수증 상의 상품으로 스크롤 해서 '입력'."
+HH_CouponNoMatchLeadthru,쿠폰이 영수증 상의 어떠한 상품과도 일치하지 않습니다. 허용되지 않은 쿠폰.
+HH_CouponTooHighLeadthru,쿠폰 금액이 너무 큼. 시스템에서 승인할 수 없음.
+HH_ItemQuantityExceededLeadthru,허용 수량 초과. \n\n상품을 보관한 후 계속 진행.
+HH_VoidNoMatchLeadthru,스캔한 상품을 찾을 수 없습니다. 상품이 구입되지 않거나 취소되었음.
+HH_ConfirmAbortLeadthru,체크아웃을 중단하고 전체 구입을 취소하시겠습니까?
+HH_ContinueTransLeadthru,구입을 계속하시겠습니까?
+HH_EnterQuantityLeadthru,"수량을 입력한 다음 '입력'."
+HH_SelectContainerLeadthru,"목록에서 용기를 선택한 후 '입력'."
+HH_ScaleBrokenLeadthru,"상품을 저울에서 제거한 다음 스캐너의 '저울 영점'."
+HH_UpdateNotAllowedLeadthru,수량 변경 허용되지 않음.
+HH_AM_RestrictedNotAllowedLeadthru,제한 상품이 취소되었습니다 – 연령 제한 충족되지 않음 상품을  보관합니다.
+HH_OutOfSyncNeedAssistLeadthru,POS 동기화 되지 않음. ‘도움 모드’에서 동기화.
+HH_OutOfSyncStopLeadthru,POS 서버가 다운되었거나 동기화되지 않음. 스위치를 이용해서 터미널 종료.
+HH_MultiPackItemLeadthru,"멀티팩인 경우 ‘도움 모드’, 무효화 후 멀티팩 바코드 스캔."
+HH_ReturnToShoppingButtonText,반납
+DoneButtonText,완료
+ConfirmSuspendFromLaneStatusLeadthruText,보류 확인 또는 취소를 해 주십시오.
+HH_SuspendTransactionButtonText,거래 보류
+HH_TransactionCancelTitle,거래 취소
+HH_TransactionCancelLeadThru,거래 취소됨 제거 이 계산대에서의 상품
+ShiftButtonText,Shift
+FixLaterButtonText,나중에 고침
+HopperLaneButtonText,동전 대체 금액
+HopperLeadThru,%s계산 통로로 이동해서 동전을 채우거나 걸림을 제거하거나 ‘나중에 고침’을 눌러서 계속 진행하십시오.
+TransactionCountText,카운트:
+TMTransLeadthru,계산 통로가 교육 모드입니다. 거래를 계속하시겠습니까?
+HH_TMTransLeadthru,계산 통로가 교육 모드입니다.\n거래를 계속하시겠습니까?
+TMTransLaneButtonText,교육 거래
+SecurityDisableText,보안 비활성화
+SecurityDisableButtonOn,켜기
+SecurityDisableButtonOff,끄기
+SecurityDisableStatusTextOn,장바구니 보안이 켜졌습니다
+SecurityDisableStatusTextOff,장바구니 보안이 꺼졌습니다
+SuspendDeclinedLaneButtonText,보류 거부됨
+ConfirmSuspendDeclinedLeadthru,보류 거부 확인 또는 취소.
+ConfirmSuspendDeclinedButtonText,거부 확인
+CancelSuspendDeclinedButtonText,뒤로 이동
+DateFormat1,(mmddyyyy)
+DateFormat2,(mmddyy)
+DateFormat3,(ddmmyyyy)
+DateFormat4,(ddmmyy)
+DateFormat5,(yyyymmdd)
+DateFormat6,(yymmdd)
+GoBackCouponButtonText,뒤로 이동
+ApproveCouponButtonText,쿠폰 승인
+CouponExceededLimitLeadthru,‘쿠폰 승인’을 눌러서 쿠폰을 인정하거나 도움 모드로 이동해서 무효화하십시오.
+CouponExceededLimitFinalizationLeadthru,매장 쿠폰 제한을 초과하는 쿠폰을 이용해서 이 거래가 마무리되었습니다.
+ClearSecurityFinalizationButtonText,보안 허용
+ExpandReceiptButtonText,영수증 상세하게
+CollapseReceiptButtonText,영수증 간단하게
+InvalidBarcodeLeadThru,"계산 통로에서 상품을 모은 후에 '승인'을 눌러서 거래를 계속 진행합니다."
+InvalidBarcodeLaneButtonText,상품 확인
+HH_InvalidBarcodeLeadThru,"상품을 모은 후에 '승인'을 눌러서 계속 진행합니다."
+GoToLaneOrHHRapLeadthru, Please go to Lane or HHRap for approval
+GoToLaneOrRapLeadthru, Please go to Lane or Rap for approval
+GoToLaneLeadthru, 승인을 위해 계산 통로로 이동해 주세요
+DisableRapApprovalText, RAP 승인 비활성화
+DisableHHRapApprovalText, HHRAP 승인 비활성화
+UpdateItemButtonText,상품 업데이트
+SuspendConfirmationTitle,보류 확인
+DoNotApproveButtonText,승인 금지
+SmVoidAndRemoveItemLeadthru,장바구니 영역에서 취소된 상품을 제거해 주십시오.
+RestrictedItemsNotApprovedTitle,제한 상품 - 승인되지 않음
+HH_AssistAtLaneLeadthru,상품 무효화를 위해 계산 통로로 이동해 주세요.
+XM_Acceptor,투입 장치
+XM_CashStatus,현금 상태
+XM_CashStatusLeadthru,원하는 기능을 선택하십시오.
+XM_CoinAcceptor,동전 수납 장치
+XM_CoinOverflow,동전 넘침
+XM_CoinOverflowText,넘침 상자
+XM_CoinRecycler,동전 재순환 장치
+XM_Coins,동전
+XM_NoteOverflow,지폐 넘침
+XM_NoteOverflowText,현금 상자
+XM_NoteRecycler,지폐 재순환 장치
+XM_Notes,지폐
+XM_PurgeOperationText,방출 작업
+XM_TerminalNumber,터미널 번호
+XM_TotalCount,총 카운트:
+XM_TotalValue,총합:
+XM_CoinsSubtotal,동전 중간 합계:
+XM_NotesSubtotal,지폐 중간 합계:
+XM_GrandTotal,총합:
+XM_PurgeInstruction, 방출 작업:  거부된 지폐 발견. 계산 통로로 가서 장치를 점검해 주십시오.
+XM_RAP_NegativeAlert,Negative number found. 계산 통로로 가서 장치를 점검해 주십시오.
+XM_AreYouSure,아래 나열된 작업을 실행하시겠습니까
+XM_Attendant,안내 직원
+XM_Backspace,백스페이스
+XM_BillAcceptor,지폐 수납 장치
+XM_BillDispenser,지폐 지급 장치
+XM_Bins,상자
+XM_BothDispenseFailure,%s 지급 실패.\n현금 부족 또는 지급 장치 에러.
+XM_CancelChanges,변경 취소
+XM_CannotCompleteTransfer,전송을 완료할 수 없습니다. 현금 상자에 충분한 공간이 없습니다. 이 작업을 수행하기 전에 먼저 현금 상자를 비워 주십시오.
+XM_CashManagement,지폐 관리
+XM_CashManagementReport,현금 관리 보고서
+XM_CashRemove,현금 제거
+XM_CashRemoveLeadthru,원하는 기능을 선택하십시오.
+XM_CashReplenishLeadthru,원하는 기능을 선택하십시오.
+XM_CashReplenishLeadthru1,동전 삽입 또는 기능 선택
+XM_CashReplenishLeadthru2, 현금 삽입 또는 기능 선택
+XM_CashReplenishLeadthru3,작업을 완료하면 ‘나가기’를 눌러 주십시오.
+XM_CashReplenishment,현금 추가
+XM_ChangeInCount,수량 변경
+XM_ChangeInValue,수치 상 변화
+XM_Clear,삭제
+XM_ClearPrompt1,완료하면 다른 기능을 선택하거나 ‘나가기’를 선택하십시오.
+XM_ClearPrompt2,다른 기능을 선택하거나 ‘나가기’를 선택하십시오.
+XM_CoinAcceptorOffline,수납 장치 응답하지 않음.\n\n터미널을 종료한 다음 다시 시작해 주십시오.
+XM_CoinDispenseFailure,%s 지급 실패.\n동전 부족 또는 동전 지급 장치 에러.
+XM_CoinDispenser,동전 지급 장치
+XM_CoinManagement,동전 관리
+XM_ConfirmAction,작업 확인
+XM_ConfirmCoinDispense,* 동전 지급\n지급할 금액: %s\n지급 카운트: %d
+XM_ConfirmEmptyCoinAcceptor,* 동전 수납 장치 카운트를 0으로 재설정 제거할 금액:%s
+XM_ConfirmEmptyCoinOverflow,* 동전 넘침 카운트를 0으로 재설정 제거할 금액:%s
+XM_ConfirmEmptyNoteAcceptor,* 지폐 수납 장치 카운트를 0으로 재설정 제거할 금액:%s
+XM_ConfirmEmptyNoteOverflow,* 현금 상자 카운트를 0으로 재설정 제거할 금액:%s
+XM_ConfirmFillLoaderCassette,* 지폐 카운트 설정\n새로운 금액: %s\n새 카운트: %d
+XM_ConfirmManualCoinEmpty,* 동전 카운트를 0으로 재설정\n제거할 금액: %s\n제거 카운트: %d
+XM_ConfirmManualCoinFill,* 동전 카운트 설정\n새로운 금액: %s\n새 카운트: %d
+XM_ConfirmManualNoteEmpty,* 지폐 카운트를 0으로 재설정\n제거할 금액: %s\n제거 카운트: %d
+XM_ConfirmManualNoteFill,* 지폐 카운트 설정\n새로운 금액: %s\n새 카운트: %d
+XM_ConfirmNoteDispense,* 지폐 지급\n지급할 금액: %s\n지급 카운트: %d
+XM_ConfirmTransferNotesToOverflow, * 지폐를 현금 상자로 전송\n전송할 금액: %s\n전송 카운트: %d
+XM_Count,카운트
+XM_DispenseCupFull,동전 반환 장치가 가득찼습니다.  지급을 완료하기 위해서 동전을 제거해 주십시오.
+XM_DispenseCupFullPreemptive, 동전을 받기\n동전 반환 장치가 가득 찼다면  비움. 비우기 전까지 지급이 일시정지.
+XM_DispenseFullPreemptive,지폐와 동전 받기 지폐는 15장 묶음으로 지급. 지폐를 받기 전까지 지급이 일시정지. 동전 반환 장치가 가득 찼다면 즉시 비움. 비우기 전까지 지급이 일시정지.
+XM_DispenseNoteFullPreemptive, 지폐 받기 지폐는 15장 묶음으로 지급. 받기 전까지 지급이 일시정지.
+XM_DispenseSensorBlock,동전 반환구가 가득 찼거나 센서가 고장났습니다. 동전을 제거하거나 서비스 부서에 연락하십시오.
+XM_DispenseText,지급
+XM_DispenseThreshold,투입된 숫자가 지급 가능한 액수를 초과했습니다.  최대 가능한 액수가 입력되었습니다: %d
+XM_Empty,비우기
+XM_EmptyCashAcceptorLT,현금 수납 장치에서 현금 제거하기
+XM_EmptyCashBoxLT,현금 상자에서 현금 제거
+XM_EmptyCoinAcceptor,동전 수납 장치 재설정
+XM_EmptyCoinAcceptorLT,동전 수납 장치에서 동전 제거
+XM_EmptyCoinHopperLT,장치에서 동전 제거.
+XM_EmptyCoinOverflow,동전 넘침 재설정
+XM_EmptyCoinOverflowLT,동전 넘침 상자에서 동전 제거
+XM_EmptyLoaderCassetteLT,로더 카세트에서 지폐 제거
+XM_EmptyNoteAcceptor,지폐 수납 장치 재설정
+XM_EmptyNoteCassetteLT,지폐 카세트와 방출 상자에서 지폐를 제거하십시오
+XM_EmptyNoteOverflow,현금 상자 재설정
+XM_Enter,입력
+XM_ExceededAmount,금액이 용량을 초과했습니다. 필요한 최대 금액은 %s입니다.
+XM_ExceededCapacity,금액이 용량을 초과했습니다. 필요한 최대 금액은 %d입니다.
+XM_Execute,변경 적용
+XM_Exit,나가기
+XM_FastLaneReport,NCR SelfServ Checkout 보고서
+XM_FillLoaderCassette,지폐 계산 설정
+XM_GoBack,뒤로 이동
+XM_ID,출납 직원 ID
+XM_IDPrompt,ID 입력 후 ‘입력’ 누름.
+XM_InvalidAmount,%s에 대해 입력된 값이 올바르지 않습니다.\n다시 입력해 주십시오.
+XM_KeyPadEnterCoinAmount,키패드를 이용해서 %s 동전에 대한 금액 입력
+XM_KeyPadEnterCoinCount,키패드를 이용해서 %s 동전에 대한 개수 입력
+XM_KeyPadEnterNoteAmount,키패드를 이용해서 %s 지폐에 대한 금액 입력
+XM_KeyPadEnterNoteCount,키패드를 이용해서 %s 지폐에 대한 개수 입력
+XM_KeyPadInstr,키패드로 개수 입력
+XM_ManualBothFillAlert,계산 통로 문을 열고 카세트에 지폐를 넣고 깔대기형 동전 상자에 동전을 넣어 주십시오. 수납 장치에 투입하지 마십시오.
+XM_ManualBothRecyclerFillAlert,계산 통로 문을 열고 로더에 지폐를 넣고 깔대기형 동전 상자에 동전을 넣어 주십시오. 수납 장치에 투입하지 마십시오.
+XM_ManualCoinDispenserEmpty,동전 계산 재설정
+XM_ManualCoinDispenserFill,동전 계산 설정
+XM_ManualCoinFillAlert,계산 통로 문을 열고 장치에 동전을 바로 넣어 주십시오. 동전 수납 장치에 투입하지 마십시오.
+XM_ManualEmptyAlert,장치에서 모든 현금 제거.
+XM_ManualFillAlert,계산 통로 문을 열고 장치에 현금을 바로 넣어 주십시오. 수납 장치에 투입하지 마십시오.
+XM_ManualNoteDispenserEmpty,지폐 계산 재설정
+XM_ManualNoteDispenserFill,지폐 계산 설정
+XM_ManualNoteFillAlert,계산 통로 문을 열고 카세트에 지폐를 바로 넣어 주십시오. 지폐 수납 장치에 투입하지 마십시오.
+XM_ManualNoteRecyclerFillAlert,계산 통로 문을 열고 로더에 지폐를 바로 넣어 주십시오. 지폐 수납장치에 넣지 마십시오.
+XM_No,아니요
+XM_NoteDispenseFailure,%s 지급 실패.\n지폐 부족 또는 지폐 지급 장치 에러.
+XM_PW,출납 직원 패스워드
+XM_PWPrompt,패스워드 입력 후 ‘입력’ 누름.
+XM_PendingText,보류 중
+XM_PleaseWait,처리 중...\n잠시만 기다려 주십시오.
+XM_Print,현금 상태 인쇄
+XM_PurgeCoinRecycler,동전 순환 장치 방출
+XM_PurgeNoteRecycler,지폐 순환 장치 방출
+XM_ReEnter,부정확한 출납 직원 번호 및 패스워드.\n다시 시도해 주십시오
+XM_ResetCoinsToBaseLevel,베이스 레벨로 동전 지급
+XM_ResetNotesToBaseLevel,베이스 레벨까지 지폐 전송
+XM_SelectFunc1,시스템 기능 선택
+XM_SelectFunc2,원하는 기능을 선택하십시오.
+XM_StoreNumber,매장 번호:
+XM_TransferAllNotes,모든 지폐 전송
+XM_TransferNotesToOverflow,현금 상자로 지폐 전송
+XM_Update,업데이트
+XM_Yes,예
+XM_CardManagement,카드 관리
+XM_SequenceNumber,일련 번호
+XM_TotalCoinsInserted,삽입된 총합
+XM_TotalNotesInserted,삽입된 총합
+XM_Value,값
+XM_TransferXCount,전송 (x) 카운트
+XM_TransferXAmount,전송 (x) 금액 
+XM_TransfertoCashBoxLeadThruText,"지폐 %s 을(를) 현금 상자에 전송하려면 ""변경 적용""을 눌러 주십시오. 보류 중인 모든 변경을 취소하려면 “변경 취소""를 눌러 주십시오."
+XM_MenuDispenseFunctions, 지급 기능
+XM_MenuResetFunctions, 재설정 기능
+XM_MenuCashBoxTransfer,현금 상자 전송
+XM_LeadThruCashBoxTransfer,필요한 전송 기능 선택. 완료되면 ‘변경 적용’.
+XM_LeadThruResetFunction,필요한 재설정 기능 선택. 완료되면 ‘변경 적용’.
+XM_LeadThruDispenseFunction,액면가를 누르고 금액을 입력하거나 ”베이스 레벨로 동전 지급” 누름.
+XM_PurgeInstructionRecycler," 방출 작업:  거부된 지폐 발견.  현금 상자에서 거부된 지폐 제거.  ""모든 지폐 전송""을 누른 후 “현금 상자 재설정”을 눌러 경고 해제."
+XM_PurgeInstructionNonRecycler,"방출 작업: 거부된 지폐 발견.  방출 상자에서 거부된 지폐 제거.  ""지폐 카운트 재설정""을 눌러서 경고 해제."
+XM_ReplenishInstruction,현금을 넣거나 액면가를 선택한 후 금액을 입력하거나 카운트 설정. 완료되면 “변경 적용”.
+XM_PickUpAutoAmount,픽업 자동 금액
+XM_PickUpXAmount,픽업 (x) 자동 금액
+XM_MenuPickUpFunctions,픽업 기능
+XM_LeadThruPickUpFunction,필요한 픽업 기능 선택. 완료되면 “변경 적용”.
+XM_KeyPadEnterPickUpAmount,키패드를 이용해서 픽업 금액 입력.
+XM_InvalidPickUpAmount,입력한 값이 전송 또는 지급 가능한 금액보다도 더 큽니다.
+XM_InvalidStartingBank,구성된 시작 은행이 전송 또는 지급 가능한 금액보다도 더 큽니다.
+XM_CalculatedPickUpAmount,계산된 픽업 금액은 %s 입니다.
+XM_UnableToPickUp,픽업 수행 불가능.
+XM_CoinAllowedDispenseExceeded,동전 %d 개 지급 시도 중. 지급 가능한 최대 동전 개수는 %d 개입니다.
+XM_InvalidPickUpAmount2,현금 상자와 동전 넘침 상자 내 금액이 픽업 금액보다 큽니다.
+XM_LockScreen,화면 잠금
+XM_SystemBusy,시스템 사용 중… 잠시만 기다려 주십시오
+XM_AreYouSure_LockScreen,화면을 잠그시겠습니까? \n장치가 작업을 완료하기 전까지 화면을 잠글 수 없습니다.
+XM_NegativeAlert,"음수 발견. 가능한 원인: 키 입력 에러 발생 또는 로더 카세트에 지폐가 있지만,현금 관리에 이 지폐 수가 입력되지 않았습니다.\n\n해결을 위해 아래 단계를 따라 주십시오:\n1. ‘현금 추가’를 선택합니다. \n2. 음수로 표시된 지폐 종류를 터치합니다. \n3. 음수 대신 정확한 달러 금액 또는 로더에 있는 금액을 입력합니다. \n4. ‘변경 적용’을 선택합니다. \n5. ‘예’를 선택해서 확인한 후 나갑니다."
+XM_AddCashLeadthru1,동전을 삽입하거나 실린더를 터치한 후 금액을 입력하거나 카운트를 설정합니다.
+XM_AddCashLeadthru2,현금을 삽입하거나 실린더를 터치한 후 금액을 입력하거나 카운트를 설정합니다.
+XM_AddCashLeadthru3,실린더를 터치하고 금액을 입력하거나 카운트를 설정하십시오.
+XM_CoinHopperEmpty,동전 수를 0으로 재설정하려면 동전 깔대기 상자를 비워야 합니다.  ‘변경 적용’을 누르기 전에 각 동전 깔대기 상자를 비우십시오.
+XM_CollectRemainingCoins,지급이 완료되면 동전 반환부에서 모든 동전을 제거하십시오.
+XM_FPIDPrompt,사용자 ID를 입력하고 ‘입력’을 누르거나 손가락을 지문 인식 장치에 위치시켜서 로그인합니다.
+XM_LoanFailure,대출 실패
+XM_LoanFailureLeadthru,대출이 거부되었습니다. 원하는 기능을 선택하십시오.
+XM_UndoLoan,대출 취소
+XM_CommitLoan,대출 수행
+XM_PickUpFailure,픽업 실패
+XM_PickUpFailureLeadthru,픽업이 거부되었습니다. 원하는 기능을 선택하십시오.
+XM_UndoPickUp,픽업 취소
+XM_CommitPickUp,픽업 수행
+XM_ManualRemoveCashAlert,현금 상자에서 현금을 제거하고 동전 넘침 상자에서 동전을 제거해서 대출을 취소해 주십시오.\n\n지폐\n제거하기 위해 수량 계산: %d\n제거할 수량: %s\n\n동전s\n제거하기 위해 수량 계산: %d\n제거할 수량: %s
+XM_POSRejectedLoanPickUp,POS 대출/픽업 거부함:  %s / %d  거부함.\n
+XM_LoanPickUpCashierOverrides,출납 직원 ID %s 대출/픽업 오버라이드: %s / %d  수행.\n\n
+XM_PlaceJammedBill,현금 상자를 제거하고 내부에 걸려 있는 모든 지폐들을 찾아 주십시오.
+MinMaxFastLaneBtnPrimaryTxt, SelfServ Checkout 최소화
+MinMaxFastLaneBtnSecondaryTxt, SelfServ Checkout 최대화
+MinMaxFastLaneBtnPrimaryShowConfirmation,SelfServ Checkout을 최소화하려면 ‘SelfServ Checkout 최소화’ 단추를 눌러 주십시오.
+MinMaxFastLaneBtnSecondaryShowConfirmation,SelfServ Checkout을 최대화하려면 ‘SelfServ Checkout 최대화’ 단추를 눌러 주십시오.
+StopStartFastLaneBtnPrimaryTxt,SelfServ Checkout 정지
+StopStartFastLaneBtnSecondaryTxt,SelfServ Checkout 다시 시작
+SwitchToRAPBtnPrimaryTxt, RAP으로 전환
+ShutdownSystemBtnPrimaryTxt,전체 시스템 종료
+RebootSystemBtnPrimaryTxt,전체 시스템 다시 시작
+VolumeBtnPrimaryTxt,볼륨 제어
+EventViewerBtnPrimaryTxt,이벤트 뷰어
+GenerateLogBtnPrimaryTxt,진단 로그 파일 생성
+ExitFastLaneAndRunProfileBtnPrimaryTxt, SelfServ Checkout 정지 후 프로파일 관리자 실행
+ExitFastLaneAndRunProfileBtnSecondaryTxt,프로파일 관리자 실행
+TerminalInfoBtnPrimaryTxt,터미널 정보
+MinMaxRAPBtnPrimaryTxt,RAP 최소화
+MinMaxRAPBtnSecondaryTxt,RAP 최대화
+MinMaxRAPBtnPrimaryShowConfirmation,RAP을 최소화하려면 ‘RAP 최소화’ 단추를 눌러 주십시오.
+MinMaxRAPBtnSecondaryShowConfirmation,RAP을 최대화하려면 ‘RAP 최대화’ 단추를 눌러 주십시오.
+StopStartRAPButtonPrimaryTxt,RAP 정지
+StopStartRAPButtonSecondaryTxt,RAP 다시 시작
+RapConfigureBtnPrimaryTxt,RAP 구성
+SwitchToFastLaneBtnPrimaryTxt, SelfServ Checkout으로 전환
+ExitRAPAndRunProfileBtnPrimaryTxt,RAP을 종료하고 프로파일 관리자 실행
+ExitRAPAndRunProfileBtnSecondaryTxt,프로파일 관리자 실행
+UtilityFunctionsTitle,NCR SelfServ Checkout\n유틸리티 기능
+StartTitle,시스템 시작
+SystemStartup,시스템 시작… 잠시만 기다려 주십시오
+TerminalID,터미널 ID: 
+InterfaceVersion,소프트웨어 버전:
+TrainingProgramPrimaryTxt,교육 프로그램
+LaunchPadNet_OperatorIDText,오퍼레이터 ID: 
+KeySwitchOperatorID,키 잠금
+LaunchPadNet_SignOnButtonText,사인 온
+LaunchPadNet_SignOffButtonText,사인 오프
+SignedOffButtonText,사인 오프
+Exit,모두 나가기
+LaunchPadNet_ReturnToShoppingButtonText,반납
+PickListEditor,선택 목록 편집기
+RunADDTxt,다음 다시 시작 시 ADD 실행
+TouchWareTxt,터치 스크린 조정
+DiagConfirm,진단 로그 파일을 생성하시겠습니까?
+ProfileManagerFLConfirm,SelfServ Checkout을 정지시킨 후 프로파일 관리자를 실행하시겠습니까?
+ProfileManagerRAPConfirm,RAP를 정지시킨 후 프로파일 관리자를 실행하시겠습니까?
+ProfileManagerConfirm,프로파일 관리자를 시작하시겠습니까?
+EventViewerConfirm,이벤트 뷰어를 시작하시겠습니까?
+TrainingConfirm,교육 프로그램을 시작하시겠습니까?
+PicklistConfirm,Picklist 편집기를 시작하시겠습니까?
+RunADDConfirm,다음에 다시 시작할 때 ADD를 실행시키시겠습니까?
+CalibrateConfirm,터치 스크린을 조정하시겠습니까?
+ShutdownConfirm,전체 시스템을 종료하시겠습니까?
+RebootConfirm,전체 시스템을 다시 시작하시겠습니까?
+CloseAllConfirm,모든 응용 프로그램을 종료하고 바탕화면으로 이동하시겠습니까?
+VolumeConfirm,볼륨 제어 기능을 조절하시겠습니까?
+TerminalInfoConfirm,터미널 정보를 보시겠습니까?
+StopFastLaneConfirm,SelfServ Checkout을 정지시키시겠습니까?
+StopRAPConfirm,RAP를 정지시키시겠습니까?
+StartFastLaneConfirm,SelfServ Checkout 다시 시작?
+StartRAPConfirm,RAP 다시 시작?
+WindowsLogOnTxt,로그온Windows
+WindowsLogOnConfirm,모든 응용 프로그램을 종료하고 새로운 사용자로 로그온Windows 하시겠습니까?
+YesText,예
+NoText,취소
+CommandPromptPrimaryTxt,명령 프롬프트
+CommandPromptConfirm,명령 프롬프트를 시작하시겠습니까?
+RSMLEPrimaryTxt,Retail Systems Manager LE
+RSMLEConfirm,Retail Systems Manager LE를 시작하시겠습니까?
+OperatorRegistrationUtility,오퍼레이터 등록 유틸리티
+LaunchPadNet_EnterIDFpLeadthru,사용자 ID를 입력하고 ‘입력’을 누르거나 손가락을 지문 인식 장치에 위치시켜서 로그인합니다.
+LaunchPadNet_ReEnterIDFpLeadthru,잘못된 로그인. 키패드나 지문을 이용해서 다시 로그인해 주십시오.
+LaunchPadNet_ClearButtonText,삭제
+LaunchPadNet_EnterButtonText,입력
+LaunchPadNet_GoBackButtonText,뒤로 이동
+LaunchPadNet_SpaceButtonText,스페이스
+LaunchPadNet_BackSpaceButtonText,백스페이스
+LaunchPadNet_EnterIDLeadthru,아래의 키패드를 이용해서 ID를 입력하십시오:
+ReEnterIDLeadthru,잘못된 ID 또는 패스워드. 아래의 키패드를 이용해서 다시 입력해 주십시오.
+LaunchPadNet_EnterPasswordLeadthru,아래의 키패드를 이용해서 패스워드를 입력하십시오:
+CancelButtonText,취소
+LaunchPadNet_LoggingInLeadthru,로그인 중… 잠시만 기다려 주십시오
+LaunchPadNet_ShiftButtonText,Shift
+LaunchPadNet_SignedOffButtonText,사인 오프
+LaunchPadNet_ReEnterIDLeadthru,잘못된 ID 또는 패스워드. 아래의 키패드를 이용해서 다시 입력해 주십시오.
+LegalCaptionText,"LEGAL CAPTION\nThis system is for the use of authorized personnel only. By logging onto this system, you are subject to the terms and conditions of all Information Security policies and standards. Use by unauthorized individuals or for unauthorized purposes is a violation of federal and/or state law. The company reserves the right to take any necessary actions to protect authorized users, intellectual property and other information assets. Individuals using this system are subject to having all of their activities on this system monitored. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals possible evidence of criminal activity, system personnel may provide the evidence of such monitoring to law enforcement officials.\n        "
+SignBelow,아래에 서명하십시오.
+AlertStatusTextOff,
+AlertStatusTextOn,!!!
+PageIndicatorLabelFormat,페이지 {0} / {1}
+SignOnTitle,NCR SelfServ Checkout Log In
+HH_TransactionCancelLeadThru2,Transaction cancelled.
+InitialText,.
+XM_CashUnbalance,Discrepancy error occurred in the recycler.
+XM_Cassette,Cassette
+XM_CassetteMissing,Bill Cassette is not in the unit. Put Bill Cassette back into the unit.
+XM_Collect,Collect
+XM_CollectFailure,The collect operation resulted in failure.
+XM_EmptyCassetteAndRejectBin,Remove bills from Bill Cassettes and Reject Bin.
+XM_GloryDispenseCupFullPreemptive,"Please Take Coins\nIf coin return is full, empty promptly. Dispensing will pause until bowl is emptied."
+XM_GloryDispenseFullPreemptive,"Please Take Bills and Coins\nBills are dispensed in bunches of 10. Dispensing will pause until all bills are taken. If coin return is full, empty promptly. Dispensing will pause until bowl is emptied."
+XM_GloryDispenseNoteFullPreemptive,Please Take Bills\nBills are dispensed in bunches of 10. Dispensing will pause until all bills are taken.
+XM_GrandTotalText,Grand Total: %s
+XM_InitializeError,The system encounters an error to be corrected.
+XM_LeadThruGloryFunction,"Touch denomination and enter amount or touch ""Collect""."
+XM_ManualRemoveCashAlertGlory,Remove cash from the cassette to undo loan.\n\nBills\nCount to remove: %d\nAmount to remove: %s
+XM_NegativeAlert_Remove,"Negative number found. Possible causes: keying error occurred, or bills were placed in the loader cassette, but the counts for these bills were not entered in Cash Management.\n\nFollow steps below to resolve:\n1. Select ""Exit"" then select ""Add Cash"".\n2. Touch the denomination with the negative number.\n3. Enter the exact dollar amount of the negative number and/or the amount placed in the loader.\n4. Select ""Apply Changes"".\n5. Select ""Yes"" to confirm and then ""Exit""."
+XM_OperatorID,Operator ID %s
+XM_TotalAddedText,Total Added: %s
+XM_TotalColectedText,Total Collected: %s
+XM_TotalRemovedText,Total Removed: %s
+DueCart,기한
+ScotApp_1742,부적절한 장바구니
+ScotApp_71,71unused
+ScotApp_61,61unused
+ScotApp_51,쿠폰 스캔 불가능
+ScotApp_41,제한 상품
+ScotApp_31,쿠폰
+ScotApp_1055,1055unused
+ScotApp_11,11unused
+ScotApp_789,카드를 통과시켜 주십시오.\n추가 상품에대해 장바구니를 확인해 주십시오.
+ScotApp_689,  판매:      %d
+ScotApp_589,Device Factory 로드 완료.
+ScotApp_389,카드 처리 중
+ScotApp_289,289unused
+ScotApp_189,옵션 로드 완료.
+ScotApp_91,91unused
+ScotApp_773,저장된 금액:
+ScotApp_673,고객에게 거스름돈 %s을(를) 지불해 주십시오.
+ScotApp_1264,사용자 지정6
+ScotApp_473,보충 필요.
+ScotApp_373,프린터 걸림 꺼내기
+ScotApp_989,989unused
+ScotApp_889,%s\n실제 중량(%s): %s\n예상 중량(%s): %s
+ScotApp_1520,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1042,배서 전표:\n배서 실패 때문에 이 전표가 \n인쇄되었습니다.  이 전표를 적절한\n문서에 첨부해 주시기 바랍니다.\n----------------------------------------\n
+ScotApp_973,973unused
+ScotApp_873,D.L. / I.D. 번호 입력:
+ScotApp_1737,직접 가져온 장바구니
+ScotApp_752,어제 요약
+ScotApp_652, **UPS에 대한 WLDB 항목 없음
+ScotApp_1054,1054unused
+ScotApp_452,케이블이 동전 수납 장치 한쪽 면에 올바로 연결되어 있는지 확인해 주십시오.
+ScotApp_352,업데이트
+ScotApp_252,\n동전 지급 장치 걸림\n\n동전 지급 장치 걸림을 제거해 주십시오.
+ScotApp_152,152unused
+ScotApp_1310,* 지폐 수납 장치를 제거합니다.\n* 지폐 수납 장치가 고정될 때가지 다시 넣습닌다.\n* 지폐 수납 장치 모터가 켜져 있고 LED가 녹색으로 켜져 있는지 확인하십시오.
+ScotApp_661,(기본 설정)
+ScotApp_952,0 중량 추가
+ScotApp_852,상품 3개
+ScotApp_1527,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1838,상품 확인
+ScotApp_731,요약
+ScotApp_631,소유자 이름:
+ScotApp_531,\n서명 캡처 장치 오류
+ScotApp_331,봉투 저울에서 상품을 제거하십시오. 키보드 사용 불가능 설정.
+ScotApp_231,231unused
+ScotApp_131,쿠폰 투입
+ScotApp_1736,장바구니를 장바구니 영역에 올려 주시고 ‘완료’를 눌러 주십시오.
+ScotApp_1250,PIP 신용
+ScotApp_831,831unused
+ScotApp_300,300unused
+ScotApp_1306,%s 거스름돈 지급됨
+ScotApp_710,710unused
+ScotApp_610,상품 중량:
+ScotApp_510,다시 서명
+ScotApp_310,상자 용량이 부족합니다
+ScotApp_210,210unused
+ScotApp_110,상품 중량 측정
+ScotApp_1526,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1126,동전 지급 장치 오류.\n\n지급 장치에 켜기/끄기 스위치가 있으면 이 스위치를 점검해 주십시오.
+ScotApp_1040,서명
+ScotApp_810, 교육 모드 
+ScotApp_1735,장바구니를 올려 주십시오
+ScotApp_1257,PIP 푸드 스탬프
+ScotApp_704,PIN 패드 입력
+ScotApp_604,상품을 스캔합니다.
+ScotApp_504,504unused
+ScotApp_404,404unused
+ScotApp_304,용기를 선택하십시오
+ScotApp_204,파일을 서버에 복사 중...
+ScotApp_104,104unused
+ScotApp_1269,사용자 지정11
+ScotApp_904,상품 중량 승인
+ScotApp_804,804unused
+ScotApp_1047,배서 필요. 오퍼레이터가 도와 드릴 때까지 잠시만 기다려 주십시오.
+ScotApp_1478,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1134,지폐 카세트 가득 참.
+ScotApp_1734,장바구니 지참
+ScotApp_1256,PIP EBT
+ScotApp_1512,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1465,현금 재활용 장치 에러
+ScotApp_1721,교육 모드 거래
+ScotApp_1890,처리 중...
+ScotApp_1243,고객 관리
+ScotApp_1544,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_63,아니요
+ScotApp_53,53unused
+ScotApp_43,43unused
+ScotApp_33,직접 문제 해결 완료
+ScotApp_1255,PIP 직불 수표
+ScotApp_13,  %ss @ %s/%s
+ScotApp_1511,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_93,스캔 및 봉투
+ScotApp_83,83unused
+ScotApp_1464,터미널 번호
+ScotApp_1189,입력된 상품
+ScotApp_1720,제거된 무게:
+ScotApp_1045,%s(으)로 지불
+ScotApp_672,*** 교육 모드 거래 ***
+ScotApp_572,"상품 코드를 입력한 다음 '입력'을 눌러 주십시오."
+ScotApp_472,도움 필요
+ScotApp_372,프린터 측면 통신 에러
+ScotApp_272,사용한 쿠폰 확인
+ScotApp_172,원하지 않는 상품을 스캔하거나 영수증에서 상품을 선택해 주십시오.
+ScotApp_1510,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1701,%s 지급 실패.  
+ScotApp_972,972unused
+ScotApp_872,보류 취소
+ScotApp_1188,입력된 수량
+ScotApp_1727,상품 찾기
+ScotApp_751,오늘 시간별
+ScotApp_651,기본 설정
+ScotApp_551,551unused
+ScotApp_451,동전 수납 장치 상태 걸림
+ScotApp_351,현금/용지 상태
+ScotApp_251,251unused
+ScotApp_151,현금을 받으십시오
+ScotApp_951,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s 제거됨;LSWND3=%s;
+ScotApp_851,상품 2개
+ScotApp_730,730unused
+ScotApp_630,신용 카드#:
+ScotApp_430,서비스 제공하지 않음
+ScotApp_330,도움 모드
+ScotApp_230,현금 수납 장치 상태 거절됨
+ScotApp_130,쿠폰을 투입해 주십시오.
+ScotApp_1726,찾기 완료
+ScotApp_930,통신을 점검해 주십시오.
+ScotApp_830,상품 제거됨
+ScotApp_193,193unused
+ScotApp_1457,화폐 충분함
+ScotApp_1283,1283unused
+ScotApp_724,724unused
+ScotApp_624,유효하지 않은 허용치 입력됨
+ScotApp_424,수량 입력
+ScotApp_324,출생 날짜 필요하지 않음
+ScotApp_224,카드 리더 캡처 상자 제거됨
+ScotApp_124,124unused
+ScotApp_1469,고객에게 %s 지급 실패.  %s\n* 동전 및 지폐 공급 장치를 점검하십시오.\n* 보충이나 걸림 제거를 위해서 ‘현금/용지 상태’를 누르십시오.
+ScotApp_924,924unused
+ScotApp_824,보류 확인
+ScotApp_576,카드 입찰 시작.
+ScotApp_1247,푸드 스탬프
+ScotApp_1678,SafePay
+ScotApp_1503,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1756,검색 결과에서 선택하거나 ‘뒤로 이동’.
+ScotApp_1456,부정확한 출납 직원 번호 및 패스워드. \n다시 시도해 주십시오
+ScotApp_1502,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1712,보류 거부됨
+ScotApp_1468,현금 재활용 상태 비어 있음
+ScotApp_1246,EBT
+ScotApp_75,완료
+ScotApp_65,65unused
+ScotApp_55,모두 취소
+ScotApp_45,45unused
+ScotApp_35,거스름돈 액수:
+ScotApp_1258,PIP 선물 카드
+ScotApp_15,상품 코드:
+ScotApp_1711,보류 거부됨
+ScotApp_1683,SafePay
+ScotApp_95,쿠폰 스캔
+ScotApp_85,85unused
+ScotApp_1058,도움 입찰
+ScotApp_1664,SafePay
+ScotApp_797,%s 지급 실패.\n* 카세트 내의 지폐를 확인하고 지폐 지급 장치에 걸림이 발생하지 않았는지 점검해 주십시오.\n* 지폐 카세트와 방출 상자가 올바로 걸려 있는지 확인하십시오.\n* 안전 도어를 닫아 주십시오.
+ScotApp_697,697unused
+ScotApp_597,NCR SelfServ Checkout Forms %d 로드 중...
+ScotApp_497,금액:
+ScotApp_297,297unused
+ScotApp_197,Presentation Services 로드 완료.
+ScotApp_997,가격 입력
+ScotApp_897,WTINFO 로드 완료.
+ScotApp_1454,패스워드 입력 후 ‘입력’ 누름.
+ScotApp_1710,반환된 현금을 받아 주십시오
+ScotApp_1741,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s 예상;LSWND3=%s %s 관찰
+ScotApp_1388,교육 프로그램
+ScotApp_771,보류 취소
+ScotApp_671,교육 모드 나가기
+ScotApp_571,"수량을 입력한 다음 '입력'을 눌러 주십시오."
+ScotApp_471,   시각적 확인
+ScotApp_371,프린터 헤드 교체
+ScotApp_271,사용한 쿠폰 승인
+ScotApp_971,971unused
+ScotApp_871,보류 확인
+ScotApp_1840,매장 번호:
+ScotApp_750,오늘 요약
+ScotApp_650,정규 제품
+ScotApp_550,550unused
+ScotApp_450,450unused
+ScotApp_350,현금/용지 상태
+ScotApp_250,250unused
+ScotApp_150,캐시 백 금액 선택
+ScotApp_1773,‘쿠폰 승인’을 눌러서 쿠폰을 인정하거나 도움 모드로 이동해서 무효화하십시오.
+ScotApp_950,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s 추가됨;LSWND3=%s;
+ScotApp_850,상품 하나
+ScotApp_1405,POS가 동기화에서 벗어 났습니다.  다시 동기화하기 위해 도움 모드를 사용해 주십시오.
+ScotApp_1513,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1657,잘못된 부문
+ScotApp_1225,알 수 없는 상품
+ScotApp_644,-------------------------------------------------------------------
+ScotApp_544,패스워드는 %d 자리를 초과할 수 없습니다.
+ScotApp_444,푸드 스탬프
+ScotApp_344,344unused
+ScotApp_244,244unused
+ScotApp_144,서명 비교
+ScotApp_1590,상자 %s 동전 걸림.
+ScotApp_1669,SafePay
+ScotApp_944,봉투/상자에 요청이 너무 많음.  Max = %d.
+ScotApp_844,844unused
+ScotApp_1729,상품 찾기:
+ScotApp_1447,현금 제거
+ScotApp_1703,(+)
+ScotApp_1656,"부문 코드를 입력한 다음 '입력'을 눌러 주십시오."
+ScotApp_915,요청이 너무 많아서 벨트 건너뛰기 불가능.  최대 = %d.
+ScotApp_1668,SafePay
+ScotApp_1542,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1139,지폐 지급 장치 도어가 열려 있습니다.
+ScotApp_1254,PIP 직불 예금
+ScotApp_1249,PIP 일반
+ScotApp_77,크레딧
+ScotApp_67,뒤로 이동
+ScotApp_57,종료 및 결제
+ScotApp_47,시작
+ScotApp_37,37unused
+ScotApp_1458,NCR SelfServ Checkout 보고서
+ScotApp_17,쿠폰
+ScotApp_1752,저울 위 무게가 너무 무겁습니다.
+ScotApp_1643,SafePay
+ScotApp_97,목록에서 용기 선택
+ScotApp_87,87unused
+ScotApp_1665,SafePay
+ScotApp_1138,%s 지급 실패.  
+ScotApp_1589,동전 없음
+ScotApp_1445,수량 변경
+ScotApp_1318,상품권 검색
+ScotApp_1654,개수가 용량을 초과했습니다. 필요한 최대 적재 개수는 %d 입니다. 개수로 %d이(가) 자동으로 입력됩니다.
+ScotApp_796,"동전 부족 또는 동전 지급 장치 에러/꺼짐.\n* 동전 지급 장치를 켜 주십시오. 또는\n* 동전을 다시 채운 다음 동전 지급 장치를 끄고 다시 켠 후에 ""동전 지급 장치 다시 채움""을 눌러 주십시오 – 계산 통로 상태 화면."
+ScotApp_696,696unused
+ScotApp_596,NCR SelfServ Checkout AuxDisp 로드 완료.
+ScotApp_1391,"'직접 문제 해결 완료'을 눌러 주십시오.\n에러가 계속 발생하면 터미널을 종료하고 다시 시작해 주십시오."
+ScotApp_396,다음 사안에 대해 매장 도움이 필요합니다:
+ScotApp_296,296unused
+ScotApp_196,Presentation Services 로드 중...
+ScotApp_1588,‘지급 장치 픽업’ 단추를 선택하려면 각 상자를 먼저 비워야 합니다.  각 동전 깔대기 상자를 비운 다음 ‘지급 장치 픽업’을 누르셔야 합니다.
+ScotApp_996,가격 입력
+ScotApp_896,WTINFO 로드 중...
+ScotApp_574,"패스워드를 입력한 다음 '입력'을 눌러 주십시오."
+ScotApp_1093,최근 보고서 인쇄
+ScotApp_1641,SafePay
+ScotApp_1781,시간 만료로 인한 감사 페이지
+ScotApp_562,쿠폰은 도움 모드에서 판매되어야 합니다
+ScotApp_874,"D.L. 또는 I.D. 번호를 입력한 다음 '입력'을 눌러 주십시오."
+ScotApp_1124,1124unused
+ScotApp_770,보류 확인
+ScotApp_670,교육 모드 들어가기
+ScotApp_570,570unused
+ScotApp_470,   연령 제한
+ScotApp_370,프린터 프린터 열림
+ScotApp_270,쿠폰 승인
+ScotApp_170,"상품을 저울에서 제거한 다음 스캐너의 '저울 영점' 단추를 눌러 주십시오."
+ScotApp_1640,SafePay
+ScotApp_870,경고:
+ScotApp_1733,‘뒤로 이동’을 선택하면 계속 진행합니다.
+ScotApp_1553,화폐량 많음 상태:
+ScotApp_664,상품을 스캔하거나 언어를 선택하십시오.
+ScotApp_564,564unused
+ScotApp_464,%s               %s
+ScotApp_364,364unused
+ScotApp_264,264unused
+ScotApp_964,"상품을 제거한 다음 '보안 허용'을 누르거나 '중량 승인 및 업데이트'를 눌러 주십시오."
+ScotApp_864,승인:
+ScotApp_1647,(mmddyyyy)
+ScotApp_1119,접근 도어가 열린 상태에서는 지폐 지급 장치가 작동하지 않습니다.\n\n지급 장치 도어나 안전 도어를 닫고 고정시켜 주십시오.\n\n에러가 다시 발생하면 서비스를 요청해 주십시오.
+ScotApp_1659,영수증 인쇄
+ScotApp_819,무효화된 상품에 대한 보류를 확인합니다.
+ScotApp_1339,전체 시스템 다시 시작
+ScotApp_1582,미디어 상태
+ScotApp_1154,스캐너 에러
+ScotApp_1117,%s 지폐 지급 장치 카세트가 없거나 오나전히 삽입되지 않았음.\n\n%s 지폐 카세트를 설치하거나 완전히 고정될 때까지 다시 위치를 잡아 주십시오.
+ScotApp_1294,파슬리
+ScotApp_1030,쿠폰을 넣어 주십시오.
+ScotApp_1658,고객이 올바른 거스름돈을 받았는지 확인해 주십시오.
+ScotApp_1421,도움 모드
+ScotApp_709,709unused
+ScotApp_1129,올바른 작업이 수행되지 않았습니다.\n\n다시 시도해 주십시오.
+ScotApp_509,509unused
+ScotApp_409,시스템 메시지
+ScotApp_309,원
+ScotApp_209,프로그램 정지
+ScotApp_109,계속하시겠습니까?
+ScotApp_1338,대화상자 파일 얻기
+ScotApp_909,보안 저울에서 부정확한 중량.
+ScotApp_809,POS 메시지:
+ScotApp_1645,SafePay
+ScotApp_1116,지폐 차단 상자가 없거나 지폐 지급 장치가 올바른 위치에 고정되지 않으면 지폐 지급 장치가 작동하지 않습니다.\n\n지폐 차단 상자를 넣고 완전하게 고정되었는지 확인해 주십시오. 
+ScotApp_1128,%s\n
+ScotApp_1452,ID 입력 후 ‘입력’ 누름.
+ScotApp_183,183unused
+ScotApp_1450,상자 잠금
+ScotApp_1293,망고
+ScotApp_1644,SafePay
+ScotApp_1115,오프라인 보고
+ScotApp_795,보다 나은 서비스를 위해 구매 활동이 모니터링됩니다.
+ScotApp_695,695unused
+ScotApp_595,NCR SelfServ Checkout AuxDisp 로드 중...
+ScotApp_395,제한 상품 허가되지 않음
+ScotApp_295,295unused
+ScotApp_195,Device Manager 로드 완료.
+ScotApp_566,566unused
+ScotApp_1324,거래 후 중량이\n저울에 남아 있습니다.
+ScotApp_995,계산 통로로 가서 매장 모드로 로그인 한 다음 계산 통로를 열어 주십시오.
+ScotApp_895,DBM 종료 중...
+ScotApp_1102,다음
+ScotApp_1383,(예외)
+ScotApp_1402,지폐 차단 상자 점퍼 플러그가 꺼져 있습니다
+ScotApp_1292,가지
+ScotApp_1114,종료 보고서 기간 업데이트 성공
+ScotApp_1222,서비스 제공하지 않음
+ScotApp_1101,%s\t%s
+ScotApp_1159,PIN 패드 / EFT 응답하지 않음.
+ScotApp_1100,%s
+ScotApp_1539,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1649,(ddmmyyyy)
+ScotApp_1317,상품권 지불
+ScotApp_1883,"장바구니 저울을 확인하고 불필요한 상품을 카드에 담은 후 '보안 해제'를 눌러 주십시오."
+ScotApp_729,729unused
+ScotApp_629,총 금액:
+ScotApp_429,빨간색
+ScotApp_329,  %ss @ %d %s/%s
+ScotApp_229,229unused
+ScotApp_129,무효화된 상품이 유보되었는지 확인합니다.
+ScotApp_1107,%s\t%s\t수량 %s @ %s/%s\t%s
+ScotApp_1538,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_929,WLDB 통신이 올바로 수행되지 않음.
+ScotApp_829,829unused
+ScotApp_1316,* 프린터 커버를 열고 보이는 곳에서 용지 걸림을 확인합니다.\n * 프린터 커버를 닫고 용지를 다시 넣습니다.
+ScotApp_81,계속
+ScotApp_1882,스마트 도움 경고 - 상품 스캔되지 않음.
+ScotApp_1673,SafePay
+ScotApp_1135,지폐 지급 장치 에러
+ScotApp_1705,통신 에러.
+ScotApp_1894,Set item aside and continue with your purchase.
+ScotApp_787,"입력된 출생 날짜: %s, %d 세"
+ScotApp_1398, 안내 직원 교육
+ScotApp_1106,%s\t%s\t수량 %s @ %s/단일 품목 당\t%s
+ScotApp_1525,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1493,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1490,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1315,* 프린터 커버를 열고 용지 걸림을 확인합니다.\n * 프린터 커버를 닫고 용지를 다시 넣습니다.
+ScotApp_1881,"장바구니 저울을 확인하고 불필요한 상품을 제거한 다음 '보안 해제'를 눌러 주십시오."
+ScotApp_1173,승인된 무효화 상품
+ScotApp_1524,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_505,정확하지 않은 숫자
+ScotApp_1302,닫기
+ScotApp_905, (영수증에 상세 정보 기록...)
+ScotApp_1164,프린터가 올바로 위치되어 있지 않습니다.
+ScotApp_1492,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1314,* 프린터 커버를 열고 용지 부스러기를 제거합니다.\n * 커버를 닫습니다.\n * 새 용지 두루마리를 넣습니다.\n * 용지를 두루마리 위쪽부터 프린터에 넣습니다.
+ScotApp_1817,* 동전 순환 장치를 꺼냅니다.\n* 둥근 형태의 도어를 열고 벨트에서 동전을 제거합니다.\n* 모든 도어가 닫혀 있고 잠궈져 있는지 확인합니다.\n* 고객에게 동전을 반환합니다. 에러가 다시 발생하면 서비스를 요청해 주십시오.
+ScotApp_1442,보충을 위해 지폐를 넣거나 방출을 위해서 ‘현금 제거’를 눌러 주십시오.
+ScotApp_1880,장바구니 저울에 예상하지 못한 상품.
+ScotApp_1172,승인된 보류
+ScotApp_1415,1415unused
+ScotApp_788,유효한 출생 날짜:%s
+ScotApp_688,688unused
+ScotApp_588,Device Factory 로드 중...
+ScotApp_488,상품을 저울에 위치시키십시오: %s
+ScotApp_388,처리 중...
+ScotApp_288,"'직접 문제 해결 완료'을 눌러 주십시오.\n\n만일 에러가 계속 나타난다면 터미널을 다시 시작해 주십시오:\n관리자 키 잠금 장치를 'S'로 돌리거나 관리자 단추를 눌러 주십시오.\n'전체 시스템 종료'를 선택해 주십시오.\n화면이 꺼지면 UPS나 전원 컨원에서 터미널의 전원을 차단해 주시기 바랍니다.\n그 후에 다시 터미널을 켜 주십시오. 에러가 다시 발생하면 서비스를 요청해 주십시오."
+ScotApp_188,옵션 로드 중...
+ScotApp_988,벨트 위 예상하지 못한 상품. 상품을 제거해 주십시오.
+ScotApp_888,장바구니 영역 내에서 예상하지 못한 상품 발견.  상품을 제거해 주십시오.
+ScotApp_1887,거래 내역 검토
+ScotApp_1171,예상하지 못한 증가
+ScotApp_1199,입력된 만료 날짜
+ScotApp_1300,거래 시작
+ScotApp_1326,쿠폰 삽입 타이머 시간 초과
+ScotApp_1291,쿠키
+ScotApp_1517,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1886,나머지 상품 확인.
+ScotApp_749,749unused
+ScotApp_1529,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_549,549unused
+ScotApp_449,동전 수납 장치 상태 거절됨
+ScotApp_349,349unused
+ScotApp_249,249unused
+ScotApp_149,PIN 입력
+ScotApp_1307,영수증 인쇄
+ScotApp_1738,장바구니 검사를 위한 안내 직원
+ScotApp_949,949unused
+ScotApp_717,717unused
+ScotApp_617,중량 비교를 위한 설정을 선택하십시오. (기존 항목과 상품의 중량 비교.)
+ScotApp_517,다른 지불 수단 요청됨.
+ScotApp_417,Hard Totals 로드 완료.
+ScotApp_317,317unused
+ScotApp_217,217unused
+ScotApp_117,상품  유보
+ScotApp_1516,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1885,상품 스캔되지 않음
+ScotApp_917,요청이 너무 많아서 상품을 장바구니 영역에서 제거 불가능.  최대 = %d.
+ScotApp_817,도움 필요
+ScotApp_1177,상품 담기 타이머 시간 초과
+ScotApp_1528,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1175,역치 초과 항목을 담지 마십시오
+ScotApp_1109,%s\t%s\t%s @ %s/%s\t%s
+ScotApp_1453,출납 직원 패스워드
+ScotApp_1693,동전 대체 금액
+ScotApp_1515,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_7,7unused
+ScotApp_6,6unused
+ScotApp_5,5unused
+ScotApp_4,4unused
+ScotApp_3,3unused
+ScotApp_2,kg
+ScotApp_1,lb
+ScotApp_1176,새 상품 입력됨
+ScotApp_1724,교육 모드 거래
+ScotApp_1019,벨트에 위치
+ScotApp_9,9unused
+ScotApp_8,8unused
+ScotApp_609,중량 허용치 편집
+ScotApp_1305,%s 삽입됨
+ScotApp_1893,Invalid Barcode
+ScotApp_1409,도움 메뉴
+ScotApp_1692,SafePay
+ScotApp_1163,"'직접 문제 해결 완료'을 눌러 주십시오.\n\n만일 에러가 계속 나타난다면 터미널을 다시 시작해 주십시오:\n관리자 키 잠금 장치를 'S'로 돌리거나 관리자 단추를 눌러 주십시오.\n'전체 시스템 종료'를 선택해 주십시오.\n화면이 꺼지면 UPS나 전원 컨원에서 터미널의 전원을 차단해 주시기 바랍니다.\n터미널을 켜 주십시오. 에러가 다시 발생하면 서비스를 요청해 주십시오."
+ScotApp_1514,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1372,동전 수납 장치
+ScotApp_1048,1048unused
+ScotApp_967,967unused
+ScotApp_1304,고객 카드 허용됨.
+ScotApp_1162,장치가 오프라인 상태입니다.
+ScotApp_1833,Exc_TB
+ScotApp_1818,* 깔대기형 트레이 잠금을 해제하고 당겨서 꺼내십시오 (I).\n* 걸려 있던 동전들을 다시 적절한 깔대기형 상자에 넣어 주십시오. 그 후에 깔대기형 트레이를 다시 넣고 잠궈 주십시오.\n* 동전 재순환 장치를 당겨 꺼내십시오. 그 후에 커버 잠금을 풀고 커버를 제거합니다.\n* 그림처럼 케이블 연결을 해제합니다 (II).\n* 수납 장치의 오른쪽에 있는 빨간색 탭을 풀고 당긴 후에 그림처럼 걸림을 제거하기 위해서 뒤집어 주십시오 (III).\n* 수납 장치를 다시 넣고 케이블을 다시 연결합니다.\n* 커버를 닫고 잠궈 주십시오. 에러가 다시 발생하면 서비스를 요청해 주십시오.
+ScotApp_1174,중량 불일치
+ScotApp_1500,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1366,저울
+ScotApp_1161,페이저 에러
+ScotApp_1717,관찰된 무게:
+ScotApp_1832,Exc_DEPT
+ScotApp_1370,암호화 기능
+ScotApp_669,서명 인쇄 실패. 에러 발생.
+ScotApp_569,코드 입력
+ScotApp_469,469unused
+ScotApp_369,프린터 통신 에러
+ScotApp_269,도움 모드
+ScotApp_1507,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_969,969unused
+ScotApp_737,737unused
+ScotApp_637,보안이 오프라인 상태입니다. 마지막 활동이 취소되었습니다.
+ScotApp_537,537unused
+ScotApp_437,잔고 부족
+ScotApp_337,"상품을 스캔하거나 코드를 입력한 다음 'OK'을 눌러 주십시오."
+ScotApp_237,카세트가 올바른 위치에서 걸쇠에 걸릴 때까지 카세트를 삽입합니다.\n\n카세트를 잡아 당겨서 카세트가 올바르게 걸쇠에 걸리도록 합니다.
+ScotApp_137,거스름돈 받기
+ScotApp_931,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s 예상;LSWND3=%s %s 관찰됨;
+ScotApp_1519,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1831,보간
+ScotApp_937,제한\상품 제거
+ScotApp_837,요금
+ScotApp_1702,*** 영수증 중복 ***
+ScotApp_1377,수량
+ScotApp_1728,목록에서 선택하십시오.
+ScotApp_1395,안내 직원 모드로 들어가기
+ScotApp_716,716unused
+ScotApp_616,중량 비교
+ScotApp_516,다른 지불 수단
+ScotApp_416,Hard Totals 로드 중...
+ScotApp_316,316unused
+ScotApp_216,* 프린터 케비닛 도어를 열어 주십시오.\n* 걸림을 확인하기 위해서 프린터 커버를 열어 주십시오.\n* 프린터 커버를 닫고 인쇄 용지를 다시 넣어 주십시오.\n* 웃는 얼굴이 찍힌 영수증이 인쇄되어야 합니다.\n* 프린터 케비닛 도어를 닫고 잠궈 주십시오.
+ScotApp_116,모든 상품 취소
+ScotApp_1522,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1506,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1879,"장바구니 저울을 확인한 다음 '보안 해제'를 눌러 주십시오."
+ScotApp_916,"계산 통로에서 상품들을 확인한 다음 '보안 허용'을 눌러 주십시오."
+ScotApp_816,816unused
+ScotApp_1167,* 프린터 케비닛 도어를 열어 주십시오.\n* 프린터 고정을 해제하고 뒤로 밀어 주십시오.\n* 걸림이 있는지 확인하기 위해서 프린터 커버를 열어 주십시오.\n* 프린터 커버를 닫고 용지를 다시 적재해 주십시오.\n* 프린터가 올바른 위치에 걸릴 때까지 주의해서 앞으로 당겨 주십시오.
+ScotApp_1518,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1830, 항목 승인됨
+ScotApp_1376,", %s"
+ScotApp_783,783unused
+ScotApp_683,683unused
+ScotApp_583,카드 거부됨.
+ScotApp_483,연결된 펜을 이용해서 서명 패드에 서명을 해 주십시오.
+ScotApp_383,383unused
+ScotApp_283,패스워드 입력
+ScotApp_1505,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_983,운반 벨트 로드 중...
+ScotApp_883,보류 확인
+ScotApp_1363,라인 디스플레이
+ScotApp_1714,승인된 보류 거부
+ScotApp_1837,"'승인'을 눌러서 거래를 계속합니다."
+ScotApp_1449,지폐 상태
+ScotApp_1375,상품 후처리 수정:\n%s
+ScotApp_1248,선물 카드
+ScotApp_1153,용지 걸림.
+ScotApp_1504,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1362,키 잠금
+ScotApp_1836,잘못된 바코드
+ScotApp_1571,변경 내용 무시 확인
+ScotApp_1215,장치 에러
+ScotApp_1858,Discrepancy error occurred in the recycler.
+ScotApp_1152,용지 없음.
+ScotApp_1700,%s 지급 실패. %s\n동전 및 지폐 지급 장치를 점검해 주십시오.\n‘상태 수정됨’을 눌러 주십시오.
+ScotApp_1823,デジタル・レシートが正しく発行されました。
+ScotApp_1605,     카드 지급 장치 상자가 비어 있습니다
+ScotApp_1361,현금 교환 장치
+ScotApp_1835,상품 확인 또는 상품 유보
+ScotApp_1878,장바구니 저울에서 부정확한 중량.
+ScotApp_1281,도움 입찰
+ScotApp_1425,연결
+ScotApp_1570,변경 내용 무시
+ScotApp_814,814unused
+ScotApp_291,동전 지급 장치 튜브 걸림\n%s\n동전 지급 장치 걸림을 제거한 후에 ‘걸림 제거됨’을 눌러 주십시오.
+ScotApp_191,Transaction Broker 로드 완료.
+ScotApp_1151,프린터 커버가 열렸습니다.
+ScotApp_1707,수납 장치에 동전이 걸렸습니다
+ScotApp_1822,화면 왼쪽 아래에서 상품 중량을 확인하십시오
+ScotApp_757,757unused
+ScotApp_657,구매 종료 전까지 환불 및 할인 내역을 유보합니다.
+ScotApp_557,수량 제한 상품
+ScotApp_457,457unused
+ScotApp_357,357unused
+ScotApp_257,257unused
+ScotApp_157,시스템 메시지
+ScotApp_1360,현금 서랍
+ScotApp_1719,추가된 무게:
+ScotApp_1834,최대
+ScotApp_1868,스캐너의 카메라 시야를 손으로 가리지 않도록 해 주십시오
+ScotApp_957,DB Manager Client 통신 실패
+ScotApp_857,조립 요금 확인
+ScotApp_1064,1064unused
+ScotApp_1577,총 카운트:
+ScotApp_736,736unused
+ScotApp_636,보안이 오프라인 상태입니다.
+ScotApp_1091,1091unused
+ScotApp_436,금액 승인
+ScotApp_336,상품 찾기
+ScotApp_236,236unused
+ScotApp_136,현금 입금
+ScotApp_1509,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1821,무게 승인
+ScotApp_936,제한\담기 건너뛰기
+ScotApp_836,요금 및 고객 계약 내용
+ScotApp_1367,스캐너
+ScotApp_1718,물품수:
+ScotApp_1274,사용자 지정16
+ScotApp_715,715unused
+ScotApp_615,장바구니 담기에 대한 설정을 선택하십시오. (고객이 상품을 장바구니에 직접 담음.)
+ScotApp_515,515unused
+ScotApp_315,315unused
+ScotApp_215,직불 예금
+ScotApp_115,취소 승인
+ScotApp_1576,지폐 지급 장치 상태:
+ScotApp_1090,보고서 실행
+ScotApp_815,등록 열기
+ScotApp_1508,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1406,동기화 TB/POS
+ScotApp_1099,알 수 없는 장치 에러
+ScotApp_1563,로드
+ScotApp_782,지폐 지급 장치 걸림\n지폐 지급 장치 걸림을 제거하거나\n방출 상자를 조정해 주십시오.
+ScotApp_682,682unused
+ScotApp_582,입찰 완료.
+ScotApp_482,482unused
+ScotApp_382,알 수 없음
+ScotApp_282,ID 입력
+ScotApp_1575,통전 지급 장치 상태:
+ScotApp_1097,기록/보고서 인쇄
+ScotApp_1448,동전 상태
+ScotApp_982,장치 에러
+ScotApp_143,영수증 서명
+ScotApp_1353,다 쓴 선물 카드를 쿠폰 슬롯에 투입해 주십시오. 
+ScotApp_1704,"'직접 문제 해결 완료'을 눌러 주십시오.\n\n만일 에러가 계속 나타난다면 터미널을 다시 시작해 주십시오:\n관리자 키 잠금 장치를 'S'로 돌리거나 관리자 단추를 눌러 주십시오.\n'전체 시스템 종료'를 선택해 주십시오.\n화면이 꺼지면 UPS나 전원 컨원에서 터미널의 전원을 차단해 주시기 바랍니다.\n그 후에 다시 터미널을 켜 주십시오. 에러가 다시 발생하면 서비스를 요청해 주십시오."
+ScotApp_1827,\n    - 현재 언어 (%s)
+ScotApp_1562,카운트
+ScotApp_1815,* 잠금을 풀고 깔대기 트레이를 꺼냅니다.\n* 깔대기가 없다면 다시 삽입하고 모든 깔대기가 올바른 위치인지 확인합니다.\n* 가장 화페 단위가 낮은 깔대기가 삽입 및 올바른 위치에 설치되었는지 확인합니다.\n* 올바른 화폐 깔대기가 설치되었는지 확인합니다. 에러가 다시 발생하면 서비스를 요청해 주십시오.
+ScotApp_1574,%s에 대해 입력된 값이 올바르지 않습니다.\n다시 입력해 주십시오.
+ScotApp_1543,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1290,캐슈너트
+ScotApp_1096,보고
+ScotApp_1352,선물 카드 투입
+ScotApp_1561,화폐 종류
+ScotApp_1083,"상품을 장바구니 영역으로 반납하거나 '상품 제거됨'을 누르십시오."
+ScotApp_1753,상품 찾을 수 없음
+ScotApp_418,Hard Totals 종료 중...
+ScotApp_318,318unused
+ScotApp_1813,%s\n* 깔대기형 트레이 잠금을 해제하고 당겨서 꺼내십시오 (I).\n* 걸림이 발생한 깔대기형 상자를 제거하십시오. 출구 부분에 걸림이 발생했는지 검사하고 조처해 주십시오 (II).\n* 출구 부분에 걸림이 발생하지 않았다면 깔대기형 상자를 비워 주십시오. 디스크를 회전시켜서 걸림을 검사하고 조처해 주십시오(III).\n* 깔대기형 상자를 다시 삽입합니다.\n* 모든 도어가 닫혀 있고 적절하게 잠궈져 있는지 확인하십시오. 에러가 다시 발생하면 서비스를 요청해 주십시오.
+ScotApp_1095,"보고서 유형을 선택한 다음 '보고서 실행'을 눌러 주십시오."
+ScotApp_1351,%s\n%s %s 제거됨
+ScotApp_1825,사용 환경 저장
+ScotApp_777,777unused
+ScotApp_677,677unused
+ScotApp_577,현금 입찰 시작.
+ScotApp_377,단위 – 상태
+ScotApp_277,277unused
+ScotApp_1560,투입 장치 총액 :  %s
+ScotApp_1082,상품 제거됨
+ScotApp_977,실제 중량: %s %s
+ScotApp_877,가격 프롬프트
+ScotApp_1777,매장 쿠폰 제한을 초과하는 쿠폰을 이용해서 이 거래가 마무리되었습니다.
+ScotApp_1812,동전이 걸렸거나 동전 상자가 가득찼거나 없습니다 
+ScotApp_756,756unused
+ScotApp_556,거래 보류가 거부되었습니다.
+ScotApp_456,456unused
+ScotApp_356,암호화 기능
+ScotApp_256,User exits 종료 중...
+ScotApp_156,시스템 메시지
+ScotApp_1231,시각적으로 확인됨
+ScotApp_1874,1874unused
+ScotApp_956,"터미널을 종료한 다음 다시 시작해 주십시오:\n* 관리자 키 잠금 장치를 'S'로 돌리거나 관리자 단추를 눌러 주십시오. \n*선택 ""다음 다시 시작 시 ADD 실행"". 선택하고 ""예""를 확인합니다.\n*'전체 시스템 종료'를 선택해 주십시오.\n*화면이 꺼지면 UPS나 전원 컨센트에서 터미널의 전원을 차단해 주시기 바랍니다.\n*다시 터미널을 켜 주십시오. 이벤트 뷰어를 확인하십시오. 에러가 다시 발생하면 서비스를 요청해 주십시오."
+ScotApp_856,영수증:
+ScotApp_1567,지급 장치 총합 :  %s
+ScotApp_735,735unused
+ScotApp_635,고객의 출생 날짜 입력
+ScotApp_535,   시간 반납
+ScotApp_335,카드 리더 고객 부정 행위 가능성
+ScotApp_235,현금 수납 장치 상태 가득참
+ScotApp_135,135unused
+ScotApp_1776,매장 인증
+ScotApp_1811,* 동전 재순환 장치를 꺼내 주십시오.\n* 동전을 제거하거나 동전을 앞쪽으로 밀어서 표시된 지역에서 걸림을 제거합니다.\n* 고객에게 동전을 반환합니다. 에러가 다시 발생하면 서비스를 요청해 주십시오.
+ScotApp_935,중량 감소
+ScotApp_835,영수증:
+ScotApp_1708,동전 반환 버튼을 몇 번 눌러서 동전 걸림을 제거한 다음 ‘직접 문제 해결 완료’를 눌러 주십시오.\n\n에러가 다시 발생하면 서비스를 요청해 주십시오.
+ScotApp_1168,프린터가 앞쪽 위치에 고정되지 않음.
+ScotApp_1446,방출
+ScotApp_1566,완전 교체
+ScotApp_1080,벨트 위에 상품을 위치시키십시오.
+ScotApp_1775,쿠폰 승인
+ScotApp_1810,동전이 걸렸습니다.
+ScotApp_1297,거스름돈 가져가기 타이머 시간 초과
+ScotApp_1648,(mmddyy)
+ScotApp_708,708unused
+ScotApp_608,중량 비교 설정
+ScotApp_508,508unused
+ScotApp_408,408unused
+ScotApp_308,원
+ScotApp_208,208unused
+ScotApp_108,일치하지 않는 쿠폰
+ScotApp_781,781unused
+ScotApp_681,선호 상품에서 선택
+ScotApp_581,거래 보류가 거부되었습니다
+ScotApp_481,도움 필요
+ScotApp_381,일반
+ScotApp_908,보안
+ScotApp_521,환불 금액:
+ScotApp_1087,카드가 승인되었습니다. 상품과 쿠폰을 스캔해 주십시오.
+ScotApp_981,981unused
+ScotApp_881,보류:
+ScotApp_1774,쿠폰 금액 너무 높음
+ScotApp_1296,모든 동전 컨테이너를 최적 서비스 수준으로 보충 주십시오.
+ScotApp_1583,화폐 량이 낮습니다  (%s)
+ScotApp_1552,상자가 가득 참
+ScotApp_1295,땅콩
+ScotApp_1877,도난 경고
+ScotApp_1761,쿠폰 상자가 가득 찼거나 쿠폰 슬롯이 막혔습니다. 쿠폰 슬롯을 막고 있는 물체를 제거하고 쿠폰 상자를 비워 주십시오.
+ScotApp_1086,0 중량 추가를 선택하면 모든 중량 항목이 삭제됩니다.
+ScotApp_693,693unused
+ScotApp_794,지폐 지급 장치 카세트 걸림\n지폐 지급 장치 걸림을 제거해 주십시오.
+ScotApp_694,694unused
+ScotApp_594,NCR SelfServ Checkout SigCap 로드 완료
+ScotApp_494,목록에서 캐시 백 금액을 선택해 주십시오.
+ScotApp_394,394unused
+ScotApp_1098,* 프린터 캐비닛 도어를 여십시오.\n* 이 때 보이는 영역에 용지 걸림이 발생했는지 점검합니다.\n* 용지 걸림이 없으면 용지를 적재합니다.\n* 웃는 얼굴이 찍힌 영수증이 인쇄되어야 합니다.\n* 프린터 케비닛 도어를 닫고 잠궈 주십시오.
+ScotApp_1551,화폐량이 많음  (%s)
+ScotApp_994,닫기 완료
+ScotApp_894,DBM 로드 완료
+ScotApp_1760,쿠폰 상자가 가득 찼거나 쿠폰 슬롯이 막혔습니다. 쿠폰 슬롯을 막고 있는 물체를 제거하고 쿠폰 상자를 비워 주십시오.
+ScotApp_1371,현금 수납 장치
+ScotApp_1803,현금 전용
+ScotApp_1359,내역서 프린터
+ScotApp_1085,쿠폰 수집
+ScotApp_21,21unused
+ScotApp_776,776unused
+ScotApp_676,동전 지급 장치: %s에 다시 채움(%s)
+ScotApp_1491,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_476,쿠폰 제출
+ScotApp_376,376unused
+ScotApp_276,276unused
+ScotApp_176,계산을 중단하고 전체 구입 내역을 취소하시겠습니까?
+ScotApp_976,976unused
+ScotApp_876,"총괄 출납 직원 ID를 입력한 다음 '입력'을 눌러 주십시오."
+ScotApp_1271,사용자 지정13
+ScotApp_1767,저울 무게 매개변수 접근 실패.
+ScotApp_755,처리 중...
+ScotApp_655,예외 상품
+ScotApp_1084,컬렉션
+ScotApp_455,455unused
+ScotApp_355,시스템 기능 선택
+ScotApp_255,255unused
+ScotApp_155,시스템 메시지
+ScotApp_1011,운반 중...
+ScotApp_869,"인증 번호를 입력한 다음 '입력'을 눌러 주십시오."
+ScotApp_955,Smart Scale 적용 실패
+ScotApp_855,조립 요금:
+ScotApp_23,+ %s (%s)
+ScotApp_1766,스캐너/저울 에러.
+ScotApp_1280,현금
+ScotApp_1335,계산 통로 닫기 완료
+ScotApp_1497,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_728,728unused
+ScotApp_628,계산 통로 #: %d
+ScotApp_528,528unused
+ScotApp_428,노란색
+ScotApp_328,고객에게 %s 지급 실패.\n동전 및 지폐 지급 장치를 점검해 주십시오.\n만일 비어 있으면 다시 채워 주십시오.\n비어 있지 않은 경우 걸림을 제거해 주십시오. \n’직접 문제 해결 완료’을 눌러 주십시오.
+ScotApp_228,카드 리더 셔터 걸림 발생 닫힘
+ScotApp_128,128unused
+ScotApp_1690,SafePay
+ScotApp_281,281unused
+ScotApp_181,"\n키패드를 이용해서 원 단위로 쿠폰 금액을 입력한 다음 'OK'을 눌러 주십시오."
+ScotApp_928,계산 통로로 가서 장치를 점검해 주십시오.
+ScotApp_828,828unused
+ScotApp_1033,"상품을 비활성화 시키거나 계산 통로에서 하드 태그를 제거한 다음 '보안 허용'을 눌러 주십시오."
+ScotApp_1496,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_680,680unused
+ScotApp_580,쿠폰이 무효화되기 전에 상품 무효화 시도함.
+ScotApp_380,380unused
+ScotApp_280,보안 로그 삭제
+ScotApp_180,잠시 동안 쿠폰을 유보합니다.\n구입 마지막 단계에 쿠폰을 투입합니다.
+ScotApp_1364,Micr
+ScotApp_980,고객 응답 없이 타이머 시간 초과
+ScotApp_880,880unused
+ScotApp_970,970unused
+ScotApp_1104,e=d=0.01 lb Max 30.00 lb min 0.2 lb Nmax 3000
+ScotApp_1032,EAS 상품 활성화 상태 유지.
+ScotApp_1286,한국어
+ScotApp_1462,상자
+ScotApp_1298,오퍼레이터 도움 기능
+ScotApp_1031,쿠폰을 스캔해 주십시오.
+ScotApp_1482,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1706,장치가 준비되지 않았습니다.\n* 장치를 이용하고 있을 수도 있는 다른 응용 프로그램을 종료하고 ’직접 문제 해결 완료’를 눌러 주십시오\n* 에러가 다시 발생하면 Gunnebo에 연락해서 서비스를 요청해 주십시오.
+ScotApp_1399, 안내 직원
+ScotApp_1494,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1672,SafePay
+ScotApp_573,"사용자 ID를 입력한 다음 '입력'을 눌러 주십시오."
+ScotApp_173,173unused
+ScotApp_775,NCR SelfServ Checkout에서 여러분을 환영합니다! 즐거운 쇼핑이 되시길 바랍니다!
+ScotApp_675,동전 지급 장치 다시 채움
+ScotApp_1481,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_79,79unused
+ScotApp_69,69unused
+ScotApp_59,다시 시도
+ScotApp_39,거래 취소
+ScotApp_29,제한 상품
+ScotApp_19,세금
+ScotApp_975,975unused
+ScotApp_603,중량 항목 편집/추가
+ScotApp_99,무효화할 수량
+ScotApp_89,89unused
+ScotApp_303,상품 취소
+ScotApp_203,203unused
+ScotApp_103,상품 코드를 입력하십시오.
+ScotApp_1889,보안 신뢰 수준
+ScotApp_1443,보충을 위해 동전을 넣거나 방출을 위해서 ‘현금 제거’를 눌러 주십시오.
+ScotApp_903,장바구니 영역에서 상품 제거.
+ScotApp_803,803unused
+ScotApp_1555,지급 장치
+ScotApp_1037,서명
+ScotApp_1480,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1263,사용자 지정5
+ScotApp_1697,걸림 제거됨
+ScotApp_748,748unused
+ScotApp_648,UPC
+ScotApp_548,548unused
+ScotApp_448,보너스 카드 계정이 활성화되었습니다.
+ScotApp_348,348unused
+ScotApp_248,248unused
+ScotApp_148,148unused
+ScotApp_1479,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_948,\n* 원격 도움
+ScotApp_848,필요 수량:
+ScotApp_485,서명 필요
+ScotApp_1036,EAS 상품 활성화
+ScotApp_1487,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1499,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1023,1023unused
+ScotApp_1179,남겨둔 거스름돈 타이머 시간 초과
+ScotApp_1035,EAS 상품 활성화
+ScotApp_1682,SafePay
+ScotApp_1486,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1144,지급 장치 응답하지 않음.
+ScotApp_866,예
+ScotApp_1498,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1384,언어
+ScotApp_1743,사용자 ID를 입력하고 ‘입력’을 누르거나 손가락을 지문 인식 장치에 위치시켜서 로그인합니다.
+ScotApp_1319,상품권
+ScotApp_1178,역치 초과 제거 완료
+ScotApp_1001,상품 찾을 수 없음
+ScotApp_1034,1034unused
+ScotApp_1485,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1068,1068unused
+ScotApp_1694,%s 때문에 대체 금액이 사용됩니다. 다시 채우기 또는 걸림 제거를 위해서 ‘현금/용지 상태’를 눌러 주십시오.
+ScotApp_1165,프린터가 올바른 위치에 걸릴 때까지 앞으로 주의해서 당겨 주십시오.\n\n프린터 케비닛 도어를 닫고 잠궈 주십시오.
+ScotApp_1021,주의
+ScotApp_1230,마이너스 항목
+ScotApp_1484,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_912,중량 승인 및 업데이트
+ScotApp_723,723unused
+ScotApp_623,"키패드를 이용해서 허용치를 입력한 다음 '입력'을 눌러 주십시오."
+ScotApp_523,카드 거부됨
+ScotApp_423,카드를 삽입하십시오. 추가 상품에 대해 바구니를 점검합니다.
+ScotApp_323,  Qty %d @ %d/%s
+ScotApp_223,카드 리더 캡처 상자 공간 부족
+ScotApp_123,123unused
+ScotApp_1020,상품 스캔
+ScotApp_923,923unused
+ScotApp_823,무효화 승인
+ScotApp_1483,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1237,쿠폰
+ScotApp_1680,SafePay
+ScotApp_702,702unused
+ScotApp_602,중량 항목 \n편집/추가
+ScotApp_502,취소한 상품을  유보해 주십시오.
+ScotApp_402,존재하지 않음
+ScotApp_302,지불 장치에서 귀하의 PIN을 입력해 주십시오.
+ScotApp_202,사인 끄기 테스트 중...
+ScotApp_102,반납된 상품
+ScotApp_1722,계산 통로가 교육 모드입니다. 거래를 계속하시겠습니까?
+ScotApp_902,장바구니 영역에서 상품 제거.  상품을 반납해 주십시오.
+ScotApp_802,"\n%s의 전체 한 상자를 \n구입하시겠습니까? \n\n'예' 또는 '아니요'를 선택하십시오."
+ScotApp_568,삭제
+ScotApp_468,   반납됨
+ScotApp_368,프린터 용지 로드되지 않고 걸림
+ScotApp_268,카드 읽기 오류
+ScotApp_1027,"'예'를 누르면 거래를 취소하고 '아니요'를 누르면 거래가 계속됩니다."
+ScotApp_1354,선물 카드 수집
+ScotApp_968,968unused
+ScotApp_868,인증 번호 입력:
+ScotApp_1433,저울에 남아 있습니다.
+ScotApp_1687,SafePay
+ScotApp_1150,프린터 케비닛 도어가 열렸습니다.
+ScotApp_1699,%s 때문에 대체 금액이 사용됩니다. 다시 채우거나 걸림을 제거한 다음 ‘상태 수정됨’을 눌러 주십시오.
+ScotApp_1259,사용자 지정1
+ScotApp_1223,현금 / 용지 부족
+ScotApp_1379,단위 가격
+ScotApp_1432,<<<지폐 부족. 다시 보충해 주십시오.>>>
+ScotApp_1686,SafePay
+ScotApp_1157,지폐 지급 장치 도어가 열린 것 같습니다.\n\n접근 도어가 열려 있으면 지폐 지급 장치가 작동하지 않습니다.\n\n지급 장치 도어나 안전 도어를 완전하게 닫아서 고정시켜 주십시오.
+ScotApp_1013,뒤로 이동한 상품
+ScotApp_1184,자세한 데이터
+ScotApp_1848,"상품 삭제됨. 다음 상품 스캔 또는 ""코드 입력"" 누르기."
+ScotApp_1169,프린터 케비닛 도어를 열어 주십시오.\n* 프린터가 올바른 위치에 걸릴 때까지 주의해서 앞으로 당겨 주십시오.\n* 프린터 케비닛 도어를 닫고 잠궈 주십시오.
+ScotApp_1662,다른 영수증
+ScotApp_1311,* 지폐 수납 장치를 제거합니다.\n* 수납 장치 모듈을 엽니다.\n* 걸림을 점검하고 모듈을 교체합니다.\n* 지폐 수납 장치 모터가 켜져 있고 LED가 녹색으로 켜져 있는지 확인하십시오.
+ScotApp_1025,모든 상품들을 벨트에서 제거한 다음 안전 커버를 닫아 주십시오.
+ScotApp_1378,중량
+ScotApp_22,현금 반환 없음\n+ 0          \n(%s)
+ScotApp_1234,수량 제한
+ScotApp_1685,SafePay
+ScotApp_1156,동전 지급 장치 전원 스위치가 켜져 있는지 확인하십시오.
+ScotApp_1012,상품이 운반 중입니다.
+ScotApp_1365,MSR
+ScotApp_1235,EAS 상품 활성화
+ScotApp_1221,마이너스 잔고
+ScotApp_1143,동전이 부족하거나 동전 컨테이너가 없습니다.
+ScotApp_434,혜택 유형
+ScotApp_1625,SafePay
+ScotApp_1430,상품 무효화
+ScotApp_1684,SafePay
+ScotApp_1155,장치가 오프라인 상태입니다.
+ScotApp_834,요금 및 고객 계약 내용:
+ScotApp_799,장바구니 확인
+ScotApp_699,판매할 수 없는 상품
+ScotApp_599,Forms Device 재설정 중...
+ScotApp_499,499unused
+ScotApp_399,399unused
+ScotApp_299,299unused
+ScotApp_199,User Exits 로드 완료
+ScotApp_743,743unused
+ScotApp_643,상품 삭제됨. 다음 상품을 스캔하십시오.
+ScotApp_543,오퍼레이터 ID는 %d 자리를 초과할 수 없습니다.
+ScotApp_343,343unused
+ScotApp_243,카드 리더 잘못된 카드
+ScotApp_999,제한 초과됨
+ScotApp_899,다음에 대한 무효화 승인:
+ScotApp_1220,EFT
+ScotApp_1142,동전 지급 장치 에러
+ScotApp_943,봉투/상자
+ScotApp_843,843unused
+ScotApp_1437,‘상품 제거’ 역치 초과
+ScotApp_1601,     카드 지급 장치 상자에 카드가 부족합니다
+ScotApp_722,722unused
+ScotApp_622,UPC에 대한 허용치 편집
+ScotApp_522,잘못된 PIN
+ScotApp_422,422unused
+ScotApp_322,322unused
+ScotApp_222,"프린터 요청 시퀀스: 에러 확인을 위해 프린터나 이벤트 뷰어를 점검한 다음 '직접 문제 해결 완료'을 눌러 주십시오."
+ScotApp_122,122unused
+ScotApp_1010,1010unused
+ScotApp_922,922unused
+ScotApp_822,무효화된 상품 승인
+ScotApp_1715,보류 거부 승인
+ScotApp_1227,시간 제한
+ScotApp_701,701unused
+ScotApp_601,601unused
+ScotApp_401,카드를 삽입하십시오. 추가 상품에 대해 바구니를 점검합니다.
+ScotApp_301,쿠폰 금액 입력
+ScotApp_201,사인 켜기 테스트 중...
+ScotApp_101,알 수 없는 가격
+ScotApp_1633,SafePay
+ScotApp_901,담기 작업 건너뛰기 승인.
+ScotApp_801,상자 단위 구입
+ScotApp_1824,デジタル・レシートが発行されませんでした。
+ScotApp_1328,두 배 중량
+ScotApp_1299,거래 시작 및 도움 모드로 전환
+ScotApp_1226,반납된 상품
+ScotApp_1140,지폐 지급 장치에 걸림 발생.
+ScotApp_1579,지폐 투입 장치
+ScotApp_1426,%s\n%d이(가) 정확합니까?
+ScotApp_1632,SafePay
+ScotApp_1141,%s 지급 실패.  주의: 지폐 지급 장치 위쪽에 지폐가 걸린 것 같습니다.
+ScotApp_1791,현금 전용
+ScotApp_1357,선물 카드 수집
+ScotApp_763,763unused
+ScotApp_714,714unused
+ScotApp_614,장바구니 담기
+ScotApp_514,514unused
+ScotApp_314,상자 문제 발생
+ScotApp_214,직불 확인 중
+ScotApp_114,상품 취소 불가능
+ScotApp_1369,기타
+ScotApp_78,ATM (현금 없음)
+ScotApp_1630,SafePay
+ScotApp_58,OK
+ScotApp_48,48unused
+ScotApp_914,"계산 통로로 가서 여분의 상품들을 제거한 다음 '보안 허용'을 눌러 주십시오."
+ScotApp_1422,휴대형 스캐너
+ScotApp_18,총합
+ScotApp_1147,보안 저울 에러
+ScotApp_1578,총합:
+ScotApp_1022,벨트 건너뛰기
+ScotApp_98,98unused
+ScotApp_88,88unused
+ScotApp_1003,시간 제한
+ScotApp_1434,연령 제한
+ScotApp_1356,수집
+ScotApp_1212,기타
+ScotApp_1455,잘못된 번호
+ScotApp_1713,보류 거부 승인 터치
+ScotApp_1565,%s에 대한 로드 값 입력
+ScotApp_194,Device Manager 로드 중...
+ScotApp_1275,사용자 지정17
+ScotApp_1146,수납 장치 응답하지 않음.
+ScotApp_1303,고객 카드 허용됨: #%s
+ScotApp_70,70unused
+ScotApp_60,도움 요청
+ScotApp_50,50unused
+ScotApp_40,매장 인증
+ScotApp_30,무효화 상품
+ScotApp_20,20unused
+ScotApp_10,10unused
+ScotApp_1779,쿠폰이 무효화 될 때까지 관련 상품을 무효화할 수 없습니다. 상품의 쿠폰을 먼저 무효화해 주십시오.
+ScotApp_1211,기본 설정
+ScotApp_90,90unused
+ScotApp_80,80unused
+ScotApp_663,PIN 입력 오류
+ScotApp_463,원격 승인 종료 중...
+ScotApp_363,\n키패드를 이용해서 오퍼레이터 패스워드를 입력해 주십시오.
+ScotApp_163,163unused
+ScotApp_1420,상품 취소\n%s?
+ScotApp_1145,동전 수납 장치 에러
+ScotApp_963,요청 취소
+ScotApp_863,쿠폰 금액 입력
+ScotApp_1816,동전이 걸려 있거나 문이 열려 있습니다.
+ScotApp_1637,SafePay
+ScotApp_742,742unused
+ScotApp_642,상품 추가됨. 다음 상품을 스캔하십시오.
+ScotApp_542,오퍼레이터 바코드를 생성할 수 없습니다.
+ScotApp_342,유형 설명
+ScotApp_242,카드 리더 카드 걸림
+ScotApp_142,금액 승인
+ScotApp_1210,최근 보기
+ScotApp_942,942unused
+ScotApp_842,842unused
+ScotApp_1044,오퍼레이터 도움 입찰
+ScotApp_1427,다음 물품의 수량 변경: \n%s
+ScotApp_721,721unused
+ScotApp_621,기본 설정
+ScotApp_1341,부피 제어
+ScotApp_421,"상품을 스캔하거나 '시작'을 눌러서 시작할 수 있습니다."
+ScotApp_321,거래 확인
+ScotApp_221,프린터 케비닛 도어를 닫고 잠궈 주십시오.
+ScotApp_121,이 계산대에서의 상품
+ScotApp_1636,SafePay
+ScotApp_921,보안 저울에서 예상된 중량.
+ScotApp_821,821unused
+ScotApp_600,보안 유지 관리
+ScotApp_500,500unused
+ScotApp_400,400unused
+ScotApp_1368,Sigcap
+ScotApp_200,Transaction Broker 테스트 중...
+ScotApp_100,필요 수량
+ScotApp_1076,주의
+ScotApp_1623,SafePay
+ScotApp_1340,전체 시스템 종료
+ScotApp_1108,%s\t%s\t%s @ %s %s/%s\t%s
+ScotApp_1814,깔대기 상자가 올바른 위치가 아닙니다.
+ScotApp_1758,쿠폰 상자 에러
+ScotApp_1635,SafePay
+ScotApp_1557,지급 장치 픽업
+ScotApp_734,734unused
+ScotApp_634,634unused
+ScotApp_534,시간 제한 상품
+ScotApp_1413,# 분 이내에 모든 거래를 완료해 주시기 바랍니다.  곧 전원이 차단될 것입니다.
+ScotApp_334,카드 리더 카드 없음 에러
+ScotApp_234,지폐 카세트를 제거합니다.\n\n카세트에서 지폐들을 제거합니다.\n\n카세트가 올바른 위치에서 걸쇠에 걸릴 때까지 다시 넣습니다.\n\n카세트를 잡아 당겨서 카세트가 올바르게 걸쇠에 걸리도록 합니다.
+ScotApp_1569,값
+ScotApp_1801,작업 모드
+ScotApp_934,중량 증가
+ScotApp_1622,카세트
+ScotApp_768,보류 확인
+ScotApp_668,서명 인쇄 성공.
+ScotApp_1347,다시 연결 시도 중
+ScotApp_1778,보안 허용
+ScotApp_168,쿠폰을 스캔한 다음 구입이 끝날 때 까지 유보해 주시기 바랍니다.
+ScotApp_1203,배서된 문서
+ScotApp_1634,SafePay
+ScotApp_1556,지급 장치 픽업
+ScotApp_1412,도움 기능
+ScotApp_1783,안전 커버 열림
+ScotApp_1232,승인된 서명
+ScotApp_1568,총합:                    %s
+ScotApp_1800,작업 모드 선택
+ScotApp_1495,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1621,SafePay
+ScotApp_1346,해당 계산 통로는 현재 오프라인 상태이며  자동으로 연결을 다시 시도하고 있습니다.
+ScotApp_72,72unused
+ScotApp_62,예
+ScotApp_52,쿠폰 취소
+ScotApp_42,무효화 상품
+ScotApp_32,계속
+ScotApp_12,  Qty %d @ %s/각 항목
+ScotApp_1411,수량 변경
+ScotApp_92,환영합니다!
+ScotApp_82,82unused
+ScotApp_1807,_ _ _
+ScotApp_1089,종료 보고서 기간
+ScotApp_1620,SafePay
+ScotApp_1345,Security Manager 종료 중...
+ScotApp_1819,동전 재순환 장치 수납 장치 에러
+ScotApp_762,762unused
+ScotApp_662,%
+ScotApp_1554,투입 장치
+ScotApp_462,원격 승인 로드 완료.
+ScotApp_362,패스워드 입력
+ScotApp_262,262unused
+ScotApp_162,상품과 쿠폰을 스캔해 주십시오.
+ScotApp_1410,가격 변경
+ScotApp_962,"계산 통로에서 무효한 상품들을 한 곳으로 모은 다음 '무효 승인'을 눌러 주십시오."
+ScotApp_862,쿠폰 금액 입력:
+ScotApp_1806,\n* ’카드 전용’을 누르면 거래를 종료하고 고객에게 수작업으로 잔돈을 지급합니다.
+ScotApp_1088,1088unused
+ScotApp_1627,SafePay
+ScotApp_741,741unused
+ScotApp_641, 평균 무게      승인      장부       허용치 유형     허용치 값      일자
+ScotApp_541,오퍼레이터 스캔 바코드 인쇄
+ScotApp_441,금액 승인
+ScotApp_341,341unused
+ScotApp_241,Device Manager 예상하지 못한 에러
+ScotApp_141,카드 유형 선택
+ScotApp_941,무효화 상품
+ScotApp_841,상품 입력
+ScotApp_1873,1873unused
+ScotApp_25,출생 날짜:
+ScotApp_720,720unused
+ScotApp_520,알 수 없는 상품 코드
+ScotApp_420,420unused
+ScotApp_320,뒤로 이동
+ScotApp_220,* 프린터 케비닛 도어를 열어 주십시오.\n* 걸림을 확인하기 위해서 프린터 커버를 열어 주십시오.\n* 새 인쇄 용지 두루마리를 프린터에 넣어 주십시오.\n* 프린터 케비닛 도어를 닫고 잠궈 주십시오
+ScotApp_120,거래 취소됨 제거
+ScotApp_1626,SafePay
+ScotApp_1423,휴대형 스캐너 연결 시도 중입니다.
+ScotApp_920,승인/업데이트 않음.
+ScotApp_820,무효 승인
+ScotApp_1757,엑센트를 추가하려면 화면 아래 쪽에서 ‘액센트’ 키를 누른 다음 문자를 입력합니다.
+ScotApp_1872,1872unused
+ScotApp_754,이전 7일간 요약
+ScotApp_554,지금은 요금 카드를 사용하지 마십시오.
+ScotApp_1613,차단 상자
+ScotApp_354,시스템 기능
+ScotApp_254,동전 지급 장치 작동 불가능.\n동전 지급 장치에 동전을 채우거나\n전원을 켜거나 \n지급 장치 걸림을 제거해 주십시오.
+ScotApp_154,로드 중...
+ScotApp_1769,코드 입력
+ScotApp_1240,현금
+ScotApp_954,Smart Scale 열기 실패
+ScotApp_854,상품 5개
+ScotApp_1547,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1403,NCR SelfServ Checkout 프로그램을 정지시킨 후 다시 시작하십시오. 에러가 계속 발생하면 헬프 데스크에 연락하십시오.
+ScotApp_545,제한 상품
+ScotApp_1559,나가기
+ScotApp_1871,%s %s 관찰됨
+ScotApp_1612,카드 관리
+ScotApp_1550,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_845,추가 상품 스캔:
+ScotApp_1564,%s에 대한 로드 카운트 입력
+ScotApp_1768,지원되지 않는 무게 단위.
+ScotApp_1272,사용자 지정14
+ScotApp_1546,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_74,무효 승인
+ScotApp_64,선택 내용 취소
+ScotApp_54,취소
+ScotApp_44,44unused
+ScotApp_34,34unused
+ScotApp_1558,나가기 및 저장
+ScotApp_14,14unused
+ScotApp_1870,%s %s 예상
+ScotApp_1389,서명 캡처 장치 에러
+ScotApp_1611,     차단 상자가 다 차 있습니다
+ScotApp_94,94unused
+ScotApp_84,옵션 로드
+ScotApp_1289,비트
+ScotApp_687,보고서 인쇄
+ScotApp_587,서명
+ScotApp_487,아래
+ScotApp_387,전송 중 걸림
+ScotApp_287,스캐너: 유효하지 않은 태그
+ScotApp_1545,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1336,유틸리티
+ScotApp_987,상품이 벨트에서 제거됨. 상품을 반납해 주십시오.
+ScotApp_887,상품 제거됨
+ScotApp_555,다른 지불 수단
+ScotApp_1610,     차단 상자가 거의 다 차 있습니다(%s)
+ScotApp_1041,서명 승인
+ScotApp_1691,지폐 관리
+ScotApp_1809,동전 재순환 장치 공급 장치 에러
+ScotApp_1288,아스파라거스
+ScotApp_761,761unused
+ScotApp_1193,확인된 ID
+ScotApp_561,쿠폰 유보
+ScotApp_461,원격 승인 로드 중...
+ScotApp_361,계산 통로 닫기 완료
+ScotApp_261,261unused
+ScotApp_961,"중량 학습 데이터베이스 오류: 에러 확인을 위해 이벤트 뷰어를 점검한 다음 '직접 문제 해결 완료'을 눌러 주십시오."
+ScotApp_861,861unused
+ScotApp_1876,%s %s 관찰됨
+ScotApp_740,740unused
+ScotApp_640,기존 WLDB 중량 항목
+ScotApp_540,540unused
+ScotApp_340,목록에서 상품을 선택하십시오. 화살표 단추를 이용해서 위 아래로 스크롤 할 수 있습니다.
+ScotApp_240,Device Manager 일반적인 오류
+ScotApp_140,감사합니다
+ScotApp_1105,e=d=0.005kg Max 13.995kg min 0.1kg Nmax 2799
+ScotApp_1192,조립 요금
+ScotApp_940,무효
+ScotApp_840,상품 입력:
+ScotApp_1863,"'승인' 또는 '상품 무효화' 누르기"
+ScotApp_1463,수치 상 변화
+ScotApp_1875,%s %s 예상
+ScotApp_774,받은 포인트:
+ScotApp_674,입찰 거부 이유: 
+ScotApp_780,780unused
+ScotApp_474,474unused
+ScotApp_374,프린터 흑점 에러
+ScotApp_174,스캔한 상품을 찾을 수 없습니다. 아직 구입이 되지 않았거나 이미 취소되었습니다.
+ScotApp_1029,쿠폰 삽입
+ScotApp_974,974unused
+ScotApp_1679,SafePay
+ScotApp_1747,지문 인식 장치 에러
+ScotApp_1862,스캐너 저울에서 상품 확인
+ScotApp_1603,     카드 지급 장치 상자가 정상입니다
+ScotApp_1419,멀티 팩
+ScotApp_1759,쿠폰 상자 가득 참
+ScotApp_649,포함 가격
+ScotApp_1039,이전 상품에 EAS 태그가 있습니다
+ScotApp_849,필요 수량
+ScotApp_765,765unused
+ScotApp_565,매장 로그인
+ScotApp_1549,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1861,선택 목록
+ScotApp_1731,선택 목록 이미지 로드 중...
+ScotApp_76,76unused
+ScotApp_66,66unused
+ScotApp_56,지불 취소
+ScotApp_46,도움
+ScotApp_36,환불:
+ScotApp_26,26unused
+ScotApp_16,%s이(가) 카드에 지불 금액이 청구될 것입니다.
+ScotApp_719,719unused
+ScotApp_619,현재 허용치를 편집하기 위해서 <허용치 입력>이나 <기본 설정>을 선택하십시오.
+ScotApp_519,쿠폰 금액 너무 높음
+ScotApp_419,419unused
+ScotApp_319,카드로 결제
+ScotApp_219,219unused
+ScotApp_119,모든 상품 취소
+ScotApp_96,96unused
+ScotApp_86,86unused
+ScotApp_1755,목록에서 선택 
+ScotApp_1038,서명 확인
+ScotApp_919,"상품 중량을 확인한 다음 '중량 승인 및 업데이트'를 누르거나 '승인/업데이트하지 않음'을 눌러 주십시오."
+ScotApp_1489,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1745,지문 인식 장치가 연결 해제 되었습니다.\n\n다시 시도해 주십시오.
+ScotApp_1860,Please select from picklist assisted items or look-up item alphabetically.
+ScotApp_1268,사용자 지정10
+ScotApp_1008,1008unused
+ScotApp_786,계산 통로에서 보류됨
+ScotApp_686,어제
+ScotApp_586,쿠폰: %0.0ld/$%0.2lf
+ScotApp_486,위
+ScotApp_386,카세트 제거됨
+ScotApp_286,스캐너: 유효하지 않은 태그 접두사 2
+ScotApp_186,186unused
+ScotApp_1488,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_986,986unused
+ScotApp_886,"상품을 장바구니 영역으로 반납하거나 '상품 제거됨'을 누르십시오."
+ScotApp_1393,NCR SelfServ Checkout 프로그램을 정지시킨 후 다시 시작하십시오. 만일 에러가 계속 발생하면 헬프 데스크에 연락하시기 바랍니다.
+ScotApp_1867,카메라 시야 가림
+ScotApp_68,68unused
+ScotApp_38,38unused
+ScotApp_28,구매 취소
+ScotApp_1024,1024unused
+ScotApp_760,카드를 이 모니터 쪽으로 향하게 해서 통과시켜 주십시오.
+ScotApp_660,모든 화폐 레벨이 정상입니다
+ScotApp_460,이렇게 하면 구매가 완료됩니다.
+ScotApp_360,계산 통로 닫기
+ScotApp_260,260unused
+ScotApp_1392,3색 등 에러
+ScotApp_960,\n* 최대 무게 허용 초과.\n* 봉투 저울에서 상품을 제거하십시오.
+ScotApp_860,필요한 치수:
+ScotApp_1866,인기 상품
+ScotApp_1459,현금 관리 보고서
+ScotApp_1239,없음
+ScotApp_1301,Pick List 편집
+ScotApp_1749,지문 처리 중
+ScotApp_1017,벨트에서 뒤로 이동한 상품들을 제거해 주십시오.
+ScotApp_1771,쿠폰 금액 제한
+ScotApp_739,739unused
+ScotApp_639,중량 예상   중량 비교
+ScotApp_539,539unused
+ScotApp_439,439unused
+ScotApp_339,339unused
+ScotApp_239,Device Manager 예상하지 못한 상태
+ScotApp_1092,보고서 내용
+ScotApp_1851,승인 금지 
+ScotApp_1238,다른 지불 방식
+ScotApp_939,타이머 시간 초과
+ScotApp_839,활동 취소
+ScotApp_1333,백스페이스
+ScotApp_24,무효화
+ScotApp_1016,벨트 위의 뒤로 이동한 상품
+ScotApp_1615,언로드 하려면 지급 장치 픽업 단추를 눌러 주십시오.
+ScotApp_1723,교육 거래
+ScotApp_1028,쿠폰 역치 초과
+ScotApp_1435,동전/지폐 지급 장치 에러
+ScotApp_1698,‘상태 수정됨’을 눌러 주십시오.
+ScotApp_1688,SafePay
+ScotApp_454,454unused
+ScotApp_1593,동전 제거
+ScotApp_1642,SafePay
+ScotApp_1015,뒤로 이동한 상품
+ScotApp_785,785unused
+ScotApp_685,시간별
+ScotApp_585,585unused
+ScotApp_536,동전 수납 장치
+ScotApp_385,385unused
+ScotApp_285,스캐너: 유효하지 않은 태그 접미사
+ScotApp_185,고객의 서명을 카드의 서명과 비교해 주십시오.
+ScotApp_1224,가격 필요
+ScotApp_985,상품을 벨트에 위치시키십시오.
+ScotApp_885,장바구니 경고
+ScotApp_575,현금 입찰 종료.  잔고 액수.
+ScotApp_475,거래 보류
+ScotApp_375,프린터 시간 초과
+ScotApp_1002,판매하지 않음
+ScotApp_1888,"보안을 위해 고객 거래 내역을 관찰하고 '보안 해제'를 눌러 주십시오."
+ScotApp_910,910unused
+ScotApp_1592,걸림이 발생한 상자에서 동전을 제거. 상자 기울임. 동전을 제거하기 전까지 나사를 오른쪽으로 돌려 주십시오. 지나친 힘을 가하지 마십시오.
+ScotApp_875,구매 취소를 위한 총괄 출납 직원
+ScotApp_1014,벨트에서 뒤로 이동한 상품들을 제거해 주십시오.
+ScotApp_1572,동전 관리 화면에서의 변경 내용을 무시하시겠습니까?
+ScotApp_1790,신용/직불 카드 전용
+ScotApp_1344,Security Manager 로드 완료.
+ScotApp_798,798unused
+ScotApp_698,698unused
+ScotApp_598,Form %d 저장 실패!
+ScotApp_498,지불된 액수:
+ScotApp_398,카세트 삽입됨
+ScotApp_298,298unused
+ScotApp_198,User Exits 로드 중...
+ScotApp_998,수량
+ScotApp_898,WTINFO 종료 중...
+ScotApp_1416,멀티 팩 확인
+ScotApp_1431,모두 무효화
+ScotApp_1236,보고서 처리 중...
+ScotApp_1770,검색 결과에서 선택.
+ScotApp_1000,찾을 수 없음
+ScotApp_1439,‘봉투/상자’ 역치 초과
+ScotApp_1217,무효
+ScotApp_759,카드를 지불 장치에 통과시켜 주십시오.
+ScotApp_659,화폐 낮음 상태:
+ScotApp_559,쿠폰 없음
+ScotApp_459,이 용도에 대해서 잔고가 그대로 유지됩니다.
+ScotApp_359,시스템 기능
+ScotApp_259,Device Manager 종료 중...
+ScotApp_1007,도움 요청됨
+ScotApp_1438,‘새 상품’ 역치 초과
+ScotApp_959,중량 학습 데이터베이스
+ScotApp_859,아니요
+ScotApp_1216,보안
+ScotApp_1373,선물 카드 수집
+ScotApp_1005,시각적 확인
+ScotApp_1655,판매 부문
+ScotApp_1228,보류됨
+ScotApp_1725,보안 비활성화
+ScotApp_1006,기타 입찰
+ScotApp_496,수량 제한
+ScotApp_1018,최소 나이.
+ScotApp_1160,"PIN 패드 뒤쪽에 케이블이 올바로 연결되어 있는지 확인하십시오.\n\n케이블이 올바로 고정되어 있지 않다면 '직접 문제 해결 완료'을 눌러 주십시오.\n\n만일 에러가 계속 발생한다면 터미널을 종료하고 다시 시작해 주십시오."
+ScotApp_1073,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;DATANEEDEDTYPE=%d;
+ScotApp_1424,휴대형 스캐너를 연결하려면 ‘연결’을 누르십시오.
+ScotApp_1202,닫기 완료된 계산 통로
+ScotApp_679,도움 보고서
+ScotApp_1792,카드 전용
+ScotApp_1214,영수증
+ScotApp_1804,카드 전용 모드 나가기
+ScotApp_879,879unused
+ScotApp_1072,정보 필요
+ScotApp_1631,SafePay
+ScotApp_1148,보안 저울 구성 요소 문제 발생
+ScotApp_1244,직불 예금
+ScotApp_1004,상품 확인
+ScotApp_1282,다음 항목에 대해 가격 필요:
+ScotApp_1071,1071unused
+ScotApp_1276,사용자 지정18
+ScotApp_1200,가격 프롬프트
+ScotApp_1639,SafePay
+ScotApp_1828,\n    - 볼륨 레벨 %d%%
+ScotApp_1308,PIN 입력됨
+ScotApp_1417,상품이 멀티 팩인 경우 ‘도움 모드’를 눌러서 취소한 다음 멀티 팩 바코드를 스캔해 주십시오.
+ScotApp_1343,Security Manager 로드 중...
+ScotApp_779,779unused
+ScotApp_1429,<<<동전 부족. 다시 보충해 주십시오.>>>
+ScotApp_579,579unused
+ScotApp_479,쿠폰 제출
+ScotApp_379,현금 수납 장치
+ScotApp_279,모든 기록된 보안 문제들을 승인해 주십시오.
+ScotApp_179,179unused
+ScotApp_1865,상품 찾기\n 중량 미적용
+ScotApp_1207,확인된 서명
+ScotApp_1638,SafePay
+ScotApp_979,역치 = 고객 요청 %d 개
+ScotApp_707,이전 7일간
+ScotApp_607,장바구니 담기 설정
+ScotApp_507,시각적으로 상품 확인
+ScotApp_307,기타 용기
+ScotApp_207,207unused
+ScotApp_107,도움 처리 진행 중
+ScotApp_1219,나이 제한
+ScotApp_907,907unused
+ScotApp_807,보안 태그 제거
+ScotApp_1077,상품을 벨트로 반납
+ScotApp_1428,다음 물품의 가격 변경: \n%s
+ScotApp_1695,나중에 고침
+ScotApp_1206,해제되지 않은 상품
+ScotApp_1218,컬렉션
+ScotApp_1782,안내직원 모드로 거래 시작
+ScotApp_1273,사용자 지정15
+ScotApp_1624,SafePay
+ScotApp_793,793unused
+ScotApp_1059,1059unused
+ScotApp_593,NCR SelfServ Checkout SigCap 로드 중...
+ScotApp_493,영수증이 아래의 지불 장치에서 인쇄될 것입니다.
+ScotApp_393,일지 프린터
+ScotApp_293,도움 요청
+ScotApp_1205,장바구니 영역 백업
+ScotApp_993,계산 통로 닫기 완료
+ScotApp_893,DBM 로드 중...
+ScotApp_1063,1063unused
+ScotApp_1414,이 계산 통로는 전원이 복원될 때까지 사용할 수 없습니다.
+ScotApp_1182,쿠폰 금액 제한
+ScotApp_1201,도움 입찰
+ScotApp_1075,제한\벨트 건너뛰기
+ScotApp_1348,계산 통로 닫기 완료
+ScotApp_1671,SafePay
+ScotApp_1204,문서 번호
+ScotApp_1284,1284unused
+ScotApp_1062,1062unused
+ScotApp_1233,다른 지불 방식
+ScotApp_27,27unused
+ScotApp_1074,벨트 건너뛰기 승인.
+ScotApp_1472,현금 재활용 장치 준비되지 않음
+ScotApp_1026,거래 취소
+ScotApp_1061,1061unused
+ScotApp_1617,입력 내용이 용량을 초과했습니다. 지급 장치 상자에 대한 로드 개수를 다시 입력하십시오. 최대 용량은 %d 입니다.
+ScotApp_1050,1050unused
+ScotApp_744,744unused
+ScotApp_1591,동전 지급 장치와의 케이블 연결을 확인해 주십시오.
+ScotApp_1130,지폐 수납 장치 에러
+ScotApp_1270,사용자 지정12
+ScotApp_1629,SafePay
+ScotApp_1820,"170=상품을 저울에서 제거한 다음 스캐너의 '>0<' 단추를 눌러 주십시오."
+ScotApp_882,보류 내역을 확인하십시오.
+ScotApp_1440,지폐 관리
+ScotApp_1407,다시 시작해야 함
+ScotApp_727,727unused
+ScotApp_627,거래 #:
+ScotApp_527,527unused
+ScotApp_427,미디어 낮음
+ScotApp_327,"장치 오프라인, 연결/이벤트 로그를 확인해 주십시오:"
+ScotApp_227,카드 리더 잘못된 카드 삽입됨
+ScotApp_127,127unused
+ScotApp_665,계속 진행하려면 모두 취소나 뒤로 이동을 선택하십시오.
+ScotApp_1060,잠시만 기다려 주십시오...
+ScotApp_1616,지급 장치 상자에 대한 로드 개수를 입력하십시오. 최대 로드 수량은 %d 개 입니다.
+ScotApp_927,장치 오작동
+ScotApp_827,상품 바코드를 패드 위로 통과시킨 다음에 장바구니 영역에 위치시켜 주십시오.
+ScotApp_1540,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_900,상품을 장바구니 영역에 위치시켜 주십시오.
+ScotApp_1277,사용자 지정19
+ScotApp_865,카드 소유자 확인
+ScotApp_506,506unused
+ScotApp_406,406unused
+ScotApp_306,용기 없음
+ScotApp_206,옵션이 로드될 것입니다.
+ScotApp_106,도움 필요
+ScotApp_1209,선물 카드 제한 초과됨
+ScotApp_806,시각적 확인 상품 승인 
+ScotApp_1067,1067unused
+ScotApp_1418,최대 무게 허용 초과.
+ScotApp_1473,장치가 준비되지 않았습니다.\n\n전원을 끄고 통신 케이블을 확인하거나 유니트를 다시 캐비닛으로 밀어 주십시오.
+ScotApp_187,187unused
+ScotApp_1716,예상무게:
+ScotApp_1190,입력된 쿠폰
+ScotApp_1602,     카드 지급 장치 상자에 카드가 부족합니다(%s)
+ScotApp_1149,영수증 프린터 에러
+ScotApp_1066,1066unused
+ScotApp_1614,지급 장치 상자
+ScotApp_792,792unused
+ScotApp_692,692unused
+ScotApp_592,NCR SelfServ Checkout Encryptor 로드 완료.
+ScotApp_492,거스름돈을 받으십시오.
+ScotApp_392,알 수 없는 상품
+ScotApp_292,쿠폰 스캔 불가능
+ScotApp_192,192unused
+ScotApp_1241,신용
+ScotApp_1197,취소된 거래
+ScotApp_1548,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_992,출생 날짜 입력
+ScotApp_892,Smart Scale 종료 중...
+ScotApp_1053,출납 직원이 서명할 용지를 가져올 때까지 기다려 주십시오.
+ScotApp_1404,POS 서버가 오프라인이거나 동기화에서 벗어났습니다. 터미널을 꺼 주십시오.
+ScotApp_1245,직불 수표
+ScotApp_1262,사용자 지정4
+ScotApp_1471,동전 재활용 장치 에러
+ScotApp_1196,운전 면허 번호
+ScotApp_1052,1052unused
+ScotApp_1600,카드 지급 장치 상태 :
+ScotApp_1663,상자가 비어 있거나 걸림
+ScotApp_1261,사용자 지정3
+ScotApp_1125,"동전 보관함 위쪽을 통해 모든 동전 채널을 다시 채워 주십시오.\n\n매장 모드로 이동해서 '현금/용지 상태'를 선택한 다음 '동전 지급 장치 다시 채움' 단추를 눌러 주십시오."
+ScotApp_1183,가격 프롬프트
+ScotApp_1470,지폐 재활용 장치 에러
+ScotApp_1195,CSA 보류됨
+ScotApp_1229,도움 요청됨
+ScotApp_1051,용지 승인
+ScotApp_1607,     차단 상자가 정상입니다(%s)
+ScotApp_1895,Genr Excp
+ScotApp_747,747unused
+ScotApp_647,N
+ScotApp_447,보너스 카드 계정이 활성화되었습니다.
+ScotApp_347,제한 상품이 취소되었습니다 – 연령 제한 충족되지 않음. 상품을 유보해 주십시오.
+ScotApp_247,247unused
+ScotApp_147,147unused
+ScotApp_1260,사용자 지정2
+ScotApp_1619,보류
+ScotApp_769,보류 확인 또는 취소를 해 주십시오.
+ScotApp_947,새로운 중량 상품
+ScotApp_847,스캔 종료
+ScotApp_1477,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_726,726unused
+ScotApp_626,허용치:
+ScotApp_526,\n잘못된 PIN 입력.\n다른 카드를 넣어 주십시오\n   -또는-\n현금으로 지불해 주십시오
+ScotApp_426,계산 통로 ##:
+ScotApp_326,출생 날짜가 제한 상품의 연령 제한을 충족시키지 않습니다.  다시 입력하거나 모든 제한 상품을 무효화해 주십시오.
+ScotApp_226,카드 리더 장치 작동 불가능
+ScotApp_126,(mmddyy).
+ScotApp_1606,     차단 상자가 정상입니다
+ScotApp_926,상품이 장바구니 영역으로 반납되지 않음.
+ScotApp_826,담기 작업 건너뛰기
+ScotApp_1267,사용자 지정9
+ScotApp_1618,지폐 지급 장치 카세트가 없거나 완전히 삽입되지 않았습니다.\n\n지폐 카세트를 설치하거나 완전히 고정될 때까지 다시 위치를 잡아 주십시오.
+ScotApp_1181,쿠폰 역치 초과
+ScotApp_205,복사 작업이 완료되었습니다.
+ScotApp_105,알 수 없는 상품
+ScotApp_1476,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1730,검색
+ScotApp_1390,장치 응답하지 않음
+ScotApp_805,상품 승인
+ScotApp_1864,계산 통로로 이동
+ScotApp_1408,도움 모드를 사용해야 함
+ScotApp_1266,사용자 지정8
+ScotApp_1180,가격 일치하지 않음
+ScotApp_1208,도움 모드에서 판매됨
+ScotApp_1475,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1397,안내 직원
+ScotApp_1748,지문 로그인 실패
+ScotApp_718,718unused
+ScotApp_618,중량 허용치
+ScotApp_518,현금을 입금하십시오.
+ScotApp_1253,PIP 고객 관리
+ScotApp_1604,     카드 지급 장치 상자가 정상입니다(%s)
+ScotApp_218,프린터 거의 비었음
+ScotApp_118,승인 필요
+ScotApp_552,오퍼레이터와 패스워드에 0이 먼저 나올 수 없습니다.
+ScotApp_791,지불 유형 선택
+ScotApp_691,691unused
+ScotApp_591,NCR SelfServ Checkout Encryptor 로드 중...
+ScotApp_391,가격이 필요한 상품
+ScotApp_918,상품 중량에 대한 기록 없음.
+ScotApp_1187,장치 에러
+ScotApp_991,나이 확인
+ScotApp_891,Smart Scale 로드 완료
+ScotApp_1474,하드웨어 에러. 에러 코드 E%d
+ScotApp_1396,안내 직원 모드에서 나오기
+ScotApp_1252,PIP 직불 캐시 백
+ScotApp_1732,선택 목록 이미지 로드 완료.
+ScotApp_1461,동전
+ScotApp_1166,* 프린터 케비닛 도어를 열어 주십시오.\n* 프린터 고정을 해제하고 뒤로 밀어 주십시오.\n* 걸림이 있는지 확인하기 위해서 프린터 커버를 열어 주십시오.\n* 프린터 커버를 닫고 용지를 다시 적재해 주십시오.\n* 프린터가 올바른 위치에 걸릴 때까지 주의해서 앞으로 당겨 주십시오.
+ScotApp_1186,예상하지 못한 감소
+ScotApp_1857,  벨트에 올려 놓지 마십시오
+ScotApp_1829,승인
+ScotApp_1670,SafePay
+ScotApp_1198,입력된 계정 번호
+ScotApp_1869,시야 내 손 포착
+ScotApp_1251,PIP 직불
+ScotApp_1855,옵션
+ScotApp_767,미디어 레벨 정상
+ScotApp_667,카드 통과. 상품과 쿠폰을 스캔해 주십시오.
+ScotApp_567,입력
+ScotApp_467,467unused
+ScotApp_367,367unused
+ScotApp_267,보안
+ScotApp_1460,지폐
+ScotApp_1185,봉투 상자 역치 초과
+ScotApp_1009,매장 모드
+ScotApp_867,아니요
+ScotApp_1856,  봉투 사용 금지
+ScotApp_1677,SafePay
+ScotApp_746,746unused
+ScotApp_646,Y
+ScotApp_1394,디지털 인터페이스 에러
+ScotApp_446,거래 보류
+ScotApp_346,ATM (캐시 백)
+ScotApp_246,246unused
+ScotApp_146,지불 유형을 선택하십시오.
+ScotApp_1501,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1609,     차단 상자가 거의 다 차 있습니다
+ScotApp_1194,인증 번호
+ScotApp_946,봉투/상자 승인
+ScotApp_846,"상품을 스캔하거나 '스캔 종료'를 눌러 주십시오."
+ScotApp_1843,고객 장바구니
+ScotApp_1467,현금 제거를 위해 ‘현금/용지 상태’ 화면 사용.
+ScotApp_725,725unused
+ScotApp_625,<%s> ~ <%s> 사이의 중량 허용치를 입력해 주십시오.
+ScotApp_1381,처리 중...
+ScotApp_425,425unused
+ScotApp_325,입력한 날짜가 올바른 날짜가 아닙니다
+ScotApp_225,카드 리더 캡처 상자 삽입됨
+ScotApp_1676,SafePay
+ScotApp_925,925unused
+ScotApp_825,상품 담기
+ScotApp_1608,     차단 상자가 비어 있습니다
+ScotApp_1842,전체 도움
+ScotApp_1808,영수증 상의 항목 선택.
+ScotApp_1466,현금 재활용 상태 가득 참
+ScotApp_1380,가격
+ScotApp_1854,옵션
+ScotApp_1675,SafePay
+ScotApp_1597,고객 카드
+ScotApp_1350,%s\n%s %s 추가됨
+ScotApp_738,738unused
+ScotApp_638,유효 WLDB 허용치 정보
+ScotApp_538,538unused
+ScotApp_338,상품 설명의 첫번째 세 문자를 입력해 주십시오.
+ScotApp_238,\n현금 수납 장치가 투입된 현금에 대한 로그 생성을 하지 못했습니다.\n\n지폐 카세트를 점검해 주십시오.
+ScotApp_138,카드 받기
+ScotApp_1170,* 프린터 커버를 열고 그림의 영역에서 용지 걸림을 검사합니다. \n* 걸린 종이를 제거합니다.\n* 프린터 커버를 닫고 용지를 다시 넣습니다.\n* 만일 에러가 계속 나타난다면 터미널을 다시 시작해 주십시오.
+ScotApp_1841,승인을 위해 계산 통로로 이동해 주세요
+ScotApp_1740,장바구니 검사
+ScotApp_938,938unused
+ScotApp_838,고객 계약 내용
+ScotApp_1133,지폐 수납 장치에 걸림 발생.
+ScotApp_1387,"치명적인 소프트웨어 에러 발생.\n터미널을 다시 시작해 주십시오.\n\n터미널을 다시 시작하려면:\n* 관리자 키 잠금 장치를 'S'로 돌립니다 –또는- 관리자 단추를 눌러 주십시오.\n* 전체 시스템 다시 시작을 선택합니다.\n* 지원 부서에 연락을 해서 에러를 알려 주십시오."
+ScotApp_1674,SafePay
+ScotApp_1650,(ddmmyy)
+ScotApp_690,690unused
+ScotApp_590,Device Factory 종료 중...
+ScotApp_490,"상품을 스캔하거나 '시작'을 눌러서 시작할 수 있습니다."
+ScotApp_390,반납된 상품
+ScotApp_290,290unused
+ScotApp_190,Transaction Broker 로드 중...
+ScotApp_990,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_890,Smart Scale 로드 중...
+ScotApp_1772,쿠폰
+ScotApp_1661,영수증 인쇄 불가능.  ‘다른 영수증’을 눌러서 다시 시도하십시오.
+ScotApp_1132,통신 에러.
+ScotApp_1386,치명적 에러
+ScotApp_784,지폐 지급 장치 작동 불가능\n* 지폐 지급 장치에 지폐를 보충하거나\n* 지폐 지급 장치 걸림을 제거하거나\n* 방출 상자를 조정해 주십시오.
+ScotApp_684,오늘
+ScotApp_584,EBT 거부됨.
+ScotApp_484,서명 필요
+ScotApp_384,384unused
+ScotApp_284,스캐너: 데이터 손실
+ScotApp_1595,선호하는 언어
+ScotApp_1451,출납 직원 ID
+ScotApp_984,운반 벨트 로드 완료.
+ScotApp_884,보류 취소
+ScotApp_1847,"상품 추가됨. 다음 상품 스캔 또는 ""코드 입력"" 누르기."
+ScotApp_1660,인쇄 옵션 선택
+ScotApp_1131,지폐 카세트가 없거나 잘못 삽입되었습니다.
+ScotApp_1385,언어 선택
+ScotApp_1436,‘담기 작업 건너뛰기’ 역치 초과
+ScotApp_1049,1049unused
+ScotApp_666,666unused
+ScotApp_1594,터미널을 적절하게 종료한 다음 다시 시작합니다.
+ScotApp_466,   스캔 완료 알 수 없는 상품
+ScotApp_366,프린터 나이프 걸림
+ScotApp_266,Sec.Agent 종료 중...
+ScotApp_966,966unused
+ScotApp_1541,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1846,"상품 스캔 또는 ""코드 입력"" 누르기."
+ScotApp_1667,SafePay
+ScotApp_1689,SafePay
+ScotApp_745,745unused
+ScotApp_645,스캔한 상품을 장바구니 영역에 다시 위치시켜 주십시오.
+ScotApp_1581,지폐 지급 장치
+ScotApp_445,현금 혜택
+ScotApp_345,345unused
+ScotApp_245,카드 리더 장치 작동 불가능
+ScotApp_145,145unused
+ScotApp_945,제한\봉투/상자
+ScotApp_713,713unused
+ScotApp_613,상품을 봉투 저울에 위치시키십시오.
+ScotApp_513,513unused
+ScotApp_313,313unused
+ScotApp_213,213unused
+ScotApp_113,상품 취소
+ScotApp_1573,보충을 위해 ‘로드’ 단추를 누르십시오. 제거하려면 ‘투입 장치 픽업’과 ‘지급 장치 픽업’ 단추를 눌러 주십시오.
+ScotApp_913,보안 저울에 예상하지 못한 상품.
+ScotApp_813,"PO# / 작업 이름을 입력한 다음 '입력'을 눌러 주십시오"
+ScotApp_1666,SafePay
+ScotApp_1137,%s 지폐 카세트 설치되지 않음.
+ScotApp_1580,지폐 지급 장치
+ScotApp_758,758unused
+ScotApp_658,화폐 량이 낮습니다
+ScotApp_558,수량 제한 상품
+ScotApp_1653,수량이 용량을 초과했습니다. 필요한 최대 수량은 %s 입니다. 수량으로 %s이(가) 자동으로 입력됩니다.
+ScotApp_358,도움 모드로 돌아가기
+ScotApp_258,Transaction Broker 종료 중...
+ScotApp_158,이 상품은 매장 승인이 필요합니다. 계속 진행해 주십시오.
+ScotApp_1844,검색
+ScotApp_958,봉투 저울
+ScotApp_858,예
+ScotApp_1136,지폐 차단 상자가 없거나 올바로 고정되지 않았습니다.
+ScotApp_1587,지폐 관리 화면에서의 변경 내용을 무시하시겠습니까?
+ScotApp_1531,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1599,%s 사용 환경 검색 실패.
+ScotApp_1652,(yymmdd)
+ScotApp_1123,* 걸려 있는 모든 지폐들이 다 제거되기 전까지 계속하지 마십시오.\n* 캐비닛 밖으로 주의해서 지폐 공급 장치를 꺼냅니다.\n* 벨트를 건드리지 말고 걸려 있는 지폐를 지폐 공급 장치 위로 제거합니다.\n* 지폐 공급 장치를 캐비닛에 눌러 넣습니다.\n* 도어를 잠근 다음 ‘직접 문제 해결 완료’를 눌러 주십시오.
+ScotApp_1342,유틸리티 선택
+ScotApp_1332,스페이스
+ScotApp_1586,%s          %s           %s
+ScotApp_1444,제거
+ScotApp_1598,사용환경 활성화됨.
+ScotApp_1651,(yyyymmdd)
+ScotApp_1122,지폐 지급 장치의 출구 쪽에 지폐가 걸려 있는 것 같습니다.\n\n지폐 지급 장치를 케비닛에서 일부만 당겨 주십시오.\n\n이 부근에 걸려 있는 지폐를 제거해 주십시오.\n주의해서 지폐 지급 장치를 케비닛 쪽으로 밀어 주십시오.
+ScotApp_1331,Shift
+ScotApp_1585,상자                                                값                         수치 상 변화
+ScotApp_1118,%s 지폐 지급 중 문제 발생.\n\n지폐 카세트에서 %s 지폐를 가져올 수 없습니다.\n\n%s 지폐 카세트를 제거해 주십시오.
+ScotApp_1884,스마트 도움 경고
+ScotApp_1191,치수 필요
+ScotApp_1121,이 때 보이는 지역 내에 지폐 걸림이 발생한 것 같습니다.\n\n지폐 지급 장치를 케비닛에서 일부만 당겨 주십시오.\n\n걸려 있는 지폐를 제거합니다.\n\n주의해서 지폐 지급 장치를 케비닛 쪽으로 밀어 주십시오.
+ScotApp_503,503unused
+ScotApp_403,403unused
+ScotApp_1849,
+ScotApp_1330,상품을 봉투에 넣지 않음
+ScotApp_1355,잔고
+ScotApp_1584,상자                                         카운트                              수량 변경
+ScotApp_465,%s               %s
+ScotApp_365,프린터 헤드 걸림
+ScotApp_265,265unused
+ScotApp_965,965unused
+ScotApp_633,서명:
+ScotApp_433,433unused
+ScotApp_333,카드 리더 셔터 걸림 에러
+ScotApp_233,지폐 수납 장치가 올바로 설치되었는지 다시 확인합니다.\n\n손잡이를 앞으로 당겨서 지폐 수납 장치의 고정을 해제한 후 앞쪽으로 끌어 냅니다.\n\n지폐 수납 장치가 정지할 때까지 다시 뒤로 밀어 주십시오.
+ScotApp_133,133unused
+ScotApp_1120,%s 지폐 카세트 앞에 지폐가 걸린 것 같습니다.\n\n%s 카세트를 제거하고 이 부근에 지폐 걸림이 발생했는지 확인하십시오.\n\n가능하다면 걸려 있는 지폐를 제거하고 지폐 카세트를 교체해 주십시오.
+ScotApp_1805,현금 전용 모드 나가기
+ScotApp_933,중량 불일치
+ScotApp_833,833unused
+ScotApp_1337,SelfServ Checkout 나가기
+ScotApp_1780,거래 시작
+ScotApp_712,712unused
+ScotApp_612,중량 추가
+ScotApp_512,시각적 확인
+ScotApp_312,상자에 걸림이 발생했습니다
+ScotApp_212,212unused
+ScotApp_112,수량 승인
+ScotApp_1081,모든 계산 통로\n보이기
+ScotApp_778,778unused
+ScotApp_678,678unused
+ScotApp_578,카드 입찰 종료.  거스름돈 액수.
+ScotApp_478,쿠폰을 제출해 주십시오.
+ScotApp_378,영수증 프린터
+ScotApp_278,보안 로그
+ScotApp_1127,다시 연결
+ScotApp_1802,카드 전용
+ScotApp_978,역치 = %d.
+ScotApp_878,가격을 입력하십시오.
+ScotApp_1533,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1787,사용한 비닐 봉투 개수를 입력하거나 비닐 봉투를 사용하지 않았을 경우 0을 입력하십시오.
+ScotApp_1799,현금 전용 모드
+ScotApp_1309,* 카세트가 고정될 때까지 삽입해 주십시오.\n* 지폐 수납 장치 모터가 잠시 회전하는지 확인하십시오.
+ScotApp_1323,거래 후 중량이
+ScotApp_1079,스캔한 상품을 벨트 위에 다시 위치시켜 주십시오.
+ScotApp_1382,(표준)
+ScotApp_1532,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1786,비닐 봉투 요금
+ScotApp_1094,서명 인쇄
+ScotApp_1113,%s @ %s/%s\t%s
+ScotApp_1798,현금 전용 모드
+ScotApp_1322,쿠폰 센서 에러\n통신 오류.
+ScotApp_1078,중량 예상 내용에 대한 설정을 선택하십시오. (고객이 상품을 벨트 위에 위치시켜야 함.)
+ScotApp_1334,  벨트에 상품 없음
+ScotApp_1785,잘못된 로그인. 키패드나 지문을 이용해서 다시 로그인해 주십시오.
+ScotApp_1046,계산대의 출납 직원에게 %s을(를) 제출해 주십시오.
+ScotApp_1696,상태 수정됨
+ScotApp_1112,%s @ %s %s/%s\t%s
+ScotApp_1158,PIN 패드 / EFT 장치 에러
+ScotApp_1065,1065unused
+ScotApp_1321,상품권 지불 종료.  잔고 액수.
+ScotApp_764,764unused
+ScotApp_1530,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1784,다중 팩 항목
+ScotApp_1070,1070unused
+ScotApp_49,49unused
+ScotApp_1111,  수량 %s @ %s/%s\t%s
+ScotApp_753,어제 시간별
+ScotApp_653,"쿠폰의 금액을 원 단위로 입력한 다음 '입력'을 눌러 주십시오."
+ScotApp_453,동전 수납 장치 상태 가득 참
+ScotApp_353,뒤로 이동
+ScotApp_253,253unused
+ScotApp_153,153unused
+ScotApp_1320,상품권 지불 시작.
+ScotApp_953,"터미널을 종료한 다음 다시 시작해 주십시오:\n* 관리자 키 잠금 장치를 'S'로 돌리거나 관리자 단추를 눌러 주십시오. \n*선택 ""다음 다시 시작 시 ADD 실행"". 선택하고 ""예""를 확인합니다.\n*'전체 시스템 종료'를 선택해 주십시오.\n*화면이 꺼지면 UPS나 전원 컨센트에서 터미널의 전원을 차단해 주시기 바랍니다.\n*다시 터미널을 켜 주십시오. 이벤트 뷰어를 확인하십시오. 에러가 다시 발생하면 서비스를 요청해 주십시오."
+ScotApp_853,상품 4개
+ScotApp_1845,영수증
+ScotApp_1537,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_732,732unused
+ScotApp_632,632unused
+ScotApp_532,제한 상품
+ScotApp_432,EBT
+ScotApp_332,도움 모드에서 나가기
+ScotApp_232,* 지폐 수납 장치와 카세트를 제거합니다.\n* 카세트 내의 걸림을 확인합니다.\n* 수납 장치 위에 있는 접근 도어를 열고 지폐 걸림이 있는지 확인합니다.\n* 접근 도어를 확실하게 닫아 주십시오.\n* 수납 장치와 카세트를 교체합니다.
+ScotApp_132,132unused
+ScotApp_1110,  수량 %s @ %s/단일 품목 당\t%s
+ScotApp_1242,직불
+ScotApp_1285,인기 상품
+ScotApp_932,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_832,832unused
+ScotApp_1327,"원하는 보고서를 누른 후 '보고서 실행'을 눌러 주십시오."
+ScotApp_711,711unused
+ScotApp_611,원하는 기능을 선택하십시오.
+ScotApp_511,고객의 서명을 카드의 서명과 비교해 주십시오.
+ScotApp_411,고객 카드 받기
+ScotApp_311,상자가 비었습니다
+ScotApp_111,저울 재설정
+ScotApp_1789,COUPON
+ScotApp_1536,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_911,보안 허용
+ScotApp_811,선물 카드를 스캔해 주십시오. 추가 상품에 대해 바구니를 점검합니다.
+ScotApp_1628,SafePay
+ScotApp_1523,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1349,%s\n %s\n%s %s 예상\n%s %s 관찰됨
+ScotApp_1892,보안 분석
+ScotApp_1279,수표
+ScotApp_1535,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1057,1057unused
+ScotApp_1441,동전 관리
+ScotApp_1313,* 프린터에 용지 걸림이 발생했는지 점검합니다.\n* 용지를 다시 넣습니다.\n* 터미널을 적절하게 종료한 다음 다시 시작합니다.
+ScotApp_1681,SafePay
+ScotApp_1069,1069unused
+ScotApp_1325,상품을 저울에 위치시키십시오.
+ScotApp_1278,사용자 지정20
+ScotApp_1103,이전
+ScotApp_1534,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_1056,1056unused
+ScotApp_1312,* 지폐 카세트를 제거합니다.\n* 카세트를 열고 지폐를 제거합니다.\n* 다시 닫은 후에 수납 장치에 다시 넣습니다.\n* 지폐 수납 장치 모터가 켜져 있고 LED가 녹색으로 켜져 있는지 확인하십시오.
+ScotApp_1265,사용자 지정7
+ScotApp_1850,에러 발생 장치
+ScotApp_1213,알 수 없음
+ScotApp_1521,에러를 수정하려면 장치 매뉴얼을 참고하십시오.
+ScotApp_139,영수증 받기
+ScotApp_1043,고객으로부터 %s을(를) 허용하려면 도움 모드를 이용하십시오.
+ScotApp_1401,  잠시만 기다려 주십시오...
+UnknownItemMessage,곧 도움을 받으실 수 있습니다.\n\n상품을 옆에 두고 계속 진행하십시오.
+TimeRestrictedItemMessage,지금 이 상품을 구입하실 수 없습니다. \n\n상품을 옆에 두고 계속 진행하십시오.
+ItemQuantityExceededMessage,이 상품에 대해 허용된 금액을 초과했습니다.\n\n상품을 유보한 다음 계속 진행해 주십시오.
+WeightMismatch,상품 무게 확인 중.\n\n잠시만 기다려 주십시오...
+ItemQuantityExceeded,수량 제한 초과
+WaitForRemoteAssistanceTitle,원격 안내 도움 요청 처리 중.
+ScotApp_489,NCR SelfServ Checkout을 사용해 주셔서 감사드립니다.
+ScotApp_273,지금 스캔하지 마십시오.\n상품을 유보해 주시기 바랍니다.
+ScotApp_431,유효하지 않은 고객 카드. 확인해 주시기 바랍니다.
+ScotApp_410,다음에 대해 도움 필요:
+ScotApp_1739,안내 직원을 기다려 주십시오. \n시스템이 장바구니 검사를 할 수 없습니다. \n장바구니 영역에 장바구니 이외의 다른 물건을 올려 놓으셨다면 지금 바로 치워주시기 바랍니다.
+ScotApp_73,쇼핑 모드로 돌아가기
+ScotApp_772,현재 거래에 대한 보류가 요청되었습니다.\n이 요청을 확인하거나 취소해 주십시오.
+ScotApp_530,카드 읽기 오류.\n다른 카드를 이용해 주십시오.\n   -또는-\n현금으로 지불해 주십시오.\n   -또는-\n도움을 요청하십시오.
+ScotApp_524,잘못된 PIN 입력.\n지불 장치에 PIN을 다시 입력해 주십시오.
+ScotApp_397,올바른 상품을 판매하기 위해서 도움모드를 이용해 주십시오.\n판매하지 않을 다른 상품들을 모아 주십시오.
+ScotApp_171,"""%s""\n\n%d이(가) 정확합니까?"
+ScotApp_1374,\n---------------------------------------\n
+ScotApp_1646,거래가 보류되었습니다. 모든 상품을 보관해 주십시오.
+ScotApp_495,이 상품에 대해 허용된 금액을 초과했습니다.\n\n상품을 유보한 다음 계속 진행해 주십시오.
+ScotApp_529,카드를 제거한 다음...\n다른 카드를 넣어 주십시오.\n   -또는-\n현금으로 지불해 주십시오.\n   -또는-\n도움을 요청하십시오.
+ScotApp_275,지금 요금 카드를 넣지 마십시오.\n카드를 받으십시오.
+ScotApp_1891,시스템 검증 진행 중. \n잠시만 기다려 주십시오...
+ScotApp_1750,지문을 처리하는 동안 기다려 주십시오.
+ScotApp_169,구입을 계속하시겠습니까?
+ScotApp_415,고객 카드를 받으십시오.\n카드가 이미 삽입되어 있습니다.
+ScotApp_1793,현재 이 시스템에서는 신용 카드와 직불 카드만 사용 가능합니다.\n계속하시겠습니까?
+ScotApp_477,쿠폰을 제출해 주십시오.\n영수증이 인쇄된 후:\n—상품을 모아 주십시오.\n—영수증과 상품을 계산대로 가져가 주십시오.
+ScotApp_177,전체 구매 내역 취소됨.
+ScotApp_656,<%s>을(를) 유보해 주시기 바랍니다.\n매장 직원이 도와드릴 것입니다.
+ScotApp_1709,지금 지폐나 동전을 넣지 마십시오.\n반환된 현금을 받아 주십시오.\n지폐는 스캐너 아래에서 지급됩니다.
+ScotApp_435,혜택 유형을 선택해 주십시오.\n푸드 스탬프를 사용할 경우 다른 혜택을 사용하기 전에 사용되어야 합니다.
+ScotApp_808,보안 태그를 제거하기 위해서 보안 태그가 부착된 상품을 안내 직원에게 가져가 주십시오.
+ScotApp_294,"매장 내의 도움을 요청하려면 '도움 요청' 단추를 눌러 주십시오."
+ScotApp_1287,잠시만 기다려 주십시오 ...\n상품 중량 확인 중.
+ScotApp_525,잘못된 PIN 입력.\n카드를 제거한 다음...\n다른 카드를 넣어 주십시오\n   -또는-\n현금으로 지불해 주십시오
+ScotApp_480,OK을 누른 다음 거래 내역서와 상품을 출납 직원에게 전달해 주십시오.
+ScotApp_1751,* 최대 무게 허용 초과.\n* 봉투 저울에서 상품을 제거하십시오.
+ScotApp_175,"영수증에서\n""%s""\n을(를) 제거하시겠습니까?"
+ScotApp_1746,지문 인식 서버를 이용할 수 없습니다.\n다시 시도해 주십시오
+ScotApp_1839,출납 직원을 기다려 주십시오.\n지금 스캔하지 마십시오. 상품을 유보해 주시기 바랍니다.
+ScotApp_501,영수증에 서명을 한 다음 매장 승인을 기다려 주십시오.
+ScotApp_414,고객 카드를 받으십시오.\n현재 구입 내역에 할인을 적용할 수 없습니다. 할인 혜택은 우편으로 발송될 것입니다.
+ScotApp_563,Hard Totals 초기화 중 에러 발생.\n지금 응용 프로그램을 종료합니다.
+ScotApp_263,쿠폰이 무효화 될 때까지 관련 상품을 무효화할 수 없습니다.\n상품의 쿠폰을 먼저 무효화해 주십시오.
+ScotApp_800,"장바구니를 확인해 주십시오.\n\n지금 추가 상품을 스캔하거나\n'OK'을 누른 다음 지불해 주십시오."
+ScotApp_134,인증 진행 중. \n잠시만 기다려 주십시오.
+ScotApp_620,허용치 입력
+ScotApp_161,"%s\n키패드를 이용해서 수량을 입력한 다음 'OK'을 눌러 주십시오."
+ScotApp_440,현금 혜택 잔고가 필요한 액수보다 부족합니다.\n이 구매에 남아 있는 현금 혜택 %s을(를) 적용하시겠습니까?
+ScotApp_184,%s 만큼 귀하의 계정에서 차감됩니다.
+ScotApp_274,지금 현금을 입금하지 마십시오.\n현금을 받으시기 바랍니다.
+ScotApp_1744,장치가 지문을 인식하지 못했습니다.\n다시 시도해 주십시오.
+ScotApp_160,상품이 취소되었습니다.\n곧 도움을 받으실 수 있습니다.\n상품을 유보한 다음 구입을 계속해 주시기 바랍니다.
+ScotApp_1795,또는 ‘카드 전용’으로 제한.
+ScotApp_159,상품 가격을 알 수 없습니다.\n곧 도움을 받으실 수 있습니다.\n상품을 유보한 다음 구입을 계속해 주시기 바랍니다.
+ScotApp_458,혜택 유형을 선택해 주십시오.\n이 용도로는 푸드 스탬프를 사용할 수 없습니다.
+ScotApp_1329,잠시만 기다려 주십시오 ...\n상품 중량 확인 중.\n두 배 중량 봉투 적용.
+ScotApp_407,카드 읽는 도중 에러 발생.\n*  다른 카드로 시도해 주십시오\n   -또는-\n*  도움을 요청해 주십시오
+ScotApp_706,"푸드 스탬프 잔고가 이 구입 내역 총합 보다 적습니다.\n'OK'을 누르면 다른 지불 방식을 이용할 수 있습니다."
+ScotApp_606,중량 항목 삭제
+ScotApp_906,상품을 받아 주십시오.
+ScotApp_705,"현금 혜택 잔고가 이 구입 내역 총합 보다 적습니다.\n'OK'을 누르면 다른 지불 방식을 이용할 수 있습니다."
+ScotApp_605,중량 항목 추가
+ScotApp_405,카드 읽는 도중 에러 발생.\n*  다른 카드로 시도해 주십시오\n   -또는-\n*  현금으로 지불할 수 있습니다\n   -또는-\n*  도움을 요청해 주십시오
+ScotApp_491,카드를 받아 주십시오.
+ScotApp_818,출납 직원을 기다려 주십시오.\n다음 사안에 대해 도움 필요:
+ScotApp_1796,또는 ‘현금 전용’으로 제한.
+ScotApp_438,푸드 스탬프 잔고가 필요한 액수보다 부족합니다.\n이 구매에 남아 있는 푸드 스탬프 혜택 %s을(를) 적용하시겠습니까?
+ScotApp_1596,%s을(를) 선호하는 언어로 %s에 저장하시겠습니까?\n ‘예’ 또는 ‘아니요’를 선택해 주십시오.
+ScotApp_766,%s 만큼 귀하의 계정에서 요금이 청구됩니다.
+ScotApp_166,곧 도움을 받으실 수 있습니다.\n구입을 계속해 주시기 바랍니다.
+ScotApp_413,고객 카드를 받으십시오.\n할인된 가격이 적용될 것입니다.
+ScotApp_1797,수정 작업으로 이 에러가 해결되지 않았습니다.\n다시 시도하거나 ‘현금만’으로 제한하십시오.
+ScotApp_178,매장 승인 대기 중.\n다음 항목에 대해 승인 필요:
+ScotApp_790,카드가 거부되었습니다.\n다른 지불 방법을 선택해 주십시오.
+ScotApp_1794,현재 이 시스템에서는 현금만 사용 가능합니다.\n신용 카드나 직불 카드는 처리할 수 없습니다.\n계속 하시겠습니까?
+ScotApp_412,이 상품을 구입하면 구입 내역이 %s을(를) 초과하게 됩니다.\n 지금 지불을 마친 다음 다른 상품을 별도로 구입해 주십시오.
+ScotApp_546,연령 제한 때문에 이 상품을 구입할 수 없습니다.n\n이 상품을 유보한 다음 구입을 계속해 주시기 바랍니다.
+ScotApp_553,구입 마지막 단게에서 쿠폰을 이용하실 수 있습니다.\n쿠폰 사용을 잠시 유보한 다음 계속해 주십시오.
+ScotApp_211,처리 중...\n잠시만 기다려 주십시오.
+ScotApp_1400,원격 안내도움 요청 처리 중.
+ScotApp_1754,문자와 상품이 일치하지 않음.\n다시 시도해 주십시오.
+ScotApp_1859,"%s의 전체 한 상자를 구입하시겠습니까? '예' 또는 '아니요'를 선택하십시오."
+ScotApp_533,지금 이 상품을 구입하실 수 없습니다.\n이 상품을 유보한 다음 계속 구입해 주시기 바랍니다.
+ScotApp_1763,e=d=%5.3fkg Max %5.3f kg min %3.1f kg Nmax %4.0f
+ScotApp_1762,e=d=%4.2flb Max %4.2f lb min %3.1f lb Nmax %4.0f
+ScotApp_1764,e = d = %4.2f lb Max %4.2f lb Min %3.1f lb Nmax %4.0f
+ScotApp_1765,e = d = %5.3f kg Max %5.3f kg Min %3.1f kg Nmax %4.0f
+ScotApp_305,다음 항목에 대한 용기를 선택하십시오: %s
+ScotApp_703,"PIN 패드를 이용하십시오. PIN 패드에서 '취소'를 누르면 지불을 취소합니다."
+ScotApp_125,고객의 출생 날짜 %s 입력 후’승인’ 누름
+ScotApp_1853,"고객의 출생 날짜 %s 입력 후 ""입력"" 누름. "
+ScotApp_654,날짜는 %s 형식으로 입력되어야 합니다.입력된 값: %s
+ScotApp_560,이 시스템은 쿠폰 사용을 허가하지 않습니다.
+ScotApp_1788,%d이(가) 정확합니까?\n\n%s의 봉투 요금이 총액에 추가될 것입니다.
+ScotApp_1358,구입 결제에 선물 카드 금액 %s이(가) 적용되었습니다. \n\n선물 카드 잔고는 %s 입니다.
+ScotApp_167,쿠폰이 구입한 상품들과 일치하지 않습니다.\n\n이 쿠폰은 허용되지 않습니다.
+ScotApp_164,시스템이 해당 상품 코드를 인식할 수 없습니다.\n\n올바른 번호가 입력되었는지 확인해 주십시오.
+ScotApp_547,부정확한 오퍼레이터 번호 및 패스워드.\n\n다시 시도해 주십시오.
+ScotApp_442,푸드 스탬프로 구입 내역 중 %s을(를) 구입할 수 있습니다.\n\n%s
+ScotApp_443,귀하의 계정에서 %s 만큼 차감됩니다.\n\n계속하시겠습니까?
+ScotApp_700,이 계산 통로에서 상품을 판매할 수 없습니다.\n곧 도움을 받으실 수 있습니다.\n\n상품을 유보한 다음 구매를 계속해 주십시오.
+ScotApp_165,시스템이 이 상품을 인식할 수 없습니다.\n곧 도움을 받으실 수 있습니다.\n\n상품을 유보한 다음 구입을 계속해 주시기 바랍니다.
+ScotApp_182,이 쿠폰에 대해 입력한 금액이 너무 높습니다.\n\n이 시스템은 이 쿠폰을 받을 수 없습니다.
+ScotApp_733,카드 거부됨.\n다른 카드를 사용하거나 현금으로 지불해 주십시오.
+ScotApp_812,NCR SelfServ Checkout을 사용해 주셔서 감사드립니다.\n선물 카드를 출납 직원에게 제출해 주십시오.
+ScotApp_1826,고객 카드에 사용 환경을 저장하시겠습니까?
+ScotApp_1852,장바구니 영역에서 취소된 상품을 제거해 주십시오.
+QRCodeErrorText,QR Code Error
+ScanQRCodeInstruction,Scan this code to complete\nyour Mobile shopping.
+ScotApp_1896,Transferring items from mobile cart.
+ScotApp_1897,잠시만 기다려 주십시오...
+ScotApp_1898,Mobile Cart
+ScotApp_1899,Mobile Audit
+ScotApp_1900,Mobile Shopper Audit
+ScotApp_1901,"Touch ""OK"" then use Attendant Handset to complete audit."
+ScotApp_1902,Begin Mobile Transaction
+ScotApp_1903,End Mobile Transaction
+ScotApp_1904,%d Items Sold
+ScotApp_1905,Scan barcode to complete your Mobile checkout.
+ScotApp_1906,Mobile cart transfer is complete.
+ScotApp_1907,\nTouch Pay or add more items.
+MoveLeft,< Move
+MoveRight,Move >
+Accessibility,Accessibility
+SearchItemCodeWatermark,Enter Item Code
+ScanAndBagNoSearchKeyIn,Scan or look up item to start
+ScanLookUpKeyInItem,"Scan, look up, or key in item code to start."
+LookUpKeyInItem,Look up or Key in Item
+ScanOrKeyInItem,Scan or Key in Item
+RemoveItemFromProduceScale,Remove item from scale.
+RemoveItemFromProduceScaleTitle,Remove Item

@@ -1,0 +1,97 @@
+﻿<Display Version="1.0">
+  <Languages>
+    <Language Name="040b"> Finnish - Finland
+      <StringTable>
+        <!-- Start of Main Screen Context -->
+        <String Name="MinMaxFastLaneBtnPrimaryTxt">Pienennä FastLane</String>
+        <String Name="MinMaxFastLaneBtnSecondaryTxt">Suurenna FastLane</String>
+        <String Name="MinMaxFastLaneBtnPrimaryShowConfirmation">Paina Pienennä FastLane -painiketta FastLane-ikkunan pienentämiseksi.</String>
+        <String Name="MinMaxFastLaneBtnSecondaryShowConfirmation">Paina Suurenna FastLane -painiketta FastLane-ikkunan suurentamiseksi.</String>
+        <String Name="StopStartFastLaneBtnPrimaryTxt">Sammuta FastLane</String>
+        <String Name="StopStartFastLaneBtnSecondaryTxt">Käynnistä FastLane</String>
+        <String Name="SwitchToRAPBtnPrimaryTxt">Siirry EOO-ohjelmaan</String>
+        <String Name="ShutdownSystemBtnPrimaryTxt">Sammuta koko järjestelmä</String>
+        <String Name="RebootSystemBtnPrimaryTxt">Käynnistä uudelleen koko järjestelmä</String>
+        <String Name="VolumeBtnPrimaryTxt">Äänenvoimakkuus</String>
+        <String Name="EventViewerBtnPrimaryTxt">Tapahtumienvalvonta</String>
+        <String Name="GenerateLogBtnPrimaryTxt">Luo virhelokitiedostot</String>
+        <String Name="ExitFastLaneAndRunProfileBtnPrimaryTxt">Sulje FastLane ja aja Profile Manager -ohjelma</String>
+        <String Name="ExitFastLaneAndRunProfileBtnSecondaryTxt">Aja Profile Manager -ohjelma</String>
+        <String Name="TerminalInfoBtnPrimaryTxt">Kassapäätetiedot</String>
+        <String Name="MinMaxRAPBtnPrimaryTxt">Pienennä EOO</String>
+        <String Name="MinMaxRAPBtnSecondaryTxt">Suurenna EOO</String>
+        <String Name="MinMaxRAPBtnPrimaryShowConfirmation">Paina Pienennä EOO -näppäintä EOO-ikkunan pienentämiseksi.</String>
+        <String Name="MinMaxRAPBtnSecondaryShowConfirmation">Paina Suurenna EOO -näppäintä EOO-ikkunan suurentamiseksi.</String>
+        <String Name="StopStartRAPButtonPrimaryTxt">Sulje EOO</String>
+        <String Name="StopStartRAPButtonSecondaryTxt">Käynnistä EOO</String>
+		<String Name="RapConfigureBtnPrimaryTxt">Eoo konfigurointi</String>
+        <String Name="SwitchToFastLaneBtnPrimaryTxt">Siirry FastLane-ohjelmaan</String>
+        <String Name="ExitRAPAndRunProfileBtnPrimaryTxt">Pysäytä EOO ja aja Profile Manager -ohjelma</String>
+        <String Name="ExitRAPAndRunProfileBtnSecondaryTxt">Aja Profile Manager -ohjelma</String>
+        <String Name="UtilityFunctionsTitle">NCR FastLane\n-apuohjelmien toiminnot</String>
+        <String Name="StartTitle">Järjestelmän käynnistys</String>
+        <String Name="SystemStartup">Järjestelmä käynnistyy…odota hetki</String>
+        <String Name="TerminalID">Kassapäätteen tunnussana: </String>
+        <String Name="InterfaceVersion">Ohjelmaversio:</String>
+        <String Name="TrainingProgramPrimaryTxt">Harjoitteluohjelma</String>
+        <String Name="OperatorIDText">Käyttäjätunnus: </String>
+        <String Name="KeySwitchOperatorID">Avainlukko</String>
+        <String Name="SignOnButtonText">Siskirj</String>
+        <String Name="SignOffButtonText">Uloskirj</String>
+        <String Name="SignedOffButtonText">Kirjauduttu ulos</String>
+        <String Name="Exit">Poistu kaikista</String>
+        <String Name="ReturnToShoppingButtonText">Palaa</String>
+        <String Name="PickListEditor">Tuotelistan muokkaus</String>
+        <String Name="RunADDTxt">Aja ALT Seuraavan Uudelleenkäynnistyksen Aikana</String>
+        <String Name="TouchWareTxt">Kosketusnäytön kalibrointi</String>
+        <String Name="DiagConfirm">Haluatko varmasti luoda virhelokitiedostot?</String>
+        <String Name="ProfileManagerFLConfirm">Haluatko varmasti sulkea FastLane-sovelluksen ja ajaa Profile Manager -ohjelman?</String>
+        <String Name="ProfileManagerRAPConfirm">Haluatko varmasti sulkea EOO-sovelluksen ja ajaa Profile Manager -ohjelman?</String>
+        <String Name="ProfileManagerConfirm">Haluatko varmasti käynnistää Profile Manager -ohjelman?</String>
+        <String Name="EventViewerConfirm">Haluatko varmasti käynnistää tapahtumienvalvontaohjelman?</String>
+        <String Name="TrainingConfirm">Haluatko varmasti käynnistää harjoitteluohjelman?</String>
+        <String Name="PicklistConfirm">Haluatko varmasti käynnistää tuotelistan muokkausohjelman?</String>
+        <String Name="RunADDConfirm">Oletko varma, että haluat ajaa ADD-sovelluksen seuraavan uudelleenkäynnistyksen yhteydessä?</String>
+        <String Name="CalibrateConfirm">Haluatko varmasti kalibroida kosketusnäytön?</String>
+        <String Name="ShutdownConfirm">Haluatko varmasti sammuttaa koko järjestelmän?</String>
+        <String Name="RebootConfirm">Haluatko varmasti käynnistää uudelleen koko järjestelmän?</String>
+        <String Name="CloseAllConfirm">Haluatko varmasti poistua kaikista sovelluksista ja siirtyä työpöydälle?</String>
+        <String Name="VolumeConfirm">Haluatko varmasti säätää äänenvoimakkuutta?</String>
+        <String Name="TerminalInfoConfirm">Haluatko varmasti katsoa kassapäätetietoja?</String>
+        <String Name="StopFastLaneConfirm">Haluatko varmasti sulkea FastLane-sovelluksen?</String>
+        <String Name="StopRAPConfirm">Haluatko varmasti suljea EOO-sovelluksen?</String>
+        <String Name="StartFastLaneConfirm">Haluatko varmasti käynnistää FastLane-sovelluksen?</String>
+        <String Name="StartRAPConfirm">Haluatko varmasti käynnistää EOO-sovelluksen?</String>
+        <String Name="WindowsLogOnTxt">Sisäänkirjaudu Windows-ohjelmaan</String>
+        <String Name="WindowsLogOnConfirm">Haluatko varmasti poistua kaikista sovelluksista ja kirjautua sisään uutena käyttäjänä?</String>
+        <String Name="YesText">Kyllä</String>
+        <String Name="NoText">Ei</String>
+        <String Name="CommandPromptPrimaryTxt">Komentokehote </String>
+        <String Name="CommandPromptConfirm">Haluatko varmasti käynnistää komentokehotteen?</String>
+        <String Name="RSMLEPrimaryTxt">Retail Systems Manager LE -jälleenmyyntijärjestelmien hallintaohjelma</String>
+        <String Name="RSMLEConfirm">Haluatko varmasti käynnistää Retail Systems Manager LE -jälleenmyyntijärjestelmien hallintaohjelman?</String>
+		<String Name="OperatorRegistrationUtility">Käyttäjän rekisteröinnin aputoiminto</String>
+		<String Name="EnterIDFpLeadthru">Syötä käyttäjätunnus ja paina "Syötä" tai laita sormesi sormenjälkilukijaan sisäänkirjautumista varten.</String>
+		<String Name="ReEnterIDFpLeadthru">Virheellinen sisäänkirjautuminen. Kirjaudu sisään uudelleen näppäimistön tai sormenjäljen avulla.</String>		
+        <!-- End of Main Screen Context -->
+
+        <!-- Start of Authentication Contexts -->
+        <String Name="ClearButtonText">Poista</String>
+        <String Name="EnterButtonText">Syötä</String>
+        <String Name="GoBackButtonText">Palaa takaisin</String>
+        <String Name="SpaceButtonText">Väli</String>
+        <String Name="BackSpaceButtonText">Peruuta</String>
+        <String Name="EnterIDLeadthru">Syötä käyttäjätunnus alla olevalla näppäimistöllä:</String>
+        <String Name="ReEnterIDLeadthru">Väärä käyttäjätunnus tai salasana. Syötä ne uudestaan alla olevalla näppäimistöllä.</String>
+        <String Name="EnterPasswordLeadthru">Syötä salasana alla olevalla näppäimistöllä:</String>
+        <String Name="CancelButtonText">Peruuta</String>
+        <String Name="LoggingInLeadthru">Kirjaudutaan sisään…odota hetki</String>
+        <String Name="ShiftButtonText">Vaihto</String>
+        <String Name="LegalCaptionText">LEGAL CAPTION
+This system is for the use of authorized personnel only. By logging onto this system, you are subject to the terms and conditions of all Information Security policies and standards. Use by unauthorized individuals or for unauthorized purposes is a violation of federal and/or state law. The company reserves the right to take any necessary actions to protect authorized users, intellectual property and other information assets. Individuals using this system are subject to having all of their activities on this system monitored. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals possible evidence of criminal activity, system personnel may provide the evidence of such monitoring to law enforcement officials.
+        </String>
+        <!-- End of Authentication Contexts -->
+      </StringTable>
+    </Language>
+  </Languages>
+</Display>

@@ -1,0 +1,203 @@
+<Menus>
+   <Menu MenuName="Terminal Type">
+      <Title>Enter Terminal Type</Title>
+      <Entry ID="1" EntryText="FastLane" ActionType="Menu" ActionEntry="FL Menu 1"/>
+      <Entry ID="2" EntryText="Direct Entry" ActionType="DirectMenu" ActionEntry="Direct Menu 1"/>
+      <Entry ID="3" EntryText="Telnet Terminal" ActionType="Menu" ActionEntry="TN Menu 1"/>
+ 	<Entry ID="4" EntryText="CSV Reports" ActionType="Menu" ActionEntry="CSV Menu"/>
+	<Entry ID="9" EntryText="Enterprise Reporting Reports" ActionType="Menu" ActionEntry="ER Menu"/>
+      <Entry ID="X" EntryText="Exit" ActionType="Exit"/>
+      <InputMask> 9 </InputMask>
+   </Menu>
+   <Menu MenuName="ER Menu">
+      <Title>Enter Report Type</Title>
+      <Entry ID="01" EntryText="Transactions By Date Range (Local Time)" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\TransactionsByDateRangeLocalizedCSV.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>
+      <Entry ID="02" EntryText="Intervention By Date Range (Local Time)" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\InterventionsByDateRangeLocalizedCSV.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>
+      <Entry ID="03" EntryText="Item Exception By Date Range (Local Time)" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\ItemExceptionsByDateRangeLocalizedCSV.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>
+      <Entry ID="04" EntryText="Cash Accepted By Date Range (Local Time)" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\CashAcceptedByDateRangeLocalizedCSV.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>
+      <Entry ID="05" EntryText="Cash Dispensed By Date Range (Local Time)" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\CashDispensedByDateRangeLocalizedCSV.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>
+      <Entry ID="06" EntryText="Tenders By Date Range (Local Time)" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\TendersByDateRangeLocalizedCSV.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>
+      <Entry ID="07" EntryText="Application Mode By Date Range (Local Time)" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\AppModeByDateRangeLocalizedCSV.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>
+      <Entry ID="08" EntryText="Cash Management By Date Range (Local Time)" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\CashMgtByDateRangeLocalizedCSV.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>
+      <Entry ID="09" EntryText="Device Error By Date Range (Local Time)" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\DeviceErrorByDateRangeLocalizedCSV.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>
+     <Entry ID="10" EntryText="RAP Change By Date Range (Local Time)" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\RAPChangeByDateRangeLocalizedCSV.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>
+     <Entry ID="11" EntryText="Operator Sign On By Date Range (Local Time)" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\OperatorSignOnByDateRangeLocalizedCSV.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>
+     <Entry ID="12" EntryText="Hardware Configuration" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\LaneConfigurationCSV.rpt" Format="CSV" />
+     <Entry ID="13" EntryText="Store Parameters" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\StoreCSV_EN_US.rpt" Format="CSV" />
+      <Entry ID="X" EntryText="Exit" ActionType="Exit"/>
+      <InputMask> 99 </InputMask>
+   </Menu>
+   <Menu MenuName="FL Menu 1">
+      <Title>Select Report</Title>
+      <Entry ID="01" EntryText="Assistance - Today Hourly" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\TodaysHourlyAssistanceReport.rpt" Format="TXT"/>
+      <Entry ID="02" EntryText="Assistance - Today Summary" ActionType="MultiReport" ActionEntry="TodayLaneAssistanceSummary" Format="TXT"/>
+      <Entry ID="03" EntryText="Assistance - Today Summary by Cashier" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\AssistanceReportOneDayByCashierAllDetails.rpt" Format="TXT"/>
+      <Entry ID="04" EntryText="Assistance - Yesterday Hourly" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\YesterdayHourlyAssistanceReport.rpt" Format="TXT"/>
+      <Entry ID="05" EntryText="Assistance - Yesterday Summary" ActionType="MultiReport" ActionEntry="YesterdayLaneAssistanceSummary" Format="TXT"/>
+      <Entry ID="06" EntryText="Assistance - Yesterday Summary by Cashier" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\AssistanceReportYesterdayByCashierAllDetails.rpt" Format="TXT"/>
+      <Entry ID="07" EntryText="Assistance - Previous 7 Days Summary" ActionType="MultiReport" ActionEntry="WeeklyAssistanceSummary" Format="TXT"/>
+      <Entry ID="08" EntryText="Assistance - Previous 7 Days by Cashier" ActionType="MultiReport" ActionEntry="WeeklyAssistanceSummaryByCashier" Format="TXT"/>
+      <Entry ID="33" EntryText="Media Audit - Today" ActionType="Report" ActionEntry="c:\scot\report\report\todaysmediaaudit.rpt" Format="TXT" CPI="9" />
+      <Entry ID="34" EntryText="Media Audit - Yesterday" ActionType="Report" ActionEntry="c:\scot\report\report\yesterdaysmediaaudit.rpt" Format="TXT" CPI="9" />
+      <Entry ID="35" EntryText="Media Audit - Previous 7 Days" ActionType="Report" ActionEntry="c:\scot\report\report\sevendaysmediaaudit.rpt" Format="TXT" CPI="9" />
+      <Entry ID="13" EntryText="Sales - Today Hourly" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\TodayHourlySalesReport.rpt" Format="TXT"/>
+      <Entry ID="14" EntryText="Sales - Today Summary" ActionType="MultiReport" ActionEntry="TodaySummary" Format="TXT"/>
+      <Entry ID="15" EntryText="Sales - Yesterday Hourly" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\YesterdayHourlySalesReport.rpt" Format="TXT"/>
+      <Entry ID="16" EntryText="Sales - Yesterday Summary" ActionType="MultiReport" ActionEntry="YesterdaySummary" Format="TXT"/>
+      <Entry ID="17" EntryText="Sales - Previous 7 Days" ActionType="MultiReport" ActionEntry="WeeklySalesSummary" Format="TXT" />
+      <Entry ID="18" EntryText="Sales - Previous 7 Days by Lane" ActionType="MultiReport" ActionEntry="SevenDaysSummary" Format="TXT"/>
+      <Entry ID="32" EntryText="RAP Operator Sign On" ActionType="Report" ActionEntry="c:\scot\report\report\RAPOperatorSignOnReport.rpt" Format="TXT" CPI="9" />
+      <Entry ID="09" EntryText="RAP Till - Today Summary" ActionType="Report" ActionEntry="c:\scot\report\Report\TodayRapTillReportMJR.rpt" Format="TXT" CPI="9"/>
+      <Entry ID="10" EntryText="RAP Till - Today by Cashier" ActionType="Report" ActionEntry="c:\scot\report\Report\TodayRapTillReportByCashierMJR.rpt" Format="TXT" CPI="9"/>
+      <Entry ID="11" EntryText="RAP Till - Yesterday Summary" ActionType="Report" ActionEntry="c:\scot\report\Report\YesterdayRapTillReportMJR.rpt" Format="TXT" CPI="9"/>
+      <Entry ID="12" EntryText="RAP Till - Yesterday by Cashier" ActionType="Report" ActionEntry="c:\scot\report\Report\YesterdayRapTillReportByCashierMJR.rpt" Format="TXT" CPI="9"/>
+      <Entry ID="19" EntryText="Weight Mismatch - Previous 7 Days" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\MismatchWeightWeek.rpt" Format="TXT"/>
+      <Entry ID="20" EntryText="Unknown Item - Previous 7 Days" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\report\UnknownItemWeek.rpt" Format="TXT"/>
+      <Entry ID="21" EntryText="Device Errors - Previous 7 Days" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\SevenDaysDeviceErrors.rpt" Format="TXT" CPI="9" />
+      <Entry ID="22" EntryText="Attendant Entry - Previous 7 Days" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\report\WeeklyAttendantEntry.rpt" Format="TXT" />
+      <Entry ID="23" EntryText="Cash Management - Today Summary - Count" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\TodayCashManagementInCountSummaryReport.rpt" Format="TXT" />
+      <Entry ID="24" EntryText="Cash Management - Today Details - Count" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\TodayCashManagementInCountDetailsReport.rpt" Format="TXT" />
+      <Entry ID="25" EntryText="Cash Management - Yesterday Summary - Count" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\YesterdayCashManagementInCountSummaryReport.rpt" Format="TXT"  />
+      <Entry ID="26" EntryText="Cash Management - Yesterday Details - Count" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\YesterdayCashManagementInCountDetailsReport.rpt" Format="TXT" />
+      <Entry ID="27" EntryText="Cash Management - Today Summary - Value" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\TodayCashManagementInValueSummaryReport.rpt" Format="TXT" />
+      <Entry ID="28" EntryText="Cash Management - Today Details - Value" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\TodayCashManagementInValueDetailsReport.rpt" Format="TXT" />
+      <Entry ID="29" EntryText="Cash Management - Yesterday Summary - Value" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\YesterdayCashManagementInValueSummaryReport.rpt" Format="TXT"  />
+      <Entry ID="30" EntryText="Cash Management - Yesterday Details - Value" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\YesterdayCashManagementInValueDetailsReport.rpt" Format="TXT" />
+      <Entry ID="31" EntryText="Sign On/Off - Previous 7 Days" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\WeeklySignOnOffReport.rpt" Format="TXT" />
+      <Entry ID="SS" EntryText="Signature Reports - Internal use only" ActionType="Signature" ActionEntry="None" Format="TXT"/>
+      <Entry ID="X" EntryText="Exit" ActionType="Exit"/>
+      <InputMask> 99 </InputMask>
+   </Menu>
+   <Menu MenuName="Direct Menu 1">
+      <Title>Enter Report Type</Title>
+      <Entry ID="1" EntryText="Pick List Item Sales" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\PickListItemSales.rpt" Format="CSV" />	
+      <Entry ID="2" EntryText="Signature Report by Date Range" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\SignatureByBusinessDateRange.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate" />
+      <Entry ID="X" EntryText="Exit" ActionType="Exit"/>
+      <InputMask> 9 </InputMask>
+   </Menu>
+   <Menu MenuName="TN Menu 1">
+      <Title>Enter Report Type</Title>
+      <Entry ID="1" EntryText="Sales Reports" ActionType="Menu" ActionEntry="TN Sales"/>
+      <Entry ID="2" EntryText="Assistance Reports" ActionType="Menu" ActionEntry="TN Assistance"/>
+      <Entry ID="3" EntryText="RAP Till Reports" ActionType="Menu" ActionEntry="TN Till"/>
+      <Entry ID="4" EntryText="Signature Report by Date Range (yyyy-mm-dd)" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\SignatureByBusinessDateRange.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>     
+      <Entry ID="X" EntryText="Exit" ActionType="Exit"/>
+      <InputMask> 9 </InputMask>
+   </Menu>
+   <Menu MenuName="TN Sales">
+      <Title>Enter Report</Title>
+      <Entry ID="1" EntryText="Sales - Today Hourly" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\TodayHourlySalesReport.rpt" Format="TXT"/>
+      <Entry ID="2" EntryText="Sales - Today Summary" ActionType="MultiReport" ActionEntry="TodaySummary" Format="TXT"/>
+      <Entry ID="3" EntryText="Sales - Yesterday Hourly" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\YesterdayHourlySalesReport.rpt" Format="TXT"/>
+      <Entry ID="4" EntryText="Sales - Yesterday Summary" ActionType="MultiReport" ActionEntry="YesterdaySummary" Format="TXT"/>
+      <Entry ID="5" EntryText="Sales - Previous 7 Days" ActionType="MultiReport" ActionEntry="WeeklySalesSummary" Format="TXT" />
+	  <Entry ID="6" EntryText="Sales - Previous 7 Days by Lane" ActionType="MultiReport" ActionEntry="SevenDaysSummary" Format="TXT"/>
+      <Entry ID="9" EntryText="Go Back" ActionType="Menu" ActionEntry="TN Menu 1"/>
+      <InputMask> 9 </InputMask>
+   </Menu>
+   <Menu MenuName="TN Assistance">
+      <Title>Enter Report</Title>
+      <Entry ID="1" EntryText="Assistance - Today Hourly" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\TodaysHourlyAssistanceReport.rpt" Format="TXT"/>
+      <Entry ID="2" EntryText="Assistance - Today Summary" ActionType="MultiReport" ActionEntry="TodayLaneAssistanceSummary" Format="TXT"/>
+      <Entry ID="3" EntryText="Assistance - Today Summary by Cashier" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\AssistanceReportOneDayByCashierAllDetails.rpt" Format="TXT"/>
+      <Entry ID="4" EntryText="Assistance - Yesterday Hourly" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\YesterdayHourlyAssistanceReport.rpt" Format="TXT"/>
+      <Entry ID="5" EntryText="Assistance - Yesterday Summary" ActionType="MultiReport" ActionEntry="YesterdayLaneAssistanceSummary" Format="TXT"/>
+      <Entry ID="6" EntryText="Assistance - Yesterday Summary by Cashier" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\AssistanceReportYesterdayByCashierAllDetails.rpt" Format="TXT"/>
+      <Entry ID="7" EntryText="Assistance - Previous 7 Days Summary" ActionType="MultiReport" ActionEntry="WeeklyAssistanceSummary" Format="TXT"/>
+      <Entry ID="8" EntryText="Assistance - Previous 7 Days by Cashier" ActionType="MultiReport" ActionEntry="WeeklyAssistanceSummaryByCashier" Format="TXT"/>
+      <Entry ID="9" EntryText="Go Back" ActionType="Menu" ActionEntry="TN Menu 1"/>
+      <InputMask> 9 </InputMask>
+   </Menu>
+   <Menu MenuName="TN Till">
+      <Title>Enter Report</Title>
+      <Entry ID="1" EntryText="RAP Till - Today Summary" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\TodayRapTillReport.rpt" Format="TXT" CPI="9"/>
+      <Entry ID="2" EntryText="RAP Till - Today by Cashier" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\TodayRapTillReportByCashier.rpt" Format="TXT" CPI="9"/>
+      <Entry ID="3" EntryText="RAP Till - Yesterday Summary" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\YesterdayRapTillReport.rpt" Format="TXT" CPI="9"/>
+      <Entry ID="4" EntryText="RAP Till - Yesterday by Cashier" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\YesterdayRapTillReportByCashier.rpt" Format="TXT" CPI="9"/>
+      <Entry ID="9" EntryText="Go Back" ActionType="Menu" ActionEntry="TN Menu 1"/>
+      <InputMask> 9 </InputMask>
+   </Menu>
+
+   <Menu MenuName="CSV Menu">
+      <Title>Enter Report Type</Title>
+      <Entry ID="01" EntryText="Transactions By Date Range" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\TransactionsByDateRangeCSV.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>	
+      <Entry ID="02" EntryText="Intervention By Date Range " ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\InterventionsByDateRangeCSV.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>	
+      <Entry ID="03" EntryText="Item Exception By Date Range " ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\ItemExceptionsByDateRangeCSV.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>	
+      <Entry ID="04" EntryText="Cash Accepted By Date Range " ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\CashAcceptedByDateRangeCSV.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>	
+      <Entry ID="05" EntryText="Cash Dispensed By Date Range " ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\CashDispensedByDateRangeCSV.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>	
+      <Entry ID="06" EntryText="Tenders By Date Range " ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\TendersByDateRangeCSV.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>	
+      <Entry ID="07" EntryText="Application Mode By Date Range " ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\AppModeByDateRangeCSV.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>	
+      <Entry ID="08" EntryText="Cash Management By Date Range " ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\CashMgtByDateRangeCSV.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>	
+      <Entry ID="09" EntryText="Device Error By Date Range " ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\DeviceErrorByDateRangeCSV.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>	
+     <Entry ID="10" EntryText="RAP Change By Date Range " ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\RAPChangeByDateRangeCSV.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>	
+     <Entry ID="11" EntryText="Operator Sign On By Date Range " ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\OperatorSignOnByDateRangeCSV.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>	
+     <Entry ID="12" EntryText="Hardware Configuration " ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\LaneConfigurationCSV.rpt" Format="CSV" />	
+     <Entry ID="13" EntryText="Store Report" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\StoreCSV.rpt" Format="CSV" />
+     <Entry ID="14" EntryText="Lane ID List By Date Range" ActionType="Report" ActionEntry="%APP_DRIVE%\scot\report\Report\LaneIDListByDateRangeCSV.rpt" Format="CSV" Parm="StartBusinessDate,EndBusinessDate"/>
+      <Entry ID="X" EntryText="Exit" ActionType="Exit"/>
+      <InputMask> 99 </InputMask>
+   </Menu>
+
+   <Report ReportName="TodaySummary" >
+      <HdrReport ActionEntry="%APP_DRIVE%\scot\report\Report\TodaySummaryHeader.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\TodaysSalesTotal.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\TodaysAvgPerTrans.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\TodaysTenderSummary.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\TodaysCashTransactions.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\TodaysCurrencyExchange.rpt" />
+   </Report>
+   <Report ReportName="YesterdaySummary" >
+      <HdrReport ActionEntry="%APP_DRIVE%\scot\report\Report\YesterdaySummaryHeader.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\YesterdaySalesTotal.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\YesterdayAvgPerTrans.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\YesterdayTenderSummary.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\YesterdayCashTransactions.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\YesterdayCurrencyExchange.rpt" />
+   </Report>
+   <Report ReportName="SevenDaysSummary" >
+      <HdrReport ActionEntry="%APP_DRIVE%\scot\report\Report\SevenDaysSummaryHeader.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\SevenDaysSalesTotal.rpt" CPI="9" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\SevenDaysAvgPerTrans.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\SevenDaysTenderSummary.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\SevenDaysCurrencyExchange.rpt" />
+   </Report>
+   <Report ReportName="WeeklySalesSummary" >
+      <HdrReport ActionEntry="%APP_DRIVE%\scot\report\Report\WeeklySalesSummaryHeader.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\WeeklySalesSummary.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\WeeklyTrxnAvg.rpt" CPI="9" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\WeeklyCashTransactions.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\WeeklyTenderSummary.rpt" />
+   </Report>
+   <Report ReportName="TodayLaneAssistanceSummary" >
+      <HdrReport ActionEntry="%APP_DRIVE%\scot\report\Report\AssistanceReportOneDaySummaryHeader.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\AssistanceReportOneDaySummaryNumbers.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\AssistanceReportOneDaySummaryAllDetails.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\AssistanceReportOneDaySummaryNumbersByLane.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\AssistanceReportOneDaySummaryAllDetailsByLane.rpt" />
+   </Report>
+   <Report ReportName="YesterdayLaneAssistanceSummary" >
+      <HdrReport ActionEntry="%APP_DRIVE%\scot\report\Report\AssistanceReportYesterdaySummaryHeader.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\AssistanceReportYesterdaySummaryNumbers.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\AssistanceReportYesterdaySummaryAllDetails.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\AssistanceReportYesterdaySummaryNumbersByLane.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\AssistanceReportYesterdaySummaryAllDetailsByLane.rpt" />
+   </Report>
+   <Report ReportName="WeeklyAssistanceSummary" >
+      <HdrReport ActionEntry="%APP_DRIVE%\scot\report\Report\AssistanceReportWeekSummaryHeader.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\AssistanceReportWeekSummary.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\AssistanceReportWeekSummaryAllDetails.rpt" />
+   </Report>
+   <Report ReportName="WeeklyAssistanceSummaryByCashier" >
+      <HdrReport ActionEntry="%APP_DRIVE%\scot\report\Report\WeeklyAssistanceSummaryByCashierHeader.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\WeeklyAssistanceSummaryByCashierResponseTime.rpt" />
+      <SubReport ActionEntry="%APP_DRIVE%\scot\report\Report\WeeklyAssistanceSummaryByCashierDailyAssistance.rpt" />
+   </Report>
+   <ErrorMessages>
+      <ErrorMessage Message="OpenReportFile" MessageText="Unable to open report file"/>
+      <ErrorMessage Message="GenerateReport" MessageText="Unable to generate the report"/>
+      <ErrorMessage Message="MenuParseFailure" MessageText="Error parsing menu file. Disconnecting"/>
+      <ErrorMessage Message="MenuInvalidType" MessageText="Invalid entry type in menu file. Disconnecting"/>
+      <ErrorMessage Message="MenuInputError" MessageText="Error processing input. Disconnecting"/>
+      <ErrorMessage Message="NoData" MessageText="No data available for selected period."/>
+   </ErrorMessages>
+</Menus>

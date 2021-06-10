@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:element name="Device-Lookup-Table">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DeviceModels" minOccurs="0">
+        </xs:element>
+        <xs:element ref="DeviceErrors" minOccurs="0">
+        </xs:element>
+      </xs:sequence>       
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="DeviceModels">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Device-Model" minOccurs="0" maxOccurs="unbounded">
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="Device-Model">    
+    <xs:complexType>     
+      <xs:sequence>
+        <xs:element ref="SubModel" minOccurs="0" maxOccurs="unbounded">
+        </xs:element>
+      </xs:sequence>    
+      <xs:attribute name="id" type="xs:nonNegativeInteger" >
+      </xs:attribute>
+      <xs:attribute name="name" type="xs:string" >
+      </xs:attribute>      
+    </xs:complexType>    
+  </xs:element>
+  
+  <xs:element name="SubModel">
+    <xs:complexType>
+      <xs:attribute name="id" type="xs:nonNegativeInteger">
+      </xs:attribute>
+      <xs:attribute name="name" type="SubModelType" >
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  
+
+  <xs:simpleType name="SubModelType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Coin"/>
+      <xs:enumeration value="CoinLowSensor"/>
+      <xs:enumeration value="Bill"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="DeviceErrors">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Device-Error" minOccurs="0" maxOccurs="unbounded">
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="Device-Error">
+    <xs:complexType>
+      <xs:all>
+        <xs:element name="Model" type="ErrorContentType" default="Any" minOccurs="1"/>
+        <xs:element name="SubModel" type="ErrorContentType" default="" minOccurs="0"/>
+        <xs:element name="ResultCode" type="xs:integer" default="-99" minOccurs="1"/>
+        <xs:element name="ExtendedResultCode" type="xs:integer" default="-99" minOccurs="1"/>
+        <xs:element name="CheckHealth" type="xs:boolean" default="true" minOccurs="0"/>
+        <xs:element name="ErrorDisplay" type="ErrorContentType" minOccurs="0"/>
+        <xs:element name="Title1" type="ErrorContentType" minOccurs="0"/>
+        <xs:element name="Title2" type="ErrorContentType" minOccurs="0"/>
+        <xs:element name="Text" type="ErrorContentType" minOccurs="0"/>
+        <xs:element name="Image" type="ErrorContentType" minOccurs="0"/>
+        <xs:element name="Video" type="ErrorContentType" minOccurs="0"/>
+        <xs:element name="Context" type="xs:integer" default="-1" minOccurs="0"/>
+      </xs:all>      
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="ErrorContentType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:schema>

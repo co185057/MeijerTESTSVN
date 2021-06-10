@@ -1,0 +1,31 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\Device Manager\Devices\Scale\Emulator]
+"Configure"="No"
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\Device Manager\Devices\Scale\NCRScale.1]
+"Configure"="No"
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\DeviceManagerEx\Devices\Local\Scale\NCRScale.1]
+"Configure"="No"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\Scale]
+"WTXScale6680"="BagScaleEmulator"
+"SecurityScale3.0"="BagScaleEmulator"
+"NCRScale.1"="BagScaleEmulator"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\Scale\BagScaleEmulator]
+@="NCR.NullDevice"
+"MaxWeight"="99 -> Max Weight in Scale units."
+"Units"="4 -> SCAL_WU_GRAM = 1, SCAL_WU_KILOGRAM = 2,  SCAL_WU_OUNCE = 3, SCAL_WU_POUND = 4"
+"RealTime"="FALSE -> TRUE causes a real time delay for device operations."
+"NCR78xx"="FALSE -> TRUE causes 78XX scale emulation."
+"NCRVersion"="4.0.43.0 -> NCR Release File Version"
+"Description"="NCR Null Service Object, (c) 1997 NCR"
+"Version"="1.2.0"
+"AutoZero"="FALSE -> TRUE causes scale to automatically zero after a successful ReadWeight()."
+"ShowWindow"="?? -> 0-HIDE,1-NORMAL, 2-SHOWMINIMIZED,3-SHOWMAXIMIZED,4-SHOWNOACTIVATE,5-SHOW,6-MINIMIZE,7-SHOWMINNOACTIVE,8-SHOWNA,9-RESTORE,10-SW_SHOWDEFAULT"
+"SoundEffects"="FALSE -> TRUE enables sound effects."
+"StableWeightDelay"="150 -> Number of ms to delay read when weight is stable."
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\ScotApp\Controls\SmartScale]
+"DisableBagScale"=dword:00000001
+

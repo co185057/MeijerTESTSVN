@@ -1,0 +1,241 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_TELNETX             BITMAP  DISCARDABLE     "telnetx.bmp"
+IDB_TELNETXBIG          BITMAP  DISCARDABLE     "bitmap1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// REGISTRY
+//
+
+IDR_TELNETX             REGISTRY DISCARDABLE    "TelnetX.rgs"
+IDR_TELNETXPROPPAGE     REGISTRY DISCARDABLE    "TelnetXPropPage.rgs"
+IDR_TELNETXFIREWALLPROPPAGE REGISTRY DISCARDABLE    "TelnetXFirewallPropPage.rgs"
+IDR_TELNETXPROTOCOLPROPPAGE REGISTRY DISCARDABLE    "TelnetXProtocolPropPage.rgs"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TELNETXPROPPAGE DIALOG DISCARDABLE  0, 0, 271, 105
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_HOST,35,7,88,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PORT,35,24,28,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_PROMPT,35,41,86,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TIMEOUT,35,58,30,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "On",IDC_DEBUGMODE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    191,9,25,10
+    CONTROL         "On",IDC_BLOCKINGC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    191,25,25,10
+    COMBOBOX        IDC_BLOCKINGMODE,191,41,72,56,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "",20009,0,0,271,75
+    GROUPBOX        "",20010,0,72,271,33
+    LTEXT           "Host",20005,7,10,16,8
+    LTEXT           "Port",20006,7,27,14,8
+    LTEXT           "Prompt",IDS_PROMPT,7,44,23,8
+    LTEXT           "Timeout",20015,7,61,26,8
+    LTEXT           "Debug Mode",IDS_DEBUGMODE,138,10,42,8
+    LTEXT           "Blocking",IDC_BLOCKINGS,138,26,28,8
+    LTEXT           "Blocking Mode",IDS_BLOCKINGMODES,138,43,48,8
+END
+
+IDD_TELNETXFIREWALLPROPPAGE DIALOG DISCARDABLE  0, 0, 271, 105
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_FIREWALLTYPE,53,9,88,62,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_FIREWALLHOST,53,25,88,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_FIREWALLPORT,53,41,28,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FIREWALLLOGONNAME,53,57,86,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_FIREWALLPASSWORD,53,73,30,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Host",20005,5,28,16,8
+    LTEXT           "Port",20006,5,44,14,8
+    LTEXT           "Logon Name",20007,5,60,42,8
+    LTEXT           "Password",20015,5,76,32,8
+    LTEXT           "Type",20008,5,12,17,8
+    LTEXT           "Note: Logon Name and Password fields are only valid when 'Socks 5' firewall is selected",
+                    IDC_STATIC,146,59,114,30
+    GROUPBOX        "",IDC_STATIC,0,0,270,101
+END
+
+IDD_TELNETXPROTOCOLPROPPAGE DIALOG DISCARDABLE  0, 0, 271, 105
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_PROTOCOL,55,8,80,56,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "On",IDC_AUTOLOGON,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    56,30,25,10
+    EDITTEXT        IDC_LOGIN,45,49,33,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASSWORD,45,68,33,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_COMMAND,46,87,33,12,ES_AUTOHSCROLL
+    CONTROL         "Triple-DES protocol",IDC_ENCRYPTION1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,158,22,92,9
+    CONTROL         "DES protocol",IDC_ENCRYPTION2,"Button",
+                    BS_AUTORADIOBUTTON,158,35,92,9
+    GROUPBOX        "",20009,0,0,271,104
+    LTEXT           "Auto Logon",IDS_AUTOLOGON,10,30,38,8
+    LTEXT           "Login",IDS_LOGONNAME,10,52,18,8
+    LTEXT           "Password",IDS_PASSWORD,10,71,32,8
+    LTEXT           "Command",IDS_COMMAND,10,90,32,8
+    LTEXT           "Note: AutoLogon can be disabled only for Telnet protocol!",
+                    IDC_STATIC,83,31,54,40
+    LTEXT           "Protocol",IDS_PROTOCOL,11,10,27,8
+    LTEXT           "Encryption",IDC_STATIC,158,10,64,9
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ABOUTDLL            ICON    DISCARDABLE     "icon1.ico"
+IDI_MABRY               ICON    DISCARDABLE     "ico00001.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "1 TYPELIB ""Ocx.tlb""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,8
+ PRODUCTVERSION 1,0,0,8
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "http://www.mabry.com\0"
+            VALUE "CompanyName", "Mabry Software, Inc.\0"
+            VALUE "FileDescription", "Mabry Internet Telnet/X ActiveX Control\0"
+            VALUE "FileVersion", "1.00.008\0"
+            VALUE "InternalName", "Ocx\0"
+            VALUE "LegalCopyright", "Copyright 1999-2002 by Mabry Software, Inc.\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OLESelfRegister", "\0"
+            VALUE "OriginalFilename", "TelnetX.OCX\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Mabry Internet Telnet/X ActiveX Control\0"
+            VALUE "ProductVersion", "1.00.008\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_TITLETelnetXProtocolPropPage "Protocol"
+    IDS_HELPFILETelnetXProtocolPropPage "telnetx.chm"
+    IDS_DOCSTRINGTelnetXProtocolPropPage "Telnet/X Property Pages"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PROJNAME            "Ocx"
+    IDS_TITLETelnetXPropPage "General"
+    IDS_HELPFILETelnetXPropPage "telnetx.chm"
+    IDS_DOCSTRINGTelnetXPropPage "Telnet/X Property Pages"
+    IDS_TITLETelnetXFirewallPropPage "Proxy/Firewall"
+    IDS_HELPFILETelnetXFirewallPropPage "telnetx.chm"
+    IDS_DOCSTRINGTelnetXFirewallPropPage "Telnet/X Property Pages"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+1 TYPELIB "Ocx.tlb"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

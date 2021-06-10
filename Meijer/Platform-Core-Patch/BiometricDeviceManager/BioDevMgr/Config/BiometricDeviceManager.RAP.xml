@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<BiometricDeviceManager>
+	<!-- This is a configuration file sample used for development 
+	     and unit testing, it uses fictitious plugins and parameters -->
+	<Plugins Path="%APP_DRIVE%\scot\bin">
+		<Plugin Driver="BioDevMgr.Driver.DigitalPersona.dll" Class="BioDevMgr.DigitalPersona" StartPlugin="1" />
+		<Plugin Connector="BioDevMgr.Connector.RemoteMessage.dll" Class="BioDevMgr.RemoteMessageConnector" StartPlugin="1" OperationPrefix="biomet-data;encoded-data=" SendEventsTo="RapNet.exe;LaunchPadNet.exe;BioDevMgr.exe;BioDevMgr.vshost.exe" />
+		
+		<!-- Not Used by RAP (start) --><!--
+		<Plugin Driver="BioDevMgr.Driver.ACSIO.dll" Class="BioDevMgr.ACSIO" StartPlugin="0" ACSIOClientPath="C:\acs\bin\ACSIOClient.dll" ACSIODataKitPath="C:\acs\bin\ACSIODataKit.dll" Context="acs_tb_interface" MatchField="tb_int" MatchFieldValue="798" DataField="tb_char" SizeField="tb_long" />
+		<Plugin Driver="BioDevMgr.Driver.ACSBiomet.dll" Class="BioDevMgr.ACSBiomet" StartPlugin="0" BiometLibraryPath="C:\acs\bin\biomet.dll" PollPeriod="4000" BufferSize="10000" />
+		<Plugin Driver="BioDevMgr.Controller.SalesMonitor.dll" Class="BioDevMgr.SalesMonitor" StartPlugin="0" PollPeriod="500" ProcessToMonitor="salesw2k.exe" PluginWhenRunning="BioDevMgr.ACSIO" PluginWhenStopped="BioDevMgr.ACSBiomet" />
+		--><!-- Not Used by RAP (end) -->
+		
+		<!-- Test Plugins (start) --><!--
+		<Plugin Connector="BioDevMgr.Connector.Test.dll" Class="BioDevMgr.TestConnector" StartPlugin="0" Param1="Value1" Param2="Value2" />
+		<Plugin Connector="BioDevMgr.Connector.Test.dll" Class="BioDevMgr.TestConnector" StartPlugin="0" />
+		<Plugin Param3="Value3" Driver="BioDevMgr.Driver.Test.dll" Class="BioDevMgr.TestDriver" StartPlugin="0" DueTime="10000" Period="5000" />
+		--><!-- Test Plugins (end) -->
+		
+	</Plugins>
+</BiometricDeviceManager>

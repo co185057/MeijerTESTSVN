@@ -1,0 +1,113 @@
+<Display Version="1.0">
+  <Includes>
+    <Include File="%ConfigPath%\FFMini_5992Config.xml" />
+    <Include File="%ConfigPath%\FFMini_7401MSRConfig.xml" />
+    <Include File="%ConfigPath%\FFMini_IVIC2000Config.xml" />
+    <Include File="%ConfigPath%\FFMini_MCRConfig.xml" />
+    <Include File="%ConfigPath%\FFMini_OMNI490Config.xml" />
+    <Include File="%ConfigPath%\FFMini_PIPConfig.xml" />
+    <Include File="%ConfigPath%\FFMini_EverestConfig.xml" />
+  </Includes>
+  <Controls>
+    <Control Name="BagAndEASVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\BagItem_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="CashPaymentVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\InsertCash_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="DepositCouponsVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\InsertCoupon_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="EnterWeightVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\WeighItem_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="EnterWtForPriceEmbeddedVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\WeighItem_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="InsertCouponVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\InsertCoupon_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="TakeChangeVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\TakeChange_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="TakeCashVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\TakeChange_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="TakeReceiptVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\TakeReceipt_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="PickingUpItemsVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\Security_ReturnItem_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="SecMisMatchWeightVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\Security_RemoveItem_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="SecUnexpectedDecreaseVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\Security_ReturnItem_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="SecUnExpectedIncreaseVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\Security_RemoveItem_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="ScaleBrokenVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\ResetScale_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="ScanBagVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\ScanItem_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="AttractVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\Attract_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="SwipeCardVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\SwipeCard_TopPinPad_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="DepositCardVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\InsertCoupon_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="ScanCardVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\ScanCard_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="VoucherPaymentVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\ScanCard_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+  </Controls>
+</Display>

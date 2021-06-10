@@ -1,0 +1,2795 @@
+﻿AmountSaved,จำนวนที่ประหยัด
+Assistance,ความช่วยเหลือ
+AssistanceComing,กำลังส่งความช่วยเหลือมา โปรดทำต่อ
+Back,กลับไป
+BagItem,โปรดนำรายการนี้ใส่ถุง
+BagItemCart,บรรจุสินค้าใส่ถุง
+BagItemOrSkip,โปรดนำรายการนี้ใส่ถุงหรือเลือกข้าม
+CallForHelp,ขอความช่วยเหลือ?
+Cancel,ยกเลิก
+CancelAll,ยกเลิกทั้งหมด
+CancelCoupons,ยกเลิกคูปอง
+CancelPayment,ยกเลิกการชำระเงิน
+CantScanCoupon,ไม่สามารถสแกนคูปอง
+CartPay,ชำระเงิน
+Change,เงินทอน:
+Confirm,ต้องการยกเลิกการซื้อทั้งหมดไหม
+ConfirmQuantity,{0} ถูกต้อง?
+Continue,ต้องการทำต่อไหม
+CouponMessage,แยกคูปองออกตอนนี้ ยื่นคูปองเมื่อซื้อสินค้าเสร็จสิ้นแล้ว
+DepositCard,โปรดฝากบัตรของขวัญที่ใช้หมดแล้วในช่องคูปอง
+DepositCoupon,ใส่คูปอง
+DepositGiftCard,ฝากบัตรของขวัญ
+Disconnected,โปรดรอ...
+Done,เสร็จสิ้น
+Due,จำนวนที่ต้องจ่าย:{0}
+EditCart,แก้ไขรถเข็น
+Enter,ป้อน
+EnterAmount,ป้อนจำนวน
+EnterCouponValue,"กรอกมูลค่าคูปองเป็นบาท แล้วแตะ ""OK"""
+EnterId,กรอก ID
+EnterPassword,กรอกรหัสผ่าน
+EnterPin,ป้อน PIN
+EnterQuantity,มีรายการอยู่เท่าไรแล้ว
+EnterWeight,วางรายการบนตาชั่ง:
+Finish,ขอขอบคุณที่อุดหนุนเรา
+FinishAndAdd,ทำเสร็จและเพิ่ม
+GiftCard,ยอดบัตรกำนัล
+GoBack,กลับไป
+IncorrectLogin,หมายเลขและรหัสผ่านผู้ดำเนินการไม่ถูกต้อง\n\nโปรดลองอีกครั้ง
+InsertCash,ใส่เงินสด
+InsertCoupon,ใส่คูปอง
+InvalidBarcodeScan,แยกสินค้าออกแล้วซื้อสินค้าต่อ
+Item,{0} รายการ
+Items,{0} รายการ
+ItemsAddedFormat,{0} รายการที่เพิ่มลงรถเข็น
+Language,ภาษา
+NCRCorp,NCR Corp
+No,ไม่
+OK,OK
+Or,หรือ
+OtherPayment,การชำระเงินวิธีอื่น
+OtherPaymentMethod,วิธีชำระเงินอื่นๆ
+OwnBag,ถุงของตนเอง
+Paid,ชำระเงินแล้ว:{0}
+PayAnotherWay,ชำระเงินทางอื่น
+PointsEarned,คะแนนที่ได้รับ
+PrintReceipt,พิมพ์ใบเสร็จรับเงิน
+Proceed,ดำเนินการต่อ
+Remove,ลบ
+RemovedItem,ฉันลบรายการออก
+RestrictedItem,สินค้าที่จำกัด
+ReturnToScan,กลับไป
+ScanAndBag,สแกน ค้นหา หรือกรอกรหัสรายการเพื่อเริ่ม
+ScanCoupon,สแกนคูปอง
+ScanGiftCard,สแกนบัตรกำนัล
+ScanNextItem,โปรดสแกนรายการต่อไป
+ScanVoucher,สแกนเวาเชอร์
+SearchResultsFor,"ค้นหาผลลัพธ์สำหรับ ""{0}"""
+SearchWatermark,กรอกชื่อหรือรหัสรายการ
+SearchItemNameWatermark,Enter Item Name
+SearchKeyInItem,ค้นหาหรือกรอกรายการ
+SelectCashBack,เลือกจำนวนเงินสดที่คืน
+SelectLanguage,เลือกภาษา
+SelectPaymentType,เลือกประเภทการชำระเงิน
+SellBags,คุณใช้ถุงพลาสติกไปกี่ใบ กรอก 0 หากไม่ได้ใช้เลย
+SignNeeded,ต้องมีลายมือชื่อ
+SignSignature,เซ็นแผ่นเซ็นชื่อ
+SkipBagging,ข้ามการนำใส่ถุง
+Space,Space
+StartScanning,เริ่มการสแกน
+StoreLogin,เข้าสู่ระบบร้านค้า
+TakeCash,รับเงินสดที่จ่ายคืน
+TakeChange,รับเงินทอน
+TakeReceipt,รับใบเสร็จรับเงิน
+Tax,ภาษี
+TimeRestrictedItem,สินค้าที่จำกัดเวลา
+Total,รวม
+TouchCancel,แตะยกเลิกที่ Pinpad เพื่อยกเลิกการชำระเงิน
+TryAgain,ลองอีกครั้ง
+UnexpectedDecreaseMessage,คืนรายการในส่วนใส่ถุง
+UnexpectedIncreaseMessage,นำรายการออกจากส่วนใส่ถุง
+UsePinpad,ใช้ Pinpad
+VoidItem,"สแกนรายการที่ไม่ต้องการหรือแตะ ""ลบ"" ที่ใบเสร็จ"
+Volume,เสียง
+WeightMismatch,ตรวจสอบน้ำหนักรายการ โปรดรอสักครู่…
+Yes,ใช่
+ItemNumberAmount,NOI :  
+WeightExpected,WE :  
+WeightObserved,WO :  
+UnknownPriceMessage,ไม่รู้ราคารายการ ความช่วยเหลือกำลังมา ตั้งรายการแยกไว้และทำต่อ
+SetAllItemsAsideMessage,ยกเลิกการซื้อทั้งหมด\n\nแยกสินค้าทั้งหมดออก
+ConfirmAbortMessage,แน่ใจไหมว่าต้องการล้างรถเข็น เราจะยกเลิกธุรกรรม
+NoKeep,ไม่ เก็บไว้
+NoReturn,ไม่ กลับไปยังธุรกรรม
+YesEmpty,ใช่ ล้างรถเข็นแล้วจบธุรกรรม
+YesRemove,ใช่ นำออก
+HostOfflineMessage,ช่องจ่ายเงินออฟไลน์อยู่ในขณะนี้และระบบกำลังพยายามเชื่อมต่อใหม่
+LaneClosedMessage,ช่องจ่ายเงินปิดอยู่
+LoadingText,กำลังโหลด
+VerifyBagsMessage,หากคุณวางของอย่างอื่นที่ไม่ใช่ถุงในส่วนนำใส่ถุงโดยไม่ตั้งใจ โปรดนำออกเลย
+HelpOnWay,ความช่วยเหลือกำลังมา โปรดทำต่อ
+OwnBagMessage,โปรดวางถุงบนตาชั่ง
+UseOwnBag,ฉันใช้ถุงของฉันเอง
+AttendantMode,โหมดผู้เข้าร่วม
+AttendantTrainingMode,โหมดพนักงานและการอบรม
+TrainingMode,โหมดการอบรม
+ScaleBroken,"นำสินค้าออกจากเครื่องชั่ง และ \n"">0<"" บนเครื่องสแกน"
+Refunded,เงินที่ได้รับคืน:
+EnterIDMessage,"ใส่ ID ผู้ใช้ของคุณ แล้วแตะที่ปุ่ม ""ป้อน""."
+EnterIDText,ป้อน ID
+EnterPasswordMessage,"ใส่รหัสผ่านของคุณ แล้วแตะที่ปุ่ม ""ป้อน""."
+EnterPasswordText,ป้อนรหัสผ่าน
+VisualVerify,ยืนยันด้วยตา
+SingleItemAddedFormat,{0} รายการที่เพิ่มลงรถเข็น
+Approved,อนุมัติแล้ว
+VoidItemBeforeCouponMessage,ไม่สามารถยกเลิกสินค้าได้จนกว่าคูปองจะถูกยกเลิก ยกเลิกคูปองของสินค้าก่อน
+VerifyBags,พนักงานจะยืนยันถุงของคุณ
+CancelItems,ยกเลิกสินค้า
+EnterQuantityTitle,ต้องใส่ปริมาณ
+SecUnExpectedIncreaseTitle,การแจ้งเตือนการนำใส่ถุง
+WeightMismatchTitle,ต้องการความช่วยเหลือ
+AssistanceNeededTitle,ต้องการความช่วยเหลือ
+CheckBasketTitle,ตรวจสอบตะกร้า
+ConfirmDebitAmountTitle,ยืนยันจำนวน
+DropoffCouponsTitle,ยื่นคูปอง.
+InsufficientBalanceTitle,ยอดคงเหลือไม่พอ
+OperatorPasswordStateInvalidPasswordWithFPTitle,ล็อกอินลายนิ้วมือล้มเหลว
+PurchaseCrateTitle,ซื้อลัง
+RestrictedItemTitle,สินค้าที่จำกัด
+SecBagAreaBackupTitle,สินค้าที่สำรองไว้
+SignChargeTitle,Sign ใบเสร็จรับเงิน
+TakeCardTitle,รับบัตร
+ContinueTitle,ดำเนินการต่อ?
+ApprovalNeededTitle,ต้องมีการอนุมัติ
+IncorrectLoginTitle,หมายเลขไม่ถูกต้อง
+RecalledItemTitle,สินค้าที่ถูกเรียกคืน
+RemovedItemTitle,การแจ้งเตือนการนำใส่ถุง
+SetAllItemsAsideTitle,แยกสินค้าออก
+TakeLoyaltyCardTitle,หยิบบัตรลอยัลตี้การ์ด
+UnknownPriceTitle,ไม่ทราบราคา
+ConfirmEBTAmountTitle,ยืนยันจำนวน
+DisconnectedTitle,ตัดการเชื่อมต่อ
+ShuttingDown,กำลังปิด
+NoneText,ไม่มี
+SMText,โหมดร้านค้า
+SMLogInReceiptText,Logged into โหมดร้านค้า
+SMLogOutReceiptText,Logged out of โหมดร้านค้า
+WLDBOffLineText,Weight Database: Off-line
+OperatorIDText,Operator ID: 
+SignOnButtonText,Sign On
+SignOffButtonText,Sign Off
+AlertText,การแจ้งเตือน:
+SuspendInProgressText,ระงับ in progress
+SuspendLeadthru1,มีการร้องขอให้ระงับธุรกรรมปัจจุบัน\nโปรดยืนยันหรือยกเลิกการร้องขอนี้
+SuspendLeadthru2,"You have suspended the current transaction.  Please confirm this request.  To cancel, touch ""กลับไป"" and cancel from NCR SelfServ Checkout Terminal."
+ReceiptText,ใบเสร็จรับเงิน:
+SuspendReasonText1,ระงับ: General
+CancelSuspendButtonText,ยกเลิกการระงับ
+ConfirmSuspendNowButtonText,ยืนยันการระงับ Now
+ConfirmAllowSuspendButtonText,Confirm Allow \nระงับ
+ConfirmSuspendRequestButtonText,ยืนยันการระงับ \nRequest
+CancelSuspendNowButtonText,ยกเลิกการระงับ \nNow
+GoBackButtonText,กลับไป
+CancelSuspendRequestButtonText,ยกเลิกการระงับ \nRequest
+CouponText,คูปอง:
+SuspendReasonText2,ระงับ: คูปอง
+CouponReceiptText,%d coupons totaling $%.2f
+SuspendNowButtonText,ระงับ Now
+RequestSuspendButtonText,Request ระงับ
+NotConnectedText,Not connected.
+ConnectingText,Connecting...โปรดรอ
+ApprovalNeededText,ต้องมีการอนุมัติ:
+SuspendReasonText3,ระงับ: Other
+ClearRequestButtonText,ล้าง Request
+ApproveButtonText,Approve
+RestrictedItemText,สินค้าที่จำกัด:
+SuspendReasonText4,ระงับ: Restricted
+SecurityLogText,บันทึกความปลอดภัย:
+SuspendReasonText5,ระงับ: ความปลอดภัย
+SignatureText,ลายมือชื่อ:
+SignatureAndNameText,ลายมือชื่อ: %s
+ConnectingLeadthru,Connecting to NCR SelfServ Checkout...โปรดรอ
+EnterIDLeadthru,ป้อน ID using keypad below.
+EnterPasswordLeadthru,ป้อนรหัสผ่าน using keypad below.
+LoggingInLeadthru,Logging in...โปรดรอ
+ApproveSecurityButtonText,Approve Security
+ApprovalNeededButtonText,ต้องมีการอนุมัติ
+VerifySignatureButtonText,ตรวจสอบลายมือชื่อ
+AllowSuspendButtonText,Allow ระงับ
+MainButtonText,Main
+SuspendTransactionButtonText,ระงับธุรกรรม
+ApproveAndCollectButtonText,Approve & Collect
+ClearApprovalsButtonText,ล้าง Approvals
+BirthDateOver30ButtonText,Birthdate over 30
+SignAgainButtonText,Sign Again
+BackSpaceButtonText,Backspace
+EnterButtonText,ป้อน
+LaneNumberText,ช่องจ่ายเงิน: %d
+RAPTitle,NCR SelfServ Checkout \nRemote Approval Station
+CancelSuspendText,ยกเลิกการระงับ
+OtherPaymentSelectedText,การชำระเงินวิธีอื่นที่ร้องขอ
+CouponCollectionText,คูปอง Collection
+PendingSuspendText,Pending ระงับ
+SignatureApprovalText,ลายมือชื่อ Approval
+LaneText,ช่องจ่ายเงิน
+VideoButtonText,Video
+ClearButtonText,ล้าง
+QuantityButtonText,ปริมาณ
+FeesAndCustomerAgreementsTitle,ค่าบริการและข้อตกลงของลูกค้า:
+FeesButtonText,ค่าบริการ
+CustomerAgreementButtonText,ข้อตกลงของลูกค้า
+FeesAndCustomerAgreementsLeadthru,ค่าบริการและข้อตกลงของลูกค้า
+TransactionSuspendedText,Transaction Suspended
+POSMessageText,ข้อความ POS:
+ConnectingWaitingText,"โปรดรอ, connecting to NCR SelfServ Checkout..."
+DateOfBirthNotNeededButtonText,ไม่ต้องใส่วันที่
+AssistModeButtonText,โหมดช่วยเหลือ
+ClearSecurityButtonText,ล้างการรักษาความปลอดภัย
+VisualApproveButtonText,Visual Approve
+CheckAgeTitle,"Check Customer's Age"
+CouponLimitExceededTitle,คูปอง เกินขีดจำกัด
+VerifyItemAndPriceTitle,ตรวจสอบสินค้า and Price
+UnknownItemTitle,Unknown Item Set Aside
+ItemNotForSaleTitle,Item Not For Sale
+ItemQuantityExceededTitle,Item Quantity Exceeded
+TimeRestrictedItemTitle,สินค้าที่จำกัดเวลา
+CheckAgeLeadthru,"ใส่วันเกิด %s and touch ""ป้อน""."
+InvalidBirthDateFormatLeadthru,Format of Date Entered is invalid \nEnter again in %s format.
+CouponLimitExceededLeadthru,"Touch ""Approve"" to allow coupon deposit at lane or touch ""Approve & Collect"" and collect from customer."
+VisualApproveLeadthru,"Touch ""Visual Approve"", or touch ""โหมดช่วยเหลือ"" to modify transaction."
+UnknownItemLeadthru,"Collect item at lane and touch ""ล้างการรักษาความปลอดภัย"", or touch ""โหมดช่วยเหลือ"" to complete transaction."
+ItemNotForSaleLeadthru,"Collect item at lane and touch ""ล้างการรักษาความปลอดภัย""."
+OffLineLaneButtonText,Offline
+ExitText,ออก
+EnterDataLaneButtonText,ป้อน Data
+AgeCheckLaneButtonText,ตรวจสอบอายุ
+CouponLaneButtonText,คูปอง
+VoidLaneButtonText,ยกเลิก
+VerifyItemLaneButtonText,ตรวจสอบสินค้า
+NotFoundLaneButtonText,ไม่พบ
+NoSaleLaneButtonText,ไม่ใช่สำหรับขาย
+QuantityLaneButtonText,ปริมาณ
+HelpLaneButtonText,วิธีใช้
+NoInterventionLeadthru,No Intervention is currently required.
+OffLineLeadthru,ช่องจ่ายเงินออฟไลน์อยู่ในขณะนี้และระบบกำลังพยายามเชื่อมต่อใหม่
+CancelRequestButtonText,ยกเลิกการร้องขอ
+HelpRequestTitle,ร้องขอความช่วยเหลือแล้ว
+SecurityLaneButtonText,ความปลอดภัย
+VoidLeadthru,"เก็บสินค้าที่ยกเลิกที่ช่องจ่ายเงิน จากนั้นแตะที่ปุ่ม ""อนุมัติการยกเลิก"""
+ApproveVoidButtonText,อนุมัติการยกเลิก
+SecurityLeadthru,"Monitor customer transaction for security and touch ""ล้างการรักษาความปลอดภัย""."
+SecurityViolationText,Security Violation
+OtherPaymentText,"""วิธีชำระเงินอื่นๆ"" Selected"
+SuspendTransactionLeadthru,"Touch ""ระงับธุรกรรม"" or ""โหมดช่วยเหลือ"" and accept payment."
+EASText,สินค้า EAS ยังทำงานอยู่
+DeactivateLeadthru,"ปิดใช้งานสินค้าหรือเอาป้ายแข็งที่ช่องจ่ายเงินออก แล้วแตะที่ปุ่ม ""ล้างการรักษาความปลอดภัย""."
+CompareSignatureTitle,เปรียบเทียบลายมือชื่อ
+CompareSignatureLeadthru,"Compare signatures and touch ""Approve"", or ""Sign Again""."
+EnterPriceLeadthru,"Key in item's price and touch ""ป้อน""."
+UtilityButtonText,ยูทิลิตี
+ReturnToMainButtonText,Return to Main
+GetDiagFilesButtonText,รับไฟล์วินิจฉัย
+CouponApprovalLeadthru,"Accept coupons from customer at the approval station and touch ""Approve""."
+RebootSystemButtonText,รีบูตทั้งระบบ
+ShutDownSystemButtonText,ปิดการทำงานทั้งระบบ
+LaneStatusTitle,ช่องจ่ายเงิน Status
+LaneStatusLeadthru,Select function.
+AgeRestrictedText,จำกัดอายุ รายการ; %2d ปี
+BirthdateEnterText,"วันเกิดที่ป้อน:%2d/%2d/%4d,%d ปี"
+HelpRequestLeadthru,"Touch ""ยกเลิกการร้องขอ"" after helping customer."
+TotalText,รวม:
+ItemText,รายการ:
+MultimediaTrainingText,Multimedia Training
+VolumeControlButtonText,ควบคุมเสียง
+SecurityViolationNumText,Security Violations:
+ItemPurchasedText,Items Purchased:
+EnterPriceTitle,รายการราคา
+CancelTransactionGenericTitle,ยกเลิก Transaction
+CancelTransactionGenericLeadthru,"แตะ ""ใช่"" เพื่อยกเลิกธุรกรรมหรือแตะ ""ไม่"" เพื่อทำธุรกรรมต่อ"
+YesButtonText,ใช่
+NoButtonText,ไม่
+ConfirmSuspendTitle,ระงับ:
+ConfirmSuspendLeadthru,ยืนยันการระงับ.
+ConfirmSuspendButtonText,ยืนยันการระงับ
+IncorrectItemWeightTitle,น้ำหนักบนเครื่องชั่งแบบนิรภัยไม่ถูกต้อง
+IncorrectItemWeightLeadthru,"Remove item and touch ""ล้างการรักษาความปลอดภัย"", or touch ""อนุมัติและอัพเดตน้ำหนัก""."
+ApproveUpdateButtonText,อนุมัติและอัพเดตน้ำหนัก
+UnexpectedIncreaseTitle,Unexpected item on security scale.
+UnexpectedIncreaseLeadthru,"Go to lane, remove extra items and touch ""ล้างการรักษาความปลอดภัย""."
+SkipBaggingBtnThresholdLeadthru,"Check items at lane and touch ""ล้างการรักษาความปลอดภัย""."
+NewWeightItemTitle,No record of item weight.
+NewWeightItemLeadthru,"ตรวจสอบน้ำหนักสินค้าแล้วแตะที่ปุ่ม ""อนุมัติและอัพเดตน้ำหนัก"" หรือแตะที่ปุ่ม ""อนุมัติ/ไม่อัพเดต"""
+ApproveNoUpdateButtonText,อนุมัติ/ไม่อัพเดต.
+BagItemTimerExpiredTitle,น้ำหนักบนเครื่องชั่งแบบนิรภัยที่คาดไว้
+TakeChangeTimerExpiredTitle,รับเงินทอน
+TakeChangeTimerExpiredBottomCaption,หมดเวลา
+PickingUpItemsTimerExpiredTitle,สินค้ายังไม่ส่งคืนส่วนนำสินค้าใส่ถุง
+DeviceFailureTitle,Device Malfunction
+DeviceFailureLeadthru,Go to lane and check device.
+WLDBFailureTitle,WLDB not communicating correctly.
+WLDBFailureLeadthru,Check the communication.
+UnexpectedDecreaseTitle,สินค้าที่นำออกจากส่วนนำสินค้าใส่ถุง
+ClosedLaneTitle,ไปที่ช่องจ่ายเงินแล้วเข้าสู่ระบบโหมดร้านค้าเพื่อเปิดช่องจ่ายเงิน
+ClosedLaneLeadthru,ช่องจ่ายเงินปิดอยู่
+BagAreaBackupTitle,สินค้าที่สำรองไว้บนสายพาน
+BagAreaBackupLeadthru,นำสินค้าที่สำรองไว้ออกจากสายพาน
+MinimumAgeText,อายุขั้นต่ำ.
+SafetyCoverOpenLeadthru,Remove all items from belt and close safety cover.
+VerifySignatureLeadthru,เปรียบเทียบลายมือชื่อของลูกค้ากับลายมือชื่อบนบัตร
+AssistedTenderTitle,การชำระเงินที่มีความช่วยเหลือของผู้ดำเนินการ
+AssistedTenderLeadthru,ใช้โหมดช่วยเหลือเพื่อยอมรับเช็คจากลูกค้า %s
+AssistedTenderHHLeadthru,Use the Attendant Station to accept payment.
+AssistedEndorsementLeadthru,ต้องมีการสลักหลัง โปรดรอความช่วยเหลือจากผู้ดำเนินการ
+StartTransactionButtonText,เริ่มธุรกรรม
+StartTransactionTitle,ฟังก์ชั่นที่มีความช่วยเหลือของผู้ดำเนินการ
+StartTransactionLeadthru,เลือกฟังก์ชั่นที่ต้องการ.
+StartTransactionAMButtonText,Start & Assist
+ItemsForgottenTitle,น้ำหนักที่เหลืออยู่บน bag scale.
+InsertCouponTimerExpiredTitle,ใส่คูปอง
+CollectGiftCardTitle,สะสมบัตรของขวัญ
+HostOfflineLeadthru,ช่องจ่ายเงินออฟไลน์อยู่ในขณะนี้และระบบกำลังพยายามเชื่อมต่อใหม่
+SpaceButtonText,ถอยหลัง
+LaneReceiptItemType1,%s\t%s
+LaneReceiptItemType2,%s
+LaneReceiptItemType3,%s\t%s\tปริมาณ %s @ %s/แต่ละ\t%s
+LaneReceiptItemType4,%s\t%s\tปริมาณ %s @ %s/%s\t%s
+LaneReceiptItemType5,%s\t%s\t%ss @ %s %s/%s\t%s
+LaneReceiptItemType6,%s\t%s\t%ss @ %s/%s\t%s
+CloseLaneButtonText,ปิดช่องจ่ายเงิน
+ReportingButtonText,กำลังรายงาน
+KeyInCodeTitle,ใส่รหัส
+KeyInCodeLeadthru,"ใส่รหัสสินค้า and touch ""OK""."
+VoidItemButtonText,ยกเลิกสินค้า
+ChangePriceButtonText,เปลี่ยนราคา
+ChangeQuantityButtonText,เปลี่ยนปริมาณ
+ReturnToShoppingButtonText,กลับไปที่โหมดซื้อสินค้า
+BasicAssistModeTitle,ฟังก์ชั่นช่วยเหลือ
+BasicAssistModeLeadthru,สแกนสินค้า or select function.
+ChangePriceTitle,เปลี่ยนราคา
+KeyInPriceLeadthru,Key in price for: %d %s
+VoidAllButtonText,ยกเลิกทั้งหมด
+VoidItemTitle,ยกเลิกสินค้า
+VoidItemLeadthru,"Scan or scroll to item on receipt and touch ""ยกเลิกสินค้า"" or ""ยกเลิกทั้งหมดl""."
+ChangeQuantityTitle,เปลี่ยนปริมาณ
+KeyInQuantityLeadthru,Key in quantity for: %s
+FullAssistButtonText,Full Assist
+CloseButtonText,ปิด
+UpdateItemLeadthru,"Scroll to item on receipt and touch ""ป้อน""."
+OKButtonText,OK
+CouponNoMatchLeadthru,คูปองไม่ตรงกับสินค้าที่ซื้อ ไม่สามารถรับคูปองนี้
+CouponTooHighLeadthru,จำนวนที่คุณป้อนสำหรับคูปองนี้สูงเกินไป ระบบนี้ไม่สามารถรับคูปองนี้ได้
+EnterCouponValueLeadthru,"ป้อนมูลค่าของคูปองเป็นเซนต์ แล้วแตะ ""ป้อน"""
+ItemQuantityExceededLeadthru,เกินปริมาณที่อนุญาตสำหรับสินค้านี้ โปรดแยกออกแล้วดำเนินการต่อ
+ProcessingLeadthru,กำลังประมวลผล...โปรดรอ.
+VoidNoMatchLeadthru,ไม่พบสินค้าที่สแกนแล้ว ยังไม่ได้ซื้อสินค้านี้ หรือยกเลิกแล้ว
+ConfirmAbortLeadthru,คุณต้องการ หยุดการชำระเงินแล้วยกเลิกการซื้อทั้งหมด?
+ContinueTransLeadthru,คุณต้องการดำเนินการซื้อต่อหรือไม่?
+ConfirmQuantityTitle,ยืนยันปริมาณ
+ConfirmVoidTitle,Confirm ยกเลิก
+CouponNoMatchTitle,คูปองไม่ตรง
+CouponTooHighTitle,คูปองสูงเกินไป
+CrateableItemTitle,ซื้อลัง
+EnterCouponValueTitle,ป้อนมูลค่าคูปอง
+EnterQuantityLeadthru,"ใส่ปริมาณแล้วแตะ ""ป้อน""."
+EnterWeightTitle,ชั่งน้ำหนักสินค้า
+EnterWeightLeadthru,Go to the lane and place item on scale.
+AMItemQuantityExceededTitle,ขีดจำกัดปริมาณ
+ProcessingTitle,กำลังประมวลผล...
+SelectContainerTitle,เลือกบรรจุภัณฑ์
+SelectContainerLeadthru,"เลือกบรรจุภัณฑ์จากรายการ and touch ""ป้อน""."
+VoidNoMatchTitle,ไม่สามารถยกเลิกสินค้า
+ConfirmAbortTitle,ยกเลิกสินค้าทั้งหมด
+ContinueTransTitle,ดำเนินการต่อ?
+ScaleBrokenTitle,รีเซ็ตเครื่องชั่ง
+ScaleBrokenLeadthru,"นำสินค้าออกจากเครื่องชั่ง และ "">0<"" บนเครื่องสแกน"
+UpdateNotAllowedTitle,Cannot อัพเดต รายการ
+UpdateNotAllowedLeadthru,Quantity change for weighed item is not allowed.
+SmEnterBirthdateTitle,สินค้าที่จำกัด
+SmEnterBirthdateLeadthru,"Key in customer's birth date"
+SmVisualItemsTitle,การตรวจสอบด้วยตา
+SmVisualItemsLeadthru,Approve Visual Validation Items
+SmCouponItemsTitle,อนุมัติคูปองที่ใช้
+SmCouponItemsLeadthru,ตรวจสอบคูปองที่ใช้
+SmRestrictedItemsTitle,สินค้าที่จำกัด
+SmRestrictedItemsLeadthru,เลือกฟังก์ชั่นที่ต้องการ.
+KeyInBirthDateButtonText,Key in date
+KeyInCodeButtonText,ใส่รหัส
+SmRunReportsTitle,เนื้อหารายงาน
+PrintReportButtonText,พิมพ์รายงาน
+LaneReceiptItemType7,    %s
+AM_RestrictedNotAllowedTitle,สินค้าที่จำกัด
+AM_RestrictedNotAllowedLeadthru,ยกเลิกสินค้าที่จำกัดแล้ว - ข้อจำกัดด้านอายุไม่ตรง โปรดแยกสินค้าออก
+TransactionCancelTitle,การยกเลิกธุรกรรม
+TransactionCancelLeadThru,Transaction cancelled. Remove items from \ncheckstand.
+OutOfSyncNeedAssistTitle,ช่วยเหลือ
+OutOfSyncNeedAssistLeadthru,POS ไม่ซิงค์ โปรดไปที่โหมดช่วยเหลือเพื่อซิงโครไนซ์ใหม่
+OutOfSyncStopTitle,รีบูต
+OutOfSyncStopLeadthru,เซิร์ฟเวอร์ POS ขัดข้องหรือไม่ซิงค์ โปรดปิดการทำงานเครื่องโดยใช้สวิตช์
+MultiPackItemTitle,Check for multi-pack
+MultiPackItemLeadthru,"If item is a multi-pack, touch ""โหมดช่วยเหลือ"" and void it, then scan multi-pack barcode."
+CancelActionButtonText,ยกเลิก Action
+EnterIDFpLeadthru,"ใส่ ID ผู้ใช้ของคุณ แล้วแตะที่ปุ่ม ""ป้อน"", หรือวางนิ้วของคุณบนเครื่องอ่านลายนิ้วมือเพื่อเข้าสู่ระบบ"
+ReEnterIDFpLeadthru,การเข้าสู่ระบบไม่ถูกต้อง โปรดเข้าสู่ระบบอีกครั้งโดยใช้แผงปุ่มกดหรือลายนิ้วมือของคุณ
+HH_SuspendLeadthru1,Suspend current transaction? Confirm or Cancel.
+HH_SuspendLeadthru2,"Current transaction suspended. Confirm. To cancel, touch ""กลับไป"" and cancel."
+HH_ReEnterIDLeadthru,Incorrect ID or password. Please re-enter on keypad.
+HH_CheckAgeLeadthru,"ใส่วันเกิด %s and touch ""ป้อน""."
+HH_CouponLimitExceededLeadthru,"""Approve"" for coupons at lane or ""Approve & Collect"" to collect from customer."
+HH_VisualApproveLeadthru,"""Visual Approve"", or ""โหมดช่วยเหลือ"" to modify transaction."
+HH_VisualApproveLeadthru2,"""Visual Approve"", or ""โหมดช่วยเหลือ"" at Lane to modify."
+HH_UnknownItemLeadthru,"Collect item, ""ล้างการรักษาความปลอดภัย"", or ""โหมดช่วยเหลือ"" to complete."
+HH_UnknownItemLeadthru2,"Collect item, ""ล้างการรักษาความปลอดภัย"", or use ""โหมดช่วยเหลือ"" at Lane to complete."
+HH_ItemNotForSaleLeadthru,"Collect item at lane and ""ล้างการรักษาความปลอดภัย""."
+HH_NoInterventionLeadthru,No Intervention is required.
+HH_OffLineLeadthru,ช่องจ่ายเงินออฟไลน์อยู่ในขณะนี้และระบบกำลังพยายามเชื่อมต่อใหม่
+HH_InvalidBirthDateFormatLeadthru,Date format is invalid \nEnter in %s format.
+HH_VoidLeadthru,"Collect voided item and ""อนุมัติการยกเลิก""."
+HH_SuspendTransactionLeadthru,"Touch ""Suspend Trans"" to suspend transaction."
+HH_DeactivateLeadthru,"Deactivate item or remove hard tag and ""ล้างการรักษาความปลอดภัย""."
+HH_CompareSignatureLeadthru,"Compare signatures and ""Approve"", or ""Sign Again""."
+HH_EnterPriceLeadthru,"Key in item's price and ""ป้อน""."
+HH_CouponApprovalLeadthru,"Accept coupons from customer and ""Approve""."
+HH_HelpRequestLeadthru,"""ยกเลิกการร้องขอ"" after helping customer."
+HH_CancelTransactionGenericLeadthru,"แตะ ""ใช่"" เพื่อยกเลิกธุรกรรมหรือแตะ ""ไม่"" เพื่อทำธุรกรรมต่อ"
+HH_IncorrectItemWeightLeadthru,"Remove item and ""ล้างการรักษาความปลอดภัย"", or ""อนุมัติและอัพเดตน้ำหนัก""."
+HH_UnexpectedIncreaseLeadthru,"Remove extra items at lane and ""ล้างการรักษาความปลอดภัย""."
+HH_SkipBaggingBtnThresholdLeadthru,"Check items at lane and ""ล้างการรักษาความปลอดภัย""."
+HH_NewWeightItemLeadthru,"ตรวจสอบน้ำหนักสินค้าแล้วแตะที่ปุ่ม ""อนุมัติและอัพเดตน้ำหนัก"" หรือแตะที่ปุ่ม ""อนุมัติ/ไม่อัพเดต"""
+HH_SafetyCoverOpenLeadthru,Remove all items from belt. Close safety cover.
+HH_VerifySignatureLeadthru,"Compare customer's signature with one on card."
+HH_AssistedEndorsementLeadthru,Endorsement Needed. Wait for operator assistance.
+HH_HostOfflineLeadthru,ช่องจ่ายเงินออฟไลน์อยู่ในขณะนี้และระบบกำลังพยายามเชื่อมต่อใหม่
+HH_KeyInCodeLeadthru,"ใส่รหัสสินค้า and ""ป้อน""."
+HH_VoidItemLeadthru,"Scan or scroll to item on receipt. ""ยกเลิกสินค้า"" or ""ยกเลิกทั้งหมด""."
+HH_UpdateItemLeadthru,"Scroll to item on receipt and ""ป้อน""."
+HH_CouponNoMatchLeadthru,Coupon does not match any item on receipt. Coupon not accepted.
+HH_CouponTooHighLeadthru,จำนวนที่คุณป้อนสำหรับคูปองนี้สูงเกินไป\nระบบนี้ไม่สามารถรับคูปองนี้ได้
+HH_ItemQuantityExceededLeadthru,เกินปริมาณที่อนุญาตสำหรับสินค้านี้\n\nโปรดแยกออกแล้วดำเนินการต่อ
+HH_VoidNoMatchLeadthru,Cannot find scanned item. Item not purchased or was cancelled.
+HH_ConfirmAbortLeadthru,คุณต้องการ หยุดการชำระเงินแล้วยกเลิกการซื้อทั้งหมด?
+HH_ContinueTransLeadthru,คุณต้องการดำเนินการซื้อต่อหรือไม่?
+HH_EnterQuantityLeadthru,"ใส่ปริมาณแล้วแตะ ""ป้อน""."
+HH_SelectContainerLeadthru,"เลือกบรรจุภัณฑ์จากรายการ and ""ป้อน""."
+HH_ScaleBrokenLeadthru,"นำสินค้าออกจากเครื่องชั่ง และ "">0<"" บนเครื่องสแกน"
+HH_UpdateNotAllowedLeadthru,Quantity change not allowed.
+HH_AM_RestrictedNotAllowedLeadthru,ยกเลิกสินค้าที่จำกัดแล้ว - ข้อจำกัดด้านอายุไม่ตรง โปรดแยกสินค้าออก
+HH_OutOfSyncNeedAssistLeadthru,POS ไม่ซิงค์ โปรดไปที่โหมดช่วยเหลือเพื่อซิงโครไนซ์ใหม่
+HH_OutOfSyncStopLeadthru,เซิร์ฟเวอร์ POS ขัดข้องหรือไม่ซิงค์ โปรดปิดการทำงานเครื่องโดยใช้สวิตช์
+HH_MultiPackItemLeadthru,"If multi-pack, ""โหมดช่วยเหลือ"", void, then scan multi-pack barcode."
+HH_ReturnToShoppingButtonText,Return
+DoneButtonText,เสร็จสิ้น
+ConfirmSuspendFromLaneStatusLeadthruText,Confirm or ยกเลิกการระงับ.
+HH_SuspendTransactionButtonText,ระงับธุรกรรม
+HH_TransactionCancelTitle,การยกเลิกธุรกรรม
+HH_TransactionCancelLeadThru,Transaction cancelled. Remove items from checkstand.
+ShiftButtonText,Shift
+FixLaterButtonText,แก้ไขภายหลัง
+HopperLaneButtonText,Coin Substitution
+HopperLeadThru,"%sGo to lane and refill coins or clear jam or touch ""แก้ไขภายหลัง"" to continue"
+TransactionCountText,ผลรวม:
+SecurityDisableText,ความปลอดภัยถูกปิดใช้งาน
+SecurityDisableButtonOn,Turn On
+SecurityDisableButtonOff,Turn Off
+SecurityDisableStatusTextOn,Bagging Security is on
+SecurityDisableStatusTextOff,Bagging Security is off
+SuspendDeclinedLaneButtonText,การระงับถูกปฏิเสธ
+ConfirmSuspendDeclinedLeadthru,Confirm or Cancel Suspension Decline.
+ConfirmSuspendDeclinedButtonText,Confirm Decline
+CancelSuspendDeclinedButtonText,กลับไป
+TMTransLeadthru,ช่องจ่ายเงินอยู่ในโหมดการฝึกอบรมช่องจ่ายเงินอยู่\nในโหมดการฝึกอบรม ดำเนินการต่อกับธุรกรรม?
+HH_TMTransLeadthru,"Lane is in training mode,\ncontinue with the transaction?"
+TMTransLaneButtonText,ธุรกรรมการฝึกอบรม
+DateFormat1,(mmddyyyy)
+DateFormat2,(mmddyy)
+DateFormat3,(ddmmyyyy)
+DateFormat4,(ddmmyy)
+DateFormat5,(yyyymmdd)
+DateFormat6,(yymmdd)
+GoBackCouponButtonText,กลับไป
+ApproveCouponButtonText,อนุมัติคูปอง
+CouponExceededLimitLeadthru,"Touch ""อนุมัติคูปอง"" to accept the coupon or go to โหมดช่วยเหลือ to void it."
+CouponExceededLimitFinalizationLeadthru,The transaction was finalized using a coupon that exceeds the store coupon limit.
+ClearSecurityFinalizationButtonText,ล้างการรักษาความปลอดภัย
+ExpandReceiptButtonText,Expand ใบเสร็จรับเงิน
+CollapseReceiptButtonText,Collapse ใบเสร็จรับเงิน
+InvalidBarcodeLeadThru,"Collect item at lane and touch ""Approve"" to continue transaction."
+InvalidBarcodeLaneButtonText,ตรวจสอบสินค้า
+HH_InvalidBarcodeLeadThru,"Collect item, Touch ""Approve"" to continue transaction."
+GoToLaneOrHHRapLeadthru, Please go to Lane or HHRap for approval
+GoToLaneOrRapLeadthru, Please go to Lane or Rap for approval
+GoToLaneLeadthru, Please go to Lane for approval
+DisableRapApprovalText, Disable RAP Approval
+DisableHHRapApprovalText, Disable HHRAP Approval
+UpdateItemButtonText,อัพเดต รายการ
+SuspendConfirmationTitle,ระงับการยืนยัน
+DoNotApproveButtonText,Do Not Approve
+SmVoidAndRemoveItemLeadthru,Please remove the cancelled item from the bagging area.
+RestrictedItemsNotApprovedTitle,สินค้าที่ถูกจำกัดไม่ได้รับอนุญาต
+HH_AssistAtLaneLeadthru,Go to the Lane to void items.
+XM_Acceptor,Acceptor
+XM_CashStatus,Cash Status
+XM_CashStatusLeadthru,เลือกฟังก์ชั่นที่ต้องการ.
+XM_Cassette,Cassette
+XM_CoinAcceptor,Coin Acceptor
+XM_CoinOverflow,Coin Overflow
+XM_CoinOverflowText,Overflow
+XM_CoinRecycler,Coin Recycler
+XM_Coins,เหรียญ
+XM_NoteOverflow,Note Overflow
+XM_NoteOverflowText,Cash Box
+XM_NoteRecycler,Note Recycler
+XM_Notes,Notes
+XM_PurgeOperationText,Purge Operations
+XM_TerminalNumber,หมายเลขเครื่อง
+XM_TotalCount,ผลรวมทั้งหมด:
+XM_TotalValue,มูลค่าทั้งหมด:
+XM_CoinsSubtotal,Coins Subtotal:
+XM_NotesSubtotal,Notes Subtotal:
+XM_GrandTotal,ยอดรวมทั้งหมด:
+XM_PurgeInstruction,Purge Operations: Rejected bills detected. Go to lane and check device.
+XM_RAP_NegativeAlert,Negative number found. Go to lane and check device.
+XM_AreYouSure,Are you sure you want to perform the actions listed below?
+XM_Attendant,ผู้ให้บริการ
+XM_Backspace,Backspace
+XM_BillAcceptor,Note Acceptor
+XM_BillDispenser,Note Dispenser
+XM_Bins,Bins
+XM_BothDispenseFailure,Failed to dispense %s.\nLow cash or dispenser in error.
+XM_CancelChanges,Cancel Changes
+XM_CannotCompleteTransfer,Cannot complete transfer. The cash box\ndoes not have sufficient space.\nPlease empty the cash box before performing this operation.
+XM_CashManagement,การจัดการเงินสด
+XM_CashManagementReport,รายงานการจัดการเงินสดน
+XM_CashRemove,ลบ เงินสด
+XM_CashRemoveLeadthru,เลือกฟังก์ชั่นที่ต้องการ.
+XM_CashReplenishLeadthru,เลือกฟังก์ชั่นที่ต้องการ.
+XM_CashReplenishLeadthru1,Insert coins or select function.
+XM_CashReplenishLeadthru2,Insert cash or select function.
+XM_CashReplenishLeadthru3,"When complete, touch ""ออก""."
+XM_CashReplenishment,Add Cash
+XM_ChangeInCount,ผลรวมเงินทอน
+XM_ChangeInValue,มูลค่าเงินทอน
+XM_Clear,ล้าง
+XM_ClearPrompt1,"When complete, select another function or ""Exit""."
+XM_ClearPrompt2,"Select another function or ""Exit""."
+XM_CoinAcceptorOffline,Coin acceptor not responding.\n\nShut down and restart terminal.
+XM_CoinDispenseFailure,Failed to dispense %s.\nLow coins or coin dispenser in error.
+XM_CoinDispenser,Coin Dispenser
+XM_CoinManagement,Coin Management
+XM_ConfirmAction,Confirm Actions
+XM_ConfirmCoinDispense,* Dispense Coins\nAmount to dispense: %s\nCount to dispense: %d
+XM_ConfirmEmptyCoinAcceptor,* Reset Coin Acceptor Counts to Zero\nAmount to remove:%s
+XM_ConfirmEmptyCoinOverflow,* Reset Coin Overflow Counts to Zero\nAmount to remove:%s
+XM_ConfirmEmptyNoteAcceptor,* Reset Note Acceptor Counts to Zero\nAmount to remove:%s
+XM_ConfirmEmptyNoteOverflow,* Reset Cash Box Counts to Zero\nAmount to remove:%s
+XM_ConfirmFillLoaderCassette,* Set Note Counts\nNew Amount: %s\nNew Count: %d
+XM_ConfirmManualCoinEmpty,* Reset Coin Counts to Zero\nAmount to remove: %s\nCount to remove: %d
+XM_ConfirmManualCoinFill,* Set Coin Counts\nNew Amount: %s\nNew Count: %d
+XM_ConfirmManualNoteEmpty,* Reset Note Counts to Zero\nAmount to remove: %s\nCount to remove: %d
+XM_ConfirmManualNoteFill,* Set Note Counts\nNew Amount: %s\nNew Count: %d
+XM_ConfirmNoteDispense,* Dispense Notes\nAmount to dispense: %s\nCount to dispense: %d
+XM_ConfirmTransferNotesToOverflow,* Transfer Notes to Cash Box\nAmount to transfer: %s\nCount to transfer: %d
+XM_Count,ผลรวม
+XM_DispenseCupFull,Coin return is full. Please remove the coins to finish dispensing.
+XM_DispenseCupFullPreemptive,"Please Take Coins\nIf coin return is full, empty promptly.  Dispensing will pause until bowl is emptied."
+XM_DispenseFullPreemptive,"Please Take Notes and Coins\nNotes are dispensed in bunches of 15. Dispensing will pause until all notes are taken. If coin return is full, empty promptly. Dispensing will pause until bowl is emptied."
+XM_DispenseNoteFullPreemptive,Please Take Notes\n\nNotes are dispensed in bunches of %d.\nDispensing will pause until all notes are taken.
+XM_DispenseSensorBlock,Coin return may be full or sensor is broken. Please remove coins or call for service.
+XM_DispenseText,Dispense
+XM_DispenseThreshold,Number entered exceeded count available to dispense. Maximum count was entered: %d
+XM_Empty,Empty
+XM_EmptyCashAcceptorLT,Remove notes from Cash Acceptor
+XM_EmptyCashBoxLT,Remove notes from Cash Box
+XM_EmptyCoinAcceptor,Reset Coin Acceptor
+XM_EmptyCoinAcceptorLT,Remove coins from Coin Acceptor
+XM_EmptyCoinHopperLT,Remove coins from device.
+XM_EmptyCoinOverflow,Reset Coin Overflow
+XM_EmptyCoinOverflowLT,Remove coins from Coin Overflow
+XM_EmptyLoaderCassetteLT,Remove notes from Loader Cassette
+XM_EmptyNoteAcceptor,Reset Note Acceptor
+XM_EmptyNoteCassetteLT,Remove notes from Note Cassettes and Purge Bin
+XM_EmptyNoteOverflow,Reset Cash Box
+XM_Enter,ป้อน
+XM_ExceededAmount,Amount exceeds capacity. Maximum amount needed is %s.
+XM_ExceededCapacity,Count exceeds capacity. Maximum load count needed is %d.
+XM_Execute,Apply Changes
+XM_Exit,ออก
+XM_FastLaneReport,NCR SelfServ Checkout Report
+XM_FillLoaderCassette,Set Note Counts
+XM_GoBack,กลับไป
+XM_ID,ID แคชเชียร์
+XM_IDPrompt,"ป้อน ID แล้วแตะที่ปุ่ม ""ป้อน"""
+XM_InvalidAmount,The value entered for %s is not valid.\nPlease enter again.
+XM_KeyPadEnterCoinAmount,Enter amount for %s coins using keypad.
+XM_KeyPadEnterCoinCount,Enter count for %s coins using keypad.
+XM_KeyPadEnterNoteAmount,Enter amount for %s notes using keypad.
+XM_KeyPadEnterNoteCount,Enter count for %s notes using keypad.
+XM_KeyPadInstr,Enter count using keypad
+XM_ManualBothFillAlert,Open lane door and deposit notes into the cassettes and coins into the hoppers. Do not feed them into the acceptors.
+XM_ManualBothRecyclerFillAlert,Open lane door and deposit notes into the loader and coins into the hoppers. Do not feed them into the acceptors.
+XM_ManualCoinDispenserEmpty,Reset Coin Counts
+XM_ManualCoinDispenserFill,Set Coin Counts
+XM_ManualCoinFillAlert,Open lane door and deposit coins directly into the device. Do not feed them into the coin acceptor.
+XM_ManualEmptyAlert,Remove All Cash From Device.
+XM_ManualFillAlert,Open lane door and deposit cash directly into the device. Do not feed it into the acceptors.
+XM_ManualNoteDispenserEmpty,Reset Note Counts
+XM_ManualNoteDispenserFill,Set Note Counts
+XM_ManualNoteFillAlert,Open lane door and deposit notes directly into the cassette. Do not feed them into the note acceptor.
+XM_ManualNoteRecyclerFillAlert,Open lane door and deposit notes directly into the loader. Do not feed them into the bill acceptor.
+XM_No,ไม่
+XM_NoteDispenseFailure,Failed to dispense %s.\nLow notes or note dispenser in error.
+XM_PW,รหัสผ่านของแคชเชียร์
+XM_PWPrompt,"ป้อนรหัสผ่าน แล้วแตะ ""ป้อน""."
+XM_PendingText,Pending
+XM_PleaseWait,กำลังประมวลผล...\nโปรดรอ.
+XM_Print,Print Cash Status
+XM_PurgeCoinRecycler,Purge Coin Recycler
+XM_PurgeNoteRecycler,Purge Note Recycler
+XM_ReEnter,Incorrect Cashier number and password.\nโปรดลองอีกครั้ง
+XM_ResetCoinsToBaseLevel,Dispense Coins To Base Level
+XM_ResetNotesToBaseLevel,Transfer Notes to Base Level
+XM_SelectFunc1,เลือกฟังก์ชั่นของระบบ
+XM_SelectFunc2,เลือกฟังก์ชั่นที่ต้องการ.
+XM_StoreNumber,Store #:
+XM_TransferAllNotes,Transfer All Notes
+XM_TransferNotesToOverflow,Transfer Notes to Cash Box
+XM_Update,อัพเดต
+XM_Yes,ใช่
+XM_SequenceNumber,Sequence Number
+XM_CardManagement,การจัดการบัตร
+XM_TotalCoinsInserted,รวม Inserted
+XM_TotalNotesInserted,รวม Inserted
+XM_Value,มูลค่า
+XM_TransferXCount,Transfer (x) ผลรวม
+XM_TransferXAmount,Transfer (x) Amount
+XM_PickUpAutoAmount,Pick Up Auto Amount
+XM_PickUpXAmount,Pick Up (x) Amount
+XM_TransfertoCashBoxLeadThruText,"To transfer %s note(s) to the Cash Box, touch ""Apply Changes"". To undo all pending changes, touch ""Cancel Changes""."
+XM_MenuDispenseFunctions,Dispense Functions
+XM_MenuResetFunctions,Reset Functions
+XM_MenuCashBoxTransfer,Cash Box Transfers
+XM_MenuPickUpFunctions,Pick Up Functions
+XM_LeadThruCashBoxTransfer,"Select desired transfer function.\nWhen finished, ""Apply Changes""."
+XM_LeadThruResetFunction,"Select desired reset function.\nWhen finished, ""Apply Changes""."
+XM_LeadThruDispenseFunction,"Touch denomination and enter amount\nor touch ""Dispense Coins to Base Level""."
+XM_LeadThruPickUpFunction,"Select desired pick up function.\nWhen finished, ""Apply Changes""."
+XM_PurgeInstructionRecycler,"Purge Operations:  Rejected notes detected.  Remove rejected notes from cash box.  Clear alert by touching ""Transfer All Notes"" and then ""Reset Cash Box""."
+XM_PurgeInstructionNonRecycler,"Purge Operations: Rejected notes detected.  Remove rejected notes from purge bin.  Clear alert by touching ""Reset Note Counts""."
+XM_ReplenishInstruction,"Insert cash or select denomination and enter amount, or set counts.\nWhen finished, ""Apply Changes""."
+XM_KeyPadEnterPickUpAmount,Enter pickup amount using keypad.
+XM_InvalidPickUpAmount,The value entered is greater than the available amount that can be transferred or dispensed.
+XM_InvalidStartingBank,The starting bank configured is greater than the available amount that can be transferred or dispensed.
+XM_CalculatedPickUpAmount,The calculated pickup amount is %s.
+XM_UnableToPickUp,Unable to perform pickup.
+XM_CoinAllowedDispenseExceeded,Attempting to dispense %d coins. Maximum coins allowed to dispense is %d.
+XM_InvalidPickUpAmount2,The amount in the cashbox and coin overflow is greater than the pickup amount.
+XM_LockScreen,Lock Screen
+XM_SystemBusy,System busy....โปรดรอ
+XM_AreYouSure_LockScreen,Are you sure you want to lock the screen?\nThe screen cannot be unlocked until the devices finish their task.
+XM_NegativeAlert,"Negative number found. Possible causes: keying error occurred, or notes were placed in the loader cassette, but the counts for these notes were not entered in Cash Management.\n\nFollow steps below to resolve:\n1. Select ""Add Cash"".\n2. Touch the denomination with the negative number.\n3. Enter the exact dollar amount of the negative number and/or the amount placed in the loader.\n4. Select ""Apply Changes"".\n5. Select ""Yes"" to confirm and then ""Exit""."
+XM_NegativeAlert_Remove,"Negative number found. Possible causes: keying error occurred, or notes were placed in the loader cassette, but the counts for these notes were not entered in Cash Management.\n\nFollow steps below to resolve:\n1. Select ""Exit"" then select ""Add Cash"".\n2. Touch the denomination with the negative number.\n3. Enter the exact dollar amount of the negative number and/or the amount placed in the loader.\n4. Select ""Apply Changes"".\n5. Select ""Yes"" to confirm and then ""Exit""."
+XM_AddCashLeadthru1,"Insert coins or touch cylinder and enter amount, or set counts."
+XM_AddCashLeadthru2,"Insert cash or touch cylinder and enter amount, or set counts."
+XM_AddCashLeadthru3,"Touch cylinder and enter amount, or set counts."
+XM_CoinHopperEmpty,"Coin hopper must be emptied in order to reset coin counts to zero. Empty each coin hopper bin before touching ""Apply Changes""."
+XM_CollectRemainingCoins,Remove coins from coin return when dispense has completed.
+XM_FPIDPrompt,"ใส่ ID ผู้ใช้ของคุณ แล้วแตะที่ปุ่ม ""ป้อน"", หรือวางนิ้วของคุณบนเครื่องอ่านลายนิ้วมือเพื่อเข้าสู่ระบบ"
+XM_LoanFailure,Loan Failure
+XM_LoanFailureLeadthru,Loan was rejected. เลือกฟังก์ชั่นที่ต้องการ.
+XM_UndoLoan,Undo Loan
+XM_CommitLoan,Commit Loan
+XM_PickUpFailure,Pickup Failure
+XM_PickUpFailureLeadthru,Pickup was rejected. เลือกฟังก์ชั่นที่ต้องการ.
+XM_UndoPickUp,Undo Pickup
+XM_CommitPickUp,Commit Pickup
+XM_ManualRemoveCashAlert,Remove cash from the cash box and coins from the coin overflow bin to undo loan.\n\nBills\nCount to remove: %d\nAmount to remove: %s\n\nCoins\nCount to remove: %d\nAmount to remove: %s
+XM_POSRejectedLoanPickUp,POS rejected loan/pickup:  %s / %d  rejected.\n
+XM_LoanPickUpCashierOverrides,Cashier ID %s override of loan/pickup: %s / %d  committed.\n\n
+XM_PlaceJammedBill,Remove the cash box and place any jammed notes inside.
+XM_GrandTotalText,ยอดรวมทั้งหมด: %s
+XM_TotalAddedText,รวม Added: %s
+XM_TotalRemovedText,รวม Removed: %s
+XM_TotalColectedText,รวม Collected: %s
+XM_ManualRemoveCashAlertGlory,Remove cash from the cassette to undo loan.\n\nNotes\nCount to remove: %d\nAmount to remove: %s
+XM_CashUnbalance,Discrepancy error occurred in the recycler.
+XM_Collect,Collect
+XM_CollectFailure,The collect operation resulted in failure.
+XM_LeadThruGloryFunction,"Touch denomination and enter amount\nor touch ""Collect""."
+XM_CassetteMissing,Bill Cassette is not in the unit.\nPut Bill Cassette back into the unit.
+XM_EmptyCassetteAndRejectBin, Remove bills from Bill Cassettes and Reject Bin.
+XM_OperatorID,Operator ID %s
+XM_InitializeError,The system encounters an error to be corrected.
+XM_GloryDispenseCupFullPreemptive,"Please Take Coins\nIf coin return is full, empty promptly.  Dispensing will pause until bowl is emptied."
+XM_GloryDispenseFullPreemptive,"Please Take Bills and Coins\nBills are dispensed in bunches of 10. Dispensing will pause until all bills are taken. If coin return is full, empty promptly. Dispensing will pause until bowl is emptied."
+XM_GloryDispenseNoteFullPreemptive,Please Take Bills\nBills are dispensed in bunches of 10. Dispensing will pause until all bills are taken.
+MinMaxFastLaneBtnPrimaryTxt,Minimize SelfServ Checkout
+MinMaxFastLaneBtnSecondaryTxt,Maximize SelfServ Checkout
+MinMaxFastLaneBtnPrimaryShowConfirmation,"To minimize SelfServ Checkout, touch the ""Minimize SelfServ Checkout"" button."
+MinMaxFastLaneBtnSecondaryShowConfirmation,"To maximize SelfServ Checkout, touch the ""Maximize SelfServ Checkout"" button."
+StopStartFastLaneBtnPrimaryTxt,Stop SelfServ Checkout
+StopStartFastLaneBtnSecondaryTxt,Start SelfServ Checkout
+SwitchToRAPBtnPrimaryTxt,Switch To RAP
+ShutdownSystemBtnPrimaryTxt,ปิดการทำงานทั้งระบบ
+RebootSystemBtnPrimaryTxt,รีบูตทั้งระบบ
+VolumeBtnPrimaryTxt,ควบคุมเสียง
+EventViewerBtnPrimaryTxt,Event Viewer
+GenerateLogBtnPrimaryTxt,Generate Diagnostic Log Files
+ExitFastLaneAndRunProfileBtnPrimaryTxt,Stop SelfServ Checkout and Run Profile Manager
+ExitFastLaneAndRunProfileBtnSecondaryTxt,Run Profile Manager
+TerminalInfoBtnPrimaryTxt,Terminal Information
+MinMaxRAPBtnPrimaryTxt,Minimize RAP
+MinMaxRAPBtnSecondaryTxt,Maximize RAP
+MinMaxRAPBtnPrimaryShowConfirmation,"To minimize RAP, touch the ""Minimize RAP"" button."
+MinMaxRAPBtnSecondaryShowConfirmation,"To maximize RAP, touch the ""Maximize RAP"" button."
+StopStartRAPButtonPrimaryTxt,Stop RAP
+StopStartRAPButtonSecondaryTxt,Start RAP
+RapConfigureBtnPrimaryTxt,RAP Configure
+SwitchToFastLaneBtnPrimaryTxt,Switch To SelfServ Checkout
+ExitRAPAndRunProfileBtnPrimaryTxt,Stop RAP and Run Profile Manager
+ExitRAPAndRunProfileBtnSecondaryTxt,Run Profile Manager
+UtilityFunctionsTitle,NCR SelfServ Checkout \nUtility Functions
+StartTitle,System Startup
+SystemStartup,System starting...โปรดรอ
+TerminalID,Terminal ID: 
+InterfaceVersion,Software version: 
+TrainingProgramPrimaryTxt,โปรแกรมการฝึกอบรม
+LaunchPadNet_OperatorIDText,Operator ID: 
+KeySwitchOperatorID,ตัวล็อคกุญแจ
+LaunchPadNet_SignOnButtonText,Sign On
+LaunchPadNet_SignOffButtonText,Sign Off
+SignedOffButtonText,Signed Off
+Exit,Exit All
+LaunchPadNet_ReturnToShoppingButtonText,Return
+PickListEditor,Pick List Editor
+RunADDTxt,Run ADD on Next Reboot
+TouchWareTxt,Calibrate Touchscreen
+DiagConfirm,Are you sure you want to generate Diagnostic Log Files?
+ProfileManagerFLConfirm,Are you sure you want to stop SelfServ Checkout and run Profile Manager?
+ProfileManagerRAPConfirm,Are you sure you want to stop RAP and run Profile Manager?
+ProfileManagerConfirm,Are you sure you want to start the Profile Manager?
+EventViewerConfirm,Are you sure you want to start the Event Viewer?
+TrainingConfirm,Are you sure you want to start the Training Program?
+PicklistConfirm,Are you sure you want to start the Picklist Editor?
+RunADDConfirm,Are you sure you want to run Automatic Device Detection on the next reboot?
+CalibrateConfirm,Are you sure you want to calibrate the touch screen?
+ShutdownConfirm,Are you sure you want to shutdown the entire system?
+RebootConfirm,Are you sure you want to reboot the entire system?
+CloseAllConfirm,Are you sure you want to exit all applications and go to the desktop?
+VolumeConfirm,Are you sure you want to adjust the ควบคุมเสียง?
+TerminalInfoConfirm,Are you sure you want to view the terminal information?
+StopFastLaneConfirm,Are you sure you want to stop SelfServ Checkout?
+StopRAPConfirm,Are you sure you want to stop RAP?
+StartFastLaneConfirm,Are you sure you want to start SelfServ Checkout?
+StartRAPConfirm,Are you sure you want to start RAP?
+WindowsLogOnTxt,Logon Windows
+WindowsLogOnConfirm,Are you sure you want to exit all applications and log on as a new user?
+YesText,ใช่
+NoText,ไม่
+CommandPromptPrimaryTxt,Command Prompt
+CommandPromptConfirm,Are you sure you want to start the Command Prompt?
+RSMLEPrimaryTxt,Retail Systems Manager LE
+RSMLEConfirm,Are you sure you want to start the Retail Systems Manager LE?
+OperatorRegistrationUtility,Operator Registration Utility
+LaunchPadNet_EnterIDFpLeadthru,"ใส่ ID ผู้ใช้ของคุณ แล้วแตะที่ปุ่ม ""ป้อน"", หรือวางนิ้วของคุณบนเครื่องอ่านลายนิ้วมือเพื่อเข้าสู่ระบบ"
+LaunchPadNet_ReEnterIDFpLeadthru,การเข้าสู่ระบบไม่ถูกต้อง โปรดเข้าสู่ระบบอีกครั้งโดยใช้แผงปุ่มกดหรือลายนิ้วมือของคุณ
+LaunchPadNet_ClearButtonText,ล้าง
+LaunchPadNet_EnterButtonText,ป้อน
+LaunchPadNet_GoBackButtonText,กลับไป
+LaunchPadNet_SpaceButtonText,Space
+LaunchPadNet_BackSpaceButtonText,Backspace
+LaunchPadNet_EnterIDLeadthru,ป้อน ID using keypad below:
+ReEnterIDLeadthru,Incorrect ID or password. Please re-enter using keypad below.
+LaunchPadNet_EnterPasswordLeadthru,ป้อนรหัสผ่าน using keypad below:
+CancelButtonText,ยกเลิก
+LaunchPadNet_LoggingInLeadthru,Logging in...โปรดรอ
+LaunchPadNet_ShiftButtonText,Shift
+LaunchPadNet_SignedOffButtonText,Signed Off
+LaunchPadNet_ReEnterIDLeadthru,Incorrect ID or password. Please re-enter using keypad below.
+LegalCaptionText,"LEGAL CAPTION\nThis system is for the use of authorized personnel only. By logging onto this system, you are subject to the terms and conditions of all Information Security policies and standards. Use by unauthorized individuals or for unauthorized purposes is a violation of federal and/or state law. The company reserves the right to take any necessary actions to protect authorized users, intellectual property and other information assets. Individuals using this system are subject to having all of their activities on this system monitored. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals possible evidence of criminal activity, system personnel may provide the evidence of such monitoring to law enforcement officials.\n        "
+PageIndicatorLabelFormat,หน้า {0} จาก {1}
+SignBelow,ลงชื่อด้านล่าง
+AlertStatusTextOff,
+AlertStatusTextOn,!!!
+InitialText,.
+HH_TransactionCancelLeadThru2,Transaction cancelled.
+SignOnTitle,NCR SelfServ Checkout Log In
+DueCart,จำนวนที่ต้องจ่าย
+ScotApp_1365,MSR
+ScotApp_498,จำนวนที่ชำระแล้ว:
+ScotApp_849,ต้องใส่ปริมาณ
+ScotApp_848,ต้องใส่ปริมาณ:
+ScotApp_847,สแกนเสร็จแล้ว
+ScotApp_846,"สแกนสินค้าหรือแตะที่ปุ่ม ""สแกนเสร็จแล้ว"""
+ScotApp_285,เครื่องสแกน: ส่วนต่อท้ายแท็กไม่ถูกต้อง
+ScotApp_284,เครื่องสแกน: ข้อมูลสูญหาย
+ScotApp_287,เครื่องสแกน: ส่วนต่อท้ายแท็กไม่ถูกต้อง
+ScotApp_286,เครื่องสแกน: ส่วนนำหน้าแท็กไม่ถูกต้อง2
+ScotApp_281,281unused
+ScotApp_280,ล้างบันทึกความปลอดภัย
+ScotApp_283,ป้อนรหัสผ่าน
+ScotApp_282,ป้อน ID
+ScotApp_1787,ป้อนจำนวนถุงพลาสติกที่คุณใช้ หรือ 0 หากไม่ได้ใช้ถุงพลาสติก
+ScotApp_1360,ลิ้นชักเงินสด
+ScotApp_288,"แตะ ""ฉันแก้ไขปัญหาแล้ว""\n* หากยังมีข้อผิดพลาดอยู่ ให้รีบูตเครื่อง:\n*  หมุนตัวล็อคกุญแจของหัวหน้างานไปที่ 'S' หรือกดปุ่มหัวหน้างาน\n* เลือก ""ปิดการทำงานทั้งระบบ""\n* เมื่อหน้าจอว่าง ให้ปิดเครื่องที่ UPS หรือแถบสวิตช์\n* เปิดเครื่อง หากเกิดข้อผิดพลาดอีก ให้ขอรับบริการ"
+ScotApp_858,ใช่
+ScotApp_62,ใช่
+ScotApp_52,ยกเลิกคูปอง
+ScotApp_42,สินค้าที่ยกเลิก
+ScotApp_32,ดำเนินการต่อ
+ScotApp_22,ไม่\nเงินสด\nย้อนกลับ\n+ 0          \n(%s)
+ScotApp_12,ปริมาณ %d @ %s/แต่ละ
+ScotApp_1167,* เปิดประตูตู้เครื่องพิมพ์\n* ปลดสลักแล้วดันเครื่องพิมพ์กลับเข้าไปใหม่\n* เปิดฝาเครื่องพิมพ์เพื่อตรวจสอบว่ามีกระดาษติดหรือไม่\n* ปิดฝาเครื่องพิมพ์แล้วใส่กระดาษใหม่\n* ค่อยๆ ดึงเครื่องพิมพ์มาด้านหน้าจนกว่าจะยึดเข้าตำแหน่ง
+ScotApp_1177,หมดเวลาการนำสินค้าใส่ถุง
+ScotApp_1147,เครื่องชั่งในส่วนนำสินค้าใส่ถุงขัดข้อง
+ScotApp_1157,ประตูเครื่องจ่ายธนบัตรอาจเปิดอยู่\n\nเครื่องจ่ายธนบัตรจะไม่ทำงานหากประตูเปิดอยู่\n\nปิดและยึดประตูเครื่องจ่ายธนบัตรหรือประตูตู้นิรภัยให้แน่น
+ScotApp_1127,เชื่อมต่อใหม่
+ScotApp_92,ยินดีต้อนรับ!
+ScotApp_82,82unused
+ScotApp_1117,%s คาสเซ็ตเครื่องจ่ายธนบัตรถูกถอดออกหรือใส่ไม่เข้าที่\n\nติดตั้งหรือใส่คาสเซ็ตธนบัตร %s จนกว่าจะยึดแน่น
+ScotApp_154,กำลังโหลด...
+ScotApp_1187,อุปกรณ์ขัดข้อง
+ScotApp_1197,ธุรกรรมที่ยกเลิก
+ScotApp_1836,บาร์โคดไม่ถูกต้อง
+ScotApp_556,การระงับธุรกรรมถูกปฏิเสธ
+ScotApp_1864,ไปที่เลน
+ScotApp_1368,Sigcap
+ScotApp_1378,น้ำหนัก
+ScotApp_1348,ช่องจ่ายเงินปิดอยู่
+ScotApp_1132,การสื่อสารขัดข้อง
+ScotApp_1338,รับไฟล์วินิจฉัย
+ScotApp_1308,ป้อน PIN แล้ว
+ScotApp_1318,สแกนเวาเชอร์
+ScotApp_1439,"เกินค่าจำกัด ""ถุง/กล่อง"""
+ScotApp_1388,โปรแกรมการฝึกอบรม
+ScotApp_253,253unused
+ScotApp_1638,ตรวจสอบสายเคเบิลของเครื่องนำเหรียญกลับมาใช้ใหม่ แล้วลองใหม่ หากเกิดข้อผิดพลาดอีก ให้ขอรับบริการ\n\nSafePay ขัดข้อง: %s
+ScotApp_1767,ไม่สามารถเข้าถึงพารามิเตอร์น้ำหนักเครื่องชั่งได้
+ScotApp_1777,ทำธุรกรรมเสร็จสิ้นโดยใช้คูปองที่เกินขีดจำกัดของคูปองของร้านค้า
+ScotApp_1747,เครื่องอ่านลายนิ้วมือขัดข้อง
+ScotApp_1757,"เมื่อต้องการเพิ่มการเน้นเสียง ให้แตะที่ปุ่ม ""การเน้นเสียง"" ที่ด้านล่างของหน้าจอแล้วพิมพ์ตัวอักษร"
+ScotApp_636,ความปลอดภัยออฟไลน์อยู่
+ScotApp_1737,ถุงของตนเอง
+ScotApp_1707,เหรียญติดอยู่ในเครื่องรับ
+ScotApp_1717,WO:
+ScotApp_1303,ตอบรับบัตรลอยัลตี้การ์ดแล้ว: #%s
+ScotApp_1134,คาสเซ็ตธนบัตรเต็ม
+ScotApp_1375,การปรับเปลี่ยนหลังซื้อสินค้า:\n%s
+ScotApp_121,สินค้าจากจุดชำระเงินนี้
+ScotApp_71,71unused
+ScotApp_61,61unused
+ScotApp_51,ไม่สามารถสแกนคูปอง
+ScotApp_41,สินค้าที่จำกัด
+ScotApp_31,คูปอง
+ScotApp_21,21unused
+ScotApp_11,11unused
+ScotApp_1057,1057unused
+ScotApp_90,90unused
+ScotApp_821,821unused
+ScotApp_1174,น้ำหนักไม่ตรงกัน
+ScotApp_1144,เครื่องจ่ายไม่ตอบสนอง
+ScotApp_1154,เครื่องสแกนขัดข้อง
+ScotApp_1124,* ปลดล็อคเครื่องนำกลับมาใช้ใหม่ ดึงคันโยกสีเหลืองลง\n* ใส่คาสเซ็ตตัวโหลดใหม่จนกว่าจะยึดเข้าที่\n* ดันคันโยกสีเหลืองขึ้นก่อน จากนั้นล็อคเครื่องนำกลับมาใช้ใหม่อีกครั้ง
+ScotApp_91,91unused
+ScotApp_81,ดำเนินการต่อ
+ScotApp_1114,"อัพเดต ""ระยะเวลาสิ้นสุดรายงาน"" เรียบร้อยแล้ว"
+ScotApp_1184,ข้อมูลเพิ่มเติม
+ScotApp_1194,หมายเลขการอนุญาต
+ScotApp_1137,%s ไม่ได้ติดตั้งคาสเซ็ตธนบัตร
+ScotApp_1805,ออกจากโหมดเงินสดเท่านั้น
+ScotApp_1567,ยอดรวมในเครื่องจ่าย :  %s
+ScotApp_1577,ผลรวมทั้งหมด:
+ScotApp_1547,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1557,เก็บเครื่องจ่าย
+ScotApp_1527,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1537,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1507,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1517,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1866,สินค้ายอดนิยม
+ScotApp_1876,%s %s observed
+ScotApp_1846,"สแกนสินค้าหรือแตะ ""ป้อนรหัส"""
+ScotApp_1856,อย่าใส่ถุง
+ScotApp_155,ข้อความของระบบ
+ScotApp_1587,คุณแน่ใจหรือไม่ว่าต้องการละเว้นการเปลี่ยนแปลงในหน้าจอการจัดการธนบัตร?
+ScotApp_1597,บัตรลอยัลตี้การ์ด
+ScotApp_1816,เหรียญติดอยู่หรือประตูเปิดอยู่
+ScotApp_1806,"\n\nแตะที่ปุ่ม ""บัตรเท่านั้น"" เพื่อจบธุรกรรมแล้วให้เงินทอนกับลูกค้าด้วยตนเอง"
+ScotApp_1760,กล่องคูปองอาจเต็มหรือช่องคูปองถูกบล็อค เอาสินค้าที่บล็อคช่องคูปองออก จากนั้นเทกล่องคูปอง
+ScotApp_1770,เลือกจากผลการค้นหา
+ScotApp_1740,ตรวจสอบถุง
+ScotApp_1720,WR:
+ScotApp_1730,ค้นหา
+ScotApp_1700,"ไม่สามารถจ่าย %s ได้ %s\nตรวจสอบเครื่องจ่ายเหรียญและธนบัตร\nหากว่าง โปรดเติม\nหากไม่ว่าง นำสิ่งที่ติดอยู่ออก \nแตะ ""แก้ไขสภาพปัญหาแล้ว"""
+ScotApp_1710,รับเงินสดที่จ่ายคืน
+ScotApp_391,สินค้าที่ต้องมีราคา
+ScotApp_1780,เริ่มธุรกรรม
+ScotApp_1790,เครดิต / เดบิตเท่านั้น
+ScotApp_74,อนุมัติการยกเลิก
+ScotApp_64,เลือกการยกเลิกแล้ว
+ScotApp_54,ยกเลิก
+ScotApp_44,44unused
+ScotApp_34,34unused
+ScotApp_24,ยกเลิกแล้ว
+ScotApp_14,14unused
+ScotApp_1169,* เปิดประตูตู้เครื่องพิมพ์\n* ค่อยๆ ดึงเครื่องพิมพ์มาด้านหน้าจนกว่าจะยึดเข้าตำแหน่ง\n* ปิดแล้วล็อคประตูตู้เครื่องพิมพ์
+ScotApp_1179,หมดเวลาที่จำกัดให้ลูกค้าเดินออก
+ScotApp_1149,เครื่องพิมพ์ใบเสร็จขัดข้อง
+ScotApp_1159,PinPad / EFT ไม่ตอบสนอง
+ScotApp_1129,ไม่มีการดำเนินการแก้ไขที่ถูกต้อง\n\nโปรดลองอีกครั้ง
+ScotApp_1139,ฝาเครื่องจ่ายธนบัตรเปิดอยู่
+ScotApp_84,โหลดตัวเลือก
+ScotApp_1119,* เครื่องจ่ายธนบัตรจะไม่ทำงานหากประตูเปิดอยู่\n\n* ปิดและยึดประตูเครื่องจ่ายธนบัตรหรือประตูตู้นิรภัยให้แน่น
+ScotApp_1660,เลือกตัวเลือกการพิมพ์
+ScotApp_1189,สินค้าที่ป้อน
+ScotApp_94,94unused
+ScotApp_1104,e=d=0.01ปอนด์ สูงสุด 30.00 ปอนด์ ต่ำสุด 0.2 ปอนด์ จำนวนสูงสุด 3000
+ScotApp_1564,ป้อนผลรวมโหลดสำหรับ %s
+ScotApp_1574,มูลค่าที่ป้อนสำหรับ %s ไม่ถูกต้อง \nโปรดป้อนอีกครั้ง
+ScotApp_1544,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1554,เครื่องรับ
+ScotApp_1524,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1534,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1504,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1514,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1865,ค้นหาสินค้า\nโดยไม่แสดงน้ำหนัก
+ScotApp_1875,%s %s expected
+ScotApp_1845,ใบเสร็จรับเงิน
+ScotApp_1855,ไม่บังคับ
+ScotApp_1825,บันทึกการตั้งค่า
+ScotApp_1584,กล่อง              ผลรวม  ผลรวมเงินทอน
+ScotApp_1594,ปิดอย่างถูกต้องแล้วรีบูตเครื่อง
+ScotApp_1815,* ปลดล็อคแล้วดึงถาดบรรจุช่องใส่เหรียญออก\n* ใส่ช่องใส่เหรียญที่หายไปใหม่ แล้วตรวจสอบว่าช่องใส่เหรียญอยู่ในตำแหน่งที่ถูกต้อง\n* ตรวจสอบว่าได้ใส่ช่องใส่เหรียญหน่วยเงินต่ำสุดและอยู่ในตำแหน่งที่ถูกต้องแล้ว\n* ตรวจสอบว่าได้ใส่ช่องใส่เหรียญเงินตราที่ถูกต้อง หากเกิดข้อผิดพลาดอีก ให้ขอรับบริการ
+ScotApp_856,ใบเสร็จรับเงิน:
+ScotApp_1107,%s\t%s\tปริมาณ %s @ %s/%s\t%s
+ScotApp_1885,ไม่ได้สแกนสินค้า
+ScotApp_1895,ข้อยกเว้นทั่วไป
+ScotApp_988,สินค้าที่ไม่คาดคิดบนสายพาน นำสินค้าออก
+ScotApp_989,989unused
+ScotApp_986,986unused
+ScotApp_987,นำสินค้าออกจากสายพานแล้ว คืนสินค้า
+ScotApp_984,โหลด Takeaway Belt แล้ว
+ScotApp_985,วางสินค้าบนสายพาน
+ScotApp_982,อุปกรณ์ขัดข้อง
+ScotApp_983,Takeaway Belt กำลังโหลดตัวเลือก...
+ScotApp_980,หมดเวลาโดยไม่มีการตอบรับจากลูกค้า
+ScotApp_981,981unused
+ScotApp_152,152unused
+ScotApp_265,265unused
+ScotApp_1844,ค้นหา
+ScotApp_1437,"เกินค่าจำกัด ""เอาสินค้าออกแล้ว"""
+ScotApp_259,กำลังสิ้นสุด ตัวจัดการอุปกรณ์...
+ScotApp_1523,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_235,สถานะเครื่องรับเงินสดใกล้เต็ม
+ScotApp_1561,หน่วยเงิน
+ScotApp_1571,ยืนยันการละเว้นการเปลี่ยนแปลง
+ScotApp_1541,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1551,เงินตราสูง  (%s)
+ScotApp_1521,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1531,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1501,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1511,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1581,เครื่องจ่ายเหรียญ
+ScotApp_1591,ตรวจสอบการเชื่อมต่อสายเคเบิลที่ต่อกับเครื่องจ่ายเหรียญ
+ScotApp_1333,Backspace
+ScotApp_1138,ไม่สามารถจ่าย %s ได้
+ScotApp_1350,%s\n%s %s ที่เพิ่ม
+ScotApp_855,ค่าประกอบชิ้นส่วน:
+ScotApp_889,%s \nน้ำหนักจริง(%s): %s\nน้ำหนักที่คาดไว้(%s): %s
+ScotApp_888,สินค้าที่ไม่คาดคิดในส่วนนำสินค้าใส่ถุง  นำสินค้าออก
+ScotApp_887,เอาสินค้าออกแล้ว
+ScotApp_886,สินค้าที่นำออกจากส่วนนำสินค้าใส่ถุง\nคืนสินค้า
+ScotApp_885,การแจ้งเตือนการนำใส่ถุง
+ScotApp_884,ยกเลิกการระงับ
+ScotApp_883,ยืนยันการระงับ
+ScotApp_882,ยืนยันการระงับ
+ScotApp_881,ระงับ:
+ScotApp_880,880unused
+ScotApp_289,289unused
+ScotApp_1323,น้ำหนักที่เหลืออยู่
+ScotApp_153,153unused
+ScotApp_76,76unused
+ScotApp_66,66unused
+ScotApp_56,ยกเลิกการชำระเงิน
+ScotApp_46,วิธีใช้
+ScotApp_36,เงินที่ได้รับคืน:
+ScotApp_26,26unused
+ScotApp_16,จะเรียกเก็บ %s ไปยังบัตรของคุณ
+ScotApp_96,96unused
+ScotApp_86,86unused
+ScotApp_931,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s ที่คาดไว้;LSWND3=%s %s ที่สังเกต;
+ScotApp_914,"ไปที่ช่องจ่ายเงิน เอาสินค้าเกินออก แล้วแตะ ""ล้างการรักษาความปลอดภัย"""
+ScotApp_1566,การแทนที่ทั้งหมด
+ScotApp_1576,สถานะเครื่องจ่ายเงินสด  :
+ScotApp_1546,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1556,เก็บเครื่องรับ
+ScotApp_1526,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1536,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1506,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1516,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1586,%s    %s  %s
+ScotApp_1857,อย่าวางบนสายพาน
+ScotApp_595,NCR SelfServ Checkout AuxDisp กำลังโหลดตัวเลือก...
+ScotApp_1773,"แตะ ""อนุมัติคูปอง"" เพื่อยอมรับคูปองหรือไปที่โหมดช่วยเหลือเพื่อยกเลิก"
+ScotApp_1743,"ใส่ ID ผู้ใช้ของคุณ แล้วแตะที่ปุ่ม ""ป้อน"", หรือวางนิ้วของคุณบนเครื่องอ่านลายนิ้วมือเพื่อเข้าสู่ระบบ"
+ScotApp_1753,ไม่พบสินค้า
+ScotApp_1723,ธุรกรรมการฝึกอบรม
+ScotApp_1733,"เลือก ""กลับไป"" เพื่อดำเนินการต่อ"
+ScotApp_1633,เครื่องนำธนบัตรกลับมาใช้ใหม่ขัดข้อง
+ScotApp_1713,แตะปุ่ม อนุมัติ สำหรับการระงับที่ถูกปฏิเสธ
+ScotApp_1783,ฝาปิดนิรภัยเปิดอยู่
+ScotApp_854,สินค้าห้าชิ้น
+ScotApp_65,65unused
+ScotApp_55,ยกเลิกทั้งหมด
+ScotApp_45,45unused
+ScotApp_35,เงินทอนที่ค้าง:
+ScotApp_25,วันเกิด:
+ScotApp_15,รหัสสินค้า:
+ScotApp_1168,เครื่องพิมพ์ไม่ยึดเข้าที่ในตำแหน่งด้านหน้า
+ScotApp_1178,เกินค่าจำกัดของเวลาในการนำออกเรียบร้อยแล้ว
+ScotApp_1148,เครื่องชั่งไม่ตอบสนอง
+ScotApp_1158,อุปกรณ์ PinPad / EFT ขัดข้อง
+ScotApp_1128,%s\n
+ScotApp_95,สแกนคูปอง
+ScotApp_85,85unused
+ScotApp_1118,* %s เกิดปัญหาระหว่างจ่ายธนบัตร \n\n* %s ไม่สามารถรับธนบัตรจากคาสเซ็ตธนบัตร\n\n* %s ถอดคาสเซ็ตธนบัตรออกแล้วตรวจสอบสภาพของธนบัตร
+ScotApp_150,เลือกจำนวนเงินสดที่คืน
+ScotApp_1188,ปริมาณที่ป้อน
+ScotApp_1198,หมายเลขบัญชีที่ป้อน
+ScotApp_644,---------------------------------------------------------
+ScotApp_1573,แตะปุ่ม โหลด เพื่อเติมหรือแตะปุ่ม เก็บเครื่องรับ และ เก็บเครื่องจ่าย เพื่อถ่ายออก
+ScotApp_1543,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1553,สถานะเงินตราสูง:
+ScotApp_267,ความปลอดภัย
+ScotApp_1509,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1503,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1513,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1417,"หากสินค้าเป็นแบบหลายหีบห่อ แตะ ""โหมดช่วยเหลือ""แล้วยกเลิก จากนั้นสแกนบาร์โค้ดสินค้าหลายหีบห่อ"
+ScotApp_1583,อัตราเงินตราต่ำ (%s)
+ScotApp_1593,เอาเหรียญออก
+ScotApp_1533,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_965,965unused
+ScotApp_915,คำขอมากเกินกว่าที่จะข้ามสายพาน  สูงสุด = %d
+ScotApp_250,250unused
+ScotApp_78,ATM (ไม่ใช่เงินสด)
+ScotApp_68,68unused
+ScotApp_58,OK
+ScotApp_48,48unused
+ScotApp_38,38unused
+ScotApp_28,ยกเลิกการซื้อ
+ScotApp_18,รวม
+ScotApp_70,70unused
+ScotApp_98,98unused
+ScotApp_88,88unused
+ScotApp_1330,ยังไม่ได้นำสินค้าใส่ถุง
+ScotApp_106,ต้องการความช่วยเหลือ
+ScotApp_853,สินค้าสี่ชิ้น
+ScotApp_1560,ยอดรวมในเครื่องรับ :  %s
+ScotApp_1570,ละเว้นการเปลี่ยนแปลง
+ScotApp_1540,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1550,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1520,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1530,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_945,จำกัด\ถุง/กล่อง
+ScotApp_690,690unused
+ScotApp_151,โปรดรับเงินสด
+ScotApp_1580,เครื่องจ่ายธนบัตร
+ScotApp_1590,%s เหรียญในกล่องติดอยู่
+ScotApp_266,กำลังสิ้นสุด ตัวแทนความปลอดภัย...
+ScotApp_1519,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1779,ไม่สามารถยกเลิกสินค้าได้จนกว่าคูปองจะถูกยกเลิก ยกเลิกคูปองของสินค้าก่อน
+ScotApp_1749,กำลังประมวลผลลายนิ้วมือ
+ScotApp_1759,กล่องคูปองเต็ม
+ScotApp_1729,ค้นหาสินค้า:
+ScotApp_1719,WA:
+ScotApp_1789,คูปอง
+ScotApp_1799,โหมดบัตรเท่านั้น
+ScotApp_1781,หน้าจอขอบคุณหมดเวลา
+ScotApp_1499,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1603,กล่องเครื่องจ่ายบัตรปกติ
+ScotApp_396,ต้องการความช่วยเหลือของร้านสำหรับ:
+ScotApp_60,ขอความช่วยเหลือ
+ScotApp_974,974unused
+ScotApp_1300,เริ่มธุรกรรม
+ScotApp_999,เกินขีดจำกัด
+ScotApp_1565,ป้อนค่าโหลดสำหรับ %s
+ScotApp_852,สินค้าสามชิ้น
+ScotApp_1545,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1555,เครื่องจ่าย
+ScotApp_1525,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1535,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1505,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1515,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1135,เครื่องจ่ายธนบัตรขัดข้อง
+ScotApp_942,942unused
+ScotApp_693,693unused
+ScotApp_390,สินค้าที่ถูกเรียกคืน
+ScotApp_1595,ภาษาที่ต้องการใช้
+ScotApp_1772,คูปอง
+ScotApp_1742,ถุงไม่ถูกต้อง
+ScotApp_1752,น้ำหนักบนเครื่องชั่งเกินขีดความจุ
+ScotApp_1722,ช่องจ่ายเงินอยู่ในโหมดการฝึกอบรมช่องจ่ายเงินอยู่\nในโหมดการฝึกอบรม ดำเนินการต่อกับธุรกรรม?
+ScotApp_1732,โหลดภาพ PickList แล้ว
+ScotApp_1702,*** ทำใบเสร็จรับเงินซ้ำ ***
+ScotApp_1712,การระงับถูกปฏิเสธ
+ScotApp_1782,เริ่มธุรกรรมในโหมดช่วยเหลือ
+ScotApp_1792,บัตรเท่านั้น
+ScotApp_913,สินค้าที่ไม่คาดคิดบนเครื่องชั่งแบบนิรภัย
+ScotApp_777,777unused
+ScotApp_1678,เครื่องนำธนบัตรกลับมาใช้ใหม่ขัดข้อง
+ScotApp_1869,มุมมองการส่ง
+ScotApp_1562,ผลรวม
+ScotApp_1572,คุณแน่ใจหรือไม่ว่าต้องการละเว้นการเปลี่ยนแปลงในหน้าจอการจัดการเหรียญ?
+ScotApp_1542,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1552,กล่องเต็ม
+ScotApp_1522,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1532,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1502,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1512,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_50,50unused
+ScotApp_1582,สถานะของเงินหรือสลิป
+ScotApp_1592,* เอาเหรียญออกจากกล่องที่ติด\n* เอียงกล่อง\n* หมุนสกรูไปด้านขวาจนกว่าจะสามารถเอาเหรียญออก\n* อย่าใช้แรงมากเกินไป
+ScotApp_1310,* ถอดเครื่องรับธนบัตรออก\n* ใส่เครื่องรับธนบัตรใหม่จนกว่าจะยึดแน่น\n* ตรวจสอบว่ามอเตอร์ของเครื่องรับธนบัตรเปิดใช้งานและไฟ LED เป็นสีเขียว
+ScotApp_996,รายการราคา
+ScotApp_851,สินค้าสองชิ้น
+ScotApp_1605,กล่องเครื่องจ่ายบัตรว่าง
+ScotApp_943,ฉันใช้ถุงของฉันเอง
+ScotApp_79,79unused
+ScotApp_69,69unused
+ScotApp_59,ลองอีกครั้ง
+ScotApp_49,49unused
+ScotApp_39,การยกเลิกธุรกรรม
+ScotApp_29,สินค้าที่จำกัด
+ScotApp_19,ภาษี
+ScotApp_260,260unused
+ScotApp_1814,กล่องเก็บช่องใส่เหรียญถูกถอดออกหรือไม่อยู่ในตำแหน่ง
+ScotApp_99,ปริมาณที่จะยกเลิก
+ScotApp_89,89unused
+ScotApp_910,910unused
+ScotApp_558,สินค้าที่จำกัดปริมาณ
+ScotApp_1490,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1879,"ตรวจสอบ BagScale และแตะ ""ล้างการรักษาความปลอดภัย"""
+ScotApp_1768,ไม่สนับสนุนหน่วยน้ำหนักนี้
+ScotApp_1778,ล้างการรักษาความปลอดภัย
+ScotApp_1748,ล็อกอินลายนิ้วมือล้มเหลว
+ScotApp_1758,กล่องคูปองขัดข้อง
+ScotApp_1728,โปรดเลือกจากสินค้าที่นิยมหรือค้นหาสินค้าตามลำดับตัวอักษร
+ScotApp_1738,ผู้ให้บริการที่จะตรวจสอบถุงของคุณ
+ScotApp_451,สถานะเครื่องรับเหรียญติดขัด
+ScotApp_1718,NOI:
+ScotApp_842,842unused
+ScotApp_1798,โหมดเงินสดเท่านั้น
+ScotApp_1829,อนุมัติรายการแล้ว
+ScotApp_850,สินค้าหนึ่งชิ้น
+ScotApp_940,ยกเลิก
+ScotApp_179,179unused
+ScotApp_815,เปิดเครื่องรับจ่ายเงิน
+ScotApp_245,ไม่สามารถใช้งานเครื่องอ่านบัตร
+ScotApp_1734,ฉันนำถุงมาเอง
+ScotApp_1585,กล่อง              มูลค่า  มูลค่าเงินทอน
+ScotApp_374,แถบสีดำของเครื่องพิมพ์ขัดข้อง
+ScotApp_1468,สถานะของเครื่องนำเงินสดกลับมาใช้ใหม่ว่าง
+ScotApp_1883,"ตรวจสอบ BagScale และตะกร้าสำหรับสินค้าที่เกิน และแตะ ""ล้างการรักษาความปลอดภัย"""
+ScotApp_1849,
+ScotApp_450,450unused
+ScotApp_994,ปิดแล้ว
+ScotApp_1569,มูลค่า
+ScotApp_1579,เครื่องรับธนบัตร
+ScotApp_1549,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1559,ออก
+ScotApp_1529,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1539,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_941,สินค้าที่ยกเลิก
+ScotApp_694,694unused
+ScotApp_1589,ไม่มีเหรียญเหลือ
+ScotApp_1599,%s ไม่สามารถค้นหาการกำหนดลักษณะได้
+ScotApp_1766,เครื่องสแกน/เครื่องชั่งขัดข้อง
+ScotApp_1886,ตรวจสอบสินค้าที่เกิน
+ScotApp_944,คำขอมากเกินไปที่จะนำใส่ถุง/กล่อง  สูงสุด = %d
+ScotApp_1328,น้ำหนักเป็นสองเท่า
+ScotApp_1889,ระดับความไว้วางใจในการรักษาความปลอดภัย
+ScotApp_1182,ขีดจำกัดจำนวนคูปอง
+ScotApp_375,เครื่องพิมพ์หมดเวลา
+ScotApp_1813,%s\n* ปลดล็อคแล้วดึงถาดบรรจุช่องใส่เหรียญออก (I)\n* ถอดกล่องเก็บช่องใส่เหรียญที่ติดออก ตรวจสอบและนำสิ่งที่ติดอยู่ที่พื้นที่จ่ายออก (II)\n* หากไม่มีสิ่งใดติดที่พื้นที่จ่าย ให้เทกล่องเก็บช่องใส่เหรียญ ตรวจสอบและนำสิ่งที่ติดอยู่ออกโดยหมุนตรงแผ่นกลม (III)\n* ใส่กล่องเก็บช่องใส่เหรียญอีกครั้ง\n* ตรวจสอบว่าได้ปิดและล็อคประตูทั้งหมดอย่างถูกต้องแล้ว หากเกิดข้อผิดพลาดอีก ให้ขอรับบริการ
+ScotApp_559,ไม่มีคูปอง
+ScotApp_1688,คาสเซ็ตขัดข้อง
+ScotApp_1775,อนุมัติคูปอง
+ScotApp_598,ไม่สามารถจัดเก็บแบบฟอร์ม %d!
+ScotApp_1727,การค้นหาสินค้า
+ScotApp_457,457unused
+ScotApp_20,20unused
+ScotApp_995,ไปที่ช่องจ่ายเงินแล้วเข้าสู่ระบบโหมดร้านค้าเพื่อเปิดช่องจ่ายเงิน
+ScotApp_697,697unused
+ScotApp_785,785unused
+ScotApp_1776,การอนุญาตจากร้านค้า
+ScotApp_1714,ปฏิเสธการระงับที่ได้รับอนุมัติ
+ScotApp_1192,ค่าประกอบชิ้นส่วน
+ScotApp_376,376unused
+ScotApp_1698,"แตะ ""แก้ไขสภาพปัญหาแล้ว"""
+ScotApp_75,เสร็จสิ้น
+ScotApp_1745,อุปกรณ์ลายนิ้วมือถูกยกเลิกการเชื่อมต่อ\n\nโปรดลองอีกครั้ง
+ScotApp_1260,USERDEFINED2
+ScotApp_1270,USERDEFINED12
+ScotApp_1240,เงินสด
+ScotApp_1250,PIP เครดิต
+ScotApp_1220,EFT
+ScotApp_1230,แผนกติดลบ
+ScotApp_1200,การแจ้งเตือนราคา
+ScotApp_1210,ดูครั้งล่าสุด
+ScotApp_804,804unused
+ScotApp_1280,เงินสด
+ScotApp_1290,ง - ณ
+ScotApp_456,456unused
+ScotApp_10,10unused
+ScotApp_992,ใส่วันเกิด
+ScotApp_810,ในการฝึกอบรม
+ScotApp_696,696unused
+ScotApp_786,ระงับที่ช่องจ่ายเงิน
+ScotApp_377,หน่วย - สถานะ
+ScotApp_1608,กล่องปฏิเสธว่าง
+ScotApp_1568,ยอดรวมทั้งหมด :        %s
+ScotApp_1578,มูลค่าทั้งหมด:
+ScotApp_1548,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1558,ออกและบันทึก
+ScotApp_1528,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1538,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1508,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1518,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1755,เลือกจากรายการ
+ScotApp_1588,"กล่องแต่ละใบต้องว่างก่อนจะสามารถเลือกปุ่ม ""เก็บเครื่องจ่าย"" ได้  ทำให้กล่องบรรจุช่องเก็บเหรียญว่าง จากนั้นแตะที่ปุ่ม ""เก็บเครื่องจ่าย"""
+ScotApp_1598,เปิดใช้งานการกำหนดลักษณะ
+ScotApp_803,803unused
+ScotApp_1481,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_592,โหลด NCR SelfServ Checkout ตัวเข้ารหัส แล้ว
+ScotApp_455,455unused
+ScotApp_430,งดใช้บริการ
+ScotApp_993,ช่องจ่ายเงินปิดอยู่
+ScotApp_101,ไม่ทราบราคา
+ScotApp_1498,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_699,สินค้าที่ขายไม่ได้
+ScotApp_158,สินค้านี้ต้องมีการอนุมัติจากร้านค้า โปรดดำเนินการต่อ
+ScotApp_787,"วันเกิดที่ป้อน: %s, %d ปี"
+ScotApp_1756,"เลือกจากผลลัพธ์การค้นหาหรือ  ""กลับไป"""
+ScotApp_1862,ยืนยันสินค้าบนเครื่องสแกน
+ScotApp_195,โหลด ตัวจัดการอุปกรณ์ แล้ว
+ScotApp_370,เครื่องพิมพ์เปิดอยู่
+ScotApp_1725,ความปลอดภัยถูกปิดใช้งาน
+ScotApp_1809,เครื่องจ่ายของเครื่องนำเหรียญกลับมาใช้ใหม่ขัดข้อง
+ScotApp_802,"\nซื้อ %s ทั้งลัง?\nเลือก ""ใช่"" หรือ ""ไม่"""
+ScotApp_1491,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_593,กำลังโหลด NCR SelfServ Checkout SigCap...
+ScotApp_454,454unused
+ScotApp_1160,"ตรวจสอบว่าสายเคเบิลได้เชื่อมต่อกับด้านหลังของ PinPad หรือไม่\n\nหากสายเคเบิลยึดแน่นแล้ว ให้แตะที่ปุ่ม ""ฉันแก้ไขปัญหาแล้ว""\n\nหากยังมีข้อผิดพลาดอยู่ ให้ปิดแล้วเริ่มเครื่องใหม่"
+ScotApp_990,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_295,295unused
+ScotApp_698,698unused
+ScotApp_1261,USERDEFINED3
+ScotApp_1271,USERDEFINED13
+ScotApp_1241,เครดิต
+ScotApp_1251,PIP เดบิต
+ScotApp_1221,ธุรกรรมติดลบ
+ScotApp_1231,ได้รับการตรวจดูแล้ว
+ScotApp_1201,การชำระเงินที่ช่วย
+ScotApp_1211,ค่าเริ่มต้น
+ScotApp_1726,ค้นหาเสร็จสิ้นแล้ว
+ScotApp_1281,การชำระเงินที่ช่วย
+ScotApp_1291,ด - ธ
+ScotApp_1872,1872unused
+ScotApp_1618,คาสเซ็ตเครื่องจ่ายธนบัตรถูกถอดออกหรือใส่ไม่ถูกต้อง\n\nติดตั้งหรือใส่คาสเซ็ตธนบัตรจนกว่าจะยึดแน่น
+ScotApp_1438,"เกินค่าจำกัด ""สินค้าใหม่"""
+ScotApp_354,ฟังก์ชั่นของระบบ
+ScotApp_1822,ดูน้ำหนักของสินค้าที่ด้านล่างซ้ายของหน้าจอ
+ScotApp_1735,วางถุงของคุณ
+ScotApp_1819,เครื่องรับเครื่องนำเหรียญกลับมาใช้ใหม่ขัดข้อง
+ScotApp_801,ซื้อลัง
+ScotApp_590,อุปกรณ์จากโรงงานกำลังสิ้นสุด...
+ScotApp_691,691unused
+ScotApp_1264,USERDEFINED6
+ScotApp_1274,USERDEFINED16
+ScotApp_1244,เดบิตออมทรัพย์
+ScotApp_1254,PIP เดบิตออมทรัพย์
+ScotApp_1224,ต้องการราคา
+ScotApp_1234,จำกัดปริมาณ
+ScotApp_1204,หมายเลขเอกสาร
+ScotApp_1214,ใบเสร็จรับเงิน
+ScotApp_1284,1284unused
+ScotApp_1294,ล - ษ
+ScotApp_1736,"โปรดวางถุงของคุณในส่วนนำสินค้าใส่ถุง แล้วแตะที่ปุ่ม ""เสร็จสิ้น"" เมื่อเสร็จสิ้น"
+ScotApp_927,อุปกรณ์ทำงานผิดปกติ
+ScotApp_1884,การแจ้งเตือน Smart Assist
+ScotApp_1842,ช่วยเหลือแบบสมบูรณ์
+ScotApp_258,กำลังสิ้นสุดนายหน้าธุรกรรม...
+ScotApp_307,บรรจุภัณฑ์อื่น
+ScotApp_1408,ช่วยเหลือ
+ScotApp_355,เลือกฟังก์ชั่นของระบบ
+ScotApp_1705,การสื่อสารขัดข้อง
+ScotApp_401,ใส่บัตร โปรดตรวจสอบสินค้าเพิ่มเติมในตะกร้า
+ScotApp_1395,เข้าสู่โหมดผู้ให้บริการ
+ScotApp_591,กำลังโหลดตัวเข้ารหัส NCR SelfServ Checkout...
+ScotApp_1252,PIP เดบิต คืนเงินสด
+ScotApp_1465,อุปกรณ์ของเครื่องนำเงินสดกลับมาใช้ใหม่ขัดข้อง
+ScotApp_1140,มีธนบัตรติดอยู่ในเครื่องจ่ายธนบัตร
+ScotApp_1703,(+)
+ScotApp_297,297unused
+ScotApp_133,133unused
+ScotApp_1706,"อุปกรณ์ไม่พร้อมใช้งาน ปิดแอพพลิเคชันอื่นที่อาจเข้าใช้งานอุปกรณ์อยู่ แล้วแตะที่ปุ่ม ""ฉันแก้ไขปัญหาแล้ว"" หากเกิดข้อผิดพลาดอีก ติดต่อ Gunnebo เพื่อขอรับบริการ"
+ScotApp_356,ตัวเข้ารหัส
+ScotApp_1262,USERDEFINED4
+ScotApp_1272,USERDEFINED14
+ScotApp_1242,เดบิต
+ScotApp_400,400unused
+ScotApp_1222,งดใช้บริการ
+ScotApp_1232,ลายมือชื่อที่อนุมัติ
+ScotApp_1202,ช่องจ่ายเงินที่ปิด
+ScotApp_1212,อื่นๆ
+ScotApp_957,ไม่สามารถติดต่อไคลเอ็นต์ DB Manager
+ScotApp_1282,ต้องการราคาสำหรับ
+ScotApp_1292,น - ย
+ScotApp_1715,การอนุมัติการปฏิเสธการระงับ
+ScotApp_596,โหลด NCR SelfServ Checkout AuxDisp แล้ว
+ScotApp_459,ยอดจะยังคงเดิมสำหรับการซื้อนี้
+ScotApp_296,296unused
+ScotApp_1062,1062unused
+ScotApp_1072,ต้องการข้อมูล
+ScotApp_1042,ใบเสร็จที่มีการสลักหลัง:\nใบเสร็จนี้พิมพ์เนื่องจากกา\nรสลักหลังใบเสร็จล้มเหลว  โปรดแนบใบเสร็จนี้กั\nบเอกสารที่เหมาะสม\n----------------------------------------\n
+ScotApp_1052,1052unused
+ScotApp_1022,ฉันไม่ต้องการบ\nรรจุสินค้านี้ใส่ถุง
+ScotApp_1032,สินค้า EAS ยังทำงานอยู่
+ScotApp_1002,ไม่ใช่สำหรับขาย
+ScotApp_1012,สินค้าของคุณอยู่ระหว่างการขนส่ง
+ScotApp_1821,ยอมรับน้ำหนัก
+ScotApp_1082,ฉันเอาสินค้าหรือถุงออกแล้ว
+ScotApp_1092,เนื้อหารายงาน
+ScotApp_1716,WE:
+ScotApp_1696,แก้ไขสภาพปัญหาแล้ว
+ScotApp_925,925unused
+ScotApp_1265,USERDEFINED7
+ScotApp_1275,USERDEFINED17
+ScotApp_1245,เดบิตกระแสรายวัน
+ScotApp_1255,PIP เดบิตกระแสรายวัน
+ScotApp_1225,สินค้าที่ไม่รู้จัก
+ScotApp_1235,สินค้า EAS ที่ใช้งานอยู่
+ScotApp_1205,สำรองส่วนนำสินค้าใส่ถุง
+ScotApp_1215,อุปกรณ์ขัดข้อง
+ScotApp_1285,ที่นิยม
+ScotApp_1295,ส - ฮ
+ScotApp_893,DBM กำลังโหลดตัวเลือก...
+ScotApp_1832,ข้อยกเว้นจากแผนก
+ScotApp_298,298unused
+ScotApp_597,NCR SelfServ Checkout Forms กำลังโหลดตัวเลือก %d...
+ScotApp_1361,เครื่องทอนเงินสด
+ScotApp_1061,1061unused
+ScotApp_1071,1071unused
+ScotApp_1041,อนุมัติลายมือชื่อ
+ScotApp_1051,การอนุมัติสลิปใบเสร็จ
+ScotApp_1021,ความสนใจ
+ScotApp_1031,สแกนคูปองของคุณ
+ScotApp_1001,ไม่พบสินค้า
+ScotApp_1011,การขนส่ง...
+ScotApp_1081,แสดงช่องจ่\nายเงินทั้งหมด
+ScotApp_1091,1091unused
+ScotApp_1892,การวิเคราะห์ความปลอดภัย
+ScotApp_291,"ท่อเครื่องจ่ายเหรียญติดขัด \n%s\nนำสิ่งที่ติดอยู่ออกจากเครื่องจ่ายเหรียญ แล้วแตะ ""นำสิ่งที่ติดอยู่ออกแล้ว"""
+ScotApp_1480,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1268,USERDEFINED10
+ScotApp_1278,USERDEFINED20
+ScotApp_1248,บัตรของขวัญ
+ScotApp_1258,PIP บัตรของขวัญ
+ScotApp_1228,ถูกระงับ
+ScotApp_1238,การชำระเงินวิธีอื่น
+ScotApp_1208,ขายในโหมดช่วยเหลือ
+ScotApp_1218,การเก็บรวบรวม
+ScotApp_1288,ก
+ScotApp_1298,ฟังก์ชั่นที่มีความช่วยเหลือของผู้ดำเนินการ
+ScotApp_922,922unused
+ScotApp_1665,* ปลดล็อคแล้วถอดคาสเซ็ตออก\n* ดึงธนบัตรที่ติดอยู่ออก\n* ใส่คาสเซ็ตใหม่\n* ปิดเครื่องนำกลับมาใช้ใหม่\n* ทำธุรกรรมต่อ
+ScotApp_1675,เครื่องนำเหรียญกลับมาใช้ใหม่ขัดข้อง
+ScotApp_1645,ตรวจสอบว่าฝาปิดธนบัตรปิดแน่นแล้ว
+ScotApp_1655,ยอดขายของแผนก
+ScotApp_1625,"ใส่เหรียญเพื่อเติมให้เต็มหรือแตะที่ปุ่ม ""เอาเหรียญออก"" เพื่อถ่ายออก"
+ScotApp_1635,ตรวจสอบสายเคเบิลที่เชื่อมต่อกับเครื่องนำธนบัตรกลับมาใช้ใหม่ แล้วลองใหม่   หากเกิดข้อผิดพลาดอีก ให้ขอรับบริการ\n\nSafePay ขัดข้อง: %s
+ScotApp_1460,ธนบัตร
+ScotApp_1615,แตะที่ปุ่ม เก็บเครื่องจ่าย เพื่อถ่ายออก
+ScotApp_1880,สินค้าที่ไม่ได้คาดคิดบน BagScale
+ScotApp_1685,เครื่องอ่านเหรียญทั่วไปขัดข้อง
+ScotApp_1695,แก้ไขภายหลัง
+ScotApp_652,**ไม่มีรายการ WLDB สำหรับ UPC นี้
+ScotApp_1064,1064unused
+ScotApp_1074,การอนุมัติเพื่อข้ามสายพาน
+ScotApp_1044,การชำระเงินที่มีความช่วยเหลือของผู้ดำเนินการ
+ScotApp_1054,1054unused
+ScotApp_1024,1024unused
+ScotApp_1034,1034unused
+ScotApp_1004,ตรวจสอบสินค้า
+ScotApp_1014,นำสินค้าที่สำรองไว้ออกจากสายพาน
+ScotApp_1084,การเก็บรวบรวม
+ScotApp_1094,พิมพ์ลายมือชื่อ
+ScotApp_594,โหลด NCR SelfServ Checkout SigCap แล้ว
+ScotApp_1371,เครื่องรับเงินสด
+ScotApp_433,433unused
+ScotApp_290,290unused
+ScotApp_1263,USERDEFINED5
+ScotApp_1273,USERDEFINED15
+ScotApp_1243,สะสมแต้ม
+ScotApp_1253,PIP สะสมแต้ม
+ScotApp_1223,เงินสด / กระดาษไม่เพียงพอ
+ScotApp_1233,การชำระเงินวิธีอื่น
+ScotApp_1203,เอกสารที่มีการสลักหลัง
+ScotApp_1213,ไม่รู้จัก
+ScotApp_1283,1283unused
+ScotApp_1293,ร
+ScotApp_1489,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_892,Smart Scale กำลังสิ้นสุด...
+ScotApp_351,สถานะเงินสด/เอกสาร
+ScotApp_1063,1063unused
+ScotApp_1073,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;DATANEEDEDTYPE=%d;
+ScotApp_1043,ใช้โหมดช่วยเหลือเพื่อยอมรับเช็คจากลูกค้า %s
+ScotApp_1053,รอแคชเชียร์นำสลิปใบเสร็จเพื่อลงชื่อ
+ScotApp_1023,1023unused
+ScotApp_1033,"ปิดใช้งานสินค้าหรือเอาป้ายแข็งที่ช่องจ่ายเงินออก แล้วแตะที่ปุ่ม ""ล้างการรักษาความปลอดภัย"""
+ScotApp_1003,จำกัดเวลา
+ScotApp_1013,สินค้าที่สำรองไว้
+ScotApp_97,เลือกบรรจุภัณฑ์จากรายการ
+ScotApp_1083,สินค้าที่นำออกจากส่วนนำสินค้าใส่ถุง\nคืนสินค้า
+ScotApp_1093,พิมพ์ใบเสร็จรับเงินล่าสุด
+ScotApp_783,783unused
+ScotApp_1341,ควบคุมเสียง
+ScotApp_1266,USERDEFINED8
+ScotApp_1276,USERDEFINED18
+ScotApp_1246,EBT
+ScotApp_1256,PIP EBT
+ScotApp_1226,สินค้าที่ถูกเรียกคืน
+ScotApp_1236,กำลังประมวลผลรายงาน...
+ScotApp_1206,สินค้าที่ยกเลิกการปิดใช้งาน
+ScotApp_1216,ความปลอดภัย
+ScotApp_432,EBT
+ScotApp_1286,ไทย
+ScotApp_1296,เติมที่บรรจุเหรียญทั้งหมดเพื่อให้มีระดับการบริการที่ดีที่สุด
+ScotApp_293,ขอความช่วยเหลือ
+ScotApp_920,อนุมัติ/ไม่อัพเดต
+ScotApp_1076,ความสนใจ
+ScotApp_1046,โปรดนำของคุณไปยังแคชเชียร์ที่จุดชำระเงิน %s
+ScotApp_1056,1056unused
+ScotApp_1026,ยกเลิกธุรกรรม
+ScotApp_1036,สินค้า EAS ที่ใช้งานอยู่
+ScotApp_1006,การชำระเงินอื่นๆ
+ScotApp_1016,สินค้าที่สำรองไว้บนสายพาน
+ScotApp_1086,"""เพิ่มน้ำหนักเป็นศูนย์"" ลบรายการน้ำหนักทั้งหมด"
+ScotApp_1096,กำลังรายงาน
+ScotApp_1649,(ddmmyyyy)
+ScotApp_655,สินค้ายกเว้น
+ScotApp_1269,USERDEFINED11
+ScotApp_1279,เช็ค
+ScotApp_1249,PIP ทั่วไป
+ScotApp_1259,USERDEFINED1
+ScotApp_1229,ขอความช่วยเหลือแล้ว
+ScotApp_1239,ไม่มี
+ScotApp_1209,เกินขีดจำกัดบัตรของขวัญ
+ScotApp_1219,จำกัดอายุ
+ScotApp_1289,ข - ค
+ScotApp_1299,เริ่มธุรกรรมและเข้าสู่โหมดช่วยเหลือ
+ScotApp_1666,เครืوองนำธนบัตรกإับมาใช้ใหม่ขัดข้อง
+ScotApp_1676,ประตูเครื่องนำเหรียญกลับมาใช้ใหม่เปิดอยู่
+ScotApp_1351,%s\n%s %s ที่ลบออก
+ScotApp_1656,"ใส่รหัสของ แผนกแล้วแตะที่ปุ่ม ""ป้อน"""
+ScotApp_1626,ใส่เงินสดเพื่อเติมหรือเลือกฟังก์ชั่นอื่น
+ScotApp_1636,เครื่องนำเหรียญกลับมาใช้ใหม่ขัดข้อง
+ScotApp_1606,กล่องปฏิเสธปกติ
+ScotApp_1616,ป้อนผลรวมโหลดของกล่องเครื่องจ่าย จำนวนสูงสุดที่คุณสามารถโหลดได้คือ %d
+ScotApp_80,80unused
+ScotApp_1435,เครื่องจ่ายเหรียญ/ธนบัตรขัดข้อง
+ScotApp_1686,ข้อผิดพลาดที่ไม่สามารถแก้ไขได้  โปรดปิดช่องจ่ายเงิน  ติดต่อ Gunnebo แล้วระบุข้อมูลข้อผิดพลาดที่ปรากฏด้านล่าง\n\nSafePay ขัดข้อง: %s
+ScotApp_109,ดำเนินการต่อ?
+ScotApp_1463,มูลค่าเงินทอน
+ScotApp_292,ไม่สามารถสแกนคูปอง
+ScotApp_1065,1065unused
+ScotApp_1075,จำกัด\ข้ามสายพาน
+ScotApp_1045,ชำระด้วย %s
+ScotApp_1055,1055unused
+ScotApp_1025,เอาสินค้าทั้งหมดออกจากสายพานแล้วปิดฝาปิดนิรภัย
+ScotApp_1035,สินค้า EAS ที่ใช้งานอยู่
+ScotApp_1005,การตรวจสอบด้วยตา
+ScotApp_1015,สินค้าที่สำรองไว้
+ScotApp_1085,เก็บคูปอง
+ScotApp_1095,"เลือกประเภทของรายงาน จากนั้นแตะที่ปุ่ม \n""เรียกใช้รายงาน"""
+ScotApp_1466,สถานะของเครื่องนำเงินสดกลับมาใช้ใหม่เต็ม
+ScotApp_1476,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1446,ถ่ายออก
+ScotApp_1456,หมายเลขและรหัสผ่านแคชเชียร์ไม่ถูกต้อง \nโปรดลองอีกครั้ง
+ScotApp_1426,%s\n%d ถูกต้อง?
+ScotApp_1436,"เกินค่าจำกัด ""ข้ามการนำใส่ถุง"""
+ScotApp_1406,ทำ TB/POS ให้ตรงกัน
+ScotApp_1416,ตรวจหาสินค้าหลายหีบห่อ
+ScotApp_1398,บริการ/อบรม
+ScotApp_1486,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1496,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1432,<<<ธนบัตรเหลือน้อย โปรดเติม>>>
+ScotApp_378,เครื่องพิมพ์ใบเสร็จ
+ScotApp_1661,"ไม่สามารถพิมพ์ใบเสร็จรับเงินได้ แตะที่ปุ่ม ""ใบเสร็จรับเงินอื่น"" เพื่อลองใหม่"
+ScotApp_1671,\n* เปิดเครื่องนำธนบัตรกลับมาใช้ใหม่แล้วเอาธนบัตรออกจากคาสเˠهต\n* ؛ิดเครื่องนำกลับมาใช้ใหม่\n* ȠوҠآเหรՠآญจากช่องเก็บแล้วเอาออกจากถ้วยเงินทอน
+ScotApp_1641,เติมช่องเก็บเหรียญแล้วดำเนินการต่อ  หากไม่จ่ายเหรียญ ช่องเก็บเหรียญอาจถูกล็อคอยู่  ติดต่อขอรับบริการ\n\nSafePay ขัดข้อง: %s
+ScotApp_1651,(yyyymmdd)
+ScotApp_1621,ปลดล็อคคาสเซ็ตธนบัตร
+ScotApp_1631,เครื่องตรวจสอบธนบัตรขัดข้อง
+ScotApp_1601,กล่องเครื่องจ่ายบัตรมีเนื้อที่น้อย
+ScotApp_1611,กล่องปฏิเสธเต็ม
+ScotApp_1681,เครื่องนำธนบัตรกลับมาใช้ใหม่ขัดข้อง
+ScotApp_1691,การจัดการเงินสด
+ScotApp_845,สแกนสินค้าเพิ่มเติม:
+ScotApp_196,กำลังโหลดบริการการนำเสนอ...
+ScotApp_1321,สิ้นสุดการชำระเงินด้วยเวาเชอร์  ยอดคงเหลือที่ค้าง
+ScotApp_1068,1068unused
+ScotApp_1078,เลือกการตั้งค่าสำหรับการคาดคะเนน้ำหนัก (ลูกค้าควรวางสินค้าบนสายพาน)
+ScotApp_1048,1048unused
+ScotApp_1058,การช่วยเหลือ การชำระเงิน
+ScotApp_1028,เกินค่าจำกัดของคูปอง
+ScotApp_1038,ตรวจสอบลายมือชื่อ
+ScotApp_1008,1008unused
+ScotApp_1018,อายุขั้นต่ำ
+ScotApp_1088,1088unused
+ScotApp_1098,* เปิดประตูตู้เครื่องพิมพ์\n* ตรวจสอบกระดาษที่ติดในพื้นที่ที่แสดงในภาพ\n* หากไม่มีกระดาษติด ให้ใส่กระดาษใหม่\n* ใบเสร็จรับเงินที่มีรูปหน้ายิ้มควรจะพิมพ์\n* ปิดแล้วล็อคประตูตู้เครื่องพิมพ์
+ScotApp_1060,โปรดรอ...
+ScotApp_1070,1070unused
+ScotApp_1040,ลายมือชื่อ
+ScotApp_1050,1050unused
+ScotApp_1020,สแกนสินค้า
+ScotApp_1030,ใส่คูปองของคุณ
+ScotApp_1000,ไม่พบ
+ScotApp_1010,1010unused
+ScotApp_814,814unused
+ScotApp_1080,วางสินค้าบนสายพาน
+ScotApp_1090,เรียกใช้รายงาน
+ScotApp_1827,\n - ภาษาที่ใช้อยู่ (%s)
+ScotApp_1267,USERDEFINED9
+ScotApp_1277,USERDEFINED19
+ScotApp_1247,FOODSTAMPS
+ScotApp_1257,PIP FOODSTAMPS
+ScotApp_1227,จำกัดเวลา
+ScotApp_1237,คูปอง
+ScotApp_1207,ลายมือชื่อที่ตรวจสอบแล้ว
+ScotApp_1217,ยกเลิก
+ScotApp_1297,หมดเวลารับเงินทอน
+ScotApp_1664,ธนบัตรติดอยู่
+ScotApp_1674,\n* กดปุ่มปฏิเสธเพื่อปล่อยเหรียญที่ติดอยู่\n* หากเกิดข้อผิดพลาดอีก อาจมีเหรียญติดอยู่\n* เปิดฝาปิดเหรียญแล้วนำออก\n* เอาเหรียญที่ติดอยู่ออก\n* กดปุ่มปฏิเสธเพื่อรีเซ็ต\n* ปล่อยแล้วปิดฝาปิดเหรียญ
+ScotApp_1644,ฝาปิดเครื่องนำธนบัตรกลับมาใช้ใหม่ปิดอยู่
+ScotApp_1654,ผลรวมเกินขีดความจุ ผลรวมโหลดสูงสุดที่ต้องการคือ %d ผลรวมของ %d ที่ถูกป้อนโดยอัตโนมัติ
+ScotApp_1624,ถ่ายโอนธนบัตรทั้งหมดไปยังคาสเซ็ต
+ScotApp_1634,มีปัญหากับสายเคเบิล
+ScotApp_899,อนุมัติการยกเลิกสำหรับ
+ScotApp_1614,กล่องบรรจุเครื่องจ่าย
+ScotApp_1684,เครื่องนำเหรียญกลับมาใช้ใหม่ขัดข้อง
+ScotApp_1694,"ใช้การทดแทนเนื่องจาก %s แตะที่ปุ่ม ""สถานะเงินสด/เอกสาร"" เพื่อเติมหรือนำสิ่งที่ติดอยู่ออก"
+ScotApp_844,844unused
+ScotApp_197,โหลดบริการการนำเสนอแล้ว
+ScotApp_1067,1067unused
+ScotApp_1077,นำสินค้ากลับไปยังสายพาน
+ScotApp_1047,ต้องมีการสลักหลัง โปรดรอความช่วยเหลือจากผู้ดำเนินการ
+ScotApp_1331,Shift
+ScotApp_1027,"แตะ ""ใช่"" เพื่อยกเลิกธุรกรรมหรือแตะ ""ไม่"" เพื่อทำธุรกรรมต่อ"
+ScotApp_1037,ลายมือชื่อ
+ScotApp_1007,ร้องขอความช่วยเหลือแล้ว
+ScotApp_1017,นำสินค้าที่สำรองไว้ออกจากสายพาน
+ScotApp_437,ยอดคงเหลือไม่พอ
+ScotApp_1087,ตอบรับบัตรแล้ว สแกนสินค้าและคูปองของคุณ
+ScotApp_1097,พิมพ์บันทึก / รายงาน
+ScotApp_1126,เครื่องจ่ายเหรียญล้มเหลว\n\nตรวจสอบสวิตช์เปิด/ปิดหากปรากฏขึ้นบนเครื่องจ่าย
+ScotApp_975,975unused
+ScotApp_87,87unused
+ScotApp_813,"พิมพ์ PO# / ชื่องานแล้วแตะที่ปุ่ม ""ป้อน"""
+ScotApp_493,ใบเสร็จรับเงินของคุณจะพิมพ์ออกมาด้านล่างเครื่องชำระเงิน
+ScotApp_526,\nPIN ที่ใส่ไม่ถูกต้อง\nรูดบัตรอื่น \n-หรือ-\nชำระด้วยเงินสด
+ScotApp_1837,"แตะ ""อนุมัติ"" เพื่อดำเนินธุรกรรมต่อ"
+ScotApp_650,สินค้าทั่วไป
+ScotApp_1667,ธนบัตรติดอยู่
+ScotApp_1677,ตรวจสอบว่าได้ปิดประตูเครื่องนำเหรียญกลับมาใช้ใหม่แล้ว
+ScotApp_1647,(mmddyyyy)
+ScotApp_1657,แผนกไม่ถูกต้อง
+ScotApp_1627,เครื่องนำเหรียญ/ธนบัตรกลับมาใช้ใหม่ขัดข้อง
+ScotApp_1637,มีปัญหากับสายเคเบิล
+ScotApp_1607,กล่องปฏิเสธปกติ (%s)
+ScotApp_1617,จำนวนที่ป้อนเกินความจุ ป้อนผลรวมโหลดของกล่องเครื่องจ่ายใหม่ ความจุสูงสุดคือ %d
+ScotApp_276,276unused
+ScotApp_1687,"ใช้หน้าจอ ""สถานะเงินสด/เอกสาร"" เพื่อโหลดเงินสด"
+ScotApp_1697,นำสิ่งที่ติดอยู่ออกแล้ว
+ScotApp_1741,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s exp;LSWND3=%s %s obv
+ScotApp_1488,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1812,เหรียญติดอยู่หรือกล่องใส่เหรียญเต็มหรือถูกถอดออก
+ScotApp_898,WTINFO กำลังสิ้นสุด...
+ScotApp_1785,การเข้าสู่ระบบไม่ถูกต้อง โปรดเข้าสู่ระบบอีกครั้งโดยใช้แผงปุ่มกดหรือลายนิ้วมือของคุณ
+ScotApp_843,843unused
+ScotApp_194,กำลังโหลด ตัวจัดการอุปกรณ์...
+ScotApp_1467,"ใช้หน้าจอ ""สถานะเงินสด/เอกสาร"" เพื่อถ่ายเงินสดออกมา"
+ScotApp_1477,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1447,เอาเงินสดออก
+ScotApp_1457,เงินตราสูง
+ScotApp_1427,เปลี่ยนปริมาณของสินค้า: \n%s
+ScotApp_599,กำลังรีเซ็ตอุปกรณ์แบบฟอร์ม...
+ScotApp_1407,รีบูต
+ScotApp_1301,แก้ไขใบหยิบสินค้า
+ScotApp_1487,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1497,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_436,ยืนยันจำนวน
+ScotApp_1136,กล่องปฏิเสธธนบัตรถูกถอดออกหรือใส่ไม่เข้าที่
+ScotApp_1662,ใบเสร็จรับเงินอื่น
+ScotApp_1672,เครื่องนำเหรียญกลับมาใช้ใหม่ขัดข้อง
+ScotApp_1642,เครื่องนำธนบัตรกลับมาใช้ใหม่ขัดข้อง
+ScotApp_1652,(yymmdd)
+ScotApp_1622,คาสเซ็ต
+ScotApp_1632,ถอดฝาปิดธนบัตรออก ตรวจสอบสายเคเบิลที่เชื่อมต่อกับเครื่องตรวจสอบธนบัตรแล้วลองใหม่  หากเกิดข้อผิดพลาดอีก ให้ขอรับบริการ\n\nSafePay ขัดข้อง: %s
+ScotApp_1602,กล่องเครื่องจ่ายบัตรมีเนื้อที่น้อย (%s)
+ScotApp_1612,การจัดการบัตร
+ScotApp_1682,เครื่องอ่านธนบัตรทั่วไปขัดข้อง
+ScotApp_1692,ล็อกอินของหัวหน้างาน
+ScotApp_653,"ป้อนมูลค่าของคูปองเป็นเซนต์ แล้วแตะ ""ป้อน"""
+ScotApp_1786,ค่าถุงพลาสติก
+ScotApp_1069,1069unused
+ScotApp_1079,วางสินค้าที่สแกนแล้วบนสายพานอีกครั้ง
+ScotApp_1049,1049unused
+ScotApp_1059,1059unused
+ScotApp_1029,ใส่คูปอง
+ScotApp_1039,สินค้าก่อนหน้านี้มีป้าย EAS
+ScotApp_1009,โหมดร้านค้า
+ScotApp_1019,วางบนสายพาน
+ScotApp_1089,ระยะเวลาสิ้นสุดรายงาน
+ScotApp_1099,ข้อผิดพลาดของอุปกรณ์ที่ไม่รู้จัก
+ScotApp_1462,กล่อง
+ScotApp_1472,อุปกรณ์ของเครื่องนำเงินสดกลับมาใช้ใหม่ไม่พร้อมใช้งาน
+ScotApp_1442,"ใส่เงินสดเพื่อเติมให้เต็มหรือแตะที่ปุ่ม ""เอาเงินสดออก"" เพื่อถ่ายออก"
+ScotApp_1452,"ป้อน ID แล้วแตะที่ปุ่ม ""ป้อน"""
+ScotApp_1422,เครื่องสแกนแบบมือถือ
+ScotApp_897,โหลด WTINFO แล้ว
+ScotApp_1402,ปลั๊กสายจั๊มพ์ของกล่องปฏิเสธธนบัตรปิดอยู่
+ScotApp_1412,ฟังก์ชั่นช่วยเหลือ
+ScotApp_1482,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1492,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_148,148unused
+ScotApp_7,7unused
+ScotApp_6,6unused
+ScotApp_5,5unused
+ScotApp_4,4unused
+ScotApp_3,3unused
+ScotApp_2,กก.
+ScotApp_1,ปอนด์
+ScotApp_1311,* ถอดเครื่องรับธนบัตรออก\n* เปิดโมดูลเครื่องรับ\n* ตรวจสอบการติดขัด จากนั้นเปลี่ยนโมดูล\n* ตรวจสอบว่ามอเตอร์ของเครื่องรับธนบัตรเปิดใช้งานและไฟ LED เป็นสีเขียว
+ScotApp_1761,กล่องคูปองอาจเต็มหรือช่องคูปองถูกบล็อค เอาสินค้าที่บล็อคช่องคูปองออก จากนั้นเทกล่องคูปอง
+ScotApp_9,9unused
+ScotApp_8,8unused
+ScotApp_1106,%s\t%s\tปริมาณ %s @ %s/แต่ละ\t%s
+ScotApp_811,โปรดสแกนบัตรของขวัญของคุณ โปรดตรวจสอบสินค้าเพิ่มเติมในตะกร้าของคุณ
+ScotApp_1870,คาดหวัง %s %s
+ScotApp_138,รับบัตร
+ScotApp_1349,%s\n %s\n%s %s ที่คาดไว้ \n%s %s ที่สังเกต
+ScotApp_300,300unused
+ScotApp_1108,%s\t%s\t%s @ %s %s/%s\t%s
+ScotApp_1575,สถานะเครื่องจ่ายเหรียญ :
+ScotApp_896,WTINFO กำลังโหลดตัวเลือก...
+ScotApp_1878,น้ำหนักบน BagScale ไม่ถูกต้อง
+ScotApp_841,รายการสินค้า
+ScotApp_192,192unused
+ScotApp_1670,เครื่องนำเหรียญ/ธนบัตรกลับมาใช้ใหม่ขัดข้อง
+ScotApp_1640,ช่องเก็บเหรียญขัดข้อง
+ScotApp_1650,(ddmmyy)
+ScotApp_1620,ปลดล็อคฝาปิดธนบัตร
+ScotApp_1630,เครื่องนำธนบัตรกลับมาใช้ใหม่ขัดข้อง
+ScotApp_1600,สถานะเครื่องจ่ายบัตร :
+ScotApp_1610,กล่องปฏิเสธเกือบเต็ม (%s)
+ScotApp_1604,กล่องเครื่องจ่ายบัตรปกติ (%s)
+ScotApp_1680,ข้อผิดพลาดที่ไม่สามารถแก้ไขได้  โปรดปิดช่องจ่ายเงิน  ติดต่อ Gunnebo แล้วระบุข้อมูลข้อผิดพลาดที่ปรากฏด้านล่าง\n\nSafePay ขัดข้อง: %s
+ScotApp_1690,โปรดติดต่อขอรับบริการ
+ScotApp_1116,* เครื่องจ่ายธนบัตรจะไม่ทำงานหากไม่พบกล่องปฏิเสธธนบัตรและไม่ยึดเข้าที่\n\n* ใส่กล่องปฏิเสธธนบัตรแล้วตรวจสอบว่ายึดให้เข้าที่แล้ว
+ScotApp_1721,ธุรกรรมในโหมดการฝึกอบรม
+ScotApp_970,970unused
+ScotApp_299,299unused
+ScotApp_794,คาสเซ็ตเครื่องจ่ายธนบัตรติดขัด \nนำธนบัตรที่ติดค้างออกจากเครื่องจ่าย
+ScotApp_792,792unused
+ScotApp_534,สินค้าที่จำกัดเวลา
+ScotApp_139,รับใบเสร็จรับเงิน
+ScotApp_1444,ลบ
+ScotApp_1454,"ป้อนรหัสผ่าน แล้วแตะ ""ป้อน"""
+ScotApp_1424,"เมื่อต้องการเชื่อมต่อกับเครื่องสแกนแบบมือถือของคุณ ให้แตะที่ปุ่ม ""เชื่อมต่อ"""
+ScotApp_1434,จำกัดอายุ
+ScotApp_1404,เซิร์ฟเวอร์ POS ขัดข้องหรือไม่ซิงค์ โปรดปิดการทำงานเครื่องโดยใช้สวิตช์
+ScotApp_1414,ช่องจ่ายเงินนี้ไม่สามารถใช้งานได้จนกว่าไฟฟ้าจะกลับคืนมา
+ScotApp_1484,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1494,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_364,364unused
+ScotApp_577,เริ่มต้นการชำระด้วยเงินสด
+ScotApp_497,จำนวนที่ค้างชำระ:
+ScotApp_1663,กล่องว่างหรือติดขัด
+ScotApp_1673,เหรียญติด
+ScotApp_1643,เครื่องนำธนบัตรกลับมาใช้ใหม่ขัดข้อง
+ScotApp_1653,จำนวนเกินขีดความจุ จำนวนสูงสุดที่ต้องการคือ %s จำนวนที่ถูกป้อนโดยอัตโนมัติ %s
+ScotApp_1623,ถ่ายโอนธนบัตรไปยังคาสเซ็ตเพื่อเก็บ
+ScotApp_895,DBM กำลังสิ้นสุด...
+ScotApp_1613,กล่องปฏิเสธ
+ScotApp_1683,ข้อผิดพลาดที่ไม่สามารถแก้ไขได้  โปรดปิดช่องจ่ายเงิน  ติดต่อ Gunnebo แล้วระบุข้อมูลข้อผิดพลาดที่ปรากฏด้านล่าง\n\nSafePay ขัดข้อง: %s
+ScotApp_1693,การทดแทนเหรียญ
+ScotApp_840,รายการสินค้า:
+ScotApp_1708,"กดปุ่มคืนเหรียญหลายๆ ครั้งเพื่อนำเหรียญที่ติดอยู่ออก จากนั้นแตะที่ปุ่ม ""ฉันแก้ไขปัญหาแล้ว""\n\nหากเกิดข้อผิดพลาดอีก ให้ขอรับบริการ"
+ScotApp_720,720unused
+ScotApp_721,721unused
+ScotApp_722,722unused
+ScotApp_723,723unused
+ScotApp_724,724unused
+ScotApp_725,725unused
+ScotApp_726,726unused
+ScotApp_727,727unused
+ScotApp_728,728unused
+ScotApp_729,729unused
+ScotApp_1473,อุปกรณ์ไม่พร้อมใช้งาน \n\nเปิดสวิตช์ ตรวจสอบสายเคเบิลติดต่อสื่อสาร หรือใส่อุปกรณ์กลับเข้าตู้
+ScotApp_1443,"ใส่เหรียญเพื่อเติมให้เต็มหรือแตะที่ปุ่ม ""เอาเงินสดออก"" เพื่อถ่ายออก"
+ScotApp_1453,รหัสผ่านของแคชเชียร์
+ScotApp_1423,เครื่องสแกนแบบมือถือกำลังพยายามเชื่อมต่อ
+ScotApp_1433,บนเครื่องชั่งถุง
+ScotApp_1403,หยุดแล้วเริ่มโปรแกรม NCR SelfServ Checkout ใหม่ หากยังพบข้อผิดพลาดอยู่ ให้ติดต่อฝ่ายให้ความช่วยเหลือ
+ScotApp_954,การเปิด Smart Scale ล้มเหลว
+ScotApp_1483,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1493,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1840,ร้านค้า #:
+ScotApp_255,255unused
+ScotApp_367,367unused
+ScotApp_270,อนุมัติคูปอง
+ScotApp_1882,การแจ้งเตือน Smart Assist - ไม่ได้สแกนสินค้า
+ScotApp_522,PIN ไม่ถูกต้อง
+ScotApp_523,บัตรถูกปฏิเสธ
+ScotApp_520,รหัสสินค้าที่ไม่รู้จัก
+ScotApp_521,จำนวนเงินที่ได้รับคืน:
+ScotApp_894,โหลด DBM แล้ว
+ScotApp_527,527unused
+ScotApp_528,528unused
+ScotApp_710,710unused
+ScotApp_711,711unused
+ScotApp_712,712unused
+ScotApp_713,713unused
+ScotApp_714,714unused
+ScotApp_715,715unused
+ScotApp_716,716unused
+ScotApp_717,717unused
+ScotApp_190,กำลังโหลดนายหน้าธุรกรรม...
+ScotApp_719,719unused
+ScotApp_621,ค่าเริ่มต้น
+ScotApp_623,"ใส่น้ำหนักที่รับได้โดยใช้แผงปุ่มกดแล้ว แตะที่ปุ่ม ""ป้อน"""
+ScotApp_622,แก้ไขน้ำหนักที่รับได้สำหรับ UPC
+ScotApp_625,ใส่น้ำหนักที่รับได้ระหว่าง <%s> กับ <%s>
+ScotApp_624,น้ำหนักที่รับได้ที่ใส่ไม่ถูกต้อง
+ScotApp_627,ธุรกรรม #:
+ScotApp_626,น้ำหนักที่รับได้:
+ScotApp_629,ค่าบริการทั้งหมด:
+ScotApp_628,ช่องจ่ายเงิน #: %d
+ScotApp_1413,โปรดทำธุรกรรมของคุณให้เสร็จภายในอีก # นาที  อาจมีการตัดไฟฟ้าเร็วๆ นี้
+ScotApp_1669,เครื่องนำเหรียญ/ธนบัตรกลับมาใช้ใหม่ขัดข้อง
+ScotApp_1679,ที่เก็บธนบัตรขัดข้อง
+ScotApp_955,การเปิดใช้งาน Smart Scale ล้มเหลว
+ScotApp_1659,พิมพ์ใบเสร็จรับเงิน
+ScotApp_1629,เกิดปัญหากับการตั้งค่า CPU หรือพารามิเตอร์ Sysdata  โปรดติดต่อขอรับบริการ\n\nSafePay ขัดข้อง: %s
+ScotApp_1639,เครื่องนำเหรียญกลับมาใช้ใหม่ขัดข้อง
+ScotApp_1609,กล่องปฏิเสธเกือบเต็ม
+ScotApp_1619,ระงับ
+ScotApp_277,277unused
+ScotApp_324,ไม่ต้องใส่วันที่
+ScotApp_325,วันที่ที่ป้อนไม่ใช่วันที่ที่ถูกต้อง
+ScotApp_326,วันเกิดไม่ตรงตามข้อจำกัดด้านอายุสำหรับสินค้าที่จำกัด
+ScotApp_327,อุปกรณ์มีข้อผิดพลาด:
+ScotApp_320,กลับไป
+ScotApp_321,การตรวจสอบธุรกรรม
+ScotApp_322,322unused
+ScotApp_323,ปริมาณ %d @ %d/%s
+ScotApp_657,นำเงินคืน/ส่วนลดไปไว้ข้างๆ จนกว่าจะสิ้นสุดการซื้อ
+ScotApp_328,"ไม่สามารถจ่าย %s ให้ลูกค้า \n* ตรวจสอบเครื่องจ่ายเหรียญและธนบัตร\n* หากว่าง โปรดเติม\n* หากไม่ว่าง นำสิ่งที่ติดอยู่ออก\n* แตะ ""ฉันแก้ไขปัญหาแล้ว"""
+ScotApp_329,%ss @ %d %s/%s
+ScotApp_512,การตรวจสอบด้วยตา
+ScotApp_513,513unused
+ScotApp_510,ลงชื่ออีกครั้ง
+ScotApp_511,เปรียบเทียบลายมือชื่อของลูกค้ากับลายมือชื่อบนบัตร
+ScotApp_516,การชำระเงินวิธีอื่น
+ScotApp_517,การชำระเงินวิธีอื่นที่ร้องขอ
+ScotApp_514,514unused
+ScotApp_515,515unused
+ScotApp_518,ใส่เงินสด
+ScotApp_519,คูปองสูงเกินไป
+ScotApp_423,ใส่บัตร โปรดตรวจสอบสินค้าเพิ่มเติมในตะกร้า
+ScotApp_422,422unused
+ScotApp_421,"สแกนสินค้าของคุณ หรือแตะที่ปุ่ม ""เริ่ม"" เพื่อเริ่มต้น"
+ScotApp_420,420unused
+ScotApp_427,เงินหรือสลิปต่ำ
+ScotApp_426,ช่องจ่ายเงิน ##:
+ScotApp_425,425unused
+ScotApp_424,ป้อนจำนวน
+ScotApp_337,"สแกนสินค้าของคุณหรือใส่รหัสแล้วแตะที่ปุ่ม ""OK"""
+ScotApp_429,แดง
+ScotApp_428,เหลือง
+ScotApp_611,เลือกฟังก์ชั่นที่ต้องการ
+ScotApp_610,น้ำหนักสินค้า:
+ScotApp_613,วางสินค้าบนเครื่องชั่งถุง
+ScotApp_612,เพิ่มน้ำหนัก
+ScotApp_615,เลือกการตั้งค่าข้อกำหนดการนำใส่ถุง (ลูกค้าต้องนำสินค้าใส่ถุง)
+ScotApp_614,ข้อกำหนดการนำใส่ถุง
+ScotApp_617,เลือกการตั้งค่าการเปรียบเทียบน้ำหนัก (เปรียบเทียบน้ำหนักของสินค้ากับรายการที่มีอยู่)
+ScotApp_616,การเปรียบเทียบน้ำหนัก
+ScotApp_619,เลือก <ใส่น้ำหนักที่รับได้> หรือ <ค่าเริ่มต้น> เพื่อแก้ไขน้ำหนักที่รับได้ปัจจุบัน
+ScotApp_618,น้ำหนักที่รับได้
+ScotApp_1475,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1445,ผลรวมเงินทอน
+ScotApp_1455,หมายเลขไม่ถูกต้อง
+ScotApp_1425,เชื่อมต่อ
+ScotApp_191,โหลดนายหน้าธุรกรรมแล้ว
+ScotApp_1405,POS ไม่ซิงค์ โปรดไปที่โหมดช่วยเหลือเพื่อซิงโครไนซ์ใหม่
+ScotApp_1415,1415unused
+ScotApp_126,(ddmmyy)
+ScotApp_127,127unused
+ScotApp_124,124unused
+ScotApp_122,122unused
+ScotApp_123,123unused
+ScotApp_120,ยกเลิกธุรกรรมแล้ว
+ScotApp_687,พิมพ์รายงาน
+ScotApp_128,128unused
+ScotApp_129,ตรวจสอบว่าสินค้าที่ยกเลิกได้ถูกแยกออกแล้ว
+ScotApp_316,316unused
+ScotApp_317,317unused
+ScotApp_310,กล่องมีพื้นที่น้อย
+ScotApp_311,กล่องว่าง
+ScotApp_312,กล่องติด
+ScotApp_313,313unused
+ScotApp_318,318unused
+ScotApp_319,จ่ายด้วยบัตร
+ScotApp_952,เพิ่มน้ำหนักเป็นศูนย์
+ScotApp_225,ใส่กล่องยึดบัตรของเครื่องอ่านบัตรแล้ว
+ScotApp_224,ถอดกล่องยึดบัตรของเครื่องอ่านบัตรออกแล้ว
+ScotApp_227,เครื่องอ่านบัตร ใส่การ์ดไม่ถูกต้อง
+ScotApp_226,ไม่สามารถใช้งานเครื่องอ่านบัตร
+ScotApp_221,ปิดแล้วล็อคประตูตู้เครื่องพิมพ์
+ScotApp_220,* เปิดประตูตู้เครื่องพิมพ์\n* เปิดฝาเครื่องพิมพ์เพื่อตรวจสอบว่ามีกระดาษติดหรือไม่\n* ใส่กระดาษม้วนใหม่ลงในเครื่องพิมพ์\n* ปิดแล้วล็อคประตูตู้เครื่องพิมพ์
+ScotApp_223,กล่องยึดบัตรของเครื่องอ่านบัตรเต็มแล้ว
+ScotApp_222,"ลำดับการร้องขอของเครื่องพิมพ์: ตรวจสอบข้อผิดพลาดของเครื่องพิมพ์หรือตัวแสดงเหตุการณ์ แล้วแตะ ""ฉันแก้ไขปัญหาแล้ว"""
+ScotApp_229,229unused
+ScotApp_228,ปิดชัตเตอร์ที่ติดของเครื่องอ่านบัตร
+ScotApp_411,หยิบบัตรลอยัลตี้การ์ด
+ScotApp_417,โหลด Hard Totals แล้ว
+ScotApp_416,Hard Totals กำลังโหลดตัวเลือก...
+ScotApp_419,419unused
+ScotApp_418,Hard Totals กำลังสิ้นสุด...
+ScotApp_730,730unused
+ScotApp_731,สรุป
+ScotApp_732,732unused
+ScotApp_734,734unused
+ScotApp_735,735unused
+ScotApp_736,736unused
+ScotApp_737,737unused
+ScotApp_738,738unused
+ScotApp_739,739unused
+ScotApp_1470,อุปกรณ์ของเครื่องนำธนบัตรกลับมาใช้ใหม่ขัดข้อง
+ScotApp_1440,การจัดการธนบัตร
+ScotApp_1450,ล็อคกล่อง
+ScotApp_1420,ยกเลิกสินค้า\n%s?
+ScotApp_1430,ยกเลิกสินค้า
+ScotApp_1410,เปลี่ยนราคา
+ScotApp_116,ยกเลิกสินค้าทั้งหมด
+ScotApp_117,แยกสินค้าออก
+ScotApp_114,ไม่สามารถยกเลิกสินค้า
+ScotApp_115,ยืนยันการยกเลิก
+ScotApp_112,ยืนยันปริมาณ
+ScotApp_113,ยกเลิกสินค้า
+ScotApp_110,ชั่งน้ำหนักสินค้า
+ScotApp_111,รีเซ็ตเครื่องชั่ง
+ScotApp_118,ต้องมีการอนุมัติ
+ScotApp_119,ยกเลิกสินค้าทั้งหมด
+ScotApp_908,ความปลอดภัย
+ScotApp_215,เดบิตออมทรัพย์
+ScotApp_214,เดบิตกระแสรายวัน
+ScotApp_217,217unused
+ScotApp_216,* เปิดประตูตู้เครื่องพิมพ์\n* เปิดฝาเครื่องพิมพ์เพื่อตรวจสอบว่ามีกระดาษติดหรือไม่\n* ปิดฝาเครื่องพิมพ์แล้วใส่กระดาษใหม่\n* ใบเสร็จรับเงินที่มีรูปหน้ายิ้มควรจะพิมพ์\n* ปิดแล้วล็อคประตูตู้เครื่องพิมพ์
+ScotApp_210,210unused
+ScotApp_213,213unused
+ScotApp_212,212unused
+ScotApp_1731,กำลังโหลดภาพ PickList...
+ScotApp_219,219unused
+ScotApp_218,เครื่องพิมพ์ใกล้ว่างแล้ว
+ScotApp_532,สินค้าที่จำกัด
+ScotApp_531,\nอุปกรณ์จับภาพลายมือชื่อล้มเหลว
+ScotApp_536,เครื่องรับเหรียญ
+ScotApp_537,537unused
+ScotApp_953,"ปิดแล้วเริ่มเครื่องใหม่:\n\n* หมุนตัวล็อคกุญแจของหัวหน้างานไปที่ 'S' หรือกดปุ่มหัวหน้างาน\n* เลือก ""ปิดการทำงานทั้งระบบ""\n* เมื่อหน้าจอว่าง ให้ปิดเครื่องที่ UPS หรือแถบสวิตช์\n* เปิดเครื่อง หากเกิดข้อผิดพลาดอีก ให้ขอรับบริการ"
+ScotApp_535,เวลาที่เรียกคืน
+ScotApp_538,538unused
+ScotApp_539,539unused
+ScotApp_271,อนุมัติคูปองที่ใช้
+ScotApp_1363,แสดงเป็นแถว
+ScotApp_760,รูดบัตรของคุณที่ด้านข้างของหน้าจอนี้
+ScotApp_761,761unused
+ScotApp_762,762unused
+ScotApp_763,763unused
+ScotApp_764,764unused
+ScotApp_765,765unused
+ScotApp_767,ระดับเงินหรือสลิปปกติ
+ScotApp_768,ระงับการยืนยัน
+ScotApp_769,ยืนยันหรือยกเลิกการระงับ
+ScotApp_659,สถานะเงินตราต่ำ:
+ScotApp_631,ชื่อเจ้าของ:
+ScotApp_630,บัตรเครดิต #:
+ScotApp_633,ลายมือชื่อ:
+ScotApp_632,632unused
+ScotApp_635,ใส่วันเกิด
+ScotApp_634,634unused
+ScotApp_637,ความปลอดภัยออฟไลน์อยู่ การดำเนินการล่าสุดถูกยกเลิก
+ScotApp_360,ปิดช่องจ่ายเงิน
+ScotApp_639,นน.ที่คาดไว้  การเปรียบเทียบนน
+ScotApp_638,ข้อมูล WLDB ที่รับได้ที่มีผล
+ScotApp_1868,นำมือของคุณออกจากมุมมองกล้องของเครื่องสแกน
+ScotApp_492,โปรดรับเงินทอนของคุณ
+ScotApp_1848,"ลบสินค้าแล้ว สแกนสินค้าถัดไปหรือแตะ ""ป้อนรหัส"""
+ScotApp_1858,มีข้อผิดพลาดความไม่ตรงกันในเครื่องนำกลับมาใช้ใหม่
+ScotApp_1828,\n - ระดับเสียง %d%%
+ScotApp_1838,ตรวจสอบสินค้า
+ScotApp_1808,เลือกสินค้าบนใบเสร็จรับเงิน
+ScotApp_1818,* ปลดล็อคแล้วดึงถาดบรรจุช่องใส่เหรียญออกเพื่อนำสิ่งที่ติดอยู่ออก (I)\n* ใส่เหรียญที่ติดอยู่กลับเข้าไปในกล่องเก็บช่องใส่เหรียญที่เหมาะสม จากนั้นใส่กลับเข้าที่ แล้วล็อคถาดบรรจุช่องใส่เหรียญ\n* ดึงเครื่องนำเหรียญกลับมาใช้ใหม่ออก ปลดล็อคแล้วถอดฝาออก\n* ถอดสายเคเบิลที่แสดงในภาพออก (II)\n* ถอดแถบสีแดงที่ด้านขวาของเครื่องรับออก จากนั้นดึงไปข้างหน้าแล้วหมุนเพื่อนำสิ่งที่ติดอยู่ออกจากพื้นที่ที่แสดงในภาพ (III)\n* ใส่เครื่องรับใหม่แล้วต่อสายเคเบิลใหม่\n* เปลี่ยนและล็อคฝาปิด หากเกิดข้อผิดพลาดอีก ให้ขอรับบริการ
+ScotApp_1314,* เปิดฝาเครื่องพิมพ์แล้วกำจัดเศษกระดาษออก\n* ปิดฝา\n* ใส่ม้วนกระดาษใหม่\n* ใส่กระดาษจากด้านบนของม้วนลงในเครื่องพิมพ์
+ScotApp_1888,"ตรวจสอบธุรกรรมของลูกค้าเพื่อความปลอดภัย และแตะ ""ล้างการรักษาความปลอดภัย"""
+ScotApp_891,โหลด Smart Scale แล้ว
+ScotApp_334,ข้อผิดพลาดไม่มีบัตรในเครื่องอ่านบัตร
+ScotApp_335,เครื่องอ่านบัตรอาจถูกลูกค้างัดแงะ
+ScotApp_336,ค้นหาสินค้า
+ScotApp_1109,%s\t%s\t%s @ %s/%s\t%s
+ScotApp_330,โหมดช่วยเหลือ
+ScotApp_331,เอาสินค้าออกจากเครื่องชั่งถุง แป้นพิมพ์ถูกปิดใช้งาน
+ScotApp_332,กำลังออกจากโหมดช่วยเหลือ
+ScotApp_333,ข้อผิดพลาดการติดของชัตเตอร์เครื่องอ่านบัตร
+ScotApp_718,718unused
+ScotApp_338,พิมพ์ตัวอักษรสามตัวแรกของรายละเอียดของสินค้า
+ScotApp_339,339unused
+ScotApp_562,สามารถขายคูปองในโหมดช่วยเหลือ
+ScotApp_561,แยกคูปองออก
+ScotApp_566,566unused
+ScotApp_567,ป้อน
+ScotApp_564,564unused
+ScotApp_565,เข้าสู่ระบบร้านค้า
+ScotApp_568,ล้าง
+ScotApp_569,ใส่รหัส
+ScotApp_750,ยอดสรุปของวันนี้
+ScotApp_751,วันนี้รายชั่วโมง
+ScotApp_752,ยอดสรุปของเมื่อวานนี้
+ScotApp_753,เมื่อวานนี้รายชั่วโมง
+ScotApp_754,ยอดสรุปของ 7 วันก่อน
+ScotApp_755,กำลังประมวลผล...
+ScotApp_756,756unused
+ScotApp_757,757unused
+ScotApp_758,758unused
+ScotApp_759,รูดบัตรของคุณบนเครื่องชำระเงิน
+ScotApp_434,ประเภทสิทธิประโยชน์
+ScotApp_439,439unused
+ScotApp_950,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s ที่เพิ่ม;LSWND3=%s;
+ScotApp_661,ค่าเริ่มต้น
+ScotApp_660,ระดับเงินตราทั้งหมดปกติ
+ScotApp_663,การป้อน PIN ล้มเหลว
+ScotApp_662,%
+ScotApp_665,"เลือก ""ยกเลิกทั้งหมด"" หรือ ""กลับไป"" เพื่อดำเนินการต่อ"
+ScotApp_664,สแกนสินค้าของคุณหรือเลือกภาษา
+ScotApp_667,รูดบัตรแล้ว สแกนสินค้าและคูปองของคุณ
+ScotApp_666,666unused
+ScotApp_669,การพิมพ์ลายมือชื่อล้มเหลว เกิดข้อผิดพลาดขึ้น
+ScotApp_668,การพิมพ์ลายมือชื่อสำเร็จแล้ว
+ScotApp_793,793unused
+ScotApp_1820,"นำสินค้าออกจากเครื่องชั่ง แล้วกดปุ่ม "">0<"" บนเครื่องสแกน"
+ScotApp_1170,* เปิดประตูตู้เครื่องพิมพ์\n* เปิดฝาเครื่องพิมพ์เพื่อตรวจสอบว่ามีกระดาษติดหรือไม่\n* ปิดฝาเครื่องพิมพ์แล้วใส่กระดาษใหม่\n* ปิดแล้วล็อคประตูตู้เครื่องพิมพ์
+ScotApp_658,อัตราเงินตราต่ำ
+ScotApp_254,ไม่สามารถใช้งานเครื่องจ่ายเหรียญได้\nเติมเครื่องจ่ายเหรียญหรือเปิดสวิตช์ \nหรือนำสิ่งที่ติดอยู่ใ\nนเครื่องจ่ายออก
+ScotApp_136,ใส่เงินสด
+ScotApp_137,รับเงินทอน
+ScotApp_135,135unused
+ScotApp_132,132unused
+ScotApp_1306,%s ให้เงินทอนแล้ว
+ScotApp_130,โปรดใส่คูปองของคุณ
+ScotApp_131,ใส่คูปอง
+ScotApp_904,การอนุมัติน้ำหนักสินค้า
+ScotApp_928,ไปที่ช่องจ่ายเงินแล้วตรวจสอบอุปกรณ์
+ScotApp_929,WLDB ไม่สื่อสารอย่างถูกต้อง
+ScotApp_926,สินค้ายังไม่ส่งคืนส่วนนำสินค้าใส่ถุง
+ScotApp_361,ช่องจ่ายเงินปิดอยู่
+ScotApp_924,924unused
+ScotApp_365,หัวเครื่องพิมพ์ติดขัด
+ScotApp_366,ใบมีดเครื่องพิมพ์ติดขัด
+ScotApp_923,923unused
+ScotApp_921,น้ำหนักบนเครื่องชั่งแบบนิรภัยที่คาดไว้
+ScotApp_362,ป้อนรหัสผ่าน
+ScotApp_363,\nใช้แผงปุ่มกดเพื่อป้อนรหัสผ่านของผู้ดำเนินการ
+ScotApp_1469,"ไม่สามารถจ่าย %s ให้ลูกค้า %s\n* ตรวจสอบเครื่องจ่ายเหรียญและธนบัตร\n* แตะที่ปุ่ม ""สถานะเงินสด/เอกสาร"" เพื่อเติมหรือนำสิ่งที่ติดอยู่ออก"
+ScotApp_368,กระดาษติดในเครื่องพิมพ์เพราะใส่ไม่ถูกต้อง
+ScotApp_369,การสื่อสารของเครื่องพิมพ์ขัดข้อง
+ScotApp_552,ผู้ดำเนินการและรหัสผ่านไม่สามารถมีศูนย์นำได้
+ScotApp_550,550unused
+ScotApp_551,551unused
+ScotApp_890,Smart Scale กำลังโหลดตัวเลือก...
+ScotApp_234,* ถอดคาสเซ็ตธนบัตรออก\n\n* เอาธนบัตรออกจากคาสเซ็ต\n\n* ใส่คาสเซ็ตใหม่จนกว่าจะยึดเข้าที่\n\n* ดึงด้ามคาสเซ็ตเพื่อตรวจสอบว่าสลักยึดคาสเซ็ตเข้าที่แล้ว
+ScotApp_237,* ใส่คาสเซ็ตใหม่จนกว่าจะยึดเข้าที่\n\n* ดึงด้ามคาสเซ็ตเพื่อตรวจสอบว่าสลักยึดคาสเซ็ตเข้าที่แล้ว
+ScotApp_236,236unused
+ScotApp_231,231unused
+ScotApp_230,สถานะเครื่องรับเงินสดถูกปฏิเสธ
+ScotApp_233,* ตรวจสอบว่าได้ติดตั้งเครื่องรับธนบัตรอย่างถูกต้อง\n\n* ดึงด้ามไปข้างหน้าเพื่อปล่อยแล้วเลื่อนเครื่องรับธนบัตรไปข้างหน้า\n\n* ดันเครื่องรับธนบัตรกลับไปจนสุด
+ScotApp_232,* ถอดเครื่องรับและคาสเซ็ตธนบัตรออก\n* ตรวจสอบธนบัตรที่ติดอยู่ในคาสเซ็ต\n* เปิดประตูที่ด้านบนของเครื่องรับแล้วตรวจสอบธนบัตรที่ติดอยู่\n* ปิดประตูให้แน่น\n* เปลี่ยนเครื่องรับและคาสเซ็ต
+ScotApp_314,กล่องขัดข้อง
+ScotApp_239,สถานะที่ไม่คาดคิดของ ตัวจัดการอุปกรณ์
+ScotApp_238,\nเครื่องรับเงินสดไม่สามารถบันทึกเงินสดที่ใส่ได้\n\nตรวจสอบคาสเซ็ตธนบัตร
+ScotApp_463,Remote Approval กำลังสิ้นสุด...
+ScotApp_462,โหลด Remote Approval แล้ว
+ScotApp_461,Remote Approval กำลังโหลดตัวเลือก...
+ScotApp_460,ทำให้การซื้อของคุณเสร็จสมบูรณ์
+ScotApp_467,467unused
+ScotApp_466,สแกนสินค้าที่ไม่รู้จักแล้ว
+ScotApp_465,%s               %s
+ScotApp_464,%s               %s
+ScotApp_496,ขีดจำกัดปริมาณ
+ScotApp_1429,<<<เหรียญเหลือน้อย โปรดเติม>>>
+ScotApp_469,469unused
+ScotApp_468,ถูกเรียกคืน
+ScotApp_1419,หลายหีบห่อ
+ScotApp_651,ค่าเริ่มต้น
+ScotApp_701,701unused
+ScotApp_702,702unused
+ScotApp_704,รายการ PINPad
+ScotApp_707,7 วันก่อน
+ScotApp_708,708unused
+ScotApp_709,709unused
+ScotApp_1471,อุปกรณ์ของเครื่องนำเหรียญกลับมาใช้ใหม่ขัดข้อง
+ScotApp_1441,การจัดการเหรียญ
+ScotApp_1451,ID แคชเชียร์
+ScotApp_1421,โหมดช่วยเหลือ
+ScotApp_1431,ยกเลิกทั้งหมด
+ScotApp_1411,เปลี่ยนปริมาณ
+ScotApp_162,สแกนสินค้าและคูปองของคุณ
+ScotApp_163,163unused
+ScotApp_1485,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_918,ไม่มีบันทึกน้ำหนักสินค้า
+ScotApp_919,"ตรวจสอบน้ำหนักสินค้าแล้วแตะที่ปุ่ม ""อนุมัติและอัพเดตน้ำหนัก"" หรือแตะที่ปุ่ม ""อนุมัติ/ไม่อัพเดต"""
+ScotApp_916,"ตรวจสอบสินค้าที่ช่องจ่ายเงินแล้วแตะ ""ล้างการรักษาความปลอดภัย"""
+ScotApp_917,คำขอมากเกินกว่าที่จะเอาสินค้าออกจากส่วนนำสินค้าใส่ถุง  สูงสุด = %d
+ScotApp_168,สแกนคูปองของคุณแล้วแยกออกจนกว่าจะสิ้นสุดการซื้อ
+ScotApp_912,อนุมัติและอัพเดตน้ำหนัก
+ScotApp_357,357unused
+ScotApp_350,สถานะเงินสด/เอกสาร
+ScotApp_911,ล้างการรักษาความปลอดภัย
+ScotApp_352,อัพเดต
+ScotApp_353,กลับไป
+ScotApp_1648,(mmddyy)
+ScotApp_1658,โปรดตรวจสอบว่าลูกค้าได้รับเงินทอนที่ถูกต้อง
+ScotApp_1628,CPU ขัดข้อง
+ScotApp_1381,กำลังประมวลผล...
+ScotApp_358,กลับไปยังโหมดช่วยเหลือ
+ScotApp_359,ฟังก์ชั่นของระบบ
+ScotApp_829,829unused
+ScotApp_828,828unused
+ScotApp_827,นำบาร์โค้ดของสินค้านี้ผ่านบนเครื่องอ่าน แล้ววางไว้ในส่วนนำสินค้าใส่ถุง
+ScotApp_826,ฉันไม่ต้องการบ\nรรจุสินค้านี้ใส่ถุง
+ScotApp_825,บรรจุสินค้าใส่ถุง
+ScotApp_264,264unused
+ScotApp_823,การอนุมัติการยกเลิก
+ScotApp_822,อนุมัติสินค้าที่ยกเลิก
+ScotApp_261,261unused
+ScotApp_820,อนุมัติการยกเลิก
+ScotApp_262,262unused
+ScotApp_490,"สแกนสินค้าของคุณ หรือแตะที่ปุ่ม ""เริ่ม"" เพื่อเริ่มต้น"
+ScotApp_269,โหมดช่วยเหลือ
+ScotApp_268,อ่านบัตรไม่ถูกต้อง
+ScotApp_502,แยกสินค้าที่ถูกยกเลิก
+ScotApp_452,ตรวจสอบว่าได้เสียบสายเคเบิลกับด้านข้างของเครื่องรับเหรียญ
+ScotApp_500,500unused
+ScotApp_506,506unused
+ScotApp_507,ตรวจดูความถูกต้องของสินค้า
+ScotApp_504,504unused
+ScotApp_505,หมายเลขไม่ถูกต้อง
+ScotApp_508,508unused
+ScotApp_509,509unused
+ScotApp_770,ยืนยันการระงับ
+ScotApp_771,ยกเลิกการระงับ
+ScotApp_773,จำนวนที่ประหยัด :
+ScotApp_774,คะแนนที่ได้รับ :
+ScotApp_775,ยินดีต้อนรับสู่  NCR SelfServ Checkout!
+ScotApp_776,776unused
+ScotApp_315,315unused
+ScotApp_778,778unused
+ScotApp_779,779unused
+ScotApp_601,601unused
+ScotApp_600,การบำรุงรักษาด้านความปลอดภัย
+ScotApp_603,แก้ไข/เพิ่มรายการน้ำหนัก
+ScotApp_602,แก้ไข/เพิ่มรายก\nารน้ำหนัก
+ScotApp_604,สแกนสินค้า
+ScotApp_607,ตั้งค่าข้อกำหนดการนำใส่ถุง
+ScotApp_609,แก้ไขน้ำหนักที่รับได้
+ScotApp_608,ตั้งค่าการเปรียบเทียบน้ำหนัก
+ScotApp_1362,ตัวล็อคกุญแจ
+ScotApp_1372,เครื่องรับเหรียญ
+ScotApp_1342,เลือก ยูทิลิตี
+ScotApp_1352,ฝากบัตรของขวัญ
+ScotApp_1322,เซ็นเซอร์คูปองขัดข้อง\n การสื่อสารล้มเหลว
+ScotApp_1332,เว้นวรรค
+ScotApp_1302,ปิด
+ScotApp_1312,* ถอดคาสเซ็ตธนบัตรออก\n* เปิดแล้วดึงธนบัตรออก\n* ปิดแล้วใส่เข้าไปในเครื่องรับใหม่\n* ตรวจสอบว่ามอเตอร์ของเครื่องรับธนบัตรเปิดใช้งานและไฟ LED เป็นสีเขียว
+ScotApp_1186,การลดลงที่ไม่คาดคิด
+ScotApp_1495,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1382,มาตรฐาน
+ScotApp_1392,ไฟสามดวงขัดข้อง
+ScotApp_819,ยืนยันการระงับสินค้าที่ยกเลิก
+ScotApp_817,ต้องการความช่วยเหลือ
+ScotApp_816,816unused
+ScotApp_304,เลือกบรรจุภัณฑ์
+ScotApp_306,ไม่มีบรรจุภัณฑ์
+ScotApp_256,กำลังสิ้นสุดการออกจากระบบของผู้ใช้...
+ScotApp_251,251unused
+ScotApp_301,ป้อนมูลค่าคูปอง
+ScotApp_302,โปรดป้อน PIN ของคุณบนเครื่องชำระเงิน
+ScotApp_303,ยกเลิกสินค้า
+ScotApp_795,ตรวจสอบการซื้อเพื่อการบริการที่ดีขึ้น
+ScotApp_257,257unused
+ScotApp_1771,ขีดจำกัดมูลค่าคูปอง
+ScotApp_308,บาท
+ScotApp_309,บาท
+ScotApp_572,"ใส่รหัสสินค้าแล้วแตะ ""ป้อน"""
+ScotApp_573,"ใส่ ID ผู้ใช้ของคุณ แล้วแตะที่ปุ่ม ""ป้อน"""
+ScotApp_570,570unused
+ScotApp_571,"ใส่ปริมาณแล้วแตะ ""ป้อน"""
+ScotApp_576,เริ่มการชำระเงินด้วยบัตร
+ScotApp_345,345unused
+ScotApp_574,"ใส่รหัสผ่านของคุณ แล้วแตะที่ปุ่ม ""ป้อน"""
+ScotApp_575,สิ้นสุดการชำระด้วยเงินสด  ยอดคงเหลือที่ค้าง
+ScotApp_905,(ข้อมูลเพิ่มเติมเกี่ยวกับใบเสร็จรับเงิน...)
+ScotApp_578,สิ้นสุดการชำระเงินด้วยบัตร  เงินทอนที่ค้าง
+ScotApp_579,579unused
+ScotApp_1373,สะสมบัตรของขวัญ
+ScotApp_1162,อุปกรณ์ออฟไลน์อยู่
+ScotApp_1172,ยืนยันการระงับแล้ว
+ScotApp_1142,เครื่องจ่ายเหรียญขัดข้อง
+ScotApp_1152,กระดาษหมด
+ScotApp_403,403unused
+ScotApp_402,ไม่มี
+ScotApp_1102,ถัดไป
+ScotApp_1112,%s @ %s %s/%s\t%s
+ScotApp_406,406unused
+ScotApp_404,404unused
+ScotApp_1449,สถานะธนบัตร
+ScotApp_1699,"ใช้การทดแทนเนื่องจาก %s เติมหรือนำสิ่งที่ติดอยู่ออก จากนั้นแตะที่ปุ่ม ""แก้ไขสภาพปัญหาแล้ว"""
+ScotApp_409,ข้อความของระบบ
+ScotApp_408,408unused
+ScotApp_692,692unused
+ScotApp_671,ออกจากโหมดการฝึกอบรม
+ScotApp_670,เข้าสู่โหมดการฝึกอบรม
+ScotApp_673,โปรดให้เงินทอนแก่ลูกค้า %s
+ScotApp_672,*** ธุรกรรมในโหมดการฝึกอบรม ***
+ScotApp_675,เติมเครื่องจ่ายเหรียญแล้ว
+ScotApp_674,"""เหตุผลการปฏิเสธการชำระเงิน: """
+ScotApp_677,677unused
+ScotApp_676,เครื่องจ่ายเหรียญ: เติมในเวลา %s %s
+ScotApp_679,รายงานความช่วยเหลือ
+ScotApp_678,678unused
+ScotApp_1367,เครื่องสแกน
+ScotApp_1377,ปริมาณ
+ScotApp_1347,กำลังพยายามเชื่อมต่อใหม่
+ScotApp_1357,สะสมบัตรของขวัญ
+ScotApp_1327,"แตะรายงานที่ต้องการ จากนั้นแตะที่ปุ่ม ""เรียกใช้รายงาน"""
+ScotApp_1337,ออก SelfServ Checkout
+ScotApp_1307,กำลังพิมพ์ใบเสร็จรับเงิน
+ScotApp_1317,การชำระเงินด้วยเวาเชอร์
+ScotApp_107,กำลังจะช่วยเหลือ
+ScotApp_104,104unused
+ScotApp_105,สินค้าที่ไม่รู้จัก
+ScotApp_102,สินค้าที่ถูกเรียกคืน
+ScotApp_103,ใส่รหัสสินค้า
+ScotApp_100,ต้องใส่ปริมาณ
+ScotApp_1387,"พบข้อผิดพลาดที่ร้ายแรงของซอฟต์แวร์\nเริ่มเครื่องใหม่\n\nเมื่อต้องการเริ่มเครื่องใหม่:\n* หมุนตัวล็อคกุญแจของหัวหน้างานไปที่ 'S' หรือกดปุ่มหัวหน้างาน\n* เลือกรีบูตทั้งระบบ\n* ติดต่อฝ่ายสนับสนุนและแจ้งข้อผิดพลาด"
+ScotApp_1397,ผู้ให้บริการ
+ScotApp_1474,ฮาร์ดแวร์ขัดข้อง รหัสข้อผิดพลาด E%d
+ScotApp_938,938unused
+ScotApp_939,หมดเวลา
+ScotApp_936,จำกัด\ข้ามการนำสินค้าใส่ถุง
+ScotApp_937,จำกัด\เอาสินค้าออก
+ScotApp_108,คูปองไม่ตรง
+ScotApp_935,น้ำหนักลดลง
+ScotApp_932,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_933,น้ำหนักไม่ตรง
+ScotApp_930,ตรวจสอบการสื่อสาร
+ScotApp_371,เปลี่ยนหัวเครื่องพิมพ์
+ScotApp_372,การสื่อสารด้านข้างเครื่องพิมพ์ขัดข้อง
+ScotApp_373,ช่องนำกระดาษออกของเครื่องพิมพ์ติดขัด
+ScotApp_1479,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1391,"\n\nแตะ ""ฉันแก้ไขปัญหาแล้ว""\n\n หากยังมีข้อผิดพลาดอยู่ ให้รีบูตเครื่อง"
+ScotApp_824,ระงับการยืนยัน
+ScotApp_1196,หมายเลขใบขับขี่
+ScotApp_379,เครื่องรับเงินสด
+ScotApp_205,การคัดลอกเสร็จสิ้นแล้ว
+ScotApp_204,กำลังคัดลอกไฟล์ไปยังเซิร์ฟเวอร์...
+ScotApp_207,207unused
+ScotApp_206,ตัวเลือกจะถูกโหลด
+ScotApp_201,กำลังทดสอบการเข้าสู่ระบบ...
+ScotApp_200,กำลังทดสอบนายหน้าธุรกรรม...
+ScotApp_203,203unused
+ScotApp_202,กำลังทดสอบการออกจากระบบ...
+ScotApp_796,"เหรียญเหลือน้อยหรือเครื่องจ่ายเหรียญขัดข้อง/ปิด\n* เปิดเครื่องจ่ายเหรียญ หรือ \n*  เติม ปิดเครื่องจ่ายเหรียญแล้วเปิด จากนั้นแตะที่ปุ่ม ""เติมเครื่องจ่ายเหรียญแล้ว"" - หน้าจอสถานะของช่องจ่ายเงิน"
+ScotApp_791,เลือกประเภทการชำระเงิน
+ScotApp_209,หยุดโปรแกรม
+ScotApp_208,208unused
+ScotApp_473,ระดับเงินหรือสลิปต่ำ
+ScotApp_472,ต้องการความช่วยเหลือ
+ScotApp_471,การตรวจสอบด้วยตา
+ScotApp_470,จำกัดอายุ
+ScotApp_476,การยื่นคูปอง
+ScotApp_475,ธุรกรรมถูกระงับแล้ว
+ScotApp_474,474unused
+ScotApp_479,ยื่นคูปอง
+ScotApp_478,ยื่นคูปอง
+ScotApp_1500,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1863,"แตะ ""อนุมัติ"" หรือ ""ยกเลิกสินค้า"""
+ScotApp_1843,ถุงของตนเอง
+ScotApp_1066,1066unused
+ScotApp_1833,ข้อยกเว้นนายหน้าธุรกรรม
+ScotApp_1803,รับเงินสดเท่านั้น
+ScotApp_176,คุณต้องการ หยุดการชำระเงินแล้วยกเลิกการซื้อทั้งหมด?
+ScotApp_174,ไม่พบสินค้าที่สแกนแล้ว\n\nยังไม่ได้ซื้อสินค้านี้ หรือยกเลิกแล้ว
+ScotApp_172,สแกนสินค้าที่ไม่ต้องการ หรือเลือกสินค้าบนใบเสร็จรับเงิน
+ScotApp_173,173unused
+ScotApp_170,"นำสินค้าออกจากเครื่องชั่ง และ "">0<"" บนเครื่องสแกน"
+ScotApp_1893,บาร์โคดที่ไม่ถูกต้อง
+ScotApp_968,968unused
+ScotApp_969,969unused
+ScotApp_1370,ตัวเข้ารหัส
+ScotApp_1340,ปิดการทำงานทั้งระบบ
+ScotApp_964,"เอาสินค้าออกแล้วแตะ ""ล้างการรักษาความปลอดภัย,"" หรือแตะ ""อนุมัติและอัพเดตน้ำหนัก"""
+ScotApp_1320,เริ่มการชำระเงินด้วยเวาเชอร์
+ScotApp_962,"เก็บสินค้าที่ยกเลิกที่ช่องจ่ายเงิน จากนั้นแตะที่ปุ่ม ""อนุมัติการยกเลิก"""
+ScotApp_963,ยกเลิกการร้องขอ
+ScotApp_960,"\nเครื่องชั่งถุงขัดข้อง: ตรวจสอบข้อผิดพลาดที่เครื่องชั่งถุงหรือตัวแสดงเหตุการณ์ จากนั้นแตะที่ปุ่ม ""ฉันแก้ไขปัญหาแล้ว"""
+ScotApp_961,"ฐานข้อมูลการเรียนรู้น้ำหนักขัดข้อง: ตรวจสอบข้อผิดพลาดที่ตัวแสดงเหตุการณ์ จากนั้นแตะที่ปุ่ม  ""ฉันแก้ไขปัญหาแล้ว"""
+ScotApp_1380,ราคา
+ScotApp_1390,อุปกรณ์ไม่ตอบสนอง
+ScotApp_839,ยกเลิกการดำเนินการ
+ScotApp_838,ข้อตกลงของลูกค้า
+ScotApp_837,ค่าบริการ
+ScotApp_836,ค่าบริการและข้อตกลงของลูกค้า
+ScotApp_835,ใบเสร็จรับเงิน:
+ScotApp_834,ค่าบริการและข้อตกลงของลูกค้า:
+ScotApp_833,833unused
+ScotApp_832,832unused
+ScotApp_831,831unused
+ScotApp_830,ฉันเอาสินค้าหรือถุงออกแล้ว
+ScotApp_272,ตรวจสอบคูปองที่ใช้
+ScotApp_279,รับรู้ปัญหาด้านความปลอดภัยที่บันทึกไว้ทั้งหมด
+ScotApp_278,บันทึกความปลอดภัย
+ScotApp_453,สถานะเครื่องรับเหรียญเต็ม
+ScotApp_740,740unused
+ScotApp_741,741unused
+ScotApp_742,742unused
+ScotApp_743,743unused
+ScotApp_744,744unused
+ScotApp_745,745unused
+ScotApp_746,746unused
+ScotApp_747,747unused
+ScotApp_748,748unused
+ScotApp_749,749unused
+ScotApp_797,ไม่สามารถจ่าย %s ให้ลูกค้า\n* ตรวจสอบการติดขัดของธนบัตรในคาสเซ็ตและเครื่องจ่ายธนบัตร\n* ตรวจสอบว่าได้ยึดคาสเซ็ตธนบัตรและกล่องกำจัดแล้ว\n* ปิดประตูตู้นิรภัย
+ScotApp_1563,โหลด
+ScotApp_347,ยกเลิกสินค้าที่จำกัดแล้ว - ข้อจำกัดด้านอายุไม่ตรง โปรดแยกสินค้าออก
+ScotApp_1510,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_198,กำลังโหลดการออกจากระบบของผู้ใช้...
+ScotApp_958,เครื่องชั่งถุง
+ScotApp_959,ฐานข้อมูลการเรียนรู้น้ำหนัก
+ScotApp_956,"ปิดแล้วเริ่มเครื่องใหม่:\n\n* หมุนตัวล็อคกุญแจของหัวหน้างานไปที่ 'S' หรือกดปุ่มหัวหน้างาน\n* เลือก ""เรียกใช้ ADD ในการรีบูตครั้งต่อไป""  เลือก ""ใช่"" เพื่อยืนยัน\n* เลือก ""ปิดการทำงานทั้งระบบ""\n* เมื่อหน้าจอว่าง ให้ปิดเครื่องที่ UPS หรือแถบสวิตช์\n* เปิดเครื่อง ตรวจสอบตัวแสดงเหตุการณ์ หากเกิดข้อผิดพลาดอีก ให้ขอรับบริการ"
+ScotApp_1345,ตัวจัดการความปลอดภัยกำลังสิ้นสุด...
+ScotApp_1355,ยอดคงเหลือของคุณ
+ScotApp_1325,วางสินค้าบนเครื่องชั่ง
+ScotApp_1335,ช่องจ่ายเงินปิดอยู่
+ScotApp_1305,%s ใส่แล้ว
+ScotApp_1315,* เปิดฝาเครื่องพิมพ์แล้วตรวจหากระดาษที่ติดอยู่\n* ปิดฝาเครื่องพิมพ์แล้วใส่กระดาษใหม่
+ScotApp_951,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s ที่ลบออก;LSWND3=%s;
+ScotApp_392,สินค้าที่ไม่รู้จัก
+ScotApp_393,เครื่องพิมพ์ใบบันทึกรายการ
+ScotApp_1385,เลือกภาษา
+ScotApp_398,ใส่คาสเซ็ตแล้ว
+ScotApp_399,399unused
+ScotApp_869,"ใส่การอนุญาต # แล้วแตะที่ปุ่ม ""ป้อน"""
+ScotApp_868,ข้อมูลหมายเลขการอนุญาต:
+ScotApp_867,ไม่
+ScotApp_866,ใช่
+ScotApp_865,ตรวจสอบผู้ถือบัตร
+ScotApp_864,การอนุมัติ:
+ScotApp_863,ข้อมูลมูลค่าคูปอง
+ScotApp_862,ข้อมูลมูลค่าคูปอง:
+ScotApp_861,861unused
+ScotApp_860,ต้องมีการวัด:
+ScotApp_542,ไม่สามารถสร้างบาร์โค้ดของผู้ดำเนินการได้
+ScotApp_543,ID ของผู้ดำเนินการไม่สามารถมีความยาวเกิน %d หลัก
+ScotApp_540,540unused
+ScotApp_541,พิมพ์บาร์โค้ดสแกนของผู้ดำเนินการ
+ScotApp_544,รหัสผ่านไม่สามารถมีความยาวเกิน %d หลัก
+ScotApp_545,สินค้าที่จำกัด
+ScotApp_548,548unused
+ScotApp_549,549unused
+ScotApp_902,สินค้าที่นำออกจากส่วนนำสินค้าใส่ถุง  คืนสินค้า
+ScotApp_1161,เพจเจอร์ขัดข้อง
+ScotApp_1171,การเพิ่มที่ไม่คาดคิด
+ScotApp_1141,ไม่สามารถจ่าย %s ได้ ข้อควรระวัง: อาจมีธนบัตรติดอยู่ที่ด้านบนเครื่องจ่ายธนบัตร
+ScotApp_1151,ฝาเครื่องพิมพ์เปิดอยู่
+ScotApp_1121,* อาจมีธนบัตรติดอยู่ในพื้นที่ที่แสดงในภาพ\n* ดึงเครื่องจ่ายธนบัตรบางส่วนออกจากตู้\n* เอาธนบัตรที่ติดอยู่ออก\n* ค่อยๆ ดันเครื่องจ่ายธนบัตรกลับเข้าไปในตู้
+ScotApp_1131,คาสเซ็ตธนบัตรถูกถอดออกหรือใส่ไม่ถูกต้อง
+ScotApp_1101,%s\t%s
+ScotApp_1111,ปริมาณ %s @ %s/%s\t%s
+ScotApp_554,อย่ารูดบัตรชำระเงินในตอนนี้
+ScotApp_1478,โปรดอ้างอิงคู่มืออุปกรณ์เพื่อแก้ไขข้อผิดพลาด
+ScotApp_1448,สถานะเหรียญ
+ScotApp_1458,NCR SelfServ Checkout รายงาน
+ScotApp_1428,เปลี่ยนราคาของสินค้า: \n%s
+ScotApp_1181,เกินค่าจำกัดของคูปอง
+ScotApp_1191,ต้องมีการวัด
+ScotApp_1418,เกินขีดน้ำหนักที่อนุญาต
+ScotApp_641,นน.เฉลี่ย    น้ำหนัก   บันทึกจำนวน     ประเภท ที่รับได้    ค่า ที่รับได้     วันที่
+ScotApp_640,รายการน้ำหนัก WLDB ที่มีอยู่
+ScotApp_643,ลบสินค้าแล้ว สแกนสินค้าถัดไป
+ScotApp_642,เพิ่มสินค้าแล้ว สแกนสินค้าถัดไป
+ScotApp_645,วางสินค้าที่สแกนแล้วในส่วนนำสินค้าใส่ถุงอีกครั้ง
+ScotApp_193,193unused
+ScotApp_647,ม
+ScotApp_646,ช
+ScotApp_649,กำหนดราคาแล้ว
+ScotApp_648,UPC
+ScotApp_1366,เครื่องชั่ง
+ScotApp_1376,", %s"
+ScotApp_1346,ช่องจ่ายเงินออฟไลน์อยู่ในขณะนี้และระบบกำลังพยายามเชื่อมต่อใหม่
+ScotApp_1356,การเก็บรวบรวม
+ScotApp_1326,หมดเวลาใส่คูปอง
+ScotApp_1336,ยูทิลิตี
+ScotApp_798,798unused
+ScotApp_1316,* เปิดฝาเครื่องพิมพ์แล้วตรวจหากระดาษที่ติดอยู่ในพื้นที่ที่แสดงในภาพ\n* ปิดฝาเครื่องพิมพ์แล้วใส่กระดาษใหม่
+ScotApp_1668,อาจมีธนบัตรติดในตำแหน่งที่แสดง\n* เปิดฝาปิดด้านบนของเครื่องนำธนบัตรกลับมาใช้ใหม่\n* เอาธนบัตรที่อาจติดอยู่ออก\n* ปิดเครื่องแล้วใส่ฝาปิดเครื่องนำธนบัตรกลับมาใช้ใหม่\n* ทำธุรกรรมต่อ
+ScotApp_1386,ข้อผิดพลาดร้ายแรง
+ScotApp_1396,ออกจากโหมดผู้ให้บริการ
+ScotApp_859,ไม่
+ScotApp_909,น้ำหนักบนเครื่องชั่งแบบนิรภัยไม่ถูกต้อง
+ScotApp_857,ตรวจสอบค่าประกอบชิ้นส่วน
+ScotApp_907,907unused
+ScotApp_344,344unused
+ScotApp_346,ATM (คืนเงินสด)
+ScotApp_903,สินค้าที่นำออกจากส่วนนำสินค้าใส่ถุง
+ScotApp_340,เลือกสินค้าจากรายการ ใช้ปุ่มลูกศรเพื่อเลื่อนขึ้นลง
+ScotApp_341,341unused
+ScotApp_342,พิมพ์คำอธิบาย
+ScotApp_343,343unused
+ScotApp_494,เลือกจำนวนคืนเงินสดจากรายการ
+ScotApp_348,348unused
+ScotApp_349,349unused
+ScotApp_1164,เครื่องพิมพ์ไม่อยู่ในตำแหน่งที่ถูกต้อง
+ScotApp_695,695unused
+ScotApp_63,ไม่
+ScotApp_53,53unused
+ScotApp_43,43unused
+ScotApp_33,ฉันแก้ไขปัญหาแล้ว
+ScotApp_23,+ %s (%s)
+ScotApp_13,%ss @ %s/%s
+ScotApp_1166,* เปิดประตูตู้เครื่องพิมพ์\n* ปลดสลักแล้วดันเครื่องพิมพ์กลับเข้าไปใหม่\n* เปิดฝาเครื่องพิมพ์เพื่อตรวจสอบว่ามีกระดาษติดหรือไม่\n* ปิดฝาเครื่องพิมพ์แล้วใส่กระดาษใหม่\n* ค่อยๆ ดึงเครื่องพิมพ์มาด้านหน้าจนกว่าจะยึดเข้าตำแหน่ง
+ScotApp_1176,ป้อนสินค้าใหม่แล้ว
+ScotApp_1146,เครื่องรับไม่ตอบสนอง
+ScotApp_1156,ตรวจสอบว่าสวิตช์ปิดเปิดเครื่องจ่ายเหรียญเปิดอยู่
+ScotApp_441,ยืนยันจำนวน
+ScotApp_447,บัญชีผู้ซื้อประจำของคุณถูกเปิดใช้งานแล้ว
+ScotApp_446,ระงับธุรกรรม
+ScotApp_445,สิทธิประโยชน์เงินสด
+ScotApp_444,คูปองอาหาร
+ScotApp_449,สถานะเครื่องรับเหรียญถูกปฏิเสธ
+ScotApp_448,บัญชีผู้ซื้อประจำของคุณถูกเปิดใช้งานแล้ว
+ScotApp_93,สแกนและใส่ถุง
+ScotApp_1689,เครื่องนำธนบัตรกลับมาใช้ใหม่ขัดข้อง
+ScotApp_1860,โปรดเลือกจากสินค้าในรายการเลือกหรือค้นสินค้าตามตัวอักษร
+ScotApp_966,966unused
+ScotApp_1835,ยืนยันหรือนำสินค้าไว้ด้านข้าง
+ScotApp_1850,อุปกรณ์ขัดข้อง
+ScotApp_555,การชำระเงินวิธีอื่น
+ScotApp_1830,อนุมัติการป้อนแล้ว
+ScotApp_1800,เลือกโหมดการทำงาน
+ScotApp_146,โปรดเลือกประเภทการชำระเงิน
+ScotApp_147,147unused
+ScotApp_144,เปรียบเทียบลายมือชื่อ
+ScotApp_145,145unused
+ScotApp_142,ยืนยันจำนวน
+ScotApp_143,ลงชื่อใบเสร็จ
+ScotApp_140,ขอบคุณ
+ScotApp_141,เลือกชนิดบัตร
+ScotApp_1890,กำลังประมวลผล
+ScotApp_978,ค่าจำกัด = %d
+ScotApp_979,ค่าจำกัด = %d คำขอของลูกค้า
+ScotApp_976,976unused
+ScotApp_977,น้ำหนักจริง: %s %s
+ScotApp_1353,โปรดฝากบัตรของขวัญที่ใช้หมดแล้วในช่องคูปอง
+ScotApp_149,ป้อน PIN
+ScotApp_972,972unused
+ScotApp_973,973unused
+ScotApp_1313,* ตรวจสอบกระดาษที่ติดในเครื่องพิมพ์\n* ใส่กระดาษใหม่\n* ปิดอย่างถูกต้องแล้วรีบูตเครื่อง
+ScotApp_971,971unused
+ScotApp_1810,เหรียญติดอยู่
+ScotApp_1120,อาจมีธนบัตรติดด้านหน้าคาสเซ็ตธนบัตร %s\n\nถอดคาสเซ็ต %s ออกแล้วตรวจหาธนบัตรที่อาจติดอยู่ในบริเวณนี้\n\nเอาธนบัตรที่ติดอยู่ออกหากเป็นไปได้แล้วเปลี่ยนคาสเซ็ตธนบัตร
+ScotApp_1459,รายงานการจัดการเงินสดน
+ScotApp_1383,ข้อยกเว้น
+ScotApp_1393,หยุดแล้วเริ่มโปรแกรม NCR SelfServ Checkout ใหม่ หากยังมีข้อผิดพลาดอยู่ ให้ติดต่อฝ่ายช่วยเหลือ
+ScotApp_809,ข้อความ POS:
+ScotApp_807,เอาแท็กกันขโมยออก
+ScotApp_806,อนุมัติสินค้าที่ตรวจสอบด้วยตา
+ScotApp_805,อนุมัติสินค้า
+ScotApp_244,244unused
+ScotApp_247,247unused
+ScotApp_246,246unused
+ScotApp_241,ข้อผิดพลาดที่ไม่คาดคิดของ ตัวจัดการอุปกรณ์
+ScotApp_240,ความล้มเหลวทั่วไปของ ตัวจัดการอุปกรณ์
+ScotApp_243,เครื่องอ่านบัตร บัตรไม่ถูกต้อง
+ScotApp_242,การติดขัดของบัตรในเครื่องอ่านบัตร
+ScotApp_249,249unused
+ScotApp_248,248unused
+ScotApp_1409,เมนูช่วยเหลือ
+ScotApp_1163,"* แตะ ""ฉันแก้ไขปัญหาแล้ว""\n\n* หากยังมีข้อผิดพลาดอยู่ ให้รีบูตเครื่อง:\n*  หมุนตัวล็อคกุญแจของหัวหน้างานไปที่ 'S' หรือกดปุ่มหัวหน้างาน\n* เลือก ""ปิดการทำงานทั้งระบบ""\n* เมื่อหน้าจอว่าง ให้ปิดเครื่องที่ UPS หรือแถบสวิตช์\n* เปิดเครื่อง* หากเกิดข้อผิดพลาดอีก ให้ขอรับบริการ"
+ScotApp_1173,อนุมัติสินค้าที่ยกเลิกแล้ว
+ScotApp_1143,เหรียญเหลือน้อยหรือไม่พบที่บรรจุเหรียญ
+ScotApp_1153,กระดาษติด
+ScotApp_1123,"* อย่าดำเนินการใดๆ จนกว่าจะดึงธนบัตรที่ติดอยู่ทั้งหมดออก\n* ค่อยๆ ดึงเครื่องจ่ายธนบัตรบางส่วนออกจากตู้\n* เอาธนบัตรที่ติดอยู่ออกตรงด้านบนของเครื่องจ่ายธนบัตรโดยไม่ขัดจังหวะสายพาน\n* ค่อยๆ ดันเครื่องจ่ายธนบัตรกลับเข้าไปในตู้\n* ล็อคประตู แล้วแตะที่ปุ่ม ""ฉันแก้ไขปัญหาแล้ว"""
+ScotApp_1133,คาสเซ็ตธนบัตรเต็ม
+ScotApp_1103,ก่อนหน้า
+ScotApp_1113,%s @ %s/%s\t%s
+ScotApp_1769,ใส่รหัส
+ScotApp_1867,บล็อกมุมมองกล้อง
+ScotApp_1877,การแจ้งเตือนขโมย
+ScotApp_1847,"เพิ่มสินค้าแล้ว สแกนสินค้าถัดไปหรือแตะ ""ป้อนรหัส"""
+ScotApp_1183,การแจ้งเตือนราคา
+ScotApp_1193,ตรวจสอบบัตรประจำตัวแล้ว
+ScotApp_503,503unused
+ScotApp_1807,_ _ _
+ScotApp_1817,* ดึงเครื่องนำเหรียญกลับมาใช้ใหม่ออก\n* เปิดประตูกลมด้านข้างแล้วนำเหรียญออกจากสายพาน\n* ตรวจสอบว่าได้ปิดและล็อคประตูทั้งหมดอย่างถูกต้องแล้ว\n* คืนเหรียญให้ลูกค้า หากเกิดข้อผิดพลาดอีก ให้ขอรับบริการ
+ScotApp_83,83unused
+ScotApp_1887,ตรวจสอบธุรกรรม
+ScotApp_1364,Micr
+ScotApp_1344,โหลดตัวจัดการความปลอดภัยแล้ว
+ScotApp_1354,สะสมบัตรของขวัญ
+ScotApp_1324,น้ำหนักที่เหลืออยู่บน\nเครื่องชั่งหลังธุรกรรม
+ScotApp_1334,สินค้าไม่ได้อยู่บนสายพาน
+ScotApp_1304,ตอบรับบัตรลอยัลตี้การ์ดแล้ว
+ScotApp_967,967unused
+ScotApp_199,โหลดการออกจากระบบของผู้ใช้แล้ว
+ScotApp_1384,ภาษา
+ScotApp_1394,อินเทอร์เฟซดิจิตัลขัดข้อง
+ScotApp_879,879unused
+ScotApp_878,ใส่ราคา
+ScotApp_877,การแจ้งเตือนราคา
+ScotApp_876,"ใส่ ID หัวหน้าแคชเชียร์แล้วแตะที่ปุ่ม ""ป้อน"""
+ScotApp_875,ID หัวหน้าแคชเชียร์สำหรับการยกเลิกการซื้อ
+ScotApp_874,"ใส่ใบขับขี่หรือบัตรประชาชน # แล้วแตะที่ปุ่ม ""ป้อน"""
+ScotApp_873,หมายเลข ใบขับขี่ / บัตรประชาชน:
+ScotApp_872,ยกเลิกการระงับ
+ScotApp_871,ยืนยันการระงับ
+ScotApp_870,การแจ้งเตือน:
+ScotApp_1343,ตัวจัดการความปลอดภัยกำลังสิ้นสุด...
+ScotApp_395,สินค้าที่ถูกจำกัดไม่ได้รับอนุญาต
+ScotApp_252,\nสิ่งที่ติดอยู่ในเครื่องจ่ายเหรียญ \n\nนำสิ่งที่ติดอยู่ในเครื่องจ่ายเหรียญออก
+ScotApp_1701,ไม่สามารถจ่าย %s ได้
+ScotApp_1873,1873unused
+ScotApp_557,สินค้าที่จำกัดปริมาณ
+ScotApp_780,780unused
+ScotApp_781,781unused
+ScotApp_782,เครื่องจ่ายธนบัตรติดขัด\nเครื่องจ่ายธนบัตรติดขัด\nปรับกล่องกำจัด
+ScotApp_1150,ฝาตู้เครื่องพิมพ์เปิดอยู่
+ScotApp_784,ไม่สามารถใช้งานเครื่องจ่ายธนบัตรได้\n* เติมเครื่องจ่ายธนบัตรหรือ\n* เอาเครื่องจ่ายธนบัตรที่ติดขัดออกหรือ\n* ปรับกล่องกำจัด
+ScotApp_1130,เครื่องรับธนบัตรขัดข้อง
+ScotApp_1100,%s
+ScotApp_1110,ปริมาณ %s @ %s/แต่ละ\t%s
+ScotApp_788,วันเกิดที่ถูกต้อง:%s
+ScotApp_789,รูดบัตรของคุณ\nโปรดตรวจสอบสินค้าเพิ่มเติมในตะกร้า
+ScotApp_1180,ไม่พบราคาที่ตรงกัน
+ScotApp_1190,คูปองที่ป้อน
+ScotApp_1461,เหรียญ
+ScotApp_998,ปริมาณ
+ScotApp_1369,เบ็ดเตล็ด
+ScotApp_1379,ราคาต่อหน่วย
+ScotApp_997,ใส่ราคา
+ScotApp_1359,เครื่องพิมพ์ใบแสดงรายการ
+ScotApp_1339,รีบูตทั้งระบบ
+ScotApp_1309,* ใส่คาสเซ็ตจนกว่าจะยึดแน่น\n* ตรวจสอบว่ามอเตอร์ของเครื่องรับธนบัตรเปิดใช้งาน
+ScotApp_1319,เวาเชอร์
+ScotApp_991,ตรวจสอบอายุ
+ScotApp_1389,อุปกรณ์จับภาพลายมือชื่อขัดข้อง
+ScotApp_1399,ผู้ให้บริการ
+ScotApp_1774,คูปองสูงเกินไป
+ScotApp_1724,ธุรกรรมในโหมดการฝึกอบรม
+ScotApp_901,การอนุมัติเพื่อข้ามการนำสินค้าใส่ถุง
+ScotApp_1704,"* แตะ ""ฉันแก้ไขปัญหาแล้ว""\n\n* หากยังมีข้อผิดพลาดอยู่ ให้รีบูตเครื่อง:\n*  หมุนตัวล็อคกุญแจของหัวหน้างานไปที่ 'S' หรือกดปุ่มหัวหน้างาน\n* เลือก ""ปิดการทำงานทั้งระบบ""\n* เมื่อหน้าจอว่าง ให้ปิดเครื่องที่ UPS หรือแถบสวิตช์\n* เปิดเครื่อง* หากเกิดข้อผิดพลาดอีก ให้ขอรับบริการ"
+ScotApp_394,394unused
+ScotApp_156,ข้อความของระบบ
+ScotApp_1784,สินค้าหลายหีบห่อ
+ScotApp_582,การชำระเงินเสร็จสมบูรณ์แล้ว
+ScotApp_583,บัตรถูกปฏิเสธ
+ScotApp_580,พยายามยกเลิกสินค้าก่อนคูปองจะใช้ไม่ได้
+ScotApp_581,การระงับธุรกรรมถูกปฏิเสธ
+ScotApp_586,คูปอง: %0.0ld/$%0.2lf
+ScotApp_587,ลายมือชื่อ
+ScotApp_584,ปฏิเสธ EBT แล้ว
+ScotApp_585,585unused
+ScotApp_40,การอนุญาตจากร้านค้า
+ScotApp_30,สินค้าที่ยกเลิก
+ScotApp_588,กำลังโหลดอุปกรณ์จากโรงงาน...
+ScotApp_589,โหลดอุปกรณ์จากโรงงานแล้ว
+ScotApp_1165,ค่อยๆ ดึงเครื่องพิมพ์มาด้านหน้าจนกว่าจะยึดเข้าตำแหน่ง\n\nปิดแล้วล็อคประตูตู้เครื่องพิมพ์
+ScotApp_1175,เกินค่าจำกัด อย่านำใส่ถุง
+ScotApp_1145,เครื่องรับเหรียญขัดข้อง
+ScotApp_1155,อุปกรณ์ออฟไลน์อยู่
+ScotApp_1125,"เติมช่องใส่เหรียญทั้งหมดจนเต็มในกล่องใส่เหรียญ\n\nไปที่โหมดร้านค้า เลือก ""สถานะเงินสด/เอกสาร"" แล้วแตะปุ่ม ""เติมเครื่องจ่ายเหรียญแล้ว"""
+ScotApp_934,น้ำหนักเพิ่มขึ้น
+ScotApp_1105,e=d=0.005 กก. สูงสุด 13.995 กก. ต่ำสุด 0.1 กก. จำนวนสูงสุด 2799
+ScotApp_1115,การรายงานแบบออฟไลน์
+ScotApp_1711,การระงับถูกปฏิเสธ
+ScotApp_1185,เกินค่าจำกัดของกล่องถุง
+ScotApp_1195,CSA ถูกระงับ
+ScotApp_681,เลือกจากรายการโปรด
+ScotApp_680,680unused
+ScotApp_683,683unused
+ScotApp_682,682unused
+ScotApp_685,รายชั่วโมง
+ScotApp_684,วันนี้
+ScotApp_900,วางสินค้าในส่วนนำสินค้าใส่ถุง
+ScotApp_686,เมื่อวานนี้
+ScotApp_689,ยอดขาย:      %d
+ScotApp_688,688unused
+ScotApp_1823,สร้างใบเสร็จรับเงินแบบดิจิตอลเสร็จเรียบร้อยแล้ว
+ScotApp_1861,รายการเลือก
+ScotApp_1871,เฝ้าสังเกต %s %s
+ScotApp_1841,โปรดไปที่เลนเพื่อรับการอนุมัติ
+ScotApp_1851,ไม่อนุมัติ
+ScotApp_1464,หมายเลขเครื่อง
+ScotApp_1831,แทรกแล้ว
+ScotApp_1801,โหมดการทำงาน
+ScotApp_1811,* ดึงเครื่องนำเหรียญกลับมาใช้ใหม่ออก\n* นำสิ่งที่ติดอยู่ออกจากพื้นที่ที่แสดงโดยเอาเหรียญออกหรือดันเหรียญไปข้างหน้า\n* คืนเหรียญให้ลูกค้า หากเกิดข้อผิดพลาดอีก ให้ขอรับบริการ
+ScotApp_499,499unused
+ScotApp_1881,"ตรวจสอบ BagScale และนำสินค้าที่เกินออก และแตะ ""ล้างการรักษาความปลอดภัย"""
+ScotApp_948,\n* ความช่วยเหลือระยะไกล
+ScotApp_949,949unused
+ScotApp_946,การอนุมัติถุง/กล่อง
+ScotApp_947,สินค้าที่มีน้ำหนักใหม่
+ScotApp_384,384unused
+ScotApp_385,385unused
+ScotApp_386,ถอดคาสเซ็ตออกแล้ว
+ScotApp_387,การส่งติดขัด
+ScotApp_380,380unused
+ScotApp_381,ปกติ
+ScotApp_382,ไม่รู้จัก
+ScotApp_383,383unused
+ScotApp_1199,วันที่หมดอายุที่ป้อน
+ScotApp_388,กำลังประมวลผล...
+ScotApp_389,การ์ดประมวลผล
+ScotApp_1791,เงินสดเท่านั้น
+ScotApp_77,เครดิต
+ScotApp_67,กลับไป
+ScotApp_57,เสร็จสิ้นและชำระเงิน
+ScotApp_47,เริ่ม
+ScotApp_37,37unused
+ScotApp_27,27unused
+ScotApp_17,คูปอง
+ScotApp_1802,รับบัตรเท่านั้น
+ScotApp_157,ข้อความของระบบ
+ScotApp_483,โปรดลงชื่อในเครื่องอ่านลายมือชื่อด้วยปากกาที่มีให้
+ScotApp_482,482unused
+ScotApp_481,ต้องการความช่วยเหลือ
+ScotApp_487,ลง
+ScotApp_486,ขึ้น
+ScotApp_485,ต้องมีลายมือชื่อ
+ScotApp_484,ต้องมีลายมือชื่อ
+ScotApp_488,วางสินค้าบนเครื่องชั่ง: %s
+ScotApp_1122,อาจมีธนบัตรติดอยู่ที่ช่องจ่ายเครื่องจ่ายธนบัตร\n\nดึงเครื่องจ่ายธนบัตรบางส่วนออกจากตู้\n\nเอาธนบัตรที่ติดอยู่ออกจากพื้นที่ที่แสดงในภาพ\nค่อยๆ ดันเครื่องจ่ายธนบัตรกลับเข้าไปในตู้
+ScotApp_1874,1874unused
+ScotApp_799,ตรวจสอบตะกร้า
+ScotApp_1854,ไม่บังคับ
+ScotApp_1824,ไม่มีการสร้างใบเสร็จรับเงิน
+ScotApp_1834,สูงสุด
+ScotApp_1804,ออกจากโหมดบัตรเท่านั้น
+ScotApp_186,186unused
+ScotApp_187,187unused
+ScotApp_185,เปรียบเทียบลายมือชื่อของลูกค้ากับลายมือชื่อบนบัตร
+ScotApp_183,183unused
+ScotApp_180,แยกคูปองออกตอนนี้\nยื่นคูปองเมื่อซื้อสินค้าเสร็จสิ้นแล้ว
+ScotApp_181,"\nใช้แผงปุ่มกดเพื่อป้อนมูลค่าคูปองเป็นเซนต์ และแตะ ""OK"""
+ScotApp_1894,นำสินค้าไว้ด้านข้าง และดำเนินการซื้อของคุณต่อ
+ScotApp_72,72unused
+ScotApp_188,กำลังโหลดตัวเลือก...
+ScotApp_189,โหลดตัวเลือกแล้ว
+ScotApp_1401,กำลังดำเนินการช่วยเหลือ\n\nโปรดรอ...
+UnknownItemMessage,ความช่วยเหลือกำลังมา\n\nตั้งรายการแยกไว้และ ทำต่อ
+TimeRestrictedItemMessage,คุณไม่สามารถ ซื้อรายการนี้ในได้ในขณะนี้\n\nตั้งรายการ แยกไว้ แล้วทำต่อ
+ItemQuantityExceededMessage,เกินปริมาณที่อนุญาตสำหรับสินค้านี้\n\nโปรดแยกออกแล้วดำเนินการต่อ
+ItemQuantityExceeded,เกินที่กำหนด
+WaitForRemoteAssistanceTitle,ผู้ให้บริการระยะไกล
+ScotApp_489,ขอบคุณที่ใช้  NCR SelfServ Checkout
+ScotApp_273,อย่าสแกนในขณะนี้\nแยกสินค้าออก
+ScotApp_431,บัตรลอยัลตี้การ์ดใช้ไม่ได้ โปรดตรวจสอบ
+ScotApp_410,ต้องการความช่วยเหลือสำหรับ:
+ScotApp_1739,โปรดรอผู้ให้บริการ\nระบบไม่สามารถตรวจสอบถุงของคุณ\nหากคุณได้วางสิ่งอื่นนอกจากถุงในส่วนนำสินค้าใส่ถุงโดยไม่ได้ตั้งใจ โปรดเอาออกตอนนี้
+ScotApp_73,ยกเลิกธุรกรรมแล้ว เอาอ
+ScotApp_772,มีการร้องขอให้ระงับธุรกรรมปัจจุบัน\nโปรดยืนยันหรือยกเลิกการร้องขอนี้
+ScotApp_530,ข้อผิดพลาดในการอ่านบัตร \nใช้บัตรอื่น\n   หรือ\nชำระด้วยเงินสด\n   -หรือ-\nขอความช่วยเหลือ
+ScotApp_524,PIN ที่ใส่ไม่ถูกต้อง\nใส่ PIN ในเครื่องชำระเงินใหม่
+ScotApp_397,ใช้โหมดช่วยเหลือเพื่อขายสินค้าที่ถูกต้อง\nเก็บสินค้าอื่นที่ไม่ได้มีไว้ขาย
+ScotApp_171,"""%s""\n\n%d ถูกต้อง?"
+ScotApp_1374,\n---------------------------------------\n
+ScotApp_1646,ธุรกรรมถูกระงับ แยกสินค้าทั้งหมดออก
+ScotApp_495,เกินปริมาณที่อนุญาตสำหรับสินค้านี้\n \nโปรดแยกออกแล้วดำเนินการต่อ
+ScotApp_529,เอาบัตรออก...\nเสียบบัตรอื่น\n   หรือ\nชำระด้วยเงินสด\n   -หรือ-\nขอความช่วยเหลือ
+ScotApp_275,อย่าใส่บัตรชำระเงินตอนนี้\nหยิบบัตรของคุณ
+ScotApp_1891,การตรวจสอบระบบอยู่ในระหว่างการดำเนินการ\nโปรดรอ...
+ScotApp_1750,โปรดรอขณะที่เรากำลังประมวลผลลายนิ้วมือของคุณ
+ScotApp_169,คุณต้องการดำเนินการซื้อต่อหรือไม่?
+ScotApp_415,หยิบบัตรลอยัลตี้การ์ดของคุณ\nใส่บัตรก่อนหน้านี้แล้ว
+ScotApp_1793,เครื่องนี้รับเฉพาะบัตรเครดิตและเดบิตเท่านั้นในขณะนี้\nคุณต้องการดำเนินการต่อหรือไม่?
+ScotApp_477,ยื่นคูปองของคุณ\nหลังจากพิมพ์ใบเสร็จรับเงินของคุณแล้ว: \n-- รับสินค้าของคุณ\n-- นำใบเสร็จรับเงินและคูปองไปที่จุดชำระเงิน
+ScotApp_177,ยกเลิกการซื้อทั้งหมด
+ScotApp_656,โปรดแยก <%s>\nผู้ช่วยเหลือในร้านค้าจะช่วยคุณ
+ScotApp_1709,อย่าใส่ธนบัตรหรือเหรียญในขณะนี้\nโปรดรับเงินสดที่จ่ายคืน\nธนบัตรจะจ่ายออกมาตรงด้านล่างเครื่องสแกน
+ScotApp_435,เลือกประเภทสิทธิประโยชน์\nถ้าคุณต้องการใช้คูปองอาหาร คุณจะต้องใช้ก่อนสิทธิประโยชน์อื่นๆ
+ScotApp_808,นำสินค้าที่มีแท็กกันขโมยไปยังผู้ให้บริการเพื่อเอาออก
+ScotApp_294,"สำหรับความช่วยเหลือในร้าน ให้แตะปุ่ม ""ขอความช่วยเหลือ"""
+ScotApp_1287,โปรดรอ...\n กำลังตรวจสอบน้ำหนักสินค้า
+ScotApp_525,PIN ที่ใส่ไม่ถูกต้อง\nเอาบัตรออก...\nเสียบบัตรอื่น\n   หรือ\nชำระด้วยเงินสด
+ScotApp_480,"โปรดแตะที่ปุ่ม ""OK"" จากนั้นนำใบแสดงรายการธุรกรรมและสินค้าไปที่แคชเชียร์"
+ScotApp_1751,"นำน้ำหนักทั้งหมดออกจากเครื่องชั่งถุงแล้วแตะที่ปุ่ม ""ดำเนินการต่อ"""
+ScotApp_175,"คุณต้องการ เอาออกจากใบเสร็จรับเงิน \n""%s""?"
+ScotApp_1746,เซิร์ฟเวอร์ลายนิ้วมือไม่สามารถใช้งานได้\nโปรดลองอีกครั้ง
+ScotApp_1839,โปรดรอเครื่องแคชเชียร์\nอย่าสแกนในขณะนี้ นำสินค้าไว้ด้านข้าง
+ScotApp_501,โปรดลงชื่อในใบเสร็จรับเงินแล้วรอการอนุมัติจากร้านค้า
+ScotApp_414,หยิบบัตรลอยัลตี้การ์ดของคุณ\nไม่สามารถใช้ราคาส่วนลดกับการซื้อปัจจุบันของคุณ คุณจะได้รับทางเมล
+ScotApp_563,เกิดข้อผิดพลาดขณะเริ่ม Hard Totals\nแอพพลิเคชันจะออกจากการทำงานเดี๋ยวนี้
+ScotApp_263,ไม่สามารถยกเลิกสินค้าได้จนกว่าคูปองจะถูกยกเลิก\nยกเลิกคูปองของสินค้าก่อน
+ScotApp_800,"โปรดตรวจสอบตะกร้าของคุณ\n\nสแกนสินค้าเพิ่มเติมเดี๋ยวนี้หรือ \nแตะที่ปุ่ม ""OK"" เพื่อชำระเงิน"
+ScotApp_134,กำลังดำเนินการอนุญาต \nโปรดรอ
+ScotApp_620,ใส่น้ำหนักที่รับได้
+ScotApp_161,"%s\nใช้แผงปุ่มกดเพื่อป้อนปริมาณ แล้วแตะ  ""OK"""
+ScotApp_440,ยอดคงเหลือสิทธิประโยชน์เงินสดของคุณมีน้อยกว่าที่ต้องใช้\nคุณต้องการใช้สิทธิประโยชน์เงินสดที่เหลือของคุณ %s กับการซื้อนี้หรือไม่
+ScotApp_184,%s จะถูกหักจากบัญชีของคุณ
+ScotApp_274,อย่าใส่เงินสดตอนนี้...\nรับเงินสดของคุณ
+ScotApp_1744,อุปกรณ์ไม่รู้จักลายนิ้วมือของคุณ\nโปรดลองอีกครั้ง
+ScotApp_160,สินค้าถูกเรียกคืนแล้ว\nกำลังจะแสดงวิธีใช้\nแยกสินค้าออกแล้วซื้อสินค้าต่อ
+ScotApp_1795,"หรือจำกัดเพียง  ""เงินสดเท่านั้น"""
+ScotApp_159,ไม่ทราบราคาสินค้า\nกำลังจะแสดงวิธีใช้\nแยกสินค้าออกแล้วซื้อสินค้าต่อ
+ScotApp_458,เลือกประเภทสิทธิประโยชน์\nไม่สามารถใช้คูปองอาหารสำหรับการซื้อนี้ได้
+ScotApp_1329,โปรดรอ...\n กำลังตรวจสอบน้ำหนักสินค้า\nนำสินค้าที่มีน้ำหนักเป็นสองเท่าใส่ถุงแล้ว
+ScotApp_407,ข้อผิดพลาดในการอ่านบัตร\n*  ลองใช้บัตรอื่นหรือ\n*  ขอความช่วยเหลือ
+ScotApp_706,"ยอดแสตมป์อาหารของคุณน้อยกว่ายอดรวมของการซื้อนี้\nแตะที่ปุ่ม ""OK"" เพื่อใช้วิธีการชำระเงินอื่น"
+ScotApp_606,ลบรายการน้ำหนัก
+ScotApp_906,โปรดรับสินค้าของคุณ
+ScotApp_705,"ยอดสิทธิประโยชน์เงินสดของคุณน้อยกว่ายอดรวมของการซื้อนี้\nแตะที่ปุ่ม ""OK"" เพื่อใช้วิธีการชำระเงินอื่น"
+ScotApp_605,แก้ไขเพิ่มรายการน้ำหนัก
+ScotApp_405,ข้อผิดพลาดในการอ่านบัตร\n*  ลองใช้บัตรอื่นหรือ\n*  ชำระด้วยเงินสด\nหรือ\n*  ขอความช่วยเหลือ
+ScotApp_491,โปรดรับบัตรของคุณ
+ScotApp_818,โปรดรอแคชเชียร์ \nต้องการความช่วยเหลือสำหรับ:
+ScotApp_1796,"หรือจำกัดเพียง  ""เงินสดเท่านั้น"""
+ScotApp_438,ยอดคงเหลือของคูปองอาหารของคุณมีน้อยกว่าที่ต้องใช้\nคุณต้องการใช้สิทธิประโยชน์ของคูปองอาหารที่เหลือ %s สำหรับการซื้อนี้หรือไม่
+ScotApp_1596,"คุณต้องการบันทึก %s เป็นภาษาที่คุณต้องการใช้บน %s หรือไม่?\nเลือก ""ใช่"" หรือ ""ไม่"""
+ScotApp_766,จะเรียกเก็บ %s ไปยังบัญชีของคุณ
+ScotApp_166,กำลังจะแสดงวิธีใช้\nโปรดซื้อสินค้าต่อ
+ScotApp_413,หยิบบัตรลอยัลตี้การ์ดของคุณ\nจะใช้ราคาส่วนลด
+ScotApp_1797,"การดำเนินการแก้ไขไม่ได้แก้ไขข้อผิดพลาด\nโปรดลองอีกครั้งเพื่อจำกัดเพียง ""เงินสดเท่านั้น"""
+ScotApp_178,รอการอนุมัติจากร้านค้า \nต้องการการอนุมัติสำหรับ:
+ScotApp_790,บัตรของคุณถูกปฏิเสธ\nโปรดเลือกวิธีการชำระเงินอื่น
+ScotApp_1794,เครื่องนี้จะรับเฉพาะเงินสดเท่านั้นในขณะนี้\nไม่สามารถประมวลผลเครดิตหรือเดบิต\nคุณต้องการดำเนินการต่อหรือไม่?
+ScotApp_412,สินค้านี้จะทำให้การซื้อของคุณเกิน %s\nโปรดชำระเงินตอนนี้แล้วซื้อสินค้าอื่นแยกต่างหาก
+ScotApp_546,คุณมีอายุน้อยเกินกว่าจะซื้อสินค้าชิ้นนี้\nโปรดแยกออกแล้วดำเนินการซื้อต่อ
+ScotApp_553,จะรับคูปองเมื่อซื้อสินค้าเสร็จสิ้นแล้ว\nโปรดแยกออกแล้วดำเนินการต่อ
+ScotApp_211,กำลังประมวลผล...\nโปรดรอ
+ScotApp_1400,ผู้ให้บริการระยะไกล
+ScotApp_1754,ตัวอักษรไม่ตรงกับสินค้า\nโปรดลองอีกครั้ง
+ScotApp_1859,"ซื้อ %s ทั้งลังใช่หรือไม่ เลือก ""ใช่"" หรือ ""ไม่ใช่"""
+ScotApp_533,คุณไม่สามารถซื้อสินค้านี้ได้ในขณะนี้\nโปรดแยกออกแล้วดำเนินการซื้อต่อ
+ScotApp_1763,e=d=%5.3fกก. สูงสุด %5.3fกก. ต่ำสุด %3.1fกก. จำนวนสูงสุด %4.0f
+ScotApp_1762,e=d=%4.2fปอนด์ สูงสุด %4.2f ปอนด์ ต่ำสุด %3.1f ปอนด์ จำนวนสูงสุด %4.0f
+ScotApp_1764,e = d = %4.2f ปอนด์ สูงสุด %4.2f ปอนด์ ต่ำสุด %3.1f ปอนด์ จำนวนสูงสุด %4.0f
+ScotApp_1765,e = d = %5.3f กก. สูงสุด %5.3f กก. ต่ำสุด %3.1f กก. จำนวนสูงสุด %4.0f
+ScotApp_305,เลือกบรรจุภัณฑ์สำหรับ: %s
+ScotApp_703,"ใช้เครื่องอ่านรหัสพิน กด ""ยกเลิก"" บนเครื่องอ่านรหัสพินเพื่อยกเลิกการชำระเงิน"
+ScotApp_125,ใส่วันเกิดของลูกค้า
+ScotApp_1853,"ป้อนวันเกิดของลูกค้า %s และแตะ ""ป้อน"""
+ScotApp_654,วันที่ควรอยู่ในรูปแบบ %s  ค่าที่ใส่: %s
+ScotApp_560,ระบบนี้ไม่ยอมรับคูปอง
+ScotApp_1788,%d ถูกต้อง? \n\nค่าถุงจำนวน จะถูกเพิ่มในจำนวนโดยรวมของคุณ %s
+ScotApp_1358,นำบัตรของขวัญจำนวน ไปใช้กับการซื้อของคุณแล้ว %s \n\nยอดคงเหลือของบัตรของขวัญของคุณคือ %s
+ScotApp_167,คูปองไม่ตรงกับสินค้าที่ซื้อ\n\nไม่สามารถรับคูปองนี้
+ScotApp_164,ระบบไม่รู้จักรหัสสินค้านั้น\n\nตรวจสอบว่าได้ป้อนหมายเลขที่ถูกต้อง
+ScotApp_547,หมายเลขและรหัสผ่านผู้ดำเนินการไม่ถูกต้อง\n\nโปรดลองอีกครั้ง
+ScotApp_442,%s ของการซื้อของคุณสามารถชำระด้วยคูปองอาหาร \n\n%s ได้
+ScotApp_443,จะเรียกเก็บ %s ไปยังบัญชีของคุณ\n\nตกลงหรือไม่?
+ScotApp_700,ไม่สามารถขายสินค้าที่ช่องจ่ายเงินนี้\nกำลังจะแสดงวิธีใช้\n\nแยกสินค้าออกแล้วซื้อสินค้าต่อ
+ScotApp_165,ระบบไม่รู้จักรหัสสินค้านั้น\nกำลังจะแสดงวิธีใช้\n\nแยกสินค้าออกแล้วซื้อสินค้าต่อ
+ScotApp_182,จำนวนที่คุณป้อนสำหรับคูปองนี้สูงเกินไป\n\nระบบนี้ไม่สามารถรับคูปองนี้ได้
+ScotApp_733,บัตรถูกปฏิเสธ\nใช้บัตรอื่นหรือจ่ายด้วยเงินสด
+ScotApp_812,ขอบคุณที่ใช้  NCR SelfServ Checkout\nโปรดนำบัตรของขวัญของคุณไปที่แคชเชียร์
+ScotApp_1826,คุณต้องการบันทึกการตั้งค่าบัตรสะสมคะแนนของคุณหรือไม่
+ScotApp_1852,โปรดนำสินค้าที่ยกเลิกออกจากบริเวณใส่ถุง
+QRCodeErrorText,QR Code Error
+ScanQRCodeInstruction,Scan this code to complete\nyour Mobile shopping.
+ScotApp_1896,Transferring items from mobile cart.
+ScotApp_1897,โปรดรอ...
+ScotApp_1898,Mobile Cart
+ScotApp_1899,Mobile Audit
+ScotApp_1900,Mobile Shopper Audit
+ScotApp_1901,"Touch ""OK"" then use Attendant Handset to complete audit."
+ScotApp_1902,Begin Mobile Transaction
+ScotApp_1903,End Mobile Transaction
+ScotApp_1904,%d Items Sold
+ScotApp_1905,Scan barcode to complete your Mobile checkout.
+ScotApp_1906,Mobile cart transfer is complete.
+ScotApp_1907,\nTouch Pay or add more items.
+MoveLeft,< Move
+MoveRight,Move >
+Accessibility,Accessibility
+SearchItemCodeWatermark,Enter Item Code
+ScanAndBagNoSearchKeyIn,Scan or look up item to start
+ScanLookUpKeyInItem,"Scan, look up, or key in item code to start."
+LookUpKeyInItem,Look up or Key in Item
+ScanOrKeyInItem,Scan or Key in Item
+XM_ProcessingCashTextV6HW,•   Insert coins in Coin Acceptor.\n•   Insert notes in Note Acceptor.\n
+XM_CoinHoppersV6HW,Coin Hoppers
+XM_CoinBoxV6HW,Coin Box - %d - %s
+XM_ConfirmTransferNotesToBaseLevelV6HW,Transfer Notes to Note Box\n\nAmount to transfer: %s\nCount to transfer: %d\n\nThe transferring process may take several minutes.
+XM_ConfirmTransferAllNotesV6HW,Transfer All Notes to Note Box\n\nAmount to transfer: %s\nCount to transfer: %d\n\nThe transferring process may take several minutes.
+XM_ResetCoinsAllCoinsV6HW,Dispense All Coins
+XM_ResetCoinHopperCountsV6HW,Reset Coin Hopper Counts
+XM_ResetNoteBoxCountsV6HW,Reset Note Box Count
+XM_MenuNoteBoxTransferV6HW,Note Box Transfers
+XM_AddCashLeadthruV6HW,"•   Insert coins in Coin Acceptor.\n•   Insert notes in Note Acceptor.\n•   Touch ""Enable Coin Refill Chute"" to add coins in refill chute.\n•   Touch ""Setup Loader"" to add notes in loader."
+XM_FinishedAddingCashV6HW,"When finished adding cash, touch ""OK""."
+XM_OKV6HW,OK
+XM_SetupLoaderV6HW,Setup Loader
+XM_MenuSetupLoaderV6HW,Setup Loader
+XM_SetupLoaderLeadthruV6HW,"•   Enter ""%s"" default denomination amount/count for the \n     loader and touch ""OK"".\n•   When finished, ""Apply Changes""."
+XM_SetupLoaderNotEmptyV6HW,"\nWhen swapping loaders, because the current loader\ncount is greater than zero, manually remove the notes from the current loader and add the notes to the new loader."
+XM_NoteLoaderV6HW,Note Loader
+XM_EnableCoinInputBowlV6HW,Enable Coin Input Bowl
+XM_EnableCoinRefillChuteV6HW,Enable Coin Refill Chute
+XM_EnableCoinAcceptorV6HW,Enable Coin Acceptor
+XM_TopOffCashPrintStatusV6HW,Top-Off Cash or Print Status
+XM_TransferOperationPreemptiveV6HW,Note transfer in progress... please wait.\n\nDO NOT REMOVE NOTE BOX or   \nother devices until operation is complete.
+XM_TransferOperationInstructionV6HW,Transfer Complete.\nRemove all notes from Note Box and\n Reset Note Box.
+XM_PendingDispenseV6HW,Pending dispense %d - %s
+XM_PendingTransferV6HW,Pending transfer %d - %s
+XM_PendingResetV6HW,Pending reset %d - %s
+XM_ConfirmResetNoteBoxV6HW,Reset Note Box Counts/Value\n\nAmount to Reset: %s\nCount to Reset: %d\n\nAmount after reset note box: $0\nCount after reset note box: 0
+XM_PendingCashRemoveV6HW,"Open safe door, remove Note Box and all notes.\nReplace empty Note Box.\n\nWhen complete, touch ""OK""."
+XM_LeadThruResetNoteBoxFunctionV6HW,"Reset Functions\n•   Reset Note Box Count to zero.\n•   When finished, ""Apply Changes""."
+XM_AllV6HW,All
+XM_LeadThruTransferNotesToNoteBoxFunctionV6HW,"Note Box Transfers\n•   To transfer notes, touch ""Apply Changes"".\n•   To cancel, touch ""Cancel Changes""."
+XM_ReplenishNotesFromLoaderToRecyclersPreemptiveV6HW,Loading in progress... please wait.
+XM_SetupLoaderAlertConfirmationV6HW,"Setup Loader\n\nEnsure loader has correct values and is inserted, then\n touch ""OK"" to load notes."
+XM_SetupLoaderAlertConfirmation1V6HW,"Setup Loader\n\nAdd notes to loader, ensure loader is inserted, then touch ""OK"" to load notes."
+XM_SetupLoaderConfirmationV6HW,Setup Loader\n\n%s notes Status in loader:\n\nOriginal / Starting Amount: %s\nOriginal / Starting Count: %d\nAmount to Add to Loader: %s\nCount to Add to Loader: %d\n\nPlace notes that are not designated as float or dispense on the bottom of the loader.  Notes on the bottom of loader will be automatically counted and loaded until the loader denomination is reached.\n\nThe loading process may take several minutes.
+XM_SetupLoaderConfirmation1V6HW,Setup Loader\n\nAll loader notes will automatically be\nloaded and counted.\n\nThe loading process may take several minutes.
+XM_PendingNotesAddedV6HW,Default notes added %d - %s
+XM_ProcessingCashV6HW,Processing Cash
+XM_ProcessingCashLeadThruV6HW,•   Insert coins in Coin Acceptor.\n•   Insert notes in Note Acceptor.
+XM_SetupLoaderLeadThru1V6HW,"•   To add notes to loader, touch ""Apply Changes"".\n•   To cancel, touch ""Cancel Changes""."
+XM_LeadThruDispenseFunctionV6HW,Dispense Functions\n•   Enter amount/count for %s notes using keypad.
+XM_LeadThruDispenseFunction1V6HW,"Dispense Functions\n•   To dispense coins, touch ""Apply Changes"".\n•   To cancel, touch ""Cancel Changes""."
+XM_ConfirmCoinDispenseAllV6HW,Dispense All Coins\n\nAmount to Dispense: %s\nCount to Dispense: %d
+XM_DispenseOperationPreemptiveV6HW,"Dispensing coins in progress.\n\nRemove coins from coin bowl when full and touch ""OK""."
+XM_ConfirmCoinDispenseToBaseLevelV6HW,Dispense Coins to Base Level\n\nAmount to Dispense: %s\nCount to Dispense: %d
+XM_LeadThruResetCoinHopperFunctionV6HW,"Reset Functions\n•   Reset Coin Hopper Counts to zero.\n•   When finished, ""Apply Changes""."
+XM_ResetCoinHopperLeadThruV6HW,"Remove coins from coin hoppers. Replace\nempty coin hoppers.\n\nWhen complete, touch ""OK""."
+XM_LoaderCountEnteredExceededCapacityV6HW,The loader count entered exceeds capacity. Maximum loader count allowed is %d.
+XM_CoinHopperPendingResetV6HW,Pending reset %d - %s
+XM_ConfirmResetCoinHopperV6HW,Reset Coin Hopper Counts / Value\n
+XM_ConfirmResetCoinHopper1V6HW,\n%s\nReset Amount: %s Count: %d\n
+XM_ConfirmResetCoinHopper2V6HW,\nAfter Reset:\nCoins in Hopper: %s Count: %d\nCoins in Coin Box: %s Count: %d
+XM_SignSigTouchDisplayV6HW,Please sign signature on the touch display.
+XM_LeadThruCashManagementErrorV6HW,Cash Management Error
+XM_LoanPickupUpdateFailureV6HW,Cash management update failed
+XM_LoanPickupUpdateNoResponseV6HW,No Response from POS when updating Cash management status
+XM_LoanPickupUpdateFailureInstructionV6HW,"\n•   Touch 'Retry' to update.\n•   If error recurs, contact store management.\n•   This error will not clear until a successful update is performed."
+XM_LoanPickupUpdateNoResponseInstructionV6HW,•   Report this error immediately to store management.\n•   The cash management status may not have been updated.\n•   Access the Utility Functions screen.
+XM_LoanPickupUpdateNoResponseInstruction1V6HW,"•   Touch ""Generate Diagnostic Log Files"" then touch ""Shutdown Entire System"".\n•   Power the system back on.\n•   If error recurs, generate another diagnostic log file and call for service.\n"
+XM_CashManagementErrorRetryButtonV6HW,Retry
+XM_CannotCompleteTransferV6HW,Cannot complete transfer.\n The note box does not have sufficient space. Please empty the note box before performing this operation.
+XM_CashStatusLeadthruV6HW,"•   Print cash status.\n•   Insert coins in Coin Acceptor.\n•   Insert notes in Note Acceptor.\n•   Touch ""Exit"" when finished."
+XM_NonDispensableCoinsV6HW,Non-dispensable Coins
+XM_DispensableCoinsV6HW,Dispensable Coins
+XM_ConfirmNoteDispenseV6HW,Dispense Notes\n\nAmount to Dispense: %s\nCount to Dispense: %d
+XM_DispenseNoteFullPreemptiveV6HW,Please Take Notes\n\nNotes are dispensed in bunches of %d.\nDispensing will pause until all notes are taken.
+XM_NoteBoxV6HW,Note Box
+XM_NoteRecyclerV6HW,Note Recyclers
+XM_DispenseCoinsToBaseLevelV6HW,Dispense Coins\nto Base Level
+XM_TransferNotesToBaseLevelV6HW,Transfer Notes to Base Level
+XM_TransferAllNotesV6HW,Transfer All Notes
+XM_LeadThruNoteBoxTransferV6HW,"Note Box Transfers\n•   Select desired transfer function.\n•   When finished, ""Apply Changes""."
+XM_LeadThruResetFunctionV6HW,"Reset Functions\n•   Select desired reset function.\n•   When finished, ""Apply Changes""."
+XM_LeadThruDispenseFunction2V6HW,"Dispense Functions\n•   Touch note denomination and enter amount/count or select\n     function.\n•   When finished, ""Apply Changes""."
+XM_DispenseThresholdV6HW,Number entered exceeded count available to dispense.\nMaximum count was entered: %d
+RemoveItemFromProduceScale,Remove item from scale.
+RemoveItemFromProduceScaleTitle,Remove Item

@@ -1,0 +1,77 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.8964.0 (1346c301).
+//
+// c:\documents and settings\david\my documents\my visual studio projects\scot3.1\scotapp\debug\TelnetClientSupport.tlh
+//
+// C++ source equivalent of Win32 type library TelnetClientSupport.dll
+// compiler-generated file created 12/17/02 at 13:49:23 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct /* coclass */ TelnetClientIF;
+struct __declspec(uuid("1e457639-943f-4d9a-a765-07d264fe6ecb"))
+/* dual interface */ ITelnetClientIF;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(ITelnetClientIF, __uuidof(ITelnetClientIF));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("2a7dde01-8012-47f5-a3c6-4000cdf26c27"))
+TelnetClientIF;
+    // [ default ] interface ITelnetClientIF
+
+struct __declspec(uuid("1e457639-943f-4d9a-a765-07d264fe6ecb"))
+ITelnetClientIF : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT SetCallback (
+        const _variant_t & pfnCallbackAddr );
+    HRESULT ReceiveString (
+        BSTR * bstrInputString,
+        long lCharCount );
+    HRESULT TransmitString (
+        _bstr_t bstrSendString );
+    HRESULT Connect (
+        _bstr_t bstrHostName,
+        long lPortNum );
+    HRESULT Disconnect ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_SetCallback (
+        VARIANT pfnCallbackAddr ) = 0;
+    virtual HRESULT __stdcall raw_ReceiveString (
+        BSTR * bstrInputString,
+        long lCharCount ) = 0;
+    virtual HRESULT __stdcall raw_TransmitString (
+        BSTR bstrSendString ) = 0;
+    virtual HRESULT __stdcall raw_Connect (
+        BSTR bstrHostName,
+        long lPortNum ) = 0;
+    virtual HRESULT __stdcall raw_Disconnect ( ) = 0;
+};
+
+//
+// Wrapper method implementations
+//
+
+#include <TelnetClientSupport.tli>
+
+#pragma pack(pop)

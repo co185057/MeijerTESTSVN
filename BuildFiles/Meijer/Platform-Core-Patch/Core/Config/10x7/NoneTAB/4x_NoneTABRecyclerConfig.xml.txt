@@ -1,0 +1,19 @@
+<Display Version="1.0">
+  <Controls>
+    <Control Name="AttractVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\Attract_40_Recycler.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="CashPaymentVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\InsertCash_40_Recycler.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="TakeChangeVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\TakeChange_40_Recycler.avi</Property>
+      </Properties>
+    </Control>
+  </Controls>
+</Display>

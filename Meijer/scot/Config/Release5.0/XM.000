@@ -1,0 +1,142 @@
+<!-- Change History:							  			-->
+<!-- POS33675 Work Request:61232 Name:Robert Susanto Date:February 6 2014		  			-->
+<!-- POS18045 Work Request:16656 Name:Robert Susanto Date:October 12 2011  				-->
+<!-- 												-->
+
+<Display Version="1.0">
+	<Contexts>	
+
+		<Context Name="XMCashReplenish">
+			<Include>
+				<Control Name="XMButton2">
+					<Properties>
+						<Property Name="Position">0,0,0,0</Property>
+						<Property Name="Visible">False</Property>
+					</Properties>
+				</Control>
+				<Control Name="XMButton3">
+					<Properties>
+						<Property Name="Position">0,0,0,0</Property>
+						<Property Name="Visible">False</Property>
+					</Properties>
+				</Control>			
+			</Include>
+		</Context>
+
+		<Context Name="XMCashRemoveBNR">
+			<CustomData>
+				<Data Name="DefaultMenuButton"></Data>
+			</CustomData>
+			<Include>				
+				<Control Name="XMMenuButton5001" Type="Button">
+					<CustomData>
+ 						<Data Name="LeadThruTitle">$XM_CashRemove$</Data>
+						<Data Name="ClickLeadThru">$XM_CashRemoveLeadthru$</Data>
+					</CustomData>
+
+					<Properties>
+						<Property Name="Position">0,0,0,0</Property>
+						<Property Name="Visible">False</Property>
+					</Properties>
+				</Control>
+				<Control Name="XMMenuButton5002" Type="Button">
+					<Properties>
+						<Property Name="Position">0,0,0,0</Property>
+						<Property Name="Visible">False</Property>
+					</Properties>
+				</Control>
+				<Control Name="XMMenuButton5003" Type="Button">
+					<Properties>
+						<Property Name="Position">0,0,0,0</Property>
+						<Property Name="Visible">False</Property>
+					</Properties>
+				</Control>
+				<Control Name="XMMenuButton5004" Type="Button">
+					<Properties>
+						<Property Name="Position">0,0,0,0</Property>
+						<Property Name="Visible">False</Property>
+					</Properties>
+				</Control>
+
+				<Control Name="XMButton4">
+					<Properties>
+						<Property Name="Position">0,0,0,0</Property>
+						<Property Name="Visible">False</Property>
+					</Properties>
+				</Control>
+				<Control Name="XMButton5">
+					<Properties>
+						<Property Name="Position">0,0,0,0</Property>
+						<Property Name="Visible">False</Property>
+					</Properties>
+				</Control>
+				<Control Name="XMButton7">
+					<Properties>
+						<Property Name="Position">0,0,0,0</Property>
+						<Property Name="Visible">False</Property>
+					</Properties>
+				</Control>
+
+				
+				<Control Name="XMButton9">
+					<Properties>
+						<Property Name="Position">0,0,0,0</Property>
+						<Property Name="Visible">False</Property>
+					</Properties>
+				</Control>
+
+				<Control Name="XMButton10">
+					<Properties>
+						<Property Name="Position">0,0,0,0</Property>
+						<Property Name="Visible">False</Property>
+					</Properties>
+				</Control>
+				
+<!-- Reset Coin counts button -->
+				<Control Name="XMButton2">
+					<Properties>
+						<Property Name="Position">718,7,137,65</Property>
+						<Property Name="TextFormat">$XM_ManualCoinDispenserEmpty$</Property>
+						<Property Name="Visible">True</Property>
+					</Properties>
+				</Control>
+<!-- Reset Coin overflow button -->
+				<Control Name="XMNonDispenseCylinder401EmptyButton">
+					<Properties>
+						<Property Name="Position">864,7,137,65</Property>
+						<Property Name="Visible">True</Property>
+					</Properties>
+				</Control>
+<!-- Reset Cash Box button -->
+				<Control Name="XMNonDispenseCylinder501EmptyButton">
+					<Properties>
+						<Property Name="Position">718,74,137,65</Property>
+						<Property Name="Visible">True</Property>
+					</Properties>
+				</Control>
+
+<!-- Transferr All Bills button -->
+				<Control Name="XMButton6">
+					<Properties>
+						<Property Name="Position">864,74,137,65</Property>
+						<Property Name="TextFormat">$XM_TransferAllNotes$</Property>
+						<Property Name="Visible">True</Property>
+					</Properties>
+				</Control>
+
+			</Include>
+		</Context>	
+
+<!-- POS33675 -->
+		<Context Name="XMCashStatus">
+			<Remove>
+				<Control Name="XMLockScreen">
+				</Control>
+				<Control Name="XMLockScreenText">
+				</Control>
+			</Remove>
+		</Context>
+<!-- POS33675 -->
+	
+	</Contexts>
+</Display>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Display>
+	<!-- THIS FILE USE TO CONFIG OMNI490 PINPAD UNIT -->
+	<!--CONTROL -->
+	<Control Name="SwipeCardVideo" Type="Video" Synchronize="False">
+		<Video>%MediaPath%\SwipeCard_Omni490_FF_Mini.avi</Video>
+	</Control>		
+</Display>

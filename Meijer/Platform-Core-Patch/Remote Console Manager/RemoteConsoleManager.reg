@@ -1,0 +1,20 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\SCOTAPP\RemoteConsoleManager]
+"Record"="true"
+"Record.Name"="%DATA_DRIVE%\\scot\\logs\\RCMAPI.data"
+"State.Machine.Name"="%APP_DRIVE%\\scot\\config\\RCMgr.xml"
+"Config.Name"="%APP_DRIVE%\\scot\\config\\RCMConfig.xml"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\SCOTAPP\RemoteConsoleManager\DataCapture]
+"DcapVersion"="1.1.3"
+"DcapTime"="1F00 -> Hex time option(s): 100=m:s, 300=h:m:s, 700=m/d h:m:s; 800+digits=millisec; 1000=threadid"
+"DcapMask"="FFFFFEC0 -> Hex mask of events to capture"
+"DcapControl"="4 -> Hex destination(s): 1=DCap App, 2=Debugger, 4=File; 10/20/40 for immediate"
+"DcapFileMax"="5120 -> Max KB of data cap file"
+"DcapFile"="%DATA_DRIVE%\\scot\\logs\\rcm.log"
+"DcapLinePrefix"="RCM "
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\SCOTAPP\RemoteConsoleManager\XML.Loader]
+"Missing.Handler"="fail"
+

@@ -1,0 +1,81 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FB23B71C-933C-48E7-8A05-EA3B6AC5F74B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RapNet</RootNamespace>
+    <AssemblyName>RapNetBase</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup>
+    <IntermediateOutputPath Condition=" '$(PlatformName)' == 'AnyCPU' ">$(BaseIntermediateOutputPath)$(Configuration)\ZZZ\</IntermediateOutputPath>
+    <IntermediateOutputPath Condition=" '$(PlatformName)' != 'AnyCPU' ">$(BaseIntermediateOutputPath)$(PlatformName)\$(Configuration)\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug8\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release8\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PsxNet, Version=3.3.0.16, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Scot\ADK\lib\release7\PsxNet.dll</HintPath>
+    </Reference>
+    <Reference Include="RPSWNET, Version=5.1.0.12, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Scot\ADK\lib\release7\RPSWNET.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\Biometric.cs" />
+    <Compile Include="src\ConfigData.cs" />
+    <Compile Include="src\ConnectThread.cs" />
+    <Compile Include="src\LanePsx.cs" />
+    <Compile Include="src\MonitoringState.cs" />
+    <Compile Include="src\Pinvoke.cs" />
+    <Compile Include="src\Remote.cs" />
+    <Compile Include="src\ScannerThread.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\SharedPsx.cs" />
+    <Compile Include="src\SignOnState.cs" />
+    <Compile Include="src\SimpleHash.cs" />
+    <Compile Include="src\State.cs" />
+    <Compile Include="src\TransactionCount.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>if not exist "..\..\..\..\..\Bin\$(ConfigurationName)8" mkdir "..\..\..\..\..\Bin\$(ConfigurationName)8"
+copy "RapNetBase.dll" "..\..\..\..\..\Bin\$(ConfigurationName)8\." /y
+if exist RapNetBase.pdb copy "RapNetBase.pdb" "..\..\..\..\..\Bin\$(ConfigurationName)8\." /y
+</PostBuildEvent>
+  </PropertyGroup>
+</Project>

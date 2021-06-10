@@ -1,0 +1,167 @@
+<Display Version="1.0">
+  <Includes>
+    <Include File="%ConfigPath%\HHACSAssistModeSpecific.xml" />
+  </Includes>
+  <Controls>
+    <Control Name="PrepaidCardList" Type="Receipt">
+      <Properties>
+        <Property Name="Position">20,120,217,136</Property>
+        <Property Name="FillStyle">1</Property>
+        <Property Name="Font">ReceiptFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="SelectionFont">ReceiptFont</Property>
+        <Property Name="SelectionBackgroundColor">Gray</Property>
+        <Property Name="SelectionForegroundColor">White</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="DataSource">PrepaidCardList</Data>
+        <Data Name="ItemType1">ITEM_DESCRIPTION</Data>
+        <Data Name="ItemType1StringID">$AMReceiptItemType2$</Data>
+        <Data Name="ItemType1Wrap">True</Data>
+      </CustomData>
+    </Control>
+  </Controls>
+  <Contexts>
+    <Context Name="CheckOnLane">
+			<CustomData>
+				<DataNeededView>51</DataNeededView>
+			</CustomData>
+			<BackgroundColor>White</BackgroundColor>
+			<IncludeControl Name="LaneReceipt"/>
+			<IncludeControl Name="LaneReceiptPageUp"/>
+			<IncludeControl Name="LaneReceiptPageDown"/>
+			<IncludeControl Name="ButtonCommand0">
+				<Position>165,283,74,37</Position>
+				<TextFormat>$GoBackButtonText$</TextFormat>
+				<Picture>%MediaPath%\btn-global.png</Picture>
+			</IncludeControl>		
+			<IncludeControl Name="LaneCaptionText"/>
+			<IncludeControl Name="LaneCaption"/>
+			<IncludeControl Name="TotalText"/>
+			<IncludeControl Name="TotalAmount"/>	
+			<IncludeControl Name="ItemText"/>
+			<IncludeControl Name="ItemAmount"/>			
+			<IncludeControl Name="TitleText">
+				<TextFormat>$CheckOnLaneTitle$</TextFormat>
+			</IncludeControl>					
+			<IncludeControl Name="InstructionText">
+				<TextFormat>$CheckOnLaneLeadthru$</TextFormat>
+			</IncludeControl>		
+		</Context>
+		<Context Name="CheckOnLaneRap">
+			<CustomData>
+				<DataNeededView>52</DataNeededView>
+			</CustomData>
+			<BackgroundColor>White</BackgroundColor>
+			<IncludeControl Name="LaneReceipt"/>
+			<IncludeControl Name="LaneReceiptPageUp"/>
+			<IncludeControl Name="LaneReceiptPageDown"/>
+			<IncludeControl Name="ButtonCommand0">
+				<Position>165,283,74,37</Position>
+				<TextFormat>$GoBackButtonText$</TextFormat>
+				<Picture>%MediaPath%\btn-global.png</Picture>
+			</IncludeControl>		
+			<IncludeControl Name="LaneCaptionText"/>
+			<IncludeControl Name="LaneCaption"/>
+			<IncludeControl Name="TotalText"/>
+			<IncludeControl Name="TotalAmount"/>	
+			<IncludeControl Name="ItemText"/>
+			<IncludeControl Name="ItemAmount"/>			
+			<IncludeControl Name="TitleText">
+				<TextFormat>$CheckOnLaneTitle$</TextFormat>
+			</IncludeControl>					
+			<IncludeControl Name="InstructionText">
+				<TextFormat>$CheckOnLaneRapLeadthru$</TextFormat>
+			</IncludeControl>		
+		</Context>
+    <Context Name="TakeChangeTimeout">
+      <Properties>
+        <Property Name="BackgroundColor">White</Property>
+      </Properties>
+      <Include>
+        <Control Name="LaneReceipt">
+          <Properties>
+            <Property Name="Position">20,97,220,159</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneReceiptPageUp">
+          <Properties>
+            <Property Name="Position">3,104,15,14</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneReceiptPageDown">
+        </Control>
+        <Control Name="ButtonCommand1">
+          <Properties>
+            <Property Name="Position">165,283,74,37</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneStatusButton">
+        </Control>
+        <Control Name="LaneButton">
+        </Control>
+        <Control Name="HHAssistModeButton">
+          <Properties>
+            <Property Name="Position">161,3,73,37</Property>
+          </Properties>
+        </Control>
+        <Control Name="TotalText">
+        </Control>
+        <Control Name="TotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="LaneButtonText">
+          <Properties>
+            <Property Name="TextFormat">$TakeChangeTimerExpiredTitle$</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionText">
+        </Control>
+        <Control Name="LaneStateWindow1">
+          <Properties>
+            <Property Name="Position">3,43,234,18</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneStateWindow2">
+          <Properties>
+            <Property Name="Position">3,61,234,18</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneStateWindow3">
+          <Properties>
+            <Property Name="Position">3,79,234,18</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+  </Contexts>
+</Display>

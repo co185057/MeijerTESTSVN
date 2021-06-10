@@ -1,0 +1,21 @@
+; This comment line required if file converted to UNICODE.  Do not delete this line!
+[Operations]
+; This option is use to enable SSCOMobile Shopper
+; Default is N
+EnableMobileShopper=Y
+
+;Allow Mobile audit to use RAP Scanner
+RapScannerAllowedForAudit=Y
+
+;Name of the DataNeeded ini file for Mobile Audit
+MobileAuditDataEntryINI=c:\Scot\config\MobileAuditDataEntry.ini
+
+;Name of the ini section used for the initial Mobile Audit intervention.
+;MobileAuditSection=MobileTransactionAudit
+;MobileAuditSection=MobileTransactionAuditLaneOrMC18
+;MobileAuditSection=MobileTransactionAuditLaneOnly
+MobileAuditSection=MobileTransactionAuditLaneOnly
+
+[TimeOut]
+;Timeout to keep buttons disabled while waiting for Central server response - in seconds
+MobileAuditResponseTimeout=15

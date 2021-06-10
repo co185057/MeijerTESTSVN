@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<!-- The format of this file is:	 	-->
+<!-- <DeviceError>                           	-->
+<!-- 	<SectionName>			     	-->
+<!--		<Title1>Msg id in scotmsge.dat for title 1</Title1>-->
+<!--		<Title2>Msg id in scotmsge.dat for title 2</Title2>-->
+<!--	   	<Text>Msg id in scotmsge.dat</Text>		-->
+<!--		<Image>Bitmap id in scotbmpe.dat</Image> 	-->
+<!--		<Wave>id in scotwave.dat</Wave>			-->
+<!--		<Movie>Movie name in text</Movie>		-->
+<!--	</SectionName>					-->
+<!--</DeviceError>					-->
+
+
+<DeviceError>
+	<NCR_E5635_PURGE_OUT>
+		<Title1>1135</Title1>
+		<Title2>1402</Title2>
+		<Text>1403</Text>
+	</NCR_E5635_PURGE_OUT>
+
+	<NCR_E5633_PURGE_OUT>
+		<Title1>1135</Title1>
+		<Title2>1136</Title2>
+		<Text>1116</Text>
+                <Image>128</Image>
+	</NCR_E5633_PURGE_OUT>
+
+	<NCR_E5633_CASS_OUT>
+		<Title1>1135</Title1>
+		<Title2>1137</Title2>
+		<Text>1117</Text>
+                <Image>129</Image>
+	</NCR_E5633_CASS_OUT>
+
+	<NCR_E5633_CASS_OUT_ONE>
+		<Title1>1135</Title1>
+		<Title2>1137</Title2>
+		<Text>1117</Text>
+                <Image>129</Image>
+	</NCR_E5633_CASS_OUT_ONE>
+
+	<NCR_E5633_CASS_OUT_TWO>
+		<Title1>1135</Title1>
+		<Title2>1137</Title2>
+		<Text>1117</Text>
+                <Image>129</Image>
+	</NCR_E5633_CASS_OUT_TWO>
+
+	<NCR_E5633_CASS_OUT_THREE>
+		<Title1>1135</Title1>
+		<Title2>1137</Title2>
+		<Text>1117</Text>
+                <Image>129</Image>
+	</NCR_E5633_CASS_OUT_THREE>
+
+	<NCR_E5633_CASS_OUT_FOUR>
+		<Title1>1135</Title1>
+		<Title2>1137</Title2>
+		<Text>1117</Text>
+                <Image>129</Image>
+	</NCR_E5633_CASS_OUT_FOUR>
+
+	<NCR_E5633_CASS_OUT2>
+		<Title1>1135</Title1>
+		<Title2>1137</Title2>
+		<Text>1117</Text>
+                <Image>129</Image>
+	</NCR_E5633_CASS_OUT2>
+
+	<NCR_E5633_CASS_OUT_ONE2>
+		<Title1>1135</Title1>
+		<Title2>1137</Title2>
+		<Text>1117</Text>
+                <Image>129</Image>
+	</NCR_E5633_CASS_OUT_ONE2>
+
+	<NCR_E5633_CASS_OUT_TWO2>
+		<Title1>1135</Title1>
+		<Title2>1137</Title2>
+		<Text>1117</Text>
+                <Image>129</Image>
+	</NCR_E5633_CASS_OUT_TWO2>
+
+	<NCR_E5633_CASS_OUT_THREE2>
+		<Title1>1135</Title1>
+		<Title2>1137</Title2>
+		<Text>1117</Text>
+                <Image>129</Image>
+	</NCR_E5633_CASS_OUT_THREE2>
+
+	<NCR_E5633_CASS_OUT_FOUR2>
+		<Title1>1135</Title1>
+		<Title2>1137</Title2>
+		<Text>1117</Text>
+                <Image>129</Image>
+	</NCR_E5633_CASS_OUT_FOUR2>
+
+	<NCR_E5633_FEED_FAILURE>
+		<Title1>1135</Title1>
+		<Title2>1140</Title2>
+		<Text>1121</Text>
+                <Image>131</Image>
+	</NCR_E5633_FEED_FAILURE>
+
+	<NCR_E5633_FEED_FAILURE_ONE>
+		<Title1>1135</Title1>
+		<Title2>1138</Title2>
+		<Text>1118</Text>
+                <Image>130</Image>
+	</NCR_E5633_FEED_FAILURE_ONE>
+
+	<NCR_E5633_FEED_FAILURE_TWO>
+		<Title1>1135</Title1>
+		<Title2>1138</Title2>
+		<Text>1118</Text>
+                <Image>130</Image>
+	</NCR_E5633_FEED_FAILURE_TWO>
+
+	<NCR_E5633_FEED_FAILURE_THREE>
+		<Title1>1135</Title1>
+		<Title2>1138</Title2>
+		<Text>1118</Text>
+                <Image>130</Image>
+	</NCR_E5633_FEED_FAILURE_THREE>
+
+	<NCR_E5633_FEED_FAILURE_FOUR>
+		<Title1>1135</Title1>
+		<Title2>1138</Title2>
+		<Text>1118</Text>
+                <Image>130</Image>
+	</NCR_E5633_FEED_FAILURE_FOUR>
+
+	<NCR_E5633_TIMING_WHEEL_FAILED>
+		<Title1>1135</Title1>
+		<Title2>1139</Title2>
+		<Text>1119</Text>
+	</NCR_E5633_TIMING_WHEEL_FAILED>
+
+	<NCR_E5633_TIMING_WHEEL_FAILED2>
+		<Title1>1135</Title1>
+		<Title2>1138</Title2>
+		<Text>1157</Text>
+	</NCR_E5633_TIMING_WHEEL_FAILED2>
+
+	<NCR_E5633_PICK_SENSOR>
+		<Title1>1135</Title1>
+		<Title2>1140</Title2>
+                <Image>131</Image>
+		<Text>1120</Text>
+	</NCR_E5633_PICK_SENSOR>
+
+	<NCR_E5633_PICK_SENSOR_ONE>
+		<Title1>1135</Title1>
+		<Title2>1140</Title2>
+                <Image>131</Image>
+		<Text>1120</Text>
+	</NCR_E5633_PICK_SENSOR_ONE>
+
+	<NCR_E5633_PICK_SENSOR_TWO>
+		<Title1>1135</Title1>
+		<Title2>1140</Title2>
+                <Image>131</Image>
+		<Text>1120</Text>
+	</NCR_E5633_PICK_SENSOR_TWO>
+
+	<NCR_E5633_PICK_SENSOR_THREE>
+		<Title1>1135</Title1>
+		<Title2>1140</Title2>
+                <Image>131</Image>
+		<Text>1120</Text>
+	</NCR_E5633_PICK_SENSOR_THREE>
+
+	<NCR_E5633_PICK_SENSOR_FOUR>
+		<Title1>1135</Title1>
+		<Title2>1140</Title2>
+                <Image>131</Image>
+		<Text>1120</Text>
+	</NCR_E5633_PICK_SENSOR_FOUR>
+
+	<NCR_E5633_PICK_SENSOR2>
+		<Title1>1135</Title1>
+		<Title2>1138</Title2>
+		<Text>1120</Text>
+	</NCR_E5633_PICK_SENSOR2>
+
+	<NCR_E5633_PICK_SENSOR_ONE2>
+		<Title1>1135</Title1>
+		<Title2>1138</Title2>
+		<Text>1120</Text>
+	</NCR_E5633_PICK_SENSOR_ONE2>
+
+	<NCR_E5633_PICK_SENSOR_TWO2>
+		<Title1>1135</Title1>
+		<Title2>1138</Title2>
+		<Text>1120</Text>
+	</NCR_E5633_PICK_SENSOR_TWO2>
+
+	<NCR_E5633_PICK_SENSOR_THREE2>
+		<Title1>1135</Title1>
+		<Title2>1138</Title2>
+		<Text>1120</Text>
+	</NCR_E5633_PICK_SENSOR_THREE2>
+
+	<NCR_E5633_PICK_SENSOR_FOUR2>
+		<Title1>1135</Title1>
+		<Title2>1138</Title2>
+		<Text>1120</Text>
+	</NCR_E5633_PICK_SENSOR_FOUR2>
+
+	<NCR_E5633_FEED_SENSOR>
+		<Title1>1135</Title1>
+		<Title2>1140</Title2>
+		<Text>1121</Text>
+                <Image>136</Image>
+	</NCR_E5633_FEED_SENSOR>
+
+	<NCR_E5633_FEED_SENSOR2>
+		<Title1>1135</Title1>
+		<Title2>1138</Title2>
+		<Text>1121</Text>
+                <Image>136</Image>
+	</NCR_E5633_FEED_SENSOR2>
+
+	<NCR_E5633_EXIT_SENSOR>
+		<Title1>1135</Title1>
+		<Title2>1140</Title2>
+		<Text>1122</Text>
+                <Image>132</Image>
+	</NCR_E5633_EXIT_SENSOR>
+
+	<NCR_E5633_EXIT_SENSOR2>
+		<Title1>1135</Title1>
+		<Title2>1138</Title2>
+		<Text>1122</Text>
+                <Image>132</Image>
+	</NCR_E5633_EXIT_SENSOR2>
+
+	<NCR_E5633_BILL_JAM>
+		<Title1>1135</Title1>
+		<Title2>1141</Title2>
+		<Text>1123</Text>
+                <Image>134</Image>
+	</NCR_E5633_BILL_JAM>
+
+	<NCR_E5633_DIVERTER_ERROR>
+		<Title1>1135</Title1>
+		<Title2>1140</Title2>
+		<Text>1122</Text>
+                <Image>135</Image>
+	</NCR_E5633_DIVERTER_ERROR>
+
+	<NCR_E5633_DIVERTER_ERROR2>
+		<Title1>1135</Title1>
+		<Title2>1138</Title2>
+		<Text>1122</Text>
+                <Image>135</Image>
+	</NCR_E5633_DIVERTER_ERROR2>
+
+	<!-- +TAR 353071 -->
+	<NCR_E5633_COMMUNICATION_FAILURE>
+		<Title1>1135</Title1>
+		<Title2>1705</Title2>
+		<Text>1704</Text>
+	</NCR_E5633_COMMUNICATION_FAILURE>
+	<!-- -TAR 353071 -->
+
+	<NCR_ECOINDISP_LOW_SENSOR_ALARM_ERROR>
+		<Title1>1142</Title1>
+		<Title2>1143</Title2>
+		<Text>1296</Text>
+	</NCR_ECOINDISP_LOW_SENSOR_ALARM_ERROR>
+
+	<NCR_ECOINDISP_ALARM_ERROR>
+		<Title1>1142</Title1>
+		<Title2>1143</Title2>
+		<Text>1125</Text>
+	</NCR_ECOINDISP_ALARM_ERROR>
+
+	<NCR_ECOINDISP_OFFLINE_ERROR>
+		<Title1>1142</Title1>
+		<Title2>1144</Title2>
+		<Text>1126</Text>
+	</NCR_ECOINDISP_OFFLINE_ERROR>
+
+	<NCR_ECOINDISP_OFFLINE_ERROR2>
+		<Title1>1142</Title1>
+		<Title2>1144</Title2>
+		<Text>1156</Text>
+	</NCR_ECOINDISP_OFFLINE_ERROR2>
+
+	<NCR_E5633_SUSPECT_EXIT_ACCOUNTANCY>
+		<Title1>1135</Title1>
+		<Title2>1141</Title2>
+		<Text>1123</Text>
+		<Image>134</Image>
+	</NCR_E5633_SUSPECT_EXIT_ACCOUNTANCY>
+
+	<NCR_BOTH_CANNOT_DISPENSE>
+		<Title1>1435</Title1>
+		<Title2>1138</Title2>
+		<Text>328</Text>
+	</NCR_BOTH_CANNOT_DISPENSE>
+
+	<NCR_BOTH_CANNOT_DISPENSE_HOPPER>
+		<Title1>1435</Title1>
+		<Title2>1138</Title2>
+		<Text>1700</Text>
+	</NCR_BOTH_CANNOT_DISPENSE_HOPPER>
+		
+	<HOPPER_JAM_BIN>
+		<Title1>1142</Title1>
+		<Title2>1138</Title2>
+		<Text>291</Text>
+	</HOPPER_JAM_BIN>
+	
+	<HOPPER_JAM_BIN_CASH_MANAGEMENT>
+		<Title1>1142</Title1>
+		<Title2>1138</Title2>
+		<Text>291</Text>
+	</HOPPER_JAM_BIN_CASH_MANAGEMENT>
+	
+	<HOPPER_SUBSTITUTION>
+		<Title1>1435</Title1>
+		<Text>1699</Text>
+	</HOPPER_SUBSTITUTION>
+
+	<HOPPER_SUBSTITUTION_CASH_MANAGEMENT>
+		<Title1>1435</Title1>
+		<Text>1694</Text>
+	</HOPPER_SUBSTITUTION_CASH_MANAGEMENT>
+
+	<NCR_BOTH_OVERDISPENSE>
+		<Title1>1435</Title1>
+		<Text>1658</Text>
+	</NCR_BOTH_OVERDISPENSE>
+	
+	<NCR_BOTH_CANNOT_DISPENSE_CASH_MANAGEMENT>
+		<Title1>1435</Title1>
+		<Title2>1138</Title2>
+		<Text>1469</Text>
+	</NCR_BOTH_CANNOT_DISPENSE_CASH_MANAGEMENT>
+
+	<DM_CASHCHANGER_STATUS_DISPENSE>
+		<Title1>1710</Title1>
+		<Text>1709</Text>
+	</DM_CASHCHANGER_STATUS_DISPENSE>
+
+
+	<DEVICEERRORUNKNOWN>
+		<Title1>1142</Title1>
+		<Text> 1099</Text>
+	</DEVICEERRORUNKNOWN>
+
+</DeviceError>

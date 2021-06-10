@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<Device-Lookup-Table>
+<DeviceModels>
+	<Device-Model id="0" name="Any"/>  
+	
+</DeviceModels>
+
+<DeviceErrors>
+	
+	<Device-Error>
+		<Model>Any</Model>
+		<ResultCode>-99</ResultCode>
+		<ExtendedResultCode>-99</ExtendedResultCode>
+		<ErrorDisplay>EASDeviceErrorUnknown.htm</ErrorDisplay>
+		<Title1>$DMEAS_TITLE1$</Title1>
+        	<Text>$DMMsg_1099$</Text>
+		<CheckHealth>true</CheckHealth>	
+	</Device-Error>
+
+</DeviceErrors>
+
+ 
+</Device-Lookup-Table>

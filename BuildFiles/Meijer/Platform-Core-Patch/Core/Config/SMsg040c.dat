@@ -1,0 +1,109 @@
+; Switch Message File   \\ European French
+;
+; file SMsg040c.dat
+;
+
+[WindowName]
+SupervisorSwitchTI = Identifiant du terminal
+SupervisorSwitch = Passer en mode Superviseur
+NormalSwitch = Passer en mode Normal
+SupervisorSwitchEV = Passer en mode Superviseur/ Event Viewer en service
+SupervisorSwitchGDF = Passer en mode Superviseur/ GetDiagFiles en service
+SupervisorSwitchPM = Passer en mode Superviseur/ Profile Manager en service
+SupervisorSwitchTIF = Passer en mode Superviseur/ Informations du terminal en service
+
+[ButtonCaptions]
+ExSCRGetDiagFiles = Générer les fichiers du journal de diagnostic
+ExAMRGetDiagFiles = Générer les fichiers du journal de diagnostic
+ExSCRProfileManager = Sortir de FastLane et exécuter la gestion de profil
+ExAMRProfileManager = Quitter le mode Caissier et exécuter la gestion de profil
+ExSC = Sortir de FastLane
+ExAM = Quitter le mode Caissier
+SwitchtoAM = Passer en mode Caissier
+SwitchtoSC = Passer à FastLane
+MinimizeSC = Réduire FastLane
+MinimizeAM = Réduire le mode Caissier
+MaximizeSC = Agrandir FastLane
+MaximizeAM = Agrandir le mode Caissier
+Shutdown = Arrêter tout le système
+Reboot = Redémarrer tout le système
+RestartAM = Redémarrer le mode Caissier
+RestartSC = Démarrer FastLane
+RGetDiagFiles = Générer les fichiers du journal de diagnostic
+RProfileManager = Lancer Profile Manager
+EvtVwr = Afficheur d’événements
+Volume = Contrôle du volume
+RTerminalInformation=Informations du terminal
+ExitSwitchApp = Quitter SwitchApp
+BClear = Effacer
+BEnter = Entrée
+BCancel = Annuler
+AuthTitleID = Tapez votre ID puis appuyez sur "Entrée"
+AuthTitlePassWord = Saisir mot de passe et appuyer sur "Entrée"
+RegisterFingerprint= Enregistrer l’empreinte digitale
+AuthTitleIDBiometric= Ou utilisez votre empreinte digitale pour vous connecter
+AuthInvalidLogin = Identifiant, mot de passe ou empreinte digitale non valide, veuillez réessayer
+FPDevice= Le lecteur d'empreintes digitales est débranché, veuillez saisir votre identifiant/mot de passe
+FPDuplicateID= L’empreinte digitale correspond à deux identifiants: %s, veuillez saisir votre identifiant/mot de passe
+
+[SwitchErrorMsg]
+;ClcSwitch
+OnButtonReboot1 = Le redémarrage du terminal FastLane a échoué.
+ButtonThread1 = Impossible de lancer %s.
+LoadPathsFromRegistry1 = Impossible d'obtenir la valeur de configuration Oui/Non pour Lane-Light-Support par le registre SwitchApp.
+LoadPathsFromRegistry2 = Impossible d'obtenir la valeur de la configuration Oui/Non pour Powerpad Support par le registre SwitchApp.
+WaitForAppTermination1 = %s n'a pas pu se terminer au bout de %d secondes. Redémarrer tout le système.
+MonitorAppTermination1 = %s terminés anormalement. 
+LaunchBatchFile1 = Le démarrage du lot de traitement %s a échoué.
+PowerpadOn1 = Impossible d'activer l'appareil de désactivation des dispositifs de sécurité. Code de résultat %u
+PowerpadOn2 = Impossible d'activer l'appareil de désactivation des dispositifs de sécurité.
+PowerpadOn3 = Impossible d'activer l'appareil de désactivation des dispositifs de sécurité. Code de résultat %u
+PowerpadOn4 = Impossible d'activer l'appareil de désactivation des dispositifs de sécurité.
+MiscIFLaneLightOn1 = Impossible de mettre en service Lane Light. Consultez le journal des événements.
+MiscIFLaneLightOn2 = Impossible d'activer l'interface Divers. Assurez-vous que l'appareil est disponible et consultez le journal des événements.
+MiscIFLaneLightOff1 = Impossible de mettre hors service Lane Light. Consultez le journal des événements.
+MiscIFLaneLightOff2 = Impossible d'activer l'interface Divers. Vérifiez le journal des événements.
+MiscIFLaneLightOff3 = Impossible de clore l'interface Divers. Vérifiez le journal des événements.
+OposControl1 = Impossible de créer le contrôle %s. Vérifiez que le contrôle est enregistré.
+OposControl2 = Impossible d'ouvrir %s. Assurez-vous que son profil est mis à jour correctement dans le registre.
+OposControl3 = Impossible de réclamer %s. Assurez-vous que son profil est mis à jour correctement dans le registre.
+CloseControl1 = Impossible d'activer %s. Vérifiez le journal des événements.
+CloseControl2 = Impossible de fermer %s. Vérifiez le journal des événements.
+CreateSalesApp1 = Impossible de lancer l'application. 
+CreateSalesApp2 = %s n'a pas pu être initialisé au bout de %d secondes.
+LaunchBatchFile2 = Le lot de traitement %s n'a pas été refermé.
+;CSwitch2Dlg
+OnInitDialog1 = Impossible d'ouvrir le périphérique de serrure de sécurité
+;CKWarning
+OnInitDialog2 = Pour %s, ramenez la clé du Superviseur en position 'N' ou appuyez à nouveau sur le bouton %s.
+DrMsg1 = Le système est hors service : collecte des journaux en cours...
+DrMsg2 = Le système est hors service : journaux collectés, redémarrage du système...
+
+[OtherMsg]
+MARSMsg = Vérification du microprogramme MARS en cours. La mise à jour, si elle est nécessaire, prendra environ 10 minutes.
+5992Msg = Vérification du microprogramme 5992 en cours. La mise à jour, si elle est nécessaire, prendra environ 10 minutes.
+K590Msg = Vérification du microprogramme K590 en cours. La mise à jour, si elle est nécessaire, prendra environ 10 minutes.
+K580Msg = Vérification du microprogramme K580 en cours. La mise à jour, si elle est nécessaire, prendra environ 10 minutes.
+F306Msg = Vérification du microprogramme F306 en cours. La mise à jour, si elle est nécessaire, prendra environ 10 minutes.
+F307Msg = Vérification du microprogramme F307 en cours. La mise à jour, si elle est nécessaire, prendra environ 10 minutes.
+F309Msg = Vérification du microprogramme F309 en cours. La mise à jour, si elle est nécessaire, prendra environ 10 minutes.
+USBTQMsg = Verification du microprogramme USB Telequip en cours. La mise a jour, si elle est necessaire, prendra environ 10 minutes.
+WaitMsg = Veuillez patienter...
+ADDMsg = Détection automatique des périphériques.
+TraceCheckMsg = Contrôle des fichiers de suivi de l’application pour détecter les arrêts anormaux.
+ArdacMsg = Vérification du microprogramme Ardac. La mise à jour, si elle est nécessaire, prendra environ 10 minutes.
+SR5Msg = Vérification du récepteur de pièces. La mise à jour, si elle est nécessaire, prendra environ 10 minutes.
+GDFMsg = Veuillez patienter
+MCRWMsg = Vérification du firmware du lecteur de carte motorisé. La mise à jour, si elle est nécessaire, prendra environ 10 minutes.
+TransferMsg= Transfert du fichier de diagnostics en cours...
+CF9520Msg = Echec de la mise à jour. L'Accepteur de monnaie existant n'accepte pas les pièces mexicaines. Veuillez utiliser le modèle CF9520 MK2 à la place.
+GLORYMsg = Vérification du microprogramme Glory Recycler. Les mises à jour si nécessaire peuvent prendre 10 minutes environ.
+IOBoxMsg = Vérification du microprogramme IOBox. Les mises à jour si nécessaire peuvent prendre 10 minutes environ.
+7875Msg = Vérification du firmware pour le scanner. La mise à jour, si elle est nécessaire, prendra environ 10 minutes.
+BiosMsg = Vérification du BIOS. La mise à jour, si elle est nécessaire, prendra environ 10 minutes. En cas de réussite, le système redémarrera.
+MEIMsg = Vérification du microprogramme MEI en cours. La mise à jour, si elle est nécessaire, prendra environ 10 minutes.
+ScaleMsg = Vérification du micrologiciel de la balance en cours. La mise à jour, si nécessaire, devrait prendre environ 2 minutes.
+BCRMsg = Vérification du micrologiciel du recycleur de pièces. La mise à jour, si nécessaire, devrait prendre environ 10 minutes.
+BNRMsg = Vérification du micrologiciel du recycleur de billets. La mise à jour, si nécessaire, devrait prendre environ 10 minutes.
+MSRDIPMsg = Vérification du micrologiciel de paiement par carte en cours. La mise à jour, si nécessaire, devrait prendre environ 10 minutes.
+F53Msg = Vérification du microprogramme F53 en cours. La mise à jour, si elle est nécessaire, prendra environ 10 minutes.

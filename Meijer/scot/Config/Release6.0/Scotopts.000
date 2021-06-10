@@ -1,0 +1,218 @@
+; SCOTOPTS.000 has override options for all SCOT terminals in a store
+
+[Template]
+;-----------------------------------------------
+; Please note : 'AssistMode' option should be the xml file name for specific assist mode template.  
+; When changing this option, FastLane must be restarted (it won't work if you reload options). 
+AssistMode=ACSAssistMode
+
+[Tender]
+CashBack1=10
+CashBack2=20
+CashBack3=40
+CashBack4=60
+CashBack5=80
+CashBack6=100
+CashBack7=0
+CashBack8=0
+CashBack9=0
+CashBack10=0
+CashBack11=0
+EBTCashBack1=10
+EBTCashBack2=20
+EBTCashBack3=40
+EBTCashBack4=60
+EBTCashBack5=80
+EBTCashBack6=100
+EBTCashBack7=0
+EBTCashBack8=0
+EBTCashBack9=0
+EBTCashBack10=0
+EBTCashBack11=0
+DispenseChangeAtLaneForRemoteTendering=N
+
+; SCOT screen and audio time out limits by process
+[TimeOut]
+ItemSaleInProgress=0
+CheckBasketReminder=3
+InitialBagItemAudio=3
+ContinueTransaction=45
+PeriodicBagItemAudio=8
+InitialRemovingItemsAudio=3
+PeriodicRemovingItemsAudio=8
+InitialTakeYourItemAudio=10
+DelaySecurityNotificationMilliSecs=1
+TakeCash=30
+CouponSensorScreenTimer=0
+;Timeout to keep buttons disabled while waiting for Central server response - in seconds
+MobileAuditResponseTimeout=15
+
+[State]
+DualLanguage=Y
+;if Dual Language is Yes, following two options must be defined, in the format
+;2 character ISO639 language code, button name on attract screen, message filename
+;tare description filename, security conclusions filename, tender filename, price speaker filename
+;---------------------------------------------------------------------------------------------------
+; Button text displaying name of the language can either be text string or ID to get from translated
+; text file of that language.
+; Example: For language code 0411, name of language will be message 1286 from msg0411.dat 
+; Similarly, for language=FR message 1286 from MSGFREN.dat will be used for language name
+;---------------------------------------------------------------------------------------------------
+Language1=EN,English,SCOTMSGE.DAT,SCOTTARE.DAT,UNUSED,SCOTTEND.DAT
+Language2=ES,Español,MSGSPAN.DAT,TARESPAN.DAT,UNUSED,TENDSPAN.DAT
+Language3=0415,1286,MSG0415.DAT,TARE0415.DAT,UNUSED,TEND0415.DAT
+
+;POS36524
+SingleLanguageButtonAtAttract=Y
+
+CheckBasketReminder=N
+SayPrices=N
+CouponSensor=Y
+; Set this option to N if you don't want to allow cashier to initiate transaction from RAP 
+; if cashier is allowed to initiate transaction from RAP, set this option to the section name 
+; in scotdataentry.ini which contains the correct control options
+;RapInitiateTransaction=N
+RapInitiateTransaction=StartTransactionAM
+;RapInitiateTransaction=StartTransaction
+AssistMenuFromRAPAllowed=Y
+
+
+; SCOT operational options
+[Operations]
+;Option for gift card tendering
+;0 - no gift card, 1 - scanned gift card, 2 - swiped gift card
+GiftCardRedemption=2
+DisplayGiftCardBalance=N
+SelectTareOnWeight=N
+UPCAPriceEmbeddedVerifier=N
+PartialIntegratedPINPad =Y
+MethodofCollectionForEmptyGiftCard=0
+AltF4ExitAllowed=Y
+; EOD has 3 options 
+; 1 = FastLaneControl option allows EOD1 to occur at Midnight (default)
+; 2 = TBControl option allows TB2 to control the EOD
+; 3 = OperatorControl option allows for initiation of EOD in response to a button press on the report screen
+EOD = 2
+EODTimeout = 60000
+AllowContainerBtn=Y		
+AllowContainerBtnForMismatching=Y
+CustomerBagAllowed=Y
+;SSCOPTL-952
+DuplicateCouponMax=1000
+;Total coupon dollar amount allowed PER TRANSACTION. 100=$1, This parameter is used only if 
+;total value of transaction is less than the Upper$AmtForPercentToApply
+TotalCoupons$AmtMax=100000
+;% of gross sales that the coupon dollar amount can be per transaction, this parameter comes into play 
+;only when total value of transaction is greater than or equal to Upper$AmtForPercentToApply.
+CouponPercentofGrossSales=100
+;The upper limit used to determine when to use coupons by $ amount(TotalCoupons$AmtMax) versus 
+;coupon % of gross sales (CouponPercentofGrossSales), 100=$1
+Upper$AmtForPercentToApply=100000
+;Change made at R6 pilot
+InvertLightStates=Y
+
+;Allow 9 digit Id and password.  Possible values for OperatorLoginBarcodeType is 0, 1, and 2.  
+;Where 0 = No scannable barcode allowed. 1 = EAN13 type barcode.  2 = Code 128 type barcode.
+;Default is 1
+OperatorLoginBarcodeType=1
+EnableUSSF=N
+;SR682-Option to display weight exception information and number of items(similar to RAP) on the lane.
+ShowWeightInfoOnLane=Y
+PrintReceiptOnCancelledTransaction=N
+;SOTF 6226
+AutoVoidUnderageRestrict=N
+;SOTF 7745
+ShowVolumeControl=Y
+VolumeControlMuteBypass=Y
+ShowSkipBaggingOnEReceipt=Y
+
+; RFQ 9545
+; This option is use to enable SSCOMobile Shopper
+; Default is N
+EnableMobileShopper=Y
+
+;Allow Mobile audit to use RAP Scanner
+RapScannerAllowedForAudit=Y
+
+;Name of the DataNeeded ini file for Mobile Audit
+MobileAuditDataEntryINI=c:\Scot\config\MobileAuditDataEntry.ini
+
+;Name of the ini section used for the initial Mobile Audit intervention.
+;MobileAuditSection=MobileTransactionAudit
+;MobileAuditSection=MobileTransactionAuditLaneOrMC18
+;MobileAuditSection=MobileTransactionAuditLaneOnly
+MobileAuditSection=MobileTransactionAuditLaneOnly
+
+;CRD 186331
+;Barcodes types that will show up Invalid Barcode in Mobile Audit
+;For QR codes, we will use 'QR' prefix since it sends us barcode type -1 if scanned from HHScanner
+;0,131,132 - GS1 barcodes
+;111,112,118,119 - supplemental barcodes
+;2D barcodes - 201,202,203,204,205,206,207
+;For further details, please check c:\scot\adk\include\OposScan.h
+InvalidBarcodeTypePrefix=0,112,118,119,131,132,201,202,203,204,205,206,207,QR
+
+;Consumer Marketing options	
+[CM]
+; if 'RewardInfo' is set to 'N', no other options in this section will be considered
+RewardInfo=N
+; set option, 'CustomerMessage' to -1 if no message has to be displayed
+; otherwise, set it to the message id which is defined in SCOTMSGE files
+CustomerMessage=775
+TotalSavings=Y
+TotalRewardPoints=Y
+; Set below option to 'N' to make TotalSavings appear on right side of reward_info bar
+TotalSavingsOnLeft=Y
+
+
+[PrintObjects]
+; each entry will have object details
+; for a bitmap, format of key value: "bitmap name,Alignment,Width(unused as of now)" 
+;ChitBmp1=c:\ACS\DATA\PAMLOGO10.dat,3,0
+;ChitBmp2=c:\ACS\DATA\PAMLOGO10.dat,3,0
+ChitBmp1=
+ChitBmp2=
+
+
+
+[Tracing]
+EntriesToFlush=50
+
+[Utility]
+;Disable the Exit button? And set the password.
+;Y: Yes N: No
+ExitButtonVisible=Y
+ExitPassword=1               
+ExitID=1
+
+; International Setting --------------------------------
+[Locale]
+CashLowListForNewEnhancedCoinLowSensor=50,20,20,20,25,10,5,0
+CashLowList=50,20,20,20,25,10,5,0
+
+;For generic cash management screen
+CashManagementDisplayCount=N
+;this option should be set to no for release 5.0 HW with recyclers
+CashManagementAPPTrackCashCount=N
+CashManagementScreen=Y
+
+;sotf 6755
+SendBalanceUpdates=N
+
+;POS18045
+TrackPurgeCount=N
+
+; In-Store Pager Support
+[Paging]
+; Send Page Parameters (Y - send page, N - do not send page)
+GreenFlashingSendPage=N
+YellowSendPage=N
+RedSendPage=N
+OutOfServiceSendPage=N
+AvailabilityCount=2147483647
+
+[InStoreBarcodes]
+CustomCode1=20iiiiipppppc,Y
+
+;Access assisted sales menu from store mode Assist button (Default = N)
+AssistMenuFromStoreModeAllowed=N

@@ -1,0 +1,508 @@
+<Display Version="1.0">
+  <Controls>
+    <Control Name="HHAssistOperatorMessage" Type="Static">
+      <Properties>
+        <Property Name="Position">10,166,220,90</Property>
+        <Property Name="Font">LaneButtonTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Z-Order">5</Property>
+        <Property Name="TextAlignment">1</Property>
+        <Property Name="Variable">Echo3</Property>
+      </Properties>
+    </Control>
+  </Controls>
+  <Contexts>
+    <Context Name="HHSmAssistMenu">
+      <Properties>
+        <Property Name="BackgroundColor">White</Property>
+      </Properties>
+      <Include>
+        <Control Name="LaneReceiptPageUp">
+          <Properties>
+            <Property Name="Position">3,159,15,14</Property>
+            <Property Name="Action">Click,Scroll,SMReceipt,3</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneReceiptPageDown">
+          <Properties>
+            <Property Name="Position">3,230,15,14</Property>
+            <Property Name="Action">Click,Scroll,SMReceipt,2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+          <Properties>
+            <Property Name="Position">20,166,220,90</Property>
+            <Property Name="Action">ChangeScroll,ChangeVisible,LaneReceiptPageUp,CanScroll(3);ChangeScroll,ChangeVisible,LaneReceiptPageDown,CanScroll(2)</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="TextFormat">$DeptButton$</Property>
+            <Property Name="Visible">True</Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton2">
+          <Properties>
+            <Property Name="TextFormat">$TaxExemptButton$</Property>
+            <Property Name="Visible">True</Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton3">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton4">
+          <Properties>
+            <Property Name="TextFormat">$MoreButton$</Property>
+            <Property Name="Visible">True</Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton5">
+          <Properties>
+            <Property Name="TextFormat">$ReturnToShoppingButtonText$</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton8">
+        </Control>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="TextFormat">$BasicAssistModeTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">3,42,162,37</Property>
+            <Property Name="TextFormat">$BasicAssistModeLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Prompt">
+          <Properties>
+            <Property Name="Position">5,81,156,71</Property>
+            <Property Name="TextColor">Black</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+          <Properties>
+            <Property Name="Position">3,79,159,76</Property>
+            <Property Name="Picture">%MediaPath%\graphx-echobox.png</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneCaptionText">
+        </Control>
+        <Control Name="LaneCaption">
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="HHSmAssistTaxExempt">
+      <Properties>
+        <Property Name="BackgroundColor">White</Property>
+      </Properties>
+      <Include>
+        <Control Name="LaneReceiptPageUp">
+          <Properties>
+            <Property Name="Position">3,159,15,14</Property>
+            <Property Name="Action">Click,Scroll,SMReceipt,3</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneReceiptPageDown">
+          <Properties>
+            <Property Name="Position">3,230,15,14</Property>
+            <Property Name="Action">Click,Scroll,SMReceipt,2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+          <Properties>
+            <Property Name="Position">20,166,220,90</Property>
+            <Property Name="Action">ChangeScroll,ChangeVisible,LaneReceiptPageUp,CanScroll(3);ChangeScroll,ChangeVisible,LaneReceiptPageDown,CanScroll(2)</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="TextFormat">$YesButtonText$</Property>
+            <Property Name="Visible">True</Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton2">
+          <Properties>
+            <Property Name="TextFormat">$NoButtonText$</Property>
+            <Property Name="Visible">True</Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton3">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton4">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton5">
+          <Properties>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="Visible">True</Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="TextFormat">$BasicAssistModeTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">3,42,162,37</Property>
+            <Property Name="TextFormat">$TaxExemptLeadThru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Prompt">
+          <Properties>
+            <Property Name="Position">5,81,156,71</Property>
+            <Property Name="TextColor">Black</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+          <Properties>
+            <Property Name="Position">3,79,159,76</Property>
+            <Property Name="Picture">%MediaPath%\graphx-echobox.png</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneCaptionText">
+        </Control>
+        <Control Name="LaneCaption">
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="HHSmAssistMode">
+      <Properties>
+        <Property Name="BackgroundColor">White</Property>
+      </Properties>
+      <Include>
+        <Control Name="SMReceiptScrollUp">
+          <Properties>
+            <Property Name="Position">3,159,15,14</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+          <Properties>
+            <Property Name="Position">3,230,15,14</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+          <Properties>
+            <Property Name="Position">20,158,220,98</Property>
+          </Properties>
+        </Control>
+        <Control Name="PrepaidCardList">
+          <Properties>
+            <Property Name="Position">20,158,220,98</Property>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton2">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton5">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">3,18,162,16</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">3,34,162,25</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Font">LaneStateWindowFont1</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText2">
+          <Properties>
+            <Property Name="Position">3,60,162,25</Property>
+            <Property Name="Font">LaneStateWindowFont1</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="LaneCaptionText">
+        </Control>
+        <Control Name="LaneCaption">
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="HHSmAssistModeWithKeyboard">
+      <Properties>
+        <Property Name="BackgroundColor">White</Property>
+      </Properties>
+      <Include>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton2">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton5">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">3,18,162,16</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">3,34,162,32</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Font">LaneStateWindowFont1</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText2">
+          <Properties>
+            <Property Name="Position">3,50,159,32</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">5</Property>
+            <Property Name="Font">LaneStateWindowFont1</Property>
+          </Properties>
+        </Control>
+        <Control Name="KeyBoardP1">
+          <Properties>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="KeyBoardP2">
+          <Properties>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="KeyBoardP4">
+          <Properties>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMNumericKeyBoard">
+          <Properties>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="LaneCaptionText">
+        </Control>
+        <Control Name="LaneCaption">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="HHSmAssistModeWithOperatorGuidance">
+      <Properties>
+        <Property Name="BackgroundColor">White</Property>
+      </Properties>
+      <Include>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton2">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton5">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">3,18,162,16</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">3,34,162,32</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Font">LaneStateWindowFont1</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText2">
+          <Properties>
+            <Property Name="Position">3,50,159,32</Property>
+            <Property Name="Font">LaneButtonTextFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Font">LaneStateWindowFont1</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="HHAssistOperatorMessage">
+        </Control>
+        <Control Name="Echo">
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="LaneCaptionText">
+        </Control>
+        <Control Name="LaneCaption">
+        </Control>
+      </Include>
+    </Context>
+  </Contexts>
+</Display>

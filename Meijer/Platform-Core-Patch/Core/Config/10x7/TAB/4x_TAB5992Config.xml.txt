@@ -1,0 +1,19 @@
+<Display Version="1.0">
+  <Controls>
+    <Control Name="PINEntrySigDevVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\KeyIn5992Pin_40_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="RequestSigVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\SignName_40_TAB.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="SwipeCardVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\SwipeCard_5992_40_TAB.avi</Property>
+      </Properties>
+    </Control>
+  </Controls>
+</Display>

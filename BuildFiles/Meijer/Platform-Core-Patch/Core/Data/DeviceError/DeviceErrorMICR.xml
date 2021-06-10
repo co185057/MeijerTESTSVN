@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<!-- The format of this file is:	 	-->
+<!-- <DeviceError>                           	-->
+<!-- 	<SectionName>			     	-->
+<!--		<Title1>Msg id in scotmsge.dat for title 1</Title1>-->
+<!--		<Title2>Msg id in scotmsge.dat for title 2</Title2>-->
+<!--	   	<Text>Msg id in scotmsge.dat</Text>		-->
+<!--		<Image>Bitmap id in scotbmpe.dat</Image> 	-->
+<!--		<Wave>id in scotwave.dat</Wave>			-->
+<!--		<Movie>Movie name in text</Movie>		-->
+<!--	</SectionName>					-->
+<!--</DeviceError>					-->
+
+
+<DeviceError>
+	<NCR_MICR_ERR_NO_DATA>
+		<Title1>1671</Title1>
+		<Title2>1672</Title2>
+		<Text>1673</Text>
+	</NCR_MICR_ERR_NO_DATA>
+
+	<NCR_MICR_ERROR_TIMEOUT>
+		<Title1>1671</Title1>
+		<Title2>1685</Title2>
+		<Text>1674</Text>     
+	</NCR_MICR_ERROR_TIMEOUT>
+
+	<NCR_MICR_ERROR_UNEXPECTED>
+		<Title1>1671</Title1>
+		<Title2>1675</Title2>
+		<Text>1684</Text>  
+	</NCR_MICR_ERROR_UNEXPECTED>
+
+	<NCR_MICR_ERROR_NO_HARDWARE>
+		<Title1>1671</Title1>
+		<Title2>1686</Title2>
+		<Text>1676</Text>                
+	</NCR_MICR_ERROR_NO_HARDWARE>
+
+	<NCR_MICR_ERROR_GENERALFAILURE>
+		<Title1>1671</Title1>
+		<Title2>1675</Title2>
+		<Text>1684</Text>
+	</NCR_MICR_ERROR_GENERALFAILURE>
+
+	<NCR_MICR_ERR_CHECKJAM>
+		<Title1>1671</Title1>
+		<Title2>1677</Title2>
+		<Text>1683</Text>
+                <Image>266</Image>
+	</NCR_MICR_ERR_CHECKJAM>
+
+	<NCR_MICR_ERR_LINE_ERROR>
+		<Title1>1671</Title1>
+		<Title2>1666</Title2>
+		<Text>1684</Text>                
+	</NCR_MICR_ERR_LINE_ERROR>
+
+	<NCR_MICR_ERR_NOCHECK>
+		<Title1>1671</Title1>
+		<Title2>1679</Title2>
+		<Text>1678</Text>                
+	</NCR_MICR_ERR_NOCHECK>
+
+	<NCR_MICR_ERR_BAD_DATA>
+		<Title1>1671</Title1>
+		<Title2>1680</Title2>
+		<Text>1673</Text>
+	</NCR_MICR_ERR_BAD_DATA>
+
+	<NCR_MICR_ERR_COVER_OPEN>
+		<Title1>1671</Title1>
+		<Title2>1672</Title2>
+		<Text>1687</Text>
+	</NCR_MICR_ERR_COVER_OPEN>
+
+	<NCR_MICR_ERR_BADSIZE>
+		<Title1>1671</Title1>
+		<Title2>1672</Title2>
+		<Text>1688</Text>
+	</NCR_MICR_ERR_BADSIZE>
+
+	<NCR_MICR_ERR_CHECKDIGIT>
+		<Title1>1671</Title1>
+		<Title2>1672</Title2>
+		<Text>1689</Text>
+	</NCR_MICR_ERR_CHECKDIGIT>
+
+	
+	<DEVICEERRORUNKNOWN>
+		<Title1>1671</Title1>
+		<Text> 1672</Text>
+	</DEVICEERRORUNKNOWN>
+
+</DeviceError>

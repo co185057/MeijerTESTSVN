@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<Device-Lookup-Table>
+<DeviceModels>
+	<Device-Model id="0" name="Any"/>  
+	<Device-Model id="1" name="5992_2X"/>
+	<Device-Model id="2" name="5992_3X4X"/>
+	<Device-Model id="3" name="5992_5X"/>
+	<Device-Model id="4" name="5945_2X"/>
+	<Device-Model id="5" name="5945_3X4X"/>
+	<Device-Model id="6" name="5945_5X"/>
+	<Device-Model id="7" name="Emulator"/>
+</DeviceModels>
+
+<DeviceErrors>
+	<!-- ERROR_SIGCAP_NO_COMM_5X -->
+	<Device-Error>
+		<Model>5992_5X, 5945_5X</Model>
+		<ResultCode>260</ResultCode>
+		<ExtendedResultCode>-99</ExtendedResultCode>
+		<Title1>$DMSigCap_1158$</Title1>
+		<Title2>$DMSigCap_1159$</Title2>
+        	<Text>$DMSigCap_1160$</Text>
+		<Image>10x7_PinPadComError.jpg</Image> <!-- 245 -->
+		<CheckHealth>true</CheckHealth>	
+	</Device-Error>
+	<!-- ERROR_SIGCAP_NO_COMM_3X4X -->
+	<Device-Error>
+		<Model>5992_3X4X, 5945_3X4X</Model>
+		<ResultCode>260</ResultCode>
+		<ExtendedResultCode>-99</ExtendedResultCode>
+		<Title1>$DMSigCap_1158$</Title1>
+		<Title2>$DMSigCap_1159$</Title2>
+        	<Text>$DMSigCap_1160$</Text>
+		<Image>10x7_R3-4PinPadComError.jpg</Image> <!-- 245 -->
+		<CheckHealth>true</CheckHealth>	
+	</Device-Error>
+	<!-- ERROR_SIGCAP_NO_COMM_2X -->
+	<Device-Error>
+		<Model>5992_2X, 5945_2X</Model>
+		<ResultCode>260</ResultCode>
+		<ExtendedResultCode>-99</ExtendedResultCode>
+		<Title1>$DMSigCap_1158$</Title1>
+		<Title2>$DMSigCap_1159$</Title2>
+        	<Text>$DMSigCap_1160$</Text>
+		<Image>10x7_PinPadComError.jpg</Image> <!-- 139 -->
+		<CheckHealth>true</CheckHealth>	
+	</Device-Error>
+	<!-- ERROR_SIGCAP_NO_COMM_3X4X -->
+	<Device-Error>
+		<Model>Any</Model>
+		<ResultCode>260</ResultCode>
+		<ExtendedResultCode>-99</ExtendedResultCode>
+		<Title1>$DMSigCap_1158$</Title1>
+		<Title2>$DMSigCap_1159$</Title2>
+        	<Text>$DMSigCap_1160$</Text>
+		<Image>10x7_PinPadComError.jpg</Image> <!-- 245 -->
+		<CheckHealth>true</CheckHealth>	
+	</Device-Error>
+	<Device-Error>
+		<Model>Any</Model>
+		<ResultCode>-99</ResultCode>
+		<ExtendedResultCode>-99</ExtendedResultCode>
+		<ErrorDisplay>SignatureCaptureDeviceErrorUnknown.htm</ErrorDisplay>
+		<Title1>$DMSigCap_1158$</Title1>
+        	<Text>$DMMsg_1099$</Text>
+		<CheckHealth>true</CheckHealth>	
+	</Device-Error>
+
+</DeviceErrors>
+
+ 
+</Device-Lookup-Table>

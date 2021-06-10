@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{20D4826A-C6FA-45DB-90F4-C717570B9F32}") = "GetDiagFiles", "GetDiagFiles.csdproj", "{92C30F69-8853-4EDD-AB4E-F2FDC5518B18}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{92C30F69-8853-4EDD-AB4E-F2FDC5518B18}.Debug.ActiveCfg = Debug|Pocket PC
+		{92C30F69-8853-4EDD-AB4E-F2FDC5518B18}.Debug.Build.0 = Debug|Pocket PC
+		{92C30F69-8853-4EDD-AB4E-F2FDC5518B18}.Debug.Deploy.0 = Debug|Pocket PC
+		{92C30F69-8853-4EDD-AB4E-F2FDC5518B18}.Release.ActiveCfg = Release|Pocket PC
+		{92C30F69-8853-4EDD-AB4E-F2FDC5518B18}.Release.Build.0 = Release|Pocket PC
+		{92C30F69-8853-4EDD-AB4E-F2FDC5518B18}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

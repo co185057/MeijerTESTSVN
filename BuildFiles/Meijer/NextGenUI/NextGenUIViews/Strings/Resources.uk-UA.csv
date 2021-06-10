@@ -1,0 +1,2720 @@
+﻿AmountSaved,Заощаджено
+Assistance,Допомога
+AssistanceComing,"Продовжуйте, зараз підійде помічник."
+Back,Назад
+BagItem,Покладіть товар у пакет.
+BagItemCart,Пакування товару
+BagItemOrSkip,"Покладіть товар у пакет або натисніть ""Пропустити""."
+CallForHelp,Викликати допомогу?
+Cancel,Скасувати
+CancelAll,Скасувати все
+CancelCoupons,Скасувати Купони
+CancelPayment,Скасувати платіж
+CantScanCoupon,Не зчитано купон
+CartPay,Сплатити
+Change,Решта:
+Confirm,Скасувати покупку взагалі?
+ConfirmQuantity,{0} - вірно?
+Continue,Продовжити?
+CouponMessage,Відкладіть купони. Внесіть їх наприкінці оформлення покупки.
+DepositCard,Вставте подарункову картку в щілину для купонів.
+DepositCoupon,Внести купони
+DepositGiftCard,Вставте подарункову картку
+Disconnected,Зачекайте...
+Done,Готово
+Due,До сплати:{0}
+EditCart,Виправити в кошику
+Enter,Ввести
+EnterAmount,Введіть суму
+EnterCouponValue,"Введіть вартість купона в гривнях і натисніть ""ОК""."
+EnterId,Введіть свій код.
+EnterPassword,Введіть пароль.
+EnterPin,Введіть ПІН
+EnterQuantity,Скільки штук?
+EnterWeight,Покладіть товар на ваги:
+Finish,Дякуємо за покупку!
+FinishAndAdd,Закінчити і додати
+GiftCard,Залишок на подарунковій картці
+GoBack,Назад
+IncorrectLogin,Невірний код оператора і пароль.\nСпробуйте ще раз.
+InsertCash,Внесіть гроші
+InsertCoupon,Внесіть Купон
+InvalidBarcodeScan,Відкладіть товар і продовжуйте оформляти покупку.
+Item,{0} товар
+Items,{0} товари
+ItemsAddedFormat,{0} товари(-ів) буде додано в кошик.
+Language,Мова
+NCRCorp,NCR Corp
+No,Ні
+OK,ОК
+Or,або
+OtherPayment,ІНША ОПЛАТА
+OtherPaymentMethod,Інші способи оплати
+OwnBag,Свій пакет
+Paid,Сплачено:{0}
+PayAnotherWay,Інший спосіб оплати
+PointsEarned,Отримано балів
+PrintReceipt,Друк чеку
+Proceed,Далі
+Remove,Видалити
+RemovedItem,Я зняв товар
+RestrictedItem,Обмежений відпуск
+ReturnToScan,Назад
+ScanAndBag,"Скануйте, знайдіть або введіть код товару."
+ScanCoupon,Сканувати купони
+ScanGiftCard,Сканувати подарункову картку
+ScanNextItem,Скануйте наступний товар.
+ScanVoucher,Відскануйте ваучери
+SearchResultsFor,"Результат пошуку ""{0}"""
+SearchWatermark,Ввести назву чи код товару
+SearchItemNameWatermark,Enter Item Name
+SearchKeyInItem,Знайти або ввести код товару
+SelectCashBack,"Оберіть суму, яку бажаєте зняти готівкою"
+SelectLanguage,Обрати мову
+SelectPaymentType,Виберіть спосіб оплати
+SellBags,"Скільки поліетиленових пакетів використано?  Якщо жодного, натисніть ""0""."
+SignNeeded,Потрібен підпис
+SignSignature,Розпишіться у вікні для підпису.
+SkipBagging,Не пакувати
+Space,Пробіл
+StartScanning,Сканувати
+StoreLogin,Вхід до магазину
+TakeCash,Візьміть повернену готівку.
+TakeChange,Візьміть решту
+TakeReceipt,Візьміть чек
+Tax,Податок
+TimeRestrictedItem,Відпуск в обмежені години
+Total,Сума
+TouchCancel,"Щоб скасувати оплату, на терміналі натисніть ""Скасувати""."
+TryAgain,Спробуйте знов
+UnexpectedDecreaseMessage,Поверніть товар на пакувальні ваги.
+UnexpectedIncreaseMessage,Зніміть товар з пакувальних ваг.
+UsePinpad,Набрати ПІН-код
+VoidItem,"Скануйте непотрібний товар або на чеку натисніть ""Видалити""."
+Volume,Гучність
+Yes,Так
+ItemNumberAmount,КТ :  
+WeightExpected,ОВ :  
+WeightObserved,ФВ :  
+UnknownPriceMessage,Ціна товару невідома. \nДо вас зараз підійдуть. \n\nВідкладіть товар і скануйте інші покупки.
+SetAllItemsAsideMessage,Покупку скасовано.\n\nВідкладіть усі товари.
+ConfirmAbortMessage,Видалити все з кошика? Це призведе до скасування операції.
+NoKeep,"Ні, залишити."
+NoReturn,"Ні, повернутися до операції."
+YesEmpty,"Так, видалити все з кошика та закінчити операцію."
+YesRemove,"Так, зняти."
+HostOfflineMessage,Каса не в мережі. Іде спроба відновити зв’язок.
+LaneClosedMessage,Касу закрито
+LoadingText,Завантаження
+VerifyBagsMessage,"Якщо на вагах сторонній предмет (не пакет), зніміть його."
+HelpOnWay,"Продовжуйте, до вас зараз підійдуть."
+OwnBagMessage,Покладіть пакети на ваги.
+UseOwnBag,Маю свій пакет
+AttendantMode,"Режим ""помічник"""
+AttendantTrainingMode,"Режим ""помічник та навчання"""
+TrainingMode,Режим навчання
+ScaleBroken,"Зніміть товар з ваг, натисніть на сканері кнопку “Обнулити ваги”."
+Refunded,Повернено:
+EnterIDMessage,Введіть ім’я користувача і натисніть “Ввести”.
+EnterIDText,Введіть ім’я користувача
+EnterPasswordMessage,Введіть пароль і натисніть “Ввести”.
+EnterPasswordText,Введіть пароль
+VisualVerify,Візуальна перевірка
+SingleItemAddedFormat,{0} товар буде додано в кошик.
+Approved,Прийнято
+VoidItemBeforeCouponMessage,"Неможливо скасувати товар, доки не скасовано купон на нього. Спершу скасуйте купон на товар."
+VerifyBags,Ваші пакети перевірить працівник.
+CancelItems,Скасувати товари
+EnterQuantityTitle,Потрібна кількість
+SecUnExpectedIncreaseTitle,Попередження пакувальних ваг
+WeightMismatchTitle,Потрібна допомога
+AssistanceNeededTitle,Потрібна допомога
+CheckBasketTitle,Перевірте кошик
+ConfirmDebitAmountTitle,Підтвердити суму
+DropoffCouponsTitle,Здача купонів.
+InsufficientBalanceTitle,Замалий залишок
+OperatorPasswordStateInvalidPasswordWithFPTitle,Збій при дактилоскопії
+PurchaseCrateTitle,Купити ящик
+RestrictedItemTitle,Обмежений відпуск
+SecBagAreaBackupTitle,Скупчення товарів
+SignChargeTitle,Підпишіть чек
+TakeCardTitle,Заберіть картку
+ContinueTitle,Продовжити?
+ApprovalNeededTitle,Потрібне підтвердження
+IncorrectLoginTitle,Невірне число
+RecalledItemTitle,Відкликаний товар
+RemovedItemTitle,Попередження пакувальних ваг
+SetAllItemsAsideTitle,Відкласти товари
+TakeLoyaltyCardTitle,Отримайте дисконтну картку
+UnknownPriceTitle,Невідома ціна
+ConfirmEBTAmountTitle,Підтвердити суму
+DisconnectedTitle,Відключено
+ShuttingDown,Завершую роботу
+NoneText,ЖОДНИЙ
+SMText,Режим “Магазин”
+SMLogInReceiptText,Ви перейшли в режим “Магазин”
+SMLogOutReceiptText,Ви вийшли з режиму “Магазин”
+WLDBOffLineText,База даних ваги: не в мережі
+OperatorIDText,Код оператора:
+SignOnButtonText,Увійти
+SignOffButtonText,Вийти
+AlertText,Попередження:
+SuspendInProgressText,Відкласти in progress
+SuspendLeadthru1,Отримано запит відкласти поточну операцію.\nПідтвердіть або скасуйте його.
+SuspendLeadthru2,"Ви відклали поточну операцію. Підтвердіть запит. Щоб скасувати, натисніть “Назад” і скасуйте операцію на касовому терміналі NCR SelfServ Checkout."
+ReceiptText,Чек:
+SuspendReasonText1,Відкласти: General
+CancelSuspendButtonText,Скасувати Відкласти
+ConfirmSuspendNowButtonText,Відкласти\nнегайно
+ConfirmAllowSuspendButtonText,Дозволити\nВідкласти
+ConfirmSuspendRequestButtonText,Відкласти \nзапит
+CancelSuspendNowButtonText,Скасувати Відкласти \nNow
+GoBackButtonText,Назад
+CancelSuspendRequestButtonText,Скасувати Відкласти \nзапит
+CouponText,Купони:
+SuspendReasonText2,Відкласти: Купони
+CouponReceiptText,Купонів: %d на суму $%.2f
+SuspendNowButtonText,Відкласти Now
+RequestSuspendButtonText,запит Відкласти
+NotConnectedText,Не підключено.
+ConnectingText,Підключаюся... Зачекайте
+ApprovalNeededText,Потрібне підтвердження:
+SuspendReasonText3,Відкласти: ІНШЕ
+ClearRequestButtonText,Очистити запит
+ApproveButtonText,Прийнято
+RestrictedItemText,Обмежений відпуск:
+SuspendReasonText4,Відкласти: обмеж. відпуску
+SecurityLogText,Журнал контролю:
+SuspendReasonText5,Відкласти: Контроль
+SignatureText,Підпис:
+SignatureAndNameText,Підпис: %s
+ConnectingLeadthru,Підключаюсь до NCR SelfServ Checkout... Зачекайте
+EnterIDLeadthru,На клавіатурі введіть код.
+EnterPasswordLeadthru,На клавіатурі введіть пароль.
+LoggingInLeadthru,Завантаження in...Зачекайте
+ApproveSecurityButtonText,Прийняти Контроль
+ApprovalNeededButtonText,Потрібне підтвердження
+VerifySignatureButtonText,Перевірка підпису
+AllowSuspendButtonText,Дозволити відкласти
+MainButtonText,Головна
+SuspendTransactionButtonText,Відкласти Операція
+ApproveAndCollectButtonText,Прийнято і Візьміть картку
+ClearApprovalsButtonText,Очистити Підтвердження
+BirthDateOver30ButtonText,Вік понад 30 років
+SignAgainButtonText,Другий підпис
+BackSpaceButtonText,Стерти
+EnterButtonText,Ввести
+LaneNumberText,Каса №: %d
+RAPTitle,NCR SelfServ Checkout\nПриймальна станція
+CancelSuspendText,Скасувати Відкласти
+OtherPaymentSelectedText,Замовлено інший вид оплати.
+CouponCollectionText,Купон Збір
+PendingSuspendText,Pending Відкласти
+SignatureApprovalText,Підпис Підтвердження
+LaneText,Каса
+VideoButtonText,Відео
+ClearButtonText,Очистити
+QuantityButtonText,Кількість
+FeesAndCustomerAgreementsTitle,Тарифи і договори з замовником:
+FeesButtonText,Тарифи
+CustomerAgreementButtonText,Договір на придбання товарів чи послуг
+FeesAndCustomerAgreementsLeadthru,Тарифи і договори з замовником
+TransactionSuspendedText,Операцію відкладено
+POSMessageText,Повідомлення кас. терміналу:
+ConnectingWaitingText,"Зачекайте, підключаюсь до NCR SelfServ Checkout..."
+DateOfBirthNotNeededButtonText,Дата непотрібна
+AssistModeButtonText,Режим “Касир”
+ClearSecurityButtonText,Зняти контроль
+VisualApproveButtonText,Візуальна перевірка
+CheckAgeTitle,Перевірити вік покупця
+CouponLimitExceededTitle,Купон Перевищено ліміт
+VerifyItemAndPriceTitle,Перевірити товар і ціну
+UnknownItemTitle,Невідомий товар відкладено
+ItemNotForSaleTitle,Не продається
+ItemQuantityExceededTitle,Перевищено ліміт кількості
+TimeRestrictedItemTitle,Відпуск в обмежені години
+CheckAgeLeadthru,Введіть дату народження %s і натисніть “Ввести”.
+InvalidBirthDateFormatLeadthru,Невірний формат дати. \nВведіть ще раз у форматі %s.
+CouponLimitExceededLeadthru,Дозволити внести купон на касі - натисніть “Прийняти” або натисніть “Прийняти і взяти” і візьміть купон у покупця.
+VisualApproveLeadthru,Натисніть “Візуальна перевірка” або відредагуйте операцію в режимі “Касир”.
+UnknownItemLeadthru,Візьміть товар на касі і натисніть “Зняти контроль” або завершіть операцію в режимі “Касир”.
+ItemNotForSaleLeadthru,Візьміть товар на касі і натисніть “Зняти контроль”.
+OffLineLaneButtonText,Не в мережі
+ExitText,Вийти
+EnterDataLaneButtonText,Введіть Data
+AgeCheckLaneButtonText,Прврк віку
+CouponLaneButtonText,Купон
+VoidLaneButtonText,Скасовано
+VerifyItemLaneButtonText,Прврк товару
+NotFoundLaneButtonText,Не знайдено
+NoSaleLaneButtonText,Не продано
+QuantityLaneButtonText,Кількість
+HelpLaneButtonText,Довідка
+NoInterventionLeadthru,Втручання не потрібне.
+OffLineLeadthru,Каса не в мережі. Іде спроба відновити зв’язок.
+CancelRequestButtonText,Скасувати запит
+HelpRequestTitle,Викликано допомогу
+SecurityLaneButtonText,Контроль
+VoidLeadthru,"Заберіть скасований товар на касі, натисніть “Скасувати”."
+ApproveVoidButtonText,Скасувати
+SecurityLeadthru,"Monitor customer transaction for security and touch ""Зняти контроль""."
+SecurityViolationText,Порушення безпеки
+OtherPaymentText,"""ІНША ОПЛАТА"" обране"
+SuspendTransactionLeadthru,Натисніть “Відкласти операцію” або прийміть оплату в режимі “Касир”.
+EASText,Протикрадіжк. давач все ще активний
+DeactivateLeadthru,На касі відключіть або зніміть з товару протикрадіжковий давач і натисніть “Зняти контроль”.
+CompareSignatureTitle,Порівняти підпис
+CompareSignatureLeadthru,Порівняйте підпис і натисніть “Прийняти” або “Підписати знов”.
+EnterPriceLeadthru,Введіть ціну товару і натисніть “Ввести”.
+UtilityButtonText,Утиліта
+ReturnToMainButtonText,Назад на головну
+GetDiagFilesButtonText,Отримати діагн. файли
+CouponApprovalLeadthru,Прийміть купони від покупця на приймальній станції і натисніть “Прийняти”.
+RebootSystemButtonText,Перезавантажити систему
+ShutDownSystemButtonText,Вимкнути всю систему
+LaneStatusTitle,Каса Стан
+LaneStatusLeadthru,Виберіть функцію.
+AgeRestrictedText,Вікові обмеження товар; %2d років
+BirthdateEnterText,"Введена дата народж.:%2d/%2d/%4d, років: %d"
+HelpRequestLeadthru,Після допомоги покупцю натисніть “Скасувати запит”.
+TotalText,Сума:
+ItemText,товар:
+MultimediaTrainingText,Аудіовізуальне навчання
+VolumeControlButtonText,Звук
+SecurityViolationNumText,Порушення безпеки:
+ItemPurchasedText,Придбані товари:
+EnterPriceTitle,Ціна
+CancelTransactionGenericTitle,Скасувати Операція
+CancelTransactionGenericLeadthru,"Скасувати операцію - натисніть “Так”, продовжити - натисніть “Ні”."
+YesButtonText,Так
+NoButtonText,Ні
+ConfirmSuspendTitle,Відкласти:
+ConfirmSuspendLeadthru,Відкласти.
+ConfirmSuspendButtonText,Відкласти
+IncorrectItemWeightTitle,Невірна вага на контрольних вагах.
+IncorrectItemWeightLeadthru,Зніміть товар і натисніть “Зняти контроль” або натисніть “Підтвердити і змінити вагу”.
+ApproveUpdateButtonText,Підтвердити і змінити вагу
+UnexpectedIncreaseTitle,"На контрольних вагах не той товар, що очікується."
+UnexpectedIncreaseLeadthru,"Підійдіть до каси, зніміть зайві товари і натисніть “Зняти контроль”."
+SkipBaggingBtnThresholdLeadthru,Перевірте товари на касі і натисніть “Зняти контроль”.
+NewWeightItemTitle,Немає даних про вагу товару.
+NewWeightItemLeadthru,Перевірте вагу товару і натисніть “Підтвердити і змінити вагу” або натисніть “Прийняти без змін”.
+ApproveNoUpdateButtonText,Прийняти без змін.
+BagItemTimerExpiredTitle,На контрольних вагах очікується вага.
+TakeChangeTimerExpiredTitle,Візьміть решту
+TakeChangeTimerExpiredBottomCaption,Час очікування сплинув
+PickingUpItemsTimerExpiredTitle,Товари не повернено на пакувальні ваги.
+DeviceFailureTitle,Пристрій працює невірно
+DeviceFailureLeadthru,Перейти до каси і перевірити пристрій.
+WLDBFailureTitle,Порушення зв’язку з WLDB.
+WLDBFailureLeadthru,Перевірити зв’язок.
+UnexpectedDecreaseTitle,Товар знято з пакувальних ваг.
+ClosedLaneTitle,"Щоб відкрити касу, перейдіть до неї та відкрийте режим “Магазин”."
+ClosedLaneLeadthru,Касу закрито
+BagAreaBackupTitle,Скупчення товарів на конвеєрі
+BagAreaBackupLeadthru,Зніміть з конвеєра скупчені товари.
+MinimumAgeText,Мінімальний вік (років).
+SafetyCoverOpenLeadthru,Зніміть з конвеєра всі товари і закрийте захисну кришку.
+VerifySignatureLeadthru,Порівняйте підпис покупця з підписом на картці.
+AssistedTenderTitle,Платіж з оператором
+AssistedTenderLeadthru,"Щоб прийняти банк. чек від покупця, перейдіть у режим “Касир”."
+AssistedTenderHHLeadthru,"Щоб прийняти оплату, скористайтеся приймальною станцією."
+AssistedEndorsementLeadthru,Потрібен підпис. Дочекайтеся оператора.
+StartTransactionButtonText,Почати операцію
+StartTransactionTitle,Функції з оператором
+StartTransactionLeadthru,Виберіть потрібну функцію.
+StartTransactionAMButtonText,Старт & Касир
+ItemsForgottenTitle,Зберігати вагу\nна пакувальних вагах.
+InsertCouponTimerExpiredTitle,Внесіть Купон
+CollectGiftCardTitle,Візьміть подарункову картку
+HostOfflineLeadthru,Каса не в мережі. Іде спроба відновити зв’язок.
+SpaceButtonText,Пробіл
+LaneReceiptItemType1,%s\t%s
+LaneReceiptItemType2,%s
+LaneReceiptItemType3,%s\t%s\tК-ть %s ціна %s/од.\t%s
+LaneReceiptItemType4,%s\t%s\tК-ть %s ціна %s/%s\t%s
+LaneReceiptItemType5,%s\t%s\t%ss ціна %s %s/%s\t%s
+LaneReceiptItemType6,%s\t%s\t%ss ціна %s %s/%s\t%s
+CloseLaneButtonText,Закрити касу
+ReportingButtonText,Звіти
+KeyInCodeTitle,Введіть код
+KeyInCodeLeadthru,Введіть код товару і натисніть “OK”.
+VoidItemButtonText,Скасувати товар
+ChangePriceButtonText,ціну Змінити
+ChangeQuantityButtonText,кількість Змінити
+ReturnToShoppingButtonText,Назад у режим “Покупки”
+BasicAssistModeTitle,Функції в режимі “Касир”
+BasicAssistModeLeadthru,Відскануйте товар або виберіть функцію.
+ChangePriceTitle,Змінити ціну
+KeyInPriceLeadthru,Введіть ціну на товар: %d %s
+VoidAllButtonText,Скасувати все
+VoidItemTitle,Скасувати товар
+VoidItemLeadthru,Відскануйте або знайдіть у списку товар на чеку і натисніть “Скасувати товар” або “Скасувати все”.
+ChangeQuantityTitle,Змінити кількість
+KeyInQuantityLeadthru,Введіть кількість товару: %s
+FullAssistButtonText,повний Касир
+CloseButtonText,Закрити
+UpdateItemLeadthru,Знайдіть у списку товар на чеку і натисніть “Ввести”.
+OKButtonText,ОК
+CouponNoMatchLeadthru,Купон не відповідає придбаним товарам. Прийняти купон неможливо.
+CouponTooHighLeadthru,Введено завелику вартість купона.\nПрийняти купон неможливо.
+EnterCouponValueLeadthru,Введіть вартість купона в гривнях і натисніть “Ввести”.
+ItemQuantityExceededLeadthru,Завелика кількість одиниць товару. Відкладіть товар і продовжіть.
+ProcessingLeadthru,Обробляється...Зачекайте.
+VoidNoMatchLeadthru,Відсканований товар не знайдено. Цей товар ще не придбано або вже скасовано.
+ConfirmAbortLeadthru,Припинити оформлення покупки та скасувати її повністю?
+ContinueTransLeadthru,Бажаєте продовжити купівлю?
+ConfirmQuantityTitle,Підтвердити кількість
+ConfirmVoidTitle,"Так, скасувати"
+CouponNoMatchTitle,Невідповідний купон
+CouponTooHighTitle,Вартість купона завелика
+CrateableItemTitle,Купити ящик
+EnterCouponValueTitle,Введіть вартість купона
+EnterQuantityLeadthru,Введіть кількість і натисніть “Ввести”.
+EnterWeightTitle,Зважити товар
+EnterWeightLeadthru,Перейдіть до каси і покладіть товар на ваги.
+AMItemQuantityExceededTitle,Ліміт кількості
+ProcessingTitle,Обробляється...
+SelectContainerTitle,Вибір ємності
+SelectContainerLeadthru,Обрати ємність зі списку і натисніть “Ввести”.
+VoidNoMatchTitle,Скасувати товари не можна
+ConfirmAbortTitle,Скасувати всі товари
+ContinueTransTitle,Продовжити?
+ScaleBrokenTitle,Обнулити ваги
+ScaleBrokenLeadthru,"Зніміть товар з ваг, натисніть на сканері кнопку “Обнулити ваги”."
+UpdateNotAllowedTitle,Неможливо оновити товар
+UpdateNotAllowedLeadthru,Змінювати кількість зваженого товару не можна.
+SmEnterBirthdateTitle,Обмежений відпуск
+SmEnterBirthdateLeadthru,Введіть дату народження покупця
+SmVisualItemsTitle,Візуальний контроль
+SmVisualItemsLeadthru,Дозвіл на відпуск товарів візуального контролю
+SmCouponItemsTitle,Прийняти використані купони
+SmCouponItemsLeadthru,Перевірити використані купони
+SmRestrictedItemsTitle,Обмежений відпуск
+SmRestrictedItemsLeadthru,Виберіть потрібну функцію.
+KeyInBirthDateButtonText,Введіть дату
+KeyInCodeButtonText,Введіть \nкод
+SmRunReportsTitle,Зміст звіту
+PrintReportButtonText,Друкувати звіт
+LaneReceiptItemType7,    %s
+AM_RestrictedNotAllowedTitle,Обмежений відпуск
+AM_RestrictedNotAllowedLeadthru,Товари обмеженого відпуску скасовано: вікові обмеження.\n\nВідкладіть товар.
+TransactionCancelTitle,Скасування операції
+TransactionCancelLeadThru,Операцію скасовано. товари з цієї касової стійки.
+OutOfSyncNeedAssistTitle,КАСИР
+OutOfSyncNeedAssistLeadthru,Касовий термінал працює несинхронно. Відновіть зв’язок у режимі “Касир”.
+OutOfSyncStopTitle,ПЕРЕЗАВАНТАЖЕННЯ
+OutOfSyncStopLeadthru,Сервер касових терміналів не працює або працює несинхронно. Вимкніть термінал вимикачем.
+MultiPackItemTitle,"Перевірте, чи є товар набором"
+MultiPackItemLeadthru,"Якщо так, скасуйте товар у режимі “Касир” і відскануйте штрих-код набору."
+CancelActionButtonText,Скасувати дію
+EnterIDFpLeadthru,Для входу наберіть код користувача і натисніть “Ввести” або покладіть палець на дактилоскоп.
+ReEnterIDFpLeadthru,Невірний код користувача. Введіть код ще раз або покладіть палець на дактилоскоп.
+HH_SuspendLeadthru1,Відкласти поточну операцію? Підтвердіть або скасуйте.
+HH_SuspendLeadthru2,"Поточну операцію відкладено. Так, відкласти. Щоб скасувати, натисніть “Назад” і скасуйте."
+HH_ReEnterIDLeadthru,Невірний код чи пароль. Введіть на клавіатурі ще раз.
+HH_CheckAgeLeadthru,Введіть дату народження %s і натисніть “Ввести”.
+HH_CouponLimitExceededLeadthru,Внести купони на касі: “Прийняти”. Взяти у покупця: “Прийняти і взяти”.
+HH_VisualApproveLeadthru,“Візуальна перевірка” або відредагуйте операцію в режимі “Касир”.
+HH_VisualApproveLeadthru2,"""Visual Прийнято"", or ""Режим “Касир”"" at Lane to modify."
+HH_UnknownItemLeadthru,"Візьміть товар, “Зняти контроль”; або закінчіть у режимі “Касир”."
+HH_UnknownItemLeadthru2,"Візьміть картку item, ""Зняти контроль"", or use ""Режим “Касир”"" at Lane to complete."
+HH_ItemNotForSaleLeadthru,"Візьміть товар на касі, натисніть “Зняти контроль”."
+HH_NoInterventionLeadthru,Втручання не потрібне.
+HH_OffLineLeadthru,Каса не в мережі. Іде спроба відновити зв’язок.
+HH_InvalidBirthDateFormatLeadthru,Невірний формат дати. \nВведіть у форматі %s.
+HH_VoidLeadthru,"Візьміть картку voided item and ""Скасувати""."
+HH_SuspendTransactionLeadthru,"Щоб відкласти операцію, натисніть “Відкласти опер”."
+HH_DeactivateLeadthru,На касі відключіть або зніміть з товару протикрадіжковий давач і натисніть “Зняти контроль”.
+HH_CompareSignatureLeadthru,"Порівняти підпис and ""Прийнято"", or ""Другий підпис""."
+HH_EnterPriceLeadthru,"Введіть ціну товару, “Ввести”."
+HH_CouponApprovalLeadthru,"Приміть купони у покупця, “Прийняти”."
+HH_HelpRequestLeadthru,Після надання допомоги - “Скасувати запит”.
+HH_CancelTransactionGenericLeadthru,"Скасувати операцію - натисніть “Так”, продовжити - натисніть “Ні”."
+HH_IncorrectItemWeightLeadthru,Зніміть товар і натисніть “Зняти контроль” або натисніть “Підтвердити і змінити вагу”.
+HH_UnexpectedIncreaseLeadthru,"Підійдіть до каси, зніміть зайві товари і натисніть “Зняти контроль”."
+HH_SkipBaggingBtnThresholdLeadthru,Перевірте товари на касі і натисніть “Зняти контроль”.
+HH_NewWeightItemLeadthru,Перевірте вагу товару і натисніть “Підтвердити і змінити вагу” або натисніть “Прийняти без змін”.
+HH_SafetyCoverOpenLeadthru,Зніміть з конвеєра всі товари і закрийте захисну кришку.
+HH_VerifySignatureLeadthru,Порівняйте підпис покупця з підписом на картці.
+HH_AssistedEndorsementLeadthru,Потрібен підпис. Дочекайтеся оператора.
+HH_HostOfflineLeadthru,Каса не в мережі. Іде спроба відновити зв’язок.
+HH_KeyInCodeLeadthru,Введіть код товару і натисніть “Ввести”.
+HH_VoidItemLeadthru,Відскануйте або знайдіть у списку товар на чеку. “Скасувати товар” або “Скасувати все”.
+HH_UpdateItemLeadthru,"Знайдіть у списку товар на чеку, “Ввести”."
+HH_CouponNoMatchLeadthru,Купон не відповідає придбаним товарам. Прийняти купон неможливо.
+HH_CouponTooHighLeadthru,Введено завелику вартість купона.\nПрийняти купон неможливо.
+HH_ItemQuantityExceededLeadthru,Завелика кількість одиниць товару. \n\nВідкладіть товар і продовжіть.
+HH_VoidNoMatchLeadthru,Відсканований товар не знайдено. Цей товар ще не придбано або вже скасовано.
+HH_ConfirmAbortLeadthru,Припинити оформлення покупки та скасувати її повністю?
+HH_ContinueTransLeadthru,Бажаєте продовжити купівлю?
+HH_EnterQuantityLeadthru,Введіть кількість і натисніть “Ввести”.
+HH_SelectContainerLeadthru,"Обрати ємність зі списку and ""Ввести""."
+HH_ScaleBrokenLeadthru,"Зніміть товар з ваг, натисніть на сканері кнопку “Обнулити ваги”."
+HH_UpdateNotAllowedLeadthru,Змінити кількість не можна.
+HH_AM_RestrictedNotAllowedLeadthru,Товари обмеженого відпуску скасовано: вікові обмеження. \n\nВідкладіть товар.
+HH_OutOfSyncNeedAssistLeadthru,Касовий термінал працює несинхронно. Відновіть зв’язок у режимі “Касир”.
+HH_OutOfSyncStopLeadthru,Сервер касових терміналів не працює або працює несинхронно. Вимкніть термінал вимикачем.
+HH_MultiPackItemLeadthru,"Якщо набір: режим “Касир”, скасуйте, відскануйте штрих-код набору."
+HH_ReturnToShoppingButtonText,Повернутися
+DoneButtonText,Готово
+ConfirmSuspendFromLaneStatusLeadthruText,Підтвердіть чи скасуйте відкладення операції.
+HH_SuspendTransactionButtonText,Відкласти операцію
+HH_TransactionCancelTitle,Скасування операції
+HH_TransactionCancelLeadThru,Операцію скасовано. товари з цієї касової стійки.
+ShiftButtonText,Shift
+FixLaterButtonText,Виправити пізніше
+HopperLaneButtonText,Заміна монет
+HopperLeadThru,"%sНа касі внести монети чи ліквідувати затор або продовжити, натиснувши “Виправити пізніше”."
+TransactionCountText,Кількість:
+SecurityDisableText,Контроль відключено
+SecurityDisableButtonOn,Увімкнути
+SecurityDisableButtonOff,Вимкнути
+SecurityDisableStatusTextOn,Контроль на пак. вагах увімкнено
+SecurityDisableStatusTextOff,Контроль на пак. вагах вимкнено
+SuspendDeclinedLaneButtonText,Відкласти Declined
+ConfirmSuspendDeclinedLeadthru,"Підтвердіть, чи запит відкласти операцію відхилено."
+ConfirmSuspendDeclinedButtonText,Відхилити запит
+CancelSuspendDeclinedButtonText,Назад
+TMTransLeadthru,Каса працює в режимі навчання. Продовжити операцію?
+HH_TMTransLeadthru,Каса працює в режимі навчання. Продовжити операцію?
+TMTransLaneButtonText,Опер.: навч.
+DateFormat1,(ммддрррр)
+DateFormat2,(ммддрр)
+DateFormat3,(ддммрррр)
+DateFormat4,(ддммрр)
+DateFormat5,(ррррммдд)
+DateFormat6,(ррммдд)
+GoBackCouponButtonText,Назад
+ApproveCouponButtonText,Прийняти купон
+CouponExceededLimitLeadthru,"Прийняти - натисніть “Прийняти купон”, скасувати - перейдіть у режим “Касир”."
+CouponExceededLimitFinalizationLeadthru,Для оплати використано купон вартістю понад встановлений магазином ліміт.
+ClearSecurityFinalizationButtonText,Зняти контроль
+ExpandReceiptButtonText,Розгорнути чек
+CollapseReceiptButtonText,Згорнути чек
+InvalidBarcodeLeadThru,Візьміть картку item at lane and Зніміть скасований товар з пакувальних ваг.
+InvalidBarcodeLaneButtonText,Прврк товару
+HH_InvalidBarcodeLeadThru,"Щоб продовжити операцію, візьміть товар, натисніть “Прийняти”."
+GoToLaneOrHHRapLeadthru, Please go to Lane or HHRap for approval
+GoToLaneOrRapLeadthru, Please go to Lane or Rap for approval
+GoToLaneLeadthru,"Щоб дозволити/прийняти, підійдіть до каси"
+DisableRapApprovalText,Відключити контроль на ПС
+DisableHHRapApprovalText,Відключити контроль на ППС
+UpdateItemButtonText,Оновити товар
+SuspendConfirmationTitle,Відкласти Confirmation
+DoNotApproveButtonText,Не приймати
+SmVoidAndRemoveItemLeadthru,Зніміть скасований товар з пакувальних ваг.
+RestrictedItemsNotApprovedTitle,Товари обмеженого відпуску не дозволено
+HH_AssistAtLaneLeadthru,Перейдіть до каси для скасування товару.
+XM_Acceptor,Приймач
+XM_CashStatus,Запас готівки
+XM_CashStatusLeadthru,Виберіть потрібну функцію.
+XM_Cassette,Касета
+XM_CoinAcceptor,Приймач монет
+XM_CoinOverflow,Зайві монети
+XM_CoinOverflowText,Надлишок
+XM_CoinRecycler,Монетник
+XM_Coins,Монети
+XM_NoteOverflow,Надлишок купюр
+XM_NoteOverflowText,Касовий ящик
+XM_NoteRecycler,Банкнотник
+XM_Notes,Купюри
+XM_PurgeOperationText,Операції з браком
+XM_TerminalNumber,Номер терміналу
+XM_TotalCount,Загальна кількість:
+XM_TotalValue,Загальна сума:
+XM_CoinsSubtotal,Монет:
+XM_NotesSubtotal,Купюр:
+XM_GrandTotal,Разом:
+XM_PurgeInstruction,Операції з браком:  знайдено відбраковані купюри. Перейти до каси і перевірити пристрій.
+XM_RAP_NegativeAlert,Знайдено від’ємне число. Перейти до каси і перевірити пристрій.
+XM_AreYouSure,Дійсно виконати перелічені нижче дії?
+XM_Attendant,Консультант
+XM_Backspace,Стерти
+XM_BillAcceptor,Приймач купюр
+XM_BillDispenser,Роздавач купюр
+XM_Bins,Лотки
+XM_BothDispenseFailure,Не вдалося видати %s.\nЗамало готівки або збій роздавача.
+XM_CancelChanges,Скасувати зміни
+XM_CannotCompleteTransfer,Неможливо перенести. Замало місця в касовому ящику. Перед виконанням цієї операції спорожніть касовий ящик.
+XM_CashManagement,Робота з готівкою
+XM_CashManagementReport,Звіт по роботі з готівкою
+XM_CashRemove,Вийняти готівку
+XM_CashRemoveLeadthru,Виберіть потрібну функцію.
+XM_CashReplenishLeadthru,Виберіть потрібну функцію.
+XM_CashReplenishLeadthru1,Внесіть монети або виберіть функцію.
+XM_CashReplenishLeadthru2,Внесіть готівку або виберіть функцію.
+XM_CashReplenishLeadthru3,"Коли готово, натисніть “Вихід”."
+XM_CashReplenishment,Додати готівку
+XM_ChangeInCount,Зміна кількості
+XM_ChangeInValue,Зміна суми
+XM_Clear,Очистити
+XM_ClearPrompt1,"Коли готово, виберіть іншу функцію або “Вийти”."
+XM_ClearPrompt2,Виберіть іншу функцію або “Вийти”.
+XM_CoinAcceptorOffline,Приймач монет не відповідає.\n\nВимкніть і знов увімкніть термінал.
+XM_CoinDispenseFailure,Не вдалося видати %s.\nЗамало монет або роздавач монет не працює чи вимкнений.
+XM_CoinDispenser,Роздавач монет
+XM_CoinManagement,Робота з монетами
+XM_ConfirmAction,Підтвердіть дії
+XM_ConfirmCoinDispense,* Видача монет %s\nВидати на суму: %s\nВидати штук: %d
+XM_ConfirmEmptyCoinAcceptor,* Обнулити кількість монет у приймачі\nВийняти суму:%s
+XM_ConfirmEmptyCoinOverflow,* Обнулити кількість зайвих монет\nВийняти суму:%s
+XM_ConfirmEmptyNoteAcceptor,* Обнулити кількість купюр у приймачі\nВийняти суму:%s
+XM_ConfirmEmptyNoteOverflow,* Обнулити кількість у касовому ящику\nВийняти суму:%s
+XM_ConfirmFillLoaderCassette,* Задати к-ть купюр\nНова сума: %s\nНова к-ть: %d
+XM_ConfirmManualCoinEmpty,* Обнулити кількість монет\nВийняти суму:%s\nВийняти штук: %d
+XM_ConfirmManualCoinFill,Задати к-ть монет\nНова сума: %s\nНова к-ть: %d
+XM_ConfirmManualNoteEmpty,* Обнулити кількість купюр\nВийняти суму:%s\nВийняти штук: %d
+XM_ConfirmManualNoteFill,* Задати к-ть купюр\nНова сума: %s\nНова к-ть: %d
+XM_ConfirmNoteDispense,* Видача купюр\nВидати на суму: %s\nВидати штук: %d
+XM_ConfirmTransferNotesToOverflow,* Перенести купюри до кас. Ящика\nПеренести на суму: %s\nПеренести штук: %d
+XM_Count,Кількість
+XM_DispenseCupFull,"Лоток повернення монет повний. Щоб завершити видачу, видаліть монети."
+XM_DispenseCupFullPreemptive,"Візьміть монети\nЯкщо лоток повернення повний, спорожнити зараз. Видача зупиняється до випорожнення лотка."
+XM_DispenseFullPreemptive,"Візьміть купюри і монети\nКупюри видаються пачками по 15 шт. Видача зупиняється, доки не буде взято всі купюри. Якщо лоток повернення повний, спорожнити зараз. Видача зупиняється до випорожнення лотка."
+XM_DispenseNoteFullPreemptive,"Візьміть купюри\nКупюри видаються пачками по 15 шт. Видача зупиняється, доки не буде взято всі купюри."
+XM_DispenseSensorBlock,Лоток повернення монет повний або не працює сенсор. Вийняти монети або звернутися до технічної служби.
+XM_DispenseText,Видача
+XM_DispenseThreshold,Введена кількість перевищує доступну для видачі.  Введено максимальну кількість: %d
+XM_Empty,Очистити
+XM_EmptyCashAcceptorLT,Вийняти купюри з приймача готівки
+XM_EmptyCashBoxLT,Вийняти купюри з касового ящика
+XM_EmptyCoinAcceptor,Обнулити приймач монет
+XM_EmptyCoinAcceptorLT,Вийняти монети з приймача монет
+XM_EmptyCoinHopperLT,Вийняти монети з апарата.
+XM_EmptyCoinOverflow,Обнулити кількість зайвих монет
+XM_EmptyCoinOverflowLT,Вийняти монети з лотка для зайвих монет
+XM_EmptyLoaderCassetteLT,Вийняти купюри із завантажної касети
+XM_EmptyNoteAcceptor,Обнулити приймач купюр
+XM_EmptyNoteCassetteLT,Вийняти купюри з купюрних касет і скидного лотка
+XM_EmptyNoteOverflow,Обнулити касовий ящик
+XM_Enter,Ввести
+XM_ExceededAmount,Сума перевищує місткість. Максимальна потрібна сума: %s.
+XM_ExceededCapacity,"Кількість перевищує місткість. Можна внести не більше, штук: %d."
+XM_Execute,Застосувати зміни
+XM_Exit,Вийти
+XM_FastLaneReport,Звіт системи NCR SelfServ Checkout
+XM_FillLoaderCassette,Задати кількість купюр
+XM_GoBack,Назад
+XM_ID,№ касира
+XM_IDPrompt,Введіть № і натисніть “Ввести”.
+XM_InvalidAmount,Для одиниць %s вказано невірну суму.\nВкажіть суму ще раз
+XM_KeyPadEnterCoinAmount,Введіть на клавіатурі суму для монет %s.
+XM_KeyPadEnterCoinCount,Введіть на клавіатурі кількість монет %s.
+XM_KeyPadEnterNoteAmount,Введіть на клавіатурі суму для купюр %s.
+XM_KeyPadEnterNoteCount,Введіть на клавіатурі кількість купюр %s.
+XM_KeyPadInstr,Введіть на клавіатурі кількість
+XM_ManualBothFillAlert,"Відчинити дверцята каси, внести купюри в касети і монети в збирачі. Не вносити у приймачі."
+XM_ManualBothRecyclerFillAlert,"Відчинити дверцята каси, внести купюри в завантажувач і монети в збирачі. Не вносити у приймачі."
+XM_ManualCoinDispenserEmpty,Обнулити к-ть монет
+XM_ManualCoinDispenserFill,Задати к-ть монет
+XM_ManualCoinFillAlert,"Відчинити дверцята каси, внести монети безпосередньо в пристрій. Не вносити у приймач монет."
+XM_ManualEmptyAlert,Вийняти всю готівку з пристрою.
+XM_ManualFillAlert,"Відчинити дверцята каси, внести готівку безпосередньо в пристрій. Не вносити у приймачі."
+XM_ManualNoteDispenserEmpty,Обнулити к-ть купюр
+XM_ManualNoteDispenserFill,Задати кількість купюр
+XM_ManualNoteFillAlert,"Відчинити дверцята каси, внести купюри безпосередньо в касету. Не вносити у приймач купюр."
+XM_ManualNoteRecyclerFillAlert,"Відчинити дверцята каси, внести купюри безпосередньо в завантажувач. Не вносити у приймач купюр."
+XM_No,Ні
+XM_NoteDispenseFailure,Не вдалося видати %s.\nЗамало купюр or bill dispenser in error.
+XM_PW,Пароль касира
+XM_PWPrompt,Введіть пароль і натисніть “Ввести”.
+XM_PendingText,Pending
+XM_PleaseWait,Обробляється...\nЗачекайте.
+XM_Print,Запас готівки: друк
+XM_PurgeCoinRecycler,Монетник: відбрак.
+XM_PurgeNoteRecycler,Банкнотник: відбрак.
+XM_ReEnter,Невірні номер і пароль касира.\nВведіть ще раз
+XM_ResetCoinsToBaseLevel,Видати монети до найменшого рівня
+XM_ResetNotesToBaseLevel,Перенести купюри до найменшого рівня
+XM_SelectFunc1,Вибір функції системи
+XM_SelectFunc2,Виберіть потрібну функцію.
+XM_StoreNumber,Магазин №:
+XM_TransferAllNotes,Перенести всі купюри
+XM_TransferNotesToOverflow,Перенести купюри до кас. ящика
+XM_Update,Оновити
+XM_Yes,Так
+XM_SequenceNumber,Sequence Number
+XM_CardManagement,Робота з картками
+XM_TotalCoinsInserted,Всього вставлено
+XM_TotalNotesInserted,Всього вставлено
+XM_Value,Сума
+XM_TransferXCount,"Перенесення, шт. (x)"
+XM_TransferXAmount,"Перенесення, сума (x)"
+XM_PickUpAutoAmount,Автом. зменшення на суму
+XM_PickUpXAmount,Забрати на суму (x)
+XM_TransfertoCashBoxLeadThruText,"Щоб перенести купюри %s до кас. ящика, натисніть “Застосувати зміни”. Щоб скасувати всі не застосовані зміни, натисніть “Скасувати зміни”."
+XM_MenuDispenseFunctions,Функції видачі
+XM_MenuResetFunctions,Функції обнуління
+XM_MenuCashBoxTransfer,Переноси до кас. ящика
+XM_MenuPickUpFunctions,Функції зменшення каси
+XM_LeadThruCashBoxTransfer,Виберіть потрібну функцію перенесення.\nКоли готово - “Застосувати зміни”.
+XM_LeadThruResetFunction,Виберіть потрібну функцію обнуління.\nКоли готово - “Застосувати зміни”.
+XM_LeadThruDispenseFunction,Натисніть номінал і введіть суму\nабо натисніть “Видати монети до найменшого рівня”.
+XM_LeadThruPickUpFunction,Виберіть потрібну функцію зменшення каси.\nКоли готово - “Застосувати зміни”.
+XM_PurgeInstructionRecycler,"Операції з браком:  знайдено відбраковані купюри. Вийняти відбраковані купюри з касового ящика. Погасити запит, натиснувши “Перенести всі купюри”, потім “Обнулити касовий ящик""."
+XM_PurgeInstructionNonRecycler,"Операції з браком:  знайдено відбраковані купюри. Вийняти відбраковані купюри із скидного лотка. Погасити запит, натиснувши “Обнулити к-ть купюр”."
+XM_ReplenishInstruction,Внести готівку або вибрати номінал і ввести суму; або задати кількість.\nКоли готово - “Застосувати зміни”
+XM_KeyPadEnterPickUpAmount,Ввести на клавіатурі суму зменшення.
+XM_InvalidPickUpAmount,"Введена сума більше за суму, доступну для перенесення чи видачі."
+XM_InvalidStartingBank,"Встановлена початкова каса більше за суму, доступну для перенесення чи видачі."
+XM_CalculatedPickUpAmount,Розрахована сума зменшення: %s.
+XM_UnableToPickUp,Неможливо зменшити касу.
+XM_CoinAllowedDispenseExceeded,Спроба видати монети: %d шт. Можна видати не більше %d шт.
+XM_InvalidPickUpAmount2,Сума в касовому ящику і лотку для зайвих монет більше за суму зменшення.
+XM_LockScreen,Блок-екран
+XM_SystemBusy,Система зайнята... Зачекайте
+XM_AreYouSure_LockScreen,"Дійсно блокувати екран?\nНеможливо розблокувати екран, доки пристрої зайняті."
+XM_NegativeAlert,"Знайдено від’ємне число. Можливі причини: помилка при наборі; купюри покладено у завантажну касету, але їхню кількість не введено у вікні “Робота з готівкою”.\n\nДля виправлення виконати наступне:\n1. Вибрати “Додати готівку”.\n2. Натиснути номінал з від’ємним числом.\n3. Ввести точну суму купюр, для яких вказано від’ємне число, та/або суму, покладену в завантажувач.\n4. Вибрати “Застосувати зміни”.\n5. Підтвердити (“Так”) і “Вийти”."
+XM_NegativeAlert_Remove,"Знайдено від’ємне число. Можливі причини: помилка при наборі; купюри покладено у завантажну касету, але їхню кількість не введено у вікні “Робота з готівкою”.\n\nДля виправлення виконати наступне:\n1. Select ""Exit"" then select ""Add Cash"".\n2. Натиснути номінал з від’ємним числом.\n3. Ввести точну суму купюр, для яких вказано від’ємне число, та/або суму, покладену в завантажувач.\n4. Вибрати “Застосувати зміни”.\n5. Підтвердити (“Так”) і “Вийти”."
+XM_AddCashLeadthru1,Внести монети чи натиснути на циліндр і ввести суму; або задати кількість.
+XM_AddCashLeadthru2,Внести готівку чи натиснути на циліндр і ввести суму; або задати кількість.
+XM_AddCashLeadthru3,Натиснути на циліндр і ввести суму або задати кількість.
+XM_CoinHopperEmpty,"Щоб обнулити кількість монет, збирач монет має бути порожнім. Випорожнити всі збирачі монет і натиснути “Застосувати зміни”."
+XM_CollectRemainingCoins,"Коли видачу закінчено, вийняти монети з лотка повернення."
+XM_FPIDPrompt,Для входу наберіть код користувача і натисніть “Ввести” або покладіть палець на дактилоскоп.
+XM_LoanFailure,Не вдалося збільшити касу
+XM_LoanFailureLeadthru,У збільшенні каси відмовлено. Виберіть потрібну функцію.
+XM_UndoLoan,Не поповнювати
+XM_CommitLoan,Поповнити
+XM_PickUpFailure,Не вдалося зменшити касу
+XM_PickUpFailureLeadthru,У зменшенні каси відмовлено. Виберіть потрібну функцію.
+XM_UndoPickUp,Не зменшувати
+XM_CommitPickUp,Зменшити
+XM_ManualRemoveCashAlert,Для скасування вийняти готівку з касового ящика і монети зі збирача зайвих монет.\n\nКупюри\nВийняти штук: %d\n\nВийняти суму:%s\n\nМонети\nВийняти штук: %d\n\nВийняти суму:%s
+XM_POSRejectedLoanPickUp,Термінал відмовив у збільшенні чи зменшенні каси:  відхилено %s / %d.\n
+XM_LoanPickUpCashierOverrides,Касир № %s примусово збільшив/зменшив касу: виконано на суму %s / %d шт.\n\n
+XM_PlaceJammedBill,Вийняти касовий ящик і покласти всередину застряглі купюри.
+XM_GrandTotalText,Разом: %s
+XM_TotalAddedText,Сума Added: %s
+XM_TotalRemovedText,Сума Removed: %s
+XM_TotalColectedText,Сума Collected: %s
+XM_ManualRemoveCashAlertGlory,Remove cash from the cassette to undo loan.\n\nКупюри\nВийняти штук: %d\n\nВийняти суму:%s
+XM_CashUnbalance,Помилка модуля приймання-видачі: розбіжність даних
+XM_Collect,Візьміть картку
+XM_CollectFailure,The collect operation resulted in failure.
+XM_LeadThruGloryFunction,"Touch denomination and enter amount or touch ""Візьміть картку""."
+XM_CassetteMissing,Bill Cassette is not in the unit. Put Bill Cassette back into the unit.
+XM_EmptyCassetteAndRejectBin, Remove bills from Bill Cassettes and Reject Bin.
+XM_OperatorID,Код оператора %s
+XM_InitializeError,The system encounters an error to be corrected.
+XM_GloryDispenseCupFullPreemptive,"Please Take Coins\nIf coin return is full, empty promptly. Dispensing will pause until bowl is emptied."
+XM_GloryDispenseFullPreemptive,"Please Take Bills and Coins\nBills are dispensed in bunches of 10. Dispensing will pause until all bills are taken. If coin return is full, empty promptly. Dispensing will pause until bowl is emptied."
+XM_GloryDispenseNoteFullPreemptive,Please Take Bills\nBills are dispensed in bunches of 10. Dispensing will pause until all bills are taken.
+MinMaxFastLaneBtnPrimaryTxt,Згорнути SelfServ Checkout
+MinMaxFastLaneBtnSecondaryTxt,Розгорнути SelfServ Checkout
+MinMaxFastLaneBtnPrimaryShowConfirmation,Щоб згорнути SelfServ Checkout натисніть кнопку “Згорнути SelfServ Checkout”.
+MinMaxFastLaneBtnSecondaryShowConfirmation,"Щоб розгорнути SelfServ Checkout, натисніть кнопку “Розгорнути SelfServ Checkout”."
+StopStartFastLaneBtnPrimaryTxt,Зупинити SelfServ Checkout
+StopStartFastLaneBtnSecondaryTxt,Запустити SelfServ Checkout
+SwitchToRAPBtnPrimaryTxt,Перейти на СПП
+ShutdownSystemBtnPrimaryTxt,Вимкнути всю систему
+RebootSystemBtnPrimaryTxt,Перезавантажити систему
+VolumeBtnPrimaryTxt,Звук
+EventViewerBtnPrimaryTxt,Вікно подій
+GenerateLogBtnPrimaryTxt,Створити файли діагностики
+ExitFastLaneAndRunProfileBtnPrimaryTxt,"Зупинити SelfServ Checkout, запустити Диспетчер профілів"
+ExitFastLaneAndRunProfileBtnSecondaryTxt,Запустити Диспетчер профілів
+TerminalInfoBtnPrimaryTxt,Про термінал
+MinMaxRAPBtnPrimaryTxt,Згорнути СПП
+MinMaxRAPBtnSecondaryTxt,Розгорнути СПП
+MinMaxRAPBtnPrimaryShowConfirmation,"Щоб згорнути СПП, натисніть кнопку “Згорнути СПП”."
+MinMaxRAPBtnSecondaryShowConfirmation,"Щоб розгорнути СПП, натисніть кнопку “Розгорнути СПП”."
+StopStartRAPButtonPrimaryTxt,Зупинити СПП
+StopStartRAPButtonSecondaryTxt,Запустити СПП
+RapConfigureBtnPrimaryTxt,Налаштувати СПП
+SwitchToFastLaneBtnPrimaryTxt,Перейти на SelfServ Checkout
+ExitRAPAndRunProfileBtnPrimaryTxt,"Зупинити СПП, запустити Диспетчер профілів"
+ExitRAPAndRunProfileBtnSecondaryTxt,Запустити Диспетчер профілів
+UtilityFunctionsTitle,NCR SelfServ Checkout\nФункції
+StartTitle,Запуск системи
+SystemStartup,Іде запуск... Зачекайте
+TerminalID,Термінал №:
+InterfaceVersion,Версія програми:
+TrainingProgramPrimaryTxt,Навчальна програма
+LaunchPadNet_OperatorIDText,Код оператора:
+KeySwitchOperatorID,Замок
+LaunchPadNet_SignOnButtonText,Увійти
+LaunchPadNet_SignOffButtonText,Вийти
+SignedOffButtonText,Вихід здійснено
+Exit,Вийти All
+LaunchPadNet_ReturnToShoppingButtonText,Повернутися
+PickListEditor,Редагувати перелік покупок
+RunADDTxt,Запустити АВП під час наступного ввімкнення
+TouchWareTxt,Калібрувати сенсорний екран
+DiagConfirm,Створити файли діагностики?
+ProfileManagerFLConfirm,Зупинити SelfServ Checkout і запустити Диспетчер профілів?
+ProfileManagerRAPConfirm,Зупинити СПП і запустити Диспетчер профілів?
+ProfileManagerConfirm,Запустити Диспетчер профілів?
+EventViewerConfirm,Запустити Вікно подій?
+TrainingConfirm,Запустити навчальну програму?
+PicklistConfirm,Запустити редактор списків покупок?
+RunADDConfirm,Запустити автоматичний пошук пристроїв після наступного ввімкнення?
+CalibrateConfirm,Калібрувати сенсорний екран?
+ShutdownConfirm,Вимкнути всю систему?
+RebootConfirm,Повністю перезавантажити систему?
+CloseAllConfirm,Вийти з усіх програм та перейти на робочий стіл?
+VolumeConfirm,Відрегулювати гучність?
+TerminalInfoConfirm,Переглянути інформацію про термінал?
+StopFastLaneConfirm,Зупинити SelfServ Checkout?
+StopRAPConfirm,Зупинити СПП?
+StartFastLaneConfirm,Запустити SelfServ Checkout?
+StartRAPConfirm,Запустити СПП?
+WindowsLogOnTxt,Вхід у Windows
+WindowsLogOnConfirm,Вийти з усіх програм та увійти під іншим іменем?
+YesText,Так
+NoText,Ні
+CommandPromptPrimaryTxt,Командний рядок
+CommandPromptConfirm,Відкрити командний рядок?
+RSMLEPrimaryTxt,Retail Systems Manager LE
+RSMLEConfirm,Запустити Retail Systems Manager LE?
+OperatorRegistrationUtility,Утиліта реєстрації оператора
+LaunchPadNet_EnterIDFpLeadthru,Для входу наберіть код користувача і натисніть “Ввести” або покладіть палець на дактилоскоп.
+LaunchPadNet_ReEnterIDFpLeadthru,Невірний код користувача. Введіть код ще раз або покладіть палець на дактилоскоп.
+LaunchPadNet_ClearButtonText,Очистити
+LaunchPadNet_EnterButtonText,Ввести
+LaunchPadNet_GoBackButtonText,Назад
+LaunchPadNet_SpaceButtonText,Пробіл
+LaunchPadNet_BackSpaceButtonText,Стерти
+LaunchPadNet_EnterIDLeadthru,Введіть код на клавіатурі:
+ReEnterIDLeadthru,Невірний код чи пароль. Введіть ще раз.
+LaunchPadNet_EnterPasswordLeadthru,Введіть пароль на клавіатурі:
+CancelButtonText,Скасувати
+LaunchPadNet_LoggingInLeadthru,Вхід...Зачекайте
+LaunchPadNet_ShiftButtonText,Shift
+LaunchPadNet_SignedOffButtonText,Вихід здійснено
+LaunchPadNet_ReEnterIDLeadthru,Невірний код чи пароль. Введіть ще раз.
+LegalCaptionText,"LEGAL CAPTION\nThis system is for the use of authorized personnel only. By logging onto this system, you are subject to the terms and conditions of all Information Security policies and standards. Use by unauthorized individuals or for unauthorized purposes is a violation of federal and/or state law. The company reserves the right to take any necessary actions to protect authorized users, intellectual property and other information assets. Individuals using this system are subject to having all of their activities on this system monitored. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals possible evidence of criminal activity, system personnel may provide the evidence of such monitoring to law enforcement officials.\n        "
+PageIndicatorLabelFormat,Стор. {0} з {1}
+SignBelow,Розпишіться.
+AlertStatusTextOff,
+AlertStatusTextOn,!!!
+InitialText,.
+HH_TransactionCancelLeadThru2,Операцію скасовано.
+SignOnTitle,NCR SelfServ Checkout Log In
+DueCart,До сплати
+ScotApp_1,фунти
+ScotApp_2,кг
+ScotApp_3,3unused
+ScotApp_4,4unused
+ScotApp_5,5unused
+ScotApp_6,6unused
+ScotApp_7,7unused
+ScotApp_8,8unused
+ScotApp_9,9unused
+ScotApp_10,10unused
+ScotApp_11,11unused
+ScotApp_12,"  К-ть %d, ціна %s/од."
+ScotApp_13,"  %ss, %s/%s"
+ScotApp_14,14unused
+ScotApp_15,Код товару:
+ScotApp_16,З вашої картки буде списано %s.
+ScotApp_17,Купон
+ScotApp_18,Сума
+ScotApp_19,Податок
+ScotApp_20,20unused
+ScotApp_21,21unused
+ScotApp_22,Без\nзняття\nготівки\n+ 0          \n(%s)
+ScotApp_23,+ %s (%s)
+ScotApp_24,Скасовано
+ScotApp_25,Дата народження:
+ScotApp_26,26unused
+ScotApp_27,27unused
+ScotApp_28,Скасувати покупку
+ScotApp_29,Товари обмеженого відпуску
+ScotApp_30,Скасовані товари
+ScotApp_31,Купони
+ScotApp_32,Далі
+ScotApp_33,Збій ліквідовано
+ScotApp_34,34unused
+ScotApp_35,Решта:
+ScotApp_36,Повернено:
+ScotApp_37,37unused
+ScotApp_38,38unused
+ScotApp_39,Скасування операції
+ScotApp_40,Авторизація магазину
+ScotApp_41,Товари обмеженого відпуску
+ScotApp_42,Скасовані товари
+ScotApp_43,43unused
+ScotApp_44,44unused
+ScotApp_45,45unused
+ScotApp_46,Довідка
+ScotApp_47,Старт
+ScotApp_48,48unused
+ScotApp_49,49unused
+ScotApp_50,50unused
+ScotApp_51,Не зчитано купон
+ScotApp_52,Скасувати купони
+ScotApp_53,53unused
+ScotApp_54,Скасувати
+ScotApp_55,Скасувати все
+ScotApp_56,Скасувати платіж
+ScotApp_57,Закінчити і оплатити
+ScotApp_58,ОК
+ScotApp_59,Спробуйте знов
+ScotApp_60,Викликати допомогу
+ScotApp_61,61unused
+ScotApp_62,Так
+ScotApp_63,Ні
+ScotApp_64,Скасувати обране
+ScotApp_65,65unused
+ScotApp_66,66unused
+ScotApp_67,Назад
+ScotApp_68,68unused
+ScotApp_69,69unused
+ScotApp_70,70unused
+ScotApp_71,71unused
+ScotApp_72,72unused
+ScotApp_74,Скасувати
+ScotApp_75,Готово
+ScotApp_76,76unused
+ScotApp_77,Кредитна
+ScotApp_78,Банкомат (без зняття готівки)
+ScotApp_79,79unused
+ScotApp_80,80unused
+ScotApp_81,Далі
+ScotApp_82,82unused
+ScotApp_83,83unused
+ScotApp_84,Завантажити параметри
+ScotApp_85,85unused
+ScotApp_86,86unused
+ScotApp_87,87unused
+ScotApp_88,88unused
+ScotApp_89,89unused
+ScotApp_90,90unused
+ScotApp_91,91unused
+ScotApp_92,Вітаємо!
+ScotApp_93,Сканувати і пакувати
+ScotApp_94,94unused
+ScotApp_95,Сканувати купони
+ScotApp_96,96unused
+ScotApp_97,Обрати ємність зі списку
+ScotApp_98,98unused
+ScotApp_99,Скільки скасувати
+ScotApp_100,Потрібна кількість
+ScotApp_101,Невідома ціна
+ScotApp_102,Відкликаний товар
+ScotApp_103,Введіть код товару.
+ScotApp_104,104unused
+ScotApp_105,Невідомий товар
+ScotApp_106,Потрібна допомога
+ScotApp_107,Зараз підійде консультант
+ScotApp_108,Невідповідний купон
+ScotApp_109,Далі?
+ScotApp_110,Зважити товар
+ScotApp_111,Обнулити ваги
+ScotApp_112,Підтвердити кількість
+ScotApp_113,Скасувати товари
+ScotApp_114,Скасувати товари не можна
+ScotApp_115,"Так, скасувати"
+ScotApp_116,Скасувати всі товари
+ScotApp_117,Відкласти товари
+ScotApp_118,Потрібне підтвердження
+ScotApp_119,Скасувати всі товари
+ScotApp_120,Операцію скасовано. Зніміть
+ScotApp_121,товари з цієї касової стійки.
+ScotApp_122,122unused
+ScotApp_123,123unused
+ScotApp_124,124unused
+ScotApp_126,(ддммрр).
+ScotApp_127,127unused
+ScotApp_128,128unused
+ScotApp_129,"Перевірити, чи скасовані товари відкладено."
+ScotApp_130,Внесіть купони.
+ScotApp_131,Внести купони
+ScotApp_132,132unused
+ScotApp_133,133unused
+ScotApp_135,135unused
+ScotApp_136,Внесіть гроші
+ScotApp_137,Візьміть решту
+ScotApp_138,Заберіть картку
+ScotApp_139,Візьміть чек
+ScotApp_140,Дякуємо
+ScotApp_141,Оберіть тип картки
+ScotApp_142,Підтвердити суму
+ScotApp_143,Підпишіть чек
+ScotApp_144,Порівняти підпис
+ScotApp_145,145unused
+ScotApp_146,Оберіть спосіб оплати.
+ScotApp_147,147unused
+ScotApp_148,148unused
+ScotApp_149,Введіть ПІН
+ScotApp_150,"Оберіть суму, яку бажаєте зняти готівкою"
+ScotApp_151,Візьміть гроші
+ScotApp_152,152unused
+ScotApp_153,153unused
+ScotApp_154,Завантаження...
+ScotApp_155,Системне повідомлення
+ScotApp_156,Системне повідомлення
+ScotApp_157,Системне повідомлення
+ScotApp_158,Відпуск товару - з дозволу магазину. Продовжуйте.
+ScotApp_162,Відскануйте товари і купони.
+ScotApp_163,163unused
+ScotApp_168,Відскануйте купони і відкладіть їх до кінця купівлі.
+ScotApp_170,"Зніміть товар з ваг, натисніть на сканері кнопку “Обнулити ваги”."
+ScotApp_172,Відскануйте непотрібний товар чи оберіть його на чеку.
+ScotApp_173,173unused
+ScotApp_174,Відсканований товар не знайдено. Цей товар ще не придбано або вже скасовано.
+ScotApp_176,Припинити оформлення покупки та скасувати її повністю?
+ScotApp_179,179unused
+ScotApp_180,Відкладіть купони.Внесіть їх наприкінці оформлення покупки.
+ScotApp_181,\nВведіть на клавіатурі вартість купона в гривнях і натисніть “ОК”.
+ScotApp_183,183unused
+ScotApp_185,Порівняйте підпис покупця з підписом на картці.
+ScotApp_186,186unused
+ScotApp_187,187unused
+ScotApp_188,Завантажуються параметри...
+ScotApp_189,Параметри завантажено.
+ScotApp_190,Завантаження Transaction Broker...
+ScotApp_191,Transaction Broker завантажено.
+ScotApp_192,192unused
+ScotApp_193,193unused
+ScotApp_194,Завантаження Device Manager...
+ScotApp_195,Device Manager завантажено.
+ScotApp_196,Завантаження Presentation Services...
+ScotApp_197,Presentation Services завантажено.
+ScotApp_198,Завантаження User Exits...
+ScotApp_199,User Exits завантажено.
+ScotApp_200,Перевірка Transaction Broker...
+ScotApp_201,Початок перевірки...
+ScotApp_202,Кінець перевірки...
+ScotApp_203,203unused
+ScotApp_204,Копіювання файлів на сервер...
+ScotApp_205,Копіювання закінчено.
+ScotApp_206,Буде завантажено параметри.
+ScotApp_207,207unused
+ScotApp_208,208unused
+ScotApp_209,Зупинити програму
+ScotApp_210,210unused
+ScotApp_212,212unused
+ScotApp_213,213unused
+ScotApp_214,Дебетова - поточний
+ScotApp_215,Дебетова - депозит
+ScotApp_216,"* Відчинити дверцята принтера.\n* Відкрити кришку принтера, перевірити, чи не застряг папір.\n* Закрити кришку, перезаправити папір.\n* Має друкуватися чек зі значком “смайлик”.\n* Зачинити і замкнути дверцята принтера."
+ScotApp_217,217unused
+ScotApp_218,У принтері закінчується папір
+ScotApp_219,219unused
+ScotApp_220,"* Відчинити дверцята принтера.\n* Відкрити кришку принтера, перевірити, чи не застряг папір.\n* Заправити новий рулон паперу.\n* Зачинити і замкнути дверцята принтера."
+ScotApp_221,Зачинити і замкнути дверцята принтера.
+ScotApp_222,"Порядок дій при роботах з принтером: перевірити наявність помилок принтера та помилок у вікні подій, натиснути “Збій ліквідовано”."
+ScotApp_223,Лоток вилучених карт кард-ридера повний
+ScotApp_224,Лоток вилучених карт кард-ридера вийнято
+ScotApp_225,Лоток вилучених карт кард-ридера вставлено
+ScotApp_226,Кард-ридер не працює
+ScotApp_227,У кард-ридері недійсна картка
+ScotApp_228,Затулку кард-ридера закрито через затор
+ScotApp_229,229unused
+ScotApp_230,Стан приймача готівки: відбраковано
+ScotApp_231,231unused
+ScotApp_232,"* Вийняти приймач купюр та касету.\n* Перевірити касету на затор.\n* Відчинити дверцята зверху приймача, перевірити на затор купюр.\n* Щільно зачинити дверцята.\n* Вставити приймач купюр та касету."
+ScotApp_233,"Переконатися, що приймач купюр встановлено вірно.\n\nЗвільнити ручку, потягнувши за неї, витягти приймач купюр.\n\nВставити приймач купюр до упору."
+ScotApp_234,"Вийняти купюрну касету.\n\nЗвільнити касету від купюр.\n\nВставити касету на місце до фіксації.\n\nПеревірити фіксацію, потягнувши касету за ручку."
+ScotApp_235,Приймач готівки майже повний
+ScotApp_236,236unused
+ScotApp_237,"Вставити касету до фіксації.\n\nПеревірити фіксацію, потягнувши касету за ручку."
+ScotApp_238,\nПриймач не зареєстрував внесену готівку.\n\nПеревірити купюрну касету.
+ScotApp_239,Неочікуваний стан Device Manager
+ScotApp_240,Загальний збій Device Manager
+ScotApp_241,Неочікувана помилка Device Manager
+ScotApp_242,Затор карти у кард-ридері
+ScotApp_243,Недійсна картка у кард-ридері
+ScotApp_244,244unused
+ScotApp_245,Кард-ридер не працює
+ScotApp_246,246unused
+ScotApp_247,247unused
+ScotApp_248,248unused
+ScotApp_249,249unused
+ScotApp_250,250unused
+ScotApp_251,251unused
+ScotApp_252,\nЗатор на роздавачі монет\n\nЛіквідувати затор на роздавачі монет.
+ScotApp_253,253unused
+ScotApp_254,Не працює роздавач монет\nВнести монети у роздавач або\nувімкнути живлення або\nліквідувати затор на роздавачі.
+ScotApp_255,255unused
+ScotApp_256,Кінець роботи User Exits.
+ScotApp_257,257unused
+ScotApp_258,Кінець роботи Transaction Broker.
+ScotApp_259,Кінець роботи Device Manager.
+ScotApp_260,260unused
+ScotApp_261,261unused
+ScotApp_262,262unused
+ScotApp_264,264unused
+ScotApp_265,265unused
+ScotApp_266,Сек. Кінець роботи Agent..
+ScotApp_267,Контроль
+ScotApp_268,Помилка читання карти
+ScotApp_269,Режим “Касир”
+ScotApp_270,Прийняти купони
+ScotApp_271,Прийняти використані купони
+ScotApp_272,Перевірити використані купони
+ScotApp_276,276unused
+ScotApp_277,277unused
+ScotApp_278,Журнал контролю
+ScotApp_279,Підтвердити всі випадки порушень.
+ScotApp_280,Очистити журнал контролю
+ScotApp_281,281unused
+ScotApp_282,Введіть ім’я користувача
+ScotApp_283,Введіть пароль
+ScotApp_284,Сканер: втрачено дані
+ScotApp_285,Сканер: невірний суфікс протикрадіжк. давача
+ScotApp_286,Сканер: невірний префікс2 протикрадіжк. давача
+ScotApp_287,Сканер: невірний протикрадіжковий давач
+ScotApp_288,"Натиснути “Збій ліквідовано”.\n* Якщо помилка виникає знов, перезавантажити термінал:\n* Повернути замок адміністратора на “S” -АБО натиснути кнопку “Адміністратор”.\n* Обрати “Вимкнути всю систему”.\n* Коли екран згас, вимкнути термінал на ББЖ чи на подовжнику.\n* Увімкнути термінал. Якщо помилка виникає знов, зверніться до технічної служби."
+ScotApp_289,289unused
+ScotApp_290,290unused
+ScotApp_291,"Затор на трубці роздавача монет\n%s\nЛіквідувати затор на роздавачі монет, натиснути “Затор ліквідовано”."
+ScotApp_292,Не зчитано купон
+ScotApp_293,Потрібна допомога
+ScotApp_295,295unused
+ScotApp_296,296unused
+ScotApp_297,297unused
+ScotApp_298,298unused
+ScotApp_299,299unused
+ScotApp_300,300unused
+ScotApp_301,Введіть вартість купона
+ScotApp_302,На платіжному пристрої введіть ПІН.
+ScotApp_303,Скасувати товари
+ScotApp_304,Вибір ємності
+ScotApp_306,Без ємності
+ScotApp_307,Інша ємність
+ScotApp_308,коп.
+ScotApp_309,грн.
+ScotApp_310,лоток майже порожній
+ScotApp_311,лоток порожній
+ScotApp_312,затор у лотку
+ScotApp_313,313unused
+ScotApp_314,збій на лотку
+ScotApp_315,315unused
+ScotApp_316,316unused
+ScotApp_317,317unused
+ScotApp_318,318unused
+ScotApp_319,Оплата карткою
+ScotApp_320,Назад
+ScotApp_321,Перевірка операції
+ScotApp_322,322unused
+ScotApp_323,"  К-ть %d, ціна %d/%s"
+ScotApp_324,Дата непотрібна
+ScotApp_325,Введено невірну дату
+ScotApp_326,Дата народж. не задовольняє віковим обмеженням на товар.
+ScotApp_327,Пристрій не в мережі. Перевірити кабелі та журнал подій:
+ScotApp_328,"Не вдалося видати %s.\n* Перевірити роздавачі купюр та монет.\n* Якщо порожні, поповнити.\n* Якщо не порожні, усунути затор.\n* Натиснути “Збій ліквідовано”. Затор монет або відсутні/повні збирачі монет"
+ScotApp_329,"  %ss, ціна %d %s/%s"
+ScotApp_330,Режим “Касир”
+ScotApp_331,Зніміть товари з пакувальних ваг. Вимкнено клавіатуру.
+ScotApp_332,Вихід з режиму “Касир”.
+ScotApp_333,Збій затулки кард-ридера через затор
+ScotApp_334,Помилка кард-ридера: немає картки
+ScotApp_335,Можливе втручання клієнта в роботу кард-ридера
+ScotApp_336,Шукати товар
+ScotApp_337,Відскануйте товар або введіть код і натисніть “ОК”.
+ScotApp_338,Введіть перші три літери опису товару.
+ScotApp_339,339unused
+ScotApp_340,Вибір товару зі списку. Кнопки зі стрілками - рух вгору-вниз.
+ScotApp_341,341unused
+ScotApp_342,Введіть опис
+ScotApp_343,343unused
+ScotApp_344,344unused
+ScotApp_345,345unused
+ScotApp_346,Банкомат (зі зняттям готівки)
+ScotApp_347,Товари обмеженого відпуску скасовано: вікові обмеження. Відкладіть товар.
+ScotApp_348,348unused
+ScotApp_349,349unused
+ScotApp_350,"Запас готівки, паперу"
+ScotApp_351,"Запас готівки, паперу"
+ScotApp_352,Оновити
+ScotApp_353,Назад
+ScotApp_354,Функції системи
+ScotApp_355,Вибір функції системи
+ScotApp_356,Шифратор
+ScotApp_357,357unused
+ScotApp_358,Назад у режим “Касир”
+ScotApp_359,Функції системи
+ScotApp_360,Закрити касу
+ScotApp_361,Касу закрито
+ScotApp_362,Введіть пароль
+ScotApp_363,\nНа клавіатурі введіть пароль оператора.
+ScotApp_364,364unused
+ScotApp_365,Принтер: затор на голівці
+ScotApp_366,Принтер: затор на ножі
+ScotApp_367,367unused
+ScotApp_368,"Принтер: не заправлено папір, затор"
+ScotApp_369,Помилка контакту з принтером
+ScotApp_370,Відкрито кришку принтера
+ScotApp_371,Принтер: замінити голівку
+ScotApp_372,Принтер: помилка на бічних контактах
+ScotApp_373,Принтер: затор паперу на виході
+ScotApp_374,Принтер: не розпізнано чорну мітку
+ScotApp_375,Принтер: час очікування вибіг
+ScotApp_376,376unused
+ScotApp_377,Модулі - Стан
+ScotApp_378,Чековий принтер
+ScotApp_379,Приймач готівки
+ScotApp_380,380unused
+ScotApp_381,Працює
+ScotApp_382,Невідомий
+ScotApp_383,383unused
+ScotApp_384,384unused
+ScotApp_385,385unused
+ScotApp_386,Вийнято касету
+ScotApp_387,Затор транспортних шляхів
+ScotApp_388,Обробляється...
+ScotApp_389,Картка обробляється
+ScotApp_390,Відкликані товари
+ScotApp_391,Товари без ціни
+ScotApp_392,Невідомі товари
+ScotApp_393,Принтер журналу
+ScotApp_394,394unused
+ScotApp_395,Товари обмеженого відпуску не дозволено
+ScotApp_396,Причини виклику помічника:
+ScotApp_398,Вставлено касету
+ScotApp_399,399unused
+ScotApp_400,400unused
+ScotApp_401,"Вставте картку. Перевірте, чи немає в кошику інших товарів."
+ScotApp_402,Немає
+ScotApp_403,403unused
+ScotApp_404,404unused
+ScotApp_406,406unused
+ScotApp_408,408unused
+ScotApp_409,Системне повідомлення
+ScotApp_411,Отримайте дисконтну картку
+ScotApp_416,Завантаження Hard Totals...
+ScotApp_417,Hard Totals завантажено.
+ScotApp_418,Кінець роботи Hard Totals...
+ScotApp_419,419unused
+ScotApp_420,420unused
+ScotApp_421,"Відскануйте товар або почніть роботу, натиснувши “Старт”."
+ScotApp_422,422unused
+ScotApp_423,"Вставте картку. Перевірте, чи немає в кошику інших товарів."
+ScotApp_424,Введіть суму
+ScotApp_425,425unused
+ScotApp_426,Каса №:
+ScotApp_427,Замало готівки
+ScotApp_428,Жовтий
+ScotApp_429,Червоний
+ScotApp_430,Не працює
+ScotApp_432,СОЦІАЛЬНА (EBT)
+ScotApp_433,433unused
+ScotApp_434,Вид соц. допомоги
+ScotApp_436,Підтвердити суму
+ScotApp_437,Замалий залишок
+ScotApp_439,439unused
+ScotApp_441,Підтвердити суму
+ScotApp_444,Продовольчі талони
+ScotApp_445,Грошова допомога
+ScotApp_446,Відкласти операцію
+ScotApp_447,Рахунок постійного покупця активовано.
+ScotApp_448,Рахунок постійного покупця активовано.
+ScotApp_449,Стан приймача монет: відбраковано
+ScotApp_450,450unused
+ScotApp_451,Стан приймача монет: затор
+ScotApp_452,Перевірити контакт кабелю з бічним гніздом приймача монет.
+ScotApp_453,Приймач монет повний
+ScotApp_454,454unused
+ScotApp_455,455unused
+ScotApp_456,456unused
+ScotApp_457,457unused
+ScotApp_459,Після оформлення покупки залишок на рахунку зберігається.
+ScotApp_460,Покупку оформлено.
+ScotApp_461,Завантаження Remote Approval...
+ScotApp_462,Remote Approval завантажено.
+ScotApp_463,Кінець роботи Remote Approval...
+ScotApp_464,%s               %s
+ScotApp_465,%s               %s
+ScotApp_466,   Сканований невідомий товар
+ScotApp_467,467unused
+ScotApp_468,   Відкликаний
+ScotApp_469,469unused
+ScotApp_470,   Вікові обмеження
+ScotApp_471,   Visual Validation
+ScotApp_472,Потрібна допомога
+ScotApp_473,Замало готівки/паперу
+ScotApp_474,474unused
+ScotApp_475,Операцію відкладено
+ScotApp_476,Здача купонів
+ScotApp_478,Здача купонів.
+ScotApp_479,Здати купони
+ScotApp_481,Потрібна допомога
+ScotApp_482,482unused
+ScotApp_483,Розпишіться ручкою у вікні.
+ScotApp_484,Потрібен підпис
+ScotApp_485,Потрібен підпис
+ScotApp_486,Вгору
+ScotApp_487,Вниз
+ScotApp_488,Покладіть товар на ваги: %s
+ScotApp_490,"Відскануйте товар або почніть роботу, натиснувши “Старт”."
+ScotApp_492,Візьміть решту.
+ScotApp_493,Візьміть чек під платіжним пристроєм.
+ScotApp_494,Оберіть суму для зняття готівкою.
+ScotApp_496,Ліміт кількості
+ScotApp_497,До сплати:
+ScotApp_498,Сплачено:
+ScotApp_499,499unused
+ScotApp_500,500unused
+ScotApp_502,Відкладіть скасований товар.
+ScotApp_503,503unused
+ScotApp_504,504unused
+ScotApp_505,Невірне число
+ScotApp_506,506unused
+ScotApp_507,Візуальний контроль товарів
+ScotApp_508,508unused
+ScotApp_509,509unused
+ScotApp_510,Другий підпис
+ScotApp_511,Порівняйте підпис покупця з підписом на картці.
+ScotApp_512,Візуальний контроль
+ScotApp_513,513unused
+ScotApp_514,514unused
+ScotApp_515,515unused
+ScotApp_516,Інший вид оплати
+ScotApp_517,Замовлено інший вид оплати.
+ScotApp_518,Внесіть гроші.
+ScotApp_519,Вартість купона завелика
+ScotApp_520,Невідомий код товару
+ScotApp_521,Повернена сума:
+ScotApp_522,Невірний ПІН
+ScotApp_523,Картку не прийнято
+ScotApp_526,\nНевірний ПІН-код.\nПроведіть через пристрій іншу картку\n   -або-\nсплатіть готівкою
+ScotApp_527,527unused
+ScotApp_528,528unused
+ScotApp_531,\nЗбій пристрою введення підпису
+ScotApp_532,Товар обмеженого відпуску
+ScotApp_534,Товари з відпуском в обмежені години
+ScotApp_535,   Час відкликання
+ScotApp_536,Приймач монет
+ScotApp_537,537unused
+ScotApp_538,538unused
+ScotApp_539,539unused
+ScotApp_540,540unused
+ScotApp_541,Друк штрих-коду оператора
+ScotApp_542,Штрих-код оператора не створено.
+ScotApp_543,Максимальна кількість символів у коді оператора: %d.
+ScotApp_544,Максимальна кількість символів у паролі оператора: %d.
+ScotApp_545,Товар обмеженого відпуску
+ScotApp_548,548unused
+ScotApp_549,549unused
+ScotApp_550,550unused
+ScotApp_551,551unused
+ScotApp_552,Код і пароль оператора не можуть починатися нулем.
+ScotApp_554,Не проводьте зараз кредитні картки через пристрій.
+ScotApp_555,Інший вид оплати
+ScotApp_556,Операцію не відкладено.
+ScotApp_557,Товари з обмеженням кількості
+ScotApp_558,Товар з обмеженням кількості
+ScotApp_559,Купони не приймаються
+ScotApp_561,Відкласти купон
+ScotApp_562,Продаж купонів - у режимі “Касир”
+ScotApp_564,564unused
+ScotApp_565,Вхід до магазину
+ScotApp_566,566unused
+ScotApp_567,Ввести
+ScotApp_568,Очистити
+ScotApp_569,Введіть код
+ScotApp_570,570unused
+ScotApp_571,Введіть кількість і натисніть “Ввести”.
+ScotApp_572,Введіть код товару і натисніть “Ввести”.
+ScotApp_573,Введіть ім’я користувача і натисніть “Ввести”.
+ScotApp_574,Введіть пароль і натисніть “Ввести”.
+ScotApp_575,Закінчити оплату готівкою. Несплачений залишок.
+ScotApp_576,Почати оплату карткою.
+ScotApp_577,Почати оплату готівкою.
+ScotApp_578,Закінчити оплату карткою. Решта.
+ScotApp_579,579unused
+ScotApp_580,Спроба скасувати товар перед скасуванням купона на нього.
+ScotApp_581,Операцію не відкладено
+ScotApp_582,Оплату виконано.
+ScotApp_583,Картку не прийнято.
+ScotApp_584,Соц. карту не прийнято.
+ScotApp_585,585unused
+ScotApp_586,Купони: %0.0ld/$%0.2lf
+ScotApp_587,Підпис
+ScotApp_588,Завантаження Device Factory...
+ScotApp_589,Device Factory завантажено.
+ScotApp_590,Кінець роботи Device Factory.
+ScotApp_591,Завантаження NCR SelfServ Checkout Encryptor...
+ScotApp_592,NCR SelfServ Checkout Encryptor завантажено.
+ScotApp_593,Завантаження NCR SelfServ Checkout SigCap...
+ScotApp_594,NCR SelfServ Checkout SigCap завантажено.
+ScotApp_595,Завантаження NCR SelfServ Checkout AuxDisp...
+ScotApp_596,NCR SelfServ Checkout AuxDisp завантажено.
+ScotApp_597,Завантаження NCR SelfServ Checkout Forms %d...
+ScotApp_598,Форму %d не збережено!
+ScotApp_599,Перезапуск Forms Device...
+ScotApp_600,Заходи контролю
+ScotApp_601,601unused
+ScotApp_602,Змінити чи додати\nвагу
+ScotApp_603,Змінити чи додати вагу
+ScotApp_604,Відскануйте товар.
+ScotApp_607,Задати обов’язкове пакування
+ScotApp_608,Задати порівняння ваги
+ScotApp_609,Змінити допуск на вагу
+ScotApp_610,Вага товару:
+ScotApp_611,Виберіть потрібну функцію.
+ScotApp_612,Додати вагу
+ScotApp_613,Покладіть товар на пакувальні ваги.
+ScotApp_614,Обов’язкове пакування
+ScotApp_615,"Виберіть, чи є пакування товару обов’язковим (чи має покупець упакувати товар)."
+ScotApp_616,Порівняння ваги
+ScotApp_617,Виберіть параметри порівняння ваги (порівняння ваги товару з наявними значеннями).
+ScotApp_618,Допуск на вагу
+ScotApp_619,"Щоб змінити допуск, оберіть <Вказати допуск> або <Автоматично>."
+ScotApp_621,Автоматично
+ScotApp_622,Змінити допуск для штрих-коду
+ScotApp_623,Введіть на клавіатурі інший допуск і натисніть “Ввести”.
+ScotApp_624,Введено невірний допуск
+ScotApp_625,Введіть допуск на вагу від <%s> до <%s>.
+ScotApp_626,Допуск:
+ScotApp_627,Операція №:
+ScotApp_628,Каса №: %d
+ScotApp_629,Разом:
+ScotApp_630,№ кредитної картки:
+ScotApp_631,Власник:
+ScotApp_632,632unused
+ScotApp_633,Підпис:
+ScotApp_634,634unused
+ScotApp_635,Введіть дату народження
+ScotApp_636,Контроль відключено.
+ScotApp_637,"Контроль відключено, останню дію скасовано."
+ScotApp_638,Актуальна інформація про допуск з WLDB
+ScotApp_639,Очік. вага   Порівняння ваги
+ScotApp_640,Наявна вага у WLDB
+ScotApp_641,Сер.вагаПідтв.    Мітка     Виддоп.     Сум.доп.     Дата
+ScotApp_642,Товар додано. Відскануйте наступний.
+ScotApp_643,Товар видалено. Відскануйте наступний.
+ScotApp_644,-------------------------------------------------------------------
+ScotApp_645,Знов покладіть відсканований товар на пакувальні ваги.
+ScotApp_646,Т
+ScotApp_647,Н
+ScotApp_648,Штрих-код
+ScotApp_649,З кодованою ціною
+ScotApp_650,Звичайний товар
+ScotApp_651,Автоматично
+ScotApp_652, **Дані у WLDB за цим штрих-кодом відсутні
+ScotApp_653,Введіть вартість купона в гривнях і натисніть “Ввести”.
+ScotApp_655,Заблокований товар
+ScotApp_657,Повернення грошей та отримання знижок - наприкінці купівлі.
+ScotApp_658,замало валюти
+ScotApp_659,Низький запас валюти:
+ScotApp_660,запас всіх грош. одиниць достатній
+ScotApp_661,(Авт)
+ScotApp_662,%
+ScotApp_663,Не вдалося ввести ПІН
+ScotApp_664,Відскануйте товари або виберіть мову.
+ScotApp_665,Для продовження оберіть “Скасувати все” або “Назад”.
+ScotApp_666,666unused
+ScotApp_667,Картку проведено. Відскануйте товари і купони.
+ScotApp_668,Підпис надруковано.
+ScotApp_669,Підпис не надруковано. Виникли помилки.
+ScotApp_670,У режим навчання
+ScotApp_671,Вихід з режиму навчання
+ScotApp_672,*** ОПЕРАЦІЯ В РЕЖИМІ НАВЧАННЯ ***
+ScotApp_673,Видайте покупцю решту %s.
+ScotApp_674,“Причина відхилення оплати: ”
+ScotApp_675,Роздавач монет поповнено
+ScotApp_676,Роздавач монет: поповнено %s %s
+ScotApp_677,677unused
+ScotApp_678,678unused
+ScotApp_679,Звіти консультантів
+ScotApp_680,680unused
+ScotApp_681,Обрати з “Вибраного”
+ScotApp_682,682unused
+ScotApp_683,683unused
+ScotApp_684,Сьогодні
+ScotApp_685,По годинах
+ScotApp_686,Вчора
+ScotApp_687,Друкувати звіт
+ScotApp_688,688unused
+ScotApp_689,  Продаж:      %d
+ScotApp_690,690unused
+ScotApp_691,691unused
+ScotApp_692,692unused
+ScotApp_693,693unused
+ScotApp_694,694unused
+ScotApp_695,695unused
+ScotApp_696,696unused
+ScotApp_697,697unused
+ScotApp_698,698unused
+ScotApp_699,Некондиційний товар
+ScotApp_701,701unused
+ScotApp_702,702unused
+ScotApp_704,ПІН-код
+ScotApp_707,Попередні 7 днів
+ScotApp_708,708unused
+ScotApp_709,709unused
+ScotApp_710,710unused
+ScotApp_711,711unused
+ScotApp_712,712unused
+ScotApp_713,713unused
+ScotApp_714,714unused
+ScotApp_715,715unused
+ScotApp_716,716unused
+ScotApp_717,717unused
+ScotApp_718,718unused
+ScotApp_719,719unused
+ScotApp_720,720unused
+ScotApp_721,721unused
+ScotApp_722,722unused
+ScotApp_723,723unused
+ScotApp_724,724unused
+ScotApp_725,725unused
+ScotApp_726,726unused
+ScotApp_727,727unused
+ScotApp_728,728unused
+ScotApp_729,729unused
+ScotApp_730,730unused
+ScotApp_731,Підсумок
+ScotApp_732,732unused
+ScotApp_734,734unused
+ScotApp_735,735unused
+ScotApp_736,736unused
+ScotApp_737,737unused
+ScotApp_738,738unused
+ScotApp_739,739unused
+ScotApp_740,740unused
+ScotApp_741,741unused
+ScotApp_742,742unused
+ScotApp_743,743unused
+ScotApp_744,744unused
+ScotApp_745,745unused
+ScotApp_746,746unused
+ScotApp_747,747unused
+ScotApp_748,748unused
+ScotApp_749,749unused
+ScotApp_750,За сьогодні
+ScotApp_751,Сьогодні по годинах
+ScotApp_752,За вчора
+ScotApp_753,Вчора по годинах
+ScotApp_754,За попередні 7 днів
+ScotApp_755,Обробляється.
+ScotApp_756,756unused
+ScotApp_757,757unused
+ScotApp_758,758unused
+ScotApp_759,Проведіть картку через платіжний пристрій.
+ScotApp_760,Проведіть картку через пристрій збоку екрана.
+ScotApp_761,761unused
+ScotApp_762,762unused
+ScotApp_763,763unused
+ScotApp_764,764unused
+ScotApp_765,765unused
+ScotApp_767,Запас готівки/паперу достатній
+ScotApp_768,Відкладення операції
+ScotApp_769,Підтвердіть чи скасуйте відкладення операції.
+ScotApp_770,Відкласти
+ScotApp_771,Не відкладати
+ScotApp_773,Заощаджено:
+ScotApp_774,Отримано балів:
+ScotApp_775,NCR SelfServ Checkout - Вітаємо! Вдалих покупок!
+ScotApp_776,776unused
+ScotApp_777,777unused
+ScotApp_778,778unused
+ScotApp_779,779unused
+ScotApp_780,780unused
+ScotApp_781,781unused
+ScotApp_782,Затор на роздавачі купюр\nЛіквідувати затор на роздавачі купюр або\nвідрегулювати скидний лоток.
+ScotApp_783,783unused
+ScotApp_784,Не працює роздавач купюр\n* Покласти купюри в роздавач або\n* ліквідувати затор на роздавачі або\n* відрегулювати скидний лоток.
+ScotApp_785,785unused
+ScotApp_786,Відкладено на касі
+ScotApp_787,"Введена дата народж.: %s, років: %d"
+ScotApp_788,Вірна дата народж.:%s
+ScotApp_789,"Проведіть картку.\nПеревірте, чи немає в кошику інших товарів."
+ScotApp_791,Виберіть спосіб оплати
+ScotApp_792,792unused
+ScotApp_793,793unused
+ScotApp_794,Затор у касеті роздавача купюр\nЛіквідуйте затор.
+ScotApp_795,Для підвищення якості обслуговування магазин спостерігає за оформленням покупок.
+ScotApp_796,"Замало монет або роздавач монет не працює чи вимкнений.\n* Увімкнути роздавач монет АБО\n* поповнити, вимкнути та увімкнути роздавач, натиснути “Роздавач монет поповнено” - Екран стану каси."
+ScotApp_797,Не вдалося видати %s.\n* Перевірити касети та роздавач купюр на затор.\n* Перевірити фіксацію купюрних касет та скидного лотка.\n* Зачинити дверцята сейфу.
+ScotApp_798,798unused
+ScotApp_799,Перевірте кошик
+ScotApp_801,Купити ящик
+ScotApp_802,\nКупити весь ящик товару\n %s?\n\nВиберіть “Так” чи “Ні”.
+ScotApp_803,803unused
+ScotApp_804,804unused
+ScotApp_805,Дозвіл на відпуск товарів
+ScotApp_806,Дозвіл на відпуск товарів візуального контролю
+ScotApp_807,Зняття протикрадіжкових давачів
+ScotApp_809,Повідомлення кас. терміналу:
+ScotApp_810, Режим навчання
+ScotApp_811,"Відскануйте подарункову картку. Перевірте, чи немає в кошику інших товарів."
+ScotApp_813,Введіть № і назву замовлення і натисніть “Enter”
+ScotApp_814,814unused
+ScotApp_815,Відкрити касовий апарат
+ScotApp_816,816unused
+ScotApp_817,Потрібна допомога
+ScotApp_819,Підтвердіть відкладення операції за скасованим товаром.
+ScotApp_820,Скасувати
+ScotApp_821,821unused
+ScotApp_822,Скасувати товар
+ScotApp_823,Скасування
+ScotApp_824,Відкладення операції
+ScotApp_825,Пакування товару
+ScotApp_826,Я не бажаю\nпакувати цей товар
+ScotApp_827,Проведіть штрих-код над сканером і покладіть його в пакувальну зону.
+ScotApp_828,828unused
+ScotApp_829,829unused
+ScotApp_830,Я зняв товар чи пакет
+ScotApp_831,831unused
+ScotApp_832,832unused
+ScotApp_833,833unused
+ScotApp_834,Тарифи і договори з замовником:
+ScotApp_835,Чек:
+ScotApp_836,Тарифи і договори з замовником
+ScotApp_837,Тарифи
+ScotApp_838,Договір на придбання товарів чи послуг
+ScotApp_839,Скасувати дію
+ScotApp_840,Товар:
+ScotApp_841,Товар
+ScotApp_842,842unused
+ScotApp_843,843unused
+ScotApp_844,844unused
+ScotApp_845,Сканувати ще товари:
+ScotApp_846,Відскануйте товари або натисніть “Усе відскановано”.
+ScotApp_847,Усе відскановано
+ScotApp_848,Потрібна кількість:
+ScotApp_849,Потрібна кількість
+ScotApp_850,Одна штука
+ScotApp_851,Дві штуки
+ScotApp_852,Три штуки
+ScotApp_853,Чотири штуки
+ScotApp_854,П’ять штук
+ScotApp_855,Вартість комплектації замовлення:
+ScotApp_856,Чек:
+ScotApp_857,Перевірити вартість комплектації
+ScotApp_858,Так
+ScotApp_859,Ні
+ScotApp_860,Не виміряно:
+ScotApp_861,861unused
+ScotApp_862,Вартість купона:
+ScotApp_863,Вартість купона
+ScotApp_864,Підтвердження:
+ScotApp_865,Перевірити особу власника картки
+ScotApp_866,Так
+ScotApp_867,Ні
+ScotApp_868,Пропускний номер:
+ScotApp_869,Введіть пропускний № і натисніть “Ввести”.
+ScotApp_870,Попередження:
+ScotApp_871,Відкласти
+ScotApp_872,Не відкладати
+ScotApp_873,"Посвідчення водія документ, що посвідчує особу  №:"
+ScotApp_874,"Введіть номер посвідчення водія або документа, що посвідчує особу, і натисніть “Ввести”."
+ScotApp_875,"№ старшого касира, який скасував покупку"
+ScotApp_876,Введіть № старшого касира і натисніть “Ввести”.
+ScotApp_877,Введіть ціну
+ScotApp_878,Введіть ціну.
+ScotApp_879,879unused
+ScotApp_880,880unused
+ScotApp_881,Відкласти:
+ScotApp_882,Відкласти.
+ScotApp_883,Відкласти
+ScotApp_884,Не відкладати
+ScotApp_885,Попередження пакувальних ваг
+ScotApp_886,Товар знято з пакувальних ваг.\nПокладіть товар назад.
+ScotApp_887,Товар знято
+ScotApp_888,"На пакувальних вагах не той товар, що очікується. Зніміть товар."
+ScotApp_889,%s\nФактична вага(%s): %s\nОчікується вага(%s): %s
+ScotApp_890,Завантаження Smart Scale...
+ScotApp_891,Smart Scale завантажено.
+ScotApp_892,Кінець роботи Smart Scale...
+ScotApp_893,Завантаження DBM...
+ScotApp_894,DBM завантажено.
+ScotApp_895,Кінець роботи DBM...
+ScotApp_896,Завантаження WTINFO...
+ScotApp_897,WTINFO завантажено.
+ScotApp_898,Кінець роботи WTINFO...
+ScotApp_899,Скасувати
+ScotApp_900,Покладіть товар на пакувальні ваги.
+ScotApp_901,"Підтвердити, що товар упаковано не буде."
+ScotApp_902,Товар знято з пакувальних ваг. Покладіть товар назад.
+ScotApp_903,Товар знято з пакувальних ваг.
+ScotApp_904,Підтвердити вагу товару
+ScotApp_905, (Детальніше на чеку.)
+ScotApp_907,907unused
+ScotApp_908,Контроль
+ScotApp_909,Невірна вага на контрольних вагах.
+ScotApp_910,910unused
+ScotApp_911,Зняти контроль
+ScotApp_912,Підтвердити і змінити вагу
+ScotApp_913,"На контрольних вагах не той товар, що очікується."
+ScotApp_914,"Підійдіть до каси, зніміть зайві товари і натисніть “Зняти контроль”."
+ScotApp_915,Забагато запитів пропустити конвеєр. Макс. %d.
+ScotApp_916,Перевірте товари на касі і натисніть “Зняти контроль”.
+ScotApp_917,Забагато запитів зняти товари з пакувальних ваг. Макс. %d.
+ScotApp_918,Немає даних про вагу товару.
+ScotApp_919,Перевірте вагу товару і натисніть “Підтвердити і змінити вагу” або натисніть “Підтвердити без змін”.
+ScotApp_920,Підтвердити без змін.
+ScotApp_921,На контрольних вагах очікується вага.
+ScotApp_922,922unused
+ScotApp_923,923unused
+ScotApp_924,924unused
+ScotApp_925,925unused
+ScotApp_926,Товари не повернено на пакувальні ваги.
+ScotApp_927,Пристрій працює невірно
+ScotApp_928,Перейти до каси і перевірити пристрій.
+ScotApp_929,Порушення зв’язку з WLDB.
+ScotApp_930,Перевірити зв’язок.
+ScotApp_931,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s очікується;LSWND3=%s %s фактично;
+ScotApp_932,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_933,Вага не співпадає
+ScotApp_934,Вага збільшилася
+ScotApp_935,Вага зменшилася
+ScotApp_936,Ліміт\Не пакувати
+ScotApp_937,Ліміт\Зняти товари
+ScotApp_938,938unused
+ScotApp_939,Час очікування сплинув
+ScotApp_940,Скасовано
+ScotApp_941,Товар скасовано
+ScotApp_942,942unused
+ScotApp_943,Маю свій пакет
+ScotApp_944,Забагато запитів пакувати в пакет/коробку. Макс. %d.
+ScotApp_945,Ліміт\Пакет/коробка
+ScotApp_946,Дозволити пакет/коробку
+ScotApp_947,Зважити новий товар
+ScotApp_948,\n* Дистанційна допомога
+ScotApp_949,949unused
+ScotApp_950,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s додано;LSWND3=%s;
+ScotApp_951,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s знято;LSWND3=%s;
+ScotApp_952,Додати нульову вагу
+ScotApp_953,"Вимкніть і знов увімкніть термінал:\n\n* Повернути замок адміністратора на “S” -АБО- натиснути кнопку “Адміністратор”.\n* Обрати “Запустити АВП під час наступного ввімкнення”. Щоб підтвердити, оберіть �Так�.\n* Обрати “Вимкнути всю систему”.\n* Коли екран згас, вимкнути термінал на ББЖ чи на подовжнику.\n* Увімкнути термінал. Перевірте вікно подій. Якщо помилка виникає знов, зверніться до технічної служби."
+ScotApp_954,Smart Scale: не вдалося відкрити
+ScotApp_955,Smart Scale: не активовано
+ScotApp_956,"Вимкніть і знов увімкніть термінал:\n\n* Повернути замок адміністратора на “S” -АБО- натиснути кнопку “Адміністратор”.\n* Обрати “Запустити АВП під час наступного ввімкнення”. Щоб підтвердити, оберіть �Так�.\n* Обрати “Вимкнути всю систему”.\n* Коли екран згас, вимкнути термінал на ББЖ чи на подовжнику.\n* Увімкнути термінал. Перевірте вікно подій. Якщо помилка виникає знов, зверніться до технічної служби."
+ScotApp_957,Немає зв’язку з DB Manager Client
+ScotApp_958,Пакувальні ваги
+ScotApp_959,Weight Learning Database
+ScotApp_960,"Збій на пакувальних вагах: перегляньте повідомлення про помилки на пакувальних вагах та у вікні подій, натисніть “Збій ліквідовано”."
+ScotApp_961,"Збій Weight Learning Database: Перегляньте повідомлення про помилки у вікні подій, натисніть “Збій ліквідовано”."
+ScotApp_962,"Заберіть скасований товар на касі, натисніть “Скасувати”."
+ScotApp_963,Скасувати запит
+ScotApp_964,Зніміть товар і натисніть “Зняти контроль” або натисніть “Підтвердити і змінити вагу”.
+ScotApp_965,965unused
+ScotApp_966,966unused
+ScotApp_967,967unused
+ScotApp_968,968unused
+ScotApp_969,969unused
+ScotApp_970,970unused
+ScotApp_971,971unused
+ScotApp_972,972unused
+ScotApp_973,973unused
+ScotApp_974,974unused
+ScotApp_975,975unused
+ScotApp_976,976unused
+ScotApp_977,Фактична вага: %s %s
+ScotApp_978,Ліміт %d
+ScotApp_979,Ліміт запитів покупця %d
+ScotApp_980,Час очікування відповіді покупця сплинув
+ScotApp_981,981unused
+ScotApp_982,Помилка пристрою
+ScotApp_983,Завантаження Takeaway Belt...
+ScotApp_984,Belt Takeaway завантажено.
+ScotApp_985,Покладіть товар на конвеєр.
+ScotApp_986,986unused
+ScotApp_987,Товар знято з конвеєра. Покладіть товар назад.
+ScotApp_988,Неочікуваний товар на конвеєрі. Зніміть товар.
+ScotApp_989,989unused
+ScotApp_990,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_991,Перевірка віку
+ScotApp_992,Введіть дату народження
+ScotApp_993,Касу закрито
+ScotApp_994,Закрито
+ScotApp_995,"Щоб відкрити касу, перейдіть до неї та відкрийте режим “Магазин”."
+ScotApp_996,Ціна
+ScotApp_997,Введіть ціну
+ScotApp_998,Кількість
+ScotApp_999,Перевищено ліміт
+ScotApp_1000,Не знайдено
+ScotApp_1001,Товар не знайдено
+ScotApp_1002,Не продано
+ScotApp_1003,Обмежені години відпуску
+ScotApp_1004,Перевірити товар
+ScotApp_1005,Візуальний контроль
+ScotApp_1006,Інший вид оплати
+ScotApp_1007,Викликано допомогу
+ScotApp_1008,1008unused
+ScotApp_1009,Режим “Магазин”
+ScotApp_1010,1010unused
+ScotApp_1011,Транспортується...
+ScotApp_1012,Ваш товар транспортується.
+ScotApp_1013,Скупчення товарів
+ScotApp_1014,Зніміть скупчені товари з конвеєра.
+ScotApp_1015,Скупчення товарів
+ScotApp_1016,Скупчення товарів на конвеєрі
+ScotApp_1017,Зніміть з конвеєра скупчені товари.
+ScotApp_1018,Мінімальний вік (років).
+ScotApp_1019,Покладіть на конвеєр
+ScotApp_1020,Відскануйте товари
+ScotApp_1021,Увага!
+ScotApp_1022,Я не бажаю\nпакувати цей товар
+ScotApp_1023,1023unused
+ScotApp_1024,1024unused
+ScotApp_1025,Зніміть з конвеєра всі товари і закрийте захисну кришку.
+ScotApp_1026,Скасувати опер.
+ScotApp_1027,"Скасувати операцію - натисніть “Так”, продовжити - натисніть “Ні”."
+ScotApp_1028,Перевищено ліміт на купони
+ScotApp_1029,Внесіть купон
+ScotApp_1030,Вставте купон.
+ScotApp_1031,Відскануйте купони.
+ScotApp_1032,Протикрадіжк. давач все ще активний
+ScotApp_1033,На касі відключіть або зніміть з товару протикрадіжковий давач і натисніть “Зняти контроль”.
+ScotApp_1034,1034unused
+ScotApp_1035,Протикрадіжк. пристрій включено
+ScotApp_1036,Протикрадіжк. пристрій включено
+ScotApp_1037,Підпис
+ScotApp_1038,Перевірка підпису
+ScotApp_1039,На попередніх товарах є протикрадіжкові давачі.
+ScotApp_1040,Підпис
+ScotApp_1041,Прийняти підпис
+ScotApp_1042,ПІДТВЕРДЖУЮЧИЙ ТАЛОН:\nНАДРУКОВАНО ЧЕРЕЗ НЕМОЖЛИВІСТЬ \nПІДПИСАТИ ДОКУМЕНТ. ДОДАЙТЕ ЦЕЙ ТАЛОН\nДО ВІДПОВІДНОГО ДОКУМЕНТА.\n----------------------------------------\n
+ScotApp_1043,"Щоб прийняти від покупця %s, перейдіть у режим “Касир”."
+ScotApp_1044,Платіж з оператором
+ScotApp_1045,Вид оплати: %s
+ScotApp_1046,Передайте %s касиру на касовому автоматі.
+ScotApp_1047,Потрібен підпис. Дочекайтеся оператора.
+ScotApp_1048,1048unused
+ScotApp_1049,1049unused
+ScotApp_1050,1050unused
+ScotApp_1051,Підпис паперового чеку
+ScotApp_1052,1052unused
+ScotApp_1053,"Зачекайте, доки касир принесе чек на підпис."
+ScotApp_1054,1054unused
+ScotApp_1055,1055unused
+ScotApp_1056,1056unused
+ScotApp_1057,1057unused
+ScotApp_1058,Платіж з операт.
+ScotApp_1059,1059unused
+ScotApp_1060,ЗАЧЕКАЙТЕ...
+ScotApp_1061,1061unused
+ScotApp_1062,1062unused
+ScotApp_1063,1063unused
+ScotApp_1064,1064unused
+ScotApp_1065,1065unused
+ScotApp_1066,1066unused
+ScotApp_1067,1067unused
+ScotApp_1068,1068unused
+ScotApp_1069,1069unused
+ScotApp_1070,1070unused
+ScotApp_1071,1071unused
+ScotApp_1072,Потрібна інформація
+ScotApp_1073,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;DATANEEDEDTYPE=%d;
+ScotApp_1074,Дозвіл пропустити конвеєр
+ScotApp_1075,Ліміт\Пропуск конвеєра
+ScotApp_1076,Увага!
+ScotApp_1077,Поверніть товари на конвеєр
+ScotApp_1078,"Виберіть, чи дорівнює вага очікуваній (покупець має покласти товар на конвеєр)."
+ScotApp_1079,Знов покладіть відсканований товар на конвеєр.
+ScotApp_1080,Покладіть товар на конвеєр.
+ScotApp_1081,Показати\nвсі каси
+ScotApp_1082,Я зняв товар чи пакет
+ScotApp_1083,Товар знято з пакувальних ваг.\nПокладіть товар назад.
+ScotApp_1084,Збір
+ScotApp_1085,Збір купонів
+ScotApp_1086,“Додати нульову вагу” видаляє всі записи ваги.
+ScotApp_1087,Картку прийнято.Відскануйте товари і купони.
+ScotApp_1088,1088unused
+ScotApp_1089,Кінець звітного періоду
+ScotApp_1090,Показати звіт
+ScotApp_1091,1091unused
+ScotApp_1092,Зміст звіту
+ScotApp_1093,Друк останнього чеку
+ScotApp_1094,Друк підписів
+ScotApp_1095,"Оберіть тип звіту, натисніть “Показати звіт”."
+ScotApp_1096,Звіти
+ScotApp_1097,Друк записів і звітів
+ScotApp_1098,"* Відчинити дверцята принтера.\n* Перевірити, чи не застряг папір у показаному місці.\n* Якщо затору немає, перезаправити папір.\n* Має друкуватися чек зі значком “смайлик”.\n* Зачинити і замкнути дверцята принтера."
+ScotApp_1099,Невідома помилка пристрою
+ScotApp_1100,%s
+ScotApp_1101,%s\t%s
+ScotApp_1102,Вперед
+ScotApp_1103,Назад
+ScotApp_1104,"e=d=0,01 фунти Макс 30,00 фунтів мін 0,2 фунти Nмакс 3000"
+ScotApp_1105,"e=d=0,005 кг Макс 13,995 кг мін 0,1 кг Nмакс 2799"
+ScotApp_1106,%s\t%s\tК-ть %s ціна %s/од.\t%s
+ScotApp_1107,%s\t%s\tК-ть %s ціна %s/%s\t%s
+ScotApp_1108,%s\t%s\t%s ціна %s %s/%s\t%s
+ScotApp_1109,%s\t%s\t%s ціна %s/%s\t%s
+ScotApp_1110,  К-ть %s ціна %s/од.\t%s
+ScotApp_1111,  К-ть %s ціна %s/%s\t%s
+ScotApp_1112,%s ціна %s %s/%s\t%s
+ScotApp_1113,%s ціна %s/%s\t%s
+ScotApp_1114,Дані на кінець звітного періоду оновлено
+ScotApp_1115,ЗВІТИ: НЕ В МЕРЕЖІ
+ScotApp_1116,"Роздавач купюр не працює, якщо лоток для відбракованих купюр відсутній або не зафіксований.\n\nВставити та надійно зафіксувати лоток для відбракованих купюр."
+ScotApp_1117,Касета роздавача купюр %s відсутня або її неповністю вставлено.\n\nВставити або зафіксувати касету для купюр %s.
+ScotApp_1118,"Збій видачі купюр %s.\n\nНеможливо дістати купюри %s з касети.\n\nВийняти касету з купюрами %s, перевірити стан купюр."
+ScotApp_1119,"Роздавач купюр не працює при відкритих дверцятах.\n\nЗачинити та замкнути дверцята роздавача чи сейфу.\n\nЯкщо помилка виникає знов, звернутися до технічної служби."
+ScotApp_1120,"Можливий затор купюр перед касетою для купюр %s.\n\nВийняти касету для купюр %s та перевірити наявність затору в цій ділянці.\n\nЯкщо можливо, вийняти застряглі купюри, вставити касету."
+ScotApp_1121,Можливий затор купюр у показаному місці.\n\nЧастково витягти роздавач купюр з корпусу.\n\nВийняти застряглі купюри.\n\nОбережним натисканням вставити роздавач купюр назад у корпус.
+ScotApp_1122,Можливий затор купюр на виході з роздавача купюр.\n\nЧастково витягти роздавач купюр з корпусу.\n\nВийняти застряглі купюри в показаному місці.\nОбережним натисканням вставити роздавач купюр назад у корпус.
+ScotApp_1123,"* НЕ ПРОДОВЖУВАТИ, доки не вийнято застряглі купюри.\n* Обережно витягти роздавач купюр з корпусу.\n* Вийняти застряглі купюри зверху роздавача, не торкаючись стрічок.\n* Вставити роздавач купюр назад у корпус.\n* Замкнути дверцята, натиснути “Збій ліквідовано”."
+ScotApp_1124,1124unused
+ScotApp_1125,"Доверху наповнити монетами всі жолоби у магазині монет.\n\nУвійти в режим “Магазин”, обрати “Запас готівки, паперу”, натиснути кнопку “Роздавач монет заправлено”."
+ScotApp_1126,Збій роздавача монет.\n\nПеревірити мережевий вимикач роздавача (якщо є).
+ScotApp_1127,Підключитися
+ScotApp_1128,%s\n
+ScotApp_1129,Невірні дії при ліквідації збою.\n\nСпробуйте ще раз.
+ScotApp_1130,Помилка приймача купюр
+ScotApp_1131,Купюрна касета відсутня або її погано вставлено.
+ScotApp_1132,Помилка зв’язку.
+ScotApp_1133,Затор у приймачі купюр.
+ScotApp_1134,Купюрна касета повна.
+ScotApp_1135,Помилка роздавача купюр
+ScotApp_1136,Лоток для відбракованих купюр відсутній чи не зафіксований.
+ScotApp_1137,Не вставлено касету для купюр %s.
+ScotApp_1138,Не вдалося видати %s.
+ScotApp_1139,Відчинено дверцята роздавача купюр.
+ScotApp_1140,Затор у роздавачі купюр.
+ScotApp_1141,Не вдалося видати %s. ОБЕРЕЖНО! Можливий затор купюр зверху роздавача купюр.
+ScotApp_1142,Помилка роздавача монет
+ScotApp_1143,Замало монет або немає контейнера монет.
+ScotApp_1144,Роздавач не відповідає.
+ScotApp_1145,Помилка приймача монет
+ScotApp_1146,Приймач не відповідає.
+ScotApp_1147,Помилка контрольних ваг
+ScotApp_1148,Збій компонентів контрольних ваг
+ScotApp_1149,Помилка чекового принтера
+ScotApp_1150,Відкрито дверцята принтера.
+ScotApp_1151,Відкрито кришку принтера.
+ScotApp_1152,Немає паперу.
+ScotApp_1153,Затор паперу.
+ScotApp_1154,Помилка сканера
+ScotApp_1155,Пристрій не в мережі.
+ScotApp_1156,"Перевірити, чи увімкнений мережевий вимикач роздавача монет."
+ScotApp_1157,"Можливо, відчинено дверцята роздавача купюр.\n\nРоздавач купюр не працює при відкритих дверцятах.\n\nПовністю зачинити та замкнути дверцята роздавача чи сейфу."
+ScotApp_1158,Помилка карткового терміналу
+ScotApp_1159,Картковий термінал не відповідає.
+ScotApp_1160,"Перевірити контакт кабелю позаду термінала.\n\nЯкщо контакт щільний, натиснути “Збій ліквідовано”.\n\nЯкщо помилка виникає знов, вимкнути і знов увімкнути термінал."
+ScotApp_1161,Помилка пейджера
+ScotApp_1162,Пристрій не в мережі.
+ScotApp_1163,"Натиснути “Збій ліквідовано”.\n\nЯкщо помилка виникає знов, перезавантажити термінал:\nПовернути замок адміністратора на “S” -АБО натиснути кнопку “Адміністратор”.\nОбрати “Вимкнути всю систему”.\nКоли екран згас, вимкнути термінал на ББЖ чи на подовжнику.\nУвімкнути термінал. Якщо помилка виникає знов, зверніться до технічної служби."
+ScotApp_1164,Невірне положення принтера.
+ScotApp_1165,Обережно потягнути принтер на себе до фіксації.\n\nЗачинити і замкнути дверцята принтера.
+ScotApp_1166,"* Відчинити дверцята принтера.\n* Розфіксувати принтер та натиснути від себе.\n* Відкрити кришку принтера, перевірити, чи не застряг папір.\n* Закрити кришку, перезаправити папір.\n* Обережно потягнути принтер на себе до фіксації."
+ScotApp_1167,"* Відчинити дверцята принтера.\n* Розфіксувати принтер та натиснути від себе.\n* Відкрити кришку принтера, перевірити, чи не застряг папір.\n* Закрити кришку, перезаправити папір.\n* Обережно потягнути принтер на себе до фіксації."
+ScotApp_1168,Принтер не зафіксовано в передньому положенні.
+ScotApp_1169,Відчинити дверцята принтера.\n* Обережно потягнути принтер на себе до фіксації.\n* Зачинити і замкнути дверцята принтера.
+ScotApp_1170,"* Відкрити кришку принтера, перевірити, чи не застряг папір у показаному місці.\n* Вийняти папір.\n* Закрити кришку принтера, вставити папір.\n* Якщо помилка виникає знов, перезавантажити термінал."
+ScotApp_1171,НЕОЧІК. ЗБІЛЬШЕННЯ ВАГИ
+ScotApp_1172,ВІДКЛАДЕНО
+ScotApp_1173,СКАСОВАНИЙ ТОВАР
+ScotApp_1174,НЕСПІВПАДІННЯ ВАГИ
+ScotApp_1175,НЕ ПАКУВАТИ. ПЕРЕВИЩЕНО ЛІМІТ
+ScotApp_1176,ВВЕДЕНО НОВИЙ ТОВАР
+ScotApp_1177,ЧАС ПАКУВАННЯ ТОВАРУ СПЛИНУВ
+ScotApp_1178,ПЕРЕВИЩЕННЯ ЛІМІТУ СКАСОВАНО
+ScotApp_1179,ЧАС ВІДСУТНОСТІ ПОКУПЦЯ СПЛИНУВ
+ScotApp_1180,НЕСПІВПАДІННЯ ЦІНИ
+ScotApp_1181,ПЕРЕВИЩЕНО ЛІМІТ НА КУПОНИ
+ScotApp_1182,ЛІМІТ ВАРТОСТІ КУПОНА
+ScotApp_1183,ВВЕДЕННЯ ЦІНИ
+ScotApp_1184,БІЛЬШЕ ДАНИХ
+ScotApp_1185,ПЕРЕВИЩЕНО ЛІМІТ “ПАКЕТ/КОРОБКА”
+ScotApp_1186,НЕОЧІК. ЗМЕНШЕННЯ ВАГИ
+ScotApp_1187,ПОМИЛКА ПРИСТРОЮ
+ScotApp_1188,ВВЕДЕНА КІЛЬКІСТЬ
+ScotApp_1189,ВВЕДЕНИЙ ТОВАР
+ScotApp_1190,ВВЕДЕНИЙ КУПОН
+ScotApp_1191,НЕ ВИМІРЯНО
+ScotApp_1192,ВАРТІСТЬ КОМПЛЕКТАЦІЇ ЗАМОВЛЕННЯ
+ScotApp_1193,ОСОБУ ПЕРЕВІРЕНО
+ScotApp_1194,ПРОПУСКНИЙ НОМЕР
+ScotApp_1195,CSA: ПРИЗУПИНЕНО
+ScotApp_1196,НОМЕР ПОСВІДЧЕННЯ ВОДІЯ
+ScotApp_1197,ОПЕРАЦІЮ СКАСОВАНО
+ScotApp_1198,ВВЕДЕНИЙ НОМЕР РАХУНКУ
+ScotApp_1199,ВВЕДЕНА КІНЦЕВА ДАТА
+ScotApp_1200,ВВЕДЕННЯ ЦІНИ
+ScotApp_1201,ПЛАТІЖ З КАСИРОМ
+ScotApp_1202,КАСУ ЗАЧИНЕНО
+ScotApp_1203,ЗАСВІДЧЕНИЙ ДОКУМЕНТ
+ScotApp_1204,НОМЕР ДОКУМЕНТА
+ScotApp_1205,СКУПЧЕННЯ НА ПАКУВАЛЬНИХ ВАГАХ
+ScotApp_1206,НЕ ВІДКЛЮЧЕНО ПРОТИКРАДІЖК. ДАВАЧ
+ScotApp_1207,ПІДПИС ПЕРЕВІРЕНО
+ScotApp_1208,ПРОДАНО В РЕЖИМІ “КАСИР”
+ScotApp_1209,ПЕРЕВИЩЕНО ЛІМІТ НА ПОДАРУНКОВІ КАРТКИ
+ScotApp_1210,ОСТАННІЙ ПЕРЕГЛЯД
+ScotApp_1211,АВТОМАТИЧНО
+ScotApp_1212,ІНШЕ
+ScotApp_1213,НЕВІДОМО
+ScotApp_1214,ЧЕК
+ScotApp_1215,ПОМИЛКА ПРИСТРОЮ
+ScotApp_1216,КОНТРОЛЬ
+ScotApp_1217,СКАСОВАНО
+ScotApp_1218,ЗБІР
+ScotApp_1219,ВІКОВІ ОБМЕЖЕННЯ
+ScotApp_1220,КАРТКОВИЙ ТЕРМІНАЛ
+ScotApp_1221,НЕ ПРОВЕДЕНО
+ScotApp_1222,НЕ ПРАЦЮЄ
+ScotApp_1223,ЗАМАЛО ГОТІВКИ ЧИ ПАПЕРУ
+ScotApp_1224,ПОТРІБНА ЦІНА
+ScotApp_1225,НЕВІДОМИЙ ТОВАР
+ScotApp_1226,ВІДКЛИКАНИЙ ТОВАР
+ScotApp_1227,ОБМЕЖЕНІ ГОДИНИ ВІДПУСКУ
+ScotApp_1228,ВІДКЛАДЕНО
+ScotApp_1229,НЕ ПРОВЕДЕНО: ВІДД
+ScotApp_1230,НЕ ПРОВЕДЕНО: ВІДД
+ScotApp_1231,ПЕРЕВІРЕНО ВІЗУАЛЬНО
+ScotApp_1232,ПІДПИС ПРИЙНЯТО
+ScotApp_1233,ІНШИЙ ВИД ОПЛАТИ
+ScotApp_1234,КІЛЬКІСТЬ ОБМЕЖЕНО
+ScotApp_1235,УВІМКНЕНО ПРОТИКРАДІЖК. ПРИСТРІЙ
+ScotApp_1236,Звіт обробляється...
+ScotApp_1237,КУПОН
+ScotApp_1238,ІНШИЙ ВИД ОПЛАТИ
+ScotApp_1239,ЖОДНИЙ
+ScotApp_1240,ГОТІВКА
+ScotApp_1241,КРЕДИТНА
+ScotApp_1242,ДЕБЕТОВА
+ScotApp_1243,ДИСКОНТНА
+ScotApp_1244,ДЕБЕТОВА - ДЕПОЗИТ
+ScotApp_1245,ДЕБЕТОВА - ПОТОЧНИЙ
+ScotApp_1246,СОЦІАЛЬНА (EBT)
+ScotApp_1247,ПРОДОВОЛЬЧІ ТАЛОНИ
+ScotApp_1248,ПОДАРУНКОВА КАРТКА
+ScotApp_1249,ІНВАЛІДНА (PIP) ЗАГАЛЬНА
+ScotApp_1250,ІНВАЛІДНА (PIP) КРЕДИТНА
+ScotApp_1251,ІНВАЛІДНА (PIP) ДЕБЕТОВА
+ScotApp_1252,ІНВАЛІДНА (PIP) ДЕБЕТОВА ЗІ ЗНЯТТЯМ ГОТІВКИ
+ScotApp_1253,ІНВАЛІДНА (PIP) ДИСКОНТНА
+ScotApp_1254,ІНВАЛІДНА (PIP) ДЕБЕТОВА - ДЕПОЗИТ
+ScotApp_1255,ІНВАЛІДНА (PIP) ДЕБЕТОВА - ПОТОЧНИЙ
+ScotApp_1256,ІНВАЛІДНА СОЦІАЛЬНА (PIP EBT)
+ScotApp_1257,ІНВАЛІДНІ (PIP) ПРОДОВОЛЬЧІ ТАЛОНИ
+ScotApp_1258,ІНВАЛІДНА (PIP) ПОДАРУНКОВА
+ScotApp_1259,ЗАДАНОКОРИСТУВАЧЕМ1
+ScotApp_1260,ЗАДАНОКОРИСТУВАЧЕМ2
+ScotApp_1261,ЗАДАНОКОРИСТУВАЧЕМ3
+ScotApp_1262,ЗАДАНОКОРИСТУВАЧЕМ4
+ScotApp_1263,ЗАДАНОКОРИСТУВАЧЕМ5
+ScotApp_1264,ЗАДАНОКОРИСТУВАЧЕМ6
+ScotApp_1265,ЗАДАНОКОРИСТУВАЧЕМ7
+ScotApp_1266,ЗАДАНОКОРИСТУВАЧЕМ8
+ScotApp_1267,ЗАДАНОКОРИСТУВАЧЕМ9
+ScotApp_1268,ЗАДАНОКОРИСТУВАЧЕМ10
+ScotApp_1269,ЗАДАНОКОРИСТУВАЧЕМ11
+ScotApp_1270,ЗАДАНОКОРИСТУВАЧЕМ12
+ScotApp_1271,ЗАДАНОКОРИСТУВАЧЕМ13
+ScotApp_1272,ЗАДАНОКОРИСТУВАЧЕМ14
+ScotApp_1273,ЗАДАНОКОРИСТУВАЧЕМ15
+ScotApp_1274,ЗАДАНОКОРИСТУВАЧЕМ16
+ScotApp_1275,ЗАДАНОКОРИСТУВАЧЕМ17
+ScotApp_1276,ЗАДАНОКОРИСТУВАЧЕМ18
+ScotApp_1277,ЗАДАНОКОРИСТУВАЧЕМ19
+ScotApp_1278,ЗАДАНОКОРИСТУВАЧЕМ20
+ScotApp_1279,ЧЕК
+ScotApp_1280,ГОТІВКА
+ScotApp_1281,ПЛАТІЖ З КАСИРОМ
+ScotApp_1282,Потрібна ціна на товар
+ScotApp_1283,1283unused
+ScotApp_1284,1284unused
+ScotApp_1285,Популярний
+ScotApp_1286,Україна
+ScotApp_1288,А
+ScotApp_1289,Б—Г
+ScotApp_1290,Д—Й
+ScotApp_1291,К—М
+ScotApp_1292,Н—О
+ScotApp_1293,П
+ScotApp_1294,Р—С
+ScotApp_1295,Т—Я
+ScotApp_1296,Поповнити всі контейнери монет до оптимального рівня.
+ScotApp_1297,ЧАС ОТРИМАННЯ РЕШТИ СПЛИНУВ
+ScotApp_1298,Функції з оператором
+ScotApp_1299,Почніть операцію і увійдіть у режим “Касир”
+ScotApp_1300,Почати операцію
+ScotApp_1301,Редагувати перелік покупок
+ScotApp_1302,Закрити
+ScotApp_1303,Дисконтну картку прийнято: #%s
+ScotApp_1304,Дисконтну картку прийнято.
+ScotApp_1305,Внесено %s
+ScotApp_1306,Видано решту %s
+ScotApp_1307,Друк чеку
+ScotApp_1308,Введено ПІН
+ScotApp_1309,"* Вставити касету до фіксації.\n* Перевірити мотор приймача купюр, увімкнувши його на короткий час."
+ScotApp_1310,"* Вийняти приймач купюр.\n* Знову вставити приймач купюр до фіксації.\n* Переконатися, що мотор приймача купюр включився і горить зелений світлодіод."
+ScotApp_1311,"* Вийняти приймач купюр.\n* Відкрити модуль приймача.\n* Перевірити на затор, знову вставити.\n* Переконатися, що мотор приймача купюр включився і горить зелений світлодіод."
+ScotApp_1312,"* Вийняти купюрну касету.\n* Відкрити та вийняти купюри.\n* Закрити та знову покласти в приймач.\n* Переконатися, що мотор приймача купюр включився і горить зелений світлодіод."
+ScotApp_1313,"* Перевірити, чи не застряг папір у принтері.\n* Знов заправити папір.\n* Правильно вимкнути та знов увімкнути термінал."
+ScotApp_1314,"* Відкрити кришку принтера, вийняти клапті паперу.\n* Закрити кришку.\n* Вставити новий рулон паперу.\n* Заправити в принтер кінець паперової стрічки."
+ScotApp_1315,"* Відкрити кришку принтера, перевірити, чи не застряг папір.\n* Закрити кришку принтера, вставити папір."
+ScotApp_1316,"* Відкрити кришку принтера, перевірити, чи не застряг папір у показаному місці.\n* Закрити кришку принтера, вставити папір."
+ScotApp_1317,Оплата ваучером
+ScotApp_1318,Відскануйте ваучери
+ScotApp_1319,ВАУЧЕР
+ScotApp_1320,Почати оплату ваучером.
+ScotApp_1321,Закінчити оплату ваучером. Несплачений залишок.
+ScotApp_1322,Помилка сенсора купонів\nНемає зв’язку.
+ScotApp_1323,Зберігати вагу
+ScotApp_1324,Після операції\nзберігати вагу на вагах.
+ScotApp_1325,Покладіть товар на ваги.
+ScotApp_1326,ЧАС ВНЕСЕННЯ КУПОНА СПЛИНУВ
+ScotApp_1327,Оберіть потрібний звіт і натисніть “Показати звіт”.
+ScotApp_1328,Подвійна вага
+ScotApp_1330,Товар не упаковано
+ScotApp_1331,Shift
+ScotApp_1332,Пробіл
+ScotApp_1333,Стерти
+ScotApp_1334,  Товар не на конвеєрі
+ScotApp_1335,Касу закрито
+ScotApp_1336,Утиліта
+ScotApp_1337,Вийти з SelfServ Checkout
+ScotApp_1338,Отримати діагн. файли
+ScotApp_1339,Перезавантажити систему
+ScotApp_1340,Вимкнути всю систему
+ScotApp_1341,Звук
+ScotApp_1342,Вибір утиліти
+ScotApp_1343,Завантаження Security Manager...
+ScotApp_1344,Security Manager завантажено.
+ScotApp_1345,Кінець роботи Security Manager...
+ScotApp_1346,Каса не в мережі. Спроба відновити зв’язок.
+ScotApp_1347,Іде спроба відновити зв’язок
+ScotApp_1348,Касу закрито
+ScotApp_1349,%s\n %s\nочікується %s %s\nфактично %s %s
+ScotApp_1350,%s\nдодано %s %s
+ScotApp_1351,%s\nзнято %s %s 
+ScotApp_1352,Вставте подарункову картку
+ScotApp_1353,Вставте подарункову картку в щілину для купонів.
+ScotApp_1354,Візьміть подарункову картку
+ScotApp_1355,Залишок
+ScotApp_1356,Візьміть картку
+ScotApp_1357,Візьміть подарункову картку
+ScotApp_1359,Принтер чеків
+ScotApp_1360,Ящик для купюр
+ScotApp_1361,Модуль решти
+ScotApp_1362,Замок
+ScotApp_1363,Рядковий дисплей
+ScotApp_1364,Зчитувач магнітних чорнил
+ScotApp_1365,Зчитувач магнітних карток
+ScotApp_1366,Ваги
+ScotApp_1367,Сканер
+ScotApp_1368,ЦифрПідпис
+ScotApp_1369,Різне
+ScotApp_1370,Шифратор
+ScotApp_1371,Приймач готівки
+ScotApp_1372,Приймач монет
+ScotApp_1373,ВІЗЬМІТЬ ПОДАРУНКОВУ КАРТКУ
+ScotApp_1375,Зміна інф. про товар:\n%s
+ScotApp_1376,", %s"
+ScotApp_1377,кількість
+ScotApp_1378,вага
+ScotApp_1379,ціна за од.
+ScotApp_1380,ціна
+ScotApp_1381,Обробляється...
+ScotApp_1382,(Стд)
+ScotApp_1383,(Вик)
+ScotApp_1384,Мова
+ScotApp_1385,Вибір мови
+ScotApp_1386,Фатальний збій
+ScotApp_1387,Фатальний збій програми.\nПерезапустіть термінал.\n\nПерезапуск терміналу:\n* Повернути замок адміністратора на “S” -АБО- натиснути кнопку “Адміністратор”.\n* Обрати “Перезавантажити систему”.\n* Звернутися до сервісної служби та описати збій.
+ScotApp_1388,Навчальна програма
+ScotApp_1389,Помилка пристрою введення цифрового підпису
+ScotApp_1390,Пристрій не відповідає
+ScotApp_1391,"Натиснути “Збій ліквідовано”.\nЯкщо помилка виникає знов, вимкнути і знов увімкнути термінал."
+ScotApp_1392,Помилка триколірного індикатора
+ScotApp_1393,"Зупинити та перезапустити програму SelfServ Checkout. Якщо помилка виникає знов, звернутися до довідкової служби."
+ScotApp_1394,Помилка цифрового інтерфейсу
+ScotApp_1395,Увійти в режим “Консультант”
+ScotApp_1396,Вийти з режиму “Консультант”
+ScotApp_1397,Консультант
+ScotApp_1398, Консульт/Навч
+ScotApp_1399, Консультант
+ScotApp_1402,ВІД’ЄДНАНО ПЕРЕМИЧКУ ЛОТКА ДЛЯ ВІДБРАКОВАНИХ КУПЮР.
+ScotApp_1403,"Зупинити та перезапустити програму SelfServ Checkout. Якщо помилка виникає знов, звернутися до технічної служби."
+ScotApp_1404,Сервер касових терміналів не працює або працює несинхронно. Вимкніть термінал вимикачем.
+ScotApp_1405,Касовий термінал працює несинхронно. Відновіть зв’язок у режимі “Касир”.
+ScotApp_1406,Синхр. TB/кас. термінал
+ScotApp_1407,ПЕРЕЗАВАНТАЖЕННЯ
+ScotApp_1408,КАСИР
+ScotApp_1409,Меню “Касир”
+ScotApp_1410,Змінити ціну
+ScotApp_1411,Змінити кількість
+ScotApp_1412,Функції в режимі “Касир”
+ScotApp_1413,"Залишилося хвилин, щоб закінчити операцію: #. Невдовзі можливе відключення живлення."
+ScotApp_1414,До відновлення живлення каса не працюватиме.
+ScotApp_1415,1415unused
+ScotApp_1416,"Перевірте, чи є товар набором"
+ScotApp_1417,"Якщо так, скасуйте товар у режимі “Касир” і відскануйте штрих-код набору."
+ScotApp_1418,Перевищено максимально допустиму вагу.
+ScotApp_1419,Набір
+ScotApp_1420,Скасувати товар\n%s?
+ScotApp_1421,Режим “Касир”
+ScotApp_1422,Портативний сканер
+ScotApp_1423,Запит на підключення портативного сканеру.
+ScotApp_1424,"Щоб підключити портативний сканер, натисніть “Підключити”."
+ScotApp_1425,Підключити
+ScotApp_1426,%s\n %d - вірно?
+ScotApp_1427,Змінити кількість одиниць товару: \n%s
+ScotApp_1428,Змінити ціну товару: \n%s
+ScotApp_1429,<<<Замало монет. Поповніть.>>>
+ScotApp_1430,Скасувати товар
+ScotApp_1431,Скасувати все
+ScotApp_1432,<<<Замало купюр. Поповніть.>>>
+ScotApp_1433,на пакувальних вагах.
+ScotApp_1434,Вікові обмеження
+ScotApp_1435,Помилка роздавача монет чи купюр
+ScotApp_1436,Перевищено ліміт “Не пакувати”
+ScotApp_1437,Перевищено ліміт “Знятий товар”
+ScotApp_1438,Перевищено ліміт “Новий товар”.
+ScotApp_1439,Перевищено ліміт “Пакет/коробка”
+ScotApp_1440,Робота з купюрами
+ScotApp_1441,Робота з монетами
+ScotApp_1442,"Поповнити - натисніть “Внести готівку”, зменшити кількість - натисніть “Вийняти готівку”."
+ScotApp_1443,"Поповнити - натисніть “Внести монети”, зменшити кількість - натисніть “Вийняти готівку”."
+ScotApp_1444,Зніміть
+ScotApp_1445,Зміна кількості
+ScotApp_1446,Зменшити кількість
+ScotApp_1447,Вийняти готівку
+ScotApp_1448,Запас монет
+ScotApp_1449,Запас купюр
+ScotApp_1450,Замкнути ящик
+ScotApp_1451,№ касира
+ScotApp_1452,Введіть № і натисніть “Ввести”.
+ScotApp_1453,Пароль касира
+ScotApp_1454,Введіть пароль і натисніть “Ввести”.
+ScotApp_1455,Невірний номер
+ScotApp_1456,Невірні номер і пароль касира. \nВведіть ще раз
+ScotApp_1457,Лоток заповнено
+ScotApp_1458,Звіт системи NCR SelfServ Checkout
+ScotApp_1459,Звіт по роботі з готівкою
+ScotApp_1460,Купюри
+ScotApp_1461,Монети
+ScotApp_1462,Лотки
+ScotApp_1463,Зміна суми
+ScotApp_1464,Номер терміналу
+ScotApp_1465,Помилка модуля приймання-видачі готівки
+ScotApp_1466,Модуль приймання-видачі готівки повний
+ScotApp_1467,"Зменшити кількість готівки - вікно “Запас готівки, паперу”."
+ScotApp_1468,Модуль приймання-видачі готівки порожній
+ScotApp_1469,"Не вдалося видати %s.%s\n* Перевірити роздавачі купюр та монет.\n* Внести готівку, натиснувши “Запас готівки, паперу”, або ліквідувати затор."
+ScotApp_1470,Помилка банкнотника
+ScotApp_1471,Помилка монетника
+ScotApp_1472,Модуль приймання-видачі готівки не готовий
+ScotApp_1473,"Пристрій не готовий.\n\nУвімкнути живлення, перевірити сполучний кабель або вставити пристрій у корпус. "
+ScotApp_1474,Апаратний збій. Код помилки E%d
+ScotApp_1475,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1476,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1477,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1478,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1479,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1480,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1481,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1482,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1483,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1484,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1485,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1486,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1487,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1488,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1489,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1490,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1491,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1492,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1493,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1494,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1495,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1496,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1497,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1498,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1499,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1500,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1501,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1502,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1503,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1504,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1505,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1506,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1507,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1508,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1509,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1510,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1511,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1512,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1513,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1514,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1515,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1516,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1517,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1518,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1519,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1520,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1521,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1522,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1523,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1524,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1525,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1526,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1527,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1528,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1529,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1530,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1531,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1532,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1533,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1534,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1535,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1536,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1537,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1538,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1539,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1540,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1541,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1542,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1543,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1544,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1545,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1546,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1547,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1548,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1549,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1550,Ліквідація збою - в інструкції з експлуат. пристрою.
+ScotApp_1551,лоток заповнено  (%s)
+ScotApp_1552,лоток повний
+ScotApp_1553,Стан “лоток заповнено”:
+ScotApp_1554,Приймач	
+ScotApp_1555,Роздавач
+ScotApp_1556,Вийняти з приймача
+ScotApp_1557,Вийняти з роздавача
+ScotApp_1558,Вийти і зберегти
+ScotApp_1559,Вийти
+ScotApp_1560,"Приймач, заг. сума:  %s"
+ScotApp_1561,Номінал
+ScotApp_1562,Кількість
+ScotApp_1563,Внести
+ScotApp_1564,Скільки внесено одиниць %s
+ScotApp_1565,Внесено одиниць %s на суму
+ScotApp_1566,Повна заміна
+ScotApp_1567,"Роздавач, заг. сума:  %s"
+ScotApp_1568,Разом:        %s
+ScotApp_1569,Сума
+ScotApp_1570,Ігнорувати зміни
+ScotApp_1571,"Так, ігнорувати"
+ScotApp_1572,Дійсно ігнорувати зміни у вікні “Робота з монетами”?
+ScotApp_1573,"Поповнити - натисніть кнопки “Внести”, зменшити кількість - натисніть “Вийняти з приймача” або “Вийняти з роздавача”."
+ScotApp_1574,Для одиниць %s вказано невірну суму.\nВкажіть суму ще раз
+ScotApp_1575,Запас у роздавачі монет:
+ScotApp_1576,Запас у роздавачі:
+ScotApp_1577,Загальна кількість:
+ScotApp_1578,Загальна сума:
+ScotApp_1579,Приймач купюр
+ScotApp_1580,Роздавач купюр
+ScotApp_1581,Роздавач монет
+ScotApp_1582,Запас
+ScotApp_1583,низький запас валюти (%s)
+ScotApp_1584,Лотки              К-ть  Зміна кількості
+ScotApp_1585,Лотки              Сума  Зміна суми
+ScotApp_1586,%s    %s  %s
+ScotApp_1587,Дійсно ігнорувати зміни у вікні “Робота з купюрами”?
+ScotApp_1588,"Перед натисканням кнопки “Вийняти з роздавача” спорожнити всі лотки. Спорожнити всі збирачі монет, потім натиснути “Вийняти з роздавача”."
+ScotApp_1589,НЕМАЄ МОНЕТ
+ScotApp_1590,ЗАТОР НА ЗБИРАЧАХ МОНЕТ %s
+ScotApp_1591,Перевірити контакт кабелів з роздавачем монет
+ScotApp_1592,"Вийняти монети з ємності, де стався затор. Нахилити збирач. Повернути шуруп праворуч так, щоб можна було вийняти монету. Не докладати надмірну силу."
+ScotApp_1593,Вийняти монети
+ScotApp_1594,Правильно вимкнути та перезапустити термінал.
+ScotApp_1595,Вибір мови
+ScotApp_1597,Дисконтна картка
+ScotApp_1598,Налаштування активовано.
+ScotApp_1599,Не вдалося знайти налаштування %s.
+ScotApp_1600,Стан роздавача карток:
+ScotApp_1601,     Запас карток у лотку: низький
+ScotApp_1602,     Запас карток у лотку: низький (%s)
+ScotApp_1603,     Запас карток у лотку: достатній
+ScotApp_1604,     Запас карток у лотку: достатній (%s)
+ScotApp_1605,     Лоток роздавача карток порожній
+ScotApp_1606,     Брак-лоток: кількість у нормі
+ScotApp_1607,     Брак-лоток: кількість у нормі (%s)
+ScotApp_1608,     Брак-лоток порожній
+ScotApp_1609,     Брак-лоток майже повний
+ScotApp_1610,     Брак-лоток майже повний (%s) 
+ScotApp_1611,     Брак-лоток повний
+ScotApp_1612,Робота з картками
+ScotApp_1613,Брак-лоток
+ScotApp_1614,Лоток роздавача
+ScotApp_1615,Зменшити кількість - натисніть кнопку “Вийняти з роздавача”.
+ScotApp_1616,"Вкажіть, скільки буде внесено у роздавач. Можна внести не більше %d."
+ScotApp_1617,Введена кількість більше за місткість. Вкажіть іншу кількість внесених одиниць. Можна внести не більше %d.
+ScotApp_1618,Касета роздавача купюр відсутня або її неповністю вставлено.\n\nВставити або зафіксувати купюрну касету.
+ScotApp_1619,Відкласти
+ScotApp_1620,Відімкнути кришку для купюр
+ScotApp_1621,Відімкнути купюрну касету
+ScotApp_1622,Касета
+ScotApp_1623,Перенести купюри до касети для вилучення
+ScotApp_1624,Перенести всі купюри до касети
+ScotApp_1625,"Поповнити - внесіть монети, зменшити кількість - натисніть “Вилучити монети”."
+ScotApp_1626,Внесіть готівку або виберіть іншу функцію.
+ScotApp_1627,Помилка банкнотника чи монетника
+ScotApp_1628,Помилка ЦП
+ScotApp_1629,Невірні налаштування ЦП або параметри Sysdata. Зверніться до технічної служби.\n\nПомилка SafePay: %s
+ScotApp_1630,Помилка банкнотника.
+ScotApp_1631,Помилка пристрою перевірки купюр
+ScotApp_1632,"Зняти кришку для купюр. Перевірити кабель до пристрою перевірки купюр, натиснути “Повторити”. Якщо помилка виникає знов, зверніться до технічної служби.\n\nПомилка SafePay: %ss"
+ScotApp_1633,Помилка банкнотника.
+ScotApp_1634,Збій кабелю
+ScotApp_1635,"Перевірити кабель до банкнотника, натиснути “Повторити”. Якщо помилка виникає знов, зверніться до технічної служби.\n\nПомилка SafePay: %s"
+ScotApp_1636,Помилка монетника
+ScotApp_1637,Збій кабелю
+ScotApp_1638,"Перевірити кабелі монетника, натиснути “Повторити”. Якщо помилка виникає знов, зверніться до технічної служби.\n\nПомилка SafePay: %s"
+ScotApp_1639,Помилка монетника
+ScotApp_1640,Помилка збирача
+ScotApp_1641,"Поповнити збирач монет, продовжити. Монети не видаються: можливо, заблоковано збирач. Зверніться до технічної служби.\n\nПомилка SafePay: %s"
+ScotApp_1642,Помилка банкнотника.
+ScotApp_1643,Помилка банкнотника.
+ScotApp_1644,Знято кришку банкнотника
+ScotApp_1645,Надійно зафіксувати кришку банкнотника.
+ScotApp_1647,(ммддрррр)
+ScotApp_1648,(ммддрр)
+ScotApp_1649,(ддммрррр)
+ScotApp_1650,(ддммрр)
+ScotApp_1651,(ррррммдд)
+ScotApp_1652,(ррммдд)
+ScotApp_1653,Сума перевищує місткість. Максимальна потрібна сума: %s. Суму %s внесено автоматично.
+ScotApp_1654,"Кількість перевищує місткість. Можна внести не більше, штук: %d. %d шт. внесено автоматично."
+ScotApp_1655,Відділ продажу
+ScotApp_1656,Введіть код відділу і натисніть “Ввести”. Невірний відділ
+ScotApp_1657,Невірний відділ
+ScotApp_1658,"Перевірити, чи покупець отримав решту правильно."
+ScotApp_1659,Друк чеку
+ScotApp_1660,Оберіть спосіб друку
+ScotApp_1661,Друк чеку неможливий. Повторити - натисніть “Інші чеки”.
+ScotApp_1662,Інші чеки
+ScotApp_1663,лоток порожній або затор у лотку
+ScotApp_1664,Затор купюр
+ScotApp_1665,Відімкнути та вийняти касету. Вийняти застряглу купюру. Знову вставити касету. Закрити модуль приймання-видачі. Продовжити грошову операцію. Помилка банкнотника Затор купюр
+ScotApp_1666,Помилка банкнотника.
+ScotApp_1667,Затор купюр
+ScotApp_1668,"Можливий затор купюр у показаному місці. Відкрити верхню кришку банкнотника. Вийняти застряглі купюри. Закрити банкнотник, встановити верхню кришку. Продовжити грошову операцію. Помилка банкнотника чи монетника Помилка банкнотника чи монетника"
+ScotApp_1669,Помилка банкнотника чи монетника
+ScotApp_1670,Помилка банкнотника чи монетника
+ScotApp_1671,"Відкрити банкнотник, вийняти купюри з касети. Закрити модуль приймання-видачі.\nЗвільнити монети зі збирача, вийняти з чашки для решти."
+ScotApp_1672,Помилка монетника
+ScotApp_1673,Затор монет
+ScotApp_1674,"Звільнити застряглі монети, натиснувши кнопку повернення. Якщо помилка виникає знов, можливий затор монет. Відкрити й закріпити кришку монетника. Вийняти застряглі монети. Відновити вихідне положення, натиснувши кнопку повернення. Звільнити та закрити кришку монетника."
+ScotApp_1675,Помилка монетника
+ScotApp_1676,Відкрито дверцята монетника.
+ScotApp_1677,"Перевірити, чи зачинено дверцята монетника."
+ScotApp_1678,Помилка банкнотника.
+ScotApp_1679,Помилка бібліотеки купюр
+ScotApp_1680,Помилка: неможливо усунути. Закрийте касу. Зверніться до компанії Gunnebo і повідомте інформацію про помилку нижче.\n\nПомилка SafePay: %s
+ScotApp_1681,Помилка банкнотника.
+ScotApp_1682,Загальна помилка модуля зчитування купюр
+ScotApp_1683,Помилка: неможливо усунути. Закрийте касу. Зверніться до компанії Gunnebo і повідомте інформацію про помилку нижче.\n\nПомилка SafePay: %s
+ScotApp_1684,Помилка монетника
+ScotApp_1685,Загальна помилка монетника
+ScotApp_1686,Помилка: неможливо усунути. Закрийте касу. Зверніться до компанії Gunnebo і повідомте інформацію про помилку нижче.\n\nПомилка SafePay: %s
+ScotApp_1687,"Внести готівку - вікно “Запас готівки, паперу”"
+ScotApp_1688,Помилка касети
+ScotApp_1689,Помилка банкнотника.
+ScotApp_1690,Зверніться до технічної служби.
+ScotApp_1691,Робота з готівкою
+ScotApp_1692,Ім’я адміністратора
+ScotApp_1693,Заміна монет
+ScotApp_1694,"Зроблено заміну, причина: %s. Внести готівку, натиснувши “Запас готівки, паперу”, або ліквідувати затор."
+ScotApp_1695,Виправити пізніше
+ScotApp_1696,Збій ліквідовано
+ScotApp_1697,Затор ліквідовано
+ScotApp_1698,Натисніть “Збій ліквідовано”.
+ScotApp_1699,"Зроблено заміну, причина: %s. Внести готівку або ліквідувати затор, потім натиснути “Збій ліквідовано”."
+ScotApp_1700,"Не вдалося видати %s.%s\nПеревірити роздавачі купюр та монет.\nЯкщо порожні, поповнити.\nЯкщо не порожні, усунути затор.\nНатиснути “Збій ліквідовано”."
+ScotApp_1701,Не вдалося видати %s.
+ScotApp_1702,*** ДУБЛІКАТ ЧЕКУ ***
+ScotApp_1703,(+)
+ScotApp_1704,"Натиснути “Збій ліквідовано”.\n\nЯкщо помилка виникає знов, перезавантажити термінал:\nПовернути замок адміністратора на “S” -АБО натиснути кнопку “Адміністратор”.\nОбрати “Вимкнути всю систему”.\nКоли екран згас, вимкнути термінал на ББЖ чи на подовжнику.\nУвімкнути термінал. Якщо помилка виникає знов, зверніться до технічної служби."
+ScotApp_1705,Помилка зв’язку.
+ScotApp_1706,"Пристрій не готовий. Закрити інші програми, що працюють з пристроєм, натиснути “Збій ліквідовано”. Якщо помилка виникає знов, звернутися до технічної служби компанії Gunnebo."
+ScotApp_1707,Затор монет у приймачі
+ScotApp_1708,"Для ліквідації затору монет натиснути кнопку повернення кілька разів, потім “Збій ліквідовано”. \n\nЯкщо помилка виникає знов, звернутися до технічної служби."
+ScotApp_1710,Візьміть повернену готівку.
+ScotApp_1711,Відхилено
+ScotApp_1712,Не дозволено відкласти
+ScotApp_1713,Не дозволити відкласти операцію - натисніть “Прийняти”.
+ScotApp_1714,ЗАПИТ ВІДКЛАСТИ ВІДХИЛЕНО
+ScotApp_1715,Відхилити запит відкласти операцію
+ScotApp_1716,ОВ:
+ScotApp_1717,ФВ:
+ScotApp_1718,КТ:
+ScotApp_1719,ДВ:
+ScotApp_1720,ЗВ:
+ScotApp_1721,Операція в режимі навчання
+ScotApp_1722,Каса працює в режимі навчання. Продовжити операцію?
+ScotApp_1723,Каса працює в режимі навчання. Продовжити операцію?
+ScotApp_1724,ОПЕРАЦІЯ В РЕЖИМІ НАВЧАННЯ
+ScotApp_1725,Контроль відключено
+ScotApp_1726,Пошук завершено
+ScotApp_1727,Пошук товару
+ScotApp_1728,Оберіть товар з популярних або знайдіть за алфавітом.
+ScotApp_1729,Пошук товарів:
+ScotApp_1730,Шукати
+ScotApp_1731,Список покупок: відкриваю фото...
+ScotApp_1732,Список покупок: фото відкрито.
+ScotApp_1733,Для продовження виберіть “Назад”.
+ScotApp_1734,Маю власний пакет
+ScotApp_1735,Покладіть пакети
+ScotApp_1736,Покладіть пакети на пакувальні ваги і натисніть “Готово”.
+ScotApp_1737,Свій пакет
+ScotApp_1738,Пакети перевірить консультант
+ScotApp_1740,Порівняння ваги пакету
+ScotApp_1741,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s очік;LSWND3=%s %s факт
+ScotApp_1742,НЕПРИДАТНИЙ ПАКЕТ
+ScotApp_1743,Для входу наберіть код користувача і натисніть “Ввести” або покладіть палець на дактилоскоп.
+ScotApp_1745,Дактилоскоп не підключено.\n\nСпробуйте ще раз.
+ScotApp_1747,Помилка дактилоскопа
+ScotApp_1748,Збій при дактилоскопії
+ScotApp_1749,Відбиток обробляється
+ScotApp_1752,Завелика вага на вагах.
+ScotApp_1753,Товар не знайдено
+ScotApp_1755,Виберіть зі списку
+ScotApp_1756,Оберіть з результатів пошуку або натисніть “Назад”.
+ScotApp_1757,Надлітерні знаки: натисніть кнопку “Діакритика” внизу екрана і введіть літеру.
+ScotApp_1758,Помилка лотка для купонів
+ScotApp_1759,Лоток для купонів повний
+ScotApp_1760,"Лоток для купонів повний або заблоковано слот для купонівВийняти всі предмети, що блокують слот для купонів, потім спорожнити лоток для купонів."
+ScotApp_1761,"Лоток для купонів повний або заблоковано слот для купонівВийняти всі предмети, що блокують слот для купонів, потім спорожнити лоток для купонів."
+ScotApp_1766,Помилка сканера або ваг.
+ScotApp_1767,Не отримано параметри зважування.
+ScotApp_1768,Непридатна одиниця ваги.
+ScotApp_1769,Введіть код
+ScotApp_1770,Оберіть зі знайденого.
+ScotApp_1771,Ліміт вартості купона
+ScotApp_1772,Купон
+ScotApp_1773,"Прийняти - натисніть “Прийняти купон”, скасувати - перейдіть у режим “Касир”."
+ScotApp_1774,ВАРТІСТЬ КУПОНА ЗАВЕЛИКА
+ScotApp_1775,Прийняти купон
+ScotApp_1776,Дозвіл магазину
+ScotApp_1777,Для оплати використано купон вартістю понад встановлений магазином ліміт.
+ScotApp_1778,Зняти контроль
+ScotApp_1779,"Неможливо скасувати товар, доки не скасовано купон на нього. Спершу скасуйте купон на товар."
+ScotApp_1780,ПОЧАТИ ОПЕРАЦІЮ
+ScotApp_1781,ЧАС ЕКРАНУ “ДЯКУЮ” СПЛИНУВ
+ScotApp_1782,ПОЧАТИ ОПЕРАЦІЮ В РЕЖИМІ “КАСИР”
+ScotApp_1783,ВІДКРИТО ЗАХИСНУ КРИШКУ
+ScotApp_1784,ТОВАР З КІЛЬКОХ ПАКОВАНЬ
+ScotApp_1785,Невірний код користувача. Введіть код ще раз або покладіть палець на дактилоскоп.
+ScotApp_1786,За поліетиленові пакети
+ScotApp_1787,"Вкажіть кількість узятих поліетиленових пакетів або 0, якщо не взято жодного."
+ScotApp_1789,КУПОН
+ScotApp_1790,Лише кредитна / дебетова
+ScotApp_1791,Лише готівка
+ScotApp_1792,Лише картки
+ScotApp_1798,"Режим ""Лише готівка"""
+ScotApp_1799,Режим “Лише картки”
+ScotApp_1800,Оберіть режим операції
+ScotApp_1801,Режим операції 
+ScotApp_1802,Приймати лише картки
+ScotApp_1803,Приймати лише готівку
+ScotApp_1804,Вийти з режиму “Лише картки”
+ScotApp_1805,Вийти з режиму “Лише готівка”
+ScotApp_1806,"\n* Закінчіть операцію, натиснувши “Лише картки”, і вручну видайте покупцю решту."
+ScotApp_1807,_ _ _
+ScotApp_1808,Оберіть товар у чеку.
+ScotApp_1809,Помилки роздавача монетника
+ScotApp_1810,Затор монет.
+ScotApp_1811,"* Витягти монетник.\n* Ліквідувати затор у показаному місці: вийняти монети або проштовхнути їх уперед.\n* Повернути знайдені монети покупцю. Якщо помилка виникає знов, зверніться до технічної служби."
+ScotApp_1812,Затор монет або збирачі монет повні чи відсутні.
+ScotApp_1813,"%s\n* Відімкнути та витягти лоток збирачів (I).\n* Вийняти збирачі з застряглими монетами. Знайти та ліквідувати затор на виході (II).\n* Якщо на виході затору немає, спорожнити збирачі. Знайти та ліквідувати затор, повертаючи диск (III).\n* Вставити збирачі.\n* Переконатися, що всі дверцята зачинено і замкнено. Якщо помилка виникає знов, зверніться до технічної служби."
+ScotApp_1814,Збирача немає чи зсунувся.
+ScotApp_1815,"\n* Відімкнути та витягти лоток збирачів.\n* Вставити відсутні збирачі і перевірити фіксацію всіх збирачів.\n* Вставити відсутні збирачі, перевірити наявність та фіксацію збирача монет найменшого номіналу.\n* Переконатися, що вставлено збирачі відповідного виду. Якщо помилка виникає знов, зверніться до технічної служби."
+ScotApp_1816,Затор монет або відчинено дверцята.
+ScotApp_1817,"* Витягти монетник.\n* Відчинити круглі бічні дверцята, зняти монети зі стрічок.\n* Переконатися, що всі дверцята зачинено і замкнено.\n* Повернути знайдені монети покупцю. Якщо помилка виникає знов, зверніться до технічної служби."
+ScotApp_1818,"* Для ліквідації затору відімкнути і витягти лоток збирачів (I).\n* Покласти застряглі монети до відповідних збирачів. Вставити на місце і замкнути лоток збирачів.\n* Витягти монетник. Відімкнути і зняти кришку.\n* Від’єднати показаний кабель (II).\n* Звільнити червоний язичок на правому боці приймача, потягнути приймач на себе, перевернути, ліквідувати затор у показаних місцях (III).\n* Вставити приймач, підключити кабель.\n* Закрити й замкнути кришку. Якщо помилка виникає знов, зверніться до технічної служби."
+ScotApp_1819,Помилки приймача монетника
+ScotApp_1820,"Зняти товар з ваг, натиснути на сканері кнопку “>0<”."
+ScotApp_1821,Прийняти вагу
+ScotApp_1822,Прийняти вагу
+ScotApp_1823,Електронний чек сформовано.
+ScotApp_1824,Електронний чек не сформовано.
+ScotApp_1825,Зберегти лаштування
+ScotApp_1827,\n    - Обрана мова (%s)
+ScotApp_1828,\n    - Гучність %d%%
+ScotApp_1829,Прийняти
+ScotApp_1830, Записи   Прийнято
+ScotApp_1831,Інт
+ScotApp_1832,Exc_DEPT
+ScotApp_1833,Exc_TB
+ScotApp_1834,Макс
+ScotApp_1835,Несправні пристрої
+ScotApp_1836,Не приймати
+ScotApp_1837,\nЗніміть скасований товар з пакувальних ваг.
+ScotApp_1838,Перевірити товар
+ScotApp_1840,Магазин №:
+ScotApp_1841,Підійдіть до каси для підтвердження
+ScotApp_1842,Допомога
+ScotApp_1843,Свій пакет
+ScotApp_1844,Шукати
+ScotApp_1845,Чек
+ScotApp_1846,Відскануйте товар або натисніть “Ввести код”.
+ScotApp_1847,Товар додано. Відскануйте наступний товар або натисніть “Ввести код”.
+ScotApp_1848,Товар видалено. Відскануйте наступний товар або натисніть “Ввести код”.
+ScotApp_1849,
+ScotApp_1850,Несправні пристрої
+ScotApp_1851,Не приймати  
+ScotApp_1854,Необов’язк.
+ScotApp_1855,Необов’язк.
+ScotApp_1856,  Не пакувати
+ScotApp_1857,  Не класти на конвеєр
+ScotApp_1858,Помилка модуля приймання-видачі: розбіжність даних
+ScotApp_1860,"Виберіть один з товарів, знайдених автоматично, або знайдіть товар за алфавітом."
+ScotApp_1861,ТОВАРИ БЕЗ ШТРИХ-КОДУ
+ScotApp_1862,Перевірте товар на сканер-вагах
+ScotApp_1863,"Натисніть ""Прийняти"" або ""Скасувати товар""."
+ScotApp_1864,Перейдіть до каси
+ScotApp_1865,Шукати товар\nбез ваги
+ScotApp_1866,Ще популярне
+ScotApp_1867,Камеру затулено
+ScotApp_1868,Не затуляйте руками камеру сканера
+ScotApp_1869,Рука в камері
+ScotApp_1870,%s %s очікується
+ScotApp_1871,%s %s фактично
+ScotApp_1872,1872unused
+ScotApp_1873,1873unused
+ScotApp_1874,1874unused
+ScotApp_1875,%s %s очікується
+ScotApp_1876,%s %s фактично
+ScotApp_1877,"Сигнал ""крадіжка"""
+ScotApp_1878,Невірна вага на пакувальних вагах.
+ScotApp_1879,"Огляньте пакувальні ваги і натисніть ""Зняти захист""."
+ScotApp_1880,Неочікуваний товар на пакувальних вагах.
+ScotApp_1881,"Огляньте пакувальні ваги, зніміть зайвий товар, і натисніть ""Зняти захист""."
+ScotApp_1882,"Сигнал ""Smart Assist"": товар не відскановано."
+ScotApp_1883,"Перевірте, чи немає на пакувальних вагах і в кошику зайвого товару, і натисніть ""Зняти захист""."
+ScotApp_1884,"Сигнал ""Smart Assist"""
+ScotApp_1885,Товар не відскановано
+ScotApp_1886,"Перевірте, чи немає зайвого товару."
+ScotApp_1887,Переглянути операцію
+ScotApp_1888,"Проведіть контроль зробленої покупцем операції, натисніть ""Зняти захист""."
+ScotApp_1889,Покупець на контролю
+ScotApp_1890,Обробляється.
+ScotApp_1892,Контроль операції
+ScotApp_1893,Невірний штрих-код
+ScotApp_1894,Відкладіть товар і продовжуйте розрахунок.
+ScotApp_1895,Заг винят
+UnknownItemMessage,До вас зараз підійдуть.\n\nВідкладіть товар і скануйте інші покупки.
+TimeRestrictedItemMessage,Купити цей товар наразі неможливо.\n\nВідкладіть його і продовжуйте оформляти покупку.
+ItemQuantityExceededMessage,Завелика кількість одиниць товару. \n\nВідкладіть товар і продовжіть.
+WeightMismatch,Перевіряється вага.\n\nЗачекайте…
+ItemQuantityExceeded,Ліміт кількості перевищено
+WaitForRemoteAssistanceTitle,Дистанційний консультант
+ScotApp_489,Дякуємо за користування системою NCR SelfServ Checkout.
+ScotApp_273,Не скануйте зараз.\nВідкладіть товар.
+ScotApp_431,Недійсна дисконтна картка. Перевірте.
+ScotApp_410,Потрібна допомога для:
+ScotApp_1739,"Дочекайтеся консультанта.\nВага пакетів не відповідає очікуваній.\nЯкщо на пакувальні ваги випадково потрапив інший предмет (не пакет), зніміть його."
+ScotApp_73,Назад урежим “Покупки”
+ScotApp_772,Отримано запит відкласти поточну операцію.\nПідтвердіть або скасуйте його.
+ScotApp_530,Помилка читання картки.\nВставте іншу картку\n   -або-\nсплатіть готівкою\n   -чи-\nвикличте допомогу.
+ScotApp_524,Введено невірний ПІН.\nЩе раз введіть ПІН на платіжному пристрої.
+ScotApp_397,"Відпуск перевірених товарів - у режимі “Касир”.\nЗаберіть товари, які відпущено не буде."
+ScotApp_171,"""%s""\n\n %d - вірно?"
+ScotApp_1374,\n---------------------------------------\n
+ScotApp_1646,Операцію відкладено.Відкладіть усі товари.
+ScotApp_495,Завелика кількість одиниць товару.\n\nВідкладіть товар і продовжіть.
+ScotApp_529,"Заберіть картку, потім..\nвставте іншу картку\n   -або-\nсплатіть готівкою\n   -чи-\nвикличте допомогу."
+ScotApp_275,Не вставляйте зараз кредитну картку.\nЗаберіть картку.
+ScotApp_1891,Йде перевірка системою.\nЗачекайте...
+ScotApp_1750,Дочекайтеся кінця оброблення відбитка.
+ScotApp_169,Бажаєте продовжити купівлю?
+ScotApp_415,Візьміть дисконтну картку.\nКартку було вставлено раніше.
+ScotApp_1793,Апарат наразі приймає лише кредитні і дебетові картки.\nПродовжити?
+ScotApp_477,Здайте свої купони.\nПісля отримання чеку:\n-- візьміть товар.\n-- Віднесіть чек і купони до касового автомату.
+ScotApp_177,Покупку скасовано.Відкладіть усі товари.
+ScotApp_656,Відкладіть <%s>.\nДо вас підійде консультант.
+ScotApp_1709,Поки що не вносити купюри та монети.\nВізьміть повернену готівку.\nВізьміть купюри під сканером.
+ScotApp_435,Оберіть вид соц. допомоги.\nПродовольчі талони слід використати перед іншими видами соц. допомоги.
+ScotApp_808,"Передайте товари з протикрадіжковими давачами консультанту, який зніме їх."
+ScotApp_294,"Щоб викликати помічника, натисніть кнопку “Викликати допомогу”."
+ScotApp_1287,Зачекайте...\nПеревіряється вага товару.
+ScotApp_525,"Введено невірний ПІН.\nЗаберіть картку, потім...\nвставте іншу картку\n   -або-\nсплатіть готівкою"
+ScotApp_480,Натисніть “ОК” і передайте касиру талон на покупку і товари.
+ScotApp_1751,Перевищено максимальний допуск ваги.\nЗніміть товари з пакувальних ваг.
+ScotApp_175,"Видалити\n""%s""\nз чеку?"
+ScotApp_1746,Сервер відбитків не відповідає.\nСпробуйте ще раз.
+ScotApp_1839,Дочекайтеся касира.\nНе скануйте зараз. Відкладіть товар.
+ScotApp_501,Підпишіть чек і чекайте на дозвіл магазину.
+ScotApp_414,Візьміть дисконтну картку.\nВрахувати знижки в цій покупці неможливо. Їх буде надіслано вам поштою.
+ScotApp_563,Помилка при спробі запуску Hard Totals.\nПрограму буде закрито.
+ScotApp_263,"Неможливо скасувати товар, доки не скасовано купон на нього.\nСпершу скасуйте купон на товар."
+ScotApp_800,"Перевірте свій кошик.\n\nЯкщо в ньому є ще товар, відскануйте його або\nнатисніть “OK” і оплатіть покупку."
+ScotApp_134,Іде авторизація.\nЗачекайте.
+ScotApp_620,Вказатидопуск
+ScotApp_161,%s\nВведіть на клавіатурі кількість і натисніть “ОК”.
+ScotApp_440,Залишок грошової допомоги менший за потрібний.\nВрахувати в цій покупці наявний залишок %s?
+ScotApp_184,З вашого рахунку буде списано %s.
+ScotApp_274,Не вносіть зараз гроші.\nЗаберіть гроші.
+ScotApp_1744,Пристрій не розпізнав відбитки пальців.\nСпробуйте ще раз.
+ScotApp_160,Товар відкликано.\nЗараз підійде консультант.%s\nВведіть на клавіатурі кількість і натисніть “ОК”.
+ScotApp_1795,Інакше оберіть “Лише картки”.
+ScotApp_159,Ціна товару невідома.\nЗараз підійде консультант.\nВідкладіть товар і продовжуйте оформляти покупку.
+ScotApp_458,Оберіть вид соц. допомоги.\nВикористати продовольчі талони в цій покупці не можна.
+ScotApp_1329,Зачекайте...\nПеревіряється вага товару.\nУпаковано подвійну вагу.
+ScotApp_407,Помилка читання картки.\n*   Ввести іншу картку\n   -або-\n* Викликати допомогу
+ScotApp_706,Залишок коштів на продовольчому талоні менший за вартість покупки.\nНатисніть “OK” і оплатіть покупку в інший спосіб.
+ScotApp_606,Видалитивагу
+ScotApp_906,Візьміть товари.
+ScotApp_705,Залишок грошової допомоги менший за вартість покупки.\nНатисніть “OK” і оплатіть покупку в інший спосіб.
+ScotApp_605,Додативагу
+ScotApp_405,Помилка читання картки.\n*  Ввести іншу картку\n   -або-\n* Сплатити готівкою\n   -або-\n* Викликати допомогу
+ScotApp_491,Заберіть картку.
+ScotApp_818,Дочекайтеся касира.\nПотрібна допомога для:
+ScotApp_1796,Інакше оберіть “Лише готівка”.
+ScotApp_438,Залишок на продовольчому талоні менший за потрібний.\nВрахувати в цій покупці наявний залишок %s?
+ScotApp_1596,Зберегти обрану мову (%s) на вашому пристрої?\nВиберіть “Так” чи “Ні”.
+ScotApp_766,З вашого рахунку буде списано %s.
+ScotApp_166,Зараз підійде консультант.\nПродовжуйте оформляти покупку.
+ScotApp_413,Візьміть дисконтну картку.\nБуде враховано знижку.
+ScotApp_1797,Виправити помилку не вдалося.\nСпробуйте ще раз або оберіть “Лише готівка”.
+ScotApp_178,"Дочекайтеся дозволу магазину.\nТовари, що очікують на дозвіл:"
+ScotApp_790,Картку не прийнято.\nВиберіть інший спосіб оплати.
+ScotApp_1794,Апарат наразі приймає лише готівку.\nКредитні і дебетові картки не приймаються.\nПродовжити?
+ScotApp_412,"З цим товаром вартість покупки перевищить %s.\nЗробіть оплату зараз, а інші товари придбайте окремо."
+ScotApp_546,Продаж товару особам вашого віку заборонено.\nВідкладіть товар та продовжуйте робити покупки.
+ScotApp_553,Купони приймаються під час оформлення покупки.\nВідкладіть їх і продовжуйте.
+ScotApp_211,Обробляється...\nЗачекайте.
+ScotApp_1401,Надається допомога.\n\nЗачекайте...
+ScotApp_1400,Дистанційний консультант
+ScotApp_1754,Товарів з таким набором літер немає.\nСпробуйте ще раз.
+ScotApp_1859,Купити весь ящик товару %s? Виберіть “Так” чи “Ні”.
+ScotApp_533,Придбати цей товар зараз неможливо.\nВідкладіть його та продовжуйте робити покупки.
+ScotApp_1763,e=d=%5.3f кг Макс %5.3f кг мін %3.1f кгNмакс %4.0f
+ScotApp_1762,e=d=%4.2f фунти Макс %4.2f фунти мін %3.1f фунтиNмакс %4.0f
+ScotApp_1764, e = d = %4.2f фунтиМакс %4.2f фунти Мін %3.1f фунтиNмакс %4.0f
+ScotApp_1765, e = d = %5.3f кгМакс %5.3f кг Мін %3.1f кгNмакс %4.0f
+ScotApp_305,Оберіть ємність для товару: %s
+ScotApp_703,Введіть ПІН на пристрої введення ПІН-коду. Для скасування платежу натисніть “Скасувати” на пристрої введення ПІН-коду.
+ScotApp_125,Введіть дату народження покупця %s і натисніть “Прийняти”.
+ScotApp_1853,Введіть дату народження покупця %s і натисніть “Ввести”.
+ScotApp_654,Потрібний формат дати %s.Введено: %s
+ScotApp_560,Система не приймає купони.
+ScotApp_1788, %d - вірно?\n\nДо вартості покупки буде додано пакети на суму %s.
+ScotApp_1358,З подарункової картки на оплату покупки списано %s.\n\nЗалишок на картці: %s.
+ScotApp_167,Купон не відповідає придбаним товарам.\n\nПрийняти купон неможливо.
+ScotApp_164,Невідомий код товару.\n\nПеревірте правильність введеного номеру.
+ScotApp_547,Невірний код оператора і пароль.\n\nСпробуйте ще раз.
+ScotApp_442,%s від покупки можна сплатити продовольчими талонами.\n\n%s
+ScotApp_443,З рахунку буде списано %s.\n\nПідтвердити?
+ScotApp_700,Відпуск товару на цій касі неможливий.\nЗараз підійде консультант.\n\nВідкладіть товар і продовжуйте оформляти покупку.
+ScotApp_165,Невідомий товар.\nЗараз підійде консультант.\n\nВідкладіть товар і продовжуйте оформляти покупку.
+ScotApp_182,Введено завелику вартість купона.\n\nПрийняти купон неможливо.
+ScotApp_733,Картку не прийнято.\nСплатіть іншою карткою або готівкою.
+ScotApp_812,Дякуємо за користування системою NCR SelfServ Checkout.\nПередайте подарункову картку касиру.
+ScotApp_1826,Зберегти лаштування на дисконтній картці?
+ScotApp_1852,Зніміть скасований товар з пакувальних ваг.
+QRCodeErrorText,QR Code Error
+ScanQRCodeInstruction,Scan this code to complete\nyour Mobile shopping.
+ScotApp_1896,Transferring items from mobile cart.
+ScotApp_1897,Зачекайте...
+ScotApp_1898,Mobile Cart
+ScotApp_1899,Mobile Audit
+ScotApp_1900,Mobile Shopper Audit
+ScotApp_1901,"Touch ""OK"" then use Attendant Handset to complete audit."
+ScotApp_1902,Begin Mobile Transaction
+ScotApp_1903,End Mobile Transaction
+ScotApp_1904,%d Items Sold
+ScotApp_1905,Scan barcode to complete your Mobile checkout.
+ScotApp_1906,Mobile cart transfer is complete.
+ScotApp_1907,\nTouch Pay or add more items.
+MoveLeft,< Move
+MoveRight,Move >
+Accessibility,Accessibility
+SearchItemCodeWatermark,Enter Item Code
+ScanAndBagNoSearchKeyIn,Scan or look up item to start
+ScanLookUpKeyInItem,"Scan, look up, or key in item code to start."
+LookUpKeyInItem,Look up or Key in Item
+ScanOrKeyInItem,Scan or Key in Item
+RemoveItemFromProduceScale,Remove item from scale.
+RemoveItemFromProduceScaleTitle,Remove Item

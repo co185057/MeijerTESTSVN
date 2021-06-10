@@ -1,0 +1,24 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\ScotApp\Controls\SmartScale]
+"AllowCommFailure"=dword:0000000a
+"Time-Out"=dword:000003E8
+"WeightUnit"=dword:00000004
+"LGWTolerance"=dword:0000001e
+"AllowShiftingWts"=dword:00000001
+"StableWtTolerance"=dword:00000014
+"100LbsItemTolerance"=dword:00000000
+"InterpolateAllTolerance"=dword:00000000
+"MaxExpWtTolForZeroWtTimer"=dword:00000046
+"DisableBagScale"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\ScotApp\Controls\SmartScale\DataCapture]
+"DcapControl"="1 -> Hex destination(s): 1=DCap App, 2=Debugger, 4=File; 10/20/40 for immediate"
+"DcapFile"="%DATA_DRIVE%\\scot\\logs\\smartscale.log"
+"DcapFileMax"="5120 -> Max KB of data cap file"
+"DcapLinePrefix"="SS: "
+"DcapMask"="0 -> Hex mask of events to capture"
+"DcapTime"="F00 -> Hex time option(s): 100=m:s, 300=h:m:s, 700=m/d h:m:s; 800+digits=millisec; 1000=threadid"
+"DcapVersion"="1.1.2"
+
+

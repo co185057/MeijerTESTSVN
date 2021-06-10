@@ -1,0 +1,58 @@
+﻿<Display Version="1.0">
+  <Languages>
+    <Language Name="040b">
+      <StringTable>
+        <String Name="SwitchToRAPBtnPrimaryTxt">Siirry EOO-ohjelmaan</String>
+        <String Name="ShutdownSystemBtnPrimaryTxt">Sammuta koko järjestelmä</String>
+        <String Name="RebootSystemBtnPrimaryTxt">Järjestelmän uud.käynnistys</String>
+        <String Name="VolumeBtnPrimaryTxt">Äänenvoim.</String>
+        <String Name="EventViewerBtnPrimaryTxt">Tapahtumienvalvonta</String>
+        <String Name="GenerateLogBtnPrimaryTxt">Luo virheloki-\ntiedostot</String>
+        <String Name="RapConfigureBtnPrimaryTxt">EOO-\nkonfiguraatio</String>
+        <String Name="TerminalInfoBtnPrimaryTxt">Kassapäätetied.</String>
+        <String Name="MinMaxRAPBtnPrimaryTxt">Pienennä EOO</String>
+        <String Name="MinMaxRAPBtnSecondaryTxt">Suurenna EOO</String>
+        <String Name="MinMaxRAPBtnPrimaryShowConfirmation">Paina Pienennä EOO -näppäintä EOO-ikkunan pienentämiseksi.</String>
+        <String Name="MinMaxRAPBtnSecondaryShowConfirmation">Paina Suurenna EOO -näppäintä EOO-ikkunan suurentamiseksi.</String>
+        <String Name="StopStartRAPButtonPrimaryTxt">Sulje EOO</String>
+        <String Name="StopStartRAPButtonSecondaryTxt">Käynnistä EOO</String>
+        <String Name="ExitRAPAndRunProfileBtnPrimaryTxt">Pysäytä EOO ja aja Profile Manager -ohjelma</String>
+        <String Name="ExitRAPAndRunProfileBtnSecondaryTxt">Aja Profile Manager -ohjelma</String>
+        <String Name="UtilityFunctionsTitle">Apuohjelmatoiminnot</String>
+        <String Name="SignOnTitle">NCR FastLane\nSisäänkirjautuminen</String>
+        <String Name="SystemStartup">Järjestelmä käynnistyy…odota hetki</String>
+        <String Name="StartTitle">Järjestelmän käynnistys</String>
+        <String Name="TerminalID">Kassapäätteen tunnussana: </String>
+        <String Name="OperatorIDText">Käyttäjätunnus: </String>
+        <String Name="SignOnButtonText">Siskirj</String>
+        <String Name="SignOffButtonText">Uloskirj</String>
+        <String Name="SignedOffButtonText">Kirjauduttu ulos</String>
+        <String Name="Exit">Poistu kaikista</String>
+        <String Name="ReturnToShoppingButtonText">Palaa</String>
+        <String Name="DiagConfirm">Haluatko varmasti luoda virhelokitiedostot?</String>
+        <String Name="ProfileManagerRAPConfirm">Haluatko varmasti sulkea EOO-sovelluksen ja ajaa Profile Manager -ohjelman?</String>
+        <String Name="CalibrateConfirm">Haluatko varmasti kalibroida kosketusnäytön?</String>
+        <String Name="ShutdownConfirm">Haluatko varmasti sammuttaa koko järjestelmän?</String>
+        <String Name="RebootConfirm">Haluatko varmasti käynnistää uudelleen koko järjestelmän?</String>
+        <String Name="CloseAllConfirm">Haluatko varmasti poistua kaikista sovelluksista ja siirtyä työpöydälle?</String>
+        <String Name="VolumeConfirm">Haluatko varmasti säätää äänenvoimakkuutta?</String>
+        <String Name="TerminalInfoConfirm">Haluatko varmasti katsoa kassapäätetietoja?</String>
+        <String Name="StopRAPConfirm">Haluatko varmasti suljea EOO-sovelluksen?</String>
+        <String Name="StartRAPConfirm">Haluatko varmasti käynnistää EOO-sovelluksen?</String>
+        <String Name="YesText">Kyllä</String>
+        <String Name="NoText">Ei</String>
+        <String Name="ClearButtonText">Poista</String>
+        <String Name="EnterButtonText">Syötä</String>
+        <String Name="GoBackButtonText">Palaa takaisin</String>
+        <String Name="SpaceButtonText">Väli</String>
+        <String Name="BackSpaceButtonText">Peruuta</String>
+        <String Name="ShiftButtonText">Vaihto</String>
+        <String Name="EnterIDLeadthru">Syötä käyttäjätunnus alla olevalla näppäimistöllä:</String>
+        <String Name="ReEnterIDLeadthru">Väärä käyttäjätunnus tai salasana. Syötä uudestaan ao. näppäimistöllä.</String>
+        <String Name="EnterPasswordLeadthru">Syötä salasana alla olevalla näppäimistöllä:</String>
+        <String Name="CancelButtonText">Peruuta</String>
+        <String Name="LoggingInLeadthru">Kirjaudutaan sisään…odota hetki</String>
+        </StringTable>
+    </Language>
+  </Languages>
+</Display>

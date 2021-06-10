@@ -1,0 +1,19 @@
+<Display Version="1.2">
+  <Controls>
+    <Control Name="PINEntrySigDevVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\KeyIn5992Pin_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="RequestSigVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\SignName_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="SwipeCardVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\SwipeCard_5992_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+  </Controls>
+</Display>

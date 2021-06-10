@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tbControls", "tbControls.vcproj", "{55B317AE-241D-4558-9306-3740F042905C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = \u0022$/Integration_Base/VER_03.00/CURRENT_DEV\u0022,\u0020WLTFAAAA
+		SccLocalPath0 = ..\\..
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = AfxTransBroker\\tbControls\\
+		SolutionUniqueID = {B2BA8D18-5431-4BDB-AFD5-AE6B85E10EFA}
+		SccProjectUniqueName1 = tbControls.vcproj
+		SccProjectName1 = \u0022$/Integration_Base/VER_03.00/CURRENT_DEV/Source/AfxTransBroker\u0022,\u0020XLTFAAAA
+		SccLocalPath1 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = tbControls\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug_Unicode = Debug_Unicode
+		Release = Release
+		Release_Unicode = Release_Unicode
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{55B317AE-241D-4558-9306-3740F042905C}.Debug.ActiveCfg = Debug|Win32
+		{55B317AE-241D-4558-9306-3740F042905C}.Debug.Build.0 = Debug|Win32
+		{55B317AE-241D-4558-9306-3740F042905C}.Debug_Unicode.ActiveCfg = Debug_Unicode|Win32
+		{55B317AE-241D-4558-9306-3740F042905C}.Debug_Unicode.Build.0 = Debug_Unicode|Win32
+		{55B317AE-241D-4558-9306-3740F042905C}.Release.ActiveCfg = Release|Win32
+		{55B317AE-241D-4558-9306-3740F042905C}.Release.Build.0 = Release|Win32
+		{55B317AE-241D-4558-9306-3740F042905C}.Release_Unicode.ActiveCfg = Release_Unicode|Win32
+		{55B317AE-241D-4558-9306-3740F042905C}.Release_Unicode.Build.0 = Release_Unicode|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

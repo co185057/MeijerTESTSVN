@@ -1,0 +1,157 @@
+'
+' Core Application Macro
+'
+
+'
+' Macro for Build PC
+'
+
+Sub BuildALLCoreApplication()
+
+Dim projCol
+Dim configCol
+Dim numProjects
+Dim numConfigs
+Dim i
+Dim j
+
+Dim BuildMax
+
+BuildMax=6
+Dim BuildName(6)
+Dim BuildNumber
+
+Dim config
+Dim proj    
+	  
+set projCol = Projects
+numProjects = projCol.Count
+
+BuildNumber=1
+
+BuildName(1) = "SCOTApp - Win32 Debug BuildLib"
+BuildName(2) = "SCOTSSF - Win32 Debug"
+BuildName(3) = "SCOTApp - Win32 Debug"
+
+BuildName(4) = "SCOTApp - Win32 Release BuildLib"
+BuildName(5) = "SCOTSSF - Win32 Release"
+BuildName(6) = "SCOTApp - Win32 Release"
+
+For i=1 To numProjects    
+    	
+  set proj = projCol(i)
+
+  'MsgBox ("Project: " + proj)
+	
+  If proj.Type = "Build" Then        
+    set configCol = proj.Configurations
+    numConfigs = configCol.Count        
+ 
+    For j=1 to numConfigs
+
+      'MsgBox (BuildNumber)
+	  	  
+      set config = configCol(j)
+      if (BuildNumber <= BuildMax) then
+	      if (config = BuildName(BuildNumber)) then
+          ' MsgBox ("Build Config: " + config)
+	  	    ' => Build config		    
+          RebuildAll config
+          BuildNumber=BuildNumber+1
+          i=0
+		    end if
+      end if
+	  Next
+  End If
+  Next
+
+  Documents.SaveAll True
+  Application.ExecuteCommand "WorkspaceClose"
+  Application.Quit
+
+End Sub
+
+' Basic Macro for Debug
+
+Sub BuildCoreApplication()
+
+Dim projCol
+Dim configCol
+Dim numProjects
+Dim numConfigs
+Dim i
+Dim j
+
+Dim BuildMax
+BuildMax=3
+Dim BuildName(3)
+Dim BuildNumber
+
+Dim config
+Dim proj    
+	  
+set projCol = Projects
+numProjects = projCol.Count
+
+BuildNumber=1
+BuildName(1) = "SCOTApp - Win32 Debug BuildLib"
+BuildName(2) = "SCOTSSF - Win32 Debug"
+BuildName(3) = "SCOTApp - Win32 Debug"
+
+For i=1 To numProjects    
+    	
+  set proj = projCol(i)
+
+  'MsgBox ("Project: " + proj)
+	
+  If proj.Type = "Build" Then        
+    set configCol = proj.Configurations
+    numConfigs = configCol.Count        
+ 
+    For j=1 to numConfigs
+
+      'MsgBox (BuildNumber)
+	  	  
+      set config = configCol(j)
+      if (BuildNumber <= BuildMax) then
+	      if (config = BuildName(BuildNumber)) then
+          'MsgBox ("Build Config: " + config)
+	  	    'Build config		    
+          RebuildAll config
+          BuildNumber=BuildNumber+1
+          i=0
+		    end if
+      end if
+	  Next
+  End If
+  Next
+
+End Sub
+
+Sub RebuildEveryConfiguration
+
+Dim projCol
+Dim configCol
+Dim numProjects
+Dim numConfigs
+Dim i
+Dim j
+
+set projCol = Projects
+numProjects = projCol.Count
+
+For i=1 To numProjects
+    Dim proj
+    set proj = projCol(i)
+    If proj.Type = "Build" Then
+        set configCol = proj.Configurations
+        numConfigs = configCol.Count
+        For j=1 to numConfigs
+            Dim config
+            set config = configCol(j)
+            RebuildAll config
+        Next
+    End If
+Next
+End Sub
+

@@ -1,0 +1,59 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACSHookClient", "ACSHookClient\ACSHookClient.csproj", "{1A917D65-9A3D-48D7-84ED-2034253C018B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ACSHookClientCPP", "ACSHookClientCPP\ACSHookClientCPP.vcproj", "{D4FB628D-C46C-4835-947D-90429966B823}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ACSHookManager", "ACSHookManager\ACSHookManager.vcproj", "{7726B731-B8D2-487B-9316-5C922EE6DC9A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ACSExposedFunctionsTestStub", "ACSExposedFunctionsTestStub\ACSExposedFunctionsTestStub.vcproj", "{1CED7DE3-664E-4894-A84C-972D48B26349}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccProjectUniqueName0 = ACSHookClient\\ACSHookClient.csproj
+		SccProjectName0 = \u0022$/Integration_Solution/ACS_Solution/CURRENT_DEV/Source/AfxTransBroker/ACSHook/ACSHookClient\u0022,\u0020PVDGAAAA
+		SccLocalPath0 = ACSHookClient
+		SccProvider0 = MSSCCI:SourceOffSite
+		SccProjectUniqueName1 = ACSHookClientCPP\\ACSHookClientCPP.vcproj
+		SccProjectName1 = \u0022$/Integration_Solution/ACS_Solution/CURRENT_DEV/Source/AfxTransBroker/ACSHook/ACSHookClientCPP\u0022,\u0020YVDGAAAA
+		SccLocalPath1 = ACSHookClientCPP
+		SccProvider1 = MSSCCI:SourceOffSite
+		SccProjectUniqueName2 = ACSHookManager\\ACSHookManager.vcproj
+		SccProjectName2 = \u0022$/Integration_Solution/ACS_Solution/CURRENT_DEV/Source/AfxTransBroker/ACSHook/ACSHookManager\u0022,\u0020FWDGAAAA
+		SccLocalPath2 = ACSHookManager
+		SccProvider2 = MSSCCI:SourceOffSite
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{1A917D65-9A3D-48D7-84ED-2034253C018B}.Debug.ActiveCfg = Debug|.NET
+		{1A917D65-9A3D-48D7-84ED-2034253C018B}.Release.ActiveCfg = Release|.NET
+		{D4FB628D-C46C-4835-947D-90429966B823}.Debug.ActiveCfg = Debug|Win32
+		{D4FB628D-C46C-4835-947D-90429966B823}.Release.ActiveCfg = Release|Win32
+		{7726B731-B8D2-487B-9316-5C922EE6DC9A}.Debug.ActiveCfg = Debug|Win32
+		{7726B731-B8D2-487B-9316-5C922EE6DC9A}.Debug.Build.0 = Debug|Win32
+		{7726B731-B8D2-487B-9316-5C922EE6DC9A}.Release.ActiveCfg = Release|Win32
+		{7726B731-B8D2-487B-9316-5C922EE6DC9A}.Release.Build.0 = Release|Win32
+		{1CED7DE3-664E-4894-A84C-972D48B26349}.Debug.ActiveCfg = Debug|Win32
+		{1CED7DE3-664E-4894-A84C-972D48B26349}.Debug.Build.0 = Debug|Win32
+		{1CED7DE3-664E-4894-A84C-972D48B26349}.Release.ActiveCfg = Release|Win32
+		{1CED7DE3-664E-4894-A84C-972D48B26349}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal

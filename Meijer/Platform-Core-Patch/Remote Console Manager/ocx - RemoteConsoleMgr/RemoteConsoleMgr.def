@@ -1,0 +1,9 @@
+; RemoteConsoleMgr.def : Declares the module parameters.
+
+LIBRARY      "RemoteConsoleMgr.OCX"
+
+EXPORTS
+	DllCanUnloadNow     PRIVATE
+	DllGetClassObject   PRIVATE
+	DllRegisterServer   PRIVATE
+	DllUnregisterServer PRIVATE

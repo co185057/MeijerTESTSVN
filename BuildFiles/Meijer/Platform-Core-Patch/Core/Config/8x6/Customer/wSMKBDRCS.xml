@@ -1,0 +1,231 @@
+<Display Version="1.2">
+  <Fonts>
+    <Font Name="RCSAMFont">
+      <Face>Lucida Sans Unicode</Face>
+      <Size>10</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="RCSEchoBoxFont">
+      <Face>Arial</Face>
+      <Size>11</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="RCSAMTitleFont">
+      <Face>Lucida Sans Unicode</Face>
+      <Size>18</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+  </Fonts>
+  <Controls>
+    <Control Name="Key44" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">507,229,260,366</Property>
+        <Property Name="ButtonHorizontalSpacing">2</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">44</Property>
+        <Property Name="ButtonWidth">84</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">RCSAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\M T X\8x6-bttn_84x44.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">24</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key25" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">309,229,174,182</Property>
+        <Property Name="ButtonHorizontalSpacing">2</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">44</Property>
+        <Property Name="ButtonWidth">85</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">RCSAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\M T X\8x6-bttn_85x44.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">8</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key33" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">309,416,173,136</Property>
+        <Property Name="ButtonHorizontalSpacing">2</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">44</Property>
+        <Property Name="ButtonWidth">55</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">RCSAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\M T X\8x6-bttn_55x44.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">9</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key1" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">35,226,247,372</Property>
+        <Property Name="ButtonHorizontalSpacing">2</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">44</Property>
+        <Property Name="ButtonWidth">79</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">RCSAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\M T X\8x6-bttn_79x44.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">24</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key43" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">426,556,56,42</Property>
+        <Property Name="ButtonHorizontalSpacing">2</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">42</Property>
+        <Property Name="ButtonWidth">56</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">RCSAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\M T X\8x6-bttn_56x42.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key42" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">309,556,113,42</Property>
+        <Property Name="ButtonHorizontalSpacing">2</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">42</Property>
+        <Property Name="ButtonWidth">113</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">RCSAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\M T X\8x6-bttn_113x42.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Echo1" Type="Static">
+      <Properties>
+        <Property Name="Position">191,109,279,21</Property>
+        <Property Name="Font">RCSEchoBoxFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="Echo2" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Position">191,130,279,21</Property>
+        <Property Name="Font">RCSEchoBoxFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="Echo3" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Position">191,150,279,21</Property>
+        <Property Name="Font">RCSEchoBoxFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="Echo4" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Position">191,171,279,21</Property>
+        <Property Name="Font">RCSEchoBoxFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="Echo5" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Position">191,192,279,21</Property>
+        <Property Name="Font">RCSEchoBoxFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="Echo6" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Position">491,171,297,22</Property>
+        <Property Name="Font">RCSEchoBoxFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="Echo7" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Position">491,192,297,21</Property>
+        <Property Name="Font">RCSEchoBoxFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+  </Controls>
+  <Contexts>
+    <Context Name="SmAssistMode">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\Scan Master\8X6_ScanMasterAssistMode.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">171,49,374,32</Property>
+            <Property Name="Font">RCSAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title2">
+          <Properties>
+            <Property Name="Position">166,85,20,32</Property>
+            <Property Name="Font">RCSAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">191,86,279,23</Property>
+            <Property Name="Font">RCSEchoBoxFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo1" />
+        <Control Name="Echo2" />
+        <Control Name="Echo3" />
+        <Control Name="Echo4" />
+        <Control Name="Echo5" />
+        <Control Name="Echo6" />
+        <Control Name="Echo7" />
+        <Control Name="SMButton1" />
+        <Control Name="SMButton2" />
+        <Control Name="Key44" />
+        <Control Name="Key25" />
+        <Control Name="Key33" />
+        <Control Name="Key1" />
+        <Control Name="Key43" />
+        <Control Name="Key42" />
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">2,41,163,42</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage">
+          <Properties>
+            <Property Name="Position">2,71,174,57</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+  </Contexts>
+</Display>

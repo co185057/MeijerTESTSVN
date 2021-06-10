@@ -1,0 +1,72 @@
+<Display Version="1.0">
+  <Languages>
+    <Language Name="0809">
+      <StringTable>
+        <String Name="MinMaxFastLaneBtnPrimaryTxt">Minimize FastLane</String>
+        <String Name="MinMaxFastLaneBtnSecondaryTxt">Maximize FastLane</String>
+        <String Name="MinMaxFastLaneBtnPrimaryShowConfirmation">To minimize FastLane, touch the "Minimize FastLane" button.</String>
+        <String Name="MinMaxFastLaneBtnSecondaryShowConfirmation">To maximize FastLane, touch the "Maximize FastLane" button.</String>
+        <String Name="StopStartFastLaneBtnPrimaryTxt">Stop FastLane</String>
+        <String Name="StopStartFastLaneBtnSecondaryTxt">Start FastLane</String>
+        <String Name="SwitchToRAPBtnPrimaryTxt">Switch To RAP</String>
+        <String Name="ShutdownSystemBtnPrimaryTxt">Shutdown</String>
+        <String Name="RebootSystemBtnPrimaryTxt">Reboot</String>
+        <String Name="VolumeBtnPrimaryTxt">Volume</String>
+        <String Name="EventViewerBtnPrimaryTxt">Event Viewer</String>
+        <String Name="GenerateLogBtnPrimaryTxt">Gen Diag Files</String>
+        <String Name="RapConfigureBtnPrimaryTxt">Rap Configure</String>
+        <String Name="ExitFastLaneAndRunProfileBtnPrimaryTxt">Exit FastLane and Run Profile Manager</String>
+        <String Name="ExitFastLaneAndRunProfileBtnSecondaryTxt">Run Profile Manager</String>
+        <String Name="TerminalInfoBtnPrimaryTxt">Terminal Information</String>
+        <String Name="MinMaxRAPBtnPrimaryTxt">Minimize RAP</String>
+        <String Name="MinMaxRAPBtnSecondaryTxt">Maximize RAP</String>
+        <String Name="MinMaxRAPBtnPrimaryShowConfirmation">To minimize RAP, touch the "Minimize RAP" button.</String>
+        <String Name="MinMaxRAPBtnSecondaryShowConfirmation">To maximize RAP, touch the "Maximize RAP" button.</String>
+        <String Name="StopStartRAPButtonPrimaryTxt">Stop RAP</String>
+        <String Name="StopStartRAPButtonSecondaryTxt">Start RAP</String>
+        <String Name="SwitchToFastLaneBtnPrimaryTxt">Switch To FastLane</String>
+        <String Name="ExitRAPAndRunProfileBtnPrimaryTxt">Stop RAP and Run Profile Manager</String>
+        <String Name="ExitRAPAndRunProfileBtnSecondaryTxt">Run Profile Manager</String>
+        <String Name="UtilityFunctionsTitle">NCR FastLane\nUtility Functions</String>
+        <String Name="SignOnTitle">NCR FastLane\nSign On</String>
+        <String Name="StartTitle">System Startup</String>
+        <String Name="SystemStartup">System starting...please wait</String>
+        <String Name="TerminalID">Terminal ID: </String>
+        <String Name="TrainingProgramPrimaryTxt">Training Program</String>
+        <String Name="OperatorIDText">ID: </String>
+        <String Name="SignOnButtonText">Sign On</String>
+        <String Name="SignOffButtonText">Sign Off</String>
+        <String Name="SignedOffButtonText">Signed Off</String>
+        <String Name="Exit">Exit All</String>
+        <String Name="ReturnToShoppingButtonText">Return</String>
+        <String Name="PickListEditor">Pick List Editor</String>
+        <String Name="DiagConfirm">Are you sure you want to generate Diagnostic Log Files?</String>
+        <String Name="ProfileManagerFLConfirm">Are you sure you want to stop FastLane and run Profile Manager?</String>
+        <String Name="ProfileManagerRAPConfirm">Are you sure you want to stop RAP and run Profile Manager?</String>
+        <String Name="CalibrateConfirm">Are you sure you want to calibrate the touch screen?</String>
+        <String Name="ShutdownConfirm">Are you sure you want to shutdown the entire system?</String>
+        <String Name="RebootConfirm">Are you sure you want to reboot the entire system?</String>
+        <String Name="CloseAllConfirm">Are you sure you want to exit all applications and go to the desktop?</String>
+        <String Name="VolumeConfirm">Are you sure you want to adjust the volume control?</String>
+        <String Name="TerminalInfoConfirm">Are you sure you want to view the terminal information?</String>
+        <String Name="StopFastLaneConfirm">Are you sure you want to stop FastLane?</String>
+        <String Name="StopRAPConfirm">Are you sure you want to stop RAP?</String>
+        <String Name="StartFastLaneConfirm">Are you sure you want to start FastLane?</String>
+        <String Name="StartRAPConfirm">Are you sure you want to start RAP?</String>
+        <String Name="YesText">Yes</String>
+        <String Name="NoText">No</String>
+        <String Name="ClearButtonText">Clear</String>
+        <String Name="EnterButtonText">Enter</String>
+        <String Name="GoBackButtonText">Go Back</String>
+        <String Name="SpaceButtonText">Space</String>
+        <String Name="BackSpaceButtonText">Backspace</String>
+        <String Name="ShiftButtonText">Shift</String>
+        <String Name="EnterIDLeadthru">Enter ID using keypad below:</String>
+        <String Name="ReEnterIDLeadthru">Incorrect ID or password. Please re-enter using keypad below.</String>
+        <String Name="EnterPasswordLeadthru">Enter password using keypad below:</String>
+        <String Name="CancelButtonText">Cancel</String>
+        <String Name="LoggingInLeadthru">Logging in...Please wait</String>
+      </StringTable>
+    </Language>
+  </Languages>
+</Display>

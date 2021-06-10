@@ -1,0 +1,7 @@
+<wap-provisioningdoc> 
+   <characteristic type="Registry"> 
+      <characteristic type="HKLM\SOFTWARE\NCR\NcrRapRemoteScanner\Profiles\ThisDevice"> 
+         <parm name="UPCEtoUPCA" value="0x00000001" datatype="DWORD"/>
+      </characteristic> 
+   </characteristic> 
+</wap-provisioningdoc>

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!-- The format of this file is:	 	-->
+<!-- <DeviceError>                           	-->
+<!-- 	<SectionName>			     	-->
+<!--		<Title1>Msg id in scotmsge.dat for title 1</Title1>-->
+<!--		<Title2>Msg id in scotmsge.dat for title 2</Title2>-->
+<!--	   	<Text>Msg id in scotmsge.dat</Text>		-->
+<!--		<Image>Bitmap id in scotbmpe.dat</Image> 	-->
+<!--		<Wave>id in scotwave.dat</Wave>			-->
+<!--		<Movie>Movie name in text</Movie>		-->
+<!--	</SectionName>					-->
+<!--</DeviceError>				-->
+
+<DeviceError>
+	<SS_COMM_FAILED>
+		<Title1>1147</Title1>
+		<Title2>1148</Title2>
+		<Text>953</Text>
+	</SS_COMM_FAILED>
+
+	<SS_CLAIM_FAILED>
+		<Title1>1147</Title1>
+		<Text>956</Text>
+	</SS_CLAIM_FAILED>
+
+	<SS_OPEN_FAILED>
+		<Title1>1147</Title1>
+		<Text>954</Text>
+	</SS_OPEN_FAILED>
+
+	<SS_NOT_ENABLED>
+		<Title1>1147</Title1>
+		<Text>955</Text>
+	</SS_NOT_ENABLED>
+
+	<SS_FAILED_OVERWEIGHT>
+                <Title1>1147</Title1>
+                <Title2>1752</Title2>
+                <Text>1751</Text>
+        </SS_FAILED_OVERWEIGHT>
+
+	<DEVICEERRORUNKNOWN>
+		<Title1>1147</Title1>
+		<Text> 1099</Text>
+	</DEVICEERRORUNKNOWN>
+
+</DeviceError>

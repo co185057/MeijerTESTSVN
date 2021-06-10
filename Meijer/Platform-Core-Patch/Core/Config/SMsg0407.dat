@@ -1,0 +1,110 @@
+; Switch Message File  \\German - Standard
+;
+; file SMsg0407.dat
+;
+
+[WindowName]
+SupervisorSwitchTI = Kassen-ID
+SupervisorSwitch = Umschalten in Aufsicht-Funktion
+NormalSwitch = Umschalten in Normal-Funktion
+SupervisorSwitchEV = Umschalten in Aufsicht-Funktion/ Ereignisanzeige (Event Viewer) ist aktiv
+SupervisorSwitchGDF = Umschalten in Aufsicht-Funktion/ GetDiagFiles ist aktiv
+SupervisorSwitchPM = Umschalten in Aufsicht-Funktion/ Profile Manager ist aktiv
+SupervisorSwitchTIF = Umschalten in Aufsicht-Funktion/ Terminalinformation ist aktiv
+
+[ButtonCaptions]
+ExSCRGetDiagFiles = Erstelle Diagnose Log-Tabellen
+ExAMRGetDiagFiles = Erstelle Diagnose Log-Tabellen
+ExSCRProfileManager = Verlasse FastLane und starte Profile Manager
+ExAMRProfileManager = Verlasse Kassierer-Bedienung und starte Profile Manager
+ExSC = Verlasse FastLane
+ExAM = Verlasse Kassierer-Bedienung
+SwitchtoAM = Schalte um auf Kassierer-Bedienung
+SwitchtoSC = Schalte um auf FastLane
+MinimizeSC = Kleines Bild FastLane
+MinimizeAM = Kleines Bild Kassierer-Bedienung
+MaximizeSC = Vollbild FastLane
+MaximizeAM = Vollbild Kassierer-Bedienung
+Shutdown = Gesamtsystem herunterfahren
+Reboot = Gesamtsystem hochfahren
+RestartAM = Starte Kassierer-Vorgänge
+RestartSC = FastLane starten
+RGetDiagFiles = Erstelle Diagnose Log-Tabellen
+RProfileManager = Starte Profile Manager
+EvtVwr = Ereignisanzeige (Event Viewer)
+Volume = Lautstärkenregelung
+RTerminalInformation=Terminalinformation
+ExitSwitchApp = SwitchApp beenden
+BClear = Löschen
+BEnter = Eingabe
+BCancel = Lösche
+AuthTitleID = Bedieneridentifikation und Eingabe tippen.
+AuthTitlePassWord = Passwort und Eingabe tippen.
+RegisterFingerprint= Fingerabdruck registrieren
+AuthTitleIDBiometric= Oder melden Sie sich mit Ihrem Fingerabdruck an.
+AuthInvalidLogin = ID, Passwort oder Fingerabdruck ungültig. Bitte versuchen Sie es noch einmal.
+FPDevice= Fingerabdruck-Lesegerät nicht angeschlossen. Bitte geben Sie ID und Passwort ein.
+FPDuplicateID= Doppelte Benutzer-IDs für einen Fingerabdruck:%s. Bitte geben Sie ID und Passwort ein.
+
+
+[SwitchErrorMsg]
+;ClcSwitch
+OnButtonReboot1 = Reboot FastLane erfolglos.
+ButtonThread1 = Start %s erfolglos.
+LoadPathsFromRegistry1 = SwitchApp konnte von der Registrierungs-Datei nicht den Ja/Nein-Konfigurationswert für die Kassenstellenleuchte erhalten.
+LoadPathsFromRegistry2 = SwitchApp konnte von der Registrierungs-Datei nicht den Ja/Nein-Konfigurationswert für die PowerPad-Unterstützung erhalten.
+WaitForAppTermination1 = %s beendete nicht innerhalb %d Sekunden.  Gesamtsystem hochfahren.
+MonitorAppTermination1 = %s wurde unvorhergesehen beendet.
+LaunchBatchFile1 = Start Batch-Datei %s erfolglos.
+PowerpadOn1 = Start Etiketten-Deaktivierung erfolglos. Ergebnis-Code %u
+PowerpadOn2 = Start Etiketten-Deaktivierung erfolglos.
+PowerpadOn3 = Aktivierung Etiketten-Deaktivierung erfolglos. Ergebnis-Code %u
+PowerpadOn4 = Aktivierung Etiketten-Deaktivierung erfolglos.
+MiscIFLaneLightOn1 = Einschalten Kassenstellen-Leuchte erfolglos. Prüfe Ereignis-Log.
+MiscIFLaneLightOn2 = Aktivierung Sonstige Verbindungen (Miscellaneous Interface) erfolglos. Betriebsbereitschaft des Gerätes und Ereignis-Log überprüfen.
+MiscIFLaneLightOff1 = Ausschalten Kassenstellen-Leuchte erfolglos. Ereignis-Log überprüfen.
+MiscIFLaneLightOff2 = Freigabe Sonstige Verbindungen (Miscellaneous Interface) erfolglos. Ereignis-Log überprüfen.
+MiscIFLaneLightOff3 = Schließen von Sonstige Verbindungen (Miscellaneous Interface) erfolglos. Ereignis-Log überprüfen.
+OposControl1 = Aufbau der %s Kontrolle erfolglos. Sicherstellen, dass Kontrolle registriert ist.
+OposControl2 = Öffnen von %s erfolglos. Korrekt aufgebautes Profil in der Registrierungs-Datei sicherstellen.
+OposControl3 = Zugriff auf %s erfolglos. Korrekt aufgebautes Profil in der Registrierungs-Datei sicherstellen.
+CloseControl1 = Freigabe von %s erfolglos. Prüfe Ereignis-Log.
+CloseControl2 = Schließen von %s erfolglos. Prüfe Ereignis-Log.
+CreateSalesApp1 = Starten der Applikation erfolglos. 
+CreateSalesApp2 = %s initialisierte nicht innerhalb %d Sekunden.
+LaunchBatchFile2 = Batch-Datei %s nicht vorhanden.
+;CSwitch2Dlg
+OnInitDialog1 = Öffnen Kassenschloß fehlgeschlagen
+;CKWarning
+OnInitDialog2 = %s: Hierzu den Supervisor-Knopf zurück auf "N" drehen oder erneut %s drücken.
+DrMsg1 = System ist nicht betriebsbereit: Protokolle werden generiert...
+DrMsg2 = System ist nicht betriebsbereit: Protokolle wurden generiert, System wird neu gestartet...
+
+[OtherMsg]
+MARSMsg = MARS Firmware wird geprüft. Updates (falls erforderlich) könnten ca. 10 Minuten dauern.
+5992Msg = 5992 Firmware wird geprüft. Updates (falls erforderlich) könnten ca. 10 Minuten dauern.
+K590Msg = K590 Firmware wird geprüft. Updates (falls erforderlich) könnten ca. 10 Minuten dauern.
+K580Msg = K580 Firmware wird geprüft. Updates (falls erforderlich) könnten ca. 10 Minuten dauern.
+F306Msg = F306 Firmware wird geprüft. Updates (falls erforderlich) könnten ca. 10 Minuten dauern.
+F307Msg = F307 Firmware wird geprüft. Updates (falls erforderlich) könnten ca. 10 Minuten dauern.
+F309Msg = F309 Firmware wird geprüft. Updates (falls erforderlich) könnten ca. 10 Minuten dauern.
+USBTQMsg = Münzenausgabemodul-Firmware wird geprüft. Updates (falls erforderlich) könnten ca. 10 Minuten dauern.
+WaitMsg = Bitte warten ...
+ADDMsg = Geräte werden automatisch erkannt.
+TraceCheckMsg = Protokolldateien der Anwendung werden auf unerwartete Beendigung überprüft.
+ArdacMsg = Ardac-Firmware wird geprüft. Updates (falls erforderlich) könnten ca. 10 Minuten dauern.
+SR5Msg = Münzenannahmemodul wird geprüft. Updates (falls erforderlich) könnten ca. 10 Minuten dauern.
+GDFMsg = Bitte warten Sie einen Moment
+MCRWMsg = Motorisierter Kartenleser wird geprüft. Updates (falls erforderlich) könnten ca. 10 Minuten dauern.
+TransferMsg= Diagnosedatei wird übertragen...
+CF9520Msg = Die Aktualisierung ist gescheitert. Das Münzenannahmemodul unterstützt keine mexikanischen Münzen. Ersetzen Sie es mit CF9520 Modell MK2.
+GLORYMsg = Glory Recycler Firmware wird geprüft. Updates (falls erforderlich) könnten ca. 10 Minuten dauern.
+IOBoxMsg = IOBox Firmware wird geprüft. Updates (falls erforderlich) könnten ca. 10 Minuten dauern.
+7875Msg = Scanner-Firmware wird geprüft. Updates (falls erforderlich) könnten ca. 10 Minuten dauern.
+BiosMsg = BIOS wird geprüft. Updates (falls erforderlich) könnten ca. 10 Minuten dauern. System wird nach dem Update automatisch neu gestartet.
+MEIMsg = MEI Firmware wird geprüft. Updates (falls erforderlich) könnten ca. 10 Minuten dauern.
+ScaleMsg = Firmware-Prüfung der Waage. Eventuelle Aktualisierungen könnten rund 2 Minuten dauern.
+BCRMsg = Firmware-Prüfung der Münzrückführung. Eventuelle Aktualisierungen könnten rund 10 Minuten dauern.
+BNRMsg = Firmware-Prüfung der Scheinrückführung. Eventuelle Aktualisierungen könnten rund 10 Minuten dauern.
+MSRDIPMsg = Firmware-Prüfung der Kartenzahlung. Eventuelle Aktualisierungen könnten rund 10 Minuten dauern.
+F53Msg = F53 Firmware wird geprüft. Updates (falls erforderlich) könnten ca. 10 Minuten dauern.

@@ -1,0 +1,1939 @@
+; ----------------------------------------------------------------------------
+;
+; File Plufile.txt (TB Emulator only)
+;
+; Desc,Code,Price,SpecialCode,Special codes,Department Number
+;
+; ***  DO NOT USE TABS BETWEEN THESE FIELDS!!! ONLY SPACES. ***
+; ***  IF THE COLUMN WIDTHS CHANGE, THE HARD CODED LINKED ITEMS IN 
+; ***	TRXBROKER.CPP MUST BE CHANGED TO MATCH:
+; ***	TBSTATE CTrxBroker::GetItemSaleState(CString csItemCode, CString csCode4ItemType)
+;		case ITEM_LINKED:  // Link to item 111111
+; ***	void CTrxBroker::SetEReceiptForQtyCrateItem()
+; ***	void CTrxBroker::SetEReceiptForNonCrateItem()
+; ***	void CTrxBroker::SetEReceiptDepositForCrate()
+; 
+; FastLane limitations: (as of 3.0.2 Patch B - Aug 2002)
+; (1) printer (K580) on 128-C barcodes length max 46 characters (tested)
+; (2) Security databases barcodes length max 25 characters (viewed db design)
+; (3) scanner 7875 on 128-C barcodes length max at least 100 charcters (tested)
+; (4) App supports up to 46 characters to match #1 above, but can only track
+;     through the WLDB up to #2 (25 len barcodes).  This allows barcodes of 
+;     lengths greater than 25 and less than 47 to be non-products (vouchers,...)
+; ----------------------------------------------------------------------------
+; Details of Special codes :
+; ----------------------------------------------------------------------------
+; 01 - Normal
+; 02 - Need Quantity
+;      PLEASE NOTE that a quantity of 666 intentionally puts the TB & the application OUT OF SYNC
+;      This was added to test RSM functionality.
+; 03 - Need Weight
+; 04 - Restricted item (21+)
+; 05 - Coupon
+; 06 - Need Price
+; 07 - Not Found
+; 08 - Recalled(not for sale)
+; 09 - Loyalty card
+; 10 - Invalid loyalty card
+; 11 - linked item
+; 12 - Time Restricted Item
+; 41 - Restricted item (18+)
+; 42 - Restricted item (23+)
+; 43 - Restricted 21+ Quantity
+; 44 - Restricted 18+ weight
+; 45 - Per item quantity restricted item
+; 46 - Visual verify item
+; 47 - Crate-able item
+; 48 - Crate-able + quantity needed
+; 49 - Crate-able + restricted 21
+; 50 - Crate - full plus deposits
+
+; 51 - Price needed coupon
+; 55 - Extended Coupon Data
+; 56 - Unsold Item (for testing void of an item that has not been sold.
+;      If cancel this item, SCOT will go to VoidNotMatch screen.)
+; 57 - Unmatched coupon (for testing)
+; 58 - Exception Item 
+; 59 - Un-sellable Item (for testing: this type is not exactly an item.. this is a )
+;                       (way for TB to tell Core to display custom msg and/or wave file)
+;                       (without selling the item).  
+; 60 - Complete Printing Item (for testing synchronous printing)   
+; 61 - Bizerba Scale Item
+; 62 - Security Tag Item
+; 63 - Fiscal Printer Error Emulation Item
+; 64 - Sell Post Item Modification item or PIM item
+; 65 - TB indicates this is an zero weight item
+; 66 - Disables normal phrases (audio) for rest of transaction
+; 67 - Disables price audio for rest of transaction
+; 68 - Disables security audio for rest of transaction
+; 69 - No Weight Item. TB/Pos generated item
+;
+;
+;
+;----------------------------------------------------------------------------
+; Type 64 testing
+; Conditions: no voids, no tenders, no special items and this is an exclusive test item to test TB and SCOTApp's 
+; new UI message sharing capability to support Post Item Modification
+; Scan first time  	->>	PIM item is added to e-receipt with no side effect
+; Scan second time  	->>	previous item description changes to 'PIM ITEMREGR NUM:1234'
+; Scan third  time  	->>	adds an additional line to previous item with message 'TB added this line'
+; Scan fourth time  	->>	deletes previously added additional line that has text, 'TB added this line'
+; Scan fifth  time  	->>	changes prices of items that has description, 'PIM ITEM' , with new price set to $1.11
+; Scan sixth  time  	->>	changes one of the previous item's (4th. item from the top) description to 'PIM ITEM PIM POINTS:6'
+; Scan seventh time  	->>	changes selection to one of the previous item (not working with current UI as of 02/15/03)
+;----------------------------------------------------------------------------
+; Testing synchronous printing:
+; Change the category of item 2773, 2246, 1903, 7998, and 44411 from 01 to 60
+; Change them back after you finish the testing. 
+; 
+;----------------------------------------------------------------------------
+; Suspend:
+; If the number of item sold is odd, suspension succeeds. 
+; If it is even, suspension fails. 
+; If the number of items sold is a multiple of 5, the Suspend button is disabled.
+; If the number is not a multiple of 5, the Suspend button is enabled.
+; ---------------------------------------------------------------------------
+; Loyaly Program:
+;
+; if the last digit of item code is even, this item is in the loyalty program
+; ----------------------------------------------------------------------------
+;
+; ----------------------------------------------------------------------------
+; For credit, debit, foodstamp and loyalty card testing:
+; ----------------------------------------------------------------------------
+; if the last digit of card number is: 
+; Odd - Tender declined ( '7' returns TB_E_CARDDATA_MISSING immediately instead of DECLINED message )
+; '2' - Food Stamps Insufficient 
+; '4' - Valid Loyalty card
+; '6' - Invalid loyalty card
+; '0', '8' - Good card
+; if the card number is "4104104104104", the tender is ignored - causing a tender timeout (RSM testing)
+;----------------------------------------------------------------------------
+; Allow Signature Embed on Slip:
+; If the number of total items in one transaction is odd, TB Emulator will 
+; insert a signature token in the slip file. If even, there is no token in the slip file. 
+; This is for testing purpose.
+;----------------------------------------------------------------------------
+;
+;--------------------------------------------------------------------------------
+;Foodstamp Eligible
+;If the second digit of the itemcode is odd, this item is FoodStamp Eligible item
+;If the second digit of the itemcode is even, this item is non FoodStamp Eligible item
+;--------------------------------------------------------------------------------
+;
+; --------------------------------------------------------
+; Coupons
+; --------------------------------------------------------
+;If the last digit of the coupon code is 1, this coupon is an unmatched coupon
+;If the last digit is 2, this coupon exceeds coupon limit.
+;If the last digit is 3, TB will return TB_CancelItemBeforeCoupon state just for testing
+;
+;
+;--------------------------------------------------------------------------------
+;
+; PIP (Partial Integrated PINPad)
+;
+;--------------------------------------------------------------------------------
+;The following TB return values only works for PIP. To set PIP, 
+; put PartialIntegratedPINPad option in SCOTOPTS to Y 
+; and set the tendertypes in SCOTTend to PIP tender types,
+; for example, TB_TENDER_PIP_CREDIT or TB_TENDER_PIP_DEBIT
+;
+;When TB tender with credit card or debit card:
+;If the total items is 1,4, 7,...  return TB_TenderAccepted.
+; 2, 5, 8, ... return TB_TenderDeclined.
+; 3, 6, 9, ... return TB_TenderCancelled.
+;
+;When TB tender with Food Stamp or Cash Benefit:
+;If the total items is 1,5, 9,...   return TB_TenderAccepted.
+; 2, 6, 10, ... return TB_TenderDeclined.
+; 3, 7, 11, ... return TB_TenderCancelled.
+; 4, 8, 12, ... return TB_ TENDERFOODSTAMPINSUFFICIENT or TB_TENDERCASHBENEFITINSUFFICIENT.
+;
+;When TB receives TBEnterTender() with card type TB_TENDER_PIP_GENERIC, TB Emulator will 
+; return different result according to the number of items in the transaction:
+;
+;The total item number of the transaction	TB Emulator returns
+;1	Tender Accepted with Credit Card
+;2	Tender Accepted with Debit
+;3	Tender Accepted with Debit Saving
+;4	Tender Accepted with Debit Checking
+;5	Tender Accepted with Cash Benefit
+;6	Tender Accepted with FoodStamp
+;7	Tender Accepted with GiftCard
+;8	FoodStamp Insufficient
+;9	CashBenefit Insufficient
+;10	Tender Cancelled 
+;11 or more	Tender Declined
+;
+;--------------------------------------------------------------------------------
+; Testing Invalid PIN entry:
+; Enter PIN '6666' and hold down the <Shift> and <Control> keys that are left-most
+; on the keyboard as you hit Enter during PIN entry.
+;
+;--------------------------------------------------------------------------------
+; Consumer Marketing support in SCOT environment using TB emulator
+;  item code to test this : 555
+; add reward line at the end  		- buy 555 item 1 time
+; delete reward line			- buy 555 item 3 times
+; insert reward line in the middle	- buy 555 item 4 times
+; change customer message/name line	- buy 555 item 6 times
+;--------------------------------------------------------------------------------
+; Void not matching item is UPCA : 051000012517 (Noodle Soup) Price: 65cents
+;
+;--------------------------------------------------------------------------------
+; Formats: number of characters allowed in each of the five columns
+30,46,10,5,5
+;Description                  ;UPC                                          ;Price    Code;Dept
+;23456789012345678901234567890X234567890123456789012345678901234567890123456x234567890x2345x2345
+
+; EAN-13/JAN-13 + 2 Supplement
+Test EAN-13 + 2 item          201547890450510                               200       01
+UK ISSN+2 Supplement          977095001198213                               300       01                                
+;
+; EAN-13 + 5 Supplement
+Test EAN-13 + 5 item          123456789012812345                            500       01
+UK Weekly Magazine            978085533693600399                            399       01
+;
+; UPC-A + 2 Supplement
+Test UPC-A + 2 item           07244014072189                                200       01
+Test UPC-A + 2 item2          07244014072110                                200       01
+;
+; UPC-A + 5 Supplement
+Test UPC-A + 5 item           07099300799760558                             500       01
+;
+; UPC-E + 2 Supplement
+Test UPC-E + 2 item           086441743                                     200       01
+;
+; UPC-E + 5 Supplement
+Test UPC-E + 5 item           034004155860                                  500       01
+UPC E + 5 New item            049977012345                                  505       01
+;
+; Code 39
+Test Code 39 item             SCOT-123456789                                390       01
+Code 39 with $ symbol         77723$837                                     199       01
+Code 39 with / symbol         8472948291/323343423                          78        01
+Code 39 with % symbol         %4320754814848                                39        01
+Code 39 with + symbol         2838+1912                                     391       01
+Code 39 alpha num 32 special  SCOT/23+873J$284-99/UNDER%13-2013200                    01
+Green Split Peas              01330060193                                   89        01 
+
+;Description                  ;UPC                                          ;Price    ;Code;Dept
+
+;23456789012345678901234567890X234567890123456789012345678901234567890123456x234567890x2345x2345
+
+; PickUp List Items (Matches c:\scot\config\scotpick.dat)
+; ----------------------------------------------------------------------------
+Alfalfa Sprouts               4514                                          99        03
+Aloe Vera Leaves              3064                                          499       03
+Anise                         4515                                          100       03
+Apple Banana                  0104                                          49        03
+Apple Cortland                4106                                          39        03
+Apple Honeycrisp              0105                                          69        03
+Apple Ida Red                 4142                                          99        03
+Apple Paula Red               4157                                          99        03
+Apples Braeburn Large         4103                                          50        02
+Apples Braeburn Small         4101                                          69        03
+Apples Cameo                  3066                                          79        03
+Apples Cameo Small            3065                                          79        03
+Apples Crabapples             4107                                          49        03
+Apples Empire Lg East         4126                                          59        03
+Apples Empire Lg West         4127                                          59        03
+Apples Empire Small East      4124                                          49        03
+Apples Empire Small West      4125                                          49        03
+Apples Fuji Large             4131                                          50        02
+Apples Fuji Small             4129                                          49        02
+Apples Gala Lg East           4134                                          75        02
+Apples Gala Lg West           4135                                          80        02
+Apples Gala Small East        4132                                          50        02
+Apples Gala Small West        4133                                          60        02
+Apples Ginger Gold            4096                                          65        03
+Apples Ginger Gold            4097                                          65        03
+Apples Golden Del Lg East     4137                                          49        03   00000
+Apples Golden Del Lg West     4020                                          125       03   00000
+Apples Golden Del Sm East     4136                                          49        03   00000
+Apples Golden Del Sm West     4021                                          49        03   00000
+Apples Granny Smith Lg East   4018                                          15        02
+Apples Granny Smith Lg West   4017                                          60        03
+Apples Granny Smith Sm East   4139                                          40        02
+Apples Granny Smith Sm West   4138                                          42        03
+Apples Jonagold East          4146                                          59        03
+Apples Jonagold Sm East       4144                                          49        03
+Apples Jonagold Sm West       4145                                          49        03
+Apples Jonagold West          4147                                          59        03
+Apples Lady                   3072                                          59        03
+Apples McIntosh Lg East       4019                                          139       03
+Apples McIntosh Lg West       4154                                          499       03
+Apples McIntosh Sm East       4152                                          44        03
+Apples McIntosh Sm West       4153                                          45        03
+Apples Nittany                4210                                          89        03
+Apples Pink Lady              4130                                          100       03   99999
+Apples Pink Lady Small        4128                                          85        03   99999
+Apples Red Del Lg East        4168                                          19        02
+Apples Red Del Lg West        4016                                          99        03
+Apples Red Del Sm East        4167                                          80        03
+Apples Red Del Sm West        4015                                          82        03
+Apples Red Granny Smith       3071                                          59        03
+Apples Rome Lg East           4171                                          59        03   11
+Apples Rome Lg West           4172                                          119       03   111
+Apples Rome Sm East           4169                                          99        03   1111
+Apples Rome Sm West           4170                                          99        03   111111
+Apples Royal Gala Large       4174                                          69        03
+Apples Royal Gala Small       4173                                          65        03
+Apples Southern Rose          0001                                          49        03
+Apples Stayman                4183                                          109       03
+Apples Stayman Small          4181                                          99        03
+Apples Winesap Lg East        4191                                          229       03
+Apples Winesap Lg West        4192                                          399       03
+Apples Winesap Sm East        4189                                          299       03
+Apples Winesap Sm West        4190                                          299       03
+Apples York                   4187                                          69        03
+Apples York Small             4185                                          59        03
+Apricots                      4218                                          179       03   8
+Apricots Dried                4861                                          79        02
+Artichoke Extra Lg            4762                                          239       03
+Artichoke Lg                  4084                                          199       03
+Artichoke Sm                  4516                                          149       03
+Arugula                       4884                                          119       03
+Asparagus                     0044                                          349       03
+Asparagus Green Extra Lg      4521                                          399       03
+Asparagus Green Sm            4080                                          299       03
+Asparagus White               4522                                          189       03
+Assorted Bagels (Qty)         708                                           39        02
+Assorted Breads               0106                                          129       01
+Assorted Doughnuts (Qty)      745                                           35        02
+Assorted Muffins (Qty)        750                                           79        02
+Assorted Rolls (Qty)          709                                           35        02   3
+Avocado Black Hass Extra Lg   4770                                          249       02
+Avocado Black Hass Lg         4225                                          199       02
+Avocado Black Hass Sm         4046                                          99        02
+Avocados Green Lg East        4223                                          179       03
+Avocados Green Lg West        4224                                          169       03
+Avocados Green Medium         4771                                          159       03
+Avocados Green Sm East        4221                                          159       03
+Avocados Green Sm West        4222                                          149       03
+Bag Apples                    0021                                          109       02
+Bag Apples                    0022                                          109       02
+Bag Carrots                   0023                                          109       02
+Bag Grapes                    0024                                          399       02
+Bag Ice (Qty)                 1234                                          89        02
+Bag Lemons                    0034                                          209       02
+Bag Onions                    0025                                          109       02
+Bag Pearl Onions              0033                                          109       02
+Bag Potatoes                  0026                                          109       02
+Bag Potatoes                  0035                                          109       02
+Bagel Cinnamon Raisin         0093                                          81        03
+Bagel Onion & Poppy Seed      0045                                          80        03
+Bagel Plain Single            0046                                          65        03
+Bagels                        1042                                          329       01
+Bagels Dozen                  0107                                          299       01
+Balloon Latex                 0108                                          399       02
+Banana Leaves                 4232                                          229       02
+Bananas Dominique             4230                                          199       03
+Bananas Green                 4231                                          109       03
+Bananas Red                   4236                                          109       03
+Bananas Yellow                4011                                          119       03
+Basil                         4885                                          129       02
+Batata                        4731                                          99        03
+Bay Leaves                    3062                                          99        03
+Bean Sprouts                  4536                                          79        03
+Beans Coffee                  0002                                          499       03
+Beans Fava                    4528                                          69        03
+Beans Long                    4527                                          109       03
+Beans Pole                    4530                                          129       03
+Beans Runner                  0003                                          129       03
+Beans Snap Green              4066                                          69        03
+Beans Yellow Wax              4533                                          119       03
+Beets                         4539                                          119       02
+Beets Golden                  3273                                          79        03
+Beets Golden Organic          93273                                         129       03
+Beets Loose                   4540                                          125       03
+Berries Cranberries           4242                                          249       03
+Bitter Melon                  4783                                          199       02
+Blackberries                  4239                                          225       03
+Blueberries Bulk              4240                                          175       03
+Blueberries Pint              0036                                          279       02
+Blueberry Muffins (Qty)       751                                           79        02
+Bok Choy                      4545                                          210       03
+Bok Choy Baby                 4544                                          215       03
+Boniato                       4546                                          100       03
+Boule Cheese                  0047                                          149       02
+Brach's Unwrapped             0110                                          129       03
+Brach's Wrapped               0192                                          119       03
+Bran Muffins (Qty)            752                                           75        02
+Bread Brown                   0048                                          99        02
+Bread Champagne               0049                                          249       02
+Bread French Country Loaf     0050                                          179       02
+Bread Granary                 0051                                          199       02
+Bread Half Baguette           0052                                          104       02
+Bread Hazelnut Sultan         0053                                          189       02
+Bread Poppy Blomer            0054                                          147       02
+Bread Sultan Currant          0055                                          158       02
+Bread Walnut                  0056                                          159       02
+Bread White                   0057                                          105       02
+Bread White (Large)           0058                                          155       02
+Bread Whole Meal              0059                                          148       02
+Broccoli Bunch                4060                                          49        02   0
+Broccoli Crowns               3082                                          99        03
+Broccoli Crowns               4549                                          99        03   0
+Broccoli Florettes            4548                                          109       03
+Broccoli Rabe                 4547                                          89        03
+Broccolini                    0109                                          79        03
+Brownies (Qty)                720                                           27        02
+Brussel Sprouts               4550                                          75        03
+Brussels Sprouts Stalk        3083                                          89        03
+Butterstick                   0027                                          29        02
+Cabbage Green                 4069                                          89        01
+Cabbage Napa                  4552                                          99        01
+Cabbage Napa                  4553                                          99        01
+Cabbage Red                   4554                                          69        02
+Cabbage Savoy                 4555                                          79        02
+Cactus Leaves                 4558                                          95        02
+Cactus Prickly Pear           4255                                          329       03
+Cactus Prickly Pear Green     0195                                          339       03
+Cactus Prickly Pear Red       0196                                          349       03
+Candy Caramels                0111                                          129       03
+Candy Carreta                 0112                                          499       01
+Candy Gummy Apple Os          0113                                          179       03
+Candy Wrapped (Wt)            0200                                          103       03
+Canola Oil                    2246                                          399       01
+Carrots Baby                  4560                                          219       03
+Carrots Bunch                 4094                                          129       02
+Carrots Loose                 4562                                          229       03
+Cashews Bulk                  0191                                          599       03
+Cat Food                      2773                                          190       01
+Cauliflorettes                4566                                          149       03
+Cauliflower Green             4567                                          89        02
+Cauliflower Lg                4572                                          99        03
+Cauliflower Organic           94079                                         199       03
+Cauliflower Sm                4079                                          79        03
+Celery Bunch East Lg          4582                                          99        02
+Celery Bunch East Sm          4071                                          87        02
+Celery Bunch West Lg          4583                                          59        02
+Celery Bunch West Sm          4070                                          39        02
+Celery Ribs                   0114                                          89        03
+Celery Root                   4585                                          129       03
+Celery Sticks                 4576                                          45        03
+Cherimoya                     4257                                          125       03
+Cherries                      4045                                          459       03
+Cherries Golden               4258                                          259       03
+Chicken                       1903                                          499       01
+Chives                        4888                                          39        03
+Chocolate Cake                5666                                          699       01   1    ; Dept 1
+Chocolate Muffins (Qty)       753                                           83        02
+Cilantro                      4889                                          299       03
+Cinnamon Rolls                725                                           50        02
+Cinnamon Stick                0115                                          199       03
+Coconut                       4260                                          299       01
+Coconut Green                 4261                                          89        03
+Coffee 12 oz. Cup             0119                                          59        01
+Coffee Beans Millstone Bulk   0116                                          499       03
+Coffee Beans Seattle Best Bulk0117                                          509       03
+Coffee Beans Select Bulk      0118                                          399       03
+Coffee Deli 12 oz.            0120                                          79        01
+Coffee Deli 16 oz.            0121                                          99        01
+Coffee Deli Refill            0122                                          49        01
+Coke (Qty)                    6346                                          9         02   711
+Collard Greens                4614                                          89        03
+Cones                         44411                                         120       01
+Cookie Chocolate              0060                                          25        03
+Cookie Chocolate Chip         0062                                          45        02
+Cookie Double Chocolate       0063                                          90        03
+Cookie White Chocolate        0067                                          248       03
+Cookies (Qty)                 712                                           15        02
+Cookies Chocolate Bag         0061                                          229       02
+Cookies Double Chocolate Bag  0064                                          399       02
+Cookies Gingerbread People    0065                                          50        03
+Cookies White Bag             0066                                          229       02
+Corn Bi-Color                 4590                                          39        02
+Corn Indian Seneca            0123                                          129       02
+Corn on the Cob               0004                                          25        02
+Corn White                    4077                                          89        02
+Corn Yellow                   4078                                          100       02
+Cream Cheese                  8000                                          288       01
+Croissant Single              0068                                          59        03
+Croissants (Qty)              740                                           25        02   12345
+Cucumber European             4593                                          29        02
+Cucumber Green                4062                                          100       03
+Cucumber Japanese             4594                                          79        03
+Cucumber Pickling             4596                                          79        03
+Cupcakes (Qty)                733                                           37        02
+Daikon Korean                 4834                                          119       03
+Daikon Root                   4598                                          99        03
+Danish                        727                                           59        02
+Dark Wheat bread              555                                           350       01
+Dates                         4263                                          69        03
+Deli Olive Bar                0125                                          129       01
+Deli Salad Bar Large          0126                                          399       01
+Deli Salad Bar Small          0127                                          299       01
+Diet Coke                     6582                                          279       01   711
+Dill                          4891                                          199       03
+Dill Pickling                 4893                                          79        03
+Doughnut Chocolate            0069                                          75        03
+Doughnut Jam                  0070                                          89        03
+Doughnut White Iced           0072                                          78        03
+Doughnuts Bag                 0071                                          209       03
+Doughnuts Dozen               0128                                          199       01
+Dried Ancho Pasilla Chili     0129                                          189       03
+Dried California Chili        0130                                          169       03
+Dried Chili Arbol Pod         0131                                          149       03
+Dried Cranberries             0132                                          179       03
+Dried Fruit Mixed             4870                                          129       03
+Dried Japones Hontonka Chili  0133                                          199       03
+Dried Pineapple Wedges Bulk   4864                                          249       03
+Drink Fountain 24 oz.         0134                                          129       01
+Drink Fountain Large          0135                                          99        01
+Drink Fountain Medium         0136                                          89        01
+Drink Fountain Small          0137                                          79        01
+Eccles                        0073                                          79        02
+Eggplant                      4081                                          321       03
+Eggplant Chinese              3089                                          69        03
+Eggplant Japanese             4601                                          299       03
+Eggplant Sicilian             4603                                          69        02
+Eggplant Thai                 3090                                          99        03
+Eggplant White                4602                                          199       03
+Eggplant White Small          0037                                          199       03
+Eggs                          9293                                          129       01
+Eggs Dozen White              0029                                          199       01
+Eggs Half Dozen Brown         0028                                          129       01
+Eggs Half Dozen White         0030                                          125       01
+Endive                        4604                                          79        01
+Endive Belgian                4543                                          89        03
+Escarole                      4605                                          79        03
+Feijoa                        4265                                          199       03
+Fennel                        0005                                          549       03
+Figs Black                    4266                                          69        03
+Fortune Cookie                6666                                          0         06   ; Need Price
+Freq. Buyer (Card)            5491                                          100       01
+Frisee                        3167                                          109       03
+Gai Choy                      4607                                          239       03
+Garlic Elephant               4609                                          109       03
+Garlic Loose                  4608                                          89        01
+Ginger                        4612                                          119       01
+Grapefruit Organic Red        94047                                         66        03
+Grapefruit Pink Ex Lg Central 4493                                          199       03
+Grapefruit Pink Ex Lg East    4491                                          199       03
+Grapefruit Pink Ex Lg West    4492                                          199       03
+Grapefruit Pink Lg Central    4283                                          109       03
+Grapefruit Pink Lg East       4281                                          109       03
+Grapefruit Pink Lg West       4282                                          109       03
+Grapefruit Pink Sm Central    4280                                          33        02
+Grapefruit Pink Sm East       4027                                          33        02
+Grapefruit Pink Sm West       4047                                          33        02
+Grapefruit Pummelo            4279                                          89        03
+Grapefruit White Ex Lg Central3158                                          129       03
+Grapefruit White Ex Lg East   3157                                          99        03
+Grapefruit White Ex Lg West   3159                                          109       03
+Grapefruit White Lg Central   4295                                          129       03
+Grapefruit White Lg East      4293                                          99        03
+Grapefruit White Lg West      4294                                          109       03
+Grapefruit White Sm Central   4292                                          33        02
+Grapefruit White Sm East      4290                                          33        02
+Grapefruit White Sm West      4291                                          33        02
+Grapes Black Ribier Seeded    4270                                          249       03
+Grapes Black Seeded           4957                                          229       03
+Grapes Black Seedless         4056                                          99        01
+Grapes Champagne              4271                                          299       03
+Grapes Green                  4498                                          69        03
+Grapes Red Cardinal Seeded    4273                                          450       03
+Grapes Red Flame Seedless     4023                                          400       03
+Grapes Red Globe              4636                                          329       03
+Grapes Red Seeded             4637                                          329       03
+Grapes Red Seedless           4635                                          499       03
+Grapes Sugraone               4497                                          439       03
+Grapes White Seeded           4274                                          119       03
+Grapes White Seedless         4022                                          129       03
+Greens Dandelion              4615                                          29        03
+Guava                         4299                                          179       02
+Guinness Extra (21)           7555                                          233       04
+Hamburger                     2116                                          585       01
+Herbs Soup                    0012                                          89        03
+Horseradish Root              4625                                          39        03
+Hotdog Plate                  0138                                          279       01
+Ice 20# Bag                   0139                                          399       01
+Ice 6# Bag                    0140                                          199       02
+Ice Block                     0141                                          199       01
+Ice Cream                     44401                                         450       11   5
+Invalid loyalty card          9999                                          0         10
+Jicama                        4626                                          599       02
+Kale                          4627                                          09        03
+Kale Flowering                3095                                          149       03
+Key Limes                     4305                                          25        02
+Kiwano                        4302                                          199       03
+Kiwi Lg                       4030                                          100       03
+Kiwi Sm                       4059                                          85        03
+Kiwifruit Golden              3279                                          105       03
+Kohlrabi                      4628                                          125       03
+Kumquats                      4303                                          169       03
+Lacinato                      0038                                          125       03
+Leeks                         4629                                          125       03
+Lemongrass                    4894                                          109       03
+Lemons Large                  4053                                          135       03
+Lemons Medium                 4958                                          125       03
+Lemons Small                  4033                                          115       03
+Lettuce Boston                4632                                          299       02
+Lettuce Boston Butter         0198                                          89        01
+Lettuce Chinese               0014                                          79        02
+Lettuce Green Leaf            4076                                          115       02
+Lettuce Iceberg East          4634                                          299       02
+Lettuce Iceberg West          4061                                          299       02
+Lettuce Organic Green Leaf    4833                                          165       03
+Lettuce Organic Romaine       4835                                          169       03
+Lettuce Red Leaf              4075                                          309       02
+Light Beer                    7444                                          250       04   07   ; need 21+
+Limes                         4048                                          299       03
+Loyalty card                  999                                           0         09
+Malanga                       4644                                          229       03
+Mango                         4311                                          399       03
+Mango Red Hayden Lg           4959                                          429       03
+Mango Red Hayden Sm           4051                                          399       03
+Melon Canary                  4317                                          200       01
+Melon Cantaloupe Lg East      4319                                          119       02
+Melon Cantaloupe Lg West      4050                                          89        02
+Melon Cantaloupe Sm           4049                                          119       03
+Melon Casaba                  4320                                          219       01
+Melon Crenshaw                4322                                          149       02
+Melon French Afternoon        4324                                          199       01
+Melon French Breakfast        4325                                          189       01
+Melon Galia                   4326                                          109       02
+Melon Honeydew Lg             4034                                          499       02
+Melon Honeydew Sm             4329                                          399       02
+Melon Orange Flesh            0006                                          179       01
+Melon Pepino                  4333                                          350       02
+Melon Persian                 4334                                          129       01
+Melon Santa Claus             4336                                          309       01
+Melon Sharlin                 4338                                          359       01
+Melon Watermelon Org SdlsSlice94342                                         259       02
+Melon Watermelon Regular      4031                                          499       01
+Melon Watermelon Sdls Slice   4342                                          159       02
+Melon Watermelon Seedless     4032                                          599       01
+Melon Winter                  0015                                          99        02
+Mint                          4896                                          369       03
+Morton Coarse Kosher Salt     0016                                          199       01
+Morton Salt Pellets           0007                                          299       01
+Muffin Blueberry              0074                                          65        03
+Muffin Chocolate              0075                                          75        03
+Mushrooms Chantarelle         4647                                          149       03
+Mushrooms Crimini             4648                                          999       03
+Mushrooms Lg                  4085                                          250       03
+Mushrooms Oyster              4649                                          199       03
+Mushrooms Portabello          4650                                          699       03
+Mushrooms Shitake             4651                                          209       03
+Mushrooms Sm                  4645                                          185       03
+Mushrooms Wood Ear            4652                                          239       02
+Mustard Greens                4616                                          69        03
+Nectarine Regular Lg          4036                                          390       03
+Nectarine Regular Sm          4035                                          290       03
+Nectarine Tree Ripened Lg     4378                                          410       03
+Nectarine Tree Ripened Sm     4377                                          310       03
+Nectarines Red Lion           0142                                          249       03
+Nectarines Small Organic      94035                                         349       03
+Nectarines White Lg           3035                                          400       03
+Nectarines White Sm           4188                                          300       03
+Nescafé (Price Needed)        1407                                          539       06   6
+Newspaper 50 cents            2130000                                       50        01
+Newspaper Atlanta Journal     7998                                          125       01
+Newspaper Sunday              0031                                          225       01
+Nira Flower                   0017                                          999       02
+Norwest Delights Salad Waikiki0143                                          399       03
+Nuts Almonds                  4924                                          599       03
+Nuts Almonds Honey Shelled    0144                                          99        03
+Nuts Almonds Shelled          4925                                          599       03
+Nuts Almonds Smoked Shelled   0145                                          119       03
+Nuts Brazil                   4926                                          499       03
+Nuts Brazil Shelled           0039                                          799       03
+Nuts Cashews                  3105                                          329       03
+Nuts Cashews Honey            0190                                          349       03
+Nuts Chestnuts                4927                                          359       03
+Nuts Filberts                 4928                                          699       03
+Nuts Hazelnut Filberts        0040                                          699       03
+Nuts in the Shell             4947                                          459       03
+Nuts Lychee                   4309                                          349       03
+Nuts Macadamia Shelled        3106                                          399       03
+Nuts Mixed                    4929                                          379       03
+Nuts Mixed Roasted Shelled    0207                                          349       03
+Nuts Peanuts                  4930                                          299       03
+Nuts Peanuts Blanched         0146                                          79        03
+Nuts Peanuts Blanched Shelled 0206                                          79        03
+Nuts Peanuts Green            4935                                          299       03
+Nuts Peanuts Honey Roasted    0147                                          99        03
+Nuts Peanuts Roasted          0205                                          59        03
+Nuts Peanuts Roasted Split    0203                                          89        03
+Nuts Pecans                   4936                                          699       03
+Nuts Pecans Meat              0150                                          319       03
+Nuts Pistachios Natural       4939                                          799       03
+Nuts Walnuts                  4943                                          599       03
+Nuts Walnuts Meat             0151                                          319       03
+Okra                          4655                                          139       03
+On Choy                       3162                                          329       02
+Onion Bagels (Qty)            711                                           32        02
+Onion Purple Peeled           0152                                          19        02
+Onion Red Flat Italian        0153                                          29        02
+Onion Red Italian             0154                                          39        03
+Onion Red Torpedo             0155                                          79        03
+Onion White Peeled            0156                                          59        03
+Onions Baby Vidalia           4659                                          129       03
+Onions Boiling                4658                                          59        03
+Onions Green                  4068                                          149       03
+Onions Pearl                  4660                                          69        03
+Onions Red                    4082                                          99        03
+Onions Vidalia                4159                                          99        02
+Onions White                  4663                                          299       03
+Onions Yellow Lg              4093                                          309       03
+Onions Yellow Sm              4665                                          209       03
+Oranges Blood                 4381                                          49        03
+Oranges Clementine            4450                                          99        03
+Oranges Mandarins California  4455                                          129       03
+Oranges Minneolas             4383                                          109       03
+Oranges Navel                 3107                                          109       03
+Oranges Navel Lg East         4385                                          109       03
+Oranges Navel Lg West         4012                                          119       03
+Oranges Navel Medium          0041                                          109       03
+Oranges Navel Sm East         4384                                          99        03
+Oranges Navel Sm West         4013                                          109       03
+Oranges Organic Navel         94013                                         149       03
+Oranges Organic Valencia      94388                                         209       03
+Oranges Temple                4387                                          379       01
+Oranges Valencia Florida Lg   4388                                          189       03
+Oranges Valencia Florida Med  3108                                          169       03
+Oranges Valencia Florida Sm   4014                                          149       03
+Organic Apples Braeburn       94103                                         209       03
+Organic Apples Cameo          93066                                         219       03
+Organic Apples Empire         94127                                         229       03
+Organic Apples Fuji           94131                                         239       03
+Organic Apples Gala           94135                                         209       03
+Organic Apples Ginger Gold    94096                                         249       03
+Organic Apples Golden Deliciou94020                                         249       03
+Organic Apples Granny Smith   94017                                         259       03
+Organic Apples Lady           93072                                         269       03
+Organic Apples McIntosh       94154                                         279       03
+Organic Apples Red Delicious  94016                                         209       03
+Organic Apricots              94218                                         289       03
+Organic Asparagus             94521                                         299       03
+Organic Avocado Hass          94225                                         309       03
+Organic Bananas Yellow        94011                                         209       03
+Organic Beans Snap Green      94066                                         219       03
+Organic Beets                 94539                                         229       03
+Organic Blueberries Bulk      94240                                         239       03
+Organic Broccoli              94060                                         249       03
+Organic Cabbage Green         94069                                         259       03
+Organic Cantaloupe Small      94049                                         269       03
+Organic Carrot Cliptop        0157                                          279       03
+Organic Carrots Bunch         94094                                         289       03
+Organic Cauliflower           94572                                         299       03
+Organic Celery Small          94070                                         209       03
+Organic Corn on the Cob       94078                                         219       03
+Organic Cucumber              94062                                         229       03
+Organic Eggplant              94081                                         239       03
+Organic Grapefruit Pink       94282                                         249       03
+Organic Grapefruit Pink Small 94027                                         259       03
+Organic Grapes Green          94274                                         269       03
+Organic Grapes Red            94637                                         279       03
+Organic Honeydew Melon        94329                                         289       03
+Organic Kiwis                 94030                                         299       03
+Organic Lemons                94958                                         209       03
+Organic Lettuce Greenleaf     94076                                         219       03
+Organic Lettuce Iceberg       94061                                         229       03
+Organic Lettuce Redleaf       94075                                         239       03
+Organic Lettuce Romaine       94640                                         249       03
+Organic Limes                 94048                                         259       03
+Organic Mango Red Hayden      94959                                         269       03
+Organic Melon Canary          94317                                         279       03
+Organic Mushrooms             94085                                         279       03
+Organic Onions Green          94068                                         299       03
+Organic Onions Yellow         94665                                         289       03
+Organic Oranges Navel Large   94012                                         279       03
+Organic Oranges Navel Medium  93107                                         269       03
+Organic Parsley               0158                                          259       03
+Organic Peaches California    94037                                         249       03
+Organic Pear Bartlett Green   94409                                         239       03
+Organic Pear Bartlett Red     94410                                         229       03
+Organic Pear Bosc             94413                                         219       03
+Organic Pepper Green Bell     94065                                         209       03
+Organic Pepper Orange Bell    94682                                         219       03
+Organic Pepper Red Bell       94088                                         229       03
+Organic Pepper Yellow Bell    94680                                         239       03
+Organic Plum Black Small      94039                                         249       03
+Organic Plum Red Small        94041                                         259       03
+Organic Plum Roma             94087                                         269       03
+Organic Potato Baking         94072                                         279       03
+Organic Radish Bunch          94089                                         289       03
+Organic Spinach               94090                                         299       03
+Organic Squash Acorn          94750                                         289       03
+Organic Squash Butternut      94759                                         279       03
+Organic Squash Sunburst       94777                                         269       03
+Organic Squash Zucchini       94067                                         259       03
+Organic Tomato Cherry         94796                                         249       03
+Organic Tomato Red Small      94063                                         239       03
+Organic Watermelon Seedless Wh94031                                         229       03
+Organic Yams                  94816                                         219       03
+Painau Chocolate              0076                                          85        02
+Painau Raisin                 0077                                          85        02
+Papaya Hawaiian               0159                                          209       01
+Papaya Large Cooking          4395                                          99        03
+Papaya Lg                     4394                                          99        02
+Papaya Sm                     4052                                          79        02
+Paprika Red                   0008                                          209       03
+Parsley                       4822                                          89        03
+Parsley Curly                 4900                                          99        02
+Parsley Italian               4901                                          79        03
+Parsley Regular               4899                                          89        02
+Parsley Root                  4671                                          119       03
+Parsnip                       4672                                          69        03
+Passion Fruit                 4397                                          109       03
+Pasta Sauce (Recalled)        8821                                          455       08
+Pastries                      729                                           79        02
+Pastry Almond                 0078                                          105       03
+Pastry Apple Turnover         0079                                          125       03
+Pastry Butterscotch Pecan     0080                                          115       03
+Pea Sprouts                   0160                                          99        03
+Peaches California Lg         4038                                          89        03
+Peaches California Sm         4037                                          79        03
+Peaches Donut                 3113                                          179       03
+Peaches Donut Large           0193                                          199       03
+Peaches Georgia Lg            4403                                          79        03
+Peaches Georgia Sm            4402                                          69        03
+Peaches White Lg              4401                                          79        03
+Peaches White Sm              4400                                          59        03
+Peanuts Spanish Raw           0148                                          49        03
+Peanuts Spanish Salted        0149                                          69        03
+Pear Asian Brown              4408                                          79        03
+Pear Asian White              4406                                          99        03
+Pear Bartlett Green Lg        4409                                          89        03
+Pear Bartlett Green Sm        4024                                          69        03
+Pear Bartlett Red             4410                                          119       01
+Pear Concorde                 3016                                          59        02
+Pear Conference               3017                                          57        02
+Pear D’Anjou Lg               4416                                          89        01
+Pear D’Anjou Red              4417                                          99        03
+Pear D’Anjou Sm               4025                                          89        01
+Pear Forelle                  4418                                          89        03
+Pear French Butter            4419                                          99        03
+Pear Taylors Gold             4425                                          89        02
+Pears Asian Yellow            4407                                          119       03
+Pears Bosc Lg East            4412                                          199       03
+Pears Bosc Lg West            4413                                          79        02
+Pears Bosc Sm East            4411                                          129       03
+Pears Bosc Sm West            4026                                          59        02
+Pears Comice                  4414                                          119       02
+Pears Organic Bartlett        0202                                          159       01
+Pears Organic D'Anjou         94416                                         139       03
+Pears Packham                 4421                                          69        03
+Pears Red Crimson             3118                                          79        02
+Pears Seckel                  4422                                          79        03
+Peas Black Eyed               4673                                          129       03
+Peas English                  4674                                          119       03
+Peas Snow                     4092                                          169       03
+Peas Snow Shoots              0009                                          179       03
+Peas Sugar Snap               4675                                          789       03
+Pepper Anaheim                4677                                          149       03
+Pepper Cherry                 0042                                          149       03
+Pepper Chili Pasilla          0161                                          129       03
+Pepper Chili Yellow           4772                                          159       03
+Pepper Cubanelle              4687                                          139       03
+Pepper D'Arbol                4710                                          159       03
+Pepper Green Bell Lg          4065                                          119       03
+Pepper Green Bell Sm          4681                                          109       03
+Pepper Habanero               3125                                          149       03
+Pepper Hot Finger             4696                                          119       03
+Pepper Jalapeno               4693                                          99        02
+Pepper Orange Bell            4682                                          299       02
+Pepper Poblano                4701                                          189       03
+Pepper Purple Bell            3124                                          199       03
+Pepper Red Bell               4088                                          119       03
+Pepper Serrano                4709                                          119       03
+Pepper Yellow Bell            4680                                          79        03
+Pepperoni                     0011                                          129       02
+Peppers Fresno                0010                                          99        03
+Peppers Hungarian Wax         4692                                          29        02
+Peppers Orange Hot            0018                                          89        02
+Peppers Thai Chili            0019                                          79        02
+Peppers Yellow Hot            0020                                          69        02
+Persimmons                    4427                                          249       03
+PhotoNotAvailable No Text     0043                                          147       01
+PhotoNotAvailable with Text   6823                                          147       01
+Pine Nuts                     4938                                          299       03
+Pineapple Cored               4433                                          129       01
+Pineapple Lg                  4430                                          499       02
+Pineapple Sm                  4029                                          399       02
+Plain Bagels (Qty)            710                                           35        02
+Plain Doughnuts (Qty)         743                                           25        02
+Plantains                     4235                                          478       02
+Plum Black Lg                 4040                                          119       03
+Plum Black Sm                 4039                                          109       03
+Plum Green Lg                 4435                                          129       03
+Plum Green Sm                 4434                                          119       03
+Plum Red Lg                   4042                                          99        03
+Plum Red Sm                   4041                                          79        03
+Plum Yellow Lg                4442                                          129       03
+Plum Yellow Sm                4441                                          109       03
+Plums Tree Ripened            4439                                          119       03
+Plums Tree Ripened            4440                                          119       03
+Pluots                        0162                                          329       03
+Pluots Golden                 0163                                          329       03
+Pomegranate                   3127                                          99        03
+Pomello                       0164                                          499       03
+Pomello Chinese               0165                                          599       03
+Potato Purple                 3128                                          79        03
+Potato Red                    4073                                          69        03
+Potato Russet                 0083                                          59        03
+Potato Russet East            4725                                          59        03
+Potato Russet West            4072                                          59        03
+Potato Sweet                  4091                                          69        03
+Potato White                  0032                                          49        03
+Potatoes Fingerling           0166                                          89        03
+Potatoes Organic Russet       0201                                          79        03
+Potatoes Yellow Small         4727                                          79        03
+Potatoes Yukon Gold           0167                                          69        03
+Prunes                        4865                                          139       03
+Prunes                        4866                                          139       03
+Prunes President              0168                                          119       03
+Pumpkin                       4735                                          499       01
+Pumpkin Mini                  4734                                          299       02
+Pumpkin Pie                   3134                                          499       01
+Pumpkin Sugar Mini            4736                                          299       03
+Pumpkin White                 3132                                          399       01
+Pumpkin White Mini            3133                                          329       03
+Quince                        4447                                          89        03
+Radicchio                     4738                                          69        03
+Radish Black                  4739                                          79        03
+Radish Bunch                  0087                                          129       02
+Radish Bunch Red              4089                                          39        02
+Radish Red                    4742                                          29        03
+Raspberries Red               4054                                          249       03
+Recalled coffee               8318                                          786       08
+Recalled Medicine             8888                                          599       08   ; Recalled
+Red Candy Apple               333                                           250       01   2
+Rhubarb                       4745                                          149       03
+Roll Bakers Choice            0081                                          25        03
+Roll Brown                    0082                                          8         03
+Roll Cheese                   0084                                          47        03
+Roll French Crusty            0085                                          65        03
+Romaine                       4640                                          119       01
+Rosemary                      4903                                          49        03
+Rutabaga                      4747                                          79        03
+Sapote White                  3137                                          699       03
+Scone Cheese                  0086                                          149       03
+Scone Cherry                  0092                                          179       03
+Scone Devon                   0088                                          159       03
+Scone Fruit                   0089                                          169       03
+Shallots                      4662                                          69        03
+Snapple                       0169                                          129       03
+Soda Assorted Bottles         0170                                          89        02
+Soda Select 12 oz. Cans       0171                                          50        02
+Soda Single 12 oz. Cans Nation0172                                          75        02
+Soda Stewarts Bottles         0173                                          129       02
+Sorrel Herb                   4905                                          159       03
+Spinach                       4090                                          99        03
+Spinach Baby                  0174                                          249       03
+Sprite (Qty)                  1327                                          164       02   01
+Squash Acorn                  4750                                          79        03
+Squash Acorn Golden           4751                                          89        03
+Squash Acorn White            4752                                          79        01
+Squash Banana                 4757                                          99        03
+Squash Buttercup              4758                                          79        03
+Squash Butternut              4759                                          59        03
+Squash Chayote                4761                                          89        03
+Squash Delicata               4763                                          129       03
+Squash Golden Nugget          4767                                          69        03
+Squash Hubbard                4768                                          89        03
+Squash Indian Bitter Melon    0175                                          89        01
+Squash Kabocha                4769                                          69        02
+Squash Opo                    3141                                          99        01
+Squash Pattypan               4773                                          109       01
+Squash Spaghetti              4776                                          69        03
+Squash Summer Green           0013                                          49        03
+Squash Sunburst               4777                                          119       01
+Squash Sweet Dumpling         4764                                          59        03
+Squash Tatuma                 0176                                          129       01
+Squash Turban                 4780                                          149       03
+Squash Yellow                 4782                                          69        03
+Squash Yellow                 4784                                          119       03
+Squash Zucchini               4067                                          69        03
+Stamps                        0177                                          740       01
+StarFruit                     4256                                          139       03
+Strawberries Bulk             4323                                          229       03
+Strawberries Flat             4253                                          499       01
+Strawberries Pint East        4246                                          299       01
+Strawberries Pint West        4028                                          299       01
+Strawberries Quart            4247                                          329       02
+Strawberries Quart            4248                                          329       02
+Sugar Cane                    4790                                          499       02
+Sunchokes                     4791                                          149       02
+Swiss Chard Green             4586                                          109       03
+Swiss Chard Red               4587                                          109       03
+Tamarillo                     0199                                          129       03
+Tamarillo Gold                4792                                          139       03
+Tamarillo Red                 4793                                          99        03
+Tamarindo                     4448                                          147       03
+Tangelos                      4456                                          89        03
+Tangerine Fairchild           4452                                          89        03
+Tangerine Sunburst            4449                                          99        03
+Tangerines                    4055                                          109       03
+Tangerines Honey              4453                                          399       03
+Taro Root Large               4795                                          199       03
+Taro Root Small               4794                                          179       03
+Tarragon                      4906                                          499       02
+Tart Bakewell                 0090                                          147       03
+Tart Cherry Almond            0091                                          152       03
+Thyme                         4907                                          509       03
+Tomato 4 pack                 4806                                          200       02
+Tomato Cherry                 4796                                          109       03
+Tomato Green                  4807                                          109       03
+Tomato Hot House              4798                                          249       03
+Tomato Ketchup                1281                                          169       01
+Tomato On the Vine            4664                                          199       03
+Tomato Plum Roma              4087                                          99        03
+Tomato Red Lg                 4064                                          119       03
+Tomato Red Sm                 4063                                          109       03
+Tomato Roma Yellow            3145                                          259       03
+Tomato Tomatillo              4801                                          199       03
+Tomato Yellow                 4778                                          169       03
+Tomatoes Grape                4808                                          299       03
+Tomatoes on the Vine Orange   3149                                          269       03
+Tomatoes Organic              94064                                         199       03
+Tomatoes Organic              94805                                         199       03
+Tomatoes Roma                 0194                                          279       03
+Trail Mix                     0178                                          309       03
+Trail Mix Assorted            0179                                          319       03
+Trail Mix Cascade             0180                                          329       03
+Trail Mix Pacific Crest Bulk  0182                                          339       03
+Trail Mix San Juan Bulk       0183                                          349       03
+Trail Mix Nooksack            0181                                          359       03
+Turnip Greens                 4619                                          49        03
+Turnip Purple Top             4811                                          59        03
+Uglifruit                     0184                                          409       03
+Unknown Item                  7777                                          122       07
+Vegetable Medley Bulk         0185                                          329       03
+Water Deep Rock 5 Gal         0124                                          500       01
+Water Glacier                 0186                                          500       01
+Water Glacier                 0187                                          500       01
+Waterchestnuts                4814                                          249       03
+Watercress                    4815                                          149       03
+Watermelon Seedless Cut       0197                                          129       02
+Watermelon Seedless Slice     0189                                          139       02
+Watermelon Yellow Seeded Cut  4340                                          159       02
+Watermelon Yellow Seedless Cut4341                                          169       02
+White Bread                   1111                                          289       01
+Whopper                       1211                                          222       12   ; time restricted
+Whopper Jr.                   1222                                          122       12
+wm Bag Ice                    075322200108                                  89        01
+wm Bagels                     9850                                          50        02
+wm Donuts w/holes             9870                                          25        02
+wm Frisee                     4825                                          59        03
+wm Garlic                     4611                                          199       03
+wm Grapefruit Red             4289                                          49        02
+wm Lettuce Greenleaf          4641                                          89        02
+wm Lettuce Red Tipped         4642                                          89        02
+wm Peaches                    4405                                          69        03
+wm Pears Asian                0204                                          49        02
+wm Persimmon                  4429                                          26        02
+wm Potatoes Sweet             4827                                          89        03
+wm Potatoes White             4083                                          46        03
+wm Pumpkins Regular           4828                                          399       01
+wm Spinach Bunch              4749                                          199       03
+wm Squash Yellow              4086                                          69        03
+wm Strawberries Flat          4252                                          499       01
+wm Yucca Root                 4819                                          499       02
+Yam Garnet Jumbo              4817                                          79        03
+Yam Garnet Red                4074                                          89        03
+Yam Jewel                     0188                                          99        03
+Yams Golden                   4816                                          69        03
+Yautia Lila                   4646                                          229       03
+Yellow Root                   0103                                          79        03
+Yucca Root                    4810                                          169       03
+
+; Formats: number of characters allowed in each of the five columns
+;Description                  ;UPC                                          ;Price    ;Code;Dept
+;23456789012345678901234567890X234567890123456789012345678901234567890123456x234567890x2345x2345
+;**************************************************************
+;   Crate-able and Crated Items (Crates are linked to deposits)
+;**************************************************************
+Crate/Bottle Deposit Linked   0321                                          660       01
+Crate of Bonaqua Water        0322                                          1290      50
+Crate of Tea                  0323                                          2150      50
+Crate of Kronig Beer (21)     0324                                          2740      50
+Crate of Coke                 0325                                          1390      50   711
+Crate of Water                0326                                          1475      50
+Crate of Juice (bag)          0327                                          1750      50
+Crate of Milk (sub ck)        0328                                          1200      50
+Crate of Citra (bag+sc)       0329                                          1129      50
+Crateable Bonaqua Water       018788101093                                  129       47
+Crateable Tea (qty)           076301324343                                  215       48
+Crateable Kronig Beer (21)    076828047039                                  274       49
+
+;******************************************************
+;Test Items
+;******************************************************
+Barn's Alloc 5MB              671176                                        555       01
+Barn's Free  5MB              176671                                        333       01
+
+; --------------------------------------------------------
+; Coupons
+; --------------------------------------------------------
+;If the last digit of the coupon code is 1, this coupon is an unmatched coupon
+; please note that the last digit is the checksum if one exists
+Unmatched coupon              5111                                          111       05
+Unmatched coupon 2            5321                                          222       05
+Scan coupon - unmatched       511156545661                                  233       05
+
+;If the last digit is 2, this coupon exceeds coupon limit.
+; please note that the last digit is the checksum if one exists
+Coupon (exceed limit)         5222                                          222       05
+Scan coupon - exceed limit    511156545692                                  633       05
+
+;If the last digit is 3, TB will return TB_CancelItemBeforeCoupon state just for testing
+; please note that the last digit is the checksum if one exists
+;SCOTAPP 
+Coupon (void before Item)     5333                                          333       05
+coupon void before item       511156545623                                  433       05
+Minute Maid Coupon            525000000763                                  100       05
+Pepsi Case Coupon             512000000763                                  100       05
+Heinz Ketchup Coupon          513000000203                                  20        05
+
+unmatched coupon              5667                                          45        57
+
+; test cents coupon
+Normal cents coupon           5888                                          5         05
+Powerade coupon               549000000288                                  55        05
+Case of Coke coupon           549000000554                                  55        05 
+
+; price needed coupon
+Scope coupon                  5999                                          50        51
+Coupon Sun Crisps             528400008858                                  100       51
+
+;When used as tender, this coupon/voucher will cause a DataNeeded msg screen to be displayed 
+;asking whether to use it with a value of only $.40 instead of full face value of $.45.
+;This DataNeeded screen is deliberately hard coded in the emulator and can be changed for 
+;testing.  Voucher 577000000212's DataNeeded screen text is retrieved from SCUDMSGS.
+;In Assist mode, this coupon will be treated as a normal coupon worth $.45.
+Coupon/voucher (msg)          577000000229                                  45        05
+Coupon/voucher (msg)          577000000212                                  45        05
+
+; ---------------------------------------------------------------------------- 
+;Restricted Item
+Alcohol (18+)                 6111                                          301       41   0    ; need 18+
+Miller Beer                   6222                                          881       42        ; need 23+
+Dry Beer                      6333                                          901       43        ; restricted 21+ quantity
+Whiskey                       6555                                          505       44        ; restricted 18+ weight
+
+
+; Turkish Test with big Price (Matches c:\scot\config\scotpick.dat)
+; ----------------------------------------------------------------------------
+; note: items with labels that show price codes as 8 digits
+; should be entered into this file as 7 digits, with the
+; rightmost digit omitted
+
+Turkish Item 1                1                                             9999999   01
+Turkish Item 2                2                                             1111111   02        ; Need Qty
+Turkish Item 3                3                                             3333333   01
+Turkish Item 33               33                                            1999999   03        ; per pound/weight
+Turkish Item 4                4                                             12345678  01
+
+; ******************************************
+; Following Items are not in the PickUp List
+; ******************************************
+
+;Description                  ;UPC                                          ;Price    ;Code;Dept
+;23456789012345678901234567890X234567890123456789012345678901234567890123456x234567890x2345x2345
+; UPCA (with check sum)
+; ----------------------------------------------------------------------------
+2 % Milk                      078742351872                                  299       01
+2 % Milk                      071452310054                                  299       01
+Arm & Hammer Baking Soda      033200011903                                  499       01
+Minute Rice                   043000230909                                  629       01
+Light Brown Sugar             071024540056                                  329       01
+Premium Coffee                681131435062                                  478       01
+Non-Dairy Creamer 2 Pack      605388832436                                  426       01
+Non-Dairy Creamer             605388833099                                  287       01
+Vanilla Wafers                071452504712                                  99        01
+Macaroni & Cheese             079801998700                                  35        01
+Unsalted Crackers             071452504798                                  129       01
+Spaghetti                     050700041704                                  47        01
+Jiffy Corn Muffin Mix         072486002205                                  33        01
+3-C Jellied Cranberry Sauce   041152232109                                  44        01
+Bascom's Lentils              070147005534                                  69        01
+Iodized Salt                  050700271088                                  78        01
+Diet Rite Cola                029500052548                                  350       44
+Yellow Rice                   072806056611                                  224       01
+Irish Spring w/Vitamins       035000144379                                  397       01
+Quaker PB Rice Cakes          030000169377                                  199       01
+Colgate Sparkling White       035000742056                                  399       01
+Fantastic Country Lentil      073825500086                                  98        01
+LA CHOY Water Chestnuts       044300123915                                  149       01
+Snuggle Fresh Rain            011111625693                                  350       01
+French's Classic Mustard      041500007106                                  279       01
+Lindeman's Chardonnay         012354081840                                  1499      04
+Stokelys Green Beans          070222026553                                  43        01
+Stokelys Whole Kernel Corn    070222028465                                  41        01
+Enriched Rice                 050700260518                                  149       01
+Tomato Sauce                  050700275543                                  20        01 
+Tomato Sauce                  041163413733                                  10        01
+Sunny Delight                 050200013171                                  10        01
+Std Dev Item                  050788813170                                  20        01
+Maxwell House Coffee          043000701508                                  30        01
+KD Turkey Breast              201034301020                                  102       01
+Cheese                        201309302851                                  285       01
+other Cheese                  201309002645                                  264       01
+Steak (Embedded Price)        211634415850                                  1585      01
+LargeShrimp-Price Embedded    299995014509                                  1450      01
+Performance Socks             025343208289                                  387       01
+Ceiling Hooks                 070686149997                                  149       01
+Plant Food Spikes             073561002523                                  99        01
+Heavy Duty Twine              071514021164                                  149       01
+Cotton Swabs                  381370082385                                  199       01
+Plant Bracket                 070686200377                                  196       01
+JERZEES ACTIVEWEAR            042463510528                                  599       01
+Simply Basic Shirt            013261209587                                  787       01
+Knit Dish Towels              042887116283                                  489       01
+T-Bone (Embedded Price)       200987411107                                  1110      01
+Soup Bone (Embedded Price)    200003001787                                  178       01
+Ground Chuck Family Pack      200478079946                                  799       01
+Prescription Drugs            201004705001                                  500       01
+Hamburger                     201806901656                                  165       01
+FoodStamp Hamburger           111806901658                                  165       01
+Dog Bones                     201462001608                                  160       01
+Sharp Cheddar Cheese          200047856626                                  662       01 
+FoodStamp Cheese              310047856622                                  662       01
+Diet Coke (Normal)            049000006582                                  279       01   711
+Diet Coke Caf. Free (Normal)  049000009293                                  943       01   711
+Coke Classic (Qty)            049000006346                                  9         02   711
+Sprite (Qty)                  049000001327                                  364       02   01
+Miller Beer (Qty, 21)         034100000042                                  329       43
+Guinness Extra (21)           083820123555                                  233       04
+Cigarettes  (18)              013000001281                                  169       41
+Del Monte Pears               034700404103                                  199       01
+FoodStamp Pears               334700404104                                  199       01
+Icy Cool                      037000003632                                  145       46
+Nescafé (Price Needed)        028000311407                                  539       06
+Pasta Sauce (Recalled)        036200004821                                  455       08
+Recalled coffee               025500800318                                  786       08
+Freq. Buyer (Card)            401906585491                                  100       01
+Rice Roni (Freq. coupon)      015300430341                                  100       05
+Cat Food (Coupon)             523100000010                                  100       05
+Canola Oil                    027000690246                                  399       01
+Longan in Syrup               761934134031                                  299       01
+Nabisco Easy Cheese           044000045555                                  199       01
+Prima Vera Shampoo+Conditioner058735800020                                  299       01
+White House Distilled Vinegar 043600000278                                  309       01
+Café Du Monde Beignet Mix     044064503596                                  179       01
+Clinique 7 Day Scrub Cream    020714045159                                  319       01
+Infusium 23                   089165915800                                  159       01
+Crystal Clean Deodorant       022200965712                                  279       01
+Knorr Alfredo Sauce Mix       048001703209                                  69        01
+Burpee Pepper (seeds)         041530000276                                  149       01
+Burpee Pepper Gypsy Hybrid    041530645439                                  179       01
+Ferry Morse Kale (seeds)      011192402459                                  129       01
+American Seed Alyssum         071953000010                                  10        01
+Glade Lasting Mist Refill     046500002076                                  179       01
+Instant Beef Broth            637440000019                                  99        01
+Noh Oriental Stir Fry         073562004007                                  75        01
+Soup                          051000012517                                  65        01
+FoodStamp Soup                151000012514                                  65        01
+Crackers                      059290572421                                  245       01
+Pasta                         076808506433                                  91        01
+Coffee                        043000701300                                  385       01
+Rice                          054800010028                                  189       01
+FoodStamp Rice                354800010029                                  189       01
+Potato Chips                  028400021067                                  149       01
+Candy                         040000257318                                  250       01
+Cookies                       044000048884                                  215       01
+Maple Syrup                   030000059708                                  149       01
+Greeting Card                 610290001375                                  229       01
+Coupon Steak Sauce            513000630202                                  20        05
+.90 Coupon (void before item) 527000000903                                  90        05
+Cat Litter 38 lbs.            078742227948                                  799       01
+Marshmellow Miniatures        051624233145                                  205       01
+Cat Food 25 lbs.              078742231327                                  899       01
+Sports Illustrated            403523077847                                  350       01
+Reader's Digest               403510381780                                  300       59
+; Euro Symbol was added to the word Sauce, please don't touch that line.
+Hunt's Tomato SaucÕ           027000390054                                  23        01
+Test Euro item Õ              031400074322                                  145       01
+ACTII Kettle Corn             076150224009                                  75        01
+JIF Extra Crunch Peanut Butter037000004134                                  649       01
+Kroger Sliced Pineapple       011110831187                                  89        01
+Peter Pan Peanut Butter       045300000404                                  279       01
+Mountain Frost Age 18         038259059241                                  2500      41
+Green Paper Bag               610290066688                                  20        01   321
+Pink Paper Bag                610290059819                                  20        01   321
+Red Paper Bag                 610290059826                                  20        01   321
+Yellow Paper Bag              610290059857                                  20        01   321
+Blue Paper Bag                610290059833                                  20        01   321
+Pink Paper Bag                610290084774                                  20        01   321
+Red Paper Bag                 610290084781                                  20        01   321
+Yellow Paper Bag              610290085092                                  20        01   321
+Blue Paper Bag                610290084941                                  20        01   321
+Purple Paper Bag              610290066626                                  20        01   321
+Easter Gift Wrap              073717172322                                  100       01   321
+Gift Wrap                     084172359302                                  329       01   321  
+Toe Separators                773774504486                                  89        01
+Listerine Mouth Wash          312547701532                                  499       01
+TAB TEST 001                  079400764706                                  199       01
+Stove Top Chicken             043000285213                                  149       02
+Barilla Rotini                076808280982                                  219       01
+SourCream Chives MashedPotatoe016000336100                                  199       08
+FrStrawberry PopTarts         038000317101                                  329       01
+Powerade Fruit Punch          049000019230                                  149       01   123
+Gatorade Fierce Grape         052000326734                                  149       01   123
+Diaper Genie Refill           078300735007                                  500       01   12345
+Natural Spring Water          605388833136                                  50        01
+Zephyrhills                   073430005044                                  52        06
+Zephyrhills Half-Pint         073430005105                                  49        06
+Echo 30GB RemStorDrive        609585903258                                  17895     01
+Kellog's Fr Mini Wheats       038000049200                                  399       01
+Tax Cut                       735290100801                                  8999      01 
+Fanta 20oz. Grape             049000026276                                  89        49
+Heineken                      072000008914                                  177       04
+Nesquik Chocolate Milk        028000246303                                  119       50
+Mr. Clean                     037000315117                                  455       01
+Vanilla Coke 20oz.            049000031171                                  89        46
+Pepsi BLUE                    012000202926                                  113       50
+Mr. Pibb 20oz.                049000016765                                  99        47
+Half & Half Quart             011110435101                                  249       48
+Coffee Mate French Vanilla    050000331222                                  179       01
+Brown Purse                   001205211574                                  399       01
+Vendange (21+)                088232001811                                  679       04
+Black Purse                   063947003039                                  498       01
+Bounty PaperTowels            037000630371                                  59        01
+Evaporated Milk               078742230177                                  33        01
+Lemonade Soda                 061500008019                                  17        01
+Grape Soda                    061500008002                                  17        01
+Bubble Gum Soda               061500007975                                  17        01
+Orange Soda                   061500007999                                  17        01
+Fruit Punch Soda              061500007982                                  17        01
+Raspberry Jello               605388187307                                  33        01
+Strawberry Jello              078742228365                                  33        01
+Peach Jello                   605388187291                                  33        01
+Grape 18 +                    078742226804                                  197       41
+Orange 21 +                   078742226538                                  207       04
+Dasani 23 +                   078742209845                                  217       42
+Aqafina Crateable 21 +        078742209838                                  227       49      
+FountainHead Water            009452110701                                  1217      50
+Tropicana OJ                  048500002339                                  77        48                 
+Tropicana Grapefruit Juice    048500002346                                  09        02
+FountainHead                  047113607375                                  99        12   
+Aberfoyle Ntrl Spr Water      068274000218                                  08        49    
+Recalled Item                 042825392991                                  01        08
+Per Item Qty Restricted       042825322929                                  01        45
+PIM Weighed Item              041738901009                                  55        03
+PIM Quantity Item             041738901016                                  55        02
+PIM Price Item                041738901023                                  55        06
+Black Beans                   011110847720                                  69        01
+Red Beans                     011110847522                                  75        01
+Green Split Peas              021140226808                                  129       01
+Black Turtle Beans            013300601730                                  89        01
+Red Kidney Beans              011110848260                                  79        01
+
+ 
+
+;Description                  ;UPC                                          ;Price    ;Code;Dept
+;23456789012345678901234567890X234567890123456789012345678901234567890123456x234567890x2345x2345
+; ----------------------------------------------------------------------------
+; EAN-8/JAN-8
+; ----------------------------------------------------------------------------
+EAN-8 Item #1                 01601237                                      500       01 
+EAN-8 Item #2                 20123451                                      430       01
+EAN-8 Item                    50123469                                      35        01
+
+
+
+;Description                  ;UPC                                          ;Price    ;Code;Dept
+;23456789012345678901234567890X234567890123456789012345678901234567890123456x234567890x2345x2345 
+---------------------------------------------------------------------------
+; EAN-13/JAN-13
+; ----------------------------------------------------------------------------
+Coffee Bean Coupon            9906711420254                                 25        05
+Hamburger - Price Embedded    2015478904505                                 450       01 
+Candy - Price Embedded        2111574000728                                 72        01
+Seafood - Price Embedded      2111465014506                                 1450      01
+UK Coffee                     5000136990867                                 629       01
+Gold Medal Medicated Oil      8888115000212                                 300       01
+Ragu Onion & Mushroom         8690683003034                                 279       01
+Item1 11lb-Price Embedded     2000001110898                                 99        01
+Item2 2lb -Price Embedded     2000002501107                                 0         01
+Item3 3lb -weight Embedded    2000003830008                                 299       01
+Item4 5lb -weight Emdedded    2000004750008                                 0         01
+EAN-13 Coupon                 9912340010384                                 38        05
+EAN-13 Coupon                 9912340021106                                 110       05
+EAN-13 Coupon                 9912340032799                                 279       05
+UK Test Item 88 normal        5007000008802                                 88        01
+UK Test Item 89 Qty           5007000008901                                 89        02
+UK Test Item 90 weight item   5007000009038                                 90        03
+UK Test Item 91 21+           5007000009106                                 91        04
+UK Test Item 92 Price Needed  5007000009274                                           06
+UK Test Item 93 recalled      5007000009342                                 93        08
+UK Test Item 94 linked        5007000009410                                 94        11
+UK Test Item 95 time restr    5007000009588                                 95        12
+UK Test Item 96 18+           5007000009656                                 96        41
+UK Test Item 97 23+           5007000009724                                 97        42
+UK Test Item 98 Qty 21+       5007000009892                                 98        43
+UK Test Item 99 weight 18+    5007000009960                                 99        44 
+UK Test Item 100 per item qty 5007000010096                                 100       45
+UK Test Item 200 visual verify5007000020095                                 200       46
+UK Test Item 300 crate        5007000030094                                 300       47
+UK Test Item 400 crate+qty    5007000040093                                 400       48
+UK Test Item 500 crate 21+    5007000050092                                 500       49
+UK Test Item 600 crate+deposit5007000060091                                 600       50
+UK Test Item 700 normal       5007000070090                                 700       01
+UK Test Price Needed Coupon   9907000070099                                           51
+
+
+---------------------------------------------------------------------------
+; EAN-13/JAN-13 Supplement
+; ----------------------------------------------------------------------------
+Tan's Coffee Bean 	      201457170014410                               25        05
+
+; ----------------------------------------------------------------------------
+; UPCA (with CheckSum)
+; ----------------------------------------------------------------------------
+;***************************************************************************************
+;Kevin Ellis C-Store Specific Demo Items
+Teddy Grahams                 044000005979                                  298       01
+Pump #1 Fuel                  097421471120                                  2178      01 
+Pump #2 Fuel                  722252100900                                  823       01
+Pump #3 Fuel                  044000048884                                  1700      01
+Pump #4 Fuel                  044000004484                                  1001      01
+24 Oz. Fountain Drink         059280203793                                  59        01
+32 Oz. Fountain Drink         070030416874                                  79        01 
+Hot Dog                       044000037512                                  99        01
+Coffee                        059280201638                                  59        01
+;***************************************************************************************
+Coconut                       011110676757                                  100       01
+Thick Slicy                   021000679225                                  100       01
+Cheez It                      024100122431                                  249       01
+White Rice                    011256195006                                  100       01
+Early June Peas               03470040410                                   100       01
+Folgers                       025500800318                                  379       01
+Nescafe Coffe                 028000311407                                  100       01
+Patent Potatoes               012345678912                                  299       04
+Tetley                        011156052072                                  100       01
+Doritos                       028400069656                                  470       01
+Always                        037000664512                                  100       01
+Hodgson Mill                  071518020125                                  100       01
+Kalkan                        023100012827                                  101       01
+Veryfine                      070590054011                                  100       01
+Fruit Cocktail                02400167075                                   89        01
+Noodle Soup                   051000012517                                  100       01
+Peanut Butter                 037000460039                                  100       01
+Clorox                        044600001036                                  100       01
+Hot Sauce                     075500000027                                  100       01
+Mustard                       041500007007                                  100       01
+Sliced Green Beans            01110802705                                   100       01
+Ragu                          036200000502                                  209       01
+Test Item                     012345000102                                  100       01
+Plax                          086414001161                                  100       01
+Stick Free                    019000090249                                  100       01
+Sautee Onion                  036200004821                                  100       01
+CampBells                     051000018786                                  169       01
+Corn                          075201003112                                  100       01
+Dove Dish Liquid              001111140098                                  149       01
+Heinz Vinegar Gallon          013000007542                                  329       01
+Monari Caesar                 001362869700                                  179       01
+Heinz Cider 16 oz             013000008129                                  189       01
+Hunts Homestyle               002700422564                                  155       01
+Annie's Shells                013562000043                                  179       01
+Progresso Chick Pea Soup      041196020120                                  199       01
+Annie's Alfredo               013562000050                                  179       01
+Reynold's Wrap                010900000109                                  129       01
+Annie's Mex                   013562000067                                  179       01
+Reynold's Cupcake Cups        010900003001                                  49        01
+Reynold's Oven Cookbag        010900005104                                  155       01
+Bonari Balsam Vinegar         013628608879                                  425       01
+Monari Balsam Dressing        013628609500                                  305       01
+Surf Liquid Detergent         011111480018                                  299       01
+Monari Pasta Sauce            013628909808                                  375       01
+8 O'Clock Coffee              011141100320                                  419       01
+Gold Medal All Purpose Flour  016000106109                                  275       01
+Party Mix                     011152028132                                  129       01
+Gold Medal Bread Flour        016000106406                                  269       01
+Wizard Hot Stuff              011206004051                                  249       01
+Gold Medal Unbleached Flour   016000196100                                  279       01
+Wizard Worchestshire          011206004082                                  245       01
+Bon Ami Original              017500040306                                  125       01
+Pepsi Case                    012000000133                                  389       01
+Bon Ami                       017500044038                                  83        01
+Bon Ami Cake                  017500082009                                  395       01
+Heinz Chili Sauce             013000001120                                  199       01
+Morton's Salt Substitute      024600000505                                  149       01
+Heinz Ketchup                 013000001243                                  129       01
+Minute Maid 6oz OJ            025000003004                                  95        01
+Minute Maid 16oz OJ           025000021497                                  189       01
+Campbell's Ckn Noodle Soup    051000016591                                  189       01
+Minute Maid 12oz OJ           025000025198                                  149       01
+Pretzels                      077817107000                                  199       01
+Hunts Original                027000422380                                  149       01
+Hunt's Sloppy Joe Sauce       027000441107                                  249       01
+Ground Beef                   212345002612                                  199       03
+Meatloaf Mix                  212346003496                                  199       03
+Jiff Extra Crunchy            037000004103                                  349       01
+Doans                         300830235888                                  349       01
+Pop Tarts Cherry              038000318207                                  199       01
+Purina Can Tuna/Chicken       038100003027                                  33        02
+Purina Can Beef               038100003065                                  33        02
+Progresso Kidney Bean Soup    041196020229                                  99        02
+Purina Breakfast Combo        038100003157                                  33        02
+Berio EV Olive Oil Gal        041736000100                                  3399      01
+Purina Rainbow Trout          038100004130                                  33        02
+Northern Free                 042000148009                                  299       01
+Dole Pineapple Juice          038900000929                                  179       01
+Solo Hot Cups                 041165921045                                  399       01
+Pepsi Case Coupon             512000000831                                  225       05
+Hunt's Coupon                 527000000651                                  65        05
+Doans Coupon                  530083000555                                  55        05
+8 O'Clock Coffee Coupon       511141000441                                  135       05
+Heniz Vinegar Coupon          513000000401                                  40        05
+Dole Pineapple Coupon         538900000405                                  40        05
+Bon Ami Coupon                517500000602                                  60        05
+Sliced Pears                  078742369648                                  169       01
+Mixed Vegetables              021140212115                                  89        01
+Fruit Cocktail                021300173294                                  119       01
+Fruit Cocktail                011110826466                                  109       01
+Spaghetti Sauce               051000083029                                  99        11
+Dole Pineapple Slices         038900001391                                  129       11
+Mentos                        073390000110                                  54        01
+Dentyne                       012546300216                                  77        01  
+Happy Easter Grass            759055950913                                  50        01
+Publix Tuna For Cats          041415032279                                  29        01
+Creamette Egg Noodles         015100000300                                  79        01
+Jello SF Strawberry/Kiwi      043000201824                                  35        01
+Jello SF Strawberry/Banana    043000201350                                  35        01
+MarroBites                    023100012490                                  119       01
+Kool Aid Cherry               043000954546                                  99        01
+Act II Popcorn                076150430516                                  75        01
+Thrify Maid Sloppy Joe Mix    021140213662                                  79        01
+IGA Sliced Carrots            041270878081                                  59        01
+Southgate Chile w/Beans       071846922436                                  69        01
+Power Bar                     097421000023                                  149       01
+Lance Crackers                076410010106                                  79        01
+Foster's Lager                070897013315                                  399       04
+PayDay                        010700807229                                  99        01
+Cow Tales                     070622431018                                  25        01
+Heineken                      072890000835                                  425       04
+Chapet Lip Balm               311530004018                                  99        01
+Slim Jim Beef Steak           026200170008                                  125       01
+Doritos 3D Zesty Ranch        028400007474                                  129       01
+Wavy Lay's                    028400020916                                  99        01
+Cascade                       037000950806                                  199       01
+Puritan T-Shirt               605030003801                                  899       01
+4x4 Toy Truck                 050211101058                                  599       01
+Duck Tape                     075353031001                                  845       01
+Phiplips Fan Light            046677287108                                  100       01
+3-Pack Under Shirt            076031272747                                  899       01
+Edge Shaving Gel              046500020322                                  350       01
+Dark And Lovely Hair Color    072790003929                                  799       01
+Vicks NyQuil                  323900001169                                  538       01
+Noxzema Moisturizer           022700012114                                  250       01
+Test Item 1                   010700000019                                  01        01
+Test Item 2                   010700000026                                  02        01
+Test Item 3                   010700000033                                  03        01
+Test Item 4                   010700000040                                  04        01
+Test Item 5                   010700000057                                  05        01
+Test Item 6                   010700000064                                  06        01
+Test Item 7                   010700000071                                  07        01
+Test Item 8                   010700000088                                  08        01
+Test Item 9                   010700000095                                  09        01
+Test Item 10                  010700000101                                  10        01
+Test Item 11                  010700000118                                  11        01
+Test Item 12                  010700000125                                  12        01
+Test Item 13                  010700000132                                  13        01
+Test Item 14                  010700000149                                  14        01
+Test Item 15                  010700000156                                  15        01
+Test Item 16                  010700000163                                  16        01
+Test Item 17                  010700000170                                  17        01
+Test Item 18                  010700000187                                  18        01
+Test Item 19                  010700000194                                  19        01
+Test Item 20                  010700000200                                  20        01
+Test Item 21                  010700000217                                  21        01
+Test Item 22                  010700000224                                  22        01
+Test Item 23                  010700000231                                  23        01
+Test Item 24                  010700000248                                  24        01
+Test Item 25                  010700000255                                  25        01
+Test Item 26                  010700000262                                  26        01
+Test Item 27                  010700000279                                  27        01
+Test Item 28                  010700000286                                  28        01
+Test Item 29                  010700000293                                  29        01
+Test Item 30                  010700000309                                  30        01
+Test Item 31                  010700000316                                  31        01
+Test Item 32                  010700000323                                  32        01
+Test Item 33                  010700000332                                  33        01
+Test Item 34                  010700000347                                  34        01
+Test Item 35                  010700000354                                  35        01
+Test Item 36                  010700000361                                  36        01
+Test Item 37                  010700000378                                  37        01
+Test Item 38                  010700000385                                  38        01
+Test Item 39                  010700000392                                  39        01
+Test Item 40                  010700000408                                  40        01
+Test Item 41                  010700000415                                  41        01
+Test Item 42                  010700000422                                  42        01
+Test Item 43                  010700000439                                  43        01
+Test Item 44                  010700000446                                  44        01
+Test Item 45                  010700000453                                  45        01
+Test Item 46                  010700000460                                  46        01
+Test Item 47                  010700000477                                  47        01
+Test Item 48                  010700000484                                  48        01
+Test Item 49                  010700000491                                  49        01
+Test Item 50                  010700000507                                  50        01
+Test Item 51                  010700000514                                  51        01
+Test Item 52                  010700000521                                  52        01
+Test Item 53                  010700000538                                  53        01
+Test Item 54                  010700000545                                  54        01
+Test Item 55                  010700000552                                  55        01
+Test Item 56                  010700000569                                  56        01
+Test Item 57                  010700000576                                  57        01
+Test Item 58                  010700000583                                  58        01
+Test Item 59                  010700000590                                  59        01
+Test Item 60                  010700000606                                  60        01
+Test Item 61                  010700000613                                  61        01
+Test Item 62                  010700000620                                  62        01
+Test Item 63                  010700000637                                  63        01
+Test Item 64                  010700000644                                  64        01
+Test Item 65                  010700000651                                  65        01
+Test Item 66                  010700000668                                  66        01
+Test Item 67                  010700000676                                  67        01
+Test Item 68                  010700000682                                  68        01
+Test Item 69                  010700000698                                  69        01
+Test Item 70                  010700000705                                  70        01
+Test Item 71                  010700000712                                  71        01
+Test Item 72                  010700000729                                  72        01
+Test Item 73                  010700000736                                  73        01
+Test Item 74                  010700000743                                  74        01
+Test Item 75                  010700000750                                  75        01
+Test Item 76                  010700000767                                  76        01
+Test Item 77                  010700000774                                  77        01
+Test Item 78                  010700000781                                  78        01
+Test Item 79                  010700000798                                  79        01
+Test Item 80                  010700000804                                  80        01
+Test Item 81                  010700000811                                  81        01
+Test Item 82                  010700000828                                  82        01
+Test Item 83                  010700000835                                  83        01
+Test Item 84                  010700000842                                  84        01
+Test Item 85                  010700000859                                  85        01
+Test Item 86                  010700000866                                  86        01
+Test Item 87                  010700000873                                  87        01
+Test Item 88                  010700000880                                  88        01
+Test Item 89                  010700000897                                  89        01
+Test Item 90                  010700000903                                  90        01
+Test Item 91                  010700000910                                  91        01
+Test Item 92                  010700000927                                  92        01
+Test Item 93                  010700000934                                  93        01
+Test Item 94                  010700000941                                  94        01
+Test Item 95                  010700000958                                  95        01
+Test Item 96                  010700000965                                  96        01
+Test Item 97                  010700000972                                  97        01
+Test Item 98                  010700000989                                  98        01
+Test Item 99                  010700000996                                  99        01
+Test Item 100                 010700001009                                  100       01
+SF Jello Orange               043000201435                                  69        01
+Jello Sparkling White Grape   043000200858                                  79        01
+Cherry Coke                   049000018011                                  99        42
+Gatorade Fruit Punch          052000338300                                  249       45
+Gatorade Fruit Punch 32oz.    052000038057                                  149       49
+Domino's 10-X                 049200051009                                  79        01
+Morton Lite Salt              024600010412                                  129       01
+Kroger Salt                   011110855510                                  159       01
+Ronzoni Pasta                 071300000106                                  69        01
+Oxi Clean                     757037515150                                  656       01 
+Hawaiian Punch                014800646009                                  229       01 
+Wishbone Creamy Caesar        041000012020                                  311       01
+Glen Ellen White Zinfandel 23+080720000115                                  999       42 
+Grapefruit Juice              048500008621                                  129       02   123
+Pink Grapefruit Juice 10oz.   048500009581                                  79        02   123
+Dr. Pepper 20 oz.             078000082401                                  117       01 
+Dasani 12oz.                  049123456783                                  50        06
+Diet Coke .5 Liter            049000024692                                  88        46 
+
+;Description                  ;UPC                                          ;Price    ;Code;Dept
+;23456789012345678901234567890X234567890123456789012345678901234567890123456x234567890x2345x2345
+; ----------------------------------------------------------------------------
+; UPCE (without CheckSum)
+; ----------------------------------------------------------------------------
+SutterHome White Zinfandel 21+0850592                                       899       49
+Star Kist                     0802800                                       100       01
+Scope                         0373630                                       100       01
+Mueller's Elbows              0291032                                       45        01
+Crest                         0373280                                       100       01
+Heineken                      0005160                                       217       01
+Donuts                        0005040                                       104       01
+Egg Noodles                   0297532                                       100       01
+Pepsi                         0124900                                       100       01
+Tomato Ketchup 28             0131280                                       100       01
+Gold Pig Meal                 0005070                                       607       01
+Gold Pig T-Shirt              0005230                                       800       01
+Satinique Shampoo             0005740                                       250       01
+Coke                          0491820                                       75        01   711
+Coke 10oz.                    0496370                                       50        06   711 
+Sprite 10oz.                  0491090                                       50        06
+Diet Coke 10oz.               0496650                                       50        06
+Freedom Motor Oil             0005750                                       268       01
+Fried Chicken                 0005050                                       705       01
+Coca Cola                     0496340                                       100       01
+Tomato Ketchup                0131240                                       100       01
+7Up                           0785310                                       100       01 
+Sprite                        0491320                                       999       01   01
+Sprite 20 oz.                 0497640                                       85        06   01
+Miller High Life              0340041                                       4800      04
+Steak Sauce                   0132640                                       265       01
+Coke                          0496390                                       75        01   711
+Diet Coke 20 oz.              0490450                                       75        46   711
+Pepsi                         0120130                                       65        01
+Pepsi 20 oz.                  0121290                                       65        01
+Mtn. Dew 20 oz.               0122240                                       100       01
+Mtn. Dew 20 oz.               0121310                                       100       01
+Wine                          0850292                                       699       04
+Tuna Fish                     0802450                                       89        01
+Heinz Baby Food               0130160                                       33        01
+Heinz Baby Food               0130150                                       33        01
+Gerber Baby Food              0154360                                       32        01
+Gerber Baby Food              0154340                                       32        01
+Extra                         0229180                                       84        01
+Snickers                      0401020                                       44        01
+Tic Tac                       0098013                                       48        01
+Royal Gelatin Straw/Banana    0293800                                       33        01
+Royal Gelatin Lime            0293770                                       33        01
+Royal Gelatin Pineapple       0293780                                       33        01
+Royal Gelatin Orange          0293750                                       44        01
+9 Lives Tuna Select           0796061                                       29        01
+9 Lives Tuna Select           0795571                                       29        01
+Armour Potted Meat            0179500                                       36        01
+Nivea Moisturizing Creme      0721414                                       399       01
+Kroger Sweet Relish           0018240                                       169       01
+Heineken Beer                 0728914                                       200       04
+Natural Light Age 21          0180312                                       3200      04
+BumbleBee Tuna                0866333                                       129       01
+Coke 20 oz.                   0490440                                       100       11   711
+Finesse Mousse                0794313                                       299       46
+Aquafina                      0123170                                       100       12
+Aquafina                      0121590                                       89        43 
+Oreos                         0442200                                       155       01
+Coca-Cola Classic             0496390                                       99        01
+Aquafina 24 oz.               0128750                                       126       08
+Aquafina 1 Liter (crateable)  0121570                                       699       50
+André Cold Duck               0857470                                       399       43 
+Dasani                        0499770                                       89        01 
+Diet Dr. Pepper               0549303                                       43        01   711
+
+;Description                  ;UPC                                          ;Price    ;Code;Dept
+;23456789012345678901234567890X234567890123456789012345678901234567890123456x234567890x2345x2345
+;----------------------------------------------------------------------------
+; Use item 0131380 to test visual verify. 
+; Show "VISUAL_VERIFY" message on System Message screen
+Ketchup                       0131380                                       129       46
+
+;Description                  ;UPC                                          ;Price    ;Code;Dept
+;23456789012345678901234567890X234567890123456789012345678901234567890123456x234567890x2345x2345
+;----------------------------------------------------------------------------
+; New items added after 6/26/99
+;----------------------------------------------------------------------------
+; 11 Linked item. If this kind of item is sold, it will link to another item 
+Green Beans                   111101                                        900       11
+Green Beans Linked Item       111111                                        100       01
+Milk                          222202                                        329       11
+Crackers                      333303                                        159       11
+Link 2 Items                  444404                                        125       11
+
+
+; ----------------------------------------------------------------------------
+;Loyalty card test. Scan loyalty card as normal item (up to says needs to end w/ '0' or '8')
+SCAN Loyalty Card - good      156515155688                                  0         09
+Valid Loyalty Card            637480378314                                  0         09
+Valid Loyalty Card            401906598002                                  0         09
+;For testing 3.2 Display Loyalty Card Acceptance on RAP feature with empty loyalty card number
+Empty Loyalty Card            025932741111                                  0         09
+Empty Loyalty Card            888                                           0         09 
+ 
+; ----------------------------------------------------------------------------
+; invalid loyalty card is treated as unknown item (up to says needs to end w/ '6')
+Invalid loyalty card          1010                                          0         10
+SCAN Loyalty Card - BAD       156515155626                                  0         10
+
+; ----------------------------------------------------------------------------
+; this is an item which has a per item quantity restriction and it has been exceeded
+Quantity Restricted Item      1313                                          495       45
+SCAN item - Quan Restr        787888724906                                  50        45
+
+; ----------------------------------------------------------------------------
+; this is an item which has a per item quantity restriction and it has been exceeded
+Visual Verify Item            1414                                          613       46
+SCAN item - VisVerify         787888724913                                  51        46
+
+;Description                  ;UPC                                          ;Price    ;Code;Dept
+;23456789012345678901234567890X234567890123456789012345678901234567890123456x234567890x2345x2345
+; ----------------------------------------------------------------------------
+; EAN 128 Barcoded Coupon
+Oat Bran (80c Coupon)         53000000080                                   80        05
+Oat Bran (EAN 128 Data)       810107107309995                               0         55
+
+;Description                  ;UPC                                          ;Price    ;Code;Dept
+;23456789012345678901234567890X234567890123456789012345678901234567890123456x234567890x2345x2345
+; ----------------------------------------------------------------------------
+; For testing - a scannable weighed item
+SCAN - weighed item           156515155770                                  10        03
+
+; ----------------------------------------------------------------------------
+; An exception item
+; 68001 & 068000000017 Refund Slips need approval when exceeding the coupon threshold
+; 68002 & 068000000024 Refund Slips need approval always
+; 68007 & 068000000079 Refund Slips do not need approval
+; 68008 & 068000000086 Refund Slips can be treated as visual verify items and have negative ; price.
+; If scan any refund slip for the second time, play "nocharge" wave file.
+;Description                  ;UPC                                          ;Price    ;Code;Dept
+;23456789012345678901234567890X234567890123456789012345678901234567890123456x234567890x2345x2345
+10$ Gift Certificate          68000                                                   58 
+Special Coupon                68001                                         100       58
+6 Pack Bottles                68002                                         30        58
+Gift Registry                 68003                                         1000      58
+Other Registry                68004                                         500       58
+Swim Suit                     68005                                         1500      58
+Flu Meds                      68006                                         700       58
+Refund Slip                   68007                                         50        05
+Bottle Refund                 68008                                         -30       58
+10$ Gift Certificate          068000000000                                            58  
+Special Coupon                068000000017                                  100       58
+6 Pack Bottles                068000000024                                  30        58
+Gift Registry                 068000000031                                  1000      58 
+Other Registry                068000000048                                  500       58
+Swim Suit                     068000000055                                  1500      58
+Flu Meds                      068000000062                                  700       58
+Refund Slip                   068000000079                                  50        05
+Bottle Refund                 068000000086                                  -30       58
+
+; ----------------------------------------------------------------------------
+; The following are item classified as "Custom Message and Un-sellable Item".
+; Item 6600 has custom message screen w/o delayed approval.
+; Item 6601 has custom message screen with delayed approval
+; Item 6602 has no custom screen w/ delayed approval
+; Item 6603 has no custom message screen and w/o delayed approval.
+; All default to play "nocharge" wave file and receipt text is whatever in the item 
+; description
+;Description                  ;UPC                                          ;Price    ;Code;Dept
+;23456789012345678901234567890X234567890123456789012345678901234567890123456x234567890x2345x2345
+Happy Birthday Mrs Jones!     6600                                          100       59
+Item is out of stock          6601                                          100       59   1
+You're the lucky winner!      6602                                          0         59   1    
+Happy Birthday Mr. Jones!     6603                                          0         59    
+
+;RFC 255034 - provide method for TB to put up RAP message with optional hi-light
+;special message, this will trigger sending a message to RAP only
+TB Provided RAP message       6604                                          0         59
+;RFC255148-provide for testing purposes. - BM185018
+TB NO Weight Item             6605                                          100       69
+
+; ----------------------------------------------------------------------------
+; 61 - Bizerba Scale Item
+; if the second digit of the item code is odd, return TB_ITEMSOLD, else return TB_MessageScreen.
+; TB Emulator will use the first 4 digit of the item code as the weight. For example, the weight of 6100 is 6.100 lb.
+;Description                  ;UPC                                          ;Price    ;Code;Dept
+;23456789012345678901234567890X234567890123456789012345678901234567890123456x234567890x2345x2345
+Health and Beauty Care        410001001508                                  50        61
+Bizerba Scale Test Item       6100                                          210       61
+Bizerba Scale Test Item 2     6000                                          210       61
+; The following item is a special bizerba item for test time out. If this item is sold, TB will not send any response in 2 minutes.
+Bizerba TimeOut Test Item     6101                                          110       61
+
+; ----------------------------------------------------------------------------
+; 62 - Security Tag Item
+
+;Description                  ;UPC                                          ;Price    ;Code;Dept
+;23456789012345678901234567890X234567890123456789012345678901234567890123456x234567890x2345x2345
+T-Shirt                       6200                                          1000      62
+CD                            6201                                          1200      62
+Security Tag #1               072156941223                                  1045      62
+Security Tag #2               072157841225                                  1599      62              
+; ----------------------------------------------------------------------------
+; 63 - Fiscal Printer Error Emulation Item
+Dilbert Calendar              6300                                          1000      63
+Mtn. Dew (FPError)            0120850                                       100       63
+; ----------------------------------------------------------------------------
+
+;POS Messages
+;The following items are classified to emulate "POS Messages" which will be visable on the small receipt.
+;Cat Food 023100012773 will emulate a "In Transaction".
+;Spaghetti Sauce 036200002506 will emulate a "Host Online"
+;Jello SF Mixed Fruit  043000201381 will emulate a "Blank".
+;Description                  ;UPC                                          ;Price    ;Code;Dept
+;23456789012345678901234567890X234567890123456789012345678901234567890123456x234567890x2345x2345
+Cat Food                      023100012773                                  190       56
+Spaghetti Sauce               036200002506                                  198       59
+Jello SF Mixed Fruit          043000201381                                  35        01
+
+;Test for 128 barcodes
+;Description                  ;UPC                                          ;Price    ;Code;Dept
+;23456789012345678901234567890X234567890123456789012345678901234567890123456x234567890x2345x2345
+Code 128 A test len 20        12345678901234567890                          100       01 
+Code 128 B test len 20        09876543210987654321                          200       01 
+Code 128 C test1 len 46       70999100200001149901032400010811001234567890121010      01 
+Code 128 C test2 len 36       7099910020000114990103240001081100            1020      01 
+Code 128 C test3 len 36       7000840020005105990103240001999981            1030      01 
+Code 128 C test4 len 36       8012100001003074000400500021224700            1040      01 
+
+EAN128 Barcode#3              980614900004044399974192                      1254      01
+EAN128 Barcode#2              980614900004045499974167                      670       01
+EAN128 Barcode#1              980619913579013599975494                      980       01
+
+;Test
+TBCreateReport                3914                                          215       01
+TBGetCurrentBusinessDate      5636                                          215       01
+TBSetCurrentBusinessDate      6997                                          215       01
+
+; demonstrate new UI capability to manipulate receipt items and their properties
+PIM ITEM                      222222                                        222       64
+PIM ITEM                      095205876833                                  222       64 
+
+; Test Items for Multi-Label Barcodes
+Multi Label Item              3303315715                                    25        01
+
+; Test RSS items
+RSS-14                        0102001234567893                              100       01
+RSS-14 Stacked Omni 1         0100614141041046                              200       01
+RSS-14 Stacked Omni 2         0100000000006323                              250       01
+RSS-14 Stacked Omni 3         0100034567890125                              350       01
+RSS-14 Truncated 1            0100614141000012                              300       01
+RSS-14 Stacked 1              0100012345678905                              400       01
+RSS Expanded Stacked          0198898765432106320201234515991231            500       01
+
+; Test Items for disabling tender buttons. 
+Test Disable Other Payment    078742228730                                  100       01
+Test Disable Cash             5550                                          100       01
+Test Disable Credit           5551                                          100       01
+Test Disable Debit            5552                                          100       01
+Test Disable EBT Food Stamps  5553                                          100       01
+Test Disable EBT Cash Benefit 5554                                          100       01
+Test Disable Check            5555                                          100       01
+Test Disable Other Payment    5556                                          100       01
+Test Disable Coupon           5557                                          100       01
+Test Disable Voucher Payment  5558                                          100       01
+
+; Test Items for disabling audio sound types.
+Test Disable normal audio     5570                                          100       66
+Test Disable price audio      5571                                          100       67
+Test Disable security audio   5572                                          100       68
+
+; Test Items for special state handling
+Fatal Error Test Item         5580                                          100       01
+State Override Test Item      5581                                          100       01
+Fatal Error Test Item 2       5582                                          100       01
+
+; Test Items for sending TB_HOSTOFFLINE and TB_HOSTONLINE messages. 
+Send Host Offline             019910221023                                  100       01
+Send Host Offline             6660                                          100       01
+Send Host Offline and Online  088888999999                                  100       01
+Send Host Offline and Online  6661                                          100       01
+
+; 65 - TB indicates this is an zero weight item
+TB Zero Weight Item           6500                                          100       65
+Oat Bran                      030000070604                                  100       65
+
+; Test items for gift card tender
+Gift Card #1                  054984308621                                  1000      01
+Gift Card #2                  056479308628                                  500       01
+
+; Test Items for special signature receipts
+EFT Receipt Test Item         6670                                          100       01
+Prescription Test Item        6671                                          100       01
+
+; Out of sync test items
+description                   1012                                          101       01
+description2                  1011                                          101       01
+
+

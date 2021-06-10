@@ -1,0 +1,32 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// FILE:  SMVoidItem.cpp
+//
+// TITLE: Class impliementation for void item state
+//
+//
+// AUTHOR:    Peter Denhoed
+//
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+#include <stdafx.h>                 // MS MFC always needed first
+#include <afxtempl.h>               // MS MFC template header
+
+#include "Common.h"                 // MGV common includes
+
+#include "SMState.h"                // MGV base state
+#include "SMVoidItem.h"             // MGV this
+
+#define COMP_ID ID_SM               // base state component
+#define T_ID    _T("VoidItem")
+
+IMPLEMENT_DYNCREATE(SMVoidItem, CObject)// MFC Runtime class/object information
+
+DEFINE_TIMESTAMP
+
+//////////////////////////////////////////
+SMVoidItem::SMVoidItem()
+{
+  IMPLEMENT_TIMESTAMP
+}
+

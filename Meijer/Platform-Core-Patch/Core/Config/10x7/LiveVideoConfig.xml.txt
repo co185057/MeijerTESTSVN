@@ -1,0 +1,44 @@
+<Display Version="1.0">
+  <Controls>
+    <Control Name="AttractVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">
+        </Property>
+        <Property Name="Visible">False</Property>
+      </Properties>
+    </Control>
+    <Control Name="AttractLiveVideo" Type="LiveVideo" Synchronize="False">
+      <Properties>
+        <Property Name="LiveVideoFrameDelay">100</Property>
+        <Property Name="Position">12,13,564,654</Property>
+        <Property Name="LiveVideoDevice">0</Property>
+      </Properties>
+    </Control>
+  </Controls>
+  <Contexts>
+    <Context Name="Attract" Synchronize="False">
+      <Include>
+        <Control Name="AttractLiveVideo">
+        </Control>
+        <Control Name="AttractVideo">
+          <Properties>
+            <Property Name="Video">
+            </Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AttractMultiLanguage" Synchronize="False">
+      <Include>
+        <Control Name="AttractLiveVideo">
+        </Control>
+        <Control Name="AttractVideo">
+          <Properties>
+            <Property Name="Video">
+            </Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+  </Contexts>
+</Display>

@@ -1,0 +1,58 @@
+<Display Version="1.0">
+	<Languages>
+		<Language Name="0413">
+			<StringTable>
+				<String Name="MainTitle">PBA\nconfiguratie</String>
+				<String Name="AddButtonText">Toevoegen</String>
+				<String Name="AddLaneTitle">Kassa toevoegen</String>
+				<String Name="ApplyButtonText">Toepassen [Toep.]</String>
+				<String Name="Backspace">Backspace</String>
+				<String Name="CancelButtonText">Annuleren</String>
+				<String Name="ConfigTypeText">Type kassaconfiguratie:</String>
+				<String Name="ConfirmDeleteTitle">Verwijdering bevestigen</String>
+				<String Name="ConfirmDeleteText">Wilt u deze kassa verwijderen:</String>
+				<String Name="ConfirmExitTitle">Afsluiten bevestigen</String>
+				<String Name="ConfirmExitText">Bent u zeker dat u deze wijzigingen wilt negeren?</String>
+				<String Name="ConfirmSaveTitle">Opslaan bevestigen</String>
+				<String Name="ConfirmSaveText">U staat op het punt de wijzigingen op te slaan in RapNet.xml. Wilt u doorgaan?</String>
+				<String Name="DeleteButtonText">Verwijderen</String>
+				<String Name="DuplicateIPTitle">Dubbel IP-adres</String>
+				<String Name="DuplicateLaneTitle">Dubbele kassa gevonden</String> 
+				<String Name="DuplicateLaneText">Kassa %s bestaat al</String>
+				<String Name="EditLaneTitle">Kassa bewerken</String>
+				<String Name="EmptyText">Leeg</String>
+				<String Name="Enter">Enter</String>
+				<String Name="EnterHostNameInstruction">Voer de hostnaam in en druk op "Enter".</String>
+				<String Name="EnterIPAddressInstruction">Voer het IP-adres in en druk op "Enter".</String>
+				<String Name="EnterIPOctetInstruction">Voer het IP-octet in en druk op "Enter".</String>
+				<String Name="EnterHostNameText">Voer hostnaam kassa in</String>
+				<String Name="EnterIPAddressText">Voer IP-adres kassa in</String>
+				<String Name="EnterIPOctetText">Voer IP-octet in</String>
+				<String Name="ErrorText">Fout</String>
+				<String Name="ExitButtonText">Afsluiten</String>
+				<String Name="FileErrorTitle">Bestand niet gevonden</String>
+				<String Name="FileErrorText">Fout: kan bestand RapNet.xml niet vinden.</String>
+				<String Name="HostNameText">Hostnaam</String>
+				<String Name="IPAddressText">IP-adres</String>
+				<String Name="IPOctetText">IP-octet</String>
+				<String Name="LaneText">Kassa</String>
+				<String Name="MoveButtonText">Verplaatsen</String>
+				<String Name="NoButtonText">Nee</String>
+				<String Name="NoLane">Alle kassa’s zijn verwijderd.</String>
+				<String Name="NoLaneToDelete">Er moeten geen kassa’s meer worden verwijderd.</String>
+				<String Name="NoLaneWarningTitle">RapNet.xml heeft geen kassa’s</String>
+				<String Name="NoLaneWarningText">Waarschuwingen: RapNet.xml heeft geen geconfigureerde kassa’s.</String>
+				<String Name="OkButtonText">OK</String>
+				<String Name="RestartRAPTitle">PBA herstarten</String>
+				<String Name="RestartRAPText">U moet PBA herstarten</String>
+				<String Name="SameRapIPAddress">Kan niet hetzelfde IP-adres gebruiken als het IP-adres van de Desktop PBA: %s</String>
+				<String Name="SameHHRapIPAddress">Kan niet hetzelfde IP-adres gebruiken als het IP-adres van de Handheld PBA: %s</String>
+				<String Name="SaveButtonText">Opslaan</String>
+				<String Name="SelectLaneToDelete">Selecteer een kassa om te verwijderen.</String>
+				<String Name="SelectSourceText">Kies te verplaatsen kassa</String>
+				<String Name="SelectDestinationText">Kies bestemming</String>
+				<String Name="YesButtonText">Ja</String>
+			</StringTable>
+		</Language>
+	</Languages>
+</Display>

@@ -1,0 +1,2795 @@
+﻿AmountSaved,Amount Saved
+Assistance,Assistance
+AssistanceComing,"Assistance is coming, please continue."
+Back,Go Back
+BagItem,Please bag this item.
+BagItemCart,Bag Item
+BagItemOrSkip,"Please bag this item, or choose to skip."
+CallForHelp,Call For Help?
+Cancel,Cancel
+CancelAll,Cancel All
+CancelCoupons,Cancel Coupons
+CancelPayment,Cancel Payment
+CantScanCoupon,"Can't Scan Coupons"
+CartPay,Pay
+Change,Change:
+Confirm,Do you want to stop checking out and cancel your entire purchase?
+ConfirmQuantity,Is {0} correct?
+Continue,Do you wish to continue?
+CouponMessage,Set coupon aside for now. Deposit them at end of purchase.
+DepositCard,Please deposit your depleted gift card in the coupon slot.
+DepositCoupon,Deposit Coupons
+DepositGiftCard,Deposit Gift Card
+Disconnected,Please wait...
+Done,Done
+Due,Due:{0}
+EditCart,Edit Cart
+Enter,Enter
+EnterAmount,Enter Amount
+EnterCouponValue,"Enter coupon's value in cents and touch ""OK"""
+EnterId,Key in your ID.
+EnterPassword,Key in your password.
+EnterPin,Enter Pin
+EnterQuantity,How many do you have?
+EnterWeight,Place the item on the scale:
+Finish,Thanks for shopping with us.
+FinishAndAdd,Finish & Add
+GiftCard,Gift Card Balance
+GoBack,Go Back
+IncorrectLogin,Incorrect operator number\nand password.\nPlease try again.
+InsertCash,Insert Cash
+InsertCoupon,Insert Coupon
+InvalidBarcodeScan,Set item aside and continue \nwith your purchase.
+Item,{0} item
+Items,{0} items
+ItemsAddedFormat,{0} items to be added to cart.
+Language,Language
+NCRCorp,NCR Corp
+No,No
+OK,OK
+Or,or
+OtherPayment,Other Payment
+OtherPaymentMethod,Other payment methods
+OwnBag,Own Bag
+Paid,Paid:{0}
+PayAnotherWay,Pay another way
+PointsEarned,Points Earned
+PrintReceipt,Print Receipt
+Proceed,Continue
+Remove,Remove
+RemovedItem,I removed item
+RestrictedItem,Restricted Item
+ReturnToScan,Go Back
+ScanAndBag,"Scan, search, or key in item code to start."
+ScanCoupon,Scan Coupon
+ScanGiftCard,Scan Gift Card
+ScanNextItem,Please scan next item.
+ScanVoucher,Scan Voucher
+SearchResultsFor,"Search Results for ""{0}"""
+SearchWatermark,Enter Item Name or Code
+SearchItemNameWatermark,Enter Item Name
+SearchKeyInItem,Search or Key in Item
+SelectCashBack,Select Cash Back Amount
+SelectLanguage,Select a Language
+SelectPaymentType,Select Payment Type
+SellBags,"How many plastic bags did you use?  Enter 0 if you didn't use any."
+SignNeeded,Signature Needed
+SignSignature,Sign signature pad.
+SkipBagging,Skip Bagging
+Space,Space
+StartScanning,Start Scanning
+StoreLogin,Store Log In
+TakeCash,Take Your Returned Cash
+TakeChange,Take Change
+TakeReceipt,Take Receipt
+Tax,Tax
+TimeRestrictedItem,Time Restricted Item
+Total,Total
+TouchCancel,Touch cancel on pinpad to cancel payment.
+TryAgain,Try Again
+UnexpectedDecreaseMessage,Return item to bag area.
+UnexpectedIncreaseMessage,Remove item from bag area.
+UsePinpad,Use Pinpad
+VoidItem,"Scan unwanted items, or tap\n""Remove"" on the receipt."
+Volume,Volume
+Yes,Yes
+ItemNumberAmount,NOI :  
+WeightExpected,WE :  
+WeightObserved,WO :  
+UnknownPriceMessage,"Item's price is unknown.\nHelp is on the way.\n\nSet item aside and continue."
+SetAllItemsAsideMessage,Entire purchase cancelled.\n\nSet all items aside.
+ConfirmAbortMessage,Are you sure you want to Empty Cart? The transaction will be cancelled.
+NoKeep,"No, keep."
+NoReturn,"No, return to transaction."
+YesEmpty,"Yes, empty cart and end transaction."
+YesRemove,"Yes, remove."
+HostOfflineMessage,The Lane is offline and the system is attempting to reconnect.
+LaneClosedMessage,Lane Closed
+LoadingText,Loading
+VerifyBagsMessage,"If you have accidentally placed something other than a bag in the bagging area, please remove it now."
+HelpOnWay,Help is on the way.  Please continue.
+OwnBagMessage,Please place your bags on the scale.
+UseOwnBag,"I'm using my own bag"
+AttendantMode,Attendant Mode
+AttendantTrainingMode,Attendant & Training Mode
+TrainingMode,Training Mode
+ScaleBroken,"Remove item from scale and press \n"">0<"" button on scanner."
+Refunded,Refunded:
+EnterIDMessage,"Key in your user ID and touch ""Enter""."
+EnterIDText,Enter ID
+EnterPasswordMessage,"Key in your password and touch ""Enter""."
+EnterPasswordText,Enter Password
+VisualVerify,Visual Verify
+SingleItemAddedFormat,{0} item to be added to cart.
+Approved,Approved
+VoidItemBeforeCouponMessage,"Cannot void item until its coupon is voided. Void item's coupon first."
+VerifyBags,Attendant will verify your bags.
+CancelItems,Cancel Items
+EnterQuantityTitle,Quantity Needed
+SecUnExpectedIncreaseTitle,Bagging Alert
+WeightMismatchTitle,Assistance Needed
+AssistanceNeededTitle,Assistance Needed
+CheckBasketTitle,Check Basket
+ConfirmDebitAmountTitle,Confirm Amount
+DropoffCouponsTitle,Drop Off Coupons.
+InsufficientBalanceTitle,Insufficient Balance
+OperatorPasswordStateInvalidPasswordWithFPTitle,Fingerprint Login Failure
+PurchaseCrateTitle,Purchase Crate
+RestrictedItemTitle,Restricted Item
+SecBagAreaBackupTitle,Backed Up Items
+SignChargeTitle,Sign Receipt
+TakeCardTitle,Take Card
+ContinueTitle,Continue?
+ApprovalNeededTitle,Approval Needed
+IncorrectLoginTitle,Incorrect Number
+RecalledItemTitle,Recalled Item
+RemovedItemTitle,Bagging Alert
+SetAllItemsAsideTitle,Set Items Aside
+TakeLoyaltyCardTitle,Take Loyalty Card
+UnknownPriceTitle,Unknown Price
+ConfirmEBTAmountTitle,Confirm Amount
+DisconnectedTitle,Disconnected
+ShuttingDown,Shutting Down
+NoneText,None
+SMText,Store Mode
+SMLogInReceiptText,Logged into Store Mode
+SMLogOutReceiptText,Logged out of Store Mode
+WLDBOffLineText,Weight Database: Off-line
+OperatorIDText,Operator ID: 
+SignOnButtonText,Sign On
+SignOffButtonText,Sign Off
+AlertText,Alerts:
+SuspendInProgressText,Suspend in progress
+SuspendLeadthru1,A request was made to suspend the current transaction. \nPlease confirm or cancel this request.
+SuspendLeadthru2,"You have suspended the current transaction.  Please confirm this request.  To cancel, touch ""Go Back"" and cancel from NCR SelfServ Checkout Terminal."
+ReceiptText,Receipt:
+SuspendReasonText1,Suspend: General
+CancelSuspendButtonText,Cancel Suspend
+ConfirmSuspendNowButtonText,Confirm Suspend \nNow
+ConfirmAllowSuspendButtonText,Confirm Allow \nSuspend
+ConfirmSuspendRequestButtonText,Confirm Suspend \nRequest
+CancelSuspendNowButtonText,Cancel Suspend \nNow
+GoBackButtonText,Go Back
+CancelSuspendRequestButtonText,Cancel Suspend \nRequest
+CouponText,Coupons:
+SuspendReasonText2,Suspend: Coupons
+CouponReceiptText,%d coupons totaling $%.2f
+SuspendNowButtonText,Suspend Now
+RequestSuspendButtonText,Request Suspend
+NotConnectedText,Not connected.
+ConnectingText,Connecting...Please Wait
+ApprovalNeededText,Approvals Needed:
+SuspendReasonText3,Suspend: Other
+ClearRequestButtonText,Clear Request
+ApproveButtonText,Approve
+RestrictedItemText,Restricted Items:
+SuspendReasonText4,Suspend: Restricted
+SecurityLogText,Security Log:
+SuspendReasonText5,Suspend: Security
+SignatureText,Signature:
+SignatureAndNameText,Signature: %s
+ConnectingLeadthru,Connecting to NCR SelfServ Checkout...Please wait
+EnterIDLeadthru,Enter ID using keypad below.
+EnterPasswordLeadthru,Enter password using keypad below.
+LoggingInLeadthru,Logging in...Please wait
+ApproveSecurityButtonText,Approve Security
+ApprovalNeededButtonText,Approval Needed
+VerifySignatureButtonText,Verify \nSignature
+AllowSuspendButtonText,Allow Suspend
+MainButtonText,Main
+SuspendTransactionButtonText,Suspend Transaction
+ApproveAndCollectButtonText,Approve & Collect
+ClearApprovalsButtonText,Clear Approvals
+BirthDateOver30ButtonText,Birthdate over 30
+SignAgainButtonText,Sign Again
+BackSpaceButtonText,Backspace
+EnterButtonText,Enter
+LaneNumberText,Lane: %d
+RAPTitle,NCR SelfServ Checkout\nRemote Approval Station
+CancelSuspendText,Cancel Suspend
+OtherPaymentSelectedText,Other Payment selected
+CouponCollectionText,Coupon Collection
+PendingSuspendText,Pending Suspend
+SignatureApprovalText,Signature Approval
+LaneText,Lane
+VideoButtonText,Video
+ClearButtonText,Clear
+QuantityButtonText,Quantity
+FeesAndCustomerAgreementsTitle,Fees && Customer Agreements:
+FeesButtonText,Fees
+CustomerAgreementButtonText,Customer Agreement
+FeesAndCustomerAgreementsLeadthru,Fees & Customer Agreements
+TransactionSuspendedText,Transaction Suspended
+POSMessageText,POS Message:
+ConnectingWaitingText,"Please wait, connecting to NCR SelfServ Checkout..."
+DateOfBirthNotNeededButtonText,Date not needed
+AssistModeButtonText,Assist Mode
+ClearSecurityButtonText,Clear Security
+VisualApproveButtonText,Visual Approve
+CheckAgeTitle,"Check Customer's Age"
+CouponLimitExceededTitle,Coupon Limit Exceeded
+VerifyItemAndPriceTitle,Verify Item and Price
+UnknownItemTitle,Unknown Item Put Aside
+ItemNotForSaleTitle,Item Not For Sale
+ItemQuantityExceededTitle,Item Quantity Exceeded
+TimeRestrictedItemTitle,Time Restricted Item
+CheckAgeLeadthru,"Key in birth date %s and touch ""Enter""."
+InvalidBirthDateFormatLeadthru,Format of Date Entered is invalid \nEnter again in %s format.
+CouponLimitExceededLeadthru,"Touch ""Approve"" to allow coupon deposit at lane or touch ""Approve & Collect"" and collect from customer."
+VisualApproveLeadthru,"Touch ""Visual Approve"", or touch ""Assist Mode"" to modify transaction."
+UnknownItemLeadthru,"Collect item at lane and touch ""Clear Security"", or touch ""Assist Mode"" to complete transaction."
+ItemNotForSaleLeadthru,"Collect item at lane and touch ""Clear Security""."
+OffLineLaneButtonText,Offline
+ExitText,Exit
+EnterDataLaneButtonText,Enter Data
+AgeCheckLaneButtonText,Age Check
+CouponLaneButtonText,Coupon
+VoidLaneButtonText,Void
+VerifyItemLaneButtonText,Verify Item
+NotFoundLaneButtonText,Not Found
+NoSaleLaneButtonText,No Sale
+QuantityLaneButtonText,Quantity
+HelpLaneButtonText,Help
+NoInterventionLeadthru,No Intervention is currently required.
+OffLineLeadthru,The Lane is currently offline and the system is attempting to automatically reconnect.
+CancelRequestButtonText,Cancel Request
+HelpRequestTitle,Help Requested
+SecurityLaneButtonText,Security
+VoidLeadthru,"Collect voided item and touch ""Approve Void""."
+ApproveVoidButtonText,Approve Void
+SecurityLeadthru,"Monitor customer transaction for security and touch ""Clear Security""."
+SecurityViolationText,Security Violation
+OtherPaymentText,"""Other Payment"" Selected"
+SuspendTransactionLeadthru,"Touch ""Suspend Transaction"" or ""Assist Mode"" and accept payment."
+EASText,EAS Item still active
+DeactivateLeadthru,"Deactivate item or remove hard tag and touch ""Clear Security""."
+CompareSignatureTitle,Compare Signatures
+CompareSignatureLeadthru,"Compare signatures and touch ""Approve"", or ""Sign Again""."
+EnterPriceLeadthru,"Key in item's price and touch ""Enter""."
+UtilityButtonText,Utility
+ReturnToMainButtonText,Return to Main
+GetDiagFilesButtonText,Get Diag Files
+CouponApprovalLeadthru,"Accept coupons from customer at the approval station and touch ""Approve""."
+RebootSystemButtonText,Reboot Entire System
+ShutDownSystemButtonText,Shut Down Entire System
+LaneStatusTitle,Lane Status
+LaneStatusLeadthru,Select function.
+AgeRestrictedText,Age restricted item; %2d yrs old
+BirthdateEnterText,"Birthdate entered:%2d/%2d/%4d,%d years old"
+HelpRequestLeadthru,"Touch ""Cancel Request"" after helping customer."
+TotalText,Total:
+ItemText,Items:
+MultimediaTrainingText,Multimedia Training
+VolumeControlButtonText,Volume Control
+SecurityViolationNumText,Security Violations:
+ItemPurchasedText,Items Purchased:
+EnterPriceTitle,Price Entry
+CancelTransactionGenericTitle,Cancel Transaction
+CancelTransactionGenericLeadthru,"Touch ""Yes"" to cancel transaction or touch ""No"" to resume transaction."
+YesButtonText,Yes
+NoButtonText,No
+ConfirmSuspendTitle,Suspend:
+ConfirmSuspendLeadthru,Confirm Suspend.
+ConfirmSuspendButtonText,Confirm Suspend
+IncorrectItemWeightTitle,Incorrect weight on security scale.
+IncorrectItemWeightLeadthru,"Remove item and touch ""Clear Security"", or touch ""Approve & Update Weight""."
+ApproveUpdateButtonText,Approve & Update Weight
+UnexpectedIncreaseTitle,Unexpected item on security scale.
+UnexpectedIncreaseLeadthru,"Go to lane, remove extra items and touch ""Clear Security""."
+SkipBaggingBtnThresholdLeadthru,"Check items at lane and touch ""Clear Security""."
+NewWeightItemTitle,No record of item weight.
+NewWeightItemLeadthru,"Verify item weight and touch ""Approve & Update Weight"", or touch ""Approve/No Update""."
+ApproveNoUpdateButtonText,Approve/No Update.
+BagItemTimerExpiredTitle,Weight expected on security scale.
+TakeChangeTimerExpiredTitle,Take Change
+TakeChangeTimerExpiredBottomCaption,Timer expired
+PickingUpItemsTimerExpiredTitle,Items not returned to bagging area.
+DeviceFailureTitle,Device Malfunction
+DeviceFailureLeadthru,Go to lane and check device.
+WLDBFailureTitle,WLDB not communicating correctly.
+WLDBFailureLeadthru,Check the communication.
+UnexpectedDecreaseTitle,Item removed from bagging area.
+ClosedLaneTitle,Go to lane and log into Store Mode to open lane.
+ClosedLaneLeadthru,Lane Closed
+BagAreaBackupTitle,Backed Up Items on Belt
+BagAreaBackupLeadthru,Clear backed up items on belt.
+MinimumAgeText,Years old minimum.
+SafetyCoverOpenLeadthru,Remove all items from belt and close safety cover.
+VerifySignatureLeadthru,"Compare the customer's signature with the one on the card."
+AssistedTenderTitle,Operator Assisted Tender
+AssistedTenderLeadthru,Use assist mode to accept check from customer.
+AssistedTenderHHLeadthru,Use the Attendant Station to accept payment.
+AssistedEndorsementLeadthru,Endorsement Needed. Please wait for operator assistance.
+StartTransactionButtonText,Start Transaction
+StartTransactionTitle,Operator Assisted Functions
+StartTransactionLeadthru,Select desired function.
+StartTransactionAMButtonText,Start & Assist
+ItemsForgottenTitle,Weight remains\non bag scale.
+InsertCouponTimerExpiredTitle,Insert Coupon
+CollectGiftCardTitle,Collect Gift Card
+HostOfflineLeadthru,The Lane is offline and the system is attempting to reconnect.
+SpaceButtonText,Space
+LaneReceiptItemType1,%s\t%s
+LaneReceiptItemType2,%s
+LaneReceiptItemType3,%s\t%s\tQty %s @ %s/each\t%s
+LaneReceiptItemType4,%s\t%s\tQty %s @ %s/%s\t%s
+LaneReceiptItemType5,%s\t%s\t%ss @ %s %s/%s\t%s
+LaneReceiptItemType6,%s\t%s\t%ss @ %s/%s\t%s
+CloseLaneButtonText,Close Lane
+ReportingButtonText,Reporting
+KeyInCodeTitle,Key In Code
+KeyInCodeLeadthru,"Key in the item's code and touch ""OK""."
+VoidItemButtonText,Void Item
+ChangePriceButtonText,Price Change
+ChangeQuantityButtonText,Quantity Change
+ReturnToShoppingButtonText,Return to Shopping Mode
+BasicAssistModeTitle,Assist Functions
+BasicAssistModeLeadthru,Scan item or select function.
+ChangePriceTitle,Change Price
+KeyInPriceLeadthru,Key in price for: %d %s
+VoidAllButtonText,Void All
+VoidItemTitle,Void Items
+VoidItemLeadthru,"Scan or scroll to item on receipt and touch ""Void Item"" or ""Void All""."
+ChangeQuantityTitle,Change Quantity
+KeyInQuantityLeadthru,Key in quantity for: %s
+FullAssistButtonText,Full Assist
+CloseButtonText,Close
+UpdateItemLeadthru,"Scroll to item on receipt and touch ""Enter""."
+OKButtonText,OK
+CouponNoMatchLeadthru,Coupon does not match any item on receipt. This coupon cannot be accepted.
+CouponTooHighLeadthru,The amount you entered for this coupon was too high.  This system cannot accept this coupon.
+EnterCouponValueLeadthru,"Enter coupon's value in cents and touch ""Enter""."
+ItemQuantityExceededLeadthru,You have exceeded the quantity allowed for this item.  Please put it aside and continue.
+ProcessingLeadthru,Processing...Please wait.
+VoidNoMatchLeadthru,"Cannot find scanned item.  It has not been purchased yet, or it has already been cancelled."
+ConfirmAbortLeadthru,Do you want to stop checking out and cancel your entire purchase?
+ContinueTransLeadthru,Would you like to continue with your purchase?
+ConfirmQuantityTitle,Confirm Quantity
+ConfirmVoidTitle,Confirm Cancel
+CouponNoMatchTitle,Unmatched Coupon
+CouponTooHighTitle,Coupon Too High
+CrateableItemTitle,Purchase Crate
+EnterCouponValueTitle,Enter Coupon Value
+EnterQuantityLeadthru,"Key in the quantity and touch ""Enter""."
+EnterWeightTitle,Weigh Item
+EnterWeightLeadthru,Go to the lane and place item on scale.
+AMItemQuantityExceededTitle,Quantity Limit
+ProcessingTitle,Processing...
+SelectContainerTitle,Select Container
+SelectContainerLeadthru,"Select container from list and touch ""Enter""."
+VoidNoMatchTitle,Cannot Cancel Item
+ConfirmAbortTitle,Cancel All Items
+ContinueTransTitle,Continue?
+ScaleBrokenTitle,Reset Scale
+ScaleBrokenLeadthru,"Remove item from scale, and press ""Scale Zero"" button on scanner."
+UpdateNotAllowedTitle,Cannot Update Item
+UpdateNotAllowedLeadthru,Quantity change for weighed item is not allowed.
+SmEnterBirthdateTitle,Restricted Items
+SmEnterBirthdateLeadthru,"Key in customer's birth date"
+SmVisualItemsTitle,Visual Validations
+SmVisualItemsLeadthru,Approve Visual Validation Items
+SmCouponItemsTitle,Approve Used Coupons
+SmCouponItemsLeadthru,Check used coupons
+SmRestrictedItemsTitle,Restricted Items
+SmRestrictedItemsLeadthru,Select desired function.
+KeyInBirthDateButtonText,Key in date
+KeyInCodeButtonText,Key In \nCode
+SmRunReportsTitle,Report Content
+PrintReportButtonText,Print Report
+LaneReceiptItemType7,    %s
+AM_RestrictedNotAllowedTitle,Restricted Item
+AM_RestrictedNotAllowedLeadthru,Restricted item has been cancelled - age limit not met. \n\nPlease put item aside.
+TransactionCancelTitle,Transaction Cancel
+TransactionCancelLeadThru,Transaction cancelled. Remove items from \ncheckstand.
+OutOfSyncNeedAssistTitle,ASSIST
+OutOfSyncNeedAssistLeadthru,"POS is out-of-sync, please go to Assist Mode to resynchronize."
+OutOfSyncStopTitle,REBOOT
+OutOfSyncStopLeadthru,"POS server is down or out-of-sync, please shutdown the terminal using switch."
+MultiPackItemTitle,Check for multi-pack
+MultiPackItemLeadthru,"If item is a multi-pack, touch ""Assist Mode"" and void it, then scan multi-pack barcode."
+CancelActionButtonText,Cancel Action
+EnterIDFpLeadthru,"Key in your user ID and touch ""Enter"", or place your finger on the fingerprint reader to log in."
+ReEnterIDFpLeadthru,Invalid login. Please login again using the keypad or your fingerprint.
+HH_SuspendLeadthru1,Suspend current transaction? Confirm or Cancel.
+HH_SuspendLeadthru2,"Current transaction suspended. Confirm. To cancel, touch ""Go Back"" and cancel."
+HH_ReEnterIDLeadthru,Incorrect ID or password. Please re-enter on keypad.
+HH_CheckAgeLeadthru,"Key in birth date %s and touch ""Enter""."
+HH_CouponLimitExceededLeadthru,"""Approve"" for coupons at lane or ""Approve & Collect"" to collect from customer."
+HH_VisualApproveLeadthru,"""Visual Approve"", or ""Assist Mode"" to modify transaction."
+HH_VisualApproveLeadthru2,"""Visual Approve"", or ""Assist Mode"" at Lane to modify."
+HH_UnknownItemLeadthru,"Collect item, ""Clear Security"", or ""Assist Mode"" to complete."
+HH_UnknownItemLeadthru2,"Collect item, ""Clear Security"", or use ""Assist Mode"" at Lane to complete."
+HH_ItemNotForSaleLeadthru,"Collect item at lane and ""Clear Security""."
+HH_NoInterventionLeadthru,No Intervention is required.
+HH_OffLineLeadthru,Lane is offline. System attempting to reconnect.
+HH_InvalidBirthDateFormatLeadthru,Date format is invalid \nEnter in %s format.
+HH_VoidLeadthru,"Collect voided item and ""Approve Void""."
+HH_SuspendTransactionLeadthru,"Touch ""Suspend Trans"" to suspend transaction."
+HH_DeactivateLeadthru,"Deactivate item or remove hard tag and ""Clear Security""."
+HH_CompareSignatureLeadthru,"Compare signatures and ""Approve"", or ""Sign Again""."
+HH_EnterPriceLeadthru,"Key in item's price and ""Enter""."
+HH_CouponApprovalLeadthru,"Accept coupons from customer and ""Approve""."
+HH_HelpRequestLeadthru,"""Cancel Request"" after helping customer."
+HH_CancelTransactionGenericLeadthru,"""Yes"" to cancel transaction or ""No"" to resume."
+HH_IncorrectItemWeightLeadthru,"Remove item and ""Clear Security"", or ""Approve & Update Weight""."
+HH_UnexpectedIncreaseLeadthru,"Remove extra items at lane and ""Clear Security""."
+HH_SkipBaggingBtnThresholdLeadthru,"Check items at lane and ""Clear Security""."
+HH_NewWeightItemLeadthru,"Verify weight and ""Approve & Update Weight"", or ""Approve/No Update""."
+HH_SafetyCoverOpenLeadthru,Remove all items from belt. Close safety cover.
+HH_VerifySignatureLeadthru,"Compare customer's signature with one on card."
+HH_AssistedEndorsementLeadthru,Endorsement Needed. Wait for operator assistance.
+HH_HostOfflineLeadthru,Lane is offline. System attempting to reconnect.
+HH_KeyInCodeLeadthru,"Key in the item's code and ""Enter""."
+HH_VoidItemLeadthru,"Scan or scroll to item on receipt. ""Void Item"" or ""Void All""."
+HH_UpdateItemLeadthru,"Scroll to item on receipt and ""Enter""."
+HH_CouponNoMatchLeadthru,Coupon does not match any item on receipt. Coupon not accepted.
+HH_CouponTooHighLeadthru,Coupon amount too high. System cannot accept.
+HH_ItemQuantityExceededLeadthru,Quantity allowed exceeded. \n\nPut item aside and continue.
+HH_VoidNoMatchLeadthru,Cannot find scanned item. Item not purchased or was cancelled.
+HH_ConfirmAbortLeadthru,Stop checking out and cancel entire purchase?
+HH_ContinueTransLeadthru,Continue with your purchase?
+HH_EnterQuantityLeadthru,"Key in the quantity and ""Enter""."
+HH_SelectContainerLeadthru,"Select container from list and ""Enter""."
+HH_ScaleBrokenLeadthru,"Remove item from scale and ""Scale Zero"" on scanner."
+HH_UpdateNotAllowedLeadthru,Quantity change not allowed.
+HH_AM_RestrictedNotAllowedLeadthru,Restricted item cancelled - age limit not met. Put item aside.
+HH_OutOfSyncNeedAssistLeadthru,"POS out-of-sync, ""Assist Mode"" to resynchronize."
+HH_OutOfSyncStopLeadthru,"POS server down or out-of-sync, shutdown terminal using switch."
+HH_MultiPackItemLeadthru,"If multi-pack, ""Assist Mode"", void, then scan multi-pack barcode."
+HH_ReturnToShoppingButtonText,Return
+DoneButtonText,Done
+ConfirmSuspendFromLaneStatusLeadthruText,Confirm or cancel suspend.
+HH_SuspendTransactionButtonText,Suspend Trans
+HH_TransactionCancelTitle,Transaction Cancel
+HH_TransactionCancelLeadThru,Transaction cancelled. Remove items from checkstand.
+ShiftButtonText,Shift
+FixLaterButtonText,Fix Later
+HopperLaneButtonText,Coin Substitution
+HopperLeadThru,"%sGo to lane and refill coins or clear jam or touch ""Fix Later"" to continue"
+TransactionCountText,Count:
+SecurityDisableText,Security Disabled
+SecurityDisableButtonOn,Turn On
+SecurityDisableButtonOff,Turn Off
+SecurityDisableStatusTextOn,Bagging Security is on
+SecurityDisableStatusTextOff,Bagging Security is off
+SuspendDeclinedLaneButtonText,Suspend Declined
+ConfirmSuspendDeclinedLeadthru,Confirm or Cancel Suspension Decline.
+ConfirmSuspendDeclinedButtonText,Confirm Decline
+CancelSuspendDeclinedButtonText,Go Back
+TMTransLeadthru,"Lane is in training mode,\ncontinue with the transaction?"
+HH_TMTransLeadthru,"Lane is in training mode,\ncontinue with the transaction?"
+TMTransLaneButtonText,Training Trx
+DateFormat1,(mmddyyyy)
+DateFormat2,(mmddyy)
+DateFormat3,(ddmmyyyy)
+DateFormat4,(ddmmyy)
+DateFormat5,(yyyymmdd)
+DateFormat6,(yymmdd)
+GoBackCouponButtonText,Go Back
+ApproveCouponButtonText,Approve Coupon
+CouponExceededLimitLeadthru,"Touch ""Approve Coupon"" to accept the coupon or go to Assist Mode to void it."
+CouponExceededLimitFinalizationLeadthru,The transaction was finalized using a coupon that exceeds the store coupon limit.
+ClearSecurityFinalizationButtonText,Clear Security
+ExpandReceiptButtonText,Expand Receipt
+CollapseReceiptButtonText,Collapse Receipt
+InvalidBarcodeLeadThru,"Collect item at lane and touch ""Approve"" to continue transaction."
+InvalidBarcodeLaneButtonText,Verify Item
+HH_InvalidBarcodeLeadThru,"Collect item, Touch ""Approve"" to continue transaction."
+GoToLaneOrHHRapLeadthru, Please go to Lane or HHRap for approval
+GoToLaneOrRapLeadthru, Please go to Lane or Rap for approval
+GoToLaneLeadthru, Please go to Lane for approval
+DisableRapApprovalText, Disable RAP Approval
+DisableHHRapApprovalText, Disable HHRAP Approval
+UpdateItemButtonText,Update Item
+SuspendConfirmationTitle,Suspend Confirmation
+DoNotApproveButtonText,Do Not Approve
+SmVoidAndRemoveItemLeadthru,Please remove the cancelled item from the bagging area.
+RestrictedItemsNotApprovedTitle,Restricted Items - Not Approved
+HH_AssistAtLaneLeadthru,Go to the Lane to void items.
+XM_Acceptor,Acceptor
+XM_CashStatus,Cash Status
+XM_CashStatusLeadthru,Select desired function.
+XM_CoinAcceptor,Coin Acceptor
+XM_CoinOverflow,Coin Overflow
+XM_CoinOverflowText,Overflow
+XM_CoinRecycler,Coin Recycler
+XM_Coins,Coins
+XM_NoteOverflow,Note Overflow
+XM_NoteOverflowText,Cash Box
+XM_NoteRecycler,Note Recycler
+XM_Notes,Notes
+XM_PurgeOperationText,Purge Operations
+XM_TerminalNumber,Terminal Number
+XM_TotalCount,Total Count:
+XM_TotalValue,Total Value:
+XM_CoinsSubtotal,Coins Subtotal:
+XM_NotesSubtotal,Notes Subtotal:
+XM_GrandTotal,Grand Total:
+XM_PurgeInstruction,Purge Operations:  Rejected notes detected. Go to lane and check device.
+XM_RAP_NegativeAlert,Negative number found. Go to lane and check device.
+XM_AreYouSure,Are you sure you want to perform the actions listed below?
+XM_Attendant,Attendant
+XM_Backspace,Backspace
+XM_BillAcceptor,Note Acceptor
+XM_BillDispenser,Note Dispenser
+XM_Bins,Bins
+XM_BothDispenseFailure,Failed to dispense %s.\nLow cash or dispenser in error.
+XM_CancelChanges,Cancel Changes
+XM_CannotCompleteTransfer,Cannot complete transfer.  The cash box\ndoes not have sufficient space.\nPlease empty the cash box before performing this operation.
+XM_CashManagement,Cash Management
+XM_CashManagementReport,Cash Management Report
+XM_CashRemove,Remove Cash
+XM_CashRemoveLeadthru,Select desired function.
+XM_CashReplenishLeadthru,Select desired function.
+XM_CashReplenishLeadthru1,Insert coins or select function.
+XM_CashReplenishLeadthru2,Insert cash or select function.
+XM_CashReplenishLeadthru3,"When complete, touch ""Exit""."
+XM_CashReplenishment,Add Cash
+XM_ChangeInCount,Change in Count
+XM_ChangeInValue,Change in Value
+XM_Clear,Clear
+XM_ClearPrompt1,"When complete, select another function or ""Exit""."
+XM_ClearPrompt2,"Select another function or ""Exit""."
+XM_CoinAcceptorOffline,Coin acceptor not responding.\n\nShut down and restart terminal.
+XM_CoinDispenseFailure,Failed to dispense %s.\nLow coins or coin dispenser in error.
+XM_CoinDispenser,Coin Dispenser
+XM_CoinManagement,Coin Management
+XM_ConfirmAction,Confirm Actions
+XM_ConfirmCoinDispense,* Dispense Coins\nAmount to dispense: %s\nCount to dispense: %d
+XM_ConfirmEmptyCoinAcceptor,* Reset Coin Acceptor Counts to Zero\nAmount to remove:%s
+XM_ConfirmEmptyCoinOverflow,* Reset Coin Overflow Counts to Zero\nAmount to remove:%s
+XM_ConfirmEmptyNoteAcceptor,* Reset Note Acceptor Counts to Zero\nAmount to remove:%s
+XM_ConfirmEmptyNoteOverflow,* Reset Cash Box Counts to Zero\nAmount to remove:%s
+XM_ConfirmFillLoaderCassette,* Set Note Counts\nNew Amount: %s\nNew Count: %d
+XM_ConfirmManualCoinEmpty,* Reset Coin Counts to Zero\nAmount to remove: %s\nCount to remove: %d
+XM_ConfirmManualCoinFill,* Set Coin Counts\nNew Amount: %s\nNew Count: %d
+XM_ConfirmManualNoteEmpty,* Reset Note Counts to Zero\nAmount to remove: %s\nCount to remove: %d
+XM_ConfirmManualNoteFill,* Set Note Counts\nNew Amount: %s\nNew Count: %d
+XM_ConfirmNoteDispense,* Dispense Notes\nAmount to dispense: %s\nCount to dispense: %d
+XM_ConfirmTransferNotesToOverflow,* Transfer Notes to Cash Box\nAmount to transfer: %s\nCount to transfer: %d
+XM_Count,Count
+XM_DispenseCupFull,Coin return is full. Please remove the coins to finish dispensing.
+XM_DispenseCupFullPreemptive,"Please Take Coins\nIf coin return is full, empty promptly.  Dispensing will pause until bowl is emptied."
+XM_DispenseFullPreemptive,"Please Take Notes and Coins\nNotes are dispensed in bunches of 15. Dispensing will pause until all notes are taken. If coin return is full, empty promptly. Dispensing will pause until bowl is emptied."
+XM_DispenseNoteFullPreemptive,Please Take Notes\n\nNotes are dispensed in bunches of %d.\nDispensing will pause until all notes are taken.
+XM_DispenseSensorBlock,Coin return may be full or sensor is broken. Please remove coins or call for service.
+XM_DispenseText,Dispense
+XM_DispenseThreshold,Number entered exceeded count available to dispense.\nMaximum count was entered: %d
+XM_Empty,Empty
+XM_EmptyCashAcceptorLT,Remove notes from Cash Acceptor
+XM_EmptyCashBoxLT,Remove notes from Cash Box
+XM_EmptyCoinAcceptor,Reset Coin Acceptor
+XM_EmptyCoinAcceptorLT,Remove coins from Coin Acceptor
+XM_EmptyCoinHopperLT,Remove coins from device.
+XM_EmptyCoinOverflow,Reset Coin Overflow
+XM_EmptyCoinOverflowLT,Remove coins from Coin Overflow
+XM_EmptyLoaderCassetteLT,Remove notes from Loader Cassette
+XM_EmptyNoteAcceptor,Reset Note Acceptor
+XM_EmptyNoteCassetteLT,Remove notes from Note Cassettes and Purge Bin
+XM_EmptyNoteOverflow,Reset Cash Box
+XM_Enter,Enter
+XM_ExceededAmount,Amount exceeds capacity. Maximum amount needed is %s.
+XM_ExceededCapacity,Count exceeds capacity. Maximum load count needed is %d.
+XM_Execute,Apply Changes
+XM_Exit,Exit
+XM_FastLaneReport,NCR SelfServ Checkout Report
+XM_FillLoaderCassette,Set Note Counts
+XM_GoBack,Go Back
+XM_ID,Cashier ID
+XM_IDPrompt,"Key in ID and touch ""Enter""."
+XM_InvalidAmount,The value entered for %s is not valid.\nPlease enter again.
+XM_KeyPadEnterCoinAmount,Enter amount for %s coins using keypad.
+XM_KeyPadEnterCoinCount,Enter count for %s coins using keypad.
+XM_KeyPadEnterNoteAmount,Enter amount for %s notes using keypad.
+XM_KeyPadEnterNoteCount,Enter count for %s notes using keypad.
+XM_KeyPadInstr,Enter count using keypad
+XM_ManualBothFillAlert,Open lane door and deposit notes into the cassettes and coins into the hoppers. Do not feed them into the acceptors.
+XM_ManualBothRecyclerFillAlert,Open lane door and deposit notes into the loader and coins into the hoppers. Do not feed them into the acceptors.
+XM_ManualCoinDispenserEmpty,Reset Coin Counts
+XM_ManualCoinDispenserFill,Set Coin Counts
+XM_ManualCoinFillAlert,Open lane door and deposit coins directly into the device. Do not feed them into the coin acceptor.
+XM_ManualEmptyAlert,Remove All Cash From Device.
+XM_ManualFillAlert,Open lane door and deposit cash directly into the device. Do not feed it into the acceptors.
+XM_ManualNoteDispenserEmpty,Reset Note Counts
+XM_ManualNoteDispenserFill,Set Note Counts
+XM_ManualNoteFillAlert,Open lane door and deposit notes directly into the cassette. Do not feed them into the note acceptor.
+XM_ManualNoteRecyclerFillAlert,Open lane door and deposit notes directly into the loader. Do not feed them into the bill acceptor.
+XM_No,No
+XM_NoteDispenseFailure,Failed to dispense %s.\nLow notes or note dispenser in error.
+XM_PW,Cashier Password
+XM_PWPrompt,"Key in password and touch ""Enter""."
+XM_PendingText,Pending
+XM_PleaseWait,Processing...\n\nPlease wait.
+XM_Print,Print Cash Status
+XM_PurgeCoinRecycler,Purge Coin Recycler
+XM_PurgeNoteRecycler,Purge Note Recycler
+XM_ReEnter,Incorrect Cashier number and password.\nPlease try again
+XM_ResetCoinsToBaseLevel,Dispense Coins To Base Level
+XM_ResetNotesToBaseLevel,Transfer Notes to Base Level
+XM_SelectFunc1,Select system function
+XM_SelectFunc2,Select function.
+XM_StoreNumber,Store #:
+XM_TransferAllNotes,Transfer All Notes
+XM_TransferNotesToOverflow,Transfer Notes to Cash Box
+XM_Update,Update
+XM_Yes,Yes
+XM_SequenceNumber,Sequence Number
+XM_CardManagement,Card Management
+XM_TotalCoinsInserted,Total Inserted
+XM_TotalNotesInserted,Total Inserted
+XM_Value,Value
+XM_TransferXCount,Transfer (x) Count
+XM_TransferXAmount,Transfer (x) Amount
+XM_PickUpAutoAmount,Pick Up Auto Amount
+XM_PickUpXAmount,Pick Up (x) Amount
+XM_TransfertoCashBoxLeadThruText,"To transfer %s note(s) to the Cash Box, touch ""Apply Changes"". To undo all pending changes, touch ""Cancel Changes""."
+XM_MenuDispenseFunctions,Dispense Functions
+XM_MenuResetFunctions,Reset Functions
+XM_MenuCashBoxTransfer,Cash Box Transfers
+XM_MenuPickUpFunctions,Pick Up Functions
+XM_LeadThruCashBoxTransfer,"Select desired transfer function.\nWhen finished, ""Apply Changes""."
+XM_LeadThruResetFunction,"Select desired reset function.\nWhen finished, ""Apply Changes""."
+XM_LeadThruDispenseFunction,"Touch denomination and enter amount\nor touch ""Dispense Coins to Base Level""."
+XM_LeadThruPickUpFunction,"Select desired pick up function.\nWhen finished, ""Apply Changes""."
+XM_PurgeInstructionRecycler,"Purge Operations:  Rejected notes detected.  Remove rejected notes from cash box.  Clear alert by touching ""Transfer All Notes"" and then ""Reset Cash Box""."
+XM_PurgeInstructionNonRecycler,"Purge Operations: Rejected notes detected.  Remove rejected notes from purge bin.  Clear alert by touching ""Reset Note Counts""."
+XM_ReplenishInstruction,"Insert cash or select denomination and enter amount, or set counts.\nWhen finished, ""Apply Changes""."
+XM_KeyPadEnterPickUpAmount,Enter pickup amount using keypad.
+XM_InvalidPickUpAmount,The value entered is greater than the available amount that can be transferred or dispensed.
+XM_InvalidStartingBank,The starting bank configured is greater than the available amount that can be transferred or dispensed.
+XM_CalculatedPickUpAmount,The calculated pickup amount is %s.
+XM_UnableToPickUp,Unable to perform pickup.
+XM_CoinAllowedDispenseExceeded,Attempting to dispense %d coins. Maximum coins allowed to dispense is %d.
+XM_InvalidPickUpAmount2,The amount in the cashbox and coin overflow is greater than the pickup amount.
+XM_LockScreen,Lock Screen
+XM_SystemBusy,System busy....Please wait
+XM_AreYouSure_LockScreen,Are you sure you want to lock the screen?\nThe screen cannot be unlocked until the devices finish their task.
+XM_NegativeAlert,"Negative number found. Possible causes: keying error occurred, or notes were placed in the loader cassette, but the counts for these notes were not entered in Cash Management.\n\nFollow steps below to resolve:\n1. Select ""Add Cash"".\n2. Touch the denomination with the negative number.\n3. Enter the exact dollar amount of the negative number and/or the amount placed in the loader.\n4. Select ""Apply Changes"".\n5. Select ""Yes"" to confirm and then ""Exit""."
+XM_AddCashLeadthru1,"Insert coins or touch cylinder and enter amount, or set counts."
+XM_AddCashLeadthru2,"Insert cash or touch cylinder and enter amount, or set counts."
+XM_AddCashLeadthru3,"Touch cylinder and enter amount, or set counts."
+XM_CoinHopperEmpty,"Coin hopper must be emptied in order to reset coin counts to zero. Empty each coin hopper bin before touching ""Apply Changes""."
+XM_CollectRemainingCoins,Remove coins from coin return when dispense has completed.
+XM_FPIDPrompt,"Key in your user ID and touch ""Enter"", or place your finger on the fingerprint reader to log in."
+XM_LoanFailure,Loan Failure
+XM_LoanFailureLeadthru,Loan was rejected. Select desired function.
+XM_UndoLoan,Undo Loan
+XM_CommitLoan,Commit Loan
+XM_PickUpFailure,Pickup Failure
+XM_PickUpFailureLeadthru,Pickup was rejected. Select desired function.
+XM_UndoPickUp,Undo Pickup
+XM_CommitPickUp,Commit Pickup
+XM_ManualRemoveCashAlert,Remove cash from the cash box and coins from the coin overflow bin to undo loan.\n\nBills\nCount to remove: %d\nAmount to remove: %s\n\nCoins\nCount to remove: %d\nAmount to remove: %s
+XM_POSRejectedLoanPickUp,POS rejected loan/pickup:  %s / %d  rejected.\n
+XM_LoanPickUpCashierOverrides,Cashier ID %s override of loan/pickup: %s / %d  committed.\n\n
+XM_PlaceJammedBill,Remove the cash box and place any jammed notes inside.
+MinMaxFastLaneBtnPrimaryTxt,Minimize SelfServ Checkout
+MinMaxFastLaneBtnSecondaryTxt,Maximize SelfServ Checkout
+MinMaxFastLaneBtnPrimaryShowConfirmation,"To minimize SelfServ Checkout, touch the ""Minimize SelfServ Checkout"" button."
+MinMaxFastLaneBtnSecondaryShowConfirmation,"To maximize SelfServ Checkout, touch the ""Maximize SelfServ Checkout"" button."
+StopStartFastLaneBtnPrimaryTxt,Stop SelfServ Checkout
+StopStartFastLaneBtnSecondaryTxt,Start SelfServ Checkout
+SwitchToRAPBtnPrimaryTxt,Switch To RAP
+ShutdownSystemBtnPrimaryTxt,Shut Down Entire System
+RebootSystemBtnPrimaryTxt,Reboot Entire System
+VolumeBtnPrimaryTxt,Volume Control
+EventViewerBtnPrimaryTxt,Event Viewer
+GenerateLogBtnPrimaryTxt,Generate Diagnostic Log Files
+ExitFastLaneAndRunProfileBtnPrimaryTxt,Stop SelfServ Checkout and Run Profile Manager
+ExitFastLaneAndRunProfileBtnSecondaryTxt,Run Profile Manager
+TerminalInfoBtnPrimaryTxt,Terminal Information
+MinMaxRAPBtnPrimaryTxt,Minimize RAP
+MinMaxRAPBtnSecondaryTxt,Maximize RAP
+MinMaxRAPBtnPrimaryShowConfirmation,"To minimize RAP, touch the ""Minimize RAP"" button."
+MinMaxRAPBtnSecondaryShowConfirmation,"To maximize RAP, touch the ""Maximize RAP"" button."
+StopStartRAPButtonPrimaryTxt,Stop RAP
+StopStartRAPButtonSecondaryTxt,Start RAP
+RapConfigureBtnPrimaryTxt,RAP Configure
+SwitchToFastLaneBtnPrimaryTxt,Switch To SelfServ Checkout
+ExitRAPAndRunProfileBtnPrimaryTxt,Stop RAP and Run Profile Manager
+ExitRAPAndRunProfileBtnSecondaryTxt,Run Profile Manager
+UtilityFunctionsTitle,NCR SelfServ Checkout\nUtility Functions
+StartTitle,System Startup
+SystemStartup,System starting...please wait
+TerminalID,Terminal ID: 
+InterfaceVersion,Software version: 
+TrainingProgramPrimaryTxt,Training Program
+LaunchPadNet_OperatorIDText,Operator ID: 
+KeySwitchOperatorID,Keylock
+LaunchPadNet_SignOnButtonText,Sign On
+LaunchPadNet_SignOffButtonText,Sign Off
+SignedOffButtonText,Signed Off
+Exit,Exit All
+LaunchPadNet_ReturnToShoppingButtonText,Return
+PickListEditor,Pick List Editor
+RunADDTxt,Run ADD on Next Reboot
+TouchWareTxt,Calibrate Touchscreen
+DiagConfirm,Are you sure you want to generate Diagnostic Log Files?
+ProfileManagerFLConfirm,Are you sure you want to stop SelfServ Checkout and run Profile Manager?
+ProfileManagerRAPConfirm,Are you sure you want to stop RAP and run Profile Manager?
+ProfileManagerConfirm,Are you sure you want to start the Profile Manager?
+EventViewerConfirm,Are you sure you want to start the Event Viewer?
+TrainingConfirm,Are you sure you want to start the Training Program
+PicklistConfirm,Are you sure you want to start the Picklist Editor?
+RunADDConfirm,Are you sure you want to run Automatic Device Detection on the next reboot?
+CalibrateConfirm,Are you sure you want to calibrate the touch screen?
+ShutdownConfirm,Are you sure you want to shutdown the entire system?
+RebootConfirm,Are you sure you want to reboot the entire system?
+CloseAllConfirm,Are you sure you want to exit all applications and go to the desktop?
+VolumeConfirm,Are you sure you want to adjust the volume control?
+TerminalInfoConfirm,Are you sure you want to view the terminal information?
+StopFastLaneConfirm,Are you sure you want to stop SelfServ Checkout?
+StopRAPConfirm,Are you sure you want to stop RAP?
+StartFastLaneConfirm,Are you sure you want to start SelfServ Checkout?
+StartRAPConfirm,Are you sure you want to start RAP?
+WindowsLogOnTxt,Logon Windows
+WindowsLogOnConfirm,Are you sure you want to exit all applications and log on as a new user?
+YesText,Yes
+NoText,No
+CommandPromptPrimaryTxt,Command Prompt
+CommandPromptConfirm,Are you sure you want to start the Command Prompt?
+RSMLEPrimaryTxt,Retail Systems Manager LE
+RSMLEConfirm,Are you sure you want to start the Retail Systems Manager LE?
+OperatorRegistrationUtility,Operator Registration Utility
+LaunchPadNet_EnterIDFpLeadthru,"Key in your user ID and touch ""Enter"", or place your finger on the fingerprint reader to log in."
+LaunchPadNet_ReEnterIDFpLeadthru,Invalid login. Please login again using the keypad or your fingerprint.
+LaunchPadNet_ClearButtonText,Clear
+LaunchPadNet_EnterButtonText,Enter
+LaunchPadNet_GoBackButtonText,Go Back
+LaunchPadNet_SpaceButtonText,Space
+LaunchPadNet_BackSpaceButtonText,Backspace
+LaunchPadNet_EnterIDLeadthru,Enter ID using keypad below:
+ReEnterIDLeadthru,Incorrect ID or password. Please re-enter using keypad below.
+LaunchPadNet_EnterPasswordLeadthru,Enter password using keypad below:
+CancelButtonText,Cancel
+LaunchPadNet_LoggingInLeadthru,Logging in...Please wait
+LaunchPadNet_ShiftButtonText,Shift
+LaunchPadNet_SignedOffButtonText,Signed Off
+LaunchPadNet_ReEnterIDLeadthru,Incorrect ID or password. Please re-enter using keypad below.
+LegalCaptionText,"LEGAL CAPTION\nThis system is for the use of authorized personnel only. By logging onto this system, you are subject to the terms and conditions of all Information Security policies and standards. Use by unauthorized individuals or for unauthorized purposes is a violation of federal and/or state law. The company reserves the right to take any necessary actions to protect authorized users, intellectual property and other information assets. Individuals using this system are subject to having all of their activities on this system monitored. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals possible evidence of criminal activity, system personnel may provide the evidence of such monitoring to law enforcement officials.\n        "
+SignBelow,Sign below.
+SignOnTitle,NCR SelfServ Checkout Log In
+HH_TransactionCancelLeadThru2,Transaction cancelled.
+AlertStatusTextOff,
+AlertStatusTextOn,!!!
+InitialText,.
+PageIndicatorLabelFormat,Page {0} of {1}
+XM_CashUnbalance,Discrepancy error occurred in the recycler.
+XM_Cassette,Cassette
+XM_CassetteMissing,Bill Cassette is not in the unit.\nPut Bill Cassette back into the unit.
+XM_Collect,Collect
+XM_CollectFailure,The collect operation resulted in failure.
+XM_EmptyCassetteAndRejectBin,Remove bills from Bill Cassettes and Reject Bin.
+XM_GloryDispenseCupFullPreemptive,"Please Take Coins\nIf coin return is full, empty promptly.  Dispensing will pause until bowl is emptied."
+XM_GloryDispenseFullPreemptive,"Please Take Bills and Coins\nBills are dispensed in bunches of 10. Dispensing will pause until all bills are taken. If coin return is full, empty promptly. Dispensing will pause until bowl is emptied."
+XM_GloryDispenseNoteFullPreemptive,Please Take Bills\nBills are dispensed in bunches of 10. Dispensing will pause until all bills are taken.
+XM_GrandTotalText,Grand Total: %s
+XM_InitializeError,The system encounters an error to be corrected.
+XM_LeadThruGloryFunction,"Touch denomination and enter amount\nor touch ""Collect""."
+XM_ManualRemoveCashAlertGlory,Remove cash from the cassette to undo loan.\n\nNotes\nCount to remove: %d\nAmount to remove: %s
+XM_NegativeAlert_Remove,"Negative number found. Possible causes: keying error occurred, or notes were placed in the loader cassette, but the counts for these notes were not entered in Cash Management.\n\nFollow steps below to resolve:\n1. Select ""Exit"" then select ""Add Cash"".\n2. Touch the denomination with the negative number.\n3. Enter the exact dollar amount of the negative number and/or the amount placed in the loader.\n4. Select ""Apply Changes"".\n5. Select ""Yes"" to confirm and then ""Exit""."
+XM_OperatorID,Operator ID %s
+XM_TotalAddedText,Total Added: %s
+XM_TotalColectedText,Total Collected: %s
+XM_TotalRemovedText,Total Removed: %s
+DueCart,Due
+XM_ProcessingCashTextV6HW,•   Insert coins in Coin Acceptor.\n•   Insert notes in Note Acceptor.\n
+XM_CoinHoppersV6HW,Coin Hoppers
+XM_CoinBoxV6HW,Coin Box - %d - %s
+XM_ConfirmTransferNotesToBaseLevelV6HW,Transfer Notes to Note Box\n\nAmount to transfer: %s\nCount to transfer: %d\n\nThe transferring process may take several minutes.
+XM_ConfirmTransferAllNotesV6HW,Transfer All Notes to Note Box\n\nAmount to transfer: %s\nCount to transfer: %d\n\nThe transferring process may take several minutes.
+XM_ResetCoinsAllCoinsV6HW,Dispense All Coins
+XM_ResetCoinHopperCountsV6HW,Reset Coin Hopper Counts
+XM_ResetNoteBoxCountsV6HW,Reset Note Box Count
+XM_MenuNoteBoxTransferV6HW,Note Box Transfers
+XM_AddCashLeadthruV6HW,"•   Insert coins in Coin Acceptor.\n•   Insert notes in Note Acceptor.\n•   Touch ""Enable Coin Refill Chute"" to add coins in refill chute.\n•   Touch ""Setup Loader"" to add notes in loader."
+XM_FinishedAddingCashV6HW,"When finished adding cash, touch ""OK""."
+XM_OKV6HW,OK
+XM_SetupLoaderV6HW,Setup Loader
+XM_SetupLoaderLeadthruV6HW,"•   Enter ""%s"" default denomination amount/count for the \n     loader and touch ""OK"".\n•   When finished, ""Apply Changes""."
+XM_NoteLoaderV6HW,Note Loader
+XM_EnableCoinInputBowlV6HW,Enable Coin Input Bowl
+XM_EnableCoinRefillChuteV6HW,Enable Coin Refill Chute
+XM_EnableCoinAcceptorV6HW,Enable Coin Acceptor
+XM_TopOffCashPrintStatusV6HW,Top-Off Cash or Print Status
+XM_TransferOperationPreemptiveV6HW,Note transfer in progress... please wait.\n\nDO NOT REMOVE NOTE BOX or   \nother devices until operation is complete.
+XM_TransferOperationInstructionV6HW,Transfer Complete.\nRemove all notes from Note Box and\nReset Note Box.
+XM_PendingDispenseV6HW,Pending dispense %d - %s
+XM_PendingTransferV6HW,Pending transfer %d - %s
+XM_PendingResetV6HW,Pending reset %d - %s
+XM_ConfirmResetNoteBoxV6HW,Reset Note Box Counts/Value\n\nAmount to Reset: %s\nCount to Reset: %d\n\nAmount after reset note box: £0\nCount after reset note box: 0
+XM_PendingCashRemoveV6HW,"Open safe door, remove Note Box and all notes.\nReplace empty Note Box.\n\nWhen complete, touch ""OK""."
+XM_LeadThruResetNoteBoxFunctionV6HW,"Reset Functions\n•   Reset Note Box Count to zero.\n•   When finished, ""Apply Changes""."
+XM_AllV6HW,All
+XM_LeadThruTransferNotesToNoteBoxFunctionV6HW,"Note Box Transfers\n•   To transfer notes, touch ""Apply Changes"".\n•   To cancel, touch ""Cancel Changes""."
+XM_ReplenishNotesFromLoaderToRecyclersPreemptiveV6HW,Loading in progress... please wait.
+XM_SetupLoaderAlertConfirmationV6HW,"Setup Loader\n\nEnsure loader has correct values and is inserted, then\n touch ""OK"" to load notes."
+XM_SetupLoaderAlertConfirmation1V6HW,"Setup Loader\n\nAdd notes to loader, ensure loader is inserted, then touch ""OK"" to load notes."
+XM_SetupLoaderConfirmationV6HW,Setup Loader\n\n%s notes Status in loader:\n\nOriginal / Starting Amount: %s\nOriginal / Starting Count: %d\nAmount to Add to Loader: %s\nCount to Add to Loader: %d\n\nPlace notes that are not designated as float or dispense on the bottom of the loader.  Notes on the bottom of loader will be automatically counted and loaded until the loader denomination is reached.\n\nThe loading process may take several minutes.
+XM_SetupLoaderConfirmation1V6HW,Setup Loader\n\nAll loader notes will automatically be\nloaded and counted.\n\nThe loading process may take several minutes.
+XM_PendingNotesAddedV6HW,Default notes added %d - %s
+XM_ProcessingCashV6HW,Processing Cash
+XM_ProcessingCashLeadThruV6HW,•   Insert coins in Coin Acceptor.\n•   Insert notes in Note Acceptor.
+XM_SetupLoaderLeadThru1V6HW,"•   To add notes to loader, touch ""Apply Changes"".\n•   To cancel, touch ""Cancel Changes""."
+XM_SetupLoaderNotEmptyV6HW,"\nWhen swapping loaders, because the current loader\ncount is greater than zero, manually remove the notes from the current loader and add the notes to the new loader."
+XM_LeadThruDispenseFunctionV6HW,Dispense Functions\n•   Enter amount/count for %s notes using keypad.
+XM_LeadThruDispenseFunction1V6HW,"Dispense Functions\n•   To dispense coins, touch ""Apply Changes"".\n•   To cancel, touch ""Cancel Changes""."
+XM_ConfirmCoinDispenseAllV6HW,Dispense All Coins\n\nAmount to Dispense: %s\nCount to Dispense: %d
+XM_DispenseOperationPreemptiveV6HW,"Dispensing coins in progress.\n\nRemove coins from coin bowl when full and touch ""OK""."
+XM_ConfirmCoinDispenseToBaseLevelV6HW,Dispense Coins to Base Level\n\nAmount to Dispense: %s\nCount to Dispense: %d
+XM_LeadThruResetCoinHopperFunctionV6HW,"Reset Functions\n•   Reset Coin Hopper Counts to zero.\n•   When finished, ""Apply Changes""."
+XM_ResetCoinHopperLeadThruV6HW,"Remove coins from coin hoppers. Replace\nempty coin hoppers.\n\nWhen complete, touch ""OK""."
+XM_LoaderCountEnteredExceededCapacityV6HW,The loader count entered exceeds capacity. Maximum loader count allowed is %d.
+XM_CoinHopperPendingResetV6HW,Pending reset %d - %s
+XM_ConfirmResetCoinHopperV6HW,Reset Coin Hopper Counts / Value\n
+XM_ConfirmResetCoinHopper1V6HW,\n%s\nReset Amount: %s Count: %d\n
+XM_ConfirmResetCoinHopper2V6HW,\nAfter Reset:\nCoins in Hopper: %s Count: %d\nCoins in Coin Box: %s Count: %d
+XM_CannotCompleteTransferV6HW,Cannot complete transfer.\nThe note box does not have sufficient space. Please empty the note box before performing this operation.
+XM_CashStatusLeadthruV6HW,"•   Print cash status.\n•   Insert coins in Coin Acceptor.\n•   Insert notes in Note Acceptor.\n•   Touch ""Exit"" when finished."
+XM_NonDispensableCoinsV6HW,Non-dispensable Coins
+XM_DispensableCoinsV6HW,Dispensable Coins
+XM_ConfirmNoteDispenseV6HW,Dispense Notes\n\nAmount to Dispense: %s\nCount to Dispense: %d
+XM_DispenseNoteFullPreemptiveV6HW,Please Take Notes\n\nNotes are dispensed in bunches of %d.\nDispensing will pause until all notes are taken.
+XM_NoteBoxV6HW,Note Box
+XM_NoteRecyclerV6HW,Note Recyclers
+XM_DispenseCoinsToBaseLevelV6HW,Dispense Coins\nto Base Level
+XM_TransferNotesToBaseLevelV6HW,Transfer Notes to Base Level
+XM_TransferAllNotesV6HW,Transfer All Notes
+XM_LeadThruNoteBoxTransferV6HW,"Note Box Transfers\n•   Select desired transfer function.\n•   When finished, ""Apply Changes""."
+XM_LeadThruResetFunctionV6HW,"Reset Functions\n•   Select desired reset function.\n•   When finished, ""Apply Changes""."
+XM_LeadThruDispenseFunction2V6HW,"Dispense Functions\n•   Touch note denomination and enter amount/count or select\n     function.\n•   When finished, ""Apply Changes""."
+XM_SignSigTouchDisplayV6HW,Please sign signature on the touch display.
+XM_LeadThruCashManagementErrorV6HW,Cash Management Error
+XM_LoanPickupUpdateFailureV6HW,Cash management update failed
+XM_LoanPickupUpdateNoResponseV6HW,No Response from POS when updating Cash management status
+XM_LoanPickupUpdateFailureInstructionV6HW,"\n•   Touch 'Retry' to update.\n•   If error recurs, contact store management.\n•   This error will not clear until a successful update is performed."
+XM_LoanPickupUpdateNoResponseInstructionV6HW,•   Report this error immediately to store management.\n•   The cash management status may not have been updated.\n•   Access the Utility Functions screen.
+XM_LoanPickupUpdateNoResponseInstruction1V6HW,"•   Touch ""Generate Diagnostic Log Files"" then touch ""Shutdown Entire System"".\n•   Power the system back on.\n•   If error recurs, generate another diagnostic log file and call for service.\n"
+XM_CashManagementErrorRetryButtonV6HW,Retry
+XM_DispenseThresholdV6HW,Number entered exceeded count available to dispense.\nMaximum count was entered: %d
+ScotApp_1742,INVALID BAG
+ScotApp_71,71unused
+ScotApp_61,61unused
+ScotApp_51,"Can't Scan Coupon"
+ScotApp_41,Restricted Items
+ScotApp_31,Coupons
+ScotApp_1055,1055unused
+ScotApp_11,11unused
+ScotApp_789,Swipe your card.\nPlease check basket for additional items.
+ScotApp_689,  Sales:      %d
+ScotApp_589,Device Factory loaded.
+ScotApp_389,Processing Card
+ScotApp_289,289unused
+ScotApp_189,Options loaded.
+ScotApp_91,91unused
+ScotApp_773,Amount Saved :
+ScotApp_673,Please provide customer with %s change.
+ScotApp_1264,USERDEFINED6
+ScotApp_473,Media Level Low
+ScotApp_373,Printer eject jam
+ScotApp_989,989unused
+ScotApp_889,%s\nActual Weight(%s): %s\nExpected Weights(%s): %s
+ScotApp_1520,Please refer to the Device Manual to fix the error.
+ScotApp_1042,ENDORSEMENT CHIT:\nTHIS HAS PRINTED BECAUSE A DOCUMENT\nENDORSEMENT FAILED.  PLEASE ATTACH THIS\nCHIT TO THE APPROPRIATE DOCUMENT.\n----------------------------------------\n
+ScotApp_973,973unused
+ScotApp_873,D.L. / I.D. Number Entry:
+ScotApp_1737,Own Bag
+ScotApp_752,Yesterday Summary
+ScotApp_652, **No WLDB entries for this UPC
+ScotApp_1054,1054unused
+ScotApp_452,Check if cable is securely plugged into side of coin acceptor.
+ScotApp_352,Update
+ScotApp_252,\nCoin dispenser jam\n\nRemove coin dispenser jam.
+ScotApp_152,152unused
+ScotApp_1310,* Remove note acceptor.\n* Re-insert note acceptor until latched.\n* Check that note acceptor motor turns on and LED light is green.
+ScotApp_661,(Def)
+ScotApp_952,Add Zero Weight
+ScotApp_852,Three Items
+ScotApp_1527,Please refer to the Device Manual to fix the error.
+ScotApp_1838,Verify Item
+ScotApp_731,Summary
+ScotApp_631,Owner Name:
+ScotApp_531,\nSignature Capture Device Failure
+ScotApp_331,Remove items from bag scale. Keyboard disabled.
+ScotApp_231,231unused
+ScotApp_131,Deposit Coupons
+ScotApp_1736,"Please place your bags in the bagging area, and touch ""Done"" when finished."
+ScotApp_1250,PIP CREDIT
+ScotApp_831,831unused
+ScotApp_300,300unused
+ScotApp_1306,%s Change dispensed
+ScotApp_710,710unused
+ScotApp_610,Item Weight:
+ScotApp_510,Sign Again
+ScotApp_310,bin is low
+ScotApp_210,210unused
+ScotApp_110,Weigh Item
+ScotApp_1526,Please refer to the Device Manual to fix the error.
+ScotApp_1126,Coin dispenser failure.\n\nCheck the On/Off switch if present on dispenser.
+ScotApp_1040,Signature
+ScotApp_810, In Training
+ScotApp_1735,Place Your Bags
+ScotApp_1257,PIP FOODSTAMPS
+ScotApp_704,PINPad Entry
+ScotApp_604,Scan an item.
+ScotApp_504,504unused
+ScotApp_404,404unused
+ScotApp_304,Select Container
+ScotApp_204,Copying file to server...
+ScotApp_104,104unused
+ScotApp_1269,USERDEFINED11
+ScotApp_904,Item weight approval
+ScotApp_804,804unused
+ScotApp_1047,Endorsement Needed. Please wait for operator assistance.
+ScotApp_1478,Please refer to the Device Manual to fix the error.
+ScotApp_1134,Note cassette is full.
+ScotApp_1734,I brought my own bag
+ScotApp_1256,PIP EBT
+ScotApp_1512,Please refer to the Device Manual to fix the error.
+ScotApp_1465,Cash Recycler Device Error
+ScotApp_1721,Training Mode Transaction
+ScotApp_1890,Processing...
+ScotApp_1243,LOYALTY
+ScotApp_1544,Please refer to the Device Manual to fix the error.
+ScotApp_63,No
+ScotApp_53,53unused
+ScotApp_43,43unused
+ScotApp_33,I corrected the problem
+ScotApp_1255,PIP DEBIT CHECKING
+ScotApp_13,  %ss @ %s/%s
+ScotApp_1511,Please refer to the Device Manual to fix the error.
+ScotApp_93,Scan & Bag
+ScotApp_83,83unused
+ScotApp_1464,Terminal Number
+ScotApp_1189,ENTERED ITEM
+ScotApp_1720,WR:
+ScotApp_1045,Pay with %s
+ScotApp_672,*** TRAINING MODE TRANSACTION ***
+ScotApp_572,"Key in the item's code and touch ""Enter""."
+ScotApp_472,Help Needed
+ScotApp_372,Printer sideways comms error
+ScotApp_272,Check used coupons
+ScotApp_172,"Scan unwanted item, or select item on receipt."
+ScotApp_1510,Please refer to the Device Manual to fix the error.
+ScotApp_1701,Failed to dispense %s.
+ScotApp_972,972unused
+ScotApp_872,Cancel Suspend
+ScotApp_1188,ENTERED QUANTITY
+ScotApp_1727,Item Look Up
+ScotApp_751,Today Hourly
+ScotApp_651,Default
+ScotApp_551,551unused
+ScotApp_451,Coin acceptor status jam
+ScotApp_351,Cash / Paper Status
+ScotApp_251,251unused
+ScotApp_151,Please Take Cash
+ScotApp_951,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s removed;LSWND3=%s;
+ScotApp_851,Two Items
+ScotApp_730,730unused
+ScotApp_630,Credit Card #:
+ScotApp_430,Out of Service
+ScotApp_330,Assist Mode
+ScotApp_230,Cash acceptor status rejected
+ScotApp_130,Please deposit your coupons.
+ScotApp_1726,Finished with Look Up
+ScotApp_930,Check the communication.
+ScotApp_830,I removed item or bag
+ScotApp_193,193unused
+ScotApp_1457,Currency is high
+ScotApp_1283,1283unused
+ScotApp_724,724unused
+ScotApp_624,Invalid Tolerance Entered
+ScotApp_424,Enter Amount
+ScotApp_324,Date not needed
+ScotApp_224,Card reader capture bin removed
+ScotApp_124,124unused
+ScotApp_1469,"Failed to dispense %s to customer. %s\n* Check coin and note dispensers.\n* Touch ""Cash/Paper Status"" to refill or clear jam."
+ScotApp_924,924unused
+ScotApp_824,Suspend Confirmation
+ScotApp_576,Begin Card Tender.
+ScotApp_1247,FOODSTAMPS
+ScotApp_1678,Note Recycler Error
+ScotApp_1503,Please refer to the Device Manual to fix the error.
+ScotApp_1756,"Select from search results or ""Go Back""."
+ScotApp_1456,Incorrect Cashier number and password. \nPlease try again
+ScotApp_1502,Please refer to the Device Manual to fix the error.
+ScotApp_1712,Suspension Declined
+ScotApp_1468,Cash Recycler Status Empty
+ScotApp_1246,EBT
+ScotApp_75,Done
+ScotApp_65,65unused
+ScotApp_55,Cancel All
+ScotApp_45,45unused
+ScotApp_35,Change Due:
+ScotApp_1258,PIP GIFTCARD
+ScotApp_15,Item Code:
+ScotApp_1711,Suspend Declined
+ScotApp_1683,Unrecoverable Error.  Please close the Lane.  Call Gunnebo and provide the error information shown below.\n\nSafePay Error: %s
+ScotApp_95,Scan Coupons
+ScotApp_85,85unused
+ScotApp_1058,Asst. Tender
+ScotApp_1664,Note Jam
+ScotApp_797,Failed to dispense %s to customer.\n* Check notes in cassettes and note dispenser for jams.\n* Ensure note cassettes and purge bin latched.\n* Close safe door.
+ScotApp_697,697unused
+ScotApp_597,NCR SelfServ Checkout Forms loading %d...
+ScotApp_497,Amount Due:
+ScotApp_297,297unused
+ScotApp_197,Presentation Services loaded.
+ScotApp_997,Enter Price
+ScotApp_897,WTINFO loaded.
+ScotApp_1454,"Key in password and touch ""Enter""."
+ScotApp_1710,Take Your Returned Cash
+ScotApp_1741,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s exp;LSWND3=%s %s obv
+ScotApp_1388,Training Program
+ScotApp_771,Cancel Suspend
+ScotApp_671,Exit Training Mode
+ScotApp_571,"Key in the quantity and touch ""Enter""."
+ScotApp_471,   Visual Validation
+ScotApp_371,Printer replace head
+ScotApp_271,Approve Used Coupons
+ScotApp_971,971unused
+ScotApp_871,Confirm Suspend
+ScotApp_1840,Store #:
+ScotApp_750,Today Summary
+ScotApp_650,Regular Product
+ScotApp_550,550unused
+ScotApp_450,450unused
+ScotApp_350,Cash / Paper Status
+ScotApp_250,250unused
+ScotApp_150,Select Cash Back Amount
+ScotApp_1773,"Touch ""Approve Coupon"" to accept the coupon or go to Assist Mode to void it."
+ScotApp_950,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s added;LSWND3=%s;
+ScotApp_850,One Item
+ScotApp_1405,"POS is out-of-sync, please go to Assist Mode to resynchronize."
+ScotApp_1513,Please refer to the Device Manual to fix the error.
+ScotApp_1657,Invalid Dept.
+ScotApp_1225,UNKNOWN ITEM
+ScotApp_644,-------------------------------------------------------------------
+ScotApp_544,Password cannot be greater than %d digits.
+ScotApp_444,Food Stamps
+ScotApp_344,344unused
+ScotApp_244,244unused
+ScotApp_144,Compare Signature
+ScotApp_1590,BIN %s COINS ARE JAMMED
+ScotApp_1669,Coin/Note Recycler Error
+ScotApp_944,Too many requests to Bag/Box.  Max = %d.
+ScotApp_844,844unused
+ScotApp_1729,Look Up Items:
+ScotApp_1447,Remove Cash
+ScotApp_1703,(+)
+ScotApp_1656,"Key in the Dept. code and touch ""Enter""."
+ScotApp_915,Too many requests to skip belt.  Max = %d.
+ScotApp_1668,A note jam may be present in the location shown. Open top cover to note recycler. Remove any jammed notes that may be present.  Close unit and replace top cover to note recycler.  Continue transaction.
+ScotApp_1542,Please refer to the Device Manual to fix the error.
+ScotApp_1139,Note dispenser door is open.
+ScotApp_1254,PIP DEBIT SAVINGS
+ScotApp_1249,PIP GENERIC
+ScotApp_77,Credit
+ScotApp_67,Go Back
+ScotApp_57,Finish & Pay
+ScotApp_47,Start
+ScotApp_37,37unused
+ScotApp_1458,NCR SelfServ Checkout Report
+ScotApp_17,Coupon
+ScotApp_1752,Weight on scale is over capacity.
+ScotApp_1643,Note Recycler Error
+ScotApp_97,Select Container From List
+ScotApp_87,87unused
+ScotApp_1665,Unlock and remove cassette.  Remove jammed note.  Re-insert cassette. Close recycler unit. Continue transaction.
+ScotApp_1138,Failed to dispense %s.
+ScotApp_1589,COINS ARE OUT
+ScotApp_1445,Change in Count
+ScotApp_1318,Scan Vouchers
+ScotApp_1654,Count exceeds capacity. Maximum load count needed is %d. Count of %d automatically entered.
+ScotApp_796,"Low coins or coin dispenser in error/turned off.\n* Turn coin dispenser on, OR\n* Refill, turn coin dispenser off then on, touch ""Coin Dispenser Refilled"" - Lane Status Screen."
+ScotApp_696,696unused
+ScotApp_596,NCR SelfServ Checkout AuxDisp loaded.
+ScotApp_1391,"Touch ""I corrected the problem"".\nIf the error remains, shutdown and restart the terminal."
+ScotApp_396,Store assistance was required for:
+ScotApp_296,296unused
+ScotApp_196,Presentation Services loading...
+ScotApp_1588,"Each bin must be emptied before the ""Dispenser Pickup"" button can be selected. Dump each coin hopper bin then touch ""Dispenser Pickup""."
+ScotApp_996,Price Entry
+ScotApp_896,WTINFO loading...
+ScotApp_574,"Key in your password and touch ""Enter""."
+ScotApp_1093,Print Last Receipt
+ScotApp_1641,"Refill coin hopper and continue.  If coins are not dispensed, hopper may be locked.  Call for Service.\n\nSafePay Error: %s"
+ScotApp_1781,THANK YOU EXPIRED
+ScotApp_562,Coupons need to be sold in Assist Mode
+ScotApp_874,"Key in the D.L. or I.D. # and touch ""Enter""."
+ScotApp_1124,1124unused
+ScotApp_770,Confirm Suspend
+ScotApp_670,Enter Training Mode
+ScotApp_570,570unused
+ScotApp_470,   Age Restricted
+ScotApp_370,Printer printer open
+ScotApp_270,Approve Coupons
+ScotApp_170,"Remove item from scale, and press ""Scale Zero"" button on scanner."
+ScotApp_1640,Hopper Error
+ScotApp_870,Alerts:
+ScotApp_1733,"Select ""Go Back"" to continue."
+ScotApp_1553,Currency High Status:
+ScotApp_664,Scan your items or select a language.
+ScotApp_564,564unused
+ScotApp_464,%s               %s
+ScotApp_364,364unused
+ScotApp_264,264unused
+ScotApp_964,"Remove item and touch ""Clear Security,"" or touch ""Approve & Update Weight""."
+ScotApp_864,Approval:
+ScotApp_1647,(mmddyyyy)
+ScotApp_1119,"Note dispenser will not operate with access door open.\n\nClose and latch dispenser door or safe door.\n\nIf error recurs, call for service."
+ScotApp_1659,Print Receipt
+ScotApp_819,Confirm suspend for voided item.
+ScotApp_1339,Reboot Entire System
+ScotApp_1582,Media Status
+ScotApp_1154,Scanner Error
+ScotApp_1117,%s note dispenser cassette out or not fully inserted.\n\nInstall or reseat %s note cassette until latched.
+ScotApp_1294,Q - S
+ScotApp_1030,Insert your coupon.
+ScotApp_1658,Please verify that the customer received the correct change.
+ScotApp_1421,Assist Mode
+ScotApp_709,709unused
+ScotApp_1129,Corrective action not performed properly.\n\nPlease try again.
+ScotApp_509,509unused
+ScotApp_409,System Message
+ScotApp_309,pound
+ScotApp_209,Stop Program
+ScotApp_109,Continue?
+ScotApp_1338,Get Diag Files
+ScotApp_909,Incorrect weight on security scale.
+ScotApp_809,POS Message:
+ScotApp_1645,Check that the note cover is securely fastened.
+ScotApp_1116,Note dispenser will not operate if note reject bin is not present and fully latched into place.\n\nInsert note reject bin and ensure fully latched.
+ScotApp_1128,%s\n
+ScotApp_1452,"Key in ID and touch ""Enter""."
+ScotApp_183,183unused
+ScotApp_1450,Lock Box
+ScotApp_1293,P
+ScotApp_1644,Note Recycler Cover Off
+ScotApp_1115,REPORTING OFFLINE
+ScotApp_795,Purchases monitored to ensure better service.
+ScotApp_695,695unused
+ScotApp_595,NCR SelfServ Checkout AuxDisp loading...
+ScotApp_395,Restricted Items Not Allowed
+ScotApp_295,295unused
+ScotApp_195,Device Manager loaded.
+ScotApp_566,566unused
+ScotApp_1324,Weight remains on\nscale after transaction.
+ScotApp_995,Go to lane and log into Store Mode to open lane.
+ScotApp_895,DBM ending...
+ScotApp_1102,Next
+ScotApp_1383,(Exc)
+ScotApp_1402,NOTE REJECT BIN JUMPER PLUG IS OFF.
+ScotApp_1292,N - O
+ScotApp_1114,"""End Report Period"" update successful"
+ScotApp_1222,OUT OF SERVICE
+ScotApp_1101,%s\t%s
+ScotApp_1159,PinPad / EFT not responding.
+ScotApp_1100,%s
+ScotApp_1539,Please refer to the Device Manual to fix the error.
+ScotApp_1649,(ddmmyyyy)
+ScotApp_1317,Voucher Payment
+ScotApp_1883,"Check BagScale and cart for extra items and touch ""Clear Security""."
+ScotApp_729,729unused
+ScotApp_629,Total Charge:
+ScotApp_429,Red
+ScotApp_329,  %ss @ %d %s/%s
+ScotApp_229,229unused
+ScotApp_129,Verify voided items have been put aside.
+ScotApp_1107,%s\t%s\tQty %s @ %s/%s\t%s
+ScotApp_1538,Please refer to the Device Manual to fix the error.
+ScotApp_929,WLDB not communicating correctly.
+ScotApp_829,829unused
+ScotApp_1316,* Open printer cover and check for paper jam in the area shown.\n* Close printer cover and reload paper.
+ScotApp_81,Continue
+ScotApp_1882,Smart Assist alert - item not scanned.
+ScotApp_1673,Coin Jam
+ScotApp_1135,Note Dispenser Error
+ScotApp_1705,Communication error.
+ScotApp_1894,Set item aside and continue with your purchase.
+ScotApp_787,"Birthdate Entered: %s, %d years old"
+ScotApp_1398, Attd/Train
+ScotApp_1106,%s\t%s\tQty %s @ %s/each\t%s
+ScotApp_1525,Please refer to the Device Manual to fix the error.
+ScotApp_1493,Please refer to the Device Manual to fix the error.
+ScotApp_1490,Please refer to the Device Manual to fix the error.
+ScotApp_1315,* Open printer cover and check for paper jam.\n* Close printer cover and reload paper.
+ScotApp_1881,"Check BagScale, remove extra items and touch ""Clear Security""."
+ScotApp_1173,APPROVED VOIDED ITEM
+ScotApp_1524,Please refer to the Device Manual to fix the error.
+ScotApp_505,Incorrect Number
+ScotApp_1302,Close
+ScotApp_905, (More info on receipt...)
+ScotApp_1164,Printer is not positioned correctly.
+ScotApp_1492,Please refer to the Device Manual to fix the error.
+ScotApp_1314,* Open printer cover and clear any paper debris.\n* Close cover.\n* Insert new paper roll.\n* Feed paper from top of roll into printer.
+ScotApp_1817,"* Pull out coin recycler.\n* Open round side doors and clear coins from belts.\n* Ensure all doors are closed and locked properly.\n* Return coins to customer. If error recurs, call for service."
+ScotApp_1442,"Insert Cash to replenish or touch ""Remove Cash"" to unload."
+ScotApp_1880,Unexpected item on BagScale.
+ScotApp_1172,CONFIRMED SUSPEND
+ScotApp_1415,1415unused
+ScotApp_788,Valid Birthday:%s
+ScotApp_688,688unused
+ScotApp_588,Device Factory loading...
+ScotApp_488,Place Item On Scale: %s
+ScotApp_388,Processing...
+ScotApp_288,"Touch ""I corrected the problem"".\n* If the error remains, reboot terminal:\n* Turn Supervisor keylock to 'S' -OR press Supervisor button.\n* Select ""Shut Down Entire System"".\n* When screen blanks, turn off terminal at UPS or power strip.\n* Turn on terminal. If error recurs, call for service."
+ScotApp_188,Options loading...
+ScotApp_988,Unexpected item on belt. Remove item.
+ScotApp_888,Unexpected item in bagging area.  Remove item.
+ScotApp_1887,Review Transaction
+ScotApp_1171,UNEXPECTED INCREASE
+ScotApp_1199,ENTERED EXPIRATION DATE
+ScotApp_1300,Start Transaction
+ScotApp_1326,INSERT COUPON TIMER EXPIRED
+ScotApp_1291,K - M
+ScotApp_1517,Please refer to the Device Manual to fix the error.
+ScotApp_1886,Check for extra items.
+ScotApp_749,749unused
+ScotApp_1529,Please refer to the Device Manual to fix the error.
+ScotApp_549,549unused
+ScotApp_449,Coin acceptor status rejected
+ScotApp_349,349unused
+ScotApp_249,249unused
+ScotApp_149,Enter PIN
+ScotApp_1307,Receipt printing
+ScotApp_1738,Attendant to Verify Your Bags
+ScotApp_949,949unused
+ScotApp_717,717unused
+ScotApp_617,"Select setting for weight comparison. (Compare item's weight to existing entries.)"
+ScotApp_517,Other payment requested.
+ScotApp_417,Hard Totals loaded.
+ScotApp_317,317unused
+ScotApp_217,217unused
+ScotApp_117,Put Items Aside
+ScotApp_1516,Please refer to the Device Manual to fix the error.
+ScotApp_1885,Item not scanned
+ScotApp_917,Too many requests to remove items from bagging area.  Max = %d.
+ScotApp_817,Assistance Needed
+ScotApp_1177,BAG ITEM TIMER EXPIRED
+ScotApp_1528,Please refer to the Device Manual to fix the error.
+ScotApp_1175,"DON'T BAG THRESHOLD EXCEEDED"
+ScotApp_1109,%s\t%s\t%s @ %s/%s\t%s
+ScotApp_1453,Cashier Password
+ScotApp_1693,Coin Substitution
+ScotApp_1515,Please refer to the Device Manual to fix the error.
+ScotApp_7,7unused
+ScotApp_6,6unused
+ScotApp_5,5unused
+ScotApp_4,4unused
+ScotApp_3,3unused
+ScotApp_2,kg
+ScotApp_1,lb
+ScotApp_1176,NEW ITEM ENTERED
+ScotApp_1724,TRAINING MODE TRANSACTION
+ScotApp_1019,Place On Belt
+ScotApp_9,9unused
+ScotApp_8,8unused
+ScotApp_609,Edit Weight Tolerance
+ScotApp_1305,%s inserted
+ScotApp_1893,Invalid Barcode
+ScotApp_1409,Assist Menu
+ScotApp_1692,Supervisor Login
+ScotApp_1163,"Touch ""I corrected the problem"".\n\nIf the error remains, reboot terminal:\nTurn Supervisor keylock to 'S' -OR press Supervisor button.\nSelect ""Shut Down Entire System"".\nWhen screen blanks, turn off terminal at UPS or power strip.\nTurn on terminal. If error recurs, call for service."
+ScotApp_1514,Please refer to the Device Manual to fix the error.
+ScotApp_1372,Coin Acceptor
+ScotApp_1048,1048unused
+ScotApp_967,967unused
+ScotApp_1304,Loyalty card accepted.
+ScotApp_1162,Device is offline.
+ScotApp_1833,Exc_TB
+ScotApp_1818,"* Unlock and pull out hopper tray to clear jam (I).\n* Return jammed coins to proper hopper bin(s). Then reinsert and lock hopper tray.\n* Pull out coin recycler. Then unlock and remove cover.\n* Disconnect cable shown (II).\n* Release red tab on right side of acceptor then pull it forward and turn it over to clear jams from areas shown (III).\n* Reinsert acceptor and reconnect cable.\n* Replace and lock cover. If error recurs, call for service."
+ScotApp_1174,MISMATCHED WEIGHT
+ScotApp_1500,Please refer to the Device Manual to fix the error.
+ScotApp_1366,Scale
+ScotApp_1161,Pager Error
+ScotApp_1717,WO:
+ScotApp_1832,Exc_DEPT
+ScotApp_1370,Encryptor
+ScotApp_669,Signature Printing Failed. Errors Occurred.
+ScotApp_569,Key In Code
+ScotApp_469,469unused
+ScotApp_369,Printer comms error
+ScotApp_269,Assist Mode
+ScotApp_1507,Please refer to the Device Manual to fix the error.
+ScotApp_969,969unused
+ScotApp_737,737unused
+ScotApp_637,"Security is offline, last action was cancelled."
+ScotApp_537,537unused
+ScotApp_437,Insufficient Balance
+ScotApp_337,"Scan your item, or key in the code and touch ""OK""."
+ScotApp_237,Insert the cassette until it is latched into position.\n\nPull on cassette handle to ensure latch is holding cassette in position.
+ScotApp_137,Take Change
+ScotApp_931,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s expected;LSWND3=%s %s observed;
+ScotApp_1519,Please refer to the Device Manual to fix the error.
+ScotApp_1831,Int
+ScotApp_937,Limit\Remove Items
+ScotApp_837,Fees
+ScotApp_1702,*** DUPLICATE RECEIPT ***
+ScotApp_1377,quantity
+ScotApp_1728,Please select from popular items or look-up item alphabetically.
+ScotApp_1395,Enter Attendant Mode
+ScotApp_716,716unused
+ScotApp_616,Weight Comparison
+ScotApp_516,Other Payment
+ScotApp_416,Hard Totals loading...
+ScotApp_316,316unused
+ScotApp_216,* Open printer cabinet door.\n* Open printer cover to check for jams.\n* Shut printer cover and reload paper.\n* A receipt with a Happy Face should print.\n* Close and lock printer cabinet door.
+ScotApp_116,Cancel All Items
+ScotApp_1522,Please refer to the Device Manual to fix the error.
+ScotApp_1506,Please refer to the Device Manual to fix the error.
+ScotApp_1879,"Check BagScale and touch ""Clear Security""."
+ScotApp_916,"Check items at lane and touch ""Clear Security""."
+ScotApp_816,816unused
+ScotApp_1167,* Open printer cabinet door.\n* Unlatch and push printer back.\n* Open the printer cover to check for jams.\n* Shut the printer cover and reload paper.\n* Pull the printer carefully forward until it latches into position.
+ScotApp_1518,Please refer to the Device Manual to fix the error.
+ScotApp_1830, Entries   Approved
+ScotApp_1376,", %s"
+ScotApp_783,783unused
+ScotApp_683,683unused
+ScotApp_583,Card Declined.
+ScotApp_483,Please sign signature pad using attached pen.
+ScotApp_383,383unused
+ScotApp_283,Enter Password
+ScotApp_1505,Please refer to the Device Manual to fix the error.
+ScotApp_983,Takeaway Belt loading...
+ScotApp_883,Confirm Suspend
+ScotApp_1363,Line Display
+ScotApp_1714,APPROVED SUSPENSION DECLINE
+ScotApp_1837,"Touch ""Approve"" to continue transaction."
+ScotApp_1449,Note Status
+ScotApp_1375,Post-Item Modification:\n%s
+ScotApp_1248,GIFT CARD
+ScotApp_1153,Paper jam.
+ScotApp_1504,Please refer to the Device Manual to fix the error.
+ScotApp_1362,Keylock
+ScotApp_1836,INVALID BARCODE
+ScotApp_1571,Confirm Ignore Change
+ScotApp_1215,DEVICE ERROR
+ScotApp_1858,Discrepancy error occurred in the recycler.
+ScotApp_1152,Out of paper.
+ScotApp_1700,"Failed to dispense %s. %s\nCheck coin and note dispensers.\nIf empty, refill them.\nIf not empty, clear jam. \nTouch ""Condition Corrected""."
+ScotApp_1823,Digital Receipt was successfully generated.
+ScotApp_1605,     Card Dispenser bin is empty
+ScotApp_1361,Cash Changer
+ScotApp_1835,Verify or Set Item aside
+ScotApp_1878,Incorrect weight on BagScale.
+ScotApp_1281,ASSISTED TENDER
+ScotApp_1425,Connect
+ScotApp_1570,Ignore Changes
+ScotApp_814,814unused
+ScotApp_291,"Coin dispenser tube jam\n%s\nRemove coin dispenser jam then touch ""Cleared Jam""."
+ScotApp_191,Transaction Broker loaded.
+ScotApp_1151,Printer cover is open.
+ScotApp_1707,Coins are jammed in the acceptor
+ScotApp_1822,See item weight at lower left of the screen
+ScotApp_757,757unused
+ScotApp_657,Put refund/discount aside until end of purchase.
+ScotApp_557,Quantity Restricted Items
+ScotApp_457,457unused
+ScotApp_357,357unused
+ScotApp_257,257unused
+ScotApp_157,System Message
+ScotApp_1360,Cash Drawer
+ScotApp_1719,WA:
+ScotApp_1834,Max
+ScotApp_1868,Ensure your hands are out of the camera view of the scanner
+ScotApp_957,DB Manager Client Failed to Communicate
+ScotApp_857,Verify Assembly Fee
+ScotApp_1064,1064unused
+ScotApp_1577,Total Count:
+ScotApp_736,736unused
+ScotApp_636,Security is offline.
+ScotApp_1091,1091unused
+ScotApp_436,Confirm Amount
+ScotApp_336,Look Up Item
+ScotApp_236,236unused
+ScotApp_136,Insert Cash
+ScotApp_1509,Please refer to the Device Manual to fix the error.
+ScotApp_1821,Accept Weight
+ScotApp_936,Limit\Skip Bagging
+ScotApp_836,Fees & Customer Agreements
+ScotApp_1367,Scanner
+ScotApp_1718,NOI:
+ScotApp_1274,USERDEFINED16
+ScotApp_715,715unused
+ScotApp_615,Select setting for bagging enforcement. (Customer expected to bag item.)
+ScotApp_515,515unused
+ScotApp_315,315unused
+ScotApp_215,Debit Savings
+ScotApp_115,Confirm Cancel
+ScotApp_1576,Cash Dispenser Status :
+ScotApp_1090,Run Report
+ScotApp_815,Open Register
+ScotApp_1508,Please refer to the Device Manual to fix the error.
+ScotApp_1406,Sync TB/POS
+ScotApp_1099,Unknown Device Error
+ScotApp_1563,Load
+ScotApp_782,Note dispenser jam\nRemove note dispenser jam or\nAdjust purge bin.
+ScotApp_682,682unused
+ScotApp_582,Tender Complete.
+ScotApp_482,482unused
+ScotApp_382,Unknown
+ScotApp_282,Enter ID
+ScotApp_1575,Coin Dispenser Status :
+ScotApp_1097,Print Records / Reports
+ScotApp_1448,Coin Status
+ScotApp_982,Device Error
+ScotApp_143,Sign Receipt
+ScotApp_1353,Please deposit your depleted gift card in the coupon slot.
+ScotApp_1704,"Touch ""I corrected the problem"".\n\nIf the error remains, reboot terminal:\nTurn Supervisor keylock to 'S' -OR press Supervisor button.\nSelect ""Shut Down Entire System"".\nWhen screen blanks, turn off terminal at UPS or power strip.\nTurn on terminal. If error recurs, call for service."
+ScotApp_1827,\n    - Current Language (%s)
+ScotApp_1562,Count
+ScotApp_1815,"* Unlock and pull out hopper tray.\n* Reinsert any missing hopper(s) and ensure all hoppers are seated properly.\n* Ensure lowest coin denomination hopper is inserted and seated properly.\n* Ensure proper currency hoppers are inserted. If error recurs, call for service."
+ScotApp_1574,The value entered for %s is not valid. \nPlease enter again.
+ScotApp_1543,Please refer to the Device Manual to fix the error.
+ScotApp_1290,D - J
+ScotApp_1096,Reporting
+ScotApp_1352,Deposit Gift Card
+ScotApp_1561,Denomination
+ScotApp_1083,Item removed from bagging area.\nReturn item.
+ScotApp_1753,Item Not Found
+ScotApp_418,Hard Totals ending...
+ScotApp_318,318unused
+ScotApp_1813,"%s\n* Unlock and pull out hopper tray (I).\n* Remove jammed hopper bin(s). Check and clear any jams at exit area (II).\n* If no jam at exit area, empty hopper bin(s). Check and clear any jams by rotating disk (III).\n* Reinsert hopper bin(s).\n* Ensure all doors are closed and locked properly. If error recurs, call for service."
+ScotApp_1095,"Select report type then touch ""Run Report""."
+ScotApp_1351,%s\n%s %s removed 
+ScotApp_1825,Save Preferences
+ScotApp_777,777unused
+ScotApp_677,677unused
+ScotApp_577,Begin Cash Tender.
+ScotApp_377,Units  -  Status
+ScotApp_277,277unused
+ScotApp_1560,Acceptor Total :  %s
+ScotApp_1082,I removed item or bag
+ScotApp_977,Actual weight: %s %s
+ScotApp_877,Price Prompt
+ScotApp_1777,The transaction was finalized using a coupon that exceeds the store coupon limit.
+ScotApp_1812,Coins are jammed or coin bins are full or out.
+ScotApp_756,756unused
+ScotApp_556,Transaction suspension is declined.
+ScotApp_456,456unused
+ScotApp_356,Encryptor
+ScotApp_256,User exits ending...
+ScotApp_156,System Message
+ScotApp_1231,VISUAL VERIFIED
+ScotApp_1874,1874unused
+ScotApp_956,"Shut down and restart terminal:\n\n* Turn Supervisor keylock to 'S' -OR- press Supervisor button.\n* Select ""Run ADD on Next Reboot"".  Select “Yes” to confirm.\n* Select ""Shut Down Entire System"".\n* When screen blanks, turn off terminal at UPS or power strip.\n* Turn on terminal. Check event viewer. If error recurs, call for service."
+ScotApp_856,Receipt:
+ScotApp_1567,Dispenser Total :  %s
+ScotApp_735,735unused
+ScotApp_635,Key in birth date
+ScotApp_535,   Time Recalled
+ScotApp_335,Card reader possible customer tampering
+ScotApp_235,Cash acceptor status near full
+ScotApp_135,135unused
+ScotApp_1776,Store Authorization
+ScotApp_1811,"* Pull out coin recycler.\n* Clear jam from area shown by removing coins or pushing coins forward.\n* Return coins to customer. If error recurs, call for service."
+ScotApp_935,Weight Decrease
+ScotApp_835,Receipt:
+ScotApp_1708,"Press the coin return button several times to clear the coin jam, then touch ""I corrected the problem"".\n\nIf error recurs, call for service."
+ScotApp_1168,Printer not latched in forward postion.
+ScotApp_1446,Unload
+ScotApp_1566,Full Replacement
+ScotApp_1080,Put item on belt.
+ScotApp_1775,Approve Coupon
+ScotApp_1810,Coins are jammed.
+ScotApp_1297,TAKE CHANGE TIMER EXPIRED
+ScotApp_1648,(mmddyy)
+ScotApp_708,708unused
+ScotApp_608,Set Weight Comparison
+ScotApp_508,508unused
+ScotApp_408,408unused
+ScotApp_308,pence
+ScotApp_208,208unused
+ScotApp_108,Unmatched Coupon
+ScotApp_781,781unused
+ScotApp_681,Select From Favourites
+ScotApp_581,Transaction suspension is declined
+ScotApp_481,Assistance Needed
+ScotApp_381,Normal
+ScotApp_908,Security
+ScotApp_521,Amount Refunded:
+ScotApp_1087,Card Accepted. Scan your items and coupons.
+ScotApp_981,981unused
+ScotApp_881,Suspend:
+ScotApp_1774,COUPON TOO HIGH
+ScotApp_1296,Refill all coin containers to optimum service levels.
+ScotApp_1583,currency is low (%s)
+ScotApp_1552,bin is full
+ScotApp_1295,T - Z
+ScotApp_1877,Theft Alert
+ScotApp_1761,Coupon bin may be full or coupon slot is blocked. Remove any items blocking the coupon slot then empty coupon bin.
+ScotApp_1086,"""Add Zero Weight"" deletes all weight entries."
+ScotApp_693,693unused
+ScotApp_794,Note dispenser cassette jam\nRemove note dispenser jam.
+ScotApp_694,694unused
+ScotApp_594,NCR SelfServ Checkout SigCap loaded.
+ScotApp_494,Select cash back amount from list.
+ScotApp_394,394unused
+ScotApp_1098,"* Open printer cabinet door.\n* Check for paper jam in area shown.\n* If no paper jam is found, reload paper.\n* A receipt with a Happy Face should print.\n* Close and lock printer cabinet door."
+ScotApp_1551,currency is high  (%s)
+ScotApp_994,Closed
+ScotApp_894,DBM loaded.
+ScotApp_1760,Coupon bin may be full or coupon slot is blocked. Remove any items blocking the coupon slot then empty coupon bin.
+ScotApp_1371,Cash Acceptor
+ScotApp_1803,Accept Cash Only
+ScotApp_1359,Slip Printer
+ScotApp_1085,Collect Coupons
+ScotApp_21,21unused
+ScotApp_776,776unused
+ScotApp_676,Coin Dispenser: Refilled on %s at %s
+ScotApp_1491,Please refer to the Device Manual to fix the error.
+ScotApp_476,Coupon Dropoff
+ScotApp_376,376unused
+ScotApp_276,276unused
+ScotApp_176,Do you want to stop checking out and cancel your entire purchase?
+ScotApp_976,976unused
+ScotApp_876,"Key in Head Cashier ID and touch ""Enter""."
+ScotApp_1271,USERDEFINED13
+ScotApp_1767,Failure to access scale weight parameters.
+ScotApp_755,Processing...
+ScotApp_655,Exception Item
+ScotApp_1084,Collection
+ScotApp_455,455unused
+ScotApp_355,Select system function
+ScotApp_255,255unused
+ScotApp_155,System Message
+ScotApp_1011,Transporting...
+ScotApp_869,"Key in the Authorisation # and touch ""Enter""."
+ScotApp_955,Smart Scale Enable Failed
+ScotApp_855,Assembly Fee:
+ScotApp_23,+ %s (%s)
+ScotApp_1766,Scanner/Scale Error.
+ScotApp_1280,CASH
+ScotApp_1335,Lane Closed
+ScotApp_1497,Please refer to the Device Manual to fix the error.
+ScotApp_728,728unused
+ScotApp_628,Lane #: %d
+ScotApp_528,528unused
+ScotApp_428,Yellow
+ScotApp_328,"Failed to dispense %s to customer. \n* Check coin and note dispensers.\n* If empty, refill them.\n* If not empty, clear jam.\n* Touch ""I corrected the problem""."
+ScotApp_228,Card reader shutter jammed close
+ScotApp_128,128unused
+ScotApp_1690,Please call for Service
+ScotApp_281,281unused
+ScotApp_181,"\nUse keypad to enter the coupon's value in pence and touch ""OK""."
+ScotApp_928,Go to lane and check device.
+ScotApp_828,828unused
+ScotApp_1033,"Deactivate item or remove hard tag at the lane and touch ""Clear Security""."
+ScotApp_1496,Please refer to the Device Manual to fix the error.
+ScotApp_680,680unused
+ScotApp_580,Attempted to void item before its coupon was voided.
+ScotApp_380,380unused
+ScotApp_280,Clear Security Log
+ScotApp_180,Put coupons aside. Deposit them at end of purchase.
+ScotApp_1364,Micr
+ScotApp_980,Timer expired with no customer response
+ScotApp_880,880unused
+ScotApp_970,970unused
+ScotApp_1104,e=d=0.01 lb Max 30.00 lb min 0.2 lb Nmax 3000
+ScotApp_1032,EAS Item still active.
+ScotApp_1286,UK English
+ScotApp_1462,Bins
+ScotApp_1298,Operator Assisted Functions
+ScotApp_1031,Scan your coupons.
+ScotApp_1482,Please refer to the Device Manual to fix the error.
+ScotApp_1706,"Device is not ready. Close any other application that may be accessing the device and touch ""I corrected the problem"". If error recurs, call Gunnebo for service."
+ScotApp_1399, Attendant
+ScotApp_1494,Please refer to the Device Manual to fix the error.
+ScotApp_1672,Coin Recycler Error
+ScotApp_573,"Key in your user ID and touch ""Enter""."
+ScotApp_173,173unused
+ScotApp_775,Welcome to NCR SelfServ Checkout! Happy shopping!
+ScotApp_675,Coin Dispenser Refilled
+ScotApp_1481,Please refer to the Device Manual to fix the error.
+ScotApp_79,79unused
+ScotApp_69,69unused
+ScotApp_59,Try Again
+ScotApp_39,Transaction Cancel
+ScotApp_29,Restricted Items
+ScotApp_19,Tax
+ScotApp_975,975unused
+ScotApp_603,Edit/Add Weight Entry
+ScotApp_99,Quantity To Void
+ScotApp_89,89unused
+ScotApp_303,Cancel Items
+ScotApp_203,203unused
+ScotApp_103,"Key in item's code."
+ScotApp_1889,Security Trust Level
+ScotApp_1443,"Insert Coin to replenish or touch ""Remove Cash"" to unload."
+ScotApp_903,Item removed from bagging area.
+ScotApp_803,803unused
+ScotApp_1555,Dispenser
+ScotApp_1037,Signature
+ScotApp_1480,Please refer to the Device Manual to fix the error.
+ScotApp_1263,USERDEFINED5
+ScotApp_1697,Cleared Jam
+ScotApp_748,748unused
+ScotApp_648,UPC
+ScotApp_548,548unused
+ScotApp_448,Your frequent shopper account has been activated.
+ScotApp_348,348unused
+ScotApp_248,248unused
+ScotApp_148,148unused
+ScotApp_1479,Please refer to the Device Manual to fix the error.
+ScotApp_948,\n* Remote Assistance
+ScotApp_848,Quantity Needed:
+ScotApp_485,Signature Needed
+ScotApp_1036,EAS Item Active
+ScotApp_1487,Please refer to the Device Manual to fix the error.
+ScotApp_1499,Please refer to the Device Manual to fix the error.
+ScotApp_1023,1023unused
+ScotApp_1179,WALK AWAY TIMER EXPIRED
+ScotApp_1035,EAS Item Active
+ScotApp_1682,General Note Reader Unit Error
+ScotApp_1486,Please refer to the Device Manual to fix the error.
+ScotApp_1144,Dispenser not responding.
+ScotApp_866,Yes
+ScotApp_1498,Please refer to the Device Manual to fix the error.
+ScotApp_1384,Language
+ScotApp_1743,"Key in your user ID and touch ""Enter"", or place your finger on the fingerprint reader to log in."
+ScotApp_1319,VOUCHER
+ScotApp_1178,DONE REMOVING THRESHOLD EXCEEDED
+ScotApp_1001,Item not found
+ScotApp_1034,1034unused
+ScotApp_1485,Please refer to the Device Manual to fix the error.
+ScotApp_1068,1068unused
+ScotApp_1694,"Substitution is used because %sTouch ""Cash/Paper Status"" to refill or clear jam."
+ScotApp_1165,Pull the printer carefully forward until it latches into position.\n\nClose and lock printer cabinet door.
+ScotApp_1021,Attention
+ScotApp_1230,NEGATIVE DEPT
+ScotApp_1484,Please refer to the Device Manual to fix the error.
+ScotApp_912,Approve & Update Weight
+ScotApp_723,723unused
+ScotApp_623,"Enter tolerance using keypad and touch ""Enter""."
+ScotApp_523,Card Declined
+ScotApp_423,Insert card. Please check basket for additional items.
+ScotApp_323,  Qty %d @ %d/%s
+ScotApp_223,Card reader capture bin full
+ScotApp_123,123unused
+ScotApp_1020,Scan Items
+ScotApp_923,923unused
+ScotApp_823,Void Approval
+ScotApp_1483,Please refer to the Device Manual to fix the error.
+ScotApp_1237,COUPON
+ScotApp_1680,Unrecoverable Error.  Please close the Lane.  Call Gunnebo and provide the error information shown below.\n\nSafePay Error: %s
+ScotApp_702,702unused
+ScotApp_602,Edit/Add\nWeight Entry
+ScotApp_502,Put cancelled item aside.
+ScotApp_402,Not Present
+ScotApp_302,Please enter your PIN on the payment device.
+ScotApp_202,Testing sign off...
+ScotApp_102,Recalled Item
+ScotApp_1722,"Lane is in training mode, continue with the transaction?"
+ScotApp_902,Item removed from bagging area.  Return item.
+ScotApp_802,"\nPurchase a full crate\nof %s?\n\nSelect ""Yes"" or ""No""."
+ScotApp_568,Clear
+ScotApp_468,   Recalled
+ScotApp_368,Printer paper not loaded jam
+ScotApp_268,Card Mis-Read
+ScotApp_1027,"Touch ""Yes"" to cancel transaction or touch ""No"" to resume transaction."
+ScotApp_1354,Collect Gift Card
+ScotApp_968,968unused
+ScotApp_868,Authorisation Number Entry:
+ScotApp_1433,on bag scale.
+ScotApp_1687,"Use ""Cash/Paper Status"" screen to load cash."
+ScotApp_1150,Printer cabinet door is open.
+ScotApp_1699,"Substitution is used because %sRefill or clear jam, then touch ""Condition Corrected""."
+ScotApp_1259,USERDEFINED1
+ScotApp_1223,CASH / PAPER SHORTAGE
+ScotApp_1379,unit price
+ScotApp_1432,<<<Low notes. Please refill.>>>
+ScotApp_1686,Unrecoverable Error.  Please close the Lane.  Call Gunnebo and provide the error information shown below.\n\nSafePay Error: %s
+ScotApp_1157,Note dispenser door may be open.\n\nNote dispenser will not operate with access door open.\n\nClose and latch dispenser door or safe door fully.
+ScotApp_1013,Backed Up Items
+ScotApp_1184,MORE DATA
+ScotApp_1848,"Item deleted. Scan next item or touch ""Key In code""."
+ScotApp_1169,Open printer cabinet door.\n* Pull the printer carefully forward until it latches into position.\n* Close and lock printer cabinet door.
+ScotApp_1662,Other Receipts
+ScotApp_1311,* Remove note acceptor.\n* Open acceptor module.\n* Check for jam then replace module.\n* Check that note acceptor motor turns on and LED light is green.
+ScotApp_1025,Remove all items from belt and close safety cover.
+ScotApp_1378,weight
+ScotApp_22,No\nCash\nBack\n+ 0          \n(%s)
+ScotApp_1234,QUANTITY RESTRICTED
+ScotApp_1685,General Coin Unit Error
+ScotApp_1156,Check that coin dispenser power switch is on.
+ScotApp_1012,Your item is being transported.
+ScotApp_1365,MSR
+ScotApp_1235,EAS ITEM ACTIVE
+ScotApp_1221,AUDACTION
+ScotApp_1143,Coins are low or the coin container is not present.
+ScotApp_434,Benefit Type
+ScotApp_1625,"Insert coins to replenish or touch ""Remove Coins"" to unload."
+ScotApp_1430,Void Item
+ScotApp_1684,Coin Recycler Error
+ScotApp_1155,Device is offline.
+ScotApp_834,Fees && Customer Agreements:
+ScotApp_799,Check Basket
+ScotApp_699,Unsellable Item
+ScotApp_599,Resetting Forms Device...
+ScotApp_499,499unused
+ScotApp_399,399unused
+ScotApp_299,299unused
+ScotApp_199,User Exits loaded.
+ScotApp_743,743unused
+ScotApp_643,Item deleted. Scan next item.
+ScotApp_543,Operator ID cannot be greater than %d digits.
+ScotApp_343,343unused
+ScotApp_243,Card reader invalid card
+ScotApp_999,Limit exceeded
+ScotApp_899,Approve Void for
+ScotApp_1220,EFT
+ScotApp_1142,Coin Dispenser Error
+ScotApp_943,"I'm using my own bag"
+ScotApp_843,843unused
+ScotApp_1437,"""Item Removed"" threshold exceeded"
+ScotApp_1601,     Card Dispenser bin is low
+ScotApp_722,722unused
+ScotApp_622,Edit Tolerance for UPC
+ScotApp_522,Wrong PIN
+ScotApp_422,422unused
+ScotApp_322,322unused
+ScotApp_222,"Printer request sequence: Check printer or event viewer for errors, then touch ""I corrected the problem""."
+ScotApp_122,122unused
+ScotApp_1010,1010unused
+ScotApp_922,922unused
+ScotApp_822,Approve Voided Item
+ScotApp_1715,SuspensionDecline Approval
+ScotApp_1227,TIME RESTRICTED
+ScotApp_701,701unused
+ScotApp_601,601unused
+ScotApp_401,Insert card. Please check basket for additional items.
+ScotApp_301,Enter Coupon Value
+ScotApp_201,Testing sign on...
+ScotApp_101,Unknown Price
+ScotApp_1633,Note Recycler Error
+ScotApp_901,Approval to skip bagging.
+ScotApp_801,Purchase Crate
+ScotApp_1824,Digital Receipt was not generated.
+ScotApp_1328,Double Weight
+ScotApp_1299,Start Transaction and Enter Assist Mode
+ScotApp_1226,RECALLED ITEM
+ScotApp_1140,Jam in note dispenser.
+ScotApp_1579,Note Acceptor
+ScotApp_1426,%s\nIs %d correct?
+ScotApp_1632,"Remove Note Cover. Check cable to Note Validator and Retry.  If error recurs, call for Service.\n\nSafePay Error: %s"
+ScotApp_1141,Failed to dispense %s. CAUTION: Note may be jammed in top of note dispenser.
+ScotApp_1791,Cash Only
+ScotApp_1357,Collect Gift Card
+ScotApp_763,763unused
+ScotApp_714,714unused
+ScotApp_614,Bagging Enforcement
+ScotApp_514,514unused
+ScotApp_314,bin problem
+ScotApp_214,Debit Current
+ScotApp_114,Cannot Cancel Item
+ScotApp_1369,Misc
+ScotApp_78,ATM (No Cash)
+ScotApp_1630,Note Recycler Error
+ScotApp_58,OK
+ScotApp_48,48unused
+ScotApp_914,"Go to lane, remove extra items and touch ""Clear Security""."
+ScotApp_1422,Handheld Scanner
+ScotApp_18,Total
+ScotApp_1147,Security Scale Error
+ScotApp_1578,Total Value:
+ScotApp_1022,"I don't want to\nbag this item"
+ScotApp_98,98unused
+ScotApp_88,88unused
+ScotApp_1003,Time restricted
+ScotApp_1434,Age Restricted
+ScotApp_1356,Collect
+ScotApp_1212,OTHER
+ScotApp_1455,Invalid Number
+ScotApp_1713,Touch Approve for Suspension Decline
+ScotApp_1565,Enter Load Value for %s
+ScotApp_194,Device Manager loading...
+ScotApp_1275,USERDEFINED17
+ScotApp_1146,Acceptor not responding.
+ScotApp_1303,Loyalty card accepted: #%s
+ScotApp_70,70unused
+ScotApp_60,Call For Help
+ScotApp_50,50unused
+ScotApp_40,Store Authorisation
+ScotApp_30,Voided Items
+ScotApp_20,20unused
+ScotApp_10,10unused
+ScotApp_1779,"Cannot void item until its coupon is voided. Void item's coupon first."
+ScotApp_1211,DEFAULT
+ScotApp_90,90unused
+ScotApp_80,80unused
+ScotApp_663,PIN Entry Failure
+ScotApp_463,Remote Approval ending...
+ScotApp_363,\nUse keypad to enter operator password.
+ScotApp_163,163unused
+ScotApp_1420,Cancel item\n%s?
+ScotApp_1145,Coin Acceptor Error
+ScotApp_963,Cancel Request
+ScotApp_863,Coupon Value Entry
+ScotApp_1816,Coins are jammed or door is open.
+ScotApp_1637,Cable Problem
+ScotApp_742,742unused
+ScotApp_642,Item added. Scan next item.
+ScotApp_542,Cannot create operator barcode.
+ScotApp_342,Type Description
+ScotApp_242,Card reader card jam
+ScotApp_142,Confirm Amount
+ScotApp_1210,LAST VIEW
+ScotApp_942,942unused
+ScotApp_842,842unused
+ScotApp_1044,Operator Assisted Tender
+ScotApp_1427,Change quantity for item: \n%s
+ScotApp_721,721unused
+ScotApp_621,Default
+ScotApp_1341,Volume Control
+ScotApp_421,"Scan your items, or touch ""Start"" to begin."
+ScotApp_321,Transaction Verification
+ScotApp_221,Close and lock printer cabinet door.
+ScotApp_121,items from this checkstand.
+ScotApp_1636,Coin Recycler Error
+ScotApp_921,Weight expected on security scale.
+ScotApp_821,821unused
+ScotApp_600,Security Maintenance
+ScotApp_500,500unused
+ScotApp_400,400unused
+ScotApp_1368,Sigcap
+ScotApp_200,Testing Transaction Broker...
+ScotApp_100,Quantity Needed
+ScotApp_1076,Attention
+ScotApp_1623,Transfer Notes to Cassette for Pickup
+ScotApp_1340,Shut Down Entire System
+ScotApp_1108,%s\t%s\t%s @ %s %s/%s\t%s
+ScotApp_1814,Hopper bin is out or unseated.
+ScotApp_1758,Coupon Bin Error
+ScotApp_1635,"Check cable to Note Recycler and Retry.   If error recurs, call for service.\n\nSafePay Error: %s"
+ScotApp_1557,Dispenser Pickup
+ScotApp_734,734unused
+ScotApp_634,634unused
+ScotApp_534,Time Restricted Items
+ScotApp_1413,Please finish your transaction in the next # minute(s).  A power disconnection may occur soon.
+ScotApp_334,Card reader no card error
+ScotApp_234,Remove note cassette.\n\nRemove notes from cassette.\n\nRe-insert cassette until it is latched into position.\n\nPull on cassette handle to ensure latch is holding cassette in position.
+ScotApp_1569,Value
+ScotApp_1801,Mode of Operation
+ScotApp_934,Weight Increase
+ScotApp_1622,Cassette
+ScotApp_768,Suspend Confirmation
+ScotApp_668,Signature Printing Successful.
+ScotApp_1347,Attempting reconnect
+ScotApp_1778,Clear Security
+ScotApp_168,Scan your coupons and put them aside until end of purchase.
+ScotApp_1203,ENDORSED DOCUMENT
+ScotApp_1634,Cable Problem
+ScotApp_1556,Acceptor Pickup
+ScotApp_1412,Assist Functions
+ScotApp_1783,SAFETY COVER OPEN
+ScotApp_1232,APPROVED SIGNATURE
+ScotApp_1568,Grand Total :        %s
+ScotApp_1800,Select Mode of Operation
+ScotApp_1495,Please refer to the Device Manual to fix the error.
+ScotApp_1621,Unlock Note Cassette
+ScotApp_1346,The Lane is offline and the system is attempting to reconnect.
+ScotApp_72,72unused
+ScotApp_62,Yes
+ScotApp_52,Cancel Coupons
+ScotApp_42,Voided Items
+ScotApp_32,Continue
+ScotApp_12,  Qty %d @ %s/each
+ScotApp_1411,Change Quantity
+ScotApp_92,Welcome!
+ScotApp_82,82unused
+ScotApp_1807,_ _ _
+ScotApp_1089,End Report Period
+ScotApp_1620,Unlock Note Cover
+ScotApp_1345,Security Manager ending...
+ScotApp_1819,Coin Recycler Acceptor Errors
+ScotApp_762,762unused
+ScotApp_662,%
+ScotApp_1554,Acceptor	
+ScotApp_462,Remote Approval loaded.
+ScotApp_362,Enter Password
+ScotApp_262,262unused
+ScotApp_162,Scan your items and coupons.
+ScotApp_1410,Change Price
+ScotApp_962,"Collect voided item at lane and then touch ""Approve Void""."
+ScotApp_862,Coupon Value Entry:
+ScotApp_1806,"\n* Touch ""Cards Only"" to end the transaction and manually give the change to the customer."
+ScotApp_1088,1088unused
+ScotApp_1627,Coin/Note Recycler Error
+ScotApp_741,741unused
+ScotApp_641,  Avg.Wt.   Approved    Tally     Tol.Type     Tol.Value     Date
+ScotApp_541,Print Operator Scan Barcode
+ScotApp_441,Confirm Amount
+ScotApp_341,341unused
+ScotApp_241,Device Manager unexpected error
+ScotApp_141,Select Card Type
+ScotApp_941,Voided Item
+ScotApp_841,Item Entry
+ScotApp_1873,1873unused
+ScotApp_25,Birth date:
+ScotApp_720,720unused
+ScotApp_520,Unknown Item Code
+ScotApp_420,420unused
+ScotApp_320,Go Back
+ScotApp_220,* Open printer cabinet door.\n* Open printer cover to check for jams.\n* Load new roll of paper into printer.\n* Close and lock printer cabinet door.
+ScotApp_120,Transaction cancelled. Remove
+ScotApp_1626,Insert cash to replenish or select other function.
+ScotApp_1423,The Handheld Scanner is attempting to connect.
+ScotApp_920,Approve/No Update.
+ScotApp_820,Approve Void
+ScotApp_1757,"To add an accent, touch an ""Accent"" key at the bottom of the screen then type the letter."
+ScotApp_1872,1872unused
+ScotApp_754,Previous 7 Days Summary
+ScotApp_554,Do not swipe charge cards at this time.
+ScotApp_1613,Reject Bin
+ScotApp_354,System Functions
+ScotApp_254,Coin dispenser inoperable.\nFill coin dispenser or\nTurn on power or\nRemove dispenser jam.
+ScotApp_154,Loading...
+ScotApp_1769,Key In Code
+ScotApp_1240,CASH
+ScotApp_954,Smart Scale Open Failed
+ScotApp_854,Five Items
+ScotApp_1547,Please refer to the Device Manual to fix the error.
+ScotApp_1403,Stop and restart the NCR SelfServ Checkout program. If the error is still present contact your help desk.
+ScotApp_545,Restricted Item
+ScotApp_1559,Exit
+ScotApp_1871,%s %s observed
+ScotApp_1612,Card Management
+ScotApp_1550,Please refer to the Device Manual to fix the error.
+ScotApp_845,Scan Additional Items:
+ScotApp_1564,Enter Load Count for %s
+ScotApp_1768,Unsupported weight unit.
+ScotApp_1272,USERDEFINED14
+ScotApp_1546,Please refer to the Device Manual to fix the error.
+ScotApp_74,Approve Voids
+ScotApp_64,Cancel Selected
+ScotApp_54,Cancel
+ScotApp_44,44unused
+ScotApp_34,34unused
+ScotApp_1558,Exit & Save
+ScotApp_14,14unused
+ScotApp_1870,%s %s expected
+ScotApp_1389,Signature Capture Device Error
+ScotApp_1611,     Reject bin is Full
+ScotApp_94,94unused
+ScotApp_84,Load Options
+ScotApp_1289,B - C
+ScotApp_687,Print Report
+ScotApp_587,Signature
+ScotApp_487,Down
+ScotApp_387,Transport jam
+ScotApp_287,Scanner: Invalid tag
+ScotApp_1545,Please refer to the Device Manual to fix the error.
+ScotApp_1336,Utility
+ScotApp_987,Item removed from belt. Return item.
+ScotApp_887,Item Removed
+ScotApp_555,Other Payment
+ScotApp_1610,     Reject bin is Near Full (%s) 
+ScotApp_1041,Approve Signature
+ScotApp_1691,Cash Management
+ScotApp_1809,Coin Recycler Dispenser Errors
+ScotApp_1288,A
+ScotApp_761,761unused
+ScotApp_1193,VERIFIED IDENTITY
+ScotApp_561,Put Coupon to Side
+ScotApp_461,Remote Approval loading...
+ScotApp_361,Lane Closed
+ScotApp_261,261unused
+ScotApp_961,"Weight Learning Database fault: Check Event Viewer for errors, then touch ""I corrected the problem""."
+ScotApp_861,861unused
+ScotApp_1876,%s %s observed
+ScotApp_740,740unused
+ScotApp_640,Existing WLDB Weight Entries
+ScotApp_540,540unused
+ScotApp_340,Select item from list. Use arrow buttons to scroll up and down.
+ScotApp_240,Device Manager general failure
+ScotApp_140,Thank You
+ScotApp_1105,e=d=0.005kg Max 13.995kg min 0.1kg Nmax 2799
+ScotApp_1192,ASSEMBLY FEE
+ScotApp_940,Void
+ScotApp_840,Item Entry:
+ScotApp_1863,"Touch ""Approve"" or ""Void Item"""
+ScotApp_1463,Change in Value
+ScotApp_1875,%s %s expected
+ScotApp_774,Points Earned :
+ScotApp_674,"""Tender declined reason: """
+ScotApp_780,780unused
+ScotApp_474,474unused
+ScotApp_374,Printer blackmark error
+ScotApp_174,"Cannot find scanned item. It has not been purchased yet, or it has already been cancelled."
+ScotApp_1029,Insert Coupon
+ScotApp_974,974unused
+ScotApp_1679,Note Library Error
+ScotApp_1747,Fingerprint Reader Error
+ScotApp_1862,Verify item on scanner scale
+ScotApp_1603,     Card Dispenser bin is normal
+ScotApp_1419,Multi-Pack
+ScotApp_1759,Coupon Bin Full
+ScotApp_649,Price Embedded
+ScotApp_1039,Previous items have EAS tag(s).
+ScotApp_849,Quantity Needed
+ScotApp_765,765unused
+ScotApp_565,Store Log In
+ScotApp_1549,Please refer to the Device Manual to fix the error.
+ScotApp_1861,PICKLIST
+ScotApp_1731,PickList Images Loading...
+ScotApp_76,76unused
+ScotApp_66,66unused
+ScotApp_56,Cancel Payment
+ScotApp_46,Help
+ScotApp_36,Refunded:
+ScotApp_26,26unused
+ScotApp_16,%s will be charged to your card.
+ScotApp_719,719unused
+ScotApp_619,Select <Key-In Tolerance> or <Default> to edit current tolerance.
+ScotApp_519,Coupon Too High
+ScotApp_419,419unused
+ScotApp_319,Pay With Card
+ScotApp_219,219unused
+ScotApp_119,Cancel All Items
+ScotApp_96,96unused
+ScotApp_86,86unused
+ScotApp_1755,Select From List
+ScotApp_1038,Verify Signature
+ScotApp_919,"Verify item weight and touch ""Approve & Update Weight,"" or touch ""Approve/No Update""."
+ScotApp_1489,Please refer to the Device Manual to fix the error.
+ScotApp_1745,Fingerprint device is disconnected.\n\nPlease try again.
+ScotApp_1860,Please select from picklist assisted items or look-up item alphabetically.
+ScotApp_1268,USERDEFINED10
+ScotApp_1008,1008unused
+ScotApp_786,Suspended At Lane
+ScotApp_686,Yesterday
+ScotApp_586,Coupons: %0.0ld/$%0.2lf
+ScotApp_486,Up
+ScotApp_386,Cassette Removed
+ScotApp_286,Scanner: Invalid tag prefix2
+ScotApp_186,186unused
+ScotApp_1488,Please refer to the Device Manual to fix the error.
+ScotApp_986,986unused
+ScotApp_886,Item removed from bagging area.\nReturn item.
+ScotApp_1393,"Stop and restart the NCR SelfServ Checkout program. If the error persists, contact the help desk."
+ScotApp_1867,Camera View Blocked
+ScotApp_68,68unused
+ScotApp_38,38unused
+ScotApp_28,Cancel Purchase
+ScotApp_1024,1024unused
+ScotApp_760,Swipe your card on the side of this monitor.
+ScotApp_660,All currency levels are normal
+ScotApp_460,This will complete your purchase.
+ScotApp_360,Close Lane
+ScotApp_260,260unused
+ScotApp_1392,Tri-Light Error
+ScotApp_960,"Bag Scale fault: Check Bag Scale or Event Viewer for errors, then touch ""I corrected the problem""."
+ScotApp_860,Measurement Needed:
+ScotApp_1866,More Popular
+ScotApp_1459,Cash Management Report
+ScotApp_1239,NONE
+ScotApp_1301,Edit Pick List
+ScotApp_1749,Processing Fingerprint
+ScotApp_1017,Clear backed up items on belt.
+ScotApp_1771,Coupon Value Limit
+ScotApp_739,739unused
+ScotApp_639,Wt.Expected   Wt.Comparison
+ScotApp_539,539unused
+ScotApp_439,439unused
+ScotApp_339,339unused
+ScotApp_239,Device Manager unexpected status
+ScotApp_1092,Report Content
+ScotApp_1851,Do Not Approve  
+ScotApp_1238,OTHER PAYMENT
+ScotApp_939,Timer expired
+ScotApp_839,Cancel Action
+ScotApp_1333,Backspace
+ScotApp_24,Voided
+ScotApp_1016,Backed Up Items on Belt
+ScotApp_1615,Touch Dispenser Pickup button to unload
+ScotApp_1723,Training Trx
+ScotApp_1028,Coupon Threshold Exceeded
+ScotApp_1435,Coin/Note Dispenser Error
+ScotApp_1698,"Touch ""Condition Corrected""."
+ScotApp_1688,Cassette Error
+ScotApp_454,454unused
+ScotApp_1593,Remove Coins
+ScotApp_1642,Note Recycler Error
+ScotApp_1015,Backed Up Items
+ScotApp_785,785unused
+ScotApp_685,Hourly
+ScotApp_585,585unused
+ScotApp_536,Coin Acceptor
+ScotApp_385,385unused
+ScotApp_285,Scanner: Invalid tag suffix
+ScotApp_185,"Compare the customer's signature with the one on the card."
+ScotApp_1224,PRICE NEEDED
+ScotApp_985,Place item on belt.
+ScotApp_885,Bagging Alert
+ScotApp_575,End Cash Tender.  Balance Due.
+ScotApp_475,Transaction Suspend
+ScotApp_375,Printer time out
+ScotApp_1002,No Sale
+ScotApp_1888,"Monitor customer transaction for security and touch ""Clear Security""."
+ScotApp_910,910unused
+ScotApp_1592,"Remove coins from the jammed bin. Tilt bin. Turn the screw to the right until the coin can be removed. Don't use excessive force."
+ScotApp_875,Head Cashier ID for Cancel Purchase
+ScotApp_1014,Clear backed up items from belt.
+ScotApp_1572,Are you sure you want to ignore changes on Coin Management screen?
+ScotApp_1790,Credit / Debit Only
+ScotApp_1344,Security Manager loaded.
+ScotApp_798,798unused
+ScotApp_698,698unused
+ScotApp_598,Form %d failed to store!
+ScotApp_498,Amount Paid:
+ScotApp_398,Cassette Inserted
+ScotApp_298,298unused
+ScotApp_198,User Exits loading...
+ScotApp_998,Quantity
+ScotApp_898,WTINFO ending...
+ScotApp_1416,Check for multi-pack
+ScotApp_1431,Void All
+ScotApp_1236,Processing Report...
+ScotApp_1770,Select from search results.
+ScotApp_1000,Not Found
+ScotApp_1439,"""Bag/Box"" threshold exceeded"
+ScotApp_1217,VOID
+ScotApp_759,Swipe your card on the payment device.
+ScotApp_659,Currency Low Status:
+ScotApp_559,No Coupons
+ScotApp_459,A balance will remain for this purchase.
+ScotApp_359,System Functions
+ScotApp_259,Device Manager ending...
+ScotApp_1007,Help requested
+ScotApp_1438,"""New Item"" threshold exceeded"
+ScotApp_959,Weight Learning Database
+ScotApp_859,No
+ScotApp_1216,SECURITY
+ScotApp_1373,COLLECT GIFT CARD
+ScotApp_1005,Visual validation
+ScotApp_1655,Dept Sale
+ScotApp_1228,SUSPENDED
+ScotApp_1725,Security Disabled
+ScotApp_1006,Other Tender
+ScotApp_496,Quantity Limit
+ScotApp_1018,Years old minimum.
+ScotApp_1160,"Check if cable is connected to back of PinPad.\n\nIf cable securely fastened, touch ""I corrected the problem"".\n\nIf error remains, shut down and restart terminal."
+ScotApp_1073,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;DATANEEDEDTYPE=%d;
+ScotApp_1424,"To connect your handheld scanner touch ""Connect""."
+ScotApp_1202,CLOSED LANE
+ScotApp_679,Assistance Reports
+ScotApp_1792,Cards Only
+ScotApp_1214,RECEIPT
+ScotApp_1804,Exit Cards Only Mode
+ScotApp_879,879unused
+ScotApp_1072,Need Information
+ScotApp_1631,Note Validator Error
+ScotApp_1148,Security Scale components failure
+ScotApp_1244,DEBIT SAVINGS
+ScotApp_1004,Verify Item
+ScotApp_1282,Need Price for
+ScotApp_1071,1071unused
+ScotApp_1276,USERDEFINED18
+ScotApp_1200,PRICE PROMPT
+ScotApp_1639,Coin Recycler Error
+ScotApp_1828,\n    - Volume level %d%%
+ScotApp_1308,PIN Entered
+ScotApp_1417,"If item is a multi-pack, touch ""Assist Mode"" and void it, then scan multi-pack barcode."
+ScotApp_1343,Security Manager loading...
+ScotApp_779,779unused
+ScotApp_1429,<<<Low coins. Please refill.>>>
+ScotApp_579,579unused
+ScotApp_479,Drop off coupons
+ScotApp_379,Cash Acceptor
+ScotApp_279,Acknowledge all recorded security issues.
+ScotApp_179,179unused
+ScotApp_1865,Look up item\nwithout weight
+ScotApp_1207,VERIFIED SIGNATURE
+ScotApp_1638,"Check Coin Recycler cables and Retry. If error recurs, call for Service.\n\nSafePay Error: %s"
+ScotApp_979,Threshold = %d customer requests
+ScotApp_707,Previous 7 Days
+ScotApp_607,Set Bagging Enforcement
+ScotApp_507,Visual Verify Items
+ScotApp_307,Other Container
+ScotApp_207,207unused
+ScotApp_107,Help Coming
+ScotApp_1219,AGE RESTRICTED
+ScotApp_907,907unused
+ScotApp_807,Remove Security Tags
+ScotApp_1077,Return items to belt
+ScotApp_1428,Change price for item: \n%s
+ScotApp_1695,Fix Later
+ScotApp_1206,UNDEACTIVATED ITEM
+ScotApp_1218,COLLECTION
+ScotApp_1782,START TRANSACTION IN AM
+ScotApp_1273,USERDEFINED15
+ScotApp_1624,Transfer All Notes to Cassette
+ScotApp_793,793unused
+ScotApp_1059,1059unused
+ScotApp_593,NCR SelfServ Checkout SigCap loading...
+ScotApp_493,Your receipt will print below the payment device.
+ScotApp_393,Journal Printer
+ScotApp_293,Request for help
+ScotApp_1205,BAG AREA BACKUP
+ScotApp_993,Lane Closed
+ScotApp_893,DBM loading...
+ScotApp_1063,1063unused
+ScotApp_1414,This lane is unavailable until power is restored.
+ScotApp_1182,COUPON AMOUNT LIMIT
+ScotApp_1201,ASSISTED TENDER
+ScotApp_1075,Limit\Skip Belt
+ScotApp_1348,Lane Closed
+ScotApp_1671,Open Note Recycler unit and remove notes from the cassette. Close recycler unit.\nDispense coins from hopper and remove from change cup.
+ScotApp_1204,DOCUMENT NUMBER
+ScotApp_1284,1284unused
+ScotApp_1062,1062unused
+ScotApp_1233,OTHER PAYMENT
+ScotApp_27,27unused
+ScotApp_1074,Approval to skip belt.
+ScotApp_1472,Cash Recycler Device not Ready
+ScotApp_1026,Cancel Trans.
+ScotApp_1061,1061unused
+ScotApp_1617,Amount entered exceeds capacity. Re-enter load count for Dispenser Bin. Maximum capacity is %d.
+ScotApp_1050,1050unused
+ScotApp_744,744unused
+ScotApp_1591,Check Cable Connections to the coin dispenser
+ScotApp_1130,Note Acceptor Error
+ScotApp_1270,USERDEFINED12
+ScotApp_1629,Problem with CPU settings or Sysdata parameters.  Please call for Service.\n\nSafePay Error: %s
+ScotApp_1820,"Remove item from scale, and press "">0<"" button on scanner."
+ScotApp_882,Confirm Suspend.
+ScotApp_1440,Note Management
+ScotApp_1407,REBOOT
+ScotApp_727,727unused
+ScotApp_627,Transaction #:
+ScotApp_527,527unused
+ScotApp_427,Media Low
+ScotApp_327,"Device offline, check connections and/or event log:"
+ScotApp_227,Card reader invalid card inserted
+ScotApp_127,127unused
+ScotApp_665,"Select ""Cancel All"" or ""Go Back"" to continue."
+ScotApp_1060,PLEASE WAIT...
+ScotApp_1616,Enter Load count for Dispenser Bin. The maximum amount you could load is %d.
+ScotApp_927,Device Malfunction
+ScotApp_827,"Pass item's barcode over pad and place in bagging area."
+ScotApp_1540,Please refer to the Device Manual to fix the error.
+ScotApp_900,Place item in bagging area.
+ScotApp_1277,USERDEFINED19
+ScotApp_865,Verify Cardholder
+ScotApp_506,506unused
+ScotApp_406,406unused
+ScotApp_306,No Container
+ScotApp_206,Options will be loaded.
+ScotApp_106,Help Needed
+ScotApp_1209,GIFT CARD LIMIT EXCEEDED
+ScotApp_806,Approve Visual Validation Items
+ScotApp_1067,1067unused
+ScotApp_1418,Maximum weight allowance exceeded.
+ScotApp_1473,"Device is not ready. \n\nTurn power on, check Communication cable, or put unit back into cabinet. "
+ScotApp_187,187unused
+ScotApp_1716,WE:
+ScotApp_1190,ENTERED COUPON
+ScotApp_1602,     Card Dispenser bin is low (%s)
+ScotApp_1149,Receipt Printer Error
+ScotApp_1066,1066unused
+ScotApp_1614,Dispenser Bin
+ScotApp_792,792unused
+ScotApp_692,692unused
+ScotApp_592,NCR SelfServ Checkout Encryptor loaded.
+ScotApp_492,Please take your change.
+ScotApp_392,Unknown Items
+ScotApp_292,"Can't scan a coupon"
+ScotApp_192,192unused
+ScotApp_1241,CREDIT
+ScotApp_1197,CANCELED TRANSACTION
+ScotApp_1548,Please refer to the Device Manual to fix the error.
+ScotApp_992,Enter birthday
+ScotApp_892,Smart Scale ending...
+ScotApp_1053,Wait for cashier to bring paper slip to sign.
+ScotApp_1404,"POS server is down or out-of-sync, please shutdown the terminal using switch."
+ScotApp_1245,DEBIT CHECKING
+ScotApp_1262,USERDEFINED4
+ScotApp_1471,Coin Recycler Device Error
+ScotApp_1196,"DRIVER'S LICENSE NUMBER"
+ScotApp_1052,1052unused
+ScotApp_1600,Card Dispenser Status :
+ScotApp_1663,bin is empty or jammed
+ScotApp_1261,USERDEFINED3
+ScotApp_1125,"Refill all coin channels to the top in the coin magazine.\n\nGo into Store Mode, select ""Cash / Paper Status"" and touch the ""Coin Dispenser Refilled"" button."
+ScotApp_1183,PRICE PROMPT
+ScotApp_1470,Note Recycler Device Error
+ScotApp_1195,CSA SUSPENDED
+ScotApp_1229,CALLED FOR HELP
+ScotApp_1051,Paper Slip Approval
+ScotApp_1607,     Reject bin is normal (%s)
+ScotApp_1895,Genr Excp
+ScotApp_747,747unused
+ScotApp_647,N
+ScotApp_447,Your frequent shopper account has been activated.
+ScotApp_347,Restricted item has been cancelled - age limit not met. Please put item aside.
+ScotApp_247,247unused
+ScotApp_147,147unused
+ScotApp_1260,USERDEFINED2
+ScotApp_1619,Suspend
+ScotApp_769,Confirm or cancel suspend.
+ScotApp_947,New Weight Item
+ScotApp_847,Finished Scanning
+ScotApp_1477,Please refer to the Device Manual to fix the error.
+ScotApp_726,726unused
+ScotApp_626,Tolerance:
+ScotApp_526,\nWrong PIN Entered.\nSwipe a different card\n   -or-\nPay with cash
+ScotApp_426,Lane ##:
+ScotApp_326,Birth date does not meet age limit for restricted items.
+ScotApp_226,Card reader device inoperable
+ScotApp_126,(ddmmyy).
+ScotApp_1606,     Reject bin is normal
+ScotApp_926,Items not returned to bagging area.
+ScotApp_826,"I don't want to\nbag this item"
+ScotApp_1267,USERDEFINED9
+ScotApp_1618,A note dispenser cassette out or not fully inserted.\n\nInstall or reseat the note cassette until latched.
+ScotApp_1181,COUPON THRESHOLD EXCEEDED
+ScotApp_205,Copying is complete.
+ScotApp_105,Unknown Item
+ScotApp_1476,Please refer to the Device Manual to fix the error.
+ScotApp_1730,Search
+ScotApp_1390,Device not responding
+ScotApp_805,Approve Items
+ScotApp_1864,Go to lane
+ScotApp_1408,ASSIST
+ScotApp_1266,USERDEFINED8
+ScotApp_1180,NO PRICE MATCH
+ScotApp_1208,SOLD IN ASSIST MODE
+ScotApp_1475,Please refer to the Device Manual to fix the error.
+ScotApp_1397,Attendant
+ScotApp_1748,Fingerprint Login Failure
+ScotApp_718,718unused
+ScotApp_618,Weight Tolerance
+ScotApp_518,Insert cash.
+ScotApp_1253,PIP LOYALTY
+ScotApp_1604,     Card Dispenser bin is normal (%s)
+ScotApp_218,Printer near empty
+ScotApp_118,Approval Needed
+ScotApp_552,"Operator and Password can't be zero leading."
+ScotApp_791,Select Payment Type
+ScotApp_691,691unused
+ScotApp_591,NCR SelfServ Checkout Encryptor loading...
+ScotApp_391,Price Needed Items
+ScotApp_918,No record of item weight.
+ScotApp_1187,DEVICE ERROR
+ScotApp_991,Age Check
+ScotApp_891,Smart Scale loaded.
+ScotApp_1474,Hardware Error. Error Code E%d
+ScotApp_1396,Exit Attendant Mode
+ScotApp_1252,PIP DEBIT CASH BACK
+ScotApp_1732,PickList Images Loaded.
+ScotApp_1461,Coins
+ScotApp_1166,* Open printer cabinet door.\n* Unlatch and push printer back.\n* Open printer cover to check for jams.\n* Shut printer cover and reload paper.\n* Pull printer carefully forward until it latches into position.
+ScotApp_1186,UNEXPECTED DECREASE
+ScotApp_1857,  Do not put on the belt
+ScotApp_1829,Approve
+ScotApp_1670,Coin/Note Recycler Error
+ScotApp_1198,ENTERED ACCOUNT NUMBER
+ScotApp_1869,Hand In View
+ScotApp_1251,PIP DEBIT
+ScotApp_1855,Optional
+ScotApp_767,Media Level Normal
+ScotApp_667,Card swiped. Scan your items and coupons.
+ScotApp_567,Enter
+ScotApp_467,467unused
+ScotApp_367,367unused
+ScotApp_267,Security
+ScotApp_1460,Notes
+ScotApp_1185,BAG BOX THRESHOLD EXCEEDED
+ScotApp_1009,Store Mode
+ScotApp_867,No
+ScotApp_1856,  Do not bag
+ScotApp_1677,Check that the Coin Recycler door is closed.
+ScotApp_746,746unused
+ScotApp_646,Y
+ScotApp_1394,Digital Interface Error
+ScotApp_446,Suspend Transaction
+ScotApp_346,ATM (Cash Back)
+ScotApp_246,246unused
+ScotApp_146,Please select your payment type.
+ScotApp_1501,Please refer to the Device Manual to fix the error.
+ScotApp_1609,     Reject bin is Near Full
+ScotApp_1194,AUTHORISATION NUMBER
+ScotApp_946,Bag/Box approval
+ScotApp_846,"Scan items or touch ""Finished Scanning""."
+ScotApp_1843,Own Bag
+ScotApp_1467,"Use ""Cash/Paper Status"" screen to unload cash."
+ScotApp_725,725unused
+ScotApp_625,Enter a weight tolerance between <%s> and <%s>.
+ScotApp_1381,Processing...
+ScotApp_425,425unused
+ScotApp_325,Date entered is not a valid date
+ScotApp_225,Card reader capture bin inserted
+ScotApp_1676,Coin Recycler Door Open
+ScotApp_925,925unused
+ScotApp_825,Bag Item
+ScotApp_1608,     Reject bin is empty
+ScotApp_1842,Full Assist
+ScotApp_1808,Select item on receipt.
+ScotApp_1466,Cash Recycler Status Full
+ScotApp_1380,price
+ScotApp_1854,Optional
+ScotApp_1675,Coin Recycler Error
+ScotApp_1597,Loyalty Card
+ScotApp_1350,%s\n%s %s added
+ScotApp_738,738unused
+ScotApp_638,Effective WLDB tolerance info
+ScotApp_538,538unused
+ScotApp_338,"Type the first three letters of the item's description."
+ScotApp_238,\nCash acceptor failed to log inserted cash.\n\nCheck note cassette.
+ScotApp_138,Take Card
+ScotApp_1170,"* Open printer cover and check for paper jam in the area shown. \n* Remove Paper.\n* Close printer cover and reload paper.\n* If the error remains, reboot terminal."
+ScotApp_1841,Please go to Lane for Approval
+ScotApp_1740,Verify Bag
+ScotApp_938,938unused
+ScotApp_838,Customer Agreement
+ScotApp_1133,Jam in note acceptor.
+ScotApp_1387,"Fatal Software Error Encountered.\nRestart Terminal.\n\nTo Restart Terminal:\n* Turn Supervisor keylock to 'S' -OR- press Supervisor button.\n* Select Reboot Entire System.\n* Call Support and inform them of the error."
+ScotApp_1674,"Press reject button to release jammed coins.  If error recurs, a coin jam may be present. Open coin cover and secure.  Remove any jammed coins.  Press reject button to reset.  Release and close coin cover."
+ScotApp_1650,(ddmmyy)
+ScotApp_690,690unused
+ScotApp_590,Device Factory ending...
+ScotApp_490,"Scan your items, or touch ""Start"" to begin."
+ScotApp_390,Recalled Items
+ScotApp_290,290unused
+ScotApp_190,Transaction Broker loading...
+ScotApp_990,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_890,Smart Scale loading...
+ScotApp_1772,Coupon
+ScotApp_1661,"Unable to print receipt. Touch ""Other Receipts"" to retry."
+ScotApp_1132,Communication error.
+ScotApp_1386,Fatal Error
+ScotApp_784,Note dispenser inoperable\n* Fill note dispenser or\n* Remove dispenser jam or\n* Adjust purge bin.
+ScotApp_684,Today
+ScotApp_584,EBT Declined.
+ScotApp_484,Signature Needed
+ScotApp_384,384unused
+ScotApp_284,Scanner: Data lost
+ScotApp_1595,Preferred Language
+ScotApp_1451,Cashier ID
+ScotApp_984,Takeaway Belt loaded.
+ScotApp_884,Cancel Suspend
+ScotApp_1847,"Item added. Scan next item or touch ""Key In code""."
+ScotApp_1660,Select print option
+ScotApp_1131,Note cassette is out or not properly inserted.
+ScotApp_1385,Select Language
+ScotApp_1436,"""Skip bagging"" threshold exceeded"
+ScotApp_1049,1049unused
+ScotApp_666,666unused
+ScotApp_1594,Properly shut down and reboot the terminal.
+ScotApp_466,   Scanned Unknown Item
+ScotApp_366,Printer knife jam
+ScotApp_266,Sec.Agent ending...
+ScotApp_966,966unused
+ScotApp_1541,Please refer to the Device Manual to fix the error.
+ScotApp_1846,"Scan item or touch ""Key In code""."
+ScotApp_1667,Note Jam
+ScotApp_1689,Note Recycler Error
+ScotApp_745,745unused
+ScotApp_645,Put scanned item in bagging area again.
+ScotApp_1581,Coin Dispenser
+ScotApp_445,Cash Benefit
+ScotApp_345,345unused
+ScotApp_245,Card reader device inoperable
+ScotApp_145,145unused
+ScotApp_945,Limit\Bag/Box
+ScotApp_713,713unused
+ScotApp_613,Place item on bag scale.
+ScotApp_513,513unused
+ScotApp_313,313unused
+ScotApp_213,213unused
+ScotApp_113,Cancel Items
+ScotApp_1573,Touch Load buttons to replenish or touch Acceptor Pickup and Dispenser Pickup buttons to unload.
+ScotApp_913,Unexpected item on security scale.
+ScotApp_813,"Type PO# / Job Name and touch ""Enter"""
+ScotApp_1666,Note Recycler Error
+ScotApp_1137,%s Note cassette not installed.
+ScotApp_1580,Note Dispenser
+ScotApp_758,758unused
+ScotApp_658,currency is low
+ScotApp_558,Quantity Restricted Item
+ScotApp_1653,Amount exceeds capacity. Maximum amount needed is %s. Amount of %s automatically entered.
+ScotApp_358,Return to Assist Mode
+ScotApp_258,Transaction Broker ending...
+ScotApp_158,This item requires store approval. Please continue.
+ScotApp_1844,Search
+ScotApp_958,Bag Scale
+ScotApp_858,Yes
+ScotApp_1136,Note reject bin is out or not fully latched.
+ScotApp_1587,Are you sure you want to ignore changes on Note Management screen?
+ScotApp_1531,Please refer to the Device Manual to fix the error.
+ScotApp_1599,%s preference lookup failed.
+ScotApp_1652,(yymmdd)
+ScotApp_1123,"* DO NOT continue until all jammed notes are removed.\n* Carefully pull note dispenser out of cabinet.\n* Remove jammed notes in top of note dispenser without disturbing belts.\n* Push note dispenser back into the cabinet.\n* Lock door, then touch ""I corrected the problem""."
+ScotApp_1342,Select Utility
+ScotApp_1332,Space
+ScotApp_1586,%s    %s  %s
+ScotApp_1444,Remove
+ScotApp_1598,Preferences Activated.
+ScotApp_1651,(yyyymmdd)
+ScotApp_1122,Note may be jammed in exit of note dispenser.\n\nPull note dispenser partially out of cabinet.\n\nRemove any jammed notes in area shown.\nCarefully push note dispenser back into cabinet.
+ScotApp_1331,Shift
+ScotApp_1585,Bins              Value  Change in Value
+ScotApp_1118,Problem dispensing %s notes.\n\n%s notes could not be retrieved from note cassette.\n\nRemove %s note cassette and check condition of notes.
+ScotApp_1884,Smart Assist alert
+ScotApp_1191,MEASUREMENT NEEDED
+ScotApp_1121,Note may be jammed in area shown.\n\nPull note dispenser partially out of cabinet.\n\nRemove jammed notes.\n\nCarefully push note dispenser back into cabinet.
+ScotApp_503,503unused
+ScotApp_403,403unused
+ScotApp_1849,
+ScotApp_1330,Item not bagged
+ScotApp_1355,Your Balance
+ScotApp_1584,Bins              Count  Change in Count
+ScotApp_465,%s               %s
+ScotApp_365,Printer head jam
+ScotApp_265,265unused
+ScotApp_965,965unused
+ScotApp_633,Signature:
+ScotApp_433,433unused
+ScotApp_333,Card reader shutter jam error
+ScotApp_233,Ensure the note acceptor is installed correctly.\n\nPull handle forward to release and slide note acceptor forward.\n\nPush note acceptor back in until it stops.
+ScotApp_133,133unused
+ScotApp_1120,A note jam may be present in front of %s note cassette.\n\nRemove %s cassette and look for a note jam in this area.\n\nRemove jammed notes if possible and replace note cassette.
+ScotApp_1805,Exit Cash Only Mode
+ScotApp_933,Weight Mismatch
+ScotApp_833,833unused
+ScotApp_1337,Exit SelfServ Checkout
+ScotApp_1780,START TRANSACTION
+ScotApp_712,712unused
+ScotApp_612,Add Weight
+ScotApp_512,Visual Validations
+ScotApp_312,bin is jammed
+ScotApp_212,212unused
+ScotApp_112,Confirm Quantity
+ScotApp_1081,Show\nAll Lanes
+ScotApp_778,778unused
+ScotApp_678,678unused
+ScotApp_578,End Card Tender.  Change Due.
+ScotApp_478,Drop Off Coupons.
+ScotApp_378,Receipt Printer
+ScotApp_278,Security Log
+ScotApp_1127,ReConnect
+ScotApp_1802,Accept Cards Only
+ScotApp_978,Threshold = %d
+ScotApp_878,Enter Price.
+ScotApp_1533,Please refer to the Device Manual to fix the error.
+ScotApp_1787,Enter the number of plastic bags you used or 0 if no bags were used.
+ScotApp_1799,Cards Only Mode
+ScotApp_1309,* Insert cassette until it is latched.\n* Check that note acceptor motor turns on briefly.
+ScotApp_1323,Weight remains
+ScotApp_1079,Put scanned item on belt again.
+ScotApp_1382,(Std)
+ScotApp_1532,Please refer to the Device Manual to fix the error.
+ScotApp_1786,Plastic Bag Charge
+ScotApp_1094,Print Signatures
+ScotApp_1113,%s @ %s/%s\t%s
+ScotApp_1798,Cash Only Mode
+ScotApp_1322,Coupon Sensor error\nCommunication failure.
+ScotApp_1078,Select setting for weight expectation. (Customer should put item on belt.)
+ScotApp_1334,  Item not on belt
+ScotApp_1785,Invalid login. Please login again using the keypad or your fingerprint.
+ScotApp_1046,Please take your %s to cashier at pay station.
+ScotApp_1696,Condition Corrected
+ScotApp_1112,%s @ %s %s/%s\t%s
+ScotApp_1158,PinPad / EFT Device Error
+ScotApp_1065,1065unused
+ScotApp_1321,End Voucher Payment.  Balance Due.
+ScotApp_764,764unused
+ScotApp_1530,Please refer to the Device Manual to fix the error.
+ScotApp_1784,MULTIPACK ITEM
+ScotApp_1070,1070unused
+ScotApp_49,49unused
+ScotApp_1111,  Qty %s @ %s/%s\t%s
+ScotApp_753,Yesterday Hourly
+ScotApp_653,"Enter coupon's value in pence and touch ""Enter""."
+ScotApp_453,Coin acceptor status full
+ScotApp_353,Go Back
+ScotApp_253,253unused
+ScotApp_153,153unused
+ScotApp_1320,Begin Voucher Payment.
+ScotApp_953,"Shut down and restart terminal:\n\n* Turn Supervisor keylock to 'S' -OR- press Supervisor button.\n* Select ""Run ADD on Next Reboot"".  Select “Yes” to confirm.\n* Select ""Shut Down Entire System"".\n* When screen blanks, turn off terminal at UPS or power strip.\n* Turn on terminal. Check event viewer. If error recurs, call for service."
+ScotApp_853,Four Items
+ScotApp_1845,Receipt
+ScotApp_1537,Please refer to the Device Manual to fix the error.
+ScotApp_732,732unused
+ScotApp_632,632unused
+ScotApp_532,Restricted Item
+ScotApp_432,EBT
+ScotApp_332,Leaving Assist Mode.
+ScotApp_232,* Remove note acceptor and cassette.\n* Check for jam in cassette.\n* Open access doors on top of acceptor and check for note jam.\n* Close access doors firmly.\n* Replace acceptor and cassette.
+ScotApp_132,132unused
+ScotApp_1110,  Qty %s @ %s/each\t%s
+ScotApp_1242,DEBIT
+ScotApp_1285,Popular
+ScotApp_932,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_832,832unused
+ScotApp_1327,"Touch desired report, then touch ""Run Report""."
+ScotApp_711,711unused
+ScotApp_611,Select desired function.
+ScotApp_511,"Compare the customer's signature with the one on the card."
+ScotApp_411,Take Loyalty Card
+ScotApp_311,bin is empty
+ScotApp_111,Reset Scale
+ScotApp_1789,COUPON
+ScotApp_1536,Please refer to the Device Manual to fix the error.
+ScotApp_911,Clear Security
+ScotApp_811,Scan your gift card. Please check your basket for additional items.
+ScotApp_1628,CPU Error
+ScotApp_1523,Please refer to the Device Manual to fix the error.
+ScotApp_1349,%s\n %s\n%s %s expected\n%s %s observed
+ScotApp_1892,Security Analysis
+ScotApp_1279,CHECK
+ScotApp_1535,Please refer to the Device Manual to fix the error.
+ScotApp_1057,1057unused
+ScotApp_1441,Coin Management
+ScotApp_1313,* Check printer for paper jams.\n* Reload paper.\n* Properly shut down and reboot the terminal.
+ScotApp_1681,Note Recycler Error
+ScotApp_1069,1069unused
+ScotApp_1325,Place Item On Scale.
+ScotApp_1278,USERDEFINED20
+ScotApp_1103,Previous
+ScotApp_1534,Please refer to the Device Manual to fix the error.
+ScotApp_1056,1056unused
+ScotApp_1312,* Remove note cassette.\n* Open and remove notes.\n* Close and re-insert into acceptor.\n* Check that note acceptor motor turns on and LED light is green.
+ScotApp_1265,USERDEFINED7
+ScotApp_1850,Devices in error
+ScotApp_1213,UNKNOWN
+ScotApp_1521,Please refer to the Device Manual to fix the error.
+ScotApp_139,Take Receipt
+ScotApp_1043,Use Assist Mode to accept %s from customer.
+ScotApp_1401,Assistance in progress.\n\nPlease wait...
+UnknownItemMessage,Help is on the way.\n\nSet item aside and continue.
+TimeRestrictedItemMessage,You are unable to purchase this item at this time. \n\nSet item aside and continue.
+ItemQuantityExceededMessage,You have exceeded the quantity allowed for this item. \n\nSet item aside and continue.
+WeightMismatch,Checking item weight.\n\nPlease wait...
+ItemQuantityExceeded,Quantity Limit Exceeded
+WaitForRemoteAssistanceTitle,Remote Attendant
+ScotApp_489,Thank you for using NCR SelfServ Checkout.
+ScotApp_273,Do not scan at this time.\nPut item aside.
+ScotApp_431,Invalid Loyalty Card. Please verify.
+ScotApp_410,Assistance needed for:
+ScotApp_1739,"Please wait for an attendant.\nThe system could not verify your bags.\nIf you have accidentally placed something other than a bag in the bagging area, please remove it now."
+ScotApp_73,Return to Shopping Mode
+ScotApp_772,A request was made to suspend the current transaction.\nPlease confirm or cancel this request.
+ScotApp_530,Card mis-read.\nUse a different card.\n   -or-\nPay by cash.\n   -or-\nCall for Help.
+ScotApp_524,Wrong PIN entered.\nRe-enter PIN on payment device.
+ScotApp_397,Use Assist Mode to sell the valid items.\nCollect other items not to be sold.
+ScotApp_171,"""%s""\n\nIs %d correct?"
+ScotApp_1374,\n---------------------------------------\n
+ScotApp_1646,Transaction is suspended. Set all items aside.
+ScotApp_495,You have exceeded the quantity allowed for this item.\n\nPlease put item aside and continue.
+ScotApp_529,"Remove card, then...\nInsert different card.\n   -or-\nPay by cash.\n   -or-\nCall for Help."
+ScotApp_275,Do not insert charge cards at this time.\nTake your card.
+ScotApp_1891,System Verification in progress. \nPlease wait...
+ScotApp_1750,Please wait while we process your fingerprint.
+ScotApp_169,Would you like to continue with your purchase?
+ScotApp_415,Take your Loyalty Card.\nCard was inserted before.
+ScotApp_1793,This machine will only accept credit and debit cards at this time.\nDo you wish to continue?
+ScotApp_477,Drop off your coupons.\nAfter your receipt prints:\n-- Collect your items.\n-- Take receipt and coupons to the paystation.
+ScotApp_177,Entire purchase cancelled. Put all items aside.
+ScotApp_656,Please put <%s> aside.\nStore assistant will help you.
+ScotApp_1709,Do not insert notes or coins at this time.\nPlease take your returned cash.\nNotes are dispensed below the scanner.
+ScotApp_435,"Select the benefit type.\nIf you would like to use food stamps, they must be used before other benefits."
+ScotApp_808,Take items with security tags to attendant for removal.
+ScotApp_294,"For store assistance, touch the ""Call for Help"" button."
+ScotApp_1287,Please wait ...\nChecking item weight.
+ScotApp_525,"Wrong PIN Entered.\nRemove Card, then...\nInsert different card\n   -or-\nPay by cash"
+ScotApp_480,"Please touch ""OK"" then take your transaction slip and items to the cashier."
+ScotApp_1751,Maximum weight allowance exceeded.\nRemove items from bag scale.
+ScotApp_175,"Do you want to remove\n""%s""\nfrom receipt?"
+ScotApp_1746,Fingerprint server is not available.\nPlease try again.
+ScotApp_1839,Please wait for cashier.\nDo not scan at this time. Set item aside.
+ScotApp_501,"Please sign the receipt, and wait for store approval."
+ScotApp_414,Take your Loyalty Card.\nDiscounts cannot be applied to your current purchase. They will be mailed to you.
+ScotApp_563,An error occured when initializing Hard Totals.\nThe application will exit now.
+ScotApp_263,"Cannot void item until its coupon is voided.\nVoid item's coupon first."
+ScotApp_800,"Please check your basket.\n\nScan additional items now or\nTouch ""OK"" to pay."
+ScotApp_134,Authorisation in progress.\nPlease wait.
+ScotApp_620,Key-In Tolerance
+ScotApp_161,"%s\nUse keypad to enter quantity and touch ""OK""."
+ScotApp_440,Your cash benefit balance is less than what is needed.\nDo you want to apply your remaining cash benefit of %s to this purchase?
+ScotApp_184,%s will be debited from your account.
+ScotApp_274,Do not insert cash at this time.\nTake your cash.
+ScotApp_1744,Device failed to recognise your fingerprint.\nPlease try again.
+ScotApp_160,Item has been recalled.\nHelp is on the way.\nPut item aside and continue with your purchase.
+ScotApp_1795,"Or restrict to ""Cards Only""."
+ScotApp_159,"Item's price is unknown.\nHelp is on the way.\nPut item aside and continue with your purchase."
+ScotApp_458,Select the benefit type.\nFood stamps cannot be used for this purchase.
+ScotApp_1329,Please wait ...\nChecking item weight.\nDouble weight bagged.
+ScotApp_407,Error reading card.\n*  Try different card\n   -or-\n*  Call for help
+ScotApp_706,"Your food stamp balance is less than the total for this purchase.\nTouch ""OK"" to use a different payment method."
+ScotApp_606,Delete Weight Entries
+ScotApp_906,Please take your items.
+ScotApp_705,"Your cash benefit balance is less than the total for this purchase.\nTouch ""OK"" to use a different payment method."
+ScotApp_605,Add Weight Entry
+ScotApp_405,Error reading card.\n*  Try different card\n   -or-\n*  Pay by cash\n   -or-\n*  Call for help
+ScotApp_491,Please take your card.
+ScotApp_818,Please wait for cashier.\nAssistance needed for:
+ScotApp_1796,"Or restrict to ""Cash Only""."
+ScotApp_438,Your food stamp balance is less than what is needed.\nDo you want to apply your remaining food stamp benefit of %s to this purchase?
+ScotApp_1596,"Would you like to save %s as your preferred language on your %s?\nSelect ""Yes"" or ""No""."
+ScotApp_766,%s will be charged to your account.
+ScotApp_166,Help is on the way.\nPlease continue with your purchase.
+ScotApp_413,Take your Loyalty Card.\nDiscounted prices will be applied.
+ScotApp_1797,"Corrective action did not fix the error.\nPlease try again or restrict to ""Cash Only""."
+ScotApp_178,Wait for store approval.\nApproval needed for:
+ScotApp_790,Your card was declined.\nPlease select a different method of payment.
+ScotApp_1794,This machine will only accept cash at this time.\nNo credit or debit can be processed.\nDo you wish to continue?
+ScotApp_412,This item will cause your purchase to exceed %s.\nPlease pay now and purchase other items separately.
+ScotApp_546,You are not old enough to purchase this item.\nPlease put item aside and continue with your purchase.
+ScotApp_553,Coupons are accepted at the end of your purchase.\nPlease put them aside and continue.
+ScotApp_211,Processing...\nPlease wait.
+ScotApp_1400,Remote Attendant
+ScotApp_1754,Letters do not match an item.\nPlease try again.
+ScotApp_1859,"Purchase a full crate of %s? Select ""Yes"" or ""No""."
+ScotApp_533,You are unable to purchase this item at this time.\nPlease put it aside and continue with your purchase.
+ScotApp_1763,e=d=%5.3fkg Max %5.3f kg min %3.1f kg Nmax %4.0f
+ScotApp_1762,e=d=%4.2flb Max %4.2f lb min %3.1f lb Nmax %4.0f
+ScotApp_1764,e = d = %4.2f lb Max %4.2f lb Min %3.1f lb Nmax %4.0f
+ScotApp_1765,e = d = %5.3f kg Max %5.3f kg Min %3.1f kg Nmax %4.0f
+ScotApp_305,Select Container For Your: %s
+ScotApp_703,"Use PIN Pad. Press ""Cancel"" on PIN Pad to cancel payment."
+ScotApp_125,"Key in customer's birth date %s and touch ""Approve""."
+ScotApp_1853,"Key in customer's birth date %s and touch ""Enter"". "
+ScotApp_654,Date should be in %s format.Value keyed in: %s
+ScotApp_560,This system does not accept coupons.
+ScotApp_1788,Is %d correct? \n\nA bag charge of %s will be added to your total.
+ScotApp_1358,Gift card amount of %s has been applied to your purchase. \n\nYour gift card balance is %s.
+ScotApp_167,Coupon does not match with any purchased item.\n\nThis coupon cannot be accepted.
+ScotApp_164,System does not recognise that item code.\n\nMake sure the correct number was entered.
+ScotApp_547,Incorrect operator number and password.\n\nPlease try again.
+ScotApp_442,%s of your purchase can be paid with food stamps.\n\n%s
+ScotApp_443,%s will be charged to your account.\n\nIs this OK?
+ScotApp_700,Item cannot be sold in this lane.\nHelp is on the way.\n\nPut item aside and continue with your purchase.
+ScotApp_165,System does not recognise this item.\nHelp is on the way.\n\nPut item aside and continue with your purchase.
+ScotApp_182,The amount you entered for this coupon was too high.\n\nThis system cannot accept this coupon.
+ScotApp_733,Card declined.\nUse a different card or pay with cash.
+ScotApp_812,Thank you for using NCR SelfServ Checkout.\nPlease take your gift card to the cashier.
+ScotApp_1826,Would you like to save your preferences on your Loyalty Card?
+ScotApp_1852,Please remove the cancelled item from the bagging area.
+QRCodeErrorText,QR Code Error
+ScanQRCodeInstruction,Scan this code to complete\nyour Mobile shopping.
+ScotApp_1896,Transferring items from mobile cart.
+ScotApp_1897,Please wait...
+ScotApp_1898,Mobile Cart
+ScotApp_1899,Mobile Audit
+ScotApp_1900,Mobile Shopper Audit
+ScotApp_1901,"Touch ""OK"" then use Attendant Handset to complete audit."
+ScotApp_1902,Begin Mobile Transaction
+ScotApp_1903,End Mobile Transaction
+ScotApp_1904,%d Items Sold
+ScotApp_1905,Scan barcode to complete your Mobile checkout.
+ScotApp_1906,Mobile cart transfer is complete.
+ScotApp_1907,\nTouch Pay or add more items.
+MoveLeft,< Move
+MoveRight,Move >
+Accessibility,Accessibility
+SearchItemCodeWatermark,Enter Item Code
+ScanAndBagNoSearchKeyIn,Scan or look up item to start
+ScanLookUpKeyInItem,"Scan, look up, or key in item code to start."
+LookUpKeyInItem,Look up or Key in Item
+ScanOrKeyInItem,Scan or Key in Item
+XM_MenuSetupLoaderV6HW,Setup Loader
+RemoveItemFromProduceScale,Remove item from scale.
+RemoveItemFromProduceScaleTitle,Remove Item

@@ -1,0 +1,58 @@
+﻿<Display Version="1.0">
+	<Languages>
+		<Language Name="041d">
+			<StringTable>
+				<String Name="MainTitle">FKP-konfiguration</String>
+				<String Name="AddButtonText">Lägg till</String>
+				<String Name="AddLaneTitle">Lägg till kassa</String>
+				<String Name="ApplyButtonText">Använd</String>
+				<String Name="Backspace">Backsteg</String>				
+				<String Name="CancelButtonText">Avbryt</String>
+				<String Name="ConfigTypeText">Typ av kassakonfiguration:</String>
+				<String Name="ConfirmDeleteTitle">Bekräfta borttagning</String>
+				<String Name="ConfirmDeleteText">Vill du ta bort kassa:</String>
+				<String Name="ConfirmExitTitle">Bekräfta avslut</String>
+				<String Name="ConfirmExitText">Vill du verkligen avbryta ändringarna?</String>
+				<String Name="ConfirmSaveTitle">Bekräfta spara</String>
+				<String Name="ConfirmSaveText">Du kommer nu att spara ändringarna i RapNet.xml. Vill du fortsätta?</String>
+				<String Name="DeleteButtonText">Radera</String>
+				<String Name="DuplicateIPTitle">IP-adressdubblett</String>
+				<String Name="DuplicateLaneTitle">Hittat dubblettkassa</String> 
+				<String Name="DuplicateLaneText">Kassa %s finns redan</String>
+				<String Name="EditLaneTitle">Redigera kassa</String>
+				<String Name="EmptyText">Töm</String>
+				<String Name="Enter">Enter</String>
+				<String Name="EnterHostNameInstruction">Slå in värdnamnet och tryck på "Enter".</String>
+				<String Name="EnterIPAddressInstruction">Slå in IP-adressen och tryck på "Enter".</String>
+				<String Name="EnterIPOctetInstruction">Slå in IP-oktetten och tryck på "Enter".</String>
+				<String Name="EnterHostNameText">Ange kassans värdnamn</String>
+				<String Name="EnterIPAddressText">Ange kassans IP-adress</String>
+				<String Name="EnterIPOctetText">Ange kassans IP-oktett</String>
+				<String Name="ErrorText">Fel</String>
+				<String Name="ExitButtonText">Avsluta</String>
+				<String Name="FileErrorTitle">Filen hittades inte</String>
+				<String Name="FileErrorText">Fel: Kan inte hitta filen RapNet.xml.</String>
+				<String Name="HostNameText">Värdnamn</String>
+				<String Name="IPAddressText">IP-adress</String>
+				<String Name="IPOctetText">IP-oktett</String>
+				<String Name="LaneText">Kassa</String>
+				<String Name="MoveButtonText">Flytta</String>
+				<String Name="NoButtonText">Nej</String>
+				<String Name="NoLane">Alla kassor har raderats</String>
+				<String Name="NoLaneToDelete">Det finns inga fler kassor att radera.</String>
+				<String Name="NoLaneWarningTitle">RapNet.xml har inga kassor</String>
+				<String Name="NoLaneWarningText">Varning: Det finns inga kassor konfigurerade i RapNet.xml.</String>
+				<String Name="OkButtonText">OK</String>
+				<String Name="RestartRAPTitle">Starta om FKP</String>
+				<String Name="RestartRAPText">Du måste starta om FKP.</String>
+				<String Name="SameRapIPAddress">Det går inte att använda samma IP-adress som för stationär FKP: %s</String>
+				<String Name="SameHHRapIPAddress">Det går inte att använda samma IP-adress som för handhållen FKP: %s</String>
+				<String Name="SaveButtonText">Spara</String>
+				<String Name="SelectLaneToDelete">Välj kassan som ska raderas</String>
+				<String Name="SelectSourceText">Välj kassan som ska flyttas</String>
+				<String Name="SelectDestinationText">Välj mål</String>
+				<String Name="YesButtonText">Ja</String>
+			</StringTable>
+		</Language>
+	</Languages>
+</Display>

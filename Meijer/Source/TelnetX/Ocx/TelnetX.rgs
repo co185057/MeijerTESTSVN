@@ -1,0 +1,38 @@
+HKCR
+{
+	Mabry.TelnetX.1 = s 'Mabry Internet TelnetX ActiveX Control'
+	{
+		CLSID = s '{C783E754-AAB6-42BC-BDE9-29E1F1DBD3D9}'
+	}
+	Mabry.TelnetX = s 'Mabry Internet TelnetX ActiveX Control'
+	{
+		CLSID = s '{C783E754-AAB6-42BC-BDE9-29E1F1DBD3D9}'
+		CurVer = s 'Mabry.TelnetX.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {C783E754-AAB6-42BC-BDE9-29E1F1DBD3D9} = s 'Mabry Internet TelnetX ActiveX Control'
+		{
+			ProgID = s 'Mabry.TelnetX.1'
+			VersionIndependentProgID = s 'Mabry.TelnetX'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			ForceRemove 'Control'
+			ForceRemove 'Insertable'
+			ForceRemove 'ToolboxBitmap32' = s '%MODULE%, 101'
+			'MiscStatus' = s '0'
+			{
+			    '1' = s '132497'
+			}
+			'TypeLib' = s '{96D3ED28-B353-419E-A0E3-E5E9070F064B}'
+			'Version' = s '1.0'
+			'Verb'
+			{
+				'0' = s '&Properties...,0,2'
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" ?>
+<DeviceContexts Version="1.0">
+    <DeviceContext Name="CustomerID">
+        <DeviceProperty Name="MSR1" Value="0" />
+        <DeviceProperty Name="SCANNER" Value="1" />
+        <DeviceProperty Name="CASHACCEPTOR" Value="True" />
+        <DeviceProperty Name="EXTENSIONSTATE" PLAYWAVE="%APP_DRIVE%\scot\sound\en\Welcome.wav" TIMEOUT="65" />
+    </DeviceContext>
+    <DeviceContext Name="YesNo">
+        <DeviceProperty Name="SCANNER" Value="1" />
+        <DeviceProperty Name="CASHACCEPTOR" Value="True" />
+        <DeviceProperty Name="EXTENSIONSTATE" Value="True" />
+    </DeviceContext>
+</DeviceContexts>

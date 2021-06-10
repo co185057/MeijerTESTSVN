@@ -1,0 +1,1095 @@
+<Display Version="1.0" Position="0,0,240,320">
+  <Includes>
+    <!-- INCLUDE XML HERE -->
+    <Include File="%ConfigPath%\SharedFontsAndControls.xml" />
+    <Include File="%ConfigPath%\LaunchPadMsg0409.xml" />
+    <Include File="%ConfigPath%\LaunchPadMsg0809.xml" />
+    <Include File="%ConfigPath%\LaunchPadMsg080a.xml" />
+    <Include File="%ConfigPath%\LaunchPadMsg0c0c.xml" />
+    <Include File="%ConfigPath%\LaunchPadMsg0407.xml" />
+    <Include File="%ConfigPath%\LaunchPadMsg0413.xml" />
+    <Include File="%ConfigPath%\LaunchPadMsg040c.xml" />
+    <Include File="%ConfigPath%\LaunchPadMsg0410.xml" />
+    <Include File="%ConfigPath%\LaunchPadMsg0c0a.xml" />
+    <Include File="%ConfigPath%\LaunchPadMsg0c09.xml" />
+    <Include File="%ConfigPath%\LaunchPadMsg1409.xml" />
+    <Include File="%ConfigPath%\LaunchPadMsg0411.xml" />
+    <Include File="%ConfigPath%\LaunchPadMsg0412.xml" />
+    <Include File="%ConfigPath%\LaunchPadMsg0415.xml" />
+    <Include File="%ConfigPath%\LaunchPadMsg041d.xml" />
+    <Include File="%ConfigPath%\LaunchPadMsg041f.xml" />
+    <Include File="%ConfigPath%\LaunchPadMsg040b.xml" />
+    <Include File="%ConfigPath%\LaunchPadMsg0406.xml" />
+    <Include File="%ConfigPath%\LaunchPadMsg0427.xml" />
+    <Include File="%ConfigPath%\LaunchPadMsg0452.xml" />
+    <Include File="%ConfigPath%\LaunchPadMsg1809.xml" />
+  </Includes>
+  <Colors>
+    <Color Name="BlueTransparent">
+      <Alpha>255</Alpha>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>255</Blue>
+    </Color>
+  </Colors>
+  <Fonts>
+    <Font Name="TitleTextFont">
+      <Face>Arial</Face>
+      <Size>12</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="LaunchPadTextFont">
+      <Face>Arial</Face>
+      <Size>10</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+  </Fonts>
+  <Controls>
+    <Control Name="MinMaxFastLaneButton" Type="Button">
+      <Properties>
+        <Property Name="Position">119,207,117,38</Property>
+        <Property Name="Font">LaunchPadTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Z-Order">5</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="PictureTransparentColor">BlueTransparent</Property>
+        <Property Name="Picture">%MediaPath%\btn-utility.PNG</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="PrimaryText">MinMaxFastLaneBtnPrimaryTxt</Data>
+        <Data Name="SecondaryText">MinMaxFastLaneBtnSecondaryTxt</Data>
+        <Data Name="PrimaryShowConfirmation">false</Data>
+        <Data Name="SecondaryShowConfirmation">false</Data>
+        <Data Name="PrimaryFunction">Minimize</Data>
+        <Data Name="SecondaryFunction">Maximize</Data>
+        <Data Name="PrimaryRequiredSecurity">false</Data>
+        <Data Name="SecondaryRequiredSecurity">false</Data>
+        <Data Name="ToggleStateOnDeadMainExecutable">Primary</Data>
+        <Data Name="DisabledOnDeadEnabledOnAliveMainExecutable">true</Data>
+        <Data Name="ToggleEnabled">True</Data>
+        <Data Name="ExecutableName">FastLane</Data>
+      </CustomData>
+    </Control>
+    <Control Name="StopStartFastLaneButton" Type="Button">
+      <Properties>
+        <Property Name="Position">119,207,117,38</Property>
+        <Property Name="Font">LaunchPadTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Z-Order">5</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="PictureTransparentColor">BlueTransparent</Property>
+        <Property Name="Picture">%MediaPath%\btn-utility.PNG</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="PrimaryText">StopStartFastLaneBtnPrimaryTxt</Data>
+        <Data Name="SecondaryText">StopStartFastLaneBtnSecondaryTxt</Data>
+        <Data Name="PrimaryAllowToggleOnButton">ExitFastLaneAndRunProfileButton</Data>
+        <Data Name="SecondaryAllowToggleOnButton">ExitFastLaneAndRunProfileButton</Data>
+        <Data Name="PrimaryAllowToggleOnButtonState">0</Data>
+        <Data Name="SecondaryAllowToggleOnButtonState">1</Data>
+        <Data Name="PrimaryFunction">Stop</Data>
+        <Data Name="SecondaryFunction">Start</Data>
+        <Data Name="ToggleStateOnAliveMainExecutable">Primary</Data>
+        <Data Name="ToggleStateOnDeadMainExecutable">Secondary</Data>
+        <Data Name="ToggleEnabled">True</Data>
+        <Data Name="ExecutableName">FastLane</Data>
+        <Data Name="PrimaryShowConfirmation">true</Data>
+        <Data Name="PrimaryShowConfirmationMessage">StopFastLaneConfirm</Data>
+        <Data Name="SecondaryShowConfirmation">true</Data>
+        <Data Name="SecondaryShowConfirmationMessage">StartFastLaneConfirm</Data>
+      </CustomData>
+    </Control>
+    <Control Name="SwitchToRAPButton" Type="Button">
+      <Properties>
+        <Property Name="Position">0,270,117,38</Property>
+        <Property Name="TextPosition">10,10,300,80</Property>
+        <Property Name="Font">LaunchPadTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Z-Order">5</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="PictureTransparentColor">BlueTransparent</Property>
+        <Property Name="Picture">%MediaPath%\btn-utility.PNG</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="PrimaryText">SwitchToRAPBtnPrimaryTxt</Data>
+        <Data Name="ToggleEnabled">False</Data>
+        <Data Name="PrimaryFunction">SwitchTo</Data>
+        <Data Name="SecondaryText">SwitchToRAPBtnPrimaryTxt</Data>
+        <Data Name="PrimaryShowConfirmation">false</Data>
+        <Data Name="PrimaryShowConfirmationMessage">MinMaxRAPBtnPrimaryShowConfirmation</Data>
+        <Data Name="SecondaryShowConfirmation">false</Data>
+        <Data Name="SecondaryShowConfirmationMessage">MinMaxRAPBtnPrimaryShowConfirmation</Data>
+        <Data Name="PrimaryRequiredSecurity">false</Data>
+        <Data Name="SecondaryRequiredSecurity">false</Data>
+        <Data Name="DisabledOnDeadEnabledOnAliveMainExecutable">false</Data>
+      </CustomData>
+    </Control>
+    <Control Name="RebootSystemButton" Type="Button">
+      <Properties>
+        <Property Name="Position">-1,229,117,35</Property>
+        <Property Name="Font">LaunchPadTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Z-Order">5</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="State">0</Property>
+        <Property Name="PictureTransparentColor">BlueTransparent</Property>
+        <Property Name="Picture">%MediaPath%\btn-utility.PNG</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="PrimaryText">RebootSystemBtnPrimaryTxt</Data>
+        <Data Name="ToggleEnabled">False</Data>
+        <Data Name="ExecutableName">Reboot</Data>
+        <Data Name="SecondaryText">RebootSystemBtnPrimaryTxt</Data>
+        <Data Name="PrimaryShowConfirmation">true</Data>
+        <Data Name="PrimaryShowConfirmationMessage">RebootConfirm</Data>
+        <Data Name="PrimaryRequiredSecurity">false</Data>
+        <Data Name="SecondaryRequiredSecurity">false</Data>
+        <Data Name="DisabledOnDeadEnabledOnAliveMainExecutable">false</Data>
+      </CustomData>
+    </Control>
+    <Control Name="VolumeButton" Type="Button">
+      <Properties>
+        <Property Name="Position">119,34,117,35</Property>
+        <Property Name="Font">LaunchPadTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Z-Order">5</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="PictureTransparentColor">BlueTransparent</Property>
+        <Property Name="Picture">%MediaPath%\btn-utility.PNG</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="PrimaryText">VolumeBtnPrimaryTxt</Data>
+        <Data Name="ToggleEnabled">False</Data>
+        <Data Name="ExecutableName">Volume</Data>
+        <Data Name="SecondaryText">VolumeBtnPrimaryTxt</Data>
+        <Data Name="PrimaryRequiredSecurity">false</Data>
+        <Data Name="SecondaryRequiredSecurity">false</Data>
+        <Data Name="DisabledOnDeadEnabledOnAliveMainExecutable">false</Data>
+      </CustomData>
+    </Control>
+    <Control Name="EventViewerButton" Type="Button">
+      <Properties>
+        <Property Name="Position">0,133,117,38</Property>
+        <Property Name="Font">LaunchPadTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Z-Order">5</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="PictureTransparentColor">BlueTransparent</Property>
+        <Property Name="Picture">%MediaPath%\btn-utility.PNG</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="PrimaryText">EventViewerBtnPrimaryTxt</Data>
+        <Data Name="ToggleEnabled">False</Data>
+        <Data Name="ExecutableName">EventViewer</Data>
+        <Data Name="SecondaryText">EventViewerBtnPrimaryTxt</Data>
+        <Data Name="PrimaryShowConfirmation">true</Data>
+        <Data Name="PrimaryShowConfirmationMessage">EventViewerConfirm</Data>
+        <Data Name="PrimaryRequiredSecurity">false</Data>
+        <Data Name="SecondaryRequiredSecurity">false</Data>
+        <Data Name="DisabledOnDeadEnabledOnAliveMainExecutable">false</Data>
+      </CustomData>
+    </Control>
+    <Control Name="GenerateLogButton" Type="Button">
+      <Properties>
+        <Property Name="Position">0,34,117,35</Property>
+        <Property Name="Font">LaunchPadTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Z-Order">5</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="PictureTransparentColor">BlueTransparent</Property>
+        <Property Name="Picture">%MediaPath%\btn-utility.PNG</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="PrimaryText">GenerateLogBtnPrimaryTxt</Data>
+        <Data Name="ExecutableName">GenerateLog</Data>
+        <Data Name="SecondaryText">GenerateLogBtnPrimaryTxt</Data>
+        <Data Name="PrimaryShowConfirmation">true</Data>
+        <Data Name="PrimaryShowConfirmationMessage">DiagConfirm</Data>
+        <Data Name="PrimaryRequiredSecurity">false</Data>
+        <Data Name="SecondaryRequiredSecurity">false</Data>
+        <Data Name="DisabledOnDeadEnabledOnAliveMainExecutable">false</Data>
+      </CustomData>
+    </Control>
+    <Control Name="RapConfigureButton" Type="Button">
+      <Properties>
+        <Property Name="Position">0,72,117,35</Property>
+		<Property Name="TextPosition">5,3,112,33</Property>
+        <Property Name="Font">LaunchPadTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Z-Order">5</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="PictureTransparentColor">BlueTransparent</Property>
+        <Property Name="Picture">%MediaPath%\btn-utility.PNG</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="MaintenanceSignOn">true</Data>
+        <Data Name="PrimaryText">RapConfigureBtnPrimaryTxt</Data>
+        <Data Name="SecondaryText">RapConfigureBtnPrimaryTxt</Data>
+        <Data Name="PrimaryShowConfirmation">false</Data>
+        <Data Name="PrimaryShowConfirmationMessage">MinMaxRAPBtnPrimaryShowConfirmation</Data>
+        <Data Name="SecondaryShowConfirmation">false</Data>
+        <Data Name="SecondaryShowConfirmationMessage">MinMaxRAPBtnPrimaryShowConfirmation</Data>
+        <Data Name="PrimaryRequiredSecurity">false</Data>
+        <Data Name="SecondaryRequiredSecurity">false</Data>
+        <Data Name="DisabledOnDeadEnabledOnAliveMainExecutable">false</Data>
+        <Data Name="ToggleEnabled">false</Data>
+        <Data Name="ExecutableName">RapConfigure</Data>
+      </CustomData>
+    </Control>
+    <Control Name="ExitFastLaneAndRunProfileButton" Type="Button">
+      <Properties>
+        <Property Name="Position">0,107,117,38</Property>
+        <Property Name="Font">LaunchPadTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Z-Order">5</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="PictureTransparentColor">BlueTransparent</Property>
+        <Property Name="Picture">%MediaPath%\btn-utility.PNG</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="PrimaryText">ExitFastLaneAndRunProfileBtnPrimaryTxt</Data>
+        <Data Name="SecondaryText">ExitFastLaneAndRunProfileBtnSecondaryTxt</Data>
+        <Data Name="PrimaryAllowToggleOnButton">StopStartFastLaneButton</Data>
+        <Data Name="SecondaryAllowToggleOnButton">StopStartFastLaneButton</Data>
+        <Data Name="PrimaryAllowToggleOnButtonState">0</Data>
+        <Data Name="SecondaryAllowToggleOnButtonState">1</Data>
+        <Data Name="ToggleStateOnAliveMainExecutable">Primary</Data>
+        <Data Name="ToggleStateOnDeadMainExecutable">Secondary</Data>
+        <Data Name="ToggleEnabled">true</Data>
+        <Data Name="ExecutableName">ExitFastLaneAndRunProfile</Data>
+        <Data Name="PrimaryShowConfirmation">true</Data>
+        <Data Name="PrimaryShowConfirmationMessage">ProfileManagerFLConfirm</Data>
+        <Data Name="SecondaryShowConfirmation">true</Data>
+        <Data Name="SecondaryShowConfirmationMessage">ProfileManagerConfirm</Data>
+      </CustomData>
+    </Control>
+    <Control Name="TerminalInfoButton" Type="Button">
+      <Properties>
+        <Property Name="Position">119,72,117,35</Property>
+        <Property Name="Font">LaunchPadTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Z-Order">5</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="PictureTransparentColor">BlueTransparent</Property>
+        <Property Name="Picture">%MediaPath%\btn-utility.PNG</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="PrimaryText">TerminalInfoBtnPrimaryTxt</Data>
+        <Data Name="SecondaryText">TerminalInfoBtnPrimaryTxt</Data>
+        <Data Name="PrimaryShowConfirmation">false</Data>
+        <Data Name="PrimaryShowConfirmationMessage">MinMaxRAPBtnPrimaryShowConfirmation</Data>
+        <Data Name="SecondaryShowConfirmation">false</Data>
+        <Data Name="SecondaryShowConfirmationMessage">MinMaxRAPBtnPrimaryShowConfirmation</Data>
+        <Data Name="PrimaryRequiredSecurity">false</Data>
+        <Data Name="SecondaryRequiredSecurity">false</Data>
+        <Data Name="DisabledOnDeadEnabledOnAliveMainExecutable">false</Data>
+        <Data Name="ToggleEnabled">false</Data>
+        <Data Name="ExecutableName">TerminalInfo</Data>
+      </CustomData>
+    </Control>
+    <Control Name="MinMaxRAPButton" Type="Button">
+      <Properties>
+        <Property Name="Position">119,207,117,38</Property>
+        <Property Name="Font">LaunchPadTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Z-Order">5</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="PictureTransparentColor">BlueTransparent</Property>
+        <Property Name="Picture">%MediaPath%\btn-utility.PNG</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="PrimaryText">MinMaxRAPBtnPrimaryTxt</Data>
+        <Data Name="SecondaryText">MinMaxRAPBtnSecondaryTxt</Data>
+        <Data Name="PrimaryShowConfirmation">false</Data>
+        <Data Name="SecondaryShowConfirmation">false</Data>
+        <Data Name="PrimaryFunction">Minimize</Data>
+        <Data Name="SecondaryFunction">Maximize</Data>
+        <Data Name="ToggleStateOnDeadMainExecutable">Primary</Data>
+        <Data Name="DisabledOnDeadEnabledOnAliveMainExecutable">true</Data>
+        <Data Name="ToggleEnabled">True</Data>
+        <Data Name="ExecutableName">RAP</Data>
+      </CustomData>
+    </Control>
+    <Control Name="ExitAllRAPButton" Type="Button">
+      <Properties>
+        <Property Name="Position">119,229,117,35</Property>
+        <Property Name="Font">LaunchPadTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Z-Order">5</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="PictureTransparentColor">BlueTransparent</Property>
+        <Property Name="Picture">%MediaPath%\btn-utility.PNG</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="MaintenanceSignOn">true</Data>
+        <Data Name="PrimaryText">Exit</Data>
+        <Data Name="SecondaryText">Exit</Data>
+        <Data Name="PrimaryShowConfirmation">true</Data>
+        <Data Name="PrimaryShowConfirmationMessage">CloseAllConfirm</Data>
+        <Data Name="PrimaryRequiredSecurity">false</Data>
+        <Data Name="SecondaryRequiredSecurity">false</Data>
+        <Data Name="DisabledOnDeadEnabledOnAliveMainExecutable">false</Data>
+        <Data Name="ToggleEnabled">False</Data>
+        <Data Name="PrimaryFunction">StopAll</Data>
+        <Data Name="ExecutableName">RAP</Data>
+      </CustomData>
+    </Control>
+    <Control Name="ExitAllFastLaneButton" Type="Button">
+      <Properties>
+        <Property Name="Position">0,82,117,38</Property>
+        <Property Name="Font">LaunchPadTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Z-Order">5</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="PictureTransparentColor">BlueTransparent</Property>
+        <Property Name="Picture">%MediaPath%\btn-utility.PNG</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="MaintenanceSignOn">false</Data>
+        <Data Name="PrimaryText">Exit</Data>
+        <Data Name="ToggleEnabled">False</Data>
+        <Data Name="PrimaryFunction">StopAll</Data>
+        <Data Name="ExecutableName">FastLane</Data>
+        <Data Name="PrimaryShowConfirmation">true</Data>
+        <Data Name="PrimaryShowConfirmationMessage">CloseAllConfirm</Data>
+      </CustomData>
+    </Control>
+    <Control Name="StopStartRAPButton" Type="Button">
+      <Properties>
+        <Property Name="Position">119,190,117,35</Property>
+        <Property Name="Font">LaunchPadTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Z-Order">5</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="PictureTransparentColor">BlueTransparent</Property>
+        <Property Name="Picture">%MediaPath%\btn-utility.PNG</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="PrimaryText">StopStartRAPButtonPrimaryTxt</Data>
+        <Data Name="SecondaryText">StopStartRAPButtonSecondaryTxt</Data>
+        <Data Name="PrimaryFunction">Stop</Data>
+        <Data Name="SecondaryFunction">Start</Data>
+        <Data Name="ToggleStateOnAliveMainExecutable">Primary</Data>
+        <Data Name="ToggleStateOnDeadMainExecutable">Secondary</Data>
+        <Data Name="ToggleEnabled">True</Data>
+        <Data Name="ExecutableName">RAP</Data>
+        <Data Name="PrimaryShowConfirmation">true</Data>
+        <Data Name="PrimaryShowConfirmationMessage">StopRAPConfirm</Data>
+        <Data Name="SecondaryShowConfirmation">true</Data>
+        <Data Name="SecondaryShowConfirmationMessage">StartRAPConfirm</Data>
+        <Data Name="PrimaryRequiredSecurity">false</Data>
+        <Data Name="SecondaryRequiredSecurity">false</Data>
+        <Data Name="DisabledOnDeadEnabledOnAliveMainExecutable">false</Data>
+      </CustomData>
+    </Control>
+    <Control Name="SwitchToFastLaneButton" Type="Button">
+      <Properties>
+        <Property Name="Position">0,270,117,38</Property>
+        <Property Name="TextPosition">10,10,300,80</Property>
+        <Property Name="Font">LaunchPadTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Z-Order">5</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="PictureTransparentColor">BlueTransparent</Property>
+        <Property Name="Picture">%MediaPath%\btn-utility.PNG</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="PrimaryText">SwitchToFastLaneBtnPrimaryTxt</Data>
+        <Data Name="ToggleEnabled">False</Data>
+        <Data Name="PrimaryFunction">SwitchTo</Data>
+      </CustomData>
+    </Control>
+    <Control Name="ExitRAPAndRunProfileButton" Type="Button">
+      <Properties>
+        <Property Name="Position">0,107,117,38</Property>
+        <Property Name="Font">LaunchPadTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Z-Order">5</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="PictureTransparentColor">BlueTransparent</Property>
+        <Property Name="Picture">%MediaPath%\btn-utility.PNG</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="PrimaryText">ExitRAPAndRunProfileBtnPrimaryTxt</Data>
+        <Data Name="SecondaryText">ExitRAPAndRunProfileBtnSecondaryTxt</Data>
+        <Data Name="PrimaryAllowToggleOnButton">StopStartRAPButton</Data>
+        <Data Name="SecondaryAllowToggleOnButton">StopStartRAPButton</Data>
+        <Data Name="PrimaryAllowToggleOnButtonState">0</Data>
+        <Data Name="SecondaryAllowToggleOnButtonState">1</Data>
+        <Data Name="ToggleStateOnAliveMainExecutable">Primary</Data>
+        <Data Name="ToggleStateOnDeadMainExecutable">Secondary</Data>
+        <Data Name="ToggleEnabled">true</Data>
+        <Data Name="ExecutableName">ExitRAPAndRunProfile</Data>
+        <Data Name="PrimaryShowConfirmation">true</Data>
+        <Data Name="PrimaryShowConfirmationMessage">ProfileManagerRAPConfirm</Data>
+        <Data Name="SecondaryShowConfirmation">true</Data>
+        <Data Name="SecondaryShowConfirmationMessage">ProfileManagerConfirm</Data>
+      </CustomData>
+    </Control>
+    <Control Name="TrainingProgramButton" Type="Button">
+      <Properties>
+        <Property Name="Position">119,158,117,38</Property>
+        <Property Name="Font">LaunchPadTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Z-Order">5</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="PictureTransparentColor">BlueTransparent</Property>
+        <Property Name="Picture">%MediaPath%\btn-utility.PNG</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="PrimaryText">TrainingProgramPrimaryTxt</Data>
+        <Data Name="ToggleEnabled">False</Data>
+        <Data Name="ExecutableName">TrainingProgram</Data>
+        <Data Name="PrimaryShowConfirmation">true</Data>
+        <Data Name="PrimaryShowConfirmationMessage">TrainingConfirm</Data>
+      </CustomData>
+    </Control>
+    <Control Name="MessageStatic" Type="Static">
+      <Properties>
+        <Property Name="Position">0,103,800,441</Property>
+        <Property Name="Font">LaneButtonTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="CancelButton" Type="Button">
+      <Properties>
+        <Property Name="Position">300,452,128,61</Property>
+        <Property Name="Font">LaneButtonTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">$CancelButtonText$</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon-med.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">3</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="PrimaryText">$CancelButtonText$</Data>
+      </CustomData>
+    </Control>
+    <Control Name="SignOnButton" Type="Button">
+      <Properties>
+        <Property Name="Position">89,283,74,37</Property>
+        <Property Name="Font">LaneButtonTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\btn-global.png</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="State">2</Property>
+        <Property Name="Z-Order">1</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="PrimaryText">SignOnButtonText</Data>
+        <Data Name="ToggleEnabled">False</Data>
+        <Data Name="PrimaryFunction">SwitchTo</Data>
+        <Data Name="SecondaryText">SignOnButtonText</Data>
+        <Data Name="PrimaryShowConfirmation">false</Data>
+        <Data Name="PrimaryShowConfirmationMessage">MinMaxRAPBtnPrimaryShowConfirmation</Data>
+        <Data Name="SecondaryShowConfirmation">false</Data>
+        <Data Name="SecondaryShowConfirmationMessage">MinMaxRAPBtnPrimaryShowConfirmation</Data>
+        <Data Name="PrimaryRequiredSecurity">false</Data>
+        <Data Name="SecondaryRequiredSecurity">false</Data>
+        <Data Name="DisabledOnDeadEnabledOnAliveMainExecutable">false</Data>
+      </CustomData>
+    </Control>
+    <Control Name="UtilityButton" Type="Button">
+      <Properties>
+        <Property Name="Position">165,283,74,37</Property>
+        <Property Name="Font">LaneButtonTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\btn-global.png</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="Z-Order">1</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="PrimaryText">ReturnToShoppingButtonText</Data>
+        <Data Name="ToggleEnabled">False</Data>
+        <Data Name="PrimaryFunction">SwitchTo</Data>
+        <Data Name="SecondaryText">ReturnToShoppingButtonText</Data>
+        <Data Name="PrimaryShowConfirmation">false</Data>
+        <Data Name="PrimaryShowConfirmationMessage">MinMaxRAPBtnPrimaryShowConfirmation</Data>
+        <Data Name="SecondaryShowConfirmation">false</Data>
+        <Data Name="SecondaryShowConfirmationMessage">MinMaxRAPBtnPrimaryShowConfirmation</Data>
+        <Data Name="PrimaryRequiredSecurity">false</Data>
+        <Data Name="SecondaryRequiredSecurity">false</Data>
+        <Data Name="DisabledOnDeadEnabledOnAliveMainExecutable">false</Data>
+      </CustomData>
+    </Control>
+    <Control Name="StartMessage" Type="Static">
+      <Properties>
+        <Property Name="Position">30,115,180,37</Property>
+        <Property Name="Font">LaneButtonTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">2</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="ConfirmMessage" Type="Static">
+      <Properties>
+        <Property Name="Position">40,65,160,120</Property>
+        <Property Name="Font">TitleTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">3</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="ConfirmYes" Type="Button">
+      <Properties>
+        <Property Name="Position">40,220,74,37</Property>
+        <Property Name="Font">LaneButtonTextFont</Property>
+        <Property Name="TextFormat">$YesText$</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\btn-global.png</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="ConfirmNo" Type="Button">
+      <Properties>
+        <Property Name="Position">125,220,74,37</Property>
+        <Property Name="Font">LaneButtonTextFont</Property>
+        <Property Name="TextFormat">$NoText$</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>s
+        <Property Name="Picture">%MediaPath%\btn-global.png</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="BackGround" Type="Static">
+      <Properties>
+        <Property Name="Position">0,28,240,246</Property>
+        <Property Name="Picture">%MediaPath%\Mat_keypad.png</Property>
+        <Property Name="Z-Order">1</Property>
+      </Properties>
+    </Control>
+    <Control Name="TimeText" Type="Static">
+      <Properties>
+        <Property Name="Position">3,306,60,38</Property>
+        <Property Name="Font">DateTextFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="TextLineAlignment">0</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="TitleSignon" Type="Static">
+      <Properties>
+        <Property Name="Position">3,4,234,40</Property>
+        <Property Name="Font">TitleTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="TitleUtility" Type="Static">
+      <Properties>
+        <Property Name="Position">3,2,234,19</Property>
+        <Property Name="Font">TitleTextFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="AlphaNumKey3LaunchPad" Type="Button">
+      <Properties>
+        <Property Name="Position">188,284,49,26</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">$EnterButtonText$</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\btn-alphanumeric-enter.png</Property>
+        <Property Name="Z-Order">1</Property>
+      </Properties>
+    </Control>
+  </Controls>
+  <Contexts>
+    <Context Name="FastLaneContext">
+      <CustomData>
+        <Data Name="LaneViewPosition">0,0,240,276</Data>
+        <Data Name="State">Monitoring</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">White</Property>
+      </Properties>
+      <Include>
+        <!--<Control Name="MainBackground">
+        </Control>-->
+        <Control Name="TitleUtility">
+          <Properties>
+            <Property Name="TextFormat">$UtilityFunctionsTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="StopStartRAPButton">
+        </Control>
+        <Control Name="ExitAllFastLaneButton">
+        </Control>
+        <Control Name="RebootSystemButton">
+        </Control>
+        <Control Name="VolumeButton">
+        </Control>
+        <Control Name="EventViewerButton">
+        </Control>
+        <Control Name="GenerateLogButton">
+        </Control>
+        <Control Name="RapConfigureButton">
+        </Control>
+        <Control Name="ExitFastLaneAndRunProfileButton">
+        </Control>
+        <Control Name="TerminalInfoButton">
+        </Control>
+        <Control Name="SignOnButton">
+        </Control>
+        <Control Name="UtilityButton">
+        </Control>
+        <Control Name="OperationID">
+          <Properties>
+            <Property Name="Position">3,280,155,15</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="DateText">
+          <Properties>
+            <Property Name="Position">3,293,60,38</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="TimeText">
+          <Properties>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="RAPContext">
+      <CustomData>
+        <Data Name="LaneViewPosition">0,0,240,276</Data>
+        <Data Name="State">Monitoring</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <Control Name="BackGround">
+        </Control>
+        <Control Name="TitleUtility">
+          <Properties>
+            <Property Name="TextFormat">$UtilityFunctionsTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="StopStartRAPButton">
+        </Control>
+        <Control Name="ExitAllRAPButton">
+        </Control>
+        <Control Name="RebootSystemButton">
+        </Control>
+        <Control Name="VolumeButton">
+        </Control>
+        <Control Name="TerminalInfoButton">
+        </Control>
+        <Control Name="GenerateLogButton">
+        </Control>
+        <Control Name="RapConfigureButton">
+        </Control>
+        <!--<Control Name="ExitButton">
+        </Control>-->
+        <Control Name="SignOnButton">
+        </Control>
+        <Control Name="UtilityButton">
+        </Control>
+        <Control Name="OperationID">
+          <Properties>
+            <Property Name="Position">3,280,155,15</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="DateText">
+          <Properties>
+            <Property Name="Position">3,293,60,38</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="TimeText">
+          <Properties>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="StartupContext">
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <Control Name="TitleUtility">
+          <Properties>
+            <Property Name="TextFormat">$StartTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="BackGround">
+        </Control>
+        <Control Name="StartMessage">
+          <Properties>
+            <Property Name="TextFormat">$SystemStartup$</Property>
+          </Properties>
+        </Control>
+        <Control Name="DateText">
+          <Properties>
+            <Property Name="Position">3,293,60,38</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="TimeText">
+          <Properties>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="ConfirmationContext">
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <Control Name="TitleUtility">
+          <Properties>
+            <Property Name="TextFormat">$UtilityFunctionsTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="BackGround">
+        </Control>
+        <Control Name="ConfirmMessage">
+        </Control>
+        <Control Name="ConfirmYes">
+        </Control>
+        <Control Name="ConfirmNo">
+        </Control>
+        <Control Name="OperationID">
+          <Properties>
+            <Property Name="Position">3,280,155,15</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="DateText">
+          <Properties>
+            <Property Name="Position">3,293,60,38</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="TimeText">
+          <Properties>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="LegalCaptionContext">
+      <CustomData>
+        <Data Name="State">LegalCaption</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <!--<Control Name="MainBackground">
+        </Control>-->
+        <Control Name="TitleUtility">
+          <Properties>
+            <Property Name="TextFormat">$UtilityFunctionsTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="BackGround">
+        </Control>
+        <Control Name="UtilityButton">
+        </Control>
+        <Control Name="LegalCaptionMessage">
+        </Control>
+        <Control Name="LegalCaptionOk">
+        </Control>
+        <Control Name="OperationID">
+          <Properties>
+            <Property Name="Position">3,280,155,15</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="DateText">
+          <Properties>
+            <Property Name="Position">3,293,60,38</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="TimeText">
+          <Properties>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="PopupContext">
+      <Properties>
+        <Property Name="BackgroundColor">White</Property>
+      </Properties>
+      <Include>
+        <!--<Control Name="MainBackground">
+        </Control>-->
+        <Control Name="MessageStatic">
+        </Control>
+        <Control Name="CancelButton">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="EnterID">
+      <CustomData>
+        <Data Name="State">SignOn</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">White</Property>
+      </Properties>
+      <Include>
+        <Control Name="KeyBoardP1">
+        </Control>
+        <Control Name="KeyBoardP2">
+        </Control>
+        <Control Name="SMNumericKeyBoard">
+        </Control>
+        <Control Name="KeyBoardP4">
+          <Properties>
+            <Property Name="Action">Click,ChangeContext,EnterPassword</Property>
+          </Properties>
+        </Control>
+        <Control Name="ButtonCommand0">
+        </Control>
+        <Control Name="TitleSignon">
+          <Properties>
+            <Property Name="TextFormat">$SignOnTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Leadthru">
+          <Properties>
+            <Property Name="TextFormat">$EnterIDLeadthru$</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Action">ChangeText,ChangeState,KeyBoardP4,Text</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="OperationID">
+          <Properties>
+            <Property Name="Position">3,280,155,15</Property>
+          </Properties>
+        </Control>
+        <Control Name="DateText">
+        </Control>
+        <Control Name="TimeText">
+          <Properties>
+            <Property Name="TextColor">Black</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="EnterPassword">
+      <CustomData>
+        <Data Name="State">SignOn</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">White</Property>
+      </Properties>
+      <Include>
+        <Control Name="KeyBoardP1">
+        </Control>
+        <Control Name="KeyBoardP2">
+        </Control>
+        <Control Name="SMNumericKeyBoard">
+        </Control>
+        <Control Name="KeyBoardP4">
+        </Control>
+        <Control Name="ButtonCommand0">
+          <Properties>            
+			<Property Name="Action">Click,ChangeContext,EnterID,,True</Property>
+          </Properties>
+        </Control>
+        <Control Name="TitleSignon">
+          <Properties>
+            <Property Name="TextFormat">$SignOnTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Leadthru">
+          <Properties>
+            <Property Name="TextFormat">$EnterPasswordLeadthru$</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Password">True</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="OperationID">
+          <Properties>
+            <Property Name="Position">3,280,155,15</Property>
+          </Properties>
+        </Control>
+        <Control Name="DateText">
+        </Control>
+        <Control Name="TimeText">
+          <Properties>
+            <Property Name="TextColor">Black</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="EnterAlphaNumericID">
+      <CustomData>
+        <Data Name="State">SignOn</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">White</Property>
+      </Properties>
+      <Include>
+        <Control Name="AlphaNumP1">
+        </Control>
+        <Control Name="AlphaNumP2">
+        </Control>
+        <Control Name="AlphaNumP3">
+        </Control>
+        <Control Name="AlphaNumP4">
+        </Control>
+        <Control Name="AlphaNumKey3LaunchPad">
+          <Properties>
+            <Property Name="Action">Click,ChangeContext,EnterAlphaNumericPassword</Property>
+          </Properties>
+        </Control>
+        <Control Name="SpaceKey">
+        </Control>
+        <Control Name="BackSpaceKey">
+        </Control>
+        <Control Name="ShiftKey">
+        </Control>
+        <Control Name="ButtonCommand0">
+          <Properties>
+            <Property Name="Position">165,3,73,37</Property>
+            <Property Name="Picture">%MediaPath%\btn-func.png</Property>
+          </Properties>
+        </Control>
+        <Control Name="TitleSignon">
+          <Properties>
+            <Property Name="Position">0,2,165,37</Property>
+            <Property Name="TextFormat">$SignOnTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Leadthru">
+          <Properties>
+            <Property Name="Position">0,42,165,36</Property>
+            <Property Name="Font">KeyBoardFont</Property>
+            <Property Name="TextFormat">$EnterIDLeadthru$</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">5,81,156,33</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Action">ChangeText,ChangeState,AlphaNumKey3LaunchPad,Text</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+          <Properties>
+            <Property Name="Position">3,79,159,38</Property>
+            <Property Name="Picture">%MediaPath%\graphx-reportechobox.png</Property>
+          </Properties>
+        </Control>
+        <Control Name="OperationID">
+          <Properties>
+            <Property Name="Position">3,280,155,15</Property>
+          </Properties>
+        </Control>
+        <Control Name="DateText">
+        </Control>
+        <Control Name="TimeText">
+          <Properties>
+            <Property Name="TextColor">Black</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="EnterAlphaNumericPassword">
+      <CustomData>
+        <Data Name="State">SignOn</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">White</Property>
+      </Properties>
+      <Include>
+        <Control Name="AlphaNumP1">
+        </Control>
+        <Control Name="AlphaNumP2">
+        </Control>
+        <Control Name="AlphaNumP3">
+        </Control>
+        <Control Name="AlphaNumP4">
+        </Control>
+        <Control Name="AlphaNumKey3LaunchPad">
+        </Control>
+        <Control Name="SpaceKey">
+        </Control>
+        <Control Name="BackSpaceKey">
+        </Control>
+        <Control Name="ShiftKey">
+        </Control>
+        <Control Name="ButtonCommand0">
+          <Properties>
+            <Property Name="Position">165,3,73,37</Property>
+            <Property Name="Picture">%MediaPath%\btn-func.png</Property>
+            <Property Name="Action">Click,ChangeContext,EnterAlphaNumericID</Property>
+          </Properties>
+        </Control>
+        <Control Name="TitleSignon">
+          <Properties>
+            <Property Name="Position">0,2,165,37</Property>
+            <Property Name="TextFormat">$SignOnTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Leadthru">
+          <Properties>
+            <Property Name="Position">0,42,165,36</Property>
+            <Property Name="Font">KeyBoardFont</Property>
+            <Property Name="TextFormat">$EnterPasswordLeadthru$</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Password">True</Property>
+            <Property Name="Position">5,81,156,33</Property>
+            <Property Name="TextColor">Black</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+          <Properties>
+            <Property Name="Position">3,79,159,38</Property>
+            <Property Name="Picture">%MediaPath%\graphx-reportechobox.png</Property>
+          </Properties>
+        </Control>
+        <Control Name="OperationID">
+          <Properties>
+            <Property Name="Position">3,280,155,15</Property>
+          </Properties>
+        </Control>
+        <Control Name="DateText">
+        </Control>
+        <Control Name="TimeText">
+          <Properties>
+            <Property Name="TextColor">Black</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+  </Contexts>
+</Display>

@@ -1,0 +1,78 @@
+//////////////////////////////////////////////////////////////////////
+//
+// OposChan.hi
+//
+//   Cash Changer header file for OPOS Controls and Service Objects.
+//
+// Modification history
+// -------------------------------------------------------------------
+// 97-06-04 OPOS Release 1.2                                     CRM
+//
+//////////////////////////////////////////////////////////////////////
+
+#if !defined(OPOSCHAN_HI)
+#define      OPOSCHAN_HI
+
+
+#include "Opos.hi"
+#include "OposChan.h"
+
+
+//////////////////////////////////////////////////////////////////////
+// Numeric Property Index Values.
+//////////////////////////////////////////////////////////////////////
+
+// * Properties *
+
+const LONG PIDXChan_AsyncMode           =   1 + PIDX_CHAN+PIDX_NUMBER;
+const LONG PIDXChan_AsyncResultCode     =   2 + PIDX_CHAN+PIDX_NUMBER;
+const LONG PIDXChan_AsyncResultCodeExtended = 3+PIDX_CHAN+PIDX_NUMBER;
+const LONG PIDXChan_CurrentExit         =   4 + PIDX_CHAN+PIDX_NUMBER;
+const LONG PIDXChan_DeviceExits         =   5 + PIDX_CHAN+PIDX_NUMBER;
+const LONG PIDXChan_DeviceStatus        =   6 + PIDX_CHAN+PIDX_NUMBER;
+const LONG PIDXChan_FullStatus          =   7 + PIDX_CHAN+PIDX_NUMBER;
+
+// * Capabilities *
+
+const LONG PIDXChan_CapDiscrepancy      = 501 + PIDX_CHAN+PIDX_NUMBER;
+const LONG PIDXChan_CapEmptySensor      = 502 + PIDX_CHAN+PIDX_NUMBER;
+const LONG PIDXChan_CapFullSensor       = 503 + PIDX_CHAN+PIDX_NUMBER;
+const LONG PIDXChan_CapNearEmptySensor  = 504 + PIDX_CHAN+PIDX_NUMBER;
+const LONG PIDXChan_CapNearFullSensor   = 505 + PIDX_CHAN+PIDX_NUMBER;
+
+// * Validation Functions *
+
+inline BOOL IsValidChanNumericPidx(LONG Pidx)
+{
+  return ( PIDXChan_AsyncMode <= Pidx && Pidx <= PIDXChan_FullStatus )
+    ? TRUE : FALSE ;
+}
+
+inline BOOL IsValidChanCapPidx(LONG Pidx)
+{
+  return ( PIDXChan_CapDiscrepancy <= Pidx &&
+           Pidx <= PIDXChan_CapNearFullSensor )
+    ? TRUE : FALSE ;
+}
+
+
+//////////////////////////////////////////////////////////////////////
+// String Property Index Values.
+//////////////////////////////////////////////////////////////////////
+
+const LONG PIDXChan_CurrencyCashList    =   1 + PIDX_CHAN+PIDX_NUMBER;
+const LONG PIDXChan_CurrencyCode        =   2 + PIDX_CHAN+PIDX_NUMBER;
+const LONG PIDXChan_CurrencyCodeList    =   3 + PIDX_CHAN+PIDX_NUMBER;
+const LONG PIDXChan_ExitCashList        =   4 + PIDX_CHAN+PIDX_NUMBER;
+
+// * Validation Function *
+
+inline BOOL IsValidChanStringPidx(LONG Pidx)
+{
+  return ( PIDXChan_CurrencyCashList <= Pidx &&
+           Pidx <= PIDXChan_ExitCashList )
+    ? TRUE : FALSE ;
+}
+
+
+#endif			// !defined(OPOSCHAN_HI)

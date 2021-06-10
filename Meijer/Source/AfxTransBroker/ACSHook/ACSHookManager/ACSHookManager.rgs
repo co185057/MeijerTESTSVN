@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'ACSHookManager'
+		'ACSHookManager.DLL'
+		{
+			val AppID = s '%APPID%'
+		}
+	}
+}

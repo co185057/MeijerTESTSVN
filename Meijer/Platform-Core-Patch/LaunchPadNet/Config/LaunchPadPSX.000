@@ -1,0 +1,50 @@
+<!-- Display the Exit All and Command Prompt buttons. -->
+<!-- Display Operator Registration Utility if biometrics is installed - TAR 381646 -->
+
+<Display Version="1.0">
+	<Contexts>
+		<Context Name="FastLaneContext">
+			<Include>					
+				<Control Name="CommandPromptButton">
+					<Properties>
+						<Property Name="Visible">True</Property>
+					</Properties>
+				</Control>
+				<Control Name="ExitAllFastLaneButton">
+					<Properties>
+						<Property Name="Visible">True</Property>
+					</Properties>
+				</Control>				
+				<Control Name="OperatorRegistrationUtilityButton">
+					<Properties>
+						<Property Name="Visible">True</Property>
+					</Properties>
+				</Control>
+			</Include>
+		</Context>		
+		<Context Name="RAPContext">
+			<Include>					
+				<Control Name="CommandPromptButton">
+					<Properties>
+						<Property Name="Visible">True</Property>
+					</Properties>
+				</Control>
+				<Control Name="ExitAllFastLaneButton">
+					<Properties>
+						<Property Name="Visible">True</Property>
+					</Properties>
+				</Control>				
+				<Control Name="TrainingProgramButton">
+					<Properties>
+						<Property Name="Visible">True</Property>
+					</Properties>
+				</Control>
+				<Control Name="OperatorRegistrationUtilityButton">
+					<Properties>
+						<Property Name="Visible">True</Property>
+					</Properties>
+				</Control>
+			</Include>
+		</Context>
+	</Contexts>
+</Display>

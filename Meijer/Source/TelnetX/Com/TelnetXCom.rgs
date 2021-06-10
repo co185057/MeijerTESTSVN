@@ -1,0 +1,26 @@
+HKCR
+{
+	Mabry.TelnetXCom.1 = s 'Mabry Internet TelnetX COM Object'
+	{
+		CLSID = s '{FE2A7162-6987-433F-BF0C-46DA5D0F4C99}'
+	}
+	Mabry.TelnetXCom = s 'Mabry Internet TelnetX COM Object'
+	{
+		CLSID = s '{FE2A7162-6987-433F-BF0C-46DA5D0F4C99}'
+		CurVer = s 'Mabry.TelnetXCom.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {FE2A7162-6987-433F-BF0C-46DA5D0F4C99} = s 'Mabry Internet TelnetX COM Object'
+		{
+			ProgID = s 'Mabry.TelnetXCom.1'
+			VersionIndependentProgID = s 'Mabry.TelnetXCom'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{C78DCC56-741E-463C-88C1-C4DF80852CCF}'
+		}
+	}
+}

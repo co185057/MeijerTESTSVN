@@ -1,0 +1,122 @@
+﻿<Grid
+    Name="MainGrid"
+    x:Class="SSCOUIViews.Controls.SystemFunctionsControl"
+    xmlns:controls="clr-namespace:SSCOControls;assembly=SSCOControls"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:viewsControls="clr-namespace:SSCOUIViews.Controls"
+    mc:Ignorable="d"
+    DataContextChanged="Grid_DataContextChanged"
+    xmlns:helpers="clr-namespace:SSCOUIModels.Helpers;assembly=SSCOUIModels"
+    VerticalAlignment="Bottom"
+    Height="100">
+    <Grid.Resources>
+        <BooleanToVisibilityConverter
+            x:Key="BooleanToVisibilityConverter" />
+	  <!--SSCOI 50040 -->   
+        <GridLength x:Key="systemFunctionsGridColumn0Width">380</GridLength>
+        <Thickness x:Key="weightDetailsPanelMargin">0,5,10,0</Thickness>
+    </Grid.Resources>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition
+            Width="{StaticResource systemFunctionsGridColumn0Width}" />
+        <ColumnDefinition
+            Name="ColumnVersion"
+            Width="120" />
+        <ColumnDefinition
+            Width="180" />
+    </Grid.ColumnDefinitions>
+    <StackPanel
+        Name="SystemFunctions"
+        Grid.Column="0"
+        Orientation="Horizontal"
+        Margin="0,0,0,10">
+        <controls:ImageButton
+            Name="StoreButton8"
+            Style="{StaticResource storeModeButtonGoBackStyle}"
+            Margin="20,0,0,10"
+            VerticalAlignment="Bottom"
+            Width="Auto"
+            MaxWidth="360"
+            Visibility="Collapsed"
+            Padding="10,5,10,5"
+            Click="StoreButton8_Click" />
+        <controls:ImageButton
+            Name="AssistanceButton"
+            Command="{Binding ActionCommand}"
+            CommandParameter="Assistance"
+            Style="{StaticResource assistanceSystemButtonStyle}"
+            Text="{Loc Assistance}"
+            Margin="10,10,0,0" />
+        <controls:ImageButton
+            Name="LanguageButton"
+            Style="{StaticResource languageSystemButtonStyle}"
+            Command="{Binding ActionCommand}"
+            CommandParameter="Language"
+            Margin="0,10,0,0"
+            Click="LanguageButton_Click" />
+        <controls:ImageButton
+            Name="VolumeButton"
+            Style="{StaticResource volumeSystemButtonStyle}"
+            Text="{Loc Volume}"
+            IsEnabled="{Binding VolumeShown}"
+            Margin="0,10,0,0"
+            Click="VolumeButton_Click" />
+        <controls:ImageButton
+            Name="CancelOrderButton"
+            Style="{StaticResource canceledOrderSystemButtonStyle}"
+            Command="{Binding ActionCommand}"
+            Visibility="Collapsed"
+            CommandParameter="SNDCancelOrder"
+            Text="{Loc ScotApp_9398}"
+            Margin="0,10,0,0"/>
+    </StackPanel>
+	<Grid
+        Name="VersionBlock"
+        Grid.Column="1"
+  	    Grid.Row="3"
+        Margin="0,30,0,0"
+        Width="120">
+        <Grid.RowDefinitions>
+            <RowDefinition
+                    Height="15" />
+                <RowDefinition
+                    Height="25" />
+                <RowDefinition
+                    Height="25" />
+            </Grid.RowDefinitions>
+            <controls:MeasureTextBlock
+                x:Name="TerminalNumberTextBlock"
+                Grid.Column="0"
+                Grid.Row="0"
+                Style="{StaticResource versionTextStyle}"
+                Text="{Binding CMTerminalNumberText}"
+                TextWrapping="Wrap"
+                Visibility="Visible" />
+            <controls:MeasureTextBlock
+                x:Name="ACSVersionTextBlock"
+                Grid.Column="0"
+                Grid.Row="1"
+                Style="{StaticResource versionTextStyle}"
+                Text="{Binding CMACSVersionText}"
+                TextWrapping="Wrap"
+                Visibility="Visible" />
+            <controls:MeasureTextBlock
+                x:Name="VersionTextBlock"
+                Grid.Column="0"
+                Grid.Row="2"
+                Style="{StaticResource versionTextStyle}"
+                Text="{Binding CMVersionText}"
+                TextWrapping="Wrap"
+                Visibility="Visible" />
+        </Grid>
+        <viewsControls:WeightDetails
+        x:Name="WeightDetailsPanel"
+        Grid.Column="2"
+        VerticalAlignment="Top"
+        Margin="0,20,0,0"
+        HorizontalAlignment="Right"
+        NMI="{Binding NMI, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type viewsControls:SystemFunctionsControl}}}" />
+</Grid>

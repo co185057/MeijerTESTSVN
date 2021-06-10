@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Display>
+	<!-- THIS FILE USE TO CONFIG 5992 PINPAD UNIT -->
+	<!--CONTROLS -->
+	<Control Name="PINEntrySigDevVideo" Type="Video" Synchronize="False">
+		<Video>%MediaPath%\KeyIn5992Pin_FF_Mini.avi</Video>
+	</Control>
+	<Control Name="RequestSigVideo" Type="Video" Synchronize="False">
+		<Video>%MediaPath%\SignName_FF_Mini.avi</Video>
+	</Control>
+	<Control Name="SwipeCardVideo" Type="Video" Synchronize="False">
+		<Video>%MediaPath%\SwipeCard_5992_FF_Mini.avi</Video>
+	</Control>
+</Display>

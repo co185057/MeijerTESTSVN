@@ -1,0 +1,40 @@
+<Display Version="1.0">
+  <Languages>
+    <Language Name="0409">
+      <StringTable>
+				<String Name="AMReceiptItemType1">%s\t%s</String>
+				<String Name="AMReceiptItemType2">%s</String>
+				<String Name="AMReceiptItemType3">%s\t%s\t  %s Qty</String>
+				<!-- POS113800 rrs <String Name="AMReceiptItemType3">%s\t%s\t  Qty %s @ %s/each\t%s</String> -->
+				<String Name="AMReceiptItemType4">%s\t%s\t  Qty %s @ %s/%s\t%s</String>
+				<String Name="AMReceiptItemType5">%s\t%s\t  %ss @ %s %s/%s\t%s</String>
+				<String Name="AMReceiptItemType6">%s\t%s\t  %ss @ %s/%s\t%s</String>
+				<String Name="AMReceiptItemType36">%</String>
+				<String Name="AssistTaxTextValue">Tax</String>
+				<String Name="AssistChangeDue">Change</String>
+				<String Name="AssistFSChangeDue">FS Change</String>				
+				<String Name="ShowAllLanes">Show\nAll Lanes</String>
+				<String Name="TotalValue">Total</String>
+				<String Name="AssistTotalTMDiscountTextValue">TMD</String>
+				<String Name="AssistTotalGMTextValue">GM Total</String>
+				<String Name="AssistTotalCMTextValue">CM</String>
+				<String Name="ScanIDOrKeyLeadthru">Key in your Employee ID and touch "Enter", Or scan your employee badge.</String>
+				<String Name="ReScanIDOrKeyLeadthru">Incorrect credentials. Please re-key your Employee ID and touch "Enter", Or scan your employee badge.</String>
+				<String Name="ScanIDOnlyLeadthru">Scan your employee badge.</String>
+				<String Name="ReScanIDOnlyLeadthru">Incorrect credentials. Please re-scan your employee badge.</String>
+				<String Name="EnterPasswordOrUseBiometricLeadthru">Key in your password and touch "Enter", Or place your finger on the biometric device to login.</String>
+				<String Name="DateOfBirthCancelButtonText">Reject/ Cancel</String>
+				<String Name="NoSaleButtonText">No Sale</String>
+				<String Name="NoSaleLeadthru">Opening Cash Drawer...</String>
+				<String Name="LaneIntervention">Please walk to the lane for this intervention.</String>
+				<String Name="CheckOnLaneLeadthru">Go to lane to process check from customer.</String>
+				<String Name="CheckOnLaneRapLeadthru">Go to lane or use assist mode to process check from customer.</String>
+				<String Name="CheckOnLaneTitle">Check Payment</String>
+				<!-- base string overrides -->
+				<String Name="HH_InvalidBirthDateFormatLeadthru">Date format is invalid \nEnter in %s format.</String>
+                <String Name="SmVoidRestrictedItemsTitle">Void Restricted Items</String>
+                <String Name="SmVoidRestrictedItemsLeadthru">Under age. Void the item(s) below or reenter birth date</String>
+      </StringTable>
+    </Language>
+  </Languages>
+</Display>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<RapNet>
+	<Options>
+		<!-- Hash algorith to use when validating password in swusers/maintusers registry. 
+			Desktop possible values: "NONE", "SHA1", "MD5", "SHA256", "SHA384", and "SHA512" (default is NONE)
+			HH possible values: "NONE" and "SHA256"(default is NONE). -->
+		<HashAlgorithm>NONE</HashAlgorithm>
+		
+		<!-- Launch Pad scanner profile (default: SOFTWARE\\NCR\\NcrLaunchPadRemoteScanner). -->
+		<NcrRemoteScanner>SOFTWARE\NCR\NcrLaunchPadRemoteScanner</NcrRemoteScanner>
+
+	    <!-- Allow return to ScotApp/RapNet when a utility executable is running? (default is false). -->
+	    <UtilityReturnAlwaysEnabled>false</UtilityReturnAlwaysEnabled>
+	    <!-- Auto sign off RAP and Launchpad in seconds (default is 0, disabled)  -->
+		<LaunchPadRAPAutoSignOffSeconds>0</LaunchPadRAPAutoSignOffSeconds>
+	</Options>	
+</RapNet>

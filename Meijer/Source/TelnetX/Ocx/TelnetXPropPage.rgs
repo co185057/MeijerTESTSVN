@@ -1,0 +1,23 @@
+HKCR
+{
+	Mabry.TelnetXPropPage.1 = s 'TelnetXPropPage Class'
+	{
+		CLSID = s '{43A249A0-AE00-4CE7-9624-43B220F4CFDE}'
+	}
+	Mabry.TelnetXPropPage = s 'TelnetXPropPage Class'
+	{
+		CLSID = s '{43A249A0-AE00-4CE7-9624-43B220F4CFDE}'
+		CurVer = s 'Mabry.TelnetXPropPage.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {43A249A0-AE00-4CE7-9624-43B220F4CFDE} = s 'TelnetXPropPage Class'
+		{
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+		}
+	}
+}

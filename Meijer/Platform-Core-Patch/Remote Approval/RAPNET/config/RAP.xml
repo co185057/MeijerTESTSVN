@@ -1,0 +1,6 @@
+<Display Version="1.0" Language="0409" SharedData="RapNet">
+  <Includes>
+    <Include File="%ConfigPath%\LaneRAP.xml" />
+    <Include File="%ConfigPath%\AssistModeMenuOnRAP.xml" />
+  </Includes>
+</Display>

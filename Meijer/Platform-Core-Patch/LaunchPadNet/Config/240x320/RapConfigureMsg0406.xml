@@ -1,0 +1,58 @@
+<Display Version="1.0">
+	<Languages>
+		<Language Name="0406">
+			<StringTable>
+				<String Name="MainTitle">FKP-konfiguration</String>
+				<String Name="AddButtonText">Tilføj</String>
+				<String Name="AddLaneTitle">Tilføj kasse</String>
+				<String Name="ApplyButtonText">Brug</String>
+				<String Name="Backspace">Backspace</String>				
+				<String Name="CancelButtonText">Annullér</String>
+				<String Name="ConfigTypeText">Kassekonfigurationstype:</String>
+				<String Name="ConfirmDeleteTitle">Bekræft sletning</String>
+				<String Name="ConfirmDeleteText">Vil du slette kasse:</String>
+				<String Name="ConfirmExitTitle">Bekræft afslut</String>
+				<String Name="ConfirmExitText">Er du sikker på, at du vil kassere disse ændringer?</String>
+				<String Name="ConfirmSaveTitle">Bekræft gem</String>
+				<String Name="ConfirmSaveText">Du gemmer ændringerne i RapNet.xml. Vil du fortsætte?</String>
+				<String Name="DeleteButtonText">Slet</String>
+				<String Name="DuplicateIPTitle">Samme IP-adresse</String>
+				<String Name="DuplicateLaneTitle">Fandt kasse to gange</String> 
+				<String Name="DuplicateLaneText">Kasse %s eksisterer allerede</String>
+				<String Name="EditLaneTitle">Redigér kasse</String>
+				<String Name="EmptyText">Tom</String>
+				<String Name="Enter">Enter</String>
+				<String Name="EnterHostNameInstruction">Indtast værtsnavn og tryk på "Enter".</String>
+				<String Name="EnterIPAddressInstruction">Indtast IP-adresse og tryk på "Enter".</String>
+				<String Name="EnterIPOctetInstruction">Indtast IP-oktet og tryk på "Enter".</String>
+				<String Name="EnterHostNameText">Indtast kassens værtsnavn</String>
+				<String Name="EnterIPAddressText">Indtast kassens IP-adresse</String>
+				<String Name="EnterIPOctetText">Indtast kassens IP-oktet</String>
+				<String Name="ErrorText">Fejl</String>
+				<String Name="ExitButtonText">Afslut</String>
+				<String Name="FileErrorTitle">Fil ikke fundet</String>
+				<String Name="FileErrorText">Fejl: Kunne ikke finde RapNet.xml-fil.</String>
+				<String Name="HostNameText">Værtsnavn</String>
+				<String Name="IPAddressText">IP-adresse</String>
+				<String Name="IPOctetText">IP-oktet</String>
+				<String Name="LaneText">Kasse</String>
+				<String Name="MoveButtonText">Flyt</String>
+				<String Name="NoButtonText">Nej</String>
+				<String Name="NoLane">Alle kasser er blevet slettet</String>
+				<String Name="NoLaneToDelete">Der er ikke flere kasser at slette.</String>
+				<String Name="NoLaneWarningTitle">RapNet.xml har ingen kasser</String>
+				<String Name="NoLaneWarningText">Advarsel: RapNet.xml har ingen kasser konfigureret.</String>
+				<String Name="OkButtonText">OK</String>
+				<String Name="RestartRAPTitle">Genstart FKP</String>
+				<String Name="RestartRAPText">Du skal genstarte FKP.</String>
+				<String Name="SameRapIPAddress">Kan ikke anvende samme IP-adresse som skrivebords-FKP'ens IP-adresse: %s</String>
+				<String Name="SameHHRapIPAddress">Kan ikke anvende samme IP-adresse som den håndholdte FKP's IP-adresse: %s</String>
+				<String Name="SaveButtonText">Gem</String>
+				<String Name="SelectLaneToDelete">Vælg en kasse at slette</String>
+				<String Name="SelectSourceText">Vælg en kasse at flytte</String>
+				<String Name="SelectDestinationText">Vælg destination</String>
+				<String Name="YesButtonText">Ja</String>
+			</StringTable>
+		</Language>
+	</Languages>
+</Display>

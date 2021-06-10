@@ -1,0 +1,13 @@
+IVI Checkmate Form Generator - Version 1.0
+FormNumber->[formnumber:30]
+Text->[x:1][y:1][font:1][italics:0][underline:0][reverse:0][text:For Use by SSF Only]
+Text->[x:9][y:8][font:2][italics:0][underline:0][reverse:0][text:Button 1]
+Text->[x:23][y:16][font:2][italics:0][underline:0][reverse:0][text:Button 4]
+Text->[x:9][y:16][font:2][italics:0][underline:0][reverse:0][text:Button 2]
+Text->[x:9][y:24][font:2][italics:0][underline:0][reverse:0][text:Button 3]
+Text->[x:23][y:24][font:2][italics:0][underline:0][reverse:0][text:Cancel]
+Button->[x:2][y:14][cx:6][cy:6][id:4]
+Button->[x:2][y:22][cx:6][cy:6][id:5]
+Button->[x:32][y:14][cx:6][cy:6][id:6]
+Button->[x:2][y:6][cx:6][cy:6][id:3]
+Button->[x:32][y:22][cx:6][cy:6][id:7]

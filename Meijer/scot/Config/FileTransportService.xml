@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<FileTransportService>
+<!--
+    <Monitors PeriodInSeconds="1800">
+        <Monitor SourceMask="C:\temp\*.zip" Destination="\\DESTSERVER\log\ncr" Move="yes" DestUser="username" DestPass="password" />
+        <Monitor SourceMask="\\DESTSERVER\updates\ncr\SCOT\bin\*" Destination="C:\SCOT\bin\" Move="no" SrcUser="srcusername" SrcPass="srcpassword" />
+    </Monitors>
+-->
+</FileTransportService>

@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<conf:NCR-Configuration xmlns:conf="http://config.ssc.cf.ncr.com/schema/Configuration">
+   <conf:Entity Id="AllLanesCommon" Type="AllLanes"  LastTimeUpdated="2010-09-23T14:27:00">
+<!--For all options have true or false value, if the option is set to false, we will not see the option added to either TransPolicy config xml or Personalization config xml-->
+<!--TareWt and TareWtTolerance can be set up to unlimited number.  This set up is example of two tares.  To add more tares, add more key name Tare.3....Tare.n-->
+<!-- Tan Nguyen added this comment line to test the new CI build server, <https://sez00vvm-187.sweng.ncr.com:9443/vsphere-client/#> > 
+ -->
+    <conf:Key Name="TransPolicy.Tare.1.TareWt">
+      <conf:Value>270</conf:Value>
+    </conf:Key>
+    <conf:Key Name="TransPolicy.Tare.2.TareWt">
+      <conf:Value>490</conf:Value>
+    </conf:Key>
+    <conf:Key Name="TransPolicy.Tare.1.TareWtTolerance">
+      <conf:Value>70</conf:Value>
+    </conf:Key>
+    <conf:Key Name="TransPolicy.Tare.2.TareWtTolerance">
+      <conf:Value>130</conf:Value>
+    </conf:Key>
+<!--TransPolicy.MaxUnapprovedWldbEntries set the limit of new learned wt items per transaction-->
+    <conf:Key Name="TransPolicy.MaxUnapprovedWldbEntries">
+      <conf:Value>999</conf:Value>
+    </conf:Key>
+<!--TransPolicy.BagBoxLimit set the limit of I bring my own bag button pressed per transaction-->
+    <conf:Key Name="TransPolicy.BagBoxLimit">
+      <conf:Value>2</conf:Value>
+    </conf:Key>
+<!--TransPolicy.SkipBaggingLimit set the limit of I don't want to bag button pressed per transaction-->
+    <conf:Key Name="TransPolicy.SkipBaggingLimit">
+      <conf:Value>3</conf:Value>
+    </conf:Key>
+<!--TransPolicy.ItemRemovedLimit set the limit of Item Removed button pressed per transaction-->
+    <conf:Key Name="TransPolicy.ItemRemovedLimit">
+      <conf:Value>3</conf:Value>
+    </conf:Key>
+<!--TransPolicy.RapApprovalLearningZeroWt=true means learning zero wt if approving from RAP-->
+    <conf:Key Name="TransPolicy.RapApprovalLearningZeroWt">
+      <conf:Value>false</conf:Value>
+    </conf:Key>
+<!--TransPolicy.SkipBaggingLearningZeroWt=true means learning zero wt if pressing I don't want to bag button at the lane-->
+    <conf:Key Name="TransPolicy.SkipBaggingLearningZeroWt">
+      <conf:Value>false</conf:Value>
+    </conf:Key>
+<!--TransPolicy.DelayExceptions=true means all security interventions are delayed-->
+    <conf:Key Name="TransPolicy.DelayExceptions">
+      <conf:Value>false</conf:Value>
+    </conf:Key>
+<!--TransPolicy.DelayExceptionsLimit set the limit of delayed interventions per transaction-->
+    <conf:Key Name="TransPolicy.DelayExceptionsLimit">
+      <conf:Value>0</conf:Value>
+    </conf:Key>
+    <conf:Key Name="TransPolicy.DelayExceptionsTimeout">
+      <conf:Value>5000</conf:Value>
+    </conf:Key>
+    <conf:Key Name="TransPolicy.ForgiveMismatchExceptions">
+      <conf:Value>false</conf:Value>
+    </conf:Key>
+<!--TransPolicy.ForgiveMismatchExceptionsLimit set the limit of forgiving mismatch interventions per transaction-->
+    <conf:Key Name="TransPolicy.ForgiveMismatchExceptionsLimit">
+      <conf:Value>0</conf:Value>
+    </conf:Key>
+    <conf:Key Name="TransPolicy.ForgiveMismatchExceptionsTimeout">
+      <conf:Value>2000</conf:Value>
+    </conf:Key>
+    <conf:Key Name="TransPolicy.ForgiveUnexpectedIncreaseExceptions">
+      <conf:Value>false</conf:Value>
+    </conf:Key>
+<!--TransPolicy.ForgiveUnexpectedIncreaseExceptionsLimit set the limit of forgiving unexpected increase interventions per transaction-->
+    <conf:Key Name="TransPolicy.ForgiveUnexpectedIncreaseExceptionsLimit">
+      <conf:Value>0</conf:Value>
+    </conf:Key>
+    <conf:Key Name="TransPolicy.ForgiveUnexpectedIncreaseExceptionsTimeout">
+      <conf:Value>2000</conf:Value>
+    </conf:Key>
+<!--TransPolicy.ForgiveUnexpectedDecreaseDuringTendering, If set to false, removing items during the tendering stages after Finish And Pay is pressed will cause an unexpected decrease exception before the balance is paid-->
+    <conf:Key Name="TransPolicy.ForgiveUnexpectedDecreaseDuringTendering">
+      <conf:Value>true</conf:Value>
+    </conf:Key>
+<!--TransPolicy.AttractQuietMode, if set to true, causes wt added to the scale during attract to be ignored.  If the wt is still present when the transaction is started, it will cause an unexpected increase exception to be generated. This option only applies to a Scan&amp;Bag system.  If set on a TAB system it will be ignored.-->
+    <conf:Key Name="TransPolicy.AttractQuietMode">
+      <conf:Value>true</conf:Value>
+    </conf:Key>
+    <conf:Key Name="TransPolicy.AttractQuietModeTimeout">
+      <conf:Value>120000</conf:Value>
+    </conf:Key>
+<!-- If TransPolicy.SubstitutionCheckPriceEmbeddedWt=Y and lWeight &gt; 0, supply wt to SmartScale instead of WLDB.-->  
+<!-- If TransPolicy.SubstitutionCheckPriceEmbeddedWt=Y and you want to use the ScannerScale wt, must set ForceWeighingOFPriceEmbedded=Yes. in Scotopts -->
+<!-- PLU supplied lWeight &gt; 0 will only work if ForceWeighingOFPriceEmbedded=N in Scotopts-->
+<!-- Examples: -->
+<!-- TransPolicy.SubstitutionCheckPriceEmbeddedWt=Y, lUnitPrice &gt; 0, lWeight == 0, will use calculated wt from unit price and will NOT update the WLDB -->
+<!-- TransPolicy.SubstitutionCheckPriceEmbeddedWt=Y, lUnitPrice == 0, lWeight == 0. will use WLDB entries and WILL update the WLDB -->
+<!-- TransPolicy.SubstitutionCheckPriceEmbeddedWt=Y, lUnitPrice &gt; 0, lWeight &gt; 0, will use calculated wt from unit price and will NOT update the WLDB -->
+<!-- TransPolicy.SubstitutionCheckPriceEmbeddedWt=Y, lUnitPrice == 0, lWeight &gt; 0. will use supplied weight and will NOT update the WLDB -->
+<!-- Can still use the scanner scale weight with TransPolicy.SubstitutionCheckPriceEmbeddedWt=Y and will NOT update the WLDB -->
+<!-- TransPolicy.SubstitutionCheckPriceEmbeddedWt=N will not compare either lUnitPrice calc or TB supplied lWeight.-->
+    <conf:Key Name="TransPolicy.SubstitutionCheckPriceEmbeddedWt">
+      <conf:Value>false</conf:Value>
+    </conf:Key>
+<!--the max allowed overweight percentage(%). For example, 250% means 2.5 times of the expected WT-->
+    <conf:Key Name="TransPolicy.MinimumPercentageOverWeightAllowed">
+      <conf:Value>250</conf:Value>
+    </conf:Key>			
+    <conf:Key Name="TransPolicy.PickListItemsUpdateWLDB">
+      <conf:Value>false</conf:Value>
+    </conf:Key>
+    <conf:Key Name="TransPolicy.RemovingItemsAutoAdvance">
+      <conf:Value>true</conf:Value>
+    </conf:Key>
+    <conf:Key Name="TransPolicy.RemovingItemsAutoAdvanceTimeout">
+      <conf:Value>3000</conf:Value>
+    </conf:Key>
+    <conf:Key Name="TransPolicy.RemovingItemViolationAutoAdvanceTimeout">
+      <conf:Value>3000</conf:Value>
+    </conf:Key>
+    <conf:Key Name="TransPolicy.RAPImportanceTally">
+      <conf:Value>2</conf:Value>
+    </conf:Key>
+<!-- minimum pack weight at which checking the multipack weight is made, 0=off -->
+<!--if TransPolicy.MinimumPackWeight > 0, the flag TransPolicy.MinimumPercentageOverWeightAllowed should be set in order to make the feature working.-->
+    <conf:Key Name="TransPolicy.MinimumPackWeight">
+      <conf:Value>0</conf:Value>
+    </conf:Key>				
+    <conf:Key Name="TransPolicy.LaneImportanceTally">
+      <conf:Value>1</conf:Value>
+    </conf:Key>
+    <conf:Key Name="TransPolicy.SecurityDisableSubstitutionCheckOnly">
+      <conf:Value>false</conf:Value>
+    </conf:Key>
+
+<!--  The following is example of setting alternative transaction policy definitions for use in other rules -->
+<!--  This is part of what you are developing for 5.0                                                       -->
+<!--
+    <conf:Key Name="ItemSecurityFilterChain.ParameterBlock.TolerantTransPolicy.ForgiveMismatchExceptions">
+      <conf:Value>true</conf:Value>
+    </conf:Key>
+    <conf:Key Name="ItemSecurityFilterChain.ParameterBlock.TolerantTransPolicy.ForgiveMismatchExceptionsLimit">
+      <conf:Value>1</conf:Value>
+    </conf:Key>
+    <conf:Key Name="ItemSecurityFilterChain.ParameterBlock.TolerantTransPolicy.ForgiveUnexpectedIncreaseExceptions">
+      <conf:Value>true</conf:Value>
+    </conf:Key>
+    <conf:Key Name="ItemSecurityFilterChain.ParameterBlock.TolerantTransPolicy.ForgiveUnexpectedIncreaseExceptionsLimit">
+      <conf:Value>1</conf:Value>
+    </conf:Key>
+
+    <conf:Key Name="ItemSecurityFilterChain.ParameterBlock.TolerantTransPolicy1.ForgiveMismatchExceptions">
+      <conf:Value>true</conf:Value>
+    </conf:Key>
+    <conf:Key Name="ItemSecurityFilterChain.ParameterBlock.TolerantTransPolicy1.ForgiveMismatchExceptionsLimit">
+      <conf:Value>2</conf:Value>
+    </conf:Key>
+    <conf:Key Name="ItemSecurityFilterChain.ParameterBlock.TolerantTransPolicy1.ForgiveUnexpectedIncreaseExceptions">
+      <conf:Value>true</conf:Value>
+    </conf:Key>
+    <conf:Key Name="ItemSecurityFilterChain.ParameterBlock.TolerantTransPolicy1.ForgiveUnexpectedIncreaseExceptionsLimit">
+      <conf:Value>2</conf:Value>
+    </conf:Key>
+
+    <conf:Key Name="ItemSecurityFilterChain.ParameterBlock.TolerantTransPolicy2.ForgiveMismatchExceptions">
+      <conf:Value>true</conf:Value>
+    </conf:Key>
+    <conf:Key Name="ItemSecurityFilterChain.ParameterBlock.TolerantTransPolicy2.ForgiveMismatchExceptionsLimit">
+      <conf:Value>3</conf:Value>
+    </conf:Key>
+    <conf:Key Name="ItemSecurityFilterChain.ParameterBlock.TolerantTransPolicy2.ForgiveUnexpectedIncreaseExceptions">
+      <conf:Value>true</conf:Value>
+    </conf:Key>
+    <conf:Key Name="ItemSecurityFilterChain.ParameterBlock.TolerantTransPolicy2.ForgiveUnexpectedIncreaseExceptionsLimit">
+      <conf:Value>3</conf:Value>
+    </conf:Key>
+
+    <conf:Key Name="ItemSecurityFilterChain.ParameterBlock.TolerantTransPolicy3.ForgiveMismatchExceptions">
+      <conf:Value>true</conf:Value>
+    </conf:Key>
+    <conf:Key Name="ItemSecurityFilterChain.ParameterBlock.TolerantTransPolicy3.ForgiveMismatchExceptionsLimit">
+      <conf:Value>4</conf:Value>
+    </conf:Key>
+    <conf:Key Name="ItemSecurityFilterChain.ParameterBlock.TolerantTransPolicy3.ForgiveUnexpectedIncreaseExceptions">
+      <conf:Value>true</conf:Value>
+    </conf:Key>
+    <conf:Key Name="ItemSecurityFilterChain.ParameterBlock.TolerantTransPolicy3.ForgiveUnexpectedIncreaseExceptionsLimit">
+      <conf:Value>4</conf:Value>
+    </conf:Key>
+    <conf:Key Name="TransPolicy.MaxUnapprovedWldbEntries">
+      <conf:Value>999</conf:Value>
+    </conf:Key>
+-->
+<!-- This one is just to show that nothing says that alternative policy definitions have to adjust the same parameters -->
+<!--
+    <conf:Key Name="ItemSecurityFilterChain.ParameterBlock.Stricter.BagBoxLimit">
+      <conf:Value>1</conf:Value>
+    </conf:Key>
+    <conf:Key Name="ItemSecurityFilterChain.ParameterBlock.Stricter.SkipBaggingLimit">
+      <conf:Value>1</conf:Value>
+    </conf:Key>
+    <conf:Key Name="ItemSecurityFilterChain.ParameterBlock.Stricter.ItemRemovedLimit">
+      <conf:Value>1</conf:Value>
+    </conf:Key>
+-->
+
+<!-- The following, then, is how the original dynamic load rules could be rewritten for the new release      --> 
+<!-- I am not sure if the val=true is required or not. It wouldn't be used.  The net effect would be exactly -->
+<!-- the same as the original dynamic load configuration rules                                               -->
+<!--
+    <conf:Key Name="ItemSecurityFilterChain.Load.OnTransaction.BLOCK_TolerantTransPolicy.TolerantDynamicLoad2">
+    <conf:Value>condition=lessthan;cndParams={val=30};action=set;actionParams={val=true};order=1</conf:Value>
+    </conf:Key>	
+-->
+
+<!-- The following is a sample set of rules that would adjust the transaction policy parameters based on trust level using -->
+<!-- the parameter blocks just created.  It will call the calculateTrustLevelKPI and then set the values of the            -->
+<!-- transaction policy accordingly.                                                                                       -->
+<!--
+    <conf:Key Name="ItemSecurityFilterChain.TrustLevel.OnTransaction.BLOCK_TolerantTransPolicy.TrustLevel1">
+    <conf:Value>condition=equal;cndParams={val=1};action=set;actionParams={val=true};order=2</conf:Value>
+    </conf:Key>	
+    <conf:Key Name="ItemSecurityFilterChain.TrustLevel.OnTransaction.BLOCK_TolerantTransPolicy1.TrustLevel2">
+    <conf:Value>condition=equal;cndParams={val=2};action=set;actionParams={val=true};order=3</conf:Value>
+    </conf:Key>	
+    <conf:Key Name="ItemSecurityFilterChain.TrustLevel.OnTransaction.BLOCK_TolerantTransPolicy2.TrustLevel3">
+    <conf:Value>condition=equal;cndParams={val=3};action=set;actionParams={val=true};order=4</conf:Value>
+    </conf:Key>	
+    <conf:Key Name="ItemSecurityFilterChain.TrustLevel.OnTransaction.BLOCK_TolerantTransPolicy3.TrustLevel4">
+    <conf:Value>condition=equal;cndParams={val=4};action=set;actionParams={val=true};order=5</conf:Value>
+    </conf:Key>	
+    <conf:Key Name="ItemSecurityFilterChain.TrustLevel.OnTransaction.BLOCK_Stricter.TrustLevel9">
+    <conf:Value>condition=equal;cndParams={val=9};action=set;actionParams={val=true};order=6</conf:Value>
+    </conf:Key>	
+-->
+
+<!-- NOTE: Rules are processed in the order specified by the order setting.  With the above set, if both dynamic was on and the trust level was set to 3, first the -->
+<!-- resulting transaction policy would have the values from TolerantTransPolicy used to reset the TransactionPolicy object being built -->
+<!-- and then the trust level test would set the values from TolerantTransPolicy3 into the TransactionPolicy.  Since the two     -->
+<!-- parameter blocks adjust the exact same parameters, the net result would be the same as if the dynamic load had never run,   -->
+<!-- the trust level values from policy 3 would be what would show up in the result.  If you switched the order of the rules in  -->
+<!-- this file, then the dynamic load options would be the ones in effect.  However, if the trust level were 9, implementing the -->
+<!-- stricter set, then the changes from dynamic load and the ones from the stricter parameter block would both appear, since    -->
+<!-- there is no overlap.  It would make for an interesting combination, loosening some parameters while making others tighter   -->
+<!-- which just goes to show that some care needs to be taken when making up rules, policies, and ordering them                  -->
+
+
+<!-- The following is an example of how rules might be set up for random security -->
+<!-- In ConfigEntity-ItemSecurityController.xml, we will assume that the default is set to 10 percent by the following lines: -->	
+<!--      <conf:Key Name="ItemSecurityController. DefaultRandomSecurityDisablePercentage "> -->
+<!--      <conf:Value>10</conf:Value> -->
+<!--      </conf:Key> -->
+<!-- First we'll have rules that might modify the percentages based upon trust level.  Not required if you just want to use the default all the time -->
+<!--
+    <conf:Key Name="ItemSecurityFilterChain.TrustLevel.OnTransaction.none.RandomSetRule1">
+    <conf:Value>condition=equal;cndParams={val=1};action=setRandomTransactionPercentage;actionParams={val=20};order=11</conf:Value>
+    </conf:Key>	
+    <conf:Key Name="ItemSecurityFilterChain.TrustLevel.OnTransaction.none.RandomSetRule2">
+    <conf:Value>condition=equal;cndParams={val=2};action=setRandomTransactionPercentage;actionParams={val=30};order=12</conf:Value>
+    </conf:Key>	
+    <conf:Key Name="ItemSecurityFilterChain.TrustLevel.OnTransaction.none.RandomSetRule3">
+    <conf:Value>condition=equal;cndParams={val=3};action=setRandomTransactionPercentage;actionParams={val=35};order=13</conf:Value>
+    </conf:Key>	
+    <conf:Key Name="ItemSecurityFilterChain.TrustLevel.OnTransaction.none.RandomSetRule4">
+    <conf:Value>condition=equal;cndParams={val=4};action=setRandomTransactionPercentage;actionParams={val=40};order=14</conf:Value>
+    </conf:Key>	
+    <conf:Key Name="ItemSecurityFilterChain.TrustLevel.OnTransaction.none.RandomSetRule9">
+    <conf:Value>condition=equal;cndParams={val=9};action=setRandomTransactionPercentage;actionParams={val=0};order=15</conf:Value>
+    </conf:Key>	
+	-->
+<!-- Then we'll have the rule that would actually perform the random security -->
+<!-- Here again the true value is not really used                             -->
+<!--
+    <conf:Key Name="ItemSecurityFilterChain.RandomSecurityResult.OnItem.none.RandomSecurityRule1">
+    <conf:Value>condition=equal;cndParams={val=1};action=setItemSecurityOff;actionParams={val=true};order=21</conf:Value>
+    </conf:Key>	
+-->
+
+<!-- This is to give an example of how maybe you'd also like to set something else on or off for Random Security -->
+<!-- Not making much sense, but say we want to set Dept Number to 10 for any Generic Exception response where Item Security is on -->
+<!--
+    <conf:Key Name="ItemSecurityFilterChain.RandomSecurityResultRepeat.OnItem.DeptNumber.RandomSecurityRule2">
+    <conf:Value>condition=equal;cndParams={val=1};action=setGenericException;actionParams={val=10};order=31</conf:Value>
+    </conf:Key>	
+-->
+<!--
+	<conf:Key Name="TrustLevelAdjustmentFilterChain.NumberOfItems.OnTransaction.temp1.rule2">
+	<conf:Value>condition=greaterthan;cndParams={val=20};action=increment;actionParams={val=10};order=111</conf:Value>
+	</conf:Key>
+	<conf:Key Name="TrustLevelAdjustmentFilterChain.CustomerAge.OnTransaction.temp1.rule3">
+	<conf:Value>condition=greaterthan;cndParams={val=60};action=increment;actionParams={val=10};order=112</conf:Value>
+	</conf:Key>
+	<conf:Key Name="TrustLevelAdjustmentFilterChain.WeightMismatchCountOperatorCleared.OnTransaction.temp1.rule5">
+	<conf:Value>condition=lessthan;cndParams={val=3};action=increment;actionParams={val=10};order=113</conf:Value>
+	</conf:Key>
+	<conf:Key Name="TrustLevelAdjustmentFilterChain.Temp1.OnTransaction.trustLevel.rule8">
+	<conf:Value>condition=greaterthan;cndParams={val=15};action=decrement;actionParams={val=1};order=114</conf:Value>
+	</conf:Key>
+-->
+ 
+<!-- Personalization.PersonalizeLanguage: Should languages personalization be used? -->
+    <conf:Key Name="Personalization.PersonalizeLanguage">
+      <conf:Value>N</conf:Value>
+    </conf:Key>
+<!-- Personalization.RetailerID : A retailer specific identifier.  Not currently used, reserved for e-suite use -->
+    <conf:Key Name="Personalization.RetailerID">
+      <conf:Value>FastlaneStore</conf:Value>
+    </conf:Key>
+<!-- Personalization.languageX : Scotapp uses up to 6 of these definitions to map web service -->
+<!-- language strings (such as "en_US", "es_MX", or "fr_CA" to Scotopts.000 defined languages -->
+<!-- Personalization.language1 -->
+    <conf:Key Name="Personalization.language1">
+      <conf:Value></conf:Value>
+    </conf:Key>
+<!-- Personalization.language2 -->
+    <conf:Key Name="Personalization.language2">
+      <conf:Value></conf:Value>
+    </conf:Key>
+<!-- Personalization.language3 -->
+    <conf:Key Name="Personalization.language3">
+      <conf:Value></conf:Value>
+    </conf:Key>
+<!-- Personalization.language4 -->
+    <conf:Key Name="Personalization.language4">
+      <conf:Value></conf:Value>
+    </conf:Key>
+<!-- Personalization.language5 -->
+    <conf:Key Name="Personalization.language5">
+      <conf:Value></conf:Value>
+    </conf:Key>
+<!-- Personalization.language6 -->
+    <conf:Key Name="Personalization.language6">
+      <conf:Value></conf:Value>
+    </conf:Key>
+<!-- Personalization.LaneTheme : Theme to use for default lane theme.-->
+<!-- If using Enterprise Suites Enterprise Personalization to control Lane theme,  do not uncomment -->
+<!--    <conf:Key Name="Personalization.LaneTheme">
+      <conf:Value></conf:Value>
+    </conf:Key> -->
+<!-- Personalization.LoyaltyLookupTimer delay in milleseconds used for scans at attract screen -->
+<!--  to wait for personalization data lookups to complete. Only used when a scan or swipe matches a Loyalty pattern -->
+    <conf:Key Name="Personalization.LoyaltyLookupTimer">
+      <conf:Value>250</conf:Value>
+    </conf:Key>
+<!-- Loyalty Pattern Matches - string patterns to determine if scan or swipe data might be a loyalty card  -->
+<!-- "x" matches any character  -->
+<!-- "c" matches any character, but signifies check digit  -->
+<!--  “+” is a variable length indicator field. Use to indicate length >= length of mask  -->
+<!--   The following definitions match Scans starting with "45" and having 12 digits, or starting with -->
+<!--      "73" and having 13 or more digits.                -->
+<!--   <conf:Key Name="Personalization.LoyaltyPatternScan"> -->
+<!--     <conf:Value>45xxxxxxxxxc</conf:Value>              -->
+<!--     <conf:Value>73xxxxxxxxxxc+</conf:Value>            -->
+<!--   </conf:Key>                                          -->
+<!-- These values are provided for internal testing. They should be uncommented for testing, or -->
+<!-- modified and uncommented for retailer usage.                                               -->
+<!-- 
+    <conf:Key Name="Personalization.LoyaltyPatternScan">
+      <conf:Value>156515155688</conf:Value>
+      <conf:Value>637480378314</conf:Value>
+    </conf:Key>
+    <conf:Key Name="Personalization.LoyaltyPatternSwipe">
+      <conf:Value>3343530121300004</conf:Value>
+      <conf:Value>6011000121300004</conf:Value>
+    </conf:Key>
+-->
+<!-- Personalization.PersonalizedPicklistItems : The number of personal favorites to put on the favorites screen-->
+    <conf:Key Name="Personalization.PersonalizedPicklistItems">
+      <conf:Value>0</conf:Value>
+    </conf:Key>    
+<!-- Personalization.PersonalizedAgePrompt: Whether to use the personalized age prompt feature. -->    
+    <conf:Key Name="Personalization.PersonalizedAgePrompt">
+      <conf:Value>N</conf:Value>
+    </conf:Key>    
+    <!-- Personalization.PersonalizedPicklistItems : The number of personal favorites to display on the Quickpick screen-->
+    <!-- To enable the Dynamic Quickpick feature the value should be greater than Zere (0). -->
+    <!-- This feature requires that Personalization.PersonalizedPicklistItems option must also be configured -->
+    <conf:Key Name="Personalization.DynamicQuickPickItems">
+      <conf:Value>0</conf:Value>
+    </conf:Key>
+<!-- The following set of rules will set the following variables of the transaction security policy if the weighted -->
+<!-- average of the previous 4 transactions time in the attract state is less than 30 seconds                       -->
+<!-- The variable set and values selected are those listed in the release 4.5 documentation as the tolerant setting -->
+<!--     ForgiveMismatchExceptions                = true                                                            -->
+<!--     ForgiveMismatchExceptionsLimit           = 1                                                               -->
+<!--     ForgiveUnexpectedIncreaseExceptions      = true                                                            -->
+<!--     ForgiveUnexpectedIncreaseExceptionsLimit = 1                                                               -->
+    
+<!-- 	<conf:Key Name="ItemSecurityFilterChain.Load.OnTransaction.forgiveMismatchExceptions.TolerantDynamicLoad1"> -->
+<!-- 	<conf:Value>condition=lessthan;cndParams={val=30};action=set;actionParams={val=true};order=41</conf:Value> -->
+<!-- 	</conf:Key> -->
+<!-- 	<conf:Key Name="ItemSecurityFilterChain.Load.OnTransaction.forgiveMismatchExceptionsLimit.TolerantDynamicLoad2"> -->
+<!-- 	<conf:Value>condition=lessthan;cndParams={val=30};action=set;actionParams={val=1};order=42</conf:Value> -->
+<!-- 	</conf:Key> -->
+<!-- 	<conf:Key Name="ItemSecurityFilterChain.Load.OnTransaction.forgiveUnexpectedIncreaseExceptions.TolerantDynamicLoad3"> -->
+<!-- 	<conf:Value>condition=lessthan;cndParams={val=30};action=set;actionParams={val=true};order=43</conf:Value> -->
+<!-- 	</conf:Key> -->
+<!-- 	<conf:Key Name="ItemSecurityFilterChain.Load.OnTransaction.forgiveUnexpectedIncreaseExceptionsLimit.TolerantDynamicLoad4"> -->
+<!-- 	<conf:Value>condition=lessthan;cndParams={val=30};action=set;actionParams={val=1};order=44</conf:Value> -->
+<!-- 	</conf:Key> -->
+    </conf:Entity>
+ </conf:NCR-Configuration>

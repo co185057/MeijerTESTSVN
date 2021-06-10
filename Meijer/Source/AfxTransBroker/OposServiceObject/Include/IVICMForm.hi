@@ -1,0 +1,81 @@
+//////////////////////////////////////////////////////////////////////
+//
+// IVICMForm.hi
+//
+//   IVI Checkmate Form Control header file .
+//   Following OPOS Controls and Service Objects.
+//
+// Modification history
+// -------------------------------------------------------------------
+// 98-09-16 Release 1.0                                          DMJ
+//
+//////////////////////////////////////////////////////////////////////
+
+#if !defined(IVICMFORM_HI)
+#define      IVICMFORM_HI
+
+
+#include "Opos.hi"
+#include "IVICMForm.h"
+
+#define IVICMFORM_CLASSKEY_FORM    _T("IVICMForm")
+
+//////////////////////////////////////////////////////////////////////
+// Numeric Property Index Values.
+//
+// Since we are using Line Display as a base, we will also use PIDX_DISP
+// as a base for properties
+//////////////////////////////////////////////////////////////////////
+
+// * Properties *
+const LONG PIDXIVICMForm_CharacterSet        =   1 + PIDX_DISP + PIDX_NUMBER;
+const LONG PIDXIVICMForm_TotalPoints         =   3 + PIDX_DISP + PIDX_NUMBER;
+const LONG PIDXIVICMForm_DeviceRows          =   5 + PIDX_DISP + PIDX_NUMBER;
+const LONG PIDXIVICMForm_DeviceColumns       =   6 + PIDX_DISP + PIDX_NUMBER;
+const LONG PIDXIVICMForm_FontHeight          =   7 + PIDX_DISP + PIDX_NUMBER;
+const LONG PIDXIVICMForm_FontWidth           =   8 + PIDX_DISP + PIDX_NUMBER;
+const LONG PIDXIVICMForm_FontStyle           =   9 + PIDX_DISP + PIDX_NUMBER;
+const LONG PIDXIVICMForm_FontTypeface        =  10 + PIDX_DISP + PIDX_NUMBER;
+const LONG PIDXIVICMForm_CapDisplay          =  11 + PIDX_DISP + PIDX_NUMBER;
+const LONG PIDXIVICMForm_CapRealTimeData     =  12 + PIDX_DISP + PIDX_NUMBER;
+const LONG PIDXIVICMForm_CapUserTerminated   =  13 + PIDX_DISP + PIDX_NUMBER;
+const LONG PIDXIVICMForm_MaximumX            =  14 + PIDX_DISP + PIDX_NUMBER;
+const LONG PIDXIVICMForm_MaximumY            =  15 + PIDX_DISP + PIDX_NUMBER;
+const LONG PIDXIVICMForm_RealTimeDataEnabled =  16 + PIDX_DISP + PIDX_NUMBER;
+
+
+
+
+
+// * Validation Functions *
+inline BOOL IsValidIVICMFormNumericPidx(LONG Pidx)
+{
+  return ( PIDXIVICMForm_CharacterSet >= Pidx && Pidx <= PIDXIVICMForm_RealTimeDataEnabled )
+    ? TRUE : FALSE ;
+}
+
+
+//////////////////////////////////////////////////////////////////////
+// String Property Index Values.
+//
+// Since we are using Line Display as a base, we will also use PIDX_DISP
+// as a base for properties
+//////////////////////////////////////////////////////////////////////
+
+// * Properties *
+const LONG PIDXIVICMForm_CharacterSetList    =   1 + PIDX_DISP + PIDX_STRING;
+const LONG PIDXIVICMForm_FontTypefaceList    =   2 + PIDX_DISP + PIDX_STRING;
+const LONG PIDXIVICMForm_RawData             =   3 + PIDX_DISP + PIDX_STRING;
+const LONG PIDXIVICMForm_PointArray          =   4 + PIDX_DISP + PIDX_STRING;
+const LONG PIDXIVICMForm_KeyPadBoardPrompt1  =   5 + PIDX_DISP + PIDX_STRING;
+const LONG PIDXIVICMForm_KeyPadBoardPrompt2  =   6 + PIDX_DISP + PIDX_STRING;
+const LONG PIDXIVICMForm_KeyPadBoardText     =   7 + PIDX_DISP + PIDX_STRING;
+
+// * Validation Function *
+inline BOOL IsValidIVICMFormStringPidx(LONG Pidx)
+{
+  return ( PIDXIVICMForm_CharacterSetList >= Pidx && Pidx <= PIDXIVICMForm_KeyPadBoardText )
+    ? TRUE : FALSE ;
+}
+
+#endif			// !defined(IVICMFORM_HI)

@@ -1,0 +1,32 @@
+<Display Version="1.2">
+  <Controls>
+    <Control Name="SwipeCardVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\InsertCard_40_mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="RequestSigVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\SignName_Topaz_FF_Mini.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="TakeCardVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Position">215,145,573,323</Property>
+        <Property Name="Video">%MediaPath%\TakeCard_40_mini.avi</Property>
+      </Properties>
+    </Control>
+  </Controls>
+  <Contexts>
+    <Context Name="TakeCard" Synchronize="False">
+      <Include>
+        <Control Name="TakeCardVideo" />
+        <Control Name="InstructionTextArea">
+          <CustomData>
+            <Data Name="StringId">0</Data>
+          </CustomData>
+        </Control>
+      </Include>
+    </Context>
+  </Contexts>
+</Display>

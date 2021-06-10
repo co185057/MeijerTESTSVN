@@ -1,0 +1,2795 @@
+﻿AmountSaved,Úspora
+Assistance,Pomoc
+AssistanceComing,"Obsluha prichádza, pokračujte."
+Back,Späť
+BagItem,Zabaľte tento tovar.
+BagItemCart,Vložte do tašky
+BagItemOrSkip,Zabaľte tento tovar alebo zvoľte preskočiť.
+CallForHelp,Požiadať o pomoc?
+Cancel,Zrušiť
+CancelAll,Zrušiť všetko
+CancelCoupons,Zrušiť kupóny
+CancelPayment,Zrušiť platbu
+CantScanCoupon,Nedá sa načítať kupón
+CartPay,Platba
+Change,Vydať:
+Confirm,Chcete zastaviť účtovanie a zrušiť celý nákup?
+ConfirmQuantity,Je {0} správne?
+Continue,Želáte si pokračovať?
+CouponMessage,Teraz dajte kupóny nabok.Predložte ich až na konci nákupu.
+DepositCard,Vložte darčekovú kartu do štrbiny na kupóny.
+DepositCoupon,Predloženie kupónov
+DepositGiftCard,Predloženie darčekovej karty
+Disconnected,ČAKAJTE...
+Done,Hotovo
+Due,Zaplatiť:{0}
+EditCart,Upraviť vozík
+Enter,Enter
+EnterAmount,Zadajte množstvo
+EnterCouponValue,Zadajte hodnotu kupónu v centoch a stlačte „OK“.
+EnterId,Zadajte svoje ID.
+EnterPassword,Zadajte svoje heslo.
+EnterPin,Zadajte PIN
+EnterQuantity,Aké množstvo máte?
+EnterWeight,Položte tovar na váhu:
+Finish,"Ďakujeme, že u nás nakupujete."
+FinishAndAdd,Dokončiť a pridať
+GiftCard,Hodnota darčekovej karty
+GoBack,Späť
+IncorrectLogin,Nesprávne číslo \na heslo obsluhy.\nSkúste znova.
+InsertCash,Vložte peniaze
+InsertCoupon,Vložiť kupón
+InvalidBarcodeScan,Odložte tovar nabok a \npokračujte.
+Item,{0} tovar
+Items,{0} tovary
+ItemsAddedFormat,{0} tovary na pridanie do vozíka.
+Language,Jazyk
+NCRCorp,NCR Corp
+No,Nie
+OK,OK
+Or,alebo
+OtherPayment,Iný druh platby
+OtherPaymentMethod,Iný druh platby
+OwnBag,Vlastná taška
+Paid,Zaplatené:{0}
+PayAnotherWay,Platba iným spôsobom
+PointsEarned,Získané body
+PrintReceipt,Vytlačiť účtenku
+Proceed,Pokračovať
+Remove,Odstrániť
+RemovedItem,Tovar som odstránil/a
+RestrictedItem,Tovar s obmedzením predaja
+ReturnToScan,Späť
+ScanAndBag,"Pre začiatok načítajte, vyhľadajte alebo zadajte kód tovaru."
+ScanCoupon,Načítajte kupóny
+ScanGiftCard,Načítajte darčekovú kartu
+ScanNextItem,Načítajte ďalší tovar.
+ScanVoucher,Načítať poukážky
+SearchResultsFor,Hľadať výsledky pre „{0}“
+SearchWatermark,Zadajte názov alebo kód tovaru
+SearchItemNameWatermark,Enter Item Name
+SearchKeyInItem,Vyhľadajte alebo zadajte tovar.
+SelectCashBack,Zvoľte sumu pre vyplatenie v hotovosti.
+SelectLanguage,Zvoľte jazyk
+SelectPaymentType,Zvoľte spôsob platby
+SellBags,"Koľko plastových tašiek ste použili?  Zadajte 0, ak ste nepoužili žiadnu."
+SignNeeded,Je potrebný podpis
+SignSignature,Podpíšte sa na podpisovej ploche.
+SkipBagging,Nebaliť.
+Space,Medzerník
+StartScanning,Spustiť načítanie
+StoreLogin,Prihlásenie obsluhy
+TakeCash,Zoberte si vrátenú hotovosť
+TakeChange,Vezmite drobné
+TakeReceipt,Vezmite si účtenku
+Tax,DPH
+TimeRestrictedItem,Tovar s časovým obmedzením
+Total,Súčet
+TouchCancel,Stlačením Zrušiť na klávesnici PIN zrušíte platbu.
+TryAgain,Skúsiť znova
+UnexpectedDecreaseMessage,Vráťte tovar do baliaceho priestoru.
+UnexpectedIncreaseMessage,Odstráňte tovar z baliaceho priestoru.
+UsePinpad,Použite klávesnicu PIN
+VoidItem,"Načítajte neželaný tovar alebo ťuknite na ""Odstrániť"" z účtenky“."
+Volume,Hlasitosť
+Yes,Áno
+ItemNumberAmount,NOI :  
+WeightExpected,WE :  
+WeightObserved,WO :  
+UnknownPriceMessage,Cena tovaru je neznáma.\nOdložte tovar nabok a \n\nOdložte tovar nabok a pokračujte.
+SetAllItemsAsideMessage,Celý nákup zrušený.\n\nDajte všetok tovar nabok.
+ConfirmAbortMessage,Naozaj chcete vyprázdniť vozík? Transakcia sa zruší.
+NoKeep,"Nie, ponechať."
+NoReturn,"Nie, vrátiť do transakcie."
+YesEmpty,"Áno, vyprázniť vozík a ukončiť transakciu."
+YesRemove,"Áno, odstrániť."
+HostOfflineMessage,Pokladňa je offline a systém sa pokúša znova pripojiť.
+LaneClosedMessage,Pokladňa zatvorená
+LoadingText,Načítanie
+VerifyBagsMessage,"Počkajte, prosím, na obsluhu.Systém nemohol skontrolovať tašky. Ak ste do baliaceho priestoru náhodou položili niečo iné než tašky, odstráňte to, prosím."
+HelpOnWay,Obsluha je na ceste.Pokračujte v nákupe.
+OwnBagMessage,Položte svoje tašky na váhu.
+UseOwnBag,Mám vlastnú tašku
+AttendantMode,Režim obsluhy
+AttendantTrainingMode,Režim obsluhy a školiaci režim
+TrainingMode,Školiaci režim
+ScaleBroken,"Odstráňte tovar z váhy a stlačte tlačidlo \n"">0<"" na čítačke."
+Refunded,Vrátené:
+EnterIDMessage,"Zadajte kód užívateľa a stlačte tlačidlo ""Enter""."
+EnterIDText,Zadajte ID
+EnterPasswordMessage,"Zadajte heslo a stlačte tlačidlo ""Enter""."
+EnterPasswordText,Zadajte heslo
+VisualVerify,Vizuálna kontrola
+SingleItemAddedFormat,{0} tovar na pridanie do vozíka.
+Approved,Schválené
+VoidItemBeforeCouponMessage,"Tovar sa nedá stornovať, kým nie je stornovaný jeho kupón. Najprv stornujte kupón tovaru."
+VerifyBags,Obsluha skontroluje vaše tašky.
+CancelItems,Zrušiť tovar
+EnterQuantityTitle,Zadajte množstvo
+SecUnExpectedIncreaseTitle,Upozornenie – baliaci priestor
+WeightMismatchTitle,Je potrebná pomoc
+AssistanceNeededTitle,Je potrebná pomoc
+CheckBasketTitle,Skontrolujte košík
+ConfirmDebitAmountTitle,Potvrďte sumu
+DropoffCouponsTitle,Odovzdajte kupóny.
+InsufficientBalanceTitle,Poukážka nestačí
+OperatorPasswordStateInvalidPasswordWithFPTitle,Zlyhanie prihlásenia odtlačkom
+PurchaseCrateTitle,Nákup celého balenia
+RestrictedItemTitle,Tovar s obmedzením predaja
+SecBagAreaBackupTitle,Nahromadený tovar
+SignChargeTitle,Podpíšte účtenku
+TakeCardTitle,Vyberte kartu
+ContinueTitle,Chcete pokračovať?
+ApprovalNeededTitle,Je potrebné schválenie
+IncorrectLoginTitle,Nesprávny počet
+RecalledItemTitle,Tovar bol stiahnutý z obehu
+RemovedItemTitle,Upozornenie – baliaci priestor
+SetAllItemsAsideTitle,Dajte tovar nabok
+TakeLoyaltyCardTitle,Zoberte vernostnú kartu
+UnknownPriceTitle,Neznáma cena
+ConfirmEBTAmountTitle,Potvrďte sumu
+DisconnectedTitle,Odpojené
+ShuttingDown,Vypína sa
+NoneText,Nie je
+SMText,Režim zamestnanca
+SMLogInReceiptText,Prihlásený do režimu zamestnanca
+SMLogOutReceiptText,Odhlásený z režimu zamestnanca
+WLDBOffLineText,Databáza hmotnosti: off-line
+OperatorIDText,Kód obsluhy:  
+SignOnButtonText,Prihlásit
+SignOffButtonText,Odhlásit
+AlertText,Upozornenia:
+SuspendInProgressText,Beží pozastavovanie
+SuspendLeadthru1,Užívatel si vyžiadal pozastavenie aktuálnej transakcie. \nPotvrdte túto požiadavku alebo ju zrušte.
+SuspendLeadthru2,"Prerušili ste aktuálnu transakciu. Potvrdte túto požiadavku. Ak chcete pokyn zrušit, stlacte tlacidlo ""Spät"" a zrušte z terminálu samoobslužnej pokladne NCR."
+ReceiptText,Úctenka:
+SuspendReasonText1,Pozastavenie: Dôvod neurcený
+CancelSuspendButtonText,Zrušit pozasta-venie
+ConfirmSuspendNowButtonText,Potvrdit pozastavenie \nTeraz
+ConfirmAllowSuspendButtonText,Potvrdit \npozastavenie
+ConfirmSuspendRequestButtonText,Potvrdit požiadavku \nna pozastavenie
+CancelSuspendNowButtonText,Zrušit pozastavenie \nTeraz
+GoBackButtonText,Spät
+CancelSuspendRequestButtonText,Zrušit požiadavku \nna pozastavenie
+CouponText,Kupóny:
+SuspendReasonText2,Pozastavenie: dôvod – kupóny
+CouponReceiptText,"%d kupóny, spolu $%.2f"
+SuspendNowButtonText,Teraz pozastavit
+RequestSuspendButtonText,Vyžiadat pozastavenie
+NotConnectedText,Nepripojené.
+ConnectingText,Pripájanie... Cakajte
+ApprovalNeededText,Je potrebné schválenie:
+SuspendReasonText3,Pozastavenie: dôvod – iný
+ClearRequestButtonText,Vymazat požiadavku
+ApproveButtonText,Schválit
+RestrictedItemText,Limitovaný tovar:
+SuspendReasonText4,Pozastavenie: dôvod – obmedzenie
+SecurityLogText,Protokol alarmov:
+SuspendReasonText5,Pozastavenie: dôvod – alarm
+SignatureText,Podpis:
+SignatureAndNameText,Podpis: %s
+ConnectingLeadthru,Pripájanie k samoobslužnej pokladni NCR... Cakajte
+EnterIDLeadthru,Zadajte prihlasovacie meno na klávesnici dolu:
+EnterPasswordLeadthru,Zadajte heslo na klávesnici dolu:
+LoggingInLeadthru,Prihlasovanie... Cakajte
+ApproveSecurityButtonText,Schválit \nalarm
+ApprovalNeededButtonText,Je potrebné schválenie.
+VerifySignatureButtonText,Overit \npodpis
+AllowSuspendButtonText,Povolit pozastavenie
+MainButtonText,Hlavné
+SuspendTransactionButtonText,Pozastavit transakciu
+ApproveAndCollectButtonText,Schválit a zobrat
+ClearApprovalsButtonText,Vymazat schválenia
+BirthDateOver30ButtonText,Vek nad 30
+SignAgainButtonText,Znova podpísat
+BackSpaceButtonText,Backspace
+EnterButtonText,Enter
+LaneNumberText,Pokladna: %d
+RAPTitle,Samoobslužná pokladna NCR\nStanica dialkového schválenia
+CancelSuspendText,Zrušit pozastavenie
+OtherPaymentSelectedText,Zvolená iná platba
+CouponCollectionText,Zber kupónov
+PendingSuspendText,Caká sa na pozastavenie
+SignatureApprovalText,Schválenie podpisu
+LaneText,Pokladna c.
+VideoButtonText,Video
+ClearButtonText,Vymazat
+QuantityButtonText,Množstvo
+FeesAndCustomerAgreementsTitle,Poplatky a zmluvy so zákazníkmi:
+FeesButtonText,Poplatky
+CustomerAgreementButtonText,Zmluva so zákazníkom
+FeesAndCustomerAgreementsLeadthru,Poplatky a zmluvy so zákazníkmi
+TransactionSuspendedText,Transakcia je pozastavená
+POSMessageText,Hlásenie POS:
+ConnectingWaitingText,"Cakajte, pripájanie k samoobslužnej pokladni NCR..."
+DateOfBirthNotNeededButtonText,Dátum netreba
+AssistModeButtonText,Režim pomoci
+ClearSecurityButtonText,Vymazat alarm
+VisualApproveButtonText,Prezriet a schválit
+CheckAgeTitle,Overit vek zákazníka
+CouponLimitExceededTitle,Prekrocený limit pre kupóny
+VerifyItemAndPriceTitle,Skontrolovat tovar a cenu
+UnknownItemTitle,Neznámy tovar odložený nabok
+ItemNotForSaleTitle,Tovar nie je na predaj
+ItemQuantityExceededTitle,Prekrocené množstvo tovaru
+TimeRestrictedItemTitle,Tovar s casovým obmedzením
+CheckAgeLeadthru,"Zadajte dátum narodenia {0} a stlačte ""Enter""."
+InvalidBirthDateFormatLeadthru,Formát zadaného dátumu je neplatný \nZadajte znova vo formáte %s.
+CouponLimitExceededLeadthru,"Stlacte tlacidlo ""Schválit"", aby mohol zákazník odovzdat kupón v pokladni, alebo stlacte ""Schválit a zobrat"" a zoberte ho od zákazníka."
+VisualApproveLeadthru,"Stlacte tlacidlo ""Prezriet a schválit"" alebo ""Režim pomoci"" a upravte transakciu."
+UnknownItemLeadthru,"Zoberte tovar pri pokladni a stlacte tlacidlo ""Vymazat alarm"" alebo stlacte ""Režim pomoci"" pre dokoncenie transakcie."
+ItemNotForSaleLeadthru,"Zoberte tovar pri pokladni a stlacte tlacidlo ""Vymazat alarm"". "
+OffLineLaneButtonText,Offline
+ExitText,Ukoncit
+EnterDataLaneButtonText,Zadat dáta
+AgeCheckLaneButtonText,Kontrola veku
+CouponLaneButtonText,Kupón
+VoidLaneButtonText,Storno
+VerifyItemLaneButtonText,Skontrolovat tovar
+NotFoundLaneButtonText,Nenájdené
+NoSaleLaneButtonText,Nepredajné
+QuantityLaneButtonText,Množstvo
+HelpLaneButtonText,Pomocník
+NoInterventionLeadthru,Teraz netreba žiadny zásah.
+OffLineLeadthru,Pokladna je teraz offline a systém sa pokúša automaticky znova pripojit.
+CancelRequestButtonText,Zrušit požiadavku
+HelpRequestTitle,Žiadost o pomoc
+SecurityLaneButtonText,Zabezpecené
+VoidLeadthru,"Zoberte stornovaný tovar a stlacte tlacidlo ""Schválit storno""."
+ApproveVoidButtonText,Schválit storno
+SecurityLeadthru,"Skontrolujte zákazníkov nákup (tovar, platba) a stlačte „Vymazať alarm“."
+SecurityViolationText,Narušenie bezpecnosti
+OtherPaymentText,Zvolená iná platba
+SuspendTransactionLeadthru,"Stlacte tlacidlo ""Pozastavit transakciu"" alebo ""Režim pomoci"" a prijmite platbu."
+EASText,Bezpecnostná visacka stále aktívna
+DeactivateLeadthru,"Deaktivujte tovar alebo snímte visacku a stlacte tlacidlo ""Vymazat alarm""."
+CompareSignatureTitle,Porovnat podpisy
+CompareSignatureLeadthru,"Porovnajte podpisy a stlacte tlacidlo ""Schválit"" alebo ""Znova podpísat""."
+EnterPriceLeadthru,"Zadajte cenu tovaru a stlacte tlacidlo ""Enter""."
+UtilityButtonText,Nástroje
+ReturnToMainButtonText,Návrat do hlavného menu
+GetDiagFilesButtonText,Nacítat diagnostické súbory
+CouponApprovalLeadthru,"Vezmite kupóny od zákazníka na schvalovacej stanici a stlacte ""Schválit""."
+RebootSystemButtonText,Reštartovat celý systém
+ShutDownSystemButtonText,Vypnút celý systém
+LaneStatusTitle,Stav pokladne
+LaneStatusLeadthru,Zvolte funkciu.
+AgeRestrictedText,"Tovar s vekovým obmedzením, %2d rokov"
+BirthdateEnterText,"Zadaný dátum narodenia:%2d/%2d/%4d,%d rokov"
+HelpRequestLeadthru,"Ked ste pomohli zákazníkovi, stlacte tlacidlo ""Zrušit požiadavku""."
+TotalText,Súcet:
+ItemText,Tovar:
+MultimediaTrainingText,Multimediálne školenie
+VolumeControlButtonText,Hlasitost
+SecurityViolationNumText,Narušenie bezpecnosti:
+ItemPurchasedText,Tovar zakúpený:
+EnterPriceTitle,Zadanie ceny
+CancelTransactionGenericTitle,Zrušit transakciu
+CancelTransactionGenericLeadthru,"Ak chcete transakciu zrušit, stlacte ""Áno"", ak v nej chcete pokracovat, stlacte ""Nie""."
+YesButtonText,Áno
+NoButtonText,Nie
+ConfirmSuspendTitle,Pozastavenie:
+ConfirmSuspendLeadthru,Potvrdte pozastavenie.
+ConfirmSuspendButtonText,Potvrdit pozasta-venie
+IncorrectItemWeightTitle,Nesprávna hmotnost na bezpecnostnej váhe.
+IncorrectItemWeightLeadthru,"Zoberte tovar a stlacte ""Vymazat alarm"" alebo ""Schválit a aktualizovat hmotnost""."
+ApproveUpdateButtonText,Schválit a aktualizovat hmotnost
+UnexpectedIncreaseTitle,Neocakávaný tovar na bezpecnostnej váhe.
+UnexpectedIncreaseLeadthru,"Chodte k pokladni, zoberte nadbytocný tovar a stlacte ""Vymazat alarm""."
+SkipBaggingBtnThresholdLeadthru,"Skontrolujte tovar pri pokladni a stlacte tlacidlo ""Vymazat alarm""."
+NewWeightItemTitle,Chýba záznam o hmotnosti tovaru.
+NewWeightItemLeadthru,"Skontrolujte hmotnost tovaru a stlacte ""Schválit a aktualizovat hmotnost"" alebo ""Schválit, neaktualizovat""."
+ApproveNoUpdateButtonText,"Schválit, neaktualizovat."
+BagItemTimerExpiredTitle,Ocakávaná hmotnost na bezpecnostnej váhe.
+TakeChangeTimerExpiredTitle,Vezmite drobné
+TakeChangeTimerExpiredBottomCaption,Limit uplynul
+PickingUpItemsTimerExpiredTitle,Tovar nebol vrátený do baliaceho priestoru.
+DeviceFailureTitle,Porucha zariadenia
+DeviceFailureLeadthru,Chodte k pokladni a skontrolujte zariadenie.
+WLDBFailureTitle,WLDB nekomunikuje správne.
+WLDBFailureLeadthru,Skontrolujte komunikáciu.
+UnexpectedDecreaseTitle,Tovar bol odstránený z baliaceho priestoru.
+ClosedLaneTitle,Chodte k pokladni a otvorte ju prihlásením sa do režimu zamestnanca.
+ClosedLaneLeadthru,Pokladna zatvorená
+BagAreaBackupTitle,Na páse je nahromadený tovar
+BagAreaBackupLeadthru,Odstránte nahromadený tovar z pása.
+MinimumAgeText,rokov minimálne.
+SafetyCoverOpenLeadthru,Zoberte všetok tovar z pása a zatvorte bezpecnostný kryt.
+VerifySignatureLeadthru,Porovnajte zákazníkov podpis s podpisom na karte.
+AssistedTenderTitle,Platba pri obsluhe
+AssistedTenderLeadthru,Na prijatie šeku od zákazníka použite režim pomoci.
+AssistedTenderHHLeadthru,Prijmite platbu na stanici obsluhy.
+AssistedEndorsementLeadthru,"Je potrebné schválenie. Pockajte, prosím, na obsluhu."
+StartTransactionButtonText,Zacat transakciu
+StartTransactionTitle,Funkcie vykonávané obsluhou
+StartTransactionLeadthru,Zvolte požadovanú funkciu.
+StartTransactionAMButtonText,Zacat s pomocou
+ItemsForgottenTitle,Na bezpecnostnej váhe\nzostáva zátaž.
+InsertCouponTimerExpiredTitle,Vložit kupón
+CollectGiftCardTitle,Zobrat darcekovú kartu
+HostOfflineLeadthru,Pokladna je offline a systém sa pokúša znova pripojit.
+SpaceButtonText,Medzerník
+LaneReceiptItemType1,%s\t%s
+LaneReceiptItemType2,%s
+LaneReceiptItemType3,%s\t%s\tpocet %s @ %s/každý\t%s
+LaneReceiptItemType4,%s\t%s\tpocet %s @ %s/%s\t%s
+LaneReceiptItemType5,%s\t%s\t%ss @ %s %s/%s\t%s
+LaneReceiptItemType6,%s\t%s\t%ss @ %s/%s\t%s
+CloseLaneButtonText,Zatvorit pokladnu
+ReportingButtonText,Zostavy
+KeyInCodeTitle,Zadajte kód
+KeyInCodeLeadthru,"Zadajte kód tovaru a stlacte tlacidlo ""OK""."
+VoidItemButtonText,Stornovat tovar
+ChangePriceButtonText,Zmena ceny
+ChangeQuantityButtonText,Zmena množstva
+ReturnToShoppingButtonText,Návrat do nákupného režimu
+BasicAssistModeTitle,Funkcie pomoci
+BasicAssistModeLeadthru,Nacítajte tovar alebo zvolte funkciu.
+ChangePriceTitle,Zmenit cenu
+KeyInPriceLeadthru,Zadajte cenu pre: %d %s
+VoidAllButtonText,Stornovat všetko
+VoidItemTitle,Stornovat položky
+VoidItemLeadthru,"Nacítajte tovar alebo sa nan presunte v úctenke a stlacte ""Stornovať tovar"" alebo ""Stornovat všetko""."
+ChangeQuantityTitle,Zmenit množstvo
+KeyInQuantityLeadthru,Zadajte množstvo pre: %s
+FullAssistButtonText,Plná pomoc
+CloseButtonText,Zatvorit
+UpdateItemLeadthru,"Presunte sa na tovar v úctenke a stlacte ""Enter""."
+OKButtonText,OK
+CouponNoMatchLeadthru,Kupón nezodpovedá žiadnemu tovaru v úctenke. Tento kupón sa nedá akceptovat.
+CouponTooHighLeadthru,"Suma, ktorú ste zadali za tento kupón, je príliš vysoká. Tento systém nemôže akceptovat tento kupón."
+EnterCouponValueLeadthru,"Zadajte hodnotu kupónu v centoch a stlacte ""Enter""."
+ItemQuantityExceededLeadthru,"Prekrocili ste množstvo povolené pre tento tovar. Odložte ho, prosím, nabok a pokracujte."
+ProcessingLeadthru,Spracúva sa... Cakajte
+VoidNoMatchLeadthru,Nacítaný tovar sa nedá nájst. Nebol ešte zakúpený alebo už bol zrušený.
+ConfirmAbortLeadthru,Chcete zastavit úctovanie a zrušit celý nákup?
+ContinueTransLeadthru,Chcete pokracovat v nákupe?
+ConfirmQuantityTitle,Potvrdit množstvo
+ConfirmVoidTitle,Potvrdit zrušenie
+CouponNoMatchTitle,Nehodiaci sa kupón
+CouponTooHighTitle,Kupón má príliš vysokú hodnotu
+CrateableItemTitle,Nákup celého balenia
+EnterCouponValueTitle,Zadajte hodnotu kupónu
+EnterQuantityLeadthru,"Zadajte množstvo a stlacte tlacidlo ""Enter""."
+EnterWeightTitle,Váženie tovaru
+EnterWeightLeadthru,Chodte k pokladni a položte tovar na váhu.
+AMItemQuantityExceededTitle,Limit množstva
+ProcessingTitle,Spracúvanie...
+SelectContainerTitle,Zvolit balenie
+SelectContainerLeadthru,"Zvolte balenie zo zoznamu a stlacte ""Enter""."
+VoidNoMatchTitle,Tovar sa nedá zrušit
+ConfirmAbortTitle,Zrušit všetok tovar.
+ContinueTransTitle,Chcete pokracovat?
+ScaleBrokenTitle,Vynulovat váhu
+ScaleBrokenLeadthru,"Odstránte tovar z váhy a stlacte tlacidlo ""Vynulovat váhu"" na cítacke."
+UpdateNotAllowedTitle,Tovar sa nedá aktualizovat
+UpdateNotAllowedLeadthru,Zmena množstva pri váženom tovare nie je povolená.
+SmEnterBirthdateTitle,Limitovaný tovar
+SmEnterBirthdateLeadthru,Zadajte dátum narodenia zákazníka
+SmVisualItemsTitle,Vizuálna kontrola
+SmVisualItemsLeadthru,Schválit tovar vyžadujúci vizuálnu kontrolu
+SmCouponItemsTitle,Schválit použité kupóny
+SmCouponItemsLeadthru,Skontrolovat použité kupóny
+SmRestrictedItemsTitle,Limitovaný tovar
+SmRestrictedItemsLeadthru,Zvolte požadovanú funkciu.
+KeyInBirthDateButtonText,Zadajte dátum
+KeyInCodeButtonText,Zadajte \nkód
+SmRunReportsTitle,Obsah zostavy
+PrintReportButtonText,Tlac zostavy
+LaneReceiptItemType7,    %s
+AM_RestrictedNotAllowedTitle,Tovar s obmedzením predaja
+AM_RestrictedNotAllowedLeadthru,"Tovar s obmedzením predaja bol zrušený – nedosiahnutý vekový limit. \n\nProsím, odložte tovar nabok."
+TransactionCancelTitle,Zrušenie transakcie
+TransactionCancelLeadThru,Transakcia je zrušená. Odstránte tovar \nz pultu.
+OutOfSyncNeedAssistTitle,POMOC
+OutOfSyncNeedAssistLeadthru,Server predajne je nesynchronizovaný. Prejdite do režimu pomoci a zasynchronizujte ho.
+OutOfSyncStopTitle,REŠTART
+OutOfSyncStopLeadthru,Server predajne je vypadnutý alebo nesynchronizovaný. Vypnite terminál vypínacom.
+MultiPackItemTitle,Kontrola viackusového balenia
+MultiPackItemLeadthru,"Ak je tovar vo viackusovom balení, stlacte ""Režim pomoci"" a zrušte ho. Potom nacítajte ciarový kód viackusového balenia."
+CancelActionButtonText,Zrušit akciu
+EnterIDFpLeadthru,"Zadajte kód užívatela a stlacte ""Enter"" alebo položte prst na cítacku odtlackov, aby ste sa prihlásili."
+ReEnterIDFpLeadthru,Neplatné prihlásenie. Znova sa prihláste na klávesnici alebo odtlackom prsta.
+HH_SuspendLeadthru1,Chcete pozastavit aktuálnu transakciu? Potvrdte alebo zrušte.
+HH_SuspendLeadthru2,"Aktuálna transakcia he pozastavená. Potvrdte. Ak chcete zrušit, stlacte tlacidlo ""Spät"" a zrušte."
+HH_ReEnterIDLeadthru,Nesprávne meno alebo heslo. Znova zadajte na klávesnici.
+HH_CheckAgeLeadthru,"Zadajte dátum narodenia %s a stlačte ""Enter""."
+HH_CouponLimitExceededLeadthru,"""Schválit"" – kupóny budú odovzdané v pokladni alebo ""Schválit a zobrat"" – obsluha ich zoberie od zákazníka."
+HH_VisualApproveLeadthru,"""Prezriet a schválit"" alebo ""Režim pomoci"" pre úpravu transakcie."
+HH_VisualApproveLeadthru2,"""Visual Approve"", or ""Assist Mode"" at Lane to modify."
+HH_UnknownItemLeadthru,"Zoberte tovar a dokoncite stlacením ""Vymazat alarm"" alebo ""Režim pomoci""."
+HH_UnknownItemLeadthru2,"Collect item, ""Clear Security"", or use ""Assist Mode"" at Lane to complete."
+HH_ItemNotForSaleLeadthru,"Zoberte tovar pri pokladni a stlacte tlacidlo ""Vymazat alarm""."
+HH_NoInterventionLeadthru,Netreba žiadny zásah.
+HH_OffLineLeadthru,Pokladna je offline. Systém sa pokúša znova pripojit.
+HH_InvalidBirthDateFormatLeadthru,Formát dátumu je neplatný \nZadajte znova vo formáte %s.
+HH_VoidLeadthru,"Zoberte stornovaný tovar a stlacte tlacidlo ""Schválit storno""."
+HH_SuspendTransactionLeadthru,"Pre pozastavenie transakcie stlacte tlacidlo ""Pozastavit trans""."
+HH_DeactivateLeadthru,"Deaktivujte tovar alebo snímte visacku a stlacte tlacidlo ""Vymazat alarm""."
+HH_CompareSignatureLeadthru,"Porovnajte podpisy a stlacte tlacidlo ""Schválit"" alebo ""Znova podpísat""."
+HH_EnterPriceLeadthru,"Zadajte cenu tovaru a stlacte tlacidlo ""Enter""."
+HH_CouponApprovalLeadthru,"Prijmite kupóny od zákazníka a stlacte tlacidlo ""Schválit""."
+HH_HelpRequestLeadthru,"Ked ste pomohli zákazníkovi, stlacte tlacidlo ""Zrušit požiadavku""."
+HH_CancelTransactionGenericLeadthru,Áno pre zrušenie transakcie alebo Nie pre pokracovanie.
+HH_IncorrectItemWeightLeadthru,"Zoberte tovar a stlacte ""Vymazat alarm"" alebo ""Schválit a aktualizovat hmotnost""."
+HH_UnexpectedIncreaseLeadthru,"Zoberte nadbytocný tovar pri pokladni a stlacte tlacidlo ""Vymazat alarm""."
+HH_SkipBaggingBtnThresholdLeadthru,"Skontrolujte tovar pri pokladni a stlacte tlacidlo ""Vymazat alarm""."
+HH_NewWeightItemLeadthru,"Skontrolujte hmotnost a stlacte ""Schválit a aktualizovat hmotnost"" alebo ""Schválit, neaktualizovat""."
+HH_SafetyCoverOpenLeadthru,Odstránte všetok tovar z pása. Zatvorte bezpecnostný kryt.
+HH_VerifySignatureLeadthru,Porovnajte zákazníkov podpis s podpisom na karte.
+HH_AssistedEndorsementLeadthru,Je potrebné schválenie. Pockajte na obsluhu.
+HH_HostOfflineLeadthru,Pokladna je offline. Systém sa pokúša znova pripojit.
+HH_KeyInCodeLeadthru,"Zadajte kód tovaru a stlacte tlacidlo ""Enter""."
+HH_VoidItemLeadthru,"Nacítajte tovar alebo sa nan presunte v úctenke. Stlacte ""Stornovat tovar"" alebo ""Stornovat všetko""."
+HH_UpdateItemLeadthru,"Presunte sa na tovar v úctenke a stlacte ""Enter""."
+HH_CouponNoMatchLeadthru,Kupón nezodpovedá žiadnemu tovaru v úctenke. Kupón nebol akceptovaný.
+HH_CouponTooHighLeadthru,Hodnota kupónu je príliš vysoká. Systém ho nemôže akceptovat.
+HH_ItemQuantityExceededLeadthru,Prekrocené povolené množstvo. \n\nOdložte tovar nabok a pokracujte.
+HH_VoidNoMatchLeadthru,Nacítaný tovar sa nedá nájst. Tovar nebol zakúpený alebo bol zrušený.
+HH_ConfirmAbortLeadthru,Chcete zastavit úctovanie a zrušit celý nákup?
+HH_ContinueTransLeadthru,Chcete pokracovat v nákupe?
+HH_EnterQuantityLeadthru,"Zadajte množstvo a stlacte tlacidlo ""Enter""."
+HH_SelectContainerLeadthru,"Zvolte balenie zo zoznamu a stlacte ""Enter""."
+HH_ScaleBrokenLeadthru,"Odstránte tovar z váhy a stlacte tlacidlo ""Vynulovat váhu"" na cítacke."
+HH_UpdateNotAllowedLeadthru,Zmena množstva nie je povolená.
+HH_AM_RestrictedNotAllowedLeadthru,Tovar s obmedzením predaja zrušený – nedosiahnutý vekový limit. Dajte tovar nabok.
+HH_OutOfSyncNeedAssistLeadthru,"POS je nesynchronizovaný, použite ""Režim pomoci"" na zosynchronizovanie."
+HH_OutOfSyncStopLeadthru,Server predajne je vypadnutý alebo nesynchronizovaný. Vypnite terminál vypínacom.
+HH_MultiPackItemLeadthru,"Ak ide o viackusové balenie, stlacte ""Režim pomoci"", stornujte, a potom nacítajte ciarový kód viackusového balenia."
+HH_ReturnToShoppingButtonText,Spät
+DoneButtonText,Hotovo
+ConfirmSuspendFromLaneStatusLeadthruText,Potvrdte alebo zrušte pozastavenie.
+HH_SuspendTransactionButtonText,Pozastavenie trans
+HH_TransactionCancelTitle,Zrušenie transakcie
+HH_TransactionCancelLeadThru,Transakcia je zrušená. Odstránte tovar z pultu.
+ShiftButtonText,Shift
+FixLaterButtonText,Vyriešit neskôr
+HopperLaneButtonText,Náhrada mincí
+HopperLeadThru,"{0}Chodte k pokladni a doplnte mince, odstránte zaseknutie alebo stlacením ""Vyriešit neskôr"" pokracujte."
+TransactionCountText,Pocet:
+SecurityDisableText,Alarm zrušený
+SecurityDisableButtonOn,Zapnút
+SecurityDisableButtonOff,Vypnút
+SecurityDisableStatusTextOn,Váha tašiek je zapnutá
+SecurityDisableStatusTextOff,Váha tašiek je vypnutá
+SuspendDeclinedLaneButtonText,Pozastavenie zamietnuté
+ConfirmSuspendDeclinedLeadthru,Potvrdte alebo zrušte zamietnutie pozastavenia.
+ConfirmSuspendDeclinedButtonText,Potvrdte zamietnutie
+CancelSuspendDeclinedButtonText,Spät
+TMTransLeadthru,"Pokladna je v školiacom režime,\nchcete pokracovat v transakcii?"
+HH_TMTransLeadthru,"Pokladna je v školiacom režime,\nchcete pokracovat v transakcii?"
+TMTransLaneButtonText,Školenie Trx
+DateFormat1,(mmddrrrr)
+DateFormat2,(mmddrr)
+DateFormat3,(ddmmrrrr)
+DateFormat4,(ddmmrr)
+DateFormat5,(rrrrmmdd)
+DateFormat6,(rrmmdd)
+GoBackCouponButtonText,Spät
+ApproveCouponButtonText,Schválit kupón
+CouponExceededLimitLeadthru,"Stlacením tlacidla ""Schválit kupón"" kupón akceptujte alebo chodte do režimu pomoci a zrušte ho."
+CouponExceededLimitFinalizationLeadthru,"Transakcia bola dokoncená s kupónom, ktorý prekrocil limit predajne na kupóny."
+ClearSecurityFinalizationButtonText,Vymazat alarm
+ExpandReceiptButtonText,Rozvinúť účtenku
+CollapseReceiptButtonText,Zložiť účtenku
+InvalidBarcodeLeadThru,"Zoberte tovar v pokladni a stlačením tlačidla ""Schváliť"" pokračujte v transakcii."
+InvalidBarcodeLaneButtonText,Skontrolovať tovar
+HH_InvalidBarcodeLeadThru,"Zoberte tovar, stlačte ""Schváliť"" a pokračujte v transakcii."
+GoToLaneOrHHRapLeadthru, Please go to Lane or HHRap for approval
+GoToLaneOrRapLeadthru, Please go to Lane or Rap for approval
+GoToLaneLeadthru, Choďte k pokladni pre schválenie
+DisableRapApprovalText, Zrušiť schválenie RAP
+DisableHHRapApprovalText, Zrušiť schválenie ručného RAP
+UpdateItemButtonText,Aktualizujte tovar
+SuspendConfirmationTitle,Potvrdenie pozastavenia
+DoNotApproveButtonText,Neschváliť
+SmVoidAndRemoveItemLeadthru,Vyberte zrušený tovar z baliaceho priestoru.
+RestrictedItemsNotApprovedTitle,Limitovaný tovar – neschválený
+HH_AssistAtLaneLeadthru,Choďte k pokladni zrušiť tovar.
+XM_Acceptor,Prijímač
+XM_CashStatus,Stav hotovosti
+XM_CashStatusLeadthru,Zvoľte požadovanú funkciu.
+XM_CoinAcceptor,Prijímač mincí
+XM_CoinOverflow,Nadbytok mincí
+XM_CoinOverflowText,Nadbytok
+XM_CoinRecycler,Recyklátor mincí
+XM_Coins,Mince
+XM_NoteOverflow,Nadbytok bankoviek
+XM_NoteOverflowText,Nadbytok
+XM_NoteRecycler,Recyklátor bankoviek
+XM_Notes,Bankovky
+XM_PurgeOperationText,Vyprázdňovanie:
+XM_TerminalNumber,Číslo terminálu
+XM_TotalCount,Celkový počet:
+XM_TotalValue,Celková hodnota:
+XM_CoinsSubtotal,Medzisúčet mince:
+XM_NotesSubtotal,Medzisúčet bankovky:
+XM_GrandTotal,Celkový súčet:
+XM_PurgeInstruction, Odmietnutie: Zistené odmietnuté bankovky. Choďte k pokladni a skontrolujte zariadenie.
+XM_RAP_NegativeAlert,Zistený záporný počet. Choďte k pokladni a skontrolujte zariadenie.
+XM_AreYouSure,Naozaj chcete vykonať akcie uvedené nižšie?
+XM_Attendant,Obsluha
+XM_Backspace,Backspace
+XM_BillAcceptor,Prijímač bankoviek
+XM_BillDispenser,Vydávač bankoviek
+XM_Bins,Zásobníky
+XM_BothDispenseFailure,Nepodarilo sa vydať %s.\nMálo hotovosti alebo chyba vydávača.
+XM_CancelChanges,Zrušiť zmeny
+XM_CannotCompleteTransfer,Presun sa nedá dokončiť. V príručnej\npokladnici nie je dosť miesta.\nPred touto operáciou vyprázdnite príručnú pokladnicu.
+XM_CashManagement,Správa hotovosti
+XM_CashManagementReport,Zostava správy hotovosti
+XM_CashRemove,Vybrať hotov.
+XM_CashRemoveLeadthru,Zvoľte požadovanú funkciu.
+XM_CashReplenishLeadthru,Zvoľte požadovanú funkciu.
+XM_CashReplenishLeadthru1,Vložte mince alebo zvoľte požadovanú funkciu
+XM_CashReplenishLeadthru2,Vložte bankovky alebo zvoľte požadovanú funkciu
+XM_CashReplenishLeadthru3,"Po skončení stlačte ""Ukončiť"""
+XM_CashReplenishment,Vložiť hotovosť
+XM_ChangeInCount,Počet mincí
+XM_ChangeInValue,Hodnota mincí
+XM_Clear,Vymazať
+XM_ClearPrompt1,"Po skončení zvoľte inú funkciu alebo stlačte ""Ukončiť""."
+XM_ClearPrompt2,"Zvoľte inú funkciu alebo stlačte tlačidlo ""Ukončiť""."
+XM_CoinAcceptorOffline,Prijímač neodpovedá.\n\nVypnite a reštartujte terminál.
+XM_CoinDispenseFailure,Nepodarilo sa vydať %s.\nMálo mincí alebo chyba vydávača.
+XM_CoinDispenser,Vydávač mincí
+XM_CoinManagement,Správa mincí
+XM_ConfirmAction,Potvrdiť činnosti
+XM_ConfirmCoinDispense,* Vydať mince\nSuma na vydanie: %s\nPočet na vydanie: %d
+XM_ConfirmEmptyCoinAcceptor,* Vynulovať stav (počty) prijímača mincí\nSuma na vybratie:%s
+XM_ConfirmEmptyCoinOverflow,* Vynulovať počty nadbytočných mincí\nSuma na vybratie: %s
+XM_ConfirmEmptyNoteAcceptor,* Vynulovať stav (počty) prijímača bankoviek\nSuma na vybratie:%s
+XM_ConfirmEmptyNoteOverflow,* Vynulovať stav (počty) príručnej pokladnice\nSuma na vybratie:%s
+XM_ConfirmFillLoaderCassette,Nastaviť počet bankoviek %s (%d)
+XM_ConfirmManualCoinEmpty,* Vynulovať počty mincí\nSuma na vybratie:%s\nPočet na vybratie: %d
+XM_ConfirmManualCoinFill,* Nastaviť počty mincí\nNová suma: %s\nNový počet: %d
+XM_ConfirmManualNoteEmpty,* Vynulovať počty bankoviek\nSuma na vybratie: %s\nPočet na vybratie: %d
+XM_ConfirmManualNoteFill,* Nastaviť počty bankoviek\nNová suma: %s\nNový počet: %d
+XM_ConfirmNoteDispense,* Vydať bankovky\nSuma na vydanie: %s\nPočet na vydanie: %d
+XM_ConfirmTransferNotesToOverflow,* Vložiť bankovky do príručnej pokladnice\nSuma na vloženie: %s\nPočet na vloženie: %d
+XM_Count,Počet
+XM_DispenseCupFull,"Výdajná miska na mince je plná. Odstráňte mince, aby sa dal dokončiť výdaj."
+XM_DispenseCupFullPreemptive,"Zoberte si mince\nAk je výdajná miska na mince plná, ihneď ju vyprázdnite. Výdaj sa až do vyprázdnenia misky pozastaví."
+XM_DispenseSensorBlock,Výdajná miska na mince je plná alebo je snímač pokazený. Vyberte mince alebo zavolajte servis.
+XM_DispenseText,Vydať
+XM_DispenseThreshold,Zadané číslo prekračuje počet dostupný na výdaj. Bol zadaný maximálny počet: %d
+XM_Empty,Prázdne
+XM_EmptyCashAcceptorLT,Vyberte bankovky z prijímača bankoviek
+XM_EmptyCashBoxLT,Vyberte bankovky z príručnej pokladnice
+XM_EmptyCoinAcceptor,Resetujte prijímač mincí
+XM_EmptyCoinAcceptorLT,Vyberte mince z prijímača mincí
+XM_EmptyCoinHopperLT,Vyberte mince zo zariadenia.
+XM_EmptyCoinOverflow,Resetujte nadbytok mincí
+XM_EmptyCoinOverflowLT,Vyberte mince zo zásobníka nadbytočných mincí
+XM_EmptyLoaderCassetteLT,Vyberte bankovky z kazety vkladača
+XM_EmptyNoteAcceptor,Resetujte prijímač bankoviek
+XM_EmptyNoteCassetteLT,Vyberte bankovky z kaziet na bankovky
+XM_EmptyNoteOverflow,Resetujte prír. pokl.
+XM_Enter,Enter
+XM_ExceededAmount,Hodnota prekračuje kapacitu. Maximálna hodnota je %s.
+XM_ExceededCapacity,Počet prekračuje kapacitu. Maximálny počet je %d. Počet %d bol automaticky zadaný.
+XM_Execute,Použiť zmeny
+XM_Exit,Ukončiť
+XM_FastLaneReport,Zostava systému NCR SelfServ Checkout
+XM_FillLoaderCassette,Nastavte počet bankoviek
+XM_GoBack,Späť
+XM_ID,Kód pokladníka
+XM_IDPrompt,"Zadajte kód a stlačte tlačidlo ""Enter""."
+XM_InvalidAmount,Hodnota zadaná pre %s nie je platná.\nZadajte znova.
+XM_KeyPadEnterCoinAmount,Na klávesnici zadajte sumu %s mincí.
+XM_KeyPadEnterCoinCount,Na klávesnici zadajte počet %s mincí.
+XM_KeyPadEnterNoteAmount,Na klávesnici zadajte sumu %s bankoviek.
+XM_KeyPadEnterNoteCount,Na klávesnici zadajte počet %s bankoviek.
+XM_KeyPadInstr,Zadajte počet na klávesnici
+XM_ManualBothFillAlert,Otvorte dvierka na pokladni a vložte bankovky do kaziet a mince do násypiek. Nedávajte ich do prijímačov.
+XM_ManualBothRecyclerFillAlert,Otvorte dvierka na pokladni a vložte bankovky do vkladača a mince do násypiek. Nedávajte peniaze do prijímačov.
+XM_ManualCoinDispenserEmpty,Resetujte počet mincí
+XM_ManualCoinDispenserFill,Nastavte počet mincí
+XM_ManualCoinFillAlert,Otvorte dvierka na pokladnici a vložte mince priamo do zariadenia. Nedávajte ich do prijímača mincí.
+XM_ManualEmptyAlert,Vyberte všetku hotovosť zo zariadenia.  
+XM_ManualFillAlert,اOtvorte dvierka na pokladni a vložte hotovosť priamo do zariadenia. Nedávajte peniaze do prijímačov.
+XM_ManualNoteDispenserEmpty,Resetujte počet bankoviek
+XM_ManualNoteDispenserFill,Nastavte počet bankoviek
+XM_ManualNoteFillAlert,Otvorte dvierka na pokladni a vložte bankovky priamo do kazety (kaziet). Nedávajte ich do prijímača bankoviek.
+XM_No,Nie
+XM_NoteDispenseFailure,Nepodarilo sa vydať %s.\nMálo bankoviek alebo chyba vydávača.
+XM_PW,Heslo pokladníka
+XM_PWPrompt,"Zadajte heslo a stlačte tlačidlo ""Enter""."
+XM_PendingText,Čaká sa na vybavenie
+XM_PleaseWait,Spracúvanie...\n\nČakajte.
+XM_Print,Vytlačiť stav hotovosti
+XM_PurgeCoinRecycler,Vyprázdnite recyklátor mincí
+XM_PurgeNoteRecycler,Vyprázdnite recyklátor bankoviek
+XM_ReEnter,Nesprávne číslo a heslo pokladníka.\nSkúste znova
+XM_ResetCoinsToBaseLevel,Vydať mince po zákl. úroveň
+XM_ResetNotesToBaseLevel,Presun. bank. po zákl. úroveň
+XM_SelectFunc1,Zvoľte funkciu systému
+XM_SelectFunc2,Zvoľte požadovanú funkciu.
+XM_StoreNumber,Číslo predajne:
+XM_TransferAllNotes,Presunúť všetky bank.
+XM_TransferNotesToOverflow,Presunúť bankovky do zásobníka nadbytočných bankoviek
+XM_Update,Aktualizovať
+XM_Yes,Áno
+XM_SequenceNumber,Poradové číslo
+XM_CardManagement,Správa kariet
+XM_TotalCoinsInserted,Spolu vložených
+XM_TotalNotesInserted,Spolu vložených
+XM_Value,Hodnota
+XM_TransferXCount,Vložiť počet (x)
+XM_TransferXAmount,Vložiť sumu (x)
+XM_TransfertoCashBoxLeadThruText,"Ak chcete vložiť %s bankoviek do príručnej pokladnice, stlačte ""Použiť zmeny"". Ak chcete odvolať všetky čakajúce zmeny, stlačte ""Zrušiť zmeny""."
+XM_LockScreen,Zamknúť obrazovku
+XM_SystemBusy,Systém je zaneprázdnený... Čakajte
+XM_AreYouSure_LockScreen,"Naozaj chcete zamknúť obrazovku?\nObrazovka sa nedá odomknúť, kým zariadenia nedokončia svoje úlohy."
+XM_DispenseFullPreemptive,"Zoberte si bankovky a mince\nBankovky sa vydávajú vo zväzkoch po 15. Výdaj sa pozastaví až do prevzatia všetkých bankoviek. Ak je výdajná miska na mince plná, ihneď ju vyprázdnite. Výdaj sa až do vyprázdnenia misky pozastaví."
+XM_DispenseNoteFullPreemptive,Zoberte si bankovky\nBankovky sa vydávajú vo zväzkoch po 15. Výdaj sa pozastaví až do prevzatia všetkých bankoviek.
+XM_ManualNoteRecyclerFillAlert,Otvorte dvierka na pokladni a vložte bankovky priamo do vkladača. Nedávajte ich do prijímača bankoviek.
+XM_PickUpAutoAmount,Vybrať autom. sumu
+XM_PickUpXAmount,Vybrať (x)
+XM_MenuDispenseFunctions, Funkcie výdaja
+XM_MenuResetFunctions, Funkcie nulovania
+XM_MenuCashBoxTransfer,Vklady do príručnej pokladnice
+XM_MenuPickUpFunctions,Funkcie vyberania
+XM_LeadThruCashBoxTransfer,"Zvoľte požadovanú funkciu vkladania.\nPo dokončení stlačte ""Použiť zmeny""."
+XM_LeadThruResetFunction,"Zvoľte požadovanú funkciu nulovania.\nPo dokončení stlačte ""Použiť zmeny""."
+XM_LeadThruDispenseFunction,"Stlačte hodnotu a zadajte sumu\nalebo stlačte ""Vydať mince po základnú úroveň""."
+XM_LeadThruPickUpFunction,"Zvoľte požadovanú funkciu vyberania.\n Po dokončení stlačte ""Použiť zmeny""."
+XM_PurgeInstructionRecycler," Odmietnutie: Zistené odmietnuté bankovky. Vyberte odmietnuté bankovky z príručnej pokladnice. Vynulujte varovanie stlačením ""Vložiť všetky bankovky"" a potom ""Resetovať príručnú pokladnicu""."
+XM_PurgeInstructionNonRecycler,"Odmietnutie: Zistené odmietnuté bankovky. Vyberte odmietnuté bankovky zo zásobníka na odmietnuté peniaze. Vynulujte varovanie stlačením ""Resetovať počty bankoviek""."
+XM_ReplenishInstruction,"Vložte hotovosť alebo zvoľte hodnotu a zadajte sumu alebo zadajte počty.\nPo skončení stlačte ""Použiť zmeny""."
+XM_KeyPadEnterPickUpAmount,Na klávesnici zadajte sumu na vybratie.
+XM_InvalidPickUpAmount,"Zadaná hodnota je vyššia než dostupná suma, ktorú možno vložiť alebo vybrať."
+XM_InvalidStartingBank,"Nastavená počiatočná suma je vyššia než dostupná suma, ktorú možno vložiť alebo vybrať."
+XM_CalculatedPickUpAmount,Vypočítaná suma na vybratie je %s.
+XM_UnableToPickUp,Nedá sa vybrať.
+XM_CoinAllowedDispenseExceeded,Pokus o vydanie %d mincí. Maximum mincí povolených na vydanie je %d.
+XM_InvalidPickUpAmount2,Suma v príručnej pokladnici a nadbytočných mincí je vyššia než suma na vybratie.
+XM_NegativeAlert,"Zistený záporný počet. Možné príčiny: chyba pri zadávaní alebo boli bankovky vložené do kazety vkladača, ale ich počty neboli zadané do správy hotovosti.\n\nVyriešte to nižšie uvedeným postupom:\n1. Zvoľte Vložiť hotovosť. \n2. Stlačte sumu so záporným číslom. \n3. Zadajte presnú eurovú hodnotu záporného čísla alebo sumu vloženú vo vkladači. \n4. Zvoľte Použiť zmeny. \n5. Potvrďte zvolením Áno a potom stlačte Ukončiť."
+XM_AddCashLeadthru1,"Vložte mince alebo stlačte valec a zadajte sumu, alebo nastavte počty."
+XM_AddCashLeadthru2,"Vložte hotovosť alebo stlačte valec a zadajte sumu, alebo nastavte počty."
+XM_AddCashLeadthru3,Stlačte valec a zadajte sumu alebo nastavte počty.
+XM_CoinHopperEmpty,"Zásobníky násypiek mincí musia byť prázdne, aby sa dali počty mincí vynulovať. Vyprázdnite každý zásobník násypky mincí pred stlačením ""Použiť zmeny"""
+XM_CollectRemainingCoins,Po skončení vydávania vyberte mince z vydávača mincí.
+XM_FPIDPrompt,"Zadajte kód užív. a stlačte ""Enter"" alebo položte prst na čítačku odtlačkov a prihláste sa."
+XM_LoanFailure,Vklad sa nepodaril
+XM_LoanFailureLeadthru,Vklad bol odmietnutý. Zvoľte požadovanú funkciu.
+XM_UndoLoan,Vrátiť vklad
+XM_CommitLoan,Povoliť vklad
+XM_PickUpFailure,Chyba výberu
+XM_PickUpFailureLeadthru,Výber bol odmietnutý. Zvoľte požadovanú funkciu.
+XM_UndoPickUp,Vrátiť výber
+XM_CommitPickUp,Vykonať výber
+XM_ManualRemoveCashAlert,Vráťte (zrušte) vklad vybraním bankoviek z príručnej pokladnice a mincí zo zásobníka nadbytočných mincí.\n\nBankovky\nPočet na vybratie: %d\nSuma na vybratie: %s\n\nMince\nPočet na vybratie: %d\nSuma na vybratie: %s
+XM_POSRejectedLoanPickUp,POS odmieta vklad/výber: %s / %d odmietnuté.\n
+XM_LoanPickUpCashierOverrides,Povolenie pokladníka ID %s na vklad/výber: %s / %d povolené.\n\n
+XM_PlaceJammedBill,Vyberte príručnú pokladnicu a vložte do nej všetky zaseknuté bankovky.
+MinMaxFastLaneBtnPrimaryTxt,Minimalizovať SelfServ Checkout
+MinMaxFastLaneBtnSecondaryTxt,Maximalizovať SelfServ Checkout
+MinMaxFastLaneBtnPrimaryShowConfirmation,"Ak chcete minimalizovať SelfServ Checkout pokladňu, stlačte tlačidlo ""Minimalizovať SelfServ Checkout""."
+MinMaxFastLaneBtnSecondaryShowConfirmation,"Ak chcete maximalizovať SelfServ Checkout, stlačte tlačidlo ""Maximalizovať SelfServ Checkout""."
+StopStartFastLaneBtnPrimaryTxt,Zastaviť SelfServ Checkout
+StopStartFastLaneBtnSecondaryTxt,Spustiť SelfServ Checkout
+SwitchToRAPBtnPrimaryTxt,Prepnúť na RAP
+ShutdownSystemBtnPrimaryTxt,Vypnúť celý systém
+RebootSystemBtnPrimaryTxt,Reštartovať celý systém
+VolumeBtnPrimaryTxt,Hlasitosť
+EventViewerBtnPrimaryTxt,Prehliadač udalostí
+GenerateLogBtnPrimaryTxt,Vytvoriť súbory diagnostických protokolov
+ExitFastLaneAndRunProfileBtnPrimaryTxt,Zastaviť SelfServ Checkout a spustiť Správcu profilov
+ExitFastLaneAndRunProfileBtnSecondaryTxt,Spustiť Správcu profilov
+TerminalInfoBtnPrimaryTxt,Informácie o termináli
+MinMaxRAPBtnPrimaryTxt,Minimalizovať RAP
+MinMaxRAPBtnSecondaryTxt,Maximalizovať RAP
+MinMaxRAPBtnPrimaryShowConfirmation,"Ak chcete minimalizovať RAP, stlačte tlačidlo ""Minimalizovať RAP""."
+MinMaxRAPBtnSecondaryShowConfirmation,"Ak chcete maximalizovať RAP, stlačte tlačidlo ""Maximalizovať RAP""."
+StopStartRAPButtonPrimaryTxt,Zastaviť RAP
+StopStartRAPButtonSecondaryTxt,Spustiť RAP
+RapConfigureBtnPrimaryTxt,Konfigurácia RAP
+SwitchToFastLaneBtnPrimaryTxt,Prepnúť na SelfServ Checkout
+ExitRAPAndRunProfileBtnPrimaryTxt,Zastaviť RAP a spustiť Správcu profilov
+ExitRAPAndRunProfileBtnSecondaryTxt,Spustiť Správcu profilov
+UtilityFunctionsTitle,Nástroje systému\nNCR SelfServ Checkout
+StartTitle,Spustenie systému
+SystemStartup,Systém sa spúšťa... čakajte
+TerminalID,Kód terminálu: 
+InterfaceVersion,Verzia softvéru: 
+TrainingProgramPrimaryTxt,Školiaci program
+LaunchPadNet_OperatorIDText,Kód obsluhy: 
+KeySwitchOperatorID,Zámka
+LaunchPadNet_SignOnButtonText,Prihlásiť
+LaunchPadNet_SignOffButtonText,Odhlásiť
+SignedOffButtonText,Odhlásený
+Exit,Ukončiť všetky
+LaunchPadNet_ReturnToShoppingButtonText,Späť
+PickListEditor,Editor zoznamu tovaru
+RunADDTxt,Pri ďalšom reštarte spustiť ADD
+TouchWareTxt,Kalibrovať dotykovú obrazovku
+DiagConfirm,Naozaj chcete vytvoriť súbory diagnostických protokolov?
+ProfileManagerFLConfirm,Naozaj chcete zastaviť SelfServ Checkout a spustiť Správcu profilov?
+ProfileManagerRAPConfirm,Naozaj chcete zastaviť RAP a spustiť Správcu profilov?
+ProfileManagerConfirm,Naozaj chcete spustiť Správcu profilov?
+EventViewerConfirm,Naozaj chcete spustiť Prehliadač udalostí?
+TrainingConfirm,Naozaj chcete spustiť Školiaci program?
+PicklistConfirm,Naozaj chcete spustiť Editor zoznamu tovaru?
+RunADDConfirm,Naozaj chcete pri ďalšom reštarte spustiť Automatické zisťovanie zariadení?
+CalibrateConfirm,Naozaj chcete kalibrovať dotykovú obrazovku?
+ShutdownConfirm,Naozaj chcete vypnúť celý systém?
+RebootConfirm,Naozaj chcete reštartovať celý systém?
+CloseAllConfirm,Naozaj chcete ukončiť všetky aplikácie a zobraziť pracovnú plochu?
+VolumeConfirm,Naozaj chcete nastaviť hlasitosť?
+TerminalInfoConfirm,Naozaj si chcete pozrieť informácie o termináli?
+StopFastLaneConfirm,Naozaj chcete zastaviť SelfServ Checkout?
+StopRAPConfirm,Naozaj chcete zastaviť RAP?
+StartFastLaneConfirm,Naozaj chcete spustiť SelfServ Checkout?
+StartRAPConfirm,Naozaj chcete spustiť RAP?
+WindowsLogOnTxt,Prihlásenie do Windows
+WindowsLogOnConfirm,Naozaj chcete ukončiť všetky aplikácie a prihlásiť sa ako nový užívateľ?
+YesText,Áno
+NoText,Nie
+CommandPromptPrimaryTxt,Príkazový riadok
+CommandPromptConfirm,Naozaj chcete spustiť Príkazový riadok?
+RSMLEPrimaryTxt,Retail Systems Manager LE
+RSMLEConfirm,Naozaj chcete spustiť aplikáciu Retail Systems Manager LE?
+OperatorRegistrationUtility,Nástroj na registráciu obsluhy
+LaunchPadNet_EnterIDFpLeadthru,Zadajte prihlasovacie meno na klávesnici dolu alebo použite na prihlásenie biometrické zariadenie.
+LaunchPadNet_ReEnterIDFpLeadthru,Neplatné prihlásenie. Znova sa prihláste na klávesnici alebo odtlačkom prsta.
+LaunchPadNet_ClearButtonText,Vymazať
+LaunchPadNet_EnterButtonText,Enter
+LaunchPadNet_GoBackButtonText,Späť
+LaunchPadNet_SpaceButtonText,Medzerník
+LaunchPadNet_BackSpaceButtonText,Backspace
+LaunchPadNet_EnterIDLeadthru,Zadajte prihlasovacie meno na klávesnici dolu:
+ReEnterIDLeadthru,Nesprávne meno alebo heslo. Znova zadajte na klávesnici dolu.
+LaunchPadNet_EnterPasswordLeadthru,Zadajte heslo na klávesnici dolu:
+CancelButtonText,Zrušiť
+LaunchPadNet_LoggingInLeadthru,Prihlasovanie... Čakajte
+LaunchPadNet_ShiftButtonText,Shift
+LaunchPadNet_SignedOffButtonText,Odhlásený
+LaunchPadNet_ReEnterIDLeadthru,Nesprávne meno alebo heslo. Znova zadajte na klávesnici dolu.
+LegalCaptionText,"PRÁVNA KLAUZULA\nTento systém smú používať len oprávnené osoby. Po prihlásení sa do tohto systému podliehate podmienkam všetkých bezpečnostných noriem a stratégií týkajúcich sa informácií. Používanie neoprávnenými osobami alebo na neoprávnené účely je porušením federálnych alebo štátnych zákonov. Spoločnosť si vyhradzuje právo podniknúť všetky potrebné kroky na ochranu oprávnených užívateľov, duševného vlastníctva a iných informačných aktív. Všetky osoby používajúce tento systém sa vystavujú monitorovaniu všetkých svojich činností v systéme. Každý, kto používa tento systém, výslovne súhlasí s týmto monitorovaním a je si vedomý toho, že ak sa týmto monitorovaním zistia možné dôkazy o trestnej činnosti, obsluha systému môže tieto dôkazy poskytnúť vyšetrovateľom trestnej činnosti."
+SignBelow,Podpíšte sa dolu.
+SignOnTitle,NCR SelfServ Checkout Log In
+HH_TransactionCancelLeadThru2,Transaction cancelled.
+AlertStatusTextOff,
+AlertStatusTextOn,!!!
+InitialText,.
+XM_CassetteMissing,Kazeta s bankovkami nie je v jednotke.\nVložte kazetu s bankovkami späť do jednotky.
+XM_Cassette,Kazeta
+XM_CollectFailure,The collect operation resulted in failure.
+XM_TotalRemovedText,Vybrané spolu: %s
+XM_TotalColectedText,Total Collected: %s
+XM_TotalAddedText,Pridané spolu: %s
+XM_OperatorID,Kód obsluhy %s
+XM_ManualRemoveCashAlertGlory,Remove cash from the cassette to undo loan.\n\nNotes\nCount to remove: %d\nAmount to remove: %s
+XM_LeadThruGloryFunction,Stlačte hodnotu a zadajte sumu\nalebo stlačte „Zobrať“.
+XM_InitializeError,"Systém zistil chybu, ktorú treba opraviť."
+XM_GrandTotalText,Celkový súčet: %s
+XM_EmptyCassetteAndRejectBin, Vyberte bankovky z kaziet na bankovky a zásobníka na odmietnuté peniaze.
+XM_Collect,Collect
+XM_CashUnbalance,Nezhoda sa prejavila v recyklátore.
+XM_GloryDispenseNoteFullPreemptive,Zoberte si bankovky\nBankovky sa vydávajú vo zväzkoch po 10. Výdaj sa pozastaví až do prevzatia všetkých bankoviek.
+XM_GloryDispenseFullPreemptive,"Zoberte si bankovky a mince\nBankovky sa vydávajú vo zväzkoch po 10. Výdaj sa pozastaví až do prevzatia všetkých bankoviek. Ak je výdajná miska na mince plná, ihneď ju vyprázdnite. Výdaj sa až do vyprázdnenia misky pozastaví."
+XM_GloryDispenseCupFullPreemptive,"Zoberte si mince\nAk je výdajná miska na mince plná, ihneď ju vyprázdnite.  Výdaj sa až do vyprázdnenia misky pozastaví."
+XM_NegativeAlert_Remove,"Zistený záporný počet. Možné príčiny: chyba pri zadávaní alebo boli bankovky vložené do kazety vkladača, ale ich počty neboli zadané do správy hotovosti.\n\nVyriešte to nižšie uvedeným postupom:\n1. Zvoľte „Ukončiť“ a potom zvoľte „Vložiť hotovosť“.\n2. Stlačte sumu so záporným číslom.\n3. Zadajte presnú eurovú hodnotu záporného čísla alebo sumu vloženú vo vkladači.\n4. Zvoľte „Použiť zmeny“.\n5. Potvrďte zvolením „Áno“ a potom stlačte „Ukončiť“."
+PageIndicatorLabelFormat,Strana {0} z {1}
+DueCart,Zaplatiť
+XM_ProcessingCashTextV6HW,•   Vložte mince do prijímača mincí.\n•   Vložte bankovky do prijímača bankoviek.\n
+XM_CoinHoppersV6HW,Násypky mincí
+XM_CoinBoxV6HW,Pokladnica na mince - %d - %s
+XM_ConfirmTransferNotesToBaseLevelV6HW,Presunúť bankovky do pokladnice na bankovky\n\nSuma na presun: %s\nPočet na presun: %d\n\nProces presunu môže trvať niekoľko minút.
+XM_ConfirmTransferAllNotesV6HW,Presunúť všetky bankovky do pokladnice na bankovky\n\nSuma na presun: %s\nPočet na presun: %d\n\nProces presunu môže trvať niekoľko minút.
+XM_ResetCoinsAllCoinsV6HW,Vydajte všetky mince
+XM_ResetCoinHopperCountsV6HW,Vynulovať počty mincí v násypke
+XM_ResetNoteBoxCountsV6HW,Vynulovať\npočet v pokl.\nna bankovky
+XM_MenuNoteBoxTransferV6HW,Presuny v pokladnici na bankovky
+XM_AddCashLeadthruV6HW,"•   Vložte mince do prijímača mincí.\n•   Vložte bankovky do prijímača bankoviek.\n•   Stlačte „Zapnúť doplňovací žľab mincí“, ak chcete dať\n     mince do doplňovacieho žľabu.\n•   Stlačte „Nastaviť vkladač“, ak chcete vložiť bankovky\n     do vkladača."
+XM_FinishedAddingCashV6HW,"Keď skončíte dopĺňanie hotovosti, stlačte „OK“."
+XM_OKV6HW,OK
+XM_SetupLoaderV6HW,Nastaviť vkladač
+XM_SetupLoaderLeadthruV6HW,•   Zadajte sumu/počet predvolenej hodnoty „%s“ pre\n     vkladač a stlačte „OK“.\n•   Po dokončení stlačte „Použiť zmeny“.
+XM_NoteLoaderV6HW,Vkladač bankoviek
+XM_EnableCoinInputBowlV6HW,Zapnúť vstupnú misku na mince
+XM_EnableCoinRefillChuteV6HW,Zapnúť doplňovací žľab mincí
+XM_EnableCoinAcceptorV6HW,Zapnúť prijímač mincí
+XM_TopOffCashPrintStatusV6HW,Hotovosť cez dvierka alebo stav tlače
+XM_TransferOperationPreemptiveV6HW,"Prebieha presun bankoviek... čakajte.\n\nNEVYBERAJTE POKLADNICU NA BANKOVKY ani   \niné zariadenia, kým operácia neskončí"
+XM_TransferOperationInstructionV6HW,Presun skončený.\nVyberte všetky bankovky z pokladnice na bankovky a\n resetujte ju.
+XM_PendingDispenseV6HW,Čakajúci výdaj %d - %s
+XM_PendingTransferV6HW,Čakajúci presun %d - %s
+XM_PendingResetV6HW,Čakajúce resetovanie %d - %s
+XM_ConfirmResetNoteBoxV6HW,Resetujte počet a hodnotu bankoviek\n\nSuma na resetovanie: %s\nPočet na resetovanie: %d\n\nSuma po resetovaní pokladnice na bankovky: 0 €\nPočet po resetovaní pokladnice na bankovky: 0
+XM_PendingCashRemoveV6HW,"Otvorte bezpečnostné dvierka, vyberte pokladnicu na\nbankovky a všetky bankovky.\nVymeňte prázdnu pokladnicu na bankovky.\nPo skončení stlačte „OK“."
+XM_LeadThruResetNoteBoxFunctionV6HW,Funkcie nulovania\n•   Vynulujte počet v pokladnici na bankovky.\n•   Po dokončení stlačte „Použiť zmeny“.
+XM_AllV6HW,Všetko
+XM_LeadThruTransferNotesToNoteBoxFunctionV6HW,Presuny v pokladnici na bankovky\n•   Na presun bankoviek stlačte „Použiť zmeny“.\n•   Na zrušenie stlačte „Zrušiť zmeny“.
+XM_ReplenishNotesFromLoaderToRecyclersPreemptiveV6HW,Prebieha vkladanie... čakajte.
+XM_SetupLoaderAlertConfirmationV6HW,"Nastaviť vkladač\n\nOverte, či má vkladač správne hodnoty a či je vložený, \npotom stlačením „OK“ vložte bankovky."
+XM_SetupLoaderAlertConfirmation1V6HW,"Nastaviť vkladač\n\nVložte bankovky do vkladača, overte, či je vkladač vložený, potom stlačením „OK“ vložte bankovky."
+XM_SetupLoaderConfirmationV6HW,"Nastaviť vkladač\n\nStav %s bankoviek vo vkladači:\n\nPôvodná/Úvodná suma: %s\nPôvodný/Úvodný počet: %d\nSuma na pridanie do vkladača: %s\nPočet na pridanie do vkladača: %d\n\nPoložte bankovky, ktoré nie sú určené na časté hotovostné operácie alebo výdaj, na spodok vkladača. Bankovky naspodku vkladača sa automaticky spočítajú a vložia, až kým sa nedosiahne predvolená hodnota vkladača.\n\nProces vkladania môže trvať niekoľko minút."
+XM_SetupLoaderConfirmation1V6HW,Nastaviť vkladač\n\nVšetky bankovky vkladača sa automaticky\nvložia a započítajú.\n\nProces vkladania môže trvať niekoľko minút.
+XM_PendingNotesAddedV6HW,Predvolené bankovky pridané %d - %s
+XM_ProcessingCashV6HW,Spracovanie hotovosti
+XM_ProcessingCashLeadThruV6HW,•   Vložte mince do prijímača mincí.\n•   Vložte bankovky do prijímača bankoviek.
+XM_SetupLoaderLeadThru1V6HW,•   Na pridanie bankoviek do vkladača stlačte „Použiť zmeny“.\n•   Na zrušenie stlačte „Zrušiť zmeny“.
+XM_LeadThruDispenseFunctionV6HW,Funkcie výdaja\n•   Na klávesnici zadajte sumu a počet %s bankoviek.
+XM_LeadThruDispenseFunction1V6HW,Funkcie výdaja\n•   Na výdaj mincí stlačte „Použiť zmeny“.\n•   Na zrušenie stlačte „Zrušiť zmeny“.
+XM_ConfirmCoinDispenseAllV6HW,Vydajte všetky mince\n\nSuma na vydanie: %s\nPočet na vydanie: %d
+XM_DispenseOperationPreemptiveV6HW,"Prebieha výdaj mincí.\n\nVyberte mince z misky na mince, ak je plná, a stlačte „OK“."
+XM_ConfirmCoinDispenseToBaseLevelV6HW,Vydať mince po základnú úroveň\n\nSuma na vydanie: %s\nPočet na vydanie: %d
+XM_LeadThruResetCoinHopperFunctionV6HW,Funkcie nulovania\n•   Vynulovať počet v násypkách mincí.\n•   Po dokončení stlačte „Použiť zmeny“.
+XM_ResetCoinHopperLeadThruV6HW,Vyberte mince z násypiek mincí. Vymeňte\nvyprázdnite násypky mincí.\n\nPo skončení stlačte „OK“.
+XM_LoaderCountEnteredExceededCapacityV6HW,Zadaný počet pre vkladač presahuje jeho kapacitu.\nMaximálny počet pre vkladač je %d.
+XM_CoinHopperPendingResetV6HW,Čakajúce resetovanie %d - %s
+XM_ConfirmResetCoinHopperV6HW,Resetujte počty a hodnoty mincí v násypken\n
+XM_ConfirmResetCoinHopper1V6HW,\n%s\nResetovať sumu: %s Počet: %d\n
+XM_ConfirmResetCoinHopper2V6HW,\nPo resete:\nMince v násypke: %s Počet: %d\nMince v pokladnici na mince: %s Počet: %d
+XM_CannotCompleteTransferV6HW,Presun sa nedá dokončiť.\n V pokladnici na bankovky nie je dosť miesta. Pred touto operáciou vyprázdnite pokladnicu na bankovky.
+XM_CashStatusLeadthruV6HW,•   Vytlačiť stav hotovosti.\n•   Vložte mince do prijímača mincí.\n•   Vložte bankovky do prijímača bankoviek.\n•   Po skončení stlačte „Ukončiť“.
+XM_NonDispensableCoinsV6HW,Nevydateľné mince
+XM_DispensableCoinsV6HW,Vydateľné mince
+XM_ConfirmNoteDispenseV6HW,Vydať bankovky\n\nSuma na vydanie: %s\nPočet na vydanie: %d
+XM_DispenseNoteFullPreemptiveV6HW,Zoberte si bankovky\n\nBankovky sa vydávajú vo zväzkoch po %d.\nVýdaj sa pozastaví až do prevzatia všetkých bankoviek.
+XM_NoteBoxV6HW,Pokladnica na bankovky
+XM_NoteRecyclerV6HW,Recyklátory bankoviek
+XM_DispenseCoinsToBaseLevelV6HW,Vydať mince\npo základnú úroveň
+XM_TransferNotesToBaseLevelV6HW,Presunúť bankovky po základnú úroveň
+XM_TransferAllNotesV6HW,Presunúť všetky bankovky
+XM_LeadThruNoteBoxTransferV6HW,Presuny v pokladnici na bankovky\n•   Zvoľte požadovanú funkciu presunu.\n•   Po dokončení stlačte „Použiť zmeny“.
+XM_LeadThruResetFunctionV6HW,Funkcie nulovania\n•   Zvoľte požadovanú funkciu nulovania.\n•   Po dokončení stlačte „Použiť zmeny“.
+XM_LeadThruDispenseFunction2V6HW,Funkcie výdaja\n•   Stlačte hodnotu bankovky a zadajte sumu/počet\n     alebo zvoľte funkciu.\n•   Po dokončení stlačte „Použiť zmeny“.
+XM_SignSigTouchDisplayV6HW,"Prosím, podpíšte sa na dotykovej obrazovke."
+XM_LeadThruCashManagementErrorV6HW,Chyba správy hotovosti
+XM_LoanPickupUpdateFailureV6HW,Zlyhala aktualizácia správy hotovosti
+XM_LoanPickupUpdateNoResponseV6HW,Žiadna odpoveď z POS pri aktualizácii stavu správy hotovosti
+XM_LoanPickupUpdateFailureInstructionV6HW,"\n• Stlačením „Zopakovať“ aktualizujte\n• Ak sa chyba zopakuje, obráťte sa na vedenie predajne\n• Táto chyba sa neodstráni, kým neprebehne úspešná aktualizácia."
+XM_LoanPickupUpdateNoResponseInstructionV6HW,• Túto chybu ihneď oznámte vedeniu predajne.\n• Stav správy hotovosti sa možno neaktualizoval.\n•   Vojdite do obrazovky Utility Functions.
+XM_LoanPickupUpdateNoResponseInstruction1V6HW,"•   Stlačte „Vytvoriť súbory diagnostických protokolov“ a\n     potom stlačte „Vypnúť celý systém“.\n•   Znova zapnite systém.\n•   Ak chyba pretrváva, vytvorte súbor diagnostického\n     protokolu a zavolajte servis.\n"
+XM_CashManagementErrorRetryButtonV6HW,Znova
+XM_DispenseThresholdV6HW,Zadané číslo prekračuje počet dostupný na výdaj.\nBol zadaný maximálny počet: %d
+ScotApp_1742,NEPLATNÁ TAŠKA
+ScotApp_71,71unused
+ScotApp_61,61unused
+ScotApp_51,Nedá sa načítať kupón
+ScotApp_41,Limitovaný tovar
+ScotApp_31,Kupóny
+ScotApp_1055,1055unused
+ScotApp_11,11unused
+ScotApp_789,"Zasuňte kartu.\nSkontrolujte, či nemáte v košíku ďalší tovar."
+ScotApp_689,Tržby:      %d
+ScotApp_589,Device Factory načítaná.
+ScotApp_389,Spracovanie karty
+ScotApp_289,289unused
+ScotApp_189,Možnosti načítané.
+ScotApp_91,91unused
+ScotApp_773,Úspora:
+ScotApp_673,Vráťte zákazníkovi sumu %s.
+ScotApp_1264,UŽÍVATEĽOM DEFINOVANÉ 6
+ScotApp_473,Míňa sa médium
+ScotApp_373,Tlačiareň – zaseknutie na výstupe
+ScotApp_989,989unused
+ScotApp_889,%s\nSkutočná hmotnosť(%s): %s\nOčakávaná hmotnosť(%s): %s
+ScotApp_1520,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1042,"POTVRDENIE:\nTOTO POTVDENIE BOLO VYTLAČENÉ, LEBO AKCEPTOVANIE\n DOKUMENTU SA NEPODARILO. POTVRDENIE PRIPOJTE\nK PRÍSLUŠNÉMU DOKUMENTU.\n----------------------------------------\n"
+ScotApp_973,973unused
+ScotApp_873,Zadanie kódu D.L. alebo I.D. :
+ScotApp_1737,Vlastná taška
+ScotApp_752,"Včera, sumár"
+ScotApp_652, **Tento čiarový kód nemá záznam vo váhovej DB
+ScotApp_1054,1054unused
+ScotApp_452,"Skontrolujte, či je kábel na boku prijímača mincí pevne zasunutý."
+ScotApp_352,Aktualizovať
+ScotApp_252,\nZaseknutý vydávač mincí\n\nOdstráňte zaseknuté mince.
+ScotApp_152,152unused
+ScotApp_1310,"* Vyberte prijímač bankoviek.\n* Vložte ho späť a zasuňte až po zaklapnutie závory.\n* Skontrolujte, či sa motor prijímača rozbehne a zelená LED svieti."
+ScotApp_661,(Predv.)
+ScotApp_952,Pridať nulovú hmotnosť
+ScotApp_852,Tri kusy
+ScotApp_1527,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1838,Skontrolovať tovar
+ScotApp_731,Sumár
+ScotApp_631,Meno vlastníka:
+ScotApp_531,\nZlyhanie čítačky podpisov
+ScotApp_331,Odstráňte tovar z váhy tašiek. Klávesnica je zablokovaná.
+ScotApp_231,231unused
+ScotApp_131,Predloženie kupónov
+ScotApp_1736,"Položte, prosím, svoje tašky do baliaceho priestoru a po skončení stlačte tlačidlo ""Hotovo""."
+ScotApp_1250,PIP KREDITNÁ
+ScotApp_831,831unused
+ScotApp_300,300unused
+ScotApp_1306,%s vydané späť
+ScotApp_710,710unused
+ScotApp_610,Hmotnosť tovaru:
+ScotApp_510,Znova podpísať
+ScotApp_310,priečinok je skoro prázdny
+ScotApp_210,210unused
+ScotApp_110,Odvážiť tovar
+ScotApp_1526,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1126,"Chyba vydávača mincí.\n\nSkontrolujte polohu vypínača, ak je na vydávači."
+ScotApp_1040,Podpis
+ScotApp_810,V zácviku
+ScotApp_1735,Položte vlastné tašky
+ScotApp_1257,PIP SOC. POUKÁŽKY NA STRAVU
+ScotApp_704,Zadanie PIN
+ScotApp_604,Načítajte tovar.
+ScotApp_504,504unused
+ScotApp_404,404unused
+ScotApp_304,Zvoliť balenie
+ScotApp_204,Kopírovanie súboru na server...
+ScotApp_104,104unused
+ScotApp_1269,UŽÍVATEĽOM DEFINOVANÉ 11
+ScotApp_904,Schválenie hmotnosti tovaru
+ScotApp_804,804unused
+ScotApp_1047,"Je potrebné schválenie. Počkajte, prosím, na obsluhu."
+ScotApp_1478,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1134,Kazeta na bankovky je plná.
+ScotApp_1734,Mám vlastnú tašku
+ScotApp_1256,PIP SOC. KARTA
+ScotApp_1512,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1465,Chyba recyklátora bankoviek
+ScotApp_1721,Transakcia v školiacom režime
+ScotApp_1890,Spracúvanie...
+ScotApp_1243,VERNOSTNÁ
+ScotApp_1544,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_63,Nie
+ScotApp_53,53unused
+ScotApp_43,43unused
+ScotApp_33,Odstránil(a) som problém
+ScotApp_1255,PIP KONTROLA DEBETU
+ScotApp_13,  %ss po %s/%s
+ScotApp_1511,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_93,Načítajte tovar a vložte do tašky
+ScotApp_83,83unused
+ScotApp_1464,Číslo terminálu
+ScotApp_1189,ZADANÝ TOVAR
+ScotApp_1720,Od.:
+ScotApp_1045,Spôsob platby: %s
+ScotApp_672,*** TRANSAKCIA V ŠKOLIACOM REŽIME ***
+ScotApp_572,"Zadajte kód tovaru a stlačte tlačidlo ""Enter""."
+ScotApp_472,Žiadosť o pomoc
+ScotApp_372,Chyba komunikácie s tlačiarňou pri tlači nabok
+ScotApp_272,Skontrolovať použité kupóny
+ScotApp_172,Načítajte nechcený tovar alebo zvoľte v účtenke.
+ScotApp_1510,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1701,Výdaj %s sa nepodaril.
+ScotApp_972,972unused
+ScotApp_872,Zrušiť pozastavenie
+ScotApp_1188,ZADANÉ MNOŽSTVO
+ScotApp_1727,Vyhľadanie tovaru
+ScotApp_751,"Dnes, po hodinách"
+ScotApp_651,Predv.
+ScotApp_551,551unused
+ScotApp_451,Stav prijímača mincí: zaseknuté
+ScotApp_351,"Stav peňazí, papiera"
+ScotApp_251,251unused
+ScotApp_151,Vezmite peniaze
+ScotApp_951,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s odstránené;LSWND3=%s;
+ScotApp_851,Dva kusy
+ScotApp_730,730unused
+ScotApp_630,Číslo kreditnej karty:
+ScotApp_430,Mimo prevádzky
+ScotApp_330,Režim pomoci
+ScotApp_230,Stav prijímača bankoviek: odmietnuté
+ScotApp_130,"Prosím, predložte kupóny."
+ScotApp_1726,Hľadanie dokončené
+ScotApp_930,Skontrolujte komunikáciu.
+ScotApp_830,Zobral som tovar alebo tašku
+ScotApp_193,193unused
+ScotApp_1457,Prebytok peňazí
+ScotApp_1283,"* Vytiahnite recyklátor mincí.\n* Otvorte dvierka na oblej strane a vyberte mince z pásov (I).\n* Odomknite a vytiahnite priehradku násypky, a potom vyprázdnite plné násypky alebo znova vložte chýbajúcu násypku (II).\n* Vyprázdnite alebo znova vložte chýbajúci zásobník nadbytočných mincí, (III).\n* Odomknite a vyberte kryt a odstráňte zaseknutie v zobrazených oblastiach (IV).\n* Zaistite, aby boli všetky dvierka správne zatvorené a zamknuté.\n* Ak sa chyba zopakuje, zavolajte servis."
+ScotApp_724,724unused
+ScotApp_624,Zadaná neplatná tolerancia
+ScotApp_424,Zadajte množstvo
+ScotApp_324,Dátum netreba
+ScotApp_224,Záchytný priečinok čítačky kariet odstránený
+ScotApp_124,124unused
+ScotApp_1469,"Výdaj %s zákazníkovi sa nepodaril. %s\n* Skontrolujte vydávače mincí a bankoviek.\nStlačte ""Stav peňazí alebo papiera"" a doplňte stav alebo odstráňte zaseknutie."
+ScotApp_924,924unused
+ScotApp_824,Potvrdenie pozastavenia
+ScotApp_576,Začnite platbu kartou.
+ScotApp_1247,SOC. POUKÁŽKY NA STRAVU
+ScotApp_1678,Chyba recyklátora bankoviek
+ScotApp_1503,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1756,"Zvoľte z výsledkov hľadania alebo stlačte ""Späť""."
+ScotApp_1456,Nesprávne číslo a heslo pokladníka. \nSkúste znova
+ScotApp_1502,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1712,Pozastavenie odmietnuté
+ScotApp_1468,Stav recyklátora bankoviek – prázdny
+ScotApp_1246,PLATBA ZO SOC. KARTY
+ScotApp_75,Hotovo
+ScotApp_65,65unused
+ScotApp_55,Zrušiť všetko
+ScotApp_45,45unused
+ScotApp_35,Na vrátenie:
+ScotApp_1258,PIP DARČEKOVÁ KARTA
+ScotApp_15,Kód tovaru:
+ScotApp_1711,Pozastavenie odmietnuté
+ScotApp_1683,Neriešiteľná chyba. Zatvorte pokladňu. Zavolajte firmu Gunnebo a oznámte jej informácie o chybe zobrazené nižšie.\n\nChyba modulu SafePay: %s
+ScotApp_95,Načítajte kupóny
+ScotApp_85,85unused
+ScotApp_1058,Plat. s obsl.
+ScotApp_1664,Zaseknuté bankovky
+ScotApp_797,"Výdaj %s sa nepodaril.\n* Skontrolujte, či nie sú zaseknuté bankovky v kazetách a vydávači.\n* Skontrolujte, či sú kazety a zásobník na odmietnuté peniaze dobre zatvorené západkou.\n* Zatvorte bezpečnostné dvierka."
+ScotApp_697,697unused
+ScotApp_597,Načítanie aplikácie NCR SelfServ Checkout Forms %d...
+ScotApp_497,Na zaplatenie:
+ScotApp_297,297unused
+ScotApp_197,Presentation Services je načítaná.
+ScotApp_997,Zadajte cenu
+ScotApp_897,WTINFO načítaná.
+ScotApp_1454,"Zadajte heslo a stlačte tlačidlo ""Enter""."
+ScotApp_1710,Zoberte si vrátenú hotovosť
+ScotApp_1741,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s čak;LSWND3=%s %s zst
+ScotApp_1388,Školiaci program
+ScotApp_771,Zrušiť pozastavenie
+ScotApp_671,Skončiť školiaceho režimu
+ScotApp_571,"Zadajte množstvo a stlačte tlačidlo ""Enter""."
+ScotApp_471,   Vizuálna kontrola
+ScotApp_371,Tlačiareň – vymeňte hlavu
+ScotApp_271,Schváliť použité kupóny
+ScotApp_971,971unused
+ScotApp_871,Potvrdiť pozastavenie
+ScotApp_1840,Číslo predajne:
+ScotApp_750,"Dnes, sumár"
+ScotApp_650,Bežný výrobok
+ScotApp_550,550unused
+ScotApp_450,450unused
+ScotApp_350,"Stav peňazí, papiera"
+ScotApp_250,250unused
+ScotApp_150,Zvoľte sumu pre vyplatenie v hotovosti.
+ScotApp_1773,"Stlačením tlačidla ""Schváliť kupón"" kupón akceptujte alebo choďte do režimu pomoci a zrušte ho.</reťazec"
+ScotApp_950,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s pridané;LSWND3=%s;
+ScotApp_850,Jeden kus
+ScotApp_1405,Server predajne je nesynchronizovaný. Prejdite do režimu pomoci a zasynchronizujte ho.
+ScotApp_1513,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1657,Neplatné oddelenie
+ScotApp_1225,NEZNÁMY TOVAR
+ScotApp_644,-------------------------------------------------------------------
+ScotApp_544,Heslo nemôže mať viac než %d číslic.
+ScotApp_444,Sociálne potravinové poukážky
+ScotApp_344,344unused
+ScotApp_244,244unused
+ScotApp_144,Porovnať podpis
+ScotApp_1590,ZÁSOBNÍK %s – MINCE ZASEKNUTÉ
+ScotApp_1669,Chyba recyklátora mincí alebo bankoviek
+ScotApp_944,Príliš mnoho požiadaviek na tašky alebo krabice.  Max. = %d.
+ScotApp_844,844unused
+ScotApp_1729,Vyhľadať tovar:
+ScotApp_1447,Vybrať hotov.
+ScotApp_1703,(+)
+ScotApp_1656,"Zadajte kód oddelenia a stlačte tlačidlo ""Enter""."
+ScotApp_915,Príliš mnoho požiadaviek na nepoužitie pása. Max. = %d.
+ScotApp_1668,Bankovky môžu byť zaseknuté na zobrazenom mieste. Otvorte horný kryt recyklátora bankoviek. Odstráňte prípadné zachytené bankovky. Zatvorte zariadenie a nasaďte horný kryt recyklátora bankoviek. Pokračujte v transakcii.
+ScotApp_1542,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1139,Dvierka vydávača bankoviek sú otvorené.
+ScotApp_1254,PIP ÚSPORY DEBETU
+ScotApp_1249,PIP NEURČENÉ
+ScotApp_77,Kreditná
+ScotApp_67,Späť
+ScotApp_57,Dokončiť a zaplatiť
+ScotApp_47,Spustiť
+ScotApp_37,37unused
+ScotApp_1458,Zostava systému NCR SelfServ Checkout
+ScotApp_17,Kupón
+ScotApp_1752,Záťaž na váhe prekračuje kapacitu.
+ScotApp_1643,Chyba recyklátora bankoviek
+ScotApp_97,Vyberte krabičku zo zoznamu.
+ScotApp_87,87unused
+ScotApp_1665,Odomknite a vyberte kazetu. Odstráňte zaseknuté bankovky. Znova vložte kazetu. Zatvorte recyklátor. Pokračujte v transakcii.
+ScotApp_1138,Výdaj %s sa nepodaril.
+ScotApp_1589,MINCE SA MINULI
+ScotApp_1445,Počet mincí
+ScotApp_1318,Načítať poukážky
+ScotApp_1654,Počet prekračuje kapacitu. Maximálny počet je %d. Počet %d bol automaticky zadaný.
+ScotApp_796,"Málo mincí, vydávač mincí je vypnutý alebo došlo k chybe.\n* Zapnite vydávač mincí alebo\n* vydávač doplňte, reštartujte a stlačte tlačidlo ""Zásobník mincí doplnený"" na obrazovke stavu pokladne."
+ScotApp_696,696unused
+ScotApp_596,NCR SelfServ Checkout AuxDisp načítaná.
+ScotApp_1391,"Stlačte tlačidlo ""Odstránil(a) som problém"".\nAk chyba pretrváva, reštartujte terminál."
+ScotApp_396,Pomoc obsluhy potrebná pre:
+ScotApp_296,296unused
+ScotApp_196,Načítanie aplikácie Presentation Services...
+ScotApp_1588,"Pred stlačením tlačidla ""Vybrať vydávač"" sa musia vyprázdniť všetky zásobníky. Vysypte všetky zásobníky násypiek mincí a stlačte tlačidlo ""Vybrať vydávač""."
+ScotApp_996,Zadanie ceny
+ScotApp_896,Načítanie aplikácie WTINFO...
+ScotApp_574,"Zadajte heslo a stlačte tlačidlo ""Enter""."
+ScotApp_1093,Vytl. posl. účt.
+ScotApp_1641,"Doplňte násypku mincí a pokračujte. Ak sa mince nevydávajú, môže byť násypka zamknutá. Zavolajte servis.\n\nChyba modulu SafePay: %s"
+ScotApp_1781,"ĎAKUJEME, LIMIT UPLYNUL"
+ScotApp_562,Kupóny sa musia uplatniť v režime pomoci
+ScotApp_874,"Zadajte kód D.L. alebo I.D. a stlačte tlačidlo ""Enter""."
+ScotApp_1124,1124unused
+ScotApp_770,Potvrdiť pozastavenie
+ScotApp_670,Vstup do školiaceho režimu
+ScotApp_570,570unused
+ScotApp_470,   Vekový limit
+ScotApp_370,Tlačiareň otvorená
+ScotApp_270,Schváliť kupóny
+ScotApp_170,"Odstráňte tovar z váhy a stlačte tlačidlo ""Vynulovať váhu"" na čítačke."
+ScotApp_1640,Chyba násypky
+ScotApp_870,Upozornenia:
+ScotApp_1733,"Zvoľte ""Späť"" a pokračujte."
+ScotApp_1553,Nadbytok peňazí:
+ScotApp_664,Načítajte tovar alebo zvoľte jazyk.
+ScotApp_564,564unused
+ScotApp_464,%s               %s
+ScotApp_364,364unused
+ScotApp_264,264unused
+ScotApp_964,"Zoberte tovar a stlačte ""Vymazať alarm"" alebo ""Schváliť a aktualizovať hmotnosť"""
+ScotApp_864,Schválenie:
+ScotApp_1647,(mmddrrrr)
+ScotApp_1119,"Vydávač bankoviek nebude pracovať s otvorenými dvierkami.\n\nZatvorte bezpečnostné dvierka alebo dvierka vydávača a zaistite poistkou.\n\nAk sa chyba zopakuje, zavolajte servis."
+ScotApp_1659,Vytlačiť účtenku
+ScotApp_819,Potvrďte pozastavenie stornovaného tovaru.
+ScotApp_1339,Reštartovať celý systém
+ScotApp_1582,Stav médií
+ScotApp_1154,Chyba čítačky
+ScotApp_1117,"Kazeta vydávača bankoviek %s chýba alebo nie je dobre vložená.\n\nSprávne vložte kazetu s bankovkami %s, kým poistka nezaklapne."
+ScotApp_1294,Q – S
+ScotApp_1030,Vložte kupón.
+ScotApp_1658,"Skontrolujte, či zákazník dostal správne naspäť."
+ScotApp_1421,Režim pomoci
+ScotApp_709,709unused
+ScotApp_1129,Náprava nebola urobená správne.\n\nSkúste znova.
+ScotApp_509,509unused
+ScotApp_409,Hlásenie systému
+ScotApp_309,euro
+ScotApp_209,Zastaviť program
+ScotApp_109,Chcete pokračovať?
+ScotApp_1338,Načítať diagnostické súbory
+ScotApp_909,Nesprávna hmotnosť na bezpečnostnej váhe.
+ScotApp_809,Hlásenie POS:
+ScotApp_1645,"Skontrolujte, či je kryt bankoviek dobre upevnený."
+ScotApp_1116,"Vydávač bankoviek nebude fungovať, ak nie je vložený zásobník na odmietnuté bankovky a pevne zachytený závorou.\n\nVložte zásobník a dobre ho zachyťte závorou."
+ScotApp_1128,%s\n
+ScotApp_1452,"Zadajte kód a stlačte tlačidlo ""Enter""."
+ScotApp_183,183unused
+ScotApp_1450,Zamykacia pokladňa
+ScotApp_1293,P
+ScotApp_1644,Kryt recyklátora bankoviek otvorený
+ScotApp_1115,TVORBA ZOSTÁV JE OFFLINE
+ScotApp_795,Nákupy sa monitorujú pre zabezpečenie lepších služieb.
+ScotApp_695,695unused
+ScotApp_595,Načítanie aplikácie NCR SelfServ Checkout AuxDisp...
+ScotApp_395,Limitovaný tovar nie je povolený
+ScotApp_295,295unused
+ScotApp_195,Device Manager je načítaný.
+ScotApp_566,566unused
+ScotApp_1324,Predmet je na\nváhe aj po transakcii.
+ScotApp_995,Choďte k pokladni a otvorte ju prihlásením sa do režimu zamestnanca.
+ScotApp_895,Ukončovanie aplikácie DBM...
+ScotApp_1102,Nasledujúci
+ScotApp_1383,(výnim.)
+ScotApp_1402,CHÝBA PREPOJKA NA ZÁSOBNÍKU NA ODMIETNUTÉ BANKOVKY.
+ScotApp_1292,N – O
+ScotApp_1114,"""Koniec obdobia pre zostavu"" – aktualizácia úspešná"
+ScotApp_1222,MIMO PREVÁDZKY
+ScotApp_1101,%s\t%s
+ScotApp_1159,Klávesnica PIN alebo zariad. el. platby neodpovedá.
+ScotApp_1100,%s
+ScotApp_1539,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1649,(ddmmrrrr)
+ScotApp_1317,Platba poukážkou
+ScotApp_1883,"Skontrolujte, či na bezpečnostnej váhe alebo vo vozíku nie je nadbytočný tovar a stlačte „Vymazať alarm“."
+ScotApp_729,729unused
+ScotApp_629,Celková suma:
+ScotApp_429,Červená
+ScotApp_329,  %ss po%d %s/%s
+ScotApp_229,229unused
+ScotApp_129,"Skontrolujte, či bol stornovaný tovar odložený nabok."
+ScotApp_1107,%s\t%s\tpočet %s po %s/%s\t%s
+ScotApp_1538,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_929,WLDB nekomunikuje správne.
+ScotApp_829,829unused
+ScotApp_1316,"* Otvorte kryt tlačiarne a skontrolujte, či v zobrazenej oblasti nie je zaseknutý papier.\n * Zatvorte kryt a znova vložte papier."
+ScotApp_81,Odstránil(a) som problém
+ScotApp_1882,Varovanie Inteligentného asistenta - tovar nebol načítaný.
+ScotApp_1673,Zaseknuté mince
+ScotApp_1135,Chyba vydávača bankoviek
+ScotApp_1705,Chyba komunikácie.
+ScotApp_1894,Set item aside and continue with your purchase.
+ScotApp_787,"Zadaný dátum narodenia: %s, vek %d rokov"
+ScotApp_1398,Obs./Škol.
+ScotApp_1106,%s\t%s\tpočet %s po %s/ks\t%s
+ScotApp_1525,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1493,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1490,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1315,"* Otvorte kryt tlačiarne a skontrolujte, či nie je zaseknutý papier.\n * Zatvorte kryt a znova vložte papier."
+ScotApp_1881,"Skontrolujte bezpečnostnú váhu, odstráňte nadbytočný tovar a stlačte „Vymazať alarm“."
+ScotApp_1173,STORNOVANÝ TOVAR SCHVÁLENÝ
+ScotApp_1524,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_505,Nesprávny počet
+ScotApp_1302,Zatvoriť
+ScotApp_905, (Ďalšie informácie na účtenke...)
+ScotApp_1164,Tlačiareň nie je správne umiestnená.
+ScotApp_1492,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1314,* Otvorte kryt tlačiarne a odstráňte zvyšky papiera.\n * Zatvorte kryt. \n* Vložte nový valec papiera. \n* Zaveďte koniec papiera do tlačiarne.
+ScotApp_1817,"* Vytiahnite recyklátor mincí.\n* Otvorte dvierka na oblej strane a vyberte mince z pásov.\n* Zabezpečte, aby boli všetky dvierka zatvorené a správne zamknuté.\n* Vráťte mince zákazníkovi. Ak sa chyba znova prejaví, zavolajte servis."
+ScotApp_1442,"Vložte bankovky na doplnenie alebo stlačte tlačidlo ""Vybrať bankovky"" a vyberte ich."
+ScotApp_1880,Neočakávaný tovar na bezpečnostnej váhe.
+ScotApp_1172,POZASTAVENIE POTVRDENÉ
+ScotApp_1415,1415unused
+ScotApp_788,Platný dátum narodenia: %s
+ScotApp_688,688unused
+ScotApp_588,Načítanie aplikácie Device Factory...
+ScotApp_488,Položte tovar na váhu:%s
+ScotApp_388,Spracúvanie...
+ScotApp_288,"Stlačte tlačidlo ""Odstránil(a) som problém"".\nAk chyba pretrváva, reštartujte terminál:\nOtočte kľúč vedúceho do polohy ""S"" – ALEBO stlačte tlačidlo vedúceho.\nZvoľte ""Vypnúť celý systém"".\nKeď zmizne obraz z obrazovky, odpojte terminál od zdroja alebo zo zásuvky.\nZapnite terminál. Ak sa chyba znova prejaví, zavolajte servis."
+ScotApp_188,Načítanie možností...
+ScotApp_988,Neočakávaný tovar na páse. Odstráňte tovar.
+ScotApp_888,Neočakávaný tovar v baliacom priestore.  Odstráňte tovar.
+ScotApp_1887,Skontrolujte transakciu
+ScotApp_1171,NEOČAKÁVANÉ ZVÝŠENIE
+ScotApp_1199,ZADANÝ DÁTUM EXPIRÁCIE
+ScotApp_1300,Začať transakciu
+ScotApp_1326,Uplynul čas na vloženie kupónu
+ScotApp_1291,K – M
+ScotApp_1517,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1886,"Overte, či nie je nadbytočný tovar."
+ScotApp_749,749unused
+ScotApp_1529,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_549,549unused
+ScotApp_449,Stav prijímača mincí: odmietnuté
+ScotApp_349,349unused
+ScotApp_249,249unused
+ScotApp_149,Zadajte PIN
+ScotApp_1307,Tlač účtenky
+ScotApp_1738,Obsluha musí tašky skontrolovať
+ScotApp_949,949unused
+ScotApp_717,717unused
+ScotApp_617,Zvoľte nastavenie pre porovnáv. hmotnosti. (Porov. hmot. tovaru s doter. nákupom.)
+ScotApp_517,Požiadavka na iný druh platby.
+ScotApp_417,Hard Totals načítaná.
+ScotApp_317,317unused
+ScotApp_217,217unused
+ScotApp_117,Dajte tovar nabok
+ScotApp_1516,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1885,Tovar nebol načítaný
+ScotApp_917,Príliš mnoho požiadaviek na odstránenie tovaru z baliaceho priestoru. Max. = %d.
+ScotApp_817,Je potrebná pomoc
+ScotApp_1177,LIMIT PRE VLOŽENIE DO TAŠKY UPLYNUL
+ScotApp_1528,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1175,PREKROČENÝ LIMIT PRE NEPOUŽITIE TAŠIEK
+ScotApp_1109,%s\t%s\t%s po %s/%s\t%s
+ScotApp_1453,Heslo pokladníka
+ScotApp_1693,Náhrada mincí
+ScotApp_1515,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_7,7unused
+ScotApp_6,6unused
+ScotApp_5,5unused
+ScotApp_4,4unused
+ScotApp_3,3unused
+ScotApp_2,kg
+ScotApp_1,lb
+ScotApp_1176,ZADANÝ NOVÝ TOVAR
+ScotApp_1724,TRANSAKCIA V ŠKOLIACOM REŽIME
+ScotApp_1019,Položte na pás
+ScotApp_9,9unused
+ScotApp_8,8unused
+ScotApp_609,Upraviť toleranciu hmotnosti
+ScotApp_1305,%s vložené
+ScotApp_1893,Invalid Barcode
+ScotApp_1409,Menu režimu pomoci
+ScotApp_1692,Prihlásenie vedúceho
+ScotApp_1163,"Stlačte tlačidlo ""Odstránil(a) som problém"".\nAk chyba pretrváva, reštartujte terminál:\nOtočte kľúč vedúceho do polohy ""S"" – ALEBO stlačte tlačidlo vedúceho.\nZvoľte ""Vypnúť celý systém"".\nKeď zmizne obraz z obrazovky, odpojte terminál od zdroja alebo zo zásuvky.\nZapnite terminál. Ak sa chyba znova prejaví, zavolajte servis."
+ScotApp_1514,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1372,Prijímač mincí
+ScotApp_1048,1048unused
+ScotApp_967,967unused
+ScotApp_1304,Vernostná karta akceptovaná
+ScotApp_1162,Zariadenie je offline.
+ScotApp_1833,Exc_TB
+ScotApp_1818,"* Odomknite a vytiahnite priehradku násypky, aby ste odstránili zaseknutie (I).\n* Zaseknuté mince vráťte do správneho zásobníka (zásobníkov) násypiek. Potom vložte späť a zamknite priehradku násypky.\n* Vytiahnite recyklátor mincí. Potom odomknite a vyberte kryt.\n* Odpojte zobrazený kábel (II).\n* Uvoľnite červený výčnelok na pravej strane prijímača, potom ho vytiahnite dopredu a otočte, aby sa odstránilo zaseknutie na zobrazených miestach (III).\n* Vložte späť prijímač a znova zapojte kábel.\n* Vráťte späť kryt a zamknite ho. Ak sa chyba znova prejaví, zavolajte servis."
+ScotApp_1174,ROZDIEL V HMOTNOSTI
+ScotApp_1500,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1366,Váha
+ScotApp_1161,Chyba pagera
+ScotApp_1717,ZH:
+ScotApp_1832,Exc_DEPT
+ScotApp_1370,Šifrovací modul
+ScotApp_669,Tlač podpisu sa nepodarila. Došlo k chybám.
+ScotApp_569,Zadajte kód
+ScotApp_469,469unused
+ScotApp_369,Chyba komunikácie s tlačiarňou
+ScotApp_269,Režim pomoci
+ScotApp_1507,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_969,969unused
+ScotApp_737,737unused
+ScotApp_637,"Zabezpečenie je offline, posledná akcia bola zrušená."
+ScotApp_537,537unused
+ScotApp_437,Poukážka nestačí
+ScotApp_337,"Načítajte tovar alebo zadajte kód a stlačte tlačidlo ""OK""."
+ScotApp_237,"Vložte kazetu, až poistka zaklapne.\n\nPotiahnite za rukoväť kazety, aby ste si overili, že poistka kazetu drží."
+ScotApp_137,Vezmite drobné
+ScotApp_931,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s očakávané;LSWND3=%s %s zistené;
+ScotApp_1519,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1831,Interpol.
+ScotApp_937,Limit\nna odstránenie tovaru
+ScotApp_837,Poplatky
+ScotApp_1702,*** DUPLIKÁT ÚČTENKY ***
+ScotApp_1377,množstvo
+ScotApp_1728,Vyberte tovar zo zoznamu.
+ScotApp_1395,Vstup do režimu obsluhy
+ScotApp_716,716unused
+ScotApp_616,Porovnávanie hmotnosti
+ScotApp_516,Iný druh platby
+ScotApp_416,Načítanie aplikácie Hard Totals...
+ScotApp_316,316unused
+ScotApp_216,"* Otvorte dvierka na skrinke tlačiarne.\n* Otvorte kryt tlačiarne a skontrolujte, či nie je zachytený papier.\n* Zatvorte kryt tlačiarne a znova vložte papier.\n* Má sa vytlačiť účtenka so Šťastnou tvárou.\n* Zatvorte a zamknite dvierka na skrinke tlačiarne."
+ScotApp_116,Zrušiť všetok tovar
+ScotApp_1522,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1506,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1879,Skontrolujte bezpečnostnú váhu a stlačte „Vymazať alarm“.
+ScotApp_916,"Skontrolujte tovar pri pokladni a stlačte tlačidlo ""Vymazať alarm""."
+ScotApp_816,816unused
+ScotApp_1167,"* Otvorte dvierka na skrinke tlačiarne.\n* Odistite a potlačte tlačiareň dozadu.\n* Otvorte kryt tlačiarne a skontrolujte, či nie je zachytený papier.\n* Zatvorte kryt tlačiarne a znova vložte papier.\n* Potiahnite tlačiareň opatrne vpred, až poistka zaklapne."
+ScotApp_1518,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1830, Položky schválené
+ScotApp_1376,", %s"
+ScotApp_783,783unused
+ScotApp_683,683unused
+ScotApp_583,Karta odmietnutá
+ScotApp_483,Priloženým perom sa podpíšte na podpisovej ploche.
+ScotApp_383,383unused
+ScotApp_283,Zadajte heslo
+ScotApp_1505,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_983,Načítanie aplikácie Takeaway Belt...
+ScotApp_883,Potvrdiť pozastavenie
+ScotApp_1363,Displej pokladne
+ScotApp_1714,SCHVÁLENÉ ODMIETNUTIE POZASTAVENIA
+ScotApp_1837,"Stlačte ""Schváliť"" a pokračujte v transakcii."
+ScotApp_1449,Stav bankoviek
+ScotApp_1375,Zmeny po zakúpení tovaru:\n%s
+ScotApp_1248,DARČEKOVÁ KARTA
+ScotApp_1153,Zaseknutý papier.
+ScotApp_1504,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1362,Zámka
+ScotApp_1836,NEPLATNÝ ČIAROVÝ KÓD
+ScotApp_1571,Potvrďte ignorovanie zmien
+ScotApp_1215,CHYBA ZARIADENIA
+ScotApp_1858,Discrepancy error occurred in the recycler.
+ScotApp_1152,Minul sa papier.
+ScotApp_1700,"Výdaj %s sa nepodaril. %s\nSkontrolujte vydávače bankoviek a mincí.\nAk sú prázdne, doplňte ich.\nAk nie sú prázdne, odstráňte zaseknutie. \nStlačte tlačidlo ""Chyba opravená""."
+ScotApp_1823,Elektronická účtenka bola úspešne vytvorená.
+ScotApp_1605,     Zásobník vydávača kariet je prázdny
+ScotApp_1361,Modul vrátenia bankoviek
+ScotApp_1835,Skontrolujte alebo dajte tovar nabok
+ScotApp_1878,Nesprávna hmotnosť na bezpečnostnej váhe.
+ScotApp_1281,PLATBA S OBSLUHOU
+ScotApp_1425,Pripojiť
+ScotApp_1570,Ignorovať zmeny
+ScotApp_814,814unused
+ScotApp_291,"Zablokovaný kanál vydávača mincí\n%s\nOdstráňte zaseknuté mince, potom stlačte tlačidlo ""Zaseknutie odstránené""."
+ScotApp_191,Transaction Broker je načítaný.
+ScotApp_1151,Kryt tlačiarne je otvorený.
+ScotApp_1707,Mince sú zaseknuté v prijímači
+ScotApp_1822,Pozri hmotnosť položky vľavo dolu na obrazovke
+ScotApp_757,757unused
+ScotApp_657,Doklady pre vrátenie peňazí alebo zľavu predložte až na konci nákupu.
+ScotApp_557,Tovar s obmedzením množstva
+ScotApp_457,457unused
+ScotApp_357,357unused
+ScotApp_257,257unused
+ScotApp_157,Hlásenie systému
+ScotApp_1360,Zásobník bankoviek
+ScotApp_1719,Pr.:
+ScotApp_1834,Max.
+ScotApp_1868,"Skontrolujte, či rukami nezakrývate výhľad kamery čítačky"
+ScotApp_957,Klient DB Manager nekomunikuje
+ScotApp_857,Skontrolovať poplatok za skompletovanie
+ScotApp_1064,1064unused
+ScotApp_1577,Celkový počet:
+ScotApp_736,736unused
+ScotApp_636,Zabezpečenie je offline.
+ScotApp_1091,"Mince sú zaseknuté, priehradka násypky chýba alebo sú otvorené dvierka."
+ScotApp_436,Potvrďte sumu
+ScotApp_336,Nájsť tovar
+ScotApp_236,236unused
+ScotApp_136,Vložte peniaze
+ScotApp_1509,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1821,Akceptovať hmotnosť
+ScotApp_936,Limit\nna tovar mimo tašiek
+ScotApp_836,Poplatky a zmluvy so zákazníkmi
+ScotApp_1367,Čítačka
+ScotApp_1718,Poč:
+ScotApp_1274,UŽÍVATEĽOM DEFINOVANÉ 16
+ScotApp_715,715unused
+ScotApp_615,Zvoľte nastavenie pre používanie tašiek. (Či zákazník MUSÍ vkladať tovar do tašiek.)
+ScotApp_515,515unused
+ScotApp_315,315unused
+ScotApp_215,Úspory debetu
+ScotApp_115,Potvrdiť zrušenie
+ScotApp_1576,Stav vydávača bankoviek:
+ScotApp_1090,Vytvoriť zostavu
+ScotApp_815,Otvoriť pokladňu
+ScotApp_1508,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1406,Sync TB/POS
+ScotApp_1099,Neznáma chyba zariadenia
+ScotApp_1563,Doplniť
+ScotApp_782,Vydávač bankoviek je zaseknutý\nOdstráňte zaseknuté bankovky alebo \nupravte zásob. odmietnutých peňazí.
+ScotApp_682,682unused
+ScotApp_582,Platba dokončená.
+ScotApp_482,482unused
+ScotApp_382,Neznáme
+ScotApp_282,Zadajte ID
+ScotApp_1575,Stav vydávača mincí:
+ScotApp_1097,Vytlačiť záznamy alebo zostavy
+ScotApp_1448,Stav mincí
+ScotApp_982,Chyba zariadenia
+ScotApp_143,Podpíšte účtenku
+ScotApp_1353,Vložte darčekovú kartu do štrbiny na kupóny.
+ScotApp_1704,"Stlačte tlačidlo ""Odstránil(a) som problém"".\nAk chyba pretrváva, reštartujte terminál:\nOtočte kľúč vedúceho do polohy ""S"" – ALEBO stlačte tlačidlo vedúceho.\nZvoľte ""Vypnúť celý systém"".\nKeď zmizne obraz z obrazovky, odpojte terminál od zdroja alebo zo zásuvky.\nZapnite terminál. Ak sa chyba znova prejaví, zavolajte servis."
+ScotApp_1827,\n    - Aktuálny jazyk (%s)
+ScotApp_1562,Počet
+ScotApp_1815,"* Odomknite a vytiahnite priehradku násypky.\n* Vložte chýbajúcu násypku (násypky) a zabezpečte, aby boli všetky násypky správne nasadené.\n* Zabezpečte, aby bola násypka s najmenšími mincami vložená a správne nasadená.\n* Zabezpečte, aby boli vložené násypky so správnou menou. Ak sa chyba znova prejaví, zavolajte servis."
+ScotApp_1574,Zadaná hodnota pre %s nie je platná. \nZadajte znova.
+ScotApp_1543,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1290,D – J
+ScotApp_1096,Zostavy
+ScotApp_1352,Predloženie darčekovej karty
+ScotApp_1561,Hodnota
+ScotApp_1083,Tovar zobraný z baliaceho priestoru.\nVráťte tovar späť.
+ScotApp_1753,Tovar nebol nájdený
+ScotApp_418,Ukončovanie aplikácie Hard Totals...
+ScotApp_318,318unused
+ScotApp_1813,"%s\n* Odomknite a vytiahnite priehradku násypky (I).\n* Vytiahnite zaseknutý zásobník (zásobníky) násypiek. Skontrolujte a odstráňte zaseknutia na výstupe (II).\n* Ak nie je vo výstupnej oblasti zaseknutie, vyprázdnite zásobník (zásobníky) násypiek. Skontrolujte a odstráňte zaseknutia otáčaním disku (III).\n* Vložte späť zásobník (zásobníky) násypiek.\n* Zabezpečte, aby boli všetky dvierka zatvorené a správne zamknuté. Ak sa chyba znova prejaví, zavolajte servis."
+ScotApp_1095,"Zvoľte typ zostavy a stlačte ""Vytvoriť zostavu""."
+ScotApp_1351,%s\n%s %s odstránené
+ScotApp_1825,Uložiť preferencie
+ScotApp_777,777unused
+ScotApp_677,677unused
+ScotApp_577,Začnite platbu v hotovosti.
+ScotApp_377,Jednotky – stav
+ScotApp_277,277unused
+ScotApp_1560,Prijímač celkom:  %s
+ScotApp_1082,Zobral som tovar alebo tašku
+ScotApp_977,Skutočná hmotnosť: %s %s
+ScotApp_877,Zadanie ceny
+ScotApp_1777,"Transakcia bola dokončená s kupónom, ktorý prekročil limit predajne na kupóny."
+ScotApp_1812,"Mince sú zaseknuté alebo sú zásobníky mincí plné, prípadne prázdne"
+ScotApp_756,756unused
+ScotApp_556,Pozastavenie transakcie odmietnuté.
+ScotApp_456,456unused
+ScotApp_356,Šifrovací modul
+ScotApp_256,Ukončovanie aplikácie User Exits...
+ScotApp_156,Hlásenie systému
+ScotApp_1231,VIZUÁLNE OVERENÉ
+ScotApp_1874,1874unused
+ScotApp_956,Aplikácia Smart Scale sa nedá vyžiadať
+ScotApp_856,Účtenka:
+ScotApp_1567,Vydávač celkom:  %s
+ScotApp_735,735unused
+ScotApp_635,Zadajte dátum narodenia
+ScotApp_535,   Stiahnuté (staré)
+ScotApp_335,Čítačka kariet: možné poškodenie zákazníkom
+ScotApp_235,Stav prijímača bankoviek: takmer plný
+ScotApp_135,135unused
+ScotApp_1776,Overenie predajne
+ScotApp_1811,"* Vytiahnite recyklátor mincí.\n* Odstráňte zaseknutie v zobrazenej oblasti odobraním míncí alebo ich potlačením dopredu.\n* Vráťte mince zákazníkovi. Ak sa chyba znova prejaví, zavolajte servis."
+ScotApp_935,Hmotnosť je nižšia
+ScotApp_835,Účtenka:
+ScotApp_1708,"Niekoľkokrát stlačte tlačidlo návratu mincí, a tým odstráňte zaseknuté mince. Potom stlačte ""Odstránil(a) som problém"".\n\nAk sa chyba zopakuje, zavolajte servis."
+ScotApp_1168,Tlačiareň nie je zaistená v prednej polohe.
+ScotApp_1446,Vybrať
+ScotApp_1566,Úplné doplnenie
+ScotApp_1080,Položte tovar na pás.
+ScotApp_1775,Schváliť kupón
+ScotApp_1810,Mince sú zaseknuté.
+ScotApp_1297,UPLYNUL LIMIT NA VYBRANIE DROBNÝCH
+ScotApp_1648,(mmddrr).
+ScotApp_708,708unused
+ScotApp_608,Nastaviť porovnávanie hmotnosti
+ScotApp_508,508unused
+ScotApp_408,408unused
+ScotApp_308,cent
+ScotApp_208,208unused
+ScotApp_108,Nehodiaci sa kupón
+ScotApp_781,781unused
+ScotApp_681,Vybrať z Obľúbených
+ScotApp_581,Pozastavenie transakcie odmietnuté
+ScotApp_481,Je potrebná pomoc
+ScotApp_381,Normálne
+ScotApp_908,Zabezpečené
+ScotApp_521,Vrátená suma:
+ScotApp_1087,Karta je akceptovaná. Načítajte svoj tovar a kupóny.
+ScotApp_981,981unused
+ScotApp_881,Pozastavenie:
+ScotApp_1774,KUPÓN MÁ PRÍLIŠ VYSOKÚ HODNOTU
+ScotApp_1296,Doplňte všetky zásobníky mincí na optimálny stav.
+ScotApp_1583,nedostatok peňazí  (%s)
+ScotApp_1552,zásobník je plný
+ScotApp_1295,T – Z
+ScotApp_1877,Pozor na krádež
+ScotApp_1761,Zásobník kupónov môže byť plný alebo štrbina na kupóny zablokovaná. Odstráňte predmety blokujúce štrbinu kupónov a potom vyprázdnite zásobník kupónov.
+ScotApp_1086,"""Pridať nulovú hmotnosť"" zruší navážené údaje"
+ScotApp_693,693unused
+ScotApp_794,Kazeta vydávača bankoviek je zaseknutá\nOdstráňte zaseknuté bankovky.
+ScotApp_694,694unused
+ScotApp_594,NCR SelfServ Checkout SigCap načítaná.
+ScotApp_494,Zo zoznamu zvoľte sumu pre cash back.
+ScotApp_394,394unused
+ScotApp_1098,"* Otvorte dvierka na skrinke tlačiarne.\n* Skontrolujte, či papier nie je zachytený v zobrazenej oblasti.\n* Ak papier nie je zachytený, znova vložte papier.\n* Má sa vytlačiť účtenka so Šťastnou tvárou.\n* Zatvorte a zamknite dvierka na skrinke tlačiarne."
+ScotApp_1551,nadbytok peňazí  (%s)
+ScotApp_994,Zatvorené
+ScotApp_894,DBM načítaná.
+ScotApp_1760,Zásobník kupónov môže byť plný alebo štrbina na kupóny zablokovaná. Odstráňte predmety blokujúce štrbinu kupónov a potom vyprázdnite zásobník kupónov.
+ScotApp_1371,Prijímač bankoviek
+ScotApp_1803,Akceptovať len hotovosť
+ScotApp_1359,Tlačiareň dokladov
+ScotApp_1085,Zoberte kupóny
+ScotApp_21,21unused
+ScotApp_776,776unused
+ScotApp_676,Vydávač mincí:Doplnený %s o %s
+ScotApp_1491,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_476,Odovzdanie kupónov
+ScotApp_376,376unused
+ScotApp_276,276unused
+ScotApp_176,\nChcete zastaviť účtovanie a zrušiť celý nákup?
+ScotApp_976,976unused
+ScotApp_876,"Zadajte kód hlavného pokladníka a stlačte tlačidlo ""Enter""."
+ScotApp_1271,UŽÍVATEĽOM DEFINOVANÉ 13
+ScotApp_1767,Nepodaril sa prístup k hmotnostným parametrom váhy.
+ScotApp_755,Spracúvanie...
+ScotApp_655,Tovar – výnimka
+ScotApp_1084,Odber
+ScotApp_455,455unused
+ScotApp_355,Zvoľte funkciu systému
+ScotApp_255,255unused
+ScotApp_155,Hlásenie systému
+ScotApp_1011,Preprava...
+ScotApp_869,"Zadajte autorizačné číslo a stlačte tlačidlo ""Enter""."
+ScotApp_955,Aplikácia Smart Scale sa nedá povoliť
+ScotApp_855,Poplatok za skompletovanie:
+ScotApp_23,+ %s (%s)
+ScotApp_1766,Chyba čítačky alebo váhy.
+ScotApp_1280,HOTOVOSŤ
+ScotApp_1335,Pokladňa zatvorená
+ScotApp_1497,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_728,728unused
+ScotApp_628,Pokl. č. %d
+ScotApp_528,528unused
+ScotApp_428,Žltá
+ScotApp_328,"Výdaj %s zákazníkovi sa nepodaril. \n* Skontrolujte vydávač mincí a bankoviek.\n* Ak sú prázdne, doplňte ich.\n* Ak nie sú prázdne, odstráňte zaseknutie.\n* Stlačte tlačidlo ""Odstránil(a) som problém""."
+ScotApp_228,Štrbina čítačky kariet zablokovaná
+ScotApp_128,128unused
+ScotApp_1690,Zavolajte servis
+ScotApp_281,281unused
+ScotApp_181,"\nNa klávesnici zadajte hodnotu kupónu v centoch a stlačte tlačidlo ""OK""."
+ScotApp_928,Choďte k pokladni a skontrolujte zariadenie.
+ScotApp_828,828unused
+ScotApp_1033,"Deaktivujte tovar alebo snímte visačku v pokladni a stlačte tlačidlo ""Vymazať alarm""."
+ScotApp_1496,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_680,680unused
+ScotApp_580,Pokus o stornovanie tovaru pred stornovaním jeho kupónu.
+ScotApp_380,380unused
+ScotApp_280,Vymazať protokol alarmov
+ScotApp_180,Teraz dajte kupóny nabok.\nPredložte ich až na konci nákupu.
+ScotApp_1364,Mikr
+ScotApp_980,Čas vypršal bez odozvy zákazníka
+ScotApp_880,880unused
+ScotApp_970,970unused
+ScotApp_1104,e=d=0.01lb Max 30.00 lb min 0.2 lb Nmax 3000
+ScotApp_1032,Bezpečnostná visačka stále aktívna.
+ScotApp_1286,slovenčina
+ScotApp_1462,Zásobníky
+ScotApp_1298,Funkcie vykonávané obsluhou
+ScotApp_1031,Načítajte kupóny.
+ScotApp_1482,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1706,"Zariadenie nie je pripravené. Zatvorte všetky ostatné aplikácie, ktoré majú prístup k zariadeniu, a stlačte ""Odstránil(a) som problém"". Ak sa chyba znova prejaví, zavolajte servis firmy Gunnebo."
+ScotApp_1399,Obsluha
+ScotApp_1494,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1672,Chyba recyklátora mincí
+ScotApp_573,"Zadajte kód užívateľa a stlačte tlačidlo ""Enter""."
+ScotApp_173,173unused
+ScotApp_775,Vitajte v samoobslužnej pokladni NCR! Želáme vám príjemný nákup!
+ScotApp_675,Vydávač mincí doplnený
+ScotApp_1481,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_79,79unused
+ScotApp_69,69unused
+ScotApp_59,Skúsiť znova
+ScotApp_39,Zrušenie transakcie
+ScotApp_29,Limitovaný tovar
+ScotApp_19,DPH
+ScotApp_975,975unused
+ScotApp_603,Upraviť/pridať údaj hmotnosti
+ScotApp_99,Množstvo na stornovanie
+ScotApp_89,89unused
+ScotApp_303,Zrušiť tovar
+ScotApp_203,203unused
+ScotApp_103,Zadajte kód tovaru.
+ScotApp_1889,Overenie dôveryhodnosti
+ScotApp_1443,"Vložte mince na doplnenie alebo stlačte tlačidlo ""Vybrať mince"" a vyberte ich."
+ScotApp_903,Tovar bol odstránený z baliaceho priestoru.
+ScotApp_803,803unused
+ScotApp_1555,Vydávač
+ScotApp_1037,Podpis
+ScotApp_1480,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1263,UŽÍVATEĽOM DEFINOVANÉ 5
+ScotApp_1697,Zaseknutie odstránené
+ScotApp_748,748unused
+ScotApp_648,Čiarový kód
+ScotApp_548,548unused
+ScotApp_448,Váš účet častého zákazníka bol aktivovaný.
+ScotApp_348,348unused
+ScotApp_248,248unused
+ScotApp_148,148unused
+ScotApp_1479,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_948,\n* Vzdialená pomoc
+ScotApp_848,Zadajte množstvo:
+ScotApp_485,Je potrebný podpis
+ScotApp_1036,Aktívna bezpečnostná visačka
+ScotApp_1487,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1499,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1023,1023unused
+ScotApp_1179,"LIMIT UPLYNUL, ZÁKAZNÍK ODIŠIEL"
+ScotApp_1035,Aktívna bezpečnostná visačka
+ScotApp_1682,Všeobecná chyba čítačky bankoviek
+ScotApp_1486,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1144,Vydávač neodpovedá.
+ScotApp_866,Áno
+ScotApp_1498,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1384,Jazyk
+ScotApp_1743,"Zadajte kód užív. a stlačte ""Enter"" alebo položte prst na čítačku odtlačkov a prihláste sa."
+ScotApp_1319,POUKÁŽKA
+ScotApp_1178,PREKROČENÝ LIMIT VYBERANIA Z BALIACEHO PRIESTORU
+ScotApp_1001,Tovar nebol nájdený
+ScotApp_1034,1034unused
+ScotApp_1485,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1068,1068unused
+ScotApp_1694,"Je použitá náhrada – dôvod: %s Stlačte tlačidlo ""Stav peňazí alebo papiera"" a doplňte peniaze alebo odstráňte zaseknutie."
+ScotApp_1165,"Potiahnite tlačiareň opatrne dopredu, až západka zaklapne.\n\nZatvorte a zamknite dvierka na skrinke tlačiarne."
+ScotApp_1021,Pozor
+ScotApp_1230,ZĽAVA
+ScotApp_1484,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_912,Schváliť a aktualizovať hmotnosť
+ScotApp_723,723unused
+ScotApp_623,"Zadajte toleranciu na klávesnici a stlačte ""Enter"""
+ScotApp_523,Karta odmietnutá
+ScotApp_423,"Vložte kartu. Pozrite, či nemáte v košíku ďalší tovar."
+ScotApp_323,  Počet %d po %d/%s
+ScotApp_223,Záchytný priečinok čítačky kariet je plný
+ScotApp_123,123unused
+ScotApp_1020,Načítajte tovar
+ScotApp_923,923unused
+ScotApp_823,Schváliť storno
+ScotApp_1483,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1237,KUPÓN
+ScotApp_1680,Neriešiteľná chyba. Zatvorte pokladňu. Zavolajte firmu Gunnebo a oznámte jej informácie o chybe zobrazené nižšie.\n\nChyba modulu SafePay: %s
+ScotApp_702,702unused
+ScotApp_602,Upraviť/pridať \núdaj hmotnosti
+ScotApp_502,Odložte zrušený tovar nabok.
+ScotApp_402,Nie je
+ScotApp_302,Zadajte PIN na platobnom termináli.
+ScotApp_202,Test odhlásenia...
+ScotApp_102,Tovar bol stiahnutý z obehu
+ScotApp_1722,"Pokladňa je v školiacom režime, chcete pokračovať v transakcii?"
+ScotApp_902,Tovar bol odstránený z baliaceho priestoru. Vráťte tovar späť.
+ScotApp_802,"\nKupujete celé balenie\ntovaru: %s? \n\nZvoľte ""Áno"" alebo ""Nie""."
+ScotApp_568,Vymazať
+ScotApp_468,   Stiahnuté
+ScotApp_368,"Papier v tlačiarni nevložený, zaseknutý"
+ScotApp_268,Chyba čítania karty
+ScotApp_1027,"Ak chcete transakciu zrušiť stlačte ""Áno"" ak v nej chcete pokračovať stlačte ""Nie""."
+ScotApp_1354,Zobrať darčekovú kartu
+ScotApp_968,968unused
+ScotApp_868,Zadanie autorizačného čísla:
+ScotApp_1433,na taškovej váhe.
+ScotApp_1687,"Pomocou obrazovky ""Stav peňazí alebo papiera"" vložte hotovosť."
+ScotApp_1150,Dvierka na skrinke tlačiarne sú otvorené.
+ScotApp_1699,"Je použitá náhrada – dôvod: %s Doplňte peniaze alebo odstráňte zaseknutie a stlačte ""Chyba opravená""."
+ScotApp_1259,UŽÍVATEĽOM DEFINOVANÉ 1
+ScotApp_1223,"MÁLO PEŇAZÍ, PAPIERA"
+ScotApp_1379,jednotková cena
+ScotApp_1432,<<<Málo bankoviek. Doplňte.>>>
+ScotApp_1686,Neriešiteľná chyba. Zatvorte pokladňu. Zavolajte firmu Gunnebo a oznámte jej informácie o chybe zobrazené nižšie.\n\nChyba modulu SafePay: %s
+ScotApp_1157,Možno sú dvierka vydávača bankoviek otvorené.\n\nVydávač bankoviek nemôže pracovať s otvorenými dvierkami. \n\nDobre zatvorte bezpečnostné dvierka alebo dvierka vydávača a zaistite ich závorou.
+ScotApp_1013,Nahromadený tovar
+ScotApp_1184,VIAC ÚDAJOV
+ScotApp_1848,"Tovar vymazaný. Načítajte ďalší tovar alebo stlačte ""Zadajte kód""."
+ScotApp_1169,"Otvorte dvierka na skrinke tlačiarne.\n* Opatrne potiahnite tlačiareň vpred, až poistka zaklapne.\n* Zatvorte a zamknite dvierka na skrinke tlačiarne."
+ScotApp_1662,Iné účtenky
+ScotApp_1311,"* Vyberte prijímač bankoviek.\n* Otvorte modul prijímača.* \nSkontrolujte, či nie je zaseknutá bankovka, opravte a vráťte modul naspäť.\n* Skontrolujte, či sa motor prijímača rozbehne a zelená LED svieti."
+ScotApp_1025,Zoberte všetok tovar z pása a zatvorte bezpečnostný kryt.
+ScotApp_1378,hmotnosť
+ScotApp_22,Žiadny\nCash\nBack\n+ 0          \n(%s)
+ScotApp_1234,OBMEDZENIE MNOŽSTVA
+ScotApp_1685,Všeobecná chyba modulu mincí
+ScotApp_1156,"Skontrolujte, či je vypínač vydávača mincí zapnutý."
+ScotApp_1012,Váš tovar sa prepravuje.
+ScotApp_1365,MSR
+ScotApp_1235,AKTÍVNA BEZPEČNOSTNÁ VISAČKA
+ScotApp_1221,ODPOČET
+ScotApp_1143,Málo mincí alebo zásobník mincí nie je vložený.
+ScotApp_434,Typ dávky alebo potravinovej poukážky
+ScotApp_1625,"Vložte mince na doplnenie alebo stlačte tlačidlo ""Vybrať mince"" a vyberte ich."
+ScotApp_1430,Stornovať tovar
+ScotApp_1684,Chyba recyklátora mincí
+ScotApp_1155,Zariadenie je offline.
+ScotApp_834,Poplatky a zmluvy so zákazníkmi:
+ScotApp_799,Skontrolujte košík
+ScotApp_699,Nepredajný tovar
+ScotApp_599,Resetovanie modulu formulárov...
+ScotApp_499,499unused
+ScotApp_399,399unused
+ScotApp_299,299unused
+ScotApp_199,User Exits je načítaná.
+ScotApp_743,743unused
+ScotApp_643,Tovar vymazaný. Načítajte ďalší tovar.
+ScotApp_543,ID obsluhy nemôže mať viac než %d číslic.
+ScotApp_343,343unused
+ScotApp_243,Čítačka kariet: neplatná karta
+ScotApp_999,Limit prekročený
+ScotApp_899,Schváliť storno pre
+ScotApp_1220,EL. PRENOS
+ScotApp_1142,Chyba vydávača mincí
+ScotApp_943,Mám vlastnú tašku
+ScotApp_843,843unused
+ScotApp_1437,Prekročený limit odstráneného tovaru
+ScotApp_1601,     V zásobníku vydávača kariet je málo kariet
+ScotApp_722,722unused
+ScotApp_622,Upraviť toler. pre čiar. kód
+ScotApp_522,Nesprávny PIN
+ScotApp_422,422unused
+ScotApp_322,322unused
+ScotApp_222,"Postup pri obsluhe tlačiarne: Skontrolujte chyby na tlačiarni alebo v prehliadači udalostí, potom stlačte tlačidlo ""Odstránil(a) som problém""."
+ScotApp_122,122unused
+ScotApp_1010,1010unused
+ScotApp_922,922unused
+ScotApp_822,Schváliť stornovaný tovar
+ScotApp_1715,Schválenie odmietnutia pozastavenia
+ScotApp_1227,ČASOVÉ OBMEDZENIE
+ScotApp_701,701unused
+ScotApp_601,601unused
+ScotApp_401,"Vložte kartu. Pozrite, či nemáte v košíku ďalší tovar."
+ScotApp_301,Zadajte hodnotu kupónu
+ScotApp_201,Test prihlásenia...
+ScotApp_101,Neznáma cena
+ScotApp_1633,Chyba recyklátora bankoviek
+ScotApp_901,Schválenie nepoužitia tašiek.
+ScotApp_801,Nákup celého balenia
+ScotApp_1824,Elektronická účtenka nebola vytvorená.
+ScotApp_1328,Dvojnásobná hmotnosť
+ScotApp_1299,Začať transakciu a prejsť do režimu pomoci
+ScotApp_1226,TOVAR STIAHNUTÝ Z OBEHU
+ScotApp_1140,Zaseknutie vo vydávači bankoviek.
+ScotApp_1579,Prijímač bankoviek
+ScotApp_1426,%s\nJe %d správne?
+ScotApp_1632,"Odstráňte kryt bankoviek. Skontrolujte kábel k overovaču bankoviek a zopakujte. Ak sa chyba znova prejaví, zavolajte servis.\n\nChyba modulu SafePay: %s"
+ScotApp_1141,Výdaj %s sa nepodaril. POZOR: Bankovka môže byť zaseknutá v hornej časti vydávača.
+ScotApp_1791,Len hotovosť
+ScotApp_1357,Zobrať darčekovú kartu
+ScotApp_763,763unused
+ScotApp_714,714unused
+ScotApp_614,Povinné používanie tašiek
+ScotApp_514,514unused
+ScotApp_314,problém s priečinkom
+ScotApp_214,Kontrola debetu
+ScotApp_114,Tovar sa nedá zrušiť
+ScotApp_1369,Rôzne
+ScotApp_78,Debetná (bezhotovostne)
+ScotApp_1630,Chyba recyklátora bankoviek
+ScotApp_58,OK
+ScotApp_48,48unused
+ScotApp_914,"Choďte k pokladni, zoberte nadbytočný tovar a stlačte ""Vymazať alarm""."
+ScotApp_1422,Ručná čítačka
+ScotApp_18,Súčet
+ScotApp_1147,Chyba váhy v baliacom priestore
+ScotApp_1578,Celková hodnota:
+ScotApp_1022,Nechcem dať tento tovar \ndo tašky
+ScotApp_98,98unused
+ScotApp_88,88unused
+ScotApp_1003,Časové obmedzenie
+ScotApp_1434,Vekový limit
+ScotApp_1356,Zobrať
+ScotApp_1212,INÉ
+ScotApp_1455,Neplatné číslo
+ScotApp_1713,"Stlačte ""Schváliť"", ak chcete odmietnuť pozastavenie"
+ScotApp_1565,Zadajte doplňovanú hodnotu pre %s
+ScotApp_194,Načítanie aplikácie Device Manager...
+ScotApp_1275,UŽÍVATEĽOM DEFINOVANÉ 17
+ScotApp_1146,Prijímač neodpovedá.
+ScotApp_1303,Vernostná karta akceptovaná: č. %s
+ScotApp_70,70unused
+ScotApp_60,Požiadať o pomoc
+ScotApp_50,50unused
+ScotApp_40,Overenie predajne
+ScotApp_30,Stornovaný tovar
+ScotApp_20,20unused
+ScotApp_10,10unused
+ScotApp_1779,"Tovar sa nedá stornovať, kým nie je stornovaný jeho kupón. Najprv stornujte kupón tovaru."
+ScotApp_1211,PREDVOLENÉ
+ScotApp_90,90unused
+ScotApp_80,80unused
+ScotApp_663,Chyba zadania PIN
+ScotApp_463,Ukončovanie aplikácie Remote Approval...
+ScotApp_363,\nZadajte heslo obsluhy na klávesnici.
+ScotApp_163,163unused
+ScotApp_1420,Zrušiť tovar\n%s?
+ScotApp_1145,Chyba prijímača mincí
+ScotApp_963,Zrušiť požiadavku
+ScotApp_863,Zadanie hodnoty kupónu
+ScotApp_1816,Mince sú zaseknuté alebo dvierka otvorené.
+ScotApp_1637,Problém s káblom
+ScotApp_742,742unused
+ScotApp_642,Tovar pridaný. Načítajte ďalší tovar.
+ScotApp_542,Nedá sa vytvoriť čiarový kód obsluhy.
+ScotApp_342,Opis typu
+ScotApp_242,Čítačka kariet: zaseknutá karta
+ScotApp_142,Potvrďte sumu
+ScotApp_1210,POSLEDNÉ ZOBRAZENIE
+ScotApp_942,942unused
+ScotApp_842,842unused
+ScotApp_1044,Platba pri obsluhe
+ScotApp_1427,Zmena množstva tovaru: \n%s
+ScotApp_721,721unused
+ScotApp_621,Predvolené
+ScotApp_1341,Hlasitosť
+ScotApp_421,"Načítajte tovar alebo začnite stlačením tlačidla ""Spustiť""."
+ScotApp_321,Overovanie transakcie
+ScotApp_221,Zatvorte a zamknite dvierka na skrinke tlačiarne.
+ScotApp_121,tovar z tohto pultu.
+ScotApp_1636,Chyba recyklátora mincí
+ScotApp_921,Očakávaná hmotnosť na bezpečnostnej váhe.
+ScotApp_821,821unused
+ScotApp_600,Údržba zabezpečenia
+ScotApp_500,500unused
+ScotApp_400,400unused
+ScotApp_1368,Podpisový modul
+ScotApp_200,Testovanie aplikácie Transaction Broker...
+ScotApp_100,Zadajte množstvo
+ScotApp_1076,Pozor
+ScotApp_1623,Presunúť bankovky do kazety pre ich výber
+ScotApp_1340,Vypnúť celý systém
+ScotApp_1108,%s\t%s\t%s po %s %s/%s\t%s
+ScotApp_1814,Zásobník násypky je prázdny alebo nie je nasadený.
+ScotApp_1758,Chyba zásobníka kupónov
+ScotApp_1635,"Skontrolujte kábel k recyklátoru bankoviek a skúste znova. Ak sa chyba znova prejaví, zavolajte servis.\n\nChyba modulu SafePay: %s"
+ScotApp_1557,Vybrať vydávač
+ScotApp_734,734unused
+ScotApp_634,634unused
+ScotApp_534,Tovar s časovým obmedzením
+ScotApp_1413,Dokončite transakciu v priebehu nasledujúcich # minút. Čoskoro môže dôjsť k výpadku prúdu.
+ScotApp_334,Chyba čítačky kariet: chýba karta
+ScotApp_234,"Vytiahnite kazetu na bankovky.\n\nVyberte z kazety bankovky.\n\nZnova vložte kazetu, až poistka zaklapne.\n\nPotiahnite za rukoväť kazety, aby ste si overili, že poistka kazetu drží."
+ScotApp_1569,Hodnota
+ScotApp_1801,Prevádzkový režim
+ScotApp_934,Hmotnosť je vyššia
+ScotApp_1622,Kazeta
+ScotApp_768,Potvrdenie pozastavenia
+ScotApp_668,Tlač podpisu bola úspešná.
+ScotApp_1347,Obnovovanie spojenia
+ScotApp_1778,Vymazať alarm
+ScotApp_168,Načítajte kupóny a odložte ich nabok až do konca nákupu.
+ScotApp_1203,PODPÍSANÝ DOKUMENT
+ScotApp_1634,Problém s káblom
+ScotApp_1556,Vybrať prijímač
+ScotApp_1412,Funkcie pomoci
+ScotApp_1783,BEZPEČNOSTNÝ KRYT OTVORENÝ
+ScotApp_1232,SCHVÁLENÝ PODPIS
+ScotApp_1568,Celkový súčet:        %s
+ScotApp_1800,Zvoľte prevádzkový režim
+ScotApp_1495,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1621,Odomknúť kazetu bankoviek
+ScotApp_1346,Pokladňa je offline a systém sa pokúša znova pripojiť.
+ScotApp_72,72unused
+ScotApp_62,Áno
+ScotApp_52,Zrušiť kupóny
+ScotApp_42,Stornovaný tovar
+ScotApp_32,Pokračovať
+ScotApp_12,  Počet %d po %s/ks
+ScotApp_1411,Zmeniť množstvo
+ScotApp_92,Vitajte!
+ScotApp_82,82unused
+ScotApp_1807,_ _ _
+ScotApp_1089,Koniec obdobia pre zostavu
+ScotApp_1620,Odomknúť kryt bankoviek
+ScotApp_1345,Ukončovanie aplikácie Security Manager...
+ScotApp_1819,Chyby prijímača recyklátora mincí
+ScotApp_762,762unused
+ScotApp_662,%
+ScotApp_1554,Prijímač
+ScotApp_462,Remote Approval načítaná.
+ScotApp_362,Zadajte heslo
+ScotApp_262,262unused
+ScotApp_162,Načítajte svoj tovar a kupóny.
+ScotApp_1410,Zmeniť cenu
+ScotApp_962,"Zoberte stornovaný tovar v pokladni a stlačte ""Schváliť storno""."
+ScotApp_862,Zadanie hodnoty kupónu:
+ScotApp_1806,"\n* Stlačením ""Len karty"" ukončite transakciu a ručne vydajte peniaze zákazníkovi."
+ScotApp_1088,1088unused
+ScotApp_1627,Chyba recyklátora mincí alebo bankoviek
+ScotApp_741,741unused
+ScotApp_641,  Prm. hm.  Schvál.     Načít.    Typ tol.     Hod. tol.     Dátum
+ScotApp_541,Vytlačiť načítaný čiarový kód obsluhy
+ScotApp_441,Potvrďte sumu
+ScotApp_341,341unused
+ScotApp_241,Neočakávaná chyba aplikácie Device Manager
+ScotApp_141,Zvoľte typ karty
+ScotApp_941,Stornovaný tovar
+ScotApp_841,Tovar
+ScotApp_1873,1873unused
+ScotApp_25,Dátum narodenia:
+ScotApp_720,720unused
+ScotApp_520,Neznámy kód tovaru
+ScotApp_420,420unused
+ScotApp_320,Späť
+ScotApp_220,"* Otvorte dvierka na skrinke tlačiarne.\n* Otvorte kryt tlačiarne a skontrolujte, či nie je zachytený papier.\n* Vložte do tlačiarne novú rolku papiera.\n* Zatvorte a zamknite dvierka na skrinke tlačiarne."
+ScotApp_120,Transakcia je zrušená. Odstráňte
+ScotApp_1626,Vložte bankovky na doplnenie alebo zvoľte inú funkciu.
+ScotApp_1423,Ručná čítačka sa pokúša pripojiť.
+ScotApp_920,"Schváliť, neaktualizovať."
+ScotApp_820,Schváliť storno
+ScotApp_1757,"Ak chcete pridať dĺžeň alebo mäkčeň, stlačte tlačidlo ""Diakritika"" v dolnej časti obrazovky a napíšte písmeno."
+ScotApp_1872,1872unused
+ScotApp_754,Sumár – predchádzajúcich 7 dní
+ScotApp_554,Teraz nevkladajte nákupné karty.
+ScotApp_1613,Zásobník na odmietnuté peniaze
+ScotApp_354,Funkcie systému
+ScotApp_254,Vydávač mincí je nefunkčný.\nNaplňte vydávač mincí alebo\nho zapnite alebo\nodstráňte zaseknuté mince.
+ScotApp_154,Načítanie...
+ScotApp_1769,Zadať kód
+ScotApp_1240,HOTOVOSŤ
+ScotApp_954,Aplikácia Smart Scale sa nedá spustiť
+ScotApp_854,Päť kusov
+ScotApp_1547,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1403,"Zastavte a reštartujte program NCR SelfServ Checkout. Ak chyba stále pretrváva, obráťte sa na helpdesk."
+ScotApp_545,Tovar s obmedzením predaja
+ScotApp_1559,Ukončiť
+ScotApp_1871,%s %s zistené
+ScotApp_1612,Správa kariet
+ScotApp_1550,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_845,Načítať ďalší tovar:
+ScotApp_1564,Zadajte doplňovaný počet pre %s
+ScotApp_1768,Nepodporovaná jednotka hmotnosti.
+ScotApp_1272,UŽÍVATEĽOM DEFINOVANÉ 14
+ScotApp_1546,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_74,Schváliť storná
+ScotApp_64,Zrušiť zvolené
+ScotApp_54,Zrušiť
+ScotApp_44,44unused
+ScotApp_34,34unused
+ScotApp_1558,Skončiť a uložiť
+ScotApp_14,14unused
+ScotApp_1870,%s %s očakávané
+ScotApp_1389,Chyba skenera podpisov
+ScotApp_1611,     Zásobník na odmietnuté peniaze je plný
+ScotApp_94,94unused
+ScotApp_84,Načítať možnosti
+ScotApp_1289,B – C
+ScotApp_687,Tlač zostavy
+ScotApp_587,Podpis
+ScotApp_487,Nadol
+ScotApp_387,Transport zablokovaný
+ScotApp_287,Čítačka: Neplatná visačka
+ScotApp_1545,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1336,Nástroje
+ScotApp_987,Tovar odstránený z pása. Vráťte tovar späť.
+ScotApp_887,Tovar odstránený
+ScotApp_555,Iný druh platby
+ScotApp_1610,     Stav zásobníka na odmietnuté peniaze - takmer plný (%s)
+ScotApp_1041,Schválenie podpisu
+ScotApp_1691,Správa hotovosti
+ScotApp_1809,Chyby vydávača recyklátora mincí
+ScotApp_1288,A
+ScotApp_761,761unused
+ScotApp_1193,IDENTITA OVERENÁ
+ScotApp_561,Odložte kupón nabok
+ScotApp_461,Načítanie aplikácie Remote Approval...
+ScotApp_361,Pokladňa zatvorená
+ScotApp_261,261unused
+ScotApp_961,"Chyba databázy s učením hmotnosti: Skontrolujte chyby v prehliadači udalostí, potom stlačte tlačidlo ""Odstránil(a) som problém""."
+ScotApp_861,861unused
+ScotApp_1876,%s %s zistené
+ScotApp_740,740unused
+ScotApp_640,Existujúce položky vo váhovej DB
+ScotApp_540,540unused
+ScotApp_340,Vyberte tovar zo zoznamu. Na listovanie nahor a nadol použite tlačidlá so šípkami.
+ScotApp_240,Nešpecifikovaná chyba aplikácie Device Manager
+ScotApp_140,Ďakujeme vám
+ScotApp_1105,e=d=0.005 kg Max 13.995 kg min 0.1 kg Nmax 2799
+ScotApp_1192,POPLATOK ZA SKOMPLETOVANIE
+ScotApp_940,Storno
+ScotApp_840,Tovar:
+ScotApp_1863,Stlačte „Schváliť“ alebo „Stornovať tovar“
+ScotApp_1463,Hodnota mincí
+ScotApp_1875,%s %s očakávané
+ScotApp_774,Získané body:
+ScotApp_674,"""Platba odmietnutá. Dôvod: """
+ScotApp_780,780unused
+ScotApp_474,474unused
+ScotApp_374,Tlačiareň – čierne značky
+ScotApp_174,Načítaný tovar sa nedá nájsť. Nebol ešte zakúpený alebo už bol zrušený.
+ScotApp_1029,Vložiť kupón
+ScotApp_974,974unused
+ScotApp_1679,Chyba knižnice bankoviek
+ScotApp_1747,Chyba čítačky odtlačkov
+ScotApp_1862,Skontrolujte tovar na váhe
+ScotApp_1603,     V zásobníku vydávača kariet je normálny stav kariet
+ScotApp_1419,Viackusové balenie
+ScotApp_1759,Zásobník kupónov je plný
+ScotApp_649,Pevná cena
+ScotApp_1039,Predchádzajúci tovar mal bezpečnostnú visačku (bezpečnostné visačky).
+ScotApp_849,Zadajte množstvo
+ScotApp_765,765unused
+ScotApp_565,Prihlásenie obsluhy
+ScotApp_1549,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1861,ZOZNAM TOVARU
+ScotApp_1731,Načítanie obrázkov zo zoznamu tovaru ...
+ScotApp_76,76unused
+ScotApp_66,66unused
+ScotApp_56,Zrušiť platbu
+ScotApp_46,Pomocník
+ScotApp_36,Vrátené:
+ScotApp_26,26unused
+ScotApp_16,%s sa zaúčtuje na vašu kartu.
+ScotApp_719,719unused
+ScotApp_619,Zvoľte <Zadať toleranciu> alebo <Predvolené> pre úpravu aktuálnej tolerancie.
+ScotApp_519,Kupón má príliš vysokú hodnotu
+ScotApp_419,419unused
+ScotApp_319,Platba kartou
+ScotApp_219,219unused
+ScotApp_119,Zrušiť všetok tovar
+ScotApp_96,96unused
+ScotApp_86,86unused
+ScotApp_1755,Vyberte zo zoznamu.
+ScotApp_1038,Overiť podpis
+ScotApp_919,"Skontrolujte hmotnosť tovaru a stlačte ""Schváliť a aktualizovať hmotnosť"" alebo stlačte ""Schváliť, neaktualizovať""."
+ScotApp_1489,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1745,Zariadenie na kontrolu odtlačkov prstov je odpojené.\n\nSkúste znova.
+ScotApp_1860,Please select from picklist assisted items or look-up item alphabetically.
+ScotApp_1268,UŽÍVATEĽOM DEFINOVANÉ 10
+ScotApp_1008,1008unused
+ScotApp_786,Pozastavené pri pokladni
+ScotApp_686,Včera
+ScotApp_586,Kupóny: %0.0ld/$%0.2lf
+ScotApp_486,Nahor
+ScotApp_386,Kazeta vybraná
+ScotApp_286,Čítačka: Neplatná predpona (2) kódu visačky
+ScotApp_186,186unused
+ScotApp_1488,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_986,986unused
+ScotApp_886,Tovar zobraný z baliaceho priestoru.\nVráťte tovar späť.
+ScotApp_1393,"Zastavte a reštartujte program NCR SelfServ Checkout. Ak chyba pretrváva, obráťte sa na helpdesk."
+ScotApp_1867,Výhľad kamery je blokovaný
+ScotApp_68,68unused
+ScotApp_38,38unused
+ScotApp_28,Zrušiť nákup
+ScotApp_1024,1024unused
+ScotApp_760,Potiahnite kartu zariadením na boku tohto monitora.
+ScotApp_660,Stav peňazí všade normálny
+ScotApp_460,Týmto sa nákup dokončí.
+ScotApp_360,Zatvoriť pokladňu
+ScotApp_260,260unused
+ScotApp_1392,Chyba majáčika
+ScotApp_960,"Porucha na taškovej váhe: Skontrolujte chyby na taškovej váhe alebo v prehliadači udalostí, potom stlačte tlačidlo ""Odstránil(a) som problém""."
+ScotApp_860,Treba odvážiť alebo zmerať:
+ScotApp_1866,Viac populárnych tovarov
+ScotApp_1459,Zostava správy hotovosti
+ScotApp_1239,NIE JE
+ScotApp_1301,Upraviť zoznam tovaru
+ScotApp_1749,Spracúvanie odtlačku
+ScotApp_1017,Odstráňte nahromadený tovar z pása.
+ScotApp_1771,Limit hodnoty kupónov
+ScotApp_739,739unused
+ScotApp_639,Očak. hmot.   Porov. hmot.
+ScotApp_539,539unused
+ScotApp_439,439unused
+ScotApp_339,339unused
+ScotApp_239,Neočakávaný stav aplikácie Device Manager
+ScotApp_1092,Obsah zostavy
+ScotApp_1851,Neschváliť  
+ScotApp_1238,INÝ DRUH PLATBY
+ScotApp_939,Limit uplynul
+ScotApp_839,Zrušiť akciu
+ScotApp_1333,Backspace
+ScotApp_24,Stornované
+ScotApp_1016,Na páse je nahromadený tovar
+ScotApp_1615,"Stlačením tlačidla ""Vybrať vydávač"" vyberte peniaze"
+ScotApp_1723,Cvičná trans.
+ScotApp_1028,Prah kupónov bol prekročený
+ScotApp_1435,Chyba vydávača mincí alebo bankoviek
+ScotApp_1698,"Stlačte tlačidlo ""Chyba opravená""."
+ScotApp_1688,Chyba kazety
+ScotApp_454,454unused
+ScotApp_1593,Vybrať mince
+ScotApp_1642,Chyba recyklátora bankoviek
+ScotApp_1015,Nahromadený tovar
+ScotApp_785,785unused
+ScotApp_685,Po hodinách
+ScotApp_585,585unused
+ScotApp_536,Prijímač mincí
+ScotApp_385,385unused
+ScotApp_285,Čítačka: Neplatná prípona kódu visačky
+ScotApp_185,Porovnajte zákazníkov podpis s podpisom na karte.
+ScotApp_1224,CHÝBA CENA
+ScotApp_985,Položte tovar na pás.
+ScotApp_885,Upozornenie – baliaci priestor
+ScotApp_575,Ukončite platbu v hotovosti. Na zaplatenie.
+ScotApp_475,Pozastavenie transakcie
+ScotApp_375,Časový limit tlačiarne vypršal
+ScotApp_1002,Nepredajné
+ScotApp_1888,"Skontrolujte zákazníkov nákup (tovar, platba) a stlačte „Vymazať alarm“."
+ScotApp_910,910unused
+ScotApp_1592,"Odstráňte zaseknuté mince zo zásobníka. Nakloňte zásobník. Otáčajte skrutku doprava, až budete môcť mincu vybrať. Nepoužívajte násilie."
+ScotApp_875,Kód hlavného pokladníka pre zrušenie nákupu
+ScotApp_1014,Odstráňte nahromadený tovar z pása.
+ScotApp_1572,Naozaj chcete ignorovať zmeny na obrazovke Správa mincí?
+ScotApp_1790,Len kreditné a debetné
+ScotApp_1344,Security Manager je načítaný.
+ScotApp_798,798unused
+ScotApp_698,698unused
+ScotApp_598,Nepodarilo sa uložiť formulár %d!
+ScotApp_498,Zaplatené:
+ScotApp_398,Kazeta vložená
+ScotApp_298,298unused
+ScotApp_198,Načítanie aplikácie User Exits...
+ScotApp_998,Množstvo
+ScotApp_898,Ukončovanie aplikácie WTINFO...
+ScotApp_1416,Kontrola viackusového balenia
+ScotApp_1431,Stornovať všetko
+ScotApp_1236,Spracúvanie zostavy...
+ScotApp_1770,Zvoľte z výsledkov hľadania.
+ScotApp_1000,Nenájdené
+ScotApp_1439,Prekročený limit pre tašky (krabice)
+ScotApp_1217,STORNO
+ScotApp_759,Potiahnite kartu cez platobný terminál.
+ScotApp_659,Stav peňazí:
+ScotApp_559,Žiadne kupóny
+ScotApp_459,Pri tomto nákupe stále zostáva neuhradená suma.
+ScotApp_359,Funkcie systému
+ScotApp_259,Ukončovanie aplikácie Device Manager...
+ScotApp_1007,Žiadosť o pomoc
+ScotApp_1438,Prekročený limit nového tovaru
+ScotApp_959,Databáza s učením hmotnosti
+ScotApp_859,Nie
+ScotApp_1216,ZABEZPEČENIE
+ScotApp_1373,ZOBRAŤ DARČEKOVÚ KARTU
+ScotApp_1005,Vizuálna kontrola
+ScotApp_1655,Tržba za oddelenie
+ScotApp_1228,POZASTAVENÉ
+ScotApp_1725,Alarm zrušený
+ScotApp_1006,Iný spôsob platby
+ScotApp_496,Limit množstva
+ScotApp_1018,rokov minimálne.
+ScotApp_1160,"Skontrolujte, či je do klávesnice PIN zapojený kábel.\n\nAk je kábel správne zasunutý, stlačte ""Pokračovať"".\n\nAk chyba pretrváva, reštartujte terminál."
+ScotApp_1073,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;DATANEEDEDTYPE=%d;
+ScotApp_1424,"Pre pripojenie ručnej čítačky stlačte tlačidlo ""Pripojiť""."
+ScotApp_1202,POKLADŇA ZATVORENÁ
+ScotApp_679,Zostavy zásahov obsluhy
+ScotApp_1792,Len karty
+ScotApp_1214,ÚČTENKA
+ScotApp_1804,Skončiť len kartový režim
+ScotApp_879,879unused
+ScotApp_1072,Treba informácie
+ScotApp_1631,Chyba overovača bankoviek
+ScotApp_1148,Váha neodpovedá.
+ScotApp_1244,ÚSPORY DEBETU
+ScotApp_1004,Skontrolovať tovar
+ScotApp_1282,Chýba cena pre
+ScotApp_1071,1071unused
+ScotApp_1276,UŽÍVATEĽOM DEFINOVANÉ 18
+ScotApp_1200,ZADANIE CENY
+ScotApp_1639,Chyba recyklátora mincí
+ScotApp_1828,\n    - Hlasitosť %d%%
+ScotApp_1308,PIN zadaný
+ScotApp_1417,"Ak je tovar vo viackusovom balení, stlačte ""Režim pomoci"" a zrušte ho. Potom načítajte čiarový kód viackusového balenia."
+ScotApp_1343,Načítanie aplikácie Security Manager...
+ScotApp_779,779unused
+ScotApp_1429,<<<Málo mincí. Doplňte.>>>
+ScotApp_579,579unused
+ScotApp_479,Odovzdajte kupóny.
+ScotApp_379,Prijímač bankoviek
+ScotApp_279,Potvrďte všetky zaznamenané alarmy.
+ScotApp_179,179unused
+ScotApp_1865,Nájsť tovar\n bez hmotnosti
+ScotApp_1207,OVERENÝ PODPIS
+ScotApp_1638,"Skontrolujte káble k recyklátoru mincí a skúste znova. Ak sa chyba znova prejaví, zavolajte servis.\n\nChyba modulu SafePay: %s"
+ScotApp_979,Prah = %d požiadaviek zákazníkov
+ScotApp_707,Predchádzajúcich 7 dní
+ScotApp_607,Nastaviť povinné používanie tašiek
+ScotApp_507,Vizuálna kontrola tovaru
+ScotApp_307,Iná krabička
+ScotApp_207,207unused
+ScotApp_107,Pomoc je na ceste
+ScotApp_1219,VEKOVÝ LIMIT
+ScotApp_907,907unused
+ScotApp_807,Odstrániť bezpečnostné visačky
+ScotApp_1077,Vráťte tovar na pás
+ScotApp_1428,Zmena ceny tovaru: \n%s
+ScotApp_1695,Vyriešiť neskôr
+ScotApp_1206,NEDEAKTIVOVANÝ TOVAR
+ScotApp_1218,ODBER
+ScotApp_1782,ZAČAŤ TRANSAKCIU V ASIST. REŽ.
+ScotApp_1273,UŽÍVATEĽOM DEFINOVANÉ 15
+ScotApp_1624,Presunúť všetky bankovky do kazety
+ScotApp_793,793unused
+ScotApp_1059,1059unused
+ScotApp_593,Načítanie aplikácie NCR SelfServ Checkout SigCap...
+ScotApp_493,Účtenka sa vytlačí pod platobným zariadením.
+ScotApp_393,Tlačiareň zostáv
+ScotApp_293,Žiadosť o pomoc
+ScotApp_1205,NAHROMADENIE V BALIACOM PRIESTORE
+ScotApp_993,Pokladňa zatvorená
+ScotApp_893,Načítanie aplikácie DBM...
+ScotApp_1063,1063unused
+ScotApp_1414,Táto pokladňa bude mimo prevádzky až do obnovenia prúdu.
+ScotApp_1182,LIMIT HODNOTY KUPÓNOV
+ScotApp_1201,PLATBA S OBSLUHOU
+ScotApp_1075,Limit\nna tovar mimo pása
+ScotApp_1348,Pokladňa zatvorená
+ScotApp_1671,Otvorte recyklátor bankoviek a vyberte bankovky z kazety. Zatvorte recyklátor.\nVyberte mince z násypky a z misky na drobné.
+ScotApp_1204,ČÍSLO DOKUMENTU
+ScotApp_1284,1284unused
+ScotApp_1062,1062unused
+ScotApp_1233,INÝ DRUH PLATBY
+ScotApp_27,27unused
+ScotApp_1074,Schválenie nepoužitia pása.
+ScotApp_1472,Recyklátor bankoviek nie je pripravený
+ScotApp_1026,Zrušenie transakcie
+ScotApp_1061,1061unused
+ScotApp_1617,Zadaná hodnota prekročila kapacitu. Znova zadajte doplňovaný počet do zásobníka vydávača. Maximálna kapacita je %d.
+ScotApp_1050,1050unused
+ScotApp_744,744unused
+ScotApp_1591,Skontrolujte pripojenie káblov k vydávaču mincí
+ScotApp_1130,Chyba prijímača bankoviek
+ScotApp_1270,UŽÍVATEĽOM DEFINOVANÉ 12
+ScotApp_1629,Problém s nastaveniami procesora alebo parametrami systémových dát. Zavolajte servis.\n\nChyba modulu SafePay: %s
+ScotApp_1820,"Odstráňte tovar z váhy a stlačte tlačidlo "">0<"" na čítačke."
+ScotApp_882,Potvrďte pozastavenie.
+ScotApp_1440,Správa bankoviek
+ScotApp_1407,REŠTARTOVAŤ
+ScotApp_727,727unused
+ScotApp_627,Číslo transakcie
+ScotApp_527,527unused
+ScotApp_427,Míňa sa médium
+ScotApp_327,"Zariadenia, ktoré majú chybu:"
+ScotApp_227,Čítačka kariet: vložená neplatná karta
+ScotApp_127,127unused
+ScotApp_665,"Zvoľte ""Zrušiť všetko"" alebo ""Späť""."
+ScotApp_1060,ČAKAJTE...
+ScotApp_1616,Zadajte doplňovaný počet do zásobníka vydávača. Maximálne môžete doplniť %d.
+ScotApp_927,Porucha zariadenia
+ScotApp_827,Prejdite čiarovým kódom tovaru nad snímačom a položte ho do baliaceho priestoru.
+ScotApp_1540,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_900,Vložte tovar do baliaceho priestoru.
+ScotApp_1277,UŽÍVATEĽOM DEFINOVANÉ 19
+ScotApp_865,Skontrolovať majiteľa karty
+ScotApp_506,506unused
+ScotApp_406,406unused
+ScotApp_306,Bez krabičky
+ScotApp_206,Možnosti sa načítajú.
+ScotApp_106,Žiadosť o pomoc
+ScotApp_1209,PREKROČENÝ LIMIT DARČEKOVÝCH KARIET
+ScotApp_806,Schváliť tovar vyžadujúci vizuálnu kontrolu
+ScotApp_1067,1067unused
+ScotApp_1418,Prekročená maximálna hmotnosť.
+ScotApp_1473,"Zariadenie nie je pripravené. \n\nZapnite ho, skontrolujte komunikačný kábel alebo dajte zariadenie späť do skrinky. "
+ScotApp_187,187unused
+ScotApp_1716,OH:
+ScotApp_1190,ZADANÝ KUPÓN
+ScotApp_1602,     Míňajú sa karty vo vydávači kariet (%s)
+ScotApp_1149,Chyba tlačiarne účteniek
+ScotApp_1066,1066unused
+ScotApp_1614,Zásobník vydávača
+ScotApp_792,792unused
+ScotApp_692,692unused
+ScotApp_592,NCR SelfServ Checkout Encryptor načítaná.
+ScotApp_492,"Zoberte si drobné, prosím."
+ScotApp_392,Neznámy tovar
+ScotApp_292,Nedá sa načítať kupón
+ScotApp_192,192unused
+ScotApp_1241,KREDITNÁ
+ScotApp_1197,ZRUŠENÁ TRANSAKCIA
+ScotApp_1548,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_992,Zadať dátum narodenia
+ScotApp_892,Ukončovanie aplikácie Smart Scale...
+ScotApp_1053,"Vyčkajte, kým vám pokladník prinesie potvrdenku na podpis."
+ScotApp_1404,Server predajne je vypadnutý alebo nesynchronizovaný. Vypnite terminál vypínačom.
+ScotApp_1245,KONTROLA DEBETU
+ScotApp_1262,UŽÍVATEĽOM DEFINOVANÉ 4
+ScotApp_1471,Chyba recyklátora mincí
+ScotApp_1196,ČÍSLO OBČIANSKEHO PREUKAZU
+ScotApp_1052,1052unused
+ScotApp_1600,Stav vydávača kariet:
+ScotApp_1663,zásobník je prázdny alebo zaseknutý
+ScotApp_1261,UŽÍVATEĽOM DEFINOVANÉ 3
+ScotApp_1125,"Doplňte všetky stĺpce mincí v zásobníku mincí až po vrch.\n\nPrepnite do režimu zamestnanca, zvoľte ""Stav peňazí, papiera"" a stlačte tlačidlo ""Zásobník mincí doplnený""."
+ScotApp_1183,ZADANIE CENY
+ScotApp_1470,Chyba recyklátora bankoviek
+ScotApp_1195,ZMLUVA SO ZÁKAZNÍKOM POZASTAVENÁ
+ScotApp_1229,ZAVOLANÁ POMOC
+ScotApp_1051,Schválenie dokladu
+ScotApp_1607,     Stav zásobníka na odmietnuté peniaze je normálny (%s)
+ScotApp_1895,Genr Excp
+ScotApp_747,747unused
+ScotApp_647,N
+ScotApp_447,Váš účet častého zákazníka bol aktivovaný.
+ScotApp_347,"Tovar s obmedzením predaja bol zrušený - nedosiahnutý vekový limit. Prosím, odložte tovar nabok."
+ScotApp_247,247unused
+ScotApp_147,147unused
+ScotApp_1260,UŽÍVATEĽOM DEFINOVANÉ 2
+ScotApp_1619,"Pozastavenie, dôvod"
+ScotApp_769,Potvrďte alebo zrušte pozastavenie.
+ScotApp_947,Nový tovar na váženie
+ScotApp_847,Načítanie dokončené
+ScotApp_1477,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_726,726unused
+ScotApp_626,Tolerancia:
+ScotApp_526,\nZadaný nesprávny PIN.\nZasuňte inú kartu\n   alebo\nzaplaťte v hotovosti
+ScotApp_426,Pokladňa č.:
+ScotApp_326,Dátum narodenia nevyhovuje vekovému limitu pre limitovaný tovar.
+ScotApp_226,Čítačka kariet je nefunkčná
+ScotApp_126,(mmddrr).
+ScotApp_1606,     Zásobník na odmietnuté peniaze – stav normálny
+ScotApp_926,Tovar nebol vrátený do baliaceho priestoru.
+ScotApp_826,Nechcem dať tento tovar \ndo tašky
+ScotApp_1267,UŽÍVATEĽOM DEFINOVANÉ 9
+ScotApp_1618,"Kazeta vydávača bankoviek chýba alebo nie je dobre vložená.\n\nSprávne vložte kazetu s bankovkami, kým západka nezaklapne."
+ScotApp_1181,PRAH KUPÓNOV BOL PREKROČENÝ
+ScotApp_205,Kopírovanie je dokončené.
+ScotApp_105,Neznámy tovar
+ScotApp_1476,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1730,Hľadať
+ScotApp_1390,Zariadenie neodpovedá
+ScotApp_805,Schválenie tovaru
+ScotApp_1864,Prejdite k pokladni
+ScotApp_1408,POMOC
+ScotApp_1266,UŽÍVATEĽOM DEFINOVANÉ 8
+ScotApp_1180,NIE JE ZODPOVEDAJÚCA CENA
+ScotApp_1208,PREDANÉ V REŽIME POMOCI
+ScotApp_1475,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1397,Obsluha
+ScotApp_1748,Zlyhanie prihlásenia odtlačkom
+ScotApp_718,718unused
+ScotApp_618,Tolerancia hmotnosti
+ScotApp_518,Vložte peniaze.
+ScotApp_1253,PIP VERNOSTNÁ
+ScotApp_1604,     Stav kariet vo vydávači kariet je normálny(%s)
+ScotApp_218,V tlačiarni takmer niet papiera
+ScotApp_118,Je potrebné schválenie
+ScotApp_552,Kód obsluhy a heslo nemôžu začínať nulou.
+ScotApp_791,Zvoľte spôsob platby
+ScotApp_691,691unused
+ScotApp_591,Načítanie aplikácie NCR SelfServ Checkout Encryptor...
+ScotApp_391,Tovar na vyjasnenie ceny
+ScotApp_918,Chýba záznam o hmotnosti tovaru.
+ScotApp_1187,CHYBA ZARIADENIA
+ScotApp_991,Kontrola veku
+ScotApp_891,Smart Scale načítaná.
+ScotApp_1474,Chyba hardvéru. Kód chyby je E%d
+ScotApp_1396,Odchod z režimu obsluhy
+ScotApp_1252,PIP DEBETNÁ CASH BACK
+ScotApp_1732,Obrázky zo zoznamu tovaru načítané.
+ScotApp_1461,Mince
+ScotApp_1166,"* Otvorte dvierka na skrinke tlačiarne.\n* Odistite a potlačte tlačiareň dozadu.\n* Otvorte kryt tlačiarne a skontrolujte, či nie je zachytený papier.\n* Zatvorte kryt tlačiarne a znova vložte papier.\n* Potiahnite tlačiareň opatrne vpred, až poistka zaklapne."
+ScotApp_1186,NEOČAKÁVANÉ ZNÍŽENIE
+ScotApp_1857,  Neklaďte na pás
+ScotApp_1829,Schváliť
+ScotApp_1670,Chyba recyklátora mincí alebo bankoviek
+ScotApp_1198,ZADANÉ ČÍSLO ÚČTU
+ScotApp_1869,Ruka pred kamerou
+ScotApp_1251,PIP DEBETNÁ
+ScotApp_1855,Voliteľné
+ScotApp_767,Zásoba médií normálna
+ScotApp_667,Karta bola načítaná. Načítajte svoj tovar a kupóny.
+ScotApp_567,Enter
+ScotApp_467,467unused
+ScotApp_367,367unused
+ScotApp_267,Zabezpečené
+ScotApp_1460,Bankovky
+ScotApp_1185,PREKROČENÝ LIMIT PRE TAŠKY (KRABICE)
+ScotApp_1009,Režim zamestnanca
+ScotApp_867,Nie
+ScotApp_1856,  Nebaľte
+ScotApp_1677,"Skontrolujte, či sú dvierka na recyklátore mincí zatvorené."
+ScotApp_746,746unused
+ScotApp_646,Á
+ScotApp_1394,Chyba digitálneho rozhrania
+ScotApp_446,Pozastaviť transakciu
+ScotApp_346,Bankomat (Cash Back)
+ScotApp_246,246unused
+ScotApp_146,Zvoľte spôsob platby.
+ScotApp_1501,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1609,     Zásobník na odmietnuté peniaze je takmer plný
+ScotApp_1194,AUTORIZAČNÉ ČÍSLO
+ScotApp_946,Schválenie pre tašku alebo krabicu
+ScotApp_846,"Načítajte ďalší tovar alebo stlačte tlačidlo ""Načítanie dokončené""."
+ScotApp_1843,Vl. taš.
+ScotApp_1467,"Pomocou obrazovky ""Stav peňazí alebo papiera"" vyberte hotovosť."
+ScotApp_725,725unused
+ScotApp_625,Zadajte toleranciu hmotnosti medzi <%s> a <%s>.
+ScotApp_1381,Spracúvanie...
+ScotApp_425,425unused
+ScotApp_325,Zadaný dátum nie je platný
+ScotApp_225,Záchytný priečinok čítačky kariet vložený
+ScotApp_1676,Otvorené dvierka recyklátora mincí
+ScotApp_925,925unused
+ScotApp_825,Vložte do tašky
+ScotApp_1608,     Zásobník na odmietnuté peniaze je prázdny
+ScotApp_1842,Plná pomoc
+ScotApp_1808,Zvoľte položku na účtenke.
+ScotApp_1466,Stav recyklátora bankoviek – plný
+ScotApp_1380,cena
+ScotApp_1854,Voliteľné
+ScotApp_1675,Chyba recyklátora mincí
+ScotApp_1597,Vernostná karta
+ScotApp_1350,%s\n%s %s pridané
+ScotApp_738,738unused
+ScotApp_638,Info o tolerancii hodnôt z váhovej DB
+ScotApp_538,538unused
+ScotApp_338,Zadajte prvé tri písmená opisu tovaru.
+ScotApp_238,\nPrijímač bankoviek nezaprotokoloval vloženú hotovosť.\n\nSkontrolujte kazetu na bankovky.
+ScotApp_138,Vyberte kartu
+ScotApp_1170,Otvorte dvierka na skrinke tlačiarne.\n* Otvorte kryt tlačiarne a odstráňte všetok zachytený papier.\n* Zatvorte kryt tlačiarne a znova vložte papier.\n* Zatvorte a zamknite dvierka na skrinke tlačiarne.
+ScotApp_1841,Choďte k pokladni pre schválenie
+ScotApp_1740,Kontrola tašiek
+ScotApp_938,938unused
+ScotApp_838,Zmluva so zákazníkom
+ScotApp_1133,Zaseknutie v prijímači bankoviek.
+ScotApp_1387,"Stala sa kritická chyba softvéru.\nReštartujte terminál.\n\nReštart terminálu:\n* Otočte kľúč vedúceho do polohy ""S"" alebo stlačte tlačidlo vedúceho.\n* Zvoľte ""Reštartovať celý systém"".\n* Zavolajte podporu a informujte ju o chybe."
+ScotApp_1674,"Stlačte tlačidlo odmietnutia mincí a uvoľnite tak zaseknuté mince. Ak sa chyba opakuje, mohlo dôjsť k zaseknutiu mincí. Otvorte kryt mincí a zaistite ho. Odstráňte zaseknuté mince. Resetujte tlačidlom Odmietnutie. Uvoľnite a zatvorte kryt mincí."
+ScotApp_1650,(ddmmrr)
+ScotApp_690,690unused
+ScotApp_590,Ukončovanie aplikácie Device Factory...
+ScotApp_490,"Načítajte tovar alebo začnite stlačením tlačidla ""Spustiť""."
+ScotApp_390,Stiahnutý tovar
+ScotApp_290,290unused
+ScotApp_190,Načítanie aplikácie Transaction Broker...
+ScotApp_990,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_890,Načítanie aplikácie Smart Scale...
+ScotApp_1772,Kupón
+ScotApp_1661,"Účtenka sa nedá vytlačiť. Stlačte ""Iné účtenky"" a skúste znova."
+ScotApp_1132,Chyba komunikácie.
+ScotApp_1386,Kritická chyba
+ScotApp_784,Vydávač bankoviek je mimo prevádzky\n* Naplňte vydávač alebo\n* odstráňte zaseknuté bankovky alebo \n*upravte zásob. odmietnutých peňazí.
+ScotApp_684,Dnes
+ScotApp_584,Platba sociálnou kartou odmietnutá.
+ScotApp_484,Je potrebný podpis
+ScotApp_384,384unused
+ScotApp_284,Čítačka: Stratené dáta
+ScotApp_1595,Hlavný jazyk
+ScotApp_1451,Kód pokladníka
+ScotApp_984,Takeaway Belt načítaná.
+ScotApp_884,Zrušiť pozastavenie
+ScotApp_1847,"Tovar pridaný. Načítajte ďalší tovar alebo stlačte ""Zadajte kód""."
+ScotApp_1660,Zvoľte možnosti tlače
+ScotApp_1131,Kazeta na bankovky chýba alebo nie je správne vložená.
+ScotApp_1385,Zvoľte jazyk
+ScotApp_1436,Prekročený limit nepoužitia tašiek
+ScotApp_1049,1049unused
+ScotApp_666,666unused
+ScotApp_1594,Správne vypnite a reštartujte terminál.
+ScotApp_466,   Načítaný neznámy tovar
+ScotApp_366,Zaseknutý nôž tlačiarne
+ScotApp_266,Ukončovanie Sec.Agent...
+ScotApp_966,966unused
+ScotApp_1541,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1846,"Načítajte tovar alebo stlačte ""Zadajte kód""."
+ScotApp_1667,Zaseknuté bankovky
+ScotApp_1689,Chyba recyklátora bankoviek
+ScotApp_745,745unused
+ScotApp_645,Znova dajte načítaný tovar do baliaceho priestoru.
+ScotApp_1581,Vydávač mincí
+ScotApp_445,Peniaze na karte sociálnych dávok
+ScotApp_345,345unused
+ScotApp_245,Čítačka kariet je nefunkčná
+ScotApp_145,145unused
+ScotApp_945,Limit\npre tašky alebo krabice
+ScotApp_713,713unused
+ScotApp_613,Položte tovar na taškovú váhu.
+ScotApp_513,513unused
+ScotApp_313,313unused
+ScotApp_213,213unused
+ScotApp_113,Zrušiť tovar
+ScotApp_1573,"Stlačte tlačidlá ""Doplniť"" a doplňte peniaze alebo tlačidlá ""Vybrať prijímač"" a ""Vybrať vydávač"" pre výber peňazí."
+ScotApp_913,Neočakávaný tovar na bezpečnostnej váhe.
+ScotApp_813,"Zadajte číslo obj. a názov úlohy, potom stlačte ""Enter"""
+ScotApp_1666,Chyba recyklátora bankoviek
+ScotApp_1137,Kazeta na bankovky %s nie je vložená.
+ScotApp_1580,Vydávač bankoviek
+ScotApp_758,758unused
+ScotApp_658,míňajú sa peniaze
+ScotApp_558,Tovar s obmedzením množstva
+ScotApp_1653,Hodnota prekračuje kapacitu. Maximálna hodnota je %s. Hodnota %s bola automaticky zadaná.
+ScotApp_358,Návrat do režimu pomoci
+ScotApp_258,Ukončovanie aplikácie Transaction Broker...
+ScotApp_158,"Tento tovar si vyžaduje schválenie obsluhou. Prosím, pokračujte."
+ScotApp_1844,Hľadanie
+ScotApp_958,Tašková váha
+ScotApp_858,Áno
+ScotApp_1136,Zásobník na odmietnuté bankovky chýba alebo nie je správne zachytený závorou.
+ScotApp_1587,Naozaj chcete ignorovať zmeny na obrazovke Správa bankoviek?
+ScotApp_1531,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1599,Vaše nastavenie jazyka %s sa nenašlo.
+ScotApp_1652,(rrmmdd)
+ScotApp_1123,"* NEPOKRAČUJTE, kým nie sú odstránené všetky zaseknuté bankovky.\n* Opatrne vytiahnite vydávač bankoviek zo skrinky.\n* Odstráňte bankovky zaseknuté v hornej časti vydávača. Nenarušte pri tom pásy.\n* Zatlačte vydávač bankoviek späť do skrinky.\n*  Zamknite dvierka, a potom stlačte ""Odstránil(a) som problém""."
+ScotApp_1342,Zvoľte nástroj
+ScotApp_1332,Medzerník
+ScotApp_1586,%s    %s  %s
+ScotApp_1444,Odstrániť
+ScotApp_1598,Hlavný jazyk aktivovaný.
+ScotApp_1651,(rrrrmmdd)
+ScotApp_1122,Vo výstupe vydávača môže byť zaseknutá bankovka.\n\nPovytiahnite vydávač bankoviek zo skrinky.\n\nOdstráňte zaseknuté bankovky. \n\nOpatrne zatlačte vydávač bankoviek späť do skrinky.
+ScotApp_1331,Shift
+ScotApp_1585,Zásobníky              Hodnota  Hodnota mincí
+ScotApp_1118,Problém s výdajom bankoviek %s.\n\nBankovky %s sa nedajú vybrať z kazety.\n\nVyberte kazetu na bankovky %s a skontrolujte stav bankoviek.
+ScotApp_1884,Varovanie Inteligentného asistenta
+ScotApp_1191,TREBA ODVÁŽIŤ ALEBO ZMERAŤ
+ScotApp_1121,V zobrazenej oblasti môže byť zaseknutá bankovka.\n\nPovytiahnite vydávač bankoviek zo skrinky.\n\nOdstráňte zaseknuté bankovky. \n\nOpatrne zatlačte vydávač bankoviek späť do skrinky.
+ScotApp_503,503unused
+ScotApp_403,403unused
+ScotApp_1849,
+ScotApp_1330,Tovar nie je v taškách
+ScotApp_1355,Máte k dispozícii
+ScotApp_1584,Zásobníky              Počet  Počet mincí
+ScotApp_465,%s               %s
+ScotApp_365,Zaseknutá hlava tlačiarne
+ScotApp_265,265unused
+ScotApp_965,965unused
+ScotApp_633,Podpis:
+ScotApp_433,433unused
+ScotApp_333,Chyba čítačky kariet: zablokovaná štrbina
+ScotApp_233,"Skontrolujte, či je prijímač bankoviek správne vložený.\n\nPotiahnite rukoväť vpred, aby ste prijímač uvoľnili a vysuňte ho vpred.\n\nZatlačte prijímač bankoviek dozadu až na doraz."
+ScotApp_133,133unused
+ScotApp_1120,"Pred kazetou bankoviek %s sa možno zasekli bankovky.\n\nVyberte kazetu %s a skontrolujte, či tam nie sú zaseknuté bankovky.\n\nAk sa dá, odstráňte zaseknuté bankovky a zasuňte kazetu späť."
+ScotApp_1805,Skončiť len hotovostný režim
+ScotApp_933,Rozdiel v hmotnosti
+ScotApp_833,833unused
+ScotApp_1337,Ukončiť NCR SelfServ Checkout
+ScotApp_1780,ZAČAŤ TRANSAKCIU
+ScotApp_712,712unused
+ScotApp_612,Pridať hmotnosť
+ScotApp_512,Vizuálna kontrola
+ScotApp_312,priečinok je zaseknutý
+ScotApp_212,212unused
+ScotApp_112,Potvrdiť množstvo
+ScotApp_1081,Zobraziť\nvšetky pokladne
+ScotApp_778,778unused
+ScotApp_678,678unused
+ScotApp_578,Ukončite platbu kartou. Na vrátenie.
+ScotApp_478,Odovzdajte kupóny.
+ScotApp_378,Tlačiareň účteniek
+ScotApp_278,Protokol alarmov:
+ScotApp_1127,Znova zapojiť
+ScotApp_1802,Akceptovať len karty
+ScotApp_978,Prah = %d
+ScotApp_878,Zadajte cenu.
+ScotApp_1533,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1787,"Zadajte počet použitých plastových vreciek alebo 0, ak ste ich nepoužili."
+ScotApp_1799,Len kartový režim
+ScotApp_1309,"* Zasuňte kazetu až po zaklapnutie závory.\n* Skontrolujte, či sa motor prijímača bankoviek na chvíľu rozbehne."
+ScotApp_1323,Predmet je na váhe
+ScotApp_1079,Znova položte načítaný tovar na pás.
+ScotApp_1382,(norm.)
+ScotApp_1532,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1786,Poplatok za plastové vrecko
+ScotApp_1094,Vytlačiť podpisy
+ScotApp_1113,  %s po %s/%s\t%s
+ScotApp_1798,Len hotovostný režim
+ScotApp_1322,Chyba snímača kupónov\nZlyhanie komunikácie.
+ScotApp_1078,Zvoľte nastavenie podľa očakávanej hmotnosti. (Zákazník musí položiť tovar na pás.)
+ScotApp_1334,  Tovar nie je na páse
+ScotApp_1785,Neplatné prihásenie. Znova sa prihláste na klávesnici alebo odtlačkom prsta.
+ScotApp_1046,Zoberte %s k pokladníkovi.
+ScotApp_1696,Chyba opravená
+ScotApp_1112,  %s po %s %s/%s\t%s
+ScotApp_1158,Chyba klávesnice PIN alebo zariadenia el. platby
+ScotApp_1065,1065unused
+ScotApp_1321,Ukončite platbu poukážkou. Na zaplatenie.
+ScotApp_764,764unused
+ScotApp_1530,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1784,TOVAR VO VIACKUSOVOM BALENÍ
+ScotApp_1070,1070unused
+ScotApp_49,49unused
+ScotApp_1111,  počet %s po %s/%s\t%s
+ScotApp_753,"Včera, po hodinách"
+ScotApp_653,"Zadajte hodnotu kupónu v centoch a stlačte ""Enter""."
+ScotApp_453,Stav prijímača mincí: plný
+ScotApp_353,Späť
+ScotApp_253,253unused
+ScotApp_153,153unused
+ScotApp_1320,Začnite platbu poukážkou.
+ScotApp_953,"Vypnite a reštartujte terminál:\n\nOtočte kľúč vedúceho do polohy ""S"" alebo stlačte tlačidlo vedúceho.\nZvoľte ""Vypnúť celý systém"".\nKeď z obrazovky zmizne obraz, odpojte terminál zo zásuvky alebo zdroj.\nZapnite terminál. Ak sa chyba znova prejaví, zavolajte servis."
+ScotApp_853,Štyri kusy
+ScotApp_1845,Účtenka
+ScotApp_1537,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_732,732unused
+ScotApp_632,632unused
+ScotApp_532,Tovar s obmedzením predaja
+ScotApp_432,PLATBA ZO SOC. KARTY
+ScotApp_332,Ukončovanie režimu pomoci
+ScotApp_232,"* Vyberte prijímač bankoviek a kazetu.\n* Skontrolujte, či bankovka nie je zaseknutá v kazete.\n* Otvorte horné dvierka prijímača a skontrolujte, či tam nie je bankovka zaseknutá.\n* Pevne zatvorte dvierka.\n* Vráťte prijímač a kazetu na miesto."
+ScotApp_132,132unused
+ScotApp_1110,  počet %s po %s/ks\t%s
+ScotApp_1242,DEBETNÁ
+ScotApp_1285,Populárne
+ScotApp_932,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_832,832unused
+ScotApp_1327,"Stlačte požadovaný typ zostavy a potom tlačidlo ""Vytvoriť zostavu""."
+ScotApp_711,711unused
+ScotApp_611,Zvoľte požadovanú funkciu.
+ScotApp_511,Porovnajte zákazníkov podpis s podpisom na karte.
+ScotApp_411,Zoberte vernostnú kartu
+ScotApp_311,priečinok je prázdny
+ScotApp_111,Vynulovať váhu
+ScotApp_1789,KUPÓN
+ScotApp_1536,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_911,Vymazať alarm
+ScotApp_811,"Načítajte darčekovú kartu. Pozrite, či nemáte v košíku ďalší tovar."
+ScotApp_1628,Chyba procesora
+ScotApp_1523,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1349,%s\n %s\n%s %s očakávané\n%s %s zistené
+ScotApp_1892,Bezpečnostná analýza
+ScotApp_1279,ŠEK
+ScotApp_1535,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1057,1057unused
+ScotApp_1441,Správa mincí
+ScotApp_1313,"* Skontrolujte, či nie je v tlačiarni zaseknutý papier.\n* Znova vložte papier.\n* Správne vypnite a reštartujte terminál."
+ScotApp_1681,Chyba recyklátora bankoviek
+ScotApp_1069,1069unused
+ScotApp_1325,Položte tovar na váhu.
+ScotApp_1278,UŽÍVATEĽOM DEFINOVANÉ 20
+ScotApp_1103,Predchádzajúci
+ScotApp_1534,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_1056,1056unused
+ScotApp_1312,"* Vyberte kazetu na bankovky.\n* Otvorte ju a vyberte bankovky.\n* Zatvorte a znova vložte do prijímača.\n* Skontrolujte, či sa motor prijímača rozbehne a zelená LED svieti."
+ScotApp_1265,UŽÍVATEĽOM DEFINOVANÉ 7
+ScotApp_1850,"Zariadenia, ktoré majú chybu:"
+ScotApp_1213,NEZNÁME
+ScotApp_1521,Odstránenie problému nájdite v návode na používanie zariadenia.
+ScotApp_139,Vezmite si účtenku
+ScotApp_1043,Na prijatie %s od zákazníka použite režim pomoci.
+ScotApp_1401,Prebieha pomoc.\n\nČakajte...
+UnknownItemMessage,Obsluha je na ceste.\n\nOdložte tovar nabok a pokračujte.
+TimeRestrictedItemMessage,Tento tovar sa teraz nedá kúpiť.\n\nOdložte ho nabok a pokračujte v nákupe.
+ItemQuantityExceededMessage,"Prekročili ste množstvo povolené pre tento tovar.\n\nProsím, odložte ho nabok a pokračujte."
+WeightMismatch,Kontrola hmotnosti tovaru.\n\nČakajte ...
+ItemQuantityExceeded,Limit množstva Prekročené
+WaitForRemoteAssistanceTitle,Vzdialená obsluha
+ScotApp_489,Ďakujeme vám za použitie samoobslužnej pokladne NCR.
+ScotApp_273,Teraz nenačítavajte.\nOdložte tovar nabok.
+ScotApp_431,Neplatná vernostná karta. Skontrolujte.
+ScotApp_410,"Je potrebná pomoc, dôvod:"
+ScotApp_1739,"Počkajte, prosím, na obsluhu.\nSystém nemohol skontrolovať tašky. \n Ak ste do baliaceho priestoru náhodou položili niečo iné než tašky, odstráňte to, prosím."
+ScotApp_73,Návrat do nákupného režimu
+ScotApp_772,Užívateľ si vyžiadal pozastavenie aktuálnej transakcie.\nPotvrďte túto požiadavku alebo ju zrušte.
+ScotApp_530,Chyba pri čítaní karty.\nPoužite inú kartu\n   alebo\nzaplaťte v hotovosti.\n   alebo\nzavolajte pomoc.
+ScotApp_524,Zadaný nesprávny PIN.\nZnova zadajte PIN na platobnom zariadení.
+ScotApp_397,V režime pomoci predajte platný tovar.\nZoberte zvyšný nepredajný tovar.
+ScotApp_171,"""%s""\n\nJe %d správne?"
+ScotApp_1374,\n---------------------------------------\n
+ScotApp_1646,Transakcia je pozastavená. Dajte všetok tovar nabok.
+ScotApp_495,"Prekročili ste množstvo povolené pre tento tovar.\n\nProsím, odložte ho nabok a pokračujte."
+ScotApp_529,"Vyberte kartu, a potom...\nvložte inú kartu\n   alebo\nzaplaťte v hotovosti.\n   alebo\nzavolajte pomoc."
+ScotApp_275,Teraz nevkladajte kartu.\nVyberte kartu.
+ScotApp_1891,Prebieha systémové overovanie. \nČakajte...
+ScotApp_1750,"Vyčkajte, kým sa spracuje váš odtlačok."
+ScotApp_169,Chcete pokračovať v nákupe?
+ScotApp_415,Zoberte si vernostnú kartu.\nKarta bola vložená skôr.
+ScotApp_1793,Tento stroj teraz akceptuje len kreditné a debetné karty.\nChcete pokračovať?
+ScotApp_477,Odovzdajte kupóny.\nPo vytlačení účtenky:\n-- Vezmite si tovar.\n-- Vezmite účtenku a kupóny k pokladníkovi.
+ScotApp_177,Celý nákup zrušený. Dajte všetok tovar nabok.
+ScotApp_656,"Prosím, odložte <%s> nabok.\nPredavač vám pomôže."
+ScotApp_1709,Teraz nevkladajte bankovky ani mince.\nZoberte si vrátenú hotovosť.\nBankovky sa vydávajú pod čítačkou.
+ScotApp_435,"Vyberte typ dávky alebo potr. poukážky.\nAk chcete použiť potravinové poukážky z odboru soc. starostlivosti, použite ich ako prvé."
+ScotApp_808,Vezmite tovar s visačkami k obsluhe a požiadajte o odstránenie.
+ScotApp_294,"Ak potrebujete pomoc obsluhy, stlačte tlačidlo ""Požiadať o pomoc""."
+ScotApp_1287,Čakajte ...\nKontrola hmotnosti tovaru.
+ScotApp_525,"Zadaný nesprávny PIN.\nVyberte kartu, a potom...\nvložte inú kartu\n   alebo\nzaplaťte v hotovosti"
+ScotApp_480,"Stlačte tlačidlo ""OK"", a potom zoberte doklad a tovar k pokladníkovi."
+ScotApp_1751,Odstráňte všetko z taškovej váhy a stlačte Pokračovať.
+ScotApp_175,"Chcete odstrániť\n""%s""\nz účtenky?"
+ScotApp_1746,Server na kontrolu odtlačkov prstov je nedostupný.\nSkúste znova.
+ScotApp_1839,Vyčkajte na pokladníka.\nTeraz nenačítavajte. Odložte tovar nabok.
+ScotApp_501,Podpíšte účtenku a vyčkajte na schválenie obsluhou.
+ScotApp_414,Zoberte si vernostnú kartu.\nNa váš aktuálny nákup sa nedajú použiť zľavy. Zľavy budú zaslané poštou.
+ScotApp_563,Chyba pri inicializácii aplikácie Hard Totals.\nAplikácia teraz skončí.
+ScotApp_263,"Tovar sa nedá stornovať, kým nie je stornovaný jeho kupón.\nNajprv stornujte kupón tovaru."
+ScotApp_800,"Skontrolujte nákupný košík.\n\nNačítajte ďalší tovar alebo \nstlačte ""OK"" a zaplaťte."
+ScotApp_134,Prebieha overovanie. \nČakajte.
+ScotApp_620,Zadať toleranciu
+ScotApp_161,"%s\nZadajte množstvo tovaru na klávesnici a stlačte tlačidlo ""OK""."
+ScotApp_440,Celková hodnota poukážok nestačí na zaplatenie nákupu.\nChcete na zaplatenie použiť zvyšné peniaze %s na sociálnej karte?
+ScotApp_184,%s sa stiahne z vášho účtu.
+ScotApp_274,Teraz nevkladajte hotovosť.\nVyberte peniaze.
+ScotApp_1744,Zariadenie nerozpoznalo váš odtlačok.\nSkúste znova.
+ScotApp_160,Tovar bol stiahnutý.\nObsluha je na ceste.\nDajte tovar nabok a pokračujte v nákupe.
+ScotApp_1795,"Alebo obmedzte na ""Len karty""."
+ScotApp_159,Cena tovaru je neznáma.\nObsluha je na ceste.\nDajte tovar nabok a pokračujte v nákupe.
+ScotApp_458,Zvoľte typ dávky alebo potravinovej poukážky.\nSociálne poukážky na stravu sa nedajú použiť na tento nákup.
+ScotApp_1329,Čakajte ...\nKontrola hmotnosti tovaru.\nDvojnásobná hmotnosť v taškách.
+ScotApp_407,Chyba pri čítaní karty.\n*  Skúste inú kartu\n   alebo\n*  zavolajte pomoc
+ScotApp_706,"Hodnota soc. poukážok na stravu nestačí na zaplatenie celého nákupu.\nAk chcete použiť iný spôsob platby, stlačte ""OK""."
+ScotApp_606,Zmazať údaje hmotnosti
+ScotApp_906,Zoberte si tovar.
+ScotApp_705,"Hotovosť na sociálnej karte nestačí na zaplatenie celého nákupu.\nAk chcete použiť iný spôsob platby, stlačte ""OK"" method."
+ScotApp_605,Pridať údaj hmotnosti
+ScotApp_405,Chyba pri čítaní karty.\n*  Skúste inú kartu\n   alebo\n*  zaplaťte v hotovosti\n   alebo\n*  zavolajte pomoc
+ScotApp_491,Zoberte si kartu.
+ScotApp_818,"Vyčkajte na pokladníka.\nJe potrebná pomoc, dôvod:"
+ScotApp_1796,"Alebo obmedzte na ""Len hotovosť""."
+ScotApp_438,Hodnota potravinovej poukážky nestačí na zaplatenie nákupu.\nChcete na zaplatenie použiť zvyšnú hodnotu %s potravinových poukážok?
+ScotApp_1596,"Chcete uložiť %s ako váš hlavný jazyk na kartu %s?\nZvoľte ""Áno"" alebo ""Nie""."
+ScotApp_766,%s sa stiahne z vášho účtu.
+ScotApp_166,Obsluha je na ceste.\nPokračujte v nákupe.
+ScotApp_413,Zoberte si vernostnú kartu.\nPoužijú sa ceny so zľavou.
+ScotApp_1797,"Spôsob nápravy neopravil chybu.\nSkúste znova alebo obmedzte na ""Len hotovosť""."
+ScotApp_178,Vyčkajte na schválenie obsluhou.\nSchválenie je nutné pre:
+ScotApp_790,Karta bola odmietnutá.\n Zvoľte si iný spôsob platenia.
+ScotApp_1794,Tento stroj teraz akceptuje len hotovosť.\nNespracuje kreditné ani debetné karty.\nChcete pokračovať?
+ScotApp_412,"Tento tovar spôsobí, že váš nákup prevýši %s.\nTeraz zaplaťte a ďalší tovar kúpte samostatne."
+ScotApp_546,Nemáte dostatočný vek na nákup tohto tovaru.\nOdložte ho nabok a pokračujte v nákupe.
+ScotApp_553,Kupóny sa prijímajú na konci nákupu.\nOdložte ich nabok a pokračujte.
+ScotApp_211,Spracúvanie...\nČakajte.
+ScotApp_1400,Vzdialená obsluha
+ScotApp_1754,Písmená sa nezhodujú s tovarom.\nSkúste znova.
+ScotApp_1859,"Kupujete celé balenie tovaru: %s? Zvoľte ""Áno"" alebo ""Nie""."
+ScotApp_533,Tento tovar sa teraz nedá kúpiť.\nOdložte ho nabok a pokračujte v nákupe.
+ScotApp_1763,e=d=%5.3fkg Max %5.3f kg min %3.1f kg Nmax %4.0f
+ScotApp_1762,e=d=%4.2flb Max %4.2f lb min %3.1f lb Nmax %4.0f
+ScotApp_1764,e = d = %4.2f lb Max %4.2f lb Min %3.1f lb Nmax %4.0f
+ScotApp_1765,e = d = %5.3f kg Max %5.3f kg Min %3.1f kg Nmax %4.0f
+ScotApp_305,Zvoľte krabičku pre: %s
+ScotApp_703,"Použite klávesnicu na PIN. Ak chcete platbu zrušiť, stlačte ""Cancel"" na klávesnici pre PIN."
+ScotApp_125,"Zadajte dátum narodenia zákazníka %s a stlačte ""Schváliť""."
+ScotApp_1853,"Zadajte dátum narodenia zákazníka %s a stlačte ""Enter"". "
+ScotApp_654,Dátum musí byť vo formáte %s.Zadaná hodnota: %s
+ScotApp_560,Tento systém neprijíma kupóny.
+ScotApp_1788,Je %d správne? \n\nSuma %s za vrecká sa pridá k celkovej čiastke.
+ScotApp_1358,Suma %s z darčekovej karty bola odpočítaná od ceny nákupu. \n\nZostatok na darčekovej karte je %s.
+ScotApp_167,Kupón nezodpovedá žiadnemu zakúpenému tovaru.\n\nTento kupón sa nedá akceptovať.
+ScotApp_164,"Systém nepozná tento kód tovaru.\n\nSkontrolujte, či ste zadali správne číslo."
+ScotApp_547,Nesprávne číslo a heslo obsluhy.\n\nSkúste znova.
+ScotApp_442,%s z nákupu možno uhradiť potravinovými poukážkami.\n\n%s
+ScotApp_443,%s sa stiahne z vášho účtu.\n\nSúhlasíte?
+ScotApp_700,Tovar sa nedá predať pri tejto pokladni.\nObsluha je na ceste.\n\nDajte tovar nabok a pokračujte v nákupe.
+ScotApp_165,Systém nepozná tento kód tovaru.\nObsluha je na ceste.\n\nDajte tovar nabok a pokračujte v nákupe.
+ScotApp_182,"Suma, ktorú ste zadali za tento kupón, je príliš vysoká.\n\nTento systém nemôže akceptovať tento kupón."
+ScotApp_733,Karta odmietnutá.\nPoužite inú kartu alebo zaplaťte v hotovosti.
+ScotApp_812,Ďakujeme vám za použitie samoobslužnej pokladne NCR.\nOdneste darčekovú kartu k pokladníkovi.
+ScotApp_1826,Chcete uložiť svoje preferencie na vernostnú kartu?
+ScotApp_1852,Vyberte zrušený tovar z baliaceho priestoru.
+QRCodeErrorText,QR Code Error
+ScanQRCodeInstruction,Scan this code to complete\nyour Mobile shopping.
+ScotApp_1896,Transferring items from mobile cart.
+ScotApp_1897,Čakajte...
+ScotApp_1898,Mobile Cart
+ScotApp_1899,Mobile Audit
+ScotApp_1900,Mobile Shopper Audit
+ScotApp_1901,"Touch ""OK"" then use Attendant Handset to complete audit."
+ScotApp_1902,Begin Mobile Transaction
+ScotApp_1903,End Mobile Transaction
+ScotApp_1904,%d Items Sold
+ScotApp_1905,Scan barcode to complete your Mobile checkout.
+ScotApp_1906,Mobile cart transfer is complete.
+ScotApp_1907,\nTouch Pay or add more items.
+MoveLeft,< Move
+MoveRight,Move >
+Accessibility,Accessibility
+SearchItemCodeWatermark,Enter Item Code
+ScanAndBagNoSearchKeyIn,Scan or look up item to start
+ScanLookUpKeyInItem,"Scan, look up, or key in item code to start."
+LookUpKeyInItem,Look up or Key in Item
+ScanOrKeyInItem,Scan or Key in Item
+XM_MenuSetupLoaderV6HW,Nastaviť vkladač
+XM_SetupLoaderNotEmptyV6HW,"\nWhen swapping loaders, because the current loader\ncount is greater than zero, manually remove the notes from the current loader and add the notes to the new loader."
+RemoveItemFromProduceScale,Remove item from scale.
+RemoveItemFromProduceScaleTitle,Remove Item

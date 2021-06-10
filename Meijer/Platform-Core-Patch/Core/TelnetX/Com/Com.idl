@@ -1,0 +1,97 @@
+// Com.idl : IDL source for Com.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (Com.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+#include "enums.idl"
+#include "dispids.idl"
+#include <olectl.h>
+
+
+interface ITelnetXCom;
+
+	[
+		object,
+		uuid(BB1EFC06-01E0-4db9-A10D-485A06DACFF8),
+		helpcontext(10001),
+		dual,
+		nonextensible,
+		helpstring("ITelnetXComNotify Interface"),
+		pointer_default(unique)
+	]
+	interface ITelnetXComNotify: IDispatch
+	{
+		[id(1), helpstring("Fires when Telnet/X is connected to remote server."), helpcontext(10100)] HRESULT Connected(ITelnetXCom *Object);
+		[id(2), helpstring("Fires when Telnet/X is disconnected from remote server."), helpcontext(10101)] HRESULT Disconnected(ITelnetXCom *Object);
+		[id(3), helpstring("Fires when Telnet/X receives data from remote server."), helpcontext(10102)] HRESULT Received(ITelnetXCom *Object, long BytesCount);
+		[id(4), helpstring("Fires when Telnet/X has debugging data for the program."), helpcontext(10103)] HRESULT Debug(ITelnetXCom *Object, BSTR DebugMsg);
+		[id(5), helpstring("Fires when Telnet/X changes its state."), helpcontext(10104)] HRESULT StateChanged(ITelnetXCom *Object, TelnetXStatesEnum NewState, TelnetXStatesEnum OldState);
+		[id(6), helpstring("Fires when remote server prints command prompt and awaits for new command."), helpcontext(10105)] HRESULT Prompt(ITelnetXCom *Object);
+		[id(7), helpstring("Fires when Telnet/X receives special code sequence from server."), helpcontext(10106)] HRESULT SpecialCode(ITelnetXCom *Object, BSTR ReceivedData, BSTR *ResponseData);
+		[id(8), helpstring("Fires when Telnet/X receives server's public key in SSH negotiation."), helpcontext(10107)] HRESULT SSHCheckServerKey(ITelnetXCom *Object, BSTR ServerKey, short Length, VARIANT_BOOL *Cancel);
+	};
+
+
+	[
+		object,
+		uuid(8EFCE878-B4BC-4423-9ADE-23D0228C158A),
+		nonextensible,
+		dual,
+		helpstring("ITelnetXCom Interface"),
+		pointer_default(unique)
+	]
+	interface ITelnetXCom : IDispatch
+	{
+
+		#include "properties.idl"
+		[propget, id(DISPID_notificationobject), helpstring("Notification object for fast sink."), helpcontext(240)] HRESULT NotificationObject([out, retval] ITelnetXComNotify * *pVal);
+		[propput, id(DISPID_notificationobject), helpstring("Notification object for fast sink."), helpcontext(240)] HRESULT NotificationObject([in] ITelnetXComNotify * newVal);
+	};
+
+[
+	uuid(C78DCC56-741E-463C-88C1-C4DF80852CCF),
+	version(1.0),
+	helpstring("Mabry Internet Telnet/X COM Object")
+]
+library MabryTelnetXCOMLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(454CEF83-5689-4F4E-9EC8-7253E096166D),
+		helpstring("_ITelnetXComEvents Interface")
+	]
+	dispinterface _ITelnetXComEvents
+	{
+		properties:
+		methods:
+		[id(1), helpstring("Fires when Telnet/X is connected to remote server."), helpcontext(110)] void Connected(void);
+		[id(2), helpstring("Fires when Telnet/X is disconnected from remote server."), helpcontext(111)] void Disconnected(void);
+		[id(3), helpstring("Fires when Telnet/X receives data from remote server."), helpcontext(112)] void Received(long BytesCount);
+		[id(4), helpstring("Fires when Telnet/X has debugging data for the program."), helpcontext(113)] void Debug(BSTR DebugMsg);
+		[id(5), helpstring("Fires when Telnet/X changes its state."), helpcontext(114)] void StateChanged(TelnetXStatesEnum NewState, TelnetXStatesEnum OldState);
+		[id(6), helpstring("Fires when remote server prints command prompt and awaits for new command."), helpcontext(115)] void Prompt(void);
+		[id(7), helpstring("Fires when Telnet/X receives special code sequence from server."), helpcontext(116)] void SpecialCode(BSTR ReceivedData, BSTR *ResponseData);
+		[id(8), helpstring("Fires when Telnet/X receives server's public key in SSH negotiation."), helpcontext(117)] void SSHCheckServerKey(BSTR ServerKey, short Length, VARIANT_BOOL *Cancel);
+	};
+	
+
+	[
+		uuid(FE2A7162-6987-433F-BF0C-46DA5D0F4C99),
+		helpstring("TelnetXCom Class")
+	]
+	coclass TelnetXCom
+	{
+		[default] interface ITelnetXCom;
+		[default, source] dispinterface _ITelnetXComEvents;
+	};
+	
+
+	
+		
+};

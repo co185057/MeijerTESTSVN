@@ -1,0 +1,21 @@
+// CustomerMHSlip.cpp: implementation of the CCustomerMHSlip class.
+//
+//////////////////////////////////////////////////////////////////////
+#include "stdafx.h"
+#include "CustomerMHSlip.h"
+#include "tracesystem.h"
+
+#define T_ID _T("CCustomerMHSlip")
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CCustomerMHSlip::CCustomerMHSlip()
+{
+}
+
+CCustomerMHSlip::~CCustomerMHSlip()
+{
+}
+

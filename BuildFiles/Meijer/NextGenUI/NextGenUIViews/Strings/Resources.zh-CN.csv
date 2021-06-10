@@ -1,0 +1,2720 @@
+﻿AmountSaved,节省金额
+Assistance,客服协助
+AssistanceComing,客服人员即将前来，请继续。
+Back,返回
+BagItem,请把该商品装袋。
+BagItemCart,商品装袋
+BagItemOrSkip,请把该商品装袋，或选择跳过。
+CallForHelp,求助?
+Cancel,取消
+CancelAll,取消所有
+CancelCoupons,取消优惠券
+CancelPayment,取消付款
+CantScanCoupon,无法扫描优惠券
+CartPay,支付
+Change,更改：
+Confirm,您想全盘取消此次购物吗？
+ConfirmQuantity,{0} 是否正确?
+Continue,您要继续吗？
+CouponMessage,把优惠券放到一旁。并在购物结束时把优惠券丢入其收集容器。
+DepositCard,请把您废弃的礼品卡放入优惠券插槽。
+DepositCoupon,请把优惠券丢入其收集容器。
+DepositGiftCard,存放礼品卡
+Disconnected,请稍候。...
+Done,完成
+Due,应办事项：{0}
+EditCart,修改购物车中商品
+Enter,输入
+EnterAmount,输入金额
+EnterCouponValue,以分为单位输入优惠券金额，然后按“OK（确定）”
+EnterId,输入您的ID号码。
+EnterPassword,输入您的密码
+EnterPin,输入密码
+EnterQuantity,您有多少件商品？
+EnterWeight,将商品放到秤台上:
+Finish,感谢您来我店购物。
+FinishAndAdd,完成并添加
+GiftCard,礼品卡余额
+GoBack,返回
+IncorrectLogin,店员号码和密码不正确。\n请再试一次。
+InsertCash,请插入现金
+InsertCoupon,插入优惠券
+InvalidBarcodeScan,请把商品放到一旁，然后继续购买。
+Item,{0} 商品
+Items,{0} 商品
+ItemsAddedFormat,{0} 商品被添加到购物车中。
+Language,语言
+NCRCorp,NCR Corp
+No,否
+OK,OK
+Or,或
+OtherPayment,其它付款
+OtherPaymentMethod,其它付款方式
+OwnBag,自备购物袋
+Paid,已支付：{0}
+PayAnotherWay,以其它方式支付
+PointsEarned,挣得的积分
+PrintReceipt,打印收据
+Proceed,继续
+Remove,取出
+RemovedItem,我已删除商品
+RestrictedItem,有条件限制的商品
+ReturnToScan,返回
+ScanAndBag,请首先扫描、搜索或键入商品代码。
+ScanCoupon,扫描优惠券
+ScanGiftCard,扫描礼品卡
+ScanNextItem,请扫描下一件商品。
+ScanVoucher,扫描凭证
+SearchResultsFor,“{0}”的搜索结果
+SearchWatermark,请输入商品名称或代码
+SearchItemNameWatermark,Enter Item Name
+SearchKeyInItem,搜索或键入商品
+SelectCashBack,选择现金返还金额
+SelectLanguage,请选择语言
+SelectPaymentType,选择付款类型
+SellBags,您用多少个塑料袋？若不需要塑料袋，请输入0。
+SignNeeded,需要签名
+SignSignature,在签名板上签名。
+SkipBagging,跳过装袋步骤
+Space,空格键
+StartScanning,开始扫描
+StoreLogin,商店登录
+TakeCash,请取走返回的现金
+TakeChange,请取走找零
+TakeReceipt,请取走收据
+Tax,税费
+TimeRestrictedItem,有时间限制的商品
+Total,共计
+TouchCancel,若取消付款，请按密码键盘的Cancel（取消）键。
+TryAgain,再试一次
+UnexpectedDecreaseMessage,把商品返还到装袋区。
+UnexpectedIncreaseMessage,把商品从装袋区撤出。
+UsePinpad,请使用密码键盘
+VoidItem,扫描不需要的商品，或单击收据上的 “取出”。
+Volume,音量
+Yes,是
+ItemNumberAmount,NOI :  
+WeightExpected,WE :  
+WeightObserved,WO :  
+UnknownPriceMessage,不知道商品的价格。\n客服人员正在前来。\n\n请把商品放到一旁，然后继续。
+SetAllItemsAsideMessage,整个购物已取消。\n\n请把所有商品放到一旁。
+ConfirmAbortMessage,您确定要清空购物车吗？本次交易将被取消。
+NoKeep,不，保留。
+NoReturn,不，返回到交易中。
+YesEmpty,是的，请清空购物车，然后结束交易。
+YesRemove,是的，请删除。
+HostOfflineMessage,该结帐通道脱机，系统正尝试重新连接。
+LaneClosedMessage,结帐通道已关闭
+LoadingText,正在载入
+VerifyBagsMessage,如果您不小心把除了袋子以外的其它东西放入装袋区，请立即将其取出。
+HelpOnWay,客服人员正在前来。请继续
+OwnBagMessage,请把您的袋子放到秤台上。
+UseOwnBag,我用自带的购物袋
+AttendantMode,店员模式
+AttendantTrainingMode,店员和训练模式
+TrainingMode,训练模式
+ScaleBroken,请从秤盘上取走商品，然后按扫描仪上的“秤清零”按钮。
+Refunded,退款:
+EnterIDMessage,输入用户名并按“输入”按钮。
+EnterIDText,请输入用户名
+EnterPasswordMessage,输入密码并按“输入”按钮。
+EnterPasswordText,请输入密码
+VisualVerify,肉眼检查
+SingleItemAddedFormat,{0} 商品被添入购物车。
+Approved,已获准
+VoidItemBeforeCouponMessage,作废优惠券之前无法剔除商品。请首先作废商品的优惠券。
+VerifyBags,店员将检查您的袋子。
+CancelItems,取消商品
+EnterQuantityTitle,需要数量
+SecUnExpectedIncreaseTitle,装袋提示
+WeightMismatchTitle,需要协助
+AssistanceNeededTitle,需要协助
+CheckBasketTitle,检查购物篮
+ConfirmDebitAmountTitle,确认金额
+DropoffCouponsTitle,把优惠券丢入其收集容器
+InsufficientBalanceTitle,余额不足
+OperatorPasswordStateInvalidPasswordWithFPTitle,指纹登录失败
+PurchaseCrateTitle,成箱购物
+RestrictedItemTitle,有条件限制的商品
+SecBagAreaBackupTitle,堆积商品
+SignChargeTitle,收据签名
+TakeCardTitle,请取走卡
+ContinueTitle,继续吗？
+ApprovalNeededTitle,需要批准
+IncorrectLoginTitle,号码不正确
+RecalledItemTitle,召回商品
+RemovedItemTitle,装袋提示
+SetAllItemsAsideTitle,把商品放到一旁
+TakeLoyaltyCardTitle,请拿好会员优惠卡
+UnknownPriceTitle,未知价格
+ConfirmEBTAmountTitle,确认金额
+DisconnectedTitle,已断开
+ShuttingDown,正在关闭
+NoneText,无
+SMText,商店模式
+SMLogInReceiptText,登录到商店模式
+SMLogOutReceiptText,退出商店模式
+WLDBOffLineText,重量数据库：离线
+OperatorIDText,店员编号： 
+SignOnButtonText,登录
+SignOffButtonText,退出登录
+AlertText,提示：
+SuspendInProgressText,处理暂停
+SuspendLeadthru1,有人请求停止当前交易。请确认或取消该请求。
+SuspendLeadthru2,您已经请求暂停当前交易。请证实该请求。若要取消，请触摸“返回” ，并从NCR SelfServ Checkout终端取消。
+ReceiptText,收据：
+SuspendReasonText1,暂停：一般
+CancelSuspendButtonText,取消暂停
+ConfirmSuspendNowButtonText,确认暂停\n此刻
+ConfirmAllowSuspendButtonText,确认允许\n暂停
+ConfirmSuspendRequestButtonText,确认暂停\n请求
+CancelSuspendNowButtonText,取消暂停\n此刻
+GoBackButtonText,返回
+CancelSuspendRequestButtonText,取消暂停\n请求
+CouponText,优惠券：
+SuspendReasonText2,暂停：优惠券
+CouponReceiptText,%d个券总额为$%.2f
+SuspendNowButtonText,马上暂停
+RequestSuspendButtonText,请求暂停
+NotConnectedText,未连接
+ConnectingText,正在连接...请稍候
+ApprovalNeededText,需要批准：
+SuspendReasonText3,暂停：其它
+ClearRequestButtonText,清除请求
+ApproveButtonText,批准
+RestrictedItemText,受限商品：
+SuspendReasonText4,暂停：受限制
+SecurityLogText,安全日志：
+SuspendReasonText5,暂停：安全
+SignatureText,签名：
+SignatureAndNameText,签名：%s
+ConnectingLeadthru,正在连接NCR SelfServ Checkout...请稍候
+EnterIDLeadthru,请使用下面的键盘输入身份号码。
+EnterPasswordLeadthru,请使用下面的键盘输入密码。
+LoggingInLeadthru,正在登录..请稍候
+ApproveSecurityButtonText,批准\n安全
+ApprovalNeededButtonText,需要批准
+VerifySignatureButtonText,验证\n签名
+AllowSuspendButtonText,允许暂停
+MainButtonText,主菜单
+SuspendTransactionButtonText,暂停交易
+ApproveAndCollectButtonText,批准 & 收藏
+ClearApprovalsButtonText,清除批准
+BirthDateOver30ButtonText,出生日期超过30
+SignAgainButtonText,再次登录
+BackSpaceButtonText,退格
+EnterButtonText,输入
+LaneNumberText,Lane: %d
+RAPTitle,NCR公司SelfServ Checkout\n远端批准台
+CancelSuspendText,取消暂停
+OtherPaymentSelectedText,选择其它付款方式
+CouponCollectionText,优惠券收集
+PendingSuspendText,待暂停
+SignatureApprovalText,签名批准
+LaneText,结帐通道
+VideoButtonText,视频
+ClearButtonText,清除
+QuantityButtonText,数量
+FeesAndCustomerAgreementsTitle,收费 && 顾客协议：
+FeesButtonText,收费
+CustomerAgreementButtonText,顾客协议
+FeesAndCustomerAgreementsLeadthru,收费 & 顾客协议
+TransactionSuspendedText,交易暂停
+POSMessageText,收款机讯息：
+ConnectingWaitingText,请稍候，正在连接NCR SelfServ Checkout...
+DateOfBirthNotNeededButtonText,无需日期
+AssistModeButtonText,协助模式
+ClearSecurityButtonText,清除安全
+VisualApproveButtonText,肉眼审批
+CheckAgeTitle,检查顾客年龄
+CouponLimitExceededTitle,超过优惠券限制
+VerifyItemAndPriceTitle,检查商品及价格
+UnknownItemTitle,把未知商品放到一旁
+ItemNotForSaleTitle,该商品不出售
+ItemQuantityExceededTitle,超出商品数量
+TimeRestrictedItemTitle,有时间限制的商品
+CheckAgeLeadthru,请输入出生日期%s或输入“输入”。
+InvalidBirthDateFormatLeadthru,输入日期的格式无效。\n请以%s格式再次输入。
+CouponLimitExceededLeadthru,触摸“批准”按钮，让优惠券存入购物通道或触摸“批准 & 收集”，来收集顾客的优惠券。
+VisualApproveLeadthru,触摸“肉眼审批”或触摸“协助模式”以修改交易。
+UnknownItemLeadthru,收集购物通道的商品并触摸“清除安全”按钮，或触摸“协助模式”来完成交易。
+ItemNotForSaleLeadthru,收集购物通道的商品并触摸“清除安全”按钮
+OffLineLaneButtonText,脱机
+ExitText,退出
+EnterDataLaneButtonText,输入数据
+AgeCheckLaneButtonText,年龄检查
+CouponLaneButtonText,优惠券
+VoidLaneButtonText,无效
+VerifyItemLaneButtonText,检查商品
+NotFoundLaneButtonText,未找到
+NoSaleLaneButtonText,不销售
+QuantityLaneButtonText,数量
+HelpLaneButtonText,协助
+NoInterventionLeadthru,目前不需要干预。
+OffLineLeadthru,该购物通道目前脱机，系统会自动尝试重新连接。
+CancelRequestButtonText,取消请求
+HelpRequestTitle,请求协助
+SecurityLaneButtonText,安全
+VoidLeadthru,选取剔除的商品并触摸“批准剔除”按钮。
+ApproveVoidButtonText,批准无效
+SecurityLeadthru,监督客户交易，以保证交易安全性，然后触摸“清除安全”。
+SecurityViolationText,安全违规
+OtherPaymentText,已选定“其它支付方式”
+SuspendTransactionLeadthru,触摸“暂停交易”以接受付款。
+EASText,EAS商品仍然有效
+DeactivateLeadthru,解除商品，或取下硬标牌并触摸“清除安全”按钮。
+CompareSignatureTitle,对比签名
+CompareSignatureLeadthru,对比签名，然后触摸“批准”或“再次签名”按钮。
+EnterPriceLeadthru,输入商品价格并触摸“输入”按钮。
+UtilityButtonText,实用工具
+ReturnToMainButtonText,返回主屏幕
+GetDiagFilesButtonText,获取诊断文件
+CouponApprovalLeadthru,在批准台接受顾客的优惠券并触摸“批准”按钮。
+RebootSystemButtonText,重新启动整个系统
+ShutDownSystemButtonText,关闭整个系统
+LaneStatusTitle,结帐通道状态
+LaneStatusLeadthru,选择功能
+AgeRestrictedText,有年龄限制的商品；%2d岁
+BirthdateEnterText,"输入的出生日期：%2d/%2d/%4d,%d岁"
+HelpRequestLeadthru,帮助完顾客后请触摸“取消请求”。
+TotalText,总计：
+ItemText,商品：
+MultimediaTrainingText,多媒体培训
+VolumeControlButtonText,音量控制
+SecurityViolationNumText,违法安全的行为：
+ItemPurchasedText,购买的商品：
+EnterPriceTitle,价格输入项
+CancelTransactionGenericTitle,取消交易
+CancelTransactionGenericLeadthru,取消交易，请触摸“是”；恢复交易，请触摸“否”。
+YesButtonText,是
+NoButtonText,否
+ConfirmSuspendTitle,暂停：
+ConfirmSuspendLeadthru,确认暂停。
+ConfirmSuspendButtonText,确认暂停
+IncorrectItemWeightTitle,根据安全秤的称量，商品重量不正确。
+IncorrectItemWeightLeadthru,移开商品并触摸“清除安全”，或触摸“批准并更新重量”
+ApproveUpdateButtonText,批准 & 更新重量
+UnexpectedIncreaseTitle,安全秤上有意外商品。
+UnexpectedIncreaseLeadthru,转到结帐通道，移开多余商品并触摸“清除安全”按钮。
+SkipBaggingBtnThresholdLeadthru,检查结帐通道商品并触摸“清除安全”按钮。
+NewWeightItemTitle,无商品重量记录。
+NewWeightItemLeadthru,验证商品重量并触摸“批准 & 更新重量”按钮，或触摸“批准/不更新”按钮。
+ApproveNoUpdateButtonText,批准/不更新
+BagItemTimerExpiredTitle,安全秤上的预计重量
+TakeChangeTimerExpiredTitle,接受更改
+TakeChangeTimerExpiredBottomCaption,计时器超时
+PickingUpItemsTimerExpiredTitle,商品未返还到装袋台。
+DeviceFailureTitle,设备故障
+DeviceFailureLeadthru,前往结帐通道并检查设备。
+WLDBFailureTitle,WLDB通讯不正确。
+WLDBFailureLeadthru,检查通讯。
+UnexpectedDecreaseTitle,已移开装袋台上商品。
+ClosedLaneTitle,前往结帐通道，并登录到商店模式，然后打开该结帐通道。
+ClosedLaneLeadthru,结帐通道已关闭
+BagAreaBackupTitle,在传送带上堆积的商品
+BagAreaBackupLeadthru,清除传送带上堆积的商品。
+MinimumAgeText,最小年龄。
+SafetyCoverOpenLeadthru,移开传送带上的所有商品并关闭安全盖。
+VerifySignatureLeadthru,把顾客签名与其卡上的签名做比较。
+AssistedTenderTitle,店员协助的偿付
+AssistedTenderLeadthru,使用协助模式以接受顾客支票。
+AssistedTenderHHLeadthru,使用服务台来接受付款。
+AssistedEndorsementLeadthru,需要背书。请等待店员的协助。
+StartTransactionButtonText,开始交易
+StartTransactionTitle,店员提供的协助
+StartTransactionLeadthru,选择所需功能。
+StartTransactionAMButtonText,开始及协助
+ItemsForgottenTitle,有剩余重量\无袋的秤
+InsertCouponTimerExpiredTitle,插入优惠券
+CollectGiftCardTitle,收集礼品卡
+HostOfflineLeadthru,该结帐通道脱机，系统正尝试重新连接。
+SpaceButtonText,空间
+LaneReceiptItemType1,%s\t%s
+LaneReceiptItemType2,%s
+LaneReceiptItemType3,%s\t%s\t数量 %s @ %s/每件h\t%s
+LaneReceiptItemType4,%s\t%s\t数量 %s @ %s/%s\t%s
+LaneReceiptItemType5,%s\t%s\t%ss @ %s %s/%s\t%s
+LaneReceiptItemType6,%s\t%s\t%ss @ %s/%s\t%s
+CloseLaneButtonText,关闭结帐通道
+ReportingButtonText,报告
+KeyInCodeTitle,输入代码
+KeyInCodeLeadthru,输入商品代码并触摸“OK”按钮。
+VoidItemButtonText,剔除的商品
+ChangePriceButtonText,物价变动
+ChangeQuantityButtonText,数量变动
+ReturnToShoppingButtonText,返回到购物模式
+BasicAssistModeTitle,协助功能
+BasicAssistModeLeadthru,扫描商品，或选择功能。
+ChangePriceTitle,价格变动
+KeyInPriceLeadthru,为%d %s输入价格
+VoidAllButtonText,剔除所有商品
+VoidItemTitle,剔除商品
+VoidItemLeadthru,扫描商品或选择收据上的商品，然后触摸“取消商品”或“取消全部”
+ChangeQuantityTitle,更改数量
+KeyInQuantityLeadthru,输入数量：%s
+FullAssistButtonText,充分协助
+CloseButtonText,关闭
+UpdateItemLeadthru,滚动到收据上的商品，然后触摸“输入”按钮。
+OKButtonText,确定
+CouponNoMatchLeadthru,优惠券不符合收据上的任何商品。无法接受此优惠券。
+CouponTooHighLeadthru,您为此优惠券输入的金额太高。本系统无法接受此优惠券。
+EnterCouponValueLeadthru,以分输入优惠券的价值，然后触摸“输入”按钮。
+ItemQuantityExceededLeadthru,您已超出了此商品的限量。请把该商品放到一旁，然后继续。
+ProcessingLeadthru,正在处理...请稍候。
+VoidNoMatchLeadthru,找不到被扫描的商品。您尚未购买该商品，或已取消了该商品。
+ConfirmAbortLeadthru,您想停止结帐并完全取消此次购物吗？
+ContinueTransLeadthru,您是否要继续购物？
+ConfirmQuantityTitle,确认数量
+ConfirmVoidTitle,确认取消
+CouponNoMatchTitle,优惠券不符
+CouponTooHighTitle,优惠券金额太高
+CrateableItemTitle,采购木箱
+EnterCouponValueTitle,输入优惠券金额
+EnterQuantityLeadthru,输入数量并触摸“输入”按钮。
+EnterWeightTitle,称重商品
+EnterWeightLeadthru,前往结帐通道并把商品放到秤盘上。
+AMItemQuantityExceededTitle,数量限制
+ProcessingTitle,正在处理...
+SelectContainerTitle,选择容器
+SelectContainerLeadthru,从清单上选择容器并触摸“输入”按钮。
+VoidNoMatchTitle,无法取消商品
+ConfirmAbortTitle,取消所有商品
+ContinueTransTitle,继续吗？
+ScaleBrokenTitle,秤盘清零
+ScaleBrokenLeadthru,从秤盘上取走商品，然后按扫描仪上的“秤盘清零”按钮。
+UpdateNotAllowedTitle,无法更新商品
+UpdateNotAllowedLeadthru,不允许更改被称重商品的数量。
+SmEnterBirthdateTitle,限售商品
+SmEnterBirthdateLeadthru,输入顾客的出生日期
+SmVisualItemsTitle,肉眼检查
+SmVisualItemsLeadthru,批准肉眼检查的商品
+SmCouponItemsTitle,批准使用过的优惠券
+SmCouponItemsLeadthru,检查使用过得优惠券
+SmRestrictedItemsTitle,限售商品
+SmRestrictedItemsLeadthru,选择所需功能。
+KeyInBirthDateButtonText,输入日期
+KeyInCodeButtonText,输入\n码
+SmRunReportsTitle,报告内容
+PrintReportButtonText,打印报告
+LaneReceiptItemType7,    %s
+AM_RestrictedNotAllowedTitle,限售商品
+AM_RestrictedNotAllowedLeadthru,限售商品已被取消，不符合年龄规定。\n\n请把商品放到一旁。
+TransactionCancelTitle,交易取消
+TransactionCancelLeadThru,交易取消。请从此收银台移走\n该商品。
+OutOfSyncNeedAssistTitle,协助
+OutOfSyncNeedAssistLeadthru,收款机失去同步，请转到协助模式进行再同步。
+OutOfSyncStopTitle,重新启动
+OutOfSyncStopLeadthru,收款机服务器已停机或失去同步，请用开关关闭终端。
+MultiPackItemTitle,检查一包多件的商品
+MultiPackItemLeadthru,若是一包多件的商品，请触摸“协助模式”并剔除该商品，然后扫描一包多件商品的条形码。
+CancelActionButtonText,取消行动
+EnterIDFpLeadthru,请输入您的用户名，然后按“输入”按钮，或把手指放到指纹识别器上登录。
+ReEnterIDFpLeadthru,登录无效。 请使用键盘或指纹重新登录。
+HH_SuspendLeadthru1,暂停当前交易吗？确认或取消。
+HH_SuspendLeadthru2,已暂停当前交易。请确认。若要取消，请触摸“返回”然后取消。
+HH_ReEnterIDLeadthru,身份代码或密码不正确。请用键盘重新输入。
+HH_CheckAgeLeadthru,请输入出生日期%s并触摸“输入”。
+HH_CouponLimitExceededLeadthru,批准结帐通道上的优惠券，请按“批准”，批准并收集该优惠券，请按“批准并收集”按钮。
+HH_VisualApproveLeadthru,修改交易，请按“肉眼审批”或“协助模式”按钮。
+HH_VisualApproveLeadthru2,"""Visual Approve"", or ""Assist Mode"" at Lane to modify."
+HH_UnknownItemLeadthru,收集商品，请按“清除安全”或“协助模式”来完成。
+HH_UnknownItemLeadthru2,"Collect item, ""Clear Security"", or use ""Assist Mode"" at Lane to complete."
+HH_ItemNotForSaleLeadthru,收集结帐通道的商品，然后按“清除安全”按钮。
+HH_NoInterventionLeadthru,不需要干预。
+HH_OffLineLeadthru,结帐通道脱机。系统正在尝试重新连接。
+HH_InvalidBirthDateFormatLeadthru,日期格式无效\n请以%s格式输入日期。
+HH_VoidLeadthru,收集被剔除商品并按“批准剔除”按钮。
+HH_SuspendTransactionLeadthru,暂停交易，请触摸“暂停交易”按钮。
+HH_DeactivateLeadthru,请停用商品，或取下硬标牌并按“清除安全”按钮。
+HH_CompareSignatureLeadthru,对比签名，然后按“批准”或“再次签名”按钮。
+HH_EnterPriceLeadthru,输入商品的价格并按“输入”按钮。
+HH_CouponApprovalLeadthru,接受顾客的优惠券并按“批准”按钮。
+HH_HelpRequestLeadthru,协助完顾客后，请按“取消请求”按钮。
+HH_CancelTransactionGenericLeadthru,取消交易，请按“是”按钮，继续交易请按“否”按钮。
+HH_IncorrectItemWeightLeadthru,移开商品并按“清除安全”按钮，或按“批准并更新重量”按钮。
+HH_UnexpectedIncreaseLeadthru,移开结帐通道多余的商品，然后按“清除安全”按钮。
+HH_SkipBaggingBtnThresholdLeadthru,检查结帐通道的商品，然后按“清除安全”按钮。
+HH_NewWeightItemLeadthru,验证重量并按“批准并更新重量”或“批准/不更新”按钮。
+HH_SafetyCoverOpenLeadthru,移开传送带上的所有商品。关闭安全门。
+HH_VerifySignatureLeadthru,把顾客的签名与卡上签名做对比。
+HH_AssistedEndorsementLeadthru,需要背书。请等待店员协助。
+HH_HostOfflineLeadthru,结帐通道脱机。系统正在尝试重新连接。
+HH_KeyInCodeLeadthru,输入商品代码，然后按“输入”按钮。
+HH_VoidItemLeadthru,扫描或滚动到收据上的商品，按“剔除商品”或“剔除全部”按钮。
+HH_UpdateItemLeadthru,滚动到收据上的商品，然后按“输入”按钮。
+HH_CouponNoMatchLeadthru,优惠券不符合收据上的任何商品，因此无法被接受。
+HH_CouponTooHighLeadthru,优惠券金额过高。系统不能接受。
+HH_ItemQuantityExceededLeadthru,超出允许数量。请把商品放在一旁，然后继续。
+HH_VoidNoMatchLeadthru,找不到扫描的商品。商品未被购买或已被取消。
+HH_ConfirmAbortLeadthru,是否停止结帐并取消整个购物？
+HH_ContinueTransLeadthru,要继续购物吗？
+HH_EnterQuantityLeadthru,输入数量，然后按“输入”按钮。
+HH_SelectContainerLeadthru,从清单上选择容器，然后按“输入”按钮。
+HH_ScaleBrokenLeadthru,从秤上移开商品，然后按扫描器上的“秤盘清零”按钮。
+HH_UpdateNotAllowedLeadthru,不允许更改数量。
+HH_AM_RestrictedNotAllowedLeadthru,取消限售商品 – 不符合年龄要求。\n\n请把商品放到一旁。
+HH_OutOfSyncNeedAssistLeadthru,收款机失去同步，请按“协助模式”来同步。
+HH_OutOfSyncStopLeadthru,收款机服务器关闭或失去同步，请用开关关断终端。
+HH_MultiPackItemLeadthru,若商品是一包多件商品，请按“协助模式”剔除，然后扫描该一包多件商品的条码。
+HH_ReturnToShoppingButtonText,返回
+DoneButtonText,完成
+ConfirmSuspendFromLaneStatusLeadthruText,确定或取消暂停
+HH_SuspendTransactionButtonText,暂停交易
+HH_TransactionCancelTitle,交易取消
+HH_TransactionCancelLeadThru,交易取消。请从此收银台移走该商品。
+ShiftButtonText,Shift键
+FixLaterButtonText,稍后修复
+HopperLaneButtonText,硬币替换
+HopperLeadThru,%s前往结帐通道，并填充硬币或清除堵塞或触摸“稍后修复”按钮以继续。
+TransactionCountText,计数:
+SecurityDisableText,禁用安全
+SecurityDisableButtonOn,打开
+SecurityDisableButtonOff,关闭
+SecurityDisableStatusTextOn,装袋验证台处于启用状态
+SecurityDisableStatusTextOff,装袋验证台处于禁用状态
+SuspendDeclinedLaneButtonText,拒绝暂停
+ConfirmSuspendDeclinedLeadthru,确认或取消 拒绝暂停
+ConfirmSuspendDeclinedButtonText,确认拒绝
+CancelSuspendDeclinedButtonText,返回
+TMTransLeadthru,结帐终端处于培训模式，\n继续交易吗？
+HH_TMTransLeadthru,结帐终端处于培训模式，\n继续交易吗？
+TMTransLaneButtonText,培训交易
+DateFormat1,(mmddyyyy)
+DateFormat2,(mmddyy)
+DateFormat3,(ddmmyyyy)
+DateFormat4,(ddmmyy)
+DateFormat5,(yyyymmdd)
+DateFormat6,(yymmdd)
+GoBackCouponButtonText,返回
+ApproveCouponButtonText,批准优惠券
+CouponExceededLimitLeadthru,按“批准优惠券”按钮以接受优惠券，或进入协助模式使其无效。
+CouponExceededLimitFinalizationLeadthru,该交易的完成使用了超过本商店限制的优惠券。
+ClearSecurityFinalizationButtonText,清除安全
+ExpandReceiptButtonText,展开收据
+CollapseReceiptButtonText,折叠收据
+InvalidBarcodeLeadThru,"收集购物通道的商品，然后触摸""批准""按钮继续交易。"
+InvalidBarcodeLaneButtonText,检查商品
+HH_InvalidBarcodeLeadThru,"收集商品，触摸""批准""按钮继续交易。"
+GoToLaneOrHHRapLeadthru, Please go to Lane or HHRap for approval
+GoToLaneOrRapLeadthru, Please go to Lane or Rap for approval
+GoToLaneLeadthru, 请前往结帐通道进行审批
+DisableRapApprovalText, 禁用RAP远程审批
+DisableHHRapApprovalText, 禁用HHRAP手持设备远程审批
+UpdateItemButtonText,更新商品
+SuspendConfirmationTitle,暂停确认
+DoNotApproveButtonText,不批准
+SmVoidAndRemoveItemLeadthru,请把商品从装袋台移开。
+RestrictedItemsNotApprovedTitle,限制类商品 - 不批准
+HH_AssistAtLaneLeadthru,转到结帐通道废除该商品。
+XM_Acceptor,收受机
+XM_CashStatus,现金状况
+XM_CashStatusLeadthru,选择所需功能
+XM_CoinAcceptor,硬币收受机
+XM_CoinOverflow,硬币溢出
+XM_CoinOverflowText,溢出
+XM_CoinRecycler,硬币收款找零机
+XM_Coins,硬币
+XM_NoteOverflow,纸币溢出
+XM_NoteOverflowText,溢出
+XM_NoteRecycler,纸币收受找赎机
+XM_Notes,纸币
+XM_PurgeOperationText,清除操作
+XM_TerminalNumber,终端编号
+XM_TotalCount,总计数：
+XM_TotalValue,总金额：
+XM_CoinsSubtotal,硬币小计：
+XM_NotesSubtotal,纸币小计：
+XM_GrandTotal,总计：
+XM_PurgeInstruction,清除操作：发现被拒收的纸币后，请从钱箱移开被拒收的纸币。 请到结帐通道检查设备。
+XM_RAP_NegativeAlert,发现负数。 请到结帐通道检查设备。
+XM_AreYouSure,确定要执行下列操作吗？
+XM_Attendant,店员
+XM_Backspace,退格
+XM_BillAcceptor,纸币收受机
+XM_BillDispenser,纸币找赎机
+XM_Bins,箱
+XM_BothDispenseFailure,未能找赎%s。\n现金不足或找赎机出错。
+XM_CancelChanges,取消更改
+XM_CannotCompleteTransfer,无法完成转入。钱箱无足够空间。请清空钱箱后执行此操作。
+XM_CashManagement,现金管理
+XM_CashManagementReport,现金管理报告
+XM_CashRemove,移开现金
+XM_CashRemoveLeadthru,选择所需功能
+XM_CashReplenishLeadthru,选择所需功能
+XM_CashReplenishLeadthru1,请放入硬币或选择所需功能
+XM_CashReplenishLeadthru2,请放入现金或选择所需功能。
+XM_CashReplenishLeadthru3,"完成后触摸""退出""。"
+XM_CashReplenishment,补充现金
+XM_ChangeInCount,计数变更
+XM_ChangeInValue,金额变更
+XM_Clear,清除
+XM_ClearPrompt1,完成后请选择其它功能或按“退出”按钮 。
+XM_ClearPrompt2,选择其它功能或按“退出”按钮。
+XM_CoinAcceptorOffline,收受机无响应。\n\n请关掉终端然后重新启动。
+XM_CoinDispenseFailure,未能找赎%s。\n现金不足或找赎机出错。
+XM_CoinDispenser,硬币找赎机
+XM_CoinManagement,硬币管理
+XM_ConfirmAction,确认操作
+XM_ConfirmCoinDispense,* 找赎硬币\n找赎金额： %s\n找赎数目： %d
+XM_ConfirmEmptyCoinAcceptor,* 投币计数归零\n需要清除的金额： %s
+XM_ConfirmEmptyCoinOverflow,* 把硬币溢出计数归零\n删除： %s
+XM_ConfirmEmptyNoteAcceptor,* 把纸币收受器计数归零\n需要清除的金额： %s
+XM_ConfirmEmptyNoteOverflow,* 把钱箱计数归零\需要清除的金额： %s
+XM_ConfirmFillLoaderCassette,* 设定纸币计数\n新金额： %s\n新计数： %d
+XM_ConfirmManualCoinEmpty,* 硬币计数归零\n需要清除的金额： %s\n需要清除的计数： %d
+XM_ConfirmManualCoinFill,* 设定硬币计数\n新金额： %s\n新计数： %d
+XM_ConfirmManualNoteEmpty,* 把纸币计数归零\n需要清除的金额： %s\n需要清除的计数： %d
+XM_ConfirmManualNoteFill,* 设定纸币计数\n新金额： %s\n新计数： %d
+XM_ConfirmNoteDispense,* 找赎纸币\n需要找赎的金额： %s\n需要找赎的数量： %d
+XM_ConfirmTransferNotesToOverflow,* 把纸币转移到钱箱\n转移金额： %s\n转移数量： %d
+XM_Count,计数
+XM_DispenseCupFull,硬币找赎口已堆满硬币。请移开硬币以完成找赎。
+XM_DispenseCupFullPreemptive,请拿好找赎的零钱\n若硬币找赎口已满，请迅速清空。系统将暂停找赎直至找赎口被清空。
+XM_DispenseFullPreemptive,请取走纸币与硬币\n纸币按捆找赎，每捆15张纸币。 将暂停找赎，直到所有纸币被取走。 若退币槽已满，请立即清空。 退币槽被清空之前，找赎将暂停。
+XM_DispenseNoteFullPreemptive,请取走纸币\n纸币按捆找赎，每捆15张纸币。 将暂停找赎，直到所有纸币被取走。
+XM_DispenseSensorBlock,硬币找赎口可能已堆满硬币或传感器损坏。请移开硬币或联系维修。
+XM_DispenseText,找赎
+XM_DispenseThreshold,输入的数值超过了找赎可用的计数，因此系统为您输入了最大计数：%d
+XM_Empty,空的
+XM_EmptyCashAcceptorLT,移开现金收受机中的纸币
+XM_EmptyCashBoxLT,移开钱箱中的纸币
+XM_EmptyCoinAcceptor,重置硬币\n收受机
+XM_EmptyCoinAcceptorLT,移开硬币收受机中的硬币
+XM_EmptyCoinHopperLT,从设备中取出硬币。
+XM_EmptyCoinOverflow,重置硬币溢出
+XM_EmptyCoinOverflowLT,移开溢出的硬币
+XM_EmptyLoaderCassetteLT,移开装载机机盒中的纸币
+XM_EmptyNoteAcceptor,重置纸币\n收受机
+XM_EmptyNoteCassetteLT,移开纸币盒中的纸币
+XM_EmptyNoteOverflow,重置纸币溢出
+XM_Enter,输入
+XM_ExceededAmount,金额超过容量。需要的最高金额是%s。
+XM_ExceededCapacity,计数超过容量。最大载荷计数是%d，因此系统自动输入了%d个计数。
+XM_Execute,应用更改
+XM_Exit,退出
+XM_FastLaneReport,NCR SelfServ Checkout报告
+XM_FillLoaderCassette,设置纸币计数
+XM_GoBack,返回
+XM_ID,收银员编号
+XM_IDPrompt,输入用户名后按“输入”按钮。
+XM_InvalidAmount,为%s输入的金额无效。\n请再次输入。 
+XM_KeyPadEnterCoinAmount,使用键盘输入%s硬币的金额。
+XM_KeyPadEnterCoinCount,使用键盘输入%s硬币数量。
+XM_KeyPadEnterNoteAmount,使用键盘输入%s纸币的金额。
+XM_KeyPadEnterNoteCount,使用键盘输入%s纸币的数量。
+XM_KeyPadInstr,使用键盘输入计数
+XM_ManualBothFillAlert,打开结帐通道门，然后把现金直接放入设备。不要把其加入收受机。
+XM_ManualBothRecyclerFillAlert,打开结帐通道门，在纸币盒中放入纸币，在贮斗中放入硬币。 请勿把其放入收受器。
+XM_ManualCoinDispenserEmpty,重置硬币计数
+XM_ManualCoinDispenserFill,设置硬币计数
+XM_ManualCoinFillAlert,打开结帐通道的门，把硬币直接放入设备。 不要把它们喂入投币机。
+XM_ManualEmptyAlert,移开所有设备中的现金。
+XM_ManualFillAlert,打开结帐通道门，把纸币放入纸币盒，把硬币放入硬币斗，请勿把其加入收受机。
+XM_ManualNoteDispenserEmpty,重置计数
+XM_ManualNoteDispenserFill,设置纸币计数
+XM_ManualNoteFillAlert,打开结帐通道门，然后把纸币直接放入纸币盒。不要把其加入纸币收受机
+XM_ManualNoteRecyclerFillAlert,打开结帐通道门，把纸币直接放入装载机。 请勿把其投入纸币收受器。
+XM_No,否
+XM_NoteDispenseFailure,未能找赎%s。\n纸币不足或纸币找赎机出错。
+XM_PW,收银员密码
+XM_PWPrompt,输入密码后按“输入 ”按钮。
+XM_PendingText,待处理
+XM_PleaseWait,正在处理... \n请等待。
+XM_Print,打印现金状态
+XM_PurgeCoinRecycler,清洁硬币收受找赎机
+XM_PurgeNoteRecycler,清洁纸币收受找赎机
+XM_ReEnter,收银员编号和密码不正确。 \n请重新输入
+XM_ResetCoinsToBaseLevel,找赎硬币到\n基准水平
+XM_ResetNotesToBaseLevel,把纸币转移到基准水平
+XM_SelectFunc1,选择系统功能
+XM_SelectFunc2,选择所需功能
+XM_StoreNumber,商店＃：
+XM_TransferAllNotes,转移所有纸币
+XM_TransferNotesToOverflow,把纸币转移到溢出状态
+XM_Update,更新
+XM_Yes,是
+XM_SequenceNumber,序列号
+XM_CardManagement,卡管理
+XM_TotalCoinsInserted,插入总计
+XM_TotalNotesInserted,插入总计
+XM_Value,金额
+XM_TransferXCount,转移(x)数量
+XM_TransferXAmount,转移(x)金额
+XM_PickUpAutoAmount,提取的自动金额
+XM_PickUpXAmount,提取的（x）金额
+XM_TransfertoCashBoxLeadThruText,"把%s纸币转入钱箱，触摸""应用更改""。 要撤消所有待定更改，请触摸""取消更改""。"
+XM_MenuDispenseFunctions,找赎功能
+XM_MenuResetFunctions,归零功能
+XM_MenuCashBoxTransfer,钱箱转移
+XM_MenuPickUpFunctions,提取功能
+XM_LeadThruCashBoxTransfer,选择所需的转移功能。\n完成后，请按“应用更改”按钮。
+XM_LeadThruResetFunction,选择所需的复位功能。\n完成后，请按“应用更改”按钮。
+XM_LeadThruDispenseFunction,触摸面额并输入金额\n或触摸“找赎硬币到基准水平”。
+XM_LeadThruPickUpFunction,选择所需的提取功能。\n完成后，请触摸“应用更改”按钮。
+XM_PurgeInstructionRecycler,清除操作：发现被拒收的纸币后，请从钱箱移开被拒收的纸币。请触摸“转移所有纸币”按钮以清除警报，然后触摸“钱箱归零”按钮。
+XM_PurgeInstructionNonRecycler,清除操作：发现被拒收的纸币后，请从残币箱移开被拒收的纸币。触摸“纸币计数归零”按钮以清除警报。
+XM_ReplenishInstruction,插入现金或选择面额，然后输入金额，或设置计数。\n完成后，触摸“应用更改”按钮。
+XM_KeyPadEnterPickUpAmount,使用键盘输入提取的金额。
+XM_InvalidPickUpAmount,输入的金额大于可转移或找赎的金额。
+XM_InvalidStartingBank,配置的起始供应金额大于可找转移或找赎的金额。
+XM_CalculatedPickUpAmount,计算的提取金额是%s。
+XM_UnableToPickUp,无法执行提取操作。
+XM_CoinAllowedDispenseExceeded,试图找赎%d硬币。最多可找赎的硬币数量是%d。
+XM_InvalidPickUpAmount2,钱箱和硬币溢出槽内的钱币金额大于提取的金额。
+XM_LockScreen,锁定屏幕
+XM_SystemBusy,系统忙....请稍候
+XM_AreYouSure_LockScreen,你确定要锁定屏幕吗？\n在设备完成任务之前，此屏幕无法解除锁定。
+XM_NegativeAlert,"发现负数。可能的原因是：输入错误，或虽然把纸币放入了装载机盛放盒， 但这些纸币的计数未被输入现金管理系统。\n\n请按照以下步骤来解决该问题：\n1. 选择""添加现金""。\n2. 触摸负数面额。\n3. 输入该负数的准确金额，和/或输入放入装载机内纸币的金额。\n4. 选择""应用更改""。\n5. 选择""确认""，然后选择""退出""。"
+XM_AddCashLeadthru1,投币或触摸圆筒，然后输入金额，或设定计数。
+XM_AddCashLeadthru2,插入现金或触摸圆筒，然后输入金额，或设定计数。
+XM_AddCashLeadthru3,触摸圆筒，然后输入金额，或设置计数。
+XM_CoinHopperEmpty,"硬币贮斗必须清空才能把硬币计数归零。 触摸""应用更改""之前，请清空每个硬币贮斗箱。"
+XM_CollectRemainingCoins,找赎完成后，取走出币槽中的硬币。
+XM_FPIDPrompt,请输入您的用户名，然后按“输入”按钮，或把手指放到指纹识别器上登录。
+XM_LoanFailure,放款失败
+XM_LoanFailureLeadthru,放款被拒绝 选择所需功能。
+XM_UndoLoan,撤消放款
+XM_CommitLoan,进行放款
+XM_PickUpFailure,提款失败
+XM_PickUpFailureLeadthru,提款被拒绝。 选择所需功能。
+XM_UndoPickUp,撤消提款
+XM_CommitPickUp,进行提款
+XM_ManualRemoveCashAlert,取走钱箱的现金并取走硬币溢出容器中硬币，以便撤消放款。\n\nNotes\n取走的数量：%d\n取走的金额：%s\n\nCoins\n取走的数量：%d\n取走的金额：%s
+XM_POSRejectedLoanPickUp,POS机拒绝放款/提款：%s /%d已拒绝\n
+XM_LoanPickUpCashierOverrides,收银员编号%s强行放款/提款：%s/%d已允许进行\n\n。
+XM_PlaceJammedBill,取出钱箱，放好里面卡住的纸币。
+MinMaxFastLaneBtnPrimaryTxt,最小化SelfServ Checkout
+MinMaxFastLaneBtnSecondaryTxt,最大化SelfServ Checkout
+MinMaxFastLaneBtnPrimaryShowConfirmation,"最小化SelfServ Checkout ，请按""最小化SelfServ Checkout""按键。"
+MinMaxFastLaneBtnSecondaryShowConfirmation,"最大化SelfServ Checkout，请按""最大化SelfServ Checkout""键。"
+StopStartFastLaneBtnPrimaryTxt,终止SelfServ Checkout
+StopStartFastLaneBtnSecondaryTxt,开启SelfServ Checkout
+SwitchToRAPBtnPrimaryTxt,切换到RAP
+ShutdownSystemBtnPrimaryTxt,关掉整个系统
+RebootSystemBtnPrimaryTxt,重新启动整个系统
+VolumeBtnPrimaryTxt,音量控制
+EventViewerBtnPrimaryTxt,事件查阅器
+GenerateLogBtnPrimaryTxt,生成诊断记录文件
+ExitFastLaneAndRunProfileBtnPrimaryTxt,终止SelfServ Checkout并运行档案管理器
+ExitFastLaneAndRunProfileBtnSecondaryTxt,运行档案管理器
+TerminalInfoBtnPrimaryTxt,终端信息
+MinMaxRAPBtnPrimaryTxt,最小化RAP
+MinMaxRAPBtnSecondaryTxt,最大化RAP
+MinMaxRAPBtnPrimaryShowConfirmation,要最小化RAP，请按“最小化RAP”键。
+MinMaxRAPBtnSecondaryShowConfirmation,"要最大化RAP,请按 “最大化RAP”键。"
+StopStartRAPButtonPrimaryTxt,终止RAP
+StopStartRAPButtonSecondaryTxt,开启RAP
+RapConfigureBtnPrimaryTxt,RAP Configure
+SwitchToFastLaneBtnPrimaryTxt,切换到SelfServ Checkout
+ExitRAPAndRunProfileBtnPrimaryTxt,终止RAP并运行档案管理器
+ExitRAPAndRunProfileBtnSecondaryTxt,运行档案管理器
+UtilityFunctionsTitle,NCR公司的SelfServ Checkout系统\n实用功能
+StartTitle,系统启动
+SystemStartup,正在启动系统...请稍候
+TerminalID,终端编号：
+InterfaceVersion,软件版本：
+TrainingProgramPrimaryTxt,培训程序 
+LaunchPadNet_OperatorIDText,操作员编号：
+KeySwitchOperatorID,键盘锁
+LaunchPadNet_SignOnButtonText,登录
+LaunchPadNet_SignOffButtonText,退出登录
+SignedOffButtonText,退出
+Exit,退出全部
+LaunchPadNet_ReturnToShoppingButtonText,返回
+PickListEditor,采购清单编辑器
+RunADDTxt,下次重启时运行ADD(设备自动检测)
+TouchWareTxt,校准触摸屏
+DiagConfirm,您确定要生成诊断日志文件吗？
+ProfileManagerFLConfirm,您确定要终止SelfServ Checkout并运行档案管理器吗？
+ProfileManagerRAPConfirm,您确定要终止RAP并运行档案管理器吗？
+ProfileManagerConfirm,您确定要启动档案管理器吗？
+EventViewerConfirm,您确定要启动事件查看器吗？
+TrainingConfirm,您确定要启动培训程序吗？
+PicklistConfirm,您确定要开启采购清单编辑器吗？ 
+RunADDConfirm,你确定要在下次重启时运行ADD (自动设备检测) 吗？
+CalibrateConfirm,您确定要校准触摸屏吗？
+ShutdownConfirm,您确定要关闭整个系统吗？
+RebootConfirm,您确定要重新启动整个系统吗？
+CloseAllConfirm,您确定要退出所有应用程序并返回桌面吗？
+VolumeConfirm,您确定要调整音量控制吗？
+TerminalInfoConfirm,您确定要查看终端信息吗？
+StopFastLaneConfirm,您确定要终止SelfServ Checkout吗？
+StopRAPConfirm,您确定要终止RAP吗？
+StartFastLaneConfirm,您确定要开启SelfServ Checkout吗？
+StartRAPConfirm,您确定要开启RAP吗？
+WindowsLogOnTxt,登录Windows 
+WindowsLogOnConfirm,您确定要退出所有应用程序并以新用户身份登录吗？
+YesText,是
+NoText,否
+CommandPromptPrimaryTxt,命令提示符
+CommandPromptConfirm,您确定要启动命令提示符吗？
+RSMLEPrimaryTxt,零售系统管理员LE
+RSMLEConfirm,您确定要开启零售系统管理员LE吗？
+OperatorRegistrationUtility,店员注册实用程序
+LaunchPadNet_EnterIDFpLeadthru,请输入您的用户名，然后按“输入”按钮，或把手指放到指纹识别器上登录。
+LaunchPadNet_ReEnterIDFpLeadthru,登录无效。 请使用键盘或指纹重新登录。
+LaunchPadNet_ClearButtonText,清除
+LaunchPadNet_EnterButtonText,输入
+LaunchPadNet_GoBackButtonText,返回
+LaunchPadNet_SpaceButtonText,空格
+LaunchPadNet_BackSpaceButtonText,退格
+LaunchPadNet_EnterIDLeadthru,请用下面的小键盘输入身份号码：
+ReEnterIDLeadthru,身份号码或密码不正确。请使用下面的键盘重新输入。
+LaunchPadNet_EnterPasswordLeadthru,请用下面的小键盘输入密码：
+CancelButtonText,取消
+LaunchPadNet_LoggingInLeadthru,正在登录..请稍候。
+LaunchPadNet_ShiftButtonText,Shift键
+LaunchPadNet_SignedOffButtonText,已退出登录
+LaunchPadNet_ReEnterIDLeadthru,身份号码或密码不正确。请用下面的小键盘重新输入。
+LegalCaptionText,法律说明 该系统仅供授权人员使用。 登录到该系统的行动表明，你接受所有信息安全政策和标准上所述的条款和条件。 未经授权的个人使用该系统，或为了达到未经授权的目的使用该系统，是违反联邦和/或州法律的行为。 本公司有权采取任何必要的行动来保护授权用户、知识产权和其它信息资产。 使用本系统的个人，在该系统上的所有活动将受到监视。 使用本系统的任何人明确批准被监视，并被告知，若该监视表明可能存在犯罪活动，则系统工作人员将把监视资料作为证据提供给执法官员。
+SignBelow,请在下面签名。
+PageIndicatorLabelFormat,第{0}页，共{1}页
+SignOnTitle,NCR SelfServ Checkout Log In
+HH_TransactionCancelLeadThru2,Transaction cancelled.
+AlertStatusTextOff,
+AlertStatusTextOn,!!!
+InitialText,.
+XM_CassetteMissing,Bill Cassette is not in the unit. Put Bill Cassette back into the unit.
+XM_Cassette,Cassette
+XM_CollectFailure,The collect operation resulted in failure.
+XM_TotalRemovedText,Total Removed: %s
+XM_TotalColectedText,Total Collected: %s
+XM_TotalAddedText,Total Added: %s
+XM_OperatorID,Operator ID %s
+XM_ManualRemoveCashAlertGlory,Remove cash from the cassette to undo loan.\n\nBills\nCount to remove: %d\nAmount to remove: %s
+XM_LeadThruGloryFunction,"Touch denomination and enter amount or touch ""Collect""."
+XM_InitializeError,The system encounters an error to be corrected.
+XM_GrandTotalText,Grand Total: %s
+XM_EmptyCassetteAndRejectBin, Remove bills from Bill Cassettes and Reject Bin.
+XM_Collect,Collect
+XM_CashUnbalance,Discrepancy error occurred in the recycler.
+XM_GloryDispenseNoteFullPreemptive,Please Take Bills\nBills are dispensed in bunches of 10. Dispensing will pause until all bills are taken.
+XM_GloryDispenseFullPreemptive,"Please Take Bills and Coins\nBills are dispensed in bunches of 10. Dispensing will pause until all bills are taken. If coin return is full, empty promptly. Dispensing will pause until bowl is emptied."
+XM_GloryDispenseCupFullPreemptive,"Please Take Coins\nIf coin return is full, empty promptly. Dispensing will pause until bowl is emptied."
+XM_NegativeAlert_Remove,"Negative number found. Possible causes: keying error occurred, or bills were placed in the loader cassette, but the counts for these bills were not entered in Cash Management.\n\nFollow steps below to resolve:\n1. Select ""Exit"" then select ""Add Cash"".\n2. Touch the denomination with the negative number.\n3. Enter the exact dollar amount of the negative number and/or the amount placed in the loader.\n4. Select ""Apply Changes"".\n5. Select ""Yes"" to confirm and then ""Exit""."
+DueCart,应办事项
+ScotApp_1742,袋子不能使用
+ScotApp_71,71unused
+ScotApp_61,61unused
+ScotApp_51,无法扫描优惠券
+ScotApp_41,限售商品
+ScotApp_31,优惠券
+ScotApp_1055,1055unused
+ScotApp_11,11unused
+ScotApp_789,请刷卡。\n请检查购物篮中的其它商品。
+ScotApp_689,  销售：      %d
+ScotApp_589,已载入Device Factory。
+ScotApp_389,正在处理卡
+ScotApp_289,289unused
+ScotApp_189,已载入选项。
+ScotApp_91,91unused
+ScotApp_773,节省金额：
+ScotApp_673,请向顾客提供%s的找零。
+ScotApp_1264,USERDEFINED6
+ScotApp_473,媒介水平低
+ScotApp_373,打印机喷墨堵塞
+ScotApp_989,989unused
+ScotApp_889,%s\n实际重量(%s)： %s\n预计重量(%s)： %s
+ScotApp_1520,请参阅设备手册纠正该错误。
+ScotApp_1042,认可账单：\n本账单已打印，因为单证\n背书失败。请把本\n账单附到相应的单证上。 \n -------------------------------------- -\n
+ScotApp_973,973unused
+ScotApp_873,驾照号码、身份号码输入项：
+ScotApp_1737,自备袋子
+ScotApp_752,昨天总结
+ScotApp_652, **该UPC通用产品编号没有WLDB输入项
+ScotApp_1054,1054unused
+ScotApp_452,检查电缆是否牢固地插入硬币收受器一侧。
+ScotApp_352,更新
+ScotApp_252,\n硬币找赎机\n\n清除硬币找赎机堵塞。
+ScotApp_152,152unused
+ScotApp_1310,* 取下纸币收受器。\n* 再插入纸币收受器，直到其卡到位。\n* 检查纸币收受器马达是否开启及LED指示灯是否为绿色。
+ScotApp_661,(默认)
+ScotApp_952,添加零重量
+ScotApp_852,三件商品
+ScotApp_1527,请参阅设备手册纠正该错误。
+ScotApp_1838,检查商品 
+ScotApp_731,总结
+ScotApp_631,卡主姓名：
+ScotApp_531,\n签名识别设备故障
+ScotApp_331,从袋秤上移开商品。键盘停用。
+ScotApp_231,231unused
+ScotApp_131,请把优惠券丢入其收集容器。
+ScotApp_1736,请把您的袋子放到装袋台，完成后请按“完成”按钮。
+ScotApp_1250,PIP信用卡
+ScotApp_831,831unused
+ScotApp_300,300unused
+ScotApp_1306,已找赎%s零钱
+ScotApp_710,710unused
+ScotApp_610,商品重量：
+ScotApp_510,再次登录
+ScotApp_310,卡箱中的卡量不足
+ScotApp_210,210unused
+ScotApp_110,称重商品
+ScotApp_1526,请参阅设备手册纠正该错误。
+ScotApp_1126,硬币找赎机故障。\n\n若当前找赎机上有开关，请检查该开关。
+ScotApp_1040,签名
+ScotApp_810,      正在接受训练
+ScotApp_1735,请将您的袋子放好
+ScotApp_1257,PIP食品券
+ScotApp_704,小键盘输入
+ScotApp_604,扫描一件商品。
+ScotApp_504,504unused
+ScotApp_404,404unused
+ScotApp_304,选择容器
+ScotApp_204,正在把文件复制到服务器...
+ScotApp_104,104unused
+ScotApp_1269,USERDEFINED11
+ScotApp_904,商品重量批准
+ScotApp_804,804unused
+ScotApp_1047,需要背书。请等待店员协助。
+ScotApp_1478,请参阅设备手册纠正该错误。
+ScotApp_1134,纸币盒已满。
+ScotApp_1734,我已自带袋子
+ScotApp_1256,PIP电子转账
+ScotApp_1512,请参阅设备手册纠正该错误。
+ScotApp_1465,收款找零机设备的错误
+ScotApp_1721,培训模式的交易
+ScotApp_1890,正在处理...
+ScotApp_1243,会员优惠卡
+ScotApp_1544,请参阅设备手册纠正该错误。
+ScotApp_63,否
+ScotApp_53,53unused
+ScotApp_43,43unused
+ScotApp_33,我已解决该问题
+ScotApp_1255,PIP借记检查
+ScotApp_13,  %ss @ %s/%s
+ScotApp_1511,请参阅设备手册纠正该错误。
+ScotApp_93,扫描并装袋
+ScotApp_83,83unused
+ScotApp_1464,终端数量
+ScotApp_1189,记入商品
+ScotApp_1720,去除的重量:
+ScotApp_1045,用%s支付
+ScotApp_672,*** 培训模式交易 ***
+ScotApp_572,输入商品代码并按“输入”按钮。
+ScotApp_472,需要帮助
+ScotApp_372,打印机侧向打印通信错误
+ScotApp_272,检查使用过的优惠券
+ScotApp_172,扫描不需要的商品，或选择收据上的商品。
+ScotApp_1510,请参阅设备手册纠正该错误。
+ScotApp_1701,未能找赎%s
+ScotApp_972,972unused
+ScotApp_872,取消暂停
+ScotApp_1188,记入数量
+ScotApp_1727,商品查找
+ScotApp_751,今天每小时
+ScotApp_651,默认
+ScotApp_551,551unused
+ScotApp_451,硬币收受器状态为堵塞
+ScotApp_351,现金/纸张状态
+ScotApp_251,251unused
+ScotApp_151,请取走现金
+ScotApp_951,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s 已删除;LSWND3=%s;
+ScotApp_851,两件商品
+ScotApp_730,730unused
+ScotApp_630,信用卡号码：
+ScotApp_430,停止服务
+ScotApp_330,帮助模式
+ScotApp_230,现金收受器状态为拒绝状态
+ScotApp_130,请把您的优惠券丢入其收集容器。
+ScotApp_1726,查找后完成
+ScotApp_930,检查通讯。
+ScotApp_830,本人移开商品或装袋
+ScotApp_193,193unused
+ScotApp_1457,货币充足
+ScotApp_1283,1283unused
+ScotApp_724,724unused
+ScotApp_624,输入的允许误差无效
+ScotApp_424,输入金额
+ScotApp_324,不需要日期
+ScotApp_224,读卡器卡片箱已被移开
+ScotApp_124,124unused
+ScotApp_1469,未能向顾客找赎%s。%s\n *请检查硬币和纸币找赎机。\n *按“现金/纸张状态”按钮来填充或清除堵塞。 
+ScotApp_924,924unused
+ScotApp_824,暂停确定
+ScotApp_576,开始支付卡偿付。
+ScotApp_1247,食品券
+ScotApp_1678,纸币收款找零机错误
+ScotApp_1503,请参阅设备手册纠正该错误。
+ScotApp_1756,从搜索结果中选择或按“返回”按钮。
+ScotApp_1456,收银员号码和密码不正确。\n请再试一次。
+ScotApp_1502,请参阅设备手册纠正该错误。
+ScotApp_1712,“暂停”被拒绝
+ScotApp_1468,收款找零机状态为无现金
+ScotApp_1246,电子转账
+ScotApp_75,完成
+ScotApp_65,65unused
+ScotApp_55,取消所有
+ScotApp_45,45unused
+ScotApp_35,应找零钱：
+ScotApp_1258,PIP礼品卡
+ScotApp_15,商品代码：
+ScotApp_1711,拒绝暂停
+ScotApp_1683,无法恢复的错误。请关闭该结帐通道。呼叫Gunnebo公司，并向其提供如下所示的错误信息。\n\nSafePay安全付款功能出错： %s
+ScotApp_95,扫描优惠券
+ScotApp_85,85unused
+ScotApp_1058,协助偿付
+ScotApp_1664,纸币卡住
+ScotApp_797,未能找赎%s\n*检查纸币盛放盒中的纸币和纸币找赎机的堵塞。\n*确保纸币盛放盒和残钞箱上闩。\n*关闭安全门。
+ScotApp_697,697unused
+ScotApp_597,正在载入NCR SelfServ Checkout表格%d...
+ScotApp_497,应付金额：
+ScotApp_297,297unused
+ScotApp_197,已载入展示服务(Presentation Services)。
+ScotApp_997,输入价格
+ScotApp_897,已载入WTINFO。
+ScotApp_1454,输入密码后按“输入”按钮。
+ScotApp_1710,请取走返回的现金
+ScotApp_1741,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s 预计;LSWND3=%s %s 已看到
+ScotApp_1388,训练程序
+ScotApp_771,取消暂停
+ScotApp_671,离开培训模式
+ScotApp_571,输入数量并按“输入”按钮。
+ScotApp_471,  视觉验证
+ScotApp_371,打印机更换打印头
+ScotApp_271,核准使用过的优惠券
+ScotApp_971,971unused
+ScotApp_871,确认暂停
+ScotApp_1840,商店＃ #:
+ScotApp_750,今天总结
+ScotApp_650,常规产品
+ScotApp_550,550unused
+ScotApp_450,450unused
+ScotApp_350,现金/纸张状态
+ScotApp_250,250unused
+ScotApp_150,选择现金返还金额
+ScotApp_1773,按“批准优惠券”按钮以接受优惠券，或进入协助模式来使该优惠券失效。
+ScotApp_950,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s 已添加;LSWND3=%s;
+ScotApp_850,一件商品
+ScotApp_1405,收款机失去同步，请转到帮助模式进行同步。
+ScotApp_1513,请参阅设备手册纠正该错误。
+ScotApp_1657,部门代码无效
+ScotApp_1225,未知商品
+ScotApp_644,-------------------------------------------------------------------
+ScotApp_544,密码不能大于%d个位数。
+ScotApp_444,食品券
+ScotApp_344,344unused
+ScotApp_244,244unused
+ScotApp_144,对比签名
+ScotApp_1590,钱箱%s的硬币被卡住
+ScotApp_1669,硬币/纸币收款找零机出错
+ScotApp_944,索要的袋/盒过多。 最多=%d.
+ScotApp_844,844unused
+ScotApp_1729,查找商品：
+ScotApp_1447,取出现金
+ScotApp_1703,(+)
+ScotApp_1656,输入的部门代码，然后按“输入”按钮。
+ScotApp_915,请求跳过传送带的次数过多。最多可请求%d次。
+ScotApp_1668,在所示位置出现账单卡死。打开纸币收款找零机顶盖。取出卡住的纸币。关闭装置，盖上纸币收款找零机顶盖后继续交易。
+ScotApp_1542,请参阅设备手册纠正该错误。
+ScotApp_1139,纸币找赎机门是敞开的。
+ScotApp_1254,PIP储蓄借记卡
+ScotApp_1249,通用PIP
+ScotApp_77,信用
+ScotApp_67,返回
+ScotApp_57,完成并付款
+ScotApp_47,开始
+ScotApp_37,37unused
+ScotApp_1458,NCR SelfServ Checkout报告
+ScotApp_17,优惠券
+ScotApp_1752,秤上的重量超出秤的承重力。
+ScotApp_1643,纸币收款找零机出错
+ScotApp_97,选择清单中的容器
+ScotApp_87,87unused
+ScotApp_1665,解锁并取下盛放盒。取出卡住的纸币。再插入盛放盒。关闭收款找零机装置。继续交易。
+ScotApp_1138,未能找赎%s。
+ScotApp_1589,硬币已脱出
+ScotApp_1445,计数的变化
+ScotApp_1318,扫描凭证
+ScotApp_1654,计数超过容量。需要的最大负载计数是%d.已自动输入%d的计数。
+ScotApp_796,硬币不足或硬币找赎机出错/关闭。\n* 打开硬币找赎机上，或\n* 补充硬币，关断硬币找赎机然后再接通，按“硬币找赎机已补充硬币”按钮 - 结帐通道状态屏幕。
+ScotApp_696,696unused
+ScotApp_596,已载入NCR SelfServ Checkout AuxDisp辅件显示。
+ScotApp_1391,按“我已解决该问题”按钮。\n若错误仍然存在，关闭终端，然后重启终端。
+ScotApp_396,需要商店协助的商品是：
+ScotApp_296,296unused
+ScotApp_196,正在载入展示服务(Presentation Services)...
+ScotApp_1588,每个钱箱必须清空后才能选择“找赎机拾取”按钮。倾卸每个硬币料斗箱后按“找赎机”按钮。
+ScotApp_996,价格输入项
+ScotApp_896,正在载入WTINFO...
+ScotApp_574,输入密码并按“输入”按钮。
+ScotApp_1093,打印最近一次的收据
+ScotApp_1641,装满硬币漏斗后继续。若机器仍不找赎硬币，漏斗可能被锁定。请呼叫服务。\n\nSafePay安全付款出错： %s
+ScotApp_1781,超时后出现“感谢您”的画面
+ScotApp_562,优惠券需要协助模式下销售
+ScotApp_874,输入驾照号码或身份号码，然后按“输入”按钮。
+ScotApp_1124,1124unused
+ScotApp_770,确认暂停
+ScotApp_670,输入培训模式
+ScotApp_570,570unused
+ScotApp_470,  年龄限制
+ScotApp_370,打印机打印机处于打开状态
+ScotApp_270,批准优惠券
+ScotApp_170,请从秤盘上取走商品，然后按扫描仪上的“秤清零”按钮。
+ScotApp_1640,硬币漏斗出错
+ScotApp_870,提示：
+ScotApp_1733,选择“返回”以继续。
+ScotApp_1553,货币处于充裕状态：
+ScotApp_664,扫描您的商品或选择一种语言。
+ScotApp_564,564unused
+ScotApp_464,%s               %s
+ScotApp_364,364unused
+ScotApp_264,264unused
+ScotApp_964,移开商品然后按“清除安全”按钮，或按“批准并更新重量”按钮
+ScotApp_864,审批：
+ScotApp_1647,(mmddyyyy)
+ScotApp_1119,纸币找赎机门敞开时找赎机将无法运行。\n\n关闭并闩住找赎机门或安全门。\n\n若错误再次发生，请要求帮助服务。
+ScotApp_1659,打印收据
+ScotApp_819,对剔除的商品确认暂停
+ScotApp_1339,重启整个系统
+ScotApp_1582,媒介状态
+ScotApp_1154,扫描仪出错
+ScotApp_1117,%s纸币找赎机盒脱出或未完全插入到位。\n\n装入%s纸币找赎机盒或用闩锁把其卡入到位。
+ScotApp_1294,Q - S
+ScotApp_1030,插入您的优惠券。
+ScotApp_1658,请确认顾客收到了正确金额的找赎零钱。
+ScotApp_1421,协助模式
+ScotApp_709,709unused
+ScotApp_1129,未进行纠正。\n\n请再试一次。
+ScotApp_509,509unused
+ScotApp_409,系统讯息
+ScotApp_309,英镑
+ScotApp_209,停止程序
+ScotApp_109,继续吗？
+ScotApp_1338,获取诊断资料
+ScotApp_909,安全秤上的重量不正确。
+ScotApp_809,收款机讯息：
+ScotApp_1645,检查纸币盒盖是否牢固。
+ScotApp_1116,纸币找赎机将无法运作，如果纸币拒收箱不存在或未被闩锁完全卡入到位。\n\n插入纸币拒收箱，并确保其完全卡入到位。
+ScotApp_1128,%s\n
+ScotApp_1452,输入用户名后按“输入”按钮。
+ScotApp_183,183unused
+ScotApp_1450,锁盒
+ScotApp_1293,P
+ScotApp_1644,纸币收款找零机盖子脱落
+ScotApp_1115,报告脱机
+ScotApp_795,为确保更好的服务，此购物过程被监视。
+ScotApp_695,695unused
+ScotApp_595,正在载入NCR SelfServ Checkout AuxDisp辅件显示...
+ScotApp_395,不允许出售限售商品
+ScotApp_295,295unused
+ScotApp_195,已载入设备管理器(Device Manager)。
+ScotApp_566,566unused
+ScotApp_1324,处于有剩余重量状态\n交易后称重。
+ScotApp_995,要开放结帐通道，请前往结帐通道，并登录到商店模式。
+ScotApp_895,正在结束DBM...
+ScotApp_1102,下一个
+ScotApp_1383,(例外)
+ScotApp_1402,纸币拒收箱跳线接头脱落。
+ScotApp_1292,N - O
+ScotApp_1114,结束报告期间的更新成功
+ScotApp_1222,停止使用
+ScotApp_1101,%s\t%s
+ScotApp_1159,小键盘/ EFT电子转账未响应。
+ScotApp_1100,%s
+ScotApp_1539,请参阅设备手册纠正该错误。
+ScotApp_1649,(ddmmyyyy)
+ScotApp_1317,凭证付款
+ScotApp_1883,检查钩秤上和购物车中多出的商品， 然后触摸 “清除安全”。
+ScotApp_729,729unused
+ScotApp_629,总金额：
+ScotApp_429,红色
+ScotApp_329,  %ss @ %d %s/%s
+ScotApp_229,229unused
+ScotApp_129,请查证剔除商品已放到一旁。
+ScotApp_1107,%s\t%s\t数量 %s @ %s/%s\t%s
+ScotApp_1538,请参阅设备手册纠正该错误。
+ScotApp_929,WLDB通讯不正确。
+ScotApp_829,829unused
+ScotApp_1316,* 打开打印机盖检查该指示区域是否卡纸。\n* 关闭打印机盖后重新载入纸张。
+ScotApp_81,继续
+ScotApp_1882,智能辅助装置警报 - 商品未被扫描。
+ScotApp_1673,硬币堵塞
+ScotApp_1135,纸币找赎机出错
+ScotApp_1705,通讯错误。
+ScotApp_1894,Set item aside and continue with your purchase.
+ScotApp_787,"出生日期已输入：%s, %d岁"
+ScotApp_1398,      服务员/培训
+ScotApp_1106,%s\t%s\t数量 %s @ %s/每件\t%s
+ScotApp_1525,请参阅设备手册纠正该错误。
+ScotApp_1493,请参阅设备手册纠正该错误。
+ScotApp_1490,请参阅设备手册纠正该错误。
+ScotApp_1315,* 打开打印机盖并检查是否卡纸。\n* 关闭打印机盖然后重新载入纸张。
+ScotApp_1881,检查钩秤，取出多余商品，然后触摸“清除安全”。
+ScotApp_1173,批准剔除商品
+ScotApp_1524,请参阅设备手册纠正该错误。
+ScotApp_505,号码不正确
+ScotApp_1302,关闭
+ScotApp_905, （收据上的更多信息... ）
+ScotApp_1164,打印机位置不正确。
+ScotApp_1492,请参阅设备手册纠正该错误。
+ScotApp_1314,* 打开打印机盖并清除可能存在的纸张碎片。\n* 关闭打印机盖。\n* 插入新的卷筒纸。\n* 把卷筒纸头送入打印机。
+ScotApp_1817,* 请拉出硬币收款找赎机。\n* 打开圆形侧门，清除安全带上的硬币。\n* 关好并锁好所有门。 若错误再次出现，请联系维修人员。
+ScotApp_1442,插入补充的现金，或按“取出现金”按钮来卸下现金。
+ScotApp_1880,钩秤上有意外商品。
+ScotApp_1172,确认暂停
+ScotApp_1415,1415unused
+ScotApp_788,有效生日：%s
+ScotApp_688,688unused
+ScotApp_588,正在载入Device Factory...
+ScotApp_488,把商品放到秤上： %s
+ScotApp_388,正在处理...
+ScotApp_288,"按“我已解决该问题”按钮。\n* 若错误仍然存在，请重新启动终端：\n* 把管理员键盘锁转到'S'位置，或按管理员按钮。\n* 选择“关闭整个系统”选项\n当画面为空白时，请通过UPS不间断电源或电源板关断终端电源。\n* 开启终端。若错误再次出现，请呼叫服务人员。"
+ScotApp_188,正在载入选项...
+ScotApp_988,接取带上有意外商品。请移开该商品。
+ScotApp_888,装袋台的意外商品。移开商品。
+ScotApp_1887,检查交易
+ScotApp_1171,意外增加
+ScotApp_1199,输入到期日期
+ScotApp_1300,开始交易
+ScotApp_1326,优惠券插入时间的计时器超时
+ScotApp_1291,K - M
+ScotApp_1517,请参阅设备手册纠正该错误。
+ScotApp_1886,检查是否有多出的商品。
+ScotApp_749,749unused
+ScotApp_1529,请参阅设备手册纠正该错误。
+ScotApp_549,549unused
+ScotApp_449,硬币收受器的状态为拒收
+ScotApp_349,349unused
+ScotApp_249,249unused
+ScotApp_149,输入密码
+ScotApp_1307,正在打印收据
+ScotApp_1738,服务员来验证您的袋子
+ScotApp_949,949unused
+ScotApp_717,717unused
+ScotApp_617,选择进行重量比较。 （把商品重量与现有输入项做比较）
+ScotApp_517,其它必要付款
+ScotApp_417,已载入Hard Totals。
+ScotApp_317,317unused
+ScotApp_217,217unused
+ScotApp_117,把商品放到一旁
+ScotApp_1516,请参阅设备手册纠正该错误。
+ScotApp_1885,商品未被扫描
+ScotApp_917,请求移开装袋台上商品的次数过多。最多可请求%d次。
+ScotApp_817,需要协助
+ScotApp_1177,商品装袋计时器超时
+ScotApp_1528,请参阅设备手册纠正该错误。
+ScotApp_1175,要求不装袋的次数超过限定次数
+ScotApp_1109,%s\t%s\t%s @ %s/%s\t%s
+ScotApp_1453,收银员密码
+ScotApp_1693,硬币替换
+ScotApp_1515,请参阅设备手册纠正该错误。
+ScotApp_7,7unused
+ScotApp_6,6unused
+ScotApp_5,5unused
+ScotApp_4,4unused
+ScotApp_3,3unused
+ScotApp_2,公斤
+ScotApp_1,磅
+ScotApp_1176,输入新商品
+ScotApp_1724,培训模式交易
+ScotApp_1019,放到传送带
+ScotApp_9,9unused
+ScotApp_8,8unused
+ScotApp_609,修改重量允许误差
+ScotApp_1305,已插入%s
+ScotApp_1893,Invalid Barcode
+ScotApp_1409,帮助菜单
+ScotApp_1692,管理员登录
+ScotApp_1163,"请按“我已解决该问题”按钮。\n\n若错误仍然存在，请重新启动终端：\n把管理员键盘锁转到'S’，或按管理员按钮。\n选择“关闭整个系统”按钮\n当画面变成空白时，在UPS或电源板处切断终端的电源。\n开启终端。若错误再次发生，请呼叫服务。"
+ScotApp_1514,请参阅设备手册纠正该错误。
+ScotApp_1372,硬币收受器
+ScotApp_1048,1048unused
+ScotApp_967,967unused
+ScotApp_1304,已接受会员优惠卡。
+ScotApp_1162,设备离线。
+ScotApp_1833,Exc_TB
+ScotApp_1818,* 解开料斗托盘的锁定，然后拉出料斗托盘以清除堵塞(I)。\n* 把堵塞的硬币装回相应的料斗箱。 然后重新插入料斗托盘并锁好。\n* 拉出硬币收款找零机。 开锁后取下盖子。\n* 断开所示电缆(II)。\n* 释放收受器右侧的红色翼片，把其向前推，然后翻过来，以便从所示区域(III)清除堵塞。\n* 重新插入收受器并连接好电缆。\n* 盖上盖子并锁好。 若错误再次出现，请联系维护人员。
+ScotApp_1174,重量不符
+ScotApp_1500,请参阅设备手册纠正该错误。
+ScotApp_1366,秤
+ScotApp_1161,寻呼机错误
+ScotApp_1717,观察到的重量:
+ScotApp_1832,异常部门
+ScotApp_1370,加密器
+ScotApp_669,签名打印失败。出错。
+ScotApp_569,输入编号
+ScotApp_469,469unused
+ScotApp_369,打印机通讯错误
+ScotApp_269,帮助模式
+ScotApp_1507,请参阅设备手册纠正该错误。
+ScotApp_969,969unused
+ScotApp_737,737unused
+ScotApp_637,安全功能处于脱机状态，最近一次的动作被取消。
+ScotApp_537,537unused
+ScotApp_437,余额不足
+ScotApp_337,扫描您的商品，或输入代码后按“OK”按钮。
+ScotApp_237,插入盛放盒，直到其闩入到位。\n\nPull拉上盒手柄，以确保闩锁锁住盛放盒。
+ScotApp_137,请取走找零
+ScotApp_931,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s 预计;LSWND3=%s %s 已看到;
+ScotApp_1519,请参阅设备手册纠正该错误。
+ScotApp_1831,插入
+ScotApp_937,限制\移开商品
+ScotApp_837,收费
+ScotApp_1702,*** 重复的收据 ***
+ScotApp_1377,数量
+ScotApp_1728,请从列表中选择。
+ScotApp_1395,进入服务员模式
+ScotApp_716,716unused
+ScotApp_616,重量比较
+ScotApp_516,其它付款
+ScotApp_416,正在载入HardTotals...
+ScotApp_316,316unused
+ScotApp_216,* 打开打印机箱的门。\n* 请打开打印机盖以检查堵塞。\n* 关闭打印机盖并重新装载纸张。\n* 打印机会打印一张带有笑脸的收据。\n* 关闭并锁好打印机箱门。
+ScotApp_116,取消所有商品
+ScotApp_1522,请参阅设备手册纠正该错误。
+ScotApp_1506,请参阅设备手册纠正该错误。
+ScotApp_1879,检查钩秤， 然后触摸 “清除安全”。
+ScotApp_916,在结帐通道检查商品然后按“清除安全”按钮。
+ScotApp_816,816unused
+ScotApp_1167,* 打开打印机门。\n* 打开闩锁，推回打印机。\n* 打开打印机盖检查堵塞。\n* 关闭打印机盖并重新载入纸张。\n* 小心地向前拉打印机，直到其被闩锁卡入到位。
+ScotApp_1518,请参阅设备手册纠正该错误。
+ScotApp_1830, 商品上的重量标记以被批准
+ScotApp_1376,", %s"
+ScotApp_783,783unused
+ScotApp_683,683unused
+ScotApp_583,卡被拒绝。
+ScotApp_483,请用系统附带的笔在签名垫上签名。
+ScotApp_383,383unused
+ScotApp_283,请输入密码
+ScotApp_1505,请参阅设备手册纠正该错误。
+ScotApp_983,正在载入接取带...
+ScotApp_883,确认暂停
+ScotApp_1363,顾客显示器
+ScotApp_1714,已批准“拒绝暂停”
+ScotApp_1837,"触摸""批准""继续交易。"
+ScotApp_1449,纸币状态
+ScotApp_1375,交易后商品修改：\n%s
+ScotApp_1248,礼品卡
+ScotApp_1153,卡纸。
+ScotApp_1504,请参阅设备手册纠正该错误。
+ScotApp_1362,键盘锁
+ScotApp_1836,无效条码
+ScotApp_1571,确认忽视更改
+ScotApp_1215,装置错误
+ScotApp_1858,Discrepancy error occurred in the recycler.
+ScotApp_1152,纸张已用完。
+ScotApp_1700,未能找赎%s，%s\n请检查硬币和纸币找赎机。\n若货币用完，请补充货币。\n否则，请清除堵塞。\n按 “问题已解决”按钮。
+ScotApp_1823,数字收据已成功生成。
+ScotApp_1605,     出卡机卡箱是空的
+ScotApp_1361,现金找赎器
+ScotApp_1835,检查商品或把商品放到一旁
+ScotApp_1878,钩秤显示的重量不正确。
+ScotApp_1281,辅助支付
+ScotApp_1425,连接
+ScotApp_1570,忽略更改
+ScotApp_814,814unused
+ScotApp_291,硬币找赎机的管路堵塞\n%s\n清除硬币找赎机堵塞，然后按“清除堵塞”按钮。
+ScotApp_191,已载入交易代理。
+ScotApp_1151,打印机盖是敞开的。
+ScotApp_1707,收受器中卡住硬币
+ScotApp_1822,见屏幕左下方的商品重量
+ScotApp_757,757unused
+ScotApp_657,请把退款/折扣放到一旁，直至购物结束。
+ScotApp_557,限量商品
+ScotApp_457,457unused
+ScotApp_357,357unused
+ScotApp_257,257unused
+ScotApp_157,系统讯息
+ScotApp_1360,现金抽屉
+ScotApp_1719,添加的重量:
+ScotApp_1834,最大
+ScotApp_1868,手不得阻挡扫描仪镜头
+ScotApp_957,数据库管理器客户机无法通讯。
+ScotApp_857,确认组装费
+ScotApp_1064,1064unused
+ScotApp_1577,总数：
+ScotApp_736,736unused
+ScotApp_636,安全功能处于脱机状态。
+ScotApp_1091,1091unused
+ScotApp_436,确认金额
+ScotApp_336,查找商品
+ScotApp_236,236unused
+ScotApp_136,请插入现金
+ScotApp_1509,请参阅设备手册纠正该错误。
+ScotApp_1821,接受重量
+ScotApp_936,限制\跳过装袋
+ScotApp_836,收费与顾客协议
+ScotApp_1367,扫描仪
+ScotApp_1718,未登记:
+ScotApp_1274,USERDEFINED16
+ScotApp_715,715unused
+ScotApp_615,选择必须装袋。 （顾客要把商品装袋。）
+ScotApp_515,515unused
+ScotApp_315,315unused
+ScotApp_215,借记储蓄帐户
+ScotApp_115,确认取消
+ScotApp_1576,纸币找赎机状态：
+ScotApp_1090,运行报告
+ScotApp_815,打开登记薄
+ScotApp_1508,请参阅设备手册纠正该错误。
+ScotApp_1406,同步交易代理/收款机
+ScotApp_1099,未知设备错误
+ScotApp_1563,载入
+ScotApp_782,纸币找赎机堵塞\n清除纸币找赎机堵塞或\n调整残钞箱。
+ScotApp_682,682unused
+ScotApp_582,偿付完成。
+ScotApp_482,482unused
+ScotApp_382,未知
+ScotApp_282,请输入用户名
+ScotApp_1575,硬币找赎机状态：
+ScotApp_1097,打印记录/报告
+ScotApp_1448,硬币状态
+ScotApp_982,设备错误
+ScotApp_143,收据签名
+ScotApp_1353,请把您废弃的礼品卡放入优惠券插槽。
+ScotApp_1704,"按“我已解决该问题”按钮。\n\n若错误仍然存在，请重新启动终端：\n把管理员键盘锁转到'S'位置，-或按管理员按钮。\n选择“关闭整个系统。按钮”\n当画面出现空白，请通过UPS或电源板切断终端电源。\n开启终端。若错误再次发生，请要求服务。"
+ScotApp_1827,\n    - 当前语言 (%s)
+ScotApp_1562,计数
+ScotApp_1815,* 开锁后拉出漏斗托盘。\n* 重新插入任何缺失的漏斗并确保所有漏斗插入到位。\n* 确保插好最低面额硬币漏斗。\n* 确保插入正确的货币漏斗。\n* 若错误再次出现，请联系维修人员。
+ScotApp_1574,为%s输入的金额无效。\n请再次输入。
+ScotApp_1543,请参阅设备手册纠正该错误。
+ScotApp_1290,D - J
+ScotApp_1096,正在报告
+ScotApp_1352,存放礼品卡
+ScotApp_1561,面额
+ScotApp_1083,商品已从装袋台移开。\n放回商品。
+ScotApp_1753,未发现商品
+ScotApp_418,正在结束Hard Totals...
+ScotApp_318,318unused
+ScotApp_1813,"%s\n* 打开贮斗托盘的锁并拉出贮斗托盘 (一)。\n* 取出装有卡住物件的贮斗箱。 *检查并清除出口区内的堵塞 (二)。\n* If no jam at exit area, empty hopper bin(s). Check and clear any jams by rotating disk (III).\n* Reinsert hopper bin(s).\n* 确保所有的门关闭并被锁好。 若错误再次发生，请要求帮助。"
+ScotApp_1095,选择报告类型，然后按“运行报告”按钮。
+ScotApp_1351,%s\n%s %s 已删除
+ScotApp_1825,保存使用偏好
+ScotApp_777,777unused
+ScotApp_677,677unused
+ScotApp_577,开始现金偿付。
+ScotApp_377,单位-状态
+ScotApp_277,277unused
+ScotApp_1560,收受器总计 ： %s
+ScotApp_1082,本人已移开商品或袋子
+ScotApp_977,实际重量： %s %s
+ScotApp_877,价格提示
+ScotApp_1777,该交易的完成使用了超过本商店限制的优惠券。
+ScotApp_1812,硬币被卡住，亦或硬币箱已装满硬币或脱出。
+ScotApp_756,756unused
+ScotApp_556,交易暂停功能被拒绝。
+ScotApp_456,456unused
+ScotApp_356,加密器
+ScotApp_256,正在结束用户退出...
+ScotApp_156,系统讯息
+ScotApp_1231,视觉验证
+ScotApp_1874,1874unused
+ScotApp_956,"关机后重新启动终端：\n\n* 把管理员键盘锁转到'S' -或-按管理员按钮。\n* 选择""下次重启时运行设备自动检测""。 Select ""是"" to confirm.\n* 选择“关闭整个系统”按钮。\n* 当出现空白画面时间，请在UPS或电源板处关闭终端。\n* 开启终端。 Check event viewer. 若错误再次出现，则请则请生成一份诊断日志文件，并联系维修人员。"
+ScotApp_856,收据：
+ScotApp_1567,找赎机总计 ：  %s
+ScotApp_735,735unused
+ScotApp_635,输入顾客的出生日期
+ScotApp_535,过期商品
+ScotApp_335,读卡器可能被顾客损害
+ScotApp_235,现金收受器接近盛满现金
+ScotApp_135,135unused
+ScotApp_1776,商店审核
+ScotApp_1811,* 请拉出硬币收款找赎机。\n* 移开所示区域的硬币或向前推硬币，以清除堵塞。\n* 把硬币返还给顾客。 若错误再次出现，请联系维修人员。 
+ScotApp_935,重量减少
+ScotApp_835,收据：
+ScotApp_1708,反复按下硬币返回按钮以清除硬币堵塞，然后按“我已解决该问题”按钮。
+ScotApp_1168,打印机未闩入前面位置。
+ScotApp_1446,卸下
+ScotApp_1566,完全取代
+ScotApp_1080,把商品放到传送带上。
+ScotApp_1775,批准优惠券
+ScotApp_1810,硬币被卡住。
+ScotApp_1297,取走找赎零钱的计时器超时
+ScotApp_1648,(mmddyy)
+ScotApp_708,708unused
+ScotApp_608,设置重量比较
+ScotApp_508,508unused
+ScotApp_408,408unused
+ScotApp_308,便士
+ScotApp_208,208unused
+ScotApp_108,优惠券不符
+ScotApp_781,781unused
+ScotApp_681,从热门商品中选择
+ScotApp_581,暂停交易被拒绝
+ScotApp_481,需要协助
+ScotApp_381,正常
+ScotApp_908,安全
+ScotApp_521,退款金额：
+ScotApp_1087,卡被接受。请扫描您的商品和优惠券。
+ScotApp_981,981unused
+ScotApp_881,暂停：
+ScotApp_1774,优惠券金额太高
+ScotApp_1296,在硬币容器中补充硬币到最佳水平。
+ScotApp_1583,货币不足(%s)
+ScotApp_1552,箱中装满货币
+ScotApp_1295,T - Z
+ScotApp_1877,防盗报警
+ScotApp_1761,本优惠券箱可能已装满，或优惠券槽被堵塞。请清除优惠券槽的堵塞，然后清空优惠券箱。
+ScotApp_1086,添加零重量的操作会删除所有重量输入项。
+ScotApp_693,693unused
+ScotApp_794,纸币找赎机的机盒堵塞\n清除纸币找赎机堵塞。
+ScotApp_694,694unused
+ScotApp_594,已载入NCR SelfServ Checkout SigCap签名识别。
+ScotApp_494,请在选单上选择现金返还金额。
+ScotApp_394,394unused
+ScotApp_1098,* 打开打印机外壳门。\n* 检查显示区域的卡纸。\n* 若未发现卡纸，请重新载入打印纸。\n* 打印机会打印一个带笑脸的收据。\n* 关闭并锁上打印机壳的门。
+ScotApp_1551,货币充裕(%s)
+ScotApp_994,关闭
+ScotApp_894,已载入DBM
+ScotApp_1760,本优惠券箱可能已装满，或优惠券槽被堵塞。请清除优惠券槽的堵塞，然后清空优惠券箱。
+ScotApp_1371,现金收受器
+ScotApp_1803,仅接受现金
+ScotApp_1359,小票打印机
+ScotApp_1085,收集优惠券
+ScotApp_21,21unused
+ScotApp_776,776unused
+ScotApp_676,硬币找赎机：已填满于%s，%s
+ScotApp_1491,请参阅设备手册纠正该错误。
+ScotApp_476,优惠券丢入收集容器
+ScotApp_376,376unused
+ScotApp_276,276unused
+ScotApp_176,要停止结帐并取消整个购物吗？
+ScotApp_976,976unused
+ScotApp_876,请输入收银主管的身份号码然后按“输入”按钮。
+ScotApp_1271,USERDEFINED13
+ScotApp_1767,无法访问秤的重量参数。
+ScotApp_755,正在处理...
+ScotApp_655,例外商品
+ScotApp_1084,收集
+ScotApp_455,455unused
+ScotApp_355,选择系统功能
+ScotApp_255,255unused
+ScotApp_155,系统讯息
+ScotApp_1011,运送...
+ScotApp_869,输入授权号码然后按“输入”按钮。
+ScotApp_955,智能秤开启失败
+ScotApp_855,组装费用：
+ScotApp_23,+ %s (%s)
+ScotApp_1766,扫描仪/秤错误。
+ScotApp_1280,现金
+ScotApp_1335,结帐通道关闭
+ScotApp_1497,请参阅设备手册纠正该错误。
+ScotApp_728,728unused
+ScotApp_628,结帐通道编号： %d
+ScotApp_528,528unused
+ScotApp_428,黄色
+ScotApp_328,无法找赎%s。\n* 请检查硬币和账单配出机。\n* 若是空的，请填充。\n* 若不是空的，请清除堵塞。\n* 按“我已解决该问题”按钮。
+ScotApp_228,读卡器遮门卡在关闭位置
+ScotApp_128,128unused
+ScotApp_1690,请求服务
+ScotApp_281,281unused
+ScotApp_181,\n使用键盘输入优惠券的金额，单位是便士，然后按“OK”按钮。
+ScotApp_928,请到结帐通道检查设备。
+ScotApp_828,828unused
+ScotApp_1033,去活商品或在结帐通道取下商品硬标牌然后按“清除安全”按钮。
+ScotApp_1496,请参阅设备手册纠正该错误。
+ScotApp_680,680unused
+ScotApp_580,尝试首先作废优惠券，然后剔除商品。
+ScotApp_380,380unused
+ScotApp_280,清除安全日志
+ScotApp_180,把优惠券放到一旁。并在购物结束时把优惠券丢入其收集容器。
+ScotApp_1364,Micr（磁性墨水字符识别）
+ScotApp_980,定时器超时，顾客未响应
+ScotApp_880,880unused
+ScotApp_970,970unused
+ScotApp_1104,e=d=0.01磅，最重30.00磅，最轻0.2磅，最多3000
+ScotApp_1032,EAS商品仍处于活动状态。
+ScotApp_1286,中文
+ScotApp_1462,箱
+ScotApp_1298,需要店员协助的功能
+ScotApp_1031,扫描您的优惠券。
+ScotApp_1482,请参阅设备手册纠正该错误。
+ScotApp_1706,装置尚未就绪。关闭任何其它可能访问本设备的应用程序，然后按“我已解决该问题”按钮。 若错误再次发生，请联系Gunnebo公司。
+ScotApp_1399,      服务员
+ScotApp_1494,请参阅设备手册纠正该错误。
+ScotApp_1672,硬币收款找零机出错
+ScotApp_573,输入用户名并按“输入”按钮。
+ScotApp_173,173unused
+ScotApp_775,欢迎使用NCR SelfServ自助结帐系统！
+ScotApp_675,硬币找赎机机已装满
+ScotApp_1481,请参阅设备手册纠正该错误。
+ScotApp_79,79unused
+ScotApp_69,69unused
+ScotApp_59,再试一次
+ScotApp_39,交易取消
+ScotApp_29,限售商品
+ScotApp_19,税费
+ScotApp_975,975unused
+ScotApp_603,编辑/添加重量输入项
+ScotApp_99,需要剔除的数量
+ScotApp_89,89unused
+ScotApp_303,取消商品
+ScotApp_203,203unused
+ScotApp_103,输入商品代码。
+ScotApp_1889,安全信任级别
+ScotApp_1443,插入补充的硬币，或按“取出现金”按钮来卸下现金。
+ScotApp_903,商品已从装袋台移开。
+ScotApp_803,803unused
+ScotApp_1555,找赎机
+ScotApp_1037,签名
+ScotApp_1480,请参阅设备手册纠正该错误。
+ScotApp_1263,USERDEFINED5
+ScotApp_1697,清除堵塞
+ScotApp_748,748unused
+ScotApp_648,商品条码
+ScotApp_548,548unused
+ScotApp_448,您经常购物的帐户已被激活。
+ScotApp_348,348unused
+ScotApp_248,248unused
+ScotApp_148,148unused
+ScotApp_1479,请参阅设备手册纠正该错误。
+ScotApp_948,\n* 远程协助
+ScotApp_848,需要数量：
+ScotApp_485,需要签名
+ScotApp_1036,EAS商品处于活动状态
+ScotApp_1487,请参阅设备手册纠正该错误。
+ScotApp_1499,请参阅设备手册纠正该错误。
+ScotApp_1023,1023unused
+ScotApp_1179,顾客走开计时器超时
+ScotApp_1035,EAS商品处于活动状态
+ScotApp_1682,纸币阅读器一般性错误
+ScotApp_1486,请参阅设备手册纠正该错误。
+ScotApp_1144,找赎机未回应。
+ScotApp_866,是
+ScotApp_1498,请参阅设备手册纠正该错误。
+ScotApp_1384,语言
+ScotApp_1743,请输入用户名，然后按“输入”按钮进行登录 ，或将您的手指放到指纹识别器上进行登录。
+ScotApp_1319,凭证
+ScotApp_1178,移开商品的次数超过限定次数
+ScotApp_1001,未发现商品
+ScotApp_1034,1034unused
+ScotApp_1485,请参阅设备手册纠正该错误。
+ScotApp_1068,1068unused
+ScotApp_1694,因为%s，所以使用替换。按“现金/纸张状态”按钮，以填充货币或清除堵塞。
+ScotApp_1165,小心地向前拉打印机，直到其卡入到位。\n\n关闭并锁定打印机门。
+ScotApp_1021,注意
+ScotApp_1230,优惠券负金额，用于抵减商品价格
+ScotApp_1484,请参阅设备手册纠正该错误。
+ScotApp_912,批准并更新重量
+ScotApp_723,723unused
+ScotApp_623,使用键盘输入允许误差然后 按“输入”按钮。
+ScotApp_523,卡被拒绝
+ScotApp_423,请插入卡。请检查购物篮中的其它商品。
+ScotApp_323,  数量%d @ %d/%s
+ScotApp_223,读卡器卡片箱已满
+ScotApp_123,123unused
+ScotApp_1020,扫描商品
+ScotApp_923,923unused
+ScotApp_823,剔除批准
+ScotApp_1483,请参阅设备手册纠正该错误。
+ScotApp_1237,优惠券
+ScotApp_1680,无法恢复的错误。请关闭该结帐通道。联系Gunnebo 公司，并向其提供如下所示的错误信息。\n\nSafePay安全付款功能出错： %s
+ScotApp_702,702unused
+ScotApp_602,编辑/添加\n重量输入项
+ScotApp_502,把取消的商品放到一旁。
+ScotApp_402,不在此处
+ScotApp_302,请在付款设备上输入您的个人识别号码。
+ScotApp_202,正在测试退出登录功能...
+ScotApp_102,召回商品
+ScotApp_1722,结帐通道处于培训模式，继续进行交易吗？
+ScotApp_902,商品已从装袋台移开。放回商品。
+ScotApp_802,"\n是否采购整箱\n%s？\n\n选择""是""或""否""。"
+ScotApp_568,清除
+ScotApp_468,  召回
+ScotApp_368,打印纸因堵塞未加载
+ScotApp_268,读卡错误
+ScotApp_1027,取消交易，请按“是”按钮，恢复交易，请按“否”按钮。
+ScotApp_1354,收集礼品卡
+ScotApp_968,968unused
+ScotApp_868,授权号码输入项：
+ScotApp_1433,在袋秤上。
+ScotApp_1687,使用“现金/纸张状态”屏幕载入现金。
+ScotApp_1150,打印机外壳门是敞开的。
+ScotApp_1699,因为%s，所以使用替换。填充货币或清除堵塞，然后按“问题已解决”按钮盘。
+ScotApp_1259,USERDEFINED1
+ScotApp_1223,现金/纸张短缺
+ScotApp_1379,单价
+ScotApp_1432,<<<硬币不足。请补充硬币。>>>
+ScotApp_1686,无法恢复的错误。请关闭该结帐通道。呼叫Gunnebo公司，并向其提供如下所示的错误信息。\n\nSafePay安全付款功能出错： %s
+ScotApp_1157,纸币找赎机门或许已敞开。\n\n纸币找赎机门敞开情况下找赎机将无法运行。\n\n关闭找赎机门或安全门并用闩锁把其卡紧。
+ScotApp_1013,堆积商品
+ScotApp_1184,更多数据
+ScotApp_1848,"商品已被删除。请扫描下一件商品或触摸""输入代码""。"
+ScotApp_1169,打开打印机外壳门。\n* 小心地把打印机向前拉，直到其闩入到位。\n* 关闭并锁上打印机外壳门。
+ScotApp_1662,其它收据
+ScotApp_1311,* 取下纸币收受器。\n* 打开收受器组件。\n* 检查堵塞，然后更换组件。\n* 检查纸币收受器马达是否开启及LED指示灯是否为绿色。
+ScotApp_1025,从传送带上取下所有商品然后关闭安全盖。
+ScotApp_1378,重量
+ScotApp_22,无\n现金\n返还\n+ 0          (%s)
+ScotApp_1234,数量限制
+ScotApp_1685,硬币装置一般性错误
+ScotApp_1156,检查硬币找赎机电源开关是否接通。
+ScotApp_1012,正在运送您的商品。
+ScotApp_1365,MSR
+ScotApp_1235,EAS商品处于活动状态
+ScotApp_1221,负金额
+ScotApp_1143,硬币数量不足或硬币容器不存在。
+ScotApp_434,优惠类型
+ScotApp_1625,补充硬币或按“取出硬币”按钮以卸下。
+ScotApp_1430,取消商品     
+ScotApp_1684,硬币收款找零机出错
+ScotApp_1155,设备脱机。
+ScotApp_834,收费与顾客协议：
+ScotApp_799,检查购物篮
+ScotApp_699,卖不掉的商品
+ScotApp_599,复位表格设备...
+ScotApp_499,499unused
+ScotApp_399,399unused
+ScotApp_299,299unused
+ScotApp_199,已载入用户退出(User Exits)功能。
+ScotApp_743,743unused
+ScotApp_643,商品已被删除。扫描下件商品。
+ScotApp_543,店员编号不能大于%d位数。
+ScotApp_343,343unused
+ScotApp_243,读卡器无效卡
+ScotApp_999,已超额
+ScotApp_899,批准剔除，为：
+ScotApp_1220,电子转账(EFT)
+ScotApp_1142,硬币找赎机错误
+ScotApp_943,我用自带的购物袋
+ScotApp_843,843unused
+ScotApp_1437,移开商品的次数超过限定次数
+ScotApp_1601,     出卡机卡箱中的卡数量不足
+ScotApp_722,722unused
+ScotApp_622,修改通用产品编号的允许误差
+ScotApp_522,个人识别号码错误
+ScotApp_422,422unused
+ScotApp_322,322unused
+ScotApp_222,打印机的请求序列：检查打印机或事件查看器的错误，然后按“我已解决该问题”按钮。
+ScotApp_122,122unused
+ScotApp_1010,1010unused
+ScotApp_922,922unused
+ScotApp_822,批准剔除的商品。
+ScotApp_1715,批准“拒绝暂停”
+ScotApp_1227,时间限制
+ScotApp_701,701unused
+ScotApp_601,601unused
+ScotApp_401,插入卡。请检查购物篮中的其它商品。
+ScotApp_301,输入优惠券金额
+ScotApp_201,正在测试登录功能...
+ScotApp_101,未知价格
+ScotApp_1633,纸币收款找零机出错
+ScotApp_901,批准后可跳过装袋。
+ScotApp_801,成箱购物
+ScotApp_1824,数字收据未被生成。
+ScotApp_1328,把重量增加一倍
+ScotApp_1299,开始交易，并进入辅助模式
+ScotApp_1226,召回商品
+ScotApp_1140,纸币找赎机堵塞。
+ScotApp_1579,纸币收受机
+ScotApp_1426,%s\n%d正确吗？
+ScotApp_1632,取下纸币盒盖。检查连接纸币验证器的电缆，然后重试。若错误再次发生，请要求帮助服务。\n\nSafePay安全付款功能出错： %s
+ScotApp_1141,未能找赎%s。注意：纸币可能卡在纸币找赎机最上方。
+ScotApp_1791,仅接受现金
+ScotApp_1357,收集礼品卡
+ScotApp_763,763unused
+ScotApp_714,714unused
+ScotApp_614,装袋强制规定
+ScotApp_514,514unused
+ScotApp_314,卡箱问题
+ScotApp_214,借记结算帐户
+ScotApp_114,无法取消商品
+ScotApp_1369,杂项
+ScotApp_78,自动转账（不用现金）
+ScotApp_1630,纸币收款找零机出错
+ScotApp_58,OK
+ScotApp_48,48unused
+ScotApp_914,前往结帐通道，移开多余商品，然后按“清除安全”按钮。
+ScotApp_1422,手持扫描仪
+ScotApp_18,共计
+ScotApp_1147,装袋台的秤出错
+ScotApp_1578,总金额：
+ScotApp_1022,我不想\n把该商品装袋。
+ScotApp_98,98unused
+ScotApp_88,88unused
+ScotApp_1003,时间限制
+ScotApp_1434,年龄限制
+ScotApp_1356,收集
+ScotApp_1212,其它
+ScotApp_1455,无效号码
+ScotApp_1713,触摸以批准“拒绝暂停”
+ScotApp_1565,输入%s的载入金额
+ScotApp_194,正在载入设备管理器(Device Manager)...
+ScotApp_1275,USERDEFINED17
+ScotApp_1146,收受器未回应。
+ScotApp_1303,已接受会员优惠卡： #%s
+ScotApp_70,70unused
+ScotApp_60,求助
+ScotApp_50,50unused
+ScotApp_40,商店授权
+ScotApp_30,剔除商品
+ScotApp_20,20unused
+ScotApp_10,10unused
+ScotApp_1779,作废优惠券之前无法剔除商品。请首先作废商品的优惠券。
+ScotApp_1211,默认
+ScotApp_90,90unused
+ScotApp_80,80unused
+ScotApp_663,个人识别号码输入失败
+ScotApp_463,远程审批(Remote Approval)结束...
+ScotApp_363,\n使用键盘输入店员密码。
+ScotApp_163,163unused
+ScotApp_1420,取消商品\n%s吗？
+ScotApp_1145,硬币收受器错误
+ScotApp_963,取消请求
+ScotApp_863,优惠券金额登入项
+ScotApp_1816,有硬币卡住或门处于敞开状态。
+ScotApp_1637,电缆问题
+ScotApp_742,742unused
+ScotApp_642,已添加该商品。扫描下件商品。
+ScotApp_542,无法创建店员条码。
+ScotApp_342,类型说明
+ScotApp_242,读卡器卡堵塞
+ScotApp_142,确认金额
+ScotApp_1210,上次视图
+ScotApp_942,942unused
+ScotApp_842,842unused
+ScotApp_1044,店员协助式偿付
+ScotApp_1427,更改该商品数量： \n%s
+ScotApp_721,721unused
+ScotApp_621,默认
+ScotApp_1341,音量控制
+ScotApp_421,"请扫描您的商品，或按""开始""按钮开始。"
+ScotApp_321,交易核查
+ScotApp_221,关闭并锁好打印机箱门。
+ScotApp_121,该商品。
+ScotApp_1636,硬币收款找零机出错
+ScotApp_921,安全秤上的预计重量。
+ScotApp_821,821unused
+ScotApp_600,安全维护
+ScotApp_500,500unused
+ScotApp_400,400unused
+ScotApp_1368,签名识别
+ScotApp_200,正在测试交易代理(Transaction Broker)...
+ScotApp_100,需要数量
+ScotApp_1076,注意
+ScotApp_1623,把纸币转入盒中以便拾取
+ScotApp_1340,关闭整个系统
+ScotApp_1108,%s\t%s\t%s @ %s %s/%s\t%s
+ScotApp_1814,漏斗箱脱出或未就位。
+ScotApp_1758,优惠券箱错误
+ScotApp_1635,检查纸币收款找零机电缆并重试。若错误再次发生，请要求帮助服务。\n\nSafePay安全付款功能出错： %s
+ScotApp_1557,找赎机拾取
+ScotApp_734,734unused
+ScotApp_634,634unused
+ScotApp_534,有时间限制的商品
+ScotApp_1413,请在#分钟内完成您的交易。可能很快出现断电。
+ScotApp_334,读卡器无卡错误
+ScotApp_234,取下纸币盛放盒。\n\n从中取出纸币。\n\n装回盛放盒直至其卡入原位。\n\n拉上盛放盒的手柄，以确保闩锁锁住盛放盒。
+ScotApp_1569,价值
+ScotApp_1801,运行模式
+ScotApp_934,重量增加
+ScotApp_1622,盒
+ScotApp_768,暂停确认
+ScotApp_668,签名打印成功。
+ScotApp_1347,试图重新连接
+ScotApp_1778,清除安全
+ScotApp_168,扫描您的优惠券，然后把其放到一旁，直至购物完成。
+ScotApp_1203,背书单证
+ScotApp_1634,电缆问题
+ScotApp_1556,收受器拾取
+ScotApp_1412,协助功能
+ScotApp_1783,安全门敞开
+ScotApp_1232,已批准签名
+ScotApp_1568,全部总计 ：        %s
+ScotApp_1800,选择运行模式
+ScotApp_1495,请参阅设备手册纠正该错误。
+ScotApp_1621,为纸币盒解锁
+ScotApp_1346,该结帐通道脱机。系统正试图重新连接。
+ScotApp_72,72unused
+ScotApp_62,是
+ScotApp_52,取消优惠券
+ScotApp_42,剔除商品
+ScotApp_32,继续
+ScotApp_12,  数量%d @ %s/每件
+ScotApp_1411,更改数量
+ScotApp_92,欢迎！
+ScotApp_82,82unused
+ScotApp_1807,_ _ _
+ScotApp_1089,结束报告期间
+ScotApp_1620,为纸币盒盖解锁
+ScotApp_1345,正在结束安全管理器...
+ScotApp_1819,硬币收受找赎设备的收受单元出错
+ScotApp_762,762unused
+ScotApp_662,%
+ScotApp_1554,收受器
+ScotApp_462,已经载入远程审批(Remote Approval)。
+ScotApp_362,输入密码
+ScotApp_262,262unused
+ScotApp_162,扫描您的商品和优惠券。
+ScotApp_1410,更改价格
+ScotApp_962,收集剔除商品结帐通道，然后按“批准剔除”按钮。
+ScotApp_862,优惠券金额登入项：
+ScotApp_1806,\n*触摸“仅接受卡”按钮，以结束交易，并亲手把零钱交给顾客。
+ScotApp_1088,1088unused
+ScotApp_1627,硬币/纸币收款找零机出错
+ScotApp_741,741unused
+ScotApp_641, 平均重量        批准     统计      容差类型      容差数值        日期
+ScotApp_541,打印店员扫描的条码
+ScotApp_441,确认金额
+ScotApp_341,341unused
+ScotApp_241,设备管理器意外出错
+ScotApp_141,选择卡的类型
+ScotApp_941,已剔除商品
+ScotApp_841,商品登入项
+ScotApp_1873,1873unused
+ScotApp_25,出生日期：
+ScotApp_720,720unused
+ScotApp_520,未知货号
+ScotApp_420,420unused
+ScotApp_320,返回
+ScotApp_220,* 打开打印机箱的门。\n* 打开打印机盖检查堵塞。\n* 载入一卷新打印纸。\n* 关闭并锁好打印机箱。
+ScotApp_120,交易取消。请从此收银台移走
+ScotApp_1626,补充现金或选择其它功能。
+ScotApp_1423,手持扫描仪正在尝试连接。
+ScotApp_920,批准/不更新。
+ScotApp_820,批准剔除
+ScotApp_1757,要添加某个口音，请按屏幕底部的“口音”按钮，然后键入字母。
+ScotApp_1872,1872unused
+ScotApp_754,前7天总结
+ScotApp_554,此时不要刷卡记账卡。
+ScotApp_1613,拒收箱
+ScotApp_354,系统功能
+ScotApp_254,硬币找赎机无法使用。\n向硬币找赎机填入硬币或\n接通电源或\n清除找赎机堵塞。
+ScotApp_154,正在载入...
+ScotApp_1769,输入代码
+ScotApp_1240,现金
+ScotApp_954,智能秤打开失败
+ScotApp_854,五件商品
+ScotApp_1547,请参阅设备手册纠正该错误。
+ScotApp_1403,停止NCR SelfServ Checkout程序，然后重新启动该程序。若错误仍然存在，请联系您的服务台。
+ScotApp_545,有条件限制的商品
+ScotApp_1559,退出
+ScotApp_1871,%s %s 实际观察到
+ScotApp_1612,卡管理
+ScotApp_1550,请参阅设备手册纠正该错误。
+ScotApp_845,扫描更多商品：
+ScotApp_1564,输入%s的载入计数
+ScotApp_1768,重量单位不被不支持。
+ScotApp_1272,USERDEFINED14
+ScotApp_1546,请参阅设备手册纠正该错误。
+ScotApp_74,批准剔除
+ScotApp_64,取消选定
+ScotApp_54,取消
+ScotApp_44,44unused
+ScotApp_34,34unused
+ScotApp_1558,退出并保存
+ScotApp_14,14unused
+ScotApp_1870,%s %s 预计
+ScotApp_1389,签名识别设备出错
+ScotApp_1611,     拒收箱已装满
+ScotApp_94,94unused
+ScotApp_84,加载选项
+ScotApp_1289,B - C
+ScotApp_687,打印报告
+ScotApp_587,签名
+ScotApp_487,向下
+ScotApp_387,传送堵塞
+ScotApp_287,扫描仪：无效的标牌
+ScotApp_1545,请参阅设备手册纠正该错误。
+ScotApp_1336,实用工具
+ScotApp_987,商品已从接取带上移开。放回商品。
+ScotApp_887,商品已移开
+ScotApp_555,其它付款
+ScotApp_1610,     拒收箱接近装满 (%s)
+ScotApp_1041,批准签名
+ScotApp_1691,现金管理
+ScotApp_1809,硬币收款找零设备的找零部分出错
+ScotApp_1288,A
+ScotApp_761,761unused
+ScotApp_1193,已验证身份
+ScotApp_561,请把优惠券放到一旁
+ScotApp_461,正在载入远程审批(Remote Approval)...
+ScotApp_361,结帐通道已关闭
+ScotApp_261,261unused
+ScotApp_961,重量学习数据库故障：检查事件查看器的错误，然后按“我已解决该问题”按钮。
+ScotApp_861,861unused
+ScotApp_1876,%s %s 实际观察到
+ScotApp_740,740unused
+ScotApp_640,现有WLDB重量输入项
+ScotApp_540,540unused
+ScotApp_340,选择清单上的商品。使用箭头键上下滚动。
+ScotApp_240,设备管理器一般故障
+ScotApp_140,谢谢
+ScotApp_1105,e=d=0.005公斤，最重13.995公斤，最轻0.1公斤，最多2799
+ScotApp_1192,组装费用
+ScotApp_940,剔除
+ScotApp_840,商品输入项：
+ScotApp_1863,触摸 “批准” 或 “撤销商品”
+ScotApp_1463,更改价值
+ScotApp_1875,%s %s 预计
+ScotApp_774,挣得的积分：
+ScotApp_674,偿付被拒绝的原因：
+ScotApp_780,780unused
+ScotApp_474,474unused
+ScotApp_374,打印机黑标错误
+ScotApp_174,找不到已扫描的商品。\n\n该商品尚未被购买，或已被取消。
+ScotApp_1029,插入优惠券
+ScotApp_974,974unused
+ScotApp_1679,纸币库出错
+ScotApp_1747,指纹识别器出错
+ScotApp_1862,在扫描称量台上验证商品
+ScotApp_1603,     出卡机卡箱中的卡数量正常
+ScotApp_1419,一包多件商品
+ScotApp_1759,优惠券箱已满
+ScotApp_649,价格已嵌入
+ScotApp_1039,上一件商品配有EAS标牌。
+ScotApp_849,需要数量
+ScotApp_765,765unused
+ScotApp_565,商店登录
+ScotApp_1549,请参阅设备手册纠正该错误。
+ScotApp_1861,购物清单
+ScotApp_1731,正在载入选购商品图像...
+ScotApp_76,76unused
+ScotApp_66,66unused
+ScotApp_56,取消付款
+ScotApp_46,帮助
+ScotApp_36,退款：
+ScotApp_26,26unused
+ScotApp_16,%s将记入您的卡。
+ScotApp_719,719unused
+ScotApp_619,选择<输入允许误差>或<默认> 编辑当前允许误差。
+ScotApp_519,优惠券金额太高
+ScotApp_419,419unused
+ScotApp_319,刷卡
+ScotApp_219,219unused
+ScotApp_119,取消所有商品
+ScotApp_96,96unused
+ScotApp_86,86unused
+ScotApp_1755,从列表中选择
+ScotApp_1038,验证签名
+ScotApp_919,验证商品重量，然后按“批准并更新重量”按钮，或按“批准/不更新”按钮。
+ScotApp_1489,请参阅设备手册纠正该错误。
+ScotApp_1745,指纹识别装置断开。 \n\n请再试一次。
+ScotApp_1860,Please select from picklist assisted items or look-up item alphabetically.
+ScotApp_1268,USERDEFINED10
+ScotApp_1008,1008unused
+ScotApp_786,结帐通道暂停
+ScotApp_686,昨天
+ScotApp_586,优惠券： %0.0ld/¥%0.2lf
+ScotApp_486,向上
+ScotApp_386,盛放盒已移开
+ScotApp_286,扫描仪：无效的标牌前缀2
+ScotApp_186,186unused
+ScotApp_1488,请参阅设备手册纠正该错误。
+ScotApp_986,986unused
+ScotApp_886,商品已从装袋台移开。\n放回商品。
+ScotApp_1393,停止NCR SelfServ Checkout程序，然后重新启动该程序。若错误仍然存在，请联系服务台。
+ScotApp_1867,镜头被阻挡
+ScotApp_68,68unused
+ScotApp_38,38unused
+ScotApp_28,取消购物
+ScotApp_1024,1024unused
+ScotApp_760,请在此屏幕一侧刷卡。
+ScotApp_660,所有货币的量正常
+ScotApp_460,此操作将完成您的购物。
+ScotApp_360,关闭结帐通道
+ScotApp_260,260unused
+ScotApp_1392,三色灯错误
+ScotApp_960,袋秤故障：检查袋秤或事件查看器的错误，然后按“我已解决该问题”按钮。
+ScotApp_860,需要测量：
+ScotApp_1866,更多热门商品
+ScotApp_1459,现金管理报告
+ScotApp_1239,无
+ScotApp_1301,编辑选购清单
+ScotApp_1749,正在处理指纹
+ScotApp_1017,清除传送带上的堆积商品。
+ScotApp_1771,优惠券金额限制
+ScotApp_739,739unused
+ScotApp_639,预计重量            重量比较
+ScotApp_539,539unused
+ScotApp_439,439unused
+ScotApp_339,339unused
+ScotApp_239,设备管理器出现意外状态
+ScotApp_1092,报告内容
+ScotApp_1851,不批准
+ScotApp_1238,其它付款
+ScotApp_939,计时器超时
+ScotApp_839,取消行动
+ScotApp_1333,退格
+ScotApp_24,已失效
+ScotApp_1016,传送带上的堆积商品
+ScotApp_1615,按出卡机拾取按钮以卸载
+ScotApp_1723,培训交易
+ScotApp_1028,超过优惠券限额
+ScotApp_1435,硬币/纸币找赎器出错
+ScotApp_1698,按“问题已解决”按钮盘。
+ScotApp_1688,盛放盒出错
+ScotApp_454,454unused
+ScotApp_1593,取出硬币
+ScotApp_1642,纸币收款找零机出错
+ScotApp_1015,堆积商品
+ScotApp_785,785unused
+ScotApp_685,每小时
+ScotApp_585,585unused
+ScotApp_536,硬币收受器
+ScotApp_385,385unused
+ScotApp_285,扫描仪：无效的标牌后缀
+ScotApp_185,对比顾客签名和卡上的签名。
+ScotApp_1224,需要价格
+ScotApp_985,把商品放到接取带上。
+ScotApp_885,装袋提示
+ScotApp_575,结束现金偿付。应付余额。
+ScotApp_475,暂停交易
+ScotApp_375,打印机超时
+ScotApp_1002,无销售
+ScotApp_1888,监督客户交易， 以保证交易安全性， 然后触摸 “清除安全”。
+ScotApp_910,910unused
+ScotApp_1592,从卡住硬币的钱箱中取出硬币。倾斜硬币钱箱。把螺丝向右转，直到可以取出硬币。不要过度用力。
+ScotApp_875,取消购物需要收银主管的身份号码
+ScotApp_1014,清除传送带上的堆积商品。
+ScotApp_1572,您是否确实要在硬币管理屏幕上忽略更改？
+ScotApp_1790,仅接受信用卡/借记卡
+ScotApp_1344,已载入安全管理器。
+ScotApp_798,798unused
+ScotApp_698,698unused
+ScotApp_598,表格%d储存失败！
+ScotApp_498,实付金额：
+ScotApp_398,盛放盒已插入
+ScotApp_298,298unused
+ScotApp_198,正在载入用户退出(User Exits)功能...
+ScotApp_998,数量
+ScotApp_898,正在结束WTINFO...
+ScotApp_1416,检查一包多件商品
+ScotApp_1431,取消全部
+ScotApp_1236,正在处理报告...
+ScotApp_1770,选择搜索结果
+ScotApp_1000,未找到
+ScotApp_1439,袋/盒超过限额
+ScotApp_1217,剔除
+ScotApp_759,请在付款设备上刷卡。
+ScotApp_659,货币短缺状态：
+ScotApp_559,无优惠券
+ScotApp_459,此次购物仍然留有余额。
+ScotApp_359,系统功能
+ScotApp_259,正在结束设备管理器...
+ScotApp_1007,已请求帮助
+ScotApp_1438,新商品超过限额
+ScotApp_959,重量记忆资料库
+ScotApp_859,否
+ScotApp_1216,安全
+ScotApp_1373,收集礼品卡
+ScotApp_1005,视觉检查
+ScotApp_1655,销售部
+ScotApp_1228,暂停
+ScotApp_1725,安全功能被禁用
+ScotApp_1006,其它偿付
+ScotApp_496,数量限制
+ScotApp_1018,最小年龄。
+ScotApp_1160,检查电缆是否连接到小键盘后面。\n\n如果电缆连接牢固，请按“我已解决该问题”按钮。\n\n若错误仍然存在，请关闭终端后重新启动。
+ScotApp_1073,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;DATANEEDEDTYPE=%d;
+ScotApp_1424,要连接您的手持扫描仪，请按“连接”按钮。
+ScotApp_1202,已关闭购物通道
+ScotApp_679,协助报告
+ScotApp_1792,仅接受卡
+ScotApp_1214,收据
+ScotApp_1804,退出仅接受卡的模式
+ScotApp_879,879unused
+ScotApp_1072,需要信息
+ScotApp_1631,纸币校验机错误
+ScotApp_1148,秤未回应。
+ScotApp_1244,借记储蓄卡
+ScotApp_1004,检查商品
+ScotApp_1282,需要价格，用于：
+ScotApp_1071,1071unused
+ScotApp_1276,USERDEFINED18
+ScotApp_1200,价格提示
+ScotApp_1639,硬币收款找零机出错
+ScotApp_1828,\n    - 音量 %d%%
+ScotApp_1308,已输入个人识别号码
+ScotApp_1417,若商品是一包多件商品，请按“协助模式”进行剔除该商品的操作，然后扫描一包多件商品的条形码。
+ScotApp_1343,正在载入安全管理器...
+ScotApp_779,779unused
+ScotApp_1429,<<<硬币不足。请补充硬币。>>>     
+ScotApp_579,579unused
+ScotApp_479,把优惠券丢入其收集容器
+ScotApp_379,现金收受器
+ScotApp_279,承认所有记录的安全问题。
+ScotApp_179,179unused
+ScotApp_1865,查找商品\n无重量
+ScotApp_1207,属实签名
+ScotApp_1638,检查硬币收款找零机电缆后重试。若错误再次发生，请要求服务。\n\nSafePay安全付款功能出错： %s
+ScotApp_979,限定次数= %d次顾客的要求
+ScotApp_707,前7天
+ScotApp_607,设置必须装袋的规定
+ScotApp_507,视觉验证商品
+ScotApp_307,其它容器
+ScotApp_207,207unused
+ScotApp_107,正准备提供帮助
+ScotApp_1219,年龄限制
+ScotApp_907,907unused
+ScotApp_807,取下安全标牌
+ScotApp_1077,把商品放回传送带
+ScotApp_1428,更改该商品价格： \n%s
+ScotApp_1695,稍后修复
+ScotApp_1206,未禁用商品
+ScotApp_1218,收集
+ScotApp_1782,以服务员模式开始交易
+ScotApp_1273,USERDEFINED15
+ScotApp_1624,把所有纸币转入盒中
+ScotApp_793,793unused
+ScotApp_1059,1059unused
+ScotApp_593,正在载入NCR SelfServ Checkout SigCap签名识别...
+ScotApp_493,收据将在付款设备下面打印出来。
+ScotApp_393,流水账打印机
+ScotApp_293,请要求帮助
+ScotApp_1205,装袋台商品堆积
+ScotApp_993,结帐通道关闭
+ScotApp_893,正在载入DBM...
+ScotApp_1063,1063unused
+ScotApp_1414,在恢复供电之前，此结帐通道无法使用。
+ScotApp_1182,优惠券金额限制
+ScotApp_1201,辅助支付
+ScotApp_1075,限制\跳过传送带
+ScotApp_1348,结帐通道关闭
+ScotApp_1671,打开纸币收款找零机装置，消除卡住的纸币。关闭收款找零机装置。\n从硬币料斗配送硬币然后从零钱接收槽中取出硬币。
+ScotApp_1204,单证编号
+ScotApp_1284,1284unused
+ScotApp_1062,1062unused
+ScotApp_1233,其它付款
+ScotApp_27,27unused
+ScotApp_1074,批准跳过传送带。
+ScotApp_1472,收款找零机设备尚未就绪
+ScotApp_1026,取消交易
+ScotApp_1061,1061unused
+ScotApp_1617,输入的容量太大。重新输入出卡机容量。最大容量是%d。
+ScotApp_1050,1050unused
+ScotApp_744,744unused
+ScotApp_1591,检查硬币找赎机的电缆连接。
+ScotApp_1130,纸币收受器出错
+ScotApp_1270,USERDEFINED12
+ScotApp_1629,CPU设置或Sysdata系统参数有问题。请要求帮助服务。\n\nSafePay安全付款功能出错：%s
+ScotApp_1820,"从秤盘上取走商品，然后按扫描仪上的"">0<""按钮。"
+ScotApp_882,确认暂停。
+ScotApp_1440,纸币管理
+ScotApp_1407,重新启动
+ScotApp_727,727unused
+ScotApp_627,交易号：
+ScotApp_527,527unused
+ScotApp_427,媒介低
+ScotApp_327,设备出错：
+ScotApp_227,读卡器中插入了无效卡
+ScotApp_127,127unused
+ScotApp_665,选择“取消所有”或“返回”按钮以继续。
+ScotApp_1060,请稍候...
+ScotApp_1616,输入出卡机卡箱的容量。最多可装入%d。
+ScotApp_927,设备故障
+ScotApp_827,把商品的条形码划过扫描台然后把其放到装袋台。
+ScotApp_1540,请参阅设备手册纠正该错误。
+ScotApp_900,把商品放到装袋台。
+ScotApp_1277,USERDEFINED19
+ScotApp_865,验证持卡人
+ScotApp_506,506unused
+ScotApp_406,406unused
+ScotApp_306,没有容器
+ScotApp_206,选项将被载入。
+ScotApp_106,需要帮助
+ScotApp_1209,礼品卡超过限额
+ScotApp_806,批准经视觉检查的商品
+ScotApp_1067,1067unused
+ScotApp_1418,重量超过了最大允许重量。
+ScotApp_1473,装置尚未就绪。\n\n请接通电源，检查通信电缆，或把装置放回机箱内。
+ScotApp_187,187unused
+ScotApp_1716,预计重量:
+ScotApp_1190,记入优惠券
+ScotApp_1602,     出卡机卡箱中的卡数量不足 (%s)
+ScotApp_1149,收据打印机错误
+ScotApp_1066,1066unused
+ScotApp_1614,出卡机卡箱
+ScotApp_792,792unused
+ScotApp_692,692unused
+ScotApp_592,已载入NCR SelfServ Checkout加密器。
+ScotApp_492,请拿好找给您的钱。
+ScotApp_392,未知商品
+ScotApp_292,无法扫描优惠券
+ScotApp_192,192unused
+ScotApp_1241,信用卡
+ScotApp_1197,已取消交易
+ScotApp_1548,请参阅设备手册纠正该错误。
+ScotApp_992,请输入生日
+ScotApp_892,正在结束智能秤...
+ScotApp_1053,等待收银员拿给您字条，以便您在上面签名。
+ScotApp_1404,收款机服务器已关闭或失去同步，请用开关关闭终端。
+ScotApp_1245,借记检验
+ScotApp_1262,USERDEFINED4
+ScotApp_1471,硬币收款找零设备出错
+ScotApp_1196,驾照号码
+ScotApp_1052,1052unused
+ScotApp_1600,出卡机状态：
+ScotApp_1663,箱是空的或堵塞
+ScotApp_1261,USERDEFINED3
+ScotApp_1125,把每个硬币筒填满硬币。\n\n转到商店模式，选择“现金/纸张状态”并按“硬币找赎机已补充硬币”按钮。
+ScotApp_1183,价格提示
+ScotApp_1470,纸币收款找零设备出错
+ScotApp_1195,顾客服务协议(CSA)已暂停
+ScotApp_1229,已请求帮助
+ScotApp_1051,字条批准
+ScotApp_1607,     拒收箱正常 (%s)
+ScotApp_1895,Genr Excp
+ScotApp_747,747unused
+ScotApp_647,否
+ScotApp_447,您经常购物的帐户已被激活。
+ScotApp_347,限制销售的商品已被取消 – 顾客年龄不符合要求。请把商品放到一旁。
+ScotApp_247,247unused
+ScotApp_147,147unused
+ScotApp_1260,USERDEFINED2
+ScotApp_1619,暂停
+ScotApp_769,确认或取消暂停。
+ScotApp_947,新重量商品
+ScotApp_847,扫描完成
+ScotApp_1477,请参阅设备手册纠正该错误。
+ScotApp_726,726unused
+ScotApp_626,允许误差：
+ScotApp_526,\n个人识别号码输入错误。\n请刷其它卡\n -或- \n支付现金
+ScotApp_426,结帐通道编号：
+ScotApp_326,对于有年龄限制的商品，出生日期不符合年龄限制。请重新输入或剔除所有有限制的商品。
+ScotApp_226,读卡器设备无法使用
+ScotApp_126,(mmddyy).
+ScotApp_1606,     拒收箱正常
+ScotApp_926,商品未退回到装袋台。
+ScotApp_826,我不想\n把该商品装袋
+ScotApp_1267,USERDEFINED9
+ScotApp_1618,一个纸币找赎机盒脱出或未完全插入。\n\n请装回机盒或使其闩入到位。
+ScotApp_1181,超过优惠券限额
+ScotApp_205,复制完成。
+ScotApp_105,未知商品
+ScotApp_1476,请参阅设备手册纠正该错误。
+ScotApp_1730,搜索
+ScotApp_1390,装置未回应
+ScotApp_805,批准商品
+ScotApp_1864,前往结账通道
+ScotApp_1408,帮助
+ScotApp_1266,USERDEFINED8
+ScotApp_1180,价格不符
+ScotApp_1208,协助模式销售
+ScotApp_1475,请参阅设备手册纠正该错误。
+ScotApp_1397,服务员
+ScotApp_1748,指纹登录失败
+ScotApp_718,718unused
+ScotApp_618,重量允许误差
+ScotApp_518,插入现金
+ScotApp_1253,PIP会员优惠卡
+ScotApp_1604,     出卡机卡箱中的卡数量正常 (%s)
+ScotApp_218,打印机接近无纸
+ScotApp_118,需要批准
+ScotApp_552,店员和密码不能以零开始。
+ScotApp_791,选择付款类型
+ScotApp_691,691unused
+ScotApp_591,正在载入NCR SelfServ Checkout加密器...
+ScotApp_391,需要价格的商品
+ScotApp_918,无商品重量记录。
+ScotApp_1187,装置出错
+ScotApp_991,年龄检查
+ScotApp_891,已载入智能秤。
+ScotApp_1474,硬件出错。错误代码E%d
+ScotApp_1396,退出服务员模式
+ScotApp_1252,PIP借记现金返还
+ScotApp_1732,已经载入选购商品图像。
+ScotApp_1461,硬币
+ScotApp_1166,* 打开打印机门。\n* 打开闩锁，推回打印机。\n* 打开打印机盖检查堵塞。\n* 关闭打印机盖并重新载入纸张。\n* 小心地向前拉打印机，直到其就位。
+ScotApp_1186,意外降低
+ScotApp_1857,  请勿把商品放到传送带上	
+ScotApp_1829,批准
+ScotApp_1670,硬币/纸币收款找零机出错
+ScotApp_1198,已输入帐号
+ScotApp_1869,手在镜头视野中
+ScotApp_1251,PIP借记卡
+ScotApp_1855,非必选
+ScotApp_767,媒介水平正常
+ScotApp_667,已刷卡。请扫描您的商品和优惠券。
+ScotApp_567,输入
+ScotApp_467,467unused
+ScotApp_367,367unused
+ScotApp_267,安全
+ScotApp_1460,纸币
+ScotApp_1185,包装盒超过限额
+ScotApp_1009,商店模式
+ScotApp_867,否
+ScotApp_1856,  请勿装袋
+ScotApp_1677,检查硬币收款找零机的门是否关闭。
+ScotApp_746,746unused
+ScotApp_646,是
+ScotApp_1394,数字接口出错
+ScotApp_446,暂停交易
+ScotApp_346,转账（现金返回）
+ScotApp_246,246unused
+ScotApp_146,请选择付款方式。
+ScotApp_1501,请参阅设备手册纠正该错误。
+ScotApp_1609,     拒收箱接近装满
+ScotApp_1194,授权号码
+ScotApp_946,袋/盒批准
+ScotApp_846,扫描商品或按“扫描完成”按钮。
+ScotApp_1843,自备购物袋
+ScotApp_1467,使用“现金/纸张状态”屏幕来卸下现金。
+ScotApp_725,725unused
+ScotApp_625,输入一个在 <%s>和<%s>之间的重量允许误差。
+ScotApp_1381,正在处理...
+ScotApp_425,425unused
+ScotApp_325,输入的日期无效
+ScotApp_225,读卡器卡片箱已插入
+ScotApp_1676,硬币收款找零机门敞开
+ScotApp_925,925unused
+ScotApp_825,商品装袋
+ScotApp_1608,     拒收箱是空的
+ScotApp_1842,充分协助
+ScotApp_1808,选择收据上的商品。 
+ScotApp_1466,收款找零机状态为现金充裕
+ScotApp_1380,价格
+ScotApp_1854,非必选
+ScotApp_1675,硬币收款找零机出错
+ScotApp_1597,会员优惠卡
+ScotApp_1350,%s\n%s %s 已添加
+ScotApp_738,738unused
+ScotApp_638,有效的WLDB允许误差信息
+ScotApp_538,538unused
+ScotApp_338,输入商品说明的前三个字母。
+ScotApp_238,\n纸币收受器未记录插入的现金。\n\n请检查纸币盛放盒。
+ScotApp_138,请取走卡
+ScotApp_1170,* 打开打印机外壳门。\n* 打开打印机盖后清除堵塞纸张。\n*关闭打印机盖并重新载入纸张。\n* 关闭并锁上打印机外壳门。
+ScotApp_1841,请到结帐通道进行批准
+ScotApp_1740,验证袋子
+ScotApp_938,938unused
+ScotApp_838,顾客协议
+ScotApp_1133,纸币收受器堵塞。
+ScotApp_1387,"遇到软件致命错误。\n重启终端。\n\n重启终端方法：\n* 把管理员的键盘锁转到'S’ –或-按管理员按钮。\n* 选择重启整个系统。\n* 请求协助，并把错误情况告诉店方。"
+ScotApp_1674,请按拒绝按钮来释放卡住的硬币。若错误再次发生，则可能存在硬币堵塞。打开硬币盒盖并固定。取出卡住的硬币。按拒收按钮来复位。释放并关闭硬币盒盖。
+ScotApp_1650,(ddmmyy)
+ScotApp_690,690unused
+ScotApp_590,正在结束Device Factory...
+ScotApp_490,"扫描您的商品，或按""开始""按钮开始。"
+ScotApp_390,召回商品
+ScotApp_290,290unused
+ScotApp_190,正在载入交易代理...
+ScotApp_990,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_890,正在载入智能秤...
+ScotApp_1772,优惠券
+ScotApp_1661,无法打印收据。请按“其它收据”按钮重试。
+ScotApp_1132,通讯错误。
+ScotApp_1386,致命错误
+ScotApp_784,纸币找赎机无法工作\n* 在纸币找赎机中填入纸币或\n* 清除找赎机堵塞或\n* 调整残钞箱。
+ScotApp_684,今天
+ScotApp_584,EBT电子福利转账卡被拒绝。
+ScotApp_484,需要签名
+ScotApp_384,384unused
+ScotApp_284,扫描仪：数据丢失
+ScotApp_1595,首选语言
+ScotApp_1451,收银员编号
+ScotApp_984,已载入接取带。
+ScotApp_884,取消暂停
+ScotApp_1847,"已添加该商品。 请扫描下一件商品或触摸""输入代码""。"
+ScotApp_1660,选择打印选项
+ScotApp_1131,纸币盒脱出或未正确插入。
+ScotApp_1385,选择语言
+ScotApp_1436,免于装袋的次数超过限定次数
+ScotApp_1049,1049unused
+ScotApp_666,666unused
+ScotApp_1594,正确关闭终端然后重新启动之。
+ScotApp_466,  已扫描的未知商品
+ScotApp_366,打印机切刀堵塞
+ScotApp_266,正在结束安全代理...
+ScotApp_966,966unused
+ScotApp_1541,请参阅设备手册纠正该错误。
+ScotApp_1846,"扫描商品或触摸""输入代码""。"
+ScotApp_1667,纸币卡住
+ScotApp_1689,纸币收款找零机出错
+ScotApp_745,745unused
+ScotApp_645,把扫描商品再次放到装袋台。
+ScotApp_1581,硬币找赎机
+ScotApp_445,现金津贴
+ScotApp_345,345unused
+ScotApp_245,读卡器设备无法使用
+ScotApp_145,145unused
+ScotApp_945,限制\袋/盒
+ScotApp_713,713unused
+ScotApp_613,把商品放到袋秤上。
+ScotApp_513,513unused
+ScotApp_313,313unused
+ScotApp_213,213unused
+ScotApp_113,取消商品
+ScotApp_1573,按载入按钮以补充，或按收受器拾取和找赎机拾取按钮来卸下。
+ScotApp_913,安全秤盘上的意外商品。
+ScotApp_813,输入采购订单号/项目名称，然后按“输入”按钮。
+ScotApp_1666,纸币收款找零机错误
+ScotApp_1137,%s纸币盒未安装。
+ScotApp_1580,纸币找赎机
+ScotApp_758,758unused
+ScotApp_658,货币短缺
+ScotApp_558,限量商品
+ScotApp_1653,金额超过容量。需要的最高金额是%s，已自动输入%s的金额。
+ScotApp_358,返回到协助模式
+ScotApp_258,正在结束交易代理...
+ScotApp_158,该商品需要商店批准。请继续。
+ScotApp_1844,搜索
+ScotApp_958,袋秤
+ScotApp_858,是
+ScotApp_1136,纸币拒收箱脱出或未完全闩入到位。
+ScotApp_1587,您确定要忽略纸币管理屏幕上的变化吗？
+ScotApp_1531,请参阅设备手册纠正该错误。
+ScotApp_1599,%s偏好查找失败。
+ScotApp_1652,(yymmdd)
+ScotApp_1123,"* 在取出所有卡住的纸币之前请勿按“继续”按钮。\n* 小心地把纸币找赎机推回机箱。\n* 从纸币找赎机取出卡住的纸币，但不要影响传送带。\n* 把找赎机推入机箱。\n* 锁好找赎机门，然后触摸""我已解决该问题""。"
+ScotApp_1342,选择实用工具
+ScotApp_1332,空格键
+ScotApp_1586,%s    %s  %s
+ScotApp_1444,取出
+ScotApp_1598,您的偏好已恢复。
+ScotApp_1651,(yyyymmdd)
+ScotApp_1122,纸币可能卡在纸币找赎机出口处。\n\n请把纸币找赎机部分抽出。\n\n在所显示的区域取出卡住的纸币。\n小心地把纸币找赎机推回到机箱。
+ScotApp_1331,Shift键
+ScotApp_1585,钱箱  金额  金额的变化
+ScotApp_1118,找赎%s纸币出错。\n\n%s无法从纸币盒中取出纸币。\n\n请取出%s纸币盒然后检查纸币放置情况。
+ScotApp_1884,智能辅助装置警报
+ScotApp_1191,需要测量
+ScotApp_1121,纸币可能会卡在所显示的区域。\n\n请把纸币找赎机部分抽出。\n\n取出卡住的纸币。\n\n小心地把纸币找赎机推回到机箱。
+ScotApp_503,503unused
+ScotApp_403,403unused
+ScotApp_1849,
+ScotApp_1330,商品未装袋
+ScotApp_1355,您的余额
+ScotApp_1584,钱箱  计数  计数的变化
+ScotApp_465,%s               %s
+ScotApp_365,打印头堵塞
+ScotApp_265,265unused
+ScotApp_965,965unused
+ScotApp_633,签名：
+ScotApp_433,433unused
+ScotApp_333,读卡器遮门堵塞错误
+ScotApp_233,确保纸币收受器安装得正确。\n\n向前拉动手柄以释放并向前滑动纸币收受器。\n\n把其推回直到其就位。
+ScotApp_133,133unused
+ScotApp_1120,在%s纸币盒前面可能有纸币堵塞。\n\n请取下%s纸币盒后在此区域寻找纸币堵塞。\n\n如果可能，请取出卡住的纸币，然后装回纸币盒。
+ScotApp_1805,退出仅接受现金的模式
+ScotApp_933,重量不符
+ScotApp_833,833unused
+ScotApp_1337,退出NCR SelfServ Checkout系统
+ScotApp_1780,开始交易
+ScotApp_712,712unused
+ScotApp_612,增加重量
+ScotApp_512,视觉验证
+ScotApp_312,卡箱被堵塞
+ScotApp_212,212unused
+ScotApp_112,确认数量
+ScotApp_1081,查看\n所有结帐通道
+ScotApp_778,778unused
+ScotApp_678,678unused
+ScotApp_578,结束卡偿付。找赎应找零钱。
+ScotApp_478,把优惠券丢入其收集容器
+ScotApp_378,收据打印机
+ScotApp_278,安全日志
+ScotApp_1127,重新连接
+ScotApp_1802,仅接受卡
+ScotApp_978,限定次数= %d
+ScotApp_878,输入价格。
+ScotApp_1533,请参阅设备手册纠正该错误。
+ScotApp_1787,输入使用过的塑料袋的数量。若未使用塑料袋，请输入0。
+ScotApp_1799,仅接受卡的模式
+ScotApp_1309,* 插入盛放盒，直到其闩入位。\n* 检查纸币收受器马达是否短时开启。
+ScotApp_1323,剩余重量
+ScotApp_1079,把扫描过的商品放到传送带上。
+ScotApp_1382,(标准)
+ScotApp_1532,请参阅设备手册纠正该错误。
+ScotApp_1786,塑料袋收费
+ScotApp_1094,打印签名
+ScotApp_1113,%s @ %s/%s\t%s
+ScotApp_1798,仅接受现金的模式
+ScotApp_1322,优惠券传感器出错\n通讯故障。
+ScotApp_1078,选择预计重量的设置。 （顾客应把商品放到传送带上。）
+ScotApp_1334,  商品未放在传送带上
+ScotApp_1785,登录无效。 请使用键盘或指纹重新登录。
+ScotApp_1046,请把您的%s拿给支付台的收银员。
+ScotApp_1696,条件已更正
+ScotApp_1112,%s @ %s %s/%s\t%s
+ScotApp_1158,小键盘/ EFT电子转账装置错误
+ScotApp_1065,1065unused
+ScotApp_1321,完成凭证付款。应付余额。
+ScotApp_764,764unused
+ScotApp_1530,请参阅设备手册纠正该错误。
+ScotApp_1784,一包多件的商品
+ScotApp_1070,1070unused
+ScotApp_49,49unused
+ScotApp_1111,  数量%s @ %s/%s\t%s
+ScotApp_753,昨天每小时
+ScotApp_653,请输入以便士表示的优惠券金额然后按“输入”按钮。
+ScotApp_453,硬币收受器的状态为装满硬币
+ScotApp_353,返回
+ScotApp_253,253unused
+ScotApp_153,153unused
+ScotApp_1320,开始凭证付款。
+ScotApp_953,"关机后重新启动终端：\n\n* 把管理员键盘锁转到'S' -或-按管理员按钮。\n* 选择""下次重启时运行设备自动检测""。 Select ""是"" to confirm.\n* 选择“关闭整个系统”按钮。\n* 当出现空白画面时间，请在UPS或电源板处关闭终端。\n* 开启终端。 Check event viewer. 若错误再次出现，则请则请生成一份诊断日志文件，并联系维修人员。"
+ScotApp_853,四件商品
+ScotApp_1845,收据
+ScotApp_1537,请参阅设备手册纠正该错误。
+ScotApp_732,732unused
+ScotApp_632,632unused
+ScotApp_532,有条件限制的商品
+ScotApp_432,EBT(电子福利转账)
+ScotApp_332,离开帮助模式。
+ScotApp_232,* 取下纸币收受器和盛放盒。\n* 检查盒的堵塞。\n* 打开收受器顶部的门，然后检查纸币的堵塞。\n* 关好门。\n* 装回收受器和盛放盒。
+ScotApp_132,132unused
+ScotApp_1110,  数量%s @ %s/每件\t%s
+ScotApp_1242,借记卡
+ScotApp_1285,流行
+ScotApp_932,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_832,832unused
+ScotApp_1327,按所需报告，然后按“运行报告”按钮。
+ScotApp_711,711unused
+ScotApp_611,选择所需功能。
+ScotApp_511,把顾客签名与卡上的签名进行对比。
+ScotApp_411,请拿好会员优惠卡
+ScotApp_311,卡箱是空的
+ScotApp_111,清零秤盘
+ScotApp_1789,优惠券 
+ScotApp_1536,请参阅设备手册纠正该错误。
+ScotApp_911,清除安全
+ScotApp_811,扫描您的礼品卡。请检查购物篮中的其它商品。
+ScotApp_1628,CPU出错
+ScotApp_1523,请参阅设备手册纠正该错误。
+ScotApp_1349,预计%s\n %s\n%s %s   \n实际观察到%s %s
+ScotApp_1892,安全性分析
+ScotApp_1279,检查
+ScotApp_1535,请参阅设备手册纠正该错误。
+ScotApp_1057,1057unused
+ScotApp_1441,硬币管理
+ScotApp_1313,* 检查打印机中的纸张是否堵塞。\n* 重新载入纸张。\n* 正确关断终端然后再重新启动之。
+ScotApp_1681,纸币收款找零机出错
+ScotApp_1069,1069unused
+ScotApp_1325,把商品放到秤上。
+ScotApp_1278,USERDEFINED20
+ScotApp_1103,上一个
+ScotApp_1534,请参阅设备手册纠正该错误。
+ScotApp_1056,1056unused
+ScotApp_1312,* 取下纸币盒。\n* 打开并取出纸币。\n* 关闭纸币盒并把其重新插入纸币收受器。\n* 检查纸币收受器马达是否开启以及LED指示灯是否为绿色。
+ScotApp_1265,USERDEFINED7
+ScotApp_1850,出错设备
+ScotApp_1213,未知
+ScotApp_1521,请参阅设备手册纠正该错误。
+ScotApp_139,请取走收据
+ScotApp_1043,使用辅助模式接受%s从顾客。
+ScotApp_1401,正在协助。\n\n请稍候...
+UnknownItemMessage,客服人员正在前来。\n\n请把商品放到一旁，然后继续。
+TimeRestrictedItemMessage,当前，您无法 购买此商品。\n\n请把该商品放到一旁 然后继续。
+ItemQuantityExceededMessage,您已超出该商品允许购买的数量。\n\n请把商品放在一边，继续进行。
+WeightMismatch,检查商品的重量。\n\n请稍候...
+ItemQuantityExceeded,数量限制 已超出
+WaitForRemoteAssistanceTitle,远程服务员
+ScotApp_489,感谢您使用NCR SelfServ Checkout自助结帐系统。
+ScotApp_273,请勿在此时扫描。\n把商品放到一旁。
+ScotApp_431,无效会员优惠卡。请确认。
+ScotApp_410,需要协助的是：
+ScotApp_1739,请等待服务员。\n系统无法验证您的袋子。\n如果你不小心把袋子以外的物品放到的装袋台，请在此刻移开这些物品。
+ScotApp_73,返回到 购物模式
+ScotApp_772,已提请暂停当前交易。\n请确认或取消该请求。
+ScotApp_530,读卡错误。\n请使用其它卡。 \n -或- \n支付现金。 \n -或- \n请要求帮助。
+ScotApp_524,个人识别号码输入错误。\n请在付款设备上重新输入个人识别号码。
+ScotApp_397,使用协助模式销售有效商品。\n收集其它不销售的商品。
+ScotApp_171,"""%s""\n\n %d是否正确？"
+ScotApp_1374,\n---------------------------------------\n
+ScotApp_1646,交易暂停。请把所有商品放在一旁。
+ScotApp_495,您已超出该商品允许购买的数量。\n\n请把商品放在一边，继续进行。
+ScotApp_529,请取出卡，然后... \n插入其它卡。 \n -或- \n支付现金。 \n -或- \n请要求帮助。
+ScotApp_275,此时不要插入记账卡。\n请取回您的记账卡。
+ScotApp_1891,正在进行系统验证。 \n请稍候...
+ScotApp_1750,我们正在处理您的指纹，请稍候。
+ScotApp_169,要继续购物吗？
+ScotApp_415,请拿好会员优惠卡。\n卡在此前已插入过。
+ScotApp_1793,目前本机仅接受信用卡和借记卡。\n要继续吗？
+ScotApp_477,放入您的优惠券。\n在收据打印好之后：\n-- 收集好采购的商品。 \n-- 把收据和优惠券拿到付款台。
+ScotApp_177,整个购物已取消。请把所有商品放到一旁。
+ScotApp_656,请把<%s>放到一旁。\n商店助理将帮助您。
+ScotApp_1709,此时，不要插入纸币或硬币。\n请取走退回的现金。\n在扫描仪下面找赎纸币。
+ScotApp_435,选择优惠类型。\n若想使用食品券，则必须在使用其他优惠之前使用食品券。
+ScotApp_808,把带安全标牌的商品交给店员，让其取下标牌。
+ScotApp_294,请求商店援助，请按 “求助”按钮。
+ScotApp_1287,请稍候...\n正在检查商品重量。
+ScotApp_525,个人识别号码输入错误。\n请取出卡，然后...\n插入其它卡\n -或- \n支付现金
+ScotApp_480,请按“OK”按钮，然后把购物小票和商品拿到收银台。
+ScotApp_1751,移开袋秤上的所有重物，然后按： “已纠正错误”按钮。
+ScotApp_175,"是否要从收据中删除\n""%s""？"
+ScotApp_1746,指纹服务器无法使用。\n请再试一次。
+ScotApp_1839,请等待收银员的到来。\n请勿在此时扫描。 把商品放到一旁。
+ScotApp_501,请在收据上签名，并等待商店的批准。
+ScotApp_414,请拿好您的会员优惠卡。\n折扣不适用于当前购物。该折扣将邮寄给您。
+ScotApp_563,初始化Hard Totals时发生错误。\n应用程序马上退出。
+ScotApp_263,要剔除商品，首先要作废优惠券。\n请首先作废商品的优惠券。
+ScotApp_800,请检查您的购物篮。\n\n立即扫描更多商品或\n按“OK”按钮付款。
+ScotApp_134,正在核定。\n请稍候。
+ScotApp_620,输入允许误差
+ScotApp_161,%s\n请使用键盘输入数量，然后按“OK”按钮。
+ScotApp_440,您的现金津贴余额少于所需要的金额。\n是否要把%s现金津贴用于此次购物？
+ScotApp_184,%s将记入您的帐户。
+ScotApp_274,此时不要插入现金。\n请取回现金。
+ScotApp_1744,装置不认识您的指纹。\n请再试一次。
+ScotApp_160,商品已被召回。\n正准备提供帮助。\n请把商品放到一旁，然后继续购物。
+ScotApp_1795,或限定为“仅接受卡”。
+ScotApp_159,商品价格未知。\n正准备提供帮助。\n请把商品放到一旁，然后继续购物。
+ScotApp_458,选择津贴类型。\n食品券不能用于此购物。
+ScotApp_1329,请稍候...\n正在检查商品重量。\n双重重量商品已装袋。
+ScotApp_407,读卡错误。\n* 尝试用其它卡\n -或- \n* 请求援助
+ScotApp_706,您的食品券余额少于本次购物总额。\n请按 “OK”按钮转到其它付款方式。
+ScotApp_606,删除重量输入项
+ScotApp_906,请拿好您的商品。
+ScotApp_705,您的现金津贴余额少于本次购物总额。\n请按 “OK”按钮转到其它付款方式。
+ScotApp_605,购买重量输入项
+ScotApp_405,读卡期间出错。\n* 尝试用其它卡\n -或- \n* 支付现金\n -或- \n* 请求协助
+ScotApp_491,请拿好您的卡。
+ScotApp_818,请等待收银员的到来。\n下述内容需要协助：
+ScotApp_1796,或限定为“仅接受现金”。
+ScotApp_438,您食品券上的余额过少。\n是否要把%s食品券余额用于本次购物？
+ScotApp_1596,您要保存%s作为您在%s上的首选语言吗？\n请选择“是”或“否”按钮。
+ScotApp_766,%s将记入您的帐户。
+ScotApp_166,正准备提供帮助。\n请继续您的购物。
+ScotApp_413,请拿好您的会员优惠卡。\n将使用优惠价格。
+ScotApp_1797,采取的行动未能纠正该错误。\n请再试一次，或限定为 “仅接受现金”。
+ScotApp_178,请等待商店的批准。\n需要批准：
+ScotApp_790,您的卡被拒绝。\n请选择其它付款方式。
+ScotApp_1794,目前本机仅接受现金。\n无法处理信用卡或借记卡。\n要继续吗？
+ScotApp_412,该商品将导致您的购物超过%s。\n请先为前面的商品付款，然后再分开购买其它商品。
+ScotApp_546,您的年龄不够，不能购买该商品。\n请把商品放在一边，继续您的购买。
+ScotApp_553,优惠券在购物结束时被接受。\n请把它们放在一边后继续。
+ScotApp_211,正在处理...\n请稍候。
+ScotApp_1400,远程服务员
+ScotApp_1754,字母不匹配商品。\n请再试一次。
+ScotApp_1859,"是否采购整箱 %s？ 选择""是""或""否""。"
+ScotApp_533,目前您无法购买此商品。\n请把它放到一旁，然后继续您的购物。
+ScotApp_1763,"e=d=%5.3f公斤,最重 %5.3f公斤, 最轻 %3.1f公斤, 最多 %4.0f"
+ScotApp_1762,"e=d=%4.2f磅,最重 %4.2f磅, 最轻 %3.1f磅, 最多 %4.0f"
+ScotApp_1764,"e = d = %4.2f磅,最重 %4.2f磅,最轻 %3.1f磅, 最多 %4.0f"
+ScotApp_1765,"e = d = %5.3f公斤,最重 %5.3f公斤,最轻 %3.1f公斤, 最多 %4.0f"
+ScotApp_305,选择容器用于： %s
+ScotApp_703,使用个人识别号码小键盘。请按个人识别号码小键盘上的“取消”按钮以取消付款。
+ScotApp_125,键入顾客的出生日期 %s 然后触摸“批准”按钮。
+ScotApp_1853,键入顾客的出生日期 %s 然后触摸“输入”按钮。
+ScotApp_654,日期应为%s格式。输入的金额：%s
+ScotApp_560,本系统不接受优惠券。
+ScotApp_1788,%d是否正确？ \n\n一个%s塑料袋的费用将计入总金额。
+ScotApp_1358,%s礼品卡金额已应用于您的购物。\n\n您的礼品卡余额是%s。
+ScotApp_167,优惠券不符合任何购买商品。\n\n本优惠券不被接受。
+ScotApp_164,系统无法识别该商品的代码。\n\n请确保输入正确代码。
+ScotApp_547,店员号码和密码不正确。\n\n请再试一次。
+ScotApp_442,此次购物的%s可用食品券支付。\n\n%s
+ScotApp_443,%s将记入您的帐户。\n\n可以吗？
+ScotApp_700,无法在本结帐通道出售的产品。\n正准备提供帮助。\n\n请把商品放到一旁，并继续您的购物。
+ScotApp_165,系统无法识别该商品。\n正准备提供帮助。\n\n请把商品放到一旁，然后继续您的购物。
+ScotApp_182,您为此优惠券输入的金额太高。\n\n本系统无法接受此优惠券。
+ScotApp_733,卡被拒绝。\n请使用其它支付卡或用现金支付。
+ScotApp_812,感谢您使用NCR SelfServ Checkout系统。\n请把礼品卡拿给收银员。
+ScotApp_1826,您想保存优惠卡使用偏好设置吗？
+ScotApp_1852,请把商品从装袋台移开。
+QRCodeErrorText,QR Code Error
+ScanQRCodeInstruction,Scan this code to complete\nyour Mobile shopping.
+ScotApp_1896,Transferring items from mobile cart.
+ScotApp_1897,请稍候。...
+ScotApp_1898,Mobile Cart
+ScotApp_1899,Mobile Audit
+ScotApp_1900,Mobile Shopper Audit
+ScotApp_1901,"Touch ""OK"" then use Attendant Handset to complete audit."
+ScotApp_1902,Begin Mobile Transaction
+ScotApp_1903,End Mobile Transaction
+ScotApp_1904,%d Items Sold
+ScotApp_1905,Scan barcode to complete your Mobile checkout.
+ScotApp_1906,Mobile cart transfer is complete.
+ScotApp_1907,\nTouch Pay or add more items.
+MoveLeft,< Move
+MoveRight,Move >
+Accessibility,Accessibility
+SearchItemCodeWatermark,Enter Item Code
+ScanAndBagNoSearchKeyIn,Scan or look up item to start
+ScanLookUpKeyInItem,"Scan, look up, or key in item code to start."
+LookUpKeyInItem,Look up or Key in Item
+ScanOrKeyInItem,Scan or Key in Item
+RemoveItemFromProduceScale,Remove item from scale.
+RemoveItemFromProduceScaleTitle,Remove Item

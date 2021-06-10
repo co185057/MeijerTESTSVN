@@ -1,0 +1,432 @@
+<Display Version="1.0">
+  <Controls>
+    <Control Name="Key49" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">693,305,308,70</Property>
+        <Property Name="ButtonHorizontalSpacing">4</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">70</Property>
+        <Property Name="ButtonWidth">152</Property>
+        <Property Name="Audio">%AudioPath%\KeypadValid.wav</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\10x7-bttn_119x55.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">2</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key29" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">595,385,406,366</Property>
+        <Property Name="ButtonHorizontalSpacing">6</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">70</Property>
+        <Property Name="ButtonWidth">97</Property>
+        <Property Name="Audio">%AudioPath%\KeypadValid.wav</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\10x7-bttn_76x55.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">20</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key16" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">356,385,232,70</Property>
+        <Property Name="ButtonHorizontalSpacing">6</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">70</Property>
+        <Property Name="ButtonWidth">113</Property>
+        <Property Name="Audio">%AudioPath%\KeypadValid.wav</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\10x7-bttn_88x55.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">2</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key18" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">356,459,233,216</Property>
+        <Property Name="ButtonHorizontalSpacing">7</Property>
+        <Property Name="ButtonVerticalSpacing">3</Property>
+        <Property Name="ButtonHeight">70</Property>
+        <Property Name="ButtonWidth">73</Property>
+        <Property Name="Audio">%AudioPath%\KeypadValid.wav</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\10x7-bttn_57x55.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">9</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key1" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">25,385,324,366</Property>
+        <Property Name="ButtonHorizontalSpacing">6</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">70</Property>
+        <Property Name="ButtonWidth">104</Property>
+        <Property Name="Audio">%AudioPath%\KeypadValid.wav</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\10x7-bttn_81x55.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">15</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key28" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">513,678,73,70</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">70</Property>
+        <Property Name="ButtonWidth">73</Property>
+        <Property Name="Audio">%AudioPath%\KeypadValid.wav</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\10x7-bttn_57x55.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key27" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">356,678,152,70</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">70</Property>
+        <Property Name="ButtonWidth">152</Property>
+        <Property Name="Audio">%AudioPath%\KeypadValid.wav</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\10x7-bttn_119x55.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="ButtonToggle" Type="Button">
+      <Properties>
+        <Property Name="Position">11,70,279,75</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Visible">False</Property>
+        <Property Name="Picture">%MediaPath%\10x7-bttn_218x59.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="StringId">1081</Data>
+      </CustomData>
+    </Control>
+    <Control Name="ButtonLaneStatus0" Type="Static">
+      <Properties>
+        <Property Name="Position">9,148,128,22</Property>
+        <Property Name="Font">ToggleLaneStatusFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="ButtonLaneStatus1" Type="Static">
+      <Properties>
+        <Property Name="Position">137,148,128,22</Property>
+        <Property Name="Font">ToggleLaneStatusFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="ButtonLaneStatus2" Type="Static">
+      <Properties>
+        <Property Name="Position">9,170,128,22</Property>
+        <Property Name="Font">ToggleLaneStatusFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="ButtonLaneStatus3" Type="Static">
+      <Properties>
+        <Property Name="Position">137,170,128,22</Property>
+        <Property Name="Font">ToggleLaneStatusFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="ButtonLaneStatus4" Type="Static">
+      <Properties>
+        <Property Name="Position">9,192,128,22</Property>
+        <Property Name="Font">ToggleLaneStatusFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="ButtonLaneStatus5" Type="Static">
+      <Properties>
+        <Property Name="Position">137,192,128,22</Property>
+        <Property Name="Font">ToggleLaneStatusFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="ButtonLaneStatus6" Type="Static">
+      <Properties>
+        <Property Name="Position">9,214,128,22</Property>
+        <Property Name="Font">ToggleLaneStatusFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="ButtonLaneStatus7" Type="Static">
+      <Properties>
+        <Property Name="Position">137,214,128,22</Property>
+        <Property Name="Font">ToggleLaneStatusFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="ButtonLaneStatus8" Type="Static">
+      <Properties>
+        <Property Name="Position">9,236,128,22</Property>
+        <Property Name="Font">ToggleLaneStatusFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="ButtonLaneStatus9" Type="Static">
+      <Properties>
+        <Property Name="Position">137,236,128,22</Property>
+        <Property Name="Font">ToggleLaneStatusFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="Echo1" Type="Static">
+      <Properties>
+        <Property Name="Position">332,228,367,48</Property>
+        <Property Name="Font">FastLaneAMEchoBoxFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">Echo1</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+  </Controls>
+  <Contexts>
+    <Context Name="SmAssistMode">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\10x7_InfoIbm_storemode.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">220,1,530,48</Property>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title2">
+          <Properties>
+            <Property Name="Position">319,49,398,48</Property>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">332,180,367,48</Property>
+            <Property Name="Font">FastLaneAMEchoBoxFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+          </Properties>
+        </Control>
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">10,43,136,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">Yellow</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo1">
+          <Properties>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">0</Property>
+          </Properties>
+        </Control>
+        <Control Name="ButtonToggle">
+        </Control>
+        <Control Name="ButtonLaneStatus0">
+        </Control>
+        <Control Name="ButtonLaneStatus1">
+        </Control>
+        <Control Name="ButtonLaneStatus2">
+        </Control>
+        <Control Name="ButtonLaneStatus3">
+        </Control>
+        <Control Name="ButtonLaneStatus4">
+        </Control>
+        <Control Name="ButtonLaneStatus5">
+        </Control>
+        <Control Name="ButtonLaneStatus6">
+        </Control>
+        <Control Name="ButtonLaneStatus7">
+        </Control>
+        <Control Name="ButtonLaneStatus8">
+        </Control>
+        <Control Name="ButtonLaneStatus9">
+        </Control>
+        <Control Name="Key49">
+        </Control>
+        <Control Name="Key29">
+        </Control>
+        <Control Name="Key16">
+        </Control>
+        <Control Name="Key18">
+        </Control>
+        <Control Name="Key1">
+        </Control>
+        <Control Name="Key28">
+        </Control>
+        <Control Name="Key27">
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="Position">717,0,308,99</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextPosition">22,15,217,74</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\10x7-InfoBtnDKBackground.png</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">5,3,252,41</Property>
+            <Property Name="Font">FastLaneScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+          </Properties>
+        </Control>
+        <Control Name="ATModeDisplay1">
+        </Control>
+        <Control Name="ATModeDisplay2">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmAssistModePartial">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+        <Data Name="PartialAssistEnabled">False</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Size">512,348</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="Position">389,123,110,58</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="TextPosition">5,1,104,51</Property>
+            <Property Name="Picture">%MediaPath%\10x7-btn_intervention.png</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="AssistModeButton">
+          <Properties>
+            <Property Name="TextFormat">$FullAssistButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">22,102,342,23</Property>
+            <Property Name="Font">FastLaneAMEchoBoxFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo1">
+          <Properties>
+            <Property Name="Position">22,140,342,23</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneButton">
+          <Properties>
+            <Property Name="State">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneStatusButton">
+          <Properties>
+            <Property Name="State">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="CameraButton">
+          <Properties>
+            <Property Name="State">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneButtonText">
+        </Control>
+        <Control Name="LaneStateWindow1">
+        </Control>
+        <Control Name="LaneStateWindow2">
+        </Control>
+        <Control Name="LaneStateWindow3">
+        </Control>
+        <Control Name="LaneStateWindowBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneReceipt">
+        </Control>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Picture">%MediaPath%\10x7_AssistPartialEchoBkgnd.PNG</Property>
+            <Property Name="Position">13,76,490,114</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneCaptionText">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+  </Contexts>
+</Display>

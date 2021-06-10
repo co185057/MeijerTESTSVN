@@ -1,0 +1,24 @@
+; File: EmptyUpcon.dat
+
+; This file specifies to UpCon the network configuration of a store.
+; One or more "Sets" of Lanes, optional Security Server and optional
+; Rap stand and Report server may be specified.  There may be only one security server
+; defined in each set. There may be only one RAP defined in each set. 
+; There may be only one Report server defined in each set.
+; Each set description ends with "/".
+; Lanes, Security servers or Rap stands are specified with the syntax:
+;
+;	Node_Id / [ALIAS] / "Rap"|"Lane"|"Security" |"SSDB" | "Report"
+;
+; Node_Id may be either a network name or IP address.
+; Alias specifies display string representing the node, or blank.
+; "Rap" | "Lane" | "Security" |"SSDB"| "Report" must be specified to identify the node type.
+; The field separator "/"is required.  
+; The End of Set identifier "/" is required.
+
+; The next set might be specified as...
+;153.60.29.240//Security
+;153.60.29.248/rap6/Rap
+;153.60.29.245/testteam9/Lane
+;/
+

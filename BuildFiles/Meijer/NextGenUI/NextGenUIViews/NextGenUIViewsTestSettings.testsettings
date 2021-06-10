@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestSettings name="NextGenUIViewsTestSettings" id="d8744772-64be-4a7d-9e67-54698cf4c4d1" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Description>These are default test settings for a local test run.</Description>
+  <Deployment enabled="false" />
+  <Execution>
+    <TestTypeSpecific>
+      <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+        <AssemblyResolution applicationBaseDirectory="%HOMEDRIVE%\scot\ADK\Samples\NextGenUIViews\SSCOUIViewsUnitTest\bin\Debug">
+          <TestDirectory useLoadContext="true" />
+          <DiscoveryResolution>
+            <Directory path="%HOMEDRIVE%\scot\ADK\Samples\NextGenUI\SSCOUI\bin\Debug" includeSubDirectories="true" />
+          </DiscoveryResolution>
+        </AssemblyResolution>
+      </UnitTestRunConfig>
+    </TestTypeSpecific>
+    <AgentRule name="Execution Agents">
+    </AgentRule>
+  </Execution>
+  <Properties />
+</TestSettings>

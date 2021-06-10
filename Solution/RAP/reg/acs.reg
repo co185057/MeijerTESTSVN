@@ -1,0 +1,7 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT]
+"FileTransportServiceConfigFile"="C:\\Scot\\Config\\FileTransportService.xml"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\PSX]
+"RemoteSendInterval"=dword:00000032

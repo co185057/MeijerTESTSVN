@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- CHANGE HISTORY: 										-->
+<!--												-->
+<!-- CRD 557225 Name: CJ Estrada Date: Mar 4, 2021 -->
+<!-- CRD 554915 Name: CJ Estrada Date: Feb 08, 2021 -->
+<!-- POS324342 Work Request:76936 Name:Jangala Sunny Date:June 15, 2017 -->
+<!-- POS235270 Work Request:79417 Name: Aparna Tunuguntla   Date:Apr. 25, 2017 -->
+<!-- POS297522 Work request:76936 Name:Jangala Sunny Date:December 16,2016 -->
+<!-- POS296302 Work Request:76936 Name: Alex Bronola   Date:Dec 15, 2015 -->
+<!-- POS189696 Work Request:68237 Name:Saiprasad Srihasam Date: April 14, 2015          -->
+<!-- POS138637 Work Request:66559 Name:Kranthi Kumari Cherugondi Date:March 3, 2015  		-->	
+<!-- POS154789 Work Request:66559 Name:Saiprasad Srihasam    Date:January 30, 2015  		-->	
+<!-- POS138630 Work Request:66559 Name:Saiprasad Srihasam    Date:December 04, 2014			   -->
+<!-- POS106936 Work Request:61232 Name:Robert Susanto    Date:July 22, 2014			   -->
+<!-- POS48277/71132 Work Request:58657 Name:Robert Susanto    Date:September 6, 2013		-->
+<!-- POS68773 Work Request:56285 Name:Robert Susanto    Date:June 24, 2013			-->
+<!-- POS65108/6300 Work Request:56285 Name:Robert Susanto    Date:June 4, 2013		-->
+<!-- POS40289 Work Request:50865 Name:Robert Susanto Date:September 5 2012		   	-->
+<!-- POS24632 Work Request:19114 Name:Robert Susanto Date:March 22 2012  			-->
+<!-- POS19072 Work Request:16656 Name:Matt Condra    Date:November 23 2011 			-->
+<!-- POS11024 Work Request:16632 Name:Sandy Reedy Date:July 14, 2011  		    		-->
+<!-- POS11024 Work Request:16632 Name:Sandeep Shenoy Date:Jul  7, 2011  			-->
+<!-- POS15434 Work Request:15196 Name:Robert Susanto Date:June 28 2011  			-->
+<!-- POS6135 Work Request:15196 Name:Robert Susanto Date:April 28 2011  			-->
+<!--								                                -->
+
+<TBProgressStates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\scot\Config\TBProgressStates.xsd">
+	<TBProgressState name="NO_STATE_CHANGE"/>
+	<!-- comment as needed -->
+	<TBProgressState name="cSTATE_ANY"/>
+	<TBProgressState name="DUMMY_NOP"/>
+	<TBProgressState name="ITEMIZATION" type="ITEMIZATION"/>
+        <TBProgressState name="ITEMIZATION_IP" type="ITEMIZATION_IP"/>
+	<TBProgressState name="ITEMIZATION_START" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_WAIT" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_QTY" type="ITEMIZATION_IP"/>
+	<TBProgressState name="ITEMIZATION_WEIGHT" type="ITEMIZATION_IP"/>
+	<TBProgressState name="ITEMIZATION_TARE" type="ITEMIZATION_IP"/>
+	<TBProgressState name="ITEMIZATION_QTY_SMScanAndBag" type="ITEMIZATION_IP"/>
+	<TBProgressState name="ITEMIZATION_IP_SMScanAndBag" type="ITEMIZATION_IP"/>
+	<TBProgressState name="ITEMIZATION_WEIGHT_SMScanAndBag" type="ITEMIZATION_IP"/>
+	<TBProgressState name="ITEMIZATION_RETDN" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_RETDN_cGoBack" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_NEEDWEIGHT" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_CLEAR_OG_ITEMIZATION" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_SWIPE_NEEDED" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_PHONE_GIFT" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_PHONE_GIFT_RETDN" type="ITEMIZATION"/>
+	<!-- POS65108/6300 rrs -->
+	<TBProgressState name="ITEMIZATION_CELLPHONE_ASSISTANCE" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_CELLPHONE_ASSISTANCE_RETDN_cReturn" type="ITEMIZATION"/>
+	<!-- e POS65108/6300 rrs -->
+
+    <!-- SOTF 7042 -->
+    <TBProgressState name="ITEMIZATION_PHONE_GIFT_RETDN_cButton1" type="ITEMIZATION"/>	
+    <TBProgressState name="ITEMIZATION_PHONE_GIFT_RETDN_cButton2" type="ITEMIZATION"/>	
+	<TBProgressState name="ITEMIZATION_PHONE_GIFT_RETDN_cButton3" type="ITEMIZATION"/>	
+	<TBProgressState name="ITEMIZATION_PHONE_GIFT_RETDN_cButton4" type="ITEMIZATION"/>	
+	<TBProgressState name="ITEMIZATION_PHONE_GIFT_RETDN_cButton5" type="ITEMIZATION"/>	
+    <TBProgressState name="ITEMIZATION_PHONE_GIFT_RETDN_cGoBack" type="ITEMIZATION"/>	    
+	<!-- sotf -->
+	<TBProgressState name="ITEMIZATION_PROCESSING_PHONE_GIFT" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_PHONE_GIFT_DENIED" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_RETDN_cYES" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_RETDN_cNO" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_RETDN_cOK" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_RETDN_cOk" type="ITEMIZATION"/> <!-- lower case cOk -->
+	<TBProgressState name="ITEMIZATION_RETDN_cBTN1" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_RETDN_cBTN2" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_PHONE_GIFT_FINISHED_RETDN_cAssistMode" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_PHONE_GIFT_FINISHED" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_PHONE_GIFT_DELAY" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_NEGATIVE_ITEM" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_NEGATIVE_ITEM_RETDN_cAssistMode" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_NEGATIVE_ITEM_RETDN_cReturn" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_NEGATIVE_ITEM_RETDN" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_NEGATIVE_ITEM_IP" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_RETDN_cReturn" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_RETDN_cAssistMode" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_RETDN_INVALID_ID_OK" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_RETDN_MEP_YES" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_RETDN_MEP_NO" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_RETDN_SR_MEP_YES" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_RETDN_SR_MEP_NO" type="ITEMIZATION"/>
+	<TBProgressState name="MEP_AVAILABLE_INPROGRESS" type="ITEMIZATION"/> <!-- POS324342 -->
+	<TBProgressState name="ITEMIZATION_GET_COUPON" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_GET_COUPON_IP" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_GET_COUPON_IP_RETDN_cReturn" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_GREEN_DOT_ITEM" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_GREEN_DOT_ITEM_RETDN_cReturnGreenDotItem" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_GREEN_DOT_ITEM_RETDN_cAssistModeGreenDotItem" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_CASH_STATUS" type="ITEMIZATION"/>   <!-- POS235270 -->
+	<!-- Start CRD 313052 -->
+	<TBProgressState name="ITEMIZATION_RETDN_ORDERVERIFIED" type="ITEMIZATION"/>	
+	<TBProgressState name="ITEMIZATION_RETDN_SHOPPERNOTPRESENT" type="ITEMIZATION"/>
+	<TBProgressState name="SHIPT_MEIJERCOM_CANCELTRX" type="ITEMIZATION"/>
+	<!-- End CRD 313052 -->
+
+	<!-- POS68773 rrs -->
+	<TBProgressState name="ITEMIZATION_PHONE_GIFT_RETDN_cAssistModeGreenDotItem" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_PHONE_GIFT_RETDN_cReturnGreenDotItem" type="ITEMIZATION"/>
+	<!-- e POS68773 rrs -->
+
+	<!-- SOTF 8380 O2S RRS -->
+	<TBProgressState name="ITEMIZATION_ORDER_TO_STORE_ITEM" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_ORDER_TO_STORE_ITEM_RETDN_cReturn" type="ITEMIZATION"/>
+	<!-- CRD 418158 -->
+	<TBProgressState name="ITEMIZATION_CLEAR_SUP_PRCSNG" type="ITEMIZATION"/>
+	
+	<!-- SOTF 8380 O2S RRS -->
+	<!-- POS11024 Mobile Shopper Audit Start -->
+	<TBProgressState name="MOBILE_AUDIT_PROCESS" type="ITEMIZATION"/>
+	<TBProgressState name="MOBILE_AUDIT_PROCESS_RETDN" type="ITEMIZATION"/>
+	<TBProgressState name="MOBILE_AUDIT_PROCESS_RETDN_cDone" type="ITEMIZATION"/>
+	<TBProgressState name="MOBILE_AUDIT_PROCESS_RETDN_cCancel" type="ITEMIZATION"/>
+	<TBProgressState name="TRANSACTION_CANCEL_RETDN_cYes" type="ITEMIZATION"/>
+	<TBProgressState name="TRANSACTION_CANCEL_RETDN_cNo" type="ITEMIZATION"/>
+	<!-- POS11024 Mobile Shopper Audit End -->
+
+	<!-- POS48277 MobilePayStation -->
+	<TBProgressState name="TB_MOBILE_TRAN_NOT_FOUND" type="ITEMIZATION"/>
+	<TBProgressState name="TB_MOBILE_TRAN_NOT_FOUND_RETDN_cOK" type="ITEMIZATION"/>
+	<!-- POS48277 MobilePayStation -->
+
+    <TBProgressState name="TENDER_GET_COUPON" type="TENDER"/>
+    <TBProgressState name="TENDER_GET_COUPON_IP" type="TENDER"/>
+    <TBProgressState name="TENDER_GET_COUPON_IP_ONCE" type="TENDER"/>
+    <TBProgressState name="TENDER_GET_COUPON_IP_RETDN_cReturn" type="TENDER"/>
+	<TBProgressState name="ON_RESUME_DISPLAY_REBATE" type="ITEMIZATION"/>
+	<TBProgressState name="SWIPED_PHONE_GIFT_EXIT" type="ITEMIZATION"/>
+	<TBProgressState name="VOIDING_PHONE_GIFT_CARD" type="ITEMIZATION"/>
+	<TBProgressState name="COUPON_ONLY_TRX_IP" type="ITEMIZATION"/>
+    <TBProgressState name="COUPON_ONLY_TRX_IP_RETDN_cAssistMode" type="ITEMIZATION"/>
+	<TBProgressState name="VOID_ITEM_SCAN" type="ITEMIZATION"/>
+	<TBProgressState name="VOID_ITEM_SCAN_SENT" type="ITEMIZATION"/>
+    <TBProgressState name="VOID_ITEM_INVALID" type="ITEMIZATION"/>	
+	<TBProgressState name="GIFTRECEIPT_FLAGGED" type="ITEMIZATION"/>		
+	<TBProgressState name="PRINT_GIFTRECEIPT" type="ITEMIZATION"/>		
+	<TBProgressState name="PRINT_GIFTRECEIPT_IP" type="ITEMIZATION"/>		
+	<TBProgressState name="TAG_REBATEITEM" type="ITEMIZATION"/>			
+	<TBProgressState name="REBATEITEM" type="ITEMIZATION"/>
+	<TBProgressState name="REBATEITEM_RETDN" type="ITEMIZATION"/>
+	<TBProgressState name="REBATEITEM_MSG" type="ITEMIZATION"/>
+	<TBProgressState name="REBATEITEM_NOMSG" type="ITEMIZATION"/>
+	<TBProgressState name="TB_DIGITAL_COUPON" type="ITEMIZATION"/>
+	<!-- POS24632 rrs -->
+	<TBProgressState name="TB_DIGITAL_COUPON_PENDING" type="ITEMIZATION"/>
+	<TBProgressState name="TB_DIGITAL_COUPON_IP" type="ITEMIZATION"/>
+	<TBProgressState name="TB_DIGITAL_COUPON_CANCELLED" type="ITEMIZATION"/>
+	<TBProgressState name="TB_DIGITAL_COUPON_IP_RETDN" type="ITEMIZATION"/>
+	<TBProgressState name="TB_DIGITAL_COUPON_IP_RETDN_cReturn" type="ITEMIZATION"/>
+    <!-- POS15434 INVALID MPERKS PIN ENTRY -->   
+	<TBProgressState name="TB_DIGITAL_COUPON_PIN_ENTRY" type="ITEMIZATION"/>
+	<TBProgressState name="TB_DIGITAL_COUPON_PIN_ENTRY_RETDN_cReturn" type="ITEMIZATION"/>
+	<TBProgressState name="TB_DIGITAL_COUPON_INVALID_PIN_ENTRY" type="ITEMIZATION"/>
+	<TBProgressState name="TB_DIGITAL_COUPON_INVALID_PIN_ENTRY_RETDN_cOk" type="ITEMIZATION"/>
+    <!-- e POS15434 INVALID MPERKS PIN ENTRY -->   
+	<!-- Start CRD 313027 -->
+	<TBProgressState name="EVERSEEN_MISS_SCAN_ALERT" type="ITEMIZATION"/>
+	<TBProgressState name="EVERSEEN_MISS_SCAN_ALERT_RETDN" type="ITEMIZATION"/>
+	<TBProgressState name="EVERSEEN_MISS_SCAN_ALERT_RETDN_cCancel" type="ITEMIZATION"/>
+	<TBProgressState name="EVERSEEN_MISS_SCAN_ALERT_RETDN_cPLUEntry" type="ITEMIZATION"/>	<!-- CRD 344902 -->
+	<TBProgressState name="EVERSEEN_MISS_SCAN_ALERT_RETDN_cPLUEntryCancel" type="ITEMIZATION"/>	<!-- CRD 344902 -->
+	
+	<TBProgressState name="EVERSEEN_PRODUCT_SWITCH_ALERT" type="ITEMIZATION"/>
+	<TBProgressState name="EVERSEEN_PRODUCT_SWITCH_ALERT_RETDN" type="ITEMIZATION"/>
+	<TBProgressState name="EVERSEEN_PRODUCT_SWITCH_ALERT_RETDN_cCancel" type="ITEMIZATION"/>
+	<TBProgressState name="EVERSEEN_PRODUCT_SWITCH_ALERT_RETDN_cPLUEntry" type="ITEMIZATION"/>	<!-- CRD 344902 -->
+	<TBProgressState name="EVERSEEN_PRODUCT_SWITCH_ALERT_RETDN_cPLUEntryCancel" type="ITEMIZATION"/>	<!-- CRD 344902 -->
+	
+	<TBProgressState name="EVERSEEN_BASKET_LOSS_ALERT" type="ITEMIZATION"/>
+	<TBProgressState name="EVERSEEN_BASKET_LOSS_ALERT_RETDN" type="ITEMIZATION"/>
+	<TBProgressState name="EVERSEEN_BASKET_LOSS_ALERT_RETDN_cCancel" type="ITEMIZATION"/>
+	<TBProgressState name="EVERSEEN_BASKET_LOSS_ALERT_RETDN_cPLUEntry" type="ITEMIZATION"/>	<!-- CRD 344902 -->
+	<TBProgressState name="EVERSEEN_BASKET_LOSS_ALERT_RETDN_cPLUEntryCancel" type="ITEMIZATION"/>	<!-- CRD 344902 -->
+	<!-- End CRD 313027 -->
+	<!-- Start CRD 335964 -->
+	<TBProgressState name="COUPON_992_FAMILY_CODE_PROMPT" type="ITEMIZATION"/>
+	<TBProgressState name="COUPON_992_FAMILY_CODE_PROMPT_RETDN_cOK" type="ITEMIZATION"/>
+	<!-- End CRD 335964 -->
+	<!-- Start CRD 547452 554915 -->
+	<TBProgressState name="CITI_APP_WEB_ERROR" type="ITEMIZATION"/>
+	<TBProgressState name="CITI_APP_WEB_ERROR_PROCESS" type="ITEMIZATION"/>
+	<TBProgressState name="CITI_APP_WEB_ERROR_RETDN_cOK" type="ITEMIZATION"/>
+	<TBProgressState name="ACCOUNT_LOOKUP_PROCESS_ITEMIZATION" type="ITEMIZATION"/>
+	<TBProgressState name="ACCOUNT_LOOKUP_PROCESS_PAYMENT" type="TENDER"/>
+	<TBProgressState name="GET_ACCOUNT_DETAILS_FAILED" type="ITEMIZATION"/>	<!-- CRD 557225 -->
+	<!-- End CRD 547452 -->
+	<TBProgressState name="TERM_INIT" type="TERM_INITIALIZATION"/>
+	<TBProgressState name="TERM_INIT_READY" type="TERM_INITIALIZATION"/>
+	<TBProgressState name="TERM_INIT_LANE_CLOSED" type="TERM_INITIALIZATION"/>
+	<TBProgressState name="TERM_INIT_LANE_OPEN" type="TERM_INITIALIZATION"/>
+	<TBProgressState name="TERM_LANE_OPEN_PASSWORD" type="TERM_INITIALIZATION"/>	
+	<TBProgressState name="TERM_INIT_DISCONNECTED" type="TERM_INITIALIZATION"/>
+	<TBProgressState name="SIGNON_COMPLETE" type="TERM_INITIALIZATION"/>
+	<TBProgressState name="SIGNOUT_COMPLETE" type="TERM_INITIALIZATION"/>
+	<TBProgressState name="CRITICAL_ERROR" type="TERM_INITIALIZATION"/>
+	<TBProgressState name="RESTART_FASTLANE" type="TERM_INITIALIZATION"/>
+    <TBProgressState name="POS_EXIT_FASTLANE" type="TERM_INITIALIZATION"/>
+    <TBProgressState name="POS_EXIT_FASTLANE_RETDN_cOk" type="TERM_INITIALIZATION"/>
+	<TBProgressState name="TERM_DISABLED" type="TERM_INITIALIZATION"/>
+	<TBProgressState name="OFFLINE" type="TERM_INITIALIZATION"/>
+	<TBProgressState name="OFFLINE_RETDN_cOk" type="TERM_INITIALIZATION"/>
+	<TBProgressState name="OFFLINE_ACK_CLEARED" type="TERM_INITIALIZATION"/>
+	<TBProgressState name="OFFLINE_TRXN_CANCEL" type="TERM_INITIALIZATION"/>
+	<TBProgressState name="OFFLINE_CLOSE_LANE" type="TERM_INITIALIZATION"/>
+
+        <TBProgressState name="TB_POS_RELOAD_OPTION" type="TERM_INITIALIZATION"/> <!-- POS6135 rrs -->
+	<TBProgressState name="TB_POS_RELOAD_OPTION_START" type="TERM_INITIALIZATION"/> <!-- POS6135 rrs --> 
+
+    <TBProgressState name="FORCE_LOAD_RETDN_cOk" type="FORCE_LOAD"/>
+    <TBProgressState name="FORCE_LOAD_RETDN_cReturn" type="FORCE_LOAD"/>
+    <TBProgressState name="FORCE_LOAD_RETURN" type="FORCE_LOAD"/>
+    <TBProgressState name="FORCE_LOAD" type="FORCE_LOAD"/>
+	<TBProgressState name="TB_NEW_SOFTWARE_AVAILABLE" type="FORCE_LOAD"/>
+    <TBProgressState name="STORE_CLOSE_REQUESTED" type="STORE_CLOSE"/>
+    <TBProgressState name="SEPARATE_MEDIA" type="STORE_CLOSE"/>
+    <TBProgressState name="SEPARATE_MEDIA_RETDN_cOk" type="STORE_CLOSE"/>
+    <TBProgressState name="SEPARATE_MEDIA_CLOSE_LANE" type="STORE_CLOSE"/>
+    <TBProgressState name="SEPARATE_MEDIA_ALL_BUT_LAST_TRXN" type="STORE_CLOSE"/>
+    <TBProgressState name="SEPARATE_MEDIA_ALL_BUT_LAST_TRXN_RETDN_cOk" type="STORE_CLOSE"/>    
+    <TBProgressState name="SUPERVISOR_NEEDED" type=""/>
+	<TBProgressState name="SUPERVISOR_NEEDED_RETDN_cAssistMode" type=""/>
+    <TBProgressState name="SUPERVISOR_OPERATOR_MESSAGE" type=""/>
+    <TBProgressState name="RESUME_GIFT_CARD" type="RESUME_GIFT_CARD"/>
+    <TBProgressState name="REACTIVATE_GIFT_CARD_SWIPE" type="RESUME_GIFT_CARD"/>
+    <TBProgressState name="CARD_NEEDS_REACTIVATION" type="RESUME_GIFT_CARD"/>
+    <TBProgressState name="LOCATE_CARD" type="RESUME_GIFT_CARD"/>
+    <TBProgressState name="ALL_CARDS_REACTIVATED" type="RESUME_GIFT_CARD"/>
+    <TBProgressState name="REBATEITEM_RETDN_RETDN_cOK" type=""/> 
+    <TBProgressState name="DUPLICATE_RECEIPT_PRNT" type=""/>
+    <TBProgressState name="DUPLICATE_RECEIPT_PRNT_IP" type=""/> 
+	<TBProgressState name="TRANSACTION_CANCEL" type=""/>
+	<TBProgressState name="TRANSACTION_SUSPEND" type=""/>		
+	<TBProgressState name="TERM_READY" type=""/>
+	<TBProgressState name="FMS_ITEM_MISSING" type=""/>
+	<TBProgressState name="ASSISTMODE_ENTER" type=""/>
+    <TBProgressState name="ASSISTMODE_TENDER_CASH" type=""/>
+    <TBProgressState name="ASSISTMODE_TENDER_CASH_SENT" type=""/>
+	<TBProgressState name="ASSISTMODE_EXIT" type=""/>
+	<TBProgressState name="ASSISTMODE_TRXEND" type=""/>
+	<TBProgressState name="ASSISTMODE_TENDER" type=""/>
+	<TBProgressState name="ASSISTMODE_ENTERITEM_FLAPI" type=""/>
+	<TBProgressState name="ASSISTMODE_FINISH_FLAPI" type=""/>
+	<TBProgressState name="ASSISTMODE_ENTER_TRAINING_IP" type=""/>
+	<TBProgressState name="ASSISTMODE_VOID" type=""/>
+	<TBProgressState name="ASSISTMODE_EXIT_TRAINING_IP" type=""/>
+    <TBProgressState name="ASSISTMODE_STORE_CLOSE" type=""/>			
+	<TBProgressState name="ASSISTMODE_WAIT_SIGSLIP" />
+	<TBProgressState name="ASSISTMODE_TRXEND_SIGSLIP"/>
+	<TBProgressState name="ASSISTMODE_TEMP_TRXEND" type=""/>
+	<TBProgressState name="ASSISTMODE_POS_QUICK_RESTART" type=""/> <!-- CRD185924 -->
+    <!-- sotf 6226 -->
+    <TBProgressState name="OPERATOR_VOID_RESTRICTED_ITEM_ENTER" type=""/>
+    <TBProgressState name="PROMPT_CUSTOMER_LEGAL_AGE_RETDN_cNo" type=""/>
+    <TBProgressState name="PROMPT_CUSTOMER_LEGAL_AGE_RETDN_cYes" type=""/>
+    <TBProgressState name="PROMPT_CUSTOMER_LEGAL_AGE" type=""/>
+    <TBProgressState name="OPERATOR_ASSIST_CUSTOMER_AGE_ITEM_RETDN_cOk" type=""/>
+    <TBProgressState name="OPERATOR_ASSIST_CUSTOMER_AGE_ITEM" type=""/>
+
+	<TBProgressState name="TERM_WAIT_READY" type=""/>
+	<TBProgressState name="TENDER_PAYMENT" type="TENDER"/>
+    <TBProgressState name="TENDER_PAYMENT_RETDN_cAssistMode" type="TENDER"/>
+    <TBProgressState name="TENDER_PAYMENT_RETDN_cYES" type="TENDER"/>
+    <TBProgressState name="TENDER_PAYMENT_RETDN_cNO" type="TENDER"/>
+	<TBProgressState name="TB_TENDER_PAYMENT_ZERO_ILLEGAL_RETDN_cOk" type="TENDER"/> <!-- POS 297522 -->
+	<TBProgressState name="TB_TENDER_PAYMENT_ZERO_ILLEGAL" type="TENDER"/> <!-- POS 297522 -->
+    <TBProgressState name="TENDER_PAYMENT_CREDIT_IP" type="TENDER"/>
+	<TBProgressState name="TENDER_PAYMENT_CALL" type="TENDER"/>
+	<TBProgressState name="TENDER_PAYMENT_CALL_RETDN" type="TENDER"/>
+	<TBProgressState name="TENDER_PAYMENT_CALL_RETDN_cReturn" type="TENDER"/>
+	<TBProgressState name="TENDER_PAYMENT_CALL_RETDN_cAssistMode" type="TENDER"/>
+	<TBProgressState name="TENDER_SELECTED" type="TENDER"/>
+	<TBProgressState name="TENDER_SELECTED_CUSTOMER_BYPASSED" type="TENDER"/>
+	<TBProgressState name="TENDER_SELECTED_GIFTCARD" type="TENDER"/>
+	<TBProgressState name="TENDER_RESET" type="TENDER"/>
+	<TBProgressState name="CANCEL_TENDER" type="TENDER"/>
+    	<TBProgressState name="TENDER_ERR_PIN" type="TENDER"/>
+    	<TBProgressState name="TENDER_ERR_PIN_RETDN_cOk" type="TENDER"/>
+    	<TBProgressState name="TENDER_SIG_TIMEOUT" type="TENDER"/>
+    	<TBProgressState name="TENDER_SIG_TIMEOUT_RETDN_cAssistMode" type="TENDER"/>
+    	<TBProgressState name="TENDER_CUSTOMER_REQUESTED_CREDIT" type="TENDER"/>
+    	<TBProgressState name="TENDER_NEGATIVE_ITEM" type="TENDER"/>
+    	<TBProgressState name="TENDER_NEGATIVE_ITEM1" type="TENDER"/>
+		<TBProgressState name="TENDER_NEGATIVE_ITEM_IP" type="TENDER"/>
+		<TBProgressState name="TENDER_NEGATIVE_ITEM_IP1" type="TENDER"/>
+		<TBProgressState name="TENDER_NEGATIVE_ITEM_RETDN" type="TENDER"/>
+		<TBProgressState name="TENDER_NEGATIVE_ITEM_RETDN_cReturn" type="TENDER"/>
+    	<TBProgressState name="TENDER_PAYMENT_EBT_BALANCE_RETDN_cNO" type="TENDER"/>
+    	<TBProgressState name="TENDER_PAYMENT_EBT_BALANCE_RETDN_cYES" type="TENDER"/>
+    	<TBProgressState name="TENDER_PAYMENT_REENTER_PIN" type="TENDER"/>
+    	<TBProgressState name="TENDER_PAYMENT_EBT_BALANCE" type="TENDER"/>
+    	<TBProgressState name="TENDER_PAYMENT_EBT" type="TENDER"/>
+    	<TBProgressState name="TENDER_PAYMENT_EBT_RETDN_cYES_RETDN" type="TENDER"/>  
+    	<TBProgressState name="TENDER_PAYMENT_EBT_RETDN_cCancel" type="TENDER"/>  <!-- POS40289 rrs -->
+    	<TBProgressState name="TENDER_PAYMENT_EBT_BALANCE_RETDN_cCancel" type="TENDER"/>  <!-- POS40289 rrs -->
+
+
+		
+		<!-- SOTF 8767 RRS -->
+		<TBProgressState name="TENDER_PAYMENT_EBT_RETDN_cYES" type="TENDER"/>  
+		<TBProgressState name="TENDER_PAYMENT_EBT_RETDN_cNO" type="TENDER"/>  
+		<!-- SOTF 8767 RRS -->
+		
+    	<TBProgressState name="TENDER_PAYMENT_REENTER_PIN_RETDN_cOK" type="TENDER"/>
+    	<TBProgressState name="TENDER_PAYMENT_EBT_RETDN" type="TENDER"/>
+    	<TBProgressState name="TENDER_PAYMENT_EBT_BALANCE_RETDN" type="TENDER"/>  
+	<TBProgressState name="TENDER_PAYMENT_ENDORSEMENT" type="TENDER"/> 
+	<TBProgressState name="TENDER_PAYMENT_ENDORSEMENT_IP" type="TENDER"/> 
+	<TBProgressState name="TENDER_PAYMENT_EBT_CANCEL" type="TENDER"/>
+	<TBProgressState name="TB_ENTERTENDERSTATE_OUT_RETDN_cNO" type="TENDER"/>
+	<TBProgressState name="TB_ENTERTENDERSTATE_OUT_RETDN_cYES" type="TENDER"/>
+
+	<!-- SOTF 8380 -->
+	<TBProgressState name="TB_ORDERSTORE_SIGNATURE" type="TENDER"/>
+	<!-- E SOTF 8380 RRS -->
+	<!-- SOTF 8666 RSS -->
+	<TBProgressState name="AT_ENDORSEMENT_PRINT_GIFTRECEIPT_IP" type="TENDER"/> 
+	<!-- E SOTF 8666 RSS -->
+
+	<!-- POS265169 RSS -->
+	<TBProgressState name="CHIPCARD_DETECTED" type="TENDER"/> 
+	<TBProgressState name="CHIPCARD_DETECTED_RETDN_cOk" type="TENDER"/> 
+	<!-- e POS265169 RSS -->
+    
+
+	<TBProgressState name="TB_ENTERITEM_FLAPI" type="FLAPI"/>
+	<TBProgressState name="TB_LOYALTY_IN_FINISH_FLAPI" type="FLAPI"/> 
+	<TBProgressState name="TB_CANCELTRANSACTION_FLAPI" type="FLAPI"/>
+	<TBProgressState name="TB_SUSPENDTRANSACTION_FLAPI" type="FLAPI"/>
+	<TBProgressState name="TB_FINISH_FLAPI" type="FLAPI"/>
+	<TBProgressState name="TB_TRAININGMODE_IN_FLAPI" type="FLAPI"/>
+	<TBProgressState name="TB_TRAININGMODE_OUT_FLAPI" type="FLAPI"/>
+	<TBProgressState name="TB_OPENLANE" type="FLAPI"/>
+	<TBProgressState name="TB_CLOSELANE" type="FLAPI"/>
+	<TBProgressState name="TB_ENTERTENDERSTATE_IN" type="FLAPI"/>
+	<TBProgressState name="TB_ENTERTENDERSTATE_IN_RETDN_cYES" type="FLAPI"/>
+	<TBProgressState name="TB_ENTERTENDERSTATE_IN_RETDN_cNO" type="FLAPI"/>
+	<TBProgressState name="TB_ENTERTENDERSTATE_IN_DRIVE_FL" type="FLAPI"/>
+	<TBProgressState name="TB_ENTERTENDERSTATE_IN_DRIVE_FL_RETDN_cYES" type="FLAPI"/>
+	<TBProgressState name="TB_ENTERTENDERSTATE_IN_DRIVE_FL_RETDN_cNO" type="FLAPI"/>
+	<TBProgressState name="TB_ENTERTENDERSTATE_OUT" type="FLAPI"/>
+       <TBProgressState name="ENTER_TRAINING_IP" type="TB_TRAININGMODE_IN_FLAPI"/>
+	<TBProgressState name="INTRAINING_SUPRNUM" type="TB_TRAININGMODE_IN_FLAPI"/>
+	<TBProgressState name="INTRAINING_SUPRNUM_RETDN" type="TB_TRAININGMODE_IN_FLAPI"/>
+	<TBProgressState name="INTRAINING_SUPRPSW" type="TB_TRAININGMODE_IN_FLAPI"/>
+	<TBProgressState name="INTRAINING_SUPRPSW_RETDN" type="TB_TRAININGMODE_IN_FLAPI"/>
+    <TBProgressState name="INTRAINING_SUPRNUM_AGAIN" type="TB_TRAININGMODE_IN_FLAPI"/>
+    <TBProgressState name="INTRAINING_SUPRPSW_AGAIN" type="TB_TRAININGMODE_IN_FLAPI"/>
+    
+	<TBProgressState name="EXIT_TRAINING_IP" type="TB_TRAININGMODE_OUT_FLAPI"/>
+	<TBProgressState name="OUTTRAINING_SUPRNUM" type="TB_TRAININGMODE_OUT_FLAPI"/>
+	<TBProgressState name="OUTTRAINING_SUPRNUM_RETDN" type="TB_TRAININGMODE_OUT_FLAPI"/>
+	<TBProgressState name="OUTTRAINING_SUPRPSW" type="TB_TRAININGMODE_OUT_FLAPI"/>
+	<TBProgressState name="OUTTRAINING_SUPRPSW_RETDN" type="TB_TRAININGMODE_OUT_FLAPI"/>
+    <TBProgressState name="OUTTRAINING_SUPRNUM_AGAIN" type="TB_TRAININGMODE_IN_FLAPI"/>
+    <TBProgressState name="OUTTRAINING_SUPRPSW_AGAIN" type="TB_TRAININGMODE_IN_FLAPI"/>
+                        
+	<TBProgressState name="TAKECHANGE_TIMER_EXPIRED" type=""/>
+	<TBProgressState name="TAKECHANGE_TIMER_EXPIRED_IP" type=""/>
+	<TBProgressState name="TAKECHANGE_TIMER_EXPIRED_IP_RETDN" type=""/>
+        <TBProgressState name="TRXEND_DELAY_RECEIPT" type=""/>
+        <TBProgressState name="FOID_APPROVAL_NEEDED" type=""/>
+	<TBProgressState name="FOID_APPROVAL_NEEDED_RETDN_cAssistMode" type=""/>
+        <TBProgressState name="ITEMIZATION_AGE" type="ITEMIZATION"/>
+
+        <TBProgressState name="PRICE_INQUIRY_STATE" type=""/> 
+        <TBProgressState name="PRICE_INQUIRY_STATE_RETDN" type=""/>
+        <TBProgressState name="PRICE_INQUIRY_STATE_RETDN_cDone" type=""/>
+        <TBProgressState name="PRICE_INQUIRY_UNKNOWN_RETDN_cOk" type=""/>
+        <TBProgressState name="PRICE_INQUIRY_FORMAT_PRICE" type=""/> 
+        <TBProgressState name="PRICE_INQUIRY_UNKNOWN" type=""/>
+	<TBProgressState name="PRICE_INQUIRY_STATE_RETDN_cDone_RETDN_cDone" type=""/>
+
+	<TBProgressState name="OHIO_DL_SCANNING_STATE" type=""/>
+	<TBProgressState name="OHIO_DL_SCANNING_STATE_IP" type=""/>
+	<TBProgressState name="DL_SCANNING_STATE" type=""/>
+        <TBProgressState name="DL_SCANNING_STATE_IP" type=""/> 
+
+		<TBProgressState name="ITEMIZATION_SKIPBAGGING_IP" type="ITEMIZATION"/>
+	<TBProgressState name="ITEMIZATION_AFTER_SKIPBAGGING" type="ITEMIZATION"/> 
+        <TBProgressState name="PAYMENT_AMOUNT_NO_CASHBACK" type=""/> 
+		<TBProgressState name="CANCEL_AGE_RESTRICTED_ITEM" type=""/>
+	<TBProgressState name="NO_SALE_STATE" type=""/>
+	<TBProgressState name="NO_SALE_STATE_IP" type=""/>
+	<TBProgressState name="NO_SALE_STATE_END" type=""/>
+
+        <TBProgressState name="PRICE_VERIFY_STATE" type=""/> 
+        <TBProgressState name="PRICE_VERIFY_STATE_RETDN_cOK" type=""/>
+        <TBProgressState name="PRICE_VERIFY_STATE_RETDN_cBTN1" type=""/>
+        <TBProgressState name="PRICE_VERIFY_STATE_RETDN_cBTN2" type=""/>
+		<TBProgressState name="WIC_START" type=""/> 
+    	<TBProgressState name="WIC_START_PENDING" type=""/> <!-- SOTF5842  -->
+		<TBProgressState name="WIC_PROCESSING" type=""/>
+		<TBProgressState name="WIC_CANCEL" type=""/>
+	<TBProgressState name="FINISH_WIC_START" type=""/>  <!-- POS138637 -->
+		<TBProgressState name="SMART_WIC_START" type=""/> <!-- POS189696 -->
+		<TBProgressState name="SMART_WIC_PROCESSING" type=""/> <!-- POS189696 -->
+<!-- POS138630 -->
+		<TBProgressState name="TB_WIC_CONFIRMATION" type=""/>
+		<TBProgressState name="TB_WIC_CONFIRMATION_RETDN_cConfirm" type=""/>
+		<TBProgressState name="TB_WIC_CONFIRMATION_RETDN_cReject" type=""/>
+		<TBProgressState name="TB_WIC_CONFIRMATION_CASHINSERTED" type=""/>
+		<TBProgressState name="TB_WIC_TENDERACCEPTED" type=""/>	<!-- POS154789 -->
+
+<!-- POS138630 -->
+			
+	<!-- These state are set in BaseMHTender::TBEnterTender() -->
+	<!-- Every tender type defined by SCOT in c:\scot\adk\include\Transbroker.h -->
+	<!-- Refer to c:\scot\config\TBMsgMap.xml for a default handler for TENDER_CASH -->
+	<TBProgressState name="TENDER_COUPON"             type="TENDER"/>
+	<TBProgressState name="TENDER_OTHERPAYMENT"       type="TENDER"/>
+	<TBProgressState name="TENDER_NONE"               type="TENDER"/>
+	<TBProgressState name="TENDER_CASH"               type="TENDER"/>
+	<TBProgressState name="TENDER_CREDIT"             type="TENDER"/>
+	<TBProgressState name="TENDER_DEBIT"              type="TENDER"/>
+	<TBProgressState name="TENDER_LOYALTY"            type="TENDER"/>
+	<TBProgressState name="TENDER_DEBITSAVING"        type="TENDER"/>
+	<TBProgressState name="TENDER_DEBITCHECKING"      type="TENDER"/>
+	<TBProgressState name="TENDER_EBT"                type="TENDER"/>
+	<TBProgressState name="TENDER_FOODSTAMPS"         type="TENDER"/>
+	<TBProgressState name="TENDER_GIFTCARD"           type="TENDER"/>
+	<TBProgressState name="TENDER_PIP_GENERIC"        type="TENDER"/>
+	<TBProgressState name="TENDER_PIP_CREDIT"         type="TENDER"/>
+	<TBProgressState name="TENDER_PIP_DEBIT"          type="TENDER"/>
+	<TBProgressState name="TENDER_PIP_DEBIT_CASHBACK" type="TENDER"/>
+	<TBProgressState name="TENDER_PIP_LOYALTY"        type="TENDER"/>
+	<TBProgressState name="TENDER_PIP_DEBITSAVING"    type="TENDER"/>
+	<TBProgressState name="TENDER_PIP_DEBITCHECKING"  type="TENDER"/>
+	<TBProgressState name="TENDER_PIP_EBT"            type="TENDER"/>
+	<TBProgressState name="TENDER_PIP_FOODSTAMPS"     type="TENDER"/>
+	<TBProgressState name="TENDER_PIP_GIFTCARD"       type="TENDER"/>
+	<TBProgressState name="TENDER_USERDEFINED1"       type="TENDER"/>
+	<TBProgressState name="TENDER_USERDEFINED2"       type="TENDER"/>
+	<TBProgressState name="TENDER_USERDEFINED3"       type="TENDER"/>
+	<TBProgressState name="TENDER_USERDEFINED4"       type="TENDER"/>
+	<TBProgressState name="TENDER_USERDEFINED5"       type="TENDER"/>
+	<TBProgressState name="TENDER_USERDEFINED6"       type="TENDER"/>
+	<TBProgressState name="TENDER_USERDEFINED7"       type="TENDER"/>
+	<TBProgressState name="TENDER_USERDEFINED8"       type="TENDER"/>
+	<TBProgressState name="TENDER_USERDEFINED9"       type="TENDER"/>
+	<TBProgressState name="TENDER_USERDEFINED10"      type="TENDER"/>
+	<TBProgressState name="TENDER_USERDEFINED11"      type="TENDER"/>
+	<TBProgressState name="TENDER_USERDEFINED12"      type="TENDER"/>
+	<TBProgressState name="TENDER_USERDEFINED13"      type="TENDER"/>
+	<TBProgressState name="TENDER_USERDEFINED14"      type="TENDER"/>
+	<TBProgressState name="TENDER_USERDEFINED15"      type="TENDER"/>
+	<TBProgressState name="TENDER_USERDEFINED16"      type="TENDER"/>
+	<TBProgressState name="TENDER_USERDEFINED17"      type="TENDER"/>
+	<TBProgressState name="TENDER_USERDEFINED18"      type="TENDER"/>
+	<TBProgressState name="TENDER_USERDEFINED19"      type="TENDER"/>
+	<TBProgressState name="TENDER_USERDEFINED20"      type="TENDER"/>
+	<TBProgressState name="TENDER_CHECK"              type="TENDER"/>
+	<TBProgressState name="TENDER_CASH_RAP"           type="TENDER"/>
+  <TBProgressState name="TENDER_CASH_RETDN_cYES"    type="TENDER"/>
+  <TBProgressState name="TENDER_CASH_RETDN_cNO"     type="TENDER"/>
+  <TBProgressState name="TENDER_CASH_WAIT_PAYMENT"  type="TENDER"/>
+	<TBProgressState name="TENDER_ASSISTTENDER"       type="TENDER"/>
+	<TBProgressState name="TENDER_VOUCHERPAYMENT"     type="TENDER"/>
+	<!-- BEGIN SOTF8850 -->
+	<TBProgressState name="CSBR_SLIP_NOT_FROM_STORE" type=""/>
+	<TBProgressState name="CSBR_SLIP_NOT_FROM_STORE_RETDN_cOk" type=""/>
+	<TBProgressState name="CSBR_SLIP_NOT_FROM_STORE_RETDN_cCancel" type=""/>
+	<!-- END SOTF8850 -->
+	<!-- BEGIN POS19072 -->
+	<TBProgressState name="TB_ENTERING_WIC_FREE_ITEM_PHASE" type=""/>
+	<!-- END POS19072 -->
+
+	<!--POS11024 Mobile Shopper Start-->
+	<TBProgressState name="TB_DIGITAL_COUPON_IP_RETDN_cNO" type=""/>
+	<TBProgressState name="TB_DIGITAL_COUPON_IP_RETDN_cYES" type=""/>
+	<TBProgressState name="TB_DIGITAL_COUPON_PIN_ENTRY_RETDN_cNO" type=""/>
+	<TBProgressState name="TB_DIGITAL_COUPON_PIN_ENTRY_RETDN_cYES" type=""/>
+	<TBProgressState name="MOB_SHOP_EAS_DEACT" type="ITEMIZATION"/>
+	<TBProgressState name="MOB_SHOP_EAS_VALIDATION" type=""/>
+	<TBProgressState name="MOB_SHOP_EAS_VALIDATION_RETDN" type=""/>
+	<TBProgressState name="MOB_SHOP_EAS_VALIDATION_RETDN_cDone" type=""/>	
+	<!--POS11024 Mobile Shopper End-->
+
+	<!-- POS106936  -->
+	<TBProgressState name="TB_DIGITAL_COUPON_PROMPT" type=""/>
+	<TBProgressState name="TB_DIGITAL_COUPON_PROMPT_RETDN_cYES" type=""/>
+	<TBProgressState name="TB_DIGITAL_COUPON_PROMPT_RETDN_cNO" type=""/>
+	<!-- e POS106936  -->
+
+	<!-- Add any customer defined tender types here as in... -->
+	<!-- <TBProgressState name="TENDER_SOME_CUSTOMER_TENDER" type="TENDER"/> -->
+
+	<!-- End of tender state names -->
+
+
+</TBProgressStates>

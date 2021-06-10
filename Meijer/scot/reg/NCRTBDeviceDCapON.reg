@@ -1,0 +1,58 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\MICR\NCRTBPOSMICR.1\DataCapture]
+"DcapVersion"="1.1.3"
+"DcapTime"="1F03 -> Hex time option(s): 100=m:s, 300=h:m:s, 700=m/d h:m:s; 800+digits=millisec; 1000=threadid"
+"DcapMask"="FFFFF -> Hex mask of events to capture"
+"DcapControl"="4 -> Hex destination(s): 1=DCap App, 2=Debugger, 4=File; 10/20/40 for immediate"
+"DcapFileMax"="5120 -> Max KB of data cap file"
+"DcapFile"="C:\\scot\\logs\\NCRTBDevice.log"
+"DcapLinePrefix"="MICR: "
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\CashDrawer\NCRTBPOSCashDrawer.1\DataCapture]
+"DcapVersion"="1.1.3"
+"DcapTime"="1F03 -> Hex time option(s): 100=m:s, 300=h:m:s, 700=m/d h:m:s; 800+digits=millisec; 1000=threadid"
+"DcapMask"="FFFFF -> Hex mask of events to capture"
+"DcapControl"="4 -> Hex destination(s): 1=DCap App, 2=Debugger, 4=File; 10/20/40 for immediate"
+"DcapFileMax"="5120 -> Max KB of data cap file"
+"DcapFile"="C:\\scot\\logs\\NCRTBDevice.log"
+"DcapLinePrefix"="CASH: "
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\POSPrinter\NCRTBPOSPrinter.1\DataCapture]
+"DcapVersion"="1.1.3"
+"DcapTime"="1F03 -> Hex time option(s): 100=m:s, 300=h:m:s, 700=m/d h:m:s; 800+digits=millisec; 1000=threadid"
+"DcapMask"="FFFFF -> Hex mask of events to capture"
+"DcapControl"="4 -> Hex destination(s): 1=DCap App, 2=Debugger, 4=File; 10/20/40 for immediate"
+"DcapFileMax"="5120 -> Max KB of data cap file"
+"DcapFile"="C:\\scot\\logs\\NCRTBDevice.log"
+"DcapLinePrefix"="PRNT: "
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\POSKeyboard\NCRTBPOSKeyboard\DataCapture]
+"DcapVersion"="1.1.3"
+"DcapTime"="1F03 -> Hex time option(s): 100=m:s, 300=h:m:s, 700=m/d h:m:s; 800+digits=millisec; 1000=threadid"
+"DcapMask"="FFFFF -> Hex mask of events to capture"
+"DcapControl"="4 -> Hex destination(s): 1=DCap App, 2=Debugger, 4=File; 10/20/40 for immediate"
+"DcapFileMax"="5120 -> Max KB of data cap file"
+"DcapFile"="C:\\scot\\logs\\NCRTBDevice.log"
+"DcapLinePrefix"="KBRD: "
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\Scale\NCRTBPOSScale\DataCapture]
+"DcapVersion"="1.1.3"
+"DcapTime"="1F03 -> Hex time option(s): 100=m:s, 300=h:m:s, 700=m/d h:m:s; 800+digits=millisec; 1000=threadid"
+"DcapMask"="FFFFF -> Hex mask of events to capture"
+"DcapControl"="4 -> Hex destination(s): 1=DCap App, 2=Debugger, 4=File; 10/20/40 for immediate"
+"DcapFileMax"="5120 -> Max KB of data cap file"
+"DcapFile"="C:\\scot\\logs\\NCRTBDevice.log"
+"DcapLinePrefix"="SCAL: "
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OLEforRetail\ServiceOPOS\Scanner\NCRTBPOSScanner\DataCapture]
+"DcapVersion"="1.1.3"
+"DcapTime"="1F03 -> Hex time option(s): 100=m:s, 300=h:m:s, 700=m/d h:m:s; 800+digits=millisec; 1000=threadid"
+"DcapMask"="FFFFF -> Hex mask of events to capture"
+"DcapControl"="4 -> Hex destination(s): 1=DCap App, 2=Debugger, 4=File; 10/20/40 for immediate"
+"DcapFileMax"="5120 -> Max KB of data cap file"
+"DcapFile"="C:\\scot\\logs\\NCRTBDevice.log"
+"DcapLinePrefix"="SCAN: "
+
+

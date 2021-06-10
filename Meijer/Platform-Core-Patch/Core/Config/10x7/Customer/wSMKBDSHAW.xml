@@ -1,0 +1,316 @@
+<Display Version="1.2">
+  <Fonts>
+    <Font Name="SHAWAMFont">
+      <Face>Lucida Sans Unicode</Face>
+      <Size>13</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SHAWAMTitleFont">
+      <Face>Lucida Sans Unicode</Face>
+      <Size>23</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SHAWAMEchoBoxFont">
+      <Face>Courier New</Face>
+      <Size>21</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+  </Fonts>
+  <Controls>
+    <Control Name="Key34" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">736,369,278,393</Property>
+        <Property Name="ButtonHorizontalSpacing">7</Property>
+        <Property Name="ButtonVerticalSpacing">7</Property>
+        <Property Name="ButtonHeight">73</Property>
+        <Property Name="ButtonWidth">88</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SHAWAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\shaw\10x7-bttn_69x57.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">15</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key23" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">550,213,182,310</Property>
+        <Property Name="ButtonHorizontalSpacing">6</Property>
+        <Property Name="ButtonVerticalSpacing">6</Property>
+        <Property Name="ButtonHeight">73</Property>
+        <Property Name="ButtonWidth">88</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SHAWAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\shaw\10x7-bttn_69x57.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">8</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key31" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">550,529,178,146</Property>
+        <Property Name="ButtonHorizontalSpacing">6</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">146</Property>
+        <Property Name="ButtonWidth">86</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SHAWAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\shaw\10x7-bttn_67x117.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">2</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key19" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">375,213,173,151</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">5</Property>
+        <Property Name="ButtonHeight">73</Property>
+        <Property Name="ButtonWidth">173</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SHAWAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\shaw\10x7-bttn_135x57.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">2</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key21" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">375,366,171,73</Property>
+        <Property Name="ButtonHorizontalSpacing">5</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">73</Property>
+        <Property Name="ButtonWidth">83</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SHAWAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\shaw\10x7-bttn_65x57.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">2</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key13" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">186,213,181,229</Property>
+        <Property Name="ButtonHorizontalSpacing">5</Property>
+        <Property Name="ButtonVerticalSpacing">5</Property>
+        <Property Name="ButtonHeight">73</Property>
+        <Property Name="ButtonWidth">88</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SHAWAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\shaw\10x7-bttn_69x57.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">6</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key1" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">8,213,171,307</Property>
+        <Property Name="ButtonHorizontalSpacing">5</Property>
+        <Property Name="ButtonVerticalSpacing">5</Property>
+        <Property Name="ButtonHeight">73</Property>
+        <Property Name="ButtonWidth">83</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SHAWAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\shaw\10x7-bttn_65x57.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">8</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key49" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">186,449,274,229</Property>
+        <Property Name="ButtonHorizontalSpacing">5</Property>
+        <Property Name="ButtonVerticalSpacing">5</Property>
+        <Property Name="ButtonHeight">73</Property>
+        <Property Name="ButtonWidth">88</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SHAWAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\shaw\10x7-bttn_69x57.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">9</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key10" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">96,526,83,151</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">5</Property>
+        <Property Name="ButtonHeight">73</Property>
+        <Property Name="ButtonWidth">83</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SHAWAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\shaw\10x7-bttn_65x57.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">2</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key33" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">550,682,178,73</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">73</Property>
+        <Property Name="ButtonWidth">178</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SHAWAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\shaw\10x7-bttn_139x57.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key59" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">281,682,180,73</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">73</Property>
+        <Property Name="ButtonWidth">180</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SHAWAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\shaw\10x7-bttn_141x57.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key58" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">186,682,88,73</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">73</Property>
+        <Property Name="ButtonWidth">88</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SHAWAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\shaw\10x7-bttn_69x57.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key12" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">8,682,173,73</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">73</Property>
+        <Property Name="ButtonWidth">173</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SHAWAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\shaw\10x7-bttn_135x57.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key9" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">8,526,82,146</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">146</Property>
+        <Property Name="ButtonWidth">82</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SHAWAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\shaw\10x7-bttn_64x114.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Echo1" Type="Static">
+      <Properties>
+        <Property Name="Position">321,125,365,48</Property>
+        <Property Name="Font">SHAWAMEchoBoxFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">Echo1</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+  </Controls>
+  <Contexts>
+    <Context Name="SmAssistMode">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\shaw\10x7_ShawAssistMode.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">423,7,281,32</Property>
+            <Property Name="Font">SHAWAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title2">
+          <Properties>
+            <Property Name="Position">142,7,281,32</Property>
+            <Property Name="Font">SHAWAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">321,77,365,48</Property>
+            <Property Name="Font">SHAWAMEchoBoxFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo1" />
+        <Control Name="Key34" />
+        <Control Name="Key23" />
+        <Control Name="Key31" />
+        <Control Name="Key19" />
+        <Control Name="Key21" />
+        <Control Name="Key13" />
+        <Control Name="Key1" />
+        <Control Name="Key49" />
+        <Control Name="Key10" />
+        <Control Name="Key33" />
+        <Control Name="Key59" />
+        <Control Name="Key58" />
+        <Control Name="Key12" />
+        <Control Name="Key9" />
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">1,54,210,43</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage">
+          <Properties>
+            <Property Name="Position">2,100,174,57</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1" />
+        <Control Name="SMButton2" />
+      </Include>
+    </Context>
+  </Contexts>
+</Display>

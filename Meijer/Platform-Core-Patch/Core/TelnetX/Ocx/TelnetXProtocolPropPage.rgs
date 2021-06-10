@@ -1,0 +1,23 @@
+HKCR
+{
+	Mabry.TelnetXProtocolPropPage.1 = s 'TelnetXProtocolPropPage Class'
+	{
+		CLSID = s '{1C161F25-CDC9-402A-A4BB-DEC343572DFA}'
+	}
+	Mabry.TelnetXProtocolPropPage = s 'TelnetXProtocolPropPage Class'
+	{
+		CLSID = s '{1C161F25-CDC9-402A-A4BB-DEC343572DFA}'
+		CurVer = s 'Mabry.TelnetXProtocolPropPage.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {1C161F25-CDC9-402A-A4BB-DEC343572DFA} = s 'TelnetXProtocolPropPage Class'
+		{
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+		}
+	}
+}

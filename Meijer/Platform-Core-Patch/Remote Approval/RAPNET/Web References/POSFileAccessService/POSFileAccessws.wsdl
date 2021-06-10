@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://tempuri.org/Imports" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" name="POSFileAccessws" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema targetNamespace="http://tempuri.org/Imports">
+      <s:import schemaLocation="http://153.60.40.81:9992/POSFileAccessService?xsd=xsd0" namespace="http://tempuri.org/" />
+      <s:import schemaLocation="http://153.60.40.81:9992/POSFileAccessService?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="IPOSFileAccessws_EmplPwdChange_ws_InputMessage">
+    <wsdl:part name="parameters" element="tns:EmplPwdChange_ws" />
+  </wsdl:message>
+  <wsdl:message name="IPOSFileAccessws_EmplPwdChange_ws_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EmplPwdChange_wsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPOSFileAccessws_ChangeEmplPwd_ws_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeEmplPwd_ws" />
+  </wsdl:message>
+  <wsdl:message name="IPOSFileAccessws_ChangeEmplPwd_ws_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeEmplPwd_wsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPOSFileAccessws_ValidateEmplPwd_ws_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateEmplPwd_ws" />
+  </wsdl:message>
+  <wsdl:message name="IPOSFileAccessws_ValidateEmplPwd_ws_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateEmplPwd_wsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPOSFileAccessws_GetMaxInvalidPwdAttempts_ws_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMaxInvalidPwdAttempts_ws" />
+  </wsdl:message>
+  <wsdl:message name="IPOSFileAccessws_GetMaxInvalidPwdAttempts_ws_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMaxInvalidPwdAttempts_wsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IPOSFileAccessws">
+    <wsdl:operation name="EmplPwdChange_ws">
+      <wsdl:input message="tns:IPOSFileAccessws_EmplPwdChange_ws_InputMessage" />
+      <wsdl:output message="tns:IPOSFileAccessws_EmplPwdChange_ws_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangeEmplPwd_ws">
+      <wsdl:input message="tns:IPOSFileAccessws_ChangeEmplPwd_ws_InputMessage" />
+      <wsdl:output message="tns:IPOSFileAccessws_ChangeEmplPwd_ws_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateEmplPwd_ws">
+      <wsdl:input message="tns:IPOSFileAccessws_ValidateEmplPwd_ws_InputMessage" />
+      <wsdl:output message="tns:IPOSFileAccessws_ValidateEmplPwd_ws_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMaxInvalidPwdAttempts_ws">
+      <wsdl:input message="tns:IPOSFileAccessws_GetMaxInvalidPwdAttempts_ws_InputMessage" />
+      <wsdl:output message="tns:IPOSFileAccessws_GetMaxInvalidPwdAttempts_ws_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttp" type="tns:IPOSFileAccessws">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="EmplPwdChange_ws">
+      <soap:operation soapAction="http://tempuri.org/IPOSFileAccessws/EmplPwdChange_ws" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangeEmplPwd_ws">
+      <soap:operation soapAction="http://tempuri.org/IPOSFileAccessws/ChangeEmplPwd_ws" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateEmplPwd_ws">
+      <soap:operation soapAction="http://tempuri.org/IPOSFileAccessws/ValidateEmplPwd_ws" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMaxInvalidPwdAttempts_ws">
+      <soap:operation soapAction="http://tempuri.org/IPOSFileAccessws/GetMaxInvalidPwdAttempts_ws" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="POSFileAccessws">
+    <wsdl:port name="BasicHttp" binding="tns:BasicHttp">
+      <soap:address location="http://153.60.40.81:9992/POSFileAccessService/basic" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

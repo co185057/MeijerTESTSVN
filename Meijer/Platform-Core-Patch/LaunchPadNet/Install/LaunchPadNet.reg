@@ -1,0 +1,27 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\LaunchPadNet]
+"AudioPath"="%APP_DRIVE%\\scot\\Sound"
+"BinPath"="%APP_DRIVE%\\scot\\Bin"
+"ConfigPath"="%APP_DRIVE%\\scot\\config"
+"MediaPath"="%APP_DRIVE%\\scot\\image"
+"Config_XP"="LaunchPadConfig_XP.xml"
+"PSXConfig_XP"="LaunchPadPSX.xml"
+"Config_CE"="LaunchPadConfig_CE.xml"
+"PSXConfig_CE"="LaunchPadPSX.xml"
+"Config_NT"="LaunchPadConfig_NT.xml"
+"PSXConfig_NT"="LaunchPadPSX.xml"
+"ShowCursor"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\LaunchPadNet\DataCapture]
+"DcapVersion"="1.1.3"
+"DcapTime"="1700 -> Hex time option(s): 100=m:s, 300=h:m:s, 700=m/d h:m:s; 800+digits=millisec; 1000=threadid"
+"DcapMask"="0x0000000F -> Hex mask of events to capture"
+"DcapControl"="4 -> Hex destination(s): 1=DCap App, 2=Debugger, 4=File; 10/20/40 for immediate"
+"DcapFileMax"="5120 -> Max KB of data cap file"
+"DcapFile"="%DATA_DRIVE%\\scot\\logs\\LaunchPadNet.log"
+"DcapLinePrefix"="LAUNCHPADNET:"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\SCOT\CurrentVersion\Load Controller]
+"SwitchFileType.2"=""
+"SwitchFileType"=""

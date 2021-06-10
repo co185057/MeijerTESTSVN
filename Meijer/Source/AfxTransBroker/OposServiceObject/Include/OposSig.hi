@@ -1,0 +1,98 @@
+//////////////////////////////////////////////////////////////////////
+//
+// OposSig.hi
+//
+//   Signature Capture header file for OPOS Controls and
+//     Service Objects.
+//
+// Modification history
+// -------------------------------------------------------------------
+// 95-12-08 OPOS Release 1.0                                     CRM
+// 96-03-18 OPOS Release 1.01                                    CRM
+//   Change TotalVectors to TotalPoints.
+//   Change VectorArray to PointArray.
+// 97-06-04 OPOS Release 1.2                                     CRM
+//   Add the following properties: CapRealTimeData, RealTimeDataEnabled
+//   Correct spelling of TotalPoitns to TotalPoints.
+//
+//////////////////////////////////////////////////////////////////////
+
+#if !defined(OPOSSIG_HI)
+#define      OPOSSIG_HI
+
+
+#include "Opos.hi"
+#include "OposSig.h"
+
+
+//////////////////////////////////////////////////////////////////////
+// Numeric Property Index Values.
+//////////////////////////////////////////////////////////////////////
+
+// * Properties *
+
+const LONG PIDXSig_MaximumX             =   1 + PIDX_SIG+PIDX_NUMBER;
+const LONG PIDXSig_MaximumY             =   2 + PIDX_SIG+PIDX_NUMBER;
+const LONG PIDXSig_TotalPoints          =   3 + PIDX_SIG+PIDX_NUMBER;
+
+//      Added for Release 1.2:
+const LONG PIDXSig_RealTimeDataEnabled  =   4 + PIDX_SIG+PIDX_NUMBER;
+
+// * Capabilities *
+
+const LONG PIDXSig_CapDisplay           = 501 + PIDX_SIG+PIDX_NUMBER;
+const LONG PIDXSig_CapUserTerminated    = 502 + PIDX_SIG+PIDX_NUMBER;
+
+//      Added for Release 1.2:
+const LONG PIDXSig_CapRealTimeData      = 503 + PIDX_SIG+PIDX_NUMBER;
+
+// * Validation Functions *
+
+inline BOOL IsValidSigNumericPidx(LONG Pidx)
+{
+  return ( PIDXSig_MaximumX <= Pidx && Pidx <= PIDXSig_TotalPoints )
+    ? TRUE : FALSE ;
+}
+
+inline BOOL IsValidSigNumericPidx12(LONG Pidx)
+{
+  return ( PIDXSig_MaximumX <= Pidx &&
+           Pidx <= PIDXSig_RealTimeDataEnabled )
+    ? TRUE : FALSE ;
+}
+
+inline BOOL IsValidSigCapPidx(LONG Pidx)
+{
+  return ( PIDXSig_CapDisplay <= Pidx &&
+           Pidx <= PIDXSig_CapUserTerminated )
+    ? TRUE : FALSE ;
+}
+
+inline BOOL IsValidSigCapPidx12(LONG Pidx)
+{
+  return ( PIDXSig_CapDisplay <= Pidx &&
+           Pidx <= PIDXSig_CapRealTimeData )
+    ? TRUE : FALSE ;
+}
+
+
+//////////////////////////////////////////////////////////////////////
+// String Property Index Values.
+//////////////////////////////////////////////////////////////////////
+
+// * Properties *
+
+const LONG PIDXSig_RawData              =   1 + PIDX_SIG+PIDX_STRING;
+const LONG PIDXSig_PointArray           =   2 + PIDX_SIG+PIDX_STRING;
+
+// * Validation Function *
+
+inline BOOL IsValidSigStringPidx(LONG Pidx)
+{
+  return ( PIDXSig_RawData <= Pidx &&
+           Pidx <= PIDXSig_PointArray )
+    ? TRUE : FALSE ;
+}
+
+
+#endif			// !defined(OPOSSIG_HI)

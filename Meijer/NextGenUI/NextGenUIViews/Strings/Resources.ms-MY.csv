@@ -1,0 +1,2720 @@
+﻿AgeCheckLaneButtonText,Age Check
+AgeRestrictedText,Usia dihadkan item; %2d yrs old
+AlertStatusTextOff,
+AlertStatusTextOn,!!!
+AlertText,Amaran:
+AllowSuspendButtonText,Allow Suspend
+AMItemQuantityExceededTitle,Had Kuantiti
+AmountSaved,Amaun Disimpan
+AM_RestrictedNotAllowedLeadthru,Item yang dihadkan telah dibatalkan - had umur tidak dipatuhi. \n\nSila asingkan item.
+AM_RestrictedNotAllowedTitle,Item Dihadkan
+ApprovalNeededButtonText,Kelulusan Diperlukan
+ApprovalNeededText,Kelulusan Diperlukan:
+ApprovalNeededTitle,Kelulusan Diperlukan
+ApproveAndCollectButtonText,Approve & Collect
+ApproveButtonText,Approve
+ApproveCouponButtonText,Approve Kupon
+Approved,Lulus
+ApproveNoUpdateButtonText,Approve/No Kemas Kini.
+ApproveSecurityButtonText,Approve Keselamatan
+ApproveUpdateButtonText,Approve & Kemas Kini Weight
+ApproveVoidButtonText,Lulus Batal
+Assistance,Bantuan
+AssistanceComing,"Bantuan akan datang, sila teruskan."
+AssistanceNeededTitle,Bantuan Diperlukan
+AssistedEndorsementLeadthru,Pengendorsan Diperlukan. Sila tunggu bantuan operator.
+AssistedTenderHHLeadthru,Use the Attendant Station to accept payment.
+AssistedTenderLeadthru,Use assist mode to accept check from customer.
+AssistedTenderTitle,Operator Assisted Tender
+AssistModeButtonText,Assist Mode
+AttendantMode,Mod Atendan
+AttendantTrainingMode,Mod Latihan & Atendan
+Back,Kembali
+BackSpaceButtonText,Backspace
+BagAreaBackupLeadthru,Buang item-item sandaran di atas tali sawat.
+BagAreaBackupTitle,Item Sandaran di atas Tali Sawat
+BagItem,Sila bungkuskan item ini.
+BagItemCart,Item Beg
+BagItemOrSkip,"Sila bungkuskan item ini, atau pilih untuk melangkau."
+BagItemTimerExpiredTitle,Weight expected on security scale.
+BasicAssistModeLeadthru,Scan item or select function.
+BasicAssistModeTitle,Assist Functions
+BirthdateEnterText,"Birthdate entered:%2d/%2d/%4d,%d years old"
+BirthDateOver30ButtonText,Birthdate over 30
+CalibrateConfirm,Are you sure you want to calibrate the touch screen?
+CallForHelp,Minta Bantuan?
+Cancel,Batal
+CancelActionButtonText,Batalkan Tindakan
+CancelAll,Batalkan Semua
+CancelButtonText,Batal
+CancelCoupons,Batalkan Kupon-kupon
+CancelItems,Batalkan Item
+CancelPayment,Batalkan Bayaran
+CancelRequestButtonText,Batalkan Request
+CancelSuspendButtonText,Batalkan Suspend
+CancelSuspendDeclinedButtonText,Kembali
+CancelSuspendNowButtonText,Batalkan Suspend \nNow
+CancelSuspendRequestButtonText,Batalkan Suspend Request
+CancelSuspendText,Batalkan Suspend
+CancelTransactionGenericLeadthru,"Touch ""Yes"" to cancel transaction or touch ""No"" to resume transaction."
+CancelTransactionGenericTitle,Transaksi Dibatalkan
+CantScanCoupon,Tidak Boleh Mengimbas Kupon
+CartPay,Bayar
+Change,Ubah:
+ChangePriceButtonText,Price Change
+ChangePriceTitle,Change Price
+ChangeQuantityButtonText,Kuantiti Change
+ChangeQuantityTitle,Change Kuantiti
+CheckAgeLeadthru,"Key in birth date %s and touch ""Masukkan""."
+CheckAgeTitle,"Check Customer's Age"
+CheckBasketTitle,Periksa Bakul
+ClearApprovalsButtonText,Buang Approvals
+ClearButtonText,Buang
+ClearRequestButtonText,Buang Request
+ClearSecurityButtonText,Buang Keselamatan
+ClearSecurityFinalizationButtonText,Buang Keselamatan
+CloseAllConfirm,Are you sure you want to exit all applications and go to the desktop?
+CloseButtonText,Close
+ClosedLaneLeadthru,Lorong Ditutup
+ClosedLaneTitle,Go to lane and log into Store Mode to open lane.
+CloseLaneButtonText,Close Lorong
+CollapseReceiptButtonText,Collapse Resit
+CollectGiftCardTitle,Kumpul Kad Hadiah
+CommandPromptConfirm,Are you sure you want to start the Command Prompt?
+CommandPromptPrimaryTxt,Command Prompt
+CompareSignatureLeadthru,"Compare signatures and touch ""Approve"", or ""Sign Again""."
+CompareSignatureTitle,Compare Signatures
+Confirm,Adalah anda ingin membatalkan semua pembelian anda?
+ConfirmAbortLeadthru,Do you want to stop checking out and cancel your entire purchase?
+ConfirmAbortMessage,Pastikah anda ingin Kosongkan Cart? Transaksi akan dibatalkan.
+ConfirmAbortTitle,Batalkan Semua Item
+ConfirmAllowSuspendButtonText,Confirm Allow \nSuspend
+ConfirmDebitAmountTitle,Sahkan Amaun
+ConfirmEBTAmountTitle,Sahkan Amaun
+ConfirmQuantity,Adakah {0} betul?
+ConfirmQuantityTitle,Sahkan Kuantiti
+ConfirmSuspendButtonText,Sahkan Suspend
+ConfirmSuspendDeclinedButtonText,Sahkan Decline
+ConfirmSuspendDeclinedLeadthru,Sahkan or Batal Suspension Decline.
+ConfirmSuspendFromLaneStatusLeadthruText,Sahkan or batal suspend.
+ConfirmSuspendLeadthru,Sahkan Suspend.
+ConfirmSuspendNowButtonText,Sahkan Suspend \nNow
+ConfirmSuspendRequestButtonText,Sahkan Suspend Request
+ConfirmSuspendTitle,Suspend:
+ConfirmVoidTitle,Sahkan Batal
+ConnectingLeadthru,Connecting to NCR SelfServ Checkout...Sila tunggu
+ConnectingText,Connecting...Sila Tunggu
+ConnectingWaitingText,"Sila tunggu, connecting to NCR SelfServ Checkout..."
+Continue,Adakah anda ingin meneruskan?
+ContinueTitle,Teruskan?
+ContinueTransLeadthru,Adakah anda ingin meneruskan pembelian anda?
+ContinueTransTitle,Teruskan?
+CouponApprovalLeadthru,"Accept coupons from customer at the approval station and touch ""Luluskan""."
+CouponCollectionText,Kupon Collection
+CouponExceededLimitFinalizationLeadthru,The transaction was finalized using a coupon that exceeds the store coupon limit.
+CouponExceededLimitLeadthru,"Touch ""Luluskan Kupon"" to accept the coupon or go to Assist Mode to void it."
+CouponLaneButtonText,Kupon
+CouponLimitExceededLeadthru,"Touch ""Luluskan"" to allow coupon deposit at lane or touch ""Luluskan & Collect"" and collect from customer."
+CouponLimitExceededTitle,Kupon Limit Exceeded
+CouponMessage,Asingkan kupon sekarang. Depositkannya pada akhir pembelian.
+CouponNoMatchLeadthru,Coupon does not match any item on receipt. This coupon cannot be accepted.
+CouponNoMatchTitle,Kupon Tidak Sepadan
+CouponReceiptText,%d coupons totaling $%.2f
+CouponText,Kupon-kupon:
+CouponTooHighLeadthru,Amaun yang anda telah masukkan untuk kupon ini terlalu tinggi. Sistem ini tidak boleh menerima kupon ini.
+CouponTooHighTitle,Kupon Terlalu Tinggi
+CrateableItemTitle,Beli Troli
+CustomerAgreementButtonText,Perjanjian Pelanggan
+DateFormat1,(mmddyyyy)
+DateFormat2,(mmddyy)
+DateFormat3,(ddmmyyyy)
+DateFormat4,(ddmmyy)
+DateFormat5,(yyyymmdd)
+DateFormat6,(yymmdd)
+DateOfBirthNotNeededButtonText,Date not needed
+DeactivateLeadthru,"Deactivate item or remove hard tag and touch ""Buang Keselamatan""."
+DepositCard,Sila depositkan kad hadiah susut anda dalam slot kupon.
+DepositCoupon,Depositkan Kupon
+DepositGiftCard,Kad Hadiah Depositkan
+DeviceFailureLeadthru,Go to lane and check device.
+DeviceFailureTitle,Device Malfunction
+DiagConfirm,Are you sure you want to generate Diagnostic Log Files?
+DisableHHRapApprovalText, Disable HHRAP Approval
+DisableRapApprovalText, Disable RAP Approval
+Disconnected,Sila tunggu...
+DisconnectedTitle,Diputuskan
+Done,Siap
+DoneButtonText,Siap
+DoNotApproveButtonText,Do Not Approve
+DropoffCouponsTitle,Turunkan Kupon.
+Due,Perlu Dibayar:{0}
+EASText,Item EAS masih aktif
+EditCart,Sunting Cart
+Enter,Masukkan
+EnterAmount,Masukkan Amaun
+EnterButtonText,Masukkan
+EnterCouponValue,"Masukkan nilai baucar dalam sen dan sentuh ""OK"""
+EnterCouponValueLeadthru,"Masukkan nilai kupon dalam sen dan sentuh ""Masukkan""."
+EnterCouponValueTitle,Masukkan Nilai Kupon
+EnterDataLaneButtonText,Masukkan Data
+EnterId,Masukkan ID anda.
+EnterIDFpLeadthru,"Key in your user ID and touch ""Masukkan"", or place your finger on the fingerprint reader to log in."
+EnterIDLeadthru,Masukkan ID using keypad below.
+EnterIDMessage,"Key in your user ID dan sentuh ""Masukkan""."
+EnterIDText,Masukkan ID
+EnterPassword,Masukkan kata laluan anda.
+EnterPasswordLeadthru,Masukkan password using keypad below.
+EnterPasswordMessage,"Masukkan kata laluan anda dan sentuh ""Masukkan""."
+EnterPasswordText,Masukkan Password
+EnterPin,Masukkan PIN
+EnterPriceLeadthru,"Key in item's price and touch ""Masukkan""."
+EnterPriceTitle,Price Entry
+EnterQuantity,Berapakah yang anda mempunyai?
+EnterQuantityLeadthru,"Masukkan kuantiti dan sentuh ""Masukkan""."
+EnterQuantityTitle,Kuantiti Diperlukan
+EnterWeight,Letakkan item ke atas skala:
+EnterWeightLeadthru,Go to the lane and place item on scale.
+EnterWeightTitle,Timbang Item
+EventViewerBtnPrimaryTxt,Event Viewer
+EventViewerConfirm,Are you sure you want to start the Event Viewer?
+Exit,Exit All
+ExitFastLaneAndRunProfileBtnPrimaryTxt,Stop SelfServ Checkout and Run Profile Manager
+ExitFastLaneAndRunProfileBtnSecondaryTxt,Run Profile Manager
+ExitRAPAndRunProfileBtnPrimaryTxt,Stop RAP and Run Profile Manager
+ExitRAPAndRunProfileBtnSecondaryTxt,Run Profile Manager
+ExitText,Exit
+ExpandReceiptButtonText,Expand Resit
+FeesAndCustomerAgreementsLeadthru,Yuran & Perjanjian Pelanggan
+FeesAndCustomerAgreementsTitle,Yuran & Perjanjian Pelanggan:
+FeesButtonText,Yuran
+Finish,Terima kasih untuk membeli-belah dengan kita.
+FinishAndAdd,Siap & Tambah
+FixLaterButtonText,Fix Later
+FullAssistButtonText,Full Assist
+GenerateLogBtnPrimaryTxt,Generate Diagnostic Log Files
+GetDiagFilesButtonText,Get Diag Files
+GiftCard,Baki Kad Hadiah
+GoBack,Kembali
+GoBackButtonText,Kembali
+GoBackCouponButtonText,Kembali
+GoToLaneLeadthru, Please go to Lane for approval
+GoToLaneOrHHRapLeadthru, Please go to Lane or HHRap for approval
+GoToLaneOrRapLeadthru, Please go to Lane or Rap for approval
+HelpLaneButtonText,Bantuan
+HelpOnWay,Bantuan akan tiba sebentar lagi. Sila teruskan.
+HelpRequestLeadthru,"Touch ""Batalkan Request"" after helping customer."
+HelpRequestTitle,Bantuan Requested
+HH_AM_RestrictedNotAllowedLeadthru,Restricted item cancelled - age limit not met. \n\nSet item aside.
+HH_AssistAtLaneLeadthru,Go to the Lane to void items.
+HH_AssistedEndorsementLeadthru,Pengendorsan Diperlukan. Sila tunggu bantuan operator.
+HH_CancelTransactionGenericLeadthru,"""Yes"" to cancel transaction or ""No"" to resume."
+HH_CheckAgeLeadthru,"Key in birth date %s and touch ""Masukkan""."
+HH_CompareSignatureLeadthru,"Compare signatures and ""Luluskan"", or ""Sign Again""."
+HH_ConfirmAbortLeadthru,Stop checking out and cancel entire purchase?
+HH_ContinueTransLeadthru,Continue with your purchase?
+HH_CouponApprovalLeadthru,"Accept coupons from customer and ""Luluskan""."
+HH_CouponLimitExceededLeadthru,"""Luluskan"" for coupons at lane or ""Approve & Collect"" to collect from customer."
+HH_CouponNoMatchLeadthru,Coupon does not match any item on receipt. Coupon not accepted.
+HH_CouponTooHighLeadthru,Coupon amount too high. System cannot accept.
+HH_DeactivateLeadthru,"Deactivate item or remove hard tag and ""Buang Keselamatan""."
+HH_EnterPriceLeadthru,"Key in item's price and ""Masukkan""."
+HH_EnterQuantityLeadthru,"Key in the quantity and ""Masukkan""."
+HH_HelpRequestLeadthru,"""Batalkan Request"" after helping customer."
+HH_HostOfflineLeadthru,Lane is offline. System attempting to reconnect.
+HH_IncorrectItemWeightLeadthru,"Remove item and ""Buang Keselamatan"", or ""Luluskan & Kemas Kini Weight""."
+HH_InvalidBarcodeLeadThru,"Collect item, Touch ""Luluskan"" to continue transaction."
+HH_InvalidBirthDateFormatLeadthru,Date format is invalid \nEnter in %s format.
+HH_ItemNotForSaleLeadthru,"Collect item at lane and ""Buang Keselamatan""."
+HH_ItemQuantityExceededLeadthru,Quantity allowed exceeded. \n\nLetakkan item ke tepi dan teruskan.
+HH_KeyInCodeLeadthru,"Key in the item's code and ""Masukkan""."
+HH_MultiPackItemLeadthru,"If multi-pack, ""Assist Mode"", void, then scan multi-pack barcode."
+HH_NewWeightItemLeadthru,"Verify weight and ""Luluskan & Update Weight"", or ""Luluskan/No Kemas Kini""."
+HH_NoInterventionLeadthru,No Intervention is required.
+HH_OffLineLeadthru,Lane is offline. System attempting to reconnect.
+HH_OutOfSyncNeedAssistLeadthru,"POS out-of-sync, ""Assist Mode"" to resynchronize."
+HH_OutOfSyncStopLeadthru,"POS server down or out-of-sync, shutdown terminal using switch."
+HH_ReEnterIDLeadthru,Incorrect ID or password. Please re-enter on keypad.
+HH_ReturnToShoppingButtonText,Return
+HH_SafetyCoverOpenLeadthru,Remove all items from belt. Close safety cover.
+HH_ScaleBrokenLeadthru,"Keluarkan item dari penimbang dan tekan butang ""Scale Zero"" pada pengimbas."
+HH_SelectContainerLeadthru,"Select container from list and ""Masukkan""."
+HH_SkipBaggingBtnThresholdLeadthru,"Check items at lane and ""Buang Keselamatan""."
+HH_SuspendLeadthru1,Suspend current transaction? Sahkan or Batalkan.
+HH_SuspendLeadthru2,"Current transaction suspended. Sahkan. To cancel, touch ""Kembali"" and cancel."
+HH_SuspendTransactionButtonText,Suspend Trans
+HH_SuspendTransactionLeadthru,"Touch ""Suspend Trans"" to suspend transaction."
+HH_TMTransLeadthru,"Lane is in training mode, \ncontinue with the transaction?"
+HH_TransactionCancelLeadThru,Transaksi cancelled. Remove items from checkstand.
+HH_TransactionCancelLeadThru2,Transaksi cancelled.
+HH_TransactionCancelTitle,Transaksi Dibatalkan
+HH_UnexpectedIncreaseLeadthru,"Remove extra items at lane and ""Buang Keselamatan""."
+HH_UnknownItemLeadthru,"Collect item, ""Buang Keselamatan"", or ""Assist Mode"" to complete."
+HH_UnknownItemLeadthru2,"Collect item, ""Buang Keselamatan"", or use ""Assist Mode"" at Lane to complete."
+HH_UpdateItemLeadthru,"Scroll to item on receipt and ""Masukkan""."
+HH_UpdateNotAllowedLeadthru,Quantity change not allowed.
+HH_VerifySignatureLeadthru,"Compare customer's signature with one on card."
+HH_VisualApproveLeadthru,"""Visual Luluskan"", or ""Assist Mode"" to modify transaction."
+HH_VisualApproveLeadthru2,"""Visual Luluskan"", or ""Assist Mode"" at Lane to modify."
+HH_VoidItemLeadthru,"Scan or scroll to item on receipt. ""Item tidak sah"" or ""Batalkan Semua""."
+HH_VoidLeadthru,"Collect voided item and ""Lulus Batal""."
+HH_VoidNoMatchLeadthru,Tidak dapat menemui item yang diimbas. Item belum dibeli lagi atau ia sudah dibatalkan.
+HopperLaneButtonText,Coin Substitution
+HopperLeadThru,"%s Go to lane and refill coins or clear jam or touch ""Fix Later"" to continue"
+HostOfflineLeadthru,The Lane is offline and the system is attempting to reconnect.
+HostOfflineMessage,Lorong di luar talian dan sistem sedang mencuba untuk menyambung semula.
+IncorrectItemWeightLeadthru,"Remove item and touch ""Buang Keselamatan"", or touch ""Luluskan & Kemas Kini Weight""."
+IncorrectItemWeightTitle,Berat tidak betul pada penimbang keselamatan.
+IncorrectLogin,Incorrect operator number\nand password.\nPlease try again.
+IncorrectLoginTitle,Nombor Tidak Betul
+InitialText,.
+InsertCash,Masukkan Wang
+InsertCoupon,Masukkan Kupon
+InsertCouponTimerExpiredTitle,Masukkan Kupon
+InsufficientBalanceTitle,Baki Tidak Mencukupi
+InterfaceVersion,Software version: 
+InvalidBarcodeLaneButtonText,Verify Item
+InvalidBarcodeLeadThru,"Collect item at lane and touch ""Luluskan"" to continue transaction."
+InvalidBarcodeScan,Ketepikan item dan teruskan dengan pembelian anda.
+InvalidBirthDateFormatLeadthru,Format of Date Entered is invalid \nEnter again in %s format.
+Item,{0} item
+ItemNotForSaleLeadthru,"Collect item at lane and touch ""Buang Keselamatan""."
+ItemNotForSaleTitle,Item Not For Sale
+ItemNumberAmount,NOI :  
+ItemPurchasedText,Item-item Purchased:
+ItemQuantityExceededLeadthru,Anda telah melebihi kuantiti yang dibenarkan untuk item ini. Sila asingkannya dan teruskan.
+ItemQuantityExceededTitle,Item Quantity Exceeded
+Items,{0} item-item
+ItemsAddedFormat,{0} item-item yang ditambah ke cart.
+ItemsForgottenTitle,Weight remains \non bag scale.
+ItemText,Item-item:
+KeyInBirthDateButtonText,Masukkan date
+KeyInCodeButtonText,Masukkan \nKod
+KeyInCodeLeadthru,"Masukkan kod item dan sentuh ""OK""."
+KeyInCodeTitle,Masukkan Kod
+KeyInPriceLeadthru,Masukkan price for: %d %s
+KeyInQuantityLeadthru,Masukkan kuantiti for: %s
+KeySwitchOperatorID,Keylock
+LaneClosedMessage,Lorong Ditutup
+LaneNumberText,Lorong: %d
+LaneReceiptItemType1,%s\t%s
+LaneReceiptItemType2,%s
+LaneReceiptItemType3,%s\t%s\tQty %s @ %s/each\t%s
+LaneReceiptItemType4,%s\t%s\tQty %s @ %s/%s\t%s
+LaneReceiptItemType5,%s\t%s\t%ss @ %s %s/%s\t%s
+LaneReceiptItemType6,%s\t%s\t%ss @ %s/%s\t%s
+LaneReceiptItemType7,%s
+LaneStatusLeadthru,Select function.
+LaneStatusTitle,Lorong Status
+LaneText,Lorong
+Language,Bahasa
+LaunchPadNet_BackSpaceButtonText,Backspace
+LaunchPadNet_ClearButtonText,Buang
+LaunchPadNet_EnterButtonText,Masukkan
+LaunchPadNet_EnterIDFpLeadthru,"Key in your user ID and touch ""Masukkan"", or place your finger on the fingerprint reader to log in."
+LaunchPadNet_EnterIDLeadthru,Masukkan ID using keypad below:
+LaunchPadNet_EnterPasswordLeadthru,Masukkan password using keypad below:
+LaunchPadNet_GoBackButtonText,Kembali
+LaunchPadNet_LoggingInLeadthru,Logging in...Sila tunggu
+LaunchPadNet_OperatorIDText,Operator ID: 
+LaunchPadNet_ReEnterIDFpLeadthru,Invalid login. Please login again using the keypad or your fingerprint.
+LaunchPadNet_ReEnterIDLeadthru,Incorrect ID or password. Please re-enter using keypad below.
+LaunchPadNet_ReturnToShoppingButtonText,Return
+LaunchPadNet_ShiftButtonText,Shift
+LaunchPadNet_SignedOffButtonText,Signed Off
+LaunchPadNet_SignOffButtonText,Sign Off
+LaunchPadNet_SignOnButtonText,Sign On
+LaunchPadNet_SpaceButtonText,Space
+LegalCaptionText,"LEGAL CAPTION\nThis system is for the use of authorized personnel only. By logging onto this system, you are subject to the terms and conditions of all Information Security policies and standards. Use by unauthorized individuals or for unauthorized purposes is a violation of federal and/or state law. The company reserves the right to take any necessary actions to protect authorized users, intellectual property and other information assets. Individuals using this system are subject to having all of their activities on this system monitored. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals possible evidence of criminal activity, system personnel may provide the evidence of such monitoring to law enforcement officials.\n        "
+LoadingText,Loading
+LoggingInLeadthru,Logging in...Sila tunggu
+MainButtonText,Main
+MinimumAgeText,Years old minimum.
+MinMaxFastLaneBtnPrimaryShowConfirmation,"To minimize SelfServ Checkout, touch the ""Minimize SelfServ Checkout"" button."
+MinMaxFastLaneBtnPrimaryTxt,Minimize SelfServ Checkout
+MinMaxFastLaneBtnSecondaryShowConfirmation,"To maximize SelfServ Checkout, touch the ""Maximize SelfServ Checkout"" button."
+MinMaxFastLaneBtnSecondaryTxt,Maximize SelfServ Checkout
+MinMaxRAPBtnPrimaryShowConfirmation,"To minimize RAP, touch the ""Minimize RAP"" button."
+MinMaxRAPBtnPrimaryTxt,Minimize RAP
+MinMaxRAPBtnSecondaryShowConfirmation,"To maximize RAP, touch the ""Maximize RAP"" button."
+MinMaxRAPBtnSecondaryTxt,Maximize RAP
+MultimediaTrainingText,Multimedia Training
+MultiPackItemLeadthru,"If item is a multi-pack, touch ""Assist Mode"" and void it, then scan multi-pack barcode."
+MultiPackItemTitle,Check for multi-pack
+NCRCorp,NCR Corp
+NewWeightItemLeadthru,"Verify item weight and touch ""Luluskan & Update Weight"", or touch ""Approve/No Kemas Kini""."
+NewWeightItemTitle,No record of item weight.
+No,Tidak
+NoButtonText,Tidak
+NoInterventionLeadthru,Tidak Intervention is currently required.
+NoKeep,"Tidak, simpan."
+NoneText,Tiada
+NoReturn,"Tidak, kembali ke transaksi."
+NoSaleLaneButtonText,No Sale
+NotConnectedText,Not connected.
+NoText,Tidak
+NotFoundLaneButtonText,Not Found
+OffLineLaneButtonText,Offline
+OffLineLeadthru,The Lane is currently offline and the system is attempting to automatically reconnect.
+OK,OK
+OKButtonText,OK
+OperatorIDText,Operator ID: 
+OperatorPasswordStateInvalidPasswordWithFPTitle,Kegagalan Log Masuk Cap Jari
+OperatorRegistrationUtility,Operator Registration Utility
+Or,atau
+OtherPayment,Bayaran Lain
+OtherPaymentMethod,Kaedah pembayaran lain
+OtherPaymentSelectedText,Bayaran lain diminta
+OtherPaymentText,"""Bayaran Lain"" Diminta"
+OutOfSyncNeedAssistLeadthru,"POS is out-of-sync, please go to Assist Mode to resynchronize."
+OutOfSyncNeedAssistTitle,ASSIST
+OutOfSyncStopLeadthru,"POS server is down or out-of-sync, please shutdown the terminal using switch."
+OutOfSyncStopTitle,REBOOT
+OwnBag,Beg Sendiri
+OwnBagMessage,Sila letakkan beg-beg anda ke atas skala.
+PageIndicatorLabelFormat,Halaman {0} daripada {1}
+Paid,Telah Dibayar:{0}
+PayAnotherWay,Bayar dengan kaedah lain
+PendingSuspendText,Pending Suspend
+PickingUpItemsTimerExpiredTitle,Item tidak dikembalikan ke kawasan pembungkusan.
+PicklistConfirm,Are you sure you want to start the Picklist Editor?
+PickListEditor,Pick List Editor
+PointsEarned,Mata Diperolehi
+POSMessageText,POS Message:
+PrintReceipt,Cetak Resit
+PrintReportButtonText,Laporan Pencetakan
+Proceed,Teruskan
+ProcessingLeadthru,Memproses...Sila tunggu.
+ProcessingTitle,Memproses...
+ProfileManagerConfirm,Are you sure you want to start the Profile Manager?
+ProfileManagerFLConfirm,Are you sure you want to stop SelfServ Checkout and run Profile Manager?
+ProfileManagerRAPConfirm,Are you sure you want to stop RAP and run Profile Manager?
+PurchaseCrateTitle,Beli Troli
+QuantityButtonText,Kuantiti
+QuantityLaneButtonText,Kuantiti
+RapConfigureBtnPrimaryTxt,RAP Configure
+RAPTitle,NCR SelfServ Checkout\nRemote Approval Station
+RebootConfirm,Are you sure you want to reboot the entire system?
+RebootSystemBtnPrimaryTxt,Reboot Entire System
+RebootSystemButtonText,Reboot Entire System
+RecalledItemTitle,Item Dipanggil Semula
+ReceiptText,Resit:
+ReEnterIDFpLeadthru,Invalid login. Please login again using the keypad or your fingerprint.
+ReEnterIDLeadthru,Incorrect ID or password. Please re-enter using keypad below.
+Refunded,Dibayar Balik:
+Remove,Keluarkan
+RemovedItem,Saya telah mengeluarkan item
+RemovedItemTitle,Amaran Pembungkusan
+ReportingButtonText,Reporting
+RequestSuspendButtonText,Request Suspend
+RestrictedItem,Item Dihadkan
+RestrictedItemsNotApprovedTitle,Item-item Dihadkan - Not Luluskan
+RestrictedItemText,Item-item Dihadkan:
+RestrictedItemTitle,Item Dihadkan
+ReturnToMainButtonText,Return to Main
+ReturnToScan,Kembali
+ReturnToShoppingButtonText,Return to Shopping Mode
+RSMLEConfirm,Are you sure you want to start the Retail Systems Manager LE?
+RSMLEPrimaryTxt,Retail Systems Manager LE
+RunADDConfirm,Are you sure you want to run Automatic Device Detection on the next reboot?
+RunADDTxt,Run ADD on Next Reboot
+SafetyCoverOpenLeadthru,Remove all items from belt and close safety cover.
+ScaleBroken,"Keluarkan item dari penimbang dan tekan butang \n""Scale Zero"" pada pengimbas."
+ScaleBrokenLeadthru,"Keluarkan item dari penimbang dan tekan butang ""Scale Zero"" pada pengimbas."
+ScaleBrokenTitle,Set Semula Penimbang
+ScanAndBag,"Imbas, cari, atau masukkan kod item untuk bermula."
+ScanCoupon,Imbas Kupon-kupon
+ScanGiftCard,Imbaskan Kad Hadiah
+ScanNextItem,Sila imbaskan item yang seterusnya.
+ScanVoucher,Imbas Baucar
+SearchKeyInItem,Cari atau Masukkan Item
+SearchResultsFor,"Hasil Carian untuk ""{0}"""
+SearchWatermark,Masukkan Nama atau Kod Item
+SearchItemNameWatermark,Enter Item Name
+SecBagAreaBackupTitle,Item Sandaran
+SecUnExpectedIncreaseTitle,Amaran Pembungkusan
+SecurityDisableButtonOff,Turn Off
+SecurityDisableButtonOn,Turn On
+SecurityDisableStatusTextOff,Bagging Security is off
+SecurityDisableStatusTextOn,Bagging Security is on
+SecurityDisableText,Security Disabled
+SecurityLaneButtonText,Keselamatan
+SecurityLeadthru,"Monitor customer transaction for security dan sentuh ""Buang Keselamatan""."
+SecurityLogText,Keselamatan Log:
+SecurityViolationNumText,Keselamatan Violations:
+SecurityViolationText,Keselamatan Violation
+SelectCashBack,Pilih Amaun Wang Balik
+SelectContainerLeadthru,"Pilih Bekas Daripada Senarai dan sentuh ""Masukkan""."
+SelectContainerTitle,Pilih Bekas
+SelectLanguage,Pilih satu Bahasa
+SelectPaymentType,Pilih Jenis Bayaran
+SellBags,Berapakah beg plastik yang anda telah menggunakan? Masukkan 0 jika anda tidak menggunakannya.
+SetAllItemsAsideMessage,Seluruh pembelian dibatalkan.\n\nAsingkan semua item.
+SetAllItemsAsideTitle,Ketepikan Item
+ShiftButtonText,Shift
+ShutdownConfirm,Are you sure you want to shutdown the entire system?
+ShutdownSystemBtnPrimaryTxt,Shut Down Entire System
+ShutDownSystemButtonText,Shut Down Entire System
+ShuttingDown,Menutup
+SignAgainButtonText,Sign Again
+SignatureAndNameText,Tandatangan: %s
+SignatureApprovalText,Tandatangan Approval
+SignatureText,Tandatangan:
+SignBelow,Tandatangan di bawah.
+SignChargeTitle,Sign Resit
+SignedOffButtonText,Signed Off
+SignNeeded,Tandatangan Diperlukan
+SignOffButtonText,Sign Off
+SignOnButtonText,Sign On
+SignOnTitle,NCR SelfServ Checkout Log In
+SignSignature,Tandatangani pad tandatangan.
+SingleItemAddedFormat,{0} item yang ditambahkan ke cart.
+SkipBagging,Langkau Pembungkusan
+SkipBaggingBtnThresholdLeadthru,"Check items at lane and touch ""Buang Keselamatan""."
+SmCouponItemsLeadthru,Check Kupon Yang Digunakan
+SmCouponItemsTitle,Luluskan Kupon Yang Digunakan
+SmEnterBirthdateLeadthru,"Key in customer's birth date"
+SmEnterBirthdateTitle,Item-item Dihadkan
+SMLogInReceiptText,Logged into Store Mode
+SMLogOutReceiptText,Logged out of Store Mode
+SmRestrictedItemsLeadthru,Select desired function.
+SmRestrictedItemsTitle,Item-item Dihadkan
+SmRunReportsTitle,Kandungan Laporan
+SMText,Store Mode
+SmVisualItemsLeadthru,Approve Visual Validation Items
+SmVisualItemsTitle,Pengesahan Visual
+SmVoidAndRemoveItemLeadthru,Please remove the cancelled item from the bagging area.
+Space,Space
+SpaceButtonText,Ruang
+StartFastLaneConfirm,Are you sure you want to start SelfServ Checkout?
+StartRAPConfirm,Are you sure you want to start RAP?
+StartScanning,Mulakan Pengimbasan
+StartTitle,System Startup
+StartTransactionAMButtonText,Mula & Assist
+StartTransactionButtonText,Mula Transaksi
+StartTransactionLeadthru,Select desired function.
+StartTransactionTitle,Operator Assisted Functions
+StopFastLaneConfirm,Are you sure you want to stop SelfServ Checkout?
+StopRAPConfirm,Are you sure you want to stop RAP?
+StopStartFastLaneBtnPrimaryTxt,Stop SelfServ Checkout
+StopStartFastLaneBtnSecondaryTxt,Start SelfServ Checkout
+StopStartRAPButtonPrimaryTxt,Stop RAP
+StopStartRAPButtonSecondaryTxt,Start RAP
+StoreLogin,Simpan Log Masuk
+SuspendConfirmationTitle,Suspend Confirmation
+SuspendDeclinedLaneButtonText,Suspend Declined
+SuspendInProgressText,Suspend in progress
+SuspendLeadthru1,A request was made to suspend the current transaction. \nPlease confirm or cancel this request.
+SuspendLeadthru2,"You have suspended the current transaction.  Please confirm this request.  To cancel, touch ""Kembali"" and cancel from NCR SelfServ Checkout Terminal."
+SuspendNowButtonText,Suspend Now
+SuspendReasonText1,Suspend: General
+SuspendReasonText2,Suspend: Kupon-kupon
+SuspendReasonText3,Suspend: Other
+SuspendReasonText4,Suspend: Restricted
+SuspendReasonText5,Suspend: Keselamatan
+SuspendTransactionButtonText,Suspend Transaksi
+SuspendTransactionLeadthru,"Touch ""Suspend Transaksi"" or ""Assist Mode"" and accept payment."
+SwitchToFastLaneBtnPrimaryTxt,Switch To SelfServ Checkout
+SwitchToRAPBtnPrimaryTxt,Switch To RAP
+SystemStartup,System starting...Sila tunggu
+TakeCardTitle,Ambil Kad
+TakeCash,Ambil Wang Anda Yang Dikembalikan
+TakeChange,Ambil Baki
+TakeChangeTimerExpiredBottomCaption,Timer expired
+TakeChangeTimerExpiredTitle,Ambil Baki
+TakeLoyaltyCardTitle,Ambil Kad Setia
+TakeReceipt,Ambil Resit
+Tax,Cukai
+TerminalID,Terminal ID: 
+TerminalInfoBtnPrimaryTxt,Terminal Information
+TerminalInfoConfirm,Are you sure you want to view the terminal information?
+TimeRestrictedItem,Item Dihadkan Masa
+TimeRestrictedItemTitle,Item Dihadkan Masa
+TMTransLaneButtonText,Latihan Trx
+TMTransLeadthru,"Lorong sedang dalam mod latihan, teruskan dengan transaksi?"
+Total,Jumlah
+TotalText,Jumlah:
+TouchCancel,Sentuh batal di atas pad pin untuk membatalkan pembayaran.
+TouchWareTxt,Calibrate Touchscreen
+TrainingConfirm,Are you sure you want to start the Training Program?
+TrainingMode,Mod Latihan
+TrainingProgramPrimaryTxt,Training Program
+TransactionCancelLeadThru,Transaksi cancelled. Remove items from checkstand.
+TransactionCancelTitle,Transaksi Dibatalkan
+TransactionCountText,Count:
+TransactionSuspendedText,Transaksi Suspended
+TryAgain,Cuba Lagi
+UnexpectedDecreaseMessage,Kembalikan item ke kawasan pembungkusan.
+UnexpectedDecreaseTitle,Item dikeluarkan dari kawasan pembungkusan.
+UnexpectedIncreaseLeadthru,"Go to lane, remove extra items and touch ""Buang Keselamatan""."
+UnexpectedIncreaseMessage,Keluarkan item dari kawasan pembungkusan.
+UnexpectedIncreaseTitle,Unexpected item on security scale.
+UnknownItemLeadthru,"Collect item at lane and touch ""Buang Keselamatan"", or touch ""Assist Mode"" to complete transaction."
+UnknownItemTitle,Item Tidak Diketahui Ketepikan
+UnknownPriceMessage,Harga item tidak diketahui.\nBantuan akan tiba sebentar lagi.\n\nLetakkan item ke tepi dan teruskan.
+UnknownPriceTitle,Harga Tidak Diketahui
+UpdateItemButtonText,Kemas Kini Item
+UpdateItemLeadthru,"Scroll to item on receipt and touch ""Masukkan""."
+UpdateNotAllowedLeadthru,Quantity change for weighed item is not allowed.
+UpdateNotAllowedTitle,Cannot Kemas Kini Item
+UseOwnBag,Saya menggunakan beg saya sendiri
+UsePinpad,Gunakan Pad Pin
+UtilityButtonText,Utility
+UtilityFunctionsTitle,NCR SelfServ Checkout\nUtility Functions
+VerifyBags,Atendan akan mengesahkan beg-beg anda.
+VerifyBagsMessage,"Jika anda telah meletakkan sesuatu yang lain daripada beg di dalam kawasan pembungkusan secara tidak sengaja, sila keluarkannya sekarang."
+VerifyItemAndPriceTitle,Verify Item and Price
+VerifyItemLaneButtonText,Verify Item
+VerifySignatureButtonText,Verify \nTandatangan
+VerifySignatureLeadthru,"Compare the customer's signature with the one on the card."
+VideoButtonText,Video
+VisualApproveButtonText,Visual Approve
+VisualApproveLeadthru,"Touch ""Visual Approve"", or touch ""Assist Mode"" to modify transaction."
+VisualVerify,Sahkan Secara Visual
+VoidAllButtonText,Batalkan Semua
+VoidItem,"Imbas produk tidak dikehendaki atau ketik ""Keluarkan"" pada resit."
+VoidItemBeforeCouponMessage,Tidak boleh batalkan item sehingga kuponnya dibatalkan. Batalkan kupon item dahulu.
+VoidItemButtonText,Item tidak sah
+VoidItemLeadthru,"Scan or scroll to item on receipt and touch ""Item tidak sah"" or ""Batalkan Semua""."
+VoidItemTitle,Item-item tidak sah
+VoidLaneButtonText,Tidak Sah
+VoidLeadthru,"Collect voided item and touch ""Lulus Batal""."
+VoidNoMatchLeadthru,Tidak dapat menemui item yang diimbas. Item belum dibeli lagi atau ia sudah dibatalkan.
+VoidNoMatchTitle,Tidak Boleh Batalkan Item
+Volume,Isipadu
+VolumeBtnPrimaryTxt,Isipadu Control
+VolumeConfirm,Are you sure you want to adjust the volume control?
+VolumeControlButtonText,Isipadu Control
+WeightExpected,WE :  
+WeightMismatchTitle,Bantuan Diperlukan
+WeightObserved,WO :  
+WindowsLogOnConfirm,Are you sure you want to exit all applications and log on as a new user?
+WindowsLogOnTxt,Logon Windows
+WLDBFailureLeadthru,Check the communication.
+WLDBFailureTitle,WLDB not communicating correctly.
+WLDBOffLineText,Weight Database: Off-line
+XM_Acceptor,Acceptor
+XM_AddCashLeadthru1,"Insert coins or touch cylinder and enter amount, or set counts."
+XM_AddCashLeadthru2,"Insert cash or touch cylinder and enter amount, or set counts."
+XM_AddCashLeadthru3,"Touch cylinder and enter amount, or set counts."
+XM_AreYouSure,Are you sure you want to perform the actions listed below?
+XM_AreYouSure_LockScreen,Are you sure you want to lock the screen?\nThe screen cannot be unlocked until the devices finish their task.
+XM_Attendant,Atendan
+XM_Backspace,Backspace
+XM_BillAcceptor,Bill Acceptor
+XM_BillDispenser,Bill Dispenser
+XM_Bins,Bins
+XM_BothDispenseFailure,Failed to dispense %s.\nLow cash or dispenser in error.
+XM_CalculatedPickUpAmount,The calculated pickup amount is %s.
+XM_CancelChanges,Batalkan Changes
+XM_CannotCompleteTransfer,Cannot complete transfer.The cash box\ndoes not have sufficient space.\nPlease empty the cash box before performing this operation.
+XM_CardManagement,Card Management
+XM_CashManagement,Cash Management
+XM_CashManagementReport,Cash Management Report
+XM_CashRemove,Keluarkan Tunai
+XM_CashRemoveLeadthru,Select desired function.
+XM_CashReplenishLeadthru,Select desired function.
+XM_CashReplenishLeadthru1,Insert coins or select function.
+XM_CashReplenishLeadthru2,Insert cash or select function.
+XM_CashReplenishLeadthru3,"When complete, touch ""Exit""."
+XM_CashReplenishment,Add Cash
+XM_CashStatus,Cash Status
+XM_CashStatusLeadthru,Select desired function.
+XM_CashUnbalance,Discrepancy error occurred in the recycler.
+XM_Cassette,Cassette
+XM_CassetteMissing,Bill Cassette is not in the unit. Put Bill Cassette back into the unit.
+XM_ChangeInCount,Change in Count
+XM_ChangeInValue,Change in Value
+XM_Clear,Buang
+XM_ClearPrompt1,"When complete, select another function or ""Exit""."
+XM_ClearPrompt2,"Select another function or ""Exit""."
+XM_CoinAcceptor,Coin Acceptor
+XM_CoinAcceptorOffline,Coin acceptor not responding.\n\nShut down and restart terminal.
+XM_CoinAllowedDispenseExceeded,Attempting to dispense %d coins. Maximum coins allowed to dispense is %d.
+XM_CoinDispenseFailure,Failed to dispense %s.\nLow coins or coin dispenser in error.
+XM_CoinDispenser,Coin Dispenser
+XM_CoinHopperEmpty,"Coin hopper must be emptied in order to reset coin counts to zero. Empty each coin hopper bin before touching ""Apply Changes""."
+XM_CoinManagement,Coin Management
+XM_CoinOverflow,Coin Overflow
+XM_CoinOverflowText,Overflow
+XM_CoinRecycler,Coin Recycler
+XM_Coins,Syiling
+XM_CoinsSubtotal,Coins Subtotal:
+XM_Collect,Collect
+XM_CollectFailure,The collect operation resulted in failure.
+XM_CollectRemainingCoins,Remove coins from coin return when dispense has completed.
+XM_CommitLoan,Commit Loan
+XM_CommitPickUp,Commit Pickup
+XM_ConfirmAction,Sahkan Actions
+XM_ConfirmCoinDispense,* Dispense Coins\nAmount to dispense: %s\nCount to dispense: %d
+XM_ConfirmEmptyCoinAcceptor,* Reset Coin Acceptor Counts to Zero\nAmount to remove:%s
+XM_ConfirmEmptyCoinOverflow,* Reset Coin Overflow Counts to Zero\nAmount to remove:%s
+XM_ConfirmEmptyNoteAcceptor,* Reset Bill Acceptor Counts to Zero\nAmount to remove:%s
+XM_ConfirmEmptyNoteOverflow,* Reset Cash Box Counts to Zero\nAmount to remove:%s
+XM_ConfirmFillLoaderCassette,* Set Bill Counts\nNew Amount: %s\nNew Count: %d
+XM_ConfirmManualCoinEmpty,* Reset Coin Counts to Zero\nAmount to remove: %s\nCount to remove: %d
+XM_ConfirmManualCoinFill,* Set Coin Counts\nNew Amount: %s\nNew Count: %d
+XM_ConfirmManualNoteEmpty,* Reset Bill Counts to Zero\nAmount to remove: %s\nCount to remove: %d
+XM_ConfirmManualNoteFill,* Set Bill Counts\nNew Amount: %s\nNew Count: %d
+XM_ConfirmNoteDispense,* Dispense Bills\nAmount to dispense: %s\nCount to dispense: %d
+XM_ConfirmTransferNotesToOverflow,* Transfer Bills to Cash Box\nAmount to transfer: %s\nCount to transfer: %d
+XM_Count,Count
+XM_DispenseCupFull,Coin return is full. Please remove the coins to finish dispensing.
+XM_DispenseCupFullPreemptive,"Please Take Coins\nIf coin return is full, empty promptly.\nDispensing will pause until bowl is emptied."
+XM_DispenseFullPreemptive,"Please Take Bills and Coins\nBills are dispensed in bunches of 15. Dispensing will pause until all bills are taken. If coin return is full, empty promptly. Dispensing will pause until bowl is emptied."
+XM_DispenseNoteFullPreemptive,Please Take Bills\nBills are dispensed in bunches of 15.\nDispensing will pause until all bills are taken.
+XM_DispenseSensorBlock,Coin return may be full or sensor is broken. Please remove coins or call for service.
+XM_DispenseText,Dispense
+XM_DispenseThreshold,Number entered exceeded count available to dispense.\nMaximum count was entered: %d
+XM_Empty,Empty
+XM_EmptyCashAcceptorLT,Remove bills from Cash Acceptor
+XM_EmptyCashBoxLT,Remove bills from Cash Box
+XM_EmptyCassetteAndRejectBin, Remove bills from Bill Cassettes and Reject Bin.
+XM_EmptyCoinAcceptor,Reset Coin Acceptor
+XM_EmptyCoinAcceptorLT,Remove coins from Coin Acceptor
+XM_EmptyCoinHopperLT,Remove coins from device.
+XM_EmptyCoinOverflow,Reset Coin Overflow
+XM_EmptyCoinOverflowLT,Remove coins from Coin Overflow
+XM_EmptyLoaderCassetteLT,Remove bills from Loader Cassette
+XM_EmptyNoteAcceptor,Reset Bill Acceptor
+XM_EmptyNoteCassetteLT,Remove bills from Bill Cassettes and Purge Bin
+XM_EmptyNoteOverflow,Reset Cash Box
+XM_Enter,Masukkan
+XM_ExceededAmount,Amount exceeds capacity. Maximum amount needed is %s.
+XM_ExceededCapacity,Count exceeds capacity. Maximum load count needed is %d.
+XM_Execute,Apply Changes
+XM_Exit,Keluar
+XM_FastLaneReport,NCR SelfServ Checkout Report
+XM_FillLoaderCassette,Set Bill Counts
+XM_FPIDPrompt,"Key in your user ID and touch ""Masukkan"", or place your finger on the fingerprint reader to log in."
+XM_GloryDispenseCupFullPreemptive,"Please Take Coins\nIf coin return is full, empty promptly.  Dispensing will pause until bowl is emptied."
+XM_GloryDispenseFullPreemptive,"Please Take Bills and Coins\nBills are dispensed in bunches of 10. Dispensing will pause until all bills are taken. If coin return is full, empty promptly. Dispensing will pause until bowl is emptied."
+XM_GloryDispenseNoteFullPreemptive,Please Take Bills\nBills are dispensed in bunches of 10. Dispensing will pause until all bills are taken.
+XM_GoBack,Kembali
+XM_GrandTotal,Grand Total:
+XM_GrandTotalText,Grand Total: %s
+XM_ID,ID Juruwang
+XM_IDPrompt,"Masukkan ID dan sentuh ""Masukkan""."
+XM_InitializeError,The system encounters an error to be corrected.
+XM_InvalidAmount,The value entered for %s is not valid.\nPlease enter again.
+XM_InvalidPickUpAmount,The value entered is greater than the available amount that can be transferred or dispensed.
+XM_InvalidPickUpAmount2,The amount in the cashbox and coin overflow is greater than the pickup amount.
+XM_InvalidStartingBank,The starting bank configured is greater than the available amount that can be transferred or dispensed.
+XM_KeyPadEnterCoinAmount,Enter amount for %s coins using keypad.
+XM_KeyPadEnterCoinCount,Enter count for %s coins using keypad.
+XM_KeyPadEnterNoteAmount,Enter amount for %s bills using keypad.
+XM_KeyPadEnterNoteCount,Enter count for %s bills using keypad.
+XM_KeyPadEnterPickUpAmount,Enter pickup amount using keypad.
+XM_KeyPadInstr,Enter count using keypad
+XM_LeadThruCashBoxTransfer,"Select desired transfer function. When finished, ""Apply Changes""."
+XM_LeadThruDispenseFunction,"Touch denomination and enter amount or touch ""Dispense Coins to Base Level""."
+XM_LeadThruGloryFunction,"Touch denomination and enter amount or touch ""Collect""."
+XM_LeadThruPickUpFunction,"Select desired pick up function. When finished, ""Apply Changes""."
+XM_LeadThruResetFunction,"Select desired reset function. When finished, ""Apply Changes""."
+XM_LoanFailure,Loan Failure
+XM_LoanFailureLeadthru,Loan was rejected. Select desired function.
+XM_LoanPickUpCashierOverrides,Cashier ID %s override of loan/pickup: %s / %d  committed.\n\n
+XM_LockScreen,Lock Screen
+XM_ManualBothFillAlert,Open lane door and deposit bills into the cassettes and coins into the hoppers. Do not feed them into the acceptors.
+XM_ManualBothRecyclerFillAlert,Open lane door and deposit bills into the loader and coins into the hoppers. Do not feed them into the acceptors.
+XM_ManualCoinDispenserEmpty,Reset Coin Counts
+XM_ManualCoinDispenserFill,Set Coin Counts
+XM_ManualCoinFillAlert,Open lane door and deposit coins directly into the device. Do not feed them into the coin acceptor.
+XM_ManualEmptyAlert,Remove All Cash From Device
+XM_ManualFillAlert,Open lane door and deposit cash directly into the device. Do not feed it into the acceptors.
+XM_ManualNoteDispenserEmpty,Reset Bill Counts
+XM_ManualNoteDispenserFill,Set Bill Counts
+XM_ManualNoteFillAlert,Open lane door and deposit bills directly into the cassette. Do not feed them into the bill acceptor.
+XM_ManualNoteRecyclerFillAlert,Open lane door and deposit bills directly into the loader. Do not feed them into the bill acceptor.
+XM_ManualRemoveCashAlert,Remove cash from the cash box and coins from the coin overflow bin to undo loan.\n\nBills\nCount to remove: %d\nAmount to remove: %s\n\nCoins\nCount to remove: %d\nAmount to remove: %s
+XM_ManualRemoveCashAlertGlory,Remove cash from the cassette to undo loan.\n\nBills\nCount to remove: %d\nAmount to remove: %s
+XM_MenuCashBoxTransfer,Cash Box Transfers
+XM_MenuDispenseFunctions,Dispense Functions
+XM_MenuPickUpFunctions,Pick Up Functions
+XM_MenuResetFunctions,Reset Functions
+XM_NegativeAlert,"Negative number found. Possible causes: keying error occurred, or bills were placed in the loader cassette, but the counts for these bills were not entered in Cash Management.\n\nFollow steps below to resolve:\n1. Select ""Add Cash"".\n2. Touch the denomination with the negative number.\n3. Enter the exact dollar amount of the negative number and/or the amount placed in the loader.\n4. Select ""Apply Changes"".\n5. Select ""Yes"" to confirm and then ""Exit""."
+XM_NegativeAlert_Remove,"Negative number found. Possible causes: keying error occurred, or bills were placed in the loader cassette, but the counts for these bills were not entered in Cash Management.\n\nFollow steps below to resolve:\n1. Select ""Exit"" then select ""Add Cash"".\n2. Touch the denomination with the negative number.\n3. Enter the exact dollar amount of the negative number and/or the amount placed in the loader.\n4. Select ""Apply Changes"".\n5. Select ""Yes"" to confirm and then ""Exit""."
+XM_No,Tidak
+XM_NoteDispenseFailure,Failed to dispense %s.\nLow bills or bill dispenser in error.
+XM_NoteOverflow,Bill Overflow
+XM_NoteOverflowText,Cash Box
+XM_NoteRecycler,Bill Recycler
+XM_Notes,Bills
+XM_NotesSubtotal,Bills Subtotal:
+XM_OperatorID,Operator ID %s
+XM_PendingText,Pending
+XM_PickUpAutoAmount,Pick Up Auto Amount
+XM_PickUpFailure,Pickup Failure
+XM_PickUpFailureLeadthru,Pickup was rejected. Select desired function.
+XM_PickUpXAmount,Pick Up (x) Amount
+XM_PlaceJammedBill,Remove the cash box and place any jammed bills inside.
+XM_PleaseWait,Memproses...\nSila tunggu.
+XM_POSRejectedLoanPickUp,POS rejected loan/pickup:  %s / %d  rejected.\n
+XM_Print,Print Cash Status
+XM_PurgeCoinRecycler,Purge Coin Recycler
+XM_PurgeInstruction,Purge Operations: Rejected bills detected. Go to lane and check device.
+XM_PurgeInstructionNonRecycler,"Purge Operations: Rejected bills detected.  Remove rejected bills from purge bin.  Clear alert by touching ""Reset Bill Counts""."
+XM_PurgeInstructionRecycler,"Purge Operations:  Rejected bills detected.  Remove rejected bills from cash box.  Clear alert by touching ""Transfer All Bills"" and then ""Reset Cash Box""."
+XM_PurgeNoteRecycler,Purge Bill Recycler
+XM_PurgeOperationText,Purge Operations
+XM_PW,Kata Laluan Juruwang
+XM_PWPrompt,"Masukkan kata laluan dan sentuh ""Masukkan""."
+XM_RAP_NegativeAlert,Negative number found. Go to lane and check device.
+XM_ReEnter,Incorrect Cashier number and password.\nPlease try again
+XM_ReplenishInstruction,"Insert cash or select denomination and enter amount, or set counts. When finished, ""Apply Changes"""
+XM_ResetCoinsToBaseLevel,Dispense Coins To Base Level
+XM_ResetNotesToBaseLevel,Transfer Bills to Base Level
+XM_SelectFunc1,Select system function
+XM_SelectFunc2,Select desired function.
+XM_SequenceNumber,Sequence Number
+XM_StoreNumber,Store #:
+XM_SystemBusy,System busy....Sila tunggu
+XM_TerminalNumber,Terminal Number
+XM_TotalAddedText,Total Added: %s
+XM_TotalCoinsInserted,Total Inserted
+XM_TotalColectedText,Total Collected: %s
+XM_TotalCount,Total Count:
+XM_TotalNotesInserted,Total Inserted
+XM_TotalRemovedText,Total Removed: %s
+XM_TotalValue,Total Value:
+XM_TransferAllNotes,Transfer All Bills
+XM_TransferNotesToOverflow,Transfer Bills to Cash Box
+XM_TransfertoCashBoxLeadThruText,"To transfer %s bill(s) to the Cash Box, touch ""Apply Changes"". To undo all pending changes, touch ""Batalkan Changes""."
+XM_TransferXAmount,Transfer (x) Amount
+XM_TransferXCount,Transfer (x) Count
+XM_UnableToPickUp,Unable to perform pickup.
+XM_UndoLoan,Undo Loan
+XM_UndoPickUp,Undo Pickup
+XM_Update,Kemas Kini
+XM_Value,Value
+XM_Yes,Ya
+Yes,Ya
+YesButtonText,Ya
+YesEmpty,"Ya, kosongkan cart dan tamatkan transaksi."
+YesRemove,"Ya, keluarkan."
+YesText,Ya
+DueCart,Perlu Dibayar
+ScotApp_1460,Nota-nota
+ScotApp_908,Keselamatan
+ScotApp_769,Pastikan atau batalkan penangguhan
+ScotApp_669,Pencetakan Tandatangan Gagal.Ralat-ralat Telah Berlaku.
+ScotApp_569,Masukkan Kod
+ScotApp_975,975unused
+ScotApp_1013,Item Sandaran
+ScotApp_1632,"Keluarkan Penutup Nota.Semak Kabel untuk Pengesah Nota dan Cuba Lagi.Jika ralat berlaku lagi , panggil untuk perkhidmatan.\n\n Ralat SafePay :%s"
+ScotApp_1534,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1656,"Masukkan Jabatan kod dan sentuh ""Masuk""."
+ScotApp_1558,Keluar dan Simpan
+ScotApp_1201,PEMBAYARAN DIBANTU
+ScotApp_714,714unused
+ScotApp_614,Penguatkuasaan Pembungkusan
+ScotApp_514,514unused
+ScotApp_314,Masalah tong
+ScotApp_214,Menyemakan Debit
+ScotApp_114,Tidak Boleh Batalkan Item
+ScotApp_409,Mesej Sistem
+ScotApp_309,ringgit
+ScotApp_209,Hentikan Atur Cara
+ScotApp_109,Teruskan?
+ScotApp_914,"Pergi ke lorong, keluarkan item-item tambahan dan sentuh ""Jelaskan Keselamatan"""
+ScotApp_840,Entri Item:
+ScotApp_1379,harga unit
+ScotApp_123,123unused
+ScotApp_909,Berat tidak betul pada penimbang keselamatan.
+ScotApp_809,Mesej POS:
+ScotApp_1249,GENERIK PIP
+ScotApp_1851,Do Not Approve
+ScotApp_1372,Penerima Duit Syiling
+ScotApp_1396,Keluar dari Mod Atendan.
+ScotApp_1447,Keluarkan Tunai
+ScotApp_1063,1063unused
+ScotApp_1087,Kad Diterima. Imbas item dan kupon anda.
+ScotApp_1679,Ralat Perpustakaan Nota
+ScotApp_1602,     Tong Dispenser Kad adalah rendah (%s)
+ScotApp_1504,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1888,"Monitor customer transaction for security and touch ""Clear Security""."
+ScotApp_1566,Penggantian Penuh
+ScotApp_1137,%s Kaset nota tidak dipasangkan.
+ScotApp_1564,Masukkan Kiraan Muatan untuk %s
+ScotApp_1881,"Check BagScale, remove extra items and touch ""Clear Security""."
+ScotApp_1626,Masukkan tunai untuk mengisikan atau pilih fungsi lain.
+ScotApp_97,Pilih Bekas Daripada Senarai
+ScotApp_1843,Beg Sendiri
+ScotApp_1607,     Tong penolakan adalah normal (%s)
+ScotApp_1773,"Sentuh ""Luluskan Kupon"" untuk menerima kupon atau pergi ke Mod Bantuan untuk membatalkannya."
+ScotApp_1330,Item tidak berbungkus
+ScotApp_711,711unused
+ScotApp_611,Pilih fungsi yang diinginkan.
+ScotApp_511,Bandingkan tandatangan pelanggan dengan tandatangan pada kad.
+ScotApp_411,Ambil Kad Setia
+ScotApp_311,tong adalah kosong
+ScotApp_111,Set Semula Penimbang
+ScotApp_1342,Pilih Utiliti
+ScotApp_1292,N - O
+ScotApp_911,Kosongkan Keselamatan.
+ScotApp_811,Imbas kad hadiah anda. Sila semak bakul untuk item tambahan.
+ScotApp_1590,TONG %s SYILING TELAH TERSEKAT
+ScotApp_1016,Item Sandaran di atas Tali Sawat
+ScotApp_1366,Penimbang
+ScotApp_1480,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_742,742unused
+ScotApp_642,"Item ditambah. Imbas item seterusnya atau sentuh ""Masukkan kod""."
+ScotApp_542,Tidak dapat menghasilkan kod bar operator.
+ScotApp_342,Taip Perihalan
+ScotApp_242,Pembaca kad kad tersekat.
+ScotApp_142,Sahkan Amaun
+ScotApp_1530,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1554,Penerima
+ScotApp_1759,Tong Kupon Penuh
+ScotApp_942,942unused
+ScotApp_842,842unused
+ScotApp_1107,%s\t%s\tKuantiti %s @ %s/%s\t%s
+ScotApp_1228,DITANGGUHKAN
+ScotApp_1834,Maksimum
+ScotApp_1676,Pintu Pengitar Semula Duit Syiling Terbuka
+ScotApp_1858,Discrepancy error occurred in the recycler.
+ScotApp_350,Status Tunai/Kertas
+ScotApp_1221,AUDACTION
+ScotApp_1743,"Masukkan ID pengguna anda dan sentuh ""Masuk"", atau letakkan jari anda di atas pembaca cap jari untuk log masuk."
+ScotApp_1245,SEMAKAN DEBIT
+ScotApp_716,716unused
+ScotApp_616,Pembandingan berat
+ScotApp_516,Bayaran Lain
+ScotApp_416,Jumlah Keras sedang memuatkan...
+ScotApp_316,316unused
+ScotApp_216,* Buka Pintu Kabinet Pencetak.\n* Buka penutup pencetak untuk menyemakkan sekatan.\n* Tutup penutup pencetak dan isikan kertas semula.\n* Satu resit dengan Muka Gembira patut cetak.\n* Tutup dan kuncikan pintu kabinet pencetak.
+ScotApp_116,Batalkan Semua Item
+ScotApp_916,"Semak item-item di lorong dan sentuh ""Kosongkan Keselamatan""."
+ScotApp_816,816unused
+ScotApp_1319,BAUCER
+ScotApp_1767,Gagal untuk mengakses parameter-parameter berat penimbang.
+ScotApp_1312,* Keluarkan kaset nota.\n* Buka dan keluarkan nota-nota.\n* Tutup dan masukkan semula ke dalam penerima.\n* Semakkan bahawa motor penerima dihidupkan dan lampu LED ialah hijau
+ScotApp_1660,Pilih opsyen pencetakan
+ScotApp_747,747unused
+ScotApp_1083,Item dikeluarkan dari kawasan pembungkusan.\nKembalikan item.
+ScotApp_447,Akaun pembeli kerap anda telah diaktifkan.
+ScotApp_347,Item yang dihadkan telah dibatalkan - had umur tidak dipatuhi. Sila asingkan item.
+ScotApp_247,247unused
+ScotApp_147,147unused
+ScotApp_1500,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_947,Item Berat Baru
+ScotApp_1133,Tersekat di penerima nota.
+ScotApp_1629,Masalah dengan tetapan CPU atau parameter-parameter Sysdata.Sila Panggil untuk Perkhidmatan.\n\n Ralat SafePay :%s
+ScotApp_1157,Pintu dispenser nota mungkin terbuka.\n\nDispenser nota tidak akan beroperasi apabile pintu akses terbuka.\n\nTutup dan selakkan pintu dispenser atau pintu selamat dengan sepenuhnya.
+ScotApp_1003,Masa dihadkan
+ScotApp_1622,Kaset
+ScotApp_1278,USERDEFINED20
+ScotApp_1804,Keluar dari Mod Kad-kad Sahaja
+ScotApp_1271,USERDEFINED13
+ScotApp_1295,T - Z
+ScotApp_1713,Sentuh Lulus untuk Penolakan Penangguhan
+ScotApp_1369,Aneka
+ScotApp_1402,PLUG PELOMPAT TONG PENOLAKAN NOTA DIMATIKAN.
+ScotApp_1362,Kunci Kekunci
+ScotApp_559,Tiada Kupon
+ScotApp_1386,Ralat Maut
+ScotApp_7,7unused
+ScotApp_6,6unused
+ScotApp_5,5unused
+ScotApp_4,4unused
+ScotApp_3,3unused
+ScotApp_2,kg
+ScotApp_1,lb
+ScotApp_444,Setem Makanan
+ScotApp_344,344unused
+ScotApp_244,244unused
+ScotApp_144,Bandingkan Tandatangan
+ScotApp_479,Turunkan kupon
+ScotApp_379,Penerima Tunai
+ScotApp_279,Akuilah semua isu-isu keselamatan yang direkod.
+ScotApp_179,179unused
+ScotApp_8,8unused
+ScotApp_944,Terlalu banyak permintaan ke Beg/Kotak. Maksimum=%d
+ScotApp_844,844unused
+ScotApp_979,Ambang: %d permintaan pelanggan.
+ScotApp_879,879unused
+ScotApp_1224,HARGA DIPERLUKAN
+ScotApp_1830,Entri-entri   Diluluskan
+ScotApp_1672,Ralat Pengitar Semula Duit Syiling
+ScotApp_1248,KAD HADIAH
+ScotApp_1574,Nilai yang dimasukkan untuk %s tidak sah.\n Sila masukkan lagi.
+ScotApp_1696,Keadaan Telah Dibetulkan.
+ScotApp_1598,Keutamaan Diaktifkan.
+ScotApp_1647,(bbhhtttt)
+ScotApp_1127,Sambung Semula
+ScotApp_1241,KREDIT
+ScotApp_718,718unused
+ScotApp_618,Toleransi Berat
+ScotApp_518,Masukkan tunai.
+ScotApp_418,Jumlah Keras tamat...
+ScotApp_318,318unused
+ScotApp_218,Pencetak hampir kosong.
+ScotApp_118,Kelulusan Diperlukan
+ScotApp_1315,* Buka penutup pencetak dan semak untuk sekatan kertas.\n* Tutup penutup pencetak dan isikan kertas semula.
+ScotApp_918,Tiada rekod berat item.
+ScotApp_1437,"Melebihi ambang ""Item Dikeluarkan"""
+ScotApp_710,710unused
+ScotApp_610,Berat item:
+ScotApp_510,Tandatangan lagi
+ScotApp_310,tong adalah rendah
+ScotApp_210,210unused
+ScotApp_110,Timbang Item
+ScotApp_639,Berat Jangkaan Pembandingan berat
+ScotApp_910,910unused
+ScotApp_810, Dalam Latihan.
+ScotApp_1006,Tender Lain
+ScotApp_1884,Smart Assist alert
+ScotApp_1064,1064unused
+ScotApp_741,741unused
+ScotApp_641,  Berat purata   Lulus    Gundal     Jenis Toleransi     Nilai Toleransi     Tarikh
+ScotApp_541,Operator Cetakan Imbas Kod Bar
+ScotApp_441,Sahkan Amaun
+ScotApp_341,341unused
+ScotApp_241,Ralat Pengurus Peranti di luar jangkaan
+ScotApp_141,Pilih Jenis Kad
+ScotApp_1520,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1642,Ralat Pengitar Semula
+ScotApp_773,Amaun Disimpan :
+ScotApp_673,Sila berikan baki sebanyak %s kepada pelanggan.
+ScotApp_473,Tahap Media Rendah
+ScotApp_941,Item Terbatal
+ScotApp_70,70unused
+ScotApp_60,Minta Bantuan
+ScotApp_50,50unused
+ScotApp_1177,PEMASA ITEM BEG TELAH TAMAT TEMPOH
+ScotApp_1291,K - M
+ScotApp_20,20unused
+ScotApp_10,10unused
+ScotApp_1094,Tandatangan cetakan
+ScotApp_1218,KOLEKSI
+ScotApp_90,90unused
+ScotApp_80,80unused
+ScotApp_1365,MSR
+ScotApp_1211,LALAI
+ScotApp_1389,Ralat Peranti Menangkap Tandatangan
+ScotApp_715,715unused
+ScotApp_615,Pilih tetapan untuk penguatkuasaan pembungkusan. (Customer expected to bag item.)
+ScotApp_515,515unused
+ScotApp_315,315unused
+ScotApp_215,Simpanan Debit
+ScotApp_115,Sahkan Batal
+ScotApp_1382,(Std)
+ScotApp_1039,Item Sebelumnya mempunyai tag EAS.
+ScotApp_915,Terlalu banyak permintaan untuk melangkau tali sawat. Maksimum=%d
+ScotApp_815,Pendaftaran Terbuka
+ScotApp_1309,* Masukkan kaset sehingga ia diselakkan.\n* Semakkan bahawa motor penerima nota dihidupkan secara ringkas.
+ScotApp_1032,Item EAS masih aktif.
+ScotApp_1056,1056unused
+ScotApp_1816,Syiling tersekat atau pintu terbuka.
+ScotApp_1848,"Item dipadam. Imbas item seterusnya atau sentuh ""Masukkan kod""."
+ScotApp_1323,Berat tinggalan
+ScotApp_746,746unused
+ScotApp_646,Y
+ScotApp_446,Gantung Transaksi
+ScotApp_346,ATM (Tunai Balik)
+ScotApp_246,246unused
+ScotApp_146,Sila pilih jenis bayaran anda.
+ScotApp_1570,Abaikan Perubahan
+ScotApp_1594,Matikan dan hidupkan terminal semula.dengan betul.
+ScotApp_946,Kelulusan Beg/Kotak
+ScotApp_846,"Imbas item atau sentuh ""Imbasan Selesai""."
+ScotApp_1619,Penangguhan
+ScotApp_1147,Security Scale Error
+ScotApp_1612,Pengurusan Kad
+ScotApp_1268,USERDEFINED10
+ScotApp_1874,1874unused
+ScotApp_1261,USERDEFINED3
+ScotApp_1783,PENUTUP KESELAMATAN TERBUKA
+ScotApp_1285,Popular
+ScotApp_1111,  Kuantiti %s @ %s/%s\t%s
+ScotApp_1117,%s Kaset dispenser nota terkeluar atau tidak dimasukkan sepenuhnya.\n\n Pasang atau pasang semula %s kaset nota sehingga ia diselakkan.
+ScotApp_1335,Lorong telah ditutup
+ScotApp_1457,Mata wang tinggi
+ScotApp_1703,(+)
+ScotApp_1359,Pencetak Slip
+ScotApp_1002,Tiada Jualan
+ScotApp_1352,Kad Hadiah Deposit
+ScotApp_1026,Batalkan Transaksi
+ScotApp_1540,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1143,Syiling adalah rendah atau tiada bekas duit syiling.
+ScotApp_1173,ITEM YANG DIBATALKAN TELAH DILULUSKAN
+ScotApp_1669,Ralat Duit Syiling/Pengitar Semula
+ScotApp_1197,TRANSAKSI DIBATALKAN
+ScotApp_1354,Kumpul Kad Hadiah
+ScotApp_1449,Status Nota
+ScotApp_1214,RESIT
+ScotApp_1820,"Keluarkan item dari penimbang dan tekan butang "">0<"" pada pengimbas."
+ScotApp_1662,Resit lain-lain
+ScotApp_1844,Cari
+ScotApp_1686,Ralat yang Tidak Dapat Dipulihkan.Sila tutupkan Lorong.Panggil Gunnebo dan memberikan informasi ralat yang ditunjukkan di bawah.\n\n Ralat SafePay :%s
+ScotApp_1477,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_709,709unused
+ScotApp_609,Set Toleransi Berat
+ScotApp_509,509unused
+ScotApp_1736,"Sila letakkan beg-beg anda di kawasan pembungkusan dan sentuh ""Siap"" apabila selesai."
+ScotApp_787,"Tarikh Lahir dimasukkan :%s, %d tahun"
+ScotApp_1305,%s dimasukkan
+ScotApp_187,187unused
+ScotApp_1753,Item Tidak Ditemui
+ScotApp_1380,harga
+ScotApp_887,Item Dikeluarkan
+ScotApp_1599,%s carian keutamaan gagal.
+ScotApp_1842,Bantuan Penuh
+ScotApp_1427,Ubah kuantiti untuk item :\n%s
+ScotApp_748,748unused
+ScotApp_648,UPC
+ScotApp_548,548unused
+ScotApp_448,Akaun pembeli kerap anda telah diaktifkan.
+ScotApp_348,348unused
+ScotApp_248,248unused
+ScotApp_148,148unused
+ScotApp_677,677unused
+ScotApp_1615,Sentuh butang Pikap Dispenser untuk memunggah
+ScotApp_948,\n* Bantuan Jauh
+ScotApp_848,Kuantiti Diperlukan:
+ScotApp_453,Status penerima duit syiling penuh
+ScotApp_740,740unused
+ScotApp_1093,Cetak Laporan terakhir
+ScotApp_153,153unused
+ScotApp_877,Harga Segera
+ScotApp_240,Kesilapan umum Pengurus Peranti
+ScotApp_140,Terima Kasih
+ScotApp_194,Memuatkan Pengurus Peranti...
+ScotApp_1288,A
+ScotApp_953,"Shut down and restart terminal:\n\n* Turn Supervisor keylock to 'S' -OR- press Supervisor button.\n* Select ""Run ADD on Next Reboot"".  Select “Yes” to confirm.\n* Select ""Shut Down Entire System"".\n* When screen blanks, turn off terminal at UPS or power strip.\n* Turn on terminal. Check event viewer. If error recurs, call for service."
+ScotApp_853,Empat Item
+ScotApp_940,Tidak Sah
+ScotApp_994,Ditutup
+ScotApp_894,DBM dimuatkan.
+ScotApp_1167,*Buka Pintu Kabinet Pencetak.\n* Buka selak dan tolak pencetak balik.\n* Buka penutup pencetak untuk menyemak sekatan.\n* Tutup penutup pencetak dan isikan kertas semula.\n* Tarik pencetak ke hadapan dengan berhati-hati sehingga ia diselakkan ke dalam kedudukannya.
+ScotApp_1281,PEMBAYARAN DIBANTU
+ScotApp_1338,Dapatkan Fail-fail Diagnostik
+ScotApp_1706,"Peranti belum sedia.Tutup apa-apa aplikasi lain yang mungkin mengakses peranti dan sentuh ""Saya telah membetulkan masalah""Jika ralat berlaku lagi, panggil Gunnebo untuk perkhidmatan."
+ScotApp_1208,DIJUAL DALAM MOD BANTUAN
+ScotApp_1331,Shift
+ScotApp_1355,Baki Anda
+ScotApp_644,-------------------------------------------------------------------
+ScotApp_544,Kata laluan tidak boleh melebihi %d angka.
+ScotApp_77,Kredit
+ScotApp_1029,Masukkan Kupon
+ScotApp_57,Selesai & Bayar
+ScotApp_47,Mula
+ScotApp_37,37unused
+ScotApp_27,27unused
+ScotApp_17,Kupon
+ScotApp_723,723unused
+ScotApp_623,"Masukkan toleransi dengan menggunakkan papan kekunci dan sentuh ""Masuk''"
+ScotApp_1022,Saya tidak ingin\nmembungkus item ini
+ScotApp_323,  Kuantiti %d @ %d/%s
+ScotApp_1046,Sila bawa %s anda kepada juruwang di stesen bayaran.
+ScotApp_87,87unused
+ScotApp_1665,Buka kunci dan keluarkan kaset.Keluarkan nota yang tersekat.Masukkan kaset semulaTutup unit pengitar semula.Teruskan transaksi
+ScotApp_1689,Ralat Pengitar Semula
+ScotApp_745,745unused
+ScotApp_645,Letakkan item yang telah diimbas di kawasan pembungkusan lagi.
+ScotApp_545,Item Dihadkan
+ScotApp_445,Manfaat Tunai
+ScotApp_345,345unused
+ScotApp_245,Pembaca kad peranti tidak berfungsi.
+ScotApp_145,145unused
+ScotApp_1560,Jumlah Penerima :%s
+ScotApp_1682,Ralat Unit Pembaca Nota Umum
+ScotApp_1584,Tong              Kiraan  Perubahan Kiraan
+ScotApp_945,Had\Beg/Kotak
+ScotApp_1113,%s @ %s/%s\t%s
+ScotApp_1609,     Tong penolakan hampir penuh
+ScotApp_1865,Look up item\nwithout weight
+ScotApp_1732,Gambar-gambar PickList telah dimuatkan.
+ScotApp_1234,KUANTITI DIHADKAN
+ScotApp_1756,"Pilih daripada hasil carian atau ""Kembali""."
+ScotApp_1258,PIP GIFTCARD
+ScotApp_1301,Sunting Pick List
+ScotApp_1251,DEBIT PIP
+ScotApp_1863,"Touch ""Approve"" or ""Void Item"""
+ScotApp_719,719unused
+ScotApp_619,Pilih <Masukkan Toleransi> atau <Lalai> untuk menyuntingkan toleransi semasa.
+ScotApp_519,Kupon Terlalu Tinggi
+ScotApp_419,419unused
+ScotApp_319,Bayar Guna Kad
+ScotApp_219,219unused
+ScotApp_119,Batalkan Semua Item
+ScotApp_1423,Pengimbas Pegang Tangan mencuba untuk menyambung.
+ScotApp_1079,Letak item yang diimbas atas tali sawat sekali lagi.
+ScotApp_1325,Letakkan item di atas penimbang.
+ScotApp_919,"Sahkan berat item dan sentuh ""Lulus dan Kemas Kini Berat"", atau sentuh ""Lulus/Tiada Kemas Kini""."
+ScotApp_819,Mengesahkan penangguhan untuk item yang dibatalkan.
+ScotApp_1349,%s\n %s\n%s %s diduga\n%s %s diperhatikan
+ScotApp_1072,Memerlukan Maklumat
+ScotApp_1225,ITEM TIDAK DIKETAHUI
+ScotApp_1096,Melaporkan
+ScotApp_1869,Hand In View
+ScotApp_1394,Ralat Antara Muka Digital
+ScotApp_1890,Memproses...
+ScotApp_1791,Tunai Sahaja
+ScotApp_1635,"Semak Kabel kepada Pengitar Semula dan Cuba Lagi.Jika ralat berlaku lagi , panggil untuk perkhidmatan.\n\n Ralat SafePay :%s"
+ScotApp_783,783unused
+ScotApp_683,683unused
+ScotApp_583,Kad Ditolak.
+ScotApp_483,Sila tandatangan di pad tandatangan menggunakan pen yang disertakan.
+ScotApp_383,383unused
+ScotApp_283,Masukkan Kata Laluan
+ScotApp_183,183unused
+ScotApp_1702,*** RESIT PENDUA ***
+ScotApp_1204,NOMBOR DOKUMEN
+ScotApp_133,133unused
+ScotApp_1652,(ttbbhh)
+ScotApp_983,Bawa Pulang Tali Sawat sedang memuatkan...
+ScotApp_883,Sahkan Penangguhan
+ScotApp_1501,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1726,Selesai dengan Pencarian
+ScotApp_1473,"Device is not ready. \n\nTurn power on, check Communication cable, or put unit back into cabinet."
+ScotApp_1375,Modifikasi Item-Pos:\n%s
+ScotApp_1497,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1399,Atendan
+ScotApp_1718,NOI:
+ScotApp_1717,WO:
+ScotApp_1042,NOTA SOKONGAN:\n INI DICETAKKAN KERANA SATU SOKONGAN DOKUMEN\n TELAH GAGAL.SILA LAMPIRKAN NOTA INI \n DENGAN DOKUMEN YANG BERSESUAIAN\n----------------------------------------\n
+ScotApp_763,763unused
+ScotApp_663,Kegagalan Entri PIN
+ScotApp_580,Tidak boleh batalkan item sehingga kuponnya dibatalkan.
+ScotApp_1116,Dispenser nota tidak akan beroperasi jika tiada bekas nota penolakan dan diselakkan sepenuhnya di tempat yang betul.\n\n Masukkan bekas nota tolakan dan memastikan bahawa ia diselakkan sepenuhnya.
+ScotApp_1066,1066unused
+ScotApp_1580,Dispenser Nota
+ScotApp_1377,kuantiti
+ScotApp_1605,     Tong Mendispens Kad adalah kosong
+ScotApp_752,Ringkasan Semalam.
+ScotApp_652,**No WLDB entries for this UPC
+ScotApp_552,Operator dan Kata Laluan tidak boleh dimulakan dengan sifar.
+ScotApp_452,Semak sama ada kabel dipasangkan ke dalam bahagian tepi penerima duit syiling dengan selamat?
+ScotApp_352,Kemas Kini
+ScotApp_252,\nCoin dispenser jam\n\nRemove coin dispenser jam.
+ScotApp_152,152unused
+ScotApp_1230,JABATAN NEGATIF
+ScotApp_1030,Masukkan kupon anda.
+ScotApp_1254,SIMPANAN DEBIT PIP
+ScotApp_1860,Please select from picklist assisted items or look-up item alphabetically.
+ScotApp_601,601unused
+ScotApp_952,Tambah Berat Kosong
+ScotApp_852,Tiga Item
+ScotApp_1328,Berat Berganda
+ScotApp_1776,Pemberikuasaan Stor
+ScotApp_1321,Tamatkan Bayaran Baucar.  Tamat Tempoh Baki.
+ScotApp_1443,"Masukkan Duit Syiling untuk mengisikan atau sentuh ""Keluarkan Tunai""untuk memunggah."
+ScotApp_1879,"Check BagScale and touch ""Clear Security""."
+ScotApp_1345,Pengurus Keselamatan tamat…
+ScotApp_1047,Pengendorsan Diperlukan. Sila tunggu bantuan operator.
+ScotApp_1821,Terima Berat
+ScotApp_1517,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1019,Letak item atas tali sawat.
+ScotApp_1467,"Guna skrin ""Status Tunai/Kertas"" untuk memunggahkan tunai."
+ScotApp_1638,"Semak kabel Pengitar Semula Duit Syiling dan Cuba LagiJika ralat berlaku lagi , panggil untuk perkhidmatan.\n\n Ralat SafePay :%s"
+ScotApp_1012,Item anda sedang dipindahkan.
+ScotApp_1545,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1779,Tidak boleh batalkan item sehingga kuponnya dibatalkan.\n\nBatalkan kupon item dahulu.
+ScotApp_1631,Ralat Pengesah Nota
+ScotApp_1655,Jualan Jabatan
+ScotApp_757,757unused
+ScotApp_1183,HARGA SEGERA
+ScotApp_557,Item Dihadkan Kuantiti
+ScotApp_457,457unused
+ScotApp_357,357unused
+ScotApp_257,257unused
+ScotApp_157,Mesej Sistem
+ScotApp_1200,HARGA SEGERA
+ScotApp_957,DB Pengurus Pelanggan Gagal untuk Berkomunikasi
+ScotApp_857,Sahkan Yuran Pemasangan
+ScotApp_1729,Cari Item:
+ScotApp_1103,Sebelumnya
+ScotApp_1722,"Lorong sedang dalam mod latihan, teruskan dengan transaksi?"
+ScotApp_767,Tahap Media Normal
+ScotApp_1371,Penerima Tunai
+ScotApp_1395,Masuk ke Mod Atendan.
+ScotApp_313,313unused
+ScotApp_1808,Pilih item pada resit.
+ScotApp_1118,Masalah mendispens %s nota.\n\n %s nota tidak dapat dikembalikan dari kaset nota.\n\n Keluarkan %s kaset nota dan semakkan keadaan nota.
+ScotApp_1304,Kad setia diterima.
+ScotApp_1413,Sila selesaikan transaksi anda dalam # minit seterusnya. Pemutusan kuasa mungkin terjadi tidak lama lagi.
+ScotApp_1069,1069unused
+ScotApp_1062,1062unused
+ScotApp_1086,"""Tambah Berat Kosong"" memadamkan semua entri berat."
+ScotApp_1601,     Tong Dispenser Kad adalah rendah
+ScotApp_754,Ringkasan Tujuh Hari yang Sebelumnya.S1193
+ScotApp_554,Jangan leretkan kad caj buat masa ini.
+ScotApp_454,454unused
+ScotApp_354,Fungsi-fungsi sistem
+ScotApp_254,Coin dispenser inoperable.\nFill coin dispenser or\nTurn on power or\nRemove dispenser jam.
+ScotApp_1136,Tong penolakan nota telah keluar atau tidak diselakkan dengan sepenuhnya.
+ScotApp_449,Status penerima duit syiling ditolak
+ScotApp_349,349unused
+ScotApp_249,249unused
+ScotApp_149,Masukkan PIN
+ScotApp_1880,Unexpected item on BagScale.
+ScotApp_954,Gagal untuk Membuka Penimbang Pintar
+ScotApp_854,Lima Item
+ScotApp_744,744unused
+ScotApp_1625,"Masukkan syiling untuk mengisikan atau sentuh ""Keluarkan Syiling"" untuk memunggah."
+ScotApp_949,949unused
+ScotApp_849,Kuantiti Diperlukan
+ScotApp_582,Tender Selesai.
+ScotApp_1264,USERDEFINED6
+ScotApp_382,Tidak Diketahui
+ScotApp_282,Masukkan ID
+ScotApp_1324,Berat masih di atas\n penimbang selepas transaksi.
+ScotApp_1772,Kupon
+ScotApp_1348,Lorong telah ditutup
+ScotApp_1274,USERDEFINED16
+ScotApp_1298,Fungsi-fungsi yang Dibantu oleh Operator
+ScotApp_982,Ralat Peranti
+ScotApp_882,Sahkan Penangguhan.
+ScotApp_1341,Kawalan Kelantangan
+ScotApp_841,Entri Item
+ScotApp_1577,Jumlah Kiraan:
+ScotApp_1015,Item Sandaran
+ScotApp_1463,Perubahan Nilai
+ScotApp_1487,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1786,Caj Beg Plastik
+ScotApp_1537,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1106,%s\t%s\tKuantiti %s @ %s/setiap\t%s
+ScotApp_1450,Kotak Kunci
+ScotApp_1675,Ralat Pengitar Semula Duit Syiling
+ScotApp_751,Setiap Jam Hari ini
+ScotApp_687,Laporan Pencetakan
+ScotApp_587,Tandatangan
+ScotApp_487,Bawah
+ScotApp_387,Pengangkutan tersekat
+ScotApp_287,Pengimbas: Tag tidak sah
+ScotApp_151,Sila Ambil Wang
+ScotApp_1220,EFT
+ScotApp_1742,BEG TIDAK SAH
+ScotApp_1244,SIMPANAN DEBIT
+ScotApp_1692,Log Masuk Penyelia
+ScotApp_987,Item dikeluarkan dari tali sawat. Kembalikan item.
+ScotApp_71,71unused
+ScotApp_61,61unused
+ScotApp_51,Tidak Boleh Mengimbas Kupon
+ScotApp_41,Item-item Dihadkan.
+ScotApp_31,Kupon-kupon
+ScotApp_21,21unused
+ScotApp_11,11unused
+ScotApp_1416,Semak untuk multi-pek
+ScotApp_1318,Imbas Baucar
+ScotApp_91,91unused
+ScotApp_81,Teruskan
+ScotApp_1065,1065unused
+ScotApp_1311,* Keluarkan penerima nota.\n* Buka modul penerima.\n* Semak untuk sekatan kemudian gantikan modul.\n* Semakkan bahawa motor penerima dihidupkan dan lampu LED ialah hijau
+ScotApp_1089,Tamatkan Tempoh Laporan
+ScotApp_1153,Kertas tersekat
+ScotApp_1082,Saya keluarkan item atau beg
+ScotApp_1139,Pintu dispenser nota terbuka.
+ScotApp_1507,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1009,Mod Stor
+ScotApp_1132,Ralat Komunikasi
+ScotApp_1628,Ralat CPU
+ScotApp_384,384unused
+ScotApp_1156,Semak bahawa kuasa dispenser duit syiling dihidupkan.
+ScotApp_1036,Item EAS Aktif
+ScotApp_1621,Membuka Kunci Kaset Nota
+ScotApp_1014,Buang item-item yang disandarkan dari tali sawat.
+ScotApp_1645,Semak bahawa penutup nota diikat dengan selamat.
+ScotApp_756,756unused
+ScotApp_556,Penangguhan transaksi ditolak.
+ScotApp_456,456unused
+ScotApp_356,Penyulitan
+ScotApp_256,Pengguna keluar tamat...
+ScotApp_156,Mesej Sistem
+ScotApp_1270,USERDEFINED12
+ScotApp_1294,Q - S
+ScotApp_956,"Shut down and restart terminal:\n\n* Turn Supervisor keylock to 'S' -OR- press Supervisor button.\n* Select ""Run ADD on Next Reboot"".  Select “Yes” to confirm.\n* Select ""Shut Down Entire System"".\n* When screen blanks, turn off terminal at UPS or power strip.\n* Turn on terminal. Check event viewer. If error recurs, call for service."
+ScotApp_856,Resit:
+ScotApp_1719,WA:
+ScotApp_1747,Ralat Pembaca Cap Jari
+ScotApp_1712,Penangguhan Ditolak
+ScotApp_1368,Sigcap
+ScotApp_1814,Tong corong di luar atau tidak dipasang.
+ScotApp_770,Sahkan Penangguhan
+ScotApp_670,Masuk ke Mod Latihan
+ScotApp_570,570unused
+ScotApp_1361,Penukar Tunai
+ScotApp_1483,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1385,Pilih Bahasa
+ScotApp_595,NCR SelfServ Checkout AuxDisp senang memuatkan...
+ScotApp_1533,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1035,Item EAS Aktif
+ScotApp_1557,Pikap Dispenser
+ScotApp_1403,"Hentikan dan mulakan atur cara NCR SelfServ Checkout semula.Jika ralat masih berlaku, hubungi kaunter bantuan."
+ScotApp_1059,1059unused
+ScotApp_1102,Berikut
+ScotApp_1678,Ralat Pengitar Semula
+ScotApp_1052,1052unused
+ScotApp_1837,"Sentuh ""Lulus"" untuk meneruskan transaksi."
+ScotApp_1671,Buka unit Pengitar Semula Nota dan keluarkan nota-nota dari kaset.Tutup unit pengitar semula.\n Dispenskan syiling dari corong dan keluarkan dari cawan baki.
+ScotApp_1695,Baiki Kemudian
+ScotApp_1126,Kegagalan dispenser duit syiling.\n\n Semakkan suis Hidup/Mati jika terdapat di atas dispenser.
+ScotApp_1240,TUNAI
+ScotApp_1769,Masuk-\nkan\nKod
+ScotApp_781,781unused
+ScotApp_681,Pilih Daripada Kegemaran
+ScotApp_581,Penangguhan transaksi ditolak.
+ScotApp_481,Bantuan Diperlukan
+ScotApp_381,Normal
+ScotApp_281,281unused
+ScotApp_181,"\nGunakan pad kekunci untuk memasukkan nilai kupon dalam sen dan sentuh ""OK""."
+ScotApp_76,76unused
+ScotApp_66,66unused
+ScotApp_981,981unused
+ScotApp_881,Penangguhan:
+ScotApp_96,96unused
+ScotApp_1436,"Melebihi ambang ""Langkau pembungkusan"""
+ScotApp_1005,Pengesahan Visual
+ScotApp_1453,Kata Laluan Juruwang
+ScotApp_1624,Pindahkan Semua Nota ke Kaset
+ScotApp_1648,(bbhhtt)
+ScotApp_1527,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1641,"Isikan corong duit syiling semula dan teruskan.Jika syiling tidak didispenskan, corong mungkin telah dikuncikan.Panggil untuk Perkhidmatan.\n\n Ralat SafePay :%s"
+ScotApp_1823,Resit Digital berjaya dihasilkan.
+ScotApp_758,758unused
+ScotApp_658,mata wang rendah
+ScotApp_558,Item Dihadkan Kuantiti
+ScotApp_358,Kembali ke Mod Bantuan
+ScotApp_258,Broker Transaksi tamat...
+ScotApp_158,Item ini memerlukan kelulusan kedai. Sila teruskan.
+ScotApp_1290,D - J
+ScotApp_1651,(ttttbbhh)
+ScotApp_1715,PenolakanPenangguhan Kelulusan
+ScotApp_958,Penimbang Beg
+ScotApp_858,Ya
+ScotApp_523,Kad Ditolak
+ScotApp_423,Masukkan kad. Sila semak bakul untuk item tambahan.
+ScotApp_750,Ringkasan Hari ini
+ScotApp_686,Semalam
+ScotApp_586,Kupon: %0.0ld/$%0.2lf
+ScotApp_486,Atas
+ScotApp_386,Kaset dikeluarkan
+ScotApp_286,Pengimbas: Awalan2 tag tidak sah
+ScotApp_150,Pilih Amaun Wang Balik
+ScotApp_1210,PANDANGAN TERAKHIR
+ScotApp_1388,Program Latihan
+ScotApp_923,923unused
+ScotApp_823,Kelulusan Tidak Sah
+ScotApp_950,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s ditambahkan;LSWND3=%s;
+ScotApp_850,Satu Item
+ScotApp_1193,IDENTITI DISAHKAN
+ScotApp_1381,Memproses...
+ScotApp_1038,Sahkan Tandatangan
+ScotApp_1406,Segerakkan TB/POS
+ScotApp_1308,PIN Dimasukkan
+ScotApp_1031,Imbas kupon anda.
+ScotApp_1055,1055unused
+ScotApp_1828,\n    - Tahap kelantangan %d%%
+ScotApp_1350,%s\n%s %s ditambahkan
+ScotApp_1076,Perhatian
+ScotApp_1817,"*Tarik keluar pengitar semula duit syiling.\n* Buka pintu-pintu sebelah bulat dan kosongkan syiling dari tali sawat.\n* Pastikan bahawa semua pintu ditutup dan dikunci dengan betul.\n* Pulangkan syiling kepada pelanggan.Jika ralat berlaku lagi , panggil untuk perkhidmatan."
+ScotApp_74,Lulus Batal
+ScotApp_1129,Tindakan pembetulan tidak dilakukan dengan betul.\n\n Sila cuba lagi.
+ScotApp_54,Batal
+ScotApp_44,44unused
+ScotApp_34,34unused
+ScotApp_24,Terbatal
+ScotApp_14,14unused
+ScotApp_1122,Nota mungkin tersekat di tempat keluar dispenser nota.\n\n Tarik sebahagian dispenser nota dari kabinet.\n\n Keluarkan apa-apa nota yang tersekat di kawasan yang ditunjukkan.\nTolak dispenser nota ke dalam kabinet dengan hati-hati.
+ScotApp_1618,Kaset Dispenser nota telah keluar atau tidak dimasukkan sepenuhnya.\n\n Pasang atau pasang semula kaset nota sehingga ia diselakkan.
+ScotApp_1146,Penerima tidak bertindak balas.
+ScotApp_84,Memuatkan Pilihan
+ScotApp_1611,     Tong penolakan adalah penuh
+ScotApp_1789,KUPON
+ScotApp_755,Memproses...
+ScotApp_655,Item Pengecualian
+ScotApp_555,Bayaran Lain
+ScotApp_455,455unused
+ScotApp_355,Pilih fungsi sistem
+ScotApp_255,255unused
+ScotApp_155,Mesej Sistem
+ScotApp_1260,USERDEFINED2
+ScotApp_1782,MULAKAN TRANSAKSI DALAM AM
+ScotApp_1284,1284unused
+ScotApp_1439,"Melebihi ambang ""Beg/Kotak"""
+ScotApp_955,Gagal untuk Mendaya Penimbang Pintar
+ScotApp_855,Yuran Pemasangan:
+ScotApp_1802,Terima Kad-kad Sahaja
+ScotApp_1432,<<<Nota-nota rendah.Sila Isi Semula.>>>
+ScotApp_1334,  Item bukan di atas tali sawat
+ScotApp_1456,Nombor dan kata laluan Juruwang tidak betul.
+ScotApp_1001,Item Tidak Ditemui
+ScotApp_1351,%s\n%s %s removed
+ScotApp_1687,"Guna skrin ""Status Tunai/Kertas"" untuk memuatkan tunai."
+ScotApp_1523,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1179,PEMASA MEMBIARKAN TELAH TAMAT TEMPOH
+ScotApp_1025,Keluarkan semua item dari tali sawat dan tutup penutup keselamatan.
+ScotApp_1547,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1049,1049unused
+ScotApp_749,749unused
+ScotApp_649,Harga Benam
+ScotApp_549,549unused
+ScotApp_1172,PENANGGUHAN DISAHKAN
+ScotApp_1668,Nota mungkin tersekat di lokasi yang ditunjukkan.Buka penutup atas pengitar semula nota.Keluarkan nota-nota yang mungkin tersekat.Tutupkan unit dan gantikan penutup atas ke pengitar semula nota.Teruskan transaksi
+ScotApp_1196,NOMBOR LESEN PEMANDU
+ScotApp_1827,\n    - Bahasa Semasa (%s)
+ScotApp_1661,"Tidak dapat mencetak resit.Sentuh ""Resit Lain-lain'' untuk mencuba lagi."
+ScotApp_1685,Ralat Unit Duit Syiling Umum
+ScotApp_788,Tarikh Lahir yang Sah :%s
+ScotApp_688,688unused
+ScotApp_588,Kilang Peranti sedang memuatkan…
+ScotApp_488,Letakkan Item Di Atas Penimbang. %s
+ScotApp_388,Memproses...
+ScotApp_288,"Sentuh ""Saya telah membetulkan masalah"".\n* Jika ralat tetap berlaku, but terminal semula:\n Pusing kunci kekunci Penyelia ke 'S' -ATAU- tekan butang Penyelia.\n* Pilih ""Matikan Seluruh Sistem"".\n* Apabila skrin kosong,matikan terminal di UPS atau jalur kuasa.\n* Hidupkan terminalJika ralat berlaku lagi , panggil untuk perkhidmatan."
+ScotApp_188,Pilihan sedang memuatkan…
+ScotApp_1735,Letakkan Beg Anda
+ScotApp_793,793unused
+ScotApp_693,693unused
+ScotApp_593,NCR SelfServ Checkout SigCap senang memuatkan…
+ScotApp_493,Resit anda akan dicetak di bawah peranti bayaran.
+ScotApp_780,780unused
+ScotApp_680,680unused
+ScotApp_193,193unused
+ScotApp_380,380unused
+ScotApp_280,Kosongkan Log Keselamatan
+ScotApp_180,Asingkan kupon sekarang. Depositkannya pada akhir pembelian.
+ScotApp_1752,Berat di atas penimbang melebihi kapasiti.
+ScotApp_993,Lorong telah ditutup
+ScotApp_893,DBM sedang memuatkan…
+ScotApp_980,Pemasa tamat tempoh dengan tiada tindak balas pelanggan.
+ScotApp_880,880unused
+ScotApp_1426,%s\nIs %d betul?
+ScotApp_1737,Beg Sendiri
+ScotApp_1573,Sentuh butang Muat untuk mengisikan atau sentuh butang Pikap Penerima dan Pikap Dispenser untuk memunggah.
+ScotApp_1075,Hadkan\Langkau Tali Sawat.
+ScotApp_1597,Kad Setia
+ScotApp_1099,Ralat Peranti yang tidak diketahui
+ScotApp_1614,Tong Dispenser
+ScotApp_1142,Ralat Dispenser Duit Syiling
+ScotApp_1092,Kandungan Laporan
+ScotApp_1697,Sekatan telah dikosongkan.
+ScotApp_1877,Theft Alert
+ScotApp_1166,*Buka Pintu Kabinet Pencetak.\n* Buka selak dan tolak pencetak balik.\n* Buka penutup pencetak untuk menyemakkan sekatan.\n* Tutup penutup pencetak dan isikan kertas semula.\n* Tarik pencetak ke hadapan dengan berhati-hati sehingga ia diselakkan ke dalam kedudukannya.
+ScotApp_1280,TUNAI
+ScotApp_1705,Ralat Komunikasi
+ScotApp_722,722unused
+ScotApp_622,Suntingkan Toleransi untuk UPC
+ScotApp_522,PIN Salah
+ScotApp_422,422unused
+ScotApp_785,785unused
+ScotApp_222,"Urutan permintaan pencetak: Semak pencetak atau pemapar acara untuk ralat-ralat, kemudian sentuh ""Saya telah membetulkan masalah""."
+ScotApp_585,585unused
+ScotApp_485,Tandatangan Diperlukan
+ScotApp_385,385unused
+ScotApp_285,Pengimbas: Akhiran tag tidak sah
+ScotApp_185,Bandingkan tandatangan pelanggan dengan tandatangan pada kad.
+ScotApp_1464,Nombor Terminal
+ScotApp_922,922unused
+ScotApp_822,Luluskan Item yang dibatalkan.
+ScotApp_985,Letakkan item di atas tali sawat.
+ScotApp_885,Amaran Pembungkusan
+ScotApp_1845,Resit
+ScotApp_1392,Ralat Tri-Light
+ScotApp_1028,Melebihi Ambang Kupon
+ScotApp_590,Kilang Peranti tamat...
+ScotApp_390,Item Dipanggil Semula
+ScotApp_1021,Perhatian
+ScotApp_1543,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1045,Bayar guna %s
+ScotApp_1493,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1664,Nota tersekat
+ScotApp_1551,Mata wang tinggi (%s)
+ScotApp_1688,Ralat Kaset
+ScotApp_1217,BATAL
+ScotApp_1275,USERDEFINED17
+ScotApp_1119,"Dispenser nota tidak akan beroperasi apabile pintu akses terbuka.\n\n Tutup dan selakkan pintu dispenser atau pintu selamat.Jika ralat berlaku lagi , panggil untuk perkhidmatan."
+ScotApp_1567,Jumlah Dispenser :  %s
+ScotApp_1681,Ralat Pengitar Semula
+ScotApp_1738,Atendan akan Mengesahkan Beg Anda
+ScotApp_1112,%s @ %s %s/%s\t%s
+ScotApp_1608,     Tong penolakan adalah kosong
+ScotApp_1800,Pilih Mod Operasi
+ScotApp_1731,Gambar-gambar PickList sedang memuatkan.
+ScotApp_1716,WE:
+ScotApp_727,727unused
+ScotApp_627,Transaksi #:
+ScotApp_527,527unused
+ScotApp_427,Media Rendah
+ScotApp_327,"Device offline, check connections and/or event log:"
+ScotApp_227,Pembaca kad kad yang tidak sah telah dimasukkan
+ScotApp_127,127unused
+ScotApp_1300,Mulakan Transaksi
+ScotApp_986,986unused
+ScotApp_886,Item dikeluarkan dari kawasan pembungkusan.\nKembalikan item.
+ScotApp_927,Kerosakan Peranti
+ScotApp_827,Lalukan kod bar item di atas pad dan letakkan di kawasan pembungkusan.
+ScotApp_1429,<<<Syiling rendah.Sila Isi Semula.>>>
+ScotApp_1422,Pengimbas Pegang Tangan
+ScotApp_1078,Pilih tetapan untuk berat jangkaan (Pelanggan harus letakkan item di atas tali sawat)
+ScotApp_1446,Memunggah
+ScotApp_1071,1071unused
+ScotApp_1095,"Pilih jenis laporan kemudian sentuh ""Jalankan Laporan"""
+ScotApp_730,730unused
+ScotApp_630,Kad Kredit #:
+ScotApp_1513,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1169,Buka Pintu Kabinet Pencetak.\n* Tarik pencetak ke hadapan dengan berhati-hati sehingga ia diselakkan ke dalam kedudukannya.\n* Tutup dan kuncikan pintu kabinet pencetak.
+ScotApp_1634,Masalah Kabel
+ScotApp_1162,Peranti di luar talian.
+ScotApp_1658,Sila sahkan bahawa pelanggan telah menerima baki yang betul
+ScotApp_1186,PENURUNAN YANG TIDAK TERDUGA
+ScotApp_1701,Gagal untuk mendispens %s.
+ScotApp_1885,Item not scanned
+ScotApp_724,724unused
+ScotApp_624,Toleransi yang dimasukkan tidak sah
+ScotApp_424,Masukkan Amaun
+ScotApp_759,Luncurkan kad anda di peranti pembayaran.
+ScotApp_659,Status mata wang rendah
+ScotApp_124,124unused
+ScotApp_459,Baki akan kekal untuk pembelian ini.
+ScotApp_359,Fungsi-fungsi sistem
+ScotApp_259,Pengurus Peranti tamat...
+ScotApp_1749,Memproses Cap Jari
+ScotApp_924,924unused
+ScotApp_824,Tangguhkan Pengesahan
+ScotApp_1479,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1725,Keselamatan Dinyahdayakan.
+ScotApp_959,Pangkalan Data Pembelajaran Berat
+ScotApp_859,Tidak
+ScotApp_1004,Sahkan Item
+ScotApp_492,Sila ambil baki wang anda.
+ScotApp_392,Item-item Tidak Diketahui
+ScotApp_292,Tidak Boleh Mengimbas Kupon
+ScotApp_1024,1024unused
+ScotApp_1653,Amaun melebihi kapasiti.Amaun maksimum yang diperlukan adalah %s.Amaun sebanyak %s dimasukkan secara automatik.
+ScotApp_1472,Peranti Pengitar Semula Tunai belum Sedia
+ScotApp_1048,1048unused
+ScotApp_1496,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1398,Atendan/Latihan
+ScotApp_992,Masukkan Tarikh Lahir
+ScotApp_892,Penimbang Pintar tamat...
+ScotApp_1510,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_739,739unused
+ScotApp_1041,Luluskan Tandatangan
+ScotApp_539,539unused
+ScotApp_1840,Stor #:
+ScotApp_1115,PELAPORAN DI LUAR TALIAN
+ScotApp_1563,Muatan
+ScotApp_1587,Pastikah anda ingin mengabaikan perubahan atas Skrin Pengurusan Nota?
+ScotApp_1604,     Tong Dispenser Kad adalah normal (%s)
+ScotApp_1499,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1364,Micr
+ScotApp_1237,KUPON
+ScotApp_1867,Camera View Blocked
+ScotApp_1050,1050unused
+ScotApp_667,Kad dileret. Imbas item dan kupon anda.
+ScotApp_1070,1070unused
+ScotApp_467,467unused
+ScotApp_784,Note dispenser inoperable\n* Fill note dispenser or\n* Remove dispenser jam or\n* Adjust purge bin.
+ScotApp_684,Hari ini
+ScotApp_867,Tidak
+ScotApp_697,697unused
+ScotApp_597,NCR SelfServ Checkout Forms sedang memuatkan %d...
+ScotApp_845,Imbas Item Tambahan:
+ScotApp_297,297unused
+ScotApp_197,Perkhidmatan Persembahan telah dimuatkan.
+ScotApp_1320,Mulakan Pembayaran Baucar.
+ScotApp_1442,"Masukkan Tunai untuk mengisikan atau sentuh ""Keluarkan Tunai"" untuk memunggah."
+ScotApp_1344,Pengurus Keselamatan telah dimuatkan
+ScotApp_984,Bawa Pulang Tali Sawat telah dimuatkan.
+ScotApp_884,Batalkan Penangguhan
+ScotApp_997,Masukkan Harga
+ScotApp_897,WTINFO dimuatkan.
+ScotApp_1091,1091unused
+ScotApp_1856,  Jangan masuk beg
+ScotApp_1516,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1018,Umur Minimum
+ScotApp_1466,Status Pengitar Semula Penuh
+ScotApp_1165,Tarik pencetak ke hadapan dengan berhati-hati sehingga ia diselakkan ke dalam kedudukannya.\n\nTutup dan kuncikan pintu kabinet pencetak.
+ScotApp_1011,Sedang mengangkut...
+ScotApp_1433,di atas penimbang beg
+ScotApp_1189,MASUKKAN ITEM
+ScotApp_1659,Cetak Resit
+ScotApp_40,Pemberikuasaan Stor
+ScotApp_30,Item-item Terbatal
+ScotApp_1630,Ralat Pengitar Semula
+ScotApp_1654,Kiraan melebihi kapasiti.Kiraan beban maksimum yang diperlukan adalah %d.Kiraan sebanyak %d dimasukkan secara automatik.
+ScotApp_1182,HAD AMAUN KUPON
+ScotApp_1636,Ralat Pengitar Semula Duit Syiling
+ScotApp_1207,TANDATANGAN DISAHKAN
+ScotApp_1813,"%s\n* Membuka kunci dan tarik keluar (I).\n* Keluarkan tong-tong corong yang tersekat.Semak dan kosongkan apa-apa sekatan di kawasan keluar(II)\n* Jika tiada sekatan di kawasan keluar, kosongkan tong-tong corong.Semak dan kosongkan apa-apa sekatan dengan menggunakan cakera berputar(III).\n* Masukkan tong-tong corong semula.\n* Pastikan bahawa semua pintu ditutup dan dikunci dengan betul.Jika ralat berlaku lagi , panggil untuk perkhidmatan."
+ScotApp_1109,%s\t%s\t%s @ %s/%s\t%s
+ScotApp_753,Setiap Jam Semalam
+ScotApp_653,"Masukkan nilai kupon dalam sen dan sentuh ""Masukkan""."
+ScotApp_353,Kembali
+ScotApp_253,253unused
+ScotApp_1728,Sila pilih dari item-item popular atau cari item mengikut abjad.
+ScotApp_1721,Transaksi Mod Latihan
+ScotApp_1745,Peranti Cap Jari\n\n Sila cuba lagi.
+ScotApp_726,726unused
+ScotApp_626,Toleransi:
+ScotApp_526,\nPIN Salah Telah Dimasukkan.\nGelongsorkan kad berbeza\n -or-\nBayar guna tunai
+ScotApp_426,Lorong ##:
+ScotApp_326,Tarikh lahir tidak memenuhi had umur untuk item-item yang dihadkan.
+ScotApp_226,Pembaca kad peranti tidak berfungsi.
+ScotApp_589,Kilang Peranti telah dimuatkan.
+ScotApp_389,Memproses Kad
+ScotApp_289,289unused
+ScotApp_189,Pilihan telah dimuatkan.
+ScotApp_926,Item tidak dikembalikan ke kawasan pembungkusan.
+ScotApp_826,Saya tidak ingin\nmembungkus item ini
+ScotApp_1419,Multi-pek
+ScotApp_989,989unused
+ScotApp_889,%s\nBerat Sebenar(%s): %s\nBerat Anggaran(%s): %s
+ScotApp_1412,Fungsi-fungsi Bantuan
+ScotApp_1068,1068unused
+ScotApp_1544,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1061,1061unused
+ScotApp_1583,Mata wang rendah (%s)
+ScotApp_1085,Kumpulkan kupon-kupon.
+ScotApp_1123,"*JANGAN teruskan sehingga semua nota yang tersekat dikeluarkan.\n* Tarik dispenser nota dari kabinet dengan berhati-hati.\n* Keluarkan nota yang tersekat atas dispenser nota tanpa mengganggu tali sawat.\n* Tolak dispenser nota ke dalam kabinet.\n* Kuncikan pintu, kemudian sentuh ""Saya telah membetulkan masalah"""
+ScotApp_1233,BAYARAN LAIN
+ScotApp_1135,Ralat Dispenser Nota.
+ScotApp_1257,PIP FOODSTAMPS
+ScotApp_1503,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1159,PinPad/EFT tidak bertindak balas.
+ScotApp_1887,Review Transaction
+ScotApp_1778,Kosongkan Keselamatan.
+ScotApp_1152,Tiada kertas.
+ScotApp_1771,Had Nilai Kupon
+ScotApp_1707,Syiling telah tersekat di dalam penerima.
+ScotApp_1693,Penggantian Duit Syiling
+ScotApp_1617,Amaun yang dimasukkan melebihi kapasiti.Masukkan lagi kiraan muatan untuk Tong Dispenser.Kapasiti maksimum ialah %d.
+ScotApp_1340,Matikan Seluruh Sistem
+ScotApp_1691,Pengurusan Tunai
+ScotApp_1469,"Gagal untuk mendispenskan %s kepada pelanggan.%s\n* Semak duit syiling dan dispenser nota.\n* Sentuh ""Status Tunai/Kertas"" untuk mengisikan semula atau kosongkan sekatan."
+ScotApp_1277,USERDEFINED19
+ScotApp_791,Pilih Jenis Bayaran
+ScotApp_691,691unused
+ScotApp_591,NCR SelfServ Checkout Borang Encrytor sedang memuatkan…
+ScotApp_391,Item-item Diperlukan Harga
+ScotApp_291,"Coin dispenser tube jam\n%s\nRemove coin dispenser jam then touch ""Cleared Jam""."
+ScotApp_191,Broker Transaksi telah dimuatkan.
+ScotApp_1462,Tong-tong
+ScotApp_1486,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_991,Semakan Umur
+ScotApp_891,Penimbang Pintar dimuatkan.
+ScotApp_1536,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1650,(hhbbtt)
+ScotApp_792,792unused
+ScotApp_692,692unused
+ScotApp_592,NCR SelfServ Checkout Borang Encrytor telah dimuatkan.
+ScotApp_1105,e=d=0.005kg Maks 13.995kg min 0.1kg Nmaks 2799
+ScotApp_1553,Status Mata Wang Tinggi:
+ScotApp_192,192unused
+ScotApp_1724,TRANSAKSI MOD LATIHAN
+ScotApp_1748,Kegagalan Log Masuk Cap Jari
+ScotApp_1674,"Tekan butang penolakan untuk mengeluarkan syiling yang tersekat.Jika ralat berlaku lagi, duit syiling mungkin tersekat.Buka penutup duit syiling dan selamat.Keluarkan apa-apa syiling yang tersekat.Tekan butang penolakan untuk set semula.Lepaskan dan tutupkan penutup duit syiling."
+ScotApp_1698,"Sentuh ""Keadaan Telah Dibetulkan"""
+ScotApp_1227,MASA DIHADKAN
+ScotApp_1741,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s exp;LSWND3=%s %s obv
+ScotApp_728,728unused
+ScotApp_628,Lorong #: %d
+ScotApp_528,528unused
+ScotApp_428,Kuning
+ScotApp_328,"Gagal untuk mendispenskan %s kepada pelanggan.\n* Semak duit syiling dan dispenser nota.\n* Jika kosong, isi semula.\n* Jika tidak kosong, kosongkan sekatan.\n* Kuncikan pintu, kemudian sentuh ""Saya telah membetulkan masalah"""
+ScotApp_228,Pembaca kad pengatup tersekat tutup
+ScotApp_128,128unused
+ScotApp_1390,Peranti tidak bertindak balas
+ScotApp_988,Item tidak dijangka di atas tali sawat. Keluarkan item.
+ScotApp_888,Item tidak dijangka di kawasan pembungkusan.  Keluarkan item.
+ScotApp_1415,1415unused
+ScotApp_928,Pergi ke lorong dan semak peranti.
+ScotApp_828,828unused
+ScotApp_433,433unused
+ScotApp_720,720unused
+ScotApp_520,Kod Item Tidak Diketahui
+ScotApp_420,420unused
+ScotApp_320,Kembali
+ScotApp_220,* Buka Pintu Kabinet Pencetak.\n* Buka penutup pencetak untuk menyemakkan sekatan.\n* Muatkan gulungan kertas yang baru ke dalam pencetak.\n* Tutup dan kuncikan pintu kabinet pencetak.
+ScotApp_120,Transaksi dibatalkan. Keluarkan
+ScotApp_1310,* Keluarkan penerima nota.\n* Masukkan penerima nota semula sehigga ia diselakkan.\n* Semakkan bahawa motor penerima dihidupkan dan lampu LED ialah hijau
+ScotApp_1088,1088unused
+ScotApp_933,Berat Tidak Sepadan
+ScotApp_833,833unused
+ScotApp_478,Turunkan Kupon.
+ScotApp_920,Lulus/Tiada Kemaskini
+ScotApp_820,Lulus Batal
+ScotApp_1081,Tunjuk\n Semua Lorong.
+ScotApp_1138,Gagal untuk mendispens %s.
+ScotApp_978,Ambang: %d
+ScotApp_878,Masukkan Harga.
+ScotApp_1008,1008unused
+ScotApp_1131,Kaset nota telah keluar atau tidak dimasukkan dengan betul.
+ScotApp_1155,Peranti di luar talian.
+ScotApp_657,Asingkan bayaran balik/diskaun sehingga akhir pembelian.
+ScotApp_1883,"Check BagScale and cart for extra items and touch ""Clear Security""."
+ScotApp_1620,Membuka Kunci Penutup Nota
+ScotApp_1644,Penutup Pengitar Semula Terbuka
+ScotApp_1593,Keluarkan Syiling.
+ScotApp_75,Siap
+ScotApp_65,65unused
+ScotApp_55,Batalkan Semua
+ScotApp_45,45unused
+ScotApp_35,Ubah Tamat Tempoh:
+ScotApp_25,Tarikh lahir:
+ScotApp_15,Kod Item:
+ScotApp_1506,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1451,ID Juruwang
+ScotApp_95,Imbas Kupon
+ScotApp_85,85unused
+ScotApp_9,9unused
+ScotApp_1465,Ralat Peranti Pengitar Semula Tunai
+ScotApp_1711,Menangguh Ditolak
+ScotApp_1489,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_725,725unused
+ScotApp_625,Masukkan toleransi berat antara <%s> dan <%s>.
+ScotApp_425,425unused
+ScotApp_325,Tarikh yang dimasukkan tidak sah
+ScotApp_225,Pembaca kad Tong penangkapan dimasukkan.
+ScotApp_1360,Laci Tunai
+ScotApp_1482,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1871,%s %s diperhatikan
+ScotApp_324,Tarikh tidak diperlukan
+ScotApp_224,Pembaca kad Tong penangkapan dikeluarkan.
+ScotApp_1539,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_925,925unused
+ScotApp_825,Item Beg
+ScotApp_1409,Menu Bantuan
+ScotApp_1532,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1163,"Sentuh ""Saya telah membetulkan masalah"".\n* Jika ralat tetap berlaku, but terminal semula:\n Pusing kunci kekunci Penyelia ke 'S' -ATAU- tekan butang Penyelia.\nPilih ""Matikan Seluruh Sistem"".\nApabila skrin kosong,matikan terminal di UPS atau jalur kuasa.\n* Hidupkan terminalJika ralat berlaku lagi , panggil untuk perkhidmatan."
+ScotApp_1034,1034unused
+ScotApp_1556,Pikap Penerima
+ScotApp_1058,Bantuan Tender
+ScotApp_1101,%s\t%s
+ScotApp_1051,Kelulusan Slip Kertas
+ScotApp_1836,INVALID BARCODE
+ScotApp_1670,Ralat Duit Syiling/Pengitar Semula
+ScotApp_1694,"Penggantian digunakan kerana %s Sentuh ""Status Tunai/Kertas"" untuk mengisikan semula atau mengosongkan sekatan."
+ScotApp_1223,KEKURANGAN TUNAI/KERTAS
+ScotApp_1125,"Isi semula semua saluran duit syiling ke atas majalah duit syiling.\n\n Pergi ke Mod Stor, pilih ""Status Tunai/Kertas"" dan sentuh butang ""Dispenser Duit Syiling telah Diisi Semula""."
+ScotApp_1247,SETEM MAKANAN
+ScotApp_1149,Ralat Pencetak Resit
+ScotApp_1768,Unit berat tidak disokong.
+ScotApp_89,89unused
+ScotApp_1761,Tong kupon mengkin penuh atau slot kupon telah tersumbat.Keluarkan apa-apa item yang menyekat slot kupon kemudian kosongkan tong kupon.
+ScotApp_1785,Log masuk tidak sah. Sila log masuk lagi dengan menggunakan pad kekunci atau cap jari anda.
+ScotApp_798,798unused
+ScotApp_698,698unused
+ScotApp_598,Borang %d gagal untuk disimpan!
+ScotApp_498,Amaun Telah Dibayar:
+ScotApp_398,Kaset Dimasukkan
+ScotApp_298,298unused
+ScotApp_198,Memuatkan Pengguna Keluar...
+ScotApp_1787,Masukkan bilangan beg plastik yang anda telah gunakan atau 0 jika tiada beg yang digunakan.
+ScotApp_1435,Ralat Duit Syiling/Dispenser Nota
+ScotApp_998,Kuantiti
+ScotApp_898,WTINFO tamat…
+ScotApp_1459,Laporan Pengurusan Tunai
+ScotApp_690,690unused
+ScotApp_371,Pencetak gantikan kepala
+ScotApp_490,"Imbas item anda atau sentuh ""Mula"" untuk bermula."
+ScotApp_290,290unused
+ScotApp_190,Memuatkan Broker Transaksi…
+ScotApp_1452,"Masukkan ID dan sentuh ""Masuk"""
+ScotApp_796,"Syiling rendah atau dispenser duit syiling ada ralat/dimatikan.\n* Hidupkan dispenser duit syiling, ATAU \n* Isi Semula, matikan dispenser duit syiling kemudian hidupkan, sentuh ""Dispenser Duit Syiling Diisi Semula""- Skrin Status Lorong."
+ScotApp_696,696unused
+ScotApp_871,Sahkan Penangguhan
+ScotApp_990,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_890,Penimbang Pintar sedang memuatkan...
+ScotApp_396,Bantuan simpanan diperlukan untuk:
+ScotApp_296,296unused
+ScotApp_196,Memuatkan Perkhidmatan Persembahan...
+ScotApp_1600,Status Dispenser Kad :
+ScotApp_1526,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_996,Entri Harga
+ScotApp_896,WTINFO sedang memuatkan…
+ScotApp_1850,Ralat peranti-peranti
+ScotApp_1273,USERDEFINED15
+ScotApp_1175,JANGAN BUNGKUS AMBANG TELAH DILEBIHI
+ScotApp_1297,PEMASA UNTUK MENGAMBIL BAKI TELAH TAMAT TEMPOH
+ScotApp_1199,MASUKKAN TARIKH LUPUT
+ScotApp_1591,Semak Sambungan Kabel kepada dispenser duit syiling
+ScotApp_1714,LULUSKAN PENOLAKAN PENANGGUHAN
+ScotApp_1192,YURAN PEMASANGAN
+ScotApp_1546,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_78,ATM (Tiada Tunai)
+ScotApp_68,68unused
+ScotApp_58,OK
+ScotApp_48,48unused
+ScotApp_38,38unused
+ScotApp_28,Batalkan Pembelian
+ScotApp_18,Jumlah
+ScotApp_98,98unused
+ScotApp_88,88unused
+ScotApp_1476,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1405,"POS di luar penyegerakkan, sila pergi ke ""Mod Bantuan"" untuk menyegerakkan semula."
+ScotApp_732,732unused
+ScotApp_632,632unused
+ScotApp_532,Item Dihadkan
+ScotApp_432,EBT
+ScotApp_795,Pembelian dipantau untuk memastikan perkhidmatan yang lebih baik.
+ScotApp_695,695unused
+ScotApp_132,132unused
+ScotApp_395,Item-item Yang Dihadkan Tidak Dibenarkan
+ScotApp_295,295unused
+ScotApp_195,Pengurus Peranti telah dimuatkan.
+ScotApp_932,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_832,832unused
+ScotApp_1861,PICKLIST
+ScotApp_995,Pergi ke lorong dan log masuk ke Mod Stor untuk membuka lorong.
+ScotApp_895,DBM tamat…
+ScotApp_1314,* Buka penutup pencetak dan kosongkan apa-apa serpihan kertas.\n* Tutup penutup.\n* Masukkan gulungan kertas yang baru.\n* Masukkan kertas dari atas gulungan ke dalam pencetak.
+ScotApp_1832,Exc_DEPT
+ScotApp_1128,%s\n
+ScotApp_1576,Status Dispenser Tunai :
+ScotApp_1690,Sila Panggil untuk Perkhidmatan.
+ScotApp_1805,Keluar dari Mod Tunai Sahaja
+ScotApp_1053,Tunggu juruwang membawa slip kertas untuk ditandatangani.
+ScotApp_1121,Nota mungkin tersekat di kawasan yang ditunjukkan.\n\n Tarik sebahagian dispenser nota dari kabinet.\n\n Keluarkan nota yang tersekat.\n\n Tolak dispenser nota ke dalam kabinet dengan hati-hati.
+ScotApp_1243,KESETIAAN
+ScotApp_463,Kelulusan Jarak Jauh tamat...
+ScotApp_363,\nMasukkan kata laluan operator dengan menggunakan pad kekunci.
+ScotApp_163,163unused
+ScotApp_1833,Exc_TB
+ScotApp_1610,     Tong penolakan hampir penuh (%s)
+ScotApp_332,Keluar dari Mod Bantuan.
+ScotApp_232,*Keluarkan penerima nota dan kaset\n* Semak untuk sekatan dalam kaset.\n* Buka pintu-pintu akses di atas penerima dan semak untuk nota yang tersekat\n* Tutup pintu-pintu akses dengan kukuh.Gantikan penerima dan kaset.
+ScotApp_963,Batalkan Permintaan
+ScotApp_863,Masukkan Nilai Kupon
+ScotApp_1317,Pembayaran Baucar
+ScotApp_1267,USERDEFINED9
+ScotApp_1781,TAMAT TEMPOH TERIMA KASIH
+ScotApp_1889,Security Trust Level
+ScotApp_1438,"Melebihi ambang ""Item Baru"""
+ScotApp_1336,Utiliti
+ScotApp_643,"Item dipadam. Imbas item seterusnya atau sentuh ""Masukkan kod""."
+ScotApp_1431,Batalkan Semua
+ScotApp_1455,Nombor tidak sah
+ScotApp_737,737unused
+ScotApp_637,"Keselamatan di luar talian, tindakan terakhir telah dibatalkan."
+ScotApp_537,537unused
+ScotApp_437,Baki Tidak Mencukupi
+ScotApp_337,"Imbas item anda atau masukkan kod dan sentuh ""OK""."
+ScotApp_237,Masukkan kaset sehingga ia diselakkan ke kedudukannya.\n\n Tarik pemegang kaset untuk memastikan bahawa selak memegang kaset di kedudukan.
+ScotApp_137,Ambil Baki
+ScotApp_1000,Tidak Ditemui
+ScotApp_937,Hadkan\Keluarkan Item-item
+ScotApp_837,Yuran
+ScotApp_1529,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1522,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1178,AMBANG SIAP MENGELUARKAN TELAH DILEBIHI
+ScotApp_760,Gelongsorkan kad anda pada sisi monitor ini.
+ScotApp_660,Semua paras mata wang adalah normal.
+ScotApp_1171,PENINGKATAN YANG TIDAK TERDUGA
+ScotApp_1195,CSA DITANGGUHKAN
+ScotApp_1579,Penerima Nota
+ScotApp_960,"Kesalahan Beg Penimbang: Semak Penimbang Beg atau Pemapar Acara untuk ralat-ralat, kemudian sentuh "" Saya telah membetulkan masalah""."
+ScotApp_596,NCR SelfServ Checkout AuxDisp telah dimuatkan.
+ScotApp_496,Had Kuantiti
+ScotApp_1684,Ralat Pengitar Semula Duit Syiling
+ScotApp_1666,Ralat Pengitar Semula
+ScotApp_1213,TIDAK DIKETAHUI
+ScotApp_1370,Penyulitan
+ScotApp_1810,Syiling telah tersekat.
+ScotApp_1734,Saya membawa beg saya sendiri
+ScotApp_1866,More Popular
+ScotApp_1758,Ralat Tong Kupon
+ScotApp_1864,Pergi ke lorong
+ScotApp_814,814unused
+ScotApp_734,734unused
+ScotApp_634,634unused
+ScotApp_534,Item Dihadkan Masa
+ScotApp_434,Jenis Manfaat
+ScotApp_334,Pembaca kad-ralat tiada kad
+ScotApp_234,Keluarkan kaset nota.\n\n Keluarkan nota dari kaset.\n\n Masukkan kaset semula sehingga ia diselakkan ke kedudukannya.\n\n Tarik pemegang kaset untuk memastikan bahawa selak memegang kaset di kedudukan.
+ScotApp_429,Merah
+ScotApp_329,  %ss @ %d %s/%s
+ScotApp_229,229unused
+ScotApp_129,Sahkan item-item terbatal yang diketepikan.
+ScotApp_875,ID Ketua Juruwang untuk membatalkan Pembelian.
+ScotApp_834,Yuran & Perjanjian Pelanggan
+ScotApp_584,EBT Ditolak.
+ScotApp_484,Tandatangan Diperlukan
+ScotApp_929,WLDB tidak berkomunikasi dengan betul.
+ScotApp_829,829unused
+ScotApp_1766,Ralat Penimbang/Pengimbas
+ScotApp_1124,1124unused
+ScotApp_1572,Pastikah anda hendak mengabaikan perubahan atas Skrin Pengurusan Duit Syiling?
+ScotApp_1148,Security Scale components failure
+ScotApp_1074,Kelulusan untuk melangkau tali sawat.
+ScotApp_1098,"* Buka Pintu Kabinet Pencetak.\n* Semak kertas yang tersekat di kawasan yang ditunjukkan.\n* Jika tiada kertas dijumpa, tambah kertas.\n* Satu resit dengan Muka Gembira patut cetak.\n* Tutup dan kuncikan pintu kabinet pencetak."
+ScotApp_1141,Gagal untuk mendispens %s.AMARAN: Nota mungkin tersekat di atas dispenser nota.
+ScotApp_1876,%s %s diperhatikan
+ScotApp_1801,Mod Operasi
+ScotApp_1263,USERDEFINED5
+ScotApp_1893,Invalid Barcode
+ScotApp_1792,Kad-kad Sahaja
+ScotApp_1704,"Sentuh ""Saya telah membetulkan masalah"".\n* Jika ralat tetap berlaku, but terminal semula:\n Pusing kunci kekunci Penyelia ke 'S' -ATAU- tekan butang Penyelia.\nPilih ""Matikan Seluruh Sistem"".\nApabila skrin kosong,matikan terminal di UPS atau jalur kuasa.\n* Hidupkan terminalJika ralat berlaku lagi , panggil untuk perkhidmatan."
+ScotApp_721,721unused
+ScotApp_1337,Keluar dari NCR SelfServ Checkout
+ScotApp_521,Amaun Dibayar Balik:
+ScotApp_421,"Imbas item anda atau sentuh ""Mula"" untuk bermula."
+ScotApp_321,Pengesahan Transaksi
+ScotApp_221,Tutup dan kuncikan pintu kabinet pencetak.
+ScotApp_121,item-item daripada checkstand ini.
+ScotApp_921,Berat diduga di atas penimbang keselamatan.
+ScotApp_821,821unused
+ScotApp_1475,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_731,Ringkasan
+ScotApp_631,Nama Pemilik:
+ScotApp_531,\nKegagalan Peranti Menangkap Tandatangan
+ScotApp_331,Keluarkan item dari penimbang beg. Papan kekunci dinyahdayakan.
+ScotApp_231,231unused
+ScotApp_131,Depositkan Kupon
+ScotApp_1020,Imbas Item
+ScotApp_1542,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1378,berat
+ScotApp_1044,Tender dibantu Operator
+ScotApp_1623,Pindahkan Nota-nota ke Kaset untuk Pikap
+ScotApp_1492,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_931,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s diduga;LSWND3=%s %s diperhatikan;
+ScotApp_831,831unused
+ScotApp_1191,PENGUKURAN DIPERLUKAN
+ScotApp_1404,"Pelayan POS rosak atau di luar penyegerakkan, tutupkan terminal dengan menggunakan suis."
+ScotApp_1873,1873unused
+ScotApp_1216,KESELAMATAN
+ScotApp_1822,Lihat berat item di bahagian bawah kiri skrin.
+ScotApp_336,Cari\nItem
+ScotApp_236,236unused
+ScotApp_136,Masukkan Wang
+ScotApp_1680,Ralat yang Tidak Dapat Dipulihkan.Sila tutupkan Lorong.Panggil Gunnebo dan memberikan informasi ralat yang ditunjukkan di bawah.\n\n Ralat SafePay :%s
+ScotApp_1299,Mulakan Transaksi dan Masuk ke Mod Bantuan
+ScotApp_762,762unused
+ScotApp_662,%
+ScotApp_562,Kupon-kupon perlu dijual dalam Mod Bantuan
+ScotApp_462,Kelulusan Jarak Jauh telah dimuatkan.
+ScotApp_362,Masukkan Kata Laluan
+ScotApp_262,262unused
+ScotApp_162,Imbas item dan kupon anda.
+ScotApp_1250,KREDIT PIP
+ScotApp_962,"Kumpulkan item yang dibatalkan dan kemudian sentuh ""Luluskan Batal""."
+ScotApp_862,Masukkan Nilai Kupon:
+ScotApp_1307,Mencetak resit
+ScotApp_1428,Ubah harga untuk item : \n%s
+ScotApp_1417,"Jika item ialah multi-pek, sentuh ""Mod Bantuan"" dan batalkannya, kemudian imbaskan kod bar multi-pek."
+ScotApp_1421,Mod Bantuan
+ScotApp_1835,Verify or Set Item aside
+ScotApp_1445,Perubahan Kiraan
+ScotApp_736,736unused
+ScotApp_636,Keselamatan di luar talian.
+ScotApp_536,Penerima Duit Syiling
+ScotApp_436,Sahkan Amaun
+ScotApp_799,Periksa Bakul
+ScotApp_699,Item tidak laku
+ScotApp_599,Peranti Menetapkan Borang-borang Semula...
+ScotApp_499,499unused
+ScotApp_399,399unused
+ScotApp_299,299unused
+ScotApp_199,Pengguna Keluar telah dimuatkan.
+ScotApp_1878,Incorrect weight on BagScale.
+ScotApp_936,Hadkan\Langkaukan Pembungkusan
+ScotApp_836,Yuran & Perjanjian Pelanggan
+ScotApp_1519,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_999,Melebihi Had
+ScotApp_899,Luluskan Batal untuk
+ScotApp_789,Leretkan kad anda.\nSila semak bakul untuk item tambahan.
+ScotApp_689,  Jualan:      %d
+ScotApp_1512,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1168,Pencetak tidak diselakkan ke kedudukan hadapan.
+ScotApp_1161,Ralat Alat Kelui.
+ScotApp_1283,1283unused
+ScotApp_567,Masukkan
+ScotApp_1185,AMBANG KOTAK BEG TELAH DILEBIHI
+ScotApp_367,367unused
+ScotApp_267,Keselamatan
+ScotApp_1700,"Gagal untuk mendispens %s.%s\nSemak duit syiling dan dispenser nota.\nJika kosong, isi semula.\nJika tidak kosong, kosongkan sekatan. Sentuh ""Keadaan Telah Dibetulkan"""
+ScotApp_967,967unused
+ScotApp_1333,Undur Ruang
+ScotApp_779,779unused
+ScotApp_679,Laporan Bantuan
+ScotApp_579,579unused
+ScotApp_1478,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1640,Ralat Corong
+ScotApp_1471,Ralat Peranti Pengitar Semula Duit Syiling
+ScotApp_1495,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_650,Produk Biasa
+ScotApp_550,550unused
+ScotApp_450,450unused
+ScotApp_1040,Tandatangan
+ScotApp_250,250unused
+ScotApp_1569,Nilai
+ScotApp_1114,"Kemaskini ""Tempoh Tamatkan Laporan"" berjaya"
+ScotApp_1562,Kiraan
+ScotApp_1586,%s    %s  %s
+ScotApp_764,764unused
+ScotApp_664,Imbas item anda atau pilih bahasa.
+ScotApp_564,564unused
+ScotApp_464,%s               %s
+ScotApp_364,364unused
+ScotApp_264,264unused
+ScotApp_1857,  Jangan letak di atas tali sawat
+ScotApp_1637,Masalah Kabel
+ScotApp_1407,BUT SEMULA
+ScotApp_964,"Keluarkan item dan sentuh ""Kosongkan Keselamatan"", atau sentuh ""Lulus dan Kemas Kinikan Berat"""
+ScotApp_864,Kelulusan:
+ScotApp_1253,KESETIAAN PIP
+ScotApp_1807,_ _ _
+ScotApp_1424,"Sentuh ""Sambung"" untuk menyambungkan pengimbas pegang tangan"
+ScotApp_1448,Status Duit Syiling
+ScotApp_1774,Kupon Terlalu Tinggi
+ScotApp_1798,Mod Tunai Sahaja
+ScotApp_1327,"Sentuh laporan yang diinginkan, kemudian sentuh ""Jalankan Laporan"""
+ScotApp_1441,Pengurusan Duit Syiling
+ScotApp_64,Batalkan Yang Dipilih
+ScotApp_738,738unused
+ScotApp_638,Info toleransi WLDB yang berkesan
+ScotApp_538,538unused
+ScotApp_338,Taip tiga huruf pertama perihalan item.
+ScotApp_238,\nPenerima nota gagal untuk log masuk tunai yang dimasukkan.\n\n Semak kaset nota.
+ScotApp_138,Ambil Kad
+ScotApp_1090,Jalankan Laporan
+ScotApp_1663,Bekas kosong atau tersekat
+ScotApp_94,94unused
+ScotApp_1515,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_938,938unused
+ScotApp_603,Edit/Add Weight Entry
+ScotApp_503,503unused
+ScotApp_403,403unused
+ScotApp_303,Batalkan Item
+ScotApp_203,203unused
+ScotApp_103,Masukkan kod item.
+ScotApp_430,Tiada Perkhidmatan
+ScotApp_330,Mod Bantuan
+ScotApp_230,Status penerima tunai ditolak.
+ScotApp_130,Sila depositkan kupon anda.
+ScotApp_1010,1010unused
+ScotApp_1188,MASUKKAN KUANTITI
+ScotApp_903,Item dikeluarkan dari kawasan pembungkusan.
+ScotApp_803,803unused
+ScotApp_930,Semak komunikasi
+ScotApp_830,Saya keluarkan item atau beg
+ScotApp_1819,Ralat Penerima Pengitar Semula Duit Syiling
+ScotApp_1723,Trx Latihan
+ScotApp_1181,MELEBIHI AMBANG KUPON
+ScotApp_1206,ITEM YANG TELAH DIAKTIFKAN
+ScotApp_1812,Syiling telah tersekat atau tong syiling telah penuh atau di luar.
+ScotApp_1108,%s\t%s\t%s @ %s %s/%s\t%s
+ScotApp_1484,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_761,761unused
+ScotApp_661,(Def)
+ScotApp_561,Ketepikan Kupon
+ScotApp_461,Kelulusan Jarak Jauh memuatkan...
+ScotApp_361,Lorong telah ditutup
+ScotApp_261,261unused
+ScotApp_1720,WR:
+ScotApp_961,"Kesalahan Pangkalan Data Pembelajaran Berat: Semak Pemapar Acara untuk ralat-ralat, kemudian sentuh ""Saya telah membetulkan masalah"""
+ScotApp_72,72unused
+ScotApp_62,Ya
+ScotApp_52,Batalkan Kupon
+ScotApp_42,Item-item Terbatal
+ScotApp_32,Teruskan
+ScotApp_22,Tiada\nTunai\nBalik\n+ 0          \n(%s)
+ScotApp_12,  Qty %d @ %s/each
+ScotApp_1418,Telah melebihi peruntukan berat maksimum.
+ScotApp_92,Selamat Datang!
+ScotApp_82,82unused
+ScotApp_1565,Masukkan Nilai Muatan untuk %s
+ScotApp_1411,Ubah Kuantiti
+ScotApp_1589,SYILING KELUAR
+ScotApp_735,735unused
+ScotApp_635,Masukkan tarikh lahir.
+ScotApp_535,   Masa Dipanggil Semula
+ScotApp_335,Pembaca kad gangguan pelanggan berkemungkinan
+ScotApp_235,Status penerima tunai hampir penuh
+ScotApp_135,135unused
+ScotApp_1060,SILA TUNGGU...
+ScotApp_1582,Status Media
+ScotApp_1084,Koleksi
+ScotApp_1239,TIADA
+ScotApp_935,Berat Berkurang
+ScotApp_835,Resit:
+ScotApp_1509,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1150,Pintu kabinet pencetak terbuka.
+ScotApp_1232,TANDATANGAN DILULUSKAN
+ScotApp_1134,Kaset nota penuh.
+ScotApp_1256,PIP EBT
+ScotApp_1862,Verify item on scanner scale
+ScotApp_1158,Ralat Peranti PinPad/EFT
+ScotApp_1886,Check for extra items.
+ScotApp_1151,Penutup pencetak terbuka.
+ScotApp_666,666unused
+ScotApp_566,566unused
+ScotApp_466,   Item Tidak Diketahui Diimbas
+ScotApp_366,Pisau pencetak tersekat
+ScotApp_266,Ejen Keselamatan tamat...
+ScotApp_1770,Pilih daripada hasil carian.
+ScotApp_966,966unused
+ScotApp_866,Ya
+ScotApp_1347,Sedang mencuba untuk menyambung semula
+ScotApp_1468,Status Pengitar Semula Tunai Kosong
+ScotApp_1461,Syiling
+ScotApp_1485,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1176,ITEM BARU DIMASUKKAN
+ScotApp_1633,Ralat Pengitar Semula
+ScotApp_1649,(hhbbtttt)
+ScotApp_1535,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1657,Jabatan tidak sah.
+ScotApp_1559,Keluar
+ScotApp_1846,"Imbas item atau sentuh ""Masukkan kod""."
+ScotApp_1202,LORONG TUTUP
+ScotApp_1104,e=d=0.01 lb Maks 30.00 lb min 0.2 lb Nmaks 3000
+ScotApp_1502,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1552,Tong penuh
+ScotApp_729,729unused
+ScotApp_629,Jumlah Caj:
+ScotApp_1847,"Item ditambah. Imbas item seterusnya atau sentuh ""Masukkan kod""."
+ScotApp_1226,ITEM DIPANGGIL SEMULA
+ScotApp_1740,Sahkan Beg
+ScotApp_1373,Kumpul Kad Hadiah
+ScotApp_600,Penyelenggaraan keselamatan
+ScotApp_500,500unused
+ScotApp_1799,Mod Kad-kad Sahaja
+ScotApp_1414,Lorong ini tidak tersedia sehingga kuasa dipulihkan.
+ScotApp_79,79unused
+ScotApp_69,69unused
+ScotApp_59,Cuba Lagi
+ScotApp_49,49unused
+ScotApp_39,Transaksi Dibatalkan
+ScotApp_29,Item-item Dihadkan.
+ScotApp_19,Cukai
+ScotApp_99,Kuantiti Untuk Dibatal
+ScotApp_1080,Letakkan item di atas tali sawat.
+ScotApp_1505,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_702,702unused
+ScotApp_602,Edit/Add\nWeight Entry
+ScotApp_502,Ketepikan item yang dibatalkan.
+ScotApp_402,Tidak wujud
+ScotApp_302,Sila masukkan PIN anda pada peranti bayaran.
+ScotApp_202,Menguji rakam tamat...
+ScotApp_102,Item Dipanggil Semula
+ScotApp_1130,Ralat Penerima Nota
+ScotApp_1154,Ralat Pengimbas
+ScotApp_1882,Smart Assist alert - item not scanned.
+ScotApp_902,Item dikeluarkan dari kawasan pembungkusan.  Kembalikan item.
+ScotApp_802,"\nBeli troli penuh\n %s? \n\nPilih ""Ya"" atau ""Tidak""."
+ScotApp_1777,Transaksi telah disempurnakan menggunakan kupon yang melebihi had kupon stor.
+ScotApp_1627,Ralat Duit Syiling/Pengitar Semula
+ScotApp_1809,Pengitar Semula Duit Syiling Ralat-ralat Dispenser
+ScotApp_768,Tangguhkan Pengesahan
+ScotApp_393,Pencetak Jurnal
+ScotApp_293,Minta bantuan
+ScotApp_468,   Panggil Balik
+ScotApp_368,Kertas pencetak tidak dimuatkan tersekat
+ScotApp_268,Salah Baca Kad
+ScotApp_1276,USERDEFINED18
+ScotApp_1790,Kredit / Debit Sahaja
+ScotApp_968,968unused
+ScotApp_1343,Pengurus Keselamatan sedang memuatkan…
+ScotApp_573,"Masukkan ID anda dan sentuh ""Masuk"""
+ScotApp_1164,Pencetak tidak didudukkan dengan betul.
+ScotApp_373,Pengeluaran pencetak tersekat
+ScotApp_1293,P
+ScotApp_173,173unused
+ScotApp_460,Ini akan melengkapkan pembelian anda.
+ScotApp_360,Tutup Lorong
+ScotApp_260,260unused
+ScotApp_1710,Ambil Wang Anda Yang Dikembalikan
+ScotApp_1488,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_973,973unused
+ScotApp_873,D.L./ I.D. Entri Nombor:
+ScotApp_1017,Buang item-item sandaran di atas tali sawat.
+ScotApp_860,Pengukuran Diperlukan:
+ScotApp_1367,Pengimbas
+ScotApp_1481,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1538,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1408,BANTUAN
+ScotApp_1531,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1555,Dispenser
+ScotApp_707,7 Hari yang Sebelumnya
+ScotApp_607,Set Penguatkuasaan Pembungkusan
+ScotApp_507,Sahkan Item Secara Visual
+ScotApp_307,Bekas Lain
+ScotApp_207,207unused
+ScotApp_107,Bantuan Sedang Datang
+ScotApp_1100,%s
+ScotApp_1425,Sambung
+ScotApp_907,907unused
+ScotApp_807,Tanggalkan Tag Keselamatan
+ScotApp_1229,MINTA BANTUAN
+ScotApp_284,Scanner: Data lost
+ScotApp_1677,Semak bahawa Pintu Pengitar Semula Duit Syiling ditutup.
+ScotApp_1357,Kumpul Kad Hadiah
+ScotApp_1222,TIADA DALAM PERKHIDMATAN
+ScotApp_1246,EBT
+ScotApp_1841,Please go to Lane for Approval
+ScotApp_1023,1023unused
+ScotApp_765,765unused
+ScotApp_665,"Pilih ""Batalkan Semua"" atau ""Kembali"" untuk meneruskan."
+ScotApp_565,Simpan Log masuk
+ScotApp_465,%s               %s
+ScotApp_365,Kepala pencetak tersekat
+ScotApp_265,265unused
+ScotApp_1760,Tong kupon mengkin penuh atau slot kupon telah tersumbat.Keluarkan apa-apa item yang menyekat slot kupon kemudian kosongkan tong kupon.
+ScotApp_1784,ITEM MULTI-PEK
+ScotApp_965,965unused
+ScotApp_1313,* Semak Pencetak untuk kertas-kertas yang tersekat.\n* Tutup penutup pencetak dan isikan kertas semula.\n* Matikan dan hidupkan terminal semula.dengan betul.
+ScotApp_1434,Usia Dihadkan
+ScotApp_1458,Laporan NCR SelfServ Checkout
+ScotApp_1803,Terima Tunai Sahaja
+ScotApp_1145,Ralat Penerima Duit Syiling
+ScotApp_704,Entri PINPad
+ScotApp_604,Imbas item.
+ScotApp_504,504unused
+ScotApp_404,404unused
+ScotApp_304,Pilih Bekas
+ScotApp_204,Sedang menyalin fail ke pelayan…
+ScotApp_104,104unused
+ScotApp_439,439unused
+ScotApp_339,339unused
+ScotApp_239,Status Pengurus Peranti di luar jangkaan
+ScotApp_139,Ambil Resit
+ScotApp_904,Kelulusan berat item
+ScotApp_804,804unused
+ScotApp_1279,CEK
+ScotApp_1525,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_939,Pemasa telah tamat tempoh
+ScotApp_839,Batalkan Tindakan
+ScotApp_1549,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1272,USERDEFINED14
+ScotApp_1174,BERAT TIDAK SEPADAN
+ScotApp_1296,Isikan semua bekas duit syiling semula ke paras perkhidmatan yang optimum.
+ScotApp_1198,MASUKKAN NOMBOR AKAUN
+ScotApp_782,Note dispenser jam\nRemove note dispenser jam or\nAdjust purge bin.
+ScotApp_682,682unused
+ScotApp_621,Lalai
+ScotApp_482,482unused
+ScotApp_1363,Paparan Garis
+ScotApp_1387,"Menghadapi Ralat Perisian Maut\n Mulakan Terminal Semula.\n\n Untuk Memulakan Terminal Semula :\n* Pusing kunci kekunci Penyelia ke 'S' -ATAU- tekan butang Penyelia.\n* Pilih But Semula Seluruh Sistem.\n*Panggil untuk Sokongan dan memaklumkan mereka tentang ralat tersebut."
+ScotApp_794,Kaset dispenser nota tersekat\nKeluarkan dispenser nota yang tersekat.
+ScotApp_694,694unused
+ScotApp_594,NCR SelfServ Checkout SigCap telah dimuatkan.
+ScotApp_494,Pilih amaun tunai balik daripada senarai.
+ScotApp_394,394unused
+ScotApp_1054,1054unused
+ScotApp_1037,Tandatangan
+ScotApp_1870,%s %s diduga
+ScotApp_223,Tong penangkapan pembaca kad penuh
+ScotApp_1838,Sahkan Item
+ScotApp_685,Setiap Jam
+ScotApp_1708,"Tekan butang pengembalian duit syiling beberapa kali untuk mengosongkan sekatan duit syiling, kemudian sentuh ""Saya telah membetulkan masalah"".\n\nJika ralat berlaku lagi , panggil untuk perkhidmatan."
+ScotApp_1831,Int
+ScotApp_1673,Duit Syiling Tersekat.
+ScotApp_797,Gagal untuk mendispenskan %s kepada pelanggan.\n Semak nota yang tersekat dalam kaset-kaset dan Dispenser nota.\n* Pastikan bahawa kaset-kaset nota dan tong penyingkiran diselakkan.\n* Tutup pintu keselamatan
+ScotApp_1575,Status Dispenser Duit Syiling :
+ScotApp_701,701unused
+ScotApp_497,Amaun Tamat Tempoh:
+ScotApp_401,Masukkan kad. Sila semak bakul untuk item tambahan.
+ScotApp_301,Masukkan Nilai Kupon
+ScotApp_201,Menguji rakam mula...
+ScotApp_101,Harga Tidak Diketahui
+ScotApp_1120,Nota mungkin tersekat di depan %s kaset nota.\n\n Keluarkan %s kaset dan cari nota yang tersekat di kawasan ini.\n\n Keluarkan nota yang tersekat jika berkemungkinan dan gantikan kaset nota.
+ScotApp_1242,DEBIT
+ScotApp_568,Buang
+ScotApp_1144,Dispenser tidak bertindak balas.
+ScotApp_1592,Keluarkan syiling dari bekas yang tersekat.Condongkan tongPutarkan skru ke kanan sehingga duit syiling dapat dikeluarkan.Jangan menggunakan tenaga yang berlebihan.
+ScotApp_901,Kelulusan untuk melangkau pembungkusan.
+ScotApp_801,Beli Troli
+ScotApp_640,Entri-entri Berat WLDB Sedia Ada
+ScotApp_540,540unused
+ScotApp_340,Pilih item daripada senarai. Gunakan butang anak panah untuk menatal atas dan bawah.
+ScotApp_868,Entri Nombor Pengesahan:
+ScotApp_1316,* Buka penutup pencetak dan semak untuk sekatan kertas di kawasan yang ditunjukkan.\n* Tutup penutup pencetak dan isikan kertas semula.
+ScotApp_1868,Ensure your hands are out of the camera view of the scanner
+ScotApp_1266,USERDEFINED8
+ScotApp_1780,MULAKAN TRANSAKSI
+ScotApp_647,N
+ScotApp_672,*** TRANSAKSI MOD LATIHAN ***
+ScotApp_572,"Masukkan kod item dan sentuh ""Masukkan""."
+ScotApp_472,Bantuan Diperlukan
+ScotApp_372,Ralat komunikasi sisi pencetak
+ScotApp_272,Periksa kupon yang digunakan
+ScotApp_172,Imbas item yang tidak dikehendaki atau pilih item pada resit.
+ScotApp_1430,Item tidak sah
+ScotApp_1454,"Masukkan kata laluan dan sentuh ""Masuk"""
+ScotApp_847,Imbasan Selesai
+ScotApp_1775,Luluskan Kupon
+ScotApp_972,972unused
+ScotApp_872,Batalkan Penangguhan
+ScotApp_1007,Bantuan diminta
+ScotApp_1528,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1521,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1643,Ralat Pengitar Semula
+ScotApp_934,Berat Bertambah
+ScotApp_506,506unused
+ScotApp_406,406unused
+ScotApp_306,Tiada Bekas
+ScotApp_206,Opsyen akan dimuatkan.
+ScotApp_106,Bantuan Diperlukan
+ScotApp_1170,"* Open printer cover and check for paper jam in the area shown. \n* Remove Paper.\n* Close printer cover and reload paper.\n* If the error remains, reboot terminal."
+ScotApp_154,Sedang memuatkan…
+ScotApp_1194,NOMBOR PEMBERIKUASAAN
+ScotApp_806,Luluskan Item-item yang disahkan secara visual.
+ScotApp_1219,USIA DIHADKAN
+ScotApp_1825,Simpan Keutamaan
+ScotApp_1667,Nota tersekat
+ScotApp_1849,
+ScotApp_1212,LAIN-LAIN
+ScotApp_633,Tandatangan:
+ScotApp_333,Pembaca kad-ralat sekatan pengatup.
+ScotApp_233,Pastikan bahawa penerima tunai dipasang dengan betul.\n\n Tarik pemegang ke hadapan untuk melepaskan dan luncurkan penerima nota ke hadapan.\n\n Tolak penerima nota ke dalam sampai ia berhenti.
+ScotApp_67,Kembali
+ScotApp_777,777unused
+ScotApp_1383,(Exc)
+ScotApp_577,Mualakan Wang Tunai.
+ScotApp_377,Status - unit-unit
+ScotApp_277,277unused
+ScotApp_1550,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_977,Berat Sebenar: %s %s
+ScotApp_1033,"Nyahaktifkan item atau keluarkan tag keras di lorong dan sentuh ""Kosongkan Keselamatan"""
+ScotApp_1699,"Penggantian digunakan kerana %s Isi Semula atau kosongkan sekatan, kemudian sentuh ""KeadaanTelah Dibetulkan""."
+ScotApp_1057,1057unused
+ScotApp_1303,Kad setia diterima: #%s
+ScotApp_1806,"\n* Sentuh ""Kad-kad Sahaja"" untuk menamatkan transaksi dan memberi baki kepada pelanggan secara manual."
+ScotApp_1578,Jumlah Nilai:
+ScotApp_1571,Sahkan Abaikan Perubahan
+ScotApp_1595,Bahasa Diutamakan
+ScotApp_1140,Sekatan di dalam dispenser nota.
+ScotApp_1613,Tong Penolakan
+ScotApp_1269,USERDEFINED11
+ScotApp_1875,%s %s diduga
+ScotApp_786,Tertangguh di Lorong
+ScotApp_1262,USERDEFINED4
+ScotApp_861,861unused
+ScotApp_1286,Bahasa Melayu
+ScotApp_1892,Security Analysis
+ScotApp_186,186unused
+ScotApp_774,Mata Diperolehi:
+ScotApp_674,"""Alasan bayaran ditolak: """
+ScotApp_574,"Masukkan kata laluan anda dan sentuh ""Masuk"""
+ScotApp_474,474unused
+ScotApp_374,Ralat tanda hitam pencetak
+ScotApp_174,Tidak dapat menemui item yang diimbas. Item belum dibeli lagi atau ia sudah dibatalkan.
+ScotApp_469,469unused
+ScotApp_369,Ralat komunikasi pencetak
+ScotApp_269,Mod Bantuan
+ScotApp_974,974unused
+ScotApp_874,"Masukkan D.L./I.D. # dan sentuh ""Masukkan""."
+ScotApp_838,Perjanjian Pelanggan
+ScotApp_969,969unused
+ScotApp_869,"Masukkan kuantiti dan sentuh ""Masukkan""."
+ScotApp_1491,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1524,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1548,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1474,Ralat Perkakasan. Kod Ralat E%d
+ScotApp_1498,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1027,"Sentuh ""Ya"" untuk membatalkan transaksi atau sentuh ""Tidak"" untuk meneruskan transaksi."
+ScotApp_1541,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1203,DOKUMEN SOKONGAN
+ScotApp_708,708unused
+ScotApp_608,Set Pembandingan Berat
+ScotApp_508,508unused
+ScotApp_408,408unused
+ScotApp_308,sen
+ScotApp_208,208unused
+ScotApp_108,Kupon Tidak Sepadan
+ScotApp_1190,MASUKKAN KUPON
+ScotApp_668,Pencetakan Tandatangan Berjaya.
+ScotApp_1215,RALAT PERANTI
+ScotApp_713,713unused
+ScotApp_613,Letakkan Item di kawasan pembungkusan.
+ScotApp_513,513unused
+ScotApp_213,213unused
+ScotApp_113,Batalkan Item
+ScotApp_400,400unused
+ScotApp_300,300unused
+ScotApp_200,Menguji Broker Transaksi...
+ScotApp_100,Kuantiti Diperlukan
+ScotApp_1110,  Kuantiti %s @ %s/setiap\t%s
+ScotApp_913,Item yang tidak diduga di atas penimbang keselamatan.
+ScotApp_813,"Taip PO# / Nama Jawatan dan sentuh ""Masukkan"""
+ScotApp_900,Letakkan Item di kawasan pembungkusan.
+ScotApp_1306,%s Perubahan dilaksanakan
+ScotApp_1353,Sila depositkan kad hadiah susut anda dalam slot kupon.
+ScotApp_1829,Lulus
+ScotApp_1077,Kembalikan item ke tali sawat
+ScotApp_771,Batalkan Penangguhan
+ScotApp_671,Keluar dari Mod Latihan
+ScotApp_571,"Masukkan kuantiti dan sentuh ""Masukkan""."
+ScotApp_471,   Pengesahan Visual
+ScotApp_322,322unused
+ScotApp_271,Luluskan Kupon Yang Digunakan
+ScotApp_122,122unused
+ScotApp_1420,Batalkan Item %s?
+ScotApp_1444,Keluarkan
+ScotApp_971,971unused
+ScotApp_63,Tidak
+ScotApp_53,53unused
+ScotApp_43,43unused
+ScotApp_33,Saya telah memperbetulkan masalah
+ScotApp_23,+ %s (%s)
+ScotApp_13,  %ss @ %s/%s
+ScotApp_1236,Memproses Laporan…
+ScotApp_1616,Masukkan kiraan Muatan untuk Tong Dispenser.Amaun maksimum yang anda boleh memuatkan ialah %d.
+ScotApp_1518,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_93,Imbas & Bungkus
+ScotApp_83,83unused
+ScotApp_1855,Optional
+ScotApp_1265,USERDEFINED7
+ScotApp_1511,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1289,B - C
+ScotApp_1895,Genr Excp
+ScotApp_505,Nombor Tidak Betul
+ScotApp_205,Penyalinan siap.
+ScotApp_105,Item Tidak Diketahui
+ScotApp_1160,"Semak bahawa kabel disambungkan ke belakang PinPad.\n\n Jika kabel diikat dengan selamat, sentuh ""Saya telah membetulkan masalah"".\n\nJika masalah masih berlaku, matikan dan hidupkan terminal semula."
+ScotApp_1282,Perlukan Harga untuk
+ScotApp_1184,LEBIH BANYAK DATA
+ScotApp_1339,But Semula Seluruh Sistem
+ScotApp_905,(Lebih banyak maklumat pada resit...)
+ScotApp_805,Luluskan Item-item.
+ScotApp_1209,MELEBIHI HAD KAD HADIAH
+ScotApp_1332,Ruang
+ScotApp_1356,Kumpul
+ScotApp_1755,Pilih Daripada Senarai
+ScotApp_776,776unused
+ScotApp_676,Coin Dispenser: Refilled on %s at %s
+ScotApp_576,Mulakan Wang Kad.
+ScotApp_476,Penurunan Kupon
+ScotApp_376,376unused
+ScotApp_276,276unused
+ScotApp_176,Adakah anda ingin menghentikan semakan dan membatalkan seluruh pembelian anda?
+ScotApp_1470,Ralat Peranti Pengitar Semula Nota
+ScotApp_1494,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_976,976unused
+ScotApp_876,"Masukkan ID Ketua Juruwang dan sentuh ""Masuk"""
+ScotApp_1384,Bahasa
+ScotApp_1824,Resit Digital tidak dihasilkan.
+ScotApp_1568,Jumlah Besar :        %s
+ScotApp_1854,Optional
+ScotApp_1561,Denominasi
+ScotApp_1683,Ralat yang Tidak Dapat Dipulihkan.Sila tutupkan Lorong.Panggil Gunnebo dan memberikan informasi ralat yang ditunjukkan di bawah.\n\n Ralat SafePay :%s
+ScotApp_1585,Tong              Nilai  Perubahan Nilai
+ScotApp_865,Mengesahkan Pemegang Kad
+ScotApp_1733,"Pilih ""Kembali"" untuk meneruskan."
+ScotApp_1235,ITEM EAS AKTIF
+ScotApp_1757,"Untuk menambah aksen, sentuh kekunci ""Aksen"" di bahagian bawah skrin, kemudian taip huruf."
+ScotApp_1603,     Tong Dispenser Kad adalah normal
+ScotApp_1259,USERDEFINED1
+ScotApp_1894,Ketepikan item dan teruskan dengan pembelian anda.
+ScotApp_1302,Tutup
+ScotApp_1252,PULANGAN TUNAI DEBIT PIP
+ScotApp_1730,Cari
+ScotApp_1397,Atendan
+ScotApp_1326,PEMASA MEMASUKKAN KUPON TELAH TAMAT TEMPOH.
+ScotApp_1440,Pengurusan Nota
+ScotApp_1073,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;DATANEEDEDTYPE=%d;
+ScotApp_1097,Rekod-rekod/Laporan-laporan Cetakan
+ScotApp_1514,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_651,Lalai
+ScotApp_551,551unused
+ScotApp_451,Status penerima duit syiling tersekat
+ScotApp_351,Status Tunai/Kertas
+ScotApp_251,251unused
+ScotApp_1872,1872unused
+ScotApp_951,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s dikeluarkan;LSWND3=%s;
+ScotApp_851,Dua Item
+ScotApp_168,Imbas kupon anda dan ketepikannya sehingga akhir pembelian.
+ScotApp_1818,"* Buka kunci dan tarik dulang corong keluar untuk mengosongkan sekatan. (I).\n* Pulangkan syiling yang tersekat ke tong-tong corong yang betul.Kemudian masukkan semula dan kuncikan corong dulang.\n*Tarik keluar pengitar semula duit syiling.Kemudian buka kunci dan keluarkan penutup.\n* Putuskan sambungan kabel yang ditunjukkan(II).\n* Lepaskan tab merah di sebelah kanan penerima kemudian tarik ia ke depan dan membalikkan ia untuk mengosongkan sekatan dari kawasan yang ditunjukkan(III).\n* Masukkan penerima semula dan sambungkan kabel semula.\n* Gantikan dan kuncikan penutup.Jika ralat berlaku lagi , panggil untuk perkhidmatan."
+ScotApp_1180,TIADA HARGA YANG SEPADAN
+ScotApp_1205,SANDARAN KAWASAN BEG
+ScotApp_712,712unused
+ScotApp_612,Tambah Berat
+ScotApp_512,Pengesahan Visual
+ScotApp_312,tong tersekat
+ScotApp_212,212unused
+ScotApp_112,Sahkan Kuantiti
+ScotApp_1393,"Hentikan dan mulakan atur cara NCR SelfServ Checkout semula.Jika ralat masih berlaku, hubungi kaunter bantuan."
+ScotApp_912,Lulus dan Kemas Kini Berat
+ScotApp_1391,"Sentuh ""Saya telah membetulkan masalah"".\n Jika ralat masih berlaku, tutupkan dan mulakan terminal semula."
+ScotApp_1815,"* Buka kunci dan tarik dulang corong keluar.\n* Masukkan semula apa-apa corong-corong yang hilang dan pastikan bahawa semua corong dipasang dengan betul.\n* Pastikan bahawa corong denominasi duit syiling yang terendah dimasukkan dan dipasangkan dengan betul.\n* Pastikan bahawa corong-corong mata wang dimasukkan.Jika ralat berlaku lagi , panggil untuk perkhidmatan."
+ScotApp_1727,Cari Item
+ScotApp_778,778unused
+ScotApp_678,678unused
+ScotApp_578,Tamatkan Wang Kad.  Ubah Tamat Tempoh.
+ScotApp_126,(bbhhtt).
+ScotApp_378,Pencetak Resit
+ScotApp_278,Log Keselamatan
+ScotApp_1376,", %s"
+ScotApp_1490,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_743,743unused
+ScotApp_1043,Guna Mod Bantuan untuk menerima %s daripada pelanggan.
+ScotApp_543,ID Operator tidak boleh melebihi %d angka.
+ScotApp_343,343unused
+ScotApp_243,Pembaca kad Kad yang tidak sah
+ScotApp_143,Tandatangan Resit
+ScotApp_470,   Usia Dihadkan
+ScotApp_370,Pencetak pencetak terbuka
+ScotApp_270,Luluskan Kupon
+ScotApp_170,"Keluarkan item dari penimbang dan tekan butang ""Scale Zero"" pada pengimbas."
+ScotApp_1410,Ubah Harga
+ScotApp_1588,"Setiap tong mesti dikosongkan sebelum butang ""Pikap Dispenser"" boleh dipilih.Buang setiap tong corong duit syiling kemudian sentuh ""Pikap Dispenser"""
+ScotApp_943,Saya menggunakan beg saya sendiri
+ScotApp_843,843unused
+ScotApp_970,970unused
+ScotApp_870,Amaran:
+ScotApp_1067,1067unused
+ScotApp_1581,Dispenser Duit Syiling
+ScotApp_1238,BAYARAN LAIN-LAIN
+ScotApp_1606,     Tong penolakan adalah normal
+ScotApp_1187,RALAT PERANTI
+ScotApp_1508,Sila rujuk kepada Manual Peranti untuk membetulkan ralat.
+ScotApp_1811,"*Tarik keluar pengitar semula duit syiling.\n* Keluarkan syiling atau tolak syiling ke depan untuk mengosongkan sekatan dari kawasan yang ditunjukkan\n* Pulangkan syiling kepada pelanggan.Jika ralat berlaku lagi , panggil untuk perkhidmatan."
+ScotApp_1231,DISAHKAN SECARA VISUAL
+ScotApp_1255,SEMAKAN DEBIT PIP
+ScotApp_717,717unused
+ScotApp_617,"Pilih Tetapan untuk pembandingan berat. (Compare item's weight to existing entries.)"
+ScotApp_517,Bayaran lain diminta.
+ScotApp_417,Jumlah Keras dimuatkan.
+ScotApp_317,317unused
+ScotApp_217,217unused
+ScotApp_117,Ketepikan Item
+ScotApp_1639,Ralat Pengitar Semula Duit Syiling
+ScotApp_917,Terlalu banyak permintaan untuk mengeluarkan item-item dari kawasan pembungkusan. Maksimum=%d
+ScotApp_817,Bantuan Diperlukan
+ScotApp_56,Batalkan Bayaran
+ScotApp_46,Bantuan
+ScotApp_36,Dibayar Balik:
+ScotApp_26,26unused
+ScotApp_16,%s akan dicaj ke kad anda.
+ScotApp_1322,Ralat Pengesan Kupon\n kegagalan Komunikasi.
+ScotApp_1346,Lorong di luar talian dan sistem sedang mencuba untuk menyambung semula.
+ScotApp_86,86unused
+ScotApp_775,Selamat datang ke NCR SelfServ Checkout!Selamat membeli-belah!
+ScotApp_675,Dispenser Duit Syiling Diisi Semula
+ScotApp_575,Wang Tunai Akhir.  Tamat Tempoh Baki.
+ScotApp_475,Transaksi Digantung
+ScotApp_375,Masa pencetak tamat
+ScotApp_1401,Bantuan sedang berlangsung.\n\nSila tunggu...
+UnknownItemMessage,Bantuan akan tiba sebentar lagi.\n\nLetakkan item ke tepi dan teruskan.
+TimeRestrictedItemMessage,Anda tidak dapat membeli item ini pada masa ini. \n\nLetakkan item ke tepi dan teruskan.
+ItemQuantityExceededMessage,Anda telah melebihi kuantiti yang dibenarkan untuk item ini. \n\nLetakkan item ke tepi dan teruskan.
+WeightMismatch,Sedang menyemak berat item.\n\nSila tunggu...
+ItemQuantityExceeded,Had Kuantiti Melebihi
+WaitForRemoteAssistanceTitle,Atendan Jauh
+ScotApp_489,Terima kasih kerana menggunakan NCR SelfServ Checkout.
+ScotApp_273,Jangan imbas buat masa ini.\nAsingkannya.
+ScotApp_431,Kad Setia Tidak Sah. Sila sahkan.
+ScotApp_410,Bantuan diperlukan untuk:
+ScotApp_1739,"Sila tunggu ketibaan atendan.\nSistem tidak dapat mengesahkan beg anda.\nJika anda telah meletakkan sesuatu selain daripada bag secara tidak sengaja di kawasan pembungkusan, sila keluarkannya sekarang."
+ScotApp_73,Kembali ke Mod Membeli-belah
+ScotApp_772,Permintaan telah dibuat untuk membatalkan transaksi ini.\n Sila pastikan atau batalkan permintaan ini.
+ScotApp_530,Kad salah baca.\nGuna kad berbeza\n   -atau-\nBayar secara tunai.\n   -atau-\nMinta Bantuan.
+ScotApp_524,PIN salah telah dimasukkan.\nMasukkan semula PIN pada peranti bayaran.
+ScotApp_397,Guna Mod Bantuan untuk menjual item-item yang sah.\n Kumpulkan item-item lain yang bukan untuk dijual.
+ScotApp_171,"""%s""\n\nAdakah %d betul?"
+ScotApp_1374,\n---------------------------------------\n
+ScotApp_1646,Transaksi digantung. Asingkan semua item.
+ScotApp_495,Anda telah melebihi kuantiti yang dibenarkan untuk item ini.\n\nSila asingkannya dan teruskan.
+ScotApp_529,"Keluarkan Kad, kemudian...\nMasukkan kad berbeza\n   -or-\nBayar guna tunai.\n   -atau-\nMinta Bantuan."
+ScotApp_275,Jangan masukkan kad caj buat masa ini.\nAmbil kad anda.
+ScotApp_1891,System Verification in progress. \nPlease wait...
+ScotApp_1750,Sila tunggu semasa kami memproseskan cap jari anda.
+ScotApp_169,Adakah anda ingin meneruskan pembelian anda?
+ScotApp_415,Ambil Kad Setia anda.\nKad telah dimasukkan sebelum ini.
+ScotApp_1793,Mesin ini hanya akan menerima kredit atau debit buat masa ini.\nAdakah anda ingin meneruskan?
+ScotApp_477,Turunkan kupon anda.\nSelepas cetakan resit anda:\n-- Kumpul item anda.\n-- Bawa resit dan kupon ke stesen pembayaran.
+ScotApp_177,Seluruh pembelian dibatalkan. Asingkan semua item.
+ScotApp_656,Sila asingkan <%s>.\nRakan simpanan akan membantu anda.
+ScotApp_1709,Jangan masukkan wang kertas atau wang syiling pada ketika ini.\nSila ambil wang tunai anda yang dikembalikan.\nBil dikeluarkan di bawah pengimbas.
+ScotApp_435,"Pilih jenis manfaat.\nJika anda ingin menggunakan setem makanan, ia mesti digunakan sebelum manfaat lain."
+ScotApp_808,Bawa item dengan tag keselamatan kepada atendan untuk pengalihan.
+ScotApp_294,"Untuk bantuan kedai, sentuh butang ""Minta Bantuan""."
+ScotApp_1287,Sila tunggu...\nMenyemak berat item.
+ScotApp_525,"PIN Salah Telah Dimasukkan.\nKeluarkan Kad, kemudian...\nMasukkan kad berbeza\n -or-\nBayar guna tunai"
+ScotApp_480,"Sila Sentuh ""OK"", kemudian bawa slip transaksi dan item-item anda kepada juruwang."
+ScotApp_1751,Telah melebihi peruntukan berat maksimum.\nKeluarkan item dari penimbang beg.
+ScotApp_175,"Adakah anda ingin mengeluarkan\n""%s""\ndaripada resit?"
+ScotApp_1746,Tiada pelayan cap jari.\n Sila cuba lagi.
+ScotApp_1839,Sila tunggu juruwang.\nJangan imbas buat masa ini. Asingkannya.
+ScotApp_501,Sila tandatangan resit dan tunggu kelulusan kedai.
+ScotApp_414,Ambil Kad Setia anda.\nDiskaun tidak boleh digunakan kepada pembelian semasa anda. Ia akan diemelkan kepada anda.
+ScotApp_563,Ralat telah berlaku apabila memulakan Jumlah Keras.\n Aplikasi ini akan keluar sekarang.
+ScotApp_263,Tidak boleh batalkan item sehingga kuponnya dibatalkan.\nBatalkan kupon item dahulu.
+ScotApp_800,"Sila semak bakul anda.\n\nImbas item tambahan sekarang atau\nSentuh ""OK"" untuk membayar."
+ScotApp_134,Pengesahan sedang dilakukan.\nSila tunggu.
+ScotApp_620,Masukkan Toleransi
+ScotApp_161,"%s\nGunakan pad kekunci untuk memasukkan kuantiti dan sentuh ""OK""."
+ScotApp_440,Baki manfaat tunai anda kurang daripada apa yang diperlukan.\nAdakah anda ingin memohon baki manfaat tunai %s anda kepada pembelian ini?
+ScotApp_184,%s akan didebitkan dari akaun anda.
+ScotApp_274,Jangan masukkan tunai buat masa ini.\nAmbil tunai anda.
+ScotApp_1744,Peranti gagal untuk mengenali cap jari anda.\n Sila cuba lagi.
+ScotApp_160,Item telah dipanggil semula.\nBantuan sedang dalam perjalanan.\nKetepikan item dan teruskan dengan pembelian anda.
+ScotApp_1795,"Atau mengehadkan kepada ""Kad-kad Sahaja"""
+ScotApp_159,Harga item tidak diketahui.\nBantuan sedang dalam perjalanan.\nKetepikan item dan teruskan dengan pembelian anda.
+ScotApp_458,Select the benefit type.\nFood stamps cannot be used for this purchase.
+ScotApp_1329,Sila tunggu ...\nMenyemak berat item.\nBerat berganda dibungkus.
+ScotApp_407,Ralat membaca kad.\n* Cuba kad berbeza.\n -or-\n* Minta Bantuan
+ScotApp_706,"Your food stamp balance is less than the total for this purchase.\nTouch ""OK"" to use a different payment method."
+ScotApp_606,Padam Entri-entri Berat
+ScotApp_906,Sila ambil item anda.
+ScotApp_705,"Your cash benefit balance is less than the total for this purchase.\nTouch ""OK"" to use a different payment method."
+ScotApp_605,Add Weight Entry
+ScotApp_405,Ralat membaca kad.\n* Cuba kad berbeza.\n -or-\n* Bayar secara tunai\n -or-\n* Minta Bantuan
+ScotApp_491,Sila ambil kad anda.
+ScotApp_818,Sila tunggu juruwang.\nBantuan diperlukan untuk:
+ScotApp_1796,"Atau mengehadkan kepada ""Tunai Sahaja"""
+ScotApp_438,Baki setem makanan anda kurang daripada apa yang diperlukan.\nAdakah anda ingin memohon baki setem makanan %s anda kepada pembelian ini?
+ScotApp_1596,"Adakah anda ingin menyimpan %s sebagai bahasa keutamaan anda pada %s anda?\nPilih ""Ya"" atau ""Tidak""."
+ScotApp_766,%s akan dicaj ke akaun anda.
+ScotApp_166,Bantuan sedang dalam perjalanan.\nSila teruskan dengan pembelian anda.
+ScotApp_413,Ambil Kad Setia anda.\nHarga diskaun akan digunakan.
+ScotApp_1797,"Tindakan pembetulan tidak membaiki ralat.\n Sila cuba lagi atau hadkan kepada ""Tunai Sahaja"""
+ScotApp_178,Tunggu kelulusan simpanan.\nKelulusan diperlukan untuk:
+ScotApp_790,Kad anda telah ditolak.\nSila pilih kaedah bayaran yang berbeza.
+ScotApp_1794,Mesin ini hanya akan menerima tunai buat masa ini.\nTiada kredit atau debit boleh diproses.\nAdakah anda ingin meneruskan?
+ScotApp_412,Item ini akan menyebabkan pembelian anda melebihi %s.\nSila bayar sekarang dan beli item lain secara berasingan.
+ScotApp_546,Anda tidak cukup umur untuk membeli item ini.\nSila asingkannya dan teruskan dengan pembelian anda.
+ScotApp_553,Kupon diterima pada akhir pembelian anda.\nSila ketepikannya dan teruskan.
+ScotApp_211,Memproses...\nSila tunggu.
+ScotApp_1400,Atendan Jauh
+ScotApp_1754,Huruf-huruf tidak sepadan dengan item.\nSila cuba lagi.
+ScotApp_1859,"Beli troli penuh %s? Pilih ""Ya"" atau ""Tidak""."
+ScotApp_533,Anda tidak dapat membeli item ini buat masa ini.\nSila asingkannya dan teruskan dengan pembelian anda.
+ScotApp_1763,e=d=%5.3fkg Maks %5.3f kg min %3.1f kg Nmaks %4.0f
+ScotApp_1762,e=d=%4.2flb Maks %4.2f lb min %3.1f lb Nmaks %4.0f
+ScotApp_1764, e = d = %4.2f lb Max %4.2f lb Min %3.1f lb Nmax %4.0f
+ScotApp_1765, e = d = %5.3f kg Max %5.3f kg Min %3.1f kg Nmax %4.0f
+ScotApp_305,Pilih Bekas Untuk Anda: %s
+ScotApp_703,"Gunakan Pad PIN. Tekan ""Batal"" di Pad PIN untuk membatalkan pembayaran."
+ScotApp_125,"Masukkan tarikh lahir pelanggan %s dan sentuh ""Lulus"""
+ScotApp_1853,"Masukkan tarikh lahir pelanggan %s dan sentuh ""Masuk"""
+ScotApp_654,Tarikh hendaklah dalam format %s.Nilai yang dimasukkan: %s
+ScotApp_560,Sistem ini tidak menerima kupon.
+ScotApp_1788,Adakah %d betul? \n\nCaj beg %s akan ditambah kepada jumlah anda.
+ScotApp_1358,Amaun kad hadiah %s telah digunakan kepada pembelian anda. \n\nBaki kad hadiah anda ialah %s.
+ScotApp_167,Kupon tidak sepadan dengan mana-mana item yang dibeli.\n\nKupon ini tidak boleh diterima.
+ScotApp_164,Sistem tidak boleh mengenal pasti kod item tersebut.\n\nPastikan nombor yang betul telah dimasukkan.
+ScotApp_547, Nombor operator dan kata laluan tidak betul.\n\nSila cuba lagi.
+ScotApp_442,%s pembelian anda boleh dibayar menggunakan setem makanan.\n\n%s
+ScotApp_443,%s akan dicaj ke akaun anda.\n\nAdakah ini OK?
+ScotApp_700,Item tidak boleh dijual dalam lorong ini.\nBantuan sedang dalam perjalanan.\n\nAsingkannya dan teruskan dengan pembelian anda.
+ScotApp_165,Sistem tidak boleh mengenal pasti item ini.\nBantuan sedang dalam perjalanan.\n\nKetepikan item dan teruskan dengan pembelian anda.
+ScotApp_182,Amaun yang anda telah masukkan untuk kupon ini terlalu tinggi.\n\nSistem ini tidak boleh menerima kupon ini.
+ScotApp_733,Kad Ditolak.\nGuna kad berbeza atau Bayar guna tunai.
+ScotApp_812,Terima kasih kerana menggunakan NCR SelfServ Checkout.\nSila bawa kad hadiah anda kepada juruwang.
+ScotApp_1826,Adakah anda ingin menyimpan keutamaan anda pada Kad Setia anda?
+ScotApp_1852,Sila keluarkan item yang dibatalkan daripada kawasan pembungkusan.
+QRCodeErrorText,QR Code Error
+ScanQRCodeInstruction,Scan this code to complete\nyour Mobile shopping.
+ScotApp_1896,Transferring items from mobile cart.
+ScotApp_1897,Sila tunggu...
+ScotApp_1898,Mobile Cart
+ScotApp_1899,Mobile Audit
+ScotApp_1900,Mobile Shopper Audit
+ScotApp_1901,"Touch ""OK"" then use Attendant Handset to complete audit."
+ScotApp_1902,Begin Mobile Transaction
+ScotApp_1903,End Mobile Transaction
+ScotApp_1904,%d Items Sold
+ScotApp_1905,Scan barcode to complete your Mobile checkout.
+ScotApp_1906,Mobile cart transfer is complete.
+ScotApp_1907,\nTouch Pay or add more items.
+MoveLeft,< Move
+MoveRight,Move >
+Accessibility,Accessibility
+SearchItemCodeWatermark,Enter Item Code
+ScanAndBagNoSearchKeyIn,Scan or look up item to start
+ScanLookUpKeyInItem,"Scan, look up, or key in item code to start."
+LookUpKeyInItem,Look up or Key in Item
+ScanOrKeyInItem,Scan or Key in Item
+RemoveItemFromProduceScale,Remove item from scale.
+RemoveItemFromProduceScaleTitle,Remove Item

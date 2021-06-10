@@ -1,0 +1,581 @@
+<Display Version="1.0">
+  <Includes>
+    <!-- INCLUDE XML HERE -->
+    <Include File="%ConfigPath%\ConfigLanguage.xml" />
+  </Includes>
+  <Colors>
+    <Color Name="Black">
+      <Alpha>255</Alpha>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+    </Color>
+    <Color Name="Gray">
+      <Alpha>255</Alpha>
+      <Red>153</Red>
+      <Green>153</Green>
+      <Blue>153</Blue>
+    </Color>
+    <Color Name="LightGray">
+      <Alpha>255</Alpha>
+      <Red>218</Red>
+      <Green>218</Green>
+      <Blue>218</Blue>
+    </Color>
+    <Color Name="DarkGray">
+      <Alpha>100</Alpha>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+    </Color>
+    <Color Name="Yellow">
+      <Alpha>255</Alpha>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>0</Blue>
+    </Color>
+    <Color Name="White">
+      <Alpha>255</Alpha>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </Color>
+    <Color Name="Red">
+      <Alpha>255</Alpha>
+      <Red>255</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+    </Color>
+    <Color Name="Blue">
+      <Alpha>255</Alpha>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>255</Blue>
+    </Color>
+    <Color Name="Transparent">
+      <Alpha>0</Alpha>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+    </Color>
+    <Color Name="LightBlue">
+      <Alpha>255</Alpha>
+      <Red>106</Red>
+      <Green>106</Green>
+      <Blue>255</Blue>
+    </Color>
+    <Color Name="PaleYellow">
+      <Alpha>255</Alpha>
+      <Red>241</Red>
+      <Green>241</Green>
+      <Blue>174</Blue>
+    </Color>
+    <Color Name="HighAlertTrxCountThresholdColor">
+      <Alpha>255</Alpha>
+      <Red>255</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+    </Color>
+    <Color Name="CautionTrxCountThresholdColor">
+      <Alpha>255</Alpha>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>0</Blue>
+    </Color>
+    <Color Name="NormalTrxCountThresholdColor">
+      <Alpha>255</Alpha>
+      <Red>0</Red>
+      <Green>255</Green>
+      <Blue>0</Blue>
+    </Color>
+	<Color Name="TrxCountThresholdColor">
+      <Alpha>255</Alpha>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </Color>
+    <Color Name="Purple">
+      <Alpha>255</Alpha>
+      <Red>214</Red>
+      <Green>0</Green>
+      <Blue>115</Blue>
+    </Color>
+  </Colors>
+  <Fonts>
+    <Font Name="EchoFont">
+      <Face>Arial</Face>
+      <Size>13</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TitleFont">
+      <Face>Arial</Face>
+      <Size>17</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="LeadthruFont">
+      <Face>Arial</Face>
+      <Size>10</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="DateTextFont">
+      <Face>Arial</Face>
+      <Size>9</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="KeyBoardFont">
+      <Face>Arial</Face>
+      <Size>13</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="KeyBoardFont2">
+      <Face>Arial</Face>
+      <Size>11</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="MainButtonFont">
+      <Face>Arial</Face>
+      <Size>11</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ButtonCommandFont">
+      <Face>Arial</Face>
+      <Size>11</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="LaneButtonFont">
+      <Face>Arial</Face>
+      <Size>17</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SecondaryLaneButtonTextFont">
+      <Face>Arial</Face>
+      <Size>9</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="LaneButtonTextFont">
+      <Face>Arial</Face>
+      <Size>7</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ReceiptFontVoid">
+      <Face>Arial</Face>
+      <Size>9</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+      <Strikethrough>True</Strikethrough>
+    </Font>
+    <Font Name="FixedReceiptFont">
+      <Face>Courier New</Face>
+      <Size>9</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="LaneStatusFont">
+      <Face>Arial</Face>
+      <Size>8</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="LaneStateWindowFont">
+      <Face>Arial</Face>
+      <Size>7</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TotalAndNumItemFont">
+      <Face>Arial</Face>
+      <Size>13</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="AMFunctionButtonFont">
+      <Face>Arial</Face>
+      <Size>7</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="LeadthruFont">
+      <Face>Arial</Face>
+      <Size>9</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMMessageFont">
+      <Face>Arial</Face>
+      <Size>18</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMNormalButton">
+      <Face>Arial</Face>
+      <Size>12</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ScaleFont">
+      <Face>Arial</Face>
+      <Size>26</Size>
+      <Bold>false</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMReportFont">
+      <Face>Courier New</Face>
+      <Size>12</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="MainButtonFont">
+      <Face>Arial</Face>
+      <Size>11</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="EchoFont">
+      <Face>Arial</Face>
+      <Size>13</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+  </Fonts>
+  <Controls>
+    <Control Name="KeyBoardP1" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">284,168,218,197</Property>
+        <Property Name="ButtonHorizontalSpacing">16</Property>
+        <Property Name="ButtonVerticalSpacing">7</Property>
+        <Property Name="ButtonHeight">61</Property>
+        <Property Name="ButtonWidth">62</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">3</Property>
+        <Property Name="Action">Click,InputText,Echo</Property>
+      </Properties>
+      <List>
+        <Button>7,-,7</Button>
+        <Button>8,-,8</Button>
+        <Button>9,-,9</Button>
+        <Button>4,-,4</Button>
+        <Button>5,-,5</Button>
+        <Button>6,-,6</Button>
+        <Button>1,-,1</Button>
+        <Button>2,-,2</Button>
+        <Button>3,-,3</Button>
+      </List>
+    </Control>
+    <Control Name="SMNumericKeyBoard" Type="Button">
+      <Properties>
+        <Property Name="Position">537,168,128,61</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">$ClearButtonText$</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon-med.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">3</Property>
+        <Property Name="Data">Clear</Property>
+        <Property Name="Action">Click,InputText,Echo</Property>
+      </Properties>
+    </Control>
+    <Control Name="KeyBoardP4" Type="Button">
+      <Properties>
+        <Property Name="Position">537,310,127,129</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">$EnterButtonText$</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon-enter.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">3</Property>
+      </Properties>
+    </Control>
+    <Control Name="KeyBoardP2" Type="Button">
+      <Properties>
+        <Property Name="Position">284,378,141,61</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">0</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon-zero.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">3</Property>
+        <Property Name="Data">0</Property>
+        <Property Name="Action">Click,InputText,Echo</Property>
+      </Properties>
+    </Control>
+    <Control Name="AlphaNumP1" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">14,161,665,61</Property>
+        <Property Name="ButtonHorizontalSpacing">5</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">61</Property>
+        <Property Name="ButtonWidth">62</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">3</Property>
+        <Property Name="Action">Click,InputText,Echo</Property>
+      </Properties>
+      <List>
+        <Button>1,-,1</Button>
+        <Button>2,-,2</Button>
+        <Button>3,-,3</Button>
+        <Button>4,-,4</Button>
+        <Button>5,-,5</Button>
+        <Button>6,-,6</Button>
+        <Button>7,-,7</Button>
+        <Button>8,-,8</Button>
+        <Button>9,-,9</Button>
+        <Button>0,-,0</Button>
+      </List>
+    </Control>
+    <Control Name="AlphaNumP2" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">14,228,665,61</Property>
+        <Property Name="ButtonHorizontalSpacing">5</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">61</Property>
+        <Property Name="ButtonWidth">62</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">3</Property>
+        <Property Name="Action">Click,InputText,Echo</Property>
+      </Properties>
+      <List>
+        <Button>Q,-,Q</Button>
+        <Button>W,-,W</Button>
+        <Button>E,-,E</Button>
+        <Button>R,-,R</Button>
+        <Button>T,-,T</Button>
+        <Button>Y,-,Y</Button>
+        <Button>U,-,U</Button>
+        <Button>I,-,I</Button>
+        <Button>O,-,O</Button>
+        <Button>P,-,P</Button>
+      </List>
+    </Control>
+    <Control Name="AlphaNumP3" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">47,295,598,61</Property>
+        <Property Name="ButtonHorizontalSpacing">5</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">61</Property>
+        <Property Name="ButtonWidth">62</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">3</Property>
+        <Property Name="Action">Click,InputText,Echo</Property>
+      </Properties>
+      <List>
+        <Button>A,-,A</Button>
+        <Button>S,-,S</Button>
+        <Button>D,-,D</Button>
+        <Button>F,-,F</Button>
+        <Button>G,-,G</Button>
+        <Button>H,-,H</Button>
+        <Button>J,-,J</Button>
+        <Button>K,-,K</Button>
+        <Button>L,-,L</Button>
+      </List>
+    </Control>
+    <Control Name="AlphaNumP4" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">80,364,531,61</Property>
+        <Property Name="ButtonHorizontalSpacing">5</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">61</Property>
+        <Property Name="ButtonWidth">62</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">3</Property>
+        <Property Name="Action">Click,InputText,Echo</Property>
+      </Properties>
+      <List>
+        <Button>Z,-,Z</Button>
+        <Button>X,-,X</Button>
+        <Button>C,-,C</Button>
+        <Button>V,-,V</Button>
+        <Button>B,-,B</Button>
+        <Button>N,-,N</Button>
+        <Button>M,-,M</Button>
+        <Button>.,-,.</Button>
+      </List>
+    </Control>
+    <Control Name="AlphaNumKey3" Type="Button">
+      <Properties>
+        <Property Name="Position">627,364,127,129</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">$EnterButtonText$</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon-enter.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">3</Property>
+      </Properties>
+    </Control>
+    <Control Name="SpaceKey" Type="Button">
+      <Properties>
+        <Property Name="Position">281,431,196,61</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">$SpaceButtonText$</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon-space.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">3</Property>
+        <Property Name="Data">Space</Property>
+        <Property Name="Action">Click,InputText,Echo</Property>
+      </Properties>
+    </Control>
+    <Control Name="BackSpaceKey" Type="Button">
+      <Properties>
+        <Property Name="Position">655,295,128,61</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">$BackSpaceButtonText$</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon-med.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">3</Property>
+        <Property Name="Data">Backspace</Property>
+        <Property Name="Action">Click,InputText,Echo</Property>
+      </Properties>
+    </Control>
+    <Control Name="Echo" Type="Edit">
+      <Properties>
+        <Property Name="Position">259,110,186,41</Property>
+        <Property Name="Font">EchoFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">2</Property>
+        <Property Name="TextLength">12</Property>
+        <Property Name="Z-Order">3</Property>
+      </Properties>
+    </Control>
+    <Control Name="EchoBox" Type="Static">
+      <Properties>
+        <Property Name="Position">259,110,267,41</Property>
+        <Property Name="Picture">%MediaPath%\8x6-Graphx_KeyPadEchoBox.png</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="OperationID" Type="Static">
+      <Properties>
+        <Property Name="Position">2,544,275,21</Property>
+        <Property Name="Font">DateTextFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="TextLineAlignment">0</Property>
+        <Property Name="Z-Order">1</Property>
+      </Properties>
+    </Control>
+    <Control Name="DateText" Type="Static">
+      <Properties>
+        <Property Name="Position">2,562,291,31</Property>
+        <Property Name="Font">DateTextFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="Z-Order">1</Property>
+      </Properties>
+    </Control>
+    <Control Name="Title" Type="Static">
+      <Properties>
+        <Property Name="Position">2,2,795,61</Property>
+        <Property Name="Font">TitleFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="TextLineAlignment">0</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="Leadthru" Type="Static">
+      <Properties>
+        <Property Name="Position">4,78,793,27</Property>
+        <Property Name="Font">LeadthruFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="TextLineAlignment">0</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="ButtonCommand0" Type="Button">
+      <Properties>
+        <Property Name="Position">654,543,140,55</Property>
+        <Property Name="Font">MainButtonFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">$GoBackButtonText$</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_global.png</Property>
+        <Property Name="TextPosition">13,5,120,41</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">1</Property>
+      </Properties>
+    </Control>
+    <Control Name="MainBackground" Type="Static">
+      <Properties>
+        <Property Name="Position">0,103,800,441</Property>
+        <Property Name="Picture">%MediaPath%\8x6-Mat_keypad.png</Property>
+        <Property Name="Z-Order">1</Property>
+      </Properties>
+    </Control>
+    <Control Name="ShiftKey" Type="Button">
+      <Properties>
+        <Property Name="Position">47,431,128,61</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">$ShiftButtonText$</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon-med.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="State">1</Property>
+        <Property Name="Toggle">true</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+      <Control Name="TransactionCountText" Type="Static">
+      <Properties>
+        <Property Name="Position">330,541,150,21</Property>
+		<Property Name="TextFormat">$TransactionCountText$</Property>
+        <Property Name="Font">MainButtonFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+		<Property Name="Visible">True</Property>
+        <Property Name="Z-Order">1</Property>
+      </Properties>
+    </Control>
+    <Control Name="TransactionCount" Type="Static">
+      <Properties>
+		<Property Name="BackgroundColor">TrxCountThresholdColor</Property>
+        <Property Name="Position">332,560,60,35</Property>
+        <Property Name="Font">EchoFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">0</Property>
+		<Property Name="Visible">True</Property>
+        <Property Name="Z-Order">1</Property>
+      </Properties>
+    </Control>
+  </Controls>
+</Display>

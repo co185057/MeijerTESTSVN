@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{20D4826A-C6FA-45DB-90F4-C717570B9F32}") = "VolumeCE", "VolumeCE.csdproj", "{FAD678A3-060F-4CA7-AE03-55DF5077F423}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FAD678A3-060F-4CA7-AE03-55DF5077F423}.Debug.ActiveCfg = Debug|Pocket PC
+		{FAD678A3-060F-4CA7-AE03-55DF5077F423}.Debug.Build.0 = Debug|Pocket PC
+		{FAD678A3-060F-4CA7-AE03-55DF5077F423}.Debug.Deploy.0 = Debug|Pocket PC
+		{FAD678A3-060F-4CA7-AE03-55DF5077F423}.Release.ActiveCfg = Release|Pocket PC
+		{FAD678A3-060F-4CA7-AE03-55DF5077F423}.Release.Build.0 = Release|Pocket PC
+		{FAD678A3-060F-4CA7-AE03-55DF5077F423}.Release.Deploy.0 = Release|Pocket PC
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

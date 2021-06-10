@@ -1,0 +1,303 @@
+<Display>
+	<Includes>
+		<!--  The message file include has been moved to SharedRAP.000 because of PSXv23 changes
+		<Include File="%ConfigPath%\CustomAssistMsg0409.xml"/>
+		-->
+	</Includes>
+	<Controls>
+		<Control Name="SelectedItem" Type="Edit">
+		    <!-- Invisible control used enable/disable buttons -->
+			<Position>0,0,236,53</Position>
+			<Font>EchoFont</Font>
+			<TextColor>Black</TextColor>
+			<TextAlignment>2</TextAlignment>
+			<TextLength>20</TextLength>
+			<Visible>False</Visible>
+			<Z-Order>-2</Z-Order>
+		</Control>
+		<Control Name="CmdBtn_Button1" Type="Button">
+			<Data></Data>
+			<Position>165,3,73,37</Position>
+			<Font>LaneStateWindowFont1</Font>
+			<TextColor>Black</TextColor>
+        	<Audio>%AudioPath%\BttnValid.wav</Audio>
+			<Picture>%MediaPath%\btn-func.png</Picture>
+			<TextPosition>2,2,69,33</TextPosition>        							
+			<Z-Order>2</Z-Order>
+		</Control>	
+		<Control Name="CmdBtn_Button2" Type="Button">
+			<Data></Data>
+			<Position>165,43,73,37</Position>
+			<Font>LaneStateWindowFont1</Font>
+			<TextColor>Black</TextColor>
+        	<Audio>%AudioPath%\BttnValid.wav</Audio>
+			<Picture>%MediaPath%\btn-func.png</Picture>
+			<TextPosition>2,2,69,33</TextPosition>        							
+			<Z-Order>2</Z-Order>
+		</Control>									
+		<Control Name="CmdBtn_Button3" Type="Button">
+			<Data></Data>
+			<Position>165,80,73,37</Position>
+			<Font>LaneStateWindowFont1</Font>
+			<TextColor>Black</TextColor>
+        	<Audio>%AudioPath%\BttnValid.wav</Audio>
+			<Picture>%MediaPath%\btn-func.png</Picture>
+			<TextPosition>2,2,69,33</TextPosition>        							
+			<Z-Order>2</Z-Order>
+		</Control>									
+		<Control Name="CmdBtn_Button4" Type="Button">
+			<Data></Data>
+			<Position>165,118,73,37</Position>
+			<Font>LaneStateWindowFont1</Font>
+			<TextColor>Black</TextColor>
+        	<Audio>%AudioPath%\BttnValid.wav</Audio>
+			<Picture>%MediaPath%\btn-func.png</Picture>
+			<TextPosition>2,2,69,33</TextPosition>        							
+			<Z-Order>2</Z-Order>
+		</Control>									
+		<Control Name="CmdBtn_Button5" Type="Button">
+			<Data></Data>
+			<Position>85,283,74,37</Position>
+			<Font>LaneStateWindowFont1</Font>
+			<TextColor>Black</TextColor>
+        	<Audio>%AudioPath%\BttnValid.wav</Audio>
+			<Picture>%MediaPath%\btn-global.png</Picture>
+			<Z-Order>2</Z-Order>
+		</Control>
+
+		<Control Name="CmdBtn_DeptList" Type="ButtonList">
+			<Position>15,126,215,152</Position>
+			<List>
+				<Button>Dept 1,-,Function=SellDeptItem;Dept=1</Button>
+				<Button>Dept 2,-,Function=SellDeptItem;Dept=2</Button>
+				<Button>Dept 3,-,Function=SellDeptItem;Dept=3</Button>
+				<Button>Dept 4,-,Function=SellDeptItem;Dept=4</Button>
+				<Button>Dept 5,-,Function=SellDeptItem;Dept=5</Button>
+				<Button>Dept 6,-,Function=SellDeptItem;Dept=6</Button>
+				<Button>Dept 7,-,Function=SellDeptItem;Dept=7</Button>
+				<Button>Dept 8,-,Function=SellDeptItem;Dept=8</Button>
+				<Button>Dept 9,-,Function=SellDeptItem;Dept=9</Button>
+				<Button>Dept 10,-,Function=SellDeptItem;Dept=10</Button>
+			</List>
+			<ButtonHorizontalSpacing>1</ButtonHorizontalSpacing>
+			<ButtonVerticalSpacing>1</ButtonVerticalSpacing>
+			<ButtonHeight>37</ButtonHeight>
+			<ButtonWidth>53</ButtonWidth>
+			<Font>KeyBoardFont</Font>
+			<TextColor>Black</TextColor>
+			<Audio>%AudioPath%\BttnValid.wav</Audio>
+			<Picture>%MediaPath%\btn-keypad_clear.png</Picture>
+			<Z-Order>1</Z-Order>
+	   </Control>
+	</Controls>
+	<Contexts>	
+		<Context Name="SmAssistMenu">
+			<IncludeControl Name="SMButton1">
+				<TextFormat>$ItemMenuButtonText$</TextFormat>
+				<!--Click Action will prevent click event from being sent to scotapp, just change context -->
+				<Action>Click,ChangeContext,SmAssistEnterItemMenu</Action>		
+			</IncludeControl>
+			<IncludeControl Name="SelectedItem">
+				<Action>ChangeText,ChangeState,SMButton2,TextLength;ChangeText,ChangeState,SMButton3,TextLength;</Action>
+			</IncludeControl>							
+			<IncludeControl Name="SMButton3">
+				<TextFormat>$ModifyItemMenuButtonText$</TextFormat>
+				<!--Change context on click event, no click sent to scotapp -->
+				<Action>Click,ChangeContext,SmAssistModifyItemMenu</Action>	
+				<Visible>True</Visible>
+			</IncludeControl>	
+			<IncludeControl Name="SMButton4">
+				<TextFormat>$ModifyTrxMenuButtonText$</TextFormat>
+				<!--Change context on click event, no click sent to scotapp -->
+				<Action>Click,ChangeContext,SmAssistModifyTrxMenu</Action>	
+				<Visible>True</Visible>	
+			</IncludeControl>	
+			<IncludeControl Name="SMButton5">
+				<Visible>False</Visible>
+			</IncludeControl> 
+			<RemoveControl Name="SMButton5"/> 														
+			<IncludeControl Name="SMButton8">
+				<TextFormat>$CloseButtonText$</TextFormat>
+			</IncludeControl>			
+		</Context>	
+		<Context Name="SmAssistEnterItemMenu">
+			<BackgroundColor>White</BackgroundColor>
+			<IncludeControl Name="Title1">
+				<TextFormat>$BasicAssistModeTitle$</TextFormat>
+			</IncludeControl>
+			<IncludeControl Name="Title2">
+			    <Position>3,33,162,19</Position>
+				<TextFormat>$EnterItemMenuTitle$</TextFormat>
+			</IncludeControl>
+			<IncludeControl Name="LaneReceiptPageUp">
+				<Position>3,159,15,14</Position>
+				<Action>Click,Scroll,SMReceipt,3</Action>
+			</IncludeControl>
+			<IncludeControl Name="LaneReceiptPageDown">
+				<Position>3,230,15,14</Position>
+				<Action>Click,Scroll,SMReceipt,2</Action>
+			</IncludeControl>
+			<IncludeControl Name="SMReceipt">
+			    <Position>20,166,220,90</Position>
+				<Action>ChangeScroll,ChangeVisible,LaneReceiptPageUp,CanScroll3;ChangeScroll,ChangeVisible,LaneReceiptPageDown,CanScroll2</Action>
+			</IncludeControl>
+			<IncludeControl Name="CmdBtn_Button1">
+			    <TextFormat>$KeyInCodeTitle$</TextFormat>
+			    <Data>OnKeyInCode</Data>
+			</IncludeControl>
+			<IncludeControl Name="CmdBtn_Button2">
+				<TextFormat>$SellByDepartmentButtonText$</TextFormat>
+				<CustomData>
+					<IgnoreScans>True</IgnoreScans>
+				</CustomData>	
+				<Data>SellByDept</Data>
+			</IncludeControl>
+			<IncludeControl Name="CmdBtn_Button3">
+			    <TextFormat>$SelectDepartmentButtonText$</TextFormat>
+				<!--Change context on click event, no click sent to scotapp -->
+				<Action>Click,ChangeContext,SmAssistSelectDept</Action>				
+			</IncludeControl>
+			<IncludeControl Name="SMButton8">
+				<TextFormat>$GoBackButtonText$</TextFormat>
+				<!--Change context on click event, no click sent to scotapp -->
+				<Action>Click,ChangeContext,SmAssistMenu</Action>		
+			</IncludeControl>	
+			<IncludeControl Name="LeadthruText">
+				<Position>3,42,162,37</Position>
+				<TextFormat>$EnterItemMenuLeadThruText$</TextFormat>
+			</IncludeControl>	
+			<IncludeControl Name="EchoBox">
+				<Position>3,79,159,76</Position>
+				<Picture>%MediaPath%\graphx-echobox.png</Picture>
+			</IncludeControl>
+			<IncludeControl Name="LaneCaptionText"/>
+			<IncludeControl Name="LaneCaption"/>
+			<IncludeControl Name="SMTotalText"/>
+			<IncludeControl Name="SMTotalAmount"/>	
+			<IncludeControl Name="ItemText"/>
+			<IncludeControl Name="ItemAmount"/>			
+		</Context>		
+		<Context Name="SmAssistModifyItemMenu">
+			<BackgroundColor>White</BackgroundColor>
+			<IncludeControl Name="Title1">
+				<TextFormat>$BasicAssistModeTitle$</TextFormat>
+			</IncludeControl>
+			<IncludeControl Name="Title2">
+			    <Position>3,33,162,19</Position>
+				<TextFormat>$ModifyItemMenuTitle$</TextFormat>
+			</IncludeControl>
+			<IncludeControl Name="LaneReceiptPageUp">
+				<Position>3,159,15,14</Position>
+				<Action>Click,Scroll,SMReceipt,3</Action>
+			</IncludeControl>
+			<IncludeControl Name="LaneReceiptPageDown">
+				<Position>3,230,15,14</Position>
+				<Action>Click,Scroll,SMReceipt,2</Action>
+			</IncludeControl>
+			<IncludeControl Name="SMReceipt">
+			    <Position>20,166,220,90</Position>
+				<Action>ChangeScroll,ChangeVisible,LaneReceiptPageUp,CanScroll3;ChangeScroll,ChangeVisible,LaneReceiptPageDown,CanScroll2</Action>
+			</IncludeControl>
+			<IncludeControl Name="CmdBtn_Button1">
+				<TextFormat>$ChangePriceButtonText$</TextFormat>
+				<Data>OnChangePrice</Data>		
+			</IncludeControl>
+			<IncludeControl Name="CmdBtn_Button2">
+				<TextFormat>$ChangeQuantityButtonText$</TextFormat>	
+				<Data>OnChangeQuantity</Data>			
+			</IncludeControl>
+			<IncludeControl Name="SMButton8">
+				<TextFormat>$GoBackButtonText$</TextFormat>
+				<!--Change context on click event, no click sent to scotapp -->
+				<Action>Click,ChangeContext,SmAssistMenu</Action>	
+			</IncludeControl>		
+			<IncludeControl Name="LeadthruText">
+				<Position>3,42,162,37</Position>
+				<TextFormat>$ModifyItemMenuLeadThruText$</TextFormat>
+			</IncludeControl>	
+			<IncludeControl Name="EchoBox">
+				<Position>3,79,159,76</Position>
+				<Picture>%MediaPath%\graphx-echobox.png</Picture>
+			</IncludeControl>
+			<IncludeControl Name="LaneCaptionText"/>
+			<IncludeControl Name="LaneCaption"/>
+			<IncludeControl Name="SMTotalText"/>
+			<IncludeControl Name="SMTotalAmount"/>	
+			<IncludeControl Name="ItemText"/>
+			<IncludeControl Name="ItemAmount"/>			
+		</Context>	
+		<Context Name="SmAssistModifyTrxMenu">
+			<BackgroundColor>White</BackgroundColor>
+			<IncludeControl Name="Title1">
+				<TextFormat>$BasicAssistModeTitle$</TextFormat>
+			</IncludeControl>
+			<IncludeControl Name="Title2">
+			    <Position>3,33,162,19</Position>
+				<TextFormat>$ModifyTrxMenuTitle$</TextFormat>
+			</IncludeControl>
+			<IncludeControl Name="LaneReceiptPageUp">
+				<Position>3,159,15,14</Position>
+				<Action>Click,Scroll,SMReceipt,3</Action>
+			</IncludeControl>
+			<IncludeControl Name="LaneReceiptPageDown">
+				<Position>3,230,15,14</Position>
+				<Action>Click,Scroll,SMReceipt,2</Action>
+			</IncludeControl>
+			<IncludeControl Name="SMReceipt">
+			    <Position>20,166,220,90</Position>
+				<Action>ChangeScroll,ChangeVisible,LaneReceiptPageUp,CanScroll3;ChangeScroll,ChangeVisible,LaneReceiptPageDown,CanScroll2</Action>
+			</IncludeControl>
+			<IncludeControl Name="CmdBtn_Button1">
+				<TextFormat>$EmployeeNumberButtonText$</TextFormat>
+				<Data>Function=EnterEmployeeNumber</Data>
+				<Visible>True</Visible>				
+			</IncludeControl>
+			<IncludeControl Name="SMButton8">
+				<TextFormat>$GoBackButtonText$</TextFormat>
+				<!--Change context on click event, no click sent to scotapp -->
+				<Action>Click,ChangeContext,SmAssistMenu</Action>	
+			</IncludeControl>	
+			<IncludeControl Name="LeadthruText">
+				<Position>3,42,162,37</Position>
+				<TextFormat>$EnterItemMenuLeadThruText$</TextFormat>
+			</IncludeControl>	
+			<IncludeControl Name="EchoBox">
+				<Position>3,79,159,76</Position>
+				<Picture>%MediaPath%\graphx-echobox.png</Picture>
+			</IncludeControl>
+			<IncludeControl Name="LaneCaptionText"/>
+			<IncludeControl Name="LaneCaption"/>
+			<IncludeControl Name="SMTotalText"/>
+			<IncludeControl Name="SMTotalAmount"/>	
+			<IncludeControl Name="ItemText"/>
+			<IncludeControl Name="ItemAmount"/>				
+		</Context>	
+		<Context Name="SmAssistSelectDept">
+			<BackgroundColor>White</BackgroundColor>
+			<IncludeControl Name="Title1">
+				<TextFormat>$BasicAssistModeTitle$</TextFormat>
+			</IncludeControl>
+			<IncludeControl Name="Title2">
+			    <Position>3,33,162,19</Position>
+				<TextFormat>$SelectDepartmentTitleText$</TextFormat>
+			</IncludeControl>
+			<IncludeControl Name="CmdBtn_DeptList">
+				<TextFormat>$EmployeeNumberButtonText$</TextFormat>
+				<Data>Function=EnterEmployeeNumber</Data>
+				<Visible>True</Visible>				
+			</IncludeControl>	
+			<IncludeControl Name="SMButton8">
+				<!--Change context on click event, no click sent to scotapp -->
+				<Action>Click,ChangeContext,SmAssistMenu</Action>	
+			</IncludeControl>
+			<IncludeControl Name="LeadthruText">
+				<Position>3,42,162,37</Position>
+				<TextFormat>$SelectDepartmentLeadThruText$</TextFormat>
+			</IncludeControl>	
+			<IncludeControl Name="Echo"/>
+			<IncludeControl Name="EchoBox"/>
+			<IncludeControl Name="LaneCaptionText"/>
+			<IncludeControl Name="LaneCaption"/>	
+		</Context>			
+	</Contexts>
+</Display>

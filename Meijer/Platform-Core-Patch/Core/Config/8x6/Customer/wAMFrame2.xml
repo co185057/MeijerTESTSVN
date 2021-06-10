@@ -1,0 +1,312 @@
+<Display Version="1.2">
+  <Fonts>
+    <Font Name="AlbertsonAMEchoBoxFont">
+      <Face>Courier New</Face>
+      <Size>14</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="AlbertsonAMTitleFont">
+      <Face>Lucida Sans Unicode</Face>
+      <Size>18</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="AlbertsonAMLeadthruFont">
+      <Face>Lucida Sans Unicode</Face>
+      <Size>12</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="AlbertsonAMReceiptFont">
+      <Face>Courier New</Face>
+      <Size>12</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+  </Fonts>
+  <Controls>
+    <Control Name="Menu1" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">58,158,114,173</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">7</Property>
+        <Property Name="ButtonHeight">53</Property>
+        <Property Name="ButtonWidth">114</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\Albertsons\8x6-Bttn_114x53.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">3</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key1" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">198,158,341,173</Property>
+        <Property Name="ButtonHorizontalSpacing">7</Property>
+        <Property Name="ButtonVerticalSpacing">7</Property>
+        <Property Name="ButtonHeight">53</Property>
+        <Property Name="ButtonWidth">109</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\Albertsons\8x6-Bttn_109x53.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">9</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key10" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">432,340,107,121</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">7</Property>
+        <Property Name="ButtonHeight">57</Property>
+        <Property Name="ButtonWidth">107</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\Albertsons\8x6-Bttn_107x57.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">2</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key16" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">432,470,107,119</Property>
+        <Property Name="ButtonHorizontalSpacing">4</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">119</Property>
+        <Property Name="ButtonWidth">107</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\Albertsons\8x6-Bttn_107x119.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="AMKeyBoardP1" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">198,342,224,173</Property>
+        <Property Name="ButtonHorizontalSpacing">7</Property>
+        <Property Name="ButtonVerticalSpacing">7</Property>
+        <Property Name="ButtonHeight">53</Property>
+        <Property Name="ButtonWidth">70</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%APP_DRIVE%\SCOT\Sound\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\Albertsons\8x6-Bttn_70x53.png</Property>
+      </Properties>
+      <List>
+        <Button>7,-,103</Button>
+        <Button>8,-,104</Button>
+        <Button>9,-,105</Button>
+        <Button>4,-,100</Button>
+        <Button>5,-,101</Button>
+        <Button>6,-,102</Button>
+        <Button>1,-,97</Button>
+        <Button>2,-,98</Button>
+        <Button>3,-,99</Button>
+      </List>
+    </Control>
+    <Control Name="AMKeyBoardP2" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">198,527,148,65</Property>
+        <Property Name="ButtonHorizontalSpacing">2</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">65</Property>
+        <Property Name="ButtonWidth">148</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\Albertsons\8x6-Bttn_148x65.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="AMKeyBoardP3" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">354,527,68,63</Property>
+        <Property Name="ButtonHorizontalSpacing">7</Property>
+        <Property Name="ButtonVerticalSpacing">7</Property>
+        <Property Name="ButtonHeight">63</Property>
+        <Property Name="ButtonWidth">68</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\Albertsons\8x6-Bttn_68x63.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="ButtonMainMenu" Type="Button" Synchronize="False">
+      <Properties>
+        <Property Name="Position">3,507,64,65</Property>
+        <Property Name="Font">AlbertsonAMFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Picture">%MediaPath%\Albertsons\8x6_InfoBtnMainMenu2.png</Property>
+      </Properties>
+    </Control>
+    <Control Name="Echo1" Type="Static">
+      <Properties>
+        <Property Name="Position">260,194,284,22</Property>
+        <Property Name="Font">AlbertsonAMEchoBoxFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">Echo1</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="AMReceipt" Type="Receipt" Synchronize="False">
+      <Properties>
+        <Property Name="Position">83,236,435,258</Property>
+        <Property Name="FillStyle">1</Property>
+        <Property Name="Font">AlbertsonAMReceiptFont</Property>
+        <Property Name="TextColor">Red</Property>
+        <Property Name="SelectionBackgroundColor">DarkGray</Property>
+        <Property Name="SelectionForegroundColor">White</Property>
+        <Property Name="Z-Order">5</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="DataSource">AMReceipt</Data>
+        <Data Name="ItemType1">ITEM_SMTEXT</Data>
+        <Data Name="ItemType1StringID">1100</Data>
+      </CustomData>
+      <Columns>
+        <Column Alignment="0" Width="435" />
+      </Columns>
+    </Control>
+  </Controls>
+  <Contexts>
+    <Context Name="SmAssistMode">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\Albertsons\8x6_InfoSScrnBlankAlbertNew.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">167,1,387,38</Property>
+            <Property Name="Font">AlbertsonAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">167,39,387,32</Property>
+            <Property Name="Font">AlbertsonAMLeadthruFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">2,41,162,33</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage">
+          <Properties>
+            <Property Name="Position">2,81,174,57</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">260,78,282,22</Property>
+            <Property Name="Font">AlbertsonAMEchoBoxFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo1">
+          <Properties>
+            <Property Name="Position">260,100,282,22</Property>
+            <Property Name="Font">AlbertsonAMEchoBoxFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1" />
+        <Control Name="SMButton2" />
+        <Control Name="SMButton3" />
+        <Control Name="SMButton4" />
+        <Control Name="SMButton5" />
+        <Control Name="SMButton6" />
+        <Control Name="SMButton7" />
+        <Control Name="SMButton8" />
+        <Control Name="Menu1" />
+        <Control Name="Key1" />
+        <Control Name="AMKeyBoardP1" />
+        <Control Name="Key10" />
+        <Control Name="Key16" />
+        <Control Name="AMKeyBoardP3" />
+        <Control Name="AMKeyBoardP2" />
+        <Control Name="ButtonMainMenu" />
+      </Include>
+    </Context>
+    <Context Name="AlbertsonNCRDynakey" Synchronize="False">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\Albertsons\8X6_InfoSScrnAssistModeAlbertsons.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">169,43,383,31</Property>
+            <Property Name="Font">AlbertsonAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">169,102,383,36</Property>
+            <Property Name="Font">AlbertsonAMLeadthruFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">2,41,162,33</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage">
+          <Properties>
+            <Property Name="Position">2,81,174,57</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">260,172,284,22</Property>
+            <Property Name="Font">AlbertsonAMEchoBoxFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo1" />
+        <Control Name="SMButton1" />
+        <Control Name="SMButton2" />
+        <Control Name="SMButton3" />
+        <Control Name="SMButton4" />
+        <Control Name="SMButton5" />
+        <Control Name="SMButton6" />
+        <Control Name="SMButton7" />
+        <Control Name="SMButton8" />
+        <Control Name="ButtonMainMenu" />
+        <Control Name="AMReceipt" />
+        <Control Name="SMReceiptScrollUp" />
+        <Control Name="SMReceiptScrollDown">
+          <Properties>
+            <Property Name="Position">0,417,64,64</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+  </Contexts>
+</Display>

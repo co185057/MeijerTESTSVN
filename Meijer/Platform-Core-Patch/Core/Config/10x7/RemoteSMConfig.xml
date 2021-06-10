@@ -1,0 +1,1495 @@
+<Display Version="1.0">
+  <Colors>
+    <Color Name="Black">
+      <Alpha>255</Alpha>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+    </Color>
+    <Color Name="LightBlack">
+      <Alpha>255</Alpha>
+      <Red>67</Red>
+      <Green>66</Green>
+      <Blue>63</Blue>
+    </Color>
+    <Color Name="Gray">
+      <Alpha>255</Alpha>
+      <Red>153</Red>
+      <Green>153</Green>
+      <Blue>153</Blue>
+    </Color>
+    <Color Name="DarkGray">
+      <Alpha>100</Alpha>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+    </Color>
+    <Color Name="Yellow">
+      <Alpha>255</Alpha>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>0</Blue>
+    </Color>
+    <Color Name="Yellow2">
+      <Alpha>255</Alpha>
+      <Red>254</Red>
+      <Green>254</Green>
+      <Blue>156</Blue>
+    </Color>
+    <Color Name="White">
+      <Alpha>255</Alpha>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+    </Color>
+    <Color Name="Purple">
+      <Alpha>255</Alpha>
+      <Red>214</Red>
+      <Green>0</Green>
+      <Blue>115</Blue>
+    </Color>
+    <Color Name="OffWhite">
+      <Alpha>255</Alpha>
+      <Red>204</Red>
+      <Green>204</Green>
+      <Blue>204</Blue>
+    </Color>
+    <Color Name="Red">
+      <Alpha>255</Alpha>
+      <Red>255</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+    </Color>
+    <Color Name="Blue">
+      <Alpha>255</Alpha>
+      <Red>0</Red>
+      <Green>128</Green>
+      <Blue>255</Blue>
+    </Color>
+    <Color Name="Brown">
+      <Alpha>255</Alpha>
+      <Red>128</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+    </Color>
+    <Color Name="Green">
+      <Alpha>255</Alpha>
+      <Red>0</Red>
+      <Green>255</Green>
+      <Blue>0</Blue>
+    </Color>
+  </Colors>
+  <Fonts>
+    <Font Name="CMNormalButton">
+      <Face>Arial</Face>
+      <Size>16</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ReceiptFont">
+      <Face>Arial</Face>
+      <Size>17</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ReceiptFontBig">
+      <Face>Arial</Face>
+      <Size>35</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ReceiptFontVoid">
+      <Face>Arial</Face>
+      <Size>17</Size>
+      <Bold>True</Bold>
+      <Strikethrough>True</Strikethrough>
+    </Font>
+    <Font Name="SmallReceiptFont">
+      <Face>Arial</Face>
+      <Size>20</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SmallReceiptFont2">
+      <Face>Arial</Face>
+      <Size>13</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMMItemFont">
+      <Face>Courier New</Face>
+      <Size>15</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="LeadthruFont">
+      <Face>Arial</Face>
+      <Size>27</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ScaleFont">
+      <Face>Arial</Face>
+      <Size>35</Size>
+      <Bold>false</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ScaleImageFont">
+      <Face>Arial</Face>
+      <Size>10</Size>
+      <Bold>false</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TaxAmountFont">
+      <Face>Courier New</Face>
+      <Size>17</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TaxTextFont">
+      <Face>Courier New</Face>
+      <Size>17</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMMessageFont">
+      <Face>Arial</Face>
+      <Size>24</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TareFont">
+      <Face>Arial</Face>
+      <Size>18</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMTrainingFont">
+      <Face>Arial</Face>
+      <Size>8</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMEchoFont">
+      <Face>Arial</Face>
+      <Size>18</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ScanBagTitleFont">
+      <Face>Arial</Face>
+      <Size>23</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ScanBagInstructionFont">
+      <Face>Arial</Face>
+      <Size>23</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMButtonFont">
+      <Face>Arial</Face>
+      <Size>14</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMScreenTextFont">
+      <Face>Arial</Face>
+      <Size>17</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMScreenFont">
+      <Face>Arial</Face>
+      <Size>10</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMTBTextFont">
+      <Face>Arial</Face>
+      <Size>10</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMTBTextFont">
+      <Face>Courier New</Face>
+      <Size>14</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMPromptFont">
+      <Face>Arial</Face>
+      <Size>18</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMKeyBoardFont">
+      <Face>Arial</Face>
+      <Size>14</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMPopUpInfoBoxFont">
+      <Face>Arial</Face>
+      <Size>13</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TrainingMessageFont">
+      <Face>Arial</Face>
+      <Size>13</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMButton4Font">
+      <Face>Arial</Face>
+      <Size>25</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="InstructionFont">
+      <Face>Arial</Face>
+      <Size>18</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TotalFont">
+      <Face>Courier New</Face>
+      <Size>27</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="RewardMessageFont">
+      <Face>Arial</Face>
+      <Size>19</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="RewardLabelFont">
+      <Face>Arial</Face>
+      <Size>12</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMButtonListFont">
+      <Face>Arial</Face>
+      <Size>16</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="RewardAmountFont">
+      <Face>Arial</Face>
+      <Size>12</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="AttractTitleFont">
+      <Face>Arial</Face>
+      <Size>25</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="AnimationTextFont">
+      <Face>Arial</Face>
+      <Size>24</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="DeviceInstructionTextFont">
+      <Face>Arial</Face>
+      <Size>19</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="InstructionTextFont">
+      <Face>Arial</Face>
+      <Size>21</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="AmountPaidFont">
+      <Face>Arial</Face>
+      <Size>13</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="MidiListFont">
+      <Face>Arial</Face>
+      <Size>20</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMReportFont">
+      <Face>Courier New</Face>
+      <Size>15</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMCashManagementAcceptorCountOrValue">
+      <Face>Arial</Face>
+      <Size>8.25</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMCashManagementDispenserCountOrValue">
+      <Face>Arial</Face>
+      <Size>8.25</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SmCashManagementAcceptorChangeInCount">
+      <Face>Arial</Face>
+      <Size>8.25</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMCashManagementChangerChangeInCount">
+      <Face>Arial</Face>
+      <Size>9.75</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMCashManagementGenericChangeInCount">
+      <Face>Arial</Face>
+      <Size>8.25</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMCashManagementDeno">
+      <Face>Arial</Face>
+      <Size>9.75</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMCashManagementLockBox">
+      <Face>Arial</Face>
+      <Size>8.75</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMCashManagementRemove">
+      <Face>Arial</Face>
+      <Size>9.75</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMCashManagementRemoveSmall">
+      <Face>Arial</Face>
+      <Size>7</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMCashManagementLoad">
+      <Face>Arial</Face>
+      <Size>9.75</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMCashManagementUnLoad">
+      <Face>Arial</Face>
+      <Size>9.75</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMCashManagementUnLoadSafePay">
+      <Face>Arial</Face>
+      <Size>7.5</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="PickListTitleFont">
+      <Face>Arial</Face>
+      <Size>20</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="PickListTitle2Font">
+      <Face>Arial</Face>
+      <Size>14</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="PickListCategoryFont">
+      <Face>Arial</Face>
+      <Size>13</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="PickListItemFont">
+      <Face>Arial</Face>
+      <Size>13</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="PickListItemCodeFont">
+      <Face>Arial</Face>
+      <Size>13</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="LookupItemTextFont">
+      <Face>Arial</Face>
+      <Size>16</Size>		
+      <Bold>False</Bold>		
+      <Italic>False</Italic>		
+    </Font>
+    <Font Name="LookupItemTitleFont">
+      <Face>Arial</Face>
+      <Size>23</Size>		
+      <Bold>True</Bold>		
+      <Italic>False</Italic>		
+    </Font>
+    <Font Name="PicklistReceiptFont">
+       <Face>Arial</Face>
+       <Size>13</Size>
+       <Bold>True</Bold>
+       <Italic>False</Italic>
+    </Font>
+    <Font Name="PicklistReceiptFontVoid">
+        <Face>Arial</Face>
+        <Size>13</Size>
+        <Bold>True</Bold>
+        <Strikethrough>True</Strikethrough>
+     </Font>
+  </Fonts>
+  <Controls>
+    <Control Name="Title1" Type="Static">
+      <Properties>
+        <Property Name="Position">208,53,504,45</Property>
+        <Property Name="Font">CMMessageFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">Title1</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="Title2" Type="Static">
+      <Properties>
+        <Property Name="Position">208,98,504,45</Property>
+        <Property Name="Font">CMMessageFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">Title2</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMLeadthruText" Type="Static">
+      <Properties>
+        <Property Name="Position">183,109,380,56</Property>
+        <Property Name="Font">CMButtonListFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">LeadthruText</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="TextLineAlignment">0</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="LeadthruText" Type="Static">
+      <Properties>
+        <Property Name="Position">183,109,380,56</Property>
+        <Property Name="Font">CMButtonListFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">LeadthruText</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="TextLineAlignment">0</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="LeadthruText2" Type="Static">
+      <Properties>
+        <Property Name="Position">208,182,515,32</Property>
+        <Property Name="Font">CMButtonListFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">LeadthruText2</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="Echo" Type="Static">
+      <Properties>
+        <Property Name="Position">333,220,366,58</Property>
+        <Property Name="Font">SMEchoFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">Echo</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="Z-Order">3</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMButton1" Type="Button">
+      <Properties>
+        <Property Name="Position">717,0,308,99</Property>
+        <Property Name="Font">CMNormalButton</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextPosition">22,15,217,74</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\10x7-InfoBtnDKBackground.png</Property>
+        <Property Name="PictureTransparentColor">Purple</Property>
+        <Property Name="Z-Order">5</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMButton2" Type="Button">
+      <Properties>
+        <Property Name="Position">717,96,308,99</Property>
+        <Property Name="Font">CMNormalButton</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextPosition">22,15,217,74</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\10x7-InfoBtnDKBackground.png</Property>
+        <Property Name="PictureTransparentColor">Purple</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMButton3" Type="Button">
+      <Properties>
+        <Property Name="Position">717,192,308,99</Property>
+        <Property Name="Font">CMNormalButton</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextPosition">22,15,217,74</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\10x7-InfoBtnDKBackground.png</Property>
+        <Property Name="PictureTransparentColor">Purple</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMButton4" Type="Button">
+      <Properties>
+        <Property Name="Position">717,288,308,99</Property>
+        <Property Name="Font">CMNormalButton</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextPosition">22,15,217,74</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\10x7-InfoBtnDKBackground.png</Property>
+        <Property Name="PictureTransparentColor">Purple</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMButton5" Type="Button">
+      <Properties>
+        <Property Name="Position">717,384,308,99</Property>
+        <Property Name="Font">CMNormalButton</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextPosition">22,15,217,74</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\10x7-InfoBtnDKBackground.png</Property>
+        <Property Name="PictureTransparentColor">Purple</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMButton6" Type="Button">
+      <Properties>
+        <Property Name="Position">717,480,308,99</Property>
+        <Property Name="Font">CMNormalButton</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextPosition">22,15,217,74</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\10x7-InfoBtnDKBackground.png</Property>
+        <Property Name="PictureTransparentColor">Purple</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMButton7" Type="Button">
+      <Properties>
+        <Property Name="Position">717,576,308,99</Property>
+        <Property Name="Font">CMNormalButton</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextPosition">22,15,217,74</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\10x7-InfoBtnDKBackground.png</Property>
+        <Property Name="PictureTransparentColor">Purple</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMButton8" Type="Button">
+      <Properties>
+        <Property Name="Position">717,672,308,99</Property>
+        <Property Name="Font">CMNormalButton</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextPosition">22,15,217,74</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\10x7-InfoBtnDKBackground.png</Property>
+        <Property Name="PictureTransparentColor">Purple</Property>
+      </Properties>
+    </Control>
+    <Control Name="CMWeight" Type="Static">
+      <Properties>
+        <Property Name="Position">2,690,230,45</Property>
+        <Property Name="Font">ScaleFont</Property>
+        <Property Name="TextColor">Gray</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">CMWeight</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="TrainingMessage" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Position">194,698,190,45</Property>
+        <Property Name="Font">CMTrainingFont</Property>
+        <Property Name="TextColor">Red</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">TrainingMessage</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMScaleImage" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Position">0,106,165,60</Property>
+        <Property Name="Picture">%MediaPath%\10x7_SMScaleSymbol.gif</Property>
+        <Property Name="Z-Order">1</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMScaleDisplayText" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Position">0,102,260,60</Property>
+        <Property Name="Font">ScaleImageFont</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">SMScaleText</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMReportReceipt" Type="Receipt">
+      <Properties>
+        <Property Name="Position">144,296,551,471</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="FillStyle">1</Property>
+        <Property Name="Font">SMReportFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="SelectionBackgroundColor">DarkGray</Property>
+        <Property Name="SelectionForegroundColor">White</Property>
+        <Property Name="Z-Order">5</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="DataSource">SMReportReceipt</Data>
+        <Data Name="ItemType1">ITEM_SMTEXT</Data>
+        <Data Name="ItemType1StringID">1100</Data>
+      </CustomData>
+      <Columns>
+        <Column Alignment="0" Width="551" />
+      </Columns>
+    </Control>
+    <Control Name="SMReceipt" Type="Receipt">
+      <Properties>
+        <Property Name="Position">86,298,591,368</Property>
+        <Property Name="FillStyle">1</Property>
+        <Property Name="Font">ReceiptFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="SelectionFont">ReceiptFont</Property>
+        <Property Name="SelectionBackgroundColor">DarkGray</Property>
+        <Property Name="SelectionForegroundColor">White</Property>
+        <Property Name="Z-Order">5</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="DataSource">CMSMReceipt</Data>
+        <Data Name="ItemType1">ITEM_DESCRIPTION,ITEM_EXT_PRICE</Data>
+        <Data Name="ItemType1StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType2">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_VOID</Data>
+        <Data Name="ItemType2Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType2Color">DarkGray</Data>
+        <Data Name="ItemType2Selectable">False</Data>
+        <Data Name="ItemType2StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType3">ITEM_MSG</Data>
+        <Data Name="ItemType3StringID">$LaneReceiptItemType2$</Data>
+        <Data Name="ItemType3Selectable">False</Data>
+        <Data Name="ItemType3Color">Red</Data>
+        <Data Name="ItemType3Wrap">True</Data>
+        <Data Name="ItemType4">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType4Font">ReceiptFont</Data>
+        <Data Name="ItemType4Color">Blue</Data>
+        <Data Name="ItemType4StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType5">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType5Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType5Color">DarkGray</Data>
+        <Data Name="ItemType5Selectable">False</Data>
+        <Data Name="ItemType5StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType6">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_REWARD</Data>
+        <Data Name="ItemType6Font">ReceiptFont</Data>
+        <Data Name="ItemType6Selectable">False</Data>
+        <Data Name="ItemType6StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType6Wrap">True</Data>
+        <Data Name="ItemType7">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT</Data>
+        <Data Name="ItemType7StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType8">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT</Data>
+        <Data Name="ItemType8StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType9">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType9Font">ReceiptFont</Data>
+        <Data Name="ItemType9Color">Blue</Data>
+        <Data Name="ItemType9StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType10">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType10Font">ReceiptFont</Data>
+        <Data Name="ItemType10Color">Blue</Data>
+        <Data Name="ItemType10StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType11">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOID</Data>
+        <Data Name="ItemType11Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType11Color">DarkGray</Data>
+        <Data Name="ItemType11Selectable">False</Data>
+        <Data Name="ItemType11StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType12">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOID</Data>
+        <Data Name="ItemType12Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType12Color">DarkGray</Data>
+        <Data Name="ItemType12Selectable">False</Data>
+        <Data Name="ItemType12StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType13">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType13Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType13Color">DarkGray</Data>
+        <Data Name="ItemType13Selectable">False</Data>
+        <Data Name="ItemType13StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType14">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType14Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType14Color">DarkGray</Data>
+        <Data Name="ItemType14Selectable">False</Data>
+        <Data Name="ItemType14StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType15">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT</Data>
+        <Data Name="ItemType15StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType16">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT</Data>
+        <Data Name="ItemType16StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType17">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType17Font">ReceiptFont</Data>
+        <Data Name="ItemType17Color">Blue</Data>
+        <Data Name="ItemType17StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType18">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType18Font">ReceiptFont</Data>
+        <Data Name="ItemType18Color">Blue</Data>
+        <Data Name="ItemType18StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType19">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOID</Data>
+        <Data Name="ItemType19Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType19Color">DarkGray</Data>
+        <Data Name="ItemType19Selectable">False</Data>
+        <Data Name="ItemType19StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType20">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_VOID</Data>
+        <Data Name="ItemType20Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType20Color">DarkGray</Data>
+        <Data Name="ItemType20Selectable">False</Data>
+        <Data Name="ItemType20StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType21">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType21Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType21Color">DarkGray</Data>
+        <Data Name="ItemType21Selectable">False</Data>
+        <Data Name="ItemType21StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType22">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType22Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType22Color">DarkGray</Data>
+        <Data Name="ItemType22Selectable">False</Data>
+        <Data Name="ItemType22StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType23">ITEM_DESCRIPTION</Data>
+        <Data Name="ItemType23StringID">$LaneReceiptItemType2$</Data>
+        <Data Name="ItemType23Selectable">False</Data>
+        <Data Name="ItemType24">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType24Font">ReceiptFont</Data>
+        <Data Name="ItemType24Selectable">False</Data>
+        <Data Name="ItemType24StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType25">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_RESTRICTED,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType25Selectable">False</Data>
+        <Data Name="ItemType25StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType26">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType26Selectable">False</Data>
+        <Data Name="ItemType26StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType27">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType27Selectable">False</Data>
+        <Data Name="ItemType27StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType28">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType28Color">Blue</Data>
+        <Data Name="ItemType28Selectable">False</Data>
+        <Data Name="ItemType28StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType29">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType29Color">Blue</Data>
+        <Data Name="ItemType29Selectable">False</Data>
+        <Data Name="ItemType29StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType30">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType30Selectable">False</Data>
+        <Data Name="ItemType30StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType31">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType31Selectable">False</Data>
+        <Data Name="ItemType31StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType32">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType32Color">Blue</Data>
+        <Data Name="ItemType32Selectable">False</Data>
+        <Data Name="ItemType32StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType33">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType33Color">Blue</Data>
+        <Data Name="ItemType33Selectable">False</Data>
+        <Data Name="ItemType33StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType34">ITEM_DESCRIPTION,ITEM_REWARD</Data>
+        <Data Name="ItemType34Font">ReceiptFont</Data>
+        <Data Name="ItemType34Selectable">False</Data>
+        <Data Name="ItemType34StringID">$LaneReceiptItemType2$</Data>
+        <Data Name="ItemType34Wrap">True</Data>
+        <Data Name="ItemType35">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_REWARD,ITEM_VOID</Data>
+        <Data Name="ItemType35Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType35Color">DarkGray</Data>
+        <Data Name="ItemType35Selectable">False</Data>
+        <Data Name="ItemType35StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType35Wrap">True</Data>
+        <Data Name="ItemType36">ITEM_OLDDESC,ITEM_OLDPRICE</Data>
+        <Data Name="ItemType36Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType36Color">DarkGray</Data>
+        <Data Name="ItemType36Selectable">False</Data>
+        <Data Name="ItemType36StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType36Wrap">True</Data>
+        <Data Name="ItemType37">ITEM_RAP_ONLY_HILITE</Data>
+        <Data Name="ItemType37StringID">$LaneReceiptItemType7$</Data>
+        <Data Name="ItemType37Font">SmallReceiptFont2</Data>
+        <Data Name="ItemType37Selectable">False</Data>
+        <Data Name="ItemType37Color">Red</Data>
+        <Data Name="ItemType37Wrap">True</Data>
+      </CustomData>
+      <Columns>
+        <Column Alignment="0" Width="371" />
+        <Column Alignment="2" Width="220" />
+      </Columns>
+    </Control>
+    <Control Name="SMTotalAmount" Type="Static">
+      <Properties>
+        <Property Name="Position">457,711,202,38</Property>
+        <Property Name="Font">CMMessageFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">SMTotalAmount</Property>
+        <Property Name="TextAlignment">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMTotalText" Type="Static">
+      <Properties>
+        <Property Name="Position">252,711,205,38</Property>
+        <Property Name="Font">CMMessageFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">2</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="StringId">18</Data>
+      </CustomData>
+    </Control>
+    <Control Name="SMReceiptScrollUp" Type="Button">
+      <Properties>
+        <Property Name="Position">0,297,82,83</Property>
+        <Property Name="Audio">%AudioPath%\ScrollValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\10x7_InfoBtnUpERcpt.png</Property>
+        <Property Name="PictureTransparentColor">Purple</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMReceiptScrollDown" Type="Button">
+      <Properties>
+        <Property Name="Position">0,556,82,83</Property>
+        <Property Name="Audio">%AudioPath%\ScrollValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\10x7_InfoBtnDownERcpt.png</Property>
+        <Property Name="PictureTransparentColor">Purple</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMInfoBox" Type="Static">
+      <Properties>
+        <Property Name="Position">131,318,357,328</Property>
+        <Property Name="Font">SMPopUpInfoBoxFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">SMInfoBox</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="TextLineAlignment">0</Property>
+        <Property Name="Z-Order">7</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMInfoBoxField" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Position">131,318,357,328</Property>
+        <Property Name="Picture">%MediaPath%\10x7_SM-popup.gif</Property>
+        <Property Name="Z-Order">6</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMTBText" Type="Static" Synchronize="False">
+      <Properties>
+        <Property Name="Position">29,705,218,49</Property>
+        <Property Name="Font">SMTBTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="TextLineAlignment">0</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">SMTBText</Property>
+      </Properties>
+    </Control>
+  </Controls>
+  <Contexts>
+    <Context Name="RemoteSystemMessage">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\10x7_InfoSScrnBlank.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+        </Control>
+        <Control Name="Echo">
+        </Control>
+        <Control Name="SMButton1">
+        </Control>
+        <Control Name="SMButton8">
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,45,225,60</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage">
+        </Control>
+        <Control Name="SMScaleDisplayText">
+        </Control>
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">75,150,145,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">Yellow</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="SMInfoBoxField">
+          <Properties>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMInfoBox">
+          <Properties>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="ATModeDisplay1">
+        </Control>
+        <Control Name="ATModeDisplay2">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmAuthorization">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\10x7_InfoSScrnDefault.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">208,150,515,32</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+        </Control>
+        <Control Name="SMButton1">
+        </Control>
+        <Control Name="SMButton2">
+        </Control>
+        <Control Name="SMButton3">
+        </Control>
+        <Control Name="SMButton4">
+        </Control>
+        <Control Name="SMButton5">
+        </Control>
+        <Control Name="SMButton6">
+        </Control>
+        <Control Name="SMButton8">
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,45,225,60</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage">
+        </Control>
+        <Control Name="SMScaleDisplayText">
+        </Control>
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">75,150,145,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">Yellow</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+        </Control>
+        <Control Name="SMReceipt">
+        </Control>
+        <Control Name="SMInfoBoxField">
+          <Properties>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMInfoBox">
+          <Properties>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTBText">
+        </Control>
+        <Control Name="ATModeDisplay1">
+        </Control>
+        <Control Name="ATModeDisplay2">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmUtility" Synchronize="False">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\10x7_InfoSScrnDefault.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">208,150,515,32</Property>
+            <Property Name="Font">SMLeadthruTextFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+        </Control>
+        <Control Name="SMButton1">
+        </Control>
+        <Control Name="SMButton2">
+        </Control>
+        <Control Name="SMButton3">
+        </Control>
+        <Control Name="SMButton4">
+        </Control>
+        <Control Name="SMButton5">
+        </Control>
+        <Control Name="SMButton6">
+        </Control>
+        <Control Name="SMButton8">
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,45,225,60</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage">
+        </Control>
+        <Control Name="SMScaleDisplayText">
+        </Control>
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">75,150,145,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">Yellow</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+        </Control>
+        <Control Name="SMReceipt">
+        </Control>
+        <Control Name="SMInfoBoxField">
+          <Properties>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMInfoBox">
+          <Properties>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTBText">
+        </Control>
+        <Control Name="ATModeDisplay1">
+        </Control>
+        <Control Name="ATModeDisplay2">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmReportsMenu">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\10x7_InfoSScrnList.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="TextFormat">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="Title2">
+          <Properties>
+            <Property Name="TextFormat">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">208,150,515,64</Property>
+            <Property Name="TextFormat">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText2">
+          <Properties>
+            <Property Name="TextFormat">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton2">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton3">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton4">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton7">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,45,225,60</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage">
+        </Control>
+        <Control Name="SMScaleDisplayText">
+        </Control>
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">75,150,145,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">Yellow</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+          <Properties>
+            <Property Name="Position">0,685,82,83</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReportReceipt">
+          <Properties>
+            <Property Name="UserInput">True</Property>
+          </Properties>
+        </Control>
+        <Control Name="ATModeDisplay1">
+        </Control>
+        <Control Name="ATModeDisplay2">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmRunReports">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\10x7_InfoSScrnList.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="TextFormat">
+            </Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">1092</Data>
+          </CustomData>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">208,98,504,45</Property>
+            <Property Name="TextFormat">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText2">
+          <Properties>
+            <Property Name="TextFormat">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">687</Data>
+          </CustomData>
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+          <CustomData>
+            <Data Name="StringId">320</Data>
+          </CustomData>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,45,225,60</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage">
+        </Control>
+        <Control Name="SMScaleDisplayText">
+        </Control>
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">75,150,145,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">Yellow</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+          <Properties>
+            <Property Name="Position">0,685,82,83</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReportReceipt">
+          <Properties>
+            <Property Name="ShowSelection">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="ATModeDisplay1">
+        </Control>
+        <Control Name="ATModeDisplay2">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmConfirmSuspendedTransaction" Synchronize="False">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\10x7_InfoSScrnDefault.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">208,150,515,32</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+        </Control>
+        <Control Name="SMButton1">
+        </Control>
+        <Control Name="SMButton2">
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,45,225,60</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage">
+        </Control>
+        <Control Name="SMScaleDisplayText">
+        </Control>
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">75,150,145,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">Yellow</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+        </Control>
+        <Control Name="SMReceipt">
+        </Control>
+        <Control Name="SMInfoBoxField">
+          <Properties>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMInfoBox">
+          <Properties>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTBText">
+        </Control>
+        <Control Name="ATModeDisplay1">
+        </Control>
+        <Control Name="ATModeDisplay2">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmPrintReceipt" Synchronize="False">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\10x7_InfoSScrnList.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+        </Control>
+        <Control Name="Title2">
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">208,150,515,64</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText2">
+        </Control>
+        <Control Name="Echo">
+        </Control>
+        <Control Name="Prompt">
+        </Control>
+        <Control Name="SMButton1">
+          <CustomData>
+            <Data Name="StringId">1093</Data>
+          </CustomData>
+        </Control>
+        <Control Name="SMButton2">
+          <CustomData>
+            <Data Name="StringId">1662</Data>
+          </CustomData>
+        </Control>
+        <Control Name="SMButton8">
+          <CustomData>
+            <Data Name="StringId">353</Data>
+          </CustomData>
+        </Control>
+        <Control Name="CMWeight">
+          <Properties>
+            <Property Name="Position">0,45,225,60</Property>
+            <Property Name="Font">ScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMScaleImage">
+        </Control>
+        <Control Name="SMScaleDisplayText">
+        </Control>
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">75,150,145,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">Yellow</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTBText">
+        </Control>
+        <Control Name="ATModeDisplay1">
+        </Control>
+        <Control Name="ATModeDisplay2">
+        </Control>
+      </Include>
+    </Context>
+  </Contexts>
+</Display>

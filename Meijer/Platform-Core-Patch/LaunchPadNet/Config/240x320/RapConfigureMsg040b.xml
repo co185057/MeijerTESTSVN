@@ -1,0 +1,58 @@
+﻿<Display Version="1.0">
+	<Languages>
+		<Language Name="040b">
+			<StringTable>
+				<String Name="MainTitle">EOO-konfiguraatio</String>
+				<String Name="AddButtonText">Lisää</String>
+				<String Name="AddLaneTitle">Lisää kassa</String>
+				<String Name="ApplyButtonText">Käytä</String>
+				<String Name="Backspace">Peruuta</String>
+				<String Name="CancelButtonText">Peruuta</String>
+				<String Name="ConfigTypeText">Kassan konfiguraatiotyyppi:</String>
+				<String Name="ConfirmDeleteTitle">Vahvista poisto</String>
+				<String Name="ConfirmDeleteText">Haluatko poistaa kassan:</String>
+				<String Name="ConfirmExitTitle">Vahvista lopeta</String>
+				<String Name="ConfirmExitText">Haluatko varmasti hylätä nämä muutokset?</String>
+				<String Name="ConfirmSaveTitle">Vahvista tallenna</String>
+				<String Name="ConfirmSaveText">Olet tallentamassa nämä muutokset RapNet.xml-tiedostoon. Haluatko jatkaa?</String>
+				<String Name="DeleteButtonText">Poista</String>
+				<String Name="DuplicateIPTitle">Duplikaatti IP-osoite</String>
+				<String Name="DuplicateLaneTitle">Löydetty kassan 2-kappale</String> 
+				<String Name="DuplicateLaneText">Kassa %s on jo olemassa</String>
+				<String Name="EditLaneTitle">Muokkaa kassaa</String>
+				<String Name="EmptyText">Tyhjennä</String>
+				<String Name="Enter">Syötä</String>
+				<String Name="EnterHostNameInstruction">Näppäile verkkonimi ja paina "Syötä".</String>
+				<String Name="EnterIPAddressInstruction">Näppäile IP-osoite ja paina "Syötä".</String>
+				<String Name="EnterIPOctetInstruction">Näppäile IP-oktetti ja paina "Syötä".</String>
+				<String Name="EnterHostNameText">Syötä kassan verkkonimi</String>
+				<String Name="EnterIPAddressText">Syötä kassan IP-osoite</String>
+				<String Name="EnterIPOctetText">Syötä kassan IP-oktetti</String>
+				<String Name="ErrorText">Virhe</String>
+				<String Name="ExitButtonText">Lopeta</String>
+				<String Name="FileErrorTitle">Tiedostoa ei löytynyt</String>
+				<String Name="FileErrorText">Virhe: RapNet.xml-tiedostoa ei löytynyt.</String>
+				<String Name="HostNameText">Isännän nimi</String>
+				<String Name="IPAddressText">IP-osoite</String>
+				<String Name="IPOctetText">IP-oktetti</String>
+				<String Name="LaneText">Kassa</String>
+				<String Name="MoveButtonText">Siirrä</String>
+				<String Name="NoButtonText">Ei</String>
+				<String Name="NoLane">Kaikki kassat on poistettu</String>
+				<String Name="NoLaneToDelete">Yhtään poistettavaa kassaa ei ole jäljellä.</String>
+				<String Name="NoLaneWarningTitle">RapNet.xml ei sisällä kassoja</String>
+				<String Name="NoLaneWarningText">Varoitus: RapNet.xml:iin ei ole konfiguroitu yhtään kassaa.</String>
+				<String Name="OkButtonText">OK</String>
+				<String Name="RestartRAPTitle">Käynnistä taas EOO </String>
+				<String Name="RestartRAPText">EOO on käynnistettävä uudelleen.</String>
+				<String Name="SameRapIPAddress">Samaa IP-osoitetta ei voida käyttää tietokoneen EOO:n IP-osoitteena: %s</String>
+				<String Name="SameHHRapIPAddress">Samaa IP-osoitetta ei voida käyttää kannettavan EOO-laitteen IP-osoitteena: %s</String>
+				<String Name="SaveButtonText">Tallenna</String>
+				<String Name="SelectLaneToDelete">Valitse poistettava kassa</String>
+				<String Name="SelectSourceText">Valitse siirrettävä kassa</String>
+				<String Name="SelectDestinationText">Valitse kohdesijainti</String>
+				<String Name="YesButtonText">Kyllä</String>
+			</StringTable>
+		</Language>
+	</Languages>
+</Display>

@@ -1,0 +1,120 @@
+// Ocx.idl : IDL source for Ocx.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (Ocx.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+#include "olectl.h"
+	
+#include "../com/enums.idl"
+#include "../com/dispids.idl"
+
+interface ITelnetX;
+
+	[
+		object,
+		uuid(B1D79085-D020-482b-8DF6-1F0782546F04),
+		helpcontext(1001),
+		dual,
+		nonextensible,
+		helpstring("ITelnetXNotify Interface"),
+		pointer_default(unique)
+	]
+	interface ITelnetXNotify: IDispatch
+	{
+		[id(1), helpstring("Fires when Telnet/X is connected to remote server."), helpcontext(100)] HRESULT Connected(ITelnetX *Object);
+		[id(2), helpstring("Fires when Telnet/X is disconnected from remote server."), helpcontext(101)] HRESULT Disconnected(ITelnetX *Object);
+		[id(3), helpstring("Fires when Telnet/X receives data from remote server."), helpcontext(102)] HRESULT Received(ITelnetX *Object, long BytesCount);
+		[id(4), helpstring("Fires when Telnet/X has debugging data for the program."), helpcontext(103)] HRESULT Debug(ITelnetX *Object, BSTR DebugMsg);
+		[id(5), helpstring("Fires when Telnet/X changes its state."), helpcontext(104)] HRESULT StateChanged(ITelnetX *Object, TelnetXStatesEnum NewState, TelnetXStatesEnum OldState);
+		[id(6), helpstring("Fires when remote server prints command prompt and awaits for new command."), helpcontext(105)] HRESULT Prompt(ITelnetX *Object);
+		[id(7), helpstring("Fires when Telnet/X receives special code sequence from server."), helpcontext(106)] HRESULT SpecialCode(ITelnetX *Object, BSTR ReceivedData, BSTR *ResponseData);
+		[id(8), helpstring("Fires when Telnet/X receives server's public key in SSH negotiation."), helpcontext(107)] HRESULT SSHCheckServerKey(ITelnetX *Object, BSTR ServerKey, short Length, VARIANT_BOOL *Cancel);
+	};
+
+
+	[
+		object,
+		uuid(80D5194F-7068-44D9-A6EA-AD1473F2B854),
+		dual,
+		nonextensible,
+		helpstring("ITelnetX Interface"),
+		pointer_default(unique)
+	]
+	interface ITelnetX : IDispatch
+	{
+		#include "../com/properties.idl"
+		[propget, id(DISPID_notificationobject), helpstring("Specifies the object that has implemented an interface to receive the Fast Notifications."), helpcontext(240)] HRESULT NotificationObject([out, retval] ITelnetXNotify * *pVal);
+		[propput, id(DISPID_notificationobject), helpstring("Specifies the object that has implemented an interface to receive the Fast Notifications."), helpcontext(240)] HRESULT NotificationObject([in] ITelnetXNotify * newVal);
+	};
+
+[
+	uuid(96D3ED28-B353-419E-A0E3-E5E9070F064B),
+	version(1.0),
+	helpfile("telnetx.hlp"),
+	helpcontext(1),
+	helpstring("Mabry Internet Telnet/X ActiveX Control")
+]
+library MabryTelnetXOCXLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(BE380998-E1AF-49EB-80FE-5213974A99DB),
+		helpstring("_ITelnetXEvents Interface")
+	]
+	dispinterface _ITelnetXEvents
+	{
+		properties:
+		methods:
+		[id(1), helpstring("Fires when Telnet/X is connected to remote server."), helpcontext(110)] void Connected(void);
+		[id(2), helpstring("Fires when Telnet/X is disconnected from remote server."), helpcontext(111)] void Disconnected(void);
+		[id(3), helpstring("Fires when Telnet/X receives data from remote server."), helpcontext(112)] void Received(long BytesCount);
+		[id(4), helpstring("Fires when Telnet/X has debugging data for the program."), helpcontext(113)] void Debug(BSTR DebugMsg);
+		[id(5), helpstring("Fires when Telnet/X changes its state."), helpcontext(114)] void StateChanged(TelnetXStatesEnum NewState, TelnetXStatesEnum OldState);
+		[id(6), helpstring("Fires when remote server prints command prompt and awaits for new command."), helpcontext(115)] void Prompt(void);
+		[id(7), helpstring("Fires when Telnet/X receives special code sequence from server."), helpcontext(116)] void SpecialCode(BSTR ReceivedData, BSTR *ResponseData);
+		[id(8), helpstring("Fires when Telnet/X receives server's public key in SSH negotiation."), helpcontext(117)] void SSHCheckServerKey(BSTR ServerKey, short Length, VARIANT_BOOL *Cancel);
+	};
+
+	[
+		uuid(C783E754-AAB6-42BC-BDE9-29E1F1DBD3D9),
+		helpstring("TelnetX Class")
+	]
+	coclass TelnetX
+	{
+		[default] interface ITelnetX;
+		[default, source] dispinterface _ITelnetXEvents;
+	};
+
+	[
+		uuid(43A249A0-AE00-4CE7-9624-43B220F4CFDE),
+		helpstring("TelnetXPropPage Class")
+	]
+	coclass TelnetXPropPage
+	{
+		interface IUnknown;
+	};
+
+	[
+		uuid(32999857-1A54-4A4A-9CB2-0C8F70C1AE39),
+		helpstring("TelnetXFirewallPropPage Class")
+	]
+	coclass TelnetXFirewallPropPage
+	{
+		interface IUnknown;
+	};
+
+
+	[
+		uuid(1C161F25-CDC9-402A-A4BB-DEC343572DFA),
+		helpstring("TelnetXProtocolPropPage Class")
+	]
+	coclass TelnetXProtocolPropPage
+	{
+		interface IUnknown;
+	};
+};

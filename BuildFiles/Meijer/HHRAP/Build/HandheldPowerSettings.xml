@@ -1,0 +1,12 @@
+<wap-provisioningdoc> 
+   <characteristic type="Registry"> 
+      <characteristic type="HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Power\Timeouts"> 
+         <parm name="BattSuspendTimeout" value="0x00000000" datatype="DWORD"/>
+      </characteristic> 
+   </characteristic> 
+   <characteristic type="Registry"> 
+      <characteristic type="HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Power\Timeouts"> 
+         <parm name="ACSuspendTimeout" value="0x00000000" datatype="DWORD"/>
+      </characteristic> 
+   </characteristic> 
+</wap-provisioningdoc>

@@ -1,0 +1,58 @@
+﻿<Display Version="1.0">
+	<Languages>
+		<Language Name="0407">
+			<StringTable>
+				<String Name="MainTitle">RAP-Konfiguration</String>
+				<String Name="AddButtonText">Hinzufügen</String>
+				<String Name="AddLaneTitle">Kasse hinzufügen</String>
+				<String Name="ApplyButtonText">Anwenden</String>
+				<String Name="Backspace">Rücktaste</String>				
+				<String Name="CancelButtonText">Abbrechen</String>
+				<String Name="ConfigTypeText">Kassen-Konfigurationstyp:</String>
+				<String Name="ConfirmDeleteTitle">Löschen bestätigen</String>
+				<String Name="ConfirmDeleteText">Möchten Sie diese Kasse löschen:</String>
+				<String Name="ConfirmExitTitle">Beenden bestätigen</String>
+				<String Name="ConfirmExitText">Wollen Sie die Änderungen wirklich verwerfen?</String>
+				<String Name="ConfirmSaveTitle">Speichern bestätigen</String>
+				<String Name="ConfirmSaveText">Sie werden die Änderungen von RapNet.xml speichern. Möchten Sie fortfahren?</String>
+				<String Name="DeleteButtonText">Löschen</String>
+				<String Name="DuplicateIPTitle">Doppelte IP-Adresse</String>
+				<String Name="DuplicateLaneTitle">Duplikatkassen gefunden</String> 
+				<String Name="DuplicateLaneText">Kasse %s bereits vorhanden</String>
+				<String Name="EditLaneTitle">Kasse bearbeiten</String>
+				<String Name="EmptyText">Leer</String>
+				<String Name="Enter">Eingabe</String>
+				<String Name="EnterHostNameInstruction">Hostnamen eingeben und "Eingabe" drücken.</String>
+				<String Name="EnterIPAddressInstruction">IP-Adresse eingeben und "Eingabe" drücken.</String>
+				<String Name="EnterIPOctetInstruction">IP-Oktett eingeben und "Eingabe" drücken.</String>
+				<String Name="EnterHostNameText">Hostnamen der Kasse eingeben</String>
+				<String Name="EnterIPAddressText">IP-Adresse der Kasse eingeben</String>
+				<String Name="EnterIPOctetText">IP-Oktett der Kasse eingeben</String>
+				<String Name="ErrorText">Fehler</String>
+				<String Name="ExitButtonText">Beenden</String>
+				<String Name="FileErrorTitle">Datei nicht gefunden</String>
+				<String Name="FileErrorText">Fehler: RapNet.xml nicht gefunden.</String>
+				<String Name="HostNameText">Host-Name</String>
+				<String Name="IPAddressText">IP-Adresse</String>
+				<String Name="IPOctetText">IP-Oktett</String>
+				<String Name="LaneText">Kasse</String>
+				<String Name="MoveButtonText">Verschieben</String>
+				<String Name="NoButtonText">Nein</String>
+				<String Name="NoLane">Alle Kassen wurden gelöscht.</String>
+				<String Name="NoLaneToDelete">Es gibt keine zu löschenden Kassen mehr.</String>
+				<String Name="NoLaneWarningTitle">RapNet.xml hat keine Kassen</String>
+				<String Name="NoLaneWarningText">Warnung: RapNet.xml hat keine konfigurierten Kassen.</String>
+				<String Name="OkButtonText">OK</String>
+				<String Name="RestartRAPTitle">RAP neu starten</String>
+				<String Name="RestartRAPText">Sie müssen RAP neu starten.</String>
+				<String Name="SameRapIPAddress">Gleiche IP-Adresse wie diejenige des Desktop RAP kann nicht benutzt werden: %s</String>
+				<String Name="SameHHRapIPAddress">Gleiche IP-Adresse wie diejenige des Handheld RAP kann nicht benutzt werden: %s</String>
+				<String Name="SaveButtonText">Speichern</String>
+				<String Name="SelectLaneToDelete">Wählen Sie die zu löschende Kasse.</String>
+				<String Name="SelectSourceText">Wählen Sie eine zu verschiebende Kasse</String>
+				<String Name="SelectDestinationText">Wählen Sie das Ziel</String>
+				<String Name="YesButtonText">Ja</String>
+			</StringTable>
+		</Language>
+	</Languages>
+</Display>

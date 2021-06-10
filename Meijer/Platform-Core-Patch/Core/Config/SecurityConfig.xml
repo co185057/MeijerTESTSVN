@@ -1,0 +1,269 @@
+<!-- ================================================================================ -->
+<!--                                                                                  -->
+<!-- File: SecurityConfig.xml                                                         -->
+<!--                                                                                  -->
+<!-- Function: Provides the set of user-configurable parameters for the Security      -->
+<!--    Manager component of the FastLane.                                            -->
+<!--                                                                                  -->
+<!-- Notes:                                                                           -->
+<!--                                                                                  -->
+<!--    1.  All timeout values are in milliseconds, ie. 1000 = 1s                     -->
+<!--    2.  All weight values are in thousandths of a pound, ie.                     -->
+<!--        1000 = 1lb                                                                -->
+<!--                                                                                  -->
+<!-- ================================================================================ -->
+<security>
+
+<max-unapproved-wldb-entries>999
+</max-unapproved-wldb-entries>
+
+<bag-box-limit>999
+</bag-box-limit>
+
+<skip-bagging-limit>999
+</skip-bagging-limit>
+
+<item-removed-limit>999
+</item-removed-limit>
+
+<rap-approval-learning-zero-wt>Y
+</rap-approval-learning-zero-wt>
+
+<skip-bagging-learning-zero-wt>Y
+</skip-bagging-learning-zero-wt>
+
+<delay-exceptions>N
+</delay-exceptions>
+
+<delay-exceptions-limit>0
+</delay-exceptions-limit>
+
+<delay-exceptions-timeout>5000
+</delay-exceptions-timeout>
+
+<forgive-mismatch-exceptions>N
+</forgive-mismatch-exceptions>
+
+<forgive-mismatch-exceptions-limit>0
+</forgive-mismatch-exceptions-limit>
+
+<forgive-mismatch-exceptions-timeout>2000
+</forgive-mismatch-exceptions-timeout>
+
+<forgive-unexpected-increase-exceptions>N
+</forgive-unexpected-increase-exceptions>
+
+<forgive-unexpected-increase-exceptions-limit>0
+</forgive-unexpected-increase-exceptions-limit>
+
+<forgive-unexpected-increase-exceptions-timeout>2000
+</forgive-unexpected-increase-exceptions-timeout>
+
+<pick-list-items-update-WLDB>N
+</pick-list-items-update-WLDB>
+
+<removing-items-auto-advance>Y
+</removing-items-auto-advance>
+
+<removing-items-auto-advance-timeout>4000
+</removing-items-auto-advance-timeout>
+
+<remove-item-violation-auto-advance-timeout>2000
+</remove-item-violation-auto-advance-timeout>
+
+<tare-wt-tolerance1>0
+</tare-wt-tolerance1>
+
+<tare-wt-tolerance2>0
+</tare-wt-tolerance2>
+
+<tare-wt-1>0
+</tare-wt-1>
+
+<tare-wt-2>0
+</tare-wt-2>
+
+<forgive-unexpected-decrease-during-tendering>Y
+<description>If set to N, removing items during the tendering
+	stages after Finish And Pay is pressed will cause an unexpected
+	decrease exception before the balance is paid</description>
+</forgive-unexpected-decrease-during-tendering>
+
+<attract-quiet-mode>Y
+    <description>attract-quiet-mode, if set to Y, causes wt added to the scale 
+    during attract to be ignored.  If the wt is still present when the 
+    transaction is started, it will cause an unexpected increase exception 
+    to be generated. This option only applies to a Scan&amp;Bag system.  
+    If set on a TAB system it will be ignored.</description>
+</attract-quiet-mode>
+
+<attract-quiet-mode-timeout>120000
+</attract-quiet-mode-timeout>
+
+<!-- If substitution-check-price-embedded-wt=Y and lWeight &gt; 0, supply wt to SmartScale instead of WLDB.-->  
+<!-- If substitution-check-price-embedded-wt=Y and you want to use the ScannerScale wt, must set ForceWeighingOFPriceEmbedded=Yes. in Scotopts -->
+<!-- PLU supplied lWeight &gt; 0 will only work if ForceWeighingOFPriceEmbedded=N in Scotopts-->
+<!-- Examples: -->
+<!-- substitution-check-price-embedded-wt=Y, lUnitPrice &gt; 0, lWeight == 0, will use calculated wt from unit price and will NOT update the WLDB -->
+<!-- substitution-check-price-embedded-wt=Y, lUnitPrice == 0, lWeight == 0. will use WLDB entries and WILL update the WLDB -->
+<!-- substitution-check-price-embedded-wt=Y, lUnitPrice &gt; 0, lWeight &gt; 0, will use calculated wt from unit price and will NOT update the WLDB -->
+<!-- substitution-check-price-embedded-wt=Y, lUnitPrice == 0, lWeight &gt; 0. will use supplied weight and will NOT update the WLDB -->
+<!-- Can still use the scanner scale weight with substitution-check-price-embedded-wt=Y and will NOT update the WLDB -->
+<!-- substitution-check-price-embedded-wt=N will not compare either lUnitPrice calc or TB supplied lWeight.-->
+<substitution-check-price-embedded-wt>N
+</substitution-check-price-embedded-wt>
+
+<RAP-importance-tally>2
+</RAP-importance-tally>
+
+<!-- minimum pack weight at which checking the multipack weight is made, 0=off -->
+<!--if minimumPackWeight > 0, the flag MaxPercentageOverweightAllowed should be set in order to make the feature working.-->
+<minimum-pack-weight>0</minimum-pack-weight>
+<!--the max allowed overweight percentage(%). For example, 250% means 2.5 times of the expected WT-->
+<minimum-precentage-over-weight-allowed>250</minimum-precentage-over-weight-allowed>
+
+<smart-scale>
+
+<slow-wt-conclusion-in-expecting-timer>750
+	<description>Number of milliseconds to delay reporting an incorrect weight change from the Security scale - 
+	when a weight change is expected</description>
+</slow-wt-conclusion-in-expecting-timer>
+
+<slow-wt-conclusion-in-attract-timer>3000
+	<description>Number of milliseconds to delay reporting an unexpected weight from the Security scale - 
+	when there is a weight change at Attract screen</description>
+</slow-wt-conclusion-in-attract-timer>
+
+<slow-wt-conclusion-in-not-expecting-timer>1500
+	<description>Number of milliseconds to delay reporting an unexpected weight from the Security scale - 
+	when a weight change is not expected</description>
+</slow-wt-conclusion-in-not-expecting-timer>
+
+<slow-wt-conclusion-timer-belt>1000
+	<description>Number of milliseconds to delay reporting an unexpected or incorrect weight
+	change from the Security scale on Takeaway Belt</description>
+</slow-wt-conclusion-timer-belt>
+
+<watch-dog-timer>5000
+	<description>Number of milliseconds to allow SlowWeightConclTimer
+	to be restarted with 'noise' from Security scale</description>
+</watch-dog-timer>
+
+<watch-dog-timer-belt>1500
+	<description>Number of milliseconds to allow SlowWeightConclTimer
+	to be restarted with 'noise' from Security scale on
+	Takeaway Belt</description>
+</watch-dog-timer-belt>
+
+<zero-expected-wt-timer>4500
+	<description>When WLDB expected weight=0, wait this long on
+	Bag Item screen to ensure they do not bag anything.</description>
+</zero-expected-wt-timer>
+
+<zero-expected-wt-timer-belt>3000
+	<description>When WLDB expected weight=0, wait this long on
+	Bag Item screen to ensure they do not bag anything on
+	Takeaway Belt.</description>
+</zero-expected-wt-timer-belt>
+
+<end-of-transaction-tolerance>100
+	<description>At End of Transaction, final weight can vary
+	from beginning "Virtual-Zero" weight by this amount.
+	1000 = one lb</description>
+</end-of-transaction-tolerance>
+
+<LRW-LGW-tolerance>80
+	<description>Tolerance within which LGW or LRW can vary
+	without causing Security Violation screen</description>
+</LRW-LGW-tolerance>
+
+<acceptable-delta-weight>60
+	<description>Tolerance within which the weight can vary without
+	causing an unexpected increase/decrease</description>
+</acceptable-delta-weight>
+
+<security-scale-scanner-scale-tolerance>80
+	<description>Tolerance within which Security Scale
+                weight &amp; Scanner Scale weight can vary without causing
+	Sec Violation screen</description>
+</security-scale-scanner-scale-tolerance>
+
+<default-bagging-required>Y
+	<description>Default bagging required for items
+	without exception data. Also known as the Weight
+	Required flag.</description>
+</default-bagging-required>
+
+<default-substitution-check-required>Y
+	<description>Default substitution check required for
+	items without exception data. Also known as the
+	Substitution Check flag.</description>
+</default-substitution-check-required>
+
+<allow-hold-wt>Y
+	<description>Use SmartScale's HoldWeight property, Y/N.
+                HoldWeight=Y allows for rapid scan &amp; bag.      </description>
+</allow-hold-wt>
+
+<default-heavy-wt-limit>5000
+	<description>Weights over this amount, apply the
+	DefaultHeavyWtTol value	</description>
+</default-heavy-wt-limit>
+
+<default-medium-wt-limit>2000
+	<description>Weights between this amount and DefaultHeavyWtLimit
+	apply the DefaultMedTol value</description>
+</default-medium-wt-limit>
+
+<default-heavy-wt-tolerance>200
+	<description>Tolerance within which heavy item weights
+	can vary from the WLDB entry.  Heavy=anything over the
+	DefaultHeavyWtLimit setting. 1000 = one lb</description>
+</default-heavy-wt-tolerance>
+
+<default-medium-wt-tolerance>200
+	<description>Tolerance within which medium item weights
+	can vary from WLDB entries.  Medium=anything between
+                DefaultMedWtLimit &amp; DefaultHeavyWtLimit settings.
+	1000 = one lb</description>
+</default-medium-wt-tolerance>
+
+<default-light-wt-tolerance>200
+	<description>Tolerance within which light item weights
+	can vary from the WLDB entry. Light=anything below DefaultMedWtLimit setting.
+	1000 = one lb</description>
+</default-light-wt-tolerance>
+
+<std-dev-max-tolerance>2000
+	<description>Maximum value that the Standard Deviation Tolerance calculation
+	cannot exceed. 1000 = one lb</description>
+</std-dev-max-tolerance>
+
+<smm-wt-min-tolerance>50
+	<description>when adding exception data using Security
+	Maintenance Mode, if changing the default tolerance, it
+	must be at or above this minimum tolerance setting</description>
+</smm-wt-min-tolerance>
+
+<smm-wt-max-tolerance>500
+	<description>when adding exception data using Security
+	Maintenance Mode, if changing the default tolerance, it
+	must be at or below this maximum tolerance setting</description>
+</smm-wt-max-tolerance>
+
+<auto-learn-zero-wt>N
+	<description>Currently option is not used in any release of
+	FastLane RFC 203307 default is False</description>
+</auto-learn-zero-wt>
+
+<minimum-wt>30
+	<description>Smallest amount of weight that Smart scale can read</description>
+</minimum-wt>
+
+</smart-scale>
+
+<DBMgrClient>
+	<description>For future use</description>
+</DBMgrClient>
+
+</security>

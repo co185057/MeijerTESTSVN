@@ -1,0 +1,12 @@
+;HF0902_NCRSSC_RPSW_Installer
+;All possible outputs from installer to C:\scot\install\InstallHistory.log
+
+;Messages for the Lane.
+Success = z:\scot\install\InstallHistory.log, lane, "Successfully installed HF0902_NCRSSC_RPSW_Installer_v2.5.0.3e (02/04/09)", , "HF0902_NCRSSC_RPSW_Installer_v2.5.0.3e (02/04/09) was successful."
+Skipped = z:\scot\install\InstallHistory.log, lane, "Skipped installation for HF0902_NCRSSC_RPSW_Installer_v2.5.0.3e (02/04/09)", , "HF0902_NCRSSC_RPSW_Installer_v2.5.0.3e (02/04/09) was skipped."
+Failed  = z:\scot\install\InstallHistory.log, lane, "Failed to install HF0902_NCRSSC_RPSW_Installer_v2.5.0.3e (02/04/09)", , "HF0902_NCRSSC_RPSW_Installer_v2.5.0.3e (02/04/09) failed."
+
+;Messages for the Rap.
+Success = z:\scot\install\InstallHistory.log, rap, "Successfully installed HF0902_NCRSSC_RPSW_Installer_v2.5.0.3e (02/04/09)", , "HF0902_NCRSSC_RPSW_Installer_v2.5.0.3e (02/04/09) was successful."
+Skipped = z:\scot\install\InstallHistory.log, rap, "Skipped installation for HF0902_NCRSSC_RPSW_Installer_v2.5.0.3e (02/04/09)", , "HF0902_NCRSSC_RPSW_Installer_v2.5.0.3e (02/04/09) was skipped."
+Failed  = z:\scot\install\InstallHistory.log, rap, "Failed to install HF0902_NCRSSC_RPSW_Installer_v2.5.0.3e (02/04/09)", , "HF0902_NCRSSC_RPSW_Installer_v2.5.0.3e (02/04/09) failed."

@@ -1,0 +1,97 @@
+﻿<Display Version="1.0">
+  <Languages>
+    <Language Name="0412"> Korean
+      <StringTable>
+        <!-- Start of Main Screen Context -->
+        <String Name="MinMaxFastLaneBtnPrimaryTxt"> FastLane 최소화</String>
+        <String Name="MinMaxFastLaneBtnSecondaryTxt"> FastLane 최대화</String>
+        <String Name="MinMaxFastLaneBtnPrimaryShowConfirmation">FastLane을 최소화하려면 ‘FastLane 최소화’ 단추를 눌러 주십시오.</String>
+        <String Name="MinMaxFastLaneBtnSecondaryShowConfirmation">FastLane을 최대화하려면 ‘FastLane 최대화’ 단추를 눌러 주십시오.</String>
+        <String Name="StopStartFastLaneBtnPrimaryTxt">FastLane 정지</String>
+        <String Name="StopStartFastLaneBtnSecondaryTxt">FastLane 다시 시작</String>
+        <String Name="SwitchToRAPBtnPrimaryTxt"> RAP으로 전환</String>
+        <String Name="ShutdownSystemBtnPrimaryTxt">전체 시스템 종료</String>
+        <String Name="RebootSystemBtnPrimaryTxt">전체 시스템 다시 시작</String>
+        <String Name="VolumeBtnPrimaryTxt">볼륨 제어</String>
+        <String Name="EventViewerBtnPrimaryTxt">이벤트 뷰어</String>
+        <String Name="GenerateLogBtnPrimaryTxt">진단 로그 파일 생성</String>
+        <String Name="ExitFastLaneAndRunProfileBtnPrimaryTxt"> FastLane 정지 후 프로파일 관리자 실행</String>
+        <String Name="ExitFastLaneAndRunProfileBtnSecondaryTxt">프로파일 관리자 실행</String>
+        <String Name="TerminalInfoBtnPrimaryTxt">터미널 정보</String>
+        <String Name="MinMaxRAPBtnPrimaryTxt">RAP 최소화</String>
+        <String Name="MinMaxRAPBtnSecondaryTxt">RAP 최대화</String>
+        <String Name="MinMaxRAPBtnPrimaryShowConfirmation">RAP을 최소화하려면 ‘RAP 최소화’ 단추를 눌러 주십시오.</String>
+        <String Name="MinMaxRAPBtnSecondaryShowConfirmation">RAP을 최대화하려면 ‘RAP 최대화’ 단추를 눌러 주십시오.</String>
+        <String Name="StopStartRAPButtonPrimaryTxt">RAP 정지</String>
+        <String Name="StopStartRAPButtonSecondaryTxt">RAP 다시 시작</String>
+		<String Name="RapConfigureBtnPrimaryTxt">RAP 구성</String>
+        <String Name="SwitchToFastLaneBtnPrimaryTxt"> FastLane으로 전환</String>
+        <String Name="ExitRAPAndRunProfileBtnPrimaryTxt">RAP을 종료하고 프로파일 관리자 실행</String>
+        <String Name="ExitRAPAndRunProfileBtnSecondaryTxt">프로파일 관리자 실행</String>
+        <String Name="UtilityFunctionsTitle">NCR FastLane\n유틸리티 기능</String>
+        <String Name="StartTitle">시스템 시작</String>
+        <String Name="SystemStartup">시스템 시작… 잠시만 기다려 주십시오</String>
+        <String Name="TerminalID">터미널 ID: </String>
+        <String Name="InterfaceVersion">소프트웨어 버전:</String>
+        <String Name="TrainingProgramPrimaryTxt">교육 프로그램</String>
+        <String Name="OperatorIDText">오퍼레이터 ID: </String>
+        <String Name="KeySwitchOperatorID">키 잠금</String>
+        <String Name="SignOnButtonText">사인 온</String>
+        <String Name="SignOffButtonText">사인 오프</String>
+        <String Name="SignedOffButtonText">사인 오프</String>
+        <String Name="Exit">모두 나가기</String>
+        <String Name="ReturnToShoppingButtonText">반납</String>
+        <String Name="PickListEditor">선택 목록 편집기</String>
+        <String Name="RunADDTxt">다음 다시 시작 시 ADD 실행</String>
+        <String Name="TouchWareTxt">터치 스크린 조정</String>
+        <String Name="DiagConfirm">진단 로그 파일을 생성하시겠습니까?</String>
+        <String Name="ProfileManagerFLConfirm">FastLane을 정지시킨 후 프로파일 관리자를 실행하시겠습니까?</String>
+        <String Name="ProfileManagerRAPConfirm">RAP를 정지시킨 후 프로파일 관리자를 실행하시겠습니까?</String>
+        <String Name="ProfileManagerConfirm">프로파일 관리자를 시작하시겠습니까?</String>
+        <String Name="EventViewerConfirm">이벤트 뷰어를 시작하시겠습니까?</String>
+        <String Name="TrainingConfirm">교육 프로그램을 시작하시겠습니까?</String>
+        <String Name="PicklistConfirm">Picklist 편집기를 시작하시겠습니까?</String>
+        <String Name="RunADDConfirm">다음에 다시 시작할 때 ADD를 실행시키시겠습니까?</String>
+        <String Name="CalibrateConfirm">터치 스크린을 조정하시겠습니까?</String>
+        <String Name="ShutdownConfirm">전체 시스템을 종료하시겠습니까?</String>
+        <String Name="RebootConfirm">전체 시스템을 다시 시작하시겠습니까?</String>
+        <String Name="CloseAllConfirm">모든 응용 프로그램을 종료하고 바탕화면으로 이동하시겠습니까?</String>
+        <String Name="VolumeConfirm">볼륨 제어 기능을 조절하시겠습니까?</String>
+        <String Name="TerminalInfoConfirm">터미널 정보를 보시겠습니까?</String>
+        <String Name="StopFastLaneConfirm">FastLane을 정지시키시겠습니까?</String>
+        <String Name="StopRAPConfirm">RAP를 정지시키시겠습니까?</String>
+        <String Name="StartFastLaneConfirm">FastLane 다시 시작?</String>
+        <String Name="StartRAPConfirm">RAP 다시 시작?</String>
+        <String Name="WindowsLogOnTxt">로그온Windows</String>
+        <String Name="WindowsLogOnConfirm">모든 응용 프로그램을 종료하고 새로운 사용자로 로그온Windows 하시겠습니까?</String>
+        <String Name="YesText">입력</String>
+        <String Name="NoText">취소</String>
+        <String Name="CommandPromptPrimaryTxt">명령 프롬프트</String>
+        <String Name="CommandPromptConfirm">명령 프롬프트를 시작하시겠습니까?</String>
+        <String Name="RSMLEPrimaryTxt">Retail Systems Manager LE</String>
+        <String Name="RSMLEConfirm">Retail Systems Manager LE를 시작하시겠습니까?</String>
+		<String Name="OperatorRegistrationUtility">오퍼레이터 등록 유틸리티</String>
+		<String Name="EnterIDFpLeadthru">사용자 ID를 입력하고 ‘입력’을 누르거나 손가락을 지문 인식 장치에 위치시켜서 로그인합니다.</String>
+		<String Name="ReEnterIDFpLeadthru">잘못된 로그인. 키패드나 지문을 이용해서 다시 로그인해 주십시오.</String>
+        <!-- End of Main Screen Context -->
+
+        <!-- Start of Authentication Contexts -->
+        <String Name="ClearButtonText">삭제</String>
+        <String Name="EnterButtonText">입력</String>
+        <String Name="GoBackButtonText">뒤로 이동</String>
+        <String Name="SpaceButtonText">스페이스</String>
+        <String Name="BackSpaceButtonText">백스페이스</String>
+        <String Name="EnterIDLeadthru">아래의 키패드를 이용해서 ID를 입력하십시오:</String>
+        <String Name="ReEnterIDLeadthru">잘못된 ID 또는 패스워드. 아래의 키패드를 이용해서 다시 입력해 주십시오.</String>
+        <String Name="EnterPasswordLeadthru">아래의 키패드를 이용해서 패스워드를 입력하십시오:</String>
+        <String Name="CancelButtonText">취소</String>
+        <String Name="LoggingInLeadthru">로그인 중… 잠시만 기다려 주십시오</String>
+        <String Name="ShiftButtonText">Shift</String>
+        <String Name="LegalCaptionText">LEGAL CAPTION
+This system is for the use of authorized personnel only. By logging onto this system, you are subject to the terms and conditions of all Information Security policies and standards. Use by unauthorized individuals or for unauthorized purposes is a violation of federal and/or state law. The company reserves the right to take any necessary actions to protect authorized users, intellectual property and other information assets. Individuals using this system are subject to having all of their activities on this system monitored. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals possible evidence of criminal activity, system personnel may provide the evidence of such monitoring to law enforcement officials.
+        </String>
+        <!-- End of Authentication Contexts -->
+      </StringTable>
+    </Language>
+  </Languages>
+</Display>

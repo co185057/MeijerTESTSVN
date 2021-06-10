@@ -1,0 +1,4517 @@
+<Display Version="1.0">
+  <Controls>
+    <Control Name="KeyBoardP1" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">17,122,250,98</Property>
+        <Property Name="ButtonHorizontalSpacing">11</Property>
+        <Property Name="ButtonVerticalSpacing">4</Property>
+        <Property Name="ButtonHeight">30</Property>
+        <Property Name="ButtonWidth">76</Property>
+        <Property Name="Font">KeyBoardFont2</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypad.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">3</Property>
+        <Property Name="Keyboard">True</Property>
+      </Properties>
+      <List>
+        <Button>7,-,103</Button>
+        <Button>8,-,104</Button>
+        <Button>9,-,105</Button>
+        <Button>4,-,100</Button>
+        <Button>5,-,101</Button>
+        <Button>6,-,102</Button>
+        <Button>1,-,97</Button>
+        <Button>2,-,98</Button>
+        <Button>3,-,99</Button>
+      </List>
+    </Control>
+    <Control Name="SMNumericKeyBoard" Type="Button">
+      <Properties>
+        <Property Name="Position">304,122,76,30</Property>
+        <Property Name="Font">KeyBoardFont2</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">$ClearButtonText$</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypad.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="State">2</Property>
+        <Property Name="Z-Order">3</Property>
+        <Property Name="Data">Clear</Property>
+        <Property Name="Keyboard">True</Property>
+      </Properties>
+    </Control>
+    <Control Name="KeyBoardP4" Type="Button">
+      <Properties>
+        <Property Name="Position">304,190,75,64</Property>
+        <Property Name="Font">KeyBoardFont2</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">$EnterButtonText$</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypad-enter.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="State">2</Property>
+        <Property Name="Z-Order">3</Property>
+      </Properties>
+    </Control>
+    <Control Name="KeyBoardP2" Type="Button">
+      <Properties>
+        <Property Name="Position">17,224,164,30</Property>
+        <Property Name="Font">KeyBoardFont2</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">0</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypad-lg.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">3</Property>
+        <Property Name="Data">0</Property>
+        <Property Name="Keyboard">True</Property>
+      </Properties>
+    </Control>
+    <Control Name="KeyBoardP3" Type="Button">
+      <Properties>
+        <Property Name="Position">191,224,76,30</Property>
+        <Property Name="Font">KeyBoardFont2</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">.</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypad.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">3</Property>
+        <Property Name="Data">.</Property>
+        <Property Name="Keyboard">True</Property>
+      </Properties>
+    </Control>
+    <Control Name="Echo" Type="Static">
+      <Properties>
+        <Property Name="Position">17,96,178,18</Property>
+        <Property Name="Font">ButtonCommandFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">2</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">Echo</Property>
+        <Property Name="Z-Order">6</Property>
+      </Properties>
+    </Control>
+    <Control Name="MessageBoxNoEcho" Type="Static">
+      <Properties>
+        <Property Name="Position">13,60,286,36</Property>
+        <Property Name="Font">LeadthruFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">AM_MessageBoxNoEcho</Property>
+        <Property Name="TextLineAlignment">0</Property>
+        <Property Name="BackgroundColor">Black</Property>
+        <Property Name="Z-Order">4</Property>
+      </Properties>
+    </Control>
+    <Control Name="InstructionTextArea" Type="Static">
+      <Properties>
+        <Property Name="Position">13,60,286,36</Property>
+        <Property Name="Font">LeadthruFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="TextLineAlignment">0</Property>
+        <Property Name="BackgroundColor">Black</Property>
+        <Property Name="Variable">AM_InstructionTextArea</Property>
+        <Property Name="Z-Order">4</Property>
+      </Properties>
+    </Control>
+    <Control Name="Prompt" Type="Static">
+      <Properties>
+        <Property Name="Position">13,60,286,54</Property>
+        <Property Name="Font">LeadthruFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">Prompt</Property>
+        <Property Name="TextLineAlignment">0</Property>
+        <Property Name="BackgroundColor">Black</Property>
+        <Property Name="Z-Order">7</Property>
+      </Properties>
+    </Control>
+    <Control Name="CMButton1Med" Type="Button">
+      <Properties>
+        <Property Name="Position">304,66,86,45</Property>
+        <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="TextPosition">4,1,81,40</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+        <Property Name="Z-Order">4</Property>
+      </Properties>
+    </Control>
+    <Control Name="CMButton2Med" Type="Button">
+      <Properties>
+        <Property Name="Position">304,118,86,45</Property>
+        <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="TextPosition">4,1,81,40</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+        <Property Name="Z-Order">4</Property>
+      </Properties>
+    </Control>
+    <Control Name="CMButton1Lg" Type="Button">
+      <Properties>
+        <Property Name="Position">304,66,86,45</Property>
+        <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="TextPosition">4,1,81,40</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+        <Property Name="Z-Order">4</Property>
+      </Properties>
+    </Control>
+    <Control Name="CMButton2" Type="Button">
+      <Properties>
+        <Property Name="Position">304,118,86,45</Property>
+        <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="TextPosition">4,1,81,40</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+        <Property Name="Z-Order">4</Property>
+      </Properties>
+    </Control>
+    <Control Name="ButtonGoBack" Type="Button">
+      <Properties>
+        <Property Name="Position">304,66,86,45</Property>
+        <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="TextPosition">4,1,81,40</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+        <Property Name="Z-Order">4</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMButton1" Type="Button">
+      <Properties>
+        <Property Name="Position">8,6,64,49</Property>
+        <Property Name="Font">AMFunctionButtonFont</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="TextPosition">6,6,53,38</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_toprow_assist.png</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMButton2" Type="Button">
+      <Properties>
+        <Property Name="Position">72,6,64,49</Property>
+        <Property Name="Font">AMFunctionButtonFont</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="TextPosition">6,6,53,38</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_toprow_assist.png</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMButton3" Type="Button">
+      <Properties>
+        <Property Name="Position">136,6,64,49</Property>
+        <Property Name="Font">AMFunctionButtonFont</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="TextPosition">6,6,53,38</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_toprow_assist.png</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMButton4" Type="Button">
+      <Properties>
+        <Property Name="Position">200,6,64,49</Property>
+        <Property Name="Font">AMFunctionButtonFont</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="TextPosition">6,6,53,38</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_toprow_assist.png</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMButton5" Type="Button">
+      <Properties>
+        <Property Name="Position">264,6,64,49</Property>
+        <Property Name="Font">AMFunctionButtonFont</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="TextPosition">6,6,53,38</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_toprow_assist.png</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMButton6" Type="Button">
+      <Properties>
+        <Property Name="Position">605,403,195,53</Property>
+        <Property Name="Font">CMNormalButton</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="TextPosition">22,3,172,43</Property>
+        <Property Name="Audio">C:\SCOT\Sound\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+        <Property Name="Z-Order">3</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMButton7" Type="Button">
+      <Properties>
+        <Property Name="Position">605,462,195,53</Property>
+        <Property Name="Font">CMNormalButton</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="TextPosition">22,3,172,43</Property>
+        <Property Name="Audio">C:\SCOT\Sound\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+        <Property Name="Z-Order">3</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMButton8" Type="Button">
+      <Properties>
+        <Property Name="Position">328,6,64,49</Property>
+        <Property Name="Font">AMFunctionButtonFont</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="TextPosition">6,6,53,38</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_toprow_assist.png</Property>
+        <Property Name="ClickMove">3</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMInfoBox" Type="Static">
+      <Properties>
+        <Property Name="Position">10,119,379,137</Property>
+        <Property Name="Font">LeadthruFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">SMInfoBox</Property>
+        <Property Name="Z-Order">3</Property>
+      </Properties>
+    </Control>
+    <Control Name="CMReceiptVoid" Type="Receipt">
+      <Properties>
+        <Property Name="Position">49,170,341,64</Property>
+        <Property Name="FillStyle">1</Property>
+        <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="SelectionFont">SecondaryLaneButtonTextFont</Property>
+        <Property Name="SelectionBackgroundColor">Gray</Property>
+        <Property Name="SelectionForegroundColor">White</Property>
+        <Property Name="Z-Order">3</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="DataSource">CMSMReceipt</Data>
+        <Data Name="ItemType1">ITEM_DESCRIPTION,ITEM_EXT_PRICE</Data>
+        <Data Name="ItemType1StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType2">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_VOID</Data>
+        <Data Name="ItemType2Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType2Color">DarkGray</Data>
+        <Data Name="ItemType2Selectable">False</Data>
+        <Data Name="ItemType2StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType3">ITEM_MSG</Data>
+        <Data Name="ItemType3StringID">$LaneReceiptItemType2$</Data>
+        <Data Name="ItemType3Selectable">False</Data>
+        <Data Name="ItemType3Color">Red</Data>
+        <Data Name="ItemType3Wrap">True</Data>
+        <Data Name="ItemType4">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType4Font">ReceiptFont</Data>
+        <Data Name="ItemType4Color">Red</Data>
+        <Data Name="ItemType4StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType5">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType5Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType5Color">DarkGray</Data>
+        <Data Name="ItemType5Selectable">False</Data>
+        <Data Name="ItemType5StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType6">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_REWARD</Data>
+        <Data Name="ItemType6Font">ReceiptFont</Data>
+        <Data Name="ItemType6Selectable">False</Data>
+        <Data Name="ItemType6StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType6Wrap">True</Data>
+        <Data Name="ItemType7">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT</Data>
+        <Data Name="ItemType7StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType8">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT</Data>
+        <Data Name="ItemType8StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType9">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType9Font">ReceiptFont</Data>
+        <Data Name="ItemType9Color">Red</Data>
+        <Data Name="ItemType9StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType10">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType10Font">ReceiptFont</Data>
+        <Data Name="ItemType10Color">Red</Data>
+        <Data Name="ItemType10StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType11">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOID</Data>
+        <Data Name="ItemType11Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType11Color">DarkGray</Data>
+        <Data Name="ItemType11Selectable">False</Data>
+        <Data Name="ItemType11StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType12">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOID</Data>
+        <Data Name="ItemType12Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType12Color">DarkGray</Data>
+        <Data Name="ItemType12Selectable">False</Data>
+        <Data Name="ItemType12StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType13">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType13Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType13Color">DarkGray</Data>
+        <Data Name="ItemType13Selectable">False</Data>
+        <Data Name="ItemType13StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType14">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType14Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType14Color">DarkGray</Data>
+        <Data Name="ItemType14Selectable">False</Data>
+        <Data Name="ItemType14StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType15">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT</Data>
+        <Data Name="ItemType15StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType16">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT</Data>
+        <Data Name="ItemType16StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType17">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType17Font">ReceiptFont</Data>
+        <Data Name="ItemType17Color">Red</Data>
+        <Data Name="ItemType17StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType18">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType18Font">ReceiptFont</Data>
+        <Data Name="ItemType18Color">Red</Data>
+        <Data Name="ItemType18StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType19">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOID</Data>
+        <Data Name="ItemType19Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType19Color">DarkGray</Data>
+        <Data Name="ItemType19Selectable">False</Data>
+        <Data Name="ItemType19StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType20">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_VOID</Data>
+        <Data Name="ItemType20Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType20Color">DarkGray</Data>
+        <Data Name="ItemType20Selectable">False</Data>
+        <Data Name="ItemType20StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType21">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType21Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType21Color">DarkGray</Data>
+        <Data Name="ItemType21Selectable">False</Data>
+        <Data Name="ItemType21StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType22">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType22Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType22Color">DarkGray</Data>
+        <Data Name="ItemType22Selectable">False</Data>
+        <Data Name="ItemType22StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType23">ITEM_DESCRIPTION</Data>
+        <Data Name="ItemType23StringID">$LaneReceiptItemType2$</Data>
+        <Data Name="ItemType23Selectable">False</Data>
+        <Data Name="ItemType24">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType24Font">ReceiptFont</Data>
+        <Data Name="ItemType24Selectable">False</Data>
+        <Data Name="ItemType24StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType25">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_RESTRICTED,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType25Selectable">False</Data>
+        <Data Name="ItemType25StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType26">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType26Selectable">False</Data>
+        <Data Name="ItemType26StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType27">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType27Selectable">False</Data>
+        <Data Name="ItemType27StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType28">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType28Color">Red</Data>
+        <Data Name="ItemType28Selectable">False</Data>
+        <Data Name="ItemType28StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType29">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType29Color">Red</Data>
+        <Data Name="ItemType29Selectable">False</Data>
+        <Data Name="ItemType29StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType30">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType30Selectable">False</Data>
+        <Data Name="ItemType30StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType31">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType31Selectable">False</Data>
+        <Data Name="ItemType31StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType32">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType32Color">Red</Data>
+        <Data Name="ItemType32Selectable">False</Data>
+        <Data Name="ItemType32StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType33">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType33Color">Red</Data>
+        <Data Name="ItemType33Selectable">False</Data>
+        <Data Name="ItemType33StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType34">ITEM_DESCRIPTION,ITEM_REWARD</Data>
+        <Data Name="ItemType34Font">ReceiptFont</Data>
+        <Data Name="ItemType34Selectable">False</Data>
+        <Data Name="ItemType34StringID">$LaneReceiptItemType2$</Data>
+        <Data Name="ItemType34Wrap">True</Data>
+        <Data Name="ItemType35">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_REWARD,ITEM_VOID</Data>
+        <Data Name="ItemType35Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType35Color">DarkGray</Data>
+        <Data Name="ItemType35Selectable">False</Data>
+        <Data Name="ItemType35StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType35Wrap">True</Data>
+        <Data Name="ItemType36">ITEM_OLDDESC,ITEM_OLDPRICE</Data>
+        <Data Name="ItemType36Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType36Color">DarkGray</Data>
+        <Data Name="ItemType36Selectable">False</Data>
+        <Data Name="ItemType36StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType36Wrap">True</Data>
+      </CustomData>
+      <Columns>
+        <Column Alignment="0" Width="266" />
+        <Column Alignment="2" Width="75" />
+      </Columns>
+    </Control>
+    <Control Name="SMReceipt" Type="Receipt">
+      <Properties>
+        <Property Name="Position">49,119,341,115</Property>
+        <Property Name="FillStyle">1</Property>
+        <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="SelectionFont">SecondaryLaneButtonTextFont</Property>
+        <Property Name="SelectionBackgroundColor">Gray</Property>
+        <Property Name="SelectionForegroundColor">White</Property>
+        <Property Name="Z-Order">3</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="DataSource">CMSMReceipt</Data>
+        <Data Name="ItemType1">ITEM_DESCRIPTION,ITEM_EXT_PRICE</Data>
+        <Data Name="ItemType1StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType2">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_VOID</Data>
+        <Data Name="ItemType2Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType2Color">DarkGray</Data>
+        <Data Name="ItemType2Selectable">False</Data>
+        <Data Name="ItemType2StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType3">ITEM_MSG</Data>
+        <Data Name="ItemType3StringID">$LaneReceiptItemType2$</Data>
+        <Data Name="ItemType3Selectable">False</Data>
+        <Data Name="ItemType3Color">Red</Data>
+        <Data Name="ItemType3Wrap">True</Data>
+        <Data Name="ItemType4">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType4Font">ReceiptFont</Data>
+        <Data Name="ItemType4Color">Blue</Data>
+        <Data Name="ItemType4StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType5">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType5Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType5Color">DarkGray</Data>
+        <Data Name="ItemType5Selectable">False</Data>
+        <Data Name="ItemType5StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType6">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_REWARD</Data>
+        <Data Name="ItemType6Font">ReceiptFont</Data>
+        <Data Name="ItemType6Selectable">False</Data>
+        <Data Name="ItemType6StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType6Wrap">True</Data>
+        <Data Name="ItemType7">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT</Data>
+        <Data Name="ItemType7StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType8">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT</Data>
+        <Data Name="ItemType8StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType9">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType9Font">ReceiptFont</Data>
+        <Data Name="ItemType9Color">Blue</Data>
+        <Data Name="ItemType9StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType10">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType10Font">ReceiptFont</Data>
+        <Data Name="ItemType10Color">Blue</Data>
+        <Data Name="ItemType10StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType11">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOID</Data>
+        <Data Name="ItemType11Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType11Color">DarkGray</Data>
+        <Data Name="ItemType11Selectable">False</Data>
+        <Data Name="ItemType11StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType12">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOID</Data>
+        <Data Name="ItemType12Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType12Color">DarkGray</Data>
+        <Data Name="ItemType12Selectable">False</Data>
+        <Data Name="ItemType12StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType13">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType13Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType13Color">DarkGray</Data>
+        <Data Name="ItemType13Selectable">False</Data>
+        <Data Name="ItemType13StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType14">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType14Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType14Color">DarkGray</Data>
+        <Data Name="ItemType14Selectable">False</Data>
+        <Data Name="ItemType14StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType15">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT</Data>
+        <Data Name="ItemType15StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType16">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT</Data>
+        <Data Name="ItemType16StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType17">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType17Font">ReceiptFont</Data>
+        <Data Name="ItemType17Color">Blue</Data>
+        <Data Name="ItemType17StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType18">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType18Font">ReceiptFont</Data>
+        <Data Name="ItemType18Color">Blue</Data>
+        <Data Name="ItemType18StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType19">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOID</Data>
+        <Data Name="ItemType19Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType19Color">DarkGray</Data>
+        <Data Name="ItemType19Selectable">False</Data>
+        <Data Name="ItemType19StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType20">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_VOID</Data>
+        <Data Name="ItemType20Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType20Color">DarkGray</Data>
+        <Data Name="ItemType20Selectable">False</Data>
+        <Data Name="ItemType20StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType21">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType21Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType21Color">DarkGray</Data>
+        <Data Name="ItemType21Selectable">False</Data>
+        <Data Name="ItemType21StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType22">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType22Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType22Color">DarkGray</Data>
+        <Data Name="ItemType22Selectable">False</Data>
+        <Data Name="ItemType22StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType23">ITEM_DESCRIPTION</Data>
+        <Data Name="ItemType23StringID">$LaneReceiptItemType2$</Data>
+        <Data Name="ItemType23Selectable">False</Data>
+        <Data Name="ItemType24">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType24Font">ReceiptFont</Data>
+        <Data Name="ItemType24Selectable">False</Data>
+        <Data Name="ItemType24StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType25">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_RESTRICTED,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType25Selectable">False</Data>
+        <Data Name="ItemType25StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType26">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType26Selectable">False</Data>
+        <Data Name="ItemType26StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType27">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType27Selectable">False</Data>
+        <Data Name="ItemType27StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType28">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType28Color">Blue</Data>
+        <Data Name="ItemType28Selectable">False</Data>
+        <Data Name="ItemType28StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType29">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType29Color">Blue</Data>
+        <Data Name="ItemType29Selectable">False</Data>
+        <Data Name="ItemType29StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType30">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType30Selectable">False</Data>
+        <Data Name="ItemType30StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType31">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType31Selectable">False</Data>
+        <Data Name="ItemType31StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType32">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType32Color">Blue</Data>
+        <Data Name="ItemType32Selectable">False</Data>
+        <Data Name="ItemType32StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType33">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOIDADDED</Data>
+        <Data Name="ItemType33Color">Blue</Data>
+        <Data Name="ItemType33Selectable">False</Data>
+        <Data Name="ItemType33StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType34">ITEM_DESCRIPTION,ITEM_REWARD</Data>
+        <Data Name="ItemType34Font">ReceiptFont</Data>
+        <Data Name="ItemType34Selectable">False</Data>
+        <Data Name="ItemType34StringID">$LaneReceiptItemType2$</Data>
+        <Data Name="ItemType34Wrap">True</Data>
+        <Data Name="ItemType35">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_REWARD,ITEM_VOID</Data>
+        <Data Name="ItemType35Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType35Color">DarkGray</Data>
+        <Data Name="ItemType35Selectable">False</Data>
+        <Data Name="ItemType35StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType35Wrap">True</Data>
+        <Data Name="ItemType36">ITEM_OLDDESC,ITEM_OLDPRICE</Data>
+        <Data Name="ItemType36Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType36Color">DarkGray</Data>
+        <Data Name="ItemType36Selectable">False</Data>
+        <Data Name="ItemType36StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType36Wrap">True</Data>
+        <Data Name="ItemType37">ITEM_RAP_ONLY_HILITE</Data>
+        <Data Name="ItemType37StringID">$LaneReceiptItemType7$</Data>
+        <Data Name="ItemType37Selectable">False</Data>
+        <Data Name="ItemType37Color">Red</Data>
+        <Data Name="ItemType37Wrap">True</Data>
+      </CustomData>
+      <Columns>
+        <Column Alignment="0" Width="266" />
+        <Column Alignment="2" Width="75" />
+      </Columns>
+    </Control>
+    <Control Name="SMTotalText" Type="Static">
+      <Properties>
+        <Property Name="Position">150,242,124,20</Property>
+        <Property Name="Font">TotalAndNumItemFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">$TotalText$</Property>
+        <Property Name="TextAlignment">2</Property>
+        <Property Name="Z-Order">4</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMTotalAmount" Type="Static">
+      <Properties>
+        <Property Name="Position">274,242,120,20</Property>
+        <Property Name="Font">TotalAndNumItemFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">SMTotalAmount</Property>
+        <Property Name="TextAlignment">2</Property>
+        <Property Name="Z-Order">4</Property>
+      </Properties>
+    </Control>
+    <Control Name="MediaList" Type="Receipt">
+      <Properties>
+        <Property Name="Position">53,110,546,428</Property>
+        <Property Name="FillStyle">1</Property>
+        <Property Name="Font">FixedReceiptFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="SelectionBackgroundColor">Gray</Property>
+        <Property Name="SelectionForegroundColor">White</Property>
+        <Property Name="Z-Order">5</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="DataSource">MediaList</Data>
+        <Data Name="ItemType1">ITEM_SMTEXT</Data>
+        <Data Name="ItemType1StringID">$LaneReceiptItemType2$</Data>
+      </CustomData>
+      <Columns>
+        <Column Alignment="0" Width="546" />
+      </Columns>
+    </Control>
+    <Control Name="AMTareList" Type="Receipt">
+      <Properties>
+        <Property Name="Position">49,119,341,115</Property>
+        <Property Name="Audio">C:\SCOT\Sound\BttnValid.wav</Property>
+        <Property Name="FillStyle">1</Property>
+        <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="SelectionBackgroundColor">Gray</Property>
+        <Property Name="SelectionForegroundColor">White</Property>
+        <Property Name="Z-Order">5</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="DataSource">AMTareList</Data>
+        <Data Name="ItemType1">ITEM_SMTEXT</Data>
+        <Data Name="ItemType1StringID">$LaneReceiptItemType2$</Data>
+      </CustomData>
+      <Columns>
+        <Column Alignment="0" Width="341" />
+      </Columns>
+    </Control>
+    <Control Name="SMReceiptScrollUp" Type="Button">
+      <Properties>
+        <Property Name="Position">16,143,25,24</Property>
+        <Property Name="Audio">%AudioPath%\ScrollValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_scroll-arrow-up.png</Property>
+        <Property Name="Z-Order">4</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMReceiptScrollDown" Type="Button">
+      <Properties>
+        <Property Name="Position">16,181,25,24</Property>
+        <Property Name="Audio">%AudioPath%\ScrollValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_scroll-arrow-down.png</Property>
+        <Property Name="Z-Order">4</Property>
+      </Properties>
+    </Control>
+    <Control Name="Title2" Type="Static">
+      <Properties>
+        <Property Name="Position">64,18,242,27</Property>
+        <Property Name="Font">TitleFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">Title2</Property>
+        <Property Name="BackgroundColor">Transparent</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+	<Control Name="SMLeadthruText" Type="Static">
+      <Properties>
+        <Property Name="Position">13,60,286,36</Property>
+        <Property Name="Font">LeadthruFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="Z-Order">4</Property>
+      </Properties>
+    </Control>
+    <Control Name="LeadthruText" Type="Static">
+      <Properties>
+        <Property Name="Position">13,60,286,36</Property>
+        <Property Name="Font">LeadthruFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="BackgroundColor">Transparent</Property>
+        <Property Name="Z-Order">4</Property>
+      </Properties>
+    </Control>
+    <Control Name="Title1" Type="Static">
+      <Properties>
+        <Property Name="Position">174,42,392,32</Property>
+        <Property Name="Font">CMMessageFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">Title1</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="LeadthruText2" Type="Static">
+      <Properties>
+        <Property Name="Position">174,136,392,27</Property>
+        <Property Name="Font">TotalAndNumItemFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">LeadthruText2</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+    <Control Name="CMWeight" Type="Static">
+      <Properties>
+        <Property Name="Position">6,7,170,45</Property>
+        <Property Name="Font">ScaleFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">CMWeight</Property>
+        <Property Name="TextAlignment">0</Property>
+        <Property Name="BackgroundColor">LightBlue</Property>
+      </Properties>
+    </Control>
+    <Control Name="SMReportReceipt" Type="Receipt">
+      <Properties>
+        <Property Name="Position">53,110,546,428</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="FillStyle">1</Property>
+        <Property Name="Font">SMReportFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="SelectionBackgroundColor">DarkGray</Property>
+        <Property Name="SelectionForegroundColor">White</Property>
+        <Property Name="Z-Order">5</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="DataSource">SMReportReceipt</Data>
+        <Data Name="ItemType1">ITEM_SMTEXT</Data>
+        <Data Name="ItemType1StringID">$LaneReceiptItemType2$</Data>
+      </CustomData>
+      <Columns>
+        <Column Alignment="0" Width="546" />
+      </Columns>
+    </Control>
+    <Control Name="SMReceiptCoupon" Type="Receipt">
+      <Properties>
+        <Property Name="Position">49,119,341,115</Property>
+        <Property Name="FillStyle">1</Property>
+        <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="SelectionFont">SecondaryLaneButtonTextFont</Property>
+        <Property Name="SelectionBackgroundColor">Gray</Property>
+        <Property Name="SelectionForegroundColor">White</Property>
+        <Property Name="Z-Order">3</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="DataSource">SMReceiptCoupon</Data>
+        <Data Name="ItemType1">ITEM_DESCRIPTION,ITEM_EXT_PRICE</Data>
+        <Data Name="ItemType1StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType2">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_VOID</Data>
+        <Data Name="ItemType2Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType2Color">DarkGray</Data>
+        <Data Name="ItemType2Selectable">False</Data>
+        <Data Name="ItemType2StringID">$LaneReceiptItemType1$</Data>
+      </CustomData>
+      <Columns>
+        <Column Alignment="0" Width="266" />
+        <Column Alignment="2" Width="75" />
+      </Columns>
+    </Control>
+    <Control Name="SMReceiptVisualItem" Type="Receipt">
+      <Properties>
+        <Property Name="Position">49,119,341,115</Property>
+        <Property Name="FillStyle">1</Property>
+        <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="SelectionFont">SecondaryLaneButtonTextFont</Property>
+        <Property Name="SelectionBackgroundColor">Gray</Property>
+        <Property Name="SelectionForegroundColor">White</Property>
+        <Property Name="Z-Order">3</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="DataSource">SMReceiptVisualItem</Data>
+        <Data Name="ItemType1">ITEM_DESCRIPTION,ITEM_EXT_PRICE</Data>
+        <Data Name="ItemType1StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType2">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_VOID</Data>
+        <Data Name="ItemType2Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType2Color">DarkGray</Data>
+        <Data Name="ItemType2Selectable">False</Data>
+        <Data Name="ItemType2StringID">$LaneReceiptItemType1$</Data>
+      </CustomData>
+      <Columns>
+        <Column Alignment="0" Width="266" />
+        <Column Alignment="2" Width="75" />
+      </Columns>
+    </Control>
+    <Control Name="SMReceiptRestricted" Type="Receipt">
+      <Properties>
+        <Property Name="Position">49,170,341,64</Property>
+        <Property Name="FillStyle">1</Property>
+        <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="SelectionFont">SecondaryLaneButtonTextFont</Property>
+        <Property Name="SelectionBackgroundColor">Gray</Property>
+        <Property Name="SelectionForegroundColor">White</Property>
+        <Property Name="Z-Order">3</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="DataSource">SMReceiptRestricted</Data>
+        <Data Name="ItemType1">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType1Font">ReceiptFont</Data>
+        <Data Name="ItemType1Color">Blue</Data>
+        <Data Name="ItemType1StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType2">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType2Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType2Color">DarkGray</Data>
+        <Data Name="ItemType2Selectable">False</Data>
+        <Data Name="ItemType2StringID">$LaneReceiptItemType1$</Data>
+        <Data Name="ItemType3">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType3Font">ReceiptFont</Data>
+        <Data Name="ItemType3Color">Blue</Data>
+        <Data Name="ItemType3StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType4">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType4Font">ReceiptFont</Data>
+        <Data Name="ItemType4Color">Blue</Data>
+        <Data Name="ItemType4StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType5">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType5Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType5Color">DarkGray</Data>
+        <Data Name="ItemType5Selectable">False</Data>
+        <Data Name="ItemType5StringID">$LaneReceiptItemType3$</Data>
+        <Data Name="ItemType6">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDQTY,ITEM_DEALQTY,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType6Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType6Color">DarkGray</Data>
+        <Data Name="ItemType6Selectable">False</Data>
+        <Data Name="ItemType6StringID">$LaneReceiptItemType4$</Data>
+        <Data Name="ItemType7">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType7Font">ReceiptFont</Data>
+        <Data Name="ItemType7Color">Blue</Data>
+        <Data Name="ItemType7StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType8">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_RESTRICTED</Data>
+        <Data Name="ItemType8Font">ReceiptFont</Data>
+        <Data Name="ItemType8Color">Blue</Data>
+        <Data Name="ItemType8StringID">$LaneReceiptItemType6$</Data>
+        <Data Name="ItemType9">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_DEALQTY,ITEM_SCALEUNITS,ITEM_UNITPRICE,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType9Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType9Color">DarkGray</Data>
+        <Data Name="ItemType9Selectable">False</Data>
+        <Data Name="ItemType9StringID">$LaneReceiptItemType5$</Data>
+        <Data Name="ItemType10">ITEM_DESCRIPTION,ITEM_EXT_PRICE,ITEM_SOLDWEIGHT,ITEM_UNITPRICE,ITEM_SCALEUNITS,ITEM_SUFFIXTEXT,ITEM_RESTRICTED,ITEM_VOID</Data>
+        <Data Name="ItemType10Font">ReceiptFontVoid</Data>
+        <Data Name="ItemType10Color">DarkGray</Data>
+        <Data Name="ItemType10Selectable">False</Data>
+        <Data Name="ItemType10StringID">$LaneReceiptItemType6$</Data>
+      </CustomData>
+      <Columns>
+        <Column Alignment="0" Width="266" />
+        <Column Alignment="2" Width="75" />
+      </Columns>
+    </Control>
+    <Control Name="MainBackground" Type="Static">
+      <Properties>
+        <Property Name="Position">0,103,800,441</Property>
+        <Property Name="Picture">%MediaPath%\8x6-Mat_keypad.png</Property>
+        <Property Name="Z-Order">1</Property>
+      </Properties>
+    </Control>
+    <Control Name="ReportReceiptBackground1" Type="Static">
+      <Properties>
+        <Property Name="Position">3,107,600,434</Property>
+        <Property Name="BackgroundColor">Black</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="ReportReceiptBackground2" Type="Static">
+      <Properties>
+        <Property Name="Position">5,110,596,428</Property>
+        <Property Name="BackgroundColor">White</Property>
+        <Property Name="Z-Order">3</Property>
+      </Properties>
+    </Control>
+    <Control Name="SelectedItem" Type="Edit">
+      <Properties>
+        <Property Name="Position">333,140,236,53</Property>
+        <Property Name="Font">EchoFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">2</Property>
+        <Property Name="TextLength">12</Property>
+        <Property Name="Visible">False</Property>
+        <Property Name="Z-Order">3</Property>
+      </Properties>
+    </Control>
+    <Control Name="SmAlphaNumP1" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">14,161,665,61</Property>
+        <Property Name="ButtonHorizontalSpacing">5</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">61</Property>
+        <Property Name="ButtonWidth">62</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+      <List>
+        <Button>1,-,97</Button>
+        <Button>2,-,98</Button>
+        <Button>3,-,99</Button>
+        <Button>4,-,100</Button>
+        <Button>5,-,101</Button>
+        <Button>6,-,102</Button>
+        <Button>7,-,103</Button>
+        <Button>8,-,104</Button>
+        <Button>9,-,105</Button>
+        <Button>0,-,96</Button>
+      </List>
+    </Control>
+    <Control Name="SmAlphaNumP2" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">14,228,665,61</Property>
+        <Property Name="ButtonHorizontalSpacing">5</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">61</Property>
+        <Property Name="ButtonWidth">62</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+      <List>
+        <Button>Q,-,81</Button>
+        <Button>W,-,87</Button>
+        <Button>E,-,69</Button>
+        <Button>R,-,82</Button>
+        <Button>T,-,84</Button>
+        <Button>Y,-,89</Button>
+        <Button>U,-,85</Button>
+        <Button>I,-,73</Button>
+        <Button>O,-,79</Button>
+        <Button>P,-,80</Button>
+      </List>
+    </Control>
+    <Control Name="SmAlphaNumP3" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">47,295,598,61</Property>
+        <Property Name="ButtonHorizontalSpacing">5</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">61</Property>
+        <Property Name="ButtonWidth">62</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+      <List>
+        <Button>A,-,65</Button>
+        <Button>S,-,83</Button>
+        <Button>D,-,68</Button>
+        <Button>F,-,70</Button>
+        <Button>G,-,71</Button>
+        <Button>H,-,72</Button>
+        <Button>J,-,74</Button>
+        <Button>K,-,75</Button>
+        <Button>L,-,76</Button>
+      </List>
+    </Control>
+    <Control Name="SmAlphaNumP4" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">80,364,531,61</Property>
+        <Property Name="ButtonHorizontalSpacing">5</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">61</Property>
+        <Property Name="ButtonWidth">62</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+      <List>
+        <Button>Z,-,90</Button>
+        <Button>X,-,88</Button>
+        <Button>C,-,67</Button>
+        <Button>V,-,86</Button>
+        <Button>B,-,66</Button>
+        <Button>N,-,78</Button>
+        <Button>M,-,77</Button>
+        <Button>.,-,44</Button>
+      </List>
+    </Control>
+    <Control Name="AlphaNumP2_LCase" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">14,228,665,61</Property>
+        <Property Name="ButtonHorizontalSpacing">5</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">61</Property>
+        <Property Name="ButtonWidth">62</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">3</Property>
+        <Property Name="Visible" Synchronize="true">False</Property>
+      </Properties>
+      <List>
+        <Button>q,-,81</Button>
+        <Button>w,-,87</Button>
+        <Button>e,-,69</Button>
+        <Button>r,-,82</Button>
+        <Button>t,-,84</Button>
+        <Button>y,-,89</Button>
+        <Button>u,-,85</Button>
+        <Button>i,-,73</Button>
+        <Button>o,-,79</Button>
+        <Button>p,-,80</Button>
+      </List>
+    </Control>
+    <Control Name="AlphaNumP3_LCase" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">47,295,598,61</Property>
+        <Property Name="ButtonHorizontalSpacing">5</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">61</Property>
+        <Property Name="ButtonWidth">62</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">3</Property>
+        <Property Name="Visible" Synchronize="true">False</Property>
+      </Properties>
+      <List>
+        <Button>a,-,65</Button>
+        <Button>s,-,83</Button>
+        <Button>d,-,68</Button>
+        <Button>f,-,70</Button>
+        <Button>g,-,71</Button>
+        <Button>h,-,72</Button>
+        <Button>j,-,74</Button>
+        <Button>k,-,75</Button>
+        <Button>l,-,76</Button>
+      </List>
+    </Control>
+    <Control Name="AlphaNumP4_LCase" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">80,364,531,61</Property>
+        <Property Name="ButtonHorizontalSpacing">5</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">61</Property>
+        <Property Name="ButtonWidth">62</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">3</Property>
+        <Property Name="Visible" Synchronize="true">False</Property>
+      </Properties>
+      <List>
+        <Button>z,-,90</Button>
+        <Button>x,-,88</Button>
+        <Button>c,-,67</Button>
+        <Button>v,-,86</Button>
+        <Button>b,-,66</Button>
+        <Button>n,-,78</Button>
+        <Button>m,-,77</Button>
+        <Button>.,-,44</Button>
+      </List>
+    </Control>
+    <Control Name="AlphaNumKey3" Type="Button">
+      <Properties>
+        <Property Name="Position">627,364,127,129</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">$EnterButtonText$</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon-enter.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">3</Property>
+        <Property Name="State">2</Property>
+      </Properties>
+    </Control>
+    <Control Name="SpaceKey" Type="Button">
+      <Properties>
+        <Property Name="Position">281,431,196,61</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">$SpaceButtonText$</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon-space.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">3</Property>
+      </Properties>
+    </Control>
+    <Control Name="Backspace" Type="Button">
+      <Properties>
+        <Property Name="Position">655,295,128,61</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">$BackSpaceButtonText$</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon-med.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="Z-Order">3</Property>
+      </Properties>
+    </Control>
+    <Control Name="ShiftKey1" Type="Button">
+      <Properties>
+        <Property Name="Position">47,431,128,61</Property>
+        <Property Name="Font">KeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextFormat">$ShiftButtonText$</Property>
+        <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+        <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon-med.png</Property>
+        <Property Name="ClickMove">2</Property>
+        <Property Name="State">1</Property>
+        <Property Name="Toggle">true</Property>
+        <Property Name="Z-Order">2</Property>
+      </Properties>
+    </Control>
+  </Controls>
+  <Contexts>
+    <Context Name="AM_KeyInCode">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="KeyBoardP1">
+        </Control>
+        <Control Name="KeyBoardP2">
+        </Control>
+        <Control Name="KeyBoardP4">
+        </Control>
+        <Control Name="SMNumericKeyBoard">
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">2</Property>
+            <Property Name="TextFormat">$KeyInCodeTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="ButtonGoBack">
+          <Properties>
+            <Property Name="Position">304,10,86,45</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="TextFormat">$KeyInCodeLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="TextColor">Black</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmAssistMenu">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="LaneReceiptPageUp">
+          <Properties>
+            <Property Name="Action">Click,Scroll,SMReceipt,3</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneReceiptPageDown">
+          <Properties>
+            <Property Name="Action">Click,Scroll,SMReceipt,2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+          <Properties>
+            <Property Name="Action">ChangeScroll,ChangeVisible,LaneReceiptPageUp,CanScroll(3);ChangeScroll,ChangeVisible,LaneReceiptPageDown,CanScroll(2)</Property>
+          </Properties>
+        </Control>
+        <Control Name="SelectedItem">
+          <Properties>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="Action">ChangeText,ChangeState,SMButton2,TextLength;ChangeText,ChangeState,SMButton3,TextLength;ChangeText,ChangeState,SMButton4,TextLength</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="TextFormat">$KeyInCodeButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton2">
+          <Properties>
+            <Property Name="TextFormat">$VoidItemButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton3">
+          <Properties>
+            <Property Name="TextFormat">$ChangePriceButtonText$</Property>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton4">
+          <Properties>
+            <Property Name="TextFormat">$ChangeQuantityButtonText$</Property>
+            <Property Name="Visible">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton5">
+          <Properties>
+            <Property Name="TextFormat">$FullAssistButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="TextFormat">$CloseButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+            <Property Name="BackgroundColor">Black</Property>
+            <Property Name="TextFormat">$BasicAssistModeLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Prompt">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AM_KeyInPrice">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="KeyBoardP1">
+        </Control>
+        <Control Name="KeyBoardP2">
+        </Control>
+        <Control Name="KeyBoardP4">
+        </Control>
+        <Control Name="KeyBoardP3">
+        </Control>
+        <Control Name="SMNumericKeyBoard">
+        </Control>
+        <Control Name="Title2">
+          <Properties>
+            <Property Name="TextFormat">$ChangePriceTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="Position">304,10,86,45</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="TextPosition">4,1,81,40</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+            <Property Name="BackgroundColor">Black</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="TextColor">Black</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AM_VoidItem">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">2</Property>
+            <Property Name="TextFormat">$VoidItemTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Lg">
+          <Properties>
+            <Property Name="TextFormat">$VoidItemButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton2">
+          <Properties>
+            <Property Name="TextFormat">$VoidAllButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="ButtonGoBack">
+          <Properties>
+            <Property Name="Position">304,10,86,45</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextPosition">4,1,81,40</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+            <Property Name="TextFormat">$VoidItemLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="CMReceiptVoid">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+          <Properties>
+            <Property Name="Position">16,173,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+          <Properties>
+            <Property Name="Position">16,206,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="EchoAreaBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AM_KeyInQuantity">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="KeyBoardP1">
+        </Control>
+        <Control Name="KeyBoardP2">
+        </Control>
+        <Control Name="KeyBoardP4">
+        </Control>
+        <Control Name="SMNumericKeyBoard">
+        </Control>
+        <Control Name="Title2">
+          <Properties>
+            <Property Name="TextFormat">$ChangeQuantityTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="Position">304,10,86,45</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="TextPosition">4,1,81,40</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+            <Property Name="BackgroundColor">Black</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="TextColor">Black</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AM_ConfirmVoid">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">2</Property>
+            <Property Name="TextFormat">$ConfirmVoidTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="TextFormat">$YesButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton2Med">
+          <Properties>
+            <Property Name="TextFormat">$NoButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+          <Properties>
+            <Property Name="Position">49,170,341,64</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+          <Properties>
+            <Property Name="Position">16,173,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+          <Properties>
+            <Property Name="Position">16,206,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmUpdateItem">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title2">
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="Position">304,10,86,45</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextPosition">4,1,81,40</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="Position">304,66,86,45</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextPosition">4,1,81,40</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+            <Property Name="TextFormat">$EnterButtonText$</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+            <Property Name="BackgroundColor">Black</Property>
+            <Property Name="TextFormat">$UpdateItemLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AM_ConfirmQuantity">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">2</Property>
+            <Property Name="TextFormat">$ConfirmQuantityTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="TextFormat">$YesButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton2Med">
+          <Properties>
+            <Property Name="TextFormat">$NoButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+          <Properties>
+            <Property Name="Position">49,170,341,64</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+          <Properties>
+            <Property Name="Position">16,173,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+          <Properties>
+            <Property Name="Position">16,206,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AM_CouponNoMatch">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">2</Property>
+            <Property Name="TextFormat">$CouponNoMatchTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="TextFormat">$OKButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+            <Property Name="TextFormat">$CouponNoMatchLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AM_CouponNotAllowed">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="TextFormat">$OKButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AM_CouponTooHigh">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">2</Property>
+            <Property Name="TextFormat">$CouponTooHighTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="TextFormat">$OKButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+            <Property Name="TextFormat">$CouponTooHighLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AM_CrateableItem">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">2</Property>
+            <Property Name="TextFormat">$CrateableItemTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="TextFormat">$YesButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton2Med">
+          <Properties>
+            <Property Name="TextFormat">$NoButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+          <Properties>
+            <Property Name="Position">49,170,341,64</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+          <Properties>
+            <Property Name="Position">16,173,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+          <Properties>
+            <Property Name="Position">16,206,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AM_CustomMessage">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="TextFormat">$OKButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AM_EnterCouponValue">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="KeyBoardP1">
+        </Control>
+        <Control Name="KeyBoardP2">
+        </Control>
+        <Control Name="KeyBoardP4">
+        </Control>
+        <Control Name="KeyBoardP3">
+        </Control>
+        <Control Name="SMNumericKeyBoard">
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">2</Property>
+            <Property Name="TextFormat">$EnterCouponValueTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="ButtonGoBack">
+          <Properties>
+            <Property Name="Position">304,10,86,45</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="TextFormat">$EnterCouponValue$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="TextColor">Black</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AM_EnterQuantity">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="KeyBoardP1">
+        </Control>
+        <Control Name="KeyBoardP2">
+        </Control>
+        <Control Name="KeyBoardP4">
+        </Control>
+        <Control Name="SMNumericKeyBoard">
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="ButtonGoBack">
+          <Properties>
+            <Property Name="Position">304,10,86,45</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="MessageBoxNoEcho">
+          <Properties>
+            <Property Name="TextFormat">$EnterQuantityLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="TextColor">Black</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AM_EnterWeight">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">2</Property>
+            <Property Name="TextFormat">$EnterWeightTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="ButtonGoBack">
+          <Properties>
+            <Property Name="Position">304,10,86,45</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+            <Property Name="TextFormat">$EnterWeightLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AM_EnterWtForPriceEmbedded">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">2</Property>
+            <Property Name="TextFormat">$EnterWeightTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="ButtonGoBack">
+          <Properties>
+            <Property Name="Position">304,10,86,45</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+            <Property Name="TextFormat">$EnterWeightLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AM_ItemQuantityExceeded">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">2</Property>
+            <Property Name="TextFormat">$AMItemQuantityExceededTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="TextFormat">$OKButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+            <Property Name="TextFormat">$ItemQuantityExceededLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AM_Processing">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">2</Property>
+            <Property Name="TextFormat">$ProcessingTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+            <Property Name="TextFormat">$ProcessingLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AM_SelectTare">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="ButtonGoBack">
+          <Properties>
+            <Property Name="Position">304,10,86,45</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="Position">304,66,86,45</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextFormat">$EnterButtonText$</Property>
+            <Property Name="TextPosition">4,1,81,40</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">2</Property>
+            <Property Name="TextFormat">$SelectContainerTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+            <Property Name="TextFormat">$SelectContainerLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="AMTareList">
+          <Properties>
+            <Property Name="UserInput">True</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+          <Properties>
+            <Property Name="Picture">%MediaPath%\8x6-btn_page-arrow-up.png</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+          <Properties>
+            <Property Name="Picture">%MediaPath%\8x6-btn_page-arrow-down.png</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AM_VoidNoMatch">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">2</Property>
+            <Property Name="TextFormat">$VoidNoMatchTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="TextFormat">$OKButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+            <Property Name="TextFormat">$VoidNoMatchLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AM_ConfirmAbort">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">2</Property>
+            <Property Name="TextFormat">$ConfirmAbortTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="TextFormat">$YesButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton2Med">
+          <Properties>
+            <Property Name="TextFormat">$NoButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+            <Property Name="TextFormat">$ConfirmAbortLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+          <Properties>
+            <Property Name="Position">49,170,341,64</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+          <Properties>
+            <Property Name="Position">16,173,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+          <Properties>
+            <Property Name="Position">16,206,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AM_ContinueTrans">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">2</Property>
+            <Property Name="TextFormat">$ContinueTransTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="TextFormat">$YesButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton2Med">
+          <Properties>
+            <Property Name="TextFormat">$NoButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+            <Property Name="TextFormat">$ContinueTransLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+          <Properties>
+            <Property Name="Position">49,170,341,64</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+          <Properties>
+            <Property Name="Position">16,173,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+          <Properties>
+            <Property Name="Position">16,206,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AM_ScaleBroken">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">2</Property>
+            <Property Name="TextFormat">$ScaleBrokenTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="ButtonGoBack">
+          <Properties>
+            <Property Name="Position">304,10,86,45</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+            <Property Name="TextFormat">$ScaleBrokenLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AM_UpdateNotAllowed">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">2</Property>
+            <Property Name="TextFormat">$UpdateNotAllowedTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="TextFormat">$OKButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+            <Property Name="TextFormat">$UpdateNotAllowedLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="RemoteSystemMessage">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="TextAlignment">1</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="Position">304,10,86,45</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextPosition">4,1,81,40</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="Position">304,66,86,45</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextPosition">4,1,81,40</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+            <Property Name="BackgroundColor">Black</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMInfoBox">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmAborted">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">EchoFont</Property>
+            <Property Name="TextAlignment">1</Property>
+            <Property Name="Visible">true</Property>
+            <Property Name="TextFormat">$TransactionCancelTitle$</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+            <Property Name="Font">LaneStatusFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextLineAlignment">0</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="BackgroundColor">Black</Property>
+            <Property Name="Visible">true</Property>
+            <Property Name="TextFormat">$TransactionCancelLeadThru$</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText2">
+          <Properties>
+            <Property Name="Position">13,75,286,54</Property>
+            <Property Name="Font">LaneStatusFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextLineAlignment">0</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Visible">true</Property>
+            <Property Name="Z-Order">6</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="Position">301,65,86,45</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="TextPosition">4,1,81,40</Property>
+            <Property Name="TextFormat">$OKButtonText$</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneReceipt">
+          <Properties>
+            <Property Name="Position">49,170,341,64</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneReceiptPageUp">
+          <Properties>
+            <Property Name="Position">16,143,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneReceiptPageDown">
+          <Properties>
+            <Property Name="Position">16,281,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoAreaBackground">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="TotalText">
+        </Control>
+        <Control Name="TotalAmount">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmAuthorization">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="Position">304,10,86,45</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextPosition">4,1,81,40</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+            <Property Name="BackgroundColor">Black</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMInfoBox">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmDataEntry">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">0,4,800,34</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">1</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">0,41,800,34</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">1</Property>
+            <Property Name="TextColor">Yellow</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">0,42,800,31</Property>
+            <Property Name="Font">KeyBoardFont2</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">1</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText2">
+          <Properties>
+            <Property Name="Position">0,73,800,31</Property>
+            <Property Name="Font">KeyBoardFont2</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">1</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="Position">605,108,195,53</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextPosition">22,3,172,43</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton2">
+          <Properties>
+            <Property Name="Position">605,167,195,53</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextPosition">22,3,172,43</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton3">
+          <Properties>
+            <Property Name="Position">605,226,195,53</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextPosition">22,3,172,43</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton4">
+          <Properties>
+            <Property Name="Position">605,285,195,53</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextPosition">22,3,172,43</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton5">
+          <Properties>
+            <Property Name="Position">605,344,195,53</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextPosition">22,3,172,43</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton6">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton7">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="Position">654,543,140,55</Property>
+            <Property Name="Font">MainButtonFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="TextPosition">10,5,123,41</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_global.png</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="ClickMove">2</Property>
+            <Property Name="Z-Order">1</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+          <Properties>
+            <Property Name="Position">16,248,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+          <Properties>
+            <Property Name="Position">16,356,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+          <Properties>
+            <Property Name="Position">53,110,546,403</Property>
+            <Property Name="FillStyle">1</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="SelectionFont">SecondaryLaneButtonTextFont</Property>
+            <Property Name="SelectionBackgroundColor">Gray</Property>
+            <Property Name="SelectionForegroundColor">White</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+          <Columns>
+            <Column Alignment="0" Width="381" />
+            <Column Alignment="2" Width="165" />
+          </Columns>
+        </Control>
+        <Control Name="MainBackground">
+        </Control>
+        <Control Name="ReportReceiptBackground1">
+        </Control>
+        <Control Name="ReportReceiptBackground2">
+        </Control>
+        <Control Name="SMTotalText">
+          <Properties>
+            <Property Name="Position">310,518,124,20</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalAmount">
+          <Properties>
+            <Property Name="Position">434,518,165,20</Property>
+          </Properties>
+        </Control>
+        <Control Name="ItemText">
+          <Properties>
+            <Property Name="Position">43,518,100,20</Property>
+          </Properties>
+        </Control>
+        <Control Name="ItemAmount">
+          <Properties>
+            <Property Name="Position">143,518,50,20</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmDataEntryWithListBG">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">0,4,800,34</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">1</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">0,42,800,31</Property>
+            <Property Name="Font">KeyBoardFont2</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">1</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText2">
+          <Properties>
+            <Property Name="Position">0,73,800,31</Property>
+            <Property Name="Font">KeyBoardFont2</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">1</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="Position">605,108,195,53</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextPosition">22,3,172,43</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton2">
+          <Properties>
+            <Property Name="Position">605,167,195,53</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextPosition">22,3,172,43</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton3">
+          <Properties>
+            <Property Name="Position">605,226,195,53</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextPosition">22,3,172,43</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton4">
+          <Properties>
+            <Property Name="Position">605,285,195,53</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextPosition">22,3,172,43</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton5">
+          <Properties>
+            <Property Name="Position">605,344,195,53</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextPosition">22,3,172,43</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton6">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton7">
+          <Properties>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="Position">654,543,140,55</Property>
+            <Property Name="Font">MainButtonFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="TextPosition">10,5,123,41</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_global.png</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="ClickMove">2</Property>
+            <Property Name="Z-Order">1</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+        </Control>
+        <Control Name="MainBackground">
+        </Control>
+        <Control Name="KeyBoardP1">
+          <Properties>
+            <Property Name="Position">107,168,218,197</Property>
+            <Property Name="ButtonHorizontalSpacing">16</Property>
+            <Property Name="ButtonVerticalSpacing">7</Property>
+            <Property Name="ButtonHeight">61</Property>
+            <Property Name="ButtonWidth">62</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon.png</Property>
+            <Property Name="ClickMove">2</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="KeyBoardP2">
+          <Properties>
+            <Property Name="Position">107,378,141,61</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon-zero.png</Property>
+            <Property Name="ClickMove">2</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="KeyBoardP4">
+          <Properties>
+            <Property Name="Position">360,310,127,129</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon-enter.png</Property>
+            <Property Name="ClickMove">2</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMNumericKeyBoard">
+          <Properties>
+            <Property Name="Position">360,168,128,61</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_keypadLogon-med.png</Property>
+            <Property Name="ClickMove">2</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">93,110,247,41</Property>
+            <Property Name="Font">EchoFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">2</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+          <Properties>
+            <Property Name="Position">93,110,267,41</Property>
+            <Property Name="Picture">%MediaPath%\8x6-Graphx_KeyPadEchoBox.png</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmDataEntryWithMediaList">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">0,4,800,34</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">1</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">0,41,800,34</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">1</Property>
+            <Property Name="TextColor">Yellow</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">0,42,800,31</Property>
+            <Property Name="Font">KeyBoardFont2</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">1</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText2">
+          <Properties>
+            <Property Name="Position">0,73,800,31</Property>
+            <Property Name="Font">KeyBoardFont2</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">1</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="Position">605,108,195,53</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextPosition">22,3,172,43</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton2">
+          <Properties>
+            <Property Name="Position">605,167,195,53</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextPosition">22,3,172,43</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton3">
+          <Properties>
+            <Property Name="Position">605,226,195,53</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextPosition">22,3,172,43</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton4">
+          <Properties>
+            <Property Name="Position">605,285,195,53</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextPosition">22,3,172,43</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton5">
+          <Properties>
+            <Property Name="Position">605,344,195,53</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextPosition">22,3,172,43</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton6">
+        </Control>
+        <Control Name="SMButton7">
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="Position">654,543,140,55</Property>
+            <Property Name="Font">MainButtonFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="TextPosition">10,5,123,41</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_global.png</Property>
+            <Property Name="Visible">
+            </Property>
+            <Property Name="TextFormat">
+            </Property>
+            <Property Name="State">
+            </Property>
+            <Property Name="ClickMove">2</Property>
+            <Property Name="Z-Order">1</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+          <Properties>
+            <Property Name="Position">16,248,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+          <Properties>
+            <Property Name="Position">16,356,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="MediaList">
+        </Control>
+        <Control Name="MainBackground">
+        </Control>
+        <Control Name="ReportReceiptBackground1">
+        </Control>
+        <Control Name="ReportReceiptBackground2">
+        </Control>
+        <Control Name="SMTotalText">
+          <Properties>
+            <Property Name="Position">310,518,124,20</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalAmount">
+          <Properties>
+            <Property Name="Position">434,518,165,20</Property>
+          </Properties>
+        </Control>
+        <Control Name="ItemText">
+          <Properties>
+            <Property Name="Position">43,518,100,20</Property>
+          </Properties>
+        </Control>
+        <Control Name="ItemAmount">
+          <Properties>
+            <Property Name="Position">143,518,50,20</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmDataEntrySmall">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextAlignment">1</Property>
+            <Property Name="Visible">true</Property>
+            <Property Name="TextFormat">%s</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionText">
+          <Properties>
+            <Property Name="Position">13,60,242,54</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">13,60,286,18</Property>
+            <Property Name="Font">LaneStatusFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextLineAlignment">0</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Visible">true</Property>
+            <Property Name="TextFormat">%s</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText2">
+          <Properties>
+            <Property Name="Position">13,78,286,18</Property>
+            <Property Name="Font">LaneStatusFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextLineAlignment">0</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Visible">true</Property>
+            <Property Name="TextFormat">%s</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="Position">301,65,86,45</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="TextPosition">4,1,81,40</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton2">
+          <Properties>
+            <Property Name="Position">301,115,86,45</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="TextPosition">4,1,81,40</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="Position">301,10,86,45</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="TextPosition">4,1,81,40</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneReceipt">
+          <Properties>
+            <Property Name="Position">49,170,341,64</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneReceiptPageUp">
+          <Properties>
+            <Property Name="Position">16,143,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneReceiptPageDown">
+          <Properties>
+            <Property Name="Position">16,281,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoAreaBackground">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="TotalText">
+        </Control>
+        <Control Name="TotalAmount">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmDataEntryNumericSmall">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextAlignment">1</Property>
+            <Property Name="Z-Order">3</Property>
+            <Property Name="Visible">true</Property>
+            <Property Name="TextFormat">%s</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">13,60,286,18</Property>
+            <Property Name="Font">LaneStatusFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextLineAlignment">0</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="BackgroundColor">Black</Property>
+            <Property Name="Z-Order">5</Property>
+            <Property Name="Visible">true</Property>
+            <Property Name="TextFormat">%s</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText2">
+          <Properties>
+            <Property Name="Position">13,78,286,18</Property>
+            <Property Name="Font">LaneStatusFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextLineAlignment">0</Property>
+            <Property Name="BackgroundColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="TextColor">Black</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="KeyBoardP1">
+        </Control>
+        <Control Name="KeyBoardP2">
+        </Control>
+        <Control Name="KeyBoardP4">
+        </Control>
+        <Control Name="SMNumericKeyBoard">
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="Position">301,65,86,45</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="TextPosition">4,1,81,40</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="Position">301,10,86,45</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="TextPosition">4,1,81,40</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmEnterBirthdate">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="KeyBoardP1">
+        </Control>
+        <Control Name="KeyBoardP2">
+        </Control>
+        <Control Name="KeyBoardP4">
+        </Control>
+        <Control Name="SMNumericKeyBoard">
+        </Control>
+        <Control Name="Title2">
+          <Properties>
+            <Property Name="TextFormat">$SmEnterBirthdateTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMLeadthruText">
+          <Properties>
+            <Property Name="Position">13,60,286,36</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+            <Property Name="BackgroundColor">Black</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="Position">304,10,86,45</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="TextPosition">4,1,81,40</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="TextColor">Black</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmVisualItems">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="Position">304,66,86,45</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextPosition">4,1,81,40</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="Position">304,10,86,45</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="TextPosition">4,1,81,40</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title2">
+          <Properties>
+            <Property Name="TextFormat">$SmVisualItemsTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+            <Property Name="TextFormat">$SmVisualItemsLeadthru$</Property>
+            <Property Name="BackgroundColor">Black</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptVisualItem">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmCouponItems">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="Position">304,66,86,45</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextPosition">4,1,81,40</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title2">
+          <Properties>
+            <Property Name="TextFormat">$SmCouponItemsTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+            <Property Name="TextFormat">$SmCouponItemsLeadthru$</Property>
+            <Property Name="BackgroundColor">Black</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptCoupon">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmRestrictedItems">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="Position">304,66,86,45</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextFormat">$KeyInBirthDateButtonText$</Property>
+            <Property Name="TextPosition">4,1,81,40</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton2">
+          <Properties>
+            <Property Name="Position">304,118,86,45</Property>
+            <Property Name="Font">SecondaryLaneButtonTextFont</Property>
+            <Property Name="TextFormat">$DateOfBirthNotNeededButtonText$</Property>
+            <Property Name="TextPosition">4,1,81,40</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_intervention.png</Property>
+            <Property Name="Z-Order">4</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title2">
+          <Properties>
+            <Property Name="TextFormat">$SmRestrictedItemsTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextLineAlignment">0</Property>
+            <Property Name="TextFormat">$SmRestrictedItemsLeadthru$</Property>
+            <Property Name="BackgroundColor">Black</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptRestricted">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+          <Properties>
+            <Property Name="Position">16,173,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+          <Properties>
+            <Property Name="Position">16,206,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmReportsMenu">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">0,4,800,34</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">1</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">0,41,800,34</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">1</Property>
+            <Property Name="TextColor">Yellow</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">0,81,800,23</Property>
+            <Property Name="Font">KeyBoardFont2</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">1</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="Position">605,108,195,53</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextPosition">22,3,172,43</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton2">
+          <Properties>
+            <Property Name="Position">605,167,195,53</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextPosition">22,3,172,43</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton3">
+          <Properties>
+            <Property Name="Position">605,226,195,53</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextPosition">22,3,172,43</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton4">
+          <Properties>
+            <Property Name="Position">605,285,195,53</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextPosition">22,3,172,43</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton7">
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="Position">654,543,140,55</Property>
+            <Property Name="Font">MainButtonFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="TextPosition">10,5,123,41</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_global.png</Property>
+            <Property Name="ClickMove">2</Property>
+            <Property Name="Z-Order">1</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+          <Properties>
+            <Property Name="Position">16,248,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+          <Properties>
+            <Property Name="Position">16,356,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReportReceipt">
+          <Properties>
+            <Property Name="UserInput">True</Property>
+          </Properties>
+        </Control>
+        <Control Name="MainBackground">
+        </Control>
+        <Control Name="ReportReceiptBackground1">
+        </Control>
+        <Control Name="ReportReceiptBackground2">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmRunReports">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">0,4,800,34</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">1</Property>
+            <Property Name="TextFormat">$SmRunReportsTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">0,81,800,23</Property>
+            <Property Name="Font">KeyBoardFont2</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">1</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="Position">605,108,195,53</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextPosition">22,3,172,43</Property>
+            <Property Name="TextFormat">$PrintReportButtonText$</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="Position">654,543,140,55</Property>
+            <Property Name="Font">MainButtonFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="TextPosition">10,5,123,41</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_global.png</Property>
+            <Property Name="ClickMove">2</Property>
+            <Property Name="Z-Order">1</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+          <Properties>
+            <Property Name="Position">16,248,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+          <Properties>
+            <Property Name="Position">16,356,25,24</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReportReceipt">
+          <Properties>
+            <Property Name="ShowSelection">False</Property>
+          </Properties>
+        </Control>
+        <Control Name="MainBackground">
+        </Control>
+        <Control Name="ReportReceiptBackground1">
+        </Control>
+        <Control Name="ReportReceiptBackground2">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="AM_RestrictedNotAllowed">
+      <Properties>
+        <Property Name="Size">400,270</Property>
+        <Property Name="BackgroundColor">Black</Property>
+      </Properties>
+      <Include>
+        <Control Name="EchoAreaBackground">
+          <Properties>
+            <Property Name="Position">10,59,381,60</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">64,18,242,27</Property>
+            <Property Name="Font">TitleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+            <Property Name="Z-Order">2</Property>
+            <Property Name="TextFormat">$AM_RestrictedNotAllowedTitle$</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMButton1Med">
+          <Properties>
+            <Property Name="TextFormat">$OKButtonText$</Property>
+          </Properties>
+        </Control>
+        <Control Name="InstructionTextArea">
+          <Properties>
+            <Property Name="Position">13,60,286,54</Property>
+            <Property Name="TextFormat">$AM_RestrictedNotAllowedLeadthru$</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMReceipt">
+        </Control>
+        <Control Name="SMReceiptScrollUp">
+        </Control>
+        <Control Name="SMReceiptScrollDown">
+        </Control>
+        <Control Name="SMTotalText">
+        </Control>
+        <Control Name="SMTotalAmount">
+        </Control>
+        <Control Name="ItemText">
+        </Control>
+        <Control Name="ItemAmount">
+        </Control>
+        <Control Name="LaneReceiptBackground">
+        </Control>
+        <Control Name="LaneViewWhiteBackground">
+        </Control>
+        <Control Name="LaneViewBlueBackground">
+        </Control>
+        <Control Name="LaneCaption">
+          <Properties>
+            <Property Name="Font">TitleFont</Property>
+          </Properties>
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmPrintReceipt">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">0,4,800,34</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">1</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">0,41,800,34</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">1</Property>
+            <Property Name="TextColor">Yellow</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">0,81,800,23</Property>
+            <Property Name="Font">KeyBoardFont2</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">1</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="Position">605,108,195,53</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextPosition">22,3,172,43</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton2">
+          <Properties>
+            <Property Name="Position">605,167,195,53</Property>
+            <Property Name="Font">CMNormalButton</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextPosition">22,3,172,43</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn-reports-utility.png</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="Position">654,543,140,55</Property>
+            <Property Name="Font">MainButtonFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="TextPosition">10,5,123,41</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_global.png</Property>
+            <Property Name="ClickMove">2</Property>
+            <Property Name="Z-Order">1</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+        </Control>
+        <Control Name="MainBackground">
+        </Control>
+        <Control Name="ReportReceiptBackground1">
+        </Control>
+        <Control Name="ReportReceiptBackground2">
+        </Control>
+      </Include>
+    </Context>
+    <Context Name="SmDataEntryAlphanumeric">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="BackgroundColor">Blue</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">0,4,800,34</Property>
+            <Property Name="Font">CMMessageFont</Property>
+            <Property Name="TextAlignment">1</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Position">0,42,800,31</Property>
+            <Property Name="Font">KeyBoardFont2</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">1</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText2">
+          <Properties>
+            <Property Name="Position">0,73,800,31</Property>
+            <Property Name="Font">KeyBoardFont2</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">1</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SMButton8">
+          <Properties>
+            <Property Name="Position">654,543,140,55</Property>
+            <Property Name="Font">MainButtonFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextFormat">$GoBackButtonText$</Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="TextPosition">10,5,123,41</Property>
+            <Property Name="Picture">%MediaPath%\8x6-btn_global.png</Property>
+            <Property Name="ClickMove">2</Property>
+            <Property Name="Z-Order">1</Property>
+          </Properties>
+        </Control>
+        <Control Name="CMWeight">
+        </Control>
+        <Control Name="MainBackground">
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">198,110,247,41</Property>
+            <Property Name="Font">EchoFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextAlignment">2</Property>
+            <Property Name="Z-Order">3</Property>
+          </Properties>
+        </Control>
+        <Control Name="EchoBox">
+          <Properties>
+            <Property Name="Position">198,110,267,41</Property>
+            <Property Name="Picture">%MediaPath%\8x6-Graphx_KeyPadEchoBox.png</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="SmAlphaNumP1">
+        </Control>
+        <Control Name="SmAlphaNumP2">
+        </Control>
+        <Control Name="SmAlphaNumP3">
+        </Control>
+        <Control Name="SmAlphaNumP4">
+        </Control>
+        <Control Name="AlphaNumP2_LCase">
+        </Control>
+        <Control Name="AlphaNumP3_LCase">
+        </Control>
+        <Control Name="AlphaNumP4_LCase">
+        </Control>
+        <Control Name="AlphaNumKey3">
+        </Control>
+        <Control Name="SpaceKey">
+        </Control>
+        <Control Name="Backspace">
+        </Control>
+        <Control Name="ShiftKey1">
+        </Control>
+      </Include>
+    </Context>
+  </Contexts>
+</Display>

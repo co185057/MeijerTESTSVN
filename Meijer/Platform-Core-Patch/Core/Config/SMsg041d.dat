@@ -1,0 +1,112 @@
+; Switch Message File   \\ Swedish  -  Sweden
+;
+; file SMsg041d.dat
+;
+
+
+[WindowName]
+SupervisorSwitchTI = Terminal-ID
+SupervisorSwitch = Växel i läget Systemansvarig
+NormalSwitch = Växel i läget Normal
+SupervisorSwitchEV = Växel i läget Systemansvarig/Händelsegranskare
+SupervisorSwitchGDF = Växel i läget Systemansvarig/GetDiagFiles körs
+SupervisorSwitchPM = Växel i läget Systemansvarig/Profile Manager körs
+SupervisorSwitchTIF = Växel i läget Systemansvarig/Terminalinformation körs
+
+
+[ButtonCaptions]
+ExSCRGetDiagFiles = Skapa diagnosfiler
+ExAMRGetDiagFiles = Skapa diagnosfiler
+ExSCRProfileManager = Avsluta FastLane och kör Profile Manager
+ExAMRProfileManager = Avsluta läget Kassör och kör Profile Manager
+ExSC = Avsluta FastLane
+ExAM = Avsluta läget Kassör
+SwitchtoAM = Byt till läget Kassör
+SwitchtoSC = Byt till FastLane
+MinimizeSC = Minimera FastLane
+MinimizeAM = Minimera läget Kassör
+MaximizeSC = Maximera FastLane
+MaximizeAM = Maximera läget Kassör
+Shutdown = Stäng ned hela systemet
+Reboot = Starta om hela systemet
+RestartAM = Starta om läget Kassör
+RestartSC = Starta FastLane
+RGetDiagFiles = Skapa diagnosfiler
+RProfileManager = Kör Profile Manager
+EvtVwr = Händelsegranskare
+Volume = Volyminställning
+RTerminalInformation=Terminalinformation
+ExitSwitchApp = Avsluta SwitchApp
+BClear = Radera
+BEnter = OK
+BCancel = Avbryt
+AuthTitleID = Slå in användar-ID och tryck på "OK"
+AuthTitlePassWord = Slå in lösenordet och tryck på "OK"
+RegisterFingerprint= Registrera fingeravtryck
+AuthTitleIDBiometric= Eller använd fingeravtrycket för att logga in
+AuthInvalidLogin = Ogiltigt ID/lösenord eller fingeravtryck. Försök igen
+FPDevice= Fingeravtrycksläsaren är frånkopplad, ange ID/lösenord
+FPDuplicateID= Dubbla ID för ett fingeravtryck:%s, ange ID/lösenord
+
+[SwitchErrorMsg]
+;ClcSwitch
+OnButtonReboot1 = Det gick inte att starta om FastLane-terminalen.
+ButtonThread1 =  Det gick inte att starta %s.
+LoadPathsFromRegistry1 = Det gick inte att hämta Ja/Nej-konfigurationsvärde för Stöd för FastLane-lampa med SwitchApp från registret.
+LoadPathsFromRegistry2 = Det gick inte att hämta Ja/Nej-konfigurationsvärde för Stöd för Powerpad med SwitchApp från registret.
+WaitForAppTermination1 = %s kunde inte avslutas inom %d sekunder. Starta om hela systemet
+MonitorAppTermination1 = %s avslutades onormalt.
+LaunchBatchFile1 = Det gick inte att starta batch-fil %s.
+PowerpadOn1 = Det gick inte att aktivera stöldskyddsborttagaren. Resultatkod %u
+PowerpadOn2 = Det gick inte att aktivera stöldskyddsborttagaren.
+PowerpadOn3 = Det gick inte att aktivera stöldskyddsborttagaren. Resultatkod %u
+PowerpadOn4 = Det gick inte att aktivera stöldskyddsborttagaren.
+MiscIFLaneLightOn1 = Det gick inte att starta FastLane-lampa. Kontrollera händelseloggen.
+MiscIFLaneLightOn2 = Det gick inte att aktivera Miscellaneous Interface. Kontrollera att enheten är tillgänglig och kontrollera händelseloggen.
+MiscIFLaneLightOff1 = Det gick inte att stänga av Lane Light. Kontrollera händelseloggen.
+MiscIFLaneLightOff2 = Det gick inte att frisläppa Miscellaneous Interface. Kontrollera händelseloggen.
+MiscIFLaneLightOff3 = Det gick inte att stänga ned Miscellaneous Interface. Kontrollera händelseloggen.
+OposControl1 = Det gick inte att skapa %s-styrning. Kontrollera att styrningen är registrerad.
+OposControl2 = Det gick inte att öppna %s. Kontrollera att profilen är uppdaterad på rätt sätt i registret.
+OposControl3 = Det gick inte att ta kontrollen över %s. Kontrollera att profilen är uppdaterad på rätt sätt i registret.
+CloseControl1 = Det gick inte att frisläppa %s. Kontrollera händelseloggen.
+CloseControl2 = Det gick inte att stänga %s. Kontrollera händelseloggen.
+CreateSalesApp1 =  Det gick inte att starta programmet. 
+CreateSalesApp2 = %s kunde inte initialiseras inom %d sekunder.
+LaunchBatchFile2 = Batch-filen %s stängdes inte
+;CSwitch2Dlg
+OnInitDialog1 = Det gick inte att öppna nyckellåsenheten.
+;CKWarning
+OnInitDialog2 = För att %s vrider du systemlåset tillbaka till "N" eller trycker på knappen %s.
+DrMsg1 = Systemet är nedstängt: Hämtar loggar...
+DrMsg2 = Systemet är nedstängt: Loggar hämtade. Systemet startas om…
+
+
+[OtherMsg]
+MARSMsg = Kontrollerar inbyggd programvara MARS. Om uppdatering behövs kan det ta ca 10 minuter.
+5992Msg = Kontrollerar inbyggd programvara 5992. Om uppdatering behövs kan det ta ca 10 minuter.
+K590Msg = Kontrollerar inbyggd programvara K590. Om uppdatering behövs kan det ta ca 10 minuter.
+K580Msg = Kontrollerar inbyggd programvara K580. Om uppdatering behövs kan det ta ca 10 minuter.
+F306Msg = Kontrollerar inbyggd programvara F306. Om uppdatering behövs kan det ta ca 10 minuter.
+F307Msg = Kontrollerar inbyggd programvara F307. Om uppdatering behövs kan det ta ca 10 minuter.
+F309Msg = Kontrollerar inbyggd programvara F309. Om uppdatering behövs kan det ta ca 10 minuter.
+USBTQMsg = Kontrollerar inbyggd programvara för myntutmatare. Om uppdatering behövs kan det ta ca 10 minuter.
+WaitMsg = Vänta…
+ADDMsg = Detekterar enheter automatiskt.
+TraceCheckMsg = Kontrollerar programmens spårfiler för onormal stängning.
+ArdacMsg = Kontrollerar inbyggd programvara Ardac. Om uppdatering behövs kan det ta ca 10 minuter.
+SR5Msg = Kontrollerar myntinmataren. Om uppdatering behövs kan det ta ca 10 minuter.
+GDFMsg = Vänta
+MCRWMsg = Kontrollerar inbyggd programvara för motordriven kortläsare. Om uppdatering behövs kan det ta ca 10 minuter.
+TransferMsg = Överför diagnosfiler...
+CF9520Msg = Uppdateringen misslyckades. Nuvarande myntinmatare kan inte användas för utländska mynt. Ersätt den med CF9520 modell MK2.
+GLORYMsg = Kontrollerar inbyggd programvara Glory Recycler. Om uppdatering behövs kan det ta ca 10 minuter.
+IOBoxMsg = Kontrollerar inbyggd programvara IOBox. Om uppdatering behövs kan det ta ca 10 minuter.
+7875Msg = Kontrollerar inbyggd programvara för avläsaren. Om uppdatering behövs kan det ta upp till 10 minuter.
+BiosMsg = Kontrollerar BIOS. Om uppdatering behövs kan det ta upp till 10 minuter. Systemet startar om efter uppdateringen.
+MEIMsg = Kontrollerar inbyggd programvara MEI. Om uppdatering behövs kan det ta ca 10 minuter.
+ScaleMsg = Kontrollerar vågens inbyggda programvara. Om uppdatering behövs kan det ta ca 2 minuter.
+BCRMsg = Kontrollerar myntrecyklerns inbyggda programvara. Om uppdatering behövs kan det ta ca 10 minuter.
+BNRMsg = Kontrollerar sedelrecyklerns inbyggda programvara. Om uppdatering behövs kan det ta ca 10 minuter.
+MSRDIPMsg = Kontrollera kortbetalningens inbyggda programvara. Om uppdatering behövs kan det ta ca 10 minuter.
+F53Msg = Kontrollerar inbyggd programvara F53. Om uppdatering behövs kan det ta ca 10 minuter.

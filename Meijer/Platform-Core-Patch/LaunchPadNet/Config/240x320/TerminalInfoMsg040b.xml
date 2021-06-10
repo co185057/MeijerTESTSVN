@@ -1,0 +1,19 @@
+<Display Version="1.0">
+  <Languages>
+    <Language Name="040b">
+      <StringTable>
+        <String Name="IPText">IP-osoite</String>
+        <String Name="BatteryText">Pariston tila</String>
+        <String Name="FreeStorageText">Ilmainen säilytystila</String>
+        <String Name="SystemStorageText">Järjestelmän säilytystila</String>
+        <String Name="FreeMemoryText">Ilmainen muisti</String>
+        <String Name="SystemMemoryText">Järjestelmän muisti</String>
+        <String Name="ProcessorTypeText">Prosessorityyppi</String>
+        <String Name="ComputerNameText">Tietokoneen nimi</String>
+        <String Name="TerminalTitleText">Tietokoneen tiedot</String>
+        <String Name="BatteryChargeText">Ladataan</String>
+        <String Name="OkButtonText">OK</String>
+      </StringTable>
+    </Language>
+  </Languages>
+</Display>

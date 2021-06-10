@@ -1,0 +1,11 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\Software\OleForRetail\ServiceOpos\POSPrinter\NCRPOSPrinter.1\DataCapture] 
+"DcapMask"="700FF -> Hex mask of events to capture" 
+"DcapControl"="4 -> Hex destination(s): 1=DCap App, 2=Debugger, 4=File; 10/20/40 for immediate" 
+"DcapFile"="C:\\scot\\bin\\ScotRecDataCap.log"
+
+[HKEY_LOCAL_MACHINE\Software\NCR\SCOT\DeviceServer\DataCapture]
+"DcapMask"="1 -> Hex mask of events to capture"
+"DcapControl"="4 -> Hex destination(s): 1=DCap App, 2=Debugger, 4=File; 10/20/40 for immediate"
+"DcapFile"="c:\\SCOT\\BIN\\NCRdeviceserver.log"

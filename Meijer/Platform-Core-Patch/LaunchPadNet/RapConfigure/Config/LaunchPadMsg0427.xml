@@ -1,0 +1,75 @@
+﻿<Display Version="1.0">
+	<Languages>
+		<Language Name="0427">
+			<StringTable>
+				<String Name="MinMaxFastLaneBtnPrimaryTxt">Sumažinti FastLane</String>
+				<String Name="MinMaxFastLaneBtnSecondaryTxt">Padidinti FastLane</String>
+				<String Name="MinMaxFastLaneBtnPrimaryShowConfirmation">Jei norite sumažinti FastLane, palieskite mygtuką „Sumažinti FastLane“.</String>
+				<String Name="MinMaxFastLaneBtnSecondaryShowConfirmation">Jei norite padidinti FastLane, palieskite mygtuką „Padidinti FastLane“.</String>
+				<String Name="StopStartFastLaneBtnPrimaryTxt">Sustabdyti FastLane</String>
+				<String Name="StopStartFastLaneBtnSecondaryTxt">Paleisti FastLane</String>
+				<String Name="SwitchToRAPBtnPrimaryTxt">Perjungti į RAP</String>
+				<String Name="ShutdownSystemBtnPrimaryTxt">Išjungti visą sistemą</String>
+				<String Name="RebootSystemBtnPrimaryTxt">Perkrauti sistemą iš naujo</String>
+				<String Name="VolumeBtnPrimaryTxt">Volume</String>
+				<String Name="EventViewerBtnPrimaryTxt">Įvykių žiūryklė</String>
+				<String Name="GenerateLogBtnPrimaryTxt">Generuoti diagnostikos failus</String>        
+                <String Name="RapConfigureBtnPrimaryTxt">RAP konfigūracija</String>
+				<String Name="ExitFastLaneAndRunProfileBtnPrimaryTxt">Sustabdyti FastLane ir paleisti profilių tvarkyklę</String>
+				<String Name="ExitFastLaneAndRunProfileBtnSecondaryTxt">Paleisti profilių tvarkyklę</String>
+				<String Name="TerminalInfoBtnPrimaryTxt">Įrenginio informacija</String>
+				<String Name="MinMaxRAPBtnPrimaryTxt">Minimize RAP</String>
+				<String Name="MinMaxRAPBtnSecondaryTxt">Padidinti RAP.</String>
+				<String Name="MinMaxRAPBtnPrimaryShowConfirmation">Jei norite sumažinti RAP, palieskite mygtuką „Sumažinti RAP“.</String>
+				<String Name="MinMaxRAPBtnSecondaryShowConfirmation">Jei norite padidinti RAP, palieskite mygtuką „Padidinti RAP“.</String>
+				<String Name="StopStartRAPButtonPrimaryTxt">Sustabdyti RAP</String>
+				<String Name="StopStartRAPButtonSecondaryTxt">Paleisti RAP</String>
+				<String Name="SwitchToFastLaneBtnPrimaryTxt">Persijungti į FastLane</String>
+				<String Name="ExitRAPAndRunProfileBtnPrimaryTxt">Sustabdyti RAP ir paleisti profilių tvarkyklę</String>
+				<String Name="ExitRAPAndRunProfileBtnSecondaryTxt">Paleisti profilių tvarkyklę</String>
+				<String Name="UtilityFunctionsTitle">NCR FastLane\nPagalbinės funkcijos</String>
+				<String Name="SignOnTitle">NCR FastLane\nSign On</String>
+				<String Name="SystemStartup">Sistema paleidžiama... prašome palaukti</String>
+				<String Name="StartTitle">Sistemos paleidimas</String>
+				<String Name="TerminalID">Įrenginio ID:</String>
+				<String Name="TrainingProgramPrimaryTxt">Mokymo programa</String>
+				<String Name="OperatorIDText">ID: </String>
+				<String Name="SignOnButtonText">Įeiti į sistemą</String>
+				<String Name="SignOffButtonText">Išeiti iš sistemos</String>
+				<String Name="SignedOffButtonText">Išėjęs iš sistemos</String>
+				<String Name="Exit">Išeiti iš visų</String>
+				<String Name="ReturnToShoppingButtonText">Grįžti</String>
+				<String Name="PickListEditor">Atrenkamų prekių sąrašo redagavimo programa</String>
+				<String Name="DiagConfirm">Ar tikrai norite generuoti diagnostikos žurnalo failus?</String>
+				<String Name="ProfileManagerFLConfirm">Ar tikrai norite sustabdyti FastLane ir paleisti profilių tvarkyklę?</String>
+				<String Name="ProfileManagerRAPConfirm">Ar tikrai norite sustabdyti RAP ir paleisti profilių tvarkyklę?</String>
+				<String Name="CalibrateConfirm">Ar tikrai norite paleisti kalibruoti jutiklinį ekraną?</String>
+				<String Name="ShutdownConfirm">Ar tikrai norite išjungti visą sistemą?</String>
+				<String Name="RebootConfirm">Ar tikrai norite įkrauti iš naujo visą sistemą?</String>
+				<String Name="CloseAllConfirm">Ar tikrai norite išeiti iš visų programų ir pereiti į darbalaukį?</String>
+				<String Name="VolumeConfirm">Ar tikrai norite reguliuoti garsumo valdiklį?</String>
+				<String Name="TerminalInfoConfirm">Ar tikrai norite pažiūrėti galinio įrenginio informaciją?</String>
+				<String Name="StopFastLaneConfirm">Ar tikrai norite sustabdyti FastLane?</String>
+				<String Name="StopRAPConfirm">Ar tikrai norite sustabdyti RAP?</String>
+				<String Name="StartFastLaneConfirm">Ar tikrai norite paleisti FastLane?</String>
+				<String Name="StartRAPConfirm">Ar tikrai norite paleisti RAP?</String>
+				<String Name="YesText">Taip</String>
+				<String Name="NoText">Ne</String>
+				<String Name="ClearButtonText">Išvalyti</String>
+				<String Name="EnterButtonText">Įvesti</String>
+				<String Name="GoBackButtonText">Grįžti atgal</String>
+				<String Name="SpaceButtonText">Tarpas</String>
+				<String Name="BackSpaceButtonText">Grįžtis</String>
+				<String Name="ShiftButtonText">„Shift“ mygtukas</String>
+				<String Name="EnterIDLeadthru">Žemiau esančiais mygtukais įveskite ID:</String>
+				<String Name="ReEnterIDLeadthru">Neteisingas ID arba slaptažodis. Žemiau esančiais mygtukais prašome įvesti iš naujo.</String>
+				<String Name="EnterPasswordLeadthru">Žemiau esančiais mygtukais įveskite slaptažodį:</String>
+				<String Name="CancelButtonText">Panaikinti</String>
+				<String Name="LoggingInLeadthru">Prisiregistruojama... Prašome palaukti</String>
+				<String Name="LegalCaptionText">LEGAL CAPTION
+This system is for the use of authorized personnel only. By logging onto this system, you are subject to the terms and conditions of all Information Security policies and standards. Use by unauthorized individuals or for unauthorized purposes is a violation of federal and/or state law. The company reserves the right to take any necessary actions to protect authorized users, intellectual property and other information assets. Individuals using this system are subject to having all of their activities on this system monitored. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals possible evidence of criminal activity, system personnel may provide the evidence of such monitoring to law enforcement officials.
+				</String>
+			</StringTable>
+		</Language>
+	</Languages>
+</Display>

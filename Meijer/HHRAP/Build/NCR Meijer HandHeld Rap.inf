@@ -1,0 +1,73 @@
+[Version]
+Signature="$Windows NT$"
+Provider="NCR"
+CESignature="$Windows CE$"
+
+
+[CEStrings]
+AppName="Meijer HandHeld Rap"
+;; InstallDir=\scot
+
+[DestinationDirs]
+Files00 = 0, \scot\config
+Files01 = 0, \scot\bin
+
+
+[SourceDisksNames]
+1=, "SourceDisk01",,C:\temp\Meijer\HHRAP
+
+[SourceDisksFiles]
+"HHACSAssistMode.xml" = 1
+"HHACSAssistModeshared.xml" = 1
+"HHACSMsg0409.xml" = 1 
+"HandheldUPCEtoUPCA.xml" = 1 
+"HandheldPowerSettings.xml" = 1 
+"RAP.000" = 1
+"SharedRap.000" = 1
+"TerminalInfoCE.exe" = 1
+"lanesetup.txt" = 1
+"Setup.dll"=1
+"RapMsg0409.xml"=1
+"RapMsg080a.xml"=1
+"RapMsg0c0a.xml"=1
+"HHACSAssistModeSpecific.xml"=1
+
+
+
+
+[DefaultInstall]
+CopyFiles = Files00, Files01
+;; AddReg = AddRegistry
+CESetupDLL = "Setup.dll"
+;; CEShortcuts = Shortcuts00, Shortcuts01
+
+
+[Files00]
+"HHACSAssistMode.xml",,,0x40000002
+"HHACSAssistModeshared.xml",,,0x40000002
+"HHACSMsg0409.xml",,,0x40000002
+"HandheldUPCEtoUPCA.xml",,,0x40000002
+"HandheldPowerSettings.xml",,,0x40000002
+"RAP.000",,,0x40000002
+"SharedRap.000",,,0x40000002
+"RapMsg0409.xml",,,0x40000002
+"RapMsg080a.xml",,,0x40000002
+"RapMsg0c0a.xml",,,0x40000002
+"HHACSAssistModeSpecific.xml",,,0x40000002
+
+[Files01]
+"TerminalInfoCE.exe",,,0x40000002
+"lanesetup.txt",,,0x40000002
+
+[CEDevice.ARM XScale]
+ProcessorType = 2577 ; ARM-XScale
+UnsupportedPlatforms = "HPC","Palm PC2","Jupiter"
+VersionMin=4.20
+
+
+[Platform.ARM XScale]
+PlatformString=PocketPC
+PlatformMin=4.20
+
+;; [AddRegistry]
+

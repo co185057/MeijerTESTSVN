@@ -1,0 +1,12 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\RapConfigure]
+"MaxLane"="10"
+[HKEY_LOCAL_MACHINE\SOFTWARE\NCR\RapConfigure\DataCapture]
+"DcapFileMax"="5120 -> Max KB of data cap file"
+"DcapControl"="4 -> Hex destination(s): 1=DCap App, 2=Debugger, 4=File; 10/20/40 for immediate"
+"DcapMask"="F -> Hex mask of events to capture"
+"DcapTime"="F00 -> Hex time option(s): 100=m:s, 300=h:m:s, 700=m/d h:m:s; 800+digits=millisec; 1000=threadid"
+"DcapVersion"="1.1.3"
+"DcapLinePrefix"="RAPCONFIGURE"
+"DcapFile"="\\scot\\bin\\RapConfigure.log"

@@ -1,0 +1,91 @@
+//////////////////////////////////////////////////////////////////////
+//
+// OposScal.hi
+//
+//   Scale header file for OPOS Controls and Service Objects.
+//
+// Modification history
+// -------------------------------------------------------------------
+// 95-12-08 OPOS Release 1.0                                     CRM
+// 96-03-18 OPOS Release 1.01                                    CRM
+//   Correct WeightUnits value from 1 to 2.
+// 97-06-04 OPOS Release 1.2                                     CRM
+//   Add the following properties: CapDisplay, WeightUnit
+//
+//////////////////////////////////////////////////////////////////////
+
+#if !defined(OPOSSCAL_HI)
+#define      OPOSSCAL_HI
+
+
+#include "Opos.hi"
+#include "OposScal.h"
+
+
+//////////////////////////////////////////////////////////////////////
+// Numeric Property Index Values.
+//////////////////////////////////////////////////////////////////////
+
+// * Properties *
+
+const LONG PIDXScal_MaximumWeight       =   1 + PIDX_SCAL+PIDX_NUMBER;
+const LONG PIDXScal_WeightUnits         =   2 + PIDX_SCAL+PIDX_NUMBER;
+
+//      Added for Release 1.2:
+const LONG PIDXScal_WeightUnit          =   2 + PIDX_SCAL+PIDX_NUMBER;
+//        WeightUnit = WeightUnits: Support both, due to
+//        editing error in the pre-1.2 APG.
+
+//		Added for Release 1.3
+
+const LONG PIDXScal_AsyncMode			=	3 + PIDX_SCAL+PIDX_NUMBER;
+const LONG PIDXScal_MaxDisplayTextChars =	4 + PIDX_SCAL+PIDX_NUMBER;
+const LONG PIDXScal_SalesPrice			=	5 + PIDX_SCAL+PIDX_NUMBER;
+const LONG PIDXScal_TareWeight			=	6 + PIDX_SCAL+PIDX_NUMBER;
+const LONG PIDXScal_UnitPrice			=	7 + PIDX_SCAL+PIDX_NUMBER;
+
+// * Capabilities *
+
+//      Added for Release 1.1:
+const LONG PIDXScal_CapDisplay          = 501 + PIDX_SCAL+PIDX_NUMBER;
+
+//      Added for Release 1.3:
+const LONG PIDXScal_CapDisplayText      = 502 + PIDX_SCAL+PIDX_NUMBER;
+const LONG PIDXScal_CapPriceCalculating = 503 + PIDX_SCAL+PIDX_NUMBER;
+const LONG PIDXScal_CapTareWeight       = 504 + PIDX_SCAL+PIDX_NUMBER;
+const LONG PIDXScal_CapZeroScale        = 505 + PIDX_SCAL+PIDX_NUMBER;
+
+// * Validation Functions *
+
+inline BOOL IsValidScalNumericPidx(LONG Pidx)
+{
+  return ( PIDXScal_MaximumWeight <= Pidx &&
+           Pidx <= PIDXScal_WeightUnits )
+    ? TRUE : FALSE ;
+}
+
+inline BOOL IsValidScalCapPidx(LONG Pidx)
+{
+  return FALSE;
+}
+
+inline BOOL IsValidScalCapPidx12(LONG Pidx)
+{
+  return ( PIDXScal_CapDisplay == Pidx )
+    ? TRUE : FALSE ;
+}
+
+
+//////////////////////////////////////////////////////////////////////
+// String Property Index Values.
+//////////////////////////////////////////////////////////////////////
+
+// * Validation Function *
+
+inline BOOL IsValidScalStringPidx(LONG Pidx)
+{
+  return FALSE;
+}
+
+
+#endif			// !defined(OPOSSCAL_HI)

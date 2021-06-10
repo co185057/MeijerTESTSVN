@@ -1,0 +1,329 @@
+<!-- CHANGE HISTORY:							                            -->
+<!--								                                    -->
+<!-- POS30981/POS31053 WORK REQUEST:50864 Name: Robert Susanto Date: July 20, 2012  		    -->
+<!-- POS30981/POS31054 WORK REQUEST:50864 Name: Robert Susanto Date: July 20, 2012  		    -->
+<!-- POS30981/POS31050 Work Request:50864 Name:Robert Susanto Date:July 16 2012  		    -->
+<!-- POS30981/POS31050 Work Request:50864 Name:Robert Susanto Date:July 12 2012  		    -->
+<!-- POS30981/POS36673 Work Request:50864 Name:Robert Susanto Date:June 14 2012	  			-->
+<!-- POS30981/POS36155 Work Request:50864 Name:Robert Susanto Date:June 6 2012	  			-->
+<!-- POS30981/POS31051 Work Request:50864 Name:Robert Susanto Date:May 7 2012	  			-->
+<!-- POS30981/POS31050 Work Request:50864 Name:Robert Susanto Date:March 30 2012  			-->	
+<!--													-->
+<Display Version="1.0">
+
+  <CustomData>
+        <!-- Use the new control for Total amount rrs -->
+    <Data Name="TransactionVariable45">SMEnhancedTotalAmount</Data>
+    <Data Name="TransactionVariable45Format">Currency</Data>
+  </CustomData>
+
+  <Controls>  
+    <Control Name="EnhancedAMList" Type="Receipt">
+      <Properties>
+        <Property Name="Position">36,280,362,295</Property>
+        <Property Name="FillStyle">1</Property>
+        <Property Name="Font">AMDynakeyFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="SelectionFont">ReceiptFont</Property>
+        <Property Name="SelectionBackgroundColor">Purple</Property>
+        <Property Name="SelectionForegroundColor">Black</Property>
+        <Property Name="Z-Order">4</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="DataSource">EnhancedAMList</Data>
+        <Data Name="ItemType1">ITEM_DESCRIPTION</Data>
+        <Data Name="ItemType1StringID">$LaneReceiptItemType2$</Data>
+	<Data Name="ItemType1Selectable">False</Data>
+	<Data Name="ItemType2">ITEM_DESCRIPTION,ITEM_LINKED_FMT</Data>
+        <Data Name="ItemType2StringID">$LaneReceiptItemType2$</Data>
+	<Data Name="ItemType2Color">Red</Data>
+	<Data Name="ItemType2Selectable">False</Data>
+      </CustomData>
+    </Control>  
+
+	<!-- POS31050 adjust the Total Item text and make it bold rrs -->
+    <Control Name="AssistTotalItemAmount" Type="Static">
+      <Properties>
+        <Property Name="Position">165,600,100,31</Property>
+        <Property Name="Font">PSAMButtonFont</Property>
+        <Property Name="TextColor">Black</Property>  
+	<Property Name="TextFormat">%s</Property>
+        <Property Name="Variable">SMTotalItemAmount</Property>    
+        <Property Name="TextAlignment">3</Property>
+        <Property Name="Z-Order">3</Property>
+      </Properties>
+    </Control>
+    <Control Name="AssistTotalItemText" Type="Static">
+      <Properties>
+        <Property Name="Position">35,600,130,31</Property>
+        <Property Name="Font">PSAMButtonFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="TextAlignment">3</Property>
+        <Property Name="Z-Order">4</Property>
+		<Property Name="TextFormat">$ScotApp_9323$</Property>		
+      </Properties>      
+    </Control>
+	<!-- e POS31050 adjust the Total Item text and make it bold rrs -->
+
+    <!-- Use the new control for Total amount rrs -->
+    <Control Name="EnhancedAssistTotalAmount" Type="Static">
+	<Properties>
+		<Property Name="Position">300,600,118,31</Property>
+		<Property Name="Font">PSAMButtonFont</Property>
+		<Property Name="TextColor">Black</Property>
+		<Property Name="TextFormat">%s</Property>
+		<Property Name="Variable">SMEnhancedTotalAmount</Property>
+		<Property Name="TextAlignment">4</Property>
+		<Property Name="Z-Order">3</Property>
+	</Properties>
+    </Control>
+
+    <Control Name="Key32" Type="ButtonList">
+    	<Properties>
+		<Property Name="Position">906,430,111,74</Property>
+        	<Property Name="ButtonHorizontalSpacing">6</Property>
+	        <Property Name="ButtonVerticalSpacing">6</Property>
+	        <Property Name="ButtonHeight">70</Property>
+        	<Property Name="ButtonWidth">111</Property>
+	        <Property Name="Audio">%AudioPath%\KeypadValid.wav</Property>
+	        <Property Name="Font">SMKeyBoardFont</Property>
+        	<Property Name="TextColor">Black</Property>
+	        <Property Name="TextColorDisabled">Gray</Property>
+	        <Property Name="Picture">%MediaPath%\EnhancedAM\10x7_Btn_AlphaNumKey-Long.png</Property>
+	</Properties>
+      	<CustomData>
+        	<Data Name="ButtonCount">1</Data>
+	</CustomData>
+      	<List>
+        	<Button>CLEAR,-,32</Button>
+	</List>
+    </Control> 
+
+   <!-- POS31051 No of Removed Item Text rrs -->
+   <Control Name="AuditRemovedItemLabel" Type="Static" Synchronize="False">
+	<Properties>
+		<Property Name="Position">36,300,362,30</Property>
+        	<Property Name="Font">AMDynakeyFont</Property>
+		<Property Name="TextAlignment">0</Property>
+		<Property Name="Z-Order">3</Property>
+		<Property Name="BackgroundColor">Red</Property>
+	</Properties>
+  </Control>
+
+  <!-- POS31054 display the highlighted Mobile Order text on the RAP ereceipt rrs -->
+  <Control Name="LaneMobileStateBackground" Type="Static">
+      <Properties>
+        <Property Name="Position">30,79,450,24</Property>
+        <Property Name="BackgroundColor">Red</Property>
+        <Property Name="Z-Order">4</Property>
+	<Property Name="Visible">False</Property>
+      </Properties>
+    </Control>
+    <Control Name="LaneMobileStateWindow" Type="Static">
+      <Properties>
+        <Property Name="Position">30,79,450,22</Property>
+        <Property Name="Font">MainButtonFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextFormat">%s</Property>
+        <Property Name="TextAlignment">1</Property>
+        <Property Name="Z-Order">5</Property>
+	<Property Name="Visible">False</Property>
+      </Properties>
+    </Control>
+  <!-- POS31054 display the highlighted Mobile Order text on the RAP ereceipt rrs -->
+
+  </Controls>
+  <Contexts>
+    <Context Name="MeijerEnhancedAssistMode">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\EnhancedAM\10x7_AssistBackground.jpg</Property>
+      </Properties>
+      <Include>        
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">374,38,410,42</Property>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title2">
+          <Properties>
+            <Property Name="Position">374,84,420,42</Property>
+            <Property Name="Font">FastLaneAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText">
+          <Properties>
+            <Property Name="Font">PSAMButtonFont</Property>
+            <Property Name="Position">27,140,680,25</Property>  <!-- POS36155 increase the height rrs -->
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextColor">White</Property>	<!-- POS36673 set the font color rrs -->
+          </Properties>
+        </Control>
+        <Control Name="LeadthruText2">
+          <Properties>
+            <Property Name="Font">PSAMButtonFont</Property>
+            <Property Name="Position">27,167,680,25</Property>  <!-- POS36155 increase the height rrs -->
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="TextColor">White</Property>	<!-- POS36673 set the font color rrs -->
+          </Properties>
+        </Control>
+        <Control Name="AssistEchoBackground">
+	  <Properties>
+		     <Property Name="Picture">%MediaPath%\EnhancedAM\10x7_AssistEchoBox.jpg</Property>
+	  </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">32,235,371,30</Property>
+            <Property Name="Font">FastLaneAMEchoBoxFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="TextAlignment">2</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+          </Properties>
+        </Control>
+        <Control Name="TrainingMessage">
+          <Properties>
+            <Property Name="Position">26,105,136,24</Property>
+            <Property Name="Font">TrainingMessageFont</Property>
+            <Property Name="TextColor">Yellow</Property>
+            <Property Name="TextAlignment">0</Property>
+            <Property Name="Z-Order">2</Property>
+          </Properties>
+        </Control>
+        <Control Name="DeviceStatus">
+        </Control>
+	
+	<!-- POS31053 create the weight display for the weight required item after audit is done rrs -->
+	<Control Name="CMWeight">
+          <Properties>
+	    <Property Name="Position">5,3,252,41</Property>
+            <Property Name="Font">FastLaneScaleFont</Property>
+            <Property Name="TextColor">White</Property>
+            <Property Name="BackgroundColor">Transparent</Property>
+          </Properties>
+        </Control>
+
+        <Control Name="ButtonToggle">
+	  <Properties>
+		<Property Name="Picture">%MediaPath%\EnhancedAM\10x7_Btn_AlphaNumKey-Long.png</Property>
+	  </Properties>
+        </Control>
+        <Control Name="ButtonLaneStatus0">
+        </Control>
+        <Control Name="ButtonLaneStatus1">
+        </Control>
+        <Control Name="ButtonLaneStatus2">
+        </Control>
+        <Control Name="ButtonLaneStatus3">
+        </Control>
+        <Control Name="ButtonLaneStatus4">
+        </Control>
+        <Control Name="ButtonLaneStatus5">
+        </Control>
+        <Control Name="ButtonLaneStatus6">
+        </Control>
+        <Control Name="ButtonLaneStatus7">
+        </Control>
+        <Control Name="Key12">
+	  <Properties>
+		<Property Name="Picture">%MediaPath%\EnhancedAM\10x7_Btn_EnterAlpha-Large.png</Property>
+	  </Properties>
+        </Control>
+        <Control Name="Key13">
+	  <Properties>
+        	<Property Name="Picture">%MediaPath%\EnhancedAM\10x7_Btn_AlphaNumKey-Small.png</Property>
+         </Properties>
+        </Control>
+        <Control Name="Key22">
+	  <Properties>
+        	<Property Name="Picture">%MediaPath%\EnhancedAM\10x7_Btn_AlphaNumKey-Long.png</Property>
+         </Properties>    
+        </Control>
+        <Control Name="Key23">
+	  <Properties>
+        	<Property Name="Picture">%MediaPath%\EnhancedAM\10x7_Btn_AlphaNumKey-Small.png</Property>
+         </Properties>
+        </Control>
+        <Control Name="Key24">
+	  <Properties>
+        	<Property Name="Picture">%MediaPath%\EnhancedAM\10x7_Btn_Local-lg.png</Property>
+		<Property Name="LogoPosition">200,20,20,20</Property>
+         </Properties>
+        </Control>
+        <Control Name="Key32">
+        </Control>	
+        <Control Name="SMButton1">
+          <Properties>
+            <Property Name="Position">786,0,238,70</Property>
+            <Property Name="Font">AMDynakeyFont</Property>
+            <Property Name="TextColor">Black</Property>
+            <Property Name="TextPosition">22,12,217,74</Property>
+            <Property Name="TextAlignment">1</Property>
+            <Property Name="TextFormat" Synchronize="True">
+            </Property>
+            <Property Name="Audio">%AudioPath%\BttnValid.wav</Property>
+            <Property Name="Picture">%MediaPath%\EnhancedAM\10x7_Btn_Local-lg.png</Property>
+            <Property Name="PictureTransparentColor">Purple</Property>
+            <Property Name="Z-Order">5</Property>
+          </Properties>
+        </Control>
+        
+        <Control Name="EnhancedAMList">
+        </Control>
+
+	<!--POS31051 Removed Item -rrs  -->
+	<Control Name="AuditRemovedItemLabel">
+	</Control>
+	<!--e POS31051 Removed Item -rrs -->
+
+        <Control Name="AssistOperatorMessage">
+	  <Properties> 
+            <Property Name="Picture">%MediaPath%\EnhancedAM\10x7_AssistOperatorMessage.PNG</Property>
+	    <Property Name="Position">27,276,384,320</Property>
+	    <Property Name="Z-Order">6</Property>
+          </Properties>
+        </Control>
+        <Control Name="PrcMethodMessage">
+	  <Properties> 
+            <Property Name="Picture">%MediaPath%\EnhancedAM\10x7_AssistOperatorMessage.PNG</Property>
+	    <Property Name="Position">27,276,384,320</Property>
+	    <Property Name="Z-Order">6</Property>
+          </Properties>
+        </Control>
+        <Control Name="VoidItemMessage">
+	  <Properties> 
+            <Property Name="Picture">%MediaPath%\EnhancedAM\10x7_AssistOperatorMessage.PNG</Property>
+	    <Property Name="Position">27,276,384,320</Property>
+	    <Property Name="Z-Order">6</Property>
+          </Properties>
+        </Control>
+        <Control Name="AssistReceiptBackground">
+          <Properties> 
+            <Property Name="Picture">%MediaPath%\EnhancedAM\10x7_EnhancedReceipt.png</Property>
+          </Properties>        
+        </Control>
+
+        <Control Name="AssistTotalText">
+		<Properties>
+		        <Property Name="Position">200,600,100,31</Property>
+			<Property Name="TextColor">Black</Property>
+		</Properties>
+        </Control>
+        <Control Name="EnhancedAssistTotalAmount">
+		<Properties>
+		        <Property Name="Position">300,600,118,31</Property>
+			<Property Name="TextColor">Black</Property>
+		</Properties>
+        </Control>
+        <Control Name="AssistTotalItemText">
+        </Control>
+        <Control Name="AssistTotalItemAmount">
+        </Control>
+  
+      </Include>
+    </Context>
+  </Contexts>
+</Display>

@@ -1,0 +1,78 @@
+<!-- ================================================================================ -->
+<!--                                                                                  -->
+<!-- File: CustomerInfoService.xml -->
+<!--                                                                                  -->
+<!-- Function: Provides the set of user-configurable parameters for the Customer Personalization lookups -->
+<!-- ================================================================================ -->
+<CustomerInfoService>
+   <PersonalizeLanguage>N</PersonalizeLanguage>
+   <RetailerID>FastLaneStore</RetailerID>
+
+   <!-- The following language string definitions correspond to SCOT_LANGUAGE_TYPEs -->
+   <!--     language1 == SCOT_LANGUAGE_PRIMARY -->
+   <!--     language2 == SCOT_LANGUAGE_SECONDARY -->
+   <!-- Scotapp uses these definitions to map web service language strings to active languages -->
+   <language1>English</language1>
+   <language2>Spanish</language2>
+
+    <SettingFormat><![CDATA[<userSetting><setting>%s</setting><value>%s</value></userSetting>]]></SettingFormat>
+
+
+    <LoyaltyLookupAddress>
+        http://%s:8080/Personalize/PWS/getUserSettings
+   </LoyaltyLookupAddress>
+   <LoyaltyLookupAction>
+	getUserSettings
+   </LoyaltyLookupAction>
+   <LoyaltyLookupRequest>
+       <!--   ShopID=%s -->
+      <![CDATA[<SOAP-ENV:Envelope xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/' 
+      xmlns:xsi='http://www.w3.org/1999/XMLSchema-instance' 
+      xmlns:xsd='http://www.w3.org/1999/XMLSchema'> 
+      <SOAP-ENV:Body> 
+      <ns1:getUserSettings xmlns:ns1='urn:pws_UserSettings/wsdl' 
+          SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'> 
+      <String_1 xsi:type='xsd:string'>%s</String_1>
+      <String_2 xsi:type='xsd:string'>%s</String_2> 
+      <String_3 xsi:type='xsd:string'>Loyalty</String_3> 
+      </ns1:getUserSettings> 
+      </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope> ]]> 
+   </LoyaltyLookupRequest>
+    <UpdatePreferencesAddress>
+        http://%s:8080/Personalize/PWS/updateUserSettings
+   </UpdatePreferencesAddress>
+   <UpdatePreferencesAction>
+	updateUserSettings
+   </UpdatePreferencesAction>
+   <UpdatePreferencesRequest>
+       <!--   ShopID=%s -->
+      <![CDATA[<SOAP-ENV:Envelope xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/' 
+      xmlns:xsi='http://www.w3.org/1999/XMLSchema-instance' 
+      xmlns:xsd='http://www.w3.org/1999/XMLSchema'> 
+      <SOAP-ENV:Body> 
+      <ns1:updateUserSettings xmlns:ns1='urn:pws_UserSettings/wsdl' 
+          SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'> 
+	  <Customer_1 xsi:type='tns:Customer'>%s</Customer_1>
+      </ns1:updateUserSettings> 
+      </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope> ]]> 
+   </UpdatePreferencesRequest>
+   <DefaultCustomerInfo>
+       <![CDATA[
+       <customer>
+         <userSetting>
+           <setting>Name</setting>
+           <value>NotFound</value>
+         </userSetting>
+         <userSetting>
+           <setting>Language</setting>
+           <value>default</value>
+         </userSetting>
+         <userSetting>
+           <setting>ShopperID</setting>
+           <value>0</value>
+         </userSetting>
+       </customer>]]> 
+   </DefaultCustomerInfo>
+</CustomerInfoService>

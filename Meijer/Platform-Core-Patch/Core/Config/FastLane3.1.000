@@ -1,0 +1,19 @@
+<Display Version="1.0">
+  <Includes>
+    <!-- FULL ASSISTMODE XML -->
+    <Include File="%ConfigPath%\wSMKBDIBM4680.xml" />
+    <Include File="%ConfigPath%\wSMKBDIBM4680Include.xml" />
+  </Includes>
+  <!-- CONTROLS -->
+  <Controls>
+  </Controls>
+  <Contexts>
+      <Context Name="SmCashierPassword">
+		<Control Name="LeadthruText">
+			<Property Name="Position">208,109,430,62</Property> <!-- TAR 355821 increased the text area-->
+			<Property Name="Font">SMLeadthruTextFont</Property>
+			<Property Name="TextColor">White</Property>
+		</Control>
+      </Context>
+  </Contexts>
+</Display>

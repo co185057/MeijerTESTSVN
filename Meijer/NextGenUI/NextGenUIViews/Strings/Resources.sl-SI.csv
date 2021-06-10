@@ -1,0 +1,2796 @@
+﻿AmountSaved,Shranjeni znesek
+Assistance,Pomoč
+AssistanceComing,"Pomoč prihaja, prosimo nadaljujte."
+Back,Pojdi nazaj
+BagItem,"Prosimo, pospravite ta izdelek v vrečko."
+BagItemCart,Daj izdelek v vrečko
+BagItemOrSkip,"Prosimo, pospravite ta izdelek v vrečko ali izberite ""preskoči""."
+CallForHelp,Pokliči za asistenta?
+Cancel,Prekliči
+CancelAll,Prekliči vse
+CancelCoupons,Prekliči kupone
+CancelPayment,Prekliči plačilo
+CantScanCoupon,Neusp. sken. kup.
+CartPay,Poravnaj
+Change,Sprememba:
+Confirm,Želite prekiniti preverjanje in preklicati vaš celotni nakup?
+ConfirmQuantity,Je {0} pravilno?
+Continue,Ali želite nadaljevati?
+CouponMessage,Položite kupone na stran za zdaj. Predložite jih na koncu nakupa.
+DepositCard,"Prosim, vstavite porabljeno darilno kartico v režo za kupone."
+DepositCoupon,Predloži kupone
+DepositGiftCard,Vstavi darilno kartico
+Disconnected,"PROSIM, POČAKAJTE ..."
+Done,Konec
+Due,Rok:{0}
+EditCart,Uredi voziček
+Enter,Vnesi
+EnterAmount,Vnesi znesek
+EnterCouponValue,"Vnesite vrednost kupona v centih in pritisnite ""OK""."
+EnterId,Vnesite svojo ID-številko.
+EnterPassword,Vnesite svoje geslo.
+EnterPin,Vnesi PIN številko
+EnterQuantity,Koliko jih imate?
+EnterWeight,Postavite izdelek na tehtnico:
+Finish,Hvala za nakup.
+FinishAndAdd,Končaj in dodaj
+GiftCard,Saldo darilne kartice
+GoBack,Pojdi nazaj
+IncorrectLogin,"Napačna številka upravitelja \nin geslo.\nProsim, poskusite ponovno."
+InsertCash,Vstavi gotovino
+InsertCoupon,Vstavi kupon
+InvalidBarcodeScan,Postavite artikel na stran in nadaljujte z nakupom.
+Item,{0} izdelki
+Items,{0} izdelki
+ItemsAddedFormat,{0} Izdelki bodo dodani v voziček.
+Language,Jezik
+NCRCorp,NCR Corp
+No,Ne
+OK,OK
+Or,ali
+OtherPayment,Drugo plačilo
+OtherPaymentMethod,Druge plačilne metode
+OwnBag,Lastna vrečka
+Paid,Plačano:{0}
+PayAnotherWay,Plačaj na drug način
+PointsEarned,Dobljene točke
+PrintReceipt,Natisni račun
+Proceed,Nadaljujem
+Remove,Odstrani
+RemovedItem,Izdelek sem odstranil(-a)
+RestrictedItem,Izdelek z omejitvami
+ReturnToScan,Pojdi nazaj
+ScanAndBag,"Za začetek skenirajte, poiščite ali vnesite kodo izdelka."
+ScanCoupon,Skeniraj kupone
+ScanGiftCard,Skeniraj darilno kartico
+ScanNextItem,"Prosimo, skenirajte naslednji izdelek."
+ScanVoucher,Skeniraj kupone
+SearchResultsFor,"Iskalni rezultati za ""{0}"""
+SearchWatermark,Vnesite ime ali kodo izdelka
+SearchItemNameWatermark,Enter Item Name
+SearchKeyInItem,Poiščite ali vnesite izdelek
+SelectCashBack,Izberi znesek vračila gotovine
+SelectLanguage,Izberi jezik
+SelectPaymentType,Izberi vrsto plačila
+SellBags,"Koliko plastičnih vrečk ste uporabili? Vnesite 0, če niste uporabili nobene."
+SignNeeded,Potreben je podpis
+SignSignature,Podpisna tablica.
+SkipBagging,Preskoči pospravljanje v vrečko
+Space,Presledek
+StartScanning,Začni s skeniranjem
+StoreLogin,Prijava trgovine
+TakeCash,Vzemite vaš vrnjeni denar
+TakeChange,Vzemi drobiž
+TakeReceipt,Vzemi račun
+Tax,Obdavčenje
+TimeRestrictedItem,Časovno omejeni izdelki
+Total,Skupaj
+TouchCancel,"Na tipkovnici PIN PAD kliknite ""prekliči plačilo""."
+TryAgain,Poskusi ponovno
+UnexpectedDecreaseMessage,Return item to bag area.
+UnexpectedIncreaseMessage,Vrnite izdelek v območje za vrečko.
+UsePinpad,Uporabite tipkovnico PIN PAD
+VoidItem,"Odčitajte neželene artikle ali na računu tapnite ""Odstrani"""
+Volume,Glasnost
+Yes,Da
+ItemNumberAmount,NOI :  
+WeightExpected,WE :  
+WeightObserved,WO :  
+UnknownPriceMessage,Cena izdelka ni znana.\nPomoč je na poti.\n\nPostavite izdelek na stran in nadaljujte.
+SetAllItemsAsideMessage,Celotni nakup preklican.\n\nPoložite vse izdelke na stran.
+ConfirmAbortMessage,"Ali ste prepričani, da želite sprazniti voziček? Transakcija bo preklicana."
+NoKeep,"Ne, zadržite."
+NoReturn,"Ne, želim nazaj na transakcijo."
+YesEmpty,"Da, izpraznite voziček in zaključite transakcijo."
+YesRemove,"Da, odstranite."
+HostOfflineMessage,Vrsta ni povezana in sistem jo poskuša ponovno povezati.
+LaneClosedMessage,Zaprta vrsta
+LoadingText,Nalagam
+VerifyBagsMessage,"Če ste po pomoti položili kaj drugega na mesto za vrečke kot pa vrečko, tisto takoj odstranite."
+HelpOnWay,"Pomoč je na poti. Prosim, nadaljujte."
+OwnBagMessage,Postavite vrečke na tehtnico.
+UseOwnBag,Uporabljam svojo vrečko
+AttendantMode,Način udeleženca
+AttendantTrainingMode,Način udeleženca in usposabljanja
+TrainingMode,Način usposabljanja
+ScaleBroken,"Odstranite izdelek s tehtnice in pritisnite gumb \n"">0<"" na skenerju."
+Refunded,Povrnjeno:
+EnterIDMessage,"Vnesite vaš ID uporabnika in pritisnite ""Vnesi""."
+EnterIDText,Vnesi ID
+EnterPasswordMessage,"Vnesite vaše geslo in pritisnite ""Vnesi""."
+EnterPasswordText,Vnesi geslo
+VisualVerify,Vizualno overi
+SingleItemAddedFormat,{0} Izdelki bodo dodani v voziček.
+Approved,Odobreno
+VoidItemBeforeCouponMessage,Ne morem razveljaviti kupona dokler je njegov kupon razveljavljen. Najprej razveljavite kupon izdelka.
+VerifyBags,Udeleženec bo overil vaše vrečke.
+CancelItems,Prekliči izdelke
+EnterQuantityTitle,Potrebna je količina
+SecUnExpectedIncreaseTitle,Alarm dajanja v vrečke
+WeightMismatchTitle,Potrebna je asistenca
+AssistanceNeededTitle,Potrebna je asistenca
+CheckBasketTitle,Preveri košarico
+ConfirmDebitAmountTitle,Potrdi znesek
+DropoffCouponsTitle,Oddajte kupone.
+InsufficientBalanceTitle,Neustrezno stanje
+OperatorPasswordStateInvalidPasswordWithFPTitle,Napaka prijave prstnih odtisov
+PurchaseCrateTitle,Nakup zaboja
+RestrictedItemTitle,Izdelek z omejitvami
+SecBagAreaBackupTitle,Nakopičeni izdelki
+SignChargeTitle,Podpiši račun
+TakeCardTitle,Vzemi kartico
+ContinueTitle,Nadaljujem?
+ApprovalNeededTitle,Potrebna odobritev
+IncorrectLoginTitle,Napačna številka
+RecalledItemTitle,Priklican izdelek
+RemovedItemTitle,Alarm dajanja v vrečke
+SetAllItemsAsideTitle,Položi izdelke na stran
+TakeLoyaltyCardTitle,Vzemi kartico zvestobe
+UnknownPriceTitle,Neznana cena
+ConfirmEBTAmountTitle,Potrdi znesek
+DisconnectedTitle,Izklopljeno
+ShuttingDown,Izklop
+NoneText,Brez
+SMText,Način trgovine
+SMLogInReceiptText,Prijavljen v način trgovine
+SMLogOutReceiptText,Odjavljen iz načina trgovine
+WLDBOffLineText,Podatkovna zbirka teže: Nepovezana
+OperatorIDText,ID upravitelja: 
+SignOnButtonText,Prijava
+SignOffButtonText,Odjava
+AlertText,Alarmi:
+SuspendInProgressText,Začasna zaustavitev se izvaja
+SuspendLeadthru1,"Bila je izdana zahteva za začasno zaustavitev trenutne transakcije. \nProsim, potrdite ali prekličite to zahtevo."
+SuspendLeadthru2,"Začasno ste zaustavili trenutno transakcijo.  Prosim, potrdite to zahtevo.  Za preklic pritisnite ""Pojdi nazaj"" in prekličite z NCR SelfServ blagajniškega terminala."
+ReceiptText,Izpis:
+SuspendReasonText1,Začasna zaustavitev: Splošno
+CancelSuspendButtonText,Prekliči zač. zaust.
+ConfirmSuspendNowButtonText,Potrdi začasno zaustavitev \nZdaj
+ConfirmAllowSuspendButtonText,Potrdi odobritev \nZačasna zaustavitev
+ConfirmSuspendRequestButtonText,Potrdi začasno zaustavitev \nZahteva
+CancelSuspendNowButtonText,Prekliči začasno zaustavitev \nZdaj
+GoBackButtonText,Pojdi nazaj
+CancelSuspendRequestButtonText,Prekliči začasno zaustavitev \nZahteva
+CouponText,Kuponi:
+SuspendReasonText2,Začasna zaustavitev: Kuponi
+CouponReceiptText,%d skupno kuponov $%.2f
+SuspendNowButtonText,Začasna zaustavitev zdaj
+RequestSuspendButtonText,Zahteva začasne zaustavitve
+NotConnectedText,Nepovezano.
+ConnectingText,"Se povezuje... Prosim, počakajte"
+ApprovalNeededText,Potrebne odobritve:
+SuspendReasonText3,Začasna zaustavitev: Drugo
+ClearRequestButtonText,Briši zahtevo
+ApproveButtonText,Odobri
+RestrictedItemText,Iizdelki z omejitvami:
+SuspendReasonText4,Začasna zaustavitev: Omejeni
+SecurityLogText,Varnostni dnevnik:
+SuspendReasonText5,Začasna zaustavitev: Varnost
+SignatureText,Podpis:
+SignatureAndNameText,Podpis: %s
+ConnectingLeadthru,"Povezovanje na NCR SelfServ Checkout... Prosim, počakajte"
+EnterIDLeadthru,Vnesite ID z uporabo spodnje tipkovnice.
+EnterPasswordLeadthru,Vnesite geslo z uporabo spodnje tipkovnice.
+LoggingInLeadthru,"Prijava … Prosim, počakajte"
+ApproveSecurityButtonText,Odobri \nVarnost
+ApprovalNeededButtonText,Potrebna odobritev
+VerifySignatureButtonText,Overi \nPodpis
+AllowSuspendButtonText,Omogoči začasno zaustavitev
+MainButtonText,Glavni
+SuspendTransactionButtonText,Začasno zaustavi transakcijo
+ApproveAndCollectButtonText,Odobri & Vzemi
+ClearApprovalsButtonText,Briši odobritve
+BirthDateOver30ButtonText,Rojstni datum čez 30
+SignAgainButtonText,Ponovno podpiši
+BackSpaceButtonText,Vračalka
+EnterButtonText,Vnesi
+LaneNumberText,Vrsta: %d
+RAPTitle,NCR SelfServ blagajna\nOddaljena odobritvena postaja
+CancelSuspendText,Prekliči začasno zaustavitev
+OtherPaymentSelectedText,Izbrano drugo plačilo
+CouponCollectionText,Zbiranje kuponov
+PendingSuspendText,Začasna zaustavitev je v teku
+SignatureApprovalText,Odobritev podpisa
+LaneText,Vrsta
+VideoButtonText,Video
+ClearButtonText,Briši
+QuantityButtonText,Količina
+FeesAndCustomerAgreementsTitle,Plačila && Strinjanja stranke:
+FeesButtonText,Plačila
+CustomerAgreementButtonText,Strinjanje stranke
+FeesAndCustomerAgreementsLeadthru,Plačila & Strinjanja stranke
+TransactionSuspendedText,Transakcija začasno zaustavljena
+POSMessageText,POS sporočilo:
+ConnectingWaitingText,"Prosim, počakajte, povezovanje na NCR SelfServ Checkout …"
+DateOfBirthNotNeededButtonText,Datum ni potreben
+AssistModeButtonText,Način asistence
+ClearSecurityButtonText,Briši varnost
+VisualApproveButtonText,Vizualna odobritev
+CheckAgeTitle,Preveri starost stranke
+CouponLimitExceededTitle,Meja kupona presežena
+VerifyItemAndPriceTitle,Overi izdelek in ceno
+UnknownItemTitle,Neznan izdelek je postavljen na stran
+ItemNotForSaleTitle,Izdelek ni za prodajo
+ItemQuantityExceededTitle,Količina izdelka presežena
+TimeRestrictedItemTitle,Časovno omejen izdelek
+CheckAgeLeadthru,"Vnesite rojstni datum %s\nin pritisnite ""Vnesi"""
+InvalidBirthDateFormatLeadthru,Format vnesenega datuma ni veljaven \nPonovno vnesite v %s formatu.
+CouponLimitExceededLeadthru,"Pritisnite ""Odobri"", da dovolite polog kupona na vrsti ali pritisnite ""Odobri & Vzemi"" in vzemite kupon stranke."
+VisualApproveLeadthru,"Pritisnite ""Vizualna odobritev"" ali pritisnite ""Način asistence"", da spremenite transakcijo."
+UnknownItemLeadthru,"Vzemite izdelek na vrsti in pritisnite ""Briši varnost"" ali pritisnite ""Način asistence"", da zaključite transakcijo."
+ItemNotForSaleLeadthru,"Vzemite izdelek na vrsti in pritisnite ""Briši varnost""."
+OffLineLaneButtonText,Nepovezan
+ExitText,Izhod
+EnterDataLaneButtonText,Vnesi podatke
+AgeCheckLaneButtonText,Starost
+CouponLaneButtonText,Kupon
+VoidLaneButtonText,Razveljavi
+VerifyItemLaneButtonText,Overi izdelek
+NotFoundLaneButtonText,Ni najden
+NoSaleLaneButtonText,Brez prodaje
+QuantityLaneButtonText,Količina
+HelpLaneButtonText,Pomoč
+NoInterventionLeadthru,Trenutno ni potreben poseg.
+OffLineLeadthru,Vrsta trenutno ni povezana in sistem jo poskuša samodejno ponovno povezati.
+CancelRequestButtonText,Prekliči zahtevo
+HelpRequestTitle,Zahtevana pomoč
+SecurityLaneButtonText,Varnost
+VoidLeadthru,"Vzemite razveljavljeni izdelek in pritisnite ""Odobri razveljavljeno""."
+ApproveVoidButtonText,Odobri raz-\nveljavljeno
+SecurityLeadthru,"Kontrolirajte transakcijo stranke zaradi varnosti in se dotaknite ""Odobrite ali odstranite predmet""."
+SecurityViolationText,Varnostna kršitev
+OtherPaymentText,Izbrano drugo plačilo
+SuspendTransactionLeadthru,"Pritisnite ""Začasna zaustavitev transakcije"" ali ""Način asistence"" in sprejmite plačilo."
+EASText,EAS izdelek je še zmeraj aktiven
+DeactivateLeadthru,"Izklopite izdelek ali odstranite varovanje in pritisnite ""Briši varnost""."
+CompareSignatureTitle,Primerjaj podpise
+CompareSignatureLeadthru,"Primerjajte podpise in pritisnite ""Odobri"" ali ""Ponovno podpiši""."
+EnterPriceLeadthru,"Vnesite ceno izdelka in pritisnite ""Vnesi""."
+UtilityButtonText,Orodja
+ReturnToMainButtonText,Vrni na glavni
+GetDiagFilesButtonText,Pridobi Diag datoteke
+CouponApprovalLeadthru,"Sprejmite kupone stranke na odobritveni postaji in pritisnite ""Odobri""."
+RebootSystemButtonText,Ponovno zaženi celotni sistem
+ShutDownSystemButtonText,Izklopi celotni sistem
+LaneStatusTitle,Status vrste
+LaneStatusLeadthru,Izberite funkcijo.
+AgeRestrictedText,Starostno omejen izdelek; %2d let star
+BirthdateEnterText,"Vnesen datum rojstva:%2d/%2d/%4d,%d let"
+HelpRequestLeadthru,"Pritisnite ""Prekliči zahtevo"" po nudenju pomoči stranki."
+TotalText,Skupaj:
+ItemText,Izdelki:
+MultimediaTrainingText,Multimedijsko izobraževanje
+VolumeControlButtonText,Upravljanje glasnosti
+SecurityViolationNumText,Varnostne kršitve:
+ItemPurchasedText,Kupljeni izdelki:
+EnterPriceTitle,Vnos cene
+CancelTransactionGenericTitle,Preklici transakcijo
+CancelTransactionGenericLeadthru,"Pritisnite ""Da"", da preklicete transakcijo ali ""Ne"", da obnovite transakcijo."
+YesButtonText,Da
+NoButtonText,Ne
+ConfirmSuspendTitle,Začasna zaustavitev:
+ConfirmSuspendLeadthru,Potrdite začasno zaustavitev.
+ConfirmSuspendButtonText,Potrdi zač. zaust.
+IncorrectItemWeightTitle,Nepravilna teža na varnostni tehtnici.
+IncorrectItemWeightLeadthru,"Odstranite izdelek in pritisnite ""Briši varnost"" ali ""Odobri & Posodobi težo""."
+ApproveUpdateButtonText,Odobri & Posodobi težo
+UnexpectedIncreaseTitle,Neznani izdelek na varnostni tehtnici.
+UnexpectedIncreaseLeadthru,"Pojdite do vrste, odstranite dodatne izdelke in pritisnite ""Briši varnost""."
+SkipBaggingBtnThresholdLeadthru,"Preverite izdelke na vrsti in pritisnite ""Briši varnost""."
+NewWeightItemTitle,Ni zapisa glede teže izdelka.
+NewWeightItemLeadthru,"Overite težo izdelka in pritisnite ""Odobri & Posodobi težo"" ali pritisnite ""Odobri/Brez posodobitve""."
+ApproveNoUpdateButtonText,Odobri/Brez posodobitve.
+BagItemTimerExpiredTitle,Pričakovana teža na varnostni tehtnici.
+TakeChangeTimerExpiredTitle,Vzemi drobiž
+TakeChangeTimerExpiredBottomCaption,Časovnik potekel
+PickingUpItemsTimerExpiredTitle,Izdelki niso bili vrnjeni na območje pakiranja v vrečke.
+DeviceFailureTitle,Okvara naprave
+DeviceFailureLeadthru,Pojdite v vrsto in preverite napravo.
+WLDBFailureTitle,WLDB ne komunicira pravilno.
+WLDBFailureLeadthru,Preverite komunikacijo.
+UnexpectedDecreaseTitle,Izdelki odstranjeni z območja pakiranja v vrečke.
+ClosedLaneTitle,"Pojdite v vrsto in se prijavite v Način trgovine, da odprete vrsto."
+ClosedLaneLeadthru,Vrsta zaprta
+BagAreaBackupTitle,Nakopičeni izdelki na traku
+BagAreaBackupLeadthru,Odstranite nakopičene izdelke na traku.
+MinimumAgeText,Starostni minimum.
+SafetyCoverOpenLeadthru,Odstranite vse izdelke s traku in zaprite varnostni pokrov.
+VerifySignatureLeadthru,Primerjajte podpis stranke s podpisom na kartici.
+AssistedTenderTitle,Ponudba s pomočjo upravitelja
+AssistedTenderLeadthru,"Uporabite način asistence, da sprejmete ček stranke."
+AssistedTenderHHLeadthru,"Uporabite spremljajočo postajo, da sprejmete plačilo."
+AssistedEndorsementLeadthru,"Potrebno potrdilo. Prosim, počakajte na asistenco upravitelja."
+StartTransactionButtonText,Zaženi transakcijo
+StartTransactionTitle,Funkcije s pomočjo upravitelja
+StartTransactionLeadthru,Izberite želeno funkcijo.
+StartTransactionAMButtonText,Start & Assist
+ItemsForgottenTitle,Ostanki teže \nehtnica brez vrečke.
+InsertCouponTimerExpiredTitle,Vstavi kupon
+CollectGiftCardTitle,Vzemi darilno kartico
+HostOfflineLeadthru,Vrsta ni povezana in sistem jo poskuša ponovno povezati.
+SpaceButtonText,Presledek
+LaneReceiptItemType1,%s\t%s
+LaneReceiptItemType2,%s
+LaneReceiptItemType3,%s\t%s\tKol %s @ %s/each\t%s
+LaneReceiptItemType4,%s\t%s\tKol %s @ %s/%s\t%s
+LaneReceiptItemType5,%s\t%s\t%ss @ %s %s/%s\t%s
+LaneReceiptItemType6,%s\t%s\t%ss @ %s/%s\t%s
+CloseLaneButtonText,Zapri vrsto
+ReportingButtonText,Poročanje
+KeyInCodeTitle,Vnesi kodo
+KeyInCodeLeadthru,"Vnesite kodo izdelka in pritisnite ""OK""."
+VoidItemButtonText,Razveljavi izdelek
+ChangePriceButtonText,Sprememba cene
+ChangeQuantityButtonText,Sprememba količine
+ReturnToShoppingButtonText,Vrni se na Način nakupovanja
+BasicAssistModeTitle,Funkcije asistence
+BasicAssistModeLeadthru,Skenirajte izdelke ali izberite funkcijo.
+ChangePriceTitle,Spremeni ceno
+KeyInPriceLeadthru,Vnesite ceno za: %d %s
+VoidAllButtonText,Razveljavi vse
+VoidItemTitle,Razveljavi izdelke
+VoidItemLeadthru,"Skenirajte ali se pomaknite na izdelek na izpisu in pritisnite ""Razveljavi izdelek"" ali ""Razveljavi vse""."
+ChangeQuantityTitle,Spremeni količino
+KeyInQuantityLeadthru,Vnesite količino za: %s
+FullAssistButtonText,Popolna asistenca
+CloseButtonText,Zapri
+UpdateItemLeadthru,"Premaknite se na izdelek na izpisu in pritisnite ""Vnesi""."
+OKButtonText,V REDU
+CouponNoMatchLeadthru,Kupon se ne ujema z nobenim izdelkom na izpisu. Ta kupon ne more biti sprejet.
+CouponTooHighLeadthru,"Znesek, ki ste ga vnesli za ta kupon, je bil previsok.  Ta sistem ne more sprejeti tega kupona."
+EnterCouponValueLeadthru,"Vnesite vrednost kupona v centih in pritisnite ""Vnesi""."
+ItemQuantityExceededLeadthru,"Presegli ste dovoljeno količino za ta izdelek.  Prosim, postavite ga na stran in nadaljujte."
+ProcessingLeadthru,"Obdelovanje ... Prosim, počakajte."
+VoidNoMatchLeadthru,Ni mogoče najti skeniranega izdelka.  Ni še bil kupljen ali pa je bil že preklican.
+ConfirmAbortLeadthru,Želite prekiniti preverjanje in preklicati vaš celotni nakup?
+ContinueTransLeadthru,Želite nadaljevati z vašim nakupom?
+ConfirmQuantityTitle,Potrdi količino
+ConfirmVoidTitle,Potrdi preklic
+CouponNoMatchTitle,Neujemajoči kupon
+CouponTooHighTitle,Kupon previsok
+CrateableItemTitle,Nakupovalna košara
+EnterCouponValueTitle,Vnesi vrednost kupona
+EnterQuantityLeadthru,"Vnesite količino in pritisnite ""Vnesi""."
+EnterWeightTitle,Tehtaj izdelek
+EnterWeightLeadthru,Pojdite do vrste in postavite izdelek na tehtnico.
+AMItemQuantityExceededTitle,Omejitev količine
+ProcessingTitle,Obdelovanje …
+SelectContainerTitle,Izberi embalažo
+SelectContainerLeadthru,"S seznama izberite embalažo in pritisnite ""Vnesi""."
+VoidNoMatchTitle,Ni mogoče preklicati izdelka
+ConfirmAbortTitle,Prekliči vse izdelke
+ContinueTransTitle,Nadaljujem?
+ScaleBrokenTitle,Ponastavi tehtnico
+ScaleBrokenLeadthru,"Odstranite izdelek s tehtnice in pritisnite gumb ""Ničla tehtnice"" na skenerju."
+UpdateNotAllowedTitle,Ni mogoče posodobiti izdelka
+UpdateNotAllowedLeadthru,Sprememba količine za tehtan izdelek ni dovoljena.
+SmEnterBirthdateTitle,Izdelki z omejitvami
+SmEnterBirthdateLeadthru,Vnesite datum rojstva stranke
+SmVisualItemsTitle,Vizualne overitve
+SmVisualItemsLeadthru,Odobri vizualno overjene izdelke
+SmCouponItemsTitle,Odobri uporabljene kupone
+SmCouponItemsLeadthru,Preveri uporabljene kupone
+SmRestrictedItemsTitle,Izdelki z omejitvami
+SmRestrictedItemsLeadthru,Izberite želeno funkcijo.
+KeyInBirthDateButtonText,Vnesi datum
+KeyInCodeButtonText,Vnesi \nKodo
+SmRunReportsTitle,Vsebina poročila
+PrintReportButtonText,Natisni poročilo
+LaneReceiptItemType7,    %s
+AM_RestrictedNotAllowedTitle,Izdelek z omejitvami
+AM_RestrictedNotAllowedLeadthru,"Omejen izdelek je bil preklican – starostna meja ni znana. \n\nProsimo, postavite izdelek na stran."
+TransactionCancelTitle,Prekliči transakcijo
+TransactionCancelLeadThru,Preklicana transakcija. Odstranite izdelke z \nblagajne.
+OutOfSyncNeedAssistTitle,ASISTENCA
+OutOfSyncNeedAssistLeadthru,"POS ni sinhroniziran, prosim, pojdite na Način asistence, da ga ponovno sinhronizirate."
+OutOfSyncStopTitle,PONOVNI ZAGON
+OutOfSyncStopLeadthru,"POS strežnik se je zrušil ali pa ni sinhroniziran prosim, izklopite terminal s stikalom."
+MultiPackItemTitle,Preveri glede večpaketnega pakiranja
+MultiPackItemLeadthru,"Če je izdelek v večpaketnem pakiranju, pritisnite ""Način asistence"" in ga razveljavite ter nato skenirajte črtno kodo večpaketnega pakiranja."
+CancelActionButtonText,Prekliči dejanje
+EnterIDFpLeadthru,"Vnesite ID uporabnika in pritisnite ""Vnesi"" ali pa postavite vaš prst na čitalca prstnih odtisov, da se prijavite."
+ReEnterIDFpLeadthru,"Neveljavna prijava. Prosim, ponovno se prijavite z uporabo tipkovnice ali vašega prstnega odtisa."
+HH_SuspendLeadthru1,Začasno zaustavim trenutno transakcijo? Potrdi ali Prekliči.
+HH_SuspendLeadthru2,"Začasna zaustavitev trenutne transakcije. Potrdi. Za preklic pritisnite ""Pojdi nazaj"" in prekličite."
+HH_ReEnterIDLeadthru,"Nepravilni ID ali geslo. Prosim, ponovno vnesite na tipkovnici."
+HH_CheckAgeLeadthru,"Vnesite rojstni datum %s\nin pritisnite ""Enter"""
+HH_CouponLimitExceededLeadthru,"Odobrite kupone na vrsti ali pritisnite ""Odobri & Vzemi"", da vzamete kupon stranke."
+HH_VisualApproveLeadthru,"Vizualna odobritev ali ""Način asistence"" za spremembo transakcije."
+HH_VisualApproveLeadthru2,"""Visual Approve"", or ""Assist Mode"" at Lane to modify."
+HH_UnknownItemLeadthru,"Vzemite izdelek, pritisnite ""Briši varnost"" ali ""Način asistence"" za zaključitev."
+HH_UnknownItemLeadthru2,"Collect item, ""Clear Security"", or use ""Assist Mode"" at Lane to complete."
+HH_ItemNotForSaleLeadthru,"Vzemite izdelek na vrsti in pritisnite ""Briši varnost""."
+HH_NoInterventionLeadthru,Ni potreben poseg.
+HH_OffLineLeadthru,Vrsta je nepovezana. Sistem se poskuša ponovno povezati.
+HH_InvalidBirthDateFormatLeadthru,Format datuma ni veljaven \nVnesi v %s formatu.
+HH_VoidLeadthru,"Vzemite razveljavljeni izdelek in pritisnite ""Odobri razveljavljeno""."
+HH_SuspendTransactionLeadthru,"Pritisnite ""Začasno zaustavi trans"", da začasno zaustavite transakcijo."
+HH_DeactivateLeadthru,"Izklopite izdelek ali odstranite varovanje in pritisnite ""Briši varnost""."
+HH_CompareSignatureLeadthru,"Primerjajte podpise in pritisnite ""Odobri"", ali ""Ponovno podpiši""."
+HH_EnterPriceLeadthru,"Vnesite ceno izdelka in pritisnite ""Enter""."
+HH_CouponApprovalLeadthru,"Sprejmite kupone stranke in pritisnite ""Odobri""."
+HH_HelpRequestLeadthru,Pritisnite Prekliči zahtevo po nudenju pomoči stranki.
+HH_CancelTransactionGenericLeadthru,"Pritisnite ""Da"", da preklicete transakcijo ali ""Ne"", da nadaljujete."
+HH_IncorrectItemWeightLeadthru,"Odstranite izdelek in pritisnite ""Briši varnost"" ali ""Odobri & Posodobi težo""."
+HH_UnexpectedIncreaseLeadthru,"Odstranite dodatne izdelke na vrsti in pritisnite ""Briši varnost""."
+HH_SkipBaggingBtnThresholdLeadthru,"Preverite izdelke na vrsti in pritisnite ""Briši varnost""."
+HH_NewWeightItemLeadthru,"Overite težo izdelka in pritisnite ""Odobri & Posodobi težo"" ali pritisnite ""Odobri/Brez posodobitve""."
+HH_SafetyCoverOpenLeadthru,S traka odstranite vse izdelke. Zaprite varnostni pokrov.
+HH_VerifySignatureLeadthru,Primerjajte podpis stranke s podpisom na kartici.
+HH_AssistedEndorsementLeadthru,"Potrebno potrdilo. Prosim, počakajte na asistenco upravitelja."
+HH_HostOfflineLeadthru,Vrsta je nepovezana. Sistem se poskuša ponovno povezati.
+HH_KeyInCodeLeadthru,"Vnesite kodo izdelka in pritisnite ""Enter""."
+HH_VoidItemLeadthru,"Skenirajte in se premikajte do izdelka na izpisu. ""Razveljavi izdelek"" ali ""Razveljavi vse""."
+HH_UpdateItemLeadthru,"Premaknite se na izdelek na izpisu in pritisnite ""Enter""."
+HH_CouponNoMatchLeadthru,Kupon se ne ujema z nobenim izdelkom na izpisu. Kupon ni sprejet.
+HH_CouponTooHighLeadthru,Znesek kupona previsok. Sistem ne more sprejeti.
+HH_ItemQuantityExceededLeadthru,Dovoljena količina presežena. \n\nPostavite izdelek na stran in nadaljujte.
+HH_VoidNoMatchLeadthru,Ni mogoče najti skeniranega izdelka. Izdelek ni bil kupljen ali pa je bil preklican.
+HH_ConfirmAbortLeadthru,Prekinem preverjanje in prekličem celoten nakup?
+HH_ContinueTransLeadthru,Nadaljujem z vašim nakupom?
+HH_EnterQuantityLeadthru,"Vnesite količino izdelka in pritisnite ""Enter""."
+HH_SelectContainerLeadthru,"S seznama izberite embalažo in pritisnite ""Enter""."
+HH_ScaleBrokenLeadthru,"Odstranite izdelek s tehtnice in pritisnite gumb ""Ničla tehtnice"" na skenerju."
+HH_UpdateNotAllowedLeadthru,Sprememba količine ni dovoljena.
+HH_AM_RestrictedNotAllowedLeadthru,Izdelek z omejitvami je bil preklican – starostna meja ni znana. Položite izdelek na stran.
+HH_OutOfSyncNeedAssistLeadthru,"POS ni sinhroniziran, ""Način asistence"" za ponovno sinhronizacijo."
+HH_OutOfSyncStopLeadthru,"POS strežnik se je zrušil ali pa ni sinhroniziran, izklopite terminal z uporabo stikala."
+HH_MultiPackItemLeadthru,"Če imate večpaketno pakiranje, izberite ""Način asistence"", razveljavite in nato skenirajte črtno kodo večpaketnega pakiranja."
+HH_ReturnToShoppingButtonText,Vrnitev
+DoneButtonText,Končano
+ConfirmSuspendFromLaneStatusLeadthruText,Potrdite ali prekličite začasno zaustavitev.
+HH_SuspendTransactionButtonText,Začasno zaustavi trans
+HH_TransactionCancelTitle,Prekliči transakcijo
+HH_TransactionCancelLeadThru,Preklicana transakcija. Odstranite izdelke z blagajne.
+ShiftButtonText,Dvigalka
+FixLaterButtonText,Popravi kasneje
+HopperLaneButtonText,Nadomestitev kovancev
+HopperLeadThru,"%sPojdite do vrste in napolnite kovance ali odstranite zastoj ali pritisnite ""Popravi kasneje"" za nadaljevanje"
+TransactionCountText,Štetje:
+SecurityDisableText,Varnost onemogočena
+SecurityDisableButtonOn,Vklop
+SecurityDisableButtonOff,Izklop
+SecurityDisableStatusTextOn,Varovanje pakiranja v vrečke je vklopljeno
+SecurityDisableStatusTextOff,Varovanje pakiranja v vrečke je izklopljeno
+SuspendDeclinedLaneButtonText,Zavrnjena začasna zaustavitev
+ConfirmSuspendDeclinedLeadthru,Potrdite ali Prekličite zavrnitev začasne zaustavitve.
+ConfirmSuspendDeclinedButtonText,Potrdi zavrnitev
+CancelSuspendDeclinedButtonText,Pojdi nazaj
+TMTransLeadthru,"Vrsta je v načinu usposabljanja,\nnadaljujem s transakcijo?"
+HH_TMTransLeadthru,"Vrsta je v načinu usposabljanja,\nnadaljujem s transakcijo?"
+TMTransLaneButtonText,Usposabljanje Trx
+DateFormat1,(mmddllll)
+DateFormat2,(mmddll)
+DateFormat3,(ddmmllll)
+DateFormat4,(ddmmll)
+DateFormat5,(llllmmdd)
+DateFormat6,(llmmdd)
+GoBackCouponButtonText,Pojdi nazaj
+ApproveCouponButtonText,Odobri kupon
+CouponExceededLimitLeadthru,"Pritisnite ""Odobri kupon"", da sprejmete kupon ali pojdite na Način asistence, da ga razveljavite."
+CouponExceededLimitFinalizationLeadthru,"Transakcija je bila dokončana z uporabo kupona, ki preseže mejo kupona trgovine."
+ClearSecurityFinalizationButtonText,Briši varnost
+ExpandReceiptButtonText,Razširi račun
+CollapseReceiptButtonText,Strni račun
+InvalidBarcodeLeadThru,"Vzemite izdelek na vrsti in pritisnite ""Odobri"", da nadaljujete s transakcijo."
+InvalidBarcodeLaneButtonText,Overi del
+HH_InvalidBarcodeLeadThru,"Vzemite izdelek, pritisnite ""Odobri"", da nadaljujete s transakcijo."
+GoToLaneOrHHRapLeadthru, Please go to Lane or HHRap for approval
+GoToLaneOrRapLeadthru, Please go to Lane or Rap for approval
+GoToLaneLeadthru, Prosimo pojdite do vrste za odobritev
+DisableRapApprovalText,  Onemogoči RAP odobritev
+DisableHHRapApprovalText, Onemogoči HHRAP odobritev
+UpdateItemButtonText,Posodobi izdelek
+SuspendConfirmationTitle,Začasno zaustavi potrditev
+DoNotApproveButtonText,Ne odobri
+SmVoidAndRemoveItemLeadthru,"Prosimo, odstranite preklican izdelek iz vrečke."
+RestrictedItemsNotApprovedTitle,Izdelki z omejitvami - neodobreno
+HH_AssistAtLaneLeadthru,"Pojdite do vrste, da razveljavite izdelke."
+XM_Acceptor,Sprejemnik
+XM_CashStatus,Status gotovine
+XM_CashStatusLeadthru,Izberi želeno funkcijo.
+XM_CoinAcceptor,Sprejemalec kovancev
+XM_CoinOverflow,Pretok kovancev
+XM_CoinOverflowText,Pretok
+XM_CoinRecycler,Ločevalnik kovancev
+XM_Coins,Kovanci
+XM_NoteOverflow,Pretok bankovcev
+XM_NoteOverflowText,Pretok
+XM_NoteRecycler,Ločevalnik bankovcev
+XM_Notes,Bankovci
+XM_PurgeOperationText,Postopki očiščevanja
+XM_TerminalNumber,Številka terminala
+XM_TotalCount,Skupno štetje:
+XM_TotalValue,Skupna vrednost:
+XM_CoinsSubtotal,Vm. št. kovanc.:
+XM_NotesSubtotal,Vm. št. bankov.:
+XM_GrandTotal,Skupna vsota:
+XM_PurgeInstruction,Postopki čiščenja: odkriti zavrnjeni bankovci. Pojdite do vrsto in preverite napravo.
+XM_RAP_NegativeAlert,Negative number found. Pojdite do vrsto in preverite napravo.
+XM_AreYouSure,"Ali ste prepričani, da želite izvesti spodnje aktivnosti?"
+XM_Attendant,Udeleženec
+XM_Backspace,Vračalka
+XM_BillAcceptor,Sprejemalec bankovcev
+XM_BillDispenser,Avtoma za izdajo bankovcev
+XM_Bins,Koši
+XM_BothDispenseFailure,Neuspešna izdaja %s.\nPremalo gotovine ali avtomat za izdajo je v okvari.
+XM_CancelChanges,Prekliči spremembe
+XM_CannotCompleteTransfer,"Ne da se zaključiti prenosa.\nKaseta za gotovino nima dovolj prostora.\nProsimo, izpraznite kaseto za gotovino  preden izvedete ta poseg."
+XM_CashManagement,Upravljanje gotovine
+XM_CashManagementReport,Poročilo o upravljanju gotovine
+XM_CashRemove,Odstrani gotovino
+XM_CashRemoveLeadthru,Izberi želeno funkcijo.
+XM_CashReplenishLeadthru,Izberi želeno funkcijo.
+XM_CashReplenishLeadthru1,Vstavite kovance ali izberite funkcijo.
+XM_CashReplenishLeadthru2,Vstavite denar ali izberite funkcijo.
+XM_CashReplenishLeadthru3,"Ko zaključite, pritisnite ""Izhod""."
+XM_CashReplenishment,Dodaj denar
+XM_ChangeInCount,Sprem. v štetju
+XM_ChangeInValue,Sprem. v vrednosti
+XM_Clear,Briši
+XM_ClearPrompt1,"Ko končate, izberite drugo funkcijo ali ""Izhod""."
+XM_ClearPrompt2,"Izberite drugo funkcijo ali ""Izhod""."
+XM_CoinAcceptorOffline,Sprejemalec se ne odziva.\n\nIzklopite in ponovno zaženite terminal.
+XM_CoinDispenseFailure,Neuspešna izdaja %s.\nPremalo kovancev ali avtomat za izdajo kovancev je v okvari.
+XM_CoinDispenser,Avtomat za izdajo kovancev
+XM_CoinManagement,Upravljanje kovancev
+XM_ConfirmAction,Potrdi aktivnosti
+XM_ConfirmCoinDispense,* Izdaj kovance\nIzdani znesek: %s\nIzdano število: %d
+XM_ConfirmEmptyCoinAcceptor,* Ponastavi štetje sprejemalca kovancev na nič\nOdstranjen znesek:%s
+XM_ConfirmEmptyCoinOverflow,* Ponastavi štetje pretoka kovancev na nič \nOdstranjen znesek:%s
+XM_ConfirmEmptyNoteAcceptor,* Ponastavi štetje sprejemalca bankovcev na nič\nOdstranjen znesek:%s
+XM_ConfirmEmptyNoteOverflow,* Ponastavi štetje kasete za denar na nič\nOdstranjen znesek:%s
+XM_ConfirmFillLoaderCassette,* Nastavi Štetja bankovcev\nNov znesek: %s\nNovo število: %d
+XM_ConfirmManualCoinEmpty,* Ponastavi štetje kovancev na nič\nOdstranjen znesek:%s \nOdstranjeno število: %d
+XM_ConfirmManualCoinFill,* Nastavi štetje kovancev\nNov znesek: %s\nNovo število: %d
+XM_ConfirmManualNoteEmpty,* Ponastavi štetje bankovcev na nič\nOdstranjen znesek: %s\nOdstranjeno število: %d
+XM_ConfirmManualNoteFill,* Nastavi Štetja bankovcev\nNov znesek: %s\nNovo število: %d
+XM_ConfirmNoteDispense,* Izdaj bankovce\nIzdani znesek: %s\nIzdano število: %d
+XM_ConfirmTransferNotesToOverflow,* Prenesi bankovce v kaseto za denar\nPreneseni znesek: %s\nPreneseno število: %d
+XM_Count,Štetje
+XM_DispenseCupFull,"Posoda za vračanje kovancev je polna. Prosim, odstranite kovance, da se zaključi izdajanje."
+XM_DispenseCupFullPreemptive," Prosim, vzemite kovance\nČe je posoda za vračanje kovancev polna, jo takoj izpraznite.  Izdajanje se bo prekinilo, dokler posoda ne bo izpraznjena."
+XM_DispenseFullPreemptive,"Paimkite banknotus ir monetas\nBanknotai išduodami ryšuliukais po 15 vnt. Išdavimas bus laikinai sustabdytas, kol bus paimti visi banknotai. Jei monetų grąžinimo įtaisas pilnas, nedelsdami ištuštinkite. Išdavimas bus laikinai sustabdytas, kol indas bus ištuštintas."
+XM_DispenseNoteFullPreemptive,"Paimkite banknotus ir monetas\nBanknotai išduodami ryšuliukais po 15 vnt. Išdavimas bus laikinai sustabdytas, kol bus paimti visi banknotai. Jei monetų grąžinimo įtaisas pilnas, nedelsdami ištuštinkite. Išdavimas bus laikinai sustabdytas, kol indas bus ištuštintas."
+XM_DispenseSensorBlock,"Posoda za vračanje kovancev je mogoče polna ali pa je okvarjen senzor. Prosim, odstranite kovance ali pokličite servisno službo."
+XM_DispenseText,Izdaja
+XM_DispenseThreshold,"Vneseno število presega štetje, ki je na voljo za izdajo.\nVneseno je bilo maksimalno štetje: %d"
+XM_Empty,Prazno
+XM_EmptyCashAcceptorLT,Odstrani bankovce iz Sprejemalca gotovine
+XM_EmptyCashBoxLT,Odstrani bankovce iz Kasete za gotovino
+XM_EmptyCoinAcceptor,Ponastavi Sprejemalca kovancev
+XM_EmptyCoinAcceptorLT,Odstrani kovance iz Sprejemalca kovancev
+XM_EmptyCoinHopperLT,Odstrani kovance iz naprave.
+XM_EmptyCoinOverflow,Ponastavi Pre-\ntok kovancev
+XM_EmptyCoinOverflowLT,Odstrani kovance iz Pretoka kovancev
+XM_EmptyLoaderCassetteLT,Odstrani bankovce iz Kasete polnilca
+XM_EmptyNoteAcceptor,Ponastavi Sprejem. bankov
+XM_EmptyNoteCassetteLT,Odstrani bankovce iz Kaset za bankovce
+XM_EmptyNoteOverflow,Ponastavi Pretok bankovcev
+XM_Enter,Enter
+XM_ExceededAmount,Znesek presega količino. Maksimalni znesek mora biti %s.
+XM_ExceededCapacity,Štetje presega količino. Maksimalno štetje polnjenj mora biti %d.
+XM_Execute,Uporabi spremembe
+XM_Exit,Izhod
+XM_FastLaneReport,NCR SelfServ Checkout poročilo blagajne
+XM_FillLoaderCassette,Nastavi Štetja bankovcev
+XM_GoBack,Pojdi nazaj
+XM_ID,ID asistenta
+XM_IDPrompt,"Vnesite ID in pritisnite ""Enter""."
+XM_InvalidAmount,"Vnesena vrednost %s ni veljavna.\nProsim, poskusite znova."
+XM_KeyPadEnterCoinAmount,Vnesite znesek %s kovancev s tipkovnico.
+XM_KeyPadEnterCoinCount,Vnesite štetje %s kovancev s tipkovnico.
+XM_KeyPadEnterNoteAmount,Vnesite znesek %s bankovcev s tipkovnico.
+XM_KeyPadEnterNoteCount,Vnesite štetje %s bankovcev s tipkovnico.
+XM_KeyPadInstr,Vnesi štetje s pomočjo tipkovnice
+XM_ManualBothFillAlert,"Odprite vrata vrste in položite bankovce v kasete, kovance pa v zbiralnike. Ne polagajte je v sprejemalce."
+XM_ManualBothRecyclerFillAlert,Odprite vrata in vstavite bankovce v polnilec in kovance v lijake. Ne polagajte jih v sprejemalce.
+XM_ManualCoinDispenserEmpty,Ponastavi Štetja kovancev
+XM_ManualCoinDispenserFill,Nastavi Štetja kovancev
+XM_ManualCoinFillAlert,Odpri linijska vrata in vloži kovance direktno v napravo. Ne polagajte jih v sprejemalca kovancev.
+XM_ManualEmptyAlert,Odstranite vso gotovino iz naprave.
+XM_ManualFillAlert,Odprite vrata vrste in položite gotovino neposredno v napravo. Ne polagajte je v sprejemalce.
+XM_ManualNoteDispenserEmpty,Ponastavi Štetja bankovcev
+XM_ManualNoteDispenserFill,Nastavi Štetja bankovcev
+XM_ManualNoteFillAlert,Odprite vrata vrste in položite bankovce neposredno v kaseto. Ne polagajte jih v sprejemalca bankovcev.
+XM_ManualNoteRecyclerFillAlert,Odprite vrata vrste in položite bankovce neposredno v napravo. Ne polagajte jih v sprejemalca bankovcev.
+XM_No,Ne
+XM_NoteDispenseFailure,Neuspešna izdaja %s.\nPremalo bankovcev ali avtomat za izdajo bankovcev je v okvari.
+XM_PW,Geslo asistenta
+XM_PWPrompt,"Vnesite geslo in pritisnite ""Enter""."
+XM_PendingText,V teku
+XM_PleaseWait,"Obdelovanje ...\n\nProsim, počakajte."
+XM_Print,Natisni Status gotovine
+XM_PurgeCoinRecycler,Očisti Ločevalnik kovancev
+XM_PurgeNoteRecycler,Očisti Ločevalnik bankovcev
+XM_ReEnter,"Nepravilna številka in geslo blagajnika.\nProsim, poskusite znova"
+XM_ResetCoinsToBaseLevel,Izdaj kovance do osnov. ravni
+XM_ResetNotesToBaseLevel,Prenesi bankovce na osnovno raven
+XM_SelectFunc1,Izberi sistemsko funkcijo
+XM_SelectFunc2,Izberi želeno funkcijo.
+XM_StoreNumber,Shrani #:
+XM_TransferAllNotes,Prenesi vse bankovce
+XM_TransferNotesToOverflow,Prenesi bankovce na pretok
+XM_Update,Posodobi
+XM_Yes,Da
+XM_SequenceNumber,Zaporedna številka
+XM_CardManagement,Upravljanje kartic
+XM_TotalCoinsInserted,Skupaj vstavljeno
+XM_TotalNotesInserted,Skupaj vstavljeno
+XM_Value,Vrednost
+XM_TransferXCount,Štetje (x) prenosov
+XM_TransferXAmount,Štetje (x) zneskov
+XM_TransfertoCashBoxLeadThruText,"Za prenos %s bankovcev v kaseto za denar, pritisnite ""Uporabi spremembe"". Za razveljavitev vseh sprememb v teku, pritisnite ""Prekliči spremembe""."
+XM_MenuDispenseFunctions,Funkcije za izdajo
+XM_MenuResetFunctions,Ponastavi funkcije
+XM_MenuCashBoxTransfer,Prenosi v kaseto za denar
+XM_LeadThruCashBoxTransfer,"Izberite želeno funkcijo prenosa.\nKo končate, izberite ""Uporabi spremembe""."
+XM_LeadThruResetFunction,"Izberite želeno funkcijo ponastavitve.\nKo končate, izberite ""Uporabi spremembe""."
+XM_LeadThruDispenseFunction,"Pritisnite na vrednost in vnesite znesek\nali pritisnite ""Izdaj kovance na osnovno raven""."
+XM_PurgeInstructionRecycler,"Postopki čiščenja: odkriti zavrnjeni bankovci. Odstranite zavrnjene bankovce iz kasete za denar. Počistite opozorilo s pritiskom na ""Prenesi vse bankovce"" in nato ""Ponastavi kaseto za denar""."
+XM_PurgeInstructionNonRecycler,"Postopki čiščenja: odkriti zavrnjeni bankovci. Odstranite zavrnjene bankovce iz čistilnega koša. Počistite opozorilo s pritiskom na ""Ponastavi štetje bankovcev""."
+XM_ReplenishInstruction,"Vstavite gotovino ali izberite vrednost in vnesite znesek ali nastavite štetje.\nKo končate, izberite ""Uporabi spremembe""."
+XM_PickUpAutoAmount,Pobiranje samodejnega zneska
+XM_PickUpXAmount,Pobiranje zneska (x)
+XM_MenuPickUpFunctions,Funkcije pobiranja
+XM_LeadThruPickUpFunction,"Izberite želeno funkcijo zneska, ki ga boste pobrali.\nKo končate, izberite ""Uporabi spremembe""."
+XM_KeyPadEnterPickUpAmount,"S tipkovnico vnesite znesek, ki ga boste pobrali. "
+XM_InvalidPickUpAmount,"Vnesena vrednost je večja od zneska, ki je lahko prenesen ali izdan."
+XM_InvalidStartingBank,"Konfigurirana začetna banka je večja od zneska, ki je lahko prenesen ali izdan."
+XM_CalculatedPickUpAmount,"Izračunani znesek, ki ga boste pobrali je %s."
+XM_UnableToPickUp,"Ni mogoče izdati zneska, ki ga boste pobrali."
+XM_CoinAllowedDispenseExceeded,Poskus izdaje %d kovancev. Dovoljena izdaja kovancev je %d.
+XM_InvalidPickUpAmount2,"Znesek v kaseti za denar in pretoku kovancev je večji od zneska, ki ga boste pobrali."
+XM_LockScreen,Zaklepanje zaslona
+XM_SystemBusy,"Sistem zaseden … Prosim, počakajte"
+XM_AreYouSure_LockScreen,"Ste prepričani, da želite zakleniti zaslon?\nZaslon se ne more zakleniti, dokler naprave ne zaključijo njihovih nalog."
+XM_NegativeAlert,"Najdena negativna številka. Možni vzroki: pojavila se je napaka pri šifriranju ali pa so bankovci bili nameščeni v kaseto polnilca,števila za te bankovce pa niso bila vnesena v Upravljanje gotovine.\n\nSledite spodnjim korakom za rešitev:\n1. Izberite Dodaj gotovino. \n2. Dotaknite se označbe z negativno številko. \n3. Vnesite točen znesek evrov za negativno številko in/ali znesek, ki ste ga položili v polnilec. \n4. Izberite Uporabi spremembe. \n5. Izberite Da, da potrdite, in nato Izhod."
+XM_AddCashLeadthru1,Vstavite kovance ali pritisnite na cilinder in vnesite znesek ali nastavite štetja.
+XM_AddCashLeadthru2,Vstavite gotovino ali pritisnite na cilinder in vnesite znesek ali nastavite štetja.
+XM_AddCashLeadthru3,Pritisnite na cilinder in vnesite znesek ali nastavite štetja.
+XM_CoinHopperEmpty,"Koši zbiralnikov kovancev morajo biti spraznjeni, da je lahko štetje kovancev ponastavljeno na nič.  Spraznite vsak koš zbiralnika kovancev preden pritisnete ''Uporabi spremembe''."
+XM_CollectRemainingCoins,"Bankovce odstranite iz iz enote za vračilo kovancev, ko se izdajanje zaključi."
+XM_FPIDPrompt,"Vnesite ID uporabnika in pritisnite ""Vnesi"" ali pa postavite prst na čitalec odtisov, da se prijavite."
+XM_LoanFailure,Posojilo ni uspelo
+XM_LoanFailureLeadthru,Posojilo je bilo zavrnjeno. Izberite želeno funkcijo.
+XM_UndoLoan,Razveljavi posojilo
+XM_CommitLoan,Izvedi posojilo
+XM_PickUpFailure,Dvig ni uspel
+XM_PickUpFailureLeadthru,Dvig je bil zavrnjen. Izberite želeno funkcijo.
+XM_UndoPickUp,Razveljavi dvig
+XM_CommitPickUp,Izvedi dvig
+XM_ManualRemoveCashAlert,Odstranite denar iz blagajne in kovance iz koša za kovance za razveljavitev posojila.\n\nBankovci\nRačun je potrebno odstraniti: %d\nZnesek je potrebno odstraniti: %s\n\nKovanci\nRačun je potrebno odstraniti: %d\nZnesek je potrebno odstraniti: %s
+XM_POSRejectedLoanPickUp,POS zavrnil posojilo/dvig:  %s / %d zavrnjeno.\n
+XM_LoanPickUpCashierOverrides,ID %s blagajne razveljavi posojilo/dvig: %s / %d  izvedeno.\n\n
+XM_PlaceJammedBill,Odstranite blagajno in vanjo vstavite nakopičene blagajniške listke.
+MinMaxFastLaneBtnPrimaryTxt,Pomanjšaj SelfServ Checkout
+MinMaxFastLaneBtnSecondaryTxt,Povečaj SelfServ Checkout
+MinMaxFastLaneBtnPrimaryShowConfirmation,"Za pomanjšanje SelfServ Checkout, pritisnite gumb ""Pomanjšaj SelfServ Checkout""."
+MinMaxFastLaneBtnSecondaryShowConfirmation,"Za povečanje SelfServ Checkout, pritisnite gumb ""Povečaj SelfServ Checkout""."
+StopStartFastLaneBtnPrimaryTxt,Ustavi SelfServ Checkout
+StopStartFastLaneBtnSecondaryTxt,Zaženi SelfServ Checkout
+SwitchToRAPBtnPrimaryTxt,Preklopi na RAP
+ShutdownSystemBtnPrimaryTxt,Izklopi celotni sistem
+RebootSystemBtnPrimaryTxt,Ponovno zaženi celotni sistem
+VolumeBtnPrimaryTxt,Upravljanje glasnosti
+EventViewerBtnPrimaryTxt,Pregledovalnik dogodkov
+GenerateLogBtnPrimaryTxt,Izdelaj diagnostične datoteke dnevnika
+ExitFastLaneAndRunProfileBtnPrimaryTxt,Ustavi SelfServ Checkout in zaženi upravitelja profila
+ExitFastLaneAndRunProfileBtnSecondaryTxt,Zaženi upravitelja profila
+TerminalInfoBtnPrimaryTxt,Informacije o terminalu
+MinMaxRAPBtnPrimaryTxt,Pomanjšaj RAP
+MinMaxRAPBtnSecondaryTxt,Povečaj RAP
+MinMaxRAPBtnPrimaryShowConfirmation,"Za pomanjšanje RAP-a, pritisnite gumb ""Pomanjšaj RAP""."
+MinMaxRAPBtnSecondaryShowConfirmation,"Za povečanje RAP-a, pritisnite gumb ""Povečaj RAP""."
+StopStartRAPButtonPrimaryTxt,Ustavi RAP
+StopStartRAPButtonSecondaryTxt,Zaženi RAP
+RapConfigureBtnPrimaryTxt,RAP konfiguracija
+SwitchToFastLaneBtnPrimaryTxt,Preklopi na SelfServ Checkout
+ExitRAPAndRunProfileBtnPrimaryTxt,Ustavi RAP in zaženi upravitelja profila
+ExitRAPAndRunProfileBtnSecondaryTxt,Zaženi upravitelja profila
+UtilityFunctionsTitle,NCR SelfServ Checkout\nFunkcije pripomočka
+StartTitle,Zagon sistema
+SystemStartup,"Sistem se zaganja … prosim, počakajte"
+TerminalID,ID terminala: 
+InterfaceVersion,Različica programske opreme: 
+TrainingProgramPrimaryTxt,Program usposabljanja
+LaunchPadNet_OperatorIDText,ID upravitelja: 
+KeySwitchOperatorID,Ključavnica
+LaunchPadNet_SignOnButtonText,Prijava
+LaunchPadNet_SignOffButtonText,Odjava
+SignedOffButtonText,Odjava
+Exit,Zapusti vse
+LaunchPadNet_ReturnToShoppingButtonText,Vrnitev
+PickListEditor,Urejevalec seznama izbranih
+RunADDTxt,Zaženi DODAJ ob naslednjem ponovnem zagonu
+TouchWareTxt,Kalibriraj Zaslon na dotik
+DiagConfirm,"Ali ste prepričani, da želite izdelati diagnostične datoteke dnevnika?"
+ProfileManagerFLConfirm,"Ali ste prepričani, da želite ustaviti SelfServ Checkout in zagnati upravitelja profila?"
+ProfileManagerRAPConfirm,"Ali ste prepričani, da želite ustaviti RAP in zagnati upravitelja profila?"
+ProfileManagerConfirm,"Ali ste prepričani, da želite zagnati upravitelja profila?"
+EventViewerConfirm,"Ali ste prepričani, da želite zagnati pregledovalnika dogodkov?"
+TrainingConfirm,"Ali ste prepričani, da želite zagnati program za usposabljanje?"
+PicklistConfirm,"Ali ste prepričani, da želite zagnati urejevalca seznama izbranih?"
+RunADDConfirm,"Ali ste prepričani, da želite zagnati samodejno zaznavanje naprave pri naslednjem zagonu?"
+CalibrateConfirm,"Ali ste prepričani, da želite kalibrirati zaslon na dotik?"
+ShutdownConfirm,"Ali ste prepričani, da želite izklopiti celoten sistem?"
+RebootConfirm,"Ali ste prepričani, da želite ponovno zagnati celoten sistem?"
+CloseAllConfirm,"Ali ste prepričani, da želite zapustiti vse aplikacije in iti na namizje?"
+VolumeConfirm,"Ali ste prepričani, da želite prilagoditi upravljanje glasnosti?"
+TerminalInfoConfirm,"Ali ste prepričani, da želite pogledati informacije o terminalu?"
+StopFastLaneConfirm,"Ali ste prepričani, da želite ustaviti SelfServ Checkout?"
+StopRAPConfirm,"Ali ste prepričani, da želite ustaviti RAP?"
+StartFastLaneConfirm,"Ali ste prepričani, da želite zagnati SelfServ Checkout?"
+StartRAPConfirm,"Ali ste prepričani, da želite zagnati RAP?"
+WindowsLogOnTxt,Prijavna okna
+WindowsLogOnConfirm,"Ali ste prepričani, da želite zapustiti vse aplikacije in se prijaviti kot nov uporabnik?"
+YesText,Da
+NoText,Ne
+CommandPromptPrimaryTxt,Prikazovanje ukaza
+CommandPromptConfirm,"Ali ste prepričani, da želite zagnati prikazovanje ukaza?"
+RSMLEPrimaryTxt,Upravitelj trgovinskih sistemov LE
+RSMLEConfirm,"Ali ste prepričani, da želite zagnati upravitelja trgovinskih sistemov LE?"
+OperatorRegistrationUtility,Pripomoček za registracijo upravitelja
+LaunchPadNet_EnterIDFpLeadthru,"Vnesite ID uporabnika in pritisnite ""Enter"" ali pa postavite  prst na čitalec odtisov, da se prijavite."
+LaunchPadNet_ReEnterIDFpLeadthru,"Neveljavna prijava. Prosim, ponovno se prijavite z uporabo tipkovnice ali vašega prstnega odtisa."
+LaunchPadNet_ClearButtonText,Briši
+LaunchPadNet_EnterButtonText,Enter
+LaunchPadNet_GoBackButtonText,Pojdi nazaj
+LaunchPadNet_SpaceButtonText,Presledek
+LaunchPadNet_BackSpaceButtonText,Vračalka
+LaunchPadNet_EnterIDLeadthru,Vnesite ID z uporabo spodnje tipkovnice:
+ReEnterIDLeadthru,"Nepravilni ID ali geslo. Prosim, ponovno vnesite z uporabo spodnje tipkovnice."
+LaunchPadNet_EnterPasswordLeadthru,Vnesite geslo z uporabo spodnje tipkovnice:
+CancelButtonText,Prekliči
+LaunchPadNet_LoggingInLeadthru,"Prijava … Prosim, počakajte"
+LaunchPadNet_ShiftButtonText,Dvigalka
+LaunchPadNet_SignedOffButtonText,Odjavljen
+LaunchPadNet_ReEnterIDLeadthru,"Nepravilni ID ali geslo. Prosim, vnesite ponovno z uporabo spodnje tipkovnice."
+LegalCaptionText,"PRAVNI ZAPIS\nTa sistem je namenjen samo za uporabo s strani pooblaščenega osebja. S prijavo v ta sistem, se strinjate s pogoji politike in standardi varovanja informacij. Uporaba s strani nepooblaščenih posameznikov in za v nepooblaščene namene je kršenje zveznega in/ali državnega zakona. Podjetje si pridržuje pravico, da izvede potrebna dejanja za zaščito pooblaščenih uporabnikov, intelektualne lastnine in drugih pridobitev informacij. Posamezniki, ki uporabljajo ta sistem, so podvrženi nadzorovanju vseh njihovih dejanj v tem sistemu. Vsak, ki uporablja ta sistem, se izrecno strinja s takim nadzorovanjem in je seznanjen, da če tako nadzorovanje razkrije dokaze o kriminalnem dejanju, lahko osebje sistema posreduje dokaze takega nadzorovanja uradnikom kazenskega pregona."
+SignBelow,Znak spodaj.
+SignOnTitle,NCR SelfServ Checkout Log In
+HH_TransactionCancelLeadThru2,Transaction cancelled.
+AlertStatusTextOff,
+AlertStatusTextOn,!!!
+InitialText,.
+XM_CassetteMissing,Kaseta za bankovce ni v enoti.\nKaseto za bankovce postavite nazaj v enoto.
+XM_Cassette,Kaseta
+XM_CollectFailure,Pri opravilu zbiranja je prišlo do okvare.
+XM_TotalRemovedText,Skupaj odstranjeno: %s
+XM_TotalColectedText,Skupaj zbrano: %s
+XM_TotalAddedText,Skupaj dodano: %s
+XM_OperatorID,ID upravljavca %s
+XM_ManualRemoveCashAlertGlory,"Odstranite gotovino iz kasete, da razveljavite posojilo.\n\nBankovci\nŠtetje za odstranitev: %d\nZnesek za odstranitev: %s"
+XM_LeadThruGloryFunction,"Pritisnite vrednost in vnesite znesek\nali pritisnite ""Zberi""."
+XM_InitializeError,"Sistem ima napako, ki jo je potrebno odstraniti."
+XM_GrandTotalText,Skupna vsota: %s
+XM_EmptyCassetteAndRejectBin, Odstranite bankovce iz kaset za bankovce in zavrnite koš.
+XM_Collect,Zberi
+XM_CashUnbalance,V ločevalniku se je pojavila napaka zaradi neskladnosti.
+XM_GloryDispenseNoteFullPreemptive,"Prosim, vzemite bankovce\nBankovci so izdani v svežnjih po 10. Izdajanje se bo prekinilo, dokler posoda ne bo izpraznjena."
+XM_GloryDispenseFullPreemptive,"Prosim, vzemite bankovce in kovance\nBankovci so izdani v svežnjih po 10. Izdajanje se bo prekinilo, dokler posoda ne bo izpraznjena. Če je posoda za vračanje kovancev polna, jo nemudoma izpraznite. Izdajanje se bo prekinilo, dokler se posode ne izprazni."
+XM_GloryDispenseCupFullPreemptive,"Prosim, vzemite kovance\nČe je posoda za vračanje kovancev polna, jo takoj izpraznite.  Izdajanje se bo prekinilo, dokler se posode ne izprazni."
+XM_NegativeAlert_Remove,"Najdena negativna številka. Možni vzroki: prišlo je do tipkarske napake ali so bili v polnilno kaseto vstavljeni bankovci, katerih znesek ni bil vnesen v gotovinsko poslovanje.\n\nSledite spodnjim korakom za reševanje težave:\n1. Izberite ""Izhod"", nato izberite ""Dodaj gotovino"".\n2. Pritisnite na vrednost z negativno številko.\n3. Izberite točen dolarski znesek negativne številke in/ali znesek, nameščen v nalagalniku.\n4. Izberite ""Uporabi spremembe"".\n5. Izberite ""Da"" za potrditev in nato ""Izhod""."
+PageIndicatorLabelFormat,Stran {0} od {1}
+DueCart,Rok
+PageIndicatorLabelFormat2,Page {0} of {1}
+XM_ProcessingCashTextV6HW,•   Vstavi kovance v Sprejemalca kovancev.\n•   Vstavi bankovce v Sprejemalca bankovcev.\n
+XM_CoinHoppersV6HW,Lijaki za kovance
+XM_CoinBoxV6HW,Škatla za kovance - %d - %s
+XM_ConfirmTransferNotesToBaseLevelV6HW,Prenesi bankovce v škatlo za bankovce\n\nZnesek za prenos: %s\nŠtetje do prenosa: %d\n\nPostopek prenosa lahko traja več minut.
+XM_ConfirmTransferAllNotesV6HW,Prenesi vse bankovce v škatlo za bankovce\n\nZnesek za prenos: %s\nŠtetje do prenosa: %d\n\nPostopek prenosa lahko traja več minut.
+XM_ResetCoinsAllCoinsV6HW,Izdaj vse kovance
+XM_ResetCoinHopperCountsV6HW,Ponastavi Štetja lijakov za kovance
+XM_ResetNoteBoxCountsV6HW,Ponastavi Štetje škatle za bankovce
+XM_MenuNoteBoxTransferV6HW,Prenosi škatle za bankovce
+XM_AddCashLeadthruV6HW,"•   Vstavi kovance v Sprejemalca kovancev.\n•   Vstavi bankovce v Sprejemalca bankovcev.\n•   Pritisnite ""OOdpri jašek za polnjenje kovancev""\n     in vstavite kovance v jašek za ponovno polnjenje.\n•   Pritisnite ""Nastavi nalagalnik"", da lahko v nalagalnik\n     vstavite bankovce."
+XM_FinishedAddingCashV6HW,"Ko končate z dodajanjem gotovine, se dotaknite ""V REDU""."
+XM_OKV6HW,V REDU
+XM_SetupLoaderV6HW,Nastavi nalagalnik
+XM_SetupLoaderLeadthruV6HW,"•   Vnesite ""%s"" privzeto vrednost zneska/štetja nalagalnika\n     in pritisnite ""V REDU"".\n•   Ko končate, ""Uporabi spremembe""."
+XM_NoteLoaderV6HW,Nalagalnik za bankovce
+XM_EnableCoinInputBowlV6HW,Odpri posodo za vnos kovancev
+XM_EnableCoinRefillChuteV6HW,Odpri jašek za polnjenje kovancev
+XM_EnableCoinAcceptorV6HW,Vklop sprejemalca kovancev
+XM_TopOffCashPrintStatusV6HW,Stanje vstavljanja gotovine ali tiskanja
+XM_TransferOperationPreemptiveV6HW,"Prenos bankovcev v teku... Prosimo, počakajte.\n\nNE ODSTRANITE ŠKATLE ZA BANKOVCE ali   \ndruge naprave, dokler opravilo ni zaključeno"
+XM_TransferOperationInstructionV6HW,Zaključen prenos.\nOdstranite vse bankovce iz škatle za bankovce in\n ponastavite škatlo za bankovce.
+XM_PendingDispenseV6HW,Čaka na izdajo %d - %s
+XM_PendingTransferV6HW,Prenos v teku %d - %s
+XM_PendingResetV6HW,Ponastavitev v teku %d - %s
+XM_ConfirmResetNoteBoxV6HW,Ponastavi Štetje škatle za bankovce/vrednost\n\nZnesek za ponastavitev: %s\nŠtetje za ponastavitev: %d\n\nZnesek po ponastavitvi škatle za bankovce: 0 €\nŠtetje po ponastavitvi škatle za bankovce: 0
+XM_PendingCashRemoveV6HW,"Odprite varno vrata, odstranite škatlo za bankovce in vse bankovce.\nZamenjajte prazno škatlo za bankovce.\n\nKo je končano, pritisnite ""V REDU""."
+XM_LeadThruResetNoteBoxFunctionV6HW,"Ponastavi funkcije\n•   Ponastavi Štetje škatle za bankovce na ničlo.\n•   Ko končate, ""Uporabi spremembe""."
+XM_AllV6HW,Vse
+XM_LeadThruTransferNotesToNoteBoxFunctionV6HW,"Prenosi škatle za bankovce\n•   Za prenos bankovcev pritisnite na ""Uporabi spremembe"".\n•   Za preklic pritisnite na ""Prekliči spremembe""."
+XM_ReplenishNotesFromLoaderToRecyclersPreemptiveV6HW,"Nalaganje v teku... Prosimo, počakajte."
+XM_SetupLoaderAlertConfirmationV6HW,"Nastavi nalagalnik\n\nZagotovite, da ima nalagalnik pravilne vrednosti in so\nvstavljene, nato pritisnite ""V REDU"", da naložite bankovce."
+XM_SetupLoaderAlertConfirmation1V6HW,"Nastavi nalagalnik\n\nDodajte bankovce v nalagalnik, zagotovite, da je\nnalagalnik vstavljen, nato pritisnite ""V REDU"",\nda naložite bankovce."
+XM_SetupLoaderConfirmationV6HW,"Nastavi nalagalnik\n\n%s Status bankovcev v nalagalniku:\n\nOriginalni/začetni znesek: %s\nOriginalno/začetno štetje: %d\nZnesek za dodati v nalagalnik: %s\nŠtetje za dodati v nalagalnik: %d\n\nRačune, ki nimajo določenega mesta, vpišite pri dnu zneska. Računi pri dnu bodo avtomatično prišteti in vneseni, ko pridejo na vrsto.\n\nPostopek nalaganja lahko traja več minut."
+XM_SetupLoaderConfirmation1V6HW,Nastavi nalagalnik\n\nVsi bankovci nalagalnika bodo samodejno\nnaloženi in prešteti.\n\nPostopek nalaganja lahko traja več minut.
+XM_PendingNotesAddedV6HW,Privzeti bankovci dodani %d - %s
+XM_ProcessingCashV6HW,Obdelava gotovine
+XM_ProcessingCashLeadThruV6HW,•   Vstavi kovance v Sprejemalca kovancev.\n•   Vstavi bankovce v Sprejemalca bankovcev.
+XM_SetupLoaderLeadThru1V6HW,"•   Da bi dodali bankovce v nalagalnik, pritisnite na\n     ""Uporabi spremembe"".\n•   Za preklic pritisnite na ""Prekliči spremembe""."
+XM_LeadThruDispenseFunctionV6HW,Funkcije za izdajo\n•   Vnesite znesek/štetje %s bankovcev s tipkovnico.
+XM_LeadThruDispenseFunction1V6HW,"Funkcije za izdajo\n•   Za izdajo kovancev pritisnite na ""Uporabi spremembe"".\n•   Za preklic pritisnite na ""Prekliči spremembe""."
+XM_ConfirmCoinDispenseAllV6HW,Izdaj vse kovance\n\nZnesek za izdajo: %s\nŠtetje do izdaje: %d
+XM_DispenseOperationPreemptiveV6HW,"Izdajanje kovancev v teku.\n\nOdstranite kovance iz posode za kovance, ko je polna in\n pritisnite ""V REDU""."
+XM_ConfirmCoinDispenseToBaseLevelV6HW,Izdaj kovance do osnovne ravni\n\nZnesek za izdajo: %s\nŠtetje do izdaje: %d
+XM_LeadThruResetCoinHopperFunctionV6HW,"Ponastavi funkcije\n•   Ponastavi Štetje lijakov za kovance na ničlo.\n•   Ko končate, ""Uporabi spremembe""."
+XM_ResetCoinHopperLeadThruV6HW,"Odstranite kovance iz lijakov za kovance. Zamenjajte\nspraznite lijake za kovance.\n\nKo je končano, pritisnite ""V REDU""."
+XM_LoaderCountEnteredExceededCapacityV6HW,Vneseno štetje nalagalnika presega kapacitete. Največje dovoljeno štetje nalagalnika je %d.
+XM_CoinHopperPendingResetV6HW,Ponastavitev v teku %d - %s
+XM_ConfirmResetCoinHopperV6HW,Ponastavi Štetja lijaka kovancev/vrednost\n
+XM_ConfirmResetCoinHopper1V6HW,\n%s\nPonastavi znesek: %s Štetje: %d\n
+XM_ConfirmResetCoinHopper2V6HW,\nPo ponastavitvi:\nKovanci v lijaku: %s Štetje: %d\nKovanci v škatli za kovance: %s Štetje: %d
+XM_CannotCompleteTransferV6HW,"Ne da se zaključiti prenosa.\nŠkatla za bankovce nima dovolj prostora. Prosimo, pred tem posegom izpraznite škatlo za bankovce."
+XM_CashStatusLeadthruV6HW,"•   Natisni Status gotovine.\n•   Vstavi kovance v Sprejemalca kovancev.\n•   Vstavi bankovce v Sprejemalca bankovcev.\n•   Ko končate, pritisnite ""Izhod""."
+XM_NonDispensableCoinsV6HW,Neizdani kovanci
+XM_DispensableCoinsV6HW,Izdani kovanci
+XM_ConfirmNoteDispenseV6HW,Izdaj bankovce\n\nZnesek za izdajo: %s\nŠtetje do izdaje: %d
+XM_DispenseNoteFullPreemptiveV6HW,"Prosim, vzemite bankovce\n\nBankovci so izdani v svežnjih %d.\nIzdajanje se bo prekinilo, dokler se ne vzamejo bankovci."
+XM_NoteBoxV6HW,Škatla za bankovce
+XM_NoteRecyclerV6HW,Ločevalniki bankovcev
+XM_DispenseCoinsToBaseLevelV6HW,Izdaj kovance\ndo osnovne ravni
+XM_TransferNotesToBaseLevelV6HW,Prenesi bankovce na osnovno raven
+XM_TransferAllNotesV6HW,Prenesi vse bankovce
+XM_LeadThruNoteBoxTransferV6HW,"Prenosi škatle za bankovce\n•   Izberite želeno funkcijo prenosa.\n•   Ko končate, ""Uporabi spremembe""."
+XM_LeadThruResetFunctionV6HW,"Ponastavi funkcije\n•   Izberite želeno funkcijo ponastavitve.\n•   Ko končate, ""Uporabi spremembe""."
+XM_LeadThruDispenseFunction2V6HW,"Funkcije za izdajo\n•   Pritisnite na vrednost bankovcev in vnesite znesek/šteteje ali\n     izberite funkcijo.\n•   Ko končate, ""Uporabi spremembe""."
+XM_SignSigTouchDisplayV6HW,"Prosimo, podpišite se na prikazovalnik na dotik."
+XM_LeadThruCashManagementErrorV6HW,Napaka upravljanja z gotovino
+XM_LoanPickupUpdateFailureV6HW,Posodobitev upravljanja z gotovino ni uspela
+XM_LoanPickupUpdateNoResponseV6HW,Brez odziva iz POS pri posodabljanju statusa za upravljanje z gotovino
+XM_LoanPickupUpdateFailureInstructionV6HW,"\n• Posodobite z dotikom na 'Poskusi znova'\n• Če se napaka ponovi, se obrnite na oddelek za trgovino\n• Ta napaka se ne bo izbrisala, dokler se posodobitev ne izvede uspešno."
+XM_LoanPickupUpdateNoResponseInstructionV6HW,• To napako takoj sporočite oddelku za trgovino.\n• Status upravljanja z gotovino morda ni posodobljen.\n•   Odprite zaslon koristnih funkcij.
+XM_LoanPickupUpdateNoResponseInstruction1V6HW,"•   Pritisnite ""Izdelaj diagnostične datoteke dnevnika"" in zatem ""Izklopi celotni system"".\n•   Sistem ponovno vključite.\n•   Če se napaka znova in znova pojavi, izdelajte nov\n diagnostični dnevnik in pokličite servis.\n"
+XM_CashManagementErrorRetryButtonV6HW,Poskusi znova
+XM_DispenseThresholdV6HW,"Vneseno število presega štetje, ki je na voljo za izdajo.\nVneseno je bilo maksimalno štetje: %d"
+ScotApp_1742,NEVELJAVNA VREČKA
+ScotApp_71,71neuporabljenih
+ScotApp_61,61neuporabljenih
+ScotApp_51,Neusp. sken. kup.
+ScotApp_41,Izdelki z omejitvami
+ScotApp_31,Kuponi
+ScotApp_1055,1055neuporabljenih
+ScotApp_11,11neuporabljenih
+ScotApp_789,"Potegnite vašo kartico.\nProsim, preverite košarico glede dodatnih izdelkov."
+ScotApp_689,  Prodaje:    %d
+ScotApp_589,Tovarna naprave je naložena.
+ScotApp_389,Obdelava kartice
+ScotApp_289,289neuporabljenih
+ScotApp_189,Možnosti so naložene.
+ScotApp_91,91neuporabljenih
+ScotApp_773,Shranjeni znesek :
+ScotApp_673,"Prosim, vrnite stranki %s drobiža."
+ScotApp_1264,OPREDELJENUPORABNIK6
+ScotApp_473,Raven medijev nizka
+ScotApp_373,Izločanje kopičenja v tiskalniku
+ScotApp_989,989neuporabljenih
+ScotApp_889,%s\nDejanska teža(%s): %s\nPričakovane teže(%s): %s
+ScotApp_1520,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1042,"ODOBRITVENO POTRDILO:\nTO JE BILO NATISNJENO, KER JE SPODLETELA\nODOBRITEV DOKUMENTA.  PROSIM, PRILOŽITE TO\nPOTRDILO PRIMERNEMU DOKUMENTU.\n----------------------------------------\n"
+ScotApp_973,973neuporabljenih
+ScotApp_873,D.L. / I.D. vnos številke:
+ScotApp_1737,Lastna vrečka
+ScotApp_752,Včerajšnji povzetek
+ScotApp_652,  **Brez vnosov WLDB za ta UPC
+ScotApp_1054,1054neuporabljenih
+ScotApp_452,"Preverite, ali je kabel varno priklopljen na strani sprejemalca kovancev."
+ScotApp_352,Posodobi
+ScotApp_252,\nKopičenje v avtomatu za izdajo kovancev\n\nOdpravite kopičenje v avtomatu za izdajo kovancev.
+ScotApp_152,152neuporabljenih
+ScotApp_1310,"* Odstranite sprejemalca bankovcev.\n* Ponovno vstavite sprejemalca bankovcev, da zaskoči.\n* Preverite, ali se je motor sprejemalca bankovcev vklopil in, da je LED lučka zelena."
+ScotApp_661,(Privz)
+ScotApp_952,Ne dodaj teže
+ScotApp_852,Trije izdelki
+ScotApp_1527,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1838,Overi izdelek
+ScotApp_731,Povzetek
+ScotApp_631,Ime lastnika:
+ScotApp_531,\nNapaka naprave za zajemanje podpisa
+ScotApp_331,Odstranite izdelke s tehtnice vrečke. Tipkovnica onemogočena.
+ScotApp_231,231neuporabljenih
+ScotApp_131,Predloži kupone
+ScotApp_1736,"Prosim, položite vašo vrečko na mesto za vrečke in pritisnite ""Konec"", ko ste končali."
+ScotApp_1250,PIP KREDIT
+ScotApp_831,831neuporabljenih
+ScotApp_300,300neuporabljenih
+ScotApp_1306,%s izdan drobiž
+ScotApp_710,710neuporabljenih
+ScotApp_610,Teža izdelka:
+ScotApp_510,Ponovno podpiši
+ScotApp_310,stanje v košu je nizko
+ScotApp_210,210neuporabljenih
+ScotApp_110,Tehtaj izdelek
+ScotApp_1526,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1126,"Napaka avtomata za izdajo kovancev.\n\nPreverite stikalo za vklop/izklop, če je to prisotno pri avtomatu za izdajanje."
+ScotApp_1040,Podpis
+ScotApp_810,  V usposabljanju
+ScotApp_1735,Položi vrečko
+ScotApp_1257,PIP KUPONI ZA ŽIVILA
+ScotApp_704,Vnos na tipkovnici za PIN številko
+ScotApp_604,Skenirajte izdelek.
+ScotApp_504,504neuporabljenih
+ScotApp_404,404neuporabljenih
+ScotApp_304,Izberi embalažo
+ScotApp_204,Kopiranje datoteke na strežnik ...
+ScotApp_104,104neuporabljenih
+ScotApp_1269,OPREDELJENUPORABNIK11
+ScotApp_904,Odobritev teže izdelka
+ScotApp_804,804neuporabljenih
+ScotApp_1047,"Potrebno potrdilo. Prosim, počakajte na asistenco upravitelja."
+ScotApp_1478,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1134,Kaseta računa je polna.
+ScotApp_1734,Prinesel(la) sem svojo vrečko
+ScotApp_1256,PIP EBT
+ScotApp_1512,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1465,Napaka ločevalnika gotovine
+ScotApp_1721,Transakcija v načinu usposabljanja
+ScotApp_1890,Obdelovanje ...
+ScotApp_1243,ZVESTOBA
+ScotApp_1544,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_63,Ne
+ScotApp_53,53neuporabljenih
+ScotApp_43,43neuporabljenih
+ScotApp_33,Težava je rešena
+ScotApp_1255,PIP PREVERJANJE DOLGA
+ScotApp_13,  %ss @ %s/%s
+ScotApp_1511,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_93,Skeniraj & daj v vrečko
+ScotApp_83,83neuporabljenih
+ScotApp_1464,Številka terminala
+ScotApp_1189,VNESEN IZDELEK
+ScotApp_1720,WR:
+ScotApp_1045,Plačati z %s
+ScotApp_672,*** TRANSAKCIJA NAČINA USPOSABLJANJA ***
+ScotApp_572,"Vnesite kodo izdelka in pritisnite ""Vnesi""."
+ScotApp_472,Potrebna je asistenca
+ScotApp_372,Komunikacijska napaka v stranskih poteh tiskalnika
+ScotApp_272,Preveri uporabljene kupone
+ScotApp_172,Skenirajte neželeni izdelek ali izberite izdelek na računu.
+ScotApp_1510,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1701,Neuspešna izdaja %s.
+ScotApp_972,972neuporabljenih
+ScotApp_872,Prekliči začasno zaustavitev
+ScotApp_1188,VNESENA KOLIČINA
+ScotApp_1727,Iskanje izdelka
+ScotApp_751,Danes vsako uro
+ScotApp_651,Privzeto
+ScotApp_551,551neuporabljenih
+ScotApp_451,Status kopičenja v sprejemalcu kovancev
+ScotApp_351,Status gotovine/papirja
+ScotApp_251,251neuporablljenih
+ScotApp_151,"Prosim, vzemite gotovino"
+ScotApp_951,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s odstranjenih;LSWND3=%s;
+ScotApp_851,Dva izdelka
+ScotApp_730,730neuporabljenih
+ScotApp_630,Kreditna kartica #:
+ScotApp_430,Ne obratuje
+ScotApp_330,Način asistence
+ScotApp_230,Zavrnjen status sprejemalca gotovine
+ScotApp_130,"Prosim, predložite vaše kupone."
+ScotApp_1726,Zaključeno iskanje
+ScotApp_930,Preverite komunikacijo.
+ScotApp_830,Odstranil sem izdelek ali vrečko
+ScotApp_193,193neuporabljenih
+ScotApp_1457,Valuta je visoka
+ScotApp_1283,1283neuporabljenih
+ScotApp_724,724neuporabljenih
+ScotApp_624,Neveljavno vneseno odstopanje
+ScotApp_424,Vnesi znesek
+ScotApp_324,Datum ni potreben
+ScotApp_224,Koš zajemanja čitalca kartic je odstranjen
+ScotApp_124,124neuporabljenih
+ScotApp_1469,"Neuspešna izdaja %s stranki. %s\n* Preverite avtomate za izdajo kovancev in bankovcev.\n* Pritisnite ""Status gotovine/papirja"" da napolnite ali odpravite kopičenje."
+ScotApp_924,924neuporabljenih
+ScotApp_824,Začasno zaustavi potrditev
+ScotApp_576,Začnite s ponudbo kartice.
+ScotApp_1247,KUPONI ZA ŽIVILA
+ScotApp_1678,Napaka ločevalnika bankovcev
+ScotApp_1503,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1756,"Izberite iz rezultatov iskanja ali pritisnite ""Pojdi nazaj""."
+ScotApp_1456,"Nepravilna številka in geslo asistenta. \nProsim, poskusite znova"
+ScotApp_1502,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1712,Zač. zaust. prek.
+ScotApp_1468,Status ločevalnika gotovine je prazen
+ScotApp_1246,EBT
+ScotApp_75,Konec
+ScotApp_65,65neuporabljenih
+ScotApp_55,Prekliči vse
+ScotApp_45,45neuporabljenih
+ScotApp_35,Dolg drobiža:
+ScotApp_1258,PIP DARILNA KARTICA
+ScotApp_15,Koda izdelka:
+ScotApp_1711,Zač. zaust.
+ScotApp_1683,"Nepopravljiva napaka.  Prosim, zaprite vrsto.  Pokličite Gunnebo in predložite spodaj prikazane informacije o napaki.\n\nNapaka SafePay: %s"
+ScotApp_95,Skeniraj kupone
+ScotApp_85,85neuporabljenih
+ScotApp_1058,Pon. z asist.
+ScotApp_1664,Kopičenje bankovcev
+ScotApp_797,"Neuspešna izdaja %s stranki.\n* Preverite bankovce v kasetah in avtomatih za izdajo bankovcev glede kopičenj.\n* Zagotovite, da so kasete za bankovce in čistilni koši zaskočeni.\n* Zaprite varnostna vrata."
+ScotApp_697,697neuporabljenih
+ScotApp_597,NCR SelfServ obrazci blagajne se nalaga %d ...
+ScotApp_497,Dolg zneska:
+ScotApp_297,297neuporabljenih
+ScotApp_197,Predstavitvene storitve so naložene.
+ScotApp_997,Vnesi ceno
+ScotApp_897,WTINFO je naložen.
+ScotApp_1454,"Vnesite geslo in pritisnite ""Vnesi""."
+ScotApp_1710,Vzemite vaš vrnjeni denar
+ScotApp_1741,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s prič;LSWND3=%s %s opa
+ScotApp_1388,Program usposabljanja
+ScotApp_771,Prekliči začasno zaustavitev
+ScotApp_671,Izhod iz način usposabljanja
+ScotApp_571,"Vnesite količino in pritisnite ""Vnesi""."
+ScotApp_471,   Vizualna overitev
+ScotApp_371,Zamenjaj glavo tiskalnika
+ScotApp_271,Odobri uporabljene kupone
+ScotApp_971,971neuporabljenih
+ScotApp_871,Potrdi začasno zaustavitev
+ScotApp_1840,Shrani #:
+ScotApp_750,Današnji povzetek
+ScotApp_650,Običajen izdelek
+ScotApp_550,550neuporabljenih
+ScotApp_450,450neuporabljenih
+ScotApp_350,Status gotovine/papirja
+ScotApp_250,250neuporabljenih
+ScotApp_150,Izberi znesek vračila gotovine
+ScotApp_1773,"Pritisnite ""Odobri kupon"", da sprejmete kupon ali pojdite na Način asistence, da ga razveljavite."
+ScotApp_950,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s dodanih;LSWND3=%s;
+ScotApp_850,En izdelek
+ScotApp_1405,"POS ni sinhroniziran prosim, pojdite na Način asistence, da ga ponovno sinhronizirate."
+ScotApp_1513,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1657,Neveljaven oddelek.
+ScotApp_1225,NEZNAN IZDELEK
+ScotApp_644,-------------------------------------------------------------------
+ScotApp_544,Geslo ne more biti večje od %d števk.
+ScotApp_444,Kuponi za živila
+ScotApp_344,344neuporabljenih
+ScotApp_244,244neuporabljenih
+ScotApp_144,Primerjaj podpis
+ScotApp_1590,KOŠ %s IMA KOPIČENJE KOVANCEV
+ScotApp_1669,Napaka ločevalnika kovancev/bankovcev
+ScotApp_944,Preveč zahtev za dajanje v vrečko/škatlo.  Maks = %d.
+ScotApp_844,844neuporabljenih
+ScotApp_1729,Poišči izdelek:
+ScotApp_1447,Odstrani gotovino
+ScotApp_1703,(+)
+ScotApp_1656,"Vnesite kodo oddelka # in pritisnite ""Vnesi""."
+ScotApp_915,Preveč zahtev za preskočitev traku.  Maks = %d.
+ScotApp_1668,V prikazanem območju se mogoče nahaja kopičenje. Odprite zgornji pokrov do ločevalnika bankovcev. Odstranite možne nakopičene bankovce.  Zaprite enoto in zamenjajte zgornji pokrov do ločevalnika bankovcev.  Nadaljujte transakcijo.
+ScotApp_1542,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1139,Vrata avtomata za izdajo računa so odprta.
+ScotApp_1254,PIP PRIHRANKI DOLGA
+ScotApp_1249,PIP GENERIČNO
+ScotApp_77,Dobropis
+ScotApp_67,Pojdi nazaj
+ScotApp_57,Končaj & plačaj
+ScotApp_47,Zagon
+ScotApp_37,37neuporabljenih
+ScotApp_1458,NCR SelfServ poročilo blagajne
+ScotApp_17,Kupon
+ScotApp_1752,Teža na tehtnici presega kapaciteto.
+ScotApp_1643,Napaka ločevalnika bankovcev
+ScotApp_97,S seznama izberi embalažo
+ScotApp_87,87neuporabljenih
+ScotApp_1665,Odklenite in odstranite kaseto.  Odstranite nakopičene bankovce.  Ponovno vstavite kaseto. Zaprite ločevalnik. Nadaljujte transakcijo.
+ScotApp_1138,Neuspešna izdaja %s.
+ScotApp_1589,NI KOVANCEV
+ScotApp_1445,Sprememba v štetju
+ScotApp_1318,Skeniraj kupone
+ScotApp_1654,Štetje presega kapaciteto. Potrebno maksimalno štetje polnjenj je %d. Štetje %d je vneseno samodejno.
+ScotApp_796,"Malo kovancev ali avtomat za izdajo kovancev ne deluje/je izklopljen.\n* Vklopite avtomat za izdajo kovancev, ALI\n* Napolnite, izklopite avtomat za izdajo kovancev in nato pritisnite ""Napolnjen avtomat za izdajo kovancev"" - Prikazovanje statusa vrste."
+ScotApp_696,696neuporabljenih
+ScotApp_596,NCR SelfServ DodZas blagajne je naložen.
+ScotApp_1391,"Pritisnite ""Težava je rešena"".\nČe napaka ostaja, izklopite in ponovno zaženite terminal."
+ScotApp_396,Asistenca trgovine je bila potrebna za:
+ScotApp_296,296neuporabljenih
+ScotApp_196,Predstavitvene storitve se nalagajo ...
+ScotApp_1588,"Vsak koš mora biti spraznjen preden lahko izberete gumb ""Dvig avtomata za izdajo"".  Spraznite vsak koš zbiralnika kovancev in nato pritisnite ""Dvig avtomata za izdajo""."
+ScotApp_996,Vnos cene
+ScotApp_896,WTINFO se nalaga ...
+ScotApp_574,"Vnesite vaše geslo in pritisnite ""Vnesi""."
+ScotApp_1093,Natisni zadnji račun
+ScotApp_1641,"Napolnite zbiralnika kovancev in nadaljujte.  Če kovanci niso izdani, je mogoče zaklenjen zbiralnik.  Pokličite servis.\n\nNapaka SafePay: %s"
+ScotApp_1781,HVALA POTEKEL
+ScotApp_562,Kuponi morajo biti prodani v načinu asistence
+ScotApp_874,"Vnesite D.L. ali I.D. # in pritisnite ""Vnesi""."
+ScotApp_1124,1124neuporabljenih
+ScotApp_770,Potrdi začasno zaustavitev
+ScotApp_670,Vstopi v način usposabljanja
+ScotApp_570,570neuporabljenih
+ScotApp_470,   Starostno omejeno
+ScotApp_370,Tiskalnik je odprt
+ScotApp_270,Odobri kupone
+ScotApp_170,"Odstranite izdelek s tehtnice in pritisnite gumb ""Scale zero"" na skenerju."
+ScotApp_1640,Napaka zbiralnika
+ScotApp_870,Alarmi:
+ScotApp_1733,"Izberi ""Pojdi nazaj"" za nadaljevanje."
+ScotApp_1553,Visok status valute:
+ScotApp_664,Skenirajte vaše izdelke ali izberite jezik.
+ScotApp_564,564neuporabljenih
+ScotApp_464,%s               %s
+ScotApp_364,364neuporabljenih
+ScotApp_264,264neuporabljenih
+ScotApp_964,"Odstranite izdelek in pritisnite ""Briši varnost"" ali pritisnite ""Odobri & Posodobi težo""."
+ScotApp_864,Odobritev:
+ScotApp_1647,(mmddllll)
+ScotApp_1119,"Avtomat za izdajanje računa ne bo deloval z odprtimi dostopnimi vrati.\n\nZaprite in zaskočite vrata avtomata za izdajanje ali varnostna vrata.\n\nČe se napaka ponovno pojavi, izdelajte diagnostično datoteko dnevnika in pokličite servis."
+ScotApp_1659,Natisni račun
+ScotApp_819,Potrdite začasno zaustavitev za razveljavljeni izdelek.
+ScotApp_1339,Ponovno zaženi celotni sistem
+ScotApp_1582,Status medijev
+ScotApp_1154,Napaka skenerja
+ScotApp_1117,"%s ni kasete avtomata za izdajo bankovcev ali pa ni popolnoma vstavljena.\n\nNamestite ali ponovno vstavite %s kaseto za bankovce, da zaskoči."
+ScotApp_1294,Q - S
+ScotApp_1030,Vstavite vaš kupon.
+ScotApp_1658,"Prosim, overite, da je stranka prejela pravilni drobiž."
+ScotApp_1421,Način asistence
+ScotApp_709,709neuporabljenih
+ScotApp_1129,"Popravljanje ni bilo izvedeno pravilno.\n\nProsim, poskusite ponovno."
+ScotApp_509,509neuporabljenih
+ScotApp_409,Sporočilo sistema
+ScotApp_309,dolar
+ScotApp_209,Prekini program
+ScotApp_109,Nadaljujem?
+ScotApp_1338,Pridobi Diag datoteke
+ScotApp_909,Nepravilna teža na varnostni tehtnici.
+ScotApp_809,POS sporočilo:
+ScotApp_1645,"Preverite, da je pokrov bankovcev varno pritrjen."
+ScotApp_1116,"Avtomat za izdajanje računa ne bo deloval, ker koš zavrnjenih bankovcev ni prisoten in popolnoma zaskočen.\n\nVstavite koš zavrnjenih bankovcev in zagotovite, da je popolnoma zaskočil."
+ScotApp_1128,%s\n
+ScotApp_1452,"Vnesite ID in pritisnite ""Vnesi""."
+ScotApp_183,183neuporabljenih
+ScotApp_1450,Kaseta s ključavnico
+ScotApp_1293,P
+ScotApp_1644,Odstranjen pokrov ločevalnika bankovcev
+ScotApp_1115,POROČANJE IZKLJUČENO
+ScotApp_795,"Nakupi so nadzorovani, da se zagotovijo boljše storitve."
+ScotApp_695,695neuporabljenih
+ScotApp_595,NCR SelfServ DodZas blagajne se nalaga ...
+ScotApp_395,Izdelki z omejitvami niso dovoljeni
+ScotApp_295,295neuporabljenih
+ScotApp_195,Upravitelj naprave je naložen.
+ScotApp_566,566neuporabljenih
+ScotApp_1324,Teža ostane na\ntehtnici po transakciji.
+ScotApp_995,"Pojdite do vrste in se prijavite v Način trgovine, da odprete vrsto."
+ScotApp_895,DBM se končuje ...
+ScotApp_1102,Naprej
+ScotApp_1383,(Exc)
+ScotApp_1402,VTIČ KRATKEGA STIKA KOŠA ZAVRNJENIH BANKOVCEV JE IZKLOPLJEN.
+ScotApp_1292,N - O
+ScotApp_1114,"""Končaj obdobje poročanja"" uspešno posodobljeno"
+ScotApp_1222,NE OBRATUJE
+ScotApp_1101,%s\t%s
+ScotApp_1159,PinTipkovnica / EFT se ne odziva.
+ScotApp_1100,%s
+ScotApp_1539,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1649,(ddmmllll)
+ScotApp_1317,Plačilo s kuponom
+ScotApp_1883,"Preverite prostor za vreče in se dotaknite ""Odobrite ali odstranite predmet""."
+ScotApp_729,729neuporabljenih
+ScotApp_629,Drobiž skupno:
+ScotApp_429,Rdeč
+ScotApp_329,  %ss @ %d %s/%s
+ScotApp_229,229neuporabljenih
+ScotApp_129,"Overite razveljavljene izdelke, ki so bili položeni na stran."
+ScotApp_1107,%s\t%s\tKol %s @ %s/%s\t%s
+ScotApp_1538,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_929,WLDB ne komunicira pravilno.
+ScotApp_829,829neuporabljenih
+ScotApp_1316,* Odprite pokrov tiskalnika in preverite glede kopičenja v prikazanem območju.\n* Zaprite pokrov tiskalnika in napolnite papir.
+ScotApp_81,Nadaljujem
+ScotApp_1882,Smart Assist alarm - predmet ni skeniran.
+ScotApp_1673,Kopičenje kovancev
+ScotApp_1135,Napaka avtomata za izdajanje računa
+ScotApp_1705,Napaka v komunikaciji.
+ScotApp_1894,Set item aside and continue with your purchase.
+ScotApp_787,"Vnesen datum rojstva: %s, %d let"
+ScotApp_1398, Udel/Uspos
+ScotApp_1106,%s\t%s\tKol %s @ %s/each\t%s
+ScotApp_1525,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1493,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1490,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1315,* Odprite pokrov tiskalnika in preverite glede kopičenja.\n* Zaprite pokrov tiskalnika in napolnite papir.
+ScotApp_1881,"Preverite prostor za vreče, odstranite predmet in se dotaknite ""Odobrite ali odstranite predmet""."
+ScotApp_1173,ODOBREN RAZVELJAVLJENI IZDELEK
+ScotApp_1524,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_505,Napačna številka
+ScotApp_1302,Zapri
+ScotApp_905,  (več informacij na računu ...)
+ScotApp_1164,Tiskalnik ni pravilno postavljen.
+ScotApp_1492,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1314,* Odprite pokrov tiskalnika in odstranite ostanke papirja.\n* Zaprite pokrov.\n* Vstavite nov zvitek papirja.\n* Z vrha zvitka vstavite papir v tiskalnik.
+ScotApp_1817,"* Izvlecite ločevalnik kovancev.\n* Odprite okrogla stranska vrata in odstranite kovance s trakov.\n* Zagotovite, da so vsa vrata zaprta in pravilno zaklenjena.\n* Stranki vrnite kovance.\n* Če se napaka pojavi ponovno, prosimo pokličite servis."
+ScotApp_1442,"Vstavite gotovino, da napolnite ali pritisnite ""Odstrani gotovino"", da spraznite."
+ScotApp_1880,Nepričakovan predmet na prostoru za vreče
+ScotApp_1172,POTRJENA ZAČASNA ZAUSTAVITEV
+ScotApp_1415,1415neuporabljenih
+ScotApp_788,Overi datum rojstva:%s
+ScotApp_688,688neuporabljenih
+ScotApp_588,Tovarna naprave se nalaga ...
+ScotApp_488,Položite izdelek na tehtnico: %s
+ScotApp_388,Obdelovanje ...
+ScotApp_288,"Pritisnite ""Težava je rešena"".\n* Če napaka obstaja, ponovno zaženite terminal:\nObrnite Nadzorno ključavnico na 'S'-ALI pritisnite Nadzorni gumb.\nIzberite ""Izklopi celotni sistem"".\nKo zaslon utripa, izklopite terminal na UPS-u ali vtičnici z več priključki.\nVklopite terminal. Če se napaka ponovno pojavi, izdelajte diagnostično datoteko dnevnika in pokličite servis."
+ScotApp_188,Možnosti se nalagajo ...
+ScotApp_988,Nepričakovani izdelek na traku. Odstranite izdelek.
+ScotApp_888,Nepričakovan izdelek v vrečki.  Odstranite izdelek.
+ScotApp_1887,Preglejte transakcijo.
+ScotApp_1171,NEPRIČAKOVANO POVEČANJE
+ScotApp_1199,VNESEN DATUM POTEKA
+ScotApp_1300,Zaženi transakcijo
+ScotApp_1326,POTEKEL ČASOVNIK VSTAVLJANJA KUPONA
+ScotApp_1291,K - M
+ScotApp_1517,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1886,Preverite za dodatne predmete.
+ScotApp_749,749neuporabljenih
+ScotApp_1529,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_549,549neuporabljenih
+ScotApp_449,Zavrnjen status sprejemalca kovancev
+ScotApp_349,349neuporabljenih
+ScotApp_249,249neuporabljenih
+ScotApp_149,Vnesi PIN številko
+ScotApp_1307,Tiskanje računa
+ScotApp_1738,Udeleženec overi svoje vrečke
+ScotApp_949,949neuporabljenih
+ScotApp_717,717neuporabljenih
+ScotApp_617,Izberite nastavitev za primerjavo teže. (Primerjajte težo izd. glede na obstoj. vnose.)
+ScotApp_517,Zahtevano je drugo plačilo.
+ScotApp_417,Končne vsote so naložene.
+ScotApp_317,317neuporabljenih
+ScotApp_217,217neuporabljenih
+ScotApp_117,Položi izdelke na stran
+ScotApp_1516,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1885,Predmet ni skeniran.
+ScotApp_917,Preveč zahtev za odstranitev izdelkov iz vrečke.  Maks = %d.
+ScotApp_817,Potrebna je asistenca
+ScotApp_1177,POTEKEL ČASOVNIK DAJANJA IZDELKA V VREČKO
+ScotApp_1528,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1175,PRESEŽEN PRAG NE DAJANJA V VREČKE
+ScotApp_1109,%s\t%s\t%s @ %s/%s\t%s
+ScotApp_1453,Geslo asistenta
+ScotApp_1693,Nadomestitev kovancev
+ScotApp_1515,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_7,7neuporabljenih
+ScotApp_6,6neuporabljenih
+ScotApp_5,5neuporabljenih
+ScotApp_4,4neuporabljenih
+ScotApp_3,3neuporabljenih
+ScotApp_2,kg
+ScotApp_1,lb
+ScotApp_1176,NOV VNESENI IZDELEK
+ScotApp_1724,TRANSAKCIJA V NAČINA USPOSABLJANJA
+ScotApp_1019,Položi na trak
+ScotApp_9,9neuporabljenih
+ScotApp_8,8neuporabljenih
+ScotApp_609,Uredi odstopanje teže
+ScotApp_1305,%s vstavljena
+ScotApp_1893,Invalid Barcode
+ScotApp_1409,Meni asistence
+ScotApp_1692,Prijava nadzornika
+ScotApp_1163,"Pritisnite ""Težava je rešena"".\n\nČe napaka ostaja, ponovno zaženite terminal.:\nObrnite Nadzorno ključavnico na 'S'-ALI pritisnite Nadzorni gumb.\nIzberite ""Izklopi celotni sistem"".\nKo zaslon utripa, izklopite terminal na UPS-u ali vtičnici z več priključki.\nVklopite terminal. Če se napaka ponovno pojavi, izdelajte diagnostično datoteko dnevnika in pokličite servis."
+ScotApp_1514,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1372,Sprejemalec kovancev
+ScotApp_1048,1048neuporabljenih
+ScotApp_967,967neuporabljenih
+ScotApp_1304,Kartica zvestobe sprejeta.
+ScotApp_1162,Naprava je izklopljena.
+ScotApp_1833,Exc_TB
+ScotApp_1818,"* Odklenite in izvlecite zbiralni pladenj(I).\n* Odstranite nakopičeni zbiralni zabojnik. Preverite in očistite kakršnokoli nakopičenje pri izhodu (II).\n* Če ni nakopičenja pri izhodu, izpraznite zbiralni zabojnik. Preverite in očistite kakršnokoli nakopičenje vrtečega diska (III).\n* Ponovno vstavite zbiralni zabojnik.\n* Zagotovite, da so vsa vrata zaprta in pravilno zaklenjena. Če se napaka ponovi, pokličite servis."
+ScotApp_1174,NEUJEMAJOČA TEŽA
+ScotApp_1500,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1366,Tehtnica
+ScotApp_1161,Napaka pozivnika
+ScotApp_1717,WO:
+ScotApp_1832,Exc_DEPT
+ScotApp_1370,Dekodirnik
+ScotApp_669,Neuspešno tiskanje podpisa. Pojavile so se napake.
+ScotApp_569,Vnesite kodo
+ScotApp_469,469neuporabljenih
+ScotApp_369,Komunikacijska napaka tiskalnika
+ScotApp_269,Način asistence
+ScotApp_1507,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_969,969neuporabljenih
+ScotApp_737,737neuporabljenih
+ScotApp_637,"Varnost je izklopljena, zadnje dejanje je bilo preklicano."
+ScotApp_537,537neuporabljenih
+ScotApp_437,Neustrezno stanje
+ScotApp_337,"Skenirajte vaš izdelek ali vnesite kodo in pritisnite ""OK""."
+ScotApp_237,"Vstavite kaseto, da zaskoči v svoj položaj.\n\nPotegnite za ročico kasete, da zagotovite, da zaskočni zapah zadržuje kaseto v njenem položaju."
+ScotApp_137,Vzemi drobiž
+ScotApp_931,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s %s pričakovano;LSWND3=%s %s opazovano;
+ScotApp_1519,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1831,Vrinjeno
+ScotApp_937,Omejitev\Odstrani izdelke
+ScotApp_837,Plačila
+ScotApp_1702,*** PODVOJI RAČUN ***
+ScotApp_1377,količina
+ScotApp_1728,"Prosim, izberite s seznama."
+ScotApp_1395,Vstopite v način udeleženca
+ScotApp_716,716neuporabljenih
+ScotApp_616,Primerjava teže
+ScotApp_516,Drugo plačilo
+ScotApp_416,Končne vsote se nalagajo ... 
+ScotApp_316,316neuporabljenih
+ScotApp_216,* Odprite vrata predalnika za tiskalnik.\n* Odprite pokrov tiskalnika in ga preverite glede kopičenj.\n* Zaprite pokrov tiskalnika in ga napolnite s papirjem.\n* Natisniti bi se moral račun s smeškom.\n* Zaprite in zaklenite vrata predalnika za tiskalnik.
+ScotApp_116,Prekliči vse izdelke
+ScotApp_1522,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1506,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1879,"Preverite prostor za vreče in se dotaknite ""Odobrite ali  odstranite predmet""."
+ScotApp_916,"Preverite izdelke na vrsti in pritisnite ""Briši varnost""."
+ScotApp_816,816neuporabljenih
+ScotApp_1167,"* Odprite vrata predalnika za tiskalnik.\n* Odpahnite in potisnite tiskalnik nazaj.\n* Odprite pokrov tiskalnika in ga preverite glede kopičenj.\n* Zaprite pokrov tiskalnika in ga napolnite s papirjem.\n* Tiskalnik previdno povlecite naprej, dokler ne zaskoči v položaj."
+ScotApp_1518,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1830,  Entries   Approved
+ScotApp_1376,", %s"
+ScotApp_783,783neuporabljenih
+ScotApp_683,683neuporabljenih
+ScotApp_583,Zavrnjena kartica.
+ScotApp_483,"Prosim, podpišite podlogo za podpis s priloženim pisalom."
+ScotApp_383,383neuporabljenih
+ScotApp_283,Vnesi geslo
+ScotApp_1505,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_983,Odvzemni trak se nalaga ...
+ScotApp_883,Potrdi začasno zaustavitev
+ScotApp_1363,Zaslon vrste
+ScotApp_1714,ODOBRENA ZAVRNITEV ZAČASNE ZAUSTAVITVE
+ScotApp_1837,"Za nadaljevanje transakcije pritisnite ""Odobri""."
+ScotApp_1449,Status računa
+ScotApp_1375,Prilagoditev po izdelku:\n%s
+ScotApp_1248,DARILNA KARTICA
+ScotApp_1153,Kopičenje papirja.
+ScotApp_1504,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1362,Ključavnica
+ScotApp_1836,NEVELJAVNA ČRTNA KODA
+ScotApp_1571,Potrdi spregled sprememb
+ScotApp_1215,NAPAKA NAPRAVE
+ScotApp_1858,Discrepancy error occurred in the recycler.
+ScotApp_1152,Ni papirja.
+ScotApp_1700,"Neuspešna izdaja %s. %s\nPreverite avtomate za izdajo kovancev in bankovcev.\nČe so prazni, jih napolnite.\nČe niso prazni, odpravite kopičenje. \nPritisnite ""Stanje popravljeno""."
+ScotApp_1823,Digitalni račun je bil uspešno ustvarjen.
+ScotApp_1605,     Koš avtomata za izdajo kartic je prazen
+ScotApp_1361,Menjalnik denarja
+ScotApp_1835,Overi ali položi izdelek na stran
+ScotApp_1878,Napačna teža na prostoru za vreče
+ScotApp_1281,PONUDBA Z ASISTENCO
+ScotApp_1425,Poveži
+ScotApp_1570,Spreglej spremembe
+ScotApp_814,814neuporabljenih
+ScotApp_291,"Kopičenje v cevi avtomata za izdajo kovancev\n%s\nOdstranite kopičenje v avtomatu za izdajo kovancev in nato pritisnite ""Odpravljeno kopičenje""."
+ScotApp_191,Posrednik transakcije je naložen.
+ScotApp_1151,Pokrov tiskalnika je odprt.
+ScotApp_1707,Kovanci so nakopičeni v sprejemalcu
+ScotApp_1822,Glejte težo elementa spodaj levo na zaslonu
+ScotApp_757,757neuporabljenih
+ScotApp_657,Položite vračilo/popust na stran do konca nakupa.
+ScotApp_557,Količina izdelkov z omejitvami
+ScotApp_457,457neuporabljenih
+ScotApp_357,357neuporabljenih
+ScotApp_257,257neuporabljenih
+ScotApp_157,Sporočilo sistema
+ScotApp_1360,Predal za gotovino
+ScotApp_1719,WA:
+ScotApp_1834,Maks
+ScotApp_1868,"Prepričajte se, da vaše roke ne zastirajo pogleda na kamero skenerja."
+ScotApp_957,DB upravitelj stranke ni uspel komunicirati
+ScotApp_857,Overi plačilo izbora
+ScotApp_1064,1064neuporabljenih
+ScotApp_1577,Skupno štetje:
+ScotApp_736,736neuporabljenih
+ScotApp_636,Varnost je izklopljena.
+ScotApp_1091,1091neuporabljenih
+ScotApp_436,Potrdi znesek
+ScotApp_336,Glej predmet
+ScotApp_236,236neuporabljenih
+ScotApp_136,Vstavi gotovino
+ScotApp_1509,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1821,Sprejmi težo
+ScotApp_936,Omejitev\Preskoči dajanje v vrečko
+ScotApp_836,Plačila & Strinjanja stranke
+ScotApp_1367,Skener
+ScotApp_1718,NOI:
+ScotApp_1274,OPREDELJENUPORABNIK16
+ScotApp_715,715neuporabljenih
+ScotApp_615,"Izberite nastavitev izvajanja dajanja v vrečke. (Od stranke se pričak., da bo dala izd. v vrečko.)"
+ScotApp_515,515neuporabljenih
+ScotApp_315,315neuporabljenih
+ScotApp_215,Prihranki dolga
+ScotApp_115,Potrdi preklic
+ScotApp_1576,Status avtomata za izdajo gotovine:
+ScotApp_1090,Zaženi poročilo
+ScotApp_815,Odpri register
+ScotApp_1508,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1406,Sinh TB/POS
+ScotApp_1099,Neznana napaka naprave
+ScotApp_1563,Napolni
+ScotApp_782,Kopičenje v avtomatu za izdajanje računa\nOdpravite kopičenje v avtomatu za izdajanje bankovcev ali\nPrilagodite čistilni koš.
+ScotApp_682,682neuporabljenih
+ScotApp_582,Zaključena ponudba.
+ScotApp_482,482neuporabljenih
+ScotApp_382,Neznano
+ScotApp_282,Vnesi ID
+ScotApp_1575,Status avtomata za izdajo kovancev:
+ScotApp_1097,Natisni račune / poročila
+ScotApp_1448,Status kovancev
+ScotApp_982,Napaka nap.
+ScotApp_143,Podpiši račun
+ScotApp_1353,"Prosim, vstavite porabljeno darilno kartico v režo za kupone."
+ScotApp_1704,"Pritisnite ""Težava je rešena"".\n\nČe napaka ostaja, ponovno zaženite terminal.:\nObrnite Nadzorno ključavnico na 'S' -ALI pritisnite Nadzorni gumb.\nIzberite ""Izklopi celotni sistem"".\nKo zaslon utripa, izklopite terminal na UPS-u ali vtičnici z več priključki.\nVklopite terminal. Če se napaka ponovno pojavi, izdelajte diagnostično datoteko dnevnika in pokličite servis."
+ScotApp_1827,\n    - Trenutni jezik (%s)
+ScotApp_1562,Štetje
+ScotApp_1815,"* Odklenite in izvlecite zbiralni pladenj (I).\n* Vstavite manjkajoč(e) pladenj(nje) in zagotovite, da so vsi pladnji ustrezno nameščeni.\n*Zagotovite, da je pladenj za kovance z najnižjo vrednostjo vstavljen in ustrezno nameščen.\n* Zagotovite, da so vstavljeni pladnji za ustrezno valuto.\n* Če se napaka pojavi ponovno, prosimo pokličite servis."
+ScotApp_1574,"Vnesena vrednost %s ni veljavna. \nProsim, poskusite znova."
+ScotApp_1543,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1290,D - J
+ScotApp_1096,Poročanje
+ScotApp_1352,Vstavi darilno kartico
+ScotApp_1561,Denominacija
+ScotApp_1083,Izdelki odstranjeni iz vrečke.\nVrnite izdelek.
+ScotApp_1753,Izdelek ni najden
+ScotApp_418,Končne vsote se končujejo ...
+ScotApp_318,318neuporabljenih
+ScotApp_1813,"%s\n* Odklenite in izvlecite zbiralni pladenj(I).\n* Odstranite nakopičeni zbiralni zabojnik. Preverite in očistite kakršnokoli nakopičenje pri izhodu (II).\n* Če ni nakopičenja pri izhodu, izpraznite zbiralni zabojnik. Preverite in očistite kakršnokoli nakopičenje vrtečega diska (III).\n* Ponovno vstavite zbiralni zabojnik.\n* Zagotovite, da so vsa vrata zaprta in pravilno zaklenjena. Če se napaka ponovi, pokličite servis."
+ScotApp_1095,"Izberite vrsto poročila, nato pritisnite ""Zaženi poročilo""."
+ScotApp_1351,%s\n%s %s odstranjen  
+ScotApp_1825,Shrani prednostne nastavitve
+ScotApp_777,777neuporabljenih
+ScotApp_677,677neuporabljenih
+ScotApp_577,Začnite z gotovinsko ponudbo.
+ScotApp_377,Enote  -  Status
+ScotApp_277,277neuporabljenih
+ScotApp_1560,Sprejemalec skupaj:  %s
+ScotApp_1082,Odstranil sem izdelek ali vrečko
+ScotApp_977,Dejanska teža: %s %s
+ScotApp_877,Prikaz. Cene
+ScotApp_1777,"Transakcija je bila dokončana z uporabo kupona, ki preseže mejo kupona trgovine."
+ScotApp_1812,Kovanci so nakopičeni ali koši za kovance so polni ali pa jih ni.
+ScotApp_756,756neuporabljenih
+ScotApp_556,Začasna zaustavitev transakcije je zavrnjena.
+ScotApp_456,456neuporabljenih
+ScotApp_356,Dekodirnik
+ScotApp_256,Izhodi uporabnika se končuje ...
+ScotApp_156,Sporočilo sistema
+ScotApp_1231,VIZUALNO OVERJEN
+ScotApp_1874,1874unused
+ScotApp_956,"Izklopite in ponovno zaÅ¾enite terminal:\n\n* Obrnite Nadzorno kljuÄavnico na 'S' -ALI- pritisnite Nadzorni gumb.\n* Izberite ''Izklopi celotni sistem''.\n* Ko zaslon utripa, izklopite terminal na UPS-u ali vtiÄnici z veÄ prikljuÄki.\n* Vklopite terminal. Preverite pregledovalnik dogodkov. ÄŒe se napaka ponovno pojavi, pokliÄite servis."
+ScotApp_856,Račun:
+ScotApp_1567,Avtomat za izdajanje skupaj:  %s
+ScotApp_735,735neuporabljenih
+ScotApp_635,Vnesite datum rojstva
+ScotApp_535,   Priklican čas
+ScotApp_335,Možnost ponarejanja stranke pri čitalcu kartic
+ScotApp_235,Status sprejemalca gotovine je skoraj poln
+ScotApp_135,135neuporabljenih
+ScotApp_1776,Shrani avtorizacijo
+ScotApp_1811,"* Izvlecite ločevalnik kovancev.\n* Odpravite kopičenje na prikazanih območjih tako, da kovance odstranite, ali pa jih potisnete naprej. \n* Stranki vrnite kovance.\n* Če se napaka pojavi ponovno, prosimo pokličite servis."
+ScotApp_935,Zmanjšanje teže
+ScotApp_835,Račun:
+ScotApp_1708,"Nekajkrat pritisnite gumb za vračilo kovancev, da odpravite nakopičenje kovancev in nato pritisnite ""Težava je rešena"".\n\nČe se napaka ponovno pojavi, izdelajte diagnostično datoteko dnevnika in pokličite servis."
+ScotApp_1168,Tiskalnik ni zaskočil v sprednji položaj.
+ScotApp_1446,Sprazni
+ScotApp_1566,Popolna zamenjava
+ScotApp_1080,Dajte izdelek na trak.
+ScotApp_1775,Odobri kupon
+ScotApp_1810,Kovanci so nakopičeni.
+ScotApp_1297,POTEKEL ČASOVNIK VZEMI DROBIŽ
+ScotApp_1648,(mmddll)
+ScotApp_708,708neuporabljenih
+ScotApp_608,Nastavi primerjavo teže
+ScotApp_508,508neuporabljenih
+ScotApp_408,408neuporabljenih
+ScotApp_308,cent
+ScotApp_208,208neuporabljenih
+ScotApp_108,Kupon se ne ujema
+ScotApp_781,781neuporabljenih
+ScotApp_681,Izbira Priljubljenev
+ScotApp_581,Začasna zaustavitev transakcije je zavrnjena
+ScotApp_481,Potrebna je asistenca
+ScotApp_381,Običajno
+ScotApp_908,Varnost
+ScotApp_521,Vrnjeni znesek:
+ScotApp_1087,Kartica je sprejeta. Skenirajte vaše izdelke in kupone.
+ScotApp_981,981neuporabljenih
+ScotApp_881,Začasna zaustavitev:
+ScotApp_1774,KUPON PREVISOK
+ScotApp_1296,Napolnite zbiralnike kovancev za najboljšo raven storitev.
+ScotApp_1583,valuta je nizka (%s)
+ScotApp_1552,koš je poln
+ScotApp_1295,T - Z
+ScotApp_1877,Alarm za krajo
+ScotApp_1761,"Koš kuponov je mogoče poln ali pa je reža za kupone blokirana. Odstranite izdelke, ki blokirajo režo za kupone in nato spraznite koš za kupone."
+ScotApp_1086,"""Ne dodaj teže"" zbriše vse vnose teže."
+ScotApp_693,693neuporabljenih
+ScotApp_794,Kopičenje v kaseti avtomata za izdajanje računa\nOdstranite kopičenje v avtomatu za izdajanje bankovcev.
+ScotApp_694,694neuporabljenih
+ScotApp_594,NCR SelfServ ZajPod blagajne je naložen.
+ScotApp_494,S seznama izberite znesek vrnjenega denarja.
+ScotApp_394,394neuporabljenih
+ScotApp_1098,"* Odprite vrata predalnika za tiskalnik.\n* Preverite glede kopičenja v prikazanih območjih.\n* Če ne najdete kopičenje papirja, napolnite tiskalnik s papirjem.\n* Natisniti bi se moral račun s smeškom.\n* Zaprite in zaklenite vrata predalnika za tiskalnik."
+ScotApp_1551,valuta je visoka  (%s)
+ScotApp_994,Zaprto
+ScotApp_894,DBM je naložena.
+ScotApp_1760,"Koš kuponov je mogoče poln ali pa je reža za kupone blokirana. Odstranite izdelke, ki blokirajo režo za kupone in nato spraznite koš za kupone."
+ScotApp_1371,Sprejemalec gotovine
+ScotApp_1803,Sprejmi samo gotovino
+ScotApp_1359,Tiskalnik listka
+ScotApp_1085,Zbiraj kupone
+ScotApp_21,21neuporabljenih
+ScotApp_776,776neuporabljenih
+ScotApp_676,Avtomat za izdajo kovancev: Napolnjen %s ob %s
+ScotApp_1491,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_476,Oddaja kuponov
+ScotApp_376,376neuporabljenih
+ScotApp_276,276neuporabljenih
+ScotApp_176,Želite prekiniti preverjanje in preklicati vaš celotni nakup?
+ScotApp_976,976neuporabljenih
+ScotApp_876,"Vnesite ID vodje asistentov in pritisnite ""Vnesi""."
+ScotApp_1271,OPREDELJENUPORABNIK13
+ScotApp_1767,Ni bilo mogoče dostopiti do parametrov teže tehtnice.
+ScotApp_755,Obdelovanje ...
+ScotApp_655,Izdelek z izjemo
+ScotApp_1084,Zbiranje
+ScotApp_455,455neuporabljenih
+ScotApp_355,Izberi sistemsko funkcijo
+ScotApp_255,255neuporabljenih
+ScotApp_155,Sporočilo sistema
+ScotApp_1011,Transportiranje ...
+ScotApp_869,"Vnesite avtorizacijo # in pritisnite ""Vnesi""."
+ScotApp_955,Spodletelo usposabljanje pametne tehtnice
+ScotApp_855,Plačilo izbora:
+ScotApp_23,+ %s (%s)
+ScotApp_1766,Napaka skenerja/tehtnice.
+ScotApp_1280,GOTOVINA
+ScotApp_1335,Zaprta vrsta
+ScotApp_1497,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_728,728neuporabljenih
+ScotApp_628,Vrsta #: %d
+ScotApp_528,528neuporabljenih
+ScotApp_428,Rumen
+ScotApp_328,"Neuspešna izdaja %s stranki. \n* Preverite avtomate za izdajo kovancev in bankovcev.\n* Če so prazni, jih napolnite.\n* Če niso prazni, odpravite kopičenje.\n* Pritisnite ""Težava je rešena""."
+ScotApp_228,Reža čitalca kartic je zaradi kopičenja zaprta
+ScotApp_128,128neuporabljenih
+ScotApp_1690,Prosim pokličite servis
+ScotApp_281,281neuporabljenih
+ScotApp_181,"\nS pomočjo tipkovnice vnesite vrednost kupona v centih in pritisnite ""OK""."
+ScotApp_928,Pojdite do vrsto in preverite napravo.
+ScotApp_828,828neuporabljenih
+ScotApp_1033,"Deaktivirajte izdelek ali odstranite varovanje na vrsti in pritisnite ""Briši varnost""."
+ScotApp_1496,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_680,680neuporabljenih
+ScotApp_580,Poskus razveljavitve izdelka preden je bil razveljavljen njegov kupon.
+ScotApp_380,380neuporabljenih
+ScotApp_280,Briši varnostni dnevnik
+ScotApp_180,Položite kupone na stran za zdaj.\nPredložite jih na koncu nakupa.
+ScotApp_1364,Micr
+ScotApp_980,Časovnik potekel brez odziva stranke
+ScotApp_880,880neuporabljenih
+ScotApp_970,970neuporabljenih
+ScotApp_1104,e=d=0.01 lb Max 30.00 lb min 0.2 lb Nmax 3000
+ScotApp_1032,EAS izdelek je še zmeraj aktiven.
+ScotApp_1286,Slovensko
+ScotApp_1462,Koši
+ScotApp_1298,Funkcije z asistenco upravitelja
+ScotApp_1031,Skenirajte vaše kupone.
+ScotApp_1482,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1706,"Naprava ni pripravljena. Zaprite katerokoli drugo aplikacijo, ki bi lahko dostopala do naprave in pritisnite ""Težava je rešena"".  Če se napaka ponovno pojavi, pokličite Gunnebo za servis."
+ScotApp_1399, Udeležen.
+ScotApp_1494,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1672,Napaka ločevalnika kovancev
+ScotApp_573,"Vnesite vaš ID uporabnika in pritisnite ""Vnesi""."
+ScotApp_173,173neuporabljenih
+ScotApp_775,Dobrodošli na NCR SelfServ blagajni! Veselo nakupovanje!
+ScotApp_675,Napolnjen avtomat za izdajo kovancev
+ScotApp_1481,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_79,79neuporabljenih
+ScotApp_69,69neuporabljenih
+ScotApp_59,Poskusi ponovno
+ScotApp_39,Prekliči transakcijo
+ScotApp_29,Izdelki z omejitvami
+ScotApp_19,Obdavčenje
+ScotApp_975,975neuporabljenih
+ScotApp_603,Uredi/Dodaj vnos teže
+ScotApp_99,Količina za razveljavitev
+ScotApp_89,89neuporabljenih
+ScotApp_303,Prekliči izdelke
+ScotApp_203,203neuporabljenih
+ScotApp_103,Vnesite kodo izdelka.
+ScotApp_1889,Stopnja zaupanja v varnost
+ScotApp_1443,"Vstavite kovance, da napolnite ali pritisnite ""Odstrani gotovino"", da spraznite."
+ScotApp_903,Izdelek odstranjen iz vrečke.
+ScotApp_803,803neuporabljenih
+ScotApp_1555,Avtomat za izdajanje
+ScotApp_1037,Podpis
+ScotApp_1480,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1263,OPREDELJENUPORABNIK5
+ScotApp_1697,Odpravljeno kopičenje
+ScotApp_748,748neuporabljenih
+ScotApp_648,UPC
+ScotApp_548,548neuporabljenih
+ScotApp_448,Račun zveste stranke je bil aktiviran.
+ScotApp_348,348neuporabljenih
+ScotApp_248,248neuporabljenih
+ScotApp_148,148neuporabljenih
+ScotApp_1479,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_948,\n* Oddaljena asistenca
+ScotApp_848,Potrebna je količina:
+ScotApp_485,Potreben je podpis
+ScotApp_1036,EAS izdelek aktiven
+ScotApp_1487,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1499,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1023,1023neuporabljenih
+ScotApp_1179,POTEKEL ČASOVNIK ODHODA
+ScotApp_1035,EAS izdelek aktiven
+ScotApp_1682,Splošna napaka čitalca bankovcev
+ScotApp_1486,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1144,Avtomat za izdajo se ne odziva.
+ScotApp_866,Da
+ScotApp_1498,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1384,Jezik
+ScotApp_1743,"Vnesite ID uporabnika in pritisnite ""Vnesi"" ali pa postavite prst na čitalec odtisov, da se prijavite."
+ScotApp_1319,KUPON
+ScotApp_1178,PRESEŽEN PRAG KONČANJA ODSTRANJEVANJA
+ScotApp_1001,Izdelek ni najden
+ScotApp_1034,1034neuporabljenih
+ScotApp_1485,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1068,1068neuporabljenih
+ScotApp_1694,"Nadomestitev je uporabljena, ker %sPritisnite ""Status gotovine/papirja"", da napolnite ali odpravite kopičenje."
+ScotApp_1165,"Tiskalnik previdno povlecite naprej, dokler ne zaskoči v položaj.\n\nZaprite in zaklenite vrata predalnika za tiskalnik."
+ScotApp_1021,Pozor
+ScotApp_1230,NEGATIVNI DOLG
+ScotApp_1484,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_912,Odobri & Posodobi težo
+ScotApp_723,723neuporabljenih
+ScotApp_623,"Vnesite odstopanje z uporabo tipkovnice in pritisnite ""Vnesi""."
+ScotApp_523,Zavrnjena kartica
+ScotApp_423,"Vstavite kartico. Prosim, preverite košarico glede dodatnih izdelkov."
+ScotApp_323,  Kol %d @ %d/%s
+ScotApp_223,Koš zajemanja čitalca kartic je poln
+ScotApp_123,123neuporabljenih
+ScotApp_1020,Skeniraj izdelke
+ScotApp_923,923neuporabljenih
+ScotApp_823,Odobritev razveljavitve
+ScotApp_1483,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1237,KUPON
+ScotApp_1680,"Nepopravljiva napaka.  Prosim, zaprite vrsto.  Pokličite Gunnebo in predložite spodaj prikazane informacije o napaki.\n\nNapaka SafePay: %s"
+ScotApp_702,702neuporabljenih
+ScotApp_602,Uredi/Dodaj\nVnos teže
+ScotApp_502,Položite preklican izdelek na stran.
+ScotApp_402,Ni prisotno
+ScotApp_302,"Prosim, vnesite vašo PIN številko na plačilni napravi."
+ScotApp_202,Odjava testiranja ...
+ScotApp_102,Priklican izdelek
+ScotApp_1722,"Vrsta je v načinu usposabljanja, nadaljujem s transakcijo?"
+ScotApp_902,Izdelek odstranjen iz vrečke.  Vrnite izdelek.
+ScotApp_802,"\nBoste kupili celoten zaboj\n%s?\n\nIzberite ""Da"" ali ""Ne""."
+ScotApp_568,Briši
+ScotApp_468,   Priklicano
+ScotApp_368,"Kopičenje, ker ni papirja"
+ScotApp_268,Napačno branje kartice
+ScotApp_1027,"Pritisnite ""Da"" da preklicete transakcijo ali ""Ne"" da obnovite transakcijo."
+ScotApp_1354,Vzemi darilno kartico
+ScotApp_968,968neuporabljenih
+ScotApp_868,Vnos številke avtorizacije:
+ScotApp_1433,na tehtnici vrečke.
+ScotApp_1687,"Uporabite zaslon ""Status gotovine/papirja"", da napolnite gotovino."
+ScotApp_1150,Vrata predalnika za tiskalnik so odprta.
+ScotApp_1699,"Nadomestitev je uporabljena, ker %sNapolnite ali odpravite kopičenje, nato pritisnite ""Stanje popravljeno""."
+ScotApp_1259,OPREDELJENUPORABNIK1
+ScotApp_1223,PRIMANJKLJAJ GOTOVINE / PAPIRJA
+ScotApp_1379,cena enote
+ScotApp_1432,"<<<Malo bankovcev. Prosim, ponovno napolnite.>>>"
+ScotApp_1686,"Nepopravljiva napaka.  Prosim, zaprite vrsto.  Pokličite Gunnebo in predložite spodaj prikazane informacije o napaki.\n\nNapaka SafePay: %s"
+ScotApp_1157,Mogoče so odprta vrata avtomat za izdajanje računa.\n\nAvtomat za izdajanje računa ne bo deloval z odprtimi dostopnimi vrati.\n\nZaprite in zaskočite vrata avtomata za izdajanje ali varnostna vrata.
+ScotApp_1013,Nakopičeni izdelki
+ScotApp_1184,VEČ PODATKOV
+ScotApp_1848,"Izdelek izbrisan. Skenirajte naslednji izdelek ali pritisnite ""Vnesi kodo""."
+ScotApp_1169,"Odprite vrata predalnika za tiskalnik.\n* Tiskalnik previdno povlecite naprej, dokler ne zaskoči v položaj.\n* Zaprite in zaklenite vrata predalnika za tiskalnik."
+ScotApp_1662,Drugi računi
+ScotApp_1311,"* Odstranite sprejemalca bankovcev in kaseto.\n* Odprite modul sprejemalca.\n* Preverite glede kopičenja in nato zamenjajte modul.\n* Preverite, ali se je motor sprejemalca bankovcev vklopil in, da je LED lučka zelena."
+ScotApp_1025,Odstranite vse izdelke s traku in zaprite varnostni pokrov.
+ScotApp_1378,teža
+ScotApp_22,Ni\nGotovine\nNazaj\n+ 0          \n(%s)
+ScotApp_1234,OMEJENA KOLIČINA
+ScotApp_1685,Splošna napaka enote kovancev
+ScotApp_1156,"Preverite, ali je napajanje avtomata za izdajanje kovancev vklopljeno."
+ScotApp_1012,Vaš izdelek je transportiran.
+ScotApp_1365,MSR
+ScotApp_1235,EAS IZDELEK AKTIVEN
+ScotApp_1221,NEGATIVNA PRODAJA
+ScotApp_1143,Malo je kovancev ali zbiralnik kovancev ni prisoten.
+ScotApp_434,Vrsta ugodnosti
+ScotApp_1625,"Vstavite kovance, da napolnite ali pritisnite ""Odstrani gotovino"", da spraznite."
+ScotApp_1430,Razveljavi izdelek
+ScotApp_1684,Napaka ločevalnika kovancev
+ScotApp_1155,Naprava je izklopljena.
+ScotApp_834,Plačila && Strinjanja stranke:
+ScotApp_799,Preveri košarico
+ScotApp_699,"Izdelek, ki ga ni mogoče prodati"
+ScotApp_599,Ponovni zagon obrazcev naprave ...
+ScotApp_499,499neuporabljenih
+ScotApp_399,399neuporabljenih
+ScotApp_299,299neuporabljenih
+ScotApp_199,Izhodi uporabnikov so naloženi.
+ScotApp_743,743neuporabljenih
+ScotApp_643,Izbrisan izdelek. Skenirajte naslednji izdelek.
+ScotApp_543,ID upravitelja ne more biti večja od %d števk.
+ScotApp_343,343neuporabljenih
+ScotApp_243,Neveljavna kartica v čitalcu kartic
+ScotApp_999,Presežena meja
+ScotApp_899,Odobri razveljavitev za
+ScotApp_1220,EFT
+ScotApp_1142,Napaka avtomata za izdajanje kovancev
+ScotApp_943,Uporabljam svojo vrečko
+ScotApp_843,843neuporabljenih
+ScotApp_1437,"Presežen prag ""Izdelek odstranjen"""
+ScotApp_1601,     Stanje koša avtomata za izdajo kartic je nizko
+ScotApp_722,722neuporabljenih
+ScotApp_622,Uredi odstopanje za UPC
+ScotApp_522,Napačna PIN številka
+ScotApp_422,422neuporabljenih
+ScotApp_322,322neuporabljenih
+ScotApp_222,"Niz zahteve tiskalnika: Preverite tiskalnik ali pregledovalnik dogodkov glede napak, nato pritisnite ""Težava je rešena""."
+ScotApp_122,122neuporabljenih
+ScotApp_1010,1010neuporabljenih
+ScotApp_922,922neuporabljenih
+ScotApp_822,Odobri razveljavljeni izdelek
+ScotApp_1715,Odobritev zavrnitve začasne zaustavitve
+ScotApp_1227,OMEJEN ČAS
+ScotApp_701,701neuporabljenih
+ScotApp_601,601neuporabljenih
+ScotApp_401,"Vstavite kartico. Prosim, preverite košarico glede dodatnih izdelkov."
+ScotApp_301,Vnesi vrednost kupona
+ScotApp_201,Prijava testiranja ...
+ScotApp_101,Neznana cena
+ScotApp_1633,Napaka ločevalnika bankovcev
+ScotApp_901,Odobritev za preskočitev dajanja v vrečke.
+ScotApp_801,Nakup zaboja
+ScotApp_1824,Digitalni račun ni bil ustvarjen.
+ScotApp_1328,Dvojna teža
+ScotApp_1299,Zaženite Transakcijo in vstopite v Način asistence
+ScotApp_1226,PRIKLICAN IZDELEK
+ScotApp_1140,Kopičenje v avtomatu za izdajanje bankovcev.
+ScotApp_1579,Sprejemalec računa
+ScotApp_1426,%s\nJe %d pravilno?
+ScotApp_1632,"Odstranite pokrov bankovcev. Preverite kabel do preverjanja bankovcev in ponovno poskusite.  Če se napaka ponovno pojavi, izdelajte diagnostično datoteko dnevnika in pokličite servis.\n\nNapaka SafePay: %s"
+ScotApp_1141,Neuspešna izdaja %s. POZOR: Račun se mogoče kopiči na vrhu avtomata za izdajanje bankovcev.
+ScotApp_1791,Samo gotovina
+ScotApp_1357,Vzemi darilno kartico
+ScotApp_763,763neuporabljenih
+ScotApp_714,714neuporabljenih
+ScotApp_614,Izvajanje dajanja v vrečke
+ScotApp_514,514neuporabljenih
+ScotApp_314,težava s košem
+ScotApp_214,Preverjanje dolga
+ScotApp_114,Ni mogoče preklicati izdelka
+ScotApp_1369,Misc
+ScotApp_78,Bankomat (ni gotovine)
+ScotApp_1630,Napaka ločevalnika bankovcev
+ScotApp_58,OK
+ScotApp_48,48neuporabljenih
+ScotApp_914,"Pojdite do vrste, odstranite dodatne izdelke in pritisnite ""Briši varnost""."
+ScotApp_1422,Dlančni skener
+ScotApp_18,Skupaj
+ScotApp_1147,Napaka varnostne lestvice
+ScotApp_1578,Skupna vrednost:
+ScotApp_1022,Ne želim dati tega izdelka v\nvrečko
+ScotApp_98,98neuporabljenih
+ScotApp_88,88neuporabljenih
+ScotApp_1003,Omejen čas
+ScotApp_1434,Starostno omejeno
+ScotApp_1356,Zberi
+ScotApp_1212,DRUGO
+ScotApp_1455,Neveljavna številka
+ScotApp_1713,Pritisnite Odobritev za zavrnitev začasne zaustavitve 
+ScotApp_1565,Vnesi valuto polnjenja za %s
+ScotApp_194,Upravitelj naprave se nalaga ...
+ScotApp_1275,OPREDELJENUPORABNIK17
+ScotApp_1146,Sprejemalec se ne odziva.
+ScotApp_1303,Kartica zvestobe sprejeta: #%s
+ScotApp_70,70neuporabljenih
+ScotApp_60,Pokliči za asistenta
+ScotApp_50,50neuporabljenih
+ScotApp_40,Shrani avtorizacijo
+ScotApp_30,Razveljavljeni izdelki
+ScotApp_20,20neuporabljenih
+ScotApp_10,10neuporabljenih
+ScotApp_1779,Ne morem razveljaviti kupona dokler je njegov kupon razveljavljen. Najprej razveljavite kupon izdelka.
+ScotApp_1211,PRIVZETO
+ScotApp_90,90neuporabljenih
+ScotApp_80,80neuporabljenih
+ScotApp_663,Napaka vnosa PIN številke
+ScotApp_463,Oddaljena odobritev se končuje ...
+ScotApp_363,\nUporabite tipkovnico za vnos upraviteljevega gesla.
+ScotApp_163,163neuporabljenih
+ScotApp_1420,Prekličem izdelek\n%s?
+ScotApp_1145,Napaka sprejemalca kovancev
+ScotApp_963,Prekliči zahtevo
+ScotApp_863,Vnos vrednosti kupona
+ScotApp_1816,Kovanci so nakopičeni ali pa so odprta vrata.
+ScotApp_1637,Težava kabla
+ScotApp_742,742neuporabljenih
+ScotApp_642,Dodan izdelek. Skenirajte naslednji izdelek.
+ScotApp_542,Ne morem ustvariti črtne kode upravitelja.
+ScotApp_342,Vrsta opisa
+ScotApp_242,Kopičenje kartic v čitalcu kartic
+ScotApp_142,Potrdi znesek
+ScotApp_1210,ZADNJI OGLED
+ScotApp_942,942neuporabljenih
+ScotApp_842,842neuporabljenih
+ScotApp_1044,Ponudba s pomočjo asistenta
+ScotApp_1427,Spremenite količino izdelka: \n%s
+ScotApp_721,721neuporabljenih
+ScotApp_621,Privzeto
+ScotApp_1341,Upravljanje glasnosti
+ScotApp_421,"Skenirajte vaše izdelke ali pritisnite ""Zagon"" za začetek."
+ScotApp_321,Overjanje transakcije
+ScotApp_221,Zaprite in zaklenite vrata predalnika za tiskalnik.
+ScotApp_121,izdelke z blagajne.
+ScotApp_1636,Napaka ločevalnika kovancev
+ScotApp_921,Pričakovana teža na varnostni tehtnici.
+ScotApp_821,821neuporabljenih
+ScotApp_600,Vzdrževanje varnosti
+ScotApp_500,500neuporabljenih
+ScotApp_400,400neuporabljenih
+ScotApp_1368,Zajpod
+ScotApp_200,Posrednik transakcij se testira ...
+ScotApp_100,Potrebna je količina
+ScotApp_1076,Pozor
+ScotApp_1623,Prenesi bankovce v kaseto za dvig
+ScotApp_1340,Izklopi celotni sistem
+ScotApp_1108,%s\t%s\t%s @ %s %s/%s\t%s
+ScotApp_1814,Zbiralni koš manjka ali pa ni pravilno vstavljen.
+ScotApp_1758,Napaka koša kuponov
+ScotApp_1635,"Preverite kabel do ločevalnika bankovcev in ponovno poskusite.   Če se napaka ponovno pojavi, izdelajte diagnostično datoteko dnevnika in pokličite servis.\n\nNapaka SafePay: %s"
+ScotApp_1557,Dobiček avtomata za izdajanje
+ScotApp_734,734neuporabljenih
+ScotApp_634,634neuporabljenih
+ScotApp_534,Časovno omejeni izdelki
+ScotApp_1413,"Prosim, zaključite vašo transakcijo v naslednji(h) # minuti(ah).  Kmalu se lahko pojavi izklop napajanja."
+ScotApp_334,"Napaka čitalca kartic, ker ni vstavljena kartica"
+ScotApp_234,"Odstranite kaseto za bankovce.\n\nIz kasete odstranite bankovce.\n\nPonovno vstavite kaseto, da zaskoči v svoj položaj.\n\nPotegnite za ročico kasete, da zagotovite, da zaskočni zapah zadržuje kaseto v njenem položaju."
+ScotApp_1569,Vrednost
+ScotApp_1801,Način delovanja
+ScotApp_934,Povečanje teže
+ScotApp_1622,Kaseta
+ScotApp_768,Začasno zaustavi potrditev
+ScotApp_668,Uspešno tiskanje podpisa.
+ScotApp_1347,Poskus ponovnega povezovanja
+ScotApp_1778,Briši varnost
+ScotApp_168,Skenirajte vaše kupone in jih položite na stran dokler ni konca nakupa.
+ScotApp_1203,ODOBREN DOKUMENT
+ScotApp_1634,Težava kabla
+ScotApp_1556,Dobiček sprejemalca
+ScotApp_1412,Funkcije asistence
+ScotApp_1783,ODPRT VARNOSTNI POKROV
+ScotApp_1232,ODOBREN PODPIS
+ScotApp_1568,Skupna vsota :        %s
+ScotApp_1800,Izberi način delovanja
+ScotApp_1495,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1621,Odkleni kaseto za bankovce
+ScotApp_1346,Vrsta ni povezana in sistem jo poskuša ponovno povezati.
+ScotApp_72,72neuporabljenih
+ScotApp_62,Da
+ScotApp_52,Prekliči kupone
+ScotApp_42,Razveljavljeni izdelki
+ScotApp_32,Nadaljujem
+ScotApp_12,  Kol %d @ %s/vsak
+ScotApp_1411,Spremeni količino
+ScotApp_92,Dobrodošli!
+ScotApp_82,82neuporabljenih
+ScotApp_1807,_ _ _
+ScotApp_1089,Končaj obdobje poročanja
+ScotApp_1620,Odkleni pokrov bankovcev
+ScotApp_1345,Upravitelj varnosti se končuje ...
+ScotApp_1819,Napake ločevalnika pri sprejemanju
+ScotApp_762,762neuporabljenih
+ScotApp_662,%
+ScotApp_1554,Sprejemalec
+ScotApp_462,Oddaljena odobritev je naložena.
+ScotApp_362,Vnesi geslo
+ScotApp_262,262neuporabljenih
+ScotApp_162,Skenirajte vaše izdelke in kupone.
+ScotApp_1410,Spremeni ceno
+ScotApp_962,"Vzemite razveljavljeni izdelek v vrsti in nato pritisnite ""Odobri razveljavljeno""."
+ScotApp_862,Vnos vrednosti kupona:
+ScotApp_1806,"\n*Pritisnite ''Samo kartice'', da zaključite transakcijo in sami vrnite stranki drobiž."
+ScotApp_1088,1088neuporabljenih
+ScotApp_1627,Napaka ločevalnika kovancev/bankovcev
+ScotApp_741,741neuporabljenih
+ScotApp_641,  Avg.Wt.   Odobreno   Blagajna   Tol.Type     Tol.Value     Datum
+ScotApp_541,Skeniranje črtne kode upravitelja tiskalnika
+ScotApp_441,Potrdi znesek
+ScotApp_341,341neuporabljenih
+ScotApp_241,Nepričakovana napaka Upravitelja naprave
+ScotApp_141,Izberi vrsto kartice
+ScotApp_941,Razveljavljeni izdelek
+ScotApp_841,Vnos izdelka
+ScotApp_1873,1873unused
+ScotApp_25,Datum rojstva:
+ScotApp_720,720neuporabljenih
+ScotApp_520,Neznana koda izdelka
+ScotApp_420,420neuporabljenih
+ScotApp_320,Pojdi nazaj
+ScotApp_220,* Odprite vrata predalnika za tiskalnik.\n* Odprite pokrov tiskalnika in ga preverite glede kopičenj.\n* V tiskalnik dajte novo rolo papirja.\n* Zaprite in zaklenite vrata predalnika za tiskalnik.
+ScotApp_120,Preklicana transakcija. Odstrani
+ScotApp_1626,"Vstavite gotovino, da napolnite ali izberite drugo funkcijo."
+ScotApp_1423,Dlančni skener se poskuša povezati.
+ScotApp_920,Odobri/Brez posodobitve.
+ScotApp_820,Odobri razveljavljeno
+ScotApp_1757,"Da bi dodali akcent, pritisnite tipko ""Akcent"" na zaslonu spodaj, nato vnesite črko."
+ScotApp_1872,1872unused
+ScotApp_754,Prejšnjih 7 dni povzetka
+ScotApp_554,Ne povlecite plačilnih kartic zdaj.
+ScotApp_1613,Koš zavrnjenih
+ScotApp_354,Sistemske funkcije
+ScotApp_254,Avtomat za izdajo kovancev ne deluje.\nNapolnite avtomat za izdajo kovancev ali\nVklopite napajanje ali\nOdpravite kopičenje v avtomatu.
+ScotApp_154,Nalagam ...
+ScotApp_1769,Št. kode
+ScotApp_1240,GOTOVINA
+ScotApp_954,Spodletelo odpiranje pametne tehtnice
+ScotApp_854,Pet izdelkov
+ScotApp_1547,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1403,"Zaustavite in ponovno zaženite program NCR SelfServ blagajna. Če napaka ostaja, kontaktirajte pomoč uporabnikom."
+ScotApp_545,Izdelek z omejitvami
+ScotApp_1559,Izhod
+ScotApp_1871,%s %s opazovan
+ScotApp_1612,Upravljanje kartic
+ScotApp_1550,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_845,Skeniraj dodatne izdelke:
+ScotApp_1564,Vnesi štetje polnjenja za %s
+ScotApp_1768,Nepodprta enota teže.
+ScotApp_1272,OPREDELJENUPORABNIK14
+ScotApp_1546,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_74,Odobri razveljavljeno
+ScotApp_64,Prekliči izbrano
+ScotApp_54,Prekliči
+ScotApp_44,44neuporabljenih
+ScotApp_34,34neuporabljenih
+ScotApp_1558,Zapusti in Shrani
+ScotApp_14,14neuporabljenih
+ScotApp_1870,%s %s pričakovan
+ScotApp_1389,Napaka naprave zajemanja podpisa
+ScotApp_1611,     Koš zavrnjenih je poln
+ScotApp_94,94neuporabljenih
+ScotApp_84,Naloži možnosti
+ScotApp_1289,B - C
+ScotApp_687,Natisni poročilo
+ScotApp_587,Podpis
+ScotApp_487,Dol
+ScotApp_387,Kopičenje v transportu
+ScotApp_287,Skener: Neveljavna oznaka
+ScotApp_1545,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1336,Pripomoček
+ScotApp_987,Izdelek odstranjen s traku. Vrnite izdelek.
+ScotApp_887,Odstranjen izdelek
+ScotApp_555,Drugo plačilo
+ScotApp_1610,     Koš zavrnjenih je skoraj poln (%s)  
+ScotApp_1041,Odobri podpis
+ScotApp_1691,Upravljanje gotovine
+ScotApp_1809,Napake ločevalnika kovancev pri izdaji
+ScotApp_1288,A
+ScotApp_761,761neuporabljenih
+ScotApp_1193,OVERJENA IDENTITETA
+ScotApp_561,Kupon položite na stran
+ScotApp_461,Oddaljena odobritev se nalaga ...
+ScotApp_361,Zaprta vrsta
+ScotApp_261,261neuporabljenih
+ScotApp_961,"Napaka zbirke podatkov učenja teže: Preverite Pregledovalnik dogodkov glede napak, nato pritisnite ""Težava je rešena""."
+ScotApp_861,861neuporabljenih
+ScotApp_1876,%s %s opazovan
+ScotApp_740,740neuporabljenih
+ScotApp_640,Obstoječi vnosi teže WLDB
+ScotApp_540,540neuporabljenih
+ScotApp_340,Izberite izdelek s seznama. Uporabite smerne tipke da se pomikate gor in dol.
+ScotApp_240,Splošna napaka Upravitelja naprave
+ScotApp_140,Hvala
+ScotApp_1105,"e=d=0,005 kg Max 13,995 kg min 0,1 kg Nmax 2799"
+ScotApp_1192,PLAČILO IZBORA
+ScotApp_940,Razveljavi
+ScotApp_840,Vnos izdelka:
+ScotApp_1863,"Dotaknite se ""Odobrite"" ali ""Izpraznite košarico""."
+ScotApp_1463,Sprememba v vrednosti
+ScotApp_1875,%s %s pričakovan
+ScotApp_774,Dobljene točke :
+ScotApp_674,"""Vzrok zavrnitve ponudbe: """
+ScotApp_780,780neuporabljenih
+ScotApp_474,474neuporabljenih
+ScotApp_374,Napaka črne barve tiskalnika
+ScotApp_174,Ni mogoče najti skeniranega izdelka. Ni še bil kupljen ali pa je bil že preklican.
+ScotApp_1029,Vstavi kupon
+ScotApp_974,974neuporabljenih
+ScotApp_1679,Napaka knjižnice bankovcev
+ScotApp_1747,Napaka čitalca prstnih odtisov
+ScotApp_1862,Preverite predmet na tehtnici.
+ScotApp_1603,     Stanje koša avtomata za izdajo kartic je običajno
+ScotApp_1419,Večpaketno pakiranje
+ScotApp_1759,Koš kuponov je poln
+ScotApp_649,Vstavljena cena
+ScotApp_1039,Prejšnji izdelki imajo EAS oznako(e).
+ScotApp_849,Potrebna je količina
+ScotApp_765,765neuporabljenih
+ScotApp_565,Prijava trgovine
+ScotApp_1549,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1861,SEZNAM
+ScotApp_1731,PickList podobe se nalagajo ...
+ScotApp_76,76neuporabljenih
+ScotApp_66,66neuporabljenih
+ScotApp_56,Prekliči plačilo
+ScotApp_46,Asistenca
+ScotApp_36,Povrnjeno:
+ScotApp_26,26neuporabljenih
+ScotApp_16,%s bo zaračunanih na vašo kartico
+ScotApp_719,719neuporabljenih
+ScotApp_619,Izberite <Vnesi odstopanje> ali <Privzeto> da uredite trenutno odstopanje.
+ScotApp_519,Kupon previsok
+ScotApp_419,419neuporabljenih
+ScotApp_319,Plačaj s kartico
+ScotApp_219,219neuporabljenih
+ScotApp_119,Prekliči vse izdelke
+ScotApp_96,96neuporabljenih
+ScotApp_86,86neuporabljenih
+ScotApp_1755,Izberi s seznama
+ScotApp_1038,Overi podpis
+ScotApp_919,"Overite težo izdelka in pritisnite ""Odobri & Posodobi težo"" ali pritisnite ""Odobri/Brez posodobitve""."
+ScotApp_1489,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1745,"Naprava za prstne odtise ni priključena.\n\nProsim, poskusite znova."
+ScotApp_1860,Please select from picklist assisted items or look-up item alphabetically.
+ScotApp_1268,OPREDELJENUPORABNIK10
+ScotApp_1008,1008neuporabljenih
+ScotApp_786,Začasna zaustavitev na vrsti
+ScotApp_686,Včeraj
+ScotApp_586,Kuponi: %0.star/$%0.2lf
+ScotApp_486,Gor
+ScotApp_386,Kaseta odstranjena
+ScotApp_286,Skener: Neveljavna predpona2 oznake
+ScotApp_186,186neuporabljenih
+ScotApp_1488,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_986,986neuporabljenih
+ScotApp_886,Izdelki odstranjeni iz vrečke.\nVrnite izdelek.
+ScotApp_1393,"Zaustavite in ponovno zaženite program NCR SelfServ blagajna. Če napaka ostaja, kontaktirajte pomoč uporabnikom."
+ScotApp_1867,Blokiran pogled na kamero
+ScotApp_68,68neuporabljenih
+ScotApp_38,38neuporabljenih
+ScotApp_28,Prekliči nakup
+ScotApp_1024,1024neuporabljenih
+ScotApp_760,Potegnite kartico ob strani tega zaslona.
+ScotApp_660,Vsi nivoji valute so običajni
+ScotApp_460,To bo zaključilo vaš nakup.
+ScotApp_360,Zapri vrsto
+ScotApp_260,260neuporabljenih
+ScotApp_1392,Napaka Tri-Light
+ScotApp_960,"Napaka tehtnice vrečke: Preverite tehtnico vrečke ali pregledovalnik dogodkov, nato pritisnite ""Težava je rešena""."
+ScotApp_860,Potrebna je mera:
+ScotApp_1866,Bolj priljubljen
+ScotApp_1459,Poročilo o upravljanju gotovine
+ScotApp_1239,BREZ
+ScotApp_1301,Uredi seznam izbranih
+ScotApp_1749,Obdelava prstnih odtisov
+ScotApp_1017,Odstranite nakopičene izdelke na traku.
+ScotApp_1771,Limit vrednosti kupona
+ScotApp_739,739neuporabljenih
+ScotApp_639,Pričakovana teža Primerjava teže
+ScotApp_539,539neuporabljenih
+ScotApp_439,439neuporabljenih
+ScotApp_339,339neuporabljenih
+ScotApp_239,Nepričakovan status Upravitelja naprave
+ScotApp_1092,Vsebina poročila
+ScotApp_1851,Ne odobri  
+ScotApp_1238,DRUGO PLAČILO
+ScotApp_939,Časovnik potekel
+ScotApp_839,Prekliči dejanje
+ScotApp_1333,Vračalka
+ScotApp_24,Razveljavljeno
+ScotApp_1016,Nakopičeni izdelki na traku
+ScotApp_1615,"Pritisnite gumb Dvig avtomata za izdajo, da spraznite"
+ScotApp_1723,Usposabljanje Trx
+ScotApp_1028,Presežen prag kupona
+ScotApp_1435,Napaka avt. za izdajanje kovancev/računa
+ScotApp_1698,"Pritisnite ""Stanje popravljeno""."
+ScotApp_1688,Napaka kasete
+ScotApp_454,454neuporabljenih
+ScotApp_1593,Odstrani kovance
+ScotApp_1642,Napaka ločevalnika bankovcev
+ScotApp_1015,Nakopičeni izdelki
+ScotApp_785,785neuporabljenih
+ScotApp_685,Vsako uro
+ScotApp_585,585neuporabljenih
+ScotApp_536,Sprejemalec kovancev
+ScotApp_385,385neuporabljenih
+ScotApp_285,Skener: Neveljavna pripona oznake
+ScotApp_185,Primerjajte podpis stranke s podpisom na kartici.
+ScotApp_1224,POTREBNA CENA
+ScotApp_985,Položite izdelek na trak.
+ScotApp_885,Alarm dajanja v vrečke
+ScotApp_575,Zaključite gotovinsko ponudbo.  Dolg ostanka.
+ScotApp_475,Začasna zaustavitev transakcije
+ScotApp_375,Iztek časa tiskalnika
+ScotApp_1002,Brez prodaje
+ScotApp_1888,"Kontrolirajte transakcijo stranke zaradi varnosti in se dotaknite ""Odobrite ali odstranite predmet""."
+ScotApp_910,910neuporabljenih
+ScotApp_1592,"Odstranite kovance iz nakopičenega koša. Nagnite koš. Obrnite vijak na desno, da lahko odstranite kovance. Ne uporabite preveč sile."
+ScotApp_875,ID vodja asistentov za preklic nakupa
+ScotApp_1014,Odstranite nakopičene izdelke s traku.
+ScotApp_1572,"Ali ste prepričani, da želite spregledati spremembe na zaslonu Upravljanja kovancev?"
+ScotApp_1790,Samo plačilna / kreditna kartica
+ScotApp_1344,Upravitelj varnosti je naložen.
+ScotApp_798,798neuporabljenih
+ScotApp_698,698neuporabljenih
+ScotApp_598,Obrazec %d ni bil shranjen!
+ScotApp_498,Plačan znesek:
+ScotApp_398,Kaseta je vstavljena
+ScotApp_298,298neuporabljenih
+ScotApp_198,Izhodi uporabnikov se nalagajo ...
+ScotApp_998,Količina
+ScotApp_898,WTINFO se končuje ...
+ScotApp_1416,Preveri glede večpaketnega pakiranja
+ScotApp_1431,Razveljavi vse
+ScotApp_1236,Obdelava poročila ...
+ScotApp_1770,Izberite iz rezultatov iskanja.
+ScotApp_1000,Ni najden
+ScotApp_1439,"Presežen prag ""Vrečka/škatla"""
+ScotApp_1217,RAZVELJAVI
+ScotApp_759,Potegnite kartico po plačilni napravi.
+ScotApp_659,Nizek status valute:
+ScotApp_559,Brez kuponov
+ScotApp_459,Za ta nakup bo ostal ostanek.
+ScotApp_359,Sistemske funkcije
+ScotApp_259,Upravitelj naprave se končuje ...
+ScotApp_1007,Zahtevana asistenca
+ScotApp_1438,"Presežen prag ""Nov izdelek"""
+ScotApp_959,Zbirka podatkov učenja teže
+ScotApp_859,Ne
+ScotApp_1216,VARNOST
+ScotApp_1373,VZEMI DARILNO KARTICO
+ScotApp_1005,Vizualna overitev
+ScotApp_1655,Prodaja oddelka
+ScotApp_1228,ZAČASNO ZAUSTAVLJEN
+ScotApp_1725,Varnost onemogočena
+ScotApp_1006,Druga ponud.
+ScotApp_496,Omejitev količine
+ScotApp_1018,Starostni minimum.
+ScotApp_1160,"Preverite, ali je kabel priključen na hrbtni strani PinTipkovnice.\n\nČe je kabel varno pritrjen, pritisnite ""Težava je rešena"".\n\nČe napaka ostaja, izklopite in ponovno zaženite terminal."
+ScotApp_1073,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;DATANEEDEDTYPE=%d;
+ScotApp_1424,"Da povežete vaš dlančni skener pritisnite ""Poveži""."
+ScotApp_1202,ZAPRTA VRSTA
+ScotApp_679,Poročila o asistenci
+ScotApp_1792,Samo kartice
+ScotApp_1214,RAČUN
+ScotApp_1804,Izhod iz načina samo kartice
+ScotApp_879,879neuporabljenih
+ScotApp_1072,Potrebujete informacije
+ScotApp_1631,Napaka preverjanja bankovcev
+ScotApp_1148,Napaka komponent varnostne lestvice
+ScotApp_1244,PRIHRANKI DOLGA
+ScotApp_1004,Overi del
+ScotApp_1282,Potrebna cena za
+ScotApp_1071,1071neuporabljenih
+ScotApp_1276,OPREDELJENUPORABNIK18
+ScotApp_1200,PRIKAZOVANJE CENE
+ScotApp_1639,Napaka ločevalnika kovancev
+ScotApp_1828,\n    - Nivo glasnosti %d%%
+ScotApp_1308,Vnesena PIN številka
+ScotApp_1417,"Če je izdelek v večpaketnem pakiranju, pritisnite ""Način asistence"" in ga razveljavite ter nato skenirajte črtno kodo večpaketnega pakiranja."
+ScotApp_1343,Upravitelj varnosti se nalaga ...
+ScotApp_779,779neuporabljenih
+ScotApp_1429,"<<<Malo kovancev. Prosim, ponovno napolnite.>>>"
+ScotApp_579,579neuporabljenih
+ScotApp_479,Oddaj kupone
+ScotApp_379,Sprejemalec gotovine
+ScotApp_279,Potrdi vse zapisane varnostne težave.
+ScotApp_179,179neuporabljenih
+ScotApp_1865,Glej predmet\nbrez teže
+ScotApp_1207,OVERJENI PODPIS
+ScotApp_1638,"Preverite kable ločevalnika kovancev in ponovno poskusite. Če se napaka ponovno pojavi, izdelajte diagnostično datoteko dnevnika in pokličite servis.\n\nNapaka SafePay: %s"
+ScotApp_979,Prag = %d zahteve stranke
+ScotApp_707,Prejšnjih 7 dni
+ScotApp_607,Nastavi izvajanje dajanja v vrečke
+ScotApp_507,Vizualno overi izdelke
+ScotApp_307,Druga embalaža
+ScotApp_207,207neuporabljenih
+ScotApp_107,Asistent prihaja
+ScotApp_1219,OMEJENA STAROST
+ScotApp_907,907neuporabljenih
+ScotApp_807,Odstrani varovalne oznake
+ScotApp_1077,Vrni izdelke na trak
+ScotApp_1428,Spremenite ceno izdelka: \n%s
+ScotApp_1695,Popravi kasneje
+ScotApp_1206,NEDEAKTIVIRAN IZDELEK
+ScotApp_1218,ZBIRKA
+ScotApp_1782,ZAČNITE TRANSAKCIJO V
+ScotApp_1273,OPREDELJENUPORABNIK15
+ScotApp_1624,Prenesi vse bankovce v kaseto
+ScotApp_793,793neuporabljenih
+ScotApp_1059,1059neuporabljenih
+ScotApp_593,NCR SelfServ ZajPod blagajne se nalaga ...
+ScotApp_493,Vaš račun se bo natisnil pod plačilno napravo.
+ScotApp_393,Tiskalnik zapisnika
+ScotApp_293,Zahteva za asistenco
+ScotApp_1205,PODPORA DAJANJA V VREČKE
+ScotApp_993,Zaprta vrsta
+ScotApp_893,DBM se nalaga ...
+ScotApp_1063,1063neuporabljenih
+ScotApp_1414,Ta vrsta ni na voljo dokler napajanje ni ponovno vzpostavljeno.
+ScotApp_1182,LIMIT ZNESKA KUPONA
+ScotApp_1201,PONUDBA Z ASISTENCO
+ScotApp_1075,Omejitev\Preskoči trak
+ScotApp_1348,Zaprta vrsta
+ScotApp_1671,Odprite enoto ločevalnika bankovcev in odstranite bankovce iz kasete. Zaprite enoto ločevalnika.\nOdstranite kovance iz zbiralnika in posode za drobiž.
+ScotApp_1204,ŠTEVILKA DOKUMENTA
+ScotApp_1284,1284neuporabljenih
+ScotApp_1062,1062neuporabljenih
+ScotApp_1233,DRUGO PLAČILO
+ScotApp_27,27neuporabljenih
+ScotApp_1074,Odobritev za preskočitev traku.
+ScotApp_1472,Ločevalnik gotovine ni pripravljen
+ScotApp_1026,Prekliči trans.
+ScotApp_1061,1061neuporabljenih
+ScotApp_1617,Vnesen znesek presega kapacitete. Ponovno vnesite štetje polnjenja za koš zavrnjenih. Maksimalna kapaciteta je %d.
+ScotApp_1050,1050neuporabljenih
+ScotApp_744,744neuporabljenih
+ScotApp_1591,Preverite povezave kablov do avtomata za izdajo kovancev
+ScotApp_1130,Napaka sprejemalca računa
+ScotApp_1270,OPREDELJENUPORABNIK12
+ScotApp_1629,Težava s CPU nastavitvami ali Sysdata parametri.  Prosim pokličite servis.\n\nNapaka SafePay: %s
+ScotApp_1820,"Odstranite izdelek s tehtnice in pritisnite gumb "">0<"" na skenerju."
+ScotApp_882,Potrdite začasno zaustavitev.
+ScotApp_1440,Upravljanje računa
+ScotApp_1407,PONOVNI ZAGON
+ScotApp_727,727neuporabljenih
+ScotApp_627,Transakcija #:
+ScotApp_527,527neuporabljenih
+ScotApp_427,Mediji nizki
+ScotApp_327,"Naprava ni povezana, preverite povezave in/ali dnevnik dogodkov:"
+ScotApp_227,V čitalec kartic je vstavljena neveljavna kartica
+ScotApp_127,127neuporabljenih
+ScotApp_665,"Izberite ""Prekliči vse"" ali ""Pojdi nazaj"" za nadaljevanje."
+ScotApp_1060,"PROSIM, POČAKAJTE ..."
+ScotApp_1616,"Vnesite štetje polnjenja za koš zavrnjenih. Maksimalni znesek, ki ga lahko napolnite je %d."
+ScotApp_927,Okvara naprave
+ScotApp_827,Skenirajte črtno kodo izdelka in ga položite v vrečko.
+ScotApp_1540,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_900,Položite izdelek v vrečko.
+ScotApp_1277,OPREDELJENUPORABNIK19
+ScotApp_865,Overi lastnika kartice
+ScotApp_506,506neuporabljenih
+ScotApp_406,406neuporabljenih
+ScotApp_306,Brez embalaže
+ScotApp_206,Možnosti bodo naložene.
+ScotApp_106,Potrebna je asistenca
+ScotApp_1209,LIMIT KREDITNE KARTICE PRESEŽEN
+ScotApp_806,Odobri vizualno overjene izdelke
+ScotApp_1067,1067neuporabljenih
+ScotApp_1418,Maksimalna dovoljena teža je presežena.
+ScotApp_1473,"Naprava ni pripravljena. \n\nVklopite napajanje, preverite komunikacijski kabel ali dajte enoto nazaj v predalnik.  "
+ScotApp_187,187neuporabljenih
+ScotApp_1716,WE:
+ScotApp_1190,VNESEN KUPON
+ScotApp_1602,     Stanje koša avtomata za izdajo kartic je nizko (%s)
+ScotApp_1149,Napaka tiskalnika računa
+ScotApp_1066,1066neuporabljenih
+ScotApp_1614,Koš avtomata za izdajo
+ScotApp_792,792neuporabljenih
+ScotApp_692,692neuporabljenih
+ScotApp_592,NCR SelfServ kodirnik blagajne je naložen.
+ScotApp_492,"Prosim, vzemite drobiž."
+ScotApp_392,Neznani izdelki
+ScotApp_292,Ni mogoče skenirati kupona
+ScotApp_192,192neuporabljenih
+ScotApp_1241,KREDIT
+ScotApp_1197,PREKLICANA TRANSAKCIJA
+ScotApp_1548,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_992,Vnesi rojstni dan
+ScotApp_892,Pametna tehtnica se končuje ...
+ScotApp_1053,"Počakajte na asistenta, da prinese za podpisati listek."
+ScotApp_1404,"POS strežnik se je zrušil ali pa ni sinhroniziran prosim, izklopite terminal s stikalom."
+ScotApp_1245,PREVERJANJE DOLGA
+ScotApp_1262,OPREDELJENUPORABNIK4
+ScotApp_1471,Napaka ločevalnika kovancev
+ScotApp_1196,ŠTEVILKA VOZNIŠKEGA DOKUMENTA
+ScotApp_1052,1052neuporabljenih
+ScotApp_1600,Status avtomata za izdajo kartic:
+ScotApp_1663,koš je prazen ali nakopičen
+ScotApp_1261,OPREDELJENUPORABNIK3
+ScotApp_1125,"Napolnite vse kanale do vrha v magazin kovancev.\n\nPojdite v način trgovine, izberite ""Status gotovine/papirja"" in pritisnite gumb ""Napolnjen avtomat za izdajo kovancev""."
+ScotApp_1183,PRIKAZOVANJE CENE
+ScotApp_1470,Napaka ločevalnika računa
+ScotApp_1195,CSA ZAČASNO ZAUSTAVLJEN
+ScotApp_1229,POKLICAN ASISTENT
+ScotApp_1051,Odobritev listka
+ScotApp_1607,     Koš zavrnjenih je običajen (%s)
+ScotApp_1895,Genr Excp
+ScotApp_747,747neuporabljenih
+ScotApp_647,N
+ScotApp_447,Račun zveste stranke je bil aktiviran.
+ScotApp_347,"Izdelek z omejitvami je bil preklican – starostna meja ni znana. Prosim, postavite izdelek na stran."
+ScotApp_247,247neuporabljenih
+ScotApp_147,147neuporabljenih
+ScotApp_1260,OPREDELJENUPORABNIK2
+ScotApp_1619,Zač. zaust.
+ScotApp_769,Potrdite ali prekličite začasno zaustavitev.
+ScotApp_947,Nov tehtan izdelek
+ScotApp_847,Končano skeniranje
+ScotApp_1477,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_726,726neuporabljenih
+ScotApp_626,Odstopanje:
+ScotApp_526,\nNapačna vnesena PIN številka.\nPotegnite drugo kartico\n   -ali-\nPlačajte z gotovino
+ScotApp_426,Vrsta ##:
+ScotApp_326,Datum rojstva ne ustreza starostni omejitvi za izdelke z omejitvami.
+ScotApp_226,Čitalec kartic ne deluje
+ScotApp_126,(mmddll).
+ScotApp_1606,     Koš zavrnjenih je običajen
+ScotApp_926,Izdelki niso bili vrnjeni v vrečke.
+ScotApp_826,Ne želim dati tega izdelka v\nvrečko
+ScotApp_1267,OPREDELJENUPORABNIK9
+ScotApp_1618,"Ni kasete avtomata za izdajo bankovcev ali pa ni popolnoma vstavljena.\n\nNamestite ali ponovno vstavite kaseto za bankovce, da zaskoči."
+ScotApp_1181,PRESEŽEN PRAG KUPONA
+ScotApp_205,Kopiranje je zaključeno.
+ScotApp_105,Neznan izdelek
+ScotApp_1476,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1730,Iskati
+ScotApp_1390,Naprava se ne odziva
+ScotApp_805,Odobri izdelke
+ScotApp_1864,Pojdite v vrsto.
+ScotApp_1408,ASISTENCA
+ScotApp_1266,OPREDELJENUPORABNIK8
+ScotApp_1180,NI UJEMANJA CENE
+ScotApp_1208,PRODANO V NAČINU ASISTENCE
+ScotApp_1475,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1397,Udeleženec
+ScotApp_1748,Napaka prijave prstnih odtisov
+ScotApp_718,718neuporabljenih
+ScotApp_618,Odstopanje teže
+ScotApp_518,Vstavite gotovino.
+ScotApp_1253,PIP ZVESTOBA
+ScotApp_1604,     Stanje koša avtomata za izdajo kartic je običajno (%s)
+ScotApp_218,Tiskalnik skoraj prazen
+ScotApp_118,Potrebna odobritev
+ScotApp_552,Upravitelj in geslo se ne moreta začeti z ničlo.
+ScotApp_791,Izberi vrsto plačila
+ScotApp_691,691neuporabljenih
+ScotApp_591,NCR SelfServ kodirnik blagajne se nalaga ...
+ScotApp_391,"Izdelki, ki potrebujejo ceno"
+ScotApp_918,Ni zapisa glede teže izdelka.
+ScotApp_1187,NAPAKA NAPRAVE
+ScotApp_991,Starost
+ScotApp_891,Pametna tehtnica je naložena.
+ScotApp_1474,Napaka strojne opreme. Koda napake E%d
+ScotApp_1396,Izhod iz načina udeleženca
+ScotApp_1252,PIP VRAČILO GOTOVINE DOLGA
+ScotApp_1732,PickList podobe so naložene.
+ScotApp_1461,Kovanci
+ScotApp_1166,"* Odprite vrata predalnika za tiskalnik.\n* Odpahnite in potisnite tiskalnik nazaj.\n* Odprite pokrov tiskalnika in ga preverite glede kopičenj.\n* Zaprite pokrov tiskalnika in ga napolnite s papirjem .\n* Tiskalnik previdno povlecite naprej, dokler ne zaskoči v položaj."
+ScotApp_1186,NEPRIČAKOVANO ZMANJŠANJE
+ScotApp_1857,  Ne odlagajte na trak
+ScotApp_1829,Odobri
+ScotApp_1670,Napaka ločevalnika kovancev/bankovcev
+ScotApp_1198,VNESENA ŠTEVILKA RAČUNA
+ScotApp_1869,Roka zastira pogled.
+ScotApp_1251,PIP DOLG
+ScotApp_1855,Po izbiri
+ScotApp_767,Raven medijev običaj
+ScotApp_667,Kartica je povlečena. Skenirajte vaše izdelke in kupone.
+ScotApp_567,Vnesi
+ScotApp_467,467neuporabljenih
+ScotApp_367,367neuporabljenih
+ScotApp_267,Varnost
+ScotApp_1460,Računi
+ScotApp_1185,PRESEŽEN PRAG VREČKE ŠKATLE
+ScotApp_1009,Način trgovine
+ScotApp_867,Ne
+ScotApp_1856,  Ne vstavljajte v vrečko
+ScotApp_1677,"Preverite, da so vrata ločevalnika kovancev zaprta."
+ScotApp_746,746neuporabljenih
+ScotApp_646,Y
+ScotApp_1394,Napaka digitalnega vmesnika
+ScotApp_446,Začasno zaustavi transakcijo
+ScotApp_346,Bankomat (vračilo gotovine)
+ScotApp_246,246neuporabljenih
+ScotApp_146,"Prosim, izberite vaš način plačila."
+ScotApp_1501,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1609,     Koš zavrnjenih je skoraj poln
+ScotApp_1194,ŠTEVILKA AVTORIZACIJE
+ScotApp_946,Odobritev vrečke/škatle
+ScotApp_846,"Skenirajte izdelke ali pritisnite ""Končano skeniranje""."
+ScotApp_1843,Vrečka
+ScotApp_1467,"Uporabite zaslon ""Status gotovine/papirja"", da spraznite gotovino."
+ScotApp_725,725neuporabljenih
+ScotApp_625,Vnesite odstopanje teže med <%s> in <%s>.
+ScotApp_1381,Obdelovanje ...
+ScotApp_425,425neuporabljenih
+ScotApp_325,Vnesen datum ni veljaven
+ScotApp_225,Koš zajemanja čitalca kartic je vstavljen
+ScotApp_1676,Odprta vrata ločevalnika kovancev
+ScotApp_925,925neuporabljenih
+ScotApp_825,Daj izdelek v vrečko
+ScotApp_1608,     Koš zavrnjenih je prazen
+ScotApp_1842,Popolna asistenca
+ScotApp_1808,Izberite izdelek na računu.
+ScotApp_1466,Status ločevalnika gotovine je poln
+ScotApp_1380,cena
+ScotApp_1854,Po izbiri
+ScotApp_1675,Napaka ločevalnika kovancev
+ScotApp_1597,Kartica zvestobe
+ScotApp_1350,%s\n%s %s dodan
+ScotApp_738,738neuporabljenih
+ScotApp_638,Informacije veljavnega odstopanja WLDB
+ScotApp_538,538neuporabljenih
+ScotApp_338,Vnesite prve tri črke opisa izdelka.
+ScotApp_238,\nSprejemalec gotovine ni uspel sprejeti vstavljene gotovine.\n\nPreverite kaseto za bankovce.
+ScotApp_138,Vzemi kartico
+ScotApp_1170,"* Open printer cover and check for paper jam in the area shown. \n* Remove Paper.\n* Close printer cover and reload paper.\n* If the error remains, reboot terminal."
+ScotApp_1841,Prosimo pojdite do vrste za odobritev
+ScotApp_1740,Overi vrečko
+ScotApp_938,938neuporabljenih
+ScotApp_838,Strinjanje stranke
+ScotApp_1133,Kopičenje v sprejemalcu bankovcev.
+ScotApp_1387,"Pojavila se je velika napaka programske opreme.\nPonovno zaženite terminal.\n\nZa ponovni zagon terminala:\n* Obrnite Nadzorno ključavnico na 'S' -ALI- pritisnite Nadzorni gumb.\n* Izberite ""Izklopi celotni sistem"".\n* Pokličite Podporo in jih obvestite o napaki."
+ScotApp_1674,"Pritisnite gumb zavračanja, da sprostite nakopičene kovance.  Če se napaka ponovno pojavi, je mogoče prisotno kopičenje kovancev. Odprite pokrov kovancev in ga zavarujte.  Odstranite nakopičene kovance.  Pritisnite gumb zavračanja, da ponastavite.  Sprostite in zaprite pokrov kovancev."
+ScotApp_1650,(ddmmll)
+ScotApp_690,690neuporabljenih
+ScotApp_590,Tovarna naprave se končuje ...
+ScotApp_490,"Skenirajte vaše izdelke ali pritisnite ""Zagon"" za začetek."
+ScotApp_390,Priklicani izdelki
+ScotApp_290,290neuporabljenih
+ScotApp_190,Posrednika transakcije se nalaga ...
+ScotApp_990,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_890,Pametna tehtnica se nalaga ...
+ScotApp_1772,Kupon
+ScotApp_1661,"Ni mogoče natisniti računa. Pritisnite ""Drugi računi"" za ponovni poskus."
+ScotApp_1132,Napaka v komunikaciji.
+ScotApp_1386,Velika napaka
+ScotApp_784,Avtomat za izdajanje računa ne deluje\n* Napolnite avtomat za izdajanje bankovcev\n* Odstranite kopičenje v avtomatu za izdajanje ali\n* Prilagodite čistilni koš.
+ScotApp_684,Danes
+ScotApp_584,Zavrnjen EBT.
+ScotApp_484,Potreben je podpis
+ScotApp_384,384neuporabljenih
+ScotApp_284,Skener: Izgubljeni podatki
+ScotApp_1595,Priljubljeni jezik
+ScotApp_1451,ID asistenta
+ScotApp_984,Odvzemni trak je naložen.
+ScotApp_884,Prekliči začasno zaustavitev
+ScotApp_1847,"Izdelek dodan. Skenirajte naslednji izdelek ali pritisnite ""Vnesi kodo""."
+ScotApp_1660,Izberi možnost tiskanja
+ScotApp_1131,Ni kasete računa ali ni pravilno vstavljena.
+ScotApp_1385,Izberi jezik
+ScotApp_1436,"Presežen prag ""Preskoči dajanje v vrečke"""
+ScotApp_1049,1049neuporabljenih
+ScotApp_666,666neuporabljenih
+ScotApp_1594,Pravilno izklopite in ponovno zaženite terminal.
+ScotApp_466,   Skeniran je neznani izdelek
+ScotApp_366,Kopičenje pri rezilu tiskalnika
+ScotApp_266,Varn. zastopnik se končuje ... 
+ScotApp_966,966neuporabljenih
+ScotApp_1541,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1846,"Skenirajte izdelek ali pritisnite ""Vnesi kodo""."
+ScotApp_1667,Kopičenje bankovcev
+ScotApp_1689,Napaka ločevalnika bankovcev
+ScotApp_745,745neuporabljenih
+ScotApp_645,Skeniran izdelek dajte ponovno v vrečko.
+ScotApp_1581,Avtomat za izdajo kovancev
+ScotApp_445,Gotovinski popust
+ScotApp_345,345neuporabljenih
+ScotApp_245,Čitalec kartic ne deluje
+ScotApp_145,145neuporabljenih
+ScotApp_945,Omejitev\Vrečka/Škatla
+ScotApp_713,713neuporabljenih
+ScotApp_613,Položite izdelek na tehtnico vrečke.
+ScotApp_513,513neuporabljenih
+ScotApp_313,313neuporabljenih
+ScotApp_213,213neuporabljenih
+ScotApp_113,Prekliči izdelke
+ScotApp_1573,"Pritisnite gumbe za polnjenje, da napolnite ali pritisnite Dvig sprejemalca in Dvig avtomata za izdajanje, da spraznite."
+ScotApp_913,Neznani izdelek na varnostni tehtnici.
+ScotApp_813,"Vnesite PO# / ime naloga in pritisnite ""Vnesi"""""
+ScotApp_1666,Napaka ločevalnika bankovcev
+ScotApp_1137,%s Kaseta računa ni nameščena.
+ScotApp_1580,Avtomat za izdajo računa
+ScotApp_758,758neuporabljenih
+ScotApp_658,valuta je nizka
+ScotApp_558,Količina izdelka z omejitvami
+ScotApp_1653,Znesek presega kapaciteto. Maksimalni potreben znesek je %s. Znesek %s samodejno vnesen.
+ScotApp_358,Vrni se na način asistence
+ScotApp_258,Posrednik transakcije se končuje ...
+ScotApp_158,"Ta izdelek zahteva odobritev trgovine. Prosim, nadaljujte."
+ScotApp_1844,Iskanje
+ScotApp_958,Tehtnica vrečke
+ScotApp_858,Da
+ScotApp_1136,Ni koša zavrnjenih računov ali ni popolnoma zaskočen.
+ScotApp_1587,"Ali ste prepričani, da želite spregledati spremembe na zaslonu Upravljanja računa?"
+ScotApp_1531,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1599,%s iskanje prednosti je spodletelo.
+ScotApp_1652,(llmmdd)
+ScotApp_1123,"* NE nadaljujte dokler niso odstranjeni vsi nakopičeni bankovci.\n* Previdno izvlecite avtomat za izdajanje bankovcev iz predalnika.\n* Odstranite nakopičene bankovce na vrhu avtomata za izdajanje bankovcev brez, da bi ovirali trakove.\n* Potisnite avtomat za izdajanje bankovcev nazaj v predalnik.\n* Zaklenite vrata, nato pritisnite ""Težava je rešena""."
+ScotApp_1342,Izberi pripomoček
+ScotApp_1332,Presledek
+ScotApp_1586,%s    %s  %s
+ScotApp_1444,Odstrani
+ScotApp_1598,Prednosti so aktivirane.
+ScotApp_1651,(llllmmdd)
+ScotApp_1122,Račun se je mogoče nakopičil pri izhodu avtomata za izdajanje bankovcev.\n\nDelno izvlecite avtomat za izdajanje bankovcev iz predalnika.\n\nOdstranite nakopičene bankovce.\n\nPrevidno potisnite avtomat za izdajanje bankovcev nazaj v predalnik.
+ScotApp_1331,Dvigalka
+ScotApp_1585,Koši              Vrednost  Sprememba v vrednosti
+ScotApp_1118,Težave z izdajanjem %s bankovcev.\n\n%s bankovci niso mogli biti pridobljeni iz kasete za bankovce.\n\nOdstranite %s kaseto za bankovce in preverite stanje bankovcev.
+ScotApp_1884,Smart Assist alarm
+ScotApp_1191,POTREBNE MERITVE
+ScotApp_1121,V prikazanem območju se mogoče kopiči račun.\n\nDelno izvlecite avtomat za izdajanje bankovcev iz predalnika.\n\nOdstranite nakopičene bankovce.\n\nPrevidno potisnite avtomat za izdajanje bankovcev nazaj v predalnik.
+ScotApp_503,503neuporabljenih
+ScotApp_403,403neuporabljenih
+ScotApp_1849,
+ScotApp_1330,Izdelek ni v vrečki
+ScotApp_1355,Vaše stanje
+ScotApp_1584,Koši              Štetje Sprememba v štetju
+ScotApp_465,%s               %s
+ScotApp_365,Kopičenje v glavi tiskalnika
+ScotApp_265,265neuporabljenih
+ScotApp_965,965neuporabljenih
+ScotApp_633,Podpis:
+ScotApp_433,433neuporabljenih
+ScotApp_333,Napaka zaradi kopičenja v reži čitalca kartic
+ScotApp_233,"Zagotovite, da je sprejemalec bankovcev pravilno nameščen.\n\nPotegnite ročico naprej, da ga sprostite in potisnete sprejemalca naprej.\n\nPotisnite sprejemalca bankovcev nazaj notri dokler se ne zaustavi."
+ScotApp_133,133neuporabljenih
+ScotApp_1120,"Nakopičenje bankovcev se lahko nahaja pred %s kaseto za bankovce.\n\nOdstranite %s kaseto in poiščite kopičenje bankovcev v teh območjih.\n\nOdstranite nakopičene bankovce, če je mogoče zamenjajte kaseto za bankovce."
+ScotApp_1805,Izhod iz načina samo gotovina
+ScotApp_933,Nepravilno tehtanje
+ScotApp_833,833neuporabljenih
+ScotApp_1337,Zapusti NCR SelfServ Checkout
+ScotApp_1780,ZAŽENI TRANSAKCIJO
+ScotApp_712,712neuporabljenih
+ScotApp_612,Dodaj težo
+ScotApp_512,Vizualne overitve
+ScotApp_312,koš je nakopičen
+ScotApp_212,212neuporabljenih
+ScotApp_112,Potrdi količino
+ScotApp_1081,Pokaži\nVse vrste
+ScotApp_778,778neuporabljenih
+ScotApp_678,678neuporabljenih
+ScotApp_578,Zaključite ponudbo kartice.  Dolg drobiža.
+ScotApp_478,Oddajte kupone.
+ScotApp_378,Tiskalnik računa
+ScotApp_278,Varnostni dnevnik
+ScotApp_1127,Ponovno poveži
+ScotApp_1802,Sprejmi samo kartice
+ScotApp_978,Prag = %d.
+ScotApp_878,Vnesite ceno.
+ScotApp_1533,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1787,"Vnesite število plastičnih vrečk, ki ste jih uporabili ali 0, če niste uporabili nobene vrečke."
+ScotApp_1799,Načina samo kartice
+ScotApp_1309,"* Vstavite kaseto, da zaskoči .\n* Preverite, ali se je motor sprejemalca bankovcev na kratko vklopil."
+ScotApp_1323,Ostanek teže
+ScotApp_1079,Dajte skenirane izdelke ponovno na trak.
+ScotApp_1382,(Std)
+ScotApp_1532,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1786,Šarža plastične vrečke
+ScotApp_1094,Natisni podpise
+ScotApp_1113,%s @ %s/%s\t%s
+ScotApp_1798,Način samo gotovina
+ScotApp_1322,Napaka senzorja kupona\nNapaka komuniciranja.
+ScotApp_1078,Izberite nastavitev za pričakovano težo. (Stranka naj da izdelek na trak.)
+ScotApp_1334,  Izdelek ni na traku
+ScotApp_1785,"Neveljavna prijava. Prosim, ponovno se prijavite z uporabo tipkovnice ali vašega prstnega odtisa."
+ScotApp_1046,"Prosim, nesite vaš %s asistentu na plačilni postaji."
+ScotApp_1696,Stanje popravljeno
+ScotApp_1112,%s @ %s %s/%s\t%s
+ScotApp_1158,PinTipkovnica / Napaka EFT naprave
+ScotApp_1065,1065neuporabljenih
+ScotApp_1321,Končajte plačilo s kuponom.  Dolg ostanka.
+ScotApp_764,764neuporabljenih
+ScotApp_1530,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1784,VEČPAKETNI IZDELEK
+ScotApp_1070,1070neuporabljenih
+ScotApp_49,49neuporabljenih
+ScotApp_1111,  %s @ %s/%s\t%s
+ScotApp_753,Včeraj vsako uro
+ScotApp_653,"Vnesite vrednost kupona v centih in pritisnite ""Vnesi""."
+ScotApp_453,Status polnega sprejemalca kovancev
+ScotApp_353,Pojdi nazaj
+ScotApp_253,253neuporabljenih
+ScotApp_153,153neuporabljenih
+ScotApp_1320,Začnite plačilo s kuponom.
+ScotApp_953,"Izklopite in ponovno zaÅ¾enite terminal:\n\n* Obrnite Nadzorno kljuÄavnico na 'S' -ALI- pritisnite Nadzorni gumb.\n* Izberite ''ZaÅ¾eni DODAJ ob naslednjem ponovnem zagonu''.  Izberite â€œDaâ€, da potrdite.\n* Izberite ''Izklopi celotni sistem''.\n* Ko zaslon utripa, izklopite terminal na UPSu ali vtiÄnici.\n* Vklopite terminal. Preverite pregledovalnik dogodkov. ÄŒe se napaka ponovno pojavi, pokliÄite servis."
+ScotApp_853,Štirje izdelki
+ScotApp_1845,Račun
+ScotApp_1537,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_732,732neuporabljenih
+ScotApp_632,632neuporabljenih
+ScotApp_532,Izdelek z omejitvami
+ScotApp_432,EBT
+ScotApp_332,Zapuščanje načina asistence
+ScotApp_232,* Odstranite sprejemalca bankovcev in kaseto.\n* Preverite kaseto glede kopičenja.\n* Odprite dostopna vrata na vrhu sprejemalca in preverite glede kopičenja bankovcev.\n* Trdno zaprite dostopna vrata.\n* Zamenjajte sprejemalca in kaseto.
+ScotApp_132,132neuporabljenih
+ScotApp_1110,  %s @ %s/each\t%s
+ScotApp_1242,DOLG
+ScotApp_1285,Priljubljeno
+ScotApp_932,DESCRIPTION=%s;LANEBUTTONTEXT=%s;LSWND1=%s;LSWND2=%s;LSWND3=%s;
+ScotApp_832,832neuporabljenih
+ScotApp_1327,"Pritisnite želeno poročilo, nato pritisnite ""Zaženi poročilo""."
+ScotApp_711,711neuporabljenih
+ScotApp_611,Izberite želeno funkcijo.
+ScotApp_511,Primerjajte podpis stranke s podpisom na kartici.
+ScotApp_411,Vzemi kartico zvestobe
+ScotApp_311,koš je prazen
+ScotApp_111,Ponastavi tehtnico
+ScotApp_1789,KUPON
+ScotApp_1536,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_911,Briši varnost
+ScotApp_811,"Skenirajte vašo darilno kartico. Prosim, preverite vašo košarico glede dodatnih izdelkov."
+ScotApp_1628,CPU napaka
+ScotApp_1523,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1349,%s\n %s\n%s %s pričakovan\n%s %s opazovan
+ScotApp_1892,Analiza varnosti
+ScotApp_1279,ČEK
+ScotApp_1535,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1057,1057neuporabljenih
+ScotApp_1441,Upravljanje kovancev
+ScotApp_1313,* Preverite tiskalnik glede kopičenja papirja.\n* Napolnite papir.\n* Ustrezno izklopite in ponovno zaženite terminal.
+ScotApp_1681,Napaka ločevalnika bankovcev
+ScotApp_1069,1069neuporabljenih
+ScotApp_1325,Položite izdelek na tehtnico.
+ScotApp_1278,OPREDELJENUPORABNIK20
+ScotApp_1103,Prejšnji
+ScotApp_1534,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_1056,1056neuporabljenih
+ScotApp_1312,"* Odstranite sprejemalca bankovcev in kaseto.\n* Odprite in odstranite bankovce.\n* Zaprite in ponovno vstavite v sprejemalca.\n* Preverite, ali se je motor sprejemalca bankovcev vklopil in, da je LED lučka zelena."
+ScotApp_1265,OPREDELJENUPORABNIK7
+ScotApp_1850,Okvarjene naprave
+ScotApp_1213,NEZNANO
+ScotApp_1521,"Prosim, obrnite se na priročnik naprave, da popravite napako."
+ScotApp_139,Vzemi račun
+ScotApp_1043,"Uporabite način asistence, da sprejmete %s od stranke."
+ScotApp_1401,"Asistenca je v teku.\n\nProsim, počakajte ..."
+UnknownItemMessage,Pomoč je na poti.\n\nPoložite izdelek na stran in nadaljujte.
+TimeRestrictedItemMessage,Tega izdelka tokrat ne morete kupiti. \n\nPostavite izdelek na stran in nadaljujte.
+ItemQuantityExceededMessage,"Presegli ste dovoljeno količino za ta izdelek.\n\nProsim, položite ga na stran in nadaljujte."
+WeightMismatch,"Preverjanje teže izdelka.\n\nProsim, počakajte..."
+ItemQuantityExceeded,Omejitev količine Presežena
+WaitForRemoteAssistanceTitle,Oddaljeni udeleženec
+ScotApp_489,"Hvala, da uporabljate NCR SelfServ Checkout."
+ScotApp_273,Ne skenirajte zdaj.\nPoložite izdelek na stran.
+ScotApp_431,"Neveljavna kartica zvestobe. Prosim, overite."
+ScotApp_410,Asistenca je potrebna za:
+ScotApp_1739,"Prosim, počakajte na udeleženca.\nSistem ni mogel overiti vaše vrečke.\nČe ste po pomoti položili kaj drugega na mesto za vrečke kot pa vrečko, prosim to odstranite."
+ScotApp_73,Vrni se na Način nakupovanja
+ScotApp_772,"Izvedena je bila začasna zaustavitev trenutne transakcije.\nProsim, potrdite ali prekličite to zahtevo."
+ScotApp_530,Napaka pri branju kartice.\nVstavite drugo kartico.\n   -ali-\nPlačajte z gotovino.\n   -ali-\nPokličite za pomoč.
+ScotApp_524,Napačna vnesena PIN številka.\nPonovno vnesite PIN številko na plačilni napravi.
+ScotApp_397,"Uporabite način asistence za prodajo razveljavljenih izdelkov.\nZberite ostale izdelke, da ne bodo prodani."
+ScotApp_171,"""%s""\n\nJe %d pravilno?"
+ScotApp_1374,\n---------------------------------------\n
+ScotApp_1646,Transakcija je začasno zaustavljena. Vse izdelke položite na stran.
+ScotApp_495,"Presegli ste dovoljeno količino za ta izdelek.\n\nProsim, položite ga na stran in nadaljujte."
+ScotApp_529,"Odstranite kartico, nato ...\nVstavite drugo kartico.\n   -ali-\nPlačajte z gotovino.\n   -ali-\nPokličite za pomoč."
+ScotApp_275,Ne vstavljajte plačilnih kartic zdaj.\nVzemite vašo kartico.
+ScotApp_1891,"Verifikacija v sistemu poteka. \nProsim, počakajte ..."
+ScotApp_1750,"Prosim, počakajte medtem ko obdelujemo vaš prstni odtis."
+ScotApp_169,Želite nadaljevati z vašim nakupom?
+ScotApp_415,Vzemite vašo kartico zvestobe.\nKartica je bila prej vstavljena.
+ScotApp_1793,Ta naprava bo tokrat sprejela le kreditno in plačilno kartico.\nŽelite nadaljevati?
+ScotApp_477,Oddajte kupone.\nKo se vaš račun natisne:\n-- Zberite vaše izdelke.\n-- Nesite račun in kupone do plačilne postaje.
+ScotApp_177,Celotni nakup preklican. Položite vse izdelke na stran.
+ScotApp_656,"Prosim, položite <%s> na stran.\nZaposleni v trgovini vam bo asistiral."
+ScotApp_1709,"Zdaj ne vstavljajte bankovcev ali kovancev.\nProsim, vzemite vrnjen denar.\nRačuni so izdani pod skenerjem."
+ScotApp_435,"Izberite vrsto ugodnosti.\nČe želite uporabiti kupone za živila, morajo biti uporabljeni pred drugimi ugodnostmi."
+ScotApp_808,"Izdelke z varovalnimi oznakami nesite do spremljajoče postaje, da je odstranjena."
+ScotApp_294,"Za asistenco pritisnite gumb ""Pokliči za asistenta""."
+ScotApp_1287,"Prosim, počakajte ...\nPreverjanje teže izdelka."
+ScotApp_525,"Napačna vnesena PIN številka.\nOdstranite kartico, nato ...\nVstavite drugo kartico\n   -ali-\nPlačajte z gotovino"
+ScotApp_480,"Prosim, pritisnite ""OK"" ter odnesite listek s transakcijo in izdelke do asistenta."
+ScotApp_1751,* PreseÅ¾ena maksimalna dovoljena teÅ¾a.\n* Odstranite izdelke s tehtnice vrecke.
+ScotApp_175,"Ali želite odstraniti\n""%s""\nz računa?"
+ScotApp_1746,"Strežnik prstnih odtisov ni na voljo.\nProsim, poskusite znova."
+ScotApp_1839,"Prosim, počakajte na asistenta.\nNe skenirajte zdaj. Položite izdelek na stran."
+ScotApp_501,"Prosim, podpišite račun in počakajte na odobritev trgovine."
+ScotApp_414,Vzemite vašo kartico zvestobe.\nZa vaš trenutni nakup ne morejo biti uporabljeni popusti. Posredovani vam bodo po elektronski pošti.
+ScotApp_563,Med inicializacijo končnih vsot se je pojavila napaka.\nAplikacija se bo zaprla.
+ScotApp_263,"Ni mogoče razveljaviti izdelka, dokler je razveljavljen njegov kupon.\nNajprej razveljavite kupon izdelka."
+ScotApp_800,"Prosim, preverite košarico.\n\nSkenirajte dodatne izdelke zdaj ali\nPritisnite ""OK"" za plačilo."
+ScotApp_134,"Avtorizacija je v teku. \nProsim, počakajte."
+ScotApp_620,Vnesi odstopanje
+ScotApp_161,"%s\nS pomočjo tipkovnice vnesite količino in pritisnite ""OK""."
+ScotApp_440,Vaše stanje gotovinskega popusta je manjše od potrebnega.\nŽelite za ta nakup uporabiti vašo preostalo ugodnost %s gotovinskega popusta.
+ScotApp_184,%s bo pisano v breme vašega računa.
+ScotApp_274,Ne vstavite denarja zdaj.\nVzemite vaš denar.
+ScotApp_1744,"Naprava ni prepoznala vašega prstnega odtisa.\nProsim, poskusite znova."
+ScotApp_160,Cena izdelka je bila priklicana.\nAsistenca prihaja.\nPoložite izdelek na stran in nadaljujte z nakupom.
+ScotApp_1795,"Ali omejiti na ""Samo kartice."""
+ScotApp_159,Cena izdelka je neznana.\nAsistenca prihaja.\nPoložite izdelek na stran in nadaljujte z nakupom.
+ScotApp_458,Izberite vrsto ugodnosti.\nZa ta nakup ne morejo biti uporabljeni kuponi za živila.
+ScotApp_1329,"Prosim, počakajte ...\nPreverjanje teže izdelka.\nDvojna teža v vrečki."
+ScotApp_407,Napaka pri branju kartice.\n*  Poskusite z drugo kartico\n   -ali-\n*  Pokličite za pomoč
+ScotApp_706,"Vaše stanje kuponov za živila je manjše od zneska tega nakupa.\nPritisnite ""OK"", da uporabite drug način plačila."
+ScotApp_606,Briši Vnos teže
+ScotApp_906,"Prosim, vzemite vaše izdelke."
+ScotApp_705,"Vaše stanje gotovinskega popusta je manjše od zneska tega nakupa.\nPritisnite ""OK"", da uporabite drug način plačila."
+ScotApp_605,Uredi Vnos teže
+ScotApp_405,Napaka pri branju kartice.\n*  Poskusite z drugo kartico\n   -ali-\n*  Plačajte z gotovino\n   -ali-\n*  Pokličite za pomoč
+ScotApp_491,"Prosim, vzemite vašo kartico."
+ScotApp_818,"Prosim, počakajte na asistenta.\nAsistenca je potrebna za:"
+ScotApp_1796,"Ali omejiti na ""Samo gotovina."""
+ScotApp_438,Vaše stanje kuponov za živila je manjše od potrebnega.\nŽelite za ta nakup uporabiti vašo preostalo ugodnost %s kupona za živila.
+ScotApp_1596,"Bi želeli shraniti %s kot vaš priljubljeni jezik na vašem %s?\nIzberite ""Da"" ali ""Ne""."
+ScotApp_766,%s bo zaračunanih na vaš račun.
+ScotApp_166,"Asistenca prihaja.\nProsim, nadaljujte z nakupom."
+ScotApp_413,Vzemite vašo kartico zvestobe.\nUporabljene bodo znižane cene.
+ScotApp_1797,"Popravljanje ni odpravilo napake.\nProsim, poskusite ponovno ali omejite na ''Samo gotovina''."
+ScotApp_178,Počakajte na odobritev trgovine.\nOdobritev je potrebna za:
+ScotApp_790,"Vaša kartica je bila zavrnjena.\nProsim, izberite drug način plačila."
+ScotApp_1794,Ta naprava bo tokrat sprejela le gotovino. \nKreditna ali plačilna kartica ne more biti obdelana.\nŽelite nadaljevati?
+ScotApp_412,"S tem izdelkom boste presegli nakup %s.\nProsim, plačajte zdaj in kupite ostale izdelke ločeno."
+ScotApp_546,"Niste dovolj stari za nakup tega izdelka.\nProsim, položite ga na stran in nadaljujte z nakupom."
+ScotApp_553,"Kuponi bodo sprejeti ob koncu vašega nakupa.\nProsim, položite jih na stran in nadaljujte."
+ScotApp_211,"Obdelovanje ...\nProsim, počakajte."
+ScotApp_1400,Oddaljeni udeleženec
+ScotApp_1754,"Črke se ne ujemajo z izdelkom.\nProsim, poskusite znova."
+ScotApp_1859,"Boste kupili celoten zaboj %s? Izberite ""Da"" ali ""Ne""."
+ScotApp_533,"Trenutno ne morete kupiti tega izdelka.\nProsim, položite ga na stran in nadaljujte z nakupom."
+ScotApp_1763,e=d=%5.3fkg Max %5.3f kg min %3.1f kg Nmax %4.0f
+ScotApp_1762,e=d=%4.2flb Max %4.2f lb min %3.1f lb Nmax %4.0f
+ScotApp_1764,e = d = %4.2f lb Max %4.2f lb Min %3.1f lb Nmax %4.0f
+ScotApp_1765,e = d = %5.3f kg Max %5.3f kg Min %3.1f kg Nmax %4.0f
+ScotApp_305,Izberite embalažo za vaš: %s
+ScotApp_703,"Uporabite tipkovnico za PIN številko. Pritisnite ""Prekliči"" na tipkovnici za PIN številko, da prekličete plačilo."
+ScotApp_125,"Vnesite rojstni datum stranke %s in pritisnite ""Odobri"""
+ScotApp_1853,"Vnesite datum rojstva stranke %s in pritisnite ""Vnesi"". "
+ScotApp_654,Datum bi moral biti v %s formatu.Vrednost vnesena v: %s
+ScotApp_560,Ta sistem ne sprejema kuponov.
+ScotApp_1788,Je %d pravilno? \n\nVašemu skupnemu znesku bo dodana %s šarža.
+ScotApp_1358,Znesek darilne kartice %s je bil uporabljen za vaš nakup. \n\nVaše stanje na darilni kartici je %s.
+ScotApp_167,Kupon se ne ujema z nakupljenim izdelkom.\n\nTa kupon ne more biti sprejet.
+ScotApp_164,"Sistem ne prepozna te kode izdelka.\n\nPrepričajte se, da je vnesena pravilna številka."
+ScotApp_547,"Napačna številka upravitelja in geslo.\n\nProsim, poskusite ponovno."
+ScotApp_442,%s vašega nakupa je lahko plačanega s kuponi za živila.\n\n%s
+ScotApp_443,%s bo zaračunanih na vaš račun.\n\nSe strinjate?
+ScotApp_700,Izdelka ni mogoče prodati v tej vrsti.\nPomoč prihaja.\n\nPoložite izdelek na stran in nadaljujte z nakupom.
+ScotApp_165,Sistem ne prepozna tega izdelka.\nAsistenca prihaja.\n\nPoložite izdelek na stran in nadaljujte z nakupom.
+ScotApp_182,"Znesek, ki ste ga vnesli za ta kupon, je bil previsok.\n\nTa sistem ne more sprejeti tega kupona."
+ScotApp_733,Zavrnjena kartica.\nUporabite drugo kartico ali plačajte z gotovino.
+ScotApp_812,"Hvala, da uporabljate NCR SelfServ Checkout.\nProsim, dajte vašo darilno kartico asistentu."
+ScotApp_1826,Ali bi želeli shraniti vaše prednostne nastavitve na vašo kartico zvestobe?
+ScotApp_1852,"Prosimo, odstranite preklican izdelek iz vrečke."
+QRCodeErrorText,QR Code Error
+ScanQRCodeInstruction,Scan this code to complete\nyour Mobile shopping.
+ScotApp_1896,Transferring items from mobile cart.
+ScotApp_1897,"Prosim, počakajte ..."
+ScotApp_1898,Mobile Cart
+ScotApp_1899,Mobile Audit
+ScotApp_1900,Mobile Shopper Audit
+ScotApp_1901,"Touch ""OK"" then use Attendant Handset to complete audit."
+ScotApp_1902,Begin Mobile Transaction
+ScotApp_1903,End Mobile Transaction
+ScotApp_1904,%d Items Sold
+ScotApp_1905,Scan barcode to complete your Mobile checkout.
+ScotApp_1906,Mobile cart transfer is complete.
+ScotApp_1907,\nTouch Pay or add more items.
+MoveLeft,< Move
+MoveRight,Move >
+Accessibility,Accessibility
+SearchItemCodeWatermark,Enter Item Code
+ScanAndBagNoSearchKeyIn,Scan or look up item to start
+ScanLookUpKeyInItem,"Scan, look up, or key in item code to start."
+LookUpKeyInItem,Look up or Key in Item
+ScanOrKeyInItem,Scan or Key in Item
+XM_MenuSetupLoaderV6HW,Nastavi nalagalnik
+XM_SetupLoaderNotEmptyV6HW,"\nWhen swapping loaders, because the current loader\ncount is greater than zero, manually remove the notes from the current loader and add the notes to the new loader."
+RemoveItemFromProduceScale,Remove item from scale.
+RemoveItemFromProduceScaleTitle,Remove Item

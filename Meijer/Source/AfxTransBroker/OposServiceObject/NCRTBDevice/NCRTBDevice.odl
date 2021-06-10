@@ -1,0 +1,155 @@
+// NCRTBDevice.odl : type library source for NCRTBDevice.dll
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (NCRTBDevice.tlb).
+
+[ uuid(2B5E45B2-37E8-11D5-9C83-0090276FD28D), version(1.0) ]
+library NCRTBDevice
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+
+
+	//  Primary dispatch interface for CNCRTBDeviceSO
+	
+	[ uuid(2B5E45BF-37E8-11D5-9C83-0090276FD28D) ]
+	dispinterface INCRTBDeviceSO
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CNCRTBDeviceSO)
+			// Fiscal Printer properties
+			[id(1001)] long ErrorLevel;
+			[id(1002)] long ErrorOutID;
+			[id(1003)] long ErrorState;
+			[id(1004)] BSTR ErrorString;
+			[id(1005)] boolean FlagWhenIdle;
+			[id(1006)] long ErrorStation;
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CNCRTBDeviceSO)
+			[id(1)] long COFreezeEvents(bool bFreeze);
+			[id(2)] long CheckHealth(long lLevel);
+			[id(3)] long Claim(long lTimeout);
+			[id(4)] long Close();
+			[id(5)] long DirectIO(long lCommand, long* pData, BSTR* pString);
+			[id(6)] long GetPropertyNumber(long lPropIndex);
+			[id(7)] BSTR GetPropertyString(long lPropIndex);
+			[id(8)] long OpenService(BSTR sClass, BSTR sName, IDispatch* pDispatch);
+			[id(9)] long Release();
+			[id(10)] void SetPropertyNumber(long lPropIndex, long lProperty);
+			[id(11)] void SetPropertyString(long lPropIndex, BSTR sProperty);
+			[id(12)] long ClearOutput();
+			[id(13)] long ClearInput();
+			// Line Display
+			[id(14)] long ClearDescriptors();
+			[id(15)] long ClearText();
+			[id(16)] long CreateWindow(long lViewportRow, long lViewportColumn, long lViewportHeight, long lViewportWidth, long lWindowHeight, long lWindowWidth);
+			[id(17)] long DestroyWindow();
+			[id(18)] long DisplayText(BSTR sData, long lAttribute);
+			[id(19)] long DisplayTextAt(long lRow, long lColumn, BSTR sData, long lAttribute);
+			[id(20)] long ScrollText(long lDirection, long lUnits);
+			[id(21)] long SetDescriptor(long lDescriptor, long lAttribute);
+			[id(22)] long RefreshWindow(long lWindow);
+			// Cash Drawer
+			[id(23)] long OpenDrawer();
+			[id(24)] long WaitForDrawerClose(long BeepTimeout, long BeepFrequency, long BeepDuration, long BeepDelay);
+			// POS Printer or MICR
+			[id(25)] long BeginInsertion(long Timeout);
+			[id(26)] long BeginRemoval(long Timeout);
+			[id(27)] long EndInsertion();
+			[id(28)] long EndRemoval();
+			// POS Printer
+			[id(29)] long CutPaper(long Percentage);
+			[id(30)] long PrintBarCode(long Station, BSTR Data, long Symbology, long Height, long Width, long Alignment, long TextPosition);
+			[id(31)] long PrintBitmap(long Station, BSTR FileName, long Width, long Alignment);
+			[id(32)] long PrintImmediate(long Station, BSTR Data);
+			[id(33)] long PrintNormal(long Station, BSTR Data);
+			[id(34)] long PrintTwoNormal(long Stations, BSTR Data1, BSTR Data2);
+			[id(35)] long RotatePrint(long Station, long Rotation);
+			[id(36)] long SetBitmap(long BitmapNumber, long Station, BSTR FileName, long Width, long Alignment);
+			[id(37)] long SetLogo(long Location, BSTR Data);
+			[id(38)] long TransactionPrint(long Station, long Control);
+			[id(39)] long ValidateData(long Station, BSTR Data);
+			// Scale
+			[id(40)] long ReadWeight(long* pWeightData, long Timeout);
+			// Fiscal Printer
+			[id(41)] long BeginFiscalDocument(long DocumentAmount);
+			//[id(42)] long BeginInsertion(long Timeout);
+			[id(43)] long BeginFiscalReceipt(bool PrintHeader);
+			[id(44)] long BeginFixedOutput(long Station, long DocumentType);
+			[id(45)] long BeginItemList(long VatID);
+			[id(46)] long BeginNonFiscal();
+			[id(47)] long BeginTraining();
+			[id(48)] long ClearError();
+			//[id(49)] long BeginRemoval(long Timeout);
+			[id(50)] long EndFiscalDocument();
+			[id(51)] long EndFiscalReceipt(bool PrintHeader);
+			[id(52)] long EndFixedOutput();
+			//[id(53)] long EndInsertion();
+			[id(54)] long EndItemList();
+			[id(55)] long EndNonFiscal();
+			//[id(56)] long EndRemoval();
+			[id(57)] long EndTraining();
+			[id(58)] long GetData(long DataItem, long* OptArgs, BSTR* Data);
+			[id(59)] long GetDate(BSTR* Date);
+			[id(60)] long GetTotalizer(long VatID, long OptArgs, BSTR* Data);
+			[id(61)] long GetVatEntry(long VatID, long OptArgs, long* VatRate);
+			[id(62)] long PrintDuplicateReceipt();
+			//[id(63)] long PrintNormal(long Station, BSTR Data);
+			[id(64)] long PrintFiscalDocumentLine(BSTR DocumentLine);
+			[id(65)] long PrintFixedOutput(long DocumentType, long LineNumber, BSTR Data);
+			[id(66)] long PrintPowerLossReport();
+			[id(67)] long PrintRecItem(BSTR Description, CURRENCY Price, long Quantity, long VatInfo, CURRENCY UnitPrice, BSTR UnitName);
+			[id(68)] long PrintPeriodicTotalsReport(BSTR Date1, BSTR Date2);
+			[id(69)] long PrintRecItemAdjustment(long AdjustmentType, BSTR Description, CURRENCY Amount, long VatInfo);
+			[id(70)] long PrintRecMessage(BSTR Message);
+			[id(71)] long PrintRecNotPaid(long Description, CURRENCY Amount);
+			[id(72)] long PrintRecSubtotal(CURRENCY Amount);
+			[id(73)] long PrintRecRefund(BSTR Description, CURRENCY Amount, long VatInfo);
+			[id(74)] long PrintRecTotal(CURRENCY Total, CURRENCY Payment, BSTR Description);
+			[id(75)] long PrintRecSubtotalAdjustment(long AdjustmentType, BSTR Description, CURRENCY Amount);
+			[id(76)] long PrintRecVoid(BSTR Description);
+			[id(77)] long PrintRecVoidItem(BSTR Description, CURRENCY Amount, long Quantity, long AdjustmentType, CURRENCY Adjustment, long VatInfo);
+			[id(78)] long PrintReport(long ReportType, BSTR StartNum, BSTR EndNum);
+			[id(79)] long PrintXReport();
+			[id(80)] long ResetPrinter();
+			[id(81)] long SetDate(BSTR Date);
+			[id(82)] long PrintZReport();
+			[id(83)] long SetStoreFiscalID(BSTR ID);
+			[id(84)] long SetTrailerLine(long LineNumber, BSTR Text, bool DoubleWidth);
+			[id(85)] long SetVatTable();
+			[id(86)] long SetHeaderLine(long LineNumber, BSTR Text, bool DoubleWidth);
+			[id(87)] long SetPOSID(BSTR POSID, BSTR CashierID);
+			[id(88)] long SetVatValue(long VatID, BSTR VatValue);
+			[id(89)] long VerifyItem(BSTR ItemName, long VatID);
+			[id(90)] boolean CheckEntry(short nOptions, BSTR* pnStn);
+			[id(91)] void ClaimDevice(long TimeOut);
+			[id(92)] void ReleaseDevice();
+			// KeyLock
+			[id(93)] long WaitForKeylockChange( long KeyPosition, long Timeout );
+			// ToneIndicator
+			[id(94)] long Sound(long NumberOfCycles, long InterSoundWait);
+			[id(95)] long SoundImmediate();
+
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CNCRTBDeviceSO
+
+	[ uuid(2B5E45C0-37E8-11D5-9C83-0090276FD28D) ]
+	coclass NCRTBDeviceSO
+	{
+		[default] dispinterface INCRTBDeviceSO;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

@@ -1,0 +1,239 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "CTransBroker"=..\CTransBroker\CTransBroker.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name TransactionBroker
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SCOTServicesMsg
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WeightInfo
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Com"=..\TelnetX\Com\Com.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "DeviceErrorLookUp"=..\DeviceErrorLookUp\DeviceErrorLookUp.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "HeaderGenerator"=..\HeaderGenerator\HeaderGenerator.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "SCOTApp"=.\SCOTApp.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name CTransBroker
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SCOTAppMsg
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name TransactionBroker
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SCOTServices
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WeightInfo
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ClientDBMgr
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SmartScale
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name TakeawayBelt
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name TelnetClientSupport
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DeviceErrorLookUp
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SCOTAppMsg"=..\SCOTAppMsg\SCOTAppMsg.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name WeightInfo
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SCOTSSF"=..\SCOTSSF\Scotssf.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SCOTSSFMsg
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WeightInfo
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SCOTSSFMsg"=..\SCOTSSFMsg\SCOTSSFMsg.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name WeightInfo
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SCOTServices"=..\SCOTServices\SCOTServices.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SCOTServicesMsg
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name WeightInfo
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SCOTServicesMsg"=..\SCOTServicesMsg\SCOTServicesMsg.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name WeightInfo
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "TelnetClientSupport"=..\TelnetClientSupport\TelnetClientSupport.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Com
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "TransBrokerMsg"=..\AfxTransBrokerMsg\TransBrokerMsg.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "TransactionBroker"=..\AfxTransBroker\TransactionBroker.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name TransBrokerMsg
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

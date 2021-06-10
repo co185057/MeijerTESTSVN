@@ -1,0 +1,213 @@
+<Display Version="1.2" Position="0,0,800,600">
+  <Fonts>
+    <Font Name="OfficeDepotAMTitleFont">
+      <Face>Lucida Sans Unicode</Face>
+      <Size>23</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="OfficeDepotAMEchoBoxFont">
+      <Face>Courier New</Face>
+      <Size>21</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+  </Fonts>
+  <Controls>
+    <Control Name="Key29" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">575,385,415,214</Property>
+        <Property Name="ButtonHorizontalSpacing">5</Property>
+        <Property Name="ButtonVerticalSpacing">5</Property>
+        <Property Name="ButtonHeight">68</Property>
+        <Property Name="ButtonWidth">100</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\office depot\10x7-bttn-78x53.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">12</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key48" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">692,312,308,68</Property>
+        <Property Name="ButtonHorizontalSpacing">6</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">68</Property>
+        <Property Name="ButtonWidth">151</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\office depot\10x7-bttn-118x53.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">2</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key16" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">465,390,201,70</Property>
+        <Property Name="ButtonHorizontalSpacing">7</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">70</Property>
+        <Property Name="ButtonWidth">97</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\office depot\10x7-bttn-76x55.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">2</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key42" Type="ButtonList" Synchronize="False">
+      <Properties>
+        <Property Name="Position">679,605,312,143</Property>
+        <Property Name="ButtonHorizontalSpacing">6</Property>
+        <Property Name="ButtonVerticalSpacing">3</Property>
+        <Property Name="ButtonHeight">70</Property>
+        <Property Name="ButtonWidth">100</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\office depot\10x7-bttn-78x55.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">6</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key18" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">363,459,203,216</Property>
+        <Property Name="ButtonHorizontalSpacing">7</Property>
+        <Property Name="ButtonVerticalSpacing">3</Property>
+        <Property Name="ButtonHeight">70</Property>
+        <Property Name="ButtonWidth">63</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\office depot\10x7-bttn-49x55.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">9</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key1" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">38,385,313,364</Property>
+        <Property Name="ButtonHorizontalSpacing">5</Property>
+        <Property Name="ButtonVerticalSpacing">6</Property>
+        <Property Name="ButtonHeight">68</Property>
+        <Property Name="ButtonWidth">101</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\office depot\10x7-bttn-79x53.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">15</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key41" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">575,605,99,143</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">143</Property>
+        <Property Name="ButtonWidth">99</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\office depot\10x7-bttn-77x112.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key28" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">501,678,63,70</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">70</Property>
+        <Property Name="ButtonWidth">63</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\office depot\10x7-bttn-49x55.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Key27" Type="ButtonList">
+      <Properties>
+        <Property Name="Position">363,678,132,70</Property>
+        <Property Name="ButtonHorizontalSpacing">0</Property>
+        <Property Name="ButtonVerticalSpacing">0</Property>
+        <Property Name="ButtonHeight">70</Property>
+        <Property Name="ButtonWidth">132</Property>
+        <Property Name="Audio">%APP_DRIVE%\scot\sound\KeypadValid.mid</Property>
+        <Property Name="Font">SMKeyBoardFont</Property>
+        <Property Name="TextColor">Black</Property>
+        <Property Name="Picture">%MediaPath%\office depot\10x7-bttn-103x55.png</Property>
+      </Properties>
+      <CustomData>
+        <Data Name="ButtonCount">1</Data>
+      </CustomData>
+    </Control>
+    <Control Name="Echo1" Type="Static">
+      <Properties>
+        <Property Name="Position">530,387,382,39</Property>
+        <Property Name="Font">OfficeDepotAMEchoBoxFont</Property>
+        <Property Name="TextColor">White</Property>
+        <Property Name="TextFormat">Title 2</Property>
+        <Property Name="TextAlignment">0</Property>
+      </Properties>
+    </Control>
+  </Controls>
+  <Contexts>
+    <Context Name="SmAssistMode">
+      <CustomData>
+        <Data Name="PrimaryLanguage">True</Data>
+      </CustomData>
+      <Properties>
+        <Property Name="Picture">%MediaPath%\office depot\10x7_OfficeDepot_AssistMode.gif</Property>
+      </Properties>
+      <Include>
+        <Control Name="Title1">
+          <Properties>
+            <Property Name="Position">436,259,375,33</Property>
+            <Property Name="Font">OfficeDepotAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Title2">
+          <Properties>
+            <Property Name="Position">436,291,375,36</Property>
+            <Property Name="Font">OfficeDepotAMTitleFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo">
+          <Properties>
+            <Property Name="Position">530,348,382,39</Property>
+            <Property Name="Font">OfficeDepotAMEchoBoxFont</Property>
+          </Properties>
+        </Control>
+        <Control Name="Echo1" />
+        <Control Name="SMButton1" />
+        <Control Name="SMButton2" />
+        <Control Name="Key29" />
+        <Control Name="Key48" />
+        <Control Name="Key16" />
+        <Control Name="Key42" />
+        <Control Name="Key18" />
+        <Control Name="Key1" />
+        <Control Name="Key41" />
+        <Control Name="Key28" />
+        <Control Name="Key27" />
+      </Include>
+    </Context>
+  </Contexts>
+</Display>

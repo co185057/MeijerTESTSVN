@@ -1,0 +1,14 @@
+<Display Version="1.0">
+  <Controls>
+    <Control Name="SwipeCardVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\SwipeCard_7401_30.avi</Property>
+      </Properties>
+    </Control>
+    <Control Name="RequestSigVideo" Type="Video" Synchronize="False">
+      <Properties>
+        <Property Name="Video">%MediaPath%\SignName_Topaz_30.avi</Property>
+      </Properties>
+    </Control>
+  </Controls>
+</Display>

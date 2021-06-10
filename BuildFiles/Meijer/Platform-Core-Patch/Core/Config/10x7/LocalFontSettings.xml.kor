@@ -1,0 +1,259 @@
+<Display Version="1.0">
+  <Fonts>
+    <Font Name="CMNormalButton">
+      <Face>Arial</Face>
+      <Size>16</Size>
+      <Bold>Bold</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ReceiptFont">
+      <Face>Arial</Face>
+      <Size>16</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ReceiptFontBig">
+      <Face>Arial</Face>
+      <Size>36</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ReceiptFontVoid">
+      <Face>Arial</Face>
+      <Size>16</Size>
+      <Bold>True</Bold>
+      <Strikethrough>True</Strikethrough>
+    </Font>
+    <Font Name="SmallReceiptFont">
+      <Face>Arial</Face>
+      <Size>16</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SmallReceiptFont2">
+      <Face>Arial</Face>
+      <Size>12</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMMItemFont">
+      <Face>Gulim</Face>
+      <Size>12</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="LeadthruFont">
+      <Face>Arial</Face>
+      <Size>26</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ScaleFont">
+      <Face>Arial</Face>
+      <Size>35</Size>
+      <Bold>false</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ScaleImageFont">
+      <Face>Arial</Face>
+      <Size>10</Size>
+      <Bold>false</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TaxAmountFont">
+      <Face>Arial</Face>
+      <Size>14</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TaxTextFont">
+      <Face>Arial</Face>
+      <Size>12</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMMessageFont">
+      <Face>Arial</Face>
+      <Size>20</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMTrainingFont">
+      <Face>Arial</Face>
+      <Size>16</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMEchoFont">
+      <Face>Arial</Face>
+      <Size>16</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ScanBagTitleFont">
+      <Face>Arial</Face>
+      <Size>22</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="ScanBagInstructionFont">
+      <Face>Arial</Face>
+      <Size>22</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMButtonFont">
+      <Face>Arial</Face>
+      <Size>16</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMScreenTextFont">
+      <Face>Arial</Face>
+      <Size>16</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMScreenFont">
+      <Face>Arial</Face>
+      <Size>10</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMTBTextFont">
+      <Face>Arial</Face>
+      <Size>10</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMTBTextFont">
+      <Face>Arial</Face>
+      <Size>14</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMPromptFont">
+      <Face>Arial</Face>
+      <Size>16</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMKeyBoardFont">
+      <Face>Arial</Face>
+      <Size>14</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMPopUpInfoBoxFont">
+      <Face>Arial</Face>
+      <Size>12</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TrainingMessageFont">
+      <Face>Arial</Face>
+      <Size>12</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMButton4Font">
+      <Face>Arial</Face>
+      <Size>24</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="InstructionFont">
+      <Face>Arial</Face>
+      <Size>16</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="TotalFont">
+      <Face>Arial</Face>
+      <Size>20</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="RewardMessageFont">
+      <Face>Arial</Face>
+      <Size>18</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="RewardLabelFont">
+      <Face>Arial</Face>
+      <Size>12</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="CMButtonListFont">
+      <Face>Arial</Face>
+      <Size>12</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="RewardAmountFont">
+      <Face>Arial</Face>
+      <Size>12</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="AttractTitleFont">
+      <Face>Arial</Face>
+      <Size>22</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="AnimationTextFont">
+      <Face>Arial</Face>
+      <Size>20</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="DeviceInstructionTextFont">
+      <Face>Arial</Face>
+      <Size>20</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="InstructionTextFont">
+      <Face>Arial</Face>
+      <Size>18</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="AmountPaidFont">
+      <Face>Arial</Face>
+      <Size>12</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="MidiListFont">
+      <Face>Arial</Face>
+      <Size>20</Size>
+      <Bold>True</Bold>
+      <Italic>False</Italic>
+    </Font>
+    <Font Name="SMReportFont">
+      <Face>Gulim</Face>
+      <Size>12</Size>
+      <Bold>False</Bold>
+      <Italic>False</Italic>
+    </Font>
+  </Fonts>
+  <Controls>
+    <Control Name="TabSelected" Type="ButtonList">
+      <List>
+        <Button>A,-,Category1</Button>
+        <Button>B - C,-,Category2</Button>
+        <Button>D - J,-,Category3</Button>
+        <Button>K - M,-,Category4</Button>
+        <Button>N - O,-,Category5</Button>
+        <Button>P,-,Category6</Button>
+        <Button>Q - S,-,Category7</Button>
+        <Button>T - Z,-,Category8</Button>
+        <Button>Favorites,-,Favorites</Button>
+      </List>
+    </Control>
+  </Controls>
+</Display>

@@ -1,0 +1,52 @@
+
+	typedef enum TelnetXBlockingModesEnum
+	{
+		[helpstring("True blocking"), helpcontext(200)] TrueBlocking = 0,
+		[helpstring("Pseudo blocking"), helpcontext(200)] PseudoBlocking = 1
+	} TelnetXBlockingModesEnum;
+
+	typedef enum TelnetXTypesEnum
+	{
+		[helpstring("None"), helpcontext(227)] None = 0,
+		[helpstring("Automatic"), helpcontext(227)] Automatic,
+		[helpstring("Custom"), helpcontext(227)] Custom
+	} TelnetXTypesEnum;
+
+	typedef enum TelnetXStatesEnum
+	{
+		[helpstring("Not connected to server"), helpcontext(208)] StateNotConnected = 0,
+		[helpstring("Connecting to remote server"), helpcontext(208)] StateConnecting,
+		[helpstring("Connected - idle"), helpcontext(208)] StateConnected,
+		[helpstring("Sending username to server"), helpcontext(208)] StateSendingLogonName,
+		[helpstring("Sending password to server"), helpcontext(208)] StateSendingPassword,
+		[helpstring("Receiving data from server"), helpcontext(208)] StateReceivingData,
+		[helpstring("Received command prompt"), helpcontext(208)] StateReceivedPrompt,
+		[helpstring("Sending data to server"), helpcontext(208)] StateSendingData,
+		[helpstring("Disconnecting from server"), helpcontext(208)] StateDisconnecting
+	} TelnetXStatesEnum;
+
+	typedef enum FirewallTypeEnum
+	{
+		[helpstring("No proxy/firewall used"), helpcontext(218)] FirewallTypeNone=0,
+		[helpstring("Socks4 firewall"), helpcontext(218)] FirewallTypeSocks4,
+		[helpstring("Socks5 firewall"), helpcontext(218)] FirewallTypeSocks5,
+		[helpstring("Telnet proxy"), helpcontext(218)] FirewallTypeProxy,
+		[helpstring("HTTP proxy"), helpcontext(218)] FirewallTypeSSLProxy,
+		[helpstring("Simple PIPE relay"), helpcontext(218)] FirewallTypePipe
+	} FirewallTypeEnum;
+
+	typedef enum ProtocolsEnum
+	{
+		[helpstring("Telnet protocol"), helpcontext(224)] Telnet=0,
+		[helpstring("Remote Login protocol"), helpcontext(224)] RLogin,
+		[helpstring("Remote Shell protocol"), helpcontext(224)] RSH,
+		[helpstring("Remote execute command protocol"), helpcontext(224)] RExec,
+		[helpstring("Secure Shell 1.5 protocol"), helpcontext(224)] SSH1
+//		SSH2Protocol
+	} ProtocolsEnum;
+	typedef enum EncryptionsEnum
+	{
+		[helpstring("DES encryption algorithm"), helpcontext(225)] SingleDES,
+		[helpstring("3DES encryption algorithm"), helpcontext(225)] TripleDES
+	} EncryptionsEnum;
+

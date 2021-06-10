@@ -1,0 +1,60 @@
+//////////////////////////////////////////////////////////////////////
+//
+// OposCash.hi
+//
+//   Cash Drawer header file for OPOS Controls and Service Objects.
+//
+// Modification history
+// -------------------------------------------------------------------
+// 95-12-08 OPOS Release 1.0                                     CRM
+//
+//////////////////////////////////////////////////////////////////////
+
+#if !defined(OPOSCASH_HI)
+#define      OPOSCASH_HI
+
+
+#include "Opos.hi"
+#include "OposCash.h"
+
+
+//////////////////////////////////////////////////////////////////////
+// Numeric Property Index Values.
+//////////////////////////////////////////////////////////////////////
+
+// * Property *
+
+const LONG PIDXCash_DrawerOpened        =   1 + PIDX_CASH+PIDX_NUMBER;
+
+// * Capabilities *
+
+const LONG PIDXCash_CapStatus           = 501 + PIDX_CASH+PIDX_NUMBER;
+
+// * Validation Functions *
+
+inline BOOL IsValidCashNumericPidx(LONG Pidx)
+{
+  return ( PIDXCash_DrawerOpened == Pidx )
+    ? TRUE : FALSE ;
+}
+
+inline BOOL IsValidCashCapPidx(LONG Pidx)
+{
+  return ( PIDXCash_CapStatus == Pidx )
+    ? TRUE : FALSE ;
+}
+
+
+//////////////////////////////////////////////////////////////////////
+// String Property Index Values.
+//////////////////////////////////////////////////////////////////////
+
+// * Validation Function *
+
+inline BOOL IsValidCashStringPidx(LONG Pidx)
+{
+  return FALSE;
+}
+
+
+#endif			// !defined(OPOSCASH_HI)

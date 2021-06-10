@@ -1,0 +1,597 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CommonLibsNet</name>
+    </assembly>
+    <members>
+        <member name="T:CommonLibsNet.ConfigData">
+            <summary>
+            Summary description for ConfigData.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.eventRap">
+            <summary>
+            Name of Rap event.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.eventRapOperation">
+            <summary>
+            Rap event operation.
+            </summary>
+            
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.fastlaneService">
+            <summary>
+            FastLane Psx service.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.loadControllerRegistryPath">
+            <summary>
+            Load controller registry path.
+            </summary>
+        </member>
+        <member name="M:CommonLibsNet.ConfigData.#ctor">
+            <summary>
+            The class constructor. Protect it from construction.
+            </summary>
+        </member>
+        <member name="M:CommonLibsNet.ConfigData.Load">
+            <summary>
+            Loads configuration data from persistant storage.
+            </summary>
+        </member>
+        <member name="M:CommonLibsNet.ConfigData.LoadCommonRegistrySettings">
+            <summary>
+            Loads base registry settings
+            </summary>
+        </member>
+        <member name="M:CommonLibsNet.ConfigData.ExtractRapEventData(System.String,System.String)">
+            <summary>
+            Extracts a value from RapEvent data.
+            </summary>
+            <param name="key">
+            The key of the key-value pair being queried for.
+            </param>
+            <param name="eventData">
+            The RapEvent data.
+            </param>
+            <returns>
+            The RapEvent value associated with the key or null if not available.
+            </returns>
+        </member>
+        <member name="M:CommonLibsNet.ConfigData.IniReadValue(System.String,System.String,System.String)">
+            <summary>
+            Helper to read ini option and return as string
+            </summary>
+            <param name="file">
+            Ini file path.
+            </param>
+            <param name="section">
+            Ini file section containing option.
+            </param>
+            <param name="key">
+            Ini file section containing option.
+            </param>
+            <returns>
+            Value of option in INI file or empty string if file or option does not exist.
+            </returns>
+        </member>
+        <member name="M:CommonLibsNet.ConfigData.ValidateRapTerminalRegistry">
+            <summary>
+            Is this terminal a RAP terminal?
+            </summary>
+            <returns>
+            Returns whether or not this is a RAP terminal.
+            </returns>
+        </member>
+        <member name="M:CommonLibsNet.ConfigData.ExpandPartitionVars(System.String)">
+            <summary>
+            Used to replace any partition environment variables in sArg with their corresponding values.
+            The partition drive variables are currently:
+            
+            %APP_DRIVE%
+            %DATA_DRIVE%
+            %OS_DRIVE%
+            %BOOT_DRIVE%
+            %TEMP_DRIVE%
+            
+            If any of the above variables are found in the input string, they are replaced
+            with the value (drive letter) associated with the environment variable.
+            If a value is not defined for the partition environment variable(s), a default value
+            of "C:" is used ("\" for WINCE).
+            
+            For WINCE, no other variable substitution occurs.
+            For non-WINCE, any other defined environment variables within sArg will also be 
+            replaced with their respective values.
+            </summary>
+            <param name="sArg">The string to be searched.</param>
+            <exception cref="T:System.ArgumentNullException"></exception>
+            <returns>String containing the expanded environment variables.</returns>
+            <remarks>jv185012</remarks>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.scannerClass">
+            <summary>
+            Scanner class to be loaded with RapNet
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.scanSound">
+            <summary>
+            Sound played when a barcode is scanned.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.audioPath">
+            <summary>
+            Full path to audio files.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.configPath">
+            <summary>
+            Full path to config files.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.mediaPath">
+            <summary>
+            Full path to media files.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.binPath">
+            <summary>
+            Full path to bin files.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.reportDataPath">
+            <summary>
+            Full path to report data files.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.alphaNumericKeyboard">
+            <summary>
+            Flag indicating if we should use the alphanumeric keyboard.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.showCursor">
+            <summary>
+            Flag indicating if we should show the mouse cursor.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.enterIdUppercase">
+            <summary>
+            Flag indicating if EnterId screen is initially uppercase.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.laneConfigList">
+            <summary>
+            List of FastLanes.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.signOnTimeout">
+            <summary>
+            Timeout in ms for sign on.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.synchronizeTimeServer">
+            <summary>
+            Flag indicating if we should synchronize our time with FastLane's during signon.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.enterPasswordUppercase">
+            <summary>
+            Flag indicating if EnterPassword screen is initially uppercase.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.computerName">
+            <summary>
+            Computer name.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.connectionPeriod">
+            <summary>
+            Time in ms between Psx ConnectRemote invocations.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.connectRemoteTimeout">
+            <summary>
+            Timeout in ms for Psx ConnectRemote operation.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.altF4ExitAllowed">
+            <summary>
+            Allow the Alt-F4 keystroke entry to exit the application? (default is true).
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.useBiometrics">
+            <summary>
+            Flag indicating if we should use the biometrics login.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.allowHandKeyEMPLID">
+            <summary>
+            Flag indicating if we should allow hand keying of employee ID (works in conj. with UseBiometrics)
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ConfigData.ncrRemoteScanner">
+            <summary>
+            Scanner profile used by RapNet and LaunchPad
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ConfigData.RegistryPath">
+            <summary>
+            Read-Only RegistryPath property accessor.
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ConfigData.ScannerClass">
+            <summary>
+            Read-Only ScannerClass property accessor.
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ConfigData.ScanSound">
+            <summary>
+            Read-Only ScanSound property accessor.
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ConfigData.AudioPath">
+            <summary>
+            Read-Only AudioPath property accessor.
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ConfigData.ConfigPath">
+            <summary>
+            Read-Only ConfigPath property accessor.
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ConfigData.MediaPath">
+            <summary>
+            Read-Only MediaPath property accessor.
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ConfigData.BinPath">
+            <summary>
+            Read-Only BinPath property accessor.
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ConfigData.ReportDataPath">
+            <summary>
+            Read-Only report data path accessor.
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ConfigData.AlphaNumericKeyboard">
+            <summary>
+            Read-Only AlphaNumericKeyboard property accessor.
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ConfigData.ShowCursor">
+            <summary>
+            Read-Only ShowCursor property accessor.
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ConfigData.EnterIdUppercase">
+            <summary>
+            Read-Only EnterIdUppercase property accessor.
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ConfigData.LaneConfigList">
+            <summary>
+            LaneConfigList property accessor.
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ConfigData.SignOnTimeout">
+            <summary>
+            Read-Only SignOnTimeout property accessor.
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ConfigData.SynchronizeTimeServer">
+            <summary>
+            Read-Only SynchronizeTimeServer property accessor.
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ConfigData.EnterPasswordUppercase">
+            <summary>
+            Read-Only EnterPasswordUppercase property accessor.
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ConfigData.ComputerName">
+            <summary>
+            Read-Only ComputerName property accessor.
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ConfigData.FastlaneService">
+            <summary>
+            Read-Only FastlaneService property accessor.
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ConfigData.ConnectionPeriod">
+            <summary>
+            Read-Only ConnectionPeriod property accessor.
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ConfigData.ConnectRemoteTimeout">
+            <summary>
+            Read-Only ConnectRemoteTimeout property accessor.
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ConfigData.AltF4ExitAllowed">
+            <summary>
+            Allow the Alt-F4 keystroke entry to exit the application? (default is true).
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ConfigData.UseBiometrics">
+            <summary>
+            Read-Only UseBiometrics property accessor.
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ConfigData.AllowHandKeyEMPLID">
+            <summary>
+            Read-Only AllowHandKeyEMPLID property accessor.
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ConfigData.NcrRemoteScanner">
+            <summary>
+            Scanner profile used by RapNet and LaunchPad
+            </summary>
+        </member>
+        <member name="T:CommonLibsNet.PInvoke">
+            <summary>
+            PInvoke definitions used by the application.
+            </summary>
+        </member>
+        <member name="M:CommonLibsNet.PInvoke.GetForegroundWindow">
+            <summary>
+            The GetForegroundWindow function returns a handle to the foreground window.
+            </summary>
+        </member>
+        <member name="M:CommonLibsNet.PInvoke.GetActiveWindow">
+            <summary>
+            The GetActiveWindow function returns a handle to the active window.
+            </summary>
+        </member>
+        <member name="M:CommonLibsNet.PInvoke.IsWindowVisible(System.IntPtr)">
+            <summary>
+            Determines if a window is visible (not hidden, minimized, etc.).
+            </summary>
+        </member>
+        <member name="T:CommonLibsNet.PInvoke.SetWindowPosFlags">
+            <summary>
+            The SetWindowPosFlags enumeration corresponds to the SetWindowPos
+            Constants of the Windows API.
+            </summary>
+        </member>
+        <member name="T:CommonLibsNet.PInvoke.SetWindowPosInsertAfter">
+            <summary>
+            The SetWindowPosInsertAfter enumeration corresponds to the
+            SetWindowPosInsertAfter Constants of the Windows API.
+            </summary>
+        </member>
+        <member name="T:CommonLibsNet.PInvoke.ShowWindowFlags">
+            <summary>
+            The ShowWindowFlags enumeration of flags corresponds to the ShowWindow
+            Constants of the Window API.
+            </summary>
+        </member>
+        <member name="T:CommonLibsNet.PInvoke.EnumWindowsCallBack">
+            <summary>
+            Delegate function declarations
+            </summary>
+        </member>
+        <member name="T:CommonLibsNet.ScannerEventArgs">
+            <summary>
+            Class that contains the data for the Scanner events. Derives from System.EventArgs.
+            </summary>
+        </member>
+        <member name="M:CommonLibsNet.ScannerEventArgs.#ctor(System.String,System.String,System.Int32)">
+            <summary>
+            The class constructor.
+            </summary>
+            <param name="scanData">
+            The scan data.
+            </param>
+            <param name="scanDataLabel">
+            The scan data label.
+            </param>
+            <param name="scanType">
+            The scan type.
+            </param>
+        </member>
+        <member name="P:CommonLibsNet.ScannerEventArgs.ScanData">
+            <summary>
+            Gets the scan data from the scan event.
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ScannerEventArgs.ScanDataLabel">
+            <summary>
+            Gets the scan data label from the scan event.
+            </summary>
+        </member>
+        <member name="P:CommonLibsNet.ScannerEventArgs.ScanType">
+            <summary>
+            Gets the scan type from the scan event.
+            </summary>
+        </member>
+        <member name="T:CommonLibsNet.ScannerEventHandler">
+            <summary>
+            ScannerEvent delegate.
+            </summary>
+        </member>
+        <member name="T:CommonLibsNet.ScannerGeneric">
+            <summary>
+            Summary description for ScannerGeneric
+            </summary>
+        </member>
+        <member name="M:CommonLibsNet.ScannerGeneric.#ctor(PsxNet.Psx,CommonLibsNet.ConfigData)">
+            <summary>
+            The class constructor.
+            </summary>
+            <param name="paramPsx">
+            Psx instance used to host the scanner.
+            </param>
+            <param name="configData">
+            Configuration data 
+            </param>
+        </member>
+        <member name="M:CommonLibsNet.ScannerGeneric.Finalize">
+            <summary>
+            The class destructor.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ScannerGeneric.myPsx">
+            <summary>
+            Psx instance.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ScannerGeneric.myConfigData">
+            <summary>
+            Configuration data instance.
+            </summary>
+        </member>
+        <member name="E:CommonLibsNet.ScannerGeneric.ScannerEvent">
+            <summary>
+            Scanner event handler.
+            </summary>
+        </member>
+        <member name="T:CommonLibsNet.ScannerShared">
+            <summary>
+            This class is a replacement for the existing ScannerThread class, containing the scanner
+            event management as well as encapsulating a scanner sharing mechanism that allows the 
+            scanner to be available to RapNet, LaunchPad and ScotApp when required.  RapNet and SCOTApp
+            will maintain ownership of the scanner as is done currently and LaunchPad will request the
+            use of the scanner on demand when it's in focus.  The RemoteMessage mechanism will be used
+            to synchronize between the applications to avoid device acquisition contention.
+            </summary>
+        </member>
+        <member name="M:CommonLibsNet.ScannerShared.#ctor(PsxNet.Psx,CommonLibsNet.ConfigData)">
+            <summary>
+            The class constructor.
+            </summary>
+            <param name="paramPsx">
+            Psx instance used to host the scanner.
+            </param>
+            <param name="configData">
+            Configuration data 
+            </param>
+        </member>
+        <member name="M:CommonLibsNet.ScannerShared.Dispose">
+            <summary>
+            Releases the resources used by the ScannerShared instance.
+            </summary>
+        </member>
+        <member name="M:CommonLibsNet.ScannerShared.Start">
+            <summary>
+            Starts the scanner processing
+            </summary>
+        </member>
+        <member name="M:CommonLibsNet.ScannerShared.Disable">
+            <summary>
+            Disables the scanner.
+            </summary>        
+        </member>
+        <member name="M:CommonLibsNet.ScannerShared.Enable(System.String)">
+            <summary>
+            Enables the scanner.
+            </summary>
+            <param name="host">
+            Machine name we are binding the scanner to.
+            </param>
+            <returns>
+            Return true if successful.
+            </returns>
+        </member>
+        <member name="M:CommonLibsNet.ScannerShared.Open(System.String)">
+            <summary>
+            Loads the scanner.
+            </summary>
+            <param name="regKey">
+            Registry key where configuration information is stored.
+            </param>
+            <returns>
+            Return true if successful.
+            </returns>
+        </member>
+        <member name="M:CommonLibsNet.ScannerShared.ThreadMethod">
+            <summary>
+            Worker thread method that monitors incoming scanner data.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ScannerShared.scannerEnabled">
+            <summary>
+            Is Scanner Opened and Enabled
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ScannerShared.threadMethod">
+            <summary>
+            ThreadMethod thread 
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ScannerShared.autoEvent">
+            <summary>
+            Event handle used to signal the exit of ThreadMethod.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ScannerShared.scannerRegKey">
+            <summary>
+            Store the registry key containing the scanner device settings
+            </summary>
+        </member>
+        <member name="T:CommonLibsNet.ScannerThread">
+            <summary>
+            Encapsulates scanner worker thread.
+            </summary>
+        </member>
+        <member name="M:CommonLibsNet.ScannerThread.#ctor(PsxNet.Psx,CommonLibsNet.ConfigData)">
+            <summary>
+            The class constructor.
+            </summary>
+            <param name="paramPsx">
+            Psx instance used to host the scanner.
+            </param>
+            <param name="configData">
+            Configuration data 
+            </param>
+        </member>
+        <member name="M:CommonLibsNet.ScannerThread.Dispose">
+            <summary>
+            Releases the resources used by the ScannerThread instance.
+            </summary>
+        </member>
+        <member name="M:CommonLibsNet.ScannerThread.Start">
+            <summary>
+            Starts the scanner worker thread.
+            </summary>
+        </member>
+        <member name="M:CommonLibsNet.ScannerThread.Disable">
+            <summary>
+            Disables the scanner.
+            </summary>        
+        </member>
+        <member name="M:CommonLibsNet.ScannerThread.Enable(System.String)">
+            <summary>
+            Enables the scanner.
+            </summary>
+            <param name="host">
+            Machine name we are binding the scanner to.
+            </param>
+            <returns>
+            Return true if successful.
+            </returns>
+        </member>
+        <member name="M:CommonLibsNet.ScannerThread.Open(System.String)">
+            <summary>
+            Loads the scanner.
+            </summary>
+            <param name="regKey">
+            Registry key where configuration information is stored.
+            </param>
+            <returns>
+            Return true if successful.
+            </returns>
+        </member>
+        <member name="M:CommonLibsNet.ScannerThread.ThreadMethod">
+            <summary>
+            Worker thread method that monitors incoming scanner data.
+            </summary>
+        </member>
+        <member name="F:CommonLibsNet.ScannerThread.autoEvent">
+            <summary>
+            Event handle used to signal the exit of ThreadMethod.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,36 @@
+<Display Version="1.2">
+  <Controls>
+    <Control Name="CashBackList" Type="ButtonList" Synchronize="False">
+      <List>
+        <Button>-,%MediaPath%\8x6_NoCashBack-blank.jpg,-</Button>
+        <Button>-,%MediaPath%\8x6_Intl_ten.jpg,-</Button>
+        <Button>-,%MediaPath%\8x6_Intl_twenty.jpg,-</Button>
+        <Button>-,%MediaPath%\8x6_Intl_thirty.jpg,-</Button>
+        <Button>-,%MediaPath%\8x6_Intl_forty.jpg,-</Button>
+        <Button>-,%MediaPath%\8x6_Intl_fifty.jpg,-</Button>
+        <Button>-,%MediaPath%\8x6_NoCashBack-blank.jpg,-</Button>
+        <Button>-,%MediaPath%\8x6_NoCashBack-blank.jpg,-</Button>
+        <Button>-,%MediaPath%\8x6_NoCashBack-blank.jpg,-</Button>
+        <Button>-,%MediaPath%\8x6_NoCashBack-blank.jpg,-</Button>
+        <Button>-,%MediaPath%\8x6_NoCashBack-blank.jpg,-</Button>
+        <Button>-,%MediaPath%\8x6_NoCashBack-blank.jpg,-</Button>
+      </List>
+    </Control>
+    <Control Name="EBTCashBackList" Type="ButtonList" Synchronize="False">
+      <List>
+        <Button>-,%MediaPath%\8x6_NoCashBack-blank.jpg,-</Button>
+        <Button>-,%MediaPath%\8x6_Intl_ten.jpg,-</Button>
+        <Button>-,%MediaPath%\8x6_Intl_twenty.jpg,-</Button>
+        <Button>-,%MediaPath%\8x6_Intl_thirty.jpg,-</Button>
+        <Button>-,%MediaPath%\8x6_Intl_forty.jpg,-</Button>
+        <Button>-,%MediaPath%\8x6_Intl_fifty.jpg,-</Button>
+        <Button>-,%MediaPath%\8x6_NoCashBack-blank.jpg,-</Button>
+        <Button>-,%MediaPath%\8x6_NoCashBack-blank.jpg,-</Button>
+        <Button>-,%MediaPath%\8x6_NoCashBack-blank.jpg,-</Button>
+        <Button>-,%MediaPath%\8x6_NoCashBack-blank.jpg,-</Button>
+        <Button>-,%MediaPath%\8x6_NoCashBack-blank.jpg,-</Button>
+        <Button>-,%MediaPath%\8x6_NoCashBack-blank.jpg,-</Button>
+      </List>
+    </Control>
+  </Controls>
+</Display>

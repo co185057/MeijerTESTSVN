@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+
+    <app.data>
+        <data key="ReqRespFile" value="C:\SCOT\CONFIG\FLAuditSvcReqResp.xml" />
+        <data key="AuditHttpReqTimeout" value="10000" /> <!-- value in milliseconds-->
+    </app.data>
+    
+    <service.dep.objects>
+        <obj.def interface="IAuditHandler" class="FLAuditSvc.AuditHandler" asmbly="" />
+        <obj.def interface="IAuditDataParser" class="FLAuditSvc.AuditXmlParser" asmbly="" />
+    </service.dep.objects>
+    
+    <service.url.defs>
+        <url.def urlId="TryStartRescanForCustCard"
+                    url="http://w0985iwebv0111.ius.meijer.com:8291/RescanPlugin/TryStartRescanForCustomerCard"
+                    httpMethod="POST"
+                    reqContType="application/xml"
+                    respContType="application/xml"
+                    reqMesgID="4"
+                    respMesgID="5" />
+
+        <url.def urlId="AddItem"
+                    url="http://w0985iwebv0111.ius.meijer.com:8291/RescanPlugin/Add"
+                    httpMethod="POST"
+                    reqContType="application/xml"
+                    respContType="application/xml"
+                    reqMesgID="6"
+                    respMesgID="7" />
+
+        <url.def urlId="EndOfTicket"
+                url="http://w0985iwebv0111.ius.meijer.com:8291/RescanPlugin/EndOfTicket"
+                httpMethod="GET"
+                reqContType="application/json"
+                respContType="application/json"
+                reqMesgID="8"
+                respMesgID="9" />
+
+        <url.def urlId="EndRescan"
+                    url="http://w0985iwebv0111.ius.meijer.com:8291/RescanPlugin/EndRescan"
+                    httpMethod="POST"
+                    reqContType="application/xml"
+                    respContType="application/xml"
+                    reqMesgID="10"
+                    respMesgID="11"/>
+
+        <url.def urlId="SwitchPartialToFull"
+                url="http://w0985iwebv0111.ius.meijer.com:8291/RescanPlugin/SwitchPartialToFull"
+                httpMethod="GET"
+                reqContType="application/xml"
+                respContType="application/xml"
+                reqMesgID="12"
+                respMesgID="13" />
+
+        <url.def urlId="ContinueRescanError"
+               url="http://w0985iwebv0111.ius.meijer.com:8291/RescanPlugin/ContinueRescanError"
+               httpMethod="POST"
+               reqContType="application/xml"
+               respContType="application/xml"
+               reqMesgID="14"
+               respMesgID="15" />
+
+        <url.def urlId="StartRescan"
+               url="http://w0985iwebv0111.ius.meijer.com:8291/RescanPlugin/StartRescan"
+               httpMethod="POST"
+               reqContType="application/xml"
+               respContType="application/xml"
+               reqMesgID="16"
+               respMesgID="17" />
+
+        <url.def urlId="UpdateItem"
+               url="http://w0985iwebv0111.ius.meijer.com:8291/RescanPlugin/Update"
+               httpMethod="POST"
+               reqContType="application/xml"
+               respContType="application/xml"
+               reqMesgID="18"
+               respMesgID="19" />
+
+        <url.def urlId="RemoveItem"
+               url="http://w0985iwebv0111.ius.meijer.com:8291/RescanPlugin/Remove"
+               httpMethod="POST"
+               reqContType="application/xml"
+               respContType="application/xml"
+               reqMesgID="20"
+               respMesgID="21" />
+
+        <url.def urlId="RejectItem"
+              url="http://w0985iwebv0111.ius.meijer.com:8291/RescanPlugin/RejectItem"
+              httpMethod="POST"
+              reqContType="application/xml"
+              respContType="application/xml"
+              reqMesgID="22"
+              respMesgID="23" />
+
+        <url.def urlId="GetTcktList"
+             url="http://w0985iwebv0111.ius.meijer.com:8291/RescanPlugin/GetTicketList"
+             httpMethod="GET"
+             reqContType="application/xml"
+             respContType="application/xml"
+             reqMesgID="24"
+             respMesgID="25" />
+    </service.url.defs>
+</configuration>
